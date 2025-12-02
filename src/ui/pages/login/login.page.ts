@@ -1,5 +1,5 @@
 import { ICredentials } from "data/types/credentials.types";
-import { SalesPortalPage } from "./salesPortal.page";
+import { SalesPortalPage } from "../salesPortal.page";
 import { logStep } from "utils/report/logStep.utils.js";
 
 export class LoginPage extends SalesPortalPage {
