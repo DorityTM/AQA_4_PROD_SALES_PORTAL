@@ -4,8 +4,9 @@ import { TAGS } from "data/tags";
 import { test, expect } from "fixtures";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import _ from "lodash";
+import { createCustomerSchema } from "data/schemas/customers/create.schema";
 
-test.describe("[API][Products][Create Product with DDT - Positive Tests]", () => {
+test.describe("[API][Customers][Create Customer - DDT - Positive Tests]", () => {
   let id = "";
   let token = "";
 
@@ -29,7 +30,7 @@ test.describe("[API][Products][Create Product with DDT - Positive Tests]", () =>
         const createdCustomer = await customersApi.create(token, customerData);
         await validateResponse(createdCustomer, {
           status: STATUS_CODES.CREATED,
-          //   schema: createCustomerSchema,
+          schema: createCustomerSchema,
           IsSuccess: true,
           ErrorMessage: null,
         });

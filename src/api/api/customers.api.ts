@@ -2,10 +2,12 @@ import { IApiClient } from "api/apiClients/types";
 import { apiConfig } from "config/apiConfig";
 import { IRequestOptions } from "data/types/core.types";
 import { ICustomer, ICustomerResponse } from "data/types/customer.types";
+import { logStep } from "utils/report/logStep.utils";
 
 export class CustomersApi {
   constructor(private apiClinet: IApiClient) {}
 
+  @logStep("POST /api/customers")
   async create(token: string, customer: ICustomer) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -20,6 +22,7 @@ export class CustomersApi {
     return await this.apiClinet.send<ICustomerResponse>(options);
   }
 
+  @logStep("DELETE /api/customers")
   async delete(_id: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
