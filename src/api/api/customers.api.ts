@@ -5,7 +5,7 @@ import { ICustomer, ICustomerResponse } from "data/types/customer.types";
 import { logStep } from "utils/report/logStep.utils";
 
 export class CustomersApi {
-  constructor(private apiClinet: IApiClient) {}
+  constructor(private apiClient: IApiClient) {}
 
   @logStep("POST /api/customers")
   async create(token: string, customer: ICustomer) {
@@ -19,7 +19,7 @@ export class CustomersApi {
       },
       data: customer,
     };
-    return await this.apiClinet.send<ICustomerResponse>(options);
+    return await this.apiClient.send<ICustomerResponse>(options);
   }
 
   @logStep("DELETE /api/customers")
@@ -30,10 +30,10 @@ export class CustomersApi {
       method: "delete",
       headers: {
         "content-type": "application/json",
-        Authorization: `Bearer ${token}`,
+        authorization: `Bearer ${token}`,
       },
     };
 
-    return await this.apiClinet.send<null>(options);
+    return await this.apiClient.send<null>(options);
   }
 }
