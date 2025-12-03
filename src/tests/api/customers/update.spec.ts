@@ -7,13 +7,14 @@ import { generateCustomerData } from "data/salesPortal/customers/generateCustome
 import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { updateCustomerSchema } from "data/schemas/customers/update.schema";
 import {
-  INVALID_CUSTOMER_IDS,
-  INVALID_CUSTOMER_PAYLOADS,
+  INVALID_PAYLOAD_TEMPLATES,
+  getInvalidIdTestData,
 } from "data/salesPortal/customers/invalidData";
 import { ICustomer } from "data/types/customer.types";
+import { TAGS } from "data/tags";
 
 test.describe("CST-006/007/011 Update customer", () => {
-  test("CST-006: Update customer with valid data", async ({
+  test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.SMOKE} CST-006: Update customer with valid data`, async ({
     loginApiService,
     customersApi,
   }) => {
@@ -46,46 +47,46 @@ test.describe("CST-006/007/011 Update customer", () => {
     expect(response.body.Customer.phone).toBe(updatedPhone);
   });
 
-  for (const {
-    description,
-    id,
-    update: expected,
-  } of INVALID_CUSTOMER_IDS.filter((d) => d.update.checkBody)) {
-    test(`CST-007: Update customer with Invalid ID (${description}) - Check Body`, async ({
+  const invalidIdScenarios = getInvalidIdTestData("update");
+
+  // Scenarios with error message validation
+  for (const scenario of invalidIdScenarios.filter(
+    (s) => s.shouldHaveErrorMessage,
+  )) {
+    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-007: Update customer with Invalid ID (${scenario.description})`, async ({
       loginApiService,
       customersApi,
     }) => {
       const token = await loginApiService.loginAsAdmin();
-      const response = await customersApi.update(token, id, {
+      const response = await customersApi.update(token, scenario.id, {
         name: "Updated Name",
       });
 
-      expect(response.status).toBe(expected.status);
+      expect(response.status).toBe(scenario.expectedStatus);
       expect(response.body.IsSuccess).toBe(false);
       expect(response.body.ErrorMessage).toBeTruthy();
     });
   }
 
-  for (const {
-    description,
-    id,
-    update: expected,
-  } of INVALID_CUSTOMER_IDS.filter((d) => !d.update.checkBody)) {
-    test(`CST-007: Update customer with Invalid ID (${description}) - Status Only`, async ({
+  // Scenarios with status-only validation
+  for (const scenario of invalidIdScenarios.filter(
+    (s) => !s.shouldHaveErrorMessage,
+  )) {
+    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-007: Update customer with Invalid ID (${scenario.description})`, async ({
       loginApiService,
       customersApi,
     }) => {
       const token = await loginApiService.loginAsAdmin();
-      const response = await customersApi.update(token, id, {
+      const response = await customersApi.update(token, scenario.id, {
         name: "Updated Name",
       });
 
-      expect(response.status).toBe(expected.status);
+      expect(response.status).toBe(scenario.expectedStatus);
     });
   }
 
-  for (const { description, data } of INVALID_CUSTOMER_PAYLOADS) {
-    test(`CST-011: Update customer with Invalid Data (${description})`, async ({
+  for (const { description, modifier } of INVALID_PAYLOAD_TEMPLATES) {
+    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-011: Update customer with Invalid Data (${description})`, async ({
       loginApiService,
       customersApi,
     }) => {
@@ -93,10 +94,13 @@ test.describe("CST-006/007/011 Update customer", () => {
       const created = await customersApi.create(token, generateCustomerData());
       const id = created.body.Customer._id;
 
+      const baseCustomer = generateCustomerData();
+      const invalidData = modifier(baseCustomer);
+
       const response = await customersApi.update(
         token,
         id,
-        data as unknown as ICustomer,
+        invalidData as unknown as ICustomer,
       );
 
       expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
