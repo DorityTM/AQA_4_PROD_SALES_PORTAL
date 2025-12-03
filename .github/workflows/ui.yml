@@ -41,8 +41,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: npm run test:ui:regression
-        continue-on-error:
-          true
+        continue-on-error: true
 
           # Create Allure report
       - name: Create Allure report
