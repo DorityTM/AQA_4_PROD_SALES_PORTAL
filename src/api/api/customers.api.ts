@@ -7,7 +7,7 @@ import { logStep } from "utils/report/logStep.utils";
 export class CustomersApi {
   constructor(private apiClient: IApiClient) {}
 
-  @logStep("POST /api/customers")
+  @logStep("POST /api/customer")
   async create(token: string, customer: ICustomer) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -15,14 +15,14 @@ export class CustomersApi {
       method: "post",
       headers: {
         "content-type": "application/json",
-        authorization: `Bearer ${token}`,
+        Authorization: `Bearer ${token}`,
       },
       data: customer,
     };
     return await this.apiClient.send<ICustomerResponse>(options);
   }
 
-  @logStep("DELETE /api/customers")
+  @logStep("DELETE /api/customer")
   async delete(_id: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,

@@ -1,46 +1,22 @@
+import { obligatoryRequredFields } from "../core.schema";
 import { COUNTRY } from "data/salesPortal/country";
 
 export const customerSchema = {
   type: "object",
   properties: {
-    _id: {
-      type: "string",
-      description: "Unique identifier (MongoDB ObjectId string in example)",
-    },
-    email: {
-      type: "string",
-    },
-    name: {
-      type: "string",
-    },
-    country: {
-      type: "string",
-      enum: Object.values(COUNTRY),
-    },
-    city: {
-      type: "string",
-    },
-    street: {
-      type: "string",
-    },
-    house: {
-      type: "number",
-    },
-    flat: {
-      type: "number",
-    },
-    phone: {
-      type: "string",
-    },
-    createdOn: {
-      type: "string",
-    },
-    notes: {
-      type: "string",
-    },
+    email: { type: "string" },
+    name: { type: "string" },
+    country: { type: "string", enum: Object.values(COUNTRY) },
+    city: { type: "string" },
+    street: { type: "string" },
+    house: { type: "number" },
+    flat: { type: "number" },
+    phone: { type: "string" },
+    createdOn: { type: "string" },
+    notes: { type: "string" },
+    _id: { type: "string" },
   },
   required: [
-    "_id",
     "email",
     "name",
     "country",
@@ -49,6 +25,16 @@ export const customerSchema = {
     "house",
     "flat",
     "phone",
+    "createdOn",
+    "_id",
   ],
-  additionalProperties: false,
+};
+
+export const createCustomerSchema = {
+  type: "object",
+  properties: {
+    Customer: customerSchema,
+    ...obligatoryRequredFields,
+  },
+  required: ["Customer", ...obligatoryRequredFields],
 };
