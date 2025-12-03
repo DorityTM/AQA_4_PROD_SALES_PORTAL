@@ -6,6 +6,7 @@ import { STATUS_CODES } from "data/statusCodes";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
 import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { getByIdCustomerSchema } from "data/schemas/customers/getById.schema";
+import { INVALID_CUSTOMER_IDS } from "data/salesPortal/customers/invalidData";
 
 test.describe("CST-004/005 Get customer by Id", () => {
   test("CST-004: GET by valid Id returns customer", async ({
@@ -26,17 +27,31 @@ test.describe("CST-004/005 Get customer by Id", () => {
     expect(response.body.Customer._id).toBe(id);
   });
 
-  test("CST-005: GET by invalid Id returns 404", async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
-    const invalidId = "000000000000000000000000";
+  for (const { description, id, get: expected } of INVALID_CUSTOMER_IDS.filter(
+    (d) => d.get.checkBody,
+  )) {
+    test(`CST-005: GET by invalid Id (${description}) - Check Body`, async ({
+      loginApiService,
+      customersApi,
+    }) => {
+      const token = await loginApiService.loginAsAdmin();
+      const response = await customersApi.getById(token, id);
+      expect(response.status).toBe(expected.status);
+      expect(response.body.IsSuccess).toBe(false);
+      expect(response.body.ErrorMessage).toBeTruthy();
+    });
+  }
 
-    const response = await customersApi.getById(token, invalidId);
-
-    expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
-    expect(response.body.IsSuccess).toBe(false);
-    expect(response.body.ErrorMessage).toBeTruthy();
-  });
+  for (const { description, id, get: expected } of INVALID_CUSTOMER_IDS.filter(
+    (d) => !d.get.checkBody,
+  )) {
+    test(`CST-005: GET by invalid Id (${description}) - Status Only`, async ({
+      loginApiService,
+      customersApi,
+    }) => {
+      const token = await loginApiService.loginAsAdmin();
+      const response = await customersApi.getById(token, id);
+      expect(response.status).toBe(expected.status);
+    });
+  }
 });

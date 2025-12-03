@@ -8,7 +8,8 @@ import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { createCustomerSchema } from "data/schemas/customers/create.schema";
 import { COUNTRY } from "data/salesPortal/country";
 import { faker } from "@faker-js/faker";
-import { ICustomer, ICustomerInvalidPayload } from "data/types/customer.types";
+import { INVALID_CUSTOMER_PAYLOADS } from "data/salesPortal/customers/invalidData";
+import { ICustomer } from "data/types/customer.types";
 
 test.describe("CST-001/002 Create customer", () => {
   test("CST-001: Create new customer (Valid Data)", async ({
@@ -32,24 +33,19 @@ test.describe("CST-001/002 Create customer", () => {
     expect(created.body.Customer.country).toBe(expectedCountry);
   });
 
-  test("CST-002: Create customer with Invalid Enum (Country)", async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
-    const invalidPayload: ICustomerInvalidPayload = {
-      ...generateCustomerData(),
-      email: "bad_country@test.com",
-      name: "Bob",
-      country: "Mars",
-    };
-
-    const response = await customersApi.create(
-      token,
-      invalidPayload as unknown as ICustomer,
-    );
-    expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
-    expect(response.body.IsSuccess).toBe(false);
-    expect(response.body.ErrorMessage).toBeTruthy();
-  });
+  for (const { description, data } of INVALID_CUSTOMER_PAYLOADS) {
+    test(`CST-002: Create customer with Invalid Data (${description})`, async ({
+      loginApiService,
+      customersApi,
+    }) => {
+      const token = await loginApiService.loginAsAdmin();
+      const response = await customersApi.create(
+        token,
+        data as unknown as ICustomer,
+      );
+      expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
+      expect(response.body.IsSuccess).toBe(false);
+      expect(response.body.ErrorMessage).toBeTruthy();
+    });
+  }
 });

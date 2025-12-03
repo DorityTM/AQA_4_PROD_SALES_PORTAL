@@ -4,6 +4,7 @@
 import { test, expect } from "fixtures/api.fixture";
 import { STATUS_CODES } from "data/statusCodes";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
+import { INVALID_CUSTOMER_IDS } from "data/salesPortal/customers/invalidData";
 
 test.describe("CST-008/009 Delete customer", () => {
   test("CST-008: Delete customer (Valid Id)", async ({
@@ -21,14 +22,33 @@ test.describe("CST-008/009 Delete customer", () => {
     expect(afterDelete.status).toBe(STATUS_CODES.NOT_FOUND);
   });
 
-  test("CST-009: Delete customer (Invalid Id)", async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
-    const invalidId = "507f1f77bcf86cd799439011";
+  for (const {
+    description,
+    id,
+    delete: expected,
+  } of INVALID_CUSTOMER_IDS.filter((d) => d.delete.checkBody)) {
+    test(`CST-009: Delete customer with Invalid ID (${description}) - Check Body`, async ({
+      loginApiService,
+      customersApi,
+    }) => {
+      const token = await loginApiService.loginAsAdmin();
+      const response = await customersApi.delete(token, id);
+      expect(response.status).toBe(expected.status);
+    });
+  }
 
-    const response = await customersApi.delete(token, invalidId);
-    expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
-  });
+  for (const {
+    description,
+    id,
+    delete: expected,
+  } of INVALID_CUSTOMER_IDS.filter((d) => !d.delete.checkBody)) {
+    test(`CST-009: Delete customer with Invalid ID (${description}) - Status Only`, async ({
+      loginApiService,
+      customersApi,
+    }) => {
+      const token = await loginApiService.loginAsAdmin();
+      const response = await customersApi.delete(token, id);
+      expect(response.status).toBe(expected.status);
+    });
+  }
 });
