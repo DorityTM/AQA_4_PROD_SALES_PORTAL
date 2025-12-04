@@ -15,13 +15,11 @@ export interface ICustomer {
   notes?: string;
 }
 
-export interface ICustomerInTable
-  extends Pick<ICustomer, "email" | "name" | "country">, ICreatedOn {}
+export interface ICustomerInTable extends Pick<ICustomer, "email" | "name" | "country">, ICreatedOn {}
 
 export interface ICustomerDetails extends Required<ICustomer>, ICreatedOn {}
 
-export interface ICustomerFromResponse
-  extends Required<ICustomer>, ICreatedOn, ID {}
+export interface ICustomerFromResponse extends Required<ICustomer>, ICreatedOn, ID {}
 
 export interface ICustomerResponse extends IResponseFields {
   Customer: ICustomerFromResponse;

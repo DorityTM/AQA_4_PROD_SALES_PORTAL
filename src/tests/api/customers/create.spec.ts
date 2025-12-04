@@ -11,10 +11,7 @@ import { faker } from "@faker-js/faker";
 import { ICustomer, ICustomerInvalidPayload } from "data/types/customer.types";
 
 test.describe("CST-001/002 Create customer", () => {
-  test("CST-001: Create new customer (Valid Data)", async ({
-    loginApiService,
-    customersApi,
-  }) => {
+  test("CST-001: Create new customer (Valid Data)", async ({ loginApiService, customersApi }) => {
     const token = await loginApiService.loginAsAdmin();
     const expectedEmail = `tester+${faker.string.alphanumeric({ length: 6 })}@gmail.com`;
     const expectedCountry = COUNTRY.USA;
@@ -32,10 +29,7 @@ test.describe("CST-001/002 Create customer", () => {
     expect(created.body.Customer.country).toBe(expectedCountry);
   });
 
-  test("CST-002: Create customer with Invalid Enum (Country)", async ({
-    loginApiService,
-    customersApi,
-  }) => {
+  test("CST-002: Create customer with Invalid Enum (Country)", async ({ loginApiService, customersApi }) => {
     const token = await loginApiService.loginAsAdmin();
     const invalidPayload: ICustomerInvalidPayload = {
       ...generateCustomerData(),
@@ -44,10 +38,7 @@ test.describe("CST-001/002 Create customer", () => {
       country: "Mars",
     };
 
-    const response = await customersApi.create(
-      token,
-      invalidPayload as unknown as ICustomer,
-    );
+    const response = await customersApi.create(token, invalidPayload as unknown as ICustomer);
     expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
     expect(response.body.IsSuccess).toBe(false);
     expect(response.body.ErrorMessage).toBeTruthy();

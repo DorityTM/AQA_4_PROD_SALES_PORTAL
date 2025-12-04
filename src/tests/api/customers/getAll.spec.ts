@@ -7,10 +7,7 @@ import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { getAllCustomersSchema } from "data/schemas/customers/getAllCustomers.schema";
 
 test.describe("CST-010 Get ALL customers (Technical endpoint)", () => {
-  test("GET /api/customers/all returns array of customers", async ({
-    loginApiService,
-    customersApi,
-  }) => {
+  test("GET /api/customers/all returns array of customers", async ({ loginApiService, customersApi }) => {
     const token = await loginApiService.loginAsAdmin();
 
     const response = await customersApi.getAll(token);

@@ -16,7 +16,7 @@ export class TelegramService implements INotificationService {
     try {
       await this.bot.sendMessage(this.chatId, text);
     } catch (e) {
-      console.error(JSON.stringify(e, null, ' '));
+      console.error(JSON.stringify(e, null, " "));
     }
   }
 }

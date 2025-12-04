@@ -6,10 +6,7 @@ import { STATUS_CODES } from "data/statusCodes";
 import { COUNTRY } from "data/salesPortal/country";
 
 test.describe("CST-003 Get customers list (Filter by Country)", () => {
-  test("GET /api/customers?country returns only selected country", async ({
-    loginApiService,
-    customersApi,
-  }) => {
+  test("GET /api/customers?country returns only selected country", async ({ loginApiService, customersApi }) => {
     const token = await loginApiService.loginAsAdmin();
     const targetCountry = COUNTRY.USA;
 

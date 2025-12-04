@@ -8,10 +8,7 @@ import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { getByIdCustomerSchema } from "data/schemas/customers/getById.schema";
 
 test.describe("CST-004/005 Get customer by Id", () => {
-  test("CST-004: GET by valid Id returns customer", async ({
-    loginApiService,
-    customersApi,
-  }) => {
+  test("CST-004: GET by valid Id returns customer", async ({ loginApiService, customersApi }) => {
     const token = await loginApiService.loginAsAdmin();
     const create = await customersApi.create(token, generateCustomerData());
     expect(create.status).toBe(STATUS_CODES.CREATED);
@@ -26,10 +23,7 @@ test.describe("CST-004/005 Get customer by Id", () => {
     expect(response.body.Customer._id).toBe(id);
   });
 
-  test("CST-005: GET by invalid Id returns 404", async ({
-    loginApiService,
-    customersApi,
-  }) => {
+  test("CST-005: GET by invalid Id returns 404", async ({ loginApiService, customersApi }) => {
     const token = await loginApiService.loginAsAdmin();
     const invalidId = "000000000000000000000000";
 

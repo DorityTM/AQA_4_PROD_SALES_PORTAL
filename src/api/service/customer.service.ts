@@ -53,10 +53,7 @@ export class CustomersApiService {
     return response.body.Customers;
   }
 
-  async getList(
-    token: string,
-    params: IGetCustomersParams,
-  ): Promise<ICustomerListResponse> {
+  async getList(token: string, params: IGetCustomersParams): Promise<ICustomerListResponse> {
     const response = await this.customerApi.getList(token, params);
     validateResponse(response, {
       status: STATUS_CODES.OK,
@@ -67,11 +64,7 @@ export class CustomersApiService {
     return response.body;
   }
 
-  async update(
-    token: string,
-    id: string,
-    customerData: Partial<ICustomer>,
-  ): Promise<ICustomerFromResponse> {
+  async update(token: string, id: string, customerData: Partial<ICustomer>): Promise<ICustomerFromResponse> {
     const response = await this.customerApi.update(token, id, customerData);
     validateResponse(response, {
       status: STATUS_CODES.OK,

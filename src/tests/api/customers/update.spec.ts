@@ -8,10 +8,7 @@ import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { updateCustomerSchema } from "data/schemas/customers/update.schema";
 
 test.describe("CST-006/007/011 Update customer", () => {
-  test("CST-006: Update customer with valid data", async ({
-    loginApiService,
-    customersApi,
-  }) => {
+  test("CST-006: Update customer with valid data", async ({ loginApiService, customersApi }) => {
     const token = await loginApiService.loginAsAdmin();
     const created = await customersApi.create(token, generateCustomerData());
     const id = created.body.Customer._id;
@@ -41,10 +38,7 @@ test.describe("CST-006/007/011 Update customer", () => {
     expect(response.body.Customer.phone).toBe(updatedPhone);
   });
 
-  test("CST-007: Update customer with invalid Id", async ({
-    loginApiService,
-    customersApi,
-  }) => {
+  test("CST-007: Update customer with invalid Id", async ({ loginApiService, customersApi }) => {
     const token = await loginApiService.loginAsAdmin();
     const invalidId = "000000000000000000000000";
 
@@ -57,10 +51,7 @@ test.describe("CST-006/007/011 Update customer", () => {
     expect(response.body.ErrorMessage).toBeTruthy();
   });
 
-  test("CST-011: Update customer with invalid phone", async ({
-    loginApiService,
-    customersApi,
-  }) => {
+  test("CST-011: Update customer with invalid phone", async ({ loginApiService, customersApi }) => {
     const token = await loginApiService.loginAsAdmin();
     const created = await customersApi.create(token, generateCustomerData());
     const id = created.body.Customer._id;
