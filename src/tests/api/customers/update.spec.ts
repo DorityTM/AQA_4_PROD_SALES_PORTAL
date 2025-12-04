@@ -6,7 +6,7 @@ import { STATUS_CODES } from "data/statusCodes";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
 import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { updateCustomerSchema } from "data/schemas/customers/update.schema";
-import { INVALID_PAYLOAD_SCENARIOS, INVALID_ID_SCENARIOS } from "data/salesPortal/customers/invalidData";
+import { getInvalidPayloadScenarios, INVALID_ID_SCENARIOS } from "data/salesPortal/customers/invalidData";
 
 test.describe("CST-006/007/011 Update customer", () => {
   let token: string;
@@ -44,10 +44,8 @@ test.describe("CST-006/007/011 Update customer", () => {
     expect(response.body.Customer.phone).toBe(updatedPhone);
   });
 
-  const invalidIdScenarios = INVALID_ID_SCENARIOS.UPDATE;
-
   // Scenarios with error message validation
-  for (const scenario of invalidIdScenarios.filter((s) => s.shouldHaveErrorMessage)) {
+  for (const scenario of INVALID_ID_SCENARIOS.UPDATE) {
     test(`@api @customers @regression CST-007: Update customer with Invalid ID (${scenario.description})`, async ({
       customersApi,
     }) => {
@@ -61,27 +59,14 @@ test.describe("CST-006/007/011 Update customer", () => {
     });
   }
 
-  // Scenarios with status-only validation
-  for (const scenario of invalidIdScenarios.filter((s) => !s.shouldHaveErrorMessage)) {
-    test(`@api @customers @regression CST-007: Update customer with Invalid ID (${scenario.description})`, async ({
-      customersApi,
-    }) => {
-      const response = await customersApi.update(token, scenario.id, {
-        name: "Updated Name",
-      });
-
-      expect(response.status).toBe(scenario.expectedStatus);
-    });
-  }
-
-  for (const { description, testData } of INVALID_PAYLOAD_SCENARIOS) {
+  for (const { description, getTestData } of getInvalidPayloadScenarios()) {
     test(`@api @customers @regression CST-011: Update customer with Invalid Data (${description})`, async ({
       customersApi,
     }) => {
       const created = await customersApi.create(token, generateCustomerData());
       const id = created.body.Customer._id;
 
-      const response = await customersApi.update(token, id, testData);
+      const response = await customersApi.update(token, id, getTestData());
 
       expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
       expect(response.body.IsSuccess).toBe(false);

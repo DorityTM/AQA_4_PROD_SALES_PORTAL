@@ -24,29 +24,25 @@ test.describe("CST-008/009 Delete customer", () => {
     expect(afterDelete.status).toBe(STATUS_CODES.NOT_FOUND);
   });
 
-  const invalidIdScenarios = INVALID_ID_SCENARIOS.DELETE;
-
-  // Scenarios with error message validation
-  for (const scenario of invalidIdScenarios.filter((s) => s.shouldHaveErrorMessage)) {
+  // Scenarios without error message
+  for (const scenario of INVALID_ID_SCENARIOS.DELETE) {
     test(`@api @customers @regression CST-009: Delete customer with Invalid ID (${scenario.description})`, async ({
       customersApi,
     }) => {
       const response = await customersApi.delete(token, scenario.id);
-
       expect(response.status).toBe(scenario.expectedStatus);
-      expect(response.body.IsSuccess).toBe(false);
-      expect(response.body.ErrorMessage).toBeTruthy();
     });
   }
 
-  // Scenarios with status-only validation
-  for (const scenario of invalidIdScenarios.filter((s) => !s.shouldHaveErrorMessage)) {
+  // Scenarios with error message
+  for (const scenario of INVALID_ID_SCENARIOS.DELETE_WITH_ERROR) {
     test(`@api @customers @regression CST-009: Delete customer with Invalid ID (${scenario.description})`, async ({
       customersApi,
     }) => {
       const response = await customersApi.delete(token, scenario.id);
-
       expect(response.status).toBe(scenario.expectedStatus);
+      expect(response.body.IsSuccess).toBe(false);
+      expect(response.body.ErrorMessage).toBeTruthy();
     });
   }
 });

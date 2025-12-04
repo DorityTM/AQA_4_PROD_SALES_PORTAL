@@ -8,14 +8,16 @@ import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { createCustomerSchema } from "data/schemas/customers/create.schema";
 import { COUNTRY } from "data/salesPortal/country";
 import { faker } from "@faker-js/faker";
-import { INVALID_PAYLOAD_SCENARIOS } from "data/salesPortal/customers/invalidData";
+import { getInvalidPayloadScenarios } from "data/salesPortal/customers/invalidData";
 
 test.describe("CST-001/002 Create customer", () => {
-  test("@api @customers @smoke CST-001: Create new customer (Valid Data)", async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
+  let token: string;
+
+  test.beforeAll(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
+  });
+
+  test("@api @customers @smoke CST-001: Create new customer (Valid Data)", async ({ customersApi }) => {
     const expectedEmail = `tester+${faker.string.alphanumeric({ length: 6 })}@gmail.com`;
     const expectedCountry = COUNTRY.USA;
     const payload = generateCustomerData({
@@ -32,14 +34,11 @@ test.describe("CST-001/002 Create customer", () => {
     expect(created.body.Customer.country).toBe(expectedCountry);
   });
 
-  for (const { description, testData } of INVALID_PAYLOAD_SCENARIOS) {
+  for (const { description, getTestData } of getInvalidPayloadScenarios()) {
     test(`@api @customers @regression CST-002: Create customer with Invalid Data (${description})`, async ({
-      loginApiService,
       customersApi,
     }) => {
-      const token = await loginApiService.loginAsAdmin();
-
-      const response = await customersApi.create(token, testData);
+      const response = await customersApi.create(token, getTestData());
 
       expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
       expect(response.body.IsSuccess).toBe(false);
