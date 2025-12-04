@@ -15,6 +15,7 @@ dotenv.config();
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  globalTeardown: require.resolve("./src/config/global.teardown"),
   testDir: "./src/tests",
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -54,7 +55,7 @@ export default defineConfig({
     {
       name: "setup",
       use: { ...devices["Desktop Chrome"] },
-      testDir: "src/tests/ui/sales-portal",
+      testDir: "src/tests/ui",
       testMatch: /\.setup\.ts/,
     },
     {
@@ -65,16 +66,19 @@ export default defineConfig({
         storageState: "src/.auth/user.json",
       },
       dependencies: ["setup"],
-      testDir: "src/tests/ui/sales-portal",
+      testDir: "src/tests/ui",
     },
     {
-      name: "api-tests",
-      testDir: "src/tests/api/",
-      use: {},
+      name: "sales-portal-api",
+      use: {
+        ...devices["Desktop Chrome"],
+      },
+      testDir: "src/tests/api",
     },
     {
       name: "chromium",
       use: { ...devices["Desktop Chrome"], headless: true },
+      testDir: "src/tests/ui",
     },
 
     // {

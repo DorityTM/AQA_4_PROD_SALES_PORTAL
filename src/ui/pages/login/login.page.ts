@@ -1,5 +1,5 @@
 import { ICredentials } from "data/types/credentials.types";
-import { SalesPortalPage } from "./salesPortal.page";
+import { SalesPortalPage } from "../salesPortal.page";
 import { logStep } from "utils/report/logStep.utils.js";
 
 export class LoginPage extends SalesPortalPage {
@@ -12,8 +12,7 @@ export class LoginPage extends SalesPortalPage {
   @logStep("FILL LOGIN CREDENTIALS")
   async fillCredentials(credentials: Partial<ICredentials>) {
     if (credentials.username) await this.emailInput.fill(credentials.username);
-    if (credentials.password)
-      await this.passwordInput.fill(credentials.password);
+    if (credentials.password) await this.passwordInput.fill(credentials.password);
   }
 
   // async fillCredentials(email: string, password: string): Promise<void> {
