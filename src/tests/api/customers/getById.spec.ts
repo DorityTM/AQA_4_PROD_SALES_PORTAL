@@ -6,15 +6,16 @@ import { STATUS_CODES } from "data/statusCodes";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
 import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { getByIdCustomerSchema } from "data/schemas/customers/getById.schema";
-import { getInvalidIdTestData } from "data/salesPortal/customers/invalidData";
-import { TAGS } from "data/tags";
+import { INVALID_ID_SCENARIOS } from "data/salesPortal/customers/invalidData";
 
 test.describe("CST-004/005 Get customer by Id", () => {
-  test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.SMOKE} CST-004: GET by valid Id returns customer`, async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
+  let token: string;
+
+  test.beforeAll(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
+  });
+
+  test("@api @customers @smoke CST-004: GET by valid Id returns customer", async ({ customersApi }) => {
     const create = await customersApi.create(token, generateCustomerData());
     expect(create.status).toBe(STATUS_CODES.CREATED);
 
@@ -28,17 +29,13 @@ test.describe("CST-004/005 Get customer by Id", () => {
     expect(response.body.Customer._id).toBe(id);
   });
 
-  const invalidIdScenarios = getInvalidIdTestData("get");
+  const invalidIdScenarios = INVALID_ID_SCENARIOS.GET;
 
   // Scenarios with error message validation
-  for (const scenario of invalidIdScenarios.filter(
-    (s) => s.shouldHaveErrorMessage,
-  )) {
-    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-005: GET by invalid Id (${scenario.description})`, async ({
-      loginApiService,
+  for (const scenario of invalidIdScenarios.filter((s) => s.shouldHaveErrorMessage)) {
+    test(`@api @customers @regression CST-005: GET by invalid Id (${scenario.description})`, async ({
       customersApi,
     }) => {
-      const token = await loginApiService.loginAsAdmin();
       const response = await customersApi.getById(token, scenario.id);
 
       expect(response.status).toBe(scenario.expectedStatus);
@@ -48,14 +45,10 @@ test.describe("CST-004/005 Get customer by Id", () => {
   }
 
   // Scenarios with status-only validation
-  for (const scenario of invalidIdScenarios.filter(
-    (s) => !s.shouldHaveErrorMessage,
-  )) {
-    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-005: GET by invalid Id (${scenario.description})`, async ({
-      loginApiService,
+  for (const scenario of invalidIdScenarios.filter((s) => !s.shouldHaveErrorMessage)) {
+    test(`@api @customers @regression CST-005: GET by invalid Id (${scenario.description})`, async ({
       customersApi,
     }) => {
-      const token = await loginApiService.loginAsAdmin();
       const response = await customersApi.getById(token, scenario.id);
 
       expect(response.status).toBe(scenario.expectedStatus);

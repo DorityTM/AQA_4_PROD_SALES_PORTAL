@@ -6,19 +6,16 @@ import { STATUS_CODES } from "data/statusCodes";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
 import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { updateCustomerSchema } from "data/schemas/customers/update.schema";
-import {
-  INVALID_PAYLOAD_TEMPLATES,
-  getInvalidIdTestData,
-} from "data/salesPortal/customers/invalidData";
-import { ICustomer } from "data/types/customer.types";
-import { TAGS } from "data/tags";
+import { INVALID_PAYLOAD_SCENARIOS, INVALID_ID_SCENARIOS } from "data/salesPortal/customers/invalidData";
 
 test.describe("CST-006/007/011 Update customer", () => {
-  test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.SMOKE} CST-006: Update customer with valid data`, async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
+  let token: string;
+
+  test.beforeAll(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
+  });
+
+  test("@api @customers @smoke CST-006: Update customer with valid data", async ({ customersApi }) => {
     const created = await customersApi.create(token, generateCustomerData());
     const id = created.body.Customer._id;
     const original = created.body.Customer;
@@ -47,17 +44,13 @@ test.describe("CST-006/007/011 Update customer", () => {
     expect(response.body.Customer.phone).toBe(updatedPhone);
   });
 
-  const invalidIdScenarios = getInvalidIdTestData("update");
+  const invalidIdScenarios = INVALID_ID_SCENARIOS.UPDATE;
 
   // Scenarios with error message validation
-  for (const scenario of invalidIdScenarios.filter(
-    (s) => s.shouldHaveErrorMessage,
-  )) {
-    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-007: Update customer with Invalid ID (${scenario.description})`, async ({
-      loginApiService,
+  for (const scenario of invalidIdScenarios.filter((s) => s.shouldHaveErrorMessage)) {
+    test(`@api @customers @regression CST-007: Update customer with Invalid ID (${scenario.description})`, async ({
       customersApi,
     }) => {
-      const token = await loginApiService.loginAsAdmin();
       const response = await customersApi.update(token, scenario.id, {
         name: "Updated Name",
       });
@@ -69,14 +62,10 @@ test.describe("CST-006/007/011 Update customer", () => {
   }
 
   // Scenarios with status-only validation
-  for (const scenario of invalidIdScenarios.filter(
-    (s) => !s.shouldHaveErrorMessage,
-  )) {
-    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-007: Update customer with Invalid ID (${scenario.description})`, async ({
-      loginApiService,
+  for (const scenario of invalidIdScenarios.filter((s) => !s.shouldHaveErrorMessage)) {
+    test(`@api @customers @regression CST-007: Update customer with Invalid ID (${scenario.description})`, async ({
       customersApi,
     }) => {
-      const token = await loginApiService.loginAsAdmin();
       const response = await customersApi.update(token, scenario.id, {
         name: "Updated Name",
       });
@@ -85,23 +74,14 @@ test.describe("CST-006/007/011 Update customer", () => {
     });
   }
 
-  for (const { description, modifier } of INVALID_PAYLOAD_TEMPLATES) {
-    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-011: Update customer with Invalid Data (${description})`, async ({
-      loginApiService,
+  for (const { description, testData } of INVALID_PAYLOAD_SCENARIOS) {
+    test(`@api @customers @regression CST-011: Update customer with Invalid Data (${description})`, async ({
       customersApi,
     }) => {
-      const token = await loginApiService.loginAsAdmin();
       const created = await customersApi.create(token, generateCustomerData());
       const id = created.body.Customer._id;
 
-      const baseCustomer = generateCustomerData();
-      const invalidData = modifier(baseCustomer);
-
-      const response = await customersApi.update(
-        token,
-        id,
-        invalidData as unknown as ICustomer,
-      );
+      const response = await customersApi.update(token, id, testData);
 
       expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
       expect(response.body.IsSuccess).toBe(false);

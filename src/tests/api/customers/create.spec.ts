@@ -8,12 +8,10 @@ import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { createCustomerSchema } from "data/schemas/customers/create.schema";
 import { COUNTRY } from "data/salesPortal/country";
 import { faker } from "@faker-js/faker";
-import { INVALID_PAYLOAD_TEMPLATES } from "data/salesPortal/customers/invalidData";
-import { ICustomer } from "data/types/customer.types";
-import { TAGS } from "data/tags";
+import { INVALID_PAYLOAD_SCENARIOS } from "data/salesPortal/customers/invalidData";
 
 test.describe("CST-001/002 Create customer", () => {
-  test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.SMOKE} CST-001: Create new customer (Valid Data)`, async ({
+  test("@api @customers @smoke CST-001: Create new customer (Valid Data)", async ({
     loginApiService,
     customersApi,
   }) => {
@@ -34,19 +32,14 @@ test.describe("CST-001/002 Create customer", () => {
     expect(created.body.Customer.country).toBe(expectedCountry);
   });
 
-  for (const { description, modifier } of INVALID_PAYLOAD_TEMPLATES) {
-    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-002: Create customer with Invalid Data (${description})`, async ({
+  for (const { description, testData } of INVALID_PAYLOAD_SCENARIOS) {
+    test(`@api @customers @regression CST-002: Create customer with Invalid Data (${description})`, async ({
       loginApiService,
       customersApi,
     }) => {
       const token = await loginApiService.loginAsAdmin();
-      const baseCustomer = generateCustomerData();
-      const invalidData = modifier(baseCustomer);
 
-      const response = await customersApi.create(
-        token,
-        invalidData as unknown as ICustomer,
-      );
+      const response = await customersApi.create(token, testData);
 
       expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
       expect(response.body.IsSuccess).toBe(false);

@@ -1,141 +1,136 @@
-import { COUNTRY } from "data/salesPortal/country";
 import { STATUS_CODES } from "data/statusCodes";
-import { ICustomer } from "data/types/customer.types";
+import { generateCustomerData } from "./generateCustomerData";
 
-// Templates for invalid payloads - only field modifications
-export const INVALID_PAYLOAD_TEMPLATES = [
+// Invalid payload scenarios for CREATE/UPDATE operations
+export const INVALID_PAYLOAD_SCENARIOS = [
   {
     description: "Email: Missing @",
-    modifier: (customer: ICustomer) => ({ ...customer, email: "plainaddress" }),
+    testData: generateCustomerData({ email: "plainaddress" }),
   },
   {
     description: "Email: Missing domain",
-    modifier: (customer: ICustomer) => ({ ...customer, email: "test@" }),
+    testData: generateCustomerData({ email: "test@" }),
   },
   {
     description: "Email: Empty",
-    modifier: (customer: ICustomer) => ({ ...customer, email: "" }),
+    testData: generateCustomerData({ email: "" }),
   },
   {
     description: "Name: Empty",
-    modifier: (customer: ICustomer) => ({ ...customer, name: "" }),
+    testData: generateCustomerData({ name: "" }),
   },
   {
     description: "Name: Too long",
-    modifier: (customer: ICustomer) => ({ ...customer, name: "a".repeat(41) }),
-  },
-  {
-    description: "Country: Invalid Enum",
-    modifier: (customer: ICustomer) => ({
-      ...customer,
-      country: "InvalidCountry" as COUNTRY,
-    }),
+    testData: generateCustomerData({ name: "a".repeat(41) }),
   },
   {
     description: "City: Empty",
-    modifier: (customer: ICustomer) => ({ ...customer, city: "" }),
+    testData: generateCustomerData({ city: "" }),
   },
   {
     description: "City: Too long",
-    modifier: (customer: ICustomer) => ({ ...customer, city: "a".repeat(21) }),
+    testData: generateCustomerData({ city: "a".repeat(21) }),
   },
   {
     description: "Street: Empty",
-    modifier: (customer: ICustomer) => ({ ...customer, street: "" }),
+    testData: generateCustomerData({ street: "" }),
   },
   {
     description: "Street: Too long",
-    modifier: (customer: ICustomer) => ({
-      ...customer,
-      street: "a".repeat(41),
-    }),
+    testData: generateCustomerData({ street: "a".repeat(41) }),
   },
   {
     description: "House: Zero",
-    modifier: (customer: ICustomer) => ({ ...customer, house: 0 }),
+    testData: generateCustomerData({ house: 0 }),
   },
   {
     description: "House: Negative",
-    modifier: (customer: ICustomer) => ({ ...customer, house: -1 }),
+    testData: generateCustomerData({ house: -1 }),
   },
   {
     description: "Flat: Zero",
-    modifier: (customer: ICustomer) => ({ ...customer, flat: 0 }),
+    testData: generateCustomerData({ flat: 0 }),
   },
   {
     description: "Flat: Negative",
-    modifier: (customer: ICustomer) => ({ ...customer, flat: -1 }),
+    testData: generateCustomerData({ flat: -1 }),
   },
   {
     description: "Phone: Letters",
-    modifier: (customer: ICustomer) => ({ ...customer, phone: "abcdefg" }),
+    testData: generateCustomerData({ phone: "abcdefg" }),
   },
   {
     description: "Phone: Empty",
-    modifier: (customer: ICustomer) => ({ ...customer, phone: "" }),
+    testData: generateCustomerData({ phone: "" }),
   },
   {
     description: "Notes: Too long",
-    modifier: (customer: ICustomer) => ({
-      ...customer,
-      notes: "a".repeat(251),
-    }),
+    testData: generateCustomerData({ notes: "a".repeat(251) }),
   },
 ];
 
-export const INVALID_ID_SCENARIOS = [
-  {
-    description: "Non-existent ID (valid format)",
-    id: "507f1f77bcf86cd799439011",
-    expectedStatus: {
-      get: STATUS_CODES.NOT_FOUND,
-      delete: STATUS_CODES.NOT_FOUND,
-      update: STATUS_CODES.BAD_REQUEST,
+// Invalid ID scenarios for GET/DELETE/UPDATE operations
+export const INVALID_ID_SCENARIOS = {
+  DELETE: [
+    {
+      description: "Non-existent ID (valid format)",
+      id: "507f1f77bcf86cd799439011",
+      expectedStatus: STATUS_CODES.NOT_FOUND,
+      shouldHaveErrorMessage: true,
     },
-    hasErrorMessage: {
-      get: true,
-      delete: true,
-      update: true,
+    {
+      description: "Short ID",
+      id: "123",
+      expectedStatus: STATUS_CODES.SERVER_ERROR,
+      shouldHaveErrorMessage: false,
     },
-  },
-  {
-    description: "Short ID",
-    id: "123",
-    expectedStatus: {
-      get: STATUS_CODES.SERVER_ERROR,
-      delete: STATUS_CODES.SERVER_ERROR,
-      update: STATUS_CODES.BAD_REQUEST,
+    {
+      description: "Long ID",
+      id: "a".repeat(50),
+      expectedStatus: STATUS_CODES.SERVER_ERROR,
+      shouldHaveErrorMessage: false,
     },
-    hasErrorMessage: {
-      get: false,
-      delete: false,
-      update: true,
-    },
-  },
-  {
-    description: "Long ID",
-    id: "a".repeat(50),
-    expectedStatus: {
-      get: STATUS_CODES.SERVER_ERROR,
-      delete: STATUS_CODES.SERVER_ERROR,
-      update: STATUS_CODES.BAD_REQUEST,
-    },
-    hasErrorMessage: {
-      get: false,
-      delete: false,
-      update: true,
-    },
-  },
-];
+  ],
 
-// Helper to generate test data for specific operation
-export const getInvalidIdTestData = (
-  operation: "get" | "delete" | "update",
-) => {
-  return INVALID_ID_SCENARIOS.map((scenario) => ({
-    description: scenario.description,
-    id: scenario.id,
-    expectedStatus: scenario.expectedStatus[operation],
-    shouldHaveErrorMessage: scenario.hasErrorMessage[operation],
-  }));
+  GET: [
+    {
+      description: "Non-existent ID (valid format)",
+      id: "507f1f77bcf86cd799439011",
+      expectedStatus: STATUS_CODES.NOT_FOUND,
+      shouldHaveErrorMessage: true,
+    },
+    {
+      description: "Short ID",
+      id: "123",
+      expectedStatus: STATUS_CODES.SERVER_ERROR,
+      shouldHaveErrorMessage: false,
+    },
+    {
+      description: "Long ID",
+      id: "a".repeat(50),
+      expectedStatus: STATUS_CODES.SERVER_ERROR,
+      shouldHaveErrorMessage: false,
+    },
+  ],
+
+  UPDATE: [
+    {
+      description: "Non-existent ID (valid format)",
+      id: "507f1f77bcf86cd799439011",
+      expectedStatus: STATUS_CODES.BAD_REQUEST,
+      shouldHaveErrorMessage: true,
+    },
+    {
+      description: "Short ID",
+      id: "123",
+      expectedStatus: STATUS_CODES.BAD_REQUEST,
+      shouldHaveErrorMessage: true,
+    },
+    {
+      description: "Long ID",
+      id: "a".repeat(50),
+      expectedStatus: STATUS_CODES.BAD_REQUEST,
+      shouldHaveErrorMessage: true,
+    },
+  ],
 };

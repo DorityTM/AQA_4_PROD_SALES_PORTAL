@@ -4,15 +4,16 @@
 import { test, expect } from "fixtures/api.fixture";
 import { STATUS_CODES } from "data/statusCodes";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
-import { getInvalidIdTestData } from "data/salesPortal/customers/invalidData";
-import { TAGS } from "data/tags";
+import { INVALID_ID_SCENARIOS } from "data/salesPortal/customers/invalidData";
 
 test.describe("CST-008/009 Delete customer", () => {
-  test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.SMOKE} CST-008: Delete customer (Valid Id)`, async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
+  let token: string;
+
+  test.beforeAll(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
+  });
+
+  test("@api @customers @smoke CST-008: Delete customer (Valid Id)", async ({ customersApi }) => {
     const created = await customersApi.create(token, generateCustomerData());
     const id = created.body.Customer._id;
 
@@ -23,17 +24,13 @@ test.describe("CST-008/009 Delete customer", () => {
     expect(afterDelete.status).toBe(STATUS_CODES.NOT_FOUND);
   });
 
-  const invalidIdScenarios = getInvalidIdTestData("delete");
+  const invalidIdScenarios = INVALID_ID_SCENARIOS.DELETE;
 
   // Scenarios with error message validation
-  for (const scenario of invalidIdScenarios.filter(
-    (s) => s.shouldHaveErrorMessage,
-  )) {
-    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-009: Delete customer with Invalid ID (${scenario.description})`, async ({
-      loginApiService,
+  for (const scenario of invalidIdScenarios.filter((s) => s.shouldHaveErrorMessage)) {
+    test(`@api @customers @regression CST-009: Delete customer with Invalid ID (${scenario.description})`, async ({
       customersApi,
     }) => {
-      const token = await loginApiService.loginAsAdmin();
       const response = await customersApi.delete(token, scenario.id);
 
       expect(response.status).toBe(scenario.expectedStatus);
@@ -43,14 +40,10 @@ test.describe("CST-008/009 Delete customer", () => {
   }
 
   // Scenarios with status-only validation
-  for (const scenario of invalidIdScenarios.filter(
-    (s) => !s.shouldHaveErrorMessage,
-  )) {
-    test(`${TAGS.API} ${TAGS.CUSTOMERS} ${TAGS.REGRESSION} CST-009: Delete customer with Invalid ID (${scenario.description})`, async ({
-      loginApiService,
+  for (const scenario of invalidIdScenarios.filter((s) => !s.shouldHaveErrorMessage)) {
+    test(`@api @customers @regression CST-009: Delete customer with Invalid ID (${scenario.description})`, async ({
       customersApi,
     }) => {
-      const token = await loginApiService.loginAsAdmin();
       const response = await customersApi.delete(token, scenario.id);
 
       expect(response.status).toBe(scenario.expectedStatus);
