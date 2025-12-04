@@ -41,8 +41,8 @@ export class CustomersApi {
     return await this.apiClient.send<null>(options);
   }
 
-  async getList(token: string, params: IGetCustomersParams) {
-    const query = convertRequestParams(params);
+  async getList(token: string, params: Partial<IGetCustomersParams>) {
+    const query = params ? convertRequestParams(params) : "";
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
       url: `${apiConfig.endpoints.customers}${query}`,

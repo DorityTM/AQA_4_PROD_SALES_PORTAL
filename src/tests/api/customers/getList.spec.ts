@@ -4,9 +4,10 @@
 import { test, expect } from "fixtures/api.fixture";
 import { STATUS_CODES } from "data/statusCodes";
 import { COUNTRY } from "data/salesPortal/country";
+import { TAGS } from "data/tags";
 
 test.describe("CST-003 Get customers list (Filter by Country)", () => {
-  test("GET /api/customers?country returns only selected country", async ({
+  test("GET /api/customers?country returns only selected country", {tag: [TAGS.API, TAGS.PRODUCTS, TAGS.REGRESSION]}, async ({
     loginApiService,
     customersApi,
   }) => {
@@ -14,7 +15,7 @@ test.describe("CST-003 Get customers list (Filter by Country)", () => {
     const targetCountry = COUNTRY.USA;
 
     const response = await customersApi.getList(token, {
-      country: [String(targetCountry)],
+      country: [targetCountry],
     });
 
     expect(response.status).toBe(STATUS_CODES.OK);
