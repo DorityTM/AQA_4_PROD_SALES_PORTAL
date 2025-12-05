@@ -7,6 +7,7 @@ import { IUser } from "./user.types";
 
 // export type OrderStatus = "Draft" | "In Process" | "Partially Received" | "Received" | "Canceled";
 // export type DeliveryStatus = "Pending" | "In Transit" | "Delivered" | "Failed";
+//TODO: order schemas
 
 export interface IOrderResponse extends IResponseFields {
   Order: IOrderFromResponse;
@@ -24,10 +25,7 @@ export interface IOrderFromResponse extends ICreatedOn, ID {
 }
 //TODO
 //IOrderHistory contsins delivery status. Check on PROD valid values for delivery status
-export interface IOrderHistory extends Omit<
-  IOrderFromResponse,
-  "comments" | "history" | "customer"
-> {
+export interface IOrderHistory extends Omit<IOrderFromResponse, "comments" | "history" | "customer"> {
   customer: ICustomerFromResponse["_id"];
   changedOn: string;
   action: string;
