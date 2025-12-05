@@ -20,7 +20,7 @@ export class CustomersApi {
       method: "post",
       headers: {
         "content-type": "application/json",
-        authorization: `Bearer ${token}`,
+        Authorization: `Bearer ${token}`,
       },
       data: customer,
     };
@@ -34,7 +34,7 @@ export class CustomersApi {
       method: "delete",
       headers: {
         "content-type": "application/json",
-        authorization: `Bearer ${token}`,
+        Authorization: `Bearer ${token}`,
       },
     };
 

@@ -3,6 +3,7 @@ import { ERROR_MESSAGE, STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { test } from "fixtures";
 import { validateResponse } from "utils/validation/validateResponse.utils";
+
 test.describe("[API][Customers][Create Customer - DDT - Negative Tests]", () => {
   let id = "";
   let token = "";
