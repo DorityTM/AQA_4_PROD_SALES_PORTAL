@@ -1,5 +1,6 @@
-import test, { Locator } from "@playwright/test";
+import { Locator } from "@playwright/test";
 import { SalesPortalPage } from "./salesPortal.page";
+import { logStep } from "utils/report/logStep.utils";
 
 export type HomeModuleButton = "Products" | "Customers" | "Orders";
 
@@ -31,15 +32,14 @@ export class HomePage extends SalesPortalPage {
 
   readonly uniqueElement = this.welcomeText;
 
+  @logStep("CLICK ON VIEW MODULE BUTTON ON HOME PAGE")
   async clickOnViewModel(module: HomeModuleButton) {
-    await test.step(`Click ${module} module on Home page`, async () => {
-      const moduleButtons: Record<HomeModuleButton, Locator> = {
-        Products: this.productsButton,
-        Customers: this.customersButton,
-        Orders: this.ordersButton,
-      };
+    const moduleButtons: Record<HomeModuleButton, Locator> = {
+      Products: this.productsButton,
+      Customers: this.customersButton,
+      Orders: this.ordersButton,
+    };
 
-      await moduleButtons[module].click();
-    });
+    await moduleButtons[module].click();
   }
 }
