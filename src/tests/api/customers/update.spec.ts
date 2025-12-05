@@ -6,13 +6,16 @@ import { STATUS_CODES } from "data/statusCodes";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
 import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { updateCustomerSchema } from "data/schemas/customers/update.schema";
+import { getInvalidPayloadScenarios, INVALID_ID_SCENARIOS } from "data/salesPortal/customers/invalidData";
 
 test.describe("CST-006/007/011 Update customer", () => {
-  test("CST-006: Update customer with valid data", async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
+  let token: string;
+
+  test.beforeAll(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
+  });
+
+  test("@api @customers @smoke CST-006: Update customer with valid data", async ({ customersApi }) => {
     const created = await customersApi.create(token, generateCustomerData());
     const id = created.body.Customer._id;
     const original = created.body.Customer;
@@ -41,47 +44,33 @@ test.describe("CST-006/007/011 Update customer", () => {
     expect(response.body.Customer.phone).toBe(updatedPhone);
   });
 
-  test("CST-007: Update customer with invalid Id", async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
-    const invalidId = "000000000000000000000000";
+  // Scenarios with error message validation
+  for (const scenario of INVALID_ID_SCENARIOS.UPDATE) {
+    test(`@api @customers @regression CST-007: Update customer with Invalid ID (${scenario.description})`, async ({
+      customersApi,
+    }) => {
+      const response = await customersApi.update(token, scenario.id, {
+        name: "Updated Name",
+      });
 
-    const response = await customersApi.update(token, invalidId, {
-      name: "Updated Name",
+      expect(response.status).toBe(scenario.expectedStatus);
+      expect(response.body.IsSuccess).toBe(false);
+      expect(response.body.ErrorMessage).toBeTruthy();
     });
+  }
 
-    expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
-    expect(response.body.IsSuccess).toBe(false);
-    expect(response.body.ErrorMessage).toBeTruthy();
-  });
+  for (const { description, getTestData } of getInvalidPayloadScenarios()) {
+    test(`@api @customers @regression CST-011: Update customer with Invalid Data (${description})`, async ({
+      customersApi,
+    }) => {
+      const created = await customersApi.create(token, generateCustomerData());
+      const id = created.body.Customer._id;
 
-  test("CST-011: Update customer with invalid phone", async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
-    const created = await customersApi.create(token, generateCustomerData());
-    const id = created.body.Customer._id;
-    const original = created.body.Customer;
+      const response = await customersApi.update(token, id, getTestData());
 
-    const invalidPhone = "1555-ABC";
-
-    const response = await customersApi.update(token, id, {
-      email: original.email,
-      name: original.name,
-      country: original.country,
-      city: original.city,
-      street: original.street,
-      house: original.house,
-      flat: original.flat,
-      phone: invalidPhone,
-      notes: original.notes,
+      expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
+      expect(response.body.IsSuccess).toBe(false);
+      expect(response.body.ErrorMessage).toBeTruthy();
     });
-
-    expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
-    expect(response.body.IsSuccess).toBe(false);
-    expect(response.body.ErrorMessage).toBeTruthy();
-  });
+  }
 });

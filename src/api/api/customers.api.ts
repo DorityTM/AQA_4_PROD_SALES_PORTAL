@@ -1,6 +1,6 @@
 import { IApiClient } from "api/apiClients/types";
 import { apiConfig } from "config/apiConfig";
-import { IRequestOptions } from "data/types/core.types";
+import { IRequestOptions, IResponseFields } from "data/types/core.types";
 import {
   ICustomer,
   ICustomerResponse,
@@ -38,7 +38,7 @@ export class CustomersApi {
       },
     };
 
-    return await this.apiClient.send<null>(options);
+    return await this.apiClient.send<IResponseFields>(options);
   }
 
   async getList(token: string, params: Partial<IGetCustomersParams>) {

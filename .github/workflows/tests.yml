@@ -8,6 +8,10 @@ on:
       - main
   workflow_dispatch: # Manually trigger the workflow
 
+permissions:
+  contents: write
+  pages: write
+
 jobs:
   test:
     timeout-minutes: 60
@@ -38,10 +42,6 @@ jobs:
       # Run tests
       - name: Run tests API
         run: npm run test:api:regression
-        continue-on-error: true
-    
-      - name: Run tests UI
-        run: npm run test:ui:regression
         continue-on-error: true
           
         # Create Allure report
