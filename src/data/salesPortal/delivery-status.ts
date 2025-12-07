@@ -1,8 +1,18 @@
-//TODO: Check real delivery status on PROD (this file is mock))
+export enum DELIVERY_CONDITION {
+  DELIVERY = "Delivery",
+  PICKUP = "Pickup",
+}
 
-export enum DELIVERY_STATUS {
-  PENDING = "Pending",
-  IN_TRANSIT = "In Transit",
-  DELIVERED = "Delivered",
-  FAILED = "Failed",
+export interface IDeliveryAddress {
+  country: string;
+  city: string;
+  street: string;
+  house: number;
+  flat: number;
+}
+
+export interface IDeliveryInfo {
+  address: IDeliveryAddress;
+  condition: DELIVERY_CONDITION;
+  finalDate: string;
 }

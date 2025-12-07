@@ -17,7 +17,6 @@ test.describe("[API] [Sales Portal] [Products]", () => {
     const product = await productsApiService.create(token);
     id = product._id;
 
-
     //TODO: Action
     const getProductResponse = await productsApi.getById(id, token);
     validateResponse(getProductResponse, {

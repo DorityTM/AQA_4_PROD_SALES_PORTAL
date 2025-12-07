@@ -5,7 +5,7 @@ import { IProduct, IProductResponse, IProductsResponse } from "data/types/produc
 
 export class ProductsApi {
   constructor(private apiClient: IApiClient) {}
-  
+
   async create(product: IProduct, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL, //backend url

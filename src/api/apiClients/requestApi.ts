@@ -20,8 +20,7 @@ export class RequestApi extends BaseApiClient {
 
       this.response = await this.requestContext.fetch(url, fetchOptions);
 
-      // if (this.response.status() >= 500)
-      //   throw new Error("Request failed with status " + this.response.status());
+      if (this.response.status() >= 500) throw new Error("Request failed with status " + this.response.status());
       const result = await this.transformResponse();
 
       await this.attachResponse(options, result);
