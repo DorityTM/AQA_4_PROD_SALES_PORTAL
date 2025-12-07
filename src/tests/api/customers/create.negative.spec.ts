@@ -1,5 +1,6 @@
 import { CREATE_CUSTOMER_NEGATIVE_CASES } from "data/salesPortal/customers/createCustomer.ddt.data";
-import { ERROR_MESSAGE, STATUS_CODES } from "data/statusCodes";
+import { STATUS_CODES } from "data/statusCodes";
+import { RESPONSE_ERRORS } from "data/salesPortal/errors";
 import { TAGS } from "data/tags";
 import { test } from "fixtures";
 import { validateResponse } from "utils/validation/validateResponse.utils";
@@ -29,7 +30,7 @@ test.describe("[API][Customers][Create Customer - DDT - Negative Tests]", () => 
         await validateResponse(createdCustomer, {
           status: STATUS_CODES.BAD_REQUEST,
           IsSuccess: false,
-          ErrorMessage: ERROR_MESSAGE.BAD_REQUEST,
+          ErrorMessage: RESPONSE_ERRORS.BAD_REQUEST,
         });
       },
     );

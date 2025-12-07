@@ -1,7 +1,8 @@
 import { test, expect } from "fixtures/api.fixture";
 import { generateProductData } from "data/salesPortal/products/generateProductData";
 import { createProductSchema } from "data/schemas/products/create.schema";
-import { ERROR_MESSAGE, STATUS_CODES } from "data/statusCodes";
+import { STATUS_CODES } from "data/statusCodes";
+import { RESPONSE_ERRORS } from "data/salesPortal/errors";
 import _ from "lodash";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { IProduct } from "data/types/product.types";
@@ -79,7 +80,7 @@ test.describe("[API][Sales Portal][Products]", () => {
         validateResponse(duplicateCreatedProduct, {
           status: STATUS_CODES.CONFLICT,
           IsSuccess: false,
-          ErrorMessage: ERROR_MESSAGE.PRODUCT_ALREADY_EXISTS(productData.name),
+          ErrorMessage: RESPONSE_ERRORS.CONFLICT(productData.name),
         });
       },
     );
