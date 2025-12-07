@@ -1,6 +1,7 @@
 import { ICreatedOn } from "./core.types";
 import { MANUFACTURERS } from "data/salesPortal/products/manufacturers";
 import { ID, IResponseFields, SortOrder } from "./core.types";
+import { ICase } from "./core.types";
 
 export interface IProduct {
   name: string;
@@ -10,13 +11,11 @@ export interface IProduct {
   notes?: string;
 }
 
-export interface IProductInTable
-  extends Pick<IProduct, "name" | "manufacturer" | "price">, ICreatedOn {}
+export interface IProductInTable extends Pick<IProduct, "name" | "manufacturer" | "price">, ICreatedOn {}
 
 export interface IProductDetails extends Required<IProduct>, ICreatedOn {}
 
-export interface IProductFromResponse
-  extends Required<IProduct>, ICreatedOn, ID {}
+export interface IProductFromResponse extends Required<IProduct>, ICreatedOn, ID {}
 
 export interface IProductResponse extends IResponseFields {
   Product: IProductFromResponse;
@@ -56,8 +55,11 @@ export interface IGetProductsParams {
   limit: number;
 }
 
-export type ProductsTableHeader =
-  | "Name"
-  | "Price"
-  | "Manufacturer"
-  | "Created On";
+export type ProductsTableHeader = "Name" | "Price" | "Manufacturer" | "Created On";
+
+export interface ICreateProductCase extends ICase {
+  id?: ID["_id"];
+  productData?: Partial<IProduct>;
+  expectedStatusCode?: number;
+  expectedErrorMessage?: string;
+}

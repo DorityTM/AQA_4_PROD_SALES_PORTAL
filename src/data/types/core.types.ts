@@ -1,3 +1,5 @@
+import { STATUS_CODES } from "data/statusCodes";
+
 export interface ID {
   _id: string;
 }
@@ -26,3 +28,9 @@ export interface ICreatedOn {
 }
 
 export type SortOrder = "asc" | "desc";
+
+export interface ICase {
+  title: string;
+  expectedStatus?: STATUS_CODES;
+  expectedErrorMessage?: string;
+}
