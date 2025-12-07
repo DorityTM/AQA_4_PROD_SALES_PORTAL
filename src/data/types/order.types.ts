@@ -1,34 +1,94 @@
-import { ID, ICreatedOn, IResponseFields } from "./core.types";
+import { ID, ICreatedOn, IResponseFields, SortOrder } from "./core.types";
 import { ICustomerFromResponse } from "./customer.types";
-import { IOrderProductFromResponse } from "./product.types";
-import { ORDER_STATUS } from "../salesPortal/order-status";
-import { DELIVERY_STATUS } from "../salesPortal/delivery-status";
+import { IOrderProductFromResponse, IProduct } from "./product.types";
+import { ORDER_STATUS, ORDER_HISTORY_ACTIONS } from "../salesPortal/order-status";
+import { IDeliveryInfo } from "../salesPortal/delivery-status";
 import { IUser } from "./user.types";
 
-// export type OrderStatus = "Draft" | "In Process" | "Partially Received" | "Received" | "Canceled";
-// export type DeliveryStatus = "Pending" | "In Transit" | "Delivered" | "Failed";
-
+export interface IOrderProduct extends IProduct {
+  _id: string;
+  received: boolean;
+}
 export interface IOrderResponse extends IResponseFields {
-  Order: IOrderFromResponse;
+  order: IOrderFromResponse;
+}
+
+export interface IOrderHistoryResponse extends IResponseFields {
+  history: IOrderHistory[];
 }
 
 export interface IOrderFromResponse extends ICreatedOn, ID {
   status: ORDER_STATUS;
   customer: ICustomerFromResponse;
   products: IOrderProductFromResponse[];
-  delivery: null | DELIVERY_STATUS;
   total_price: number;
-  comments: string[];
+  delivery: null | IDeliveryInfo;
+  comments: IComment[];
   history: IOrderHistory[];
   assignedManager: null | IUser["_id"];
 }
-//TODO
-//IOrderHistory contsins delivery status. Check on PROD valid values for delivery status
-export interface IOrderHistory extends Omit<
-  IOrderFromResponse,
-  "comments" | "history" | "customer"
-> {
+export interface IOrderHistory extends Omit<IOrderFromResponse, "comments" | "history" | "customer" | "createdOn"> {
   customer: ICustomerFromResponse["_id"];
   changedOn: string;
-  action: string;
+  action: ORDER_HISTORY_ACTIONS;
+}
+
+export interface IOrderHistoryEntry {
+  assignedManager: IUser | null;
+  status: ORDER_HISTORY_ACTIONS;
+  customer: string;
+  products: IOrderProduct[];
+  total_price: number;
+  delivery: IDeliveryInfo | null;
+  changedOn: string;
+  action: ORDER_HISTORY_ACTIONS;
+  performer: IUser | null;
+}
+
+export interface IComment {
+  text: string;
+  createdOn: string;
+  _id: string;
+}
+
+export interface IOrder {
+  _id: string;
+  status: ORDER_STATUS;
+  customer: ICustomerFromResponse;
+  products: IOrderProduct[];
+  delivery: IDeliveryInfo | null;
+  total_price: number;
+  createdOn: string;
+  comments: IComment[];
+  history: IOrderHistoryEntry[];
+  assignedManager: IUser | null;
+}
+
+export interface IOrdersResponse extends IResponseFields {
+  orders: IOrderFromResponse[];
+  limit: number;
+  page: number;
+  search: string;
+  status: ORDER_STATUS[];
+  total: number;
+  sorting: { sortField: OrdersTableHeader; sortOrder: SortOrder };
+}
+export type OrdersTableHeader =
+  | "orderNumber"
+  | "email"
+  | "price"
+  | "delivery"
+  | "status"
+  | "assignedManager"
+  | "createdOn";
+
+export interface IOrderCreateBody {
+  customer: string;
+  products: string[];
+}
+
+export interface ICommentData {
+  commentText: string;
+  commentator: string;
+  createdOn: string;
 }
