@@ -126,7 +126,7 @@ export const createProductNegativeCases: ICreateProductCase[] = [
   },
   {
     title: "Not integer price product not created",
-    productData: generateProductData({ price: faker.string.alphanumeric({ length: 5 }) }),
+    productData: generateProductData({ price: faker.string.alphanumeric({ length: 5 }) as unknown as number }),
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     expectedErrorMessage: RESPONSE_ERRORS.BAD_REQUEST,
   },
@@ -150,6 +150,7 @@ export const createProductNegativeCases: ICreateProductCase[] = [
   },
   {
     title: "Not integer amount product not created",
+    // @ts-expect-error: intentionally pass a non-integer string as amount to validate server-side input rejection
     productData: generateProductData({ amount: faker.string.alphanumeric({ length: 3 }) }),
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     expectedErrorMessage: RESPONSE_ERRORS.BAD_REQUEST,
