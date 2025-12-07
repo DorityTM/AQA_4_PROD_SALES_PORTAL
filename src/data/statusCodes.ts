@@ -9,6 +9,9 @@ export enum STATUS_CODES {
   SERVER_ERROR = 500,
 }
 
-export enum ERROR_MESSAGE {
-  BAD_REQUEST = "Incorrect request body",
-}
+export const ERROR_MESSAGE = {
+  BAD_REQUEST: "Incorrect request body",
+  UNAUTHORIZED: "Not authorized",
+  PRODUCT_NOT_FOUND: (id: string) => `Product with id '${id}' wasn't found`,
+  PRODUCT_ALREADY_EXISTS: (name: string) => `Product with name '${name}' already exists`,
+};

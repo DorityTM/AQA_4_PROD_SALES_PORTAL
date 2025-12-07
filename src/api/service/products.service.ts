@@ -20,6 +20,18 @@ export class ProductsApiService {
     return response.body.Product;
   }
 
+  async update(token: string, id: string, newProductData: IProduct) {
+    const data = generateProductData(newProductData);
+    const response = await this.productsApi.update(id, data, token);
+    validateResponse(response, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+      schema: createProductSchema,
+    });
+    return response.body.Product;
+  }
+
   async delete(token: string, id: string) {
     const response = await this.productsApi.delete(id, token);
     validateResponse(response, {

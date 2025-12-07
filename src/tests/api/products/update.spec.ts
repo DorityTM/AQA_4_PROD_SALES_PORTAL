@@ -5,17 +5,20 @@ import { STATUS_CODES } from "data/statusCodes";
 import _ from "lodash";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 
-test.describe("[API] [Sales Portal] [Products]", () => {
+test.describe("[API][Sales Portal][Products]", () => {
   let id = "";
   let token = "";
+
+  test.beforeAll(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
+  });
 
   test.afterEach(async ({ productsApiService }) => {
     await productsApiService.delete(token, id);
   });
 
-  test("Update product", async ({ loginApiService, productsApiService, productsApi }) => {
+  test("Update product", async ({ productsApiService, productsApi }) => {
     //TODO: Preconditions
-    token = await loginApiService.loginAsAdmin();
     const createdProduct = await productsApiService.create(token);
     id = createdProduct._id;
 
