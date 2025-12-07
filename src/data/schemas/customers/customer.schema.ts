@@ -16,18 +16,7 @@ export const customerSchema = {
     notes: { type: "string" },
     _id: { type: "string" },
   },
-  required: [
-    "email",
-    "name",
-    "country",
-    "city",
-    "street",
-    "house",
-    "flat",
-    "phone",
-    "createdOn",
-    "_id",
-  ],
+  required: ["email", "name", "country", "city", "street", "house", "flat", "phone", "createdOn", "_id"],
 };
 
 export const createCustomerSchema = {

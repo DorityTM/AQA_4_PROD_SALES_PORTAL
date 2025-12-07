@@ -8,7 +8,3 @@ export enum STATUS_CODES {
   CONFLICT = 409,
   SERVER_ERROR = 500,
 }
-
-export enum ERROR_MESSAGE {
-  BAD_REQUEST = "Incorrect request body",
-}

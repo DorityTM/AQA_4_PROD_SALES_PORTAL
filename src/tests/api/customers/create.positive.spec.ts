@@ -38,9 +38,7 @@ test.describe("[API][Customers][Create Customer - DDT - Positive Tests]", () => 
         id = createdCustomer.body.Customer._id;
 
         const actualCustomerData = createdCustomer.body.Customer;
-        expect(_.omit(actualCustomerData, ["_id", "createdOn"])).toEqual(
-          customerData,
-        );
+        expect(_.omit(actualCustomerData, ["_id", "createdOn"])).toEqual(customerData);
       },
     );
   }

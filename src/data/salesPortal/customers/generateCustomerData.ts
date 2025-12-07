@@ -54,9 +54,7 @@ export function generateCustomerData(params?: Partial<ICustomer>): ICustomer {
   return { ...data, ...params };
 }
 
-export function generateCustomerResponseData(
-  params?: Partial<ICustomer>,
-): ICustomerFromResponse {
+export function generateCustomerResponseData(params?: Partial<ICustomer>): ICustomerFromResponse {
   const initial = generateCustomerData(params);
   return {
     _id: new ObjectId().toHexString(),
