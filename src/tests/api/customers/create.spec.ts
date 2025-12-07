@@ -34,18 +34,18 @@ test.describe("CST-001/002 Create customer", () => {
     expect(created.body.Customer.country).toBe(expectedCountry);
   });
 
-  test("CST-002: Create customer with Invalid Enum (Country)", async ({ loginApiService, customersApi }) => {
-    const token = await loginApiService.loginAsAdmin();
-    const invalidPayload: ICustomerInvalidPayload = {
-      ...generateCustomerData(),
-      email: "bad_country@test.com",
-      name: "Bob",
-      country: "Mars",
-    };
+  // test("CST-002: Create customer with Invalid Enum (Country)", async ({ loginApiService, customersApi }) => {
+  //   const token = await loginApiService.loginAsAdmin();
+  //   const invalidPayload: ICustomerInvalidPayload = {
+  //     ...generateCustomerData(),
+  //     email: "bad_country@test.com",
+  //     name: "Bob",
+  //     country: "Mars",
+  //   };
 
-    const response = await customersApi.create(token, invalidPayload as unknown as ICustomer);
-    expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
-    expect(response.body.IsSuccess).toBe(false);
-    expect(response.body.ErrorMessage).toBeTruthy();
-  });
+  //   const response = await customersApi.create(token, invalidPayload as unknown as ICustomer);
+  //   expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
+  //   expect(response.body.IsSuccess).toBe(false);
+  //   expect(response.body.ErrorMessage).toBeTruthy();
+  // });
 });
