@@ -61,9 +61,7 @@ test.describe("CST-006/007/011 Update customer", () => {
     const token = await loginApiService.loginAsAdmin();
     const invalidId = "000000000000000000000000";
 
-    const response = await customersApi.update(token, invalidId, {
-      name: "Updated Name",
-    });
+    const response = await customersApi.update(token, invalidId, generateCustomerData());
 
     expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
     expect(response.body.IsSuccess).toBe(false);
