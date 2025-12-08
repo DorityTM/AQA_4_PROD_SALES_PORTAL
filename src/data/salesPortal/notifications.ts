@@ -13,5 +13,3 @@ export enum NOTIFICATIONS {
   ORDER_CREATED = "Order was successfully created",
   ORDER_NOT_CREATED = "Failed to create an order. Please try again later",
 }
-
-export const EMPTY_TABLE_ROW_TEXT = "No records created yet";
