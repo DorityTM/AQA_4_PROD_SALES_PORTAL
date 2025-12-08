@@ -14,5 +14,12 @@ export const apiConfig = {
     orders: "/api/orders",
     orderById: (id: string) => `/api/orders/${id}/`,
     ordersAll: "/api/orders/all",
+    orderDelivery: (id: string) => `/api/orders/${id}/delivery`,
+    orderReceive: (id: string) => `/api/orders/${id}/receive`,
+    orderStatus: (id: string) => `/api/orders/${id}/status`,
+    orderAssignManager: (orderId: string, managerId: string) => `/api/orders/${orderId}/assign-manager/${managerId}`,
+    orderUnassignManager: (orderId: string) => `/api/orders/${orderId}/unassign-manager`,
+    orderComments: (orderId: string) => `/api/orders/${orderId}/comments`,
+    orderCommentById: (orderId: string, commentId: string) => `/api/orders/${orderId}/comments/${commentId}`,
   },
 };
