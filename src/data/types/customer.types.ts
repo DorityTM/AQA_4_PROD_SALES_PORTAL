@@ -1,7 +1,7 @@
 import { COUNTRY } from "data/salesPortal/country";
 import { ID, ICreatedOn, SortOrder, IResponseFields } from "./core.types";
 
-export type Country = keyof typeof COUNTRY;
+export type Country = (typeof COUNTRY)[keyof typeof COUNTRY];
 
 export interface ICustomer {
   email: string;

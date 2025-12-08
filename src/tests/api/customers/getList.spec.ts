@@ -33,7 +33,7 @@ test.describe("CST-003 Get customers list (Filter by Country)", () => {
 
   for (const targetCountry of Object.values(COUNTRY)) {
     test(
-      `@api @customers @regression CST-003: GET /api/customers?country Filter customers by ${targetCountry}`,
+      `CST-003: GET /api/customers?country Filter customers by ${targetCountry}`,
       { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.REGRESSION] },
       async ({ customersApi }) => {
         const response = await customersApi.getList(token, {
