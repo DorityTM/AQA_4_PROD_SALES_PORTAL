@@ -1,7 +1,12 @@
 import dotenv from "dotenv";
+import fs from "fs";
 
 export function loadEnv() {
-  dotenv.config({ path: ".env" });
+  if (fs.existsSync(`.env`)) {
+    dotenv.config({ path: ".env" });
+  }
   const env = process.env.ENV ?? "local";
-  dotenv.config({ path: `.env.${env}`, override: true });
+  if (fs.existsSync(`.env.${env}`)) {
+    dotenv.config({ path: `.env.${env}`, override: true });
+  }
 }
