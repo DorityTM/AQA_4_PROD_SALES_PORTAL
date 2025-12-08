@@ -515,7 +515,7 @@ This project is licensed under the ISC License.
 **Contributors:**
 - **Aliaksei Harashchuk** - [GitHub Profile](https://github.com/aharashchuk)
 - **Diana Shurukhina** - [GitHub Profile](https://github.com/DiShurukhina)
-- **Palina Rapoport** - [GitHub Profile](https://github.com/rapolinka)
+- **Palina Razumeika** - [GitHub Profile](https://github.com/rapolinka)
 - **Oleg Shukhrat** - [GitHub Profile](https://github.com/os8580)
 - **Nail Apkaev** - [GitHub Profile](https://github.com/NailApkaev)
 
