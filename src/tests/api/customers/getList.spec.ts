@@ -3,12 +3,13 @@
 // Service returns ICustomerListResponse with Customers array
 import { test, expect } from "fixtures/api.fixture";
 import { STATUS_CODES } from "data/statusCodes";
+import { TAGS } from "data/tags";
 import { COUNTRY } from "data/salesPortal/country";
 
 test.describe("CST-003 Get customers list (Filter by Country)", () => {
   test(
     "CST-003: GET /api/customers?country returns only selected country",
-    { tag: ["@api", "@customers", "@regression"] },
+    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.REGRESSION] },
     async ({ loginApiService, customersApi }) => {
       const token = await loginApiService.loginAsAdmin();
       const targetCountry = COUNTRY.USA;

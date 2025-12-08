@@ -3,6 +3,7 @@
 // Service handles validation and returns ICustomerFromResponse directly
 import { test, expect } from "fixtures/api.fixture";
 import { STATUS_CODES } from "data/statusCodes";
+import { TAGS } from "data/tags";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
 import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { createCustomerSchema } from "data/schemas/customers/create.schema";
@@ -24,10 +25,9 @@ test.describe("CST-001/002 Create customer", () => {
     }
     createdCustomerIds = [];
   });
-
   test(
     "CST-001: Create new customer (Valid Data)",
-    { tag: ["@api", "@customers", "@smoke"] },
+    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.SMOKE] },
     async ({ customersApi }) => {
       const expectedEmail = `tester+${faker.string.alphanumeric({ length: 6 })}@gmail.com`;
       const expectedCountry = COUNTRY.USA;

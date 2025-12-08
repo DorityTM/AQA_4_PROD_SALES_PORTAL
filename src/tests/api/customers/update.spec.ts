@@ -3,6 +3,7 @@
 // Service returns ICustomerFromResponse directly
 import { test, expect } from "fixtures/api.fixture";
 import { STATUS_CODES } from "data/statusCodes";
+import { TAGS } from "data/tags";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
 import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { updateCustomerSchema } from "data/schemas/customers/update.schema";
@@ -25,7 +26,7 @@ test.describe("CST-006/007/011 Update customer", () => {
 
   test(
     "CST-006: Update customer with valid data",
-    { tag: ["@api", "@customers", "@smoke"] },
+    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.SMOKE] },
     async ({ customersApi }) => {
       const created = await customersApi.create(token, generateCustomerData());
       const id = created.body.Customer._id;
@@ -59,7 +60,7 @@ test.describe("CST-006/007/011 Update customer", () => {
 
   test(
     "CST-007: Update customer with invalid Id",
-    { tag: ["@api", "@customers", "@regression"] },
+    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.REGRESSION] },
     async ({ loginApiService, customersApi }) => {
       const token = await loginApiService.loginAsAdmin();
       const invalidId = "000000000000000000000000";
@@ -74,7 +75,7 @@ test.describe("CST-006/007/011 Update customer", () => {
 
   test(
     "CST-011: Update customer with invalid phone",
-    { tag: ["@api", "@customers", "@regression"] },
+    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.REGRESSION] },
     async ({ loginApiService, customersApi }) => {
       const token = await loginApiService.loginAsAdmin();
       const created = await customersApi.create(token, generateCustomerData());
