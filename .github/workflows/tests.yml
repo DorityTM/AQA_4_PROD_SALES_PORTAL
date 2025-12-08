@@ -28,6 +28,8 @@ jobs:
     steps:
       # Checkout
       - uses: actions/checkout@v4
+      - name: Check vars
+        run: echo ${SALES_PORTAL_API_URL}
       # Install OpenJDK
       - name: Install OpenJDK
         run: |
