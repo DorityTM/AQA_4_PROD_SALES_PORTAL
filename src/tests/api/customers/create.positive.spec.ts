@@ -23,7 +23,7 @@ test.describe("[API][Customers][Create Customer - DDT - Positive Tests]", () => 
     test(
       tc.title,
       {
-        tag: [TAGS.REGRESSION, TAGS.API],
+        tag: [TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS],
       },
       async ({ customersApi }) => {
         const customerData = tc.customerData;

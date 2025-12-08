@@ -42,14 +42,18 @@ test.describe("CST-004/005 Get customer by Id", () => {
     },
   );
 
-  test("CST-005: GET by invalid Id returns 404", async ({ loginApiService, customersApi }) => {
-    const token = await loginApiService.loginAsAdmin();
-    const invalidId = "000000000000000000000000";
+  test(
+    "CST-005: GET by invalid Id returns 404",
+    { tag: ["@api", "@customers", "@regression"] },
+    async ({ loginApiService, customersApi }) => {
+      const token = await loginApiService.loginAsAdmin();
+      const invalidId = "000000000000000000000000";
 
-    const response = await customersApi.getById(token, invalidId);
+      const response = await customersApi.getById(token, invalidId);
 
-    expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
-    expect(response.body.IsSuccess).toBe(false);
-    expect(response.body.ErrorMessage).toBeTruthy();
-  });
+      expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
+      expect(response.body.IsSuccess).toBe(false);
+      expect(response.body.ErrorMessage).toBeTruthy();
+    },
+  );
 });

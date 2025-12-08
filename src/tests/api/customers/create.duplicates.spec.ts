@@ -20,7 +20,7 @@ test.describe("[API][Customers][Unique email]", () => {
 
   test(
     "Customer is not created with duplicated email",
-    { tag: [TAGS.API, TAGS.REGRESSION] },
+    { tag: [TAGS.API, TAGS.REGRESSION, TAGS.CUSTOMERS] },
     async ({ customersApi }) => {
       const initial = generateCustomerData();
       const createResponse = await customersApi.create(token, initial);

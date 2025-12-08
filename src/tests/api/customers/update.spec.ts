@@ -57,40 +57,48 @@ test.describe("CST-006/007/011 Update customer", () => {
     },
   );
 
-  test("CST-007: Update customer with invalid Id", async ({ loginApiService, customersApi }) => {
-    const token = await loginApiService.loginAsAdmin();
-    const invalidId = "000000000000000000000000";
+  test(
+    "CST-007: Update customer with invalid Id",
+    { tag: ["@api", "@customers", "@regression"] },
+    async ({ loginApiService, customersApi }) => {
+      const token = await loginApiService.loginAsAdmin();
+      const invalidId = "000000000000000000000000";
 
-    const response = await customersApi.update(token, invalidId, generateCustomerData());
+      const response = await customersApi.update(token, invalidId, generateCustomerData());
 
-    expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
-    expect(response.body.IsSuccess).toBe(false);
-    expect(response.body.ErrorMessage).toBeTruthy();
-  });
+      expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
+      expect(response.body.IsSuccess).toBe(false);
+      expect(response.body.ErrorMessage).toBeTruthy();
+    },
+  );
 
-  test("CST-011: Update customer with invalid phone", async ({ loginApiService, customersApi }) => {
-    const token = await loginApiService.loginAsAdmin();
-    const created = await customersApi.create(token, generateCustomerData());
-    const id = created.body.Customer._id;
-    createdCustomerIds.push(id);
-    const original = created.body.Customer;
+  test(
+    "CST-011: Update customer with invalid phone",
+    { tag: ["@api", "@customers", "@regression"] },
+    async ({ loginApiService, customersApi }) => {
+      const token = await loginApiService.loginAsAdmin();
+      const created = await customersApi.create(token, generateCustomerData());
+      const id = created.body.Customer._id;
+      createdCustomerIds.push(id);
+      const original = created.body.Customer;
 
-    const invalidPhone = "1555-ABC";
+      const invalidPhone = "1555-ABC";
 
-    const response = await customersApi.update(token, id, {
-      email: original.email,
-      name: original.name,
-      country: original.country,
-      city: original.city,
-      street: original.street,
-      house: original.house,
-      flat: original.flat,
-      phone: invalidPhone,
-      notes: original.notes,
-    });
+      const response = await customersApi.update(token, id, {
+        email: original.email,
+        name: original.name,
+        country: original.country,
+        city: original.city,
+        street: original.street,
+        house: original.house,
+        flat: original.flat,
+        phone: invalidPhone,
+        notes: original.notes,
+      });
 
-    expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
-    expect(response.body.IsSuccess).toBe(false);
-    expect(response.body.ErrorMessage).toBeTruthy();
-  });
+      expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
+      expect(response.body.IsSuccess).toBe(false);
+      expect(response.body.ErrorMessage).toBeTruthy();
+    },
+  );
 });
