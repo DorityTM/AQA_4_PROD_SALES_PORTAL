@@ -12,27 +12,42 @@ import { faker } from "@faker-js/faker";
 
 test.describe("CST-001/002 Create customer", () => {
   let token: string;
+  let createdCustomerIds: string[] = [];
 
   test.beforeAll(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
   });
 
-  test("@api @customers @smoke CST-001: Create new customer (Valid Data)", async ({ customersApi }) => {
-    const expectedEmail = `tester+${faker.string.alphanumeric({ length: 6 })}@gmail.com`;
-    const expectedCountry = COUNTRY.USA;
-    const payload = generateCustomerData({
-      email: expectedEmail,
-      country: expectedCountry,
-    });
-
-    const created = await customersApi.create(token, payload);
-    expect(created.status).toBe(STATUS_CODES.CREATED);
-    validateJsonSchema(created.body, createCustomerSchema);
-    expect(created.body.Customer._id).toBeTruthy();
-    expect(created.body.Customer.email).toBe(expectedEmail);
-    expect(created.body.Customer.name).toBe(payload.name);
-    expect(created.body.Customer.country).toBe(expectedCountry);
+  test.afterEach(async ({ customersApi }) => {
+    for (const id of createdCustomerIds) {
+      await customersApi.delete(token, id);
+    }
+    createdCustomerIds = [];
   });
+
+  test(
+    "CST-001: Create new customer (Valid Data)",
+    { tag: ["@api", "@customers", "@smoke"] },
+    async ({ customersApi }) => {
+      const expectedEmail = `tester+${faker.string.alphanumeric({ length: 6 })}@gmail.com`;
+      const expectedCountry = COUNTRY.USA;
+      const payload = generateCustomerData({
+        email: expectedEmail,
+        country: expectedCountry,
+      });
+
+      const created = await customersApi.create(token, payload);
+      if (created.body.Customer?._id) {
+        createdCustomerIds.push(created.body.Customer._id);
+      }
+      expect(created.status).toBe(STATUS_CODES.CREATED);
+      validateJsonSchema(created.body, createCustomerSchema);
+      expect(created.body.Customer._id).toBeTruthy();
+      expect(created.body.Customer.email).toBe(expectedEmail);
+      expect(created.body.Customer.name).toBe(payload.name);
+      expect(created.body.Customer.country).toBe(expectedCountry);
+    },
+  );
 
   // test("CST-002: Create customer with Invalid Enum (Country)", async ({ loginApiService, customersApi }) => {
   //   const token = await loginApiService.loginAsAdmin();

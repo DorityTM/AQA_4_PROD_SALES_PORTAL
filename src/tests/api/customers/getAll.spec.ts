@@ -7,20 +7,21 @@ import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { getAllCustomersSchema } from "data/schemas/customers/getAllCustomers.schema";
 
 test.describe("CST-010 Get ALL customers (Technical endpoint)", () => {
-  test("@api @customers @smoke CST-010: GET /api/customers/all returns array of customers", async ({
-    loginApiService,
-    customersApi,
-  }) => {
-    const token = await loginApiService.loginAsAdmin();
+  test(
+    "CST-010: GET /api/customers/all returns array of customers",
+    { tag: ["@api", "@customers", "@smoke"] },
+    async ({ loginApiService, customersApi }) => {
+      const token = await loginApiService.loginAsAdmin();
 
-    const response = await customersApi.getAll(token);
+      const response = await customersApi.getAll(token);
 
-    expect(response.status).toBe(STATUS_CODES.OK);
-    expect(response.body.IsSuccess).toBe(true);
-    expect(response.body.ErrorMessage).toBeNull();
+      expect(response.status).toBe(STATUS_CODES.OK);
+      expect(response.body.IsSuccess).toBe(true);
+      expect(response.body.ErrorMessage).toBeNull();
 
-    validateJsonSchema(response.body, getAllCustomersSchema);
+      validateJsonSchema(response.body, getAllCustomersSchema);
 
-    expect(Array.isArray(response.body.Customers)).toBe(true);
-  });
+      expect(Array.isArray(response.body.Customers)).toBe(true);
+    },
+  );
 });

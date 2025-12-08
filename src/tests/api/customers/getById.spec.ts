@@ -10,24 +10,37 @@ import { getByIdCustomerSchema } from "data/schemas/customers/getById.schema";
 
 test.describe("CST-004/005 Get customer by Id", () => {
   let token: string;
+  let createdCustomerIds: string[] = [];
 
   test.beforeAll(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
   });
 
-  test("@api @customers @smoke CST-004: GET by valid Id returns customer", async ({ customersApi }) => {
-    const create = await customersApi.create(token, generateCustomerData());
-    expect(create.status).toBe(STATUS_CODES.CREATED);
-
-    const id = create.body.Customer._id;
-    const response = await customersApi.getById(token, id);
-
-    expect(response.status).toBe(STATUS_CODES.OK);
-    expect(response.body.IsSuccess).toBe(true);
-    expect(response.body.ErrorMessage).toBeNull();
-    validateJsonSchema(response.body, getByIdCustomerSchema);
-    expect(response.body.Customer._id).toBe(id);
+  test.afterEach(async ({ customersApi }) => {
+    for (const id of createdCustomerIds) {
+      await customersApi.delete(token, id);
+    }
+    createdCustomerIds = [];
   });
+
+  test(
+    "CST-004: GET by valid Id returns customer",
+    { tag: ["@api", "@customers", "@smoke"] },
+    async ({ customersApi }) => {
+      const create = await customersApi.create(token, generateCustomerData());
+      expect(create.status).toBe(STATUS_CODES.CREATED);
+
+      const id = create.body.Customer._id;
+      createdCustomerIds.push(id);
+      const response = await customersApi.getById(token, id);
+
+      expect(response.status).toBe(STATUS_CODES.OK);
+      expect(response.body.IsSuccess).toBe(true);
+      expect(response.body.ErrorMessage).toBeNull();
+      validateJsonSchema(response.body, getByIdCustomerSchema);
+      expect(response.body.Customer._id).toBe(id);
+    },
+  );
 
   test("CST-005: GET by invalid Id returns 404", async ({ loginApiService, customersApi }) => {
     const token = await loginApiService.loginAsAdmin();

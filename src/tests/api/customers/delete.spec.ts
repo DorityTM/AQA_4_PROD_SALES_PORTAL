@@ -8,14 +8,23 @@ import { generateCustomerData } from "data/salesPortal/customers/generateCustome
 
 test.describe("CST-008/009 Delete customer", () => {
   let token: string;
+  let createdCustomerIds: string[] = [];
 
   test.beforeAll(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
   });
 
-  test("@api @customers @smoke CST-008: Delete customer (Valid Id)", async ({ customersApi }) => {
+  test.afterEach(async ({ customersApi }) => {
+    for (const id of createdCustomerIds) {
+      await customersApi.delete(token, id);
+    }
+    createdCustomerIds = [];
+  });
+
+  test("CST-008: Delete customer (Valid Id)", { tag: ["@api", "@customers", "@smoke"] }, async ({ customersApi }) => {
     const created = await customersApi.create(token, generateCustomerData());
     const id = created.body.Customer._id;
+    createdCustomerIds.push(id);
 
     const deleted = await customersApi.delete(token, id);
     expect(deleted.status).toBe(STATUS_CODES.DELETED);
