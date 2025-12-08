@@ -1,7 +1,12 @@
 import { defineConfig, devices } from "@playwright/test";
 import dotenv from "dotenv";
+import path from "path";
 
-dotenv.config();
+// Load environment variables from the appropriate .env file.
+// Default: .env; Dev: .env.dev when TEST_ENV=dev
+const TEST_ENV = process.env.TEST_ENV?.trim();
+const envFile = TEST_ENV === "dev" ? ".env.dev" : ".env";
+dotenv.config({ path: path.resolve(process.cwd(), envFile) });
 
 /**
  * Read environment variables from file.
@@ -33,6 +38,7 @@ export default defineConfig({
       {
         suiteTitle: false,
         environmentInfo: {
+          ENV: TEST_ENV ?? "default",
           UI_URL: process.env.SALES_PORTAL_URL,
           API_URL: process.env.SALES_PORTAL_API_URL,
         },
