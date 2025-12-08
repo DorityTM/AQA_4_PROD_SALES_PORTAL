@@ -17,13 +17,17 @@ export const deleteProductNegativeCases: ICreateProductCase[] = [
     title: "404 returned for empty id",
     id: "",
     expectedStatus: STATUS_CODES.NOT_FOUND,
-    expectedErrorMessage: RESPONSE_ERRORS.NOT_FOUND,
+    get expectedErrorMessage() {
+      return RESPONSE_ERRORS.PRODUCT_NOT_FOUND(this.id!);
+    },
   },
   {
     title: "404 returned for non-existing id of valid format",
     id: new ObjectId().toHexString(),
     expectedStatus: STATUS_CODES.NOT_FOUND,
-    expectedErrorMessage: RESPONSE_ERRORS.NOT_FOUND,
+    get expectedErrorMessage() {
+      return RESPONSE_ERRORS.PRODUCT_NOT_FOUND(this.id!);
+    },
   },
   {
     title: "400 returned for id of invalid format",
