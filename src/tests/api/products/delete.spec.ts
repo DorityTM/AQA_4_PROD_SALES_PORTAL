@@ -6,7 +6,7 @@ import {
 import { TAGS } from "data/tags";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 
-test.describe("[API] [Sales Portal] [Products]", () => {
+test.describe("[API][Products]", () => {
   let id = "";
   let token = "";
 

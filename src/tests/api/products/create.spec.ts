@@ -12,7 +12,7 @@ import {
 } from "data/salesPortal/products/createProductTestData";
 import { TAGS } from "data/tags";
 
-test.describe("[API][Sales Portal][Products]", () => {
+test.describe("[API][Products]", () => {
   let id = "";
   let token = "";
 
