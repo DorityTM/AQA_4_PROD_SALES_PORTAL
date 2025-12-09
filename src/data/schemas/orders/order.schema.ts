@@ -1,11 +1,9 @@
-import { obligatoryFieldsSchema, obligatoryRequiredFields } from "../core.schema";
 import { productSchema } from "../products/product.schema";
 import { customerSchema } from "../customers/customer.schema";
 import { deliveryInfoSchema } from "../delivery/delivery.schema";
 import { ORDER_STATUS, ORDER_HISTORY_ACTIONS } from "data/salesPortal/order-status";
-import type { OrdersTableHeader } from "data/types/order.types";
 
-const orderProductSchema = {
+export const orderProductSchema = {
   type: "object",
   properties: {
     ...productSchema.properties,
@@ -15,7 +13,7 @@ const orderProductSchema = {
   additionalProperties: false,
 };
 
-const commentSchema = {
+export const commentSchema = {
   type: "object",
   properties: {
     _id: { type: "string" },
@@ -26,7 +24,7 @@ const commentSchema = {
   additionalProperties: false,
 };
 
-const orderHistorySchema = {
+export const orderHistorySchema = {
   type: "object",
   properties: {
     _id: { type: "string" },
@@ -66,7 +64,7 @@ const orderHistorySchema = {
   additionalProperties: false,
 };
 
-const orderFromResponseSchema = {
+export const orderFromResponseSchema = {
   type: "object",
   properties: {
     _id: { type: "string" },
@@ -108,62 +106,5 @@ const orderFromResponseSchema = {
     "assignedManager",
     "delivery",
   ],
-  additionalProperties: false,
-};
-
-export const getOrderSchema = {
-  type: "object",
-  properties: {
-    order: orderFromResponseSchema,
-    ...obligatoryFieldsSchema,
-  },
-  required: ["order", ...obligatoryRequiredFields],
-  additionalProperties: false,
-};
-
-export const getAllOrdersSchema = {
-  type: "object",
-  properties: {
-    orders: {
-      type: "array",
-      items: orderFromResponseSchema,
-    },
-    total: { type: "number" },
-    page: { type: "number" },
-    limit: { type: "number" },
-    search: { type: "string" },
-    status: {
-      type: "array",
-      items: {
-        type: "string",
-        enum: Object.values(ORDER_STATUS),
-      },
-    },
-    sorting: {
-      type: "object",
-      properties: {
-        sortField: {
-          type: "string",
-          enum: [
-            "orderNumber",
-            "email",
-            "price",
-            "delivery",
-            "status",
-            "assignedManager",
-            "createdOn",
-          ] as OrdersTableHeader[],
-        },
-        sortOrder: {
-          type: "string",
-          enum: ["asc", "desc"],
-        },
-      },
-      required: ["sortField", "sortOrder"],
-      additionalProperties: false,
-    },
-    ...obligatoryFieldsSchema,
-  },
-  required: ["orders", "total", "page", "limit", "search", "status", "sorting", ...obligatoryRequiredFields],
   additionalProperties: false,
 };
