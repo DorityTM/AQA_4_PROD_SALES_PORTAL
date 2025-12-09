@@ -1,12 +1,13 @@
 import { COUNTRY } from "data/salesPortal/country";
 import { ID, ICreatedOn, SortOrder, IResponseFields } from "./core.types";
 
-export type Country = keyof typeof COUNTRY;
+export type Country = (typeof COUNTRY)[keyof typeof COUNTRY];
+//export type Country = "USA" | "Canada" | "Belarus" | "Ukraine" | "Germany" | "France" | "Great Britain" | "Russia";
 
 export interface ICustomer {
   email: string;
   name: string;
-  country: COUNTRY;
+  country: Country;
   city: string;
   street: string;
   house: number;

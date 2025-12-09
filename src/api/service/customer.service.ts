@@ -1,5 +1,6 @@
 import { CustomersApi } from "api/api/customers.api";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
+import { getListCustomersSchema } from "data/schemas/customers/getList.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import {
   ICustomer,
@@ -59,6 +60,7 @@ export class CustomersApiService {
       status: STATUS_CODES.OK,
       IsSuccess: true,
       ErrorMessage: null,
+      schema: getListCustomersSchema
     });
 
     return response.body;
