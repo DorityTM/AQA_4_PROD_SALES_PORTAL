@@ -9,7 +9,6 @@ export class RequestApi extends BaseApiClient {
   }
 
   private response: APIResponse | undefined;
-  private testInfo = test.info;
 
   async send<T extends object | null>(options: IRequestOptions): Promise<IResponse<T>> {
     return await test.step(`Request ${options.method.toUpperCase()} ${options.url}`, async (step) => {
