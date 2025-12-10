@@ -43,7 +43,6 @@ test.describe("[API][Products]", () => {
           });
 
           const updatedProduct = updatedProductResponse.body.Product;
-          // expect(_.omit(updatedProduct, ["_id", "createdOn"])).toEqual(updatedProductData);
           expect.soft(updatedProduct).toEqual(updatedProductData);
           expect.soft(id).toBe(updatedProduct._id);
         },
