@@ -1,4 +1,4 @@
-import { APIRequestContext, APIResponse, test } from "@playwright/test";
+import { APIRequestContext, APIResponse, test, TestStepInfo } from "@playwright/test";
 import { IRequestOptions, IResponse } from "data/types/core.types";
 import { BaseApiClient } from "./baseApiClient";
 import _ from "lodash";
@@ -12,24 +12,26 @@ export class RequestApi extends BaseApiClient {
   private testInfo = test.info;
 
   async send<T extends object | null>(options: IRequestOptions): Promise<IResponse<T>> {
-    try {
-      const url = options.baseURL + options.url;
-      const fetchOptions = _.omit(options, ["baseURL", "url"]);
-
-      await this.attachRequest(options);
-
-      this.response = await this.requestContext.fetch(url, fetchOptions);
-
-      if (this.response.status() >= 500) throw new Error("Request failed with status " + this.response.status());
-      const result = await this.transformResponse();
-
-      await this.attachResponse(options, result);
-
-      return result;
-    } catch (err) {
-      console.log((err as Error).message);
-      throw err;
-    }
+    return await test.step(`Request ${options.method.toUpperCase()} ${options.url}`, async (step) => {
+      try {
+        await this.attachRequest(options, step);
+        this.response = await this.requestContext.fetch(
+          options.baseURL + options.url,
+          _.omit(options, ["baseURL", "url"]),
+        );
+        const result = await this.transformResponse();
+        await this.attachResponse(options, result, step);
+        return result;
+      } catch (err) {
+        console.log("Error message: " + (err as Error).message);
+        console.log("Cause: " + JSON.stringify((err as Error).cause));
+        await step.attach("Error", {
+          body: String(err),
+          contentType: "text/plain",
+        });
+        throw err;
+      }
+    });
   }
 
   protected async transformResponse() {
@@ -48,12 +50,12 @@ export class RequestApi extends BaseApiClient {
     };
   }
 
-  private async attachRequest(options: IRequestOptions) {
-    await this.testInfo().attach(`Request ${options.method.toUpperCase()} ${options.url}`, {
+  private async attachRequest(options: IRequestOptions, step: TestStepInfo) {
+    await step.attach(`Request ${options.method.toUpperCase()} ${options.url}`, {
       body: JSON.stringify(
         {
           headers: options.headers,
-          body: options.data,
+          ...(options.data && { body: options.data }),
         },
         null,
         2,
@@ -62,8 +64,12 @@ export class RequestApi extends BaseApiClient {
     });
   }
 
-  private async attachResponse<T extends object | null>(options: IRequestOptions, response: IResponse<T>) {
-    await this.testInfo().attach(`Response ${response.status} ${options.method.toUpperCase()} ${options.url}`, {
+  private async attachResponse<T extends object | null>(
+    options: IRequestOptions,
+    response: IResponse<T>,
+    step: TestStepInfo,
+  ) {
+    await step.attach(`Response ${response.status} ${options.method.toUpperCase()} ${options.url}`, {
       body: JSON.stringify(
         {
           headers: response.headers,
