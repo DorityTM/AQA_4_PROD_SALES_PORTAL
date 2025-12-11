@@ -1,5 +1,6 @@
 import { productSchema } from "../products/product.schema";
 import { customerSchema } from "../customers/customer.schema";
+import { userSchema } from "../users/user.schema";
 import { deliveryInfoSchema } from "../delivery/delivery.schema";
 import { ORDER_STATUS, ORDER_HISTORY_ACTIONS } from "data/salesPortal/order-status";
 
@@ -27,7 +28,6 @@ export const commentSchema = {
 export const orderHistorySchema = {
   type: "object",
   properties: {
-    _id: { type: "string" },
     status: {
       type: "string",
       enum: Object.values(ORDER_STATUS),
@@ -41,25 +41,28 @@ export const orderHistorySchema = {
     delivery: {
       anyOf: [deliveryInfoSchema, { type: "null" }],
     },
-    assignedManager: {
-      anyOf: [{ type: "string" }, { type: "null" }],
-    },
     changedOn: { type: "string" },
     action: {
       type: "string",
       enum: Object.values(ORDER_HISTORY_ACTIONS),
     },
+    performer: {
+      anyOf: [userSchema, { type: "null" }],
+    },
+    assignedManager: {
+      anyOf: [{ type: "string" }, { type: "null" }],
+    },
   },
   required: [
-    "_id",
     "status",
     "customer",
     "products",
     "total_price",
     "delivery",
-    "assignedManager",
     "changedOn",
     "action",
+    "performer",
+    "assignedManager",
   ],
   additionalProperties: false,
 };
