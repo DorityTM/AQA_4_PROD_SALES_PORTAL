@@ -38,4 +38,22 @@ export class ProductsApiService {
       status: STATUS_CODES.DELETED,
     });
   }
+
+  async deleteProducts(token: string, ids: string[]) {
+    for (const id of ids) {
+      await this.delete(token, id);
+    }
+  }
+
+  async deleteAllProducts(token: string) {
+    const productsResponse = await this.productsApi.getAll(token);
+    validateResponse(productsResponse, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+    });
+    const products = productsResponse.body.Products;
+    const ids = products.map((product) => product._id);
+    await this.deleteProducts(token, ids);
+  }
 }
