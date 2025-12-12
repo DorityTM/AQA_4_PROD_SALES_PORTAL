@@ -86,7 +86,7 @@ export class OrdersApiService {
     return order;
   }
 
-  async deleteOrder(token: string, id: string) {
+  async delete(token: string, id: string) {
     const res = await this.ordersApi.delete(token, id);
     validateResponse(res, { status: STATUS_CODES.DELETED });
   }
@@ -102,7 +102,7 @@ export class OrdersApiService {
     const order = response.body.Order;
     const customerId = order.customer._id;
     const productIds = order.products.map((product) => product._id);
-    await this.deleteOrder(token, orderId);
+    await this.delete(token, orderId);
     await this.customerApiService.delete(token, customerId);
     await this.productsApiService.deleteProducts(token, productIds);
   }
