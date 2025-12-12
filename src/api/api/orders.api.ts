@@ -1,10 +1,12 @@
 import { IApiClient } from "api/apiClients/types";
 import { apiConfig } from "config/apiConfig";
+import { IDeliveryInfo } from "data/salesPortal/delivery-status";
+import { ORDER_STATUS } from "data/salesPortal/order-status";
 import { IRequestOptions } from "data/types/core.types";
 import { IOrderCreateBody, IOrderResponse, IComment } from "data/types/order.types";
 
 export class OrdersApi {
-  constructor(private apiClinet: IApiClient) {}
+  constructor(private apiClient: IApiClient) {}
 
   async create(token: string, payload: IOrderCreateBody) {
     const options: IRequestOptions = {
@@ -17,7 +19,66 @@ export class OrdersApi {
       },
       data: payload,
     };
-    return await this.apiClinet.send<IOrderResponse>(options);
+    return await this.apiClient.send<IOrderResponse>(options);
+  }
+
+  async getById(_id: string, token: string) {
+    const options: IRequestOptions = {
+      baseURL: apiConfig.baseURL,
+      url: apiConfig.endpoints.orderById(_id),
+      method: "get",
+      headers: {
+        "content-type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    };
+
+    return await this.apiClient.send<IOrderResponse>(options);
+  }
+
+  async addDelivery(_id: string, delivery: IDeliveryInfo, token: string) {
+    const options: IRequestOptions = {
+      baseURL: apiConfig.baseURL,
+      url: apiConfig.endpoints.orderDelivery(_id),
+      method: "post",
+      data: delivery,
+      headers: {
+        "content-type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    };
+
+    return await this.apiClient.send<IOrderResponse>(options);
+  }
+
+  async updateStatus(_id: string, status: ORDER_STATUS, token: string) {
+    const options: IRequestOptions = {
+      baseURL: apiConfig.baseURL,
+      url: apiConfig.endpoints.orderStatus(_id),
+      method: "put",
+      data: { status: status },
+      headers: {
+        "content-type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    };
+
+    return await this.apiClient.send<IOrderResponse>(options);
+  }
+
+  async receiveProducts(_id: string, productsId: string[], token: string) {
+    const options: IRequestOptions = {
+      baseURL: apiConfig.baseURL,
+      url: apiConfig.endpoints.orderReceive(_id),
+      method: "post",
+      data: { products: productsId },
+      headers: {
+        "content-type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    };
+
+    return await this.apiClient.send<IOrderResponse>(options);
   }
 
   async delete(token: string, _id: string) {
@@ -30,7 +91,7 @@ export class OrdersApi {
         Authorization: `Bearer ${token}`,
       },
     };
-    return await this.apiClinet.send<null>(options);
+    return await this.apiClient.send<null>(options);
   }
 
   async addComment(token: string, orderId: string, payload: Partial<IComment>) {
