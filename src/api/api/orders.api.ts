@@ -103,9 +103,9 @@ export class OrdersApi {
         "content-type": "application/json",
         Authorization: `Bearer ${token}`,
       },
-      data: { text: payload.text },
+      data: { comment: payload.text },
     };
-    return await this.apiClinet.send<IOrderResponse>(options);
+    return await this.apiClient.send<IOrderResponse>(options);
   }
 
   async deleteComment(token: string, orderId: string, commentId: string) {
@@ -118,6 +118,6 @@ export class OrdersApi {
         Authorization: `Bearer ${token}`,
       },
     };
-    return await this.apiClinet.send<null>(options);
+    return await this.apiClient.send<null>(options);
   }
 }
