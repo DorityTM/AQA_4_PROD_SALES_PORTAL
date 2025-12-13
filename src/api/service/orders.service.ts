@@ -6,16 +6,14 @@ import { IOrderCreateBody, IOrderFromResponse, IOrderUpdateBody } from "data/typ
 import { CustomersApiService } from "api/service/customer.service";
 import { ProductsApiService } from "api/service/products.service";
 import { validateResponse } from "utils/validation/validateResponse.utils";
-import { CustomersApiService } from "api/service/customer.service";
 import { generateDelivery } from "data/salesPortal/orders/generateDeliveryData";
-import { ProductsApiService } from "api/service/products.service";
 import { getOrderSchema } from "data/schemas/orders/get.schema";
 
 export class OrdersApiService {
   constructor(
     private ordersApi: OrdersApi,
-  private productsApiService?: ProductsApiService,
-  private customersApiService?: CustomersApiService,
+    private productsApiService?: ProductsApiService,
+    private customersApiService?: CustomersApiService,
   ) {}
 
   async create(token: string, customerId: string, productId: string[]): Promise<IOrderFromResponse> {
@@ -37,13 +35,18 @@ export class OrdersApiService {
   }
 
   async createOrderAndEntities(token: string, numberOfProducts: number) {
-    const createdCustomer = await this.customerApiService.create(token);
+    if (!this.customersApiService || !this.productsApiService) {
+      throw new Error("customersApiService and productsApiService are required");
+    }
+    const customersService = this.customersApiService;
+    const productsService = this.productsApiService;
+    const createdCustomer = await customersService.create(token);
     const orderData: IOrderCreateBody = {
       customer: createdCustomer._id,
       products: [],
     };
     for (let i = 0; i < numberOfProducts; i++) {
-      const createdProduct = await this.productsApiService.create(token);
+      const createdProduct = await productsService.create(token);
       orderData.products.push(createdProduct._id);
     }
     const response = await this.ordersApi.create(token, orderData);
