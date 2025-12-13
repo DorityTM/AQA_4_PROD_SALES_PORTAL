@@ -22,6 +22,13 @@ export interface IApi {
   customersApiService: CustomersApiService;
   ordersApiService: OrdersApiService;
   ordersFacadeService: OrdersFacadeService;
+
+  // utils
+  cleanup: {
+    addOrder: (orderId: string, customerId: string, productIds: string[]) => void;
+    addProduct: (id: string) => void;
+    addCustomer: (id: string) => void;
+  };
 }
 
 const test = base.extend<IApi>({
@@ -43,6 +50,7 @@ const test = base.extend<IApi>({
     const api = new CustomersApi(apiClient);
     await use(api);
   },
+
   ordersApi: async ({ request }, use) => {
     const apiClient = new RequestApi(request);
     const api = new OrdersApi(apiClient);
@@ -59,12 +67,35 @@ const test = base.extend<IApi>({
   loginApiService: async ({ loginApi }, use) => {
     await use(new LoginService(loginApi));
   },
-  ordersApiService: async ({ ordersApi, customersApiService, productsApiService }, use) => {
-    await use(new OrdersApiService(ordersApi, customersApiService, productsApiService));
+  ordersApiService: async ({ ordersApi, productsApiService, customersApiService }, use) => {
+    await use(new OrdersApiService(ordersApi, productsApiService, customersApiService));
   },
   ordersFacadeService: async ({ ordersApi, customersApiService, productsApiService }, use) => {
     await use(new OrdersFacadeService(ordersApi, customersApiService, productsApiService));
   },
+
+  // per-test cleanup registry with automatic teardown
+  cleanup: async ({ loginApiService, ordersApiService, productsApiService, customersApiService }, use) => {
+    const state = {
+      orders: new Array<{ orderId: string; customerId: string; productIds: string[] }>(),
+      products: new Set<string>(),
+      customers: new Set<string>(),
+    };
+
+    await use({
+      addOrder: (orderId: string, customerId: string, productIds: string[]) =>
+        state.orders.push({ orderId, customerId, productIds }),
+      addProduct: (id: string) => state.products.add(id),
+      addCustomer: (id: string) => state.customers.add(id),
+    });
+
+    const token = await loginApiService.loginAsAdmin();
+
+    await Promise.all(state.orders.map((o) => ordersApiService.fullDelete(token, o)));
+    await Promise.all(Array.from(state.products).map((id) => productsApiService.delete(token, id)));
+    await Promise.all(Array.from(state.customers).map((id) => customersApiService.delete(token, id)));
+  },
 });
 
 export { test, expect };
+

@@ -2,18 +2,18 @@ import { OrdersApi } from "api/api/orders.api";
 import { orderFromResponseSchema } from "data/schemas/orders/order.schema";
 import { ORDER_STATUS } from "data/salesPortal/order-status";
 import { STATUS_CODES } from "data/statusCodes";
-import { IOrderCreateBody, IOrderFromResponse } from "data/types/order.types";
-import { validateResponse } from "utils/validation/validateResponse.utils";
+import { IOrderCreateBody, IOrderFromResponse, IOrderUpdateBody } from "data/types/order.types";
 import { CustomersApiService } from "api/service/customer.service";
-import { generateDelivery } from "data/salesPortal/orders/generateDeliveryData";
 import { ProductsApiService } from "api/service/products.service";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import { generateDelivery } from "data/salesPortal/orders/generateDeliveryData";
 import { getOrderSchema } from "data/schemas/orders/get.schema";
 
 export class OrdersApiService {
   constructor(
     private ordersApi: OrdersApi,
-    private customerApiService: CustomersApiService,
-    private productsApiService: ProductsApiService,
+    private productsApiService?: ProductsApiService,
+    private customersApiService?: CustomersApiService,
   ) {}
 
   async create(token: string, customerId: string, productId: string[]): Promise<IOrderFromResponse> {
@@ -35,13 +35,18 @@ export class OrdersApiService {
   }
 
   async createOrderAndEntities(token: string, numberOfProducts: number) {
-    const createdCustomer = await this.customerApiService.create(token);
+    if (!this.customersApiService || !this.productsApiService) {
+      throw new Error("customersApiService and productsApiService are required");
+    }
+    const customersService = this.customersApiService;
+    const productsService = this.productsApiService;
+    const createdCustomer = await customersService.create(token);
     const orderData: IOrderCreateBody = {
       customer: createdCustomer._id,
       products: [],
     };
     for (let i = 0; i < numberOfProducts; i++) {
-      const createdProduct = await this.productsApiService.create(token);
+      const createdProduct = await productsService.create(token);
       orderData.products.push(createdProduct._id);
     }
     const response = await this.ordersApi.create(token, orderData);
@@ -90,8 +95,43 @@ export class OrdersApiService {
     const res = await this.ordersApi.delete(token, id);
     validateResponse(res, { status: STATUS_CODES.DELETED });
   }
+  async fullDelete(
+    token: string,
+    payload: {
+      orderId: string;
+      productIds?: string[];
+      customerId?: string;
+    },
+  ) {
+    if (!this.productsApiService || !this.customersApiService) {
+      throw new Error("OrdersApiService.fullDelete requires productsApiService and customersApiService");
+    }
+
+    await this.delete(token, payload.orderId);
+
+    const deletions: Array<Promise<void>> = [];
+    if (payload.productIds?.length) {
+      deletions.push(
+        Promise.all(payload.productIds.map((id) => this.productsApiService!.delete(token, id))).then(() => undefined),
+      );
+    }
+    if (payload.customerId) {
+      deletions.push(this.customersApiService.delete(token, payload.customerId));
+    }
+
+    await Promise.all(deletions);
+  }
+
+  async update(token: string, id: string, payload: IOrderUpdateBody): Promise<IOrderFromResponse> {
+    const res = await this.ordersApi.update(token, id, payload);
+    validateResponse(res, { status: STATUS_CODES.OK });
+    return res.body.Order;
+  }
 
   async deleteOrderAndEntities(token: string, orderId: string) {
+    if (!this.customersApiService || !this.productsApiService) {
+      throw new Error("OrdersApiService.deleteOrderAndEntities requires customersApiService and productsApiService");
+    }
     const response = await this.ordersApi.getById(orderId, token);
     validateResponse(response, {
       status: STATUS_CODES.OK,
@@ -103,8 +143,12 @@ export class OrdersApiService {
     const customerId = order.customer._id;
     const productIds = order.products.map((product) => product._id);
     await this.delete(token, orderId);
-    await this.customerApiService.delete(token, customerId);
-    await this.productsApiService.deleteProducts(token, productIds);
+    await this.customersApiService.delete(token, customerId);
+    if (this.productsApiService.deleteProducts) {
+      await this.productsApiService.deleteProducts(token, productIds);
+    } else {
+      await Promise.all(productIds.map((p) => this.productsApiService!.delete(token, p)));
+    }
   }
 
   async addComment(token: string, orderId: string, text: string) {
@@ -123,5 +167,6 @@ export class OrdersApiService {
     validateResponse(response, {
       status: STATUS_CODES.DELETED,
     });
+    return response;
   }
 }
