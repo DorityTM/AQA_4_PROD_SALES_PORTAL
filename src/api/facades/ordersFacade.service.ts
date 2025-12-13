@@ -1,4 +1,4 @@
-import { IOrderCreateBody} from "data/types/order.types";
+import { IOrderCreateBody } from "data/types/order.types";
 import { OrdersApi } from "api/api/orders.api";
 import { CustomersApiService } from "api/service/customer.service";
 import { ProductsApiService } from "api/service/products.service";
@@ -12,7 +12,7 @@ export class OrdersFacadeService {
     private productsApiService: ProductsApiService,
   ) {}
 
-  async create(token: string, numberOfProducts: number){
+  async create(token: string, numberOfProducts: number) {
     const createdCustomer = await this.customerApiService.create(token);
     const orderData: IOrderCreateBody = {
       customer: createdCustomer._id,
@@ -27,7 +27,7 @@ export class OrdersFacadeService {
   }
 
   async createOrderWithDelivery(token: string, numberOfProducts: number) {
-    const createdOrder =  await this.create(token, numberOfProducts);
+    const createdOrder = await this.create(token, numberOfProducts);
     const orderWithDelivery = await this.ordersApi.addDelivery(createdOrder.body.Order._id, generateDelivery(), token);
     return orderWithDelivery;
   }
@@ -46,14 +46,21 @@ export class OrdersFacadeService {
 
   async createPartiallyReceivedOrder(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderInProcess(token, numberOfProducts);
-    const order = await this.ordersApi.receiveProducts(createdOrder.body.Order._id, [createdOrder.body.Order.products[0]!._id], token);
+    const order = await this.ordersApi.receiveProducts(
+      createdOrder.body.Order._id,
+      [createdOrder.body.Order.products[0]!._id],
+      token,
+    );
     return order;
   }
 
   async createReceivedOrder(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderInProcess(token, numberOfProducts);
-    const order = await this.ordersApi.receiveProducts(createdOrder.body.Order._id, createdOrder.body.Order.products.map(product => product._id), token);
+    const order = await this.ordersApi.receiveProducts(
+      createdOrder.body.Order._id,
+      createdOrder.body.Order.products.map((product) => product._id),
+      token,
+    );
     return order;
   }
-  }
-
+}

@@ -45,10 +45,9 @@ export interface IOrderHistoryEntry {
   performer: IUser | null;
 }
 
-export interface IComment {
+export interface IComment extends ID {
   text: string;
   createdOn: string;
-  _id: string;
 }
 
 export interface IOrder {
