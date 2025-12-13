@@ -24,7 +24,7 @@ export interface IApi {
 
   // utils
   cleanup: {
-    addOrder: (id: string) => void;
+    addOrder: (orderId: string, customerId: string, productIds: string[]) => void;
     addProduct: (id: string) => void;
     addCustomer: (id: string) => void;
   };
@@ -66,35 +66,30 @@ const test = base.extend<IApi>({
   loginApiService: async ({ loginApi }, use) => {
     await use(new LoginService(loginApi));
   },
-  ordersApiService: async ({ ordersApi }, use) => {
-    await use(new OrdersApiService(ordersApi));
+  ordersApiService: async ({ ordersApi, productsApiService, customersApiService }, use) => {
+    await use(new OrdersApiService(ordersApi, productsApiService, customersApiService));
   },
 
   // per-test cleanup registry with automatic teardown
   cleanup: async ({ loginApiService, ordersApiService, productsApiService, customersApiService }, use) => {
     const state = {
-      orders: new Set<string>(),
+      orders: new Array<{ orderId: string; customerId: string; productIds: string[] }>(),
       products: new Set<string>(),
       customers: new Set<string>(),
     };
 
     await use({
-      addOrder: (id: string) => state.orders.add(id),
+      addOrder: (orderId: string, customerId: string, productIds: string[]) =>
+        state.orders.push({ orderId, customerId, productIds }),
       addProduct: (id: string) => state.products.add(id),
       addCustomer: (id: string) => state.customers.add(id),
     });
 
     const token = await loginApiService.loginAsAdmin();
-    // Delete in dependency-safe order
-    for (const id of state.orders) {
-      await ordersApiService.delete(token, id);
-    }
-    for (const id of state.products) {
-      await productsApiService.delete(token, id);
-    }
-    for (const id of state.customers) {
-      await customersApiService.delete(token, id);
-    }
+
+    await Promise.all(state.orders.map((o) => ordersApiService.fullDelete(token, o)));
+    await Promise.all(Array.from(state.products).map((id) => productsApiService.delete(token, id)));
+    await Promise.all(Array.from(state.customers).map((id) => customersApiService.delete(token, id)));
   },
 });
 

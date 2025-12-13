@@ -4,6 +4,7 @@ import { STATUS_CODES } from "data/statusCodes";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { IOrderFromResponse, IOrderHistory } from "data/types/order.types";
 import { ORDER_HISTORY_ACTIONS, ORDER_STATUS } from "data/salesPortal/order-status";
+import type { IProduct } from "data/types/product.types";
 
 test.describe("[API][Orders]", () => {
   let token = "";
@@ -11,28 +12,21 @@ test.describe("[API][Orders]", () => {
   let productId = "";
   let orderId = "";
   let orderObj: IOrderFromResponse | null = null;
-  let extraProductId = ""; // used in tests that add a product
+  let extraProductId = "";
 
-  test.beforeAll(async ({ loginApiService }) => {
+  test.beforeEach(async ({ loginApiService, customersApiService, productsApiService, ordersApiService, cleanup }) => {
     token = await loginApiService.loginAsAdmin();
-  });
-
-  test.beforeEach(async ({ customersApiService, productsApiService, ordersApiService, cleanup }) => {
     const customer = await customersApiService.create(token);
     customerId = customer._id;
-    cleanup.addCustomer(customerId);
 
     const product = await productsApiService.create(token);
     productId = product._id;
-    cleanup.addProduct(productId);
 
     const order = await ordersApiService.create(token, customerId, [productId]);
     orderId = order._id;
     orderObj = order;
-    cleanup.addOrder(orderId);
+    cleanup.addOrder(orderId, customerId, [productId]);
   });
-
-  // Cleanup is handled by fixture teardown
 
   test(
     "ORD-PUT-001: Successful products update recalculates total_price",
@@ -47,8 +41,7 @@ test.describe("[API][Orders]", () => {
       expect.soft(original.products.length).toBeGreaterThan(0);
       const originalFirst = original.products[0]!;
 
-      // Update product price itself, then trigger order update to recalc total
-      const updatedProduct: import("data/types/product.types").IProduct = {
+      const updatedProduct: IProduct = {
         name: originalFirst.name,
         manufacturer: originalFirst.manufacturer,
         amount: originalFirst.amount,
@@ -84,7 +77,6 @@ test.describe("[API][Orders]", () => {
         products: productIds,
       });
       expect.soft(updated.customer._id).toBe(newCustomer._id);
-      expect.soft(updated.customer._id).not.toBe(original.customer._id);
 
       const expectedTotal = updated.products.reduce(
         (sum: number, p: IOrderFromResponse["products"][number]) => sum + p.price,
@@ -142,14 +134,17 @@ test.describe("[API][Orders]", () => {
     "ORD-PUT-005: Update attempt for non-existent order returns 404",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApi }) => {
-      const nonExistentOrderId = "ffffffffffffffffffffffff"; // valid ObjectId format, not existing
+      const nonExistentOrderId = "ffffffffffffffffffffffff";
       const response = await ordersApi.update(token, nonExistentOrderId, {
         customer: customerId,
         products: [productId],
       });
 
-      // Only assert status to avoid guessing backend error text
-      validateResponse(response, { status: STATUS_CODES.NOT_FOUND });
+      validateResponse(response, {
+        status: STATUS_CODES.NOT_FOUND,
+        IsSuccess: false,
+        ErrorMessage: /.+/,
+      });
     },
   );
 
@@ -162,7 +157,7 @@ test.describe("[API][Orders]", () => {
         customer: customerId,
         products: [productId, fakeProductId],
       });
-      validateResponse(response, { status: STATUS_CODES.NOT_FOUND });
+      validateResponse(response, { status: STATUS_CODES.NOT_FOUND, IsSuccess: false, ErrorMessage: /.+/ });
     },
   );
 
@@ -170,12 +165,12 @@ test.describe("[API][Orders]", () => {
     "ORD-PUT-007: Validation error on invalid ObjectId format",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApi }) => {
-      const invalidOrderId = "123"; // invalid ObjectId format
+      const invalidOrderId = "123";
       const response = await ordersApi.update(token, invalidOrderId, {
         customer: customerId,
         products: [productId],
       });
-      validateResponse(response, { status: STATUS_CODES.SERVER_ERROR });
+      validateResponse(response, { status: STATUS_CODES.SERVER_ERROR, IsSuccess: false, ErrorMessage: /.+/ });
     },
   );
 
@@ -184,10 +179,10 @@ test.describe("[API][Orders]", () => {
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApi }) => {
       const response = await ordersApi.update("", orderId, {
-        products: [],
-      } as unknown as import("data/types/order.types").IOrderUpdateBody);
-      // Expect HTTP 401 with error envelope
-      expect.soft(response.status).toBe(STATUS_CODES.UNAUTHORIZED);
+        customer: customerId,
+        products: [productId],
+      });
+      validateResponse(response, { status: STATUS_CODES.UNAUTHORIZED, IsSuccess: false, ErrorMessage: /.+/ });
     },
   );
 
@@ -200,8 +195,7 @@ test.describe("[API][Orders]", () => {
         customer: invalidCustomerId,
         products: [productId],
       });
-      // Backend returns 500 for invalid customer id format currently
-      validateResponse(response, { status: STATUS_CODES.SERVER_ERROR });
+      validateResponse(response, { status: STATUS_CODES.SERVER_ERROR, IsSuccess: false, ErrorMessage: /.+/ });
     },
   );
 
@@ -214,9 +208,7 @@ test.describe("[API][Orders]", () => {
         customer: nonExistentCustomerId,
         products: [productId],
       });
-
-      // Backend may return 404 or 400; assert actual 404 observed in similar cases
-      validateResponse(response, { status: STATUS_CODES.NOT_FOUND });
+      validateResponse(response, { status: STATUS_CODES.NOT_FOUND, IsSuccess: false, ErrorMessage: /.+/ });
     },
   );
 
@@ -228,9 +220,7 @@ test.describe("[API][Orders]", () => {
         customer: customerId,
         products: [],
       });
-
-      // Expect 400 for invalid business payload
-      validateResponse(response, { status: STATUS_CODES.BAD_REQUEST });
+      validateResponse(response, { status: STATUS_CODES.BAD_REQUEST, IsSuccess: false, ErrorMessage: /.+/ });
     },
   );
 
@@ -239,24 +229,16 @@ test.describe("[API][Orders]", () => {
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ productsApi, customersApi }) => {
       const original: IOrderFromResponse = orderObj!;
+      const deleteProductResponse = await productsApi.delete(original.products[0]!._id, token);
+      expect.soft(deleteProductResponse.status).toBe(STATUS_CODES.BAD_REQUEST);
 
-      // Use raw API to read actual status for constraint violation
-      const deleteProductResponse = await productsApi.delete(token, original.products[0]!._id);
-      // Assert non-success (constraint violation): any 4xx or 5xx is acceptable across envs
-      expect.soft(deleteProductResponse.status).not.toBe(STATUS_CODES.DELETED);
-      expect.soft(deleteProductResponse.status).toBeGreaterThanOrEqual(400);
-
-      // Use raw API to read actual status for customer constraint violation
       const deleteCustomerResponse = await customersApi.delete(token, original.customer._id);
-      expect.soft(deleteCustomerResponse.status).not.toBe(STATUS_CODES.DELETED);
-      expect.soft([STATUS_CODES.BAD_REQUEST, STATUS_CODES.CONFLICT]).toContain(deleteCustomerResponse.status);
-
-      // Cleanup proceeds later via fixture after order deletion
+      expect.soft(deleteCustomerResponse.status).toBe(STATUS_CODES.BAD_REQUEST);
     },
   );
 
   test(
-    "ORD-PUT-013: PUT with no changes keeps history stable (no products-changed)",
+    "ORD-PUT-013: PUT without changes does not add REQUIRED_PRODUCTS_CHANGED history entry",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApiService }) => {
       const before = orderObj!;
@@ -267,7 +249,6 @@ test.describe("[API][Orders]", () => {
         products: productIds,
       });
 
-      // If history grew, ensure no new products-changed entry was added
       const beforeCount = before.history.filter(
         (h: IOrderHistory) => h.action === ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
       ).length;
