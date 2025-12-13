@@ -67,12 +67,6 @@ const test = base.extend<IApi>({
   loginApiService: async ({ loginApi }, use) => {
     await use(new LoginService(loginApi));
   },
-<<<<<<< HEAD
-  ordersApiService: async ({ ordersApi, productsApiService, customersApiService }, use) => {
-    await use(new OrdersApiService(ordersApi, productsApiService, customersApiService));
-  },
-
-  // per-test cleanup registry with automatic teardown
   ordersApiService: async ({ ordersApi, productsApiService, customersApiService }, use) => {
     await use(new OrdersApiService(ordersApi, productsApiService, customersApiService));
   },
@@ -101,4 +95,7 @@ const test = base.extend<IApi>({
     await Promise.all(Array.from(state.products).map((id) => productsApiService.delete(token, id)));
     await Promise.all(Array.from(state.customers).map((id) => customersApiService.delete(token, id)));
   },
+});
+
+export { test, expect };
 
