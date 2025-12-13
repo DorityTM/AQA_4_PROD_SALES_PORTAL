@@ -3,4 +3,5 @@ export const RESPONSE_ERRORS = {
   CONFLICT: (name: string) => `Product with name '${name}' already exists`,
   BAD_REQUEST: "Incorrect request body",
   UNAUTHORIZED: "Not authorized",
+  CUSTOMER_MISSING: "Missing customer",
 };

@@ -1,50 +1,133 @@
-import { STATUS_CODES } from "data/statusCodes";
 import { IOrderCreateBody } from "data/types/order.types";
 import { test } from "fixtures";
 import { validateResponse } from "utils/validation/validateResponse.utils";
+import { createOrderTestData, IOrderTestData } from "utils/orders/createOrderTestData.utils";
+import { CREATE_ORDER_NEGATIVE_CASES, CREATE_ORDER_POSITIVE_CASES } from "data/salesPortal/orders/createOrderTestData";
+import { TAGS } from "data/tags";
+test.setTimeout(60000);
 
 test.describe("[API][Orders][Create Order]", () => {
   let token = "";
   let orderId = "";
-  let productId = "";
   let customerId = "";
+  let productIds: string[] = [];
 
-  test.beforeAll(async ({ loginApiService, productsApiService, customersApiService }) => {
-    //login
+  test.beforeAll(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
-    //create product
-    const createdProduct = await productsApiService.create(token);
-    productId = createdProduct._id;
-    //create customer
-    const createdCustomer = await customersApiService.create(token);
-    customerId = createdCustomer._id;
   });
 
-  test.afterAll(async ({ ordersApiService, customersApiService, productsApiService }) => {
+  test.afterEach(async ({ ordersApiService, customersApiService, productsApiService }) => {
     if (orderId) {
       await ordersApiService.delete(token, orderId);
+      orderId = "";
     }
+
+    if (productIds.length) {
+      await Promise.all(productIds.map((id) => productsApiService.delete(token, id)));
+      productIds = [];
+    }
+
     if (customerId) {
       await customersApiService.delete(token, customerId);
-    }
-    if (productId) {
-      await productsApiService.delete(token, productId);
+      customerId = "";
     }
   });
 
-  test("Create order with product quantity = 1 (min)", async ({ ordersApi }) => {
-    const payload: IOrderCreateBody = {
-      customer: customerId,
-      products: [productId],
-    };
+  for (const positiveCase of CREATE_ORDER_POSITIVE_CASES) {
+    test(
+      `${positiveCase.title}`,
+      { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
+      async ({ ordersApi, customersApiService, productsApiService }) => {
+        const data: IOrderTestData = await createOrderTestData({
+          token,
+          customersApiService,
+          productsApiService,
+          productsCount: positiveCase.productsCount,
+        });
 
-    const createOrderResponse = await ordersApi.create(token, payload);
+        customerId = data.customerId;
+        productIds = data.productIds;
 
-    validateResponse(createOrderResponse, {
-      status: STATUS_CODES.CREATED,
-      IsSuccess: true,
-      ErrorMessage: null,
-    });
-    orderId = createOrderResponse.body.Order._id;
+        const payload: IOrderCreateBody = {
+          customer: customerId,
+          products: productIds,
+        };
+
+        const createOrderResponse = await ordersApi.create(token, payload);
+
+        await validateResponse(createOrderResponse, {
+          status: positiveCase.expectedStatus,
+          // schema: getOrderSchema,
+          IsSuccess: positiveCase.isSuccess as boolean,
+          ErrorMessage: positiveCase.expectedErrorMessage,
+        });
+
+        orderId = createOrderResponse.body.Order._id;
+      },
+    );
+  }
+});
+
+test.describe("[API][Orders][Create Order - Negative DDT]", () => {
+  let token = "";
+  let orderId = "";
+  let customerId = "";
+  let productIds: string[] = [];
+
+  test.beforeAll(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
   });
+
+  test.afterEach(async ({ ordersApiService, customersApiService, productsApiService }) => {
+    if (orderId) {
+      await ordersApiService.delete(token, orderId);
+      orderId = "";
+    }
+
+    if (productIds.length) {
+      await Promise.all(productIds.map((id) => productsApiService.delete(token, id)));
+      productIds = [];
+    }
+
+    if (customerId) {
+      await customersApiService.delete(token, customerId);
+      customerId = "";
+    }
+  });
+
+  for (const negativeCase of CREATE_ORDER_NEGATIVE_CASES) {
+    test(
+      negativeCase.title,
+      { tag: [TAGS.API, TAGS.ORDERS] },
+      async ({ ordersApi, customersApiService, productsApiService }) => {
+        const data: IOrderTestData = await createOrderTestData({
+          token,
+          customersApiService,
+          productsApiService,
+          productsCount: negativeCase.productsCount,
+        });
+
+        customerId = data.customerId;
+        productIds = data.productIds;
+
+        const basePayload: IOrderCreateBody = {
+          customer: customerId,
+          products: productIds,
+        };
+
+        const payload: IOrderCreateBody = {
+          ...basePayload,
+          ...negativeCase.orderData,
+        };
+
+        const response = await ordersApi.create(token, payload);
+
+        await validateResponse(response, {
+          status: negativeCase.expectedStatus,
+          IsSuccess: negativeCase.isSuccess as boolean,
+          ErrorMessage: negativeCase.expectedErrorMessage,
+        });
+      },
+    );
+  }
 });
