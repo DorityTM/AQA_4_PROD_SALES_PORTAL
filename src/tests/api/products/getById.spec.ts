@@ -1,31 +1,53 @@
 import { test, expect } from "fixtures/api.fixture";
+import {
+  getProductByIdPositiveCases,
+  getProductByIdNegativeCases,
+} from "data/salesPortal/products/getProductByIdTestData";
 import { getProductSchema } from "data/schemas/products/get.schema";
-import { STATUS_CODES } from "data/statusCodes";
 import { validateResponse } from "utils/validation/validateResponse.utils";
+import { TAGS } from "data/tags";
 
-test.describe("[API] [Sales Portal] [Products]", () => {
-  let id = "";
-  let token = "";
+test.describe("[API] [Sales Portal] [Products] [Get By Id]", () => {
+  let token: string;
 
-  test.afterEach(async ({ productsApiService }) => {
-    await productsApiService.delete(token, id);
+  test.beforeAll(async ({ loginApiService }) => {
+    token = await loginApiService.loginAsAdmin();
   });
 
-  test("Get Product By Id", async ({ loginApiService, productsApiService, productsApi }) => {
-    //TODO: Preconditions
-    token = await loginApiService.loginAsAdmin();
-    const product = await productsApiService.create(token);
-    id = product._id;
+  test.describe("[Positive]", () => {
+    for (const testCase of getProductByIdPositiveCases) {
+      test (
+        testCase.title,
+        { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.PRODUCTS] },
+        async ({ productsApi, productsApiService }) => {
+          const createdProduct = await productsApiService.create(token);
+          const id = createdProduct._id;
+          const response = await productsApi.getById(id, token);
+          validateResponse(response, {
+            status: testCase.expectedStatus,
+            schema: getProductSchema,
+            ErrorMessage: testCase.expectedErrorMessage,
+          });
+          expect(response.body.Product).toEqual(createdProduct);
+          await productsApiService.delete(token, id);
+        },
+      );
+    }
+  });
 
-    //TODO: Action
-    const getProductResponse = await productsApi.getById(id, token);
-    validateResponse(getProductResponse, {
-      status: STATUS_CODES.OK,
-      schema: getProductSchema,
-      IsSuccess: true,
-      ErrorMessage: null,
-    });
-    //TODO: Assert
-    expect(getProductResponse.body.Product).toEqual(product);
+  test.describe("[Negative]", () => {
+    for (const testCase of getProductByIdNegativeCases) {
+      test(
+        testCase.title,
+        { tag: [TAGS.REGRESSION, TAGS.API, TAGS.PRODUCTS] },
+        async ({ productsApi }) => {
+          const response = await productsApi.getById(testCase.id!, token);
+          validateResponse (response, {
+            status: testCase.expectedStatus,
+            ErrorMessage: testCase.expectedErrorMessage,
+          });
+        },
+      );
+    }
   });
 });
