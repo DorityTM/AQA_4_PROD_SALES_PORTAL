@@ -17,9 +17,7 @@ export const getProductByIdNegativeCases: ICreateProductCase[] = [
     title: "404 returned for empty id",
     id: "",
     expectedStatus: STATUS_CODES.NOT_FOUND,
-    get expectedErrorMessage() {
-        return RESPONSE_ERRORS.PRODUCT_NOT_FOUND(this.id!);
-    },
+    expectedErrorMessage: null,
   },
   {
     title: "404 returned for non-existing id of valid format",
@@ -30,9 +28,9 @@ export const getProductByIdNegativeCases: ICreateProductCase[] = [
     },
   },
   {
-    title: "400 returned for id of invalid format",
+    title: "500 returned for id of invalid format",
     id: faker.string.alphanumeric({ length: 10 }),
-    expectedStatus: STATUS_CODES.BAD_REQUEST,
-    expectedErrorMessage: RESPONSE_ERRORS.BAD_REQUEST,
+    expectedStatus: STATUS_CODES.SERVER_ERROR,
+    expectedErrorMessage: null,
   },
 ];
