@@ -134,4 +134,30 @@ export class OrdersApi {
     };
     return await this.apiClient.send<IOrderResponse>(options);
   }
+
+  async assingManager(token: string, orderId?: string, managerId?: string) {
+    const options: IRequestOptions = {
+      baseURL: apiConfig.baseURL,
+      url: apiConfig.endpoints.orderAssignManager(orderId, managerId),
+      method: "put",
+      headers: {
+        "content-type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    };
+    return await this.apiClient.send<IOrderResponse>(options);
+  }
+
+  async unassingManager(token: string, orderId?: string) {
+    const options: IRequestOptions = {
+      baseURL: apiConfig.baseURL,
+      url: apiConfig.endpoints.orderUnassignManager(orderId),
+      method: "put",
+      headers: {
+        "content-type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    };
+    return await this.apiClient.send<IOrderResponse>(options);
+  }
 }

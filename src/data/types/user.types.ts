@@ -11,9 +11,22 @@ export interface IUser extends ID, ICreatedOn, IResponseFields {
   lastName: string;
   roles: ROLES[];
 }
-export interface IUserFromResponse extends ID, ICreatedOn, IResponseFields {
+export type IUserFromResponse = IUser
+
+export type IAssignedManager = IUserFromResponse
+
+export interface ICreateUserPayload {
   username: string;
+  password: string;
   firstName: string;
   lastName: string;
-  roles: ROLES[];
+}
+export interface ICreateUserResponse extends IResponseFields {
+  IsSuccess: boolean;
+  ErrorMessage: string | null;
+  User: IUserFromResponse;
+}
+export interface IDeleteUserResponse extends IResponseFields {
+  IsSuccess: boolean;
+  ErrorMessage: string | null;
 }

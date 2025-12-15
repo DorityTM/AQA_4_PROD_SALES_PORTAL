@@ -17,9 +17,11 @@ export const apiConfig = {
     orderDelivery: (id: string) => `/api/orders/${id}/delivery`,
     orderReceive: (id: string) => `/api/orders/${id}/receive`,
     orderStatus: (id: string) => `/api/orders/${id}/status`,
-    orderAssignManager: (orderId: string, managerId: string) => `/api/orders/${orderId}/assign-manager/${managerId}`, // data > types > user.types.ts
-    orderUnassignManager: (orderId: string) => `/api/orders/${orderId}/unassign-manager`, // data > types > user.types.ts
+    orderAssignManager: (orderId?: string, managerId?: string) => `/api/orders/${orderId}/assign-manager/${managerId}`, // data > types > user.types.ts
+    orderUnassignManager: (orderId?: string) => `/api/orders/${orderId}/unassign-manager`, // data > types > user.types.ts
     orderComments: (orderId: string) => `/api/orders/${orderId}/comments`,
     orderCommentById: (orderId: string, commentId: string) => `/api/orders/${orderId}/comments/${commentId}`,
+    users: "/api/users",
+    userById: (id: string) => `/api/users/${id}/`,
   },
 };

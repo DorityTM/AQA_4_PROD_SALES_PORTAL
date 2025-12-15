@@ -4,4 +4,6 @@ export const RESPONSE_ERRORS = {
   BAD_REQUEST: "Incorrect request body",
   UNAUTHORIZED: "Not authorized",
   CUSTOMER_MISSING: "Missing customer",
+  MANAGER_NOT_FOUND: (id: string) => `Manager with id '${id}' wasn't found`,
+  ORDER_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
 };
