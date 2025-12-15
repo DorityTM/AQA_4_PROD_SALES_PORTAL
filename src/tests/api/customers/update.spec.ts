@@ -1,105 +1,93 @@
-// TODO: Migrate to customersApiService.update(token, id, payload)
-// Example: const updated = await customersApiService.update(token, customerId, { notes: 'Updated' });
-// Service returns ICustomerFromResponse directly
 import { test, expect } from "fixtures/api.fixture";
-import { STATUS_CODES } from "data/statusCodes";
-import { TAGS } from "data/tags";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
-import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { updateCustomerSchema } from "data/schemas/customers/update.schema";
-// import { getInvalidPayloadScenarios, INVALID_ID_SCENARIOS } from "data/salesPortal/customers/invalidData";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import {
+  updateCustomerPositiveCases,
+  updateCustomerInvalidIdCases,
+  updateCustomerNegativeCases,
+} from "data/salesPortal/customers/updateCustomerTestData";
+import { TAGS } from "data/tags";
 
-test.describe("CST-006/007/011 Update customer", () => {
-  let token: string;
-  let createdCustomerIds: string[] = [];
+test.describe("[API][Customers]", () => {
+  let id = "";
+  let token = "";
 
   test.beforeAll(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
   });
 
-  test.afterEach(async ({ customersApi }) => {
-    for (const id of createdCustomerIds) {
-      await customersApi.delete(token, id);
-    }
-    createdCustomerIds = [];
+  test.afterEach(async ({ customersApiService }) => {
+    if (id) await customersApiService.delete(token, id);
   });
 
-  test(
-    "CST-006: Update customer with valid data",
-    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.SMOKE] },
-    async ({ customersApi }) => {
-      const created = await customersApi.create(token, generateCustomerData());
-      const id = created.body.Customer._id;
-      createdCustomerIds.push(id);
-      const original = created.body.Customer;
+  test.describe("[Update customer]", () => {
+    for (const testCase of updateCustomerPositiveCases) {
+      test(
+        testCase.title,
+        { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS] },
+        async ({ customersApiService, customersApi }) => {
+          const createdCustomer = await customersApiService.create(token);
+          id = createdCustomer._id;
 
-      const updatedNotes = "Updated notes content";
-      const updatedPhone = "+155512345678";
+          const updatedCustomerData = { ...createdCustomer, ...testCase.customerData! };
+          const updatedCustomerResponse = await customersApi.update(token, id, updatedCustomerData);
 
-      const response = await customersApi.update(token, id, {
-        email: original.email,
-        name: original.name,
-        country: original.country,
-        city: original.city,
-        street: original.street,
-        house: original.house,
-        flat: original.flat,
-        phone: updatedPhone,
-        notes: updatedNotes,
-      });
+          validateResponse(updatedCustomerResponse, {
+            status: testCase.expectedStatus,
+            schema: updateCustomerSchema,
+            IsSuccess: testCase.isSuccess as boolean,
+            ErrorMessage: testCase.expectedErrorMessage,
+          });
 
-      expect(response.status).toBe(STATUS_CODES.OK);
-      validateJsonSchema(response.body, updateCustomerSchema);
-      expect(response.body.IsSuccess).toBe(true);
-      expect(response.body.ErrorMessage).toBeNull();
-      expect(response.body.Customer._id).toBe(id);
-      expect(response.body.Customer.notes).toBe(updatedNotes);
-      expect(response.body.Customer.phone).toBe(updatedPhone);
-    },
-  );
+          const updatedCustomer = updatedCustomerResponse.body.Customer;
+          expect.soft(updatedCustomer._id).toBe(id);
+        },
+      );
+    }
+  });
 
-  test(
-    "CST-007: Update customer with invalid Id",
-    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApi }) => {
-      const token = await loginApiService.loginAsAdmin();
-      const invalidId = "000000000000000000000000";
+  test.describe("[Should NOT update customer]", () => {
+    for (const testCase of updateCustomerNegativeCases) {
+      test(
+        testCase.title,
+        { tag: [TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS] },
+        async ({ customersApiService, customersApi }) => {
+          const createdCustomer = await customersApiService.create(token);
+          id = createdCustomer._id;
 
-      const response = await customersApi.update(token, invalidId, generateCustomerData());
+          const updatedCustomerData = { ...createdCustomer, ...testCase.customerData! };
+          const updatedCustomerResponse = await customersApi.update(token, id, updatedCustomerData);
 
-      expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
-      expect(response.body.IsSuccess).toBe(false);
-      expect(response.body.ErrorMessage).toBeTruthy();
-    },
-  );
+          validateResponse(updatedCustomerResponse, {
+            status: testCase.expectedStatus,
+            IsSuccess: testCase.isSuccess as boolean,
+            ErrorMessage: testCase.expectedErrorMessage,
+          });
+        },
+      );
+    }
+  });
 
-  test(
-    "CST-011: Update customer with invalid phone",
-    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApi }) => {
-      const token = await loginApiService.loginAsAdmin();
-      const created = await customersApi.create(token, generateCustomerData());
-      const id = created.body.Customer._id;
-      createdCustomerIds.push(id);
-      const original = created.body.Customer;
+  test.describe("[Should NOT find customer to update]", () => {
+    for (const testCase of updateCustomerInvalidIdCases) {
+      test(
+        testCase.title,
+        { tag: [TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS] },
+        async ({ customersApiService, customersApi }) => {
+          const createdCustomer = await customersApiService.create(token);
+          id = createdCustomer._id;
 
-      const invalidPhone = "1555-ABC";
+          const updatedCustomerData = generateCustomerData();
+          const updatedCustomerResponse = await customersApi.update(token, testCase.id!, updatedCustomerData);
 
-      const response = await customersApi.update(token, id, {
-        email: original.email,
-        name: original.name,
-        country: original.country,
-        city: original.city,
-        street: original.street,
-        house: original.house,
-        flat: original.flat,
-        phone: invalidPhone,
-        notes: original.notes,
-      });
-
-      expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
-      expect(response.body.IsSuccess).toBe(false);
-      expect(response.body.ErrorMessage).toBeTruthy();
-    },
-  );
+          validateResponse(updatedCustomerResponse, {
+            status: testCase.expectedStatus,
+            IsSuccess: testCase.isSuccess as boolean,
+            ErrorMessage: testCase.expectedErrorMessage,
+          });
+        },
+      );
+    }
+  });
 });
