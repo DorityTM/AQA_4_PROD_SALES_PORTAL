@@ -1,5 +1,5 @@
 import { COUNTRY } from "data/salesPortal/country";
-import { ID, ICreatedOn, SortOrder, IResponseFields } from "./core.types";
+import { ID, ICreatedOn, SortOrder, IResponseFields, ICaseApi } from "./core.types";
 
 export type Country = (typeof COUNTRY)[keyof typeof COUNTRY];
 //export type Country = "USA" | "Canada" | "Belarus" | "Ukraine" | "Germany" | "France" | "Great Britain" | "Russia";
@@ -56,9 +56,8 @@ export interface IGetCustomersParams {
 
 export type CustomerTableHeader = "email" | "name" | "country" | "createdOn";
 
-export interface ICreateCustomerCases {
-  title: string;
-  customerData: ICustomer;
+export interface ICreateCustomerCase extends ICaseApi {
+  customerData?: Partial<ICustomer>;
 }
 export type ICustomerInvalidPayload = Omit<ICustomer, "country"> & {
   country: string;

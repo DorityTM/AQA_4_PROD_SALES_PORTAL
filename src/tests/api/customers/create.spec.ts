@@ -1,66 +1,102 @@
-// TODO: Migrate to customersApiService.create(token, payload)
-// Example: const customer = await customersApiService.create(token, { email: 'test@test.com', country: COUNTRY.USA });
-// Service handles validation and returns ICustomerFromResponse directly
-import { test, expect } from "fixtures/api.fixture";
+import {
+  CREATE_CUSTOMER_NEGATIVE_CASES,
+  CREATE_CUSTOMER_POSITIVE_CASES,
+} from "data/salesPortal/customers/createCustomerTestData";
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
-import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
-import { validateJsonSchema } from "utils/validation/validateSchema.utils";
+import { test, expect } from "fixtures";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import _ from "lodash";
 import { createCustomerSchema } from "data/schemas/customers/create.schema";
-import { COUNTRY } from "data/salesPortal/country";
-import { faker } from "@faker-js/faker";
-// import { getInvalidPayloadScenarios } from "data/salesPortal/customers/invalidData";
+import { RESPONSE_ERRORS } from "data/salesPortal/errors";
+import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
+import { buildDuplicatePayload } from "data/salesPortal/customers/buildDuplicatePayload";
+import { ICustomer } from "data/types/customer.types";
 
-test.describe("CST-001/002 Create customer", () => {
-  let token: string;
-  let createdCustomerIds: string[] = [];
+test.describe("[API][Customers][Create Customer]", () => {
+  let id = "";
+  let token = "";
 
   test.beforeAll(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
   });
 
-  test.afterEach(async ({ customersApi }) => {
-    for (const id of createdCustomerIds) {
-      await customersApi.delete(token, id);
-    }
-    createdCustomerIds = [];
+  test.afterEach(async ({ customersApiService }) => {
+    if (id) await customersApiService.delete(token, id);
+    id = "";
   });
-  test(
-    "CST-001: Create new customer (Valid Data)",
-    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.SMOKE] },
-    async ({ customersApi }) => {
-      const expectedEmail = `tester+${faker.string.alphanumeric({ length: 6 })}@gmail.com`;
-      const expectedCountry = COUNTRY.USA;
-      const payload = generateCustomerData({
-        email: expectedEmail,
-        country: expectedCountry,
-      });
 
-      const created = await customersApi.create(token, payload);
-      if (created.body.Customer?._id) {
-        createdCustomerIds.push(created.body.Customer._id);
-      }
-      expect(created.status).toBe(STATUS_CODES.CREATED);
-      validateJsonSchema(created.body, createCustomerSchema);
-      expect(created.body.Customer._id).toBeTruthy();
-      expect(created.body.Customer.email).toBe(expectedEmail);
-      expect(created.body.Customer.name).toBe(payload.name);
-      expect(created.body.Customer.country).toBe(expectedCountry);
-    },
-  );
+  test.describe("Positive DDT", () => {
+    for (const tc of CREATE_CUSTOMER_POSITIVE_CASES) {
+      test(
+        tc.title,
+        {
+          tag: [TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS],
+        },
+        async ({ customersApi }) => {
+          const customerData = tc.customerData;
+          const createdCustomer = await customersApi.create(token, customerData as ICustomer);
+          validateResponse(createdCustomer, {
+            status: STATUS_CODES.CREATED,
+            schema: createCustomerSchema,
+            IsSuccess: true,
+            ErrorMessage: null,
+          });
 
-  // test("CST-002: Create customer with Invalid Enum (Country)", async ({ loginApiService, customersApi }) => {
-  //   const token = await loginApiService.loginAsAdmin();
-  //   const invalidPayload: ICustomerInvalidPayload = {
-  //     ...generateCustomerData(),
-  //     email: "bad_country@test.com",
-  //     name: "Bob",
-  //     country: "Mars",
-  //   };
+          id = createdCustomer.body.Customer._id;
 
-  //   const response = await customersApi.create(token, invalidPayload as unknown as ICustomer);
-  //   expect(response.status).toBe(STATUS_CODES.BAD_REQUEST);
-  //   expect(response.body.IsSuccess).toBe(false);
-  //   expect(response.body.ErrorMessage).toBeTruthy();
-  // });
+          const actualCustomerData = createdCustomer.body.Customer;
+          expect(_.omit(actualCustomerData, ["_id", "createdOn"])).toEqual(customerData);
+        },
+      );
+    }
+  });
+
+  test.describe("Negative DDT", () => {
+    for (const tc of CREATE_CUSTOMER_NEGATIVE_CASES) {
+      test(
+        tc.title,
+        {
+          tag: [TAGS.API, TAGS.CUSTOMERS],
+        },
+        async ({ customersApi }) => {
+          const customerData = tc.customerData;
+          const createdCustomer = await customersApi.create(token, customerData as ICustomer);
+          validateResponse(createdCustomer, {
+            status: STATUS_CODES.BAD_REQUEST,
+            IsSuccess: false,
+            ErrorMessage: RESPONSE_ERRORS.BAD_REQUEST,
+          });
+        },
+      );
+    }
+  });
+  test.describe("Unique email", () => {
+    test(
+      "Should NOT create customer with existing email",
+      { tag: [TAGS.API, TAGS.REGRESSION, TAGS.CUSTOMERS] },
+      async ({ customersApi }) => {
+        const initial = generateCustomerData();
+        const createResponse = await customersApi.create(token, initial);
+
+        validateResponse(createResponse, {
+          status: STATUS_CODES.CREATED,
+          IsSuccess: true,
+          ErrorMessage: null,
+        });
+
+        const createdCustomer = createResponse.body.Customer;
+        id = createdCustomer._id;
+
+        const duplicatePayload = buildDuplicatePayload(createdCustomer);
+
+        const dupResponse = await customersApi.create(token, duplicatePayload);
+
+        validateResponse(dupResponse, {
+          status: STATUS_CODES.CONFLICT,
+          IsSuccess: false,
+        });
+      },
+    );
+  });
 });

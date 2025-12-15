@@ -34,101 +34,77 @@ test.describe("[API][Orders][Create Order]", () => {
     }
   });
 
-  for (const positiveCase of CREATE_ORDER_POSITIVE_CASES) {
-    test(
-      `${positiveCase.title}`,
-      { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
-      async ({ ordersApi, customersApiService, productsApiService }) => {
-        const data: IOrderTestData = await createOrderTestData({
-          token,
-          customersApiService,
-          productsApiService,
-          productsCount: positiveCase.productsCount,
-        });
+  test.describe("Positive DDT", () => {
+    for (const positiveCase of CREATE_ORDER_POSITIVE_CASES) {
+      test(
+        `${positiveCase.title}`,
+        { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
+        async ({ ordersApi, customersApiService, productsApiService }) => {
+          const data: IOrderTestData = await createOrderTestData({
+            token,
+            customersApiService,
+            productsApiService,
+            productsCount: positiveCase.productsCount,
+          });
 
-        customerId = data.customerId;
-        productIds = data.productIds;
+          customerId = data.customerId;
+          productIds = data.productIds;
 
-        const payload: IOrderCreateBody = {
-          customer: customerId,
-          products: productIds,
-        };
+          const payload: IOrderCreateBody = {
+            customer: customerId,
+            products: productIds,
+          };
 
-        const createOrderResponse = await ordersApi.create(token, payload);
+          const createOrderResponse = await ordersApi.create(token, payload);
 
-        await validateResponse(createOrderResponse, {
-          status: positiveCase.expectedStatus,
-          // schema: getOrderSchema,
-          IsSuccess: positiveCase.isSuccess as boolean,
-          ErrorMessage: positiveCase.expectedErrorMessage,
-        });
+          validateResponse(createOrderResponse, {
+            status: positiveCase.expectedStatus,
+            // schema: getOrderSchema,
+            IsSuccess: positiveCase.isSuccess as boolean,
+            ErrorMessage: positiveCase.expectedErrorMessage,
+          });
 
-        orderId = createOrderResponse.body.Order._id;
-      },
-    );
-  }
-});
-
-test.describe("[API][Orders][Create Order - Negative DDT]", () => {
-  let token = "";
-  let orderId = "";
-  let customerId = "";
-  let productIds: string[] = [];
-
-  test.beforeAll(async ({ loginApiService }) => {
-    token = await loginApiService.loginAsAdmin();
-  });
-
-  test.afterEach(async ({ ordersApiService, customersApiService, productsApiService }) => {
-    if (orderId) {
-      await ordersApiService.delete(token, orderId);
-      orderId = "";
-    }
-
-    if (productIds.length) {
-      await Promise.all(productIds.map((id) => productsApiService.delete(token, id)));
-      productIds = [];
-    }
-
-    if (customerId) {
-      await customersApiService.delete(token, customerId);
-      customerId = "";
+          orderId = createOrderResponse.body.Order._id;
+        },
+      );
     }
   });
 
-  for (const negativeCase of CREATE_ORDER_NEGATIVE_CASES) {
-    test(
-      negativeCase.title,
-      { tag: [TAGS.API, TAGS.ORDERS] },
-      async ({ ordersApi, customersApiService, productsApiService }) => {
-        const data: IOrderTestData = await createOrderTestData({
-          token,
-          customersApiService,
-          productsApiService,
-          productsCount: negativeCase.productsCount,
-        });
+  test.describe("Negative DDT", () => {
+    for (const negativeCase of CREATE_ORDER_NEGATIVE_CASES) {
+      test(
+        negativeCase.title,
+        { tag: [TAGS.API, TAGS.ORDERS] },
+        async ({ ordersApi, customersApiService, productsApiService }) => {
+          const data: IOrderTestData = await createOrderTestData({
+            token,
+            customersApiService,
+            productsApiService,
+            productsCount: negativeCase.productsCount,
+          });
 
-        customerId = data.customerId;
-        productIds = data.productIds;
+          customerId = data.customerId;
+          productIds = data.productIds;
 
-        const basePayload: IOrderCreateBody = {
-          customer: customerId,
-          products: productIds,
-        };
+          const basePayload: IOrderCreateBody = {
+            customer: customerId,
+            products: productIds,
+          };
 
-        const payload: IOrderCreateBody = {
-          ...basePayload,
-          ...negativeCase.orderData,
-        };
+          const payload: IOrderCreateBody = {
+            ...basePayload,
+            ...negativeCase.orderData,
+          };
 
-        const response = await ordersApi.create(token, payload);
+          const response = await ordersApi.create(token, payload);
 
-        await validateResponse(response, {
-          status: negativeCase.expectedStatus,
-          IsSuccess: negativeCase.isSuccess as boolean,
-          ErrorMessage: negativeCase.expectedErrorMessage,
-        });
-      },
-    );
-  }
+          validateResponse(response, {
+            status: negativeCase.expectedStatus,
+            IsSuccess: negativeCase.isSuccess as boolean,
+            ErrorMessage: negativeCase.expectedErrorMessage,
+          });
+        },
+      );
+    }
+  });
 });
