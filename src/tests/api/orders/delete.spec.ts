@@ -49,7 +49,7 @@ test.describe("[API][Orders][Delete Order]", () => {
 
         const deleteOrderResponse = await ordersApi.delete(token, orderId);
 
-        await validateResponse(deleteOrderResponse, {
+        validateResponse(deleteOrderResponse, {
           status: STATUS_CODES.DELETED,
         });
 

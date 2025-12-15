@@ -1,9 +1,7 @@
 import { defineConfig, devices } from "@playwright/test";
-import { loadEnv } from "utils/env/loadEnv.utils";
 import dotenv from "dotenv";
 import path from "path";
 
-loadEnv();
 
 // Load environment variables from the appropriate .env file.
 // Default: .env; Dev: .env.dev when TEST_ENV=dev
