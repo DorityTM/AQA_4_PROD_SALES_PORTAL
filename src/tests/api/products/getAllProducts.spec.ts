@@ -1,13 +1,13 @@
 import { test, expect } from "fixtures/api.fixture";
 import {
-  getProductByIdPositiveCases,
-  getProductByIdNegativeCases,
-} from "data/salesPortal/products/getProductByIdTestData";
-import { getProductSchema } from "data/schemas/products/get.schema";
+  getAllProductsPositiveCases,
+  getAllProductsNegativeCases,
+} from "data/salesPortal/products/getAllProductsTestData";
+import { getAllProductsSchema } from "data/schemas/products/getAllProducts.schema";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { TAGS } from "data/tags";
 
-test.describe("[API] [Sales Portal] [Products] [Get By Id]", () => {
+test.describe("[API] [Sales Portal] [Products] [Get All]", () => {
   let token: string;
 
   test.beforeAll(async ({ loginApiService }) => {
@@ -15,30 +15,34 @@ test.describe("[API] [Sales Portal] [Products] [Get By Id]", () => {
   });
 
   test.describe("[Positive]", () => {
-    for (const testCase of getProductByIdPositiveCases) {
+    for (const testCase of getAllProductsPositiveCases) {
       test(
         testCase.title,
         { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.PRODUCTS] },
         async ({ productsApi, productsApiService }) => {
-          const createdProduct = await productsApiService.create(token);
-          const id = createdProduct._id;
-          const response = await productsApi.getById(id, token);
+          const product1 = await productsApiService.create(token);
+          const product2 = await productsApiService.create(token);
+          const response = await productsApi.getAll(token);
           validateResponse(response, {
             status: testCase.expectedStatus,
-            schema: getProductSchema,
+            schema: getAllProductsSchema,
             ErrorMessage: testCase.expectedErrorMessage,
           });
-          expect(response.body.Product).toEqual(createdProduct);
-          await productsApiService.delete(token, id);
+          const ids = response.body.Products.map((p) => p._id);
+          expect(ids).toContain(product1._id);
+          expect(ids).toContain(product2._id);
+          await productsApiService.delete(token, product1._id);
+          await productsApiService.delete(token, product2._id);
         },
       );
     }
   });
 
   test.describe("[Negative]", () => {
-    for (const testCase of getProductByIdNegativeCases) {
+    for (const testCase of getAllProductsNegativeCases) {
       test(testCase.title, { tag: [TAGS.REGRESSION, TAGS.API, TAGS.PRODUCTS] }, async ({ productsApi }) => {
-        const response = await productsApi.getById(testCase.id!, token);
+        const response = await productsApi.getAll("");
+
         validateResponse(response, {
           status: testCase.expectedStatus,
           ErrorMessage: testCase.expectedErrorMessage,

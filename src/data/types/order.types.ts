@@ -98,6 +98,10 @@ export interface ICreateDeliveryCase extends ICaseApi {
   deliveryData: Partial<IDeliveryInfo>;
   expectedStatus: STATUS_CODES;
 }
+export type IOrderUpdateBody = {
+  customer?: string;
+  products?: string[];
+};
 
 export interface ICreateOrderCase extends ICaseApi {
   productsCount: number;

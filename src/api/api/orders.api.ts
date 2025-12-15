@@ -3,7 +3,7 @@ import { apiConfig } from "config/apiConfig";
 import { IDeliveryInfo } from "data/salesPortal/delivery-status";
 import { ORDER_STATUS } from "data/salesPortal/order-status";
 import { IRequestOptions } from "data/types/core.types";
-import { IOrderCreateBody, IOrderResponse, IComment } from "data/types/order.types";
+import { IOrderCreateBody, IOrderResponse, IOrderUpdateBody, IComment } from "data/types/order.types";
 
 export class OrdersApi {
   constructor(private apiClient: IApiClient) {}
@@ -119,5 +119,19 @@ export class OrdersApi {
       },
     };
     return await this.apiClient.send<null>(options);
+  }
+
+  async update(token: string, _id: string, payload: IOrderUpdateBody) {
+    const options: IRequestOptions = {
+      baseURL: apiConfig.baseURL,
+      url: apiConfig.endpoints.orderById(_id),
+      method: "put",
+      headers: {
+        "content-type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+      data: payload,
+    };
+    return await this.apiClient.send<IOrderResponse>(options);
   }
 }

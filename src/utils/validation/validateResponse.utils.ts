@@ -12,9 +12,11 @@ export function validateResponse<T extends IResponseFields | null>(
   },
 ) {
   expect.soft(response.status).toBe(expected.status);
-  if (expected.IsSuccess)
+  if ("IsSuccess" in expected) {
     expect.soft(response.body!.IsSuccess).toBe(expected.IsSuccess);
-  if (expected.ErrorMessage)
+  }
+  if ("ErrorMessage" in expected) {
     expect.soft(response.body!.ErrorMessage).toBe(expected.ErrorMessage);
+  }
   if (expected.schema) validateJsonSchema(response.body!, expected.schema);
 }

@@ -2,18 +2,18 @@ import { OrdersApi } from "api/api/orders.api";
 import { orderFromResponseSchema } from "data/schemas/orders/order.schema";
 import { ORDER_STATUS } from "data/salesPortal/order-status";
 import { STATUS_CODES } from "data/statusCodes";
-import { IOrderCreateBody, IOrderFromResponse } from "data/types/order.types";
-import { validateResponse } from "utils/validation/validateResponse.utils";
+import { IOrderCreateBody, IOrderFromResponse, IOrderUpdateBody } from "data/types/order.types";
 import { CustomersApiService } from "api/service/customer.service";
-import { generateDelivery } from "data/salesPortal/orders/generateDeliveryData";
 import { ProductsApiService } from "api/service/products.service";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import { generateDelivery } from "data/salesPortal/orders/generateDeliveryData";
 import { getOrderSchema } from "data/schemas/orders/get.schema";
 
 export class OrdersApiService {
   constructor(
     private ordersApi: OrdersApi,
-    private customerApiService: CustomersApiService,
     private productsApiService: ProductsApiService,
+    private customersApiService: CustomersApiService,
   ) {}
 
   async create(token: string, customerId: string, productIds: string[]): Promise<IOrderFromResponse> {
@@ -35,13 +35,15 @@ export class OrdersApiService {
   }
 
   async createOrderAndEntities(token: string, numberOfProducts: number) {
-    const createdCustomer = await this.customerApiService.create(token);
+    const customersService = this.customersApiService;
+    const productsService = this.productsApiService;
+    const createdCustomer = await customersService.create(token);
     const orderData: IOrderCreateBody = {
       customer: createdCustomer._id,
       products: [],
     };
     for (let i = 0; i < numberOfProducts; i++) {
-      const createdProduct = await this.productsApiService.create(token);
+      const createdProduct = await productsService.create(token);
       orderData.products.push(createdProduct._id);
     }
     const response = await this.ordersApi.create(token, orderData);
@@ -91,6 +93,12 @@ export class OrdersApiService {
     validateResponse(res, { status: STATUS_CODES.DELETED });
   }
 
+  async update(token: string, id: string, payload: IOrderUpdateBody): Promise<IOrderFromResponse> {
+    const res = await this.ordersApi.update(token, id, payload);
+    validateResponse(res, { status: STATUS_CODES.OK });
+    return res.body.Order;
+  }
+
   async deleteOrderAndEntities(token: string, orderId: string) {
     const response = await this.ordersApi.getById(orderId, token);
     validateResponse(response, {
@@ -103,8 +111,12 @@ export class OrdersApiService {
     const customerId = order.customer._id;
     const productIds = order.products.map((product) => product._id);
     await this.delete(token, orderId);
-    await this.customerApiService.delete(token, customerId);
-    await this.productsApiService.deleteProducts(token, productIds);
+    if (customerId) {
+      await this.customersApiService.delete(token, customerId);
+    }
+    if (productIds.length > 0) {
+      await this.productsApiService.deleteProducts(token, productIds);
+    }
   }
 
   async addComment(token: string, orderId: string, text: string) {
@@ -123,5 +135,6 @@ export class OrdersApiService {
     validateResponse(response, {
       status: STATUS_CODES.DELETED,
     });
+    return response;
   }
 }
