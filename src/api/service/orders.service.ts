@@ -10,8 +10,6 @@ import { generateDelivery } from "data/salesPortal/orders/generateDeliveryData";
 import { getOrderSchema } from "data/schemas/orders/get.schema";
 
 export class OrdersApiService {
-  private createdOrders = new Map<string, { customerId: string; productIds: string[] }>();
-
   constructor(
     private ordersApi: OrdersApi,
     private productsApiService: ProductsApiService,
@@ -33,10 +31,7 @@ export class OrdersApiService {
       // schema: createOrderSchema,
     });
 
-    const order = response.body.Order;
-    this.createdOrders.set(order._id, { customerId, productIds });
-
-    return order;
+    return response.body.Order;
   }
 
   async createOrderAndEntities(token: string, numberOfProducts: number) {
@@ -96,23 +91,6 @@ export class OrdersApiService {
   async delete(token: string, id: string) {
     const res = await this.ordersApi.delete(token, id);
     validateResponse(res, { status: STATUS_CODES.DELETED });
-  }
-  async fullDelete(token: string, orderId: string) {
-    const orderData = this.createdOrders.get(orderId);
-
-    await this.delete(token, orderId);
-
-    if (orderData) {
-      if (orderData.productIds.length > 0) {
-        await Promise.all(orderData.productIds.map((id) => this.productsApiService.delete(token, id)));
-      }
-
-      if (orderData.customerId) {
-        await this.customersApiService.delete(token, orderData.customerId);
-      }
-
-      this.createdOrders.delete(orderId);
-    }
   }
 
   async update(token: string, id: string, payload: IOrderUpdateBody): Promise<IOrderFromResponse> {

@@ -90,7 +90,9 @@ const test = base.extend<IApi>({
 
     const token = await loginApiService.loginAsAdmin();
 
-    await Promise.all(Array.from(state.orders).map((orderId) => ordersApiService.fullDelete(token, orderId)));
+    await Promise.all(
+      Array.from(state.orders).map((orderId) => ordersApiService.deleteOrderAndEntities(token, orderId)),
+    );
     await Promise.all(Array.from(state.products).map((id) => productsApiService.delete(token, id)));
     await Promise.all(Array.from(state.customers).map((id) => customersApiService.delete(token, id)));
   },

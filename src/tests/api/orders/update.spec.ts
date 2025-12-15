@@ -8,24 +8,22 @@ import type { IProduct } from "data/types/product.types";
 
 test.describe("[API][Orders]", () => {
   let token = "";
-  let customerId = "";
-  let productId = "";
   let orderId = "";
   let orderObj: IOrderFromResponse | null = null;
-  let extraProductId = "";
 
-  test.beforeEach(async ({ loginApiService, customersApiService, productsApiService, ordersApiService, cleanup }) => {
+  test.beforeEach(async ({ loginApiService, ordersApiService }) => {
     token = await loginApiService.loginAsAdmin();
-    const customer = await customersApiService.create(token);
-    customerId = customer._id;
-
-    const product = await productsApiService.create(token);
-    productId = product._id;
-
-    const order = await ordersApiService.create(token, customerId, [productId]);
+    const order = await ordersApiService.createOrderAndEntities(token, 1);
     orderId = order._id;
     orderObj = order;
-    cleanup.addOrder(orderId);
+  });
+
+  test.afterEach(async ({ ordersApiService }) => {
+    if (orderId) {
+      await ordersApiService.deleteOrderAndEntities(token, orderId);
+      orderId = "";
+      orderObj = null;
+    }
   });
 
   test(
@@ -66,10 +64,9 @@ test.describe("[API][Orders]", () => {
   test(
     "ORD-PUT-002: Successful update of customer in order",
     { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
-    async ({ ordersApiService, customersApiService, cleanup }) => {
+    async ({ ordersApiService, customersApiService }) => {
       const original: IOrderFromResponse = orderObj!;
       const newCustomer = await customersApiService.create(token);
-      cleanup.addCustomer(newCustomer._id);
 
       const productIds = original.products.map((p) => p._id);
       const updated = await ordersApiService.update(token, orderId, {
@@ -104,7 +101,7 @@ test.describe("[API][Orders]", () => {
   test(
     "ORD-PUT-004: History entry recorded when order composition changes",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
-    async ({ ordersApiService, productsApiService, cleanup }) => {
+    async ({ ordersApiService, productsApiService }) => {
       test.skip(
         process.env.SALES_PORTAL_API_URL?.includes("aqa-course-project.app") ?? false,
         "Known prod limitation: backend does not support adding products to existing orders via PUT /orders/{id}",
@@ -113,9 +110,7 @@ test.describe("[API][Orders]", () => {
       const beforeHistoryLen = before.history.length;
 
       const extraProduct = await productsApiService.create(token);
-      extraProductId = extraProduct._id;
-      cleanup.addProduct(extraProductId);
-      const productIds = [before.products[0]!._id, extraProductId];
+      const productIds = [before.products[0]!._id, extraProduct._id];
 
       const after = await ordersApiService.update(token, orderId, {
         customer: before.customer._id,
@@ -134,10 +129,11 @@ test.describe("[API][Orders]", () => {
     "ORD-PUT-005: Update attempt for non-existent order returns 404",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApi }) => {
+      const order = orderObj!;
       const nonExistentOrderId = "ffffffffffffffffffffffff";
       const response = await ordersApi.update(token, nonExistentOrderId, {
-        customer: customerId,
-        products: [productId],
+        customer: order.customer._id,
+        products: [order.products[0]!._id],
       });
 
       validateResponse(response, {
@@ -152,10 +148,11 @@ test.describe("[API][Orders]", () => {
     "ORD-PUT-006: Validation error on non-existent product id in products array",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApi }) => {
+      const order = orderObj!;
       const fakeProductId = "ffffffffffffffffffffffff";
       const response = await ordersApi.update(token, orderId, {
-        customer: customerId,
-        products: [productId, fakeProductId],
+        customer: order.customer._id,
+        products: [order.products[0]!._id, fakeProductId],
       });
       validateResponse(response, {
         status: STATUS_CODES.NOT_FOUND,
@@ -169,10 +166,11 @@ test.describe("[API][Orders]", () => {
     "ORD-PUT-007: Validation error on invalid ObjectId format",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApi }) => {
+      const order = orderObj!;
       const invalidOrderId = "123";
       const response = await ordersApi.update(token, invalidOrderId, {
-        customer: customerId,
-        products: [productId],
+        customer: order.customer._id,
+        products: [order.products[0]!._id],
       });
       validateResponse(response, {
         status: STATUS_CODES.SERVER_ERROR,
@@ -186,9 +184,10 @@ test.describe("[API][Orders]", () => {
     "ORD-PUT-008: Unauthorized update without token",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApi }) => {
+      const order = orderObj!;
       const response = await ordersApi.update("", orderId, {
-        customer: customerId,
-        products: [productId],
+        customer: order.customer._id,
+        products: [order.products[0]!._id],
       });
       validateResponse(response, {
         status: STATUS_CODES.UNAUTHORIZED,
@@ -202,10 +201,11 @@ test.describe("[API][Orders]", () => {
     "ORD-PUT-009: Validation error on invalid customer ObjectId format",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApi }) => {
+      const order = orderObj!;
       const invalidCustomerId = "123";
       const response = await ordersApi.update(token, orderId, {
         customer: invalidCustomerId,
-        products: [productId],
+        products: [order.products[0]!._id],
       });
       validateResponse(response, {
         status: STATUS_CODES.SERVER_ERROR,
@@ -219,10 +219,11 @@ test.describe("[API][Orders]", () => {
     "ORD-PUT-010: Validation error on non-existent customer id",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApi }) => {
+      const order = orderObj!;
       const nonExistentCustomerId = "ffffffffffffffffffffffff";
       const response = await ordersApi.update(token, orderId, {
         customer: nonExistentCustomerId,
-        products: [productId],
+        products: [order.products[0]!._id],
       });
       validateResponse(response, {
         status: STATUS_CODES.NOT_FOUND,
@@ -236,8 +237,9 @@ test.describe("[API][Orders]", () => {
     "ORD-PUT-011: Validation error on empty products array",
     { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
     async ({ ordersApi }) => {
+      const order = orderObj!;
       const response = await ordersApi.update(token, orderId, {
-        customer: customerId,
+        customer: order.customer._id,
         products: [],
       });
       validateResponse(response, {
