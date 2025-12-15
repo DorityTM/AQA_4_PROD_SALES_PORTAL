@@ -5,4 +5,5 @@ export const RESPONSE_ERRORS = {
   UNAUTHORIZED: "Not authorized",
   INCORRECT_DELIVERY: "Incorrect Delivery",
   INVALID_DATE: "Invalid final date",
+  CUSTOMER_MISSING: "Missing customer",
 };
