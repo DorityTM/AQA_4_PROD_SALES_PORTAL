@@ -88,7 +88,7 @@ const INVALID_VALUES_CASES: ICreateDeliveryCase[] = [
   },
   {
     title: "Past date",
-    deliveryData: generateDelivery({ finalDate: "2024-12-01" }),
+    deliveryData: generateDelivery({ finalDate: "2024/12/31" }),
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     expectedErrorMessage: RESPONSE_ERRORS.BAD_REQUEST,
   },
