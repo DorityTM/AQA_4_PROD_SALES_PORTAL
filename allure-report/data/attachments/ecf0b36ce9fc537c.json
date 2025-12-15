@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 21:26:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3660",
+    "etag": "W/\"e4c-dO5EYNDTqm1oo3SRpjKKX6QX5bg\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69407d051c508c5d5ecba058",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69407d051c508c5d5ecba006",
+        "email": "Deon.McLaughlin@gmail.com",
+        "name": "Elouise Hammes",
+        "country": "France",
+        "city": "North Micahfort",
+        "street": "Stanley Road 46",
+        "house": 457,
+        "flat": 2497,
+        "phone": "+334922011904590",
+        "createdOn": "2025-12-15T21:26:29.000Z",
+        "notes": "vXsCCl98shGtvCK2h566sOzDkzLw2v"
+      },
+      "products": [
+        {
+          "_id": "69407d051c508c5d5ecba01a",
+          "name": "Bike35479",
+          "amount": 588,
+          "price": 2516,
+          "manufacturer": "Amazon",
+          "notes": "I7lKJdIgPX7hm8lZXYGSFc4IZu88qwmZMNq8I4tgmWjPu2g4gkuKLAvgwLg81r0sj5PoGyif34khdy8Ug5G9clFWlQCs3BHjta4Q9vYbStfDsVtXQjxyFQkEadfTF6T4U8COMmVvhKw5HTsGLod1mdPvkYbTPc3dozFJIFwkjRaomJKIuMuZvXwkUAICbKg1l7aVUgV4gg7N0EswkLJyMM36SosUO7Y8GwXqb60zmGHM40m7rEujMYgeSp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Bedford",
+          "street": "Prosacco Unions",
+          "house": 527,
+          "flat": 7385
+        },
+        "finalDate": "2025-12-22T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 2516,
+      "createdOn": "2025-12-15T21:26:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69407d051c508c5d5ecba006",
+          "products": [
+            {
+              "_id": "69407d051c508c5d5ecba01a",
+              "name": "Bike35479",
+              "amount": 588,
+              "price": 2516,
+              "manufacturer": "Amazon",
+              "notes": "I7lKJdIgPX7hm8lZXYGSFc4IZu88qwmZMNq8I4tgmWjPu2g4gkuKLAvgwLg81r0sj5PoGyif34khdy8Ug5G9clFWlQCs3BHjta4Q9vYbStfDsVtXQjxyFQkEadfTF6T4U8COMmVvhKw5HTsGLod1mdPvkYbTPc3dozFJIFwkjRaomJKIuMuZvXwkUAICbKg1l7aVUgV4gg7N0EswkLJyMM36SosUO7Y8GwXqb60zmGHM40m7rEujMYgeSp",
+              "received": false
+            }
+          ],
+          "total_price": 2516,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Bedford",
+              "street": "Prosacco Unions",
+              "house": 527,
+              "flat": 7385
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-15T21:26:30.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69407d051c508c5d5ecba006",
+          "products": [
+            {
+              "_id": "69407d051c508c5d5ecba01a",
+              "name": "Bike35479",
+              "amount": 588,
+              "price": 2516,
+              "manufacturer": "Amazon",
+              "notes": "I7lKJdIgPX7hm8lZXYGSFc4IZu88qwmZMNq8I4tgmWjPu2g4gkuKLAvgwLg81r0sj5PoGyif34khdy8Ug5G9clFWlQCs3BHjta4Q9vYbStfDsVtXQjxyFQkEadfTF6T4U8COMmVvhKw5HTsGLod1mdPvkYbTPc3dozFJIFwkjRaomJKIuMuZvXwkUAICbKg1l7aVUgV4gg7N0EswkLJyMM36SosUO7Y8GwXqb60zmGHM40m7rEujMYgeSp",
+              "received": false
+            }
+          ],
+          "total_price": 2516,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Bedford",
+              "street": "Prosacco Unions",
+              "house": 527,
+              "flat": 7385
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-15T21:26:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69407d051c508c5d5ecba006",
+          "products": [
+            {
+              "_id": "69407d051c508c5d5ecba01a",
+              "name": "Bike35479",
+              "amount": 588,
+              "price": 2516,
+              "manufacturer": "Amazon",
+              "notes": "I7lKJdIgPX7hm8lZXYGSFc4IZu88qwmZMNq8I4tgmWjPu2g4gkuKLAvgwLg81r0sj5PoGyif34khdy8Ug5G9clFWlQCs3BHjta4Q9vYbStfDsVtXQjxyFQkEadfTF6T4U8COMmVvhKw5HTsGLod1mdPvkYbTPc3dozFJIFwkjRaomJKIuMuZvXwkUAICbKg1l7aVUgV4gg7N0EswkLJyMM36SosUO7Y8GwXqb60zmGHM40m7rEujMYgeSp",
+              "received": false
+            }
+          ],
+          "total_price": 2516,
+          "delivery": null,
+          "changedOn": "2025-12-15T21:26:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
