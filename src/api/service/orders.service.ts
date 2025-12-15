@@ -12,8 +12,8 @@ import { getOrderSchema } from "data/schemas/orders/get.schema";
 export class OrdersApiService {
   constructor(
     private ordersApi: OrdersApi,
-    private productsApiService?: ProductsApiService,
-    private customersApiService?: CustomersApiService,
+    private productsApiService: ProductsApiService,
+    private customersApiService: CustomersApiService,
   ) {}
 
   async create(token: string, customerId: string, productId: string[]): Promise<IOrderFromResponse> {
@@ -35,9 +35,6 @@ export class OrdersApiService {
   }
 
   async createOrderAndEntities(token: string, numberOfProducts: number) {
-    if (!this.customersApiService || !this.productsApiService) {
-      throw new Error("customersApiService and productsApiService are required");
-    }
     const customersService = this.customersApiService;
     const productsService = this.productsApiService;
     const createdCustomer = await customersService.create(token);
@@ -103,23 +100,15 @@ export class OrdersApiService {
       customerId?: string;
     },
   ) {
-    if (!this.productsApiService || !this.customersApiService) {
-      throw new Error("OrdersApiService.fullDelete requires productsApiService and customersApiService");
-    }
-
     await this.delete(token, payload.orderId);
 
-    const deletions: Array<Promise<void>> = [];
-    if (payload.productIds?.length) {
-      deletions.push(
-        Promise.all(payload.productIds.map((id) => this.productsApiService!.delete(token, id))).then(() => undefined),
-      );
-    }
-    if (payload.customerId) {
-      deletions.push(this.customersApiService.delete(token, payload.customerId));
+    if (payload.productIds && payload.productIds.length > 0) {
+      await Promise.all(payload.productIds.map((id) => this.productsApiService.delete(token, id)));
     }
 
-    await Promise.all(deletions);
+    if (payload.customerId) {
+      await this.customersApiService.delete(token, payload.customerId);
+    }
   }
 
   async update(token: string, id: string, payload: IOrderUpdateBody): Promise<IOrderFromResponse> {
@@ -129,9 +118,6 @@ export class OrdersApiService {
   }
 
   async deleteOrderAndEntities(token: string, orderId: string) {
-    if (!this.customersApiService || !this.productsApiService) {
-      throw new Error("OrdersApiService.deleteOrderAndEntities requires customersApiService and productsApiService");
-    }
     const response = await this.ordersApi.getById(orderId, token);
     validateResponse(response, {
       status: STATUS_CODES.OK,
@@ -144,11 +130,7 @@ export class OrdersApiService {
     const productIds = order.products.map((product) => product._id);
     await this.delete(token, orderId);
     await this.customersApiService.delete(token, customerId);
-    if (this.productsApiService.deleteProducts) {
-      await this.productsApiService.deleteProducts(token, productIds);
-    } else {
-      await Promise.all(productIds.map((p) => this.productsApiService!.delete(token, p)));
-    }
+    await this.productsApiService.deleteProducts(token, productIds);
   }
 
   async addComment(token: string, orderId: string, text: string) {

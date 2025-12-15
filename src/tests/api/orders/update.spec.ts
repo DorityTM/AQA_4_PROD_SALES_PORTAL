@@ -143,7 +143,7 @@ test.describe("[API][Orders]", () => {
       validateResponse(response, {
         status: STATUS_CODES.NOT_FOUND,
         IsSuccess: false,
-        ErrorMessage: /.+/,
+        ErrorMessage: "Order with id 'ffffffffffffffffffffffff' wasn't found",
       });
     },
   );
@@ -157,7 +157,11 @@ test.describe("[API][Orders]", () => {
         customer: customerId,
         products: [productId, fakeProductId],
       });
-      validateResponse(response, { status: STATUS_CODES.NOT_FOUND, IsSuccess: false, ErrorMessage: /.+/ });
+      validateResponse(response, {
+        status: STATUS_CODES.NOT_FOUND,
+        IsSuccess: false,
+        ErrorMessage: "Product with id 'ffffffffffffffffffffffff' wasn't found",
+      });
     },
   );
 
@@ -170,7 +174,11 @@ test.describe("[API][Orders]", () => {
         customer: customerId,
         products: [productId],
       });
-      validateResponse(response, { status: STATUS_CODES.SERVER_ERROR, IsSuccess: false, ErrorMessage: /.+/ });
+      validateResponse(response, {
+        status: STATUS_CODES.SERVER_ERROR,
+        IsSuccess: false,
+        ErrorMessage: "Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer",
+      });
     },
   );
 
@@ -182,7 +190,11 @@ test.describe("[API][Orders]", () => {
         customer: customerId,
         products: [productId],
       });
-      validateResponse(response, { status: STATUS_CODES.UNAUTHORIZED, IsSuccess: false, ErrorMessage: /.+/ });
+      validateResponse(response, {
+        status: STATUS_CODES.UNAUTHORIZED,
+        IsSuccess: false,
+        ErrorMessage: "Not authorized",
+      });
     },
   );
 
@@ -195,7 +207,11 @@ test.describe("[API][Orders]", () => {
         customer: invalidCustomerId,
         products: [productId],
       });
-      validateResponse(response, { status: STATUS_CODES.SERVER_ERROR, IsSuccess: false, ErrorMessage: /.+/ });
+      validateResponse(response, {
+        status: STATUS_CODES.SERVER_ERROR,
+        IsSuccess: false,
+        ErrorMessage: 'Cast to ObjectId failed for value "123" (type string) at path "_id" for model "Customer"',
+      });
     },
   );
 
@@ -208,7 +224,11 @@ test.describe("[API][Orders]", () => {
         customer: nonExistentCustomerId,
         products: [productId],
       });
-      validateResponse(response, { status: STATUS_CODES.NOT_FOUND, IsSuccess: false, ErrorMessage: /.+/ });
+      validateResponse(response, {
+        status: STATUS_CODES.NOT_FOUND,
+        IsSuccess: false,
+        ErrorMessage: "Customer with id 'ffffffffffffffffffffffff' wasn't found",
+      });
     },
   );
 
@@ -220,7 +240,11 @@ test.describe("[API][Orders]", () => {
         customer: customerId,
         products: [],
       });
-      validateResponse(response, { status: STATUS_CODES.BAD_REQUEST, IsSuccess: false, ErrorMessage: /.+/ });
+      validateResponse(response, {
+        status: STATUS_CODES.BAD_REQUEST,
+        IsSuccess: false,
+        ErrorMessage: "Incorrect request body",
+      });
     },
   );
 
