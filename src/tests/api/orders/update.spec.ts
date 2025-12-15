@@ -25,7 +25,7 @@ test.describe("[API][Orders]", () => {
     const order = await ordersApiService.create(token, customerId, [productId]);
     orderId = order._id;
     orderObj = order;
-    cleanup.addOrder(orderId, customerId, [productId]);
+    cleanup.addOrder(orderId);
   });
 
   test(

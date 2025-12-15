@@ -10,6 +10,8 @@ import { generateDelivery } from "data/salesPortal/orders/generateDeliveryData";
 import { getOrderSchema } from "data/schemas/orders/get.schema";
 
 export class OrdersApiService {
+  private createdOrders = new Map<string, { customerId: string; productIds: string[] }>();
+
   constructor(
     private ordersApi: OrdersApi,
     private productsApiService: ProductsApiService,
@@ -31,7 +33,10 @@ export class OrdersApiService {
       // schema: createOrderSchema,
     });
 
-    return response.body.Order;
+    const order = response.body.Order;
+    this.createdOrders.set(order._id, { customerId, productIds });
+
+    return order;
   }
 
   async createOrderAndEntities(token: string, numberOfProducts: number) {
@@ -92,22 +97,21 @@ export class OrdersApiService {
     const res = await this.ordersApi.delete(token, id);
     validateResponse(res, { status: STATUS_CODES.DELETED });
   }
-  async fullDelete(
-    token: string,
-    payload: {
-      orderId: string;
-      productIds?: string[];
-      customerId?: string;
-    },
-  ) {
-    await this.delete(token, payload.orderId);
+  async fullDelete(token: string, orderId: string) {
+    const orderData = this.createdOrders.get(orderId);
 
-    if (payload.productIds && payload.productIds.length > 0) {
-      await Promise.all(payload.productIds.map((id) => this.productsApiService.delete(token, id)));
-    }
+    await this.delete(token, orderId);
 
-    if (payload.customerId) {
-      await this.customersApiService.delete(token, payload.customerId);
+    if (orderData) {
+      if (orderData.productIds.length > 0) {
+        await Promise.all(orderData.productIds.map((id) => this.productsApiService.delete(token, id)));
+      }
+
+      if (orderData.customerId) {
+        await this.customersApiService.delete(token, orderData.customerId);
+      }
+
+      this.createdOrders.delete(orderId);
     }
   }
 
