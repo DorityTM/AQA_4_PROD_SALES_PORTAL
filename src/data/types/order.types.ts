@@ -1,4 +1,4 @@
-import { ID, ICreatedOn, IResponseFields, SortOrder } from "./core.types";
+import { ID, ICreatedOn, IResponseFields, SortOrder, ICaseApi } from "./core.types";
 import { ICustomerFromResponse } from "./customer.types";
 import { IOrderProductFromResponse, IProduct } from "./product.types";
 import { ORDER_STATUS, ORDER_HISTORY_ACTIONS } from "../salesPortal/order-status";
@@ -96,3 +96,12 @@ export type IOrderUpdateBody = {
   customer?: string;
   products?: string[];
 };
+
+export interface ICreateOrderCase extends ICaseApi {
+  productsCount: number;
+}
+
+export interface ICreateOrderNegativeCase extends ICaseApi {
+  productsCount: number;
+  orderData: Partial<IOrderCreateBody>;
+}
