@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 15 Dec 2025 17:38:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2725",
+    "etag": "W/\"aa5-sxWcTgKAFdHdFXISFeFRjhnxEBI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694047891c508c5d5ec9cf22",
+      "status": "Draft",
+      "customer": {
+        "_id": "694047881c508c5d5ec9cf06",
+        "email": "Keyon.Pollich@hotmail.com",
+        "name": "Clementine Volkman",
+        "country": "Germany",
+        "city": "Yasmeenville",
+        "street": "Roman Way 78",
+        "house": 604,
+        "flat": 9803,
+        "phone": "+381670906570054",
+        "createdOn": "2025-12-15T17:38:16.000Z",
+        "notes": "jBOL826qf7wbIJ3ApZHqnkHq90Gra6"
+      },
+      "products": [
+        {
+          "_id": "694047881c508c5d5ec9cebd",
+          "name": "Pants18248",
+          "amount": 199,
+          "price": 48884,
+          "manufacturer": "Google",
+          "notes": "oxdP4aQjTmmkNO5s5Ji8NDYiiNx6qezl5oIUY4b5FmyXlHIdMsW93eISSH0dst8iVoNkKNw6VvYM9nmXEcxxq05HVfIxiC3VUzyF80fet1CjMk780waftK9S9hdIipgc8YiLGTEWP7MdFCCH6oDOw5mPz05zwvrvWwwC9zVGwhQqDj4zN5aOdrWYTuFkyMpyZSIW9TxYTActMazVO28TeEw7vPtb9dcEMRRjcOCbUO5NXmW7ofsfgwCigT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "A",
+          "street": "5th Avenue",
+          "house": 1,
+          "flat": 101
+        },
+        "finalDate": "2025-12-22T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 48884,
+      "createdOn": "2025-12-15T17:38:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694047881c508c5d5ec9cf06",
+          "products": [
+            {
+              "_id": "694047881c508c5d5ec9cebd",
+              "name": "Pants18248",
+              "amount": 199,
+              "price": 48884,
+              "manufacturer": "Google",
+              "notes": "oxdP4aQjTmmkNO5s5Ji8NDYiiNx6qezl5oIUY4b5FmyXlHIdMsW93eISSH0dst8iVoNkKNw6VvYM9nmXEcxxq05HVfIxiC3VUzyF80fet1CjMk780waftK9S9hdIipgc8YiLGTEWP7MdFCCH6oDOw5mPz05zwvrvWwwC9zVGwhQqDj4zN5aOdrWYTuFkyMpyZSIW9TxYTActMazVO28TeEw7vPtb9dcEMRRjcOCbUO5NXmW7ofsfgwCigT",
+              "received": false
+            }
+          ],
+          "total_price": 48884,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "A",
+              "street": "5th Avenue",
+              "house": 1,
+              "flat": 101
+            },
+            "finalDate": "2025-12-22T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-15T17:38:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694047881c508c5d5ec9cf06",
+          "products": [
+            {
+              "_id": "694047881c508c5d5ec9cebd",
+              "name": "Pants18248",
+              "amount": 199,
+              "price": 48884,
+              "manufacturer": "Google",
+              "notes": "oxdP4aQjTmmkNO5s5Ji8NDYiiNx6qezl5oIUY4b5FmyXlHIdMsW93eISSH0dst8iVoNkKNw6VvYM9nmXEcxxq05HVfIxiC3VUzyF80fet1CjMk780waftK9S9hdIipgc8YiLGTEWP7MdFCCH6oDOw5mPz05zwvrvWwwC9zVGwhQqDj4zN5aOdrWYTuFkyMpyZSIW9TxYTActMazVO28TeEw7vPtb9dcEMRRjcOCbUO5NXmW7ofsfgwCigT",
+              "received": false
+            }
+          ],
+          "total_price": 48884,
+          "delivery": null,
+          "changedOn": "2025-12-15T17:38:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
