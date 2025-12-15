@@ -93,6 +93,11 @@ export interface ICommentData {
   createdOn: string;
 }
 
+export interface ICreateDeliveryCase extends ICaseApi {
+  deliveryData: Partial<IDeliveryInfo>;
+  expectedStatus: STATUS_CODES;
+}
+
 export interface ICreateOrderCase extends ICaseApi {
   productsCount: number;
 }
@@ -100,9 +105,4 @@ export interface ICreateOrderCase extends ICaseApi {
 export interface ICreateOrderNegativeCase extends ICaseApi {
   productsCount: number;
   orderData: Partial<IOrderCreateBody>;
-}
-
-export interface ICreateDeliveryCase extends ICaseApi {
-  deliveryData: Partial<IDeliveryInfo>;
-  expectedStatus: STATUS_CODES;
 }
