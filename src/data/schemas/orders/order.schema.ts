@@ -1,16 +1,19 @@
-import { productSchema } from "../products/product.schema";
 import { customerSchema } from "../customers/customer.schema";
-import { userSchema } from "../users/user.schema";
 import { deliveryInfoSchema } from "../delivery/delivery.schema";
 import { ORDER_STATUS, ORDER_HISTORY_ACTIONS } from "data/salesPortal/order-status";
 
 export const orderProductSchema = {
   type: "object",
   properties: {
-    ...productSchema.properties,
+    _id: { type: "string" },
+    name: { type: "string" },
+    amount: { type: "number" },
+    price: { type: "number" },
+    manufacturer: { type: "string" },
+    notes: { type: "string" },
     received: { type: "boolean" },
   },
-  required: [...productSchema.required, "received"],
+  required: ["_id", "name", "amount", "price", "manufacturer", "notes", "received"],
   additionalProperties: false,
 };
 
@@ -22,6 +25,23 @@ export const commentSchema = {
     createdOn: { type: "string" },
   },
   required: ["_id", "text", "createdOn"],
+  additionalProperties: false,
+};
+
+export const performerSchema = {
+  type: "object",
+  properties: {
+    _id: { type: "string" },
+    username: { type: "string" },
+    firstName: { type: "string" },
+    lastName: { type: "string" },
+    roles: {
+      type: "array",
+      items: { type: "string" },
+    },
+    createdOn: { type: "string" },
+  },
+  required: ["_id", "username", "firstName", "lastName", "roles", "createdOn"],
   additionalProperties: false,
 };
 
@@ -41,17 +61,15 @@ export const orderHistorySchema = {
     delivery: {
       anyOf: [deliveryInfoSchema, { type: "null" }],
     },
+    assignedManager: {
+      anyOf: [{ type: "string" }, { type: "null" }],
+    },
     changedOn: { type: "string" },
     action: {
       type: "string",
       enum: Object.values(ORDER_HISTORY_ACTIONS),
     },
-    performer: {
-      anyOf: [userSchema, { type: "null" }],
-    },
-    assignedManager: {
-      anyOf: [{ type: "string" }, { type: "null" }],
-    },
+    performer: performerSchema,
   },
   required: [
     "status",
@@ -59,10 +77,10 @@ export const orderHistorySchema = {
     "products",
     "total_price",
     "delivery",
+    "assignedManager",
     "changedOn",
     "action",
     "performer",
-    "assignedManager",
   ],
   additionalProperties: false,
 };

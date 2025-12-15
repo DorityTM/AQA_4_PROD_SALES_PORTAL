@@ -4,7 +4,8 @@ import { validateResponse } from "utils/validation/validateResponse.utils";
 import { createOrderTestData, IOrderTestData } from "utils/orders/createOrderTestData.utils";
 import { TAGS } from "data/tags";
 import { DELETE_ORDER_CASES } from "data/salesPortal/orders/createOrderTestData";
-test.setTimeout(60000);
+import { TIMEOUT_30_S } from "data/salesPortal/constants";
+test.setTimeout(TIMEOUT_30_S);
 
 test.describe("[API][Orders][Delete Order]", () => {
   let token = "";
