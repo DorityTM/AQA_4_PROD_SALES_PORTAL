@@ -113,6 +113,17 @@ export interface ICreateOrderNegativeCase extends ICaseApi {
   orderData: Partial<IOrderCreateBody>;
 }
 
+export interface IUpdateOrderErrorCase {
+  title: string;
+  expectedStatus: number;
+  isSuccess: boolean;
+  expectedErrorMessage: string | null;
+  orderId?: string;
+  customerId?: string;
+  shouldHaveProducts?: boolean;
+  invalidProductId?: string;
+}
+
 export interface IManagerAssignCases {
   name: string;
   create: (ordersApiService: OrdersApiService, token: string) => Promise<IOrderFromResponse>;

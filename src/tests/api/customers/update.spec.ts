@@ -41,6 +41,7 @@ test.describe("[API][Customers]", () => {
           });
 
           const updatedCustomer = updatedCustomerResponse.body.Customer;
+          expect.soft(updatedCustomer).toEqual(updatedCustomerData);
           expect.soft(updatedCustomer._id).toBe(id);
         },
       );

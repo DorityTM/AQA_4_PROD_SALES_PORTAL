@@ -1,16 +1,6 @@
 import { STATUS_CODES } from "data/statusCodes";
 import { RESPONSE_ERRORS } from "data/salesPortal/errors";
-
-export interface IUpdateOrderErrorCase {
-  title: string;
-  expectedStatus: STATUS_CODES;
-  isSuccess: boolean;
-  expectedErrorMessage: string | null;
-  orderId?: string;
-  customerId?: string;
-  shouldHaveProducts?: boolean;
-  invalidProductId?: string;
-}
+import { IUpdateOrderErrorCase } from "data/types/order.types";
 
 export const updateOrderErrorCases: IUpdateOrderErrorCase[] = [
   {
