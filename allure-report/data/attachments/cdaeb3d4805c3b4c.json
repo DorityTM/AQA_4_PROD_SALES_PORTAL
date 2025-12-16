@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 19:41:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2755",
+    "etag": "W/\"ac3-mP+u/We3Pwb+l1k1iks/Bekt+lk\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941b5e81c508c5d5ece0249",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941b5e81c508c5d5ece020a",
+        "email": "Ian.Watsica@gmail.com",
+        "name": "Justen Will",
+        "country": "Belarus",
+        "city": "Kautzerport",
+        "street": "Batz Center 83",
+        "house": 741,
+        "flat": 1970,
+        "phone": "+795027179311692",
+        "createdOn": "2025-12-16T19:41:28.000Z",
+        "notes": "mhxcksRd3alcX6w3grG0bXDKn6ejuo"
+      },
+      "products": [
+        {
+          "_id": "6941b5e81c508c5d5ece021e",
+          "name": "Towels42273",
+          "amount": 434,
+          "price": 88806,
+          "manufacturer": "Microsoft",
+          "notes": "nZd6KJNmyYxjpFOpmcPoR7Y8MtHwoFfCq724TsMFXt9PKibRmaKHFcI68mF4szv3b543TBUM4R66IJ0FFHGToxAYDBtxfpHi2gD8dr7fUHDqClBqzhKLmSzpL56E6ju1z8yRr72A8mMCEqpr3kEzIBNCSCH0AAYO5JGLw1x46DfAAdx3I5brirFQlal21ORRgejEXPMai2iMslfOAjZYkfAl4D9jhIeOtWLgJxZUv32viTmLV9dbXPFVgj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Rippinview",
+          "street": "School Close",
+          "house": 904,
+          "flat": 9934
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88806,
+      "createdOn": "2025-12-16T19:41:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941b5e81c508c5d5ece020a",
+          "products": [
+            {
+              "_id": "6941b5e81c508c5d5ece021e",
+              "name": "Towels42273",
+              "amount": 434,
+              "price": 88806,
+              "manufacturer": "Microsoft",
+              "notes": "nZd6KJNmyYxjpFOpmcPoR7Y8MtHwoFfCq724TsMFXt9PKibRmaKHFcI68mF4szv3b543TBUM4R66IJ0FFHGToxAYDBtxfpHi2gD8dr7fUHDqClBqzhKLmSzpL56E6ju1z8yRr72A8mMCEqpr3kEzIBNCSCH0AAYO5JGLw1x46DfAAdx3I5brirFQlal21ORRgejEXPMai2iMslfOAjZYkfAl4D9jhIeOtWLgJxZUv32viTmLV9dbXPFVgj",
+              "received": false
+            }
+          ],
+          "total_price": 88806,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Rippinview",
+              "street": "School Close",
+              "house": 904,
+              "flat": 9934
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T19:41:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941b5e81c508c5d5ece020a",
+          "products": [
+            {
+              "_id": "6941b5e81c508c5d5ece021e",
+              "name": "Towels42273",
+              "amount": 434,
+              "price": 88806,
+              "manufacturer": "Microsoft",
+              "notes": "nZd6KJNmyYxjpFOpmcPoR7Y8MtHwoFfCq724TsMFXt9PKibRmaKHFcI68mF4szv3b543TBUM4R66IJ0FFHGToxAYDBtxfpHi2gD8dr7fUHDqClBqzhKLmSzpL56E6ju1z8yRr72A8mMCEqpr3kEzIBNCSCH0AAYO5JGLw1x46DfAAdx3I5brirFQlal21ORRgejEXPMai2iMslfOAjZYkfAl4D9jhIeOtWLgJxZUv32viTmLV9dbXPFVgj",
+              "received": false
+            }
+          ],
+          "total_price": 88806,
+          "delivery": null,
+          "changedOn": "2025-12-16T19:41:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

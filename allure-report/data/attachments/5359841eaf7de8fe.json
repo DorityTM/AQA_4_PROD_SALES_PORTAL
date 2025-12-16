@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 19:41:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2726",
+    "etag": "W/\"aa6-ZYXp4My8hcYhywDaIpCoVpJF8tQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941b5fb1c508c5d5ece0a72",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941b5fb1c508c5d5ece0a35",
+        "email": "Loraine71@hotmail.com",
+        "name": "Oscar McGlynn",
+        "country": "France",
+        "city": "Othoview",
+        "street": "Jamil Streets 88",
+        "house": 508,
+        "flat": 4225,
+        "phone": "+515732966513999",
+        "createdOn": "2025-12-16T19:41:47.000Z",
+        "notes": "9kQDjxus5olYuXQiZkiLH4guHLUYP0"
+      },
+      "products": [
+        {
+          "_id": "6941b5fb1c508c5d5ece0a47",
+          "name": "Shirt42215",
+          "amount": 987,
+          "price": 80182,
+          "manufacturer": "Tesla",
+          "notes": "7DSnGVzweiOzfvaMgReCHIqfN3zG3N1ZoNdVICgic08J1aGBXqH7YfghoLAoGZHBgQmSgKnerATo80gFI23Xv0w0nqw3Fsqon02qLDESk9MiypSOqEVQ6uxFsIA7eJLzlhXgfPCNFda1AP1gouIaJpYQXDzQYvXGGUte3mHy9FiDie8lZdCwKDesXF5qxzyfZTTDlEYLTEqhV8f2nNmk6P160Qcc8rfirOrlPTBSorZ5DOs6CsCdWBZXsO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "A",
+          "street": "5th Avenue",
+          "house": 1,
+          "flat": 101
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80182,
+      "createdOn": "2025-12-16T19:41:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941b5fb1c508c5d5ece0a35",
+          "products": [
+            {
+              "_id": "6941b5fb1c508c5d5ece0a47",
+              "name": "Shirt42215",
+              "amount": 987,
+              "price": 80182,
+              "manufacturer": "Tesla",
+              "notes": "7DSnGVzweiOzfvaMgReCHIqfN3zG3N1ZoNdVICgic08J1aGBXqH7YfghoLAoGZHBgQmSgKnerATo80gFI23Xv0w0nqw3Fsqon02qLDESk9MiypSOqEVQ6uxFsIA7eJLzlhXgfPCNFda1AP1gouIaJpYQXDzQYvXGGUte3mHy9FiDie8lZdCwKDesXF5qxzyfZTTDlEYLTEqhV8f2nNmk6P160Qcc8rfirOrlPTBSorZ5DOs6CsCdWBZXsO",
+              "received": false
+            }
+          ],
+          "total_price": 80182,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "A",
+              "street": "5th Avenue",
+              "house": 1,
+              "flat": 101
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T19:41:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941b5fb1c508c5d5ece0a35",
+          "products": [
+            {
+              "_id": "6941b5fb1c508c5d5ece0a47",
+              "name": "Shirt42215",
+              "amount": 987,
+              "price": 80182,
+              "manufacturer": "Tesla",
+              "notes": "7DSnGVzweiOzfvaMgReCHIqfN3zG3N1ZoNdVICgic08J1aGBXqH7YfghoLAoGZHBgQmSgKnerATo80gFI23Xv0w0nqw3Fsqon02qLDESk9MiypSOqEVQ6uxFsIA7eJLzlhXgfPCNFda1AP1gouIaJpYQXDzQYvXGGUte3mHy9FiDie8lZdCwKDesXF5qxzyfZTTDlEYLTEqhV8f2nNmk6P160Qcc8rfirOrlPTBSorZ5DOs6CsCdWBZXsO",
+              "received": false
+            }
+          ],
+          "total_price": 80182,
+          "delivery": null,
+          "changedOn": "2025-12-16T19:41:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
