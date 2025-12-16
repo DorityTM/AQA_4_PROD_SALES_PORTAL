@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 14:50:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2737",
+    "etag": "W/\"ab1-sZv3MufTI0iy1w2Fw8zv2cMx/pw\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941719b1c508c5d5ecd8540",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941719b1c508c5d5ecd84fa",
+        "email": "Rosina.Weissnat@gmail.com",
+        "name": "Nathaniel Adams",
+        "country": "Canada",
+        "city": "Yuma",
+        "street": "Augustine Ford 15",
+        "house": 169,
+        "flat": 873,
+        "phone": "+315211998588870",
+        "createdOn": "2025-12-16T14:50:03.000Z",
+        "notes": "i2JCUxunke71vLt5QUoyQVXEAQ9WTQ"
+      },
+      "products": [
+        {
+          "_id": "6941719b1c508c5d5ecd851d",
+          "name": "Pants58409",
+          "amount": 11,
+          "price": 94509,
+          "manufacturer": "Apple",
+          "notes": "CAbhxodYx85D3GWSOiPjk7dLoQTayaoT2uMayDUSHp9MELCOouEq3zVy6VZpadfaGsvvOeC6WOTsDHncEDG8aTibuD87Q2dD72xWGFAccU9u4tc9RwbwzhfhH6L8q48cHhy8FQOMTBA3RRyIQwefcclZmNUivHNJObVbrsntUHssUN2BotLBqwPs31NQLXkGprTvFzBuaOmmjUkWf45niGvwzAMxDJ5MGddCuve25CEdgKGvjFimcYgeqp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "New Retha",
+          "street": "Adolf Meadow",
+          "house": 516,
+          "flat": 8745
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 94509,
+      "createdOn": "2025-12-16T14:50:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941719b1c508c5d5ecd84fa",
+          "products": [
+            {
+              "_id": "6941719b1c508c5d5ecd851d",
+              "name": "Pants58409",
+              "amount": 11,
+              "price": 94509,
+              "manufacturer": "Apple",
+              "notes": "CAbhxodYx85D3GWSOiPjk7dLoQTayaoT2uMayDUSHp9MELCOouEq3zVy6VZpadfaGsvvOeC6WOTsDHncEDG8aTibuD87Q2dD72xWGFAccU9u4tc9RwbwzhfhH6L8q48cHhy8FQOMTBA3RRyIQwefcclZmNUivHNJObVbrsntUHssUN2BotLBqwPs31NQLXkGprTvFzBuaOmmjUkWf45niGvwzAMxDJ5MGddCuve25CEdgKGvjFimcYgeqp",
+              "received": false
+            }
+          ],
+          "total_price": 94509,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Retha",
+              "street": "Adolf Meadow",
+              "house": 516,
+              "flat": 8745
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T14:50:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941719b1c508c5d5ecd84fa",
+          "products": [
+            {
+              "_id": "6941719b1c508c5d5ecd851d",
+              "name": "Pants58409",
+              "amount": 11,
+              "price": 94509,
+              "manufacturer": "Apple",
+              "notes": "CAbhxodYx85D3GWSOiPjk7dLoQTayaoT2uMayDUSHp9MELCOouEq3zVy6VZpadfaGsvvOeC6WOTsDHncEDG8aTibuD87Q2dD72xWGFAccU9u4tc9RwbwzhfhH6L8q48cHhy8FQOMTBA3RRyIQwefcclZmNUivHNJObVbrsntUHssUN2BotLBqwPs31NQLXkGprTvFzBuaOmmjUkWf45niGvwzAMxDJ5MGddCuve25CEdgKGvjFimcYgeqp",
+              "received": false
+            }
+          ],
+          "total_price": 94509,
+          "delivery": null,
+          "changedOn": "2025-12-16T14:50:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

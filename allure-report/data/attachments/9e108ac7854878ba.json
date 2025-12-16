@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 14:49:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3700",
+    "etag": "W/\"e74-ImKqiQe142W1Q9TRxBmWN/9y/L8\"",
+    "keep-alive": "timeout=5, max=28",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694171851c508c5d5ecd7bc6",
+      "status": "In Process",
+      "customer": {
+        "_id": "694171841c508c5d5ecd7b7a",
+        "email": "Eliane_Sauer-Schmitt18@gmail.com",
+        "name": "Ramiro Harber",
+        "country": "Canada",
+        "city": "Funkville",
+        "street": "Kovacek Turnpike 35",
+        "house": 359,
+        "flat": 1309,
+        "phone": "+809458408053744",
+        "createdOn": "2025-12-16T14:49:40.000Z",
+        "notes": "7LPAROaio41fG4tBMFREDmmwJiQXwg"
+      },
+      "products": [
+        {
+          "_id": "694171851c508c5d5ecd7b9e",
+          "name": "Car74161",
+          "amount": 171,
+          "price": 38916,
+          "manufacturer": "Xiaomi",
+          "notes": "ipDP8QsyFZee1ZTm1HhVbACvKiKHcg9J34CNlkg2zkPojlbUyH0OEwL2xeGWlfj2IJcOWZglzcThPg3nkRt7mbu4RXP22W5jECQhvgFcIhdCJS6iUd0MSbAUwshVRDG5esQf0E0BtJe0r9I7Xz6l4juunWt3BbylPkCUQxf96jOxH2dYkB8AO4lfUmdOUWkgKASjXbc8qMkjRH1TT4AV2BAjBBKUVvpPGc3nkOnGsomzK5eQlxT6KaywjT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Ann Arbor",
+          "street": "S Washington Avenue",
+          "house": 492,
+          "flat": 9608
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 38916,
+      "createdOn": "2025-12-16T14:49:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694171841c508c5d5ecd7b7a",
+          "products": [
+            {
+              "_id": "694171851c508c5d5ecd7b9e",
+              "name": "Car74161",
+              "amount": 171,
+              "price": 38916,
+              "manufacturer": "Xiaomi",
+              "notes": "ipDP8QsyFZee1ZTm1HhVbACvKiKHcg9J34CNlkg2zkPojlbUyH0OEwL2xeGWlfj2IJcOWZglzcThPg3nkRt7mbu4RXP22W5jECQhvgFcIhdCJS6iUd0MSbAUwshVRDG5esQf0E0BtJe0r9I7Xz6l4juunWt3BbylPkCUQxf96jOxH2dYkB8AO4lfUmdOUWkgKASjXbc8qMkjRH1TT4AV2BAjBBKUVvpPGc3nkOnGsomzK5eQlxT6KaywjT",
+              "received": false
+            }
+          ],
+          "total_price": 38916,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Ann Arbor",
+              "street": "S Washington Avenue",
+              "house": 492,
+              "flat": 9608
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T14:49:42.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694171841c508c5d5ecd7b7a",
+          "products": [
+            {
+              "_id": "694171851c508c5d5ecd7b9e",
+              "name": "Car74161",
+              "amount": 171,
+              "price": 38916,
+              "manufacturer": "Xiaomi",
+              "notes": "ipDP8QsyFZee1ZTm1HhVbACvKiKHcg9J34CNlkg2zkPojlbUyH0OEwL2xeGWlfj2IJcOWZglzcThPg3nkRt7mbu4RXP22W5jECQhvgFcIhdCJS6iUd0MSbAUwshVRDG5esQf0E0BtJe0r9I7Xz6l4juunWt3BbylPkCUQxf96jOxH2dYkB8AO4lfUmdOUWkgKASjXbc8qMkjRH1TT4AV2BAjBBKUVvpPGc3nkOnGsomzK5eQlxT6KaywjT",
+              "received": false
+            }
+          ],
+          "total_price": 38916,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Ann Arbor",
+              "street": "S Washington Avenue",
+              "house": 492,
+              "flat": 9608
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T14:49:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694171841c508c5d5ecd7b7a",
+          "products": [
+            {
+              "_id": "694171851c508c5d5ecd7b9e",
+              "name": "Car74161",
+              "amount": 171,
+              "price": 38916,
+              "manufacturer": "Xiaomi",
+              "notes": "ipDP8QsyFZee1ZTm1HhVbACvKiKHcg9J34CNlkg2zkPojlbUyH0OEwL2xeGWlfj2IJcOWZglzcThPg3nkRt7mbu4RXP22W5jECQhvgFcIhdCJS6iUd0MSbAUwshVRDG5esQf0E0BtJe0r9I7Xz6l4juunWt3BbylPkCUQxf96jOxH2dYkB8AO4lfUmdOUWkgKASjXbc8qMkjRH1TT4AV2BAjBBKUVvpPGc3nkOnGsomzK5eQlxT6KaywjT",
+              "received": false
+            }
+          ],
+          "total_price": 38916,
+          "delivery": null,
+          "changedOn": "2025-12-16T14:49:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

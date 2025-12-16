@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 14:50:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3674",
+    "etag": "W/\"e5a-3VHmKd/3zbidL8hjDJ6quRipDIQ\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694171991c508c5d5ecd8425",
+      "status": "In Process",
+      "customer": {
+        "_id": "694171991c508c5d5ecd83e0",
+        "email": "River.Cronin25@yahoo.com",
+        "name": "Shaun Hintz",
+        "country": "USA",
+        "city": "Fort Kristina",
+        "street": "Joyce Union 37",
+        "house": 469,
+        "flat": 3025,
+        "phone": "+319845965855677",
+        "createdOn": "2025-12-16T14:50:01.000Z",
+        "notes": "jJjEIK7m9HuaFAmQvNFDk0uXWjdINg"
+      },
+      "products": [
+        {
+          "_id": "694171991c508c5d5ecd8401",
+          "name": "Fish287",
+          "amount": 297,
+          "price": 95267,
+          "manufacturer": "Samsung",
+          "notes": "eD613HPCm6PWrcCEksD1xZzLlV04tCQcn7xSXqCT3zvAKvpGUAxNzMwcAl3Enh7yIfLzAY7FX3sQ2lUq8DZOUDXK6330bOzemuZNAr9wt0GKxcWwzh6o0etk1Ym28m03YnI7OmUAmSMDx9xsrItDjPUnckgRTvooQNZ644Th0fBkuWYwBfreqvtfzd2wlT1wFKGl8ACWG8BtLGvydhvyDaPGwDU68YIc0fpolecRsdsR7A26tkObWGIdck",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Hattiesburg",
+          "street": "E River Road",
+          "house": 465,
+          "flat": 3593
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 95267,
+      "createdOn": "2025-12-16T14:50:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694171991c508c5d5ecd83e0",
+          "products": [
+            {
+              "_id": "694171991c508c5d5ecd8401",
+              "name": "Fish287",
+              "amount": 297,
+              "price": 95267,
+              "manufacturer": "Samsung",
+              "notes": "eD613HPCm6PWrcCEksD1xZzLlV04tCQcn7xSXqCT3zvAKvpGUAxNzMwcAl3Enh7yIfLzAY7FX3sQ2lUq8DZOUDXK6330bOzemuZNAr9wt0GKxcWwzh6o0etk1Ym28m03YnI7OmUAmSMDx9xsrItDjPUnckgRTvooQNZ644Th0fBkuWYwBfreqvtfzd2wlT1wFKGl8ACWG8BtLGvydhvyDaPGwDU68YIc0fpolecRsdsR7A26tkObWGIdck",
+              "received": false
+            }
+          ],
+          "total_price": 95267,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Hattiesburg",
+              "street": "E River Road",
+              "house": 465,
+              "flat": 3593
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T14:50:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694171991c508c5d5ecd83e0",
+          "products": [
+            {
+              "_id": "694171991c508c5d5ecd8401",
+              "name": "Fish287",
+              "amount": 297,
+              "price": 95267,
+              "manufacturer": "Samsung",
+              "notes": "eD613HPCm6PWrcCEksD1xZzLlV04tCQcn7xSXqCT3zvAKvpGUAxNzMwcAl3Enh7yIfLzAY7FX3sQ2lUq8DZOUDXK6330bOzemuZNAr9wt0GKxcWwzh6o0etk1Ym28m03YnI7OmUAmSMDx9xsrItDjPUnckgRTvooQNZ644Th0fBkuWYwBfreqvtfzd2wlT1wFKGl8ACWG8BtLGvydhvyDaPGwDU68YIc0fpolecRsdsR7A26tkObWGIdck",
+              "received": false
+            }
+          ],
+          "total_price": 95267,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Hattiesburg",
+              "street": "E River Road",
+              "house": 465,
+              "flat": 3593
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T14:50:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694171991c508c5d5ecd83e0",
+          "products": [
+            {
+              "_id": "694171991c508c5d5ecd8401",
+              "name": "Fish287",
+              "amount": 297,
+              "price": 95267,
+              "manufacturer": "Samsung",
+              "notes": "eD613HPCm6PWrcCEksD1xZzLlV04tCQcn7xSXqCT3zvAKvpGUAxNzMwcAl3Enh7yIfLzAY7FX3sQ2lUq8DZOUDXK6330bOzemuZNAr9wt0GKxcWwzh6o0etk1Ym28m03YnI7OmUAmSMDx9xsrItDjPUnckgRTvooQNZ644Th0fBkuWYwBfreqvtfzd2wlT1wFKGl8ACWG8BtLGvydhvyDaPGwDU68YIc0fpolecRsdsR7A26tkObWGIdck",
+              "received": false
+            }
+          ],
+          "total_price": 95267,
+          "delivery": null,
+          "changedOn": "2025-12-16T14:50:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
