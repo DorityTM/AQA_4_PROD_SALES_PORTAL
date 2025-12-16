@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 16:57:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3669",
+    "etag": "W/\"e55-Io3WoYELYh/JaSXsfeBprR+ZOxY\"",
+    "keep-alive": "timeout=5, max=41",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69418f8d1c508c5d5ecdca04",
+      "status": "In Process",
+      "customer": {
+        "_id": "69418f8c1c508c5d5ecdc9b9",
+        "email": "Alberto_Connelly@gmail.com",
+        "name": "Darien Auer",
+        "country": "Germany",
+        "city": "North Maureen",
+        "street": "Church Walk 31",
+        "house": 422,
+        "flat": 2361,
+        "phone": "+706504446454406",
+        "createdOn": "2025-12-16T16:57:48.000Z",
+        "notes": "CLnouxBAaPWZVjWccqOu8s5s90FTUp"
+      },
+      "products": [
+        {
+          "_id": "69418f8c1c508c5d5ecdc9d4",
+          "name": "Bike33221",
+          "amount": 546,
+          "price": 15133,
+          "manufacturer": "Xiaomi",
+          "notes": "ZNgdG7vVHhHFg4xh1Wtg51EfPshehJZLEWzLlHj0wdCvpoRMMVDOkImf0AuWxyLBUaZOkvuhuN4yhg0hbYHeGMcnK3UGBnFdTyH1w2R6F3ZmxsgXbxLQ6rI4iMSfMGNLLS1nwqTfmjO5vn8Zw1gRlKVebgmDvAeMZpXoz03LQ3av1OuGxcHyM1OH538833dZ6fBFU8Ey8kNSYUCx5TUS9ZlyfMuaLja7tjFJqwYdO0Bw03Cwyv57zMJLgW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Tamiami",
+          "street": "Mount Street",
+          "house": 323,
+          "flat": 8378
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15133,
+      "createdOn": "2025-12-16T16:57:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69418f8c1c508c5d5ecdc9b9",
+          "products": [
+            {
+              "_id": "69418f8c1c508c5d5ecdc9d4",
+              "name": "Bike33221",
+              "amount": 546,
+              "price": 15133,
+              "manufacturer": "Xiaomi",
+              "notes": "ZNgdG7vVHhHFg4xh1Wtg51EfPshehJZLEWzLlHj0wdCvpoRMMVDOkImf0AuWxyLBUaZOkvuhuN4yhg0hbYHeGMcnK3UGBnFdTyH1w2R6F3ZmxsgXbxLQ6rI4iMSfMGNLLS1nwqTfmjO5vn8Zw1gRlKVebgmDvAeMZpXoz03LQ3av1OuGxcHyM1OH538833dZ6fBFU8Ey8kNSYUCx5TUS9ZlyfMuaLja7tjFJqwYdO0Bw03Cwyv57zMJLgW",
+              "received": false
+            }
+          ],
+          "total_price": 15133,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Tamiami",
+              "street": "Mount Street",
+              "house": 323,
+              "flat": 8378
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:57:50.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418f8c1c508c5d5ecdc9b9",
+          "products": [
+            {
+              "_id": "69418f8c1c508c5d5ecdc9d4",
+              "name": "Bike33221",
+              "amount": 546,
+              "price": 15133,
+              "manufacturer": "Xiaomi",
+              "notes": "ZNgdG7vVHhHFg4xh1Wtg51EfPshehJZLEWzLlHj0wdCvpoRMMVDOkImf0AuWxyLBUaZOkvuhuN4yhg0hbYHeGMcnK3UGBnFdTyH1w2R6F3ZmxsgXbxLQ6rI4iMSfMGNLLS1nwqTfmjO5vn8Zw1gRlKVebgmDvAeMZpXoz03LQ3av1OuGxcHyM1OH538833dZ6fBFU8Ey8kNSYUCx5TUS9ZlyfMuaLja7tjFJqwYdO0Bw03Cwyv57zMJLgW",
+              "received": false
+            }
+          ],
+          "total_price": 15133,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Tamiami",
+              "street": "Mount Street",
+              "house": 323,
+              "flat": 8378
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:57:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418f8c1c508c5d5ecdc9b9",
+          "products": [
+            {
+              "_id": "69418f8c1c508c5d5ecdc9d4",
+              "name": "Bike33221",
+              "amount": 546,
+              "price": 15133,
+              "manufacturer": "Xiaomi",
+              "notes": "ZNgdG7vVHhHFg4xh1Wtg51EfPshehJZLEWzLlHj0wdCvpoRMMVDOkImf0AuWxyLBUaZOkvuhuN4yhg0hbYHeGMcnK3UGBnFdTyH1w2R6F3ZmxsgXbxLQ6rI4iMSfMGNLLS1nwqTfmjO5vn8Zw1gRlKVebgmDvAeMZpXoz03LQ3av1OuGxcHyM1OH538833dZ6fBFU8Ey8kNSYUCx5TUS9ZlyfMuaLja7tjFJqwYdO0Bw03Cwyv57zMJLgW",
+              "received": false
+            }
+          ],
+          "total_price": 15133,
+          "delivery": null,
+          "changedOn": "2025-12-16T16:57:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

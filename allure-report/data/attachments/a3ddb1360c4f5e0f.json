@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 16:58:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2730",
+    "etag": "W/\"aaa-JuIrJxPGdagAP9ipd09bnAveBJc\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69418fb21c508c5d5ecdd983",
+      "status": "Draft",
+      "customer": {
+        "_id": "69418fb11c508c5d5ecdd935",
+        "email": "Ole_OConner21@gmail.com",
+        "name": "Naomi Fadel",
+        "country": "Belarus",
+        "city": "Maviscester",
+        "street": "School Lane 9",
+        "house": 965,
+        "flat": 1238,
+        "phone": "+691308300556026",
+        "createdOn": "2025-12-16T16:58:25.000Z",
+        "notes": "RtweBdhVihRSvKDPVgtsuz6xpOA6K9"
+      },
+      "products": [
+        {
+          "_id": "69418fb11c508c5d5ecdd94e",
+          "name": "Bike98099",
+          "amount": 603,
+          "price": 56775,
+          "manufacturer": "Samsung",
+          "notes": "XbOknoH9z05GW9WrHj9TEKAHCPlFc3EziUMToZVGsld1ivotmwD1b8j5Htjgfh5r3B4iqz1bE01KBHG69N0MCDEZis0vGmA9lZNJ2fG4gr5Ge2fp2giAuBjwPy8jk3RdaHfJQyJkY66FRWW5viFwlgCE063ofF7DCBoQkv1mxn4oy7mkbKuSbwqMTbbm1x53eR9XFn2f5Dcre0erfJQIwQ8XfW2uoC5v3ANTNXwNJvf7i6BA451lgWJoBV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "A",
+          "street": "5th Avenue",
+          "house": 1,
+          "flat": 101
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56775,
+      "createdOn": "2025-12-16T16:58:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69418fb11c508c5d5ecdd935",
+          "products": [
+            {
+              "_id": "69418fb11c508c5d5ecdd94e",
+              "name": "Bike98099",
+              "amount": 603,
+              "price": 56775,
+              "manufacturer": "Samsung",
+              "notes": "XbOknoH9z05GW9WrHj9TEKAHCPlFc3EziUMToZVGsld1ivotmwD1b8j5Htjgfh5r3B4iqz1bE01KBHG69N0MCDEZis0vGmA9lZNJ2fG4gr5Ge2fp2giAuBjwPy8jk3RdaHfJQyJkY66FRWW5viFwlgCE063ofF7DCBoQkv1mxn4oy7mkbKuSbwqMTbbm1x53eR9XFn2f5Dcre0erfJQIwQ8XfW2uoC5v3ANTNXwNJvf7i6BA451lgWJoBV",
+              "received": false
+            }
+          ],
+          "total_price": 56775,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "A",
+              "street": "5th Avenue",
+              "house": 1,
+              "flat": 101
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:58:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418fb11c508c5d5ecdd935",
+          "products": [
+            {
+              "_id": "69418fb11c508c5d5ecdd94e",
+              "name": "Bike98099",
+              "amount": 603,
+              "price": 56775,
+              "manufacturer": "Samsung",
+              "notes": "XbOknoH9z05GW9WrHj9TEKAHCPlFc3EziUMToZVGsld1ivotmwD1b8j5Htjgfh5r3B4iqz1bE01KBHG69N0MCDEZis0vGmA9lZNJ2fG4gr5Ge2fp2giAuBjwPy8jk3RdaHfJQyJkY66FRWW5viFwlgCE063ofF7DCBoQkv1mxn4oy7mkbKuSbwqMTbbm1x53eR9XFn2f5Dcre0erfJQIwQ8XfW2uoC5v3ANTNXwNJvf7i6BA451lgWJoBV",
+              "received": false
+            }
+          ],
+          "total_price": 56775,
+          "delivery": null,
+          "changedOn": "2025-12-16T16:58:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 16:58:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2426",
+    "etag": "W/\"97a-8BxuOb4DNf8nLz3OJqQ41ETlAj0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69418fac1c508c5d5ecdd70e",
+      "status": "Draft",
+      "customer": {
+        "_id": "69418fac1c508c5d5ecdd71f",
+        "email": "Roman_Renner@yahoo.com",
+        "name": "Ike West",
+        "country": "Germany",
+        "city": "Fort Rodgerfurt",
+        "street": "Emmerich Lane 79",
+        "house": 913,
+        "flat": 9569,
+        "phone": "+191764488212316",
+        "createdOn": "2025-12-16T16:58:20.000Z",
+        "notes": "hnFmnLgU9rYsSXDJlIhWEJZNnGlq8T"
+      },
+      "products": [
+        {
+          "_id": "69418fac1c508c5d5ecdd6f5",
+          "name": "Soap11178",
+          "amount": 809,
+          "price": 96456,
+          "manufacturer": "Amazon",
+          "notes": "Ts6oFlyKaWMpsfIrE2bwpRp9ib3lMHe9KisUAjdZLzzmzxP3YTligpkK1DCr3wti9WE3IBJk4ifd2tsUXRveHagKvvzZd315c6wbxeNFrAW9IGcxuW9vQ0oGfB1uFcQwx7QLgaiq4hWm6it01hJOmnV6whOIBjdtey9MrmnO6ouX7n3sRlEO7fzVoGRMb4Hvpynh3h08ouzmTmbUOQlqEuehTwkQeEtz4iT6IJnARrJfmCPbaIADlRBLo3",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 96456,
+      "createdOn": "2025-12-16T16:58:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69418fac1c508c5d5ecdd71f",
+          "products": [
+            {
+              "_id": "69418fac1c508c5d5ecdd6f5",
+              "name": "Soap11178",
+              "amount": 809,
+              "price": 96456,
+              "manufacturer": "Amazon",
+              "notes": "Ts6oFlyKaWMpsfIrE2bwpRp9ib3lMHe9KisUAjdZLzzmzxP3YTligpkK1DCr3wti9WE3IBJk4ifd2tsUXRveHagKvvzZd315c6wbxeNFrAW9IGcxuW9vQ0oGfB1uFcQwx7QLgaiq4hWm6it01hJOmnV6whOIBjdtey9MrmnO6ouX7n3sRlEO7fzVoGRMb4Hvpynh3h08ouzmTmbUOQlqEuehTwkQeEtz4iT6IJnARrJfmCPbaIADlRBLo3",
+              "received": false
+            }
+          ],
+          "total_price": 96456,
+          "delivery": null,
+          "changedOn": "2025-12-16T16:58:20.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418fab1c508c5d5ecdd6df",
+          "products": [
+            {
+              "_id": "69418fac1c508c5d5ecdd6f5",
+              "name": "Soap11178",
+              "amount": 809,
+              "price": 96456,
+              "manufacturer": "Amazon",
+              "notes": "Ts6oFlyKaWMpsfIrE2bwpRp9ib3lMHe9KisUAjdZLzzmzxP3YTligpkK1DCr3wti9WE3IBJk4ifd2tsUXRveHagKvvzZd315c6wbxeNFrAW9IGcxuW9vQ0oGfB1uFcQwx7QLgaiq4hWm6it01hJOmnV6whOIBjdtey9MrmnO6ouX7n3sRlEO7fzVoGRMb4Hvpynh3h08ouzmTmbUOQlqEuehTwkQeEtz4iT6IJnARrJfmCPbaIADlRBLo3",
+              "received": false
+            }
+          ],
+          "total_price": 96456,
+          "delivery": null,
+          "changedOn": "2025-12-16T16:58:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

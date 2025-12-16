@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 16:58:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4611",
+    "etag": "W/\"1203-xomS/TD/QbIfGwZgiq2FxIv+/78\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69418fa21c508c5d5ecdd2e0",
+      "status": "Received",
+      "customer": {
+        "_id": "69418fa11c508c5d5ecdd2a1",
+        "email": "Isaac85@yahoo.com",
+        "name": "Tomas Thiel",
+        "country": "Great Britain",
+        "city": "Schmelerport",
+        "street": "St John s Road 61",
+        "house": 737,
+        "flat": 2327,
+        "phone": "+922264184641303",
+        "createdOn": "2025-12-16T16:58:09.000Z",
+        "notes": "Z2fr4CdBvMfDDLsQ3a3IRdJZx4l1Nk"
+      },
+      "products": [
+        {
+          "_id": "69418fa21c508c5d5ecdd2c2",
+          "name": "Bacon74076",
+          "amount": 334,
+          "price": 76435,
+          "manufacturer": "Google",
+          "notes": "C9E44rVpMh36DBvBVU8c1esvcZEvU5bABbGPpTnEkMTz7Lqq13V8IX03sDBPE3V1dZTsComg8Rb6qL85CP4p6QeBJUzARmQOeZv4yf6GLItSIf9e8AmagFKwfAWjBEzdeyUTt5ZqDz404B16OVkK8ijpRYJ4zMOTKkKlA0BiS7WUpSF8dKx4Wxf6Z6YpYHygBmBUlBaiRorFhbIdD63bRiaxbw1D2oE9FOOiKjXszPbWjCdhwnhl6I61U1",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Douglasville",
+          "street": "Parker Wells",
+          "house": 151,
+          "flat": 5670
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76435,
+      "createdOn": "2025-12-16T16:58:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69418fa11c508c5d5ecdd2a1",
+          "products": [
+            {
+              "_id": "69418fa21c508c5d5ecdd2c2",
+              "name": "Bacon74076",
+              "amount": 334,
+              "price": 76435,
+              "manufacturer": "Google",
+              "notes": "C9E44rVpMh36DBvBVU8c1esvcZEvU5bABbGPpTnEkMTz7Lqq13V8IX03sDBPE3V1dZTsComg8Rb6qL85CP4p6QeBJUzARmQOeZv4yf6GLItSIf9e8AmagFKwfAWjBEzdeyUTt5ZqDz404B16OVkK8ijpRYJ4zMOTKkKlA0BiS7WUpSF8dKx4Wxf6Z6YpYHygBmBUlBaiRorFhbIdD63bRiaxbw1D2oE9FOOiKjXszPbWjCdhwnhl6I61U1",
+              "received": true
+            }
+          ],
+          "total_price": 76435,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Douglasville",
+              "street": "Parker Wells",
+              "house": 151,
+              "flat": 5670
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:58:11.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69418fa11c508c5d5ecdd2a1",
+          "products": [
+            {
+              "_id": "69418fa21c508c5d5ecdd2c2",
+              "name": "Bacon74076",
+              "amount": 334,
+              "price": 76435,
+              "manufacturer": "Google",
+              "notes": "C9E44rVpMh36DBvBVU8c1esvcZEvU5bABbGPpTnEkMTz7Lqq13V8IX03sDBPE3V1dZTsComg8Rb6qL85CP4p6QeBJUzARmQOeZv4yf6GLItSIf9e8AmagFKwfAWjBEzdeyUTt5ZqDz404B16OVkK8ijpRYJ4zMOTKkKlA0BiS7WUpSF8dKx4Wxf6Z6YpYHygBmBUlBaiRorFhbIdD63bRiaxbw1D2oE9FOOiKjXszPbWjCdhwnhl6I61U1",
+              "received": false
+            }
+          ],
+          "total_price": 76435,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Douglasville",
+              "street": "Parker Wells",
+              "house": 151,
+              "flat": 5670
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:58:11.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418fa11c508c5d5ecdd2a1",
+          "products": [
+            {
+              "_id": "69418fa21c508c5d5ecdd2c2",
+              "name": "Bacon74076",
+              "amount": 334,
+              "price": 76435,
+              "manufacturer": "Google",
+              "notes": "C9E44rVpMh36DBvBVU8c1esvcZEvU5bABbGPpTnEkMTz7Lqq13V8IX03sDBPE3V1dZTsComg8Rb6qL85CP4p6QeBJUzARmQOeZv4yf6GLItSIf9e8AmagFKwfAWjBEzdeyUTt5ZqDz404B16OVkK8ijpRYJ4zMOTKkKlA0BiS7WUpSF8dKx4Wxf6Z6YpYHygBmBUlBaiRorFhbIdD63bRiaxbw1D2oE9FOOiKjXszPbWjCdhwnhl6I61U1",
+              "received": false
+            }
+          ],
+          "total_price": 76435,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Douglasville",
+              "street": "Parker Wells",
+              "house": 151,
+              "flat": 5670
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:58:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418fa11c508c5d5ecdd2a1",
+          "products": [
+            {
+              "_id": "69418fa21c508c5d5ecdd2c2",
+              "name": "Bacon74076",
+              "amount": 334,
+              "price": 76435,
+              "manufacturer": "Google",
+              "notes": "C9E44rVpMh36DBvBVU8c1esvcZEvU5bABbGPpTnEkMTz7Lqq13V8IX03sDBPE3V1dZTsComg8Rb6qL85CP4p6QeBJUzARmQOeZv4yf6GLItSIf9e8AmagFKwfAWjBEzdeyUTt5ZqDz404B16OVkK8ijpRYJ4zMOTKkKlA0BiS7WUpSF8dKx4Wxf6Z6YpYHygBmBUlBaiRorFhbIdD63bRiaxbw1D2oE9FOOiKjXszPbWjCdhwnhl6I61U1",
+              "received": false
+            }
+          ],
+          "total_price": 76435,
+          "delivery": null,
+          "changedOn": "2025-12-16T16:58:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

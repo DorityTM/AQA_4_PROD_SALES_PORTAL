@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 16:57:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2743",
+    "etag": "W/\"ab7-0va3bavUG/aZIM10GoQzNnKy7Po\"",
+    "keep-alive": "timeout=5, max=20",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69418f961c508c5d5ecdcddc",
+      "status": "Draft",
+      "customer": {
+        "_id": "69418f951c508c5d5ecdcda7",
+        "email": "Lou.Davis22@yahoo.com",
+        "name": "Daron Huels",
+        "country": "Germany",
+        "city": "New Zita",
+        "street": "Era Dale 82",
+        "house": 151,
+        "flat": 4017,
+        "phone": "+989063793444512",
+        "createdOn": "2025-12-16T16:57:57.000Z",
+        "notes": "37tMy94JluUKs9KOP2SepRfi7ZbqSk"
+      },
+      "products": [
+        {
+          "_id": "69418f961c508c5d5ecdcdc3",
+          "name": "Soap19759",
+          "amount": 434,
+          "price": 13159,
+          "manufacturer": "Microsoft",
+          "notes": "SAqBOwHE9DKcbkD9APLJ5d0hDM4Nk8XSUe89ai8E6tGsB9iZN0xvXUBNKHUToOkVUJ0hv9P6rfDhlIgdLvrzIp2DElf0dSfcruqnPY4Ac2Z52xbCYk2kKEfQWxwYFtdQoFxfl3xX04agv9EczXKK9Awhgu9hhKSmQcDYlDI0ustjNFg3dwAGtWWw1hgKBa8h8sZo5u1KKE3w3hPJf7z4ATdQ54nO5CpwtLT0UnvjC5L1Pj7egoJl4UO51s",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Evanston",
+          "street": "W 10th Street",
+          "house": 639,
+          "flat": 6484
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 13159,
+      "createdOn": "2025-12-16T16:57:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69418f951c508c5d5ecdcda7",
+          "products": [
+            {
+              "_id": "69418f961c508c5d5ecdcdc3",
+              "name": "Soap19759",
+              "amount": 434,
+              "price": 13159,
+              "manufacturer": "Microsoft",
+              "notes": "SAqBOwHE9DKcbkD9APLJ5d0hDM4Nk8XSUe89ai8E6tGsB9iZN0xvXUBNKHUToOkVUJ0hv9P6rfDhlIgdLvrzIp2DElf0dSfcruqnPY4Ac2Z52xbCYk2kKEfQWxwYFtdQoFxfl3xX04agv9EczXKK9Awhgu9hhKSmQcDYlDI0ustjNFg3dwAGtWWw1hgKBa8h8sZo5u1KKE3w3hPJf7z4ATdQ54nO5CpwtLT0UnvjC5L1Pj7egoJl4UO51s",
+              "received": false
+            }
+          ],
+          "total_price": 13159,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Evanston",
+              "street": "W 10th Street",
+              "house": 639,
+              "flat": 6484
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:57:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418f951c508c5d5ecdcda7",
+          "products": [
+            {
+              "_id": "69418f961c508c5d5ecdcdc3",
+              "name": "Soap19759",
+              "amount": 434,
+              "price": 13159,
+              "manufacturer": "Microsoft",
+              "notes": "SAqBOwHE9DKcbkD9APLJ5d0hDM4Nk8XSUe89ai8E6tGsB9iZN0xvXUBNKHUToOkVUJ0hv9P6rfDhlIgdLvrzIp2DElf0dSfcruqnPY4Ac2Z52xbCYk2kKEfQWxwYFtdQoFxfl3xX04agv9EczXKK9Awhgu9hhKSmQcDYlDI0ustjNFg3dwAGtWWw1hgKBa8h8sZo5u1KKE3w3hPJf7z4ATdQ54nO5CpwtLT0UnvjC5L1Pj7egoJl4UO51s",
+              "received": false
+            }
+          ],
+          "total_price": 13159,
+          "delivery": null,
+          "changedOn": "2025-12-16T16:57:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
