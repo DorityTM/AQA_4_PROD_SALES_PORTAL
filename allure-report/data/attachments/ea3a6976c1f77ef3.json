@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 21:34:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8221",
+    "etag": "W/\"201d-7TgUTLUYQaK8b9N2AfGHSvBfgT0\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941d0581c508c5d5ece80e1",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6941d0581c508c5d5ece8090",
+        "email": "Emmanuel.Sipes@gmail.com",
+        "name": "Tess Smith",
+        "country": "France",
+        "city": "Albinhaven",
+        "street": "N Broadway 69",
+        "house": 355,
+        "flat": 8834,
+        "phone": "+902031445444706",
+        "createdOn": "2025-12-16T21:34:16.000Z",
+        "notes": "0Z4bivIcuHLQi7s05AuMWK7yvrhviY"
+      },
+      "products": [
+        {
+          "_id": "6941d0581c508c5d5ece80a5",
+          "name": "Towels33773",
+          "amount": 620,
+          "price": 48970,
+          "manufacturer": "Google",
+          "notes": "x9p9c25KlaRm9oln7joA1xB6aYKOTmzYWR7htLtTcGNOvkxUjtnQDbITl45Wqal8Vw1YLRxUxMJuN5TgL9GHaZagOQACQDWRgXxgEN2OoRooeV8CksZrCAnRHjeUpJ9DxtRsd6D2Cw4QxG40t6kQoX1l41P7po5IauZt9iwjTRGFNItoUSM1zHHwQXhxfqOAtnc5spLbPJIdP3u9HbYy1wqGC6Z5xwgDQH19wUU0IyG61IsYENzgscaIvm",
+          "received": true
+        },
+        {
+          "_id": "6941d0581c508c5d5ece80bf",
+          "name": "Sausages62089",
+          "amount": 793,
+          "price": 12674,
+          "manufacturer": "Google",
+          "notes": "6ripQsMlLtvdaIyoxWOjO52d9RNloagAFpMYlyDKnkkriiKbfoc4Sk1kIL4aAcqmO1cd0kEePkDlDwelS39BzgxdMneQKhd52Jk0mOWhti3LQxnPvfXLR8B4ABfztrsLRvSC3Dz8gqybIK4syejQfpUii3PxBlQ3ZDHctFPZQuyUMewl31lA6Ik0Rq4PdQVMMRlkIIgT2onlvDRAardt9gDKRgvdQ1mqJmBQhIl1ku0hSe6Fo6jaTcrGhW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Vincenzaworth",
+          "street": "Breitenberg Mission",
+          "house": 144,
+          "flat": 1485
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 61644,
+      "createdOn": "2025-12-16T21:34:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6941d0581c508c5d5ece8090",
+          "products": [
+            {
+              "_id": "6941d0581c508c5d5ece80a5",
+              "name": "Towels33773",
+              "amount": 620,
+              "price": 48970,
+              "manufacturer": "Google",
+              "notes": "x9p9c25KlaRm9oln7joA1xB6aYKOTmzYWR7htLtTcGNOvkxUjtnQDbITl45Wqal8Vw1YLRxUxMJuN5TgL9GHaZagOQACQDWRgXxgEN2OoRooeV8CksZrCAnRHjeUpJ9DxtRsd6D2Cw4QxG40t6kQoX1l41P7po5IauZt9iwjTRGFNItoUSM1zHHwQXhxfqOAtnc5spLbPJIdP3u9HbYy1wqGC6Z5xwgDQH19wUU0IyG61IsYENzgscaIvm",
+              "received": true
+            },
+            {
+              "_id": "6941d0581c508c5d5ece80bf",
+              "name": "Sausages62089",
+              "amount": 793,
+              "price": 12674,
+              "manufacturer": "Google",
+              "notes": "6ripQsMlLtvdaIyoxWOjO52d9RNloagAFpMYlyDKnkkriiKbfoc4Sk1kIL4aAcqmO1cd0kEePkDlDwelS39BzgxdMneQKhd52Jk0mOWhti3LQxnPvfXLR8B4ABfztrsLRvSC3Dz8gqybIK4syejQfpUii3PxBlQ3ZDHctFPZQuyUMewl31lA6Ik0Rq4PdQVMMRlkIIgT2onlvDRAardt9gDKRgvdQ1mqJmBQhIl1ku0hSe6Fo6jaTcrGhW",
+              "received": false
+            }
+          ],
+          "total_price": 61644,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Vincenzaworth",
+              "street": "Breitenberg Mission",
+              "house": 144,
+              "flat": 1485
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:34:19.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "6941d0581c508c5d5ece8090",
+          "products": [
+            {
+              "_id": "6941d0581c508c5d5ece80a5",
+              "name": "Towels33773",
+              "amount": 620,
+              "price": 48970,
+              "manufacturer": "Google",
+              "notes": "x9p9c25KlaRm9oln7joA1xB6aYKOTmzYWR7htLtTcGNOvkxUjtnQDbITl45Wqal8Vw1YLRxUxMJuN5TgL9GHaZagOQACQDWRgXxgEN2OoRooeV8CksZrCAnRHjeUpJ9DxtRsd6D2Cw4QxG40t6kQoX1l41P7po5IauZt9iwjTRGFNItoUSM1zHHwQXhxfqOAtnc5spLbPJIdP3u9HbYy1wqGC6Z5xwgDQH19wUU0IyG61IsYENzgscaIvm",
+              "received": true
+            },
+            {
+              "_id": "6941d0581c508c5d5ece80bf",
+              "name": "Sausages62089",
+              "amount": 793,
+              "price": 12674,
+              "manufacturer": "Google",
+              "notes": "6ripQsMlLtvdaIyoxWOjO52d9RNloagAFpMYlyDKnkkriiKbfoc4Sk1kIL4aAcqmO1cd0kEePkDlDwelS39BzgxdMneQKhd52Jk0mOWhti3LQxnPvfXLR8B4ABfztrsLRvSC3Dz8gqybIK4syejQfpUii3PxBlQ3ZDHctFPZQuyUMewl31lA6Ik0Rq4PdQVMMRlkIIgT2onlvDRAardt9gDKRgvdQ1mqJmBQhIl1ku0hSe6Fo6jaTcrGhW",
+              "received": false
+            }
+          ],
+          "total_price": 61644,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Vincenzaworth",
+              "street": "Breitenberg Mission",
+              "house": 144,
+              "flat": 1485
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:34:18.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6941d0581c508c5d5ece8090",
+          "products": [
+            {
+              "_id": "6941d0581c508c5d5ece80a5",
+              "name": "Towels33773",
+              "amount": 620,
+              "price": 48970,
+              "manufacturer": "Google",
+              "notes": "x9p9c25KlaRm9oln7joA1xB6aYKOTmzYWR7htLtTcGNOvkxUjtnQDbITl45Wqal8Vw1YLRxUxMJuN5TgL9GHaZagOQACQDWRgXxgEN2OoRooeV8CksZrCAnRHjeUpJ9DxtRsd6D2Cw4QxG40t6kQoX1l41P7po5IauZt9iwjTRGFNItoUSM1zHHwQXhxfqOAtnc5spLbPJIdP3u9HbYy1wqGC6Z5xwgDQH19wUU0IyG61IsYENzgscaIvm",
+              "received": false
+            },
+            {
+              "_id": "6941d0581c508c5d5ece80bf",
+              "name": "Sausages62089",
+              "amount": 793,
+              "price": 12674,
+              "manufacturer": "Google",
+              "notes": "6ripQsMlLtvdaIyoxWOjO52d9RNloagAFpMYlyDKnkkriiKbfoc4Sk1kIL4aAcqmO1cd0kEePkDlDwelS39BzgxdMneQKhd52Jk0mOWhti3LQxnPvfXLR8B4ABfztrsLRvSC3Dz8gqybIK4syejQfpUii3PxBlQ3ZDHctFPZQuyUMewl31lA6Ik0Rq4PdQVMMRlkIIgT2onlvDRAardt9gDKRgvdQ1mqJmBQhIl1ku0hSe6Fo6jaTcrGhW",
+              "received": false
+            }
+          ],
+          "total_price": 61644,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Vincenzaworth",
+              "street": "Breitenberg Mission",
+              "house": 144,
+              "flat": 1485
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:34:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941d0581c508c5d5ece8090",
+          "products": [
+            {
+              "_id": "6941d0581c508c5d5ece80a5",
+              "name": "Towels33773",
+              "amount": 620,
+              "price": 48970,
+              "manufacturer": "Google",
+              "notes": "x9p9c25KlaRm9oln7joA1xB6aYKOTmzYWR7htLtTcGNOvkxUjtnQDbITl45Wqal8Vw1YLRxUxMJuN5TgL9GHaZagOQACQDWRgXxgEN2OoRooeV8CksZrCAnRHjeUpJ9DxtRsd6D2Cw4QxG40t6kQoX1l41P7po5IauZt9iwjTRGFNItoUSM1zHHwQXhxfqOAtnc5spLbPJIdP3u9HbYy1wqGC6Z5xwgDQH19wUU0IyG61IsYENzgscaIvm",
+              "received": false
+            },
+            {
+              "_id": "6941d0581c508c5d5ece80bf",
+              "name": "Sausages62089",
+              "amount": 793,
+              "price": 12674,
+              "manufacturer": "Google",
+              "notes": "6ripQsMlLtvdaIyoxWOjO52d9RNloagAFpMYlyDKnkkriiKbfoc4Sk1kIL4aAcqmO1cd0kEePkDlDwelS39BzgxdMneQKhd52Jk0mOWhti3LQxnPvfXLR8B4ABfztrsLRvSC3Dz8gqybIK4syejQfpUii3PxBlQ3ZDHctFPZQuyUMewl31lA6Ik0Rq4PdQVMMRlkIIgT2onlvDRAardt9gDKRgvdQ1mqJmBQhIl1ku0hSe6Fo6jaTcrGhW",
+              "received": false
+            }
+          ],
+          "total_price": 61644,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Vincenzaworth",
+              "street": "Breitenberg Mission",
+              "house": 144,
+              "flat": 1485
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:34:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941d0581c508c5d5ece8090",
+          "products": [
+            {
+              "_id": "6941d0581c508c5d5ece80a5",
+              "name": "Towels33773",
+              "amount": 620,
+              "price": 48970,
+              "manufacturer": "Google",
+              "notes": "x9p9c25KlaRm9oln7joA1xB6aYKOTmzYWR7htLtTcGNOvkxUjtnQDbITl45Wqal8Vw1YLRxUxMJuN5TgL9GHaZagOQACQDWRgXxgEN2OoRooeV8CksZrCAnRHjeUpJ9DxtRsd6D2Cw4QxG40t6kQoX1l41P7po5IauZt9iwjTRGFNItoUSM1zHHwQXhxfqOAtnc5spLbPJIdP3u9HbYy1wqGC6Z5xwgDQH19wUU0IyG61IsYENzgscaIvm",
+              "received": false
+            },
+            {
+              "_id": "6941d0581c508c5d5ece80bf",
+              "name": "Sausages62089",
+              "amount": 793,
+              "price": 12674,
+              "manufacturer": "Google",
+              "notes": "6ripQsMlLtvdaIyoxWOjO52d9RNloagAFpMYlyDKnkkriiKbfoc4Sk1kIL4aAcqmO1cd0kEePkDlDwelS39BzgxdMneQKhd52Jk0mOWhti3LQxnPvfXLR8B4ABfztrsLRvSC3Dz8gqybIK4syejQfpUii3PxBlQ3ZDHctFPZQuyUMewl31lA6Ik0Rq4PdQVMMRlkIIgT2onlvDRAardt9gDKRgvdQ1mqJmBQhIl1ku0hSe6Fo6jaTcrGhW",
+              "received": false
+            }
+          ],
+          "total_price": 61644,
+          "delivery": null,
+          "changedOn": "2025-12-16T21:34:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

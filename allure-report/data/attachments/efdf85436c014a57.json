@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 21:34:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4648",
+    "etag": "W/\"1228-2ItHFQ0CediCllC4yjYBn2pL9uo\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941d04f1c508c5d5ece7cf1",
+      "status": "Received",
+      "customer": {
+        "_id": "6941d04e1c508c5d5ece7cae",
+        "email": "Shanelle.Hettinger1@hotmail.com",
+        "name": "Adolfo Rosenbaum",
+        "country": "Russia",
+        "city": "Lake Winstonside",
+        "street": "Heloise Rest 44",
+        "house": 593,
+        "flat": 490,
+        "phone": "+972189662987229",
+        "createdOn": "2025-12-16T21:34:06.000Z",
+        "notes": "e7bW3INtPxAWeVeGuHUxaOiocB833i"
+      },
+      "products": [
+        {
+          "_id": "6941d04f1c508c5d5ece7cce",
+          "name": "Chips75339",
+          "amount": 348,
+          "price": 84878,
+          "manufacturer": "Xiaomi",
+          "notes": "5ATi16M27UODC8wXNqbcqUTm2c6HdabQQjlgeOqV6v6ZilrAGArxZg2FsRRBL2Eo8SDJJmoHaF85OyI9SlcPQrNuCPkYcJVhjuKOgi5hMtoPvJDMxN1MdotJ4P6rbHCL8InwB3v2sjaVFPjaRYpAy9gPehw3Z4P2TzkacvlN2UuI2YF3uqBkVvBL8csQ4cLVttWLdQoGTEEdTFpL3MYFjGe0jZPWGgjVpBEQf2uPvu3mvveTGmNMzGUsOu",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Fort Ephraimfield",
+          "street": "Middle Street",
+          "house": 768,
+          "flat": 5293
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 84878,
+      "createdOn": "2025-12-16T21:34:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6941d04e1c508c5d5ece7cae",
+          "products": [
+            {
+              "_id": "6941d04f1c508c5d5ece7cce",
+              "name": "Chips75339",
+              "amount": 348,
+              "price": 84878,
+              "manufacturer": "Xiaomi",
+              "notes": "5ATi16M27UODC8wXNqbcqUTm2c6HdabQQjlgeOqV6v6ZilrAGArxZg2FsRRBL2Eo8SDJJmoHaF85OyI9SlcPQrNuCPkYcJVhjuKOgi5hMtoPvJDMxN1MdotJ4P6rbHCL8InwB3v2sjaVFPjaRYpAy9gPehw3Z4P2TzkacvlN2UuI2YF3uqBkVvBL8csQ4cLVttWLdQoGTEEdTFpL3MYFjGe0jZPWGgjVpBEQf2uPvu3mvveTGmNMzGUsOu",
+              "received": true
+            }
+          ],
+          "total_price": 84878,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Ephraimfield",
+              "street": "Middle Street",
+              "house": 768,
+              "flat": 5293
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:34:08.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6941d04e1c508c5d5ece7cae",
+          "products": [
+            {
+              "_id": "6941d04f1c508c5d5ece7cce",
+              "name": "Chips75339",
+              "amount": 348,
+              "price": 84878,
+              "manufacturer": "Xiaomi",
+              "notes": "5ATi16M27UODC8wXNqbcqUTm2c6HdabQQjlgeOqV6v6ZilrAGArxZg2FsRRBL2Eo8SDJJmoHaF85OyI9SlcPQrNuCPkYcJVhjuKOgi5hMtoPvJDMxN1MdotJ4P6rbHCL8InwB3v2sjaVFPjaRYpAy9gPehw3Z4P2TzkacvlN2UuI2YF3uqBkVvBL8csQ4cLVttWLdQoGTEEdTFpL3MYFjGe0jZPWGgjVpBEQf2uPvu3mvveTGmNMzGUsOu",
+              "received": false
+            }
+          ],
+          "total_price": 84878,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Ephraimfield",
+              "street": "Middle Street",
+              "house": 768,
+              "flat": 5293
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:34:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941d04e1c508c5d5ece7cae",
+          "products": [
+            {
+              "_id": "6941d04f1c508c5d5ece7cce",
+              "name": "Chips75339",
+              "amount": 348,
+              "price": 84878,
+              "manufacturer": "Xiaomi",
+              "notes": "5ATi16M27UODC8wXNqbcqUTm2c6HdabQQjlgeOqV6v6ZilrAGArxZg2FsRRBL2Eo8SDJJmoHaF85OyI9SlcPQrNuCPkYcJVhjuKOgi5hMtoPvJDMxN1MdotJ4P6rbHCL8InwB3v2sjaVFPjaRYpAy9gPehw3Z4P2TzkacvlN2UuI2YF3uqBkVvBL8csQ4cLVttWLdQoGTEEdTFpL3MYFjGe0jZPWGgjVpBEQf2uPvu3mvveTGmNMzGUsOu",
+              "received": false
+            }
+          ],
+          "total_price": 84878,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Ephraimfield",
+              "street": "Middle Street",
+              "house": 768,
+              "flat": 5293
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:34:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941d04e1c508c5d5ece7cae",
+          "products": [
+            {
+              "_id": "6941d04f1c508c5d5ece7cce",
+              "name": "Chips75339",
+              "amount": 348,
+              "price": 84878,
+              "manufacturer": "Xiaomi",
+              "notes": "5ATi16M27UODC8wXNqbcqUTm2c6HdabQQjlgeOqV6v6ZilrAGArxZg2FsRRBL2Eo8SDJJmoHaF85OyI9SlcPQrNuCPkYcJVhjuKOgi5hMtoPvJDMxN1MdotJ4P6rbHCL8InwB3v2sjaVFPjaRYpAy9gPehw3Z4P2TzkacvlN2UuI2YF3uqBkVvBL8csQ4cLVttWLdQoGTEEdTFpL3MYFjGe0jZPWGgjVpBEQf2uPvu3mvveTGmNMzGUsOu",
+              "received": false
+            }
+          ],
+          "total_price": 84878,
+          "delivery": null,
+          "changedOn": "2025-12-16T21:34:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
