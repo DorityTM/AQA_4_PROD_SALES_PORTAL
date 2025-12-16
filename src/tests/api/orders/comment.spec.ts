@@ -16,7 +16,7 @@ test.describe("[API][Orders][Comment]", () => {
 
   test.afterAll(async ({ ordersApiService }) => {
     if (order) {
-      await ordersApiService.deleteOrderAndEntities(token, order._id);
+      await ordersApiService.fullDelete(token);
     }
   });
 

@@ -2,13 +2,13 @@ import { ProductsApi } from "api/api/products.api";
 import { generateProductData } from "data/salesPortal/products/generateProductData";
 import { createProductSchema } from "data/schemas/products/create.schema";
 import { STATUS_CODES } from "data/statusCodes";
-import { IProduct } from "data/types/product.types";
+import { IProduct, IProductFromResponse } from "data/types/product.types";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 
 export class ProductsApiService {
   constructor(private productsApi: ProductsApi) {}
 
-  async create(token: string, productData?: IProduct) {
+  async create(token: string, productData?: IProduct): Promise<IProductFromResponse> {
     const data = generateProductData(productData);
     const response = await this.productsApi.create(data, token);
     validateResponse(response, {
@@ -20,7 +20,7 @@ export class ProductsApiService {
     return response.body.Product;
   }
 
-  async update(token: string, id: string, newProductData: IProduct) {
+  async update(token: string, id: string, newProductData: IProduct): Promise<IProductFromResponse> {
     const data = generateProductData(newProductData);
     const response = await this.productsApi.update(id, data, token);
     validateResponse(response, {

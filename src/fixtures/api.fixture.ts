@@ -8,6 +8,7 @@ import { ProductsApi } from "api/api/products.api";
 import { ProductsApiService } from "api/service/products.service";
 import { OrdersApi } from "api/api/orders.api";
 import { OrdersApiService } from "api/service/orders.service";
+import { EntitiesStore } from "api/service/stores/entities.store";
 import { OrdersFacadeService } from "api/facades/ordersFacade.service";
 import { DeliveryApiService } from "api/service/delivery.service";
 import { DeliveryApi } from "api/api/delivery.api";
@@ -77,7 +78,9 @@ const test = base.extend<IApi>({
     await use(new LoginService(loginApi));
   },
   ordersApiService: async ({ ordersApi, productsApiService, customersApiService }, use) => {
-    await use(new OrdersApiService(ordersApi, productsApiService, customersApiService));
+    // Each test gets its own store instance, which will be cleared in fullDelete or at teardown
+    const store = new EntitiesStore();
+    await use(new OrdersApiService(ordersApi, productsApiService, customersApiService, store));
   },
   ordersFacadeService: async ({ ordersApi, customersApiService, productsApiService }, use) => {
     await use(new OrdersFacadeService(ordersApi, customersApiService, productsApiService));
@@ -106,6 +109,9 @@ const test = base.extend<IApi>({
     );
     await Promise.all(Array.from(state.products).map((id) => productsApiService.delete(token, id)));
     await Promise.all(Array.from(state.customers).map((id) => customersApiService.delete(token, id)));
+
+    // Additionally perform token-only cleanup for any tracked entities
+    await ordersApiService.fullDelete(token);
   },
 });
 
