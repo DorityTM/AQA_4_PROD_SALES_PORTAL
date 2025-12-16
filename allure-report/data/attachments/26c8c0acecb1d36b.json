@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 16:48:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2766",
+    "etag": "W/\"ace-7Puz63xUafXfNQCF/GBuabaGmGY\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69418d701c508c5d5ecdb9d5",
+      "status": "Draft",
+      "customer": {
+        "_id": "69418d701c508c5d5ecdb986",
+        "email": "Reyes_Bashirian51@gmail.com",
+        "name": "Devan Upton Keebler",
+        "country": "France",
+        "city": "Fort Geoffrey",
+        "street": "University Drive 68",
+        "house": 541,
+        "flat": 3737,
+        "phone": "+098547669684983",
+        "createdOn": "2025-12-16T16:48:48.000Z",
+        "notes": "R6aN2qvj2sJkXumhvVU5t2WbimxMZw"
+      },
+      "products": [
+        {
+          "_id": "69418d701c508c5d5ecdb9a3",
+          "name": "Bike31864",
+          "amount": 513,
+          "price": 49404,
+          "manufacturer": "Xiaomi",
+          "notes": "D2ZRVaW2w3zmHmgAlwd2WAOga9uXFUNbKhgTptUBkIEJ8iRGqDCP9ynTknIyDDYjRvuChqE2NiSciBt2dF1yJzcU7QJHWSXw9L1DX95S61YOi4Q63DpTR0geXbse57IRhCrDPGg0B6MvdB0flEXyegirQCJom2UPtimRMH4UhxrTpT1eqCF07pcWHI4aEAAHghvW2Uz10JJg4Kb5tq8RDRE9BW7p6Qv1YEYnhdtiH6WYUh1HHGlikfjIo1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "South Benny",
+          "street": "Orchard Drive",
+          "house": 592,
+          "flat": 7384
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 49404,
+      "createdOn": "2025-12-16T16:48:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69418d701c508c5d5ecdb986",
+          "products": [
+            {
+              "_id": "69418d701c508c5d5ecdb9a3",
+              "name": "Bike31864",
+              "amount": 513,
+              "price": 49404,
+              "manufacturer": "Xiaomi",
+              "notes": "D2ZRVaW2w3zmHmgAlwd2WAOga9uXFUNbKhgTptUBkIEJ8iRGqDCP9ynTknIyDDYjRvuChqE2NiSciBt2dF1yJzcU7QJHWSXw9L1DX95S61YOi4Q63DpTR0geXbse57IRhCrDPGg0B6MvdB0flEXyegirQCJom2UPtimRMH4UhxrTpT1eqCF07pcWHI4aEAAHghvW2Uz10JJg4Kb5tq8RDRE9BW7p6Qv1YEYnhdtiH6WYUh1HHGlikfjIo1",
+              "received": false
+            }
+          ],
+          "total_price": 49404,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "South Benny",
+              "street": "Orchard Drive",
+              "house": 592,
+              "flat": 7384
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:48:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418d701c508c5d5ecdb986",
+          "products": [
+            {
+              "_id": "69418d701c508c5d5ecdb9a3",
+              "name": "Bike31864",
+              "amount": 513,
+              "price": 49404,
+              "manufacturer": "Xiaomi",
+              "notes": "D2ZRVaW2w3zmHmgAlwd2WAOga9uXFUNbKhgTptUBkIEJ8iRGqDCP9ynTknIyDDYjRvuChqE2NiSciBt2dF1yJzcU7QJHWSXw9L1DX95S61YOi4Q63DpTR0geXbse57IRhCrDPGg0B6MvdB0flEXyegirQCJom2UPtimRMH4UhxrTpT1eqCF07pcWHI4aEAAHghvW2Uz10JJg4Kb5tq8RDRE9BW7p6Qv1YEYnhdtiH6WYUh1HHGlikfjIo1",
+              "received": false
+            }
+          ],
+          "total_price": 49404,
+          "delivery": null,
+          "changedOn": "2025-12-16T16:48:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
