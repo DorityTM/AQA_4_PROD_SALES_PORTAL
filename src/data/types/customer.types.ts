@@ -57,6 +57,7 @@ export interface IGetCustomersParams {
 export type CustomerTableHeader = "email" | "name" | "country" | "createdOn";
 
 export interface ICreateCustomerCase extends ICaseApi {
+  id?: ID["_id"];
   customerData?: Partial<ICustomer>;
 }
 export type ICustomerInvalidPayload = Omit<ICustomer, "country"> & {

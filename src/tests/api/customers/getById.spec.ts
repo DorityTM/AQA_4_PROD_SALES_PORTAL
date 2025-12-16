@@ -1,59 +1,54 @@
-// TODO: Migrate to customersApiService.getById(token, id)
-// Example: const customer = await customersApiService.getById(token, customerId);
-// Service returns ICustomerFromResponse directly
 import { test, expect } from "fixtures/api.fixture";
-import { STATUS_CODES } from "data/statusCodes";
-import { TAGS } from "data/tags";
-import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
-import { validateJsonSchema } from "utils/validation/validateSchema.utils";
+import {
+  getCustomerByIdPositiveCases,
+  getCustomerByIdNegativeCases,
+} from "data/salesPortal/customers/getByIdCustomerTestData";
 import { getByIdCustomerSchema } from "data/schemas/customers/getById.schema";
-// import { INVALID_ID_SCENARIOS } from "data/salesPortal/customers/invalidData";
+import { validateResponse } from "utils/validation/validateResponse.utils";
+import { TAGS } from "data/tags";
 
-test.describe("CST-004/005 Get customer by Id", () => {
+test.describe("[API] [Sales Portal] [Customers] [Get By Id]", () => {
   let token: string;
-  let createdCustomerIds: string[] = [];
 
   test.beforeAll(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
   });
 
-  test.afterEach(async ({ customersApi }) => {
-    for (const id of createdCustomerIds) {
-      await customersApi.delete(token, id);
+  test.describe("[Positive]", () => {
+    for (const testCase of getCustomerByIdPositiveCases) {
+      test(
+        testCase.title,
+        { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS] },
+        async ({ customersApi, customersApiService }) => {
+          const createdCustomer = await customersApiService.create(token);
+          const id = createdCustomer._id;
+          const response = await customersApi.getById(token, id);
+
+          validateResponse(response, {
+            status: testCase.expectedStatus,
+            schema: getByIdCustomerSchema,
+            IsSuccess: testCase.isSuccess as boolean,
+            ErrorMessage: testCase.expectedErrorMessage,
+          });
+
+          expect(response.body.Customer).toEqual(createdCustomer);
+          await customersApiService.delete(token, id);
+        },
+      );
     }
-    createdCustomerIds = [];
   });
-  test(
-    "CST-004: GET by valid Id returns customer",
-    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.SMOKE] },
-    async ({ customersApi }) => {
-      const create = await customersApi.create(token, generateCustomerData());
-      expect(create.status).toBe(STATUS_CODES.CREATED);
 
-      const id = create.body.Customer._id;
-      createdCustomerIds.push(id);
-      const response = await customersApi.getById(token, id);
+  test.describe("[Negative]", () => {
+    for (const testCase of getCustomerByIdNegativeCases) {
+      test(testCase.title, { tag: [TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS] }, async ({ customersApi }) => {
+        const response = await customersApi.getById(token, testCase.id!);
 
-      expect(response.status).toBe(STATUS_CODES.OK);
-      expect(response.body.IsSuccess).toBe(true);
-      expect(response.body.ErrorMessage).toBeNull();
-      validateJsonSchema(response.body, getByIdCustomerSchema);
-      expect(response.body.Customer._id).toBe(id);
-    },
-  );
-
-  test(
-    "CST-005: GET by invalid Id returns 404",
-    { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.REGRESSION] },
-    async ({ loginApiService, customersApi }) => {
-      const token = await loginApiService.loginAsAdmin();
-      const invalidId = "000000000000000000000000";
-
-      const response = await customersApi.getById(token, invalidId);
-
-      expect(response.status).toBe(STATUS_CODES.NOT_FOUND);
-      expect(response.body.IsSuccess).toBe(false);
-      expect(response.body.ErrorMessage).toBeTruthy();
-    },
-  );
+        validateResponse(response, {
+          status: testCase.expectedStatus,
+          IsSuccess: testCase.isSuccess as boolean,
+          ErrorMessage: testCase.expectedErrorMessage,
+        });
+      });
+    }
+  });
 });
