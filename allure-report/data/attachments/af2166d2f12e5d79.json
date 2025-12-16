@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 21:29:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3698",
+    "etag": "W/\"e72-KNTPGlELlBLBDIRnsB7trQseyk8\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941cf481c508c5d5ece5da6",
+      "status": "In Process",
+      "customer": {
+        "_id": "6941cf471c508c5d5ece5d65",
+        "email": "Maud_Halvorson96@gmail.com",
+        "name": "Maxine Harber",
+        "country": "Canada",
+        "city": "D Amorechester",
+        "street": "N 4th Street 65",
+        "house": 753,
+        "flat": 2131,
+        "phone": "+917556794810337",
+        "createdOn": "2025-12-16T21:29:43.000Z",
+        "notes": "sVVu4otmlqOHgwnxolmbVe0BRJMC6p"
+      },
+      "products": [
+        {
+          "_id": "6941cf471c508c5d5ece5d80",
+          "name": "Mouse65291",
+          "amount": 117,
+          "price": 68471,
+          "manufacturer": "Samsung",
+          "notes": "ORWLfO5DFTEPEcfBK1vGIcSItF7c4k9z9pOQhlb64DDv72AScqk9ylM4eEW2GkLtZ4m4HhCxQw6tKJfqSCdhUZNaHH1WkwQCuHpxd5esbkALxgaxgtwWjtz60uTE9w8tbsFOFnsjjt2WjqHKBWKxJo2v2oxLC3Q2qqVWxbDVa7OBEYqnK9rqLnkEoKTzJ3H7eFboJmGXXHvJJySCr0EMMx5jIC4LeVWqIbhTsnMFWy1XyIUNdkeZwF9Jnq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Destin",
+          "street": "N Broadway Street",
+          "house": 275,
+          "flat": 5598
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 68471,
+      "createdOn": "2025-12-16T21:29:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6941cf471c508c5d5ece5d65",
+          "products": [
+            {
+              "_id": "6941cf471c508c5d5ece5d80",
+              "name": "Mouse65291",
+              "amount": 117,
+              "price": 68471,
+              "manufacturer": "Samsung",
+              "notes": "ORWLfO5DFTEPEcfBK1vGIcSItF7c4k9z9pOQhlb64DDv72AScqk9ylM4eEW2GkLtZ4m4HhCxQw6tKJfqSCdhUZNaHH1WkwQCuHpxd5esbkALxgaxgtwWjtz60uTE9w8tbsFOFnsjjt2WjqHKBWKxJo2v2oxLC3Q2qqVWxbDVa7OBEYqnK9rqLnkEoKTzJ3H7eFboJmGXXHvJJySCr0EMMx5jIC4LeVWqIbhTsnMFWy1XyIUNdkeZwF9Jnq",
+              "received": false
+            }
+          ],
+          "total_price": 68471,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Destin",
+              "street": "N Broadway Street",
+              "house": 275,
+              "flat": 5598
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:29:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941cf471c508c5d5ece5d65",
+          "products": [
+            {
+              "_id": "6941cf471c508c5d5ece5d80",
+              "name": "Mouse65291",
+              "amount": 117,
+              "price": 68471,
+              "manufacturer": "Samsung",
+              "notes": "ORWLfO5DFTEPEcfBK1vGIcSItF7c4k9z9pOQhlb64DDv72AScqk9ylM4eEW2GkLtZ4m4HhCxQw6tKJfqSCdhUZNaHH1WkwQCuHpxd5esbkALxgaxgtwWjtz60uTE9w8tbsFOFnsjjt2WjqHKBWKxJo2v2oxLC3Q2qqVWxbDVa7OBEYqnK9rqLnkEoKTzJ3H7eFboJmGXXHvJJySCr0EMMx5jIC4LeVWqIbhTsnMFWy1XyIUNdkeZwF9Jnq",
+              "received": false
+            }
+          ],
+          "total_price": 68471,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Destin",
+              "street": "N Broadway Street",
+              "house": 275,
+              "flat": 5598
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:29:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941cf471c508c5d5ece5d65",
+          "products": [
+            {
+              "_id": "6941cf471c508c5d5ece5d80",
+              "name": "Mouse65291",
+              "amount": 117,
+              "price": 68471,
+              "manufacturer": "Samsung",
+              "notes": "ORWLfO5DFTEPEcfBK1vGIcSItF7c4k9z9pOQhlb64DDv72AScqk9ylM4eEW2GkLtZ4m4HhCxQw6tKJfqSCdhUZNaHH1WkwQCuHpxd5esbkALxgaxgtwWjtz60uTE9w8tbsFOFnsjjt2WjqHKBWKxJo2v2oxLC3Q2qqVWxbDVa7OBEYqnK9rqLnkEoKTzJ3H7eFboJmGXXHvJJySCr0EMMx5jIC4LeVWqIbhTsnMFWy1XyIUNdkeZwF9Jnq",
+              "received": false
+            }
+          ],
+          "total_price": 68471,
+          "delivery": null,
+          "changedOn": "2025-12-16T21:29:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

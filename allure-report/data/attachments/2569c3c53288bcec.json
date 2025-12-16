@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 21:30:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3713",
+    "etag": "W/\"e81-a0bqwqRF2ftLMO2/oW0k0gq6js4\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941cf601c508c5d5ece67b3",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6941cf5f1c508c5d5ece677e",
+        "email": "Garret16@gmail.com",
+        "name": "Monserrat Greenholt",
+        "country": "Germany",
+        "city": "Hudsonbury",
+        "street": "Broadway Street 57",
+        "house": 94,
+        "flat": 9085,
+        "phone": "+935195907928420",
+        "createdOn": "2025-12-16T21:30:07.000Z",
+        "notes": "XLtwm4aCQxGYMlwJBlMwtakogHQXAz"
+      },
+      "products": [
+        {
+          "_id": "6941cf601c508c5d5ece6794",
+          "name": "Gloves75876",
+          "amount": 90,
+          "price": 60214,
+          "manufacturer": "Amazon",
+          "notes": "dW6aNwFxGHAywoyQ2vcN7uIaofdqcEioQu2BCqd0YK6Hvu0QLT4KT8vZhsRLuFXzswFspU0u7azdafHKjWm1bGJLFOdQ8y0WZCDxSus1nBPiO14ODunpJSc2fcwyurObhSjH1hbK8afj7pyniLQRNWifiszRfzUANYk5KbYz2FoaFN576VDgcE38Q74wc9u5ZQM6MJdSNrSxJISydJ95VAcj50Ao68xY6X6PzKfUwRa3uy7v9xcv3e7bJE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Lake Hillardfield",
+          "street": "Elenora Route",
+          "house": 863,
+          "flat": 9685
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 60214,
+      "createdOn": "2025-12-16T21:30:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6941cf5f1c508c5d5ece677e",
+          "products": [
+            {
+              "_id": "6941cf601c508c5d5ece6794",
+              "name": "Gloves75876",
+              "amount": 90,
+              "price": 60214,
+              "manufacturer": "Amazon",
+              "notes": "dW6aNwFxGHAywoyQ2vcN7uIaofdqcEioQu2BCqd0YK6Hvu0QLT4KT8vZhsRLuFXzswFspU0u7azdafHKjWm1bGJLFOdQ8y0WZCDxSus1nBPiO14ODunpJSc2fcwyurObhSjH1hbK8afj7pyniLQRNWifiszRfzUANYk5KbYz2FoaFN576VDgcE38Q74wc9u5ZQM6MJdSNrSxJISydJ95VAcj50Ao68xY6X6PzKfUwRa3uy7v9xcv3e7bJE",
+              "received": false
+            }
+          ],
+          "total_price": 60214,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Hillardfield",
+              "street": "Elenora Route",
+              "house": 863,
+              "flat": 9685
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:30:09.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941cf5f1c508c5d5ece677e",
+          "products": [
+            {
+              "_id": "6941cf601c508c5d5ece6794",
+              "name": "Gloves75876",
+              "amount": 90,
+              "price": 60214,
+              "manufacturer": "Amazon",
+              "notes": "dW6aNwFxGHAywoyQ2vcN7uIaofdqcEioQu2BCqd0YK6Hvu0QLT4KT8vZhsRLuFXzswFspU0u7azdafHKjWm1bGJLFOdQ8y0WZCDxSus1nBPiO14ODunpJSc2fcwyurObhSjH1hbK8afj7pyniLQRNWifiszRfzUANYk5KbYz2FoaFN576VDgcE38Q74wc9u5ZQM6MJdSNrSxJISydJ95VAcj50Ao68xY6X6PzKfUwRa3uy7v9xcv3e7bJE",
+              "received": false
+            }
+          ],
+          "total_price": 60214,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Hillardfield",
+              "street": "Elenora Route",
+              "house": 863,
+              "flat": 9685
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:30:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941cf5f1c508c5d5ece677e",
+          "products": [
+            {
+              "_id": "6941cf601c508c5d5ece6794",
+              "name": "Gloves75876",
+              "amount": 90,
+              "price": 60214,
+              "manufacturer": "Amazon",
+              "notes": "dW6aNwFxGHAywoyQ2vcN7uIaofdqcEioQu2BCqd0YK6Hvu0QLT4KT8vZhsRLuFXzswFspU0u7azdafHKjWm1bGJLFOdQ8y0WZCDxSus1nBPiO14ODunpJSc2fcwyurObhSjH1hbK8afj7pyniLQRNWifiszRfzUANYk5KbYz2FoaFN576VDgcE38Q74wc9u5ZQM6MJdSNrSxJISydJ95VAcj50Ao68xY6X6PzKfUwRa3uy7v9xcv3e7bJE",
+              "received": false
+            }
+          ],
+          "total_price": 60214,
+          "delivery": null,
+          "changedOn": "2025-12-16T21:30:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

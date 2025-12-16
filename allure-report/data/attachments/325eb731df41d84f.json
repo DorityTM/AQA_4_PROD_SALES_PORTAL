@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 21:30:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2756",
+    "etag": "W/\"ac4-0Uk2HcDm9at6v3NzRxDDlR/5TH0\"",
+    "keep-alive": "timeout=5, max=26",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941cf5e1c508c5d5ece66dd",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941cf5d1c508c5d5ece668c",
+        "email": "Shayne85@yahoo.com",
+        "name": "Annamarie Marquardt",
+        "country": "Russia",
+        "city": "Buffalo",
+        "street": "Skyla View 17",
+        "house": 793,
+        "flat": 7179,
+        "phone": "+195980821956446",
+        "createdOn": "2025-12-16T21:30:05.000Z",
+        "notes": "t52vOBQ3j9stEvqVVbsgMLQmMNdHM7"
+      },
+      "products": [
+        {
+          "_id": "6941cf5e1c508c5d5ece66be",
+          "name": "Chicken65295",
+          "amount": 157,
+          "price": 39839,
+          "manufacturer": "Google",
+          "notes": "bgRDE31wFG7BvfW7SmCBW70R6vTDoyws3kvWZJyWl8UTaONU893h9kPc41XQafJHr01fIc0BICc8rIpMNlinshujBVJXqgfTBxjkokBHJFabGfy1DVZaqrL6TgnTd1Zva4CqJnAjwiT8GDkLJ2DW6BwsN6e1UMoufnMFOEH7hgLIkYrnF9z2I0OWqzyuVyY4nrnSs3lJieT03c0rBg5qRzBTou7AYpVV61lstPANu9ii7Y1tuhWs50JikK",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Jarviscester",
+          "street": "Windler Inlet",
+          "house": 433,
+          "flat": 1818
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 39839,
+      "createdOn": "2025-12-16T21:30:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941cf5d1c508c5d5ece668c",
+          "products": [
+            {
+              "_id": "6941cf5e1c508c5d5ece66be",
+              "name": "Chicken65295",
+              "amount": 157,
+              "price": 39839,
+              "manufacturer": "Google",
+              "notes": "bgRDE31wFG7BvfW7SmCBW70R6vTDoyws3kvWZJyWl8UTaONU893h9kPc41XQafJHr01fIc0BICc8rIpMNlinshujBVJXqgfTBxjkokBHJFabGfy1DVZaqrL6TgnTd1Zva4CqJnAjwiT8GDkLJ2DW6BwsN6e1UMoufnMFOEH7hgLIkYrnF9z2I0OWqzyuVyY4nrnSs3lJieT03c0rBg5qRzBTou7AYpVV61lstPANu9ii7Y1tuhWs50JikK",
+              "received": false
+            }
+          ],
+          "total_price": 39839,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Jarviscester",
+              "street": "Windler Inlet",
+              "house": 433,
+              "flat": 1818
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:30:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941cf5d1c508c5d5ece668c",
+          "products": [
+            {
+              "_id": "6941cf5e1c508c5d5ece66be",
+              "name": "Chicken65295",
+              "amount": 157,
+              "price": 39839,
+              "manufacturer": "Google",
+              "notes": "bgRDE31wFG7BvfW7SmCBW70R6vTDoyws3kvWZJyWl8UTaONU893h9kPc41XQafJHr01fIc0BICc8rIpMNlinshujBVJXqgfTBxjkokBHJFabGfy1DVZaqrL6TgnTd1Zva4CqJnAjwiT8GDkLJ2DW6BwsN6e1UMoufnMFOEH7hgLIkYrnF9z2I0OWqzyuVyY4nrnSs3lJieT03c0rBg5qRzBTou7AYpVV61lstPANu9ii7Y1tuhWs50JikK",
+              "received": false
+            }
+          ],
+          "total_price": 39839,
+          "delivery": null,
+          "changedOn": "2025-12-16T21:30:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 21:29:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6523",
+    "etag": "W/\"197b-q/s0PZmgTu8bpHqWuFMohV9FfRY\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941cf4c1c508c5d5ece5f71",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6941cf4b1c508c5d5ece5f12",
+        "email": "Rubie.Spinka-Donnelly@gmail.com",
+        "name": "Mason Bode",
+        "country": "Great Britain",
+        "city": "West Chester",
+        "street": "Crist Extensions 95",
+        "house": 27,
+        "flat": 2925,
+        "phone": "+954847444523354",
+        "createdOn": "2025-12-16T21:29:47.000Z",
+        "notes": "WVp1esVHDVY7FFVvD93yIHv89Ls8cT"
+      },
+      "products": [
+        {
+          "_id": "6941cf4b1c508c5d5ece5f2b",
+          "name": "Car62791",
+          "amount": 879,
+          "price": 1187,
+          "manufacturer": "Amazon",
+          "notes": "eXYStsdgSPV5JNjJp4GbUJ0OWxqs6eBlXbYb0CekDCE4GpUKxQnKjnNbDTumFXQj990M4tt4dIKue3duy5zcTVd6J11E1S3vFKpJy4h6QgjuPnQJzBD3KOYP7Gb4X6D9gnTR38pops3i6s2E7jSEmyAD4tdMWXrixxv1EUdkw43cs0FhgTLy2oNeA0RtgMcF0D8bmBLUu6RsgUlC3Bkzrn85kFRmyVt31FGwV9m22KxVWykujLIqLlsdSQ",
+          "received": true
+        },
+        {
+          "_id": "6941cf4c1c508c5d5ece5f4e",
+          "name": "Tuna59789",
+          "amount": 767,
+          "price": 24548,
+          "manufacturer": "Tesla",
+          "notes": "3xNhcpxiSzY7CtCP4hHD63HdDmvagJEcoLm8woBamYCG4MEXQlcOv1TlCMZHa77tpOnXSvsNolzakw769IWc9OX1kEptv0QsqavHGEm0xFFRlNtq3kFq8zg99AKTl6Zm8e3uq5St6BUvanci606sXpnA1m4ZnWftl3vGK0D4zXoZGu48okTEMteCkjWsirv762QCRCoUVf6lR8CwUOueZbiRstOPzZa7kNtyshLgA39iQTpLBeHWypQvLb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Detroit",
+          "street": "Cross Lane",
+          "house": 577,
+          "flat": 2759
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25735,
+      "createdOn": "2025-12-16T21:29:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6941cf4b1c508c5d5ece5f12",
+          "products": [
+            {
+              "_id": "6941cf4b1c508c5d5ece5f2b",
+              "name": "Car62791",
+              "amount": 879,
+              "price": 1187,
+              "manufacturer": "Amazon",
+              "notes": "eXYStsdgSPV5JNjJp4GbUJ0OWxqs6eBlXbYb0CekDCE4GpUKxQnKjnNbDTumFXQj990M4tt4dIKue3duy5zcTVd6J11E1S3vFKpJy4h6QgjuPnQJzBD3KOYP7Gb4X6D9gnTR38pops3i6s2E7jSEmyAD4tdMWXrixxv1EUdkw43cs0FhgTLy2oNeA0RtgMcF0D8bmBLUu6RsgUlC3Bkzrn85kFRmyVt31FGwV9m22KxVWykujLIqLlsdSQ",
+              "received": true
+            },
+            {
+              "_id": "6941cf4c1c508c5d5ece5f4e",
+              "name": "Tuna59789",
+              "amount": 767,
+              "price": 24548,
+              "manufacturer": "Tesla",
+              "notes": "3xNhcpxiSzY7CtCP4hHD63HdDmvagJEcoLm8woBamYCG4MEXQlcOv1TlCMZHa77tpOnXSvsNolzakw769IWc9OX1kEptv0QsqavHGEm0xFFRlNtq3kFq8zg99AKTl6Zm8e3uq5St6BUvanci606sXpnA1m4ZnWftl3vGK0D4zXoZGu48okTEMteCkjWsirv762QCRCoUVf6lR8CwUOueZbiRstOPzZa7kNtyshLgA39iQTpLBeHWypQvLb",
+              "received": false
+            }
+          ],
+          "total_price": 25735,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Detroit",
+              "street": "Cross Lane",
+              "house": 577,
+              "flat": 2759
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:29:50.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6941cf4b1c508c5d5ece5f12",
+          "products": [
+            {
+              "_id": "6941cf4b1c508c5d5ece5f2b",
+              "name": "Car62791",
+              "amount": 879,
+              "price": 1187,
+              "manufacturer": "Amazon",
+              "notes": "eXYStsdgSPV5JNjJp4GbUJ0OWxqs6eBlXbYb0CekDCE4GpUKxQnKjnNbDTumFXQj990M4tt4dIKue3duy5zcTVd6J11E1S3vFKpJy4h6QgjuPnQJzBD3KOYP7Gb4X6D9gnTR38pops3i6s2E7jSEmyAD4tdMWXrixxv1EUdkw43cs0FhgTLy2oNeA0RtgMcF0D8bmBLUu6RsgUlC3Bkzrn85kFRmyVt31FGwV9m22KxVWykujLIqLlsdSQ",
+              "received": false
+            },
+            {
+              "_id": "6941cf4c1c508c5d5ece5f4e",
+              "name": "Tuna59789",
+              "amount": 767,
+              "price": 24548,
+              "manufacturer": "Tesla",
+              "notes": "3xNhcpxiSzY7CtCP4hHD63HdDmvagJEcoLm8woBamYCG4MEXQlcOv1TlCMZHa77tpOnXSvsNolzakw769IWc9OX1kEptv0QsqavHGEm0xFFRlNtq3kFq8zg99AKTl6Zm8e3uq5St6BUvanci606sXpnA1m4ZnWftl3vGK0D4zXoZGu48okTEMteCkjWsirv762QCRCoUVf6lR8CwUOueZbiRstOPzZa7kNtyshLgA39iQTpLBeHWypQvLb",
+              "received": false
+            }
+          ],
+          "total_price": 25735,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Detroit",
+              "street": "Cross Lane",
+              "house": 577,
+              "flat": 2759
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:29:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941cf4b1c508c5d5ece5f12",
+          "products": [
+            {
+              "_id": "6941cf4b1c508c5d5ece5f2b",
+              "name": "Car62791",
+              "amount": 879,
+              "price": 1187,
+              "manufacturer": "Amazon",
+              "notes": "eXYStsdgSPV5JNjJp4GbUJ0OWxqs6eBlXbYb0CekDCE4GpUKxQnKjnNbDTumFXQj990M4tt4dIKue3duy5zcTVd6J11E1S3vFKpJy4h6QgjuPnQJzBD3KOYP7Gb4X6D9gnTR38pops3i6s2E7jSEmyAD4tdMWXrixxv1EUdkw43cs0FhgTLy2oNeA0RtgMcF0D8bmBLUu6RsgUlC3Bkzrn85kFRmyVt31FGwV9m22KxVWykujLIqLlsdSQ",
+              "received": false
+            },
+            {
+              "_id": "6941cf4c1c508c5d5ece5f4e",
+              "name": "Tuna59789",
+              "amount": 767,
+              "price": 24548,
+              "manufacturer": "Tesla",
+              "notes": "3xNhcpxiSzY7CtCP4hHD63HdDmvagJEcoLm8woBamYCG4MEXQlcOv1TlCMZHa77tpOnXSvsNolzakw769IWc9OX1kEptv0QsqavHGEm0xFFRlNtq3kFq8zg99AKTl6Zm8e3uq5St6BUvanci606sXpnA1m4ZnWftl3vGK0D4zXoZGu48okTEMteCkjWsirv762QCRCoUVf6lR8CwUOueZbiRstOPzZa7kNtyshLgA39iQTpLBeHWypQvLb",
+              "received": false
+            }
+          ],
+          "total_price": 25735,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Detroit",
+              "street": "Cross Lane",
+              "house": 577,
+              "flat": 2759
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:29:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941cf4b1c508c5d5ece5f12",
+          "products": [
+            {
+              "_id": "6941cf4b1c508c5d5ece5f2b",
+              "name": "Car62791",
+              "amount": 879,
+              "price": 1187,
+              "manufacturer": "Amazon",
+              "notes": "eXYStsdgSPV5JNjJp4GbUJ0OWxqs6eBlXbYb0CekDCE4GpUKxQnKjnNbDTumFXQj990M4tt4dIKue3duy5zcTVd6J11E1S3vFKpJy4h6QgjuPnQJzBD3KOYP7Gb4X6D9gnTR38pops3i6s2E7jSEmyAD4tdMWXrixxv1EUdkw43cs0FhgTLy2oNeA0RtgMcF0D8bmBLUu6RsgUlC3Bkzrn85kFRmyVt31FGwV9m22KxVWykujLIqLlsdSQ",
+              "received": false
+            },
+            {
+              "_id": "6941cf4c1c508c5d5ece5f4e",
+              "name": "Tuna59789",
+              "amount": 767,
+              "price": 24548,
+              "manufacturer": "Tesla",
+              "notes": "3xNhcpxiSzY7CtCP4hHD63HdDmvagJEcoLm8woBamYCG4MEXQlcOv1TlCMZHa77tpOnXSvsNolzakw769IWc9OX1kEptv0QsqavHGEm0xFFRlNtq3kFq8zg99AKTl6Zm8e3uq5St6BUvanci606sXpnA1m4ZnWftl3vGK0D4zXoZGu48okTEMteCkjWsirv762QCRCoUVf6lR8CwUOueZbiRstOPzZa7kNtyshLgA39iQTpLBeHWypQvLb",
+              "received": false
+            }
+          ],
+          "total_price": 25735,
+          "delivery": null,
+          "changedOn": "2025-12-16T21:29:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

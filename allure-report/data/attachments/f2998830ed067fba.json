@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 21:29:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2746",
+    "etag": "W/\"aba-j6CB73t07OIGESz3a+5JyKVOY/c\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941cf4c1c508c5d5ece5f58",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941cf4b1c508c5d5ece5f14",
+        "email": "Flavie.Runte@hotmail.com",
+        "name": "Gisselle Schinner",
+        "country": "Russia",
+        "city": "North Giovani",
+        "street": "Gonzalo Ranch 89",
+        "house": 517,
+        "flat": 2554,
+        "phone": "+029505328744924",
+        "createdOn": "2025-12-16T21:29:47.000Z",
+        "notes": "HXnlJqMlyM3Q9tl5GthzsKhp14Sh4x"
+      },
+      "products": [
+        {
+          "_id": "6941cf4c1c508c5d5ece5f31",
+          "name": "Tuna90594",
+          "amount": 400,
+          "price": 43812,
+          "manufacturer": "Amazon",
+          "notes": "yICElHHDuOYm6dnPfpyOF3cdkqr5uXJZ9sRzxdl1AztkaYbUkOcHAaQaHJP4Iit5AIirzHNB735rMiFJQCnIjKy1k4bH6g0tc0SOuzC7JElNSHUWYJAM0PFaT8JPCSjN8tIs3mA14qfnf9wQPrTaeXVls2wdxP85DGUJxDbTaa3rhJtxa2WokShmLmDBNRRiMtvy0rEA6mwj3IdvbWL9nt0WnCaUyj5hFKfhVixxjo7P0smBbIjXHTdgaA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Eddieshire",
+          "street": "Rectory Lane",
+          "house": 149,
+          "flat": 7752
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 43812,
+      "createdOn": "2025-12-16T21:29:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941cf4b1c508c5d5ece5f14",
+          "products": [
+            {
+              "_id": "6941cf4c1c508c5d5ece5f31",
+              "name": "Tuna90594",
+              "amount": 400,
+              "price": 43812,
+              "manufacturer": "Amazon",
+              "notes": "yICElHHDuOYm6dnPfpyOF3cdkqr5uXJZ9sRzxdl1AztkaYbUkOcHAaQaHJP4Iit5AIirzHNB735rMiFJQCnIjKy1k4bH6g0tc0SOuzC7JElNSHUWYJAM0PFaT8JPCSjN8tIs3mA14qfnf9wQPrTaeXVls2wdxP85DGUJxDbTaa3rhJtxa2WokShmLmDBNRRiMtvy0rEA6mwj3IdvbWL9nt0WnCaUyj5hFKfhVixxjo7P0smBbIjXHTdgaA",
+              "received": false
+            }
+          ],
+          "total_price": 43812,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Eddieshire",
+              "street": "Rectory Lane",
+              "house": 149,
+              "flat": 7752
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:29:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941cf4b1c508c5d5ece5f14",
+          "products": [
+            {
+              "_id": "6941cf4c1c508c5d5ece5f31",
+              "name": "Tuna90594",
+              "amount": 400,
+              "price": 43812,
+              "manufacturer": "Amazon",
+              "notes": "yICElHHDuOYm6dnPfpyOF3cdkqr5uXJZ9sRzxdl1AztkaYbUkOcHAaQaHJP4Iit5AIirzHNB735rMiFJQCnIjKy1k4bH6g0tc0SOuzC7JElNSHUWYJAM0PFaT8JPCSjN8tIs3mA14qfnf9wQPrTaeXVls2wdxP85DGUJxDbTaa3rhJtxa2WokShmLmDBNRRiMtvy0rEA6mwj3IdvbWL9nt0WnCaUyj5hFKfhVixxjo7P0smBbIjXHTdgaA",
+              "received": false
+            }
+          ],
+          "total_price": 43812,
+          "delivery": null,
+          "changedOn": "2025-12-16T21:29:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

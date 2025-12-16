@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 21:30:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2747",
+    "etag": "W/\"abb-4gsw6Zr0z5QbsZ3G2/Mj4ejS63k\"",
+    "keep-alive": "timeout=5, max=98",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6941cf6a1c508c5d5ece6c06",
+      "status": "Draft",
+      "customer": {
+        "_id": "6941cf6a1c508c5d5ece6bcd",
+        "email": "Melyna.Shields@yahoo.com",
+        "name": "Eugene Kautzer",
+        "country": "France",
+        "city": "Farrellview",
+        "street": "Patience Wells 37",
+        "house": 697,
+        "flat": 2270,
+        "phone": "+342193985675345",
+        "createdOn": "2025-12-16T21:30:18.000Z",
+        "notes": "q2VnWteZdLrfMzasaNetOEHlJ4flpE"
+      },
+      "products": [
+        {
+          "_id": "6941cf6a1c508c5d5ece6bea",
+          "name": "Pizza87051",
+          "amount": 204,
+          "price": 3959,
+          "manufacturer": "Sony",
+          "notes": "AizU5reSM2gwwusq1SqBm8tCrQuQiJTwubHVJQiPHhugsoPxsFOiNveVT6pqhg2wmseA52ozegvdpMumipWBPNjOvSLNjNTQNuX9OqOlo6oFLxEi19b7KDrzZGAv9taDdL9WHN65CZbIutVC48UC2y7EzLwVxHYDoPeISja7x1J2WFrtC4nTzupAUeUWOndxonyYCmilReHSt2mxr8IkQwu9L1qidpUCsdDtH8OL2fU9cmmlrdQtkiDklL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "East Miller",
+          "street": "Pfeffer Island",
+          "house": 891,
+          "flat": 6347
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3959,
+      "createdOn": "2025-12-16T21:30:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6941cf6a1c508c5d5ece6bcd",
+          "products": [
+            {
+              "_id": "6941cf6a1c508c5d5ece6bea",
+              "name": "Pizza87051",
+              "amount": 204,
+              "price": 3959,
+              "manufacturer": "Sony",
+              "notes": "AizU5reSM2gwwusq1SqBm8tCrQuQiJTwubHVJQiPHhugsoPxsFOiNveVT6pqhg2wmseA52ozegvdpMumipWBPNjOvSLNjNTQNuX9OqOlo6oFLxEi19b7KDrzZGAv9taDdL9WHN65CZbIutVC48UC2y7EzLwVxHYDoPeISja7x1J2WFrtC4nTzupAUeUWOndxonyYCmilReHSt2mxr8IkQwu9L1qidpUCsdDtH8OL2fU9cmmlrdQtkiDklL",
+              "received": false
+            }
+          ],
+          "total_price": 3959,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Miller",
+              "street": "Pfeffer Island",
+              "house": 891,
+              "flat": 6347
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T21:30:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6941cf6a1c508c5d5ece6bcd",
+          "products": [
+            {
+              "_id": "6941cf6a1c508c5d5ece6bea",
+              "name": "Pizza87051",
+              "amount": 204,
+              "price": 3959,
+              "manufacturer": "Sony",
+              "notes": "AizU5reSM2gwwusq1SqBm8tCrQuQiJTwubHVJQiPHhugsoPxsFOiNveVT6pqhg2wmseA52ozegvdpMumipWBPNjOvSLNjNTQNuX9OqOlo6oFLxEi19b7KDrzZGAv9taDdL9WHN65CZbIutVC48UC2y7EzLwVxHYDoPeISja7x1J2WFrtC4nTzupAUeUWOndxonyYCmilReHSt2mxr8IkQwu9L1qidpUCsdDtH8OL2fU9cmmlrdQtkiDklL",
+              "received": false
+            }
+          ],
+          "total_price": 3959,
+          "delivery": null,
+          "changedOn": "2025-12-16T21:30:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
