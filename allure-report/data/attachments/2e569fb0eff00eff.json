@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 16:45:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4601",
+    "etag": "W/\"11f9-9pveAy+gICURKufvzz+a8IGSwFw\"",
+    "keep-alive": "timeout=5, max=52",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69418cab1c508c5d5ecd9efb",
+      "status": "Received",
+      "customer": {
+        "_id": "69418caa1c508c5d5ecd9ec0",
+        "email": "Hardy_Schmidt@yahoo.com",
+        "name": "Alexandrine Kovacek",
+        "country": "Canada",
+        "city": "Camrynside",
+        "street": "Phoebe Extension 65",
+        "house": 421,
+        "flat": 7182,
+        "phone": "+749080089349378",
+        "createdOn": "2025-12-16T16:45:30.000Z",
+        "notes": "WSQIcVT6gBfUsFZB5qOgzb0jIMSMtW"
+      },
+      "products": [
+        {
+          "_id": "69418caa1c508c5d5ecd9ed5",
+          "name": "Hat40304",
+          "amount": 261,
+          "price": 73771,
+          "manufacturer": "Samsung",
+          "notes": "lx2jcAiawLp6k2R1o6ZHHtFdqueuGzxeE1RPNJ1ZiqiGuaZIr4z1cQRaAUyVzWN5IzapQafiatB2Edw1QRJYk8WrbxJf8XqPawOUvsDLzR1CmlsvkLkOVrNXuCxjDzmHSopTjjm4W7oOHdoY5MGF5ZFvn7etWNdxFdjCuzYy48cY3AZJFNruugz8jBxtXz2Qw0MM22JkYiXQak4IvcYa9yYE11Br9f6aOaUnVIjtZRP4oKEqOfNQNrWp6b",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Lewburgh",
+          "street": "Dooley Gardens",
+          "house": 861,
+          "flat": 4933
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 73771,
+      "createdOn": "2025-12-16T16:45:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69418caa1c508c5d5ecd9ec0",
+          "products": [
+            {
+              "_id": "69418caa1c508c5d5ecd9ed5",
+              "name": "Hat40304",
+              "amount": 261,
+              "price": 73771,
+              "manufacturer": "Samsung",
+              "notes": "lx2jcAiawLp6k2R1o6ZHHtFdqueuGzxeE1RPNJ1ZiqiGuaZIr4z1cQRaAUyVzWN5IzapQafiatB2Edw1QRJYk8WrbxJf8XqPawOUvsDLzR1CmlsvkLkOVrNXuCxjDzmHSopTjjm4W7oOHdoY5MGF5ZFvn7etWNdxFdjCuzYy48cY3AZJFNruugz8jBxtXz2Qw0MM22JkYiXQak4IvcYa9yYE11Br9f6aOaUnVIjtZRP4oKEqOfNQNrWp6b",
+              "received": true
+            }
+          ],
+          "total_price": 73771,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lewburgh",
+              "street": "Dooley Gardens",
+              "house": 861,
+              "flat": 4933
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:45:32.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69418caa1c508c5d5ecd9ec0",
+          "products": [
+            {
+              "_id": "69418caa1c508c5d5ecd9ed5",
+              "name": "Hat40304",
+              "amount": 261,
+              "price": 73771,
+              "manufacturer": "Samsung",
+              "notes": "lx2jcAiawLp6k2R1o6ZHHtFdqueuGzxeE1RPNJ1ZiqiGuaZIr4z1cQRaAUyVzWN5IzapQafiatB2Edw1QRJYk8WrbxJf8XqPawOUvsDLzR1CmlsvkLkOVrNXuCxjDzmHSopTjjm4W7oOHdoY5MGF5ZFvn7etWNdxFdjCuzYy48cY3AZJFNruugz8jBxtXz2Qw0MM22JkYiXQak4IvcYa9yYE11Br9f6aOaUnVIjtZRP4oKEqOfNQNrWp6b",
+              "received": false
+            }
+          ],
+          "total_price": 73771,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lewburgh",
+              "street": "Dooley Gardens",
+              "house": 861,
+              "flat": 4933
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:45:32.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418caa1c508c5d5ecd9ec0",
+          "products": [
+            {
+              "_id": "69418caa1c508c5d5ecd9ed5",
+              "name": "Hat40304",
+              "amount": 261,
+              "price": 73771,
+              "manufacturer": "Samsung",
+              "notes": "lx2jcAiawLp6k2R1o6ZHHtFdqueuGzxeE1RPNJ1ZiqiGuaZIr4z1cQRaAUyVzWN5IzapQafiatB2Edw1QRJYk8WrbxJf8XqPawOUvsDLzR1CmlsvkLkOVrNXuCxjDzmHSopTjjm4W7oOHdoY5MGF5ZFvn7etWNdxFdjCuzYy48cY3AZJFNruugz8jBxtXz2Qw0MM22JkYiXQak4IvcYa9yYE11Br9f6aOaUnVIjtZRP4oKEqOfNQNrWp6b",
+              "received": false
+            }
+          ],
+          "total_price": 73771,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lewburgh",
+              "street": "Dooley Gardens",
+              "house": 861,
+              "flat": 4933
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:45:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418caa1c508c5d5ecd9ec0",
+          "products": [
+            {
+              "_id": "69418caa1c508c5d5ecd9ed5",
+              "name": "Hat40304",
+              "amount": 261,
+              "price": 73771,
+              "manufacturer": "Samsung",
+              "notes": "lx2jcAiawLp6k2R1o6ZHHtFdqueuGzxeE1RPNJ1ZiqiGuaZIr4z1cQRaAUyVzWN5IzapQafiatB2Edw1QRJYk8WrbxJf8XqPawOUvsDLzR1CmlsvkLkOVrNXuCxjDzmHSopTjjm4W7oOHdoY5MGF5ZFvn7etWNdxFdjCuzYy48cY3AZJFNruugz8jBxtXz2Qw0MM22JkYiXQak4IvcYa9yYE11Br9f6aOaUnVIjtZRP4oKEqOfNQNrWp6b",
+              "received": false
+            }
+          ],
+          "total_price": 73771,
+          "delivery": null,
+          "changedOn": "2025-12-16T16:45:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

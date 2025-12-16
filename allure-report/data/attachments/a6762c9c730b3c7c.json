@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 16 Dec 2025 16:45:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2761",
+    "etag": "W/\"ac9-kxsqUspcenPUYDew9xjwpHBwQhI\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69418cb71c508c5d5ecda408",
+      "status": "Draft",
+      "customer": {
+        "_id": "69418cb61c508c5d5ecda3c2",
+        "email": "Danny76@gmail.com",
+        "name": "Mattie Jacobi",
+        "country": "Canada",
+        "city": "South Helga",
+        "street": "Audie Ville 93",
+        "house": 946,
+        "flat": 5574,
+        "phone": "+342086542851700",
+        "createdOn": "2025-12-16T16:45:42.000Z",
+        "notes": "4MBUy3uopGv9Y9WeuVa8M5Xbp6Mx7u"
+      },
+      "products": [
+        {
+          "_id": "69418cb61c508c5d5ecda3db",
+          "name": "Computer23571",
+          "amount": 27,
+          "price": 62761,
+          "manufacturer": "Samsung",
+          "notes": "bwI4UhY6A4lDhqFYenfroWvfknObZqFHcojlnOEEMrivE8U458KZRLYBxRhpKez20eu21N1oHtSHSlczCy7YfrLG4qThCeo8Az0bJzzI23ZMYyPKQ6S8K2yCQsVSMeYviSocQi2N5nH0X4y4i1fEn0PLRlBig5Z06Hm5RMEJPtnJDvEVqdk5cicIQn07e4cYhjclct5jDcLg0d3ZhcPRH1bD85m1ck7c6CNAobsZBxsxdblQBkqoVShi3T",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Jacksonville",
+          "street": "Alexandre Circles",
+          "house": 164,
+          "flat": 185
+        },
+        "finalDate": "2025-12-23T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 62761,
+      "createdOn": "2025-12-16T16:45:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69418cb61c508c5d5ecda3c2",
+          "products": [
+            {
+              "_id": "69418cb61c508c5d5ecda3db",
+              "name": "Computer23571",
+              "amount": 27,
+              "price": 62761,
+              "manufacturer": "Samsung",
+              "notes": "bwI4UhY6A4lDhqFYenfroWvfknObZqFHcojlnOEEMrivE8U458KZRLYBxRhpKez20eu21N1oHtSHSlczCy7YfrLG4qThCeo8Az0bJzzI23ZMYyPKQ6S8K2yCQsVSMeYviSocQi2N5nH0X4y4i1fEn0PLRlBig5Z06Hm5RMEJPtnJDvEVqdk5cicIQn07e4cYhjclct5jDcLg0d3ZhcPRH1bD85m1ck7c6CNAobsZBxsxdblQBkqoVShi3T",
+              "received": false
+            }
+          ],
+          "total_price": 62761,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Jacksonville",
+              "street": "Alexandre Circles",
+              "house": 164,
+              "flat": 185
+            },
+            "finalDate": "2025-12-23T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-16T16:45:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69418cb61c508c5d5ecda3c2",
+          "products": [
+            {
+              "_id": "69418cb61c508c5d5ecda3db",
+              "name": "Computer23571",
+              "amount": 27,
+              "price": 62761,
+              "manufacturer": "Samsung",
+              "notes": "bwI4UhY6A4lDhqFYenfroWvfknObZqFHcojlnOEEMrivE8U458KZRLYBxRhpKez20eu21N1oHtSHSlczCy7YfrLG4qThCeo8Az0bJzzI23ZMYyPKQ6S8K2yCQsVSMeYviSocQi2N5nH0X4y4i1fEn0PLRlBig5Z06Hm5RMEJPtnJDvEVqdk5cicIQn07e4cYhjclct5jDcLg0d3ZhcPRH1bD85m1ck7c6CNAobsZBxsxdblQBkqoVShi3T",
+              "received": false
+            }
+          ],
+          "total_price": 62761,
+          "delivery": null,
+          "changedOn": "2025-12-16T16:45:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
