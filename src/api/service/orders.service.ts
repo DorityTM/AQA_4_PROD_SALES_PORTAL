@@ -19,11 +19,11 @@ export class OrdersApiService {
   ) {}
 
   trackOrderId(id: string): void {
-    this.entitiesStore.trackOrder(id);
+    this.entitiesStore.trackOrders(id);
   }
 
   trackCustomerId(id: string): void {
-    this.entitiesStore.trackCustomer(id);
+    this.entitiesStore.trackCustomers(id);
   }
 
   trackProductIds(ids: string[]): void {
@@ -53,7 +53,7 @@ export class OrdersApiService {
     const productsService = this.productsApiService;
 
     const createdCustomer = await customersService.create(token);
-    this.entitiesStore.trackCustomer(createdCustomer._id);
+    this.entitiesStore.trackCustomers(createdCustomer._id);
 
     const orderData: IOrderCreateBody = {
       customer: createdCustomer._id,
@@ -70,7 +70,7 @@ export class OrdersApiService {
 
     const response = await this.ordersApi.create(token, orderData);
     const order = response.body.Order;
-    this.entitiesStore.trackOrder(order._id);
+    this.entitiesStore.trackOrders(order._id);
     return order;
   }
 
@@ -146,8 +146,8 @@ export class OrdersApiService {
     }
 
     // keep store in sync to avoid double-deletes later
-    this.entitiesStore.trackOrder(orderId);
-    this.entitiesStore.trackCustomer(customerId);
+    this.entitiesStore.trackOrders(orderId);
+    this.entitiesStore.trackCustomers(customerId);
     this.entitiesStore.trackProducts(productIds);
   }
 
@@ -157,32 +157,9 @@ export class OrdersApiService {
     const customers = this.entitiesStore.getCustomerIds();
     const products = this.entitiesStore.getProductIds();
 
-    // 1) Delete orders first
-    for (const orderId of orders) {
-      try {
-        await this.delete(token, orderId);
-      } catch {
-        // noop: best-effort cleanup
-      }
-    }
-
-    // 2) Delete customers
-    for (const customerId of customers) {
-      try {
-        await this.customersApiService.delete(token, customerId);
-      } catch {
-        // noop
-      }
-    }
-
-    // 3) Delete products
-    for (const productId of products) {
-      try {
-        await this.productsApiService.delete(token, productId);
-      } catch {
-        // noop
-      }
-    }
+    await Promise.all(orders.map((orderId) => this.delete(token, orderId)));
+    await Promise.all(customers.map((customerId) => this.customersApiService.delete(token, customerId)));
+    await Promise.all(products.map((productId) => this.productsApiService.delete(token, productId)));
 
     this.entitiesStore.clear();
   }
