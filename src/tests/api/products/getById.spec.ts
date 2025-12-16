@@ -16,7 +16,7 @@ test.describe("[API] [Sales Portal] [Products] [Get By Id]", () => {
 
   test.describe("[Positive]", () => {
     for (const testCase of getProductByIdPositiveCases) {
-      test (
+      test(
         testCase.title,
         { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.PRODUCTS] },
         async ({ productsApi, productsApiService }) => {
@@ -37,17 +37,13 @@ test.describe("[API] [Sales Portal] [Products] [Get By Id]", () => {
 
   test.describe("[Negative]", () => {
     for (const testCase of getProductByIdNegativeCases) {
-      test(
-        testCase.title,
-        { tag: [TAGS.REGRESSION, TAGS.API, TAGS.PRODUCTS] },
-        async ({ productsApi }) => {
-          const response = await productsApi.getById(testCase.id!, token);
-          validateResponse (response, {
-            status: testCase.expectedStatus,
-            ErrorMessage: testCase.expectedErrorMessage,
-          });
-        },
-      );
+      test(testCase.title, { tag: [TAGS.REGRESSION, TAGS.API, TAGS.PRODUCTS] }, async ({ productsApi }) => {
+        const response = await productsApi.getById(testCase.id!, token);
+        validateResponse(response, {
+          status: testCase.expectedStatus,
+          ErrorMessage: testCase.expectedErrorMessage,
+        });
+      });
     }
   });
 });

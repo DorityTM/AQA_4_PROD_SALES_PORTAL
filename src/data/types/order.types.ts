@@ -4,6 +4,7 @@ import { IOrderProductFromResponse, IProduct } from "./product.types";
 import { ORDER_STATUS, ORDER_HISTORY_ACTIONS } from "../salesPortal/order-status";
 import { IDeliveryInfo } from "../salesPortal/delivery-status";
 import { IUser } from "./user.types";
+import { STATUS_CODES } from "data/statusCodes";
 
 export interface IOrderProduct extends IProduct {
   _id: string;
@@ -11,6 +12,7 @@ export interface IOrderProduct extends IProduct {
 }
 export interface IOrderResponse extends IResponseFields {
   Order: IOrderFromResponse;
+  DeliveryInfo: IDeliveryInfo;
 }
 
 export interface IOrderHistoryResponse extends IResponseFields {
@@ -92,6 +94,10 @@ export interface ICommentData {
   createdOn: string;
 }
 
+export interface ICreateDeliveryCase extends ICaseApi {
+  deliveryData: Partial<IDeliveryInfo>;
+  expectedStatus: STATUS_CODES;
+}
 export type IOrderUpdateBody = {
   customer?: string;
   products?: string[];

@@ -7,7 +7,6 @@ import { getAllProductsSchema } from "data/schemas/products/getAllProducts.schem
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { TAGS } from "data/tags";
 
-
 test.describe("[API] [Sales Portal] [Products] [Get All]", () => {
   let token: string;
 
@@ -29,7 +28,7 @@ test.describe("[API] [Sales Portal] [Products] [Get All]", () => {
             schema: getAllProductsSchema,
             ErrorMessage: testCase.expectedErrorMessage,
           });
-          const ids = response.body.Products.map(p => p._id);
+          const ids = response.body.Products.map((p) => p._id);
           expect(ids).toContain(product1._id);
           expect(ids).toContain(product2._id);
           await productsApiService.delete(token, product1._id);
@@ -41,18 +40,14 @@ test.describe("[API] [Sales Portal] [Products] [Get All]", () => {
 
   test.describe("[Negative]", () => {
     for (const testCase of getAllProductsNegativeCases) {
-      test(
-        testCase.title,
-        { tag: [TAGS.REGRESSION, TAGS.API, TAGS.PRODUCTS] },
-        async ({ productsApi }) => {
-          const response = await productsApi.getAll("");
+      test(testCase.title, { tag: [TAGS.REGRESSION, TAGS.API, TAGS.PRODUCTS] }, async ({ productsApi }) => {
+        const response = await productsApi.getAll("");
 
-          validateResponse(response, {
-            status: testCase.expectedStatus,
-            ErrorMessage: testCase.expectedErrorMessage,
-          });
-        },
-      );
+        validateResponse(response, {
+          status: testCase.expectedStatus,
+          ErrorMessage: testCase.expectedErrorMessage,
+        });
+      });
     }
   });
 });
