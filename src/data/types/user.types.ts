@@ -21,12 +21,3 @@ export interface ICreateUserPayload {
   firstName: string;
   lastName: string;
 }
-export interface ICreateUserResponse extends IResponseFields {
-  IsSuccess: boolean;
-  ErrorMessage: string | null;
-  User: IUserFromResponse;
-}
-export interface IDeleteUserResponse extends IResponseFields {
-  IsSuccess: boolean;
-  ErrorMessage: string | null;
-}
