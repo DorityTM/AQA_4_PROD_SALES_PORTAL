@@ -6,4 +6,6 @@ export const RESPONSE_ERRORS = {
   INCORRECT_DELIVERY: "Incorrect Delivery",
   INVALID_DATE: "Invalid final date",
   CUSTOMER_MISSING: "Missing customer",
+  MANAGER_NOT_FOUND: (id: string) => `Manager with id '${id}' wasn't found`,
+  ORDER_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
 };

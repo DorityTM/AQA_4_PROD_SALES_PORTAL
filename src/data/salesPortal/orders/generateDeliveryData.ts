@@ -8,8 +8,8 @@ import moment from "moment";
 export function generateDelivery(customData: Partial<IDeliveryInfo> = {}): IDeliveryInfo {
   const baseAddress = {
     country: getRandomEnumValue(COUNTRY),
-    city: faker.location.city(),
-    street: faker.location.street(),
+    city: faker.location.city().replace(/[.'’\-–—]/g, ""),
+    street: faker.location.street().replace(/[.'’\-–—]/g, ""),
     house: faker.number.int({ min: 1, max: 999 }),
     flat: faker.number.int({ min: 1, max: 9999 }),
   };

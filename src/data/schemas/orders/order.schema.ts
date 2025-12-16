@@ -1,6 +1,7 @@
 import { customerSchema } from "../customers/customer.schema";
 import { deliveryInfoSchema } from "../delivery/delivery.schema";
 import { ORDER_STATUS, ORDER_HISTORY_ACTIONS } from "data/salesPortal/order-status";
+import { userSchema } from "../users/user.schema";
 
 export const orderProductSchema = {
   type: "object",
@@ -61,9 +62,7 @@ export const orderHistorySchema = {
     delivery: {
       anyOf: [deliveryInfoSchema, { type: "null" }],
     },
-    assignedManager: {
-      anyOf: [{ type: "string" }, { type: "null" }],
-    },
+    assignedManager: { anyOf: [userSchema, { type: "null" }] },
     changedOn: { type: "string" },
     action: {
       type: "string",
@@ -112,7 +111,7 @@ export const orderFromResponseSchema = {
       items: orderHistorySchema,
     },
     assignedManager: {
-      anyOf: [{ type: "string" }, { type: "null" }],
+      anyOf: [userSchema, { type: "null" }],
     },
   },
   required: [

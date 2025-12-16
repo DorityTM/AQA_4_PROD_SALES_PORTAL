@@ -9,3 +9,6 @@ export const credentials: ICredentials = {
   username: process.env.USER_NAME!,
   password: process.env.USER_PASSWORD!,
 };
+
+
+export const MANAGER_IDS: string[] = JSON.parse(process.env.MANAGER_IDS!);

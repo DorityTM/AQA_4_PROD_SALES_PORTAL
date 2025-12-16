@@ -3,8 +3,9 @@ import { ICustomerFromResponse } from "./customer.types";
 import { IOrderProductFromResponse, IProduct } from "./product.types";
 import { ORDER_STATUS, ORDER_HISTORY_ACTIONS } from "../salesPortal/order-status";
 import { IDeliveryInfo } from "../salesPortal/delivery-status";
-import { IUser } from "./user.types";
+import { IAssignedManager, IUser } from "./user.types";
 import { STATUS_CODES } from "data/statusCodes";
+import { OrdersApiService } from "api/service/orders.service";
 
 export interface IOrderProduct extends IProduct {
   _id: string;
@@ -27,7 +28,7 @@ export interface IOrderFromResponse extends ICreatedOn, ID {
   delivery: null | IDeliveryInfo;
   comments: IComment[];
   history: IOrderHistory[];
-  assignedManager: null | IUser["_id"];
+  assignedManager: IAssignedManager | null;
 }
 export interface IOrderHistory extends Omit<IOrderFromResponse, "comments" | "history" | "customer" | "createdOn"> {
   customer: ICustomerFromResponse["_id"];
@@ -110,4 +111,9 @@ export interface ICreateOrderCase extends ICaseApi {
 export interface ICreateOrderNegativeCase extends ICaseApi {
   productsCount: number;
   orderData: Partial<IOrderCreateBody>;
+}
+
+export interface IManagerAssignCases {
+  name: string;
+  create: (ordersApiService: OrdersApiService, token: string) => Promise<IOrderFromResponse>;
 }
