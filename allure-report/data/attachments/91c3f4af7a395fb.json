@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 23:48:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3705",
+    "etag": "W/\"e79-vthiRbfhAKcRsdX797W5ld7DmFs\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694341361c508c5d5ed6d9b7",
+      "status": "In Process",
+      "customer": {
+        "_id": "694341351c508c5d5ed6d968",
+        "email": "Hermann.Emard17@yahoo.com",
+        "name": "Silas Quitzon",
+        "country": "Canada",
+        "city": "West Sagechester",
+        "street": "Glebe Close 21",
+        "house": 525,
+        "flat": 3456,
+        "phone": "+770705529331626",
+        "createdOn": "2025-12-17T23:48:05.000Z",
+        "notes": "ulm8SI2hEicvnlzETLYvKWMTu6Pgla"
+      },
+      "products": [
+        {
+          "_id": "694341351c508c5d5ed6d988",
+          "name": "Bike98867",
+          "amount": 93,
+          "price": 25260,
+          "manufacturer": "Sony",
+          "notes": "GPL5jSCOjOiudOSj4Koy631yEApgRHaXSTbiThnVa9lmAZjejqxg1iRl5cedphywtxK6zWQ01k9z2dFaYL4i09r91aO0MnhDdAnyxr5ZJkCvhyeF0St7qV0EJhocwbiHDmhd1XVBFzcDMLz1PXVXQaXolpyU2DvFWiumbYrP9rqbnTBgZnilKm6IUSG7SVi0UgbJj6WFMfHKzyBQ1uinO0HssL20WQ0PjpuakQWgLv9QxGY84d9jTFLBLj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Valentinville",
+          "street": "Gutkowski Ranch",
+          "house": 61,
+          "flat": 1587
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25260,
+      "createdOn": "2025-12-17T23:48:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694341351c508c5d5ed6d968",
+          "products": [
+            {
+              "_id": "694341351c508c5d5ed6d988",
+              "name": "Bike98867",
+              "amount": 93,
+              "price": 25260,
+              "manufacturer": "Sony",
+              "notes": "GPL5jSCOjOiudOSj4Koy631yEApgRHaXSTbiThnVa9lmAZjejqxg1iRl5cedphywtxK6zWQ01k9z2dFaYL4i09r91aO0MnhDdAnyxr5ZJkCvhyeF0St7qV0EJhocwbiHDmhd1XVBFzcDMLz1PXVXQaXolpyU2DvFWiumbYrP9rqbnTBgZnilKm6IUSG7SVi0UgbJj6WFMfHKzyBQ1uinO0HssL20WQ0PjpuakQWgLv9QxGY84d9jTFLBLj",
+              "received": false
+            }
+          ],
+          "total_price": 25260,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Valentinville",
+              "street": "Gutkowski Ranch",
+              "house": 61,
+              "flat": 1587
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:48:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694341351c508c5d5ed6d968",
+          "products": [
+            {
+              "_id": "694341351c508c5d5ed6d988",
+              "name": "Bike98867",
+              "amount": 93,
+              "price": 25260,
+              "manufacturer": "Sony",
+              "notes": "GPL5jSCOjOiudOSj4Koy631yEApgRHaXSTbiThnVa9lmAZjejqxg1iRl5cedphywtxK6zWQ01k9z2dFaYL4i09r91aO0MnhDdAnyxr5ZJkCvhyeF0St7qV0EJhocwbiHDmhd1XVBFzcDMLz1PXVXQaXolpyU2DvFWiumbYrP9rqbnTBgZnilKm6IUSG7SVi0UgbJj6WFMfHKzyBQ1uinO0HssL20WQ0PjpuakQWgLv9QxGY84d9jTFLBLj",
+              "received": false
+            }
+          ],
+          "total_price": 25260,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Valentinville",
+              "street": "Gutkowski Ranch",
+              "house": 61,
+              "flat": 1587
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:48:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694341351c508c5d5ed6d968",
+          "products": [
+            {
+              "_id": "694341351c508c5d5ed6d988",
+              "name": "Bike98867",
+              "amount": 93,
+              "price": 25260,
+              "manufacturer": "Sony",
+              "notes": "GPL5jSCOjOiudOSj4Koy631yEApgRHaXSTbiThnVa9lmAZjejqxg1iRl5cedphywtxK6zWQ01k9z2dFaYL4i09r91aO0MnhDdAnyxr5ZJkCvhyeF0St7qV0EJhocwbiHDmhd1XVBFzcDMLz1PXVXQaXolpyU2DvFWiumbYrP9rqbnTBgZnilKm6IUSG7SVi0UgbJj6WFMfHKzyBQ1uinO0HssL20WQ0PjpuakQWgLv9QxGY84d9jTFLBLj",
+              "received": false
+            }
+          ],
+          "total_price": 25260,
+          "delivery": null,
+          "changedOn": "2025-12-17T23:48:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

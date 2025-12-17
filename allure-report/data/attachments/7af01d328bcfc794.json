@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 23:48:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2740",
+    "etag": "W/\"ab4-uFOCslJyKZWMeRjUXiqMUJOZVlo\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943415e1c508c5d5ed6eef5",
+      "status": "Draft",
+      "customer": {
+        "_id": "694341581c508c5d5ed6ebc5",
+        "email": "Opal_Bartoletti@yahoo.com",
+        "name": "Mariam Ernser",
+        "country": "Russia",
+        "city": "Kochville",
+        "street": "College Avenue 39",
+        "house": 143,
+        "flat": 641,
+        "phone": "+118839530650037",
+        "createdOn": "2025-12-17T23:48:40.000Z",
+        "notes": "7YfQuOsRSAhpyrEumxN4d9a5tXQBdj"
+      },
+      "products": [
+        {
+          "_id": "6943415b1c508c5d5ed6ed57",
+          "name": "Table19698",
+          "amount": 454,
+          "price": 11391,
+          "manufacturer": "Sony",
+          "notes": "dNXxtxPvA1Rwlsy4fqHd7dS4ZaezktZzGWluvGlEktrFWZW51rrYNbeAuyXNP7ttiFjou4FRD18ObZinyKpInfAqZF8HBFfrQfeyfkKrk1s374pkVB9LqwA9w1oi9BoaRlhTQhLCfK871PkfjLYBUufG3c1wPbCnwJhTU77I7lXkvVzMlCiutjnotdPPsZO3xvk7Y5IUjiSX3E6cF1AFqNwlhHoVfrX4i0ZuknrwBmxG918PT1Q7tukdRx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Leschhaven",
+          "street": "Terry Hills",
+          "house": 753,
+          "flat": 1083
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 11391,
+      "createdOn": "2025-12-17T23:48:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694341581c508c5d5ed6ebc5",
+          "products": [
+            {
+              "_id": "6943415b1c508c5d5ed6ed57",
+              "name": "Table19698",
+              "amount": 454,
+              "price": 11391,
+              "manufacturer": "Sony",
+              "notes": "dNXxtxPvA1Rwlsy4fqHd7dS4ZaezktZzGWluvGlEktrFWZW51rrYNbeAuyXNP7ttiFjou4FRD18ObZinyKpInfAqZF8HBFfrQfeyfkKrk1s374pkVB9LqwA9w1oi9BoaRlhTQhLCfK871PkfjLYBUufG3c1wPbCnwJhTU77I7lXkvVzMlCiutjnotdPPsZO3xvk7Y5IUjiSX3E6cF1AFqNwlhHoVfrX4i0ZuknrwBmxG918PT1Q7tukdRx",
+              "received": false
+            }
+          ],
+          "total_price": 11391,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Leschhaven",
+              "street": "Terry Hills",
+              "house": 753,
+              "flat": 1083
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:48:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694341581c508c5d5ed6ebc5",
+          "products": [
+            {
+              "_id": "6943415b1c508c5d5ed6ed57",
+              "name": "Table19698",
+              "amount": 454,
+              "price": 11391,
+              "manufacturer": "Sony",
+              "notes": "dNXxtxPvA1Rwlsy4fqHd7dS4ZaezktZzGWluvGlEktrFWZW51rrYNbeAuyXNP7ttiFjou4FRD18ObZinyKpInfAqZF8HBFfrQfeyfkKrk1s374pkVB9LqwA9w1oi9BoaRlhTQhLCfK871PkfjLYBUufG3c1wPbCnwJhTU77I7lXkvVzMlCiutjnotdPPsZO3xvk7Y5IUjiSX3E6cF1AFqNwlhHoVfrX4i0ZuknrwBmxG918PT1Q7tukdRx",
+              "received": false
+            }
+          ],
+          "total_price": 11391,
+          "delivery": null,
+          "changedOn": "2025-12-17T23:48:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

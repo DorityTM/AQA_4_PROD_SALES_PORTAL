@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 23:49:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3688",
+    "etag": "W/\"e68-5LmD6uvnjThfz7qoGPFH7JDXQiM\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694341791c508c5d5ed6fdcd",
+      "status": "In Process",
+      "customer": {
+        "_id": "694341781c508c5d5ed6fd8a",
+        "email": "Zoe.Wisozk75@yahoo.com",
+        "name": "Virgil Zemlak",
+        "country": "USA",
+        "city": "Fort Novella",
+        "street": "Moore Greens 14",
+        "house": 823,
+        "flat": 5905,
+        "phone": "+675515411393850",
+        "createdOn": "2025-12-17T23:49:12.000Z",
+        "notes": "wgeuKZHdkuJNdXcOnVLPnvR44NNX0X"
+      },
+      "products": [
+        {
+          "_id": "694341791c508c5d5ed6fda7",
+          "name": "Salad54414",
+          "amount": 389,
+          "price": 70838,
+          "manufacturer": "Microsoft",
+          "notes": "o3DlpKORNyYwCrxmJUadb4BxQjvuP6BNAJDN9ovdYdGPDbPHskGMcDPWcBXtIGHWTMPTGDcGonw0yQjtR6mCHC7eJCmJE7ANGMJI1THmfmqKXevcqtdJFzmD6hSz8m3Rl4UXQ93I25EGEVWhFrkjyM10f3CDgpICjZIweKoJgmz1sItyUXBt5GyfiJz3LWO8RqcP27V4XFAWA52PsvNN3VPVvnGezrHNd1EECOh4FmX10YvzON9tg43Wop",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "OReillystead",
+          "street": "Earlene Creek",
+          "house": 489,
+          "flat": 9262
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 70838,
+      "createdOn": "2025-12-17T23:49:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694341781c508c5d5ed6fd8a",
+          "products": [
+            {
+              "_id": "694341791c508c5d5ed6fda7",
+              "name": "Salad54414",
+              "amount": 389,
+              "price": 70838,
+              "manufacturer": "Microsoft",
+              "notes": "o3DlpKORNyYwCrxmJUadb4BxQjvuP6BNAJDN9ovdYdGPDbPHskGMcDPWcBXtIGHWTMPTGDcGonw0yQjtR6mCHC7eJCmJE7ANGMJI1THmfmqKXevcqtdJFzmD6hSz8m3Rl4UXQ93I25EGEVWhFrkjyM10f3CDgpICjZIweKoJgmz1sItyUXBt5GyfiJz3LWO8RqcP27V4XFAWA52PsvNN3VPVvnGezrHNd1EECOh4FmX10YvzON9tg43Wop",
+              "received": false
+            }
+          ],
+          "total_price": 70838,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "OReillystead",
+              "street": "Earlene Creek",
+              "house": 489,
+              "flat": 9262
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:49:20.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694341781c508c5d5ed6fd8a",
+          "products": [
+            {
+              "_id": "694341791c508c5d5ed6fda7",
+              "name": "Salad54414",
+              "amount": 389,
+              "price": 70838,
+              "manufacturer": "Microsoft",
+              "notes": "o3DlpKORNyYwCrxmJUadb4BxQjvuP6BNAJDN9ovdYdGPDbPHskGMcDPWcBXtIGHWTMPTGDcGonw0yQjtR6mCHC7eJCmJE7ANGMJI1THmfmqKXevcqtdJFzmD6hSz8m3Rl4UXQ93I25EGEVWhFrkjyM10f3CDgpICjZIweKoJgmz1sItyUXBt5GyfiJz3LWO8RqcP27V4XFAWA52PsvNN3VPVvnGezrHNd1EECOh4FmX10YvzON9tg43Wop",
+              "received": false
+            }
+          ],
+          "total_price": 70838,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "OReillystead",
+              "street": "Earlene Creek",
+              "house": 489,
+              "flat": 9262
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:49:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694341781c508c5d5ed6fd8a",
+          "products": [
+            {
+              "_id": "694341791c508c5d5ed6fda7",
+              "name": "Salad54414",
+              "amount": 389,
+              "price": 70838,
+              "manufacturer": "Microsoft",
+              "notes": "o3DlpKORNyYwCrxmJUadb4BxQjvuP6BNAJDN9ovdYdGPDbPHskGMcDPWcBXtIGHWTMPTGDcGonw0yQjtR6mCHC7eJCmJE7ANGMJI1THmfmqKXevcqtdJFzmD6hSz8m3Rl4UXQ93I25EGEVWhFrkjyM10f3CDgpICjZIweKoJgmz1sItyUXBt5GyfiJz3LWO8RqcP27V4XFAWA52PsvNN3VPVvnGezrHNd1EECOh4FmX10YvzON9tg43Wop",
+              "received": false
+            }
+          ],
+          "total_price": 70838,
+          "delivery": null,
+          "changedOn": "2025-12-17T23:49:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

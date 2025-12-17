@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 23:48:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4608",
+    "etag": "W/\"1200-johD4XGGy88JwCcFnW8R9vT7Jyc\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943415e1c508c5d5ed6ef46",
+      "status": "Received",
+      "customer": {
+        "_id": "6943415e1c508c5d5ed6eeff",
+        "email": "Cyril.Batz60@gmail.com",
+        "name": "Gerardo Gorczany",
+        "country": "Russia",
+        "city": "Fort Myers",
+        "street": "E 12th Street 45",
+        "house": 975,
+        "flat": 9511,
+        "phone": "+649878415474782",
+        "createdOn": "2025-12-17T23:48:46.000Z",
+        "notes": "g5lRAdOF23SSSa3HwTvsAdTN2YTxPV"
+      },
+      "products": [
+        {
+          "_id": "6943415e1c508c5d5ed6ef20",
+          "name": "Chicken62735",
+          "amount": 351,
+          "price": 23094,
+          "manufacturer": "Apple",
+          "notes": "AsgQ1CEssmR52XIYPCWqPlk4vzdglpaUhDpBp4g9xXaTXr6yFtcregcSDB38mzLqNQvjoqVMuDz5Wr0Mt6bzBi3YzLwPYo7LZX5XfhDbGFvvZMMDganDS8Ohi3ISUlOSdPKLLRMMTxtR5xgYGc54u1ZoT1pSjwXGcZCI01Ub2CSo0Nc5nibxemSuzgKn5CZy7jleFx1ikL75FogryfYw7ewKPn77NIHYhOofDf4ed7YedaO5haJYIjqKqU",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Hortense",
+          "street": "Tatyana Mission",
+          "house": 351,
+          "flat": 527
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 23094,
+      "createdOn": "2025-12-17T23:48:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6943415e1c508c5d5ed6eeff",
+          "products": [
+            {
+              "_id": "6943415e1c508c5d5ed6ef20",
+              "name": "Chicken62735",
+              "amount": 351,
+              "price": 23094,
+              "manufacturer": "Apple",
+              "notes": "AsgQ1CEssmR52XIYPCWqPlk4vzdglpaUhDpBp4g9xXaTXr6yFtcregcSDB38mzLqNQvjoqVMuDz5Wr0Mt6bzBi3YzLwPYo7LZX5XfhDbGFvvZMMDganDS8Ohi3ISUlOSdPKLLRMMTxtR5xgYGc54u1ZoT1pSjwXGcZCI01Ub2CSo0Nc5nibxemSuzgKn5CZy7jleFx1ikL75FogryfYw7ewKPn77NIHYhOofDf4ed7YedaO5haJYIjqKqU",
+              "received": true
+            }
+          ],
+          "total_price": 23094,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Hortense",
+              "street": "Tatyana Mission",
+              "house": 351,
+              "flat": 527
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:48:53.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6943415e1c508c5d5ed6eeff",
+          "products": [
+            {
+              "_id": "6943415e1c508c5d5ed6ef20",
+              "name": "Chicken62735",
+              "amount": 351,
+              "price": 23094,
+              "manufacturer": "Apple",
+              "notes": "AsgQ1CEssmR52XIYPCWqPlk4vzdglpaUhDpBp4g9xXaTXr6yFtcregcSDB38mzLqNQvjoqVMuDz5Wr0Mt6bzBi3YzLwPYo7LZX5XfhDbGFvvZMMDganDS8Ohi3ISUlOSdPKLLRMMTxtR5xgYGc54u1ZoT1pSjwXGcZCI01Ub2CSo0Nc5nibxemSuzgKn5CZy7jleFx1ikL75FogryfYw7ewKPn77NIHYhOofDf4ed7YedaO5haJYIjqKqU",
+              "received": false
+            }
+          ],
+          "total_price": 23094,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Hortense",
+              "street": "Tatyana Mission",
+              "house": 351,
+              "flat": 527
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:48:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943415e1c508c5d5ed6eeff",
+          "products": [
+            {
+              "_id": "6943415e1c508c5d5ed6ef20",
+              "name": "Chicken62735",
+              "amount": 351,
+              "price": 23094,
+              "manufacturer": "Apple",
+              "notes": "AsgQ1CEssmR52XIYPCWqPlk4vzdglpaUhDpBp4g9xXaTXr6yFtcregcSDB38mzLqNQvjoqVMuDz5Wr0Mt6bzBi3YzLwPYo7LZX5XfhDbGFvvZMMDganDS8Ohi3ISUlOSdPKLLRMMTxtR5xgYGc54u1ZoT1pSjwXGcZCI01Ub2CSo0Nc5nibxemSuzgKn5CZy7jleFx1ikL75FogryfYw7ewKPn77NIHYhOofDf4ed7YedaO5haJYIjqKqU",
+              "received": false
+            }
+          ],
+          "total_price": 23094,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Hortense",
+              "street": "Tatyana Mission",
+              "house": 351,
+              "flat": 527
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:48:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943415e1c508c5d5ed6eeff",
+          "products": [
+            {
+              "_id": "6943415e1c508c5d5ed6ef20",
+              "name": "Chicken62735",
+              "amount": 351,
+              "price": 23094,
+              "manufacturer": "Apple",
+              "notes": "AsgQ1CEssmR52XIYPCWqPlk4vzdglpaUhDpBp4g9xXaTXr6yFtcregcSDB38mzLqNQvjoqVMuDz5Wr0Mt6bzBi3YzLwPYo7LZX5XfhDbGFvvZMMDganDS8Ohi3ISUlOSdPKLLRMMTxtR5xgYGc54u1ZoT1pSjwXGcZCI01Ub2CSo0Nc5nibxemSuzgKn5CZy7jleFx1ikL75FogryfYw7ewKPn77NIHYhOofDf4ed7YedaO5haJYIjqKqU",
+              "received": false
+            }
+          ],
+          "total_price": 23094,
+          "delivery": null,
+          "changedOn": "2025-12-17T23:48:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
