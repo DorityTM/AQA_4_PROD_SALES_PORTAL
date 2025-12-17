@@ -20,7 +20,7 @@ test.describe("[API][Orders]", () => {
 
   test.afterEach(async ({ ordersApiService }) => {
     if (orderId) {
-      await ordersApiService.deleteOrderAndEntities(token, orderId);
+      await ordersApiService.fullDelete(token);
       orderId = "";
       orderObj = null;
     }
