@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 19:08:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4594",
+    "etag": "W/\"11f2-QOzUGKlFkSr7xvLkQ8vkeMGqPHE\"",
+    "keep-alive": "timeout=5, max=12",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6942ffb41c508c5d5ecfcfa0",
+      "status": "Received",
+      "customer": {
+        "_id": "6942ffb31c508c5d5ecfcf6c",
+        "email": "Kathryn6@hotmail.com",
+        "name": "Jazlyn Morissette",
+        "country": "Ukraine",
+        "city": "Lake Davon",
+        "street": "Smith Street 64",
+        "house": 345,
+        "flat": 6140,
+        "phone": "+944708169274246",
+        "createdOn": "2025-12-17T19:08:35.000Z",
+        "notes": "jNsmuYvGuewXl5kUihRXzfzQ0YF6Dq"
+      },
+      "products": [
+        {
+          "_id": "6942ffb41c508c5d5ecfcf7b",
+          "name": "Mouse51450",
+          "amount": 467,
+          "price": 91878,
+          "manufacturer": "Google",
+          "notes": "XPceK5Lm4gPyQnOcgi6owPPnilozOVl1XZRfDrr3XzoVpQovck6reXajChTYao3c5kV8my6t59IonZ952N5EgGTvWrJ2OugYXW0TGeNIrNd5lMK96lHsivGL1nhTRtTj8EqKJi3lmdm03ORfb6zjeRSvvHf8JSKdmftn1iIGTnwq6LX8tZoBaItQCThsdAcpOxoGr7KM5kQLAJgdTSLBH7u6q4RjVVQEBaI0f1p7rK62mwrKdOb2GFNXvQ",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Cullenfurt",
+          "street": "Orval Road",
+          "house": 320,
+          "flat": 4207
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 91878,
+      "createdOn": "2025-12-17T19:08:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6942ffb31c508c5d5ecfcf6c",
+          "products": [
+            {
+              "_id": "6942ffb41c508c5d5ecfcf7b",
+              "name": "Mouse51450",
+              "amount": 467,
+              "price": 91878,
+              "manufacturer": "Google",
+              "notes": "XPceK5Lm4gPyQnOcgi6owPPnilozOVl1XZRfDrr3XzoVpQovck6reXajChTYao3c5kV8my6t59IonZ952N5EgGTvWrJ2OugYXW0TGeNIrNd5lMK96lHsivGL1nhTRtTj8EqKJi3lmdm03ORfb6zjeRSvvHf8JSKdmftn1iIGTnwq6LX8tZoBaItQCThsdAcpOxoGr7KM5kQLAJgdTSLBH7u6q4RjVVQEBaI0f1p7rK62mwrKdOb2GFNXvQ",
+              "received": true
+            }
+          ],
+          "total_price": 91878,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Cullenfurt",
+              "street": "Orval Road",
+              "house": 320,
+              "flat": 4207
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T19:08:38.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6942ffb31c508c5d5ecfcf6c",
+          "products": [
+            {
+              "_id": "6942ffb41c508c5d5ecfcf7b",
+              "name": "Mouse51450",
+              "amount": 467,
+              "price": 91878,
+              "manufacturer": "Google",
+              "notes": "XPceK5Lm4gPyQnOcgi6owPPnilozOVl1XZRfDrr3XzoVpQovck6reXajChTYao3c5kV8my6t59IonZ952N5EgGTvWrJ2OugYXW0TGeNIrNd5lMK96lHsivGL1nhTRtTj8EqKJi3lmdm03ORfb6zjeRSvvHf8JSKdmftn1iIGTnwq6LX8tZoBaItQCThsdAcpOxoGr7KM5kQLAJgdTSLBH7u6q4RjVVQEBaI0f1p7rK62mwrKdOb2GFNXvQ",
+              "received": false
+            }
+          ],
+          "total_price": 91878,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Cullenfurt",
+              "street": "Orval Road",
+              "house": 320,
+              "flat": 4207
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T19:08:38.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6942ffb31c508c5d5ecfcf6c",
+          "products": [
+            {
+              "_id": "6942ffb41c508c5d5ecfcf7b",
+              "name": "Mouse51450",
+              "amount": 467,
+              "price": 91878,
+              "manufacturer": "Google",
+              "notes": "XPceK5Lm4gPyQnOcgi6owPPnilozOVl1XZRfDrr3XzoVpQovck6reXajChTYao3c5kV8my6t59IonZ952N5EgGTvWrJ2OugYXW0TGeNIrNd5lMK96lHsivGL1nhTRtTj8EqKJi3lmdm03ORfb6zjeRSvvHf8JSKdmftn1iIGTnwq6LX8tZoBaItQCThsdAcpOxoGr7KM5kQLAJgdTSLBH7u6q4RjVVQEBaI0f1p7rK62mwrKdOb2GFNXvQ",
+              "received": false
+            }
+          ],
+          "total_price": 91878,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Cullenfurt",
+              "street": "Orval Road",
+              "house": 320,
+              "flat": 4207
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T19:08:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6942ffb31c508c5d5ecfcf6c",
+          "products": [
+            {
+              "_id": "6942ffb41c508c5d5ecfcf7b",
+              "name": "Mouse51450",
+              "amount": 467,
+              "price": 91878,
+              "manufacturer": "Google",
+              "notes": "XPceK5Lm4gPyQnOcgi6owPPnilozOVl1XZRfDrr3XzoVpQovck6reXajChTYao3c5kV8my6t59IonZ952N5EgGTvWrJ2OugYXW0TGeNIrNd5lMK96lHsivGL1nhTRtTj8EqKJi3lmdm03ORfb6zjeRSvvHf8JSKdmftn1iIGTnwq6LX8tZoBaItQCThsdAcpOxoGr7KM5kQLAJgdTSLBH7u6q4RjVVQEBaI0f1p7rK62mwrKdOb2GFNXvQ",
+              "received": false
+            }
+          ],
+          "total_price": 91878,
+          "delivery": null,
+          "changedOn": "2025-12-17T19:08:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

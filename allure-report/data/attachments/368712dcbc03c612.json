@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 19:08:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4607",
+    "etag": "W/\"11ff-/0ZFo6mRttV102Rcj0sBqKHXAS4\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6942ff8f1c508c5d5ecfbf0f",
+      "status": "Received",
+      "customer": {
+        "_id": "6942ff8e1c508c5d5ecfbebf",
+        "email": "Malvina.OConnell@gmail.com",
+        "name": "Rachel Jenkins",
+        "country": "France",
+        "city": "Hauckboro",
+        "street": "Birch Avenue 45",
+        "house": 713,
+        "flat": 3373,
+        "phone": "+900593198256850",
+        "createdOn": "2025-12-17T19:07:58.000Z",
+        "notes": "IeiOmFOet48zOmfVzetLt3HMNb0JKO"
+      },
+      "products": [
+        {
+          "_id": "6942ff8e1c508c5d5ecfbedb",
+          "name": "Hat16735",
+          "amount": 259,
+          "price": 78686,
+          "manufacturer": "Sony",
+          "notes": "PUOStgI05uw48djJnUnIuK6iUxz3V95r9EWkTf9sBbg0HsLWkcVHwDDf6XIIGORiZHURNq5mWKk3kw993vS0JT3I5bJTKJukTyAzUrv38R3rv9f52djGPY98nheAvVKiO0xoAs8pE1zq8ebABSoJuHgxZionu4DICEJVVzsod5Rbl34VW99r4z6Nh02XxnxWbNUyuHBuCZxMmSAqNktfAH8gtPJRkMAZSDZdV36hOLODIV7tQKyYJUVWQY",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Darrinfurt",
+          "street": "Pacocha Ranch",
+          "house": 858,
+          "flat": 9404
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 78686,
+      "createdOn": "2025-12-17T19:07:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6942ff8e1c508c5d5ecfbebf",
+          "products": [
+            {
+              "_id": "6942ff8e1c508c5d5ecfbedb",
+              "name": "Hat16735",
+              "amount": 259,
+              "price": 78686,
+              "manufacturer": "Sony",
+              "notes": "PUOStgI05uw48djJnUnIuK6iUxz3V95r9EWkTf9sBbg0HsLWkcVHwDDf6XIIGORiZHURNq5mWKk3kw993vS0JT3I5bJTKJukTyAzUrv38R3rv9f52djGPY98nheAvVKiO0xoAs8pE1zq8ebABSoJuHgxZionu4DICEJVVzsod5Rbl34VW99r4z6Nh02XxnxWbNUyuHBuCZxMmSAqNktfAH8gtPJRkMAZSDZdV36hOLODIV7tQKyYJUVWQY",
+              "received": true
+            }
+          ],
+          "total_price": 78686,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Darrinfurt",
+              "street": "Pacocha Ranch",
+              "house": 858,
+              "flat": 9404
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T19:08:00.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6942ff8e1c508c5d5ecfbebf",
+          "products": [
+            {
+              "_id": "6942ff8e1c508c5d5ecfbedb",
+              "name": "Hat16735",
+              "amount": 259,
+              "price": 78686,
+              "manufacturer": "Sony",
+              "notes": "PUOStgI05uw48djJnUnIuK6iUxz3V95r9EWkTf9sBbg0HsLWkcVHwDDf6XIIGORiZHURNq5mWKk3kw993vS0JT3I5bJTKJukTyAzUrv38R3rv9f52djGPY98nheAvVKiO0xoAs8pE1zq8ebABSoJuHgxZionu4DICEJVVzsod5Rbl34VW99r4z6Nh02XxnxWbNUyuHBuCZxMmSAqNktfAH8gtPJRkMAZSDZdV36hOLODIV7tQKyYJUVWQY",
+              "received": false
+            }
+          ],
+          "total_price": 78686,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Darrinfurt",
+              "street": "Pacocha Ranch",
+              "house": 858,
+              "flat": 9404
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T19:08:00.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6942ff8e1c508c5d5ecfbebf",
+          "products": [
+            {
+              "_id": "6942ff8e1c508c5d5ecfbedb",
+              "name": "Hat16735",
+              "amount": 259,
+              "price": 78686,
+              "manufacturer": "Sony",
+              "notes": "PUOStgI05uw48djJnUnIuK6iUxz3V95r9EWkTf9sBbg0HsLWkcVHwDDf6XIIGORiZHURNq5mWKk3kw993vS0JT3I5bJTKJukTyAzUrv38R3rv9f52djGPY98nheAvVKiO0xoAs8pE1zq8ebABSoJuHgxZionu4DICEJVVzsod5Rbl34VW99r4z6Nh02XxnxWbNUyuHBuCZxMmSAqNktfAH8gtPJRkMAZSDZdV36hOLODIV7tQKyYJUVWQY",
+              "received": false
+            }
+          ],
+          "total_price": 78686,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Darrinfurt",
+              "street": "Pacocha Ranch",
+              "house": 858,
+              "flat": 9404
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T19:07:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6942ff8e1c508c5d5ecfbebf",
+          "products": [
+            {
+              "_id": "6942ff8e1c508c5d5ecfbedb",
+              "name": "Hat16735",
+              "amount": 259,
+              "price": 78686,
+              "manufacturer": "Sony",
+              "notes": "PUOStgI05uw48djJnUnIuK6iUxz3V95r9EWkTf9sBbg0HsLWkcVHwDDf6XIIGORiZHURNq5mWKk3kw993vS0JT3I5bJTKJukTyAzUrv38R3rv9f52djGPY98nheAvVKiO0xoAs8pE1zq8ebABSoJuHgxZionu4DICEJVVzsod5Rbl34VW99r4z6Nh02XxnxWbNUyuHBuCZxMmSAqNktfAH8gtPJRkMAZSDZdV36hOLODIV7tQKyYJUVWQY",
+              "received": false
+            }
+          ],
+          "total_price": 78686,
+          "delivery": null,
+          "changedOn": "2025-12-17T19:07:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
