@@ -1,0 +1,113 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 21:48:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2435",
+    "etag": "W/\"983-cJIfWfx9i0Kiqg+YSCn8WrJtNRo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943253a1c508c5d5ed143fb",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943253b1c508c5d5ed1441a",
+        "email": "Cory_Gerhold@yahoo.com",
+        "name": "Eldora Padberg Rath",
+        "country": "France",
+        "city": "O Keefeshire",
+        "street": "Kris Falls 58",
+        "house": 53,
+        "flat": 9760,
+        "phone": "+027682933717181",
+        "createdOn": "2025-12-17T21:48:43.000Z",
+        "notes": "nTZUpwPkuGxxgiyqaQ0DWyhRNIcgbL"
+      },
+      "products": [
+        {
+          "_id": "6943253a1c508c5d5ed143dd",
+          "name": "Computer99508",
+          "amount": 410,
+          "price": 70539,
+          "manufacturer": "Sony",
+          "notes": "ZDt5g83wmJmOH6rmbeA3jvnbPulCD16vY6lXgax8Q5sYPVEOWdDhXXEbxKttatQ8OMZgp23IfNQTvZMjsiviaJLOUwKSIuMwAG5nRRdEt4DFQqAwFXGR0vxviqEDpzdiLaIfxhF8mJKKXfURNA3ltkdv51I2lkHGxjK8Lm36fUKoyT4NPF1WjicHHh0m9el9g5HYJug8YPwWTP7mQEuaQ9SOvyQc2cPbwY8eXOlBbyKcPY6IfIPZLgfjNW",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 70539,
+      "createdOn": "2025-12-17T21:48:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943253b1c508c5d5ed1441a",
+          "products": [
+            {
+              "_id": "6943253a1c508c5d5ed143dd",
+              "name": "Computer99508",
+              "amount": 410,
+              "price": 70539,
+              "manufacturer": "Sony",
+              "notes": "ZDt5g83wmJmOH6rmbeA3jvnbPulCD16vY6lXgax8Q5sYPVEOWdDhXXEbxKttatQ8OMZgp23IfNQTvZMjsiviaJLOUwKSIuMwAG5nRRdEt4DFQqAwFXGR0vxviqEDpzdiLaIfxhF8mJKKXfURNA3ltkdv51I2lkHGxjK8Lm36fUKoyT4NPF1WjicHHh0m9el9g5HYJug8YPwWTP7mQEuaQ9SOvyQc2cPbwY8eXOlBbyKcPY6IfIPZLgfjNW",
+              "received": false
+            }
+          ],
+          "total_price": 70539,
+          "delivery": null,
+          "changedOn": "2025-12-17T21:48:44.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943253a1c508c5d5ed143c7",
+          "products": [
+            {
+              "_id": "6943253a1c508c5d5ed143dd",
+              "name": "Computer99508",
+              "amount": 410,
+              "price": 70539,
+              "manufacturer": "Sony",
+              "notes": "ZDt5g83wmJmOH6rmbeA3jvnbPulCD16vY6lXgax8Q5sYPVEOWdDhXXEbxKttatQ8OMZgp23IfNQTvZMjsiviaJLOUwKSIuMwAG5nRRdEt4DFQqAwFXGR0vxviqEDpzdiLaIfxhF8mJKKXfURNA3ltkdv51I2lkHGxjK8Lm36fUKoyT4NPF1WjicHHh0m9el9g5HYJug8YPwWTP7mQEuaQ9SOvyQc2cPbwY8eXOlBbyKcPY6IfIPZLgfjNW",
+              "received": false
+            }
+          ],
+          "total_price": 70539,
+          "delivery": null,
+          "changedOn": "2025-12-17T21:48:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

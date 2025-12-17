@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 21:48:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2745",
+    "etag": "W/\"ab9-v+o7dsRRzfiatd1mrljJzYeP9dA\"",
+    "keep-alive": "timeout=5, max=22",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694325141c508c5d5ed1300f",
+      "status": "Draft",
+      "customer": {
+        "_id": "694325111c508c5d5ed12eb5",
+        "email": "Joannie54@yahoo.com",
+        "name": "Ivah Haley",
+        "country": "USA",
+        "city": "South Miaview",
+        "street": "Chapel Road 25",
+        "house": 68,
+        "flat": 5965,
+        "phone": "+705562630145739",
+        "createdOn": "2025-12-17T21:48:01.000Z",
+        "notes": "JrXiCsQaMHCh9o5CWWzsvnn0AigIXS"
+      },
+      "products": [
+        {
+          "_id": "694325131c508c5d5ed12fef",
+          "name": "Bike56982",
+          "amount": 646,
+          "price": 61223,
+          "manufacturer": "Microsoft",
+          "notes": "MHaKzc5leN2GMoLYf7OOGnfGn9oZzPNfLXz4mwaZ3BFyOJ9xV4ypIrZ7sEtIyZMDUuQJFR6B8q5yBWuEOiIUuL4y7qRkm7GS41rwUDiuNk5nfLOCfxoqeC4XhS7F0Xeq6mfg5sFsHRJRLfqnp1JdKstFPSJumiZpeoGY74X3x6EjhGy5pZaR49M6ZMMxjNOAKODdYDgVPsuEymntp5o7ZmMNXktdDAOFx7hchswDQQp9UZnlW4WXYbAHVC",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Nathanstad",
+          "street": "Lancaster Road",
+          "house": 86,
+          "flat": 5120
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 61223,
+      "createdOn": "2025-12-17T21:48:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694325111c508c5d5ed12eb5",
+          "products": [
+            {
+              "_id": "694325131c508c5d5ed12fef",
+              "name": "Bike56982",
+              "amount": 646,
+              "price": 61223,
+              "manufacturer": "Microsoft",
+              "notes": "MHaKzc5leN2GMoLYf7OOGnfGn9oZzPNfLXz4mwaZ3BFyOJ9xV4ypIrZ7sEtIyZMDUuQJFR6B8q5yBWuEOiIUuL4y7qRkm7GS41rwUDiuNk5nfLOCfxoqeC4XhS7F0Xeq6mfg5sFsHRJRLfqnp1JdKstFPSJumiZpeoGY74X3x6EjhGy5pZaR49M6ZMMxjNOAKODdYDgVPsuEymntp5o7ZmMNXktdDAOFx7hchswDQQp9UZnlW4WXYbAHVC",
+              "received": false
+            }
+          ],
+          "total_price": 61223,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Nathanstad",
+              "street": "Lancaster Road",
+              "house": 86,
+              "flat": 5120
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:48:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694325111c508c5d5ed12eb5",
+          "products": [
+            {
+              "_id": "694325131c508c5d5ed12fef",
+              "name": "Bike56982",
+              "amount": 646,
+              "price": 61223,
+              "manufacturer": "Microsoft",
+              "notes": "MHaKzc5leN2GMoLYf7OOGnfGn9oZzPNfLXz4mwaZ3BFyOJ9xV4ypIrZ7sEtIyZMDUuQJFR6B8q5yBWuEOiIUuL4y7qRkm7GS41rwUDiuNk5nfLOCfxoqeC4XhS7F0Xeq6mfg5sFsHRJRLfqnp1JdKstFPSJumiZpeoGY74X3x6EjhGy5pZaR49M6ZMMxjNOAKODdYDgVPsuEymntp5o7ZmMNXktdDAOFx7hchswDQQp9UZnlW4WXYbAHVC",
+              "received": false
+            }
+          ],
+          "total_price": 61223,
+          "delivery": null,
+          "changedOn": "2025-12-17T21:48:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

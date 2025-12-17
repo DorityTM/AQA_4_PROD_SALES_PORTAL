@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 21:47:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3938",
+    "etag": "W/\"f62-A9py0E0tuTKvEOcDCvkJjTzfFj8\"",
+    "keep-alive": "timeout=5, max=42",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943250f1c508c5d5ed12daa",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943250d1c508c5d5ed12cab",
+        "email": "Anne_Daniel77@yahoo.com",
+        "name": "Elda Muller Wolff",
+        "country": "Russia",
+        "city": "Port Augusta",
+        "street": "3rd Street 87",
+        "house": 273,
+        "flat": 8795,
+        "phone": "+724149827400885",
+        "createdOn": "2025-12-17T21:47:57.000Z",
+        "notes": "0skUD4Vn6xkXU5rpFWj9qrrmFpmAmZ"
+      },
+      "products": [
+        {
+          "_id": "6943250e1c508c5d5ed12d4a",
+          "name": "Pizza34929",
+          "amount": 761,
+          "price": 755,
+          "manufacturer": "Samsung",
+          "notes": "FrYOkuoiA1UjRxACk0Ra3kKiUlwTBfLkZorJpydNEilbK59hTIh6KCbBmnzoBnuuYeIz8yUzImbD9pmMpxZod44B46ez4d582xmHyF1JMxhcW3AKT2YsxeyIoKvXU4py9wnTvRQZKxSbmRAjhku9ZDvnK2oY0Lnh6f8P2P4aICpARb69VRB94DYkSJy9waBaDx7f1V70XRFCo42dbxpT7etEKRq69hkxiIYMzfvxGQCmjNYfyTEdk7cHOV",
+          "received": false
+        },
+        {
+          "_id": "6943250e1c508c5d5ed12d5d",
+          "name": "Chicken24643",
+          "amount": 841,
+          "price": 49945,
+          "manufacturer": "Microsoft",
+          "notes": "wo2gcrqVV915TzrZ5M17hJW6vtpYBlKPyRcbcAf9oCoxeYvSeqSYUkVuNrQDPPTD61yRgQVTiVIJxptrHwp5JOJaFrJlbt8eVRWPNXieLcdR7b4Q0yliquokctp6sLsJL6y4S1aPYwQfKs1ZqEGStOBTIcRIWiJBbnUctc2mYCqJYE88uqtmyNdOswy7u5a9mP2tYIyZryVvsiDmguvWd6FVr79ttn09Z421aUTthyuydqz8gyUmiXZsYJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "East Arnestead",
+          "street": "Elissa Mission",
+          "house": 650,
+          "flat": 870
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 50700,
+      "createdOn": "2025-12-17T21:47:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943250d1c508c5d5ed12cab",
+          "products": [
+            {
+              "_id": "6943250e1c508c5d5ed12d4a",
+              "name": "Pizza34929",
+              "amount": 761,
+              "price": 755,
+              "manufacturer": "Samsung",
+              "notes": "FrYOkuoiA1UjRxACk0Ra3kKiUlwTBfLkZorJpydNEilbK59hTIh6KCbBmnzoBnuuYeIz8yUzImbD9pmMpxZod44B46ez4d582xmHyF1JMxhcW3AKT2YsxeyIoKvXU4py9wnTvRQZKxSbmRAjhku9ZDvnK2oY0Lnh6f8P2P4aICpARb69VRB94DYkSJy9waBaDx7f1V70XRFCo42dbxpT7etEKRq69hkxiIYMzfvxGQCmjNYfyTEdk7cHOV",
+              "received": false
+            },
+            {
+              "_id": "6943250e1c508c5d5ed12d5d",
+              "name": "Chicken24643",
+              "amount": 841,
+              "price": 49945,
+              "manufacturer": "Microsoft",
+              "notes": "wo2gcrqVV915TzrZ5M17hJW6vtpYBlKPyRcbcAf9oCoxeYvSeqSYUkVuNrQDPPTD61yRgQVTiVIJxptrHwp5JOJaFrJlbt8eVRWPNXieLcdR7b4Q0yliquokctp6sLsJL6y4S1aPYwQfKs1ZqEGStOBTIcRIWiJBbnUctc2mYCqJYE88uqtmyNdOswy7u5a9mP2tYIyZryVvsiDmguvWd6FVr79ttn09Z421aUTthyuydqz8gyUmiXZsYJ",
+              "received": false
+            }
+          ],
+          "total_price": 50700,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "East Arnestead",
+              "street": "Elissa Mission",
+              "house": 650,
+              "flat": 870
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:47:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943250d1c508c5d5ed12cab",
+          "products": [
+            {
+              "_id": "6943250e1c508c5d5ed12d4a",
+              "name": "Pizza34929",
+              "amount": 761,
+              "price": 755,
+              "manufacturer": "Samsung",
+              "notes": "FrYOkuoiA1UjRxACk0Ra3kKiUlwTBfLkZorJpydNEilbK59hTIh6KCbBmnzoBnuuYeIz8yUzImbD9pmMpxZod44B46ez4d582xmHyF1JMxhcW3AKT2YsxeyIoKvXU4py9wnTvRQZKxSbmRAjhku9ZDvnK2oY0Lnh6f8P2P4aICpARb69VRB94DYkSJy9waBaDx7f1V70XRFCo42dbxpT7etEKRq69hkxiIYMzfvxGQCmjNYfyTEdk7cHOV",
+              "received": false
+            },
+            {
+              "_id": "6943250e1c508c5d5ed12d5d",
+              "name": "Chicken24643",
+              "amount": 841,
+              "price": 49945,
+              "manufacturer": "Microsoft",
+              "notes": "wo2gcrqVV915TzrZ5M17hJW6vtpYBlKPyRcbcAf9oCoxeYvSeqSYUkVuNrQDPPTD61yRgQVTiVIJxptrHwp5JOJaFrJlbt8eVRWPNXieLcdR7b4Q0yliquokctp6sLsJL6y4S1aPYwQfKs1ZqEGStOBTIcRIWiJBbnUctc2mYCqJYE88uqtmyNdOswy7u5a9mP2tYIyZryVvsiDmguvWd6FVr79ttn09Z421aUTthyuydqz8gyUmiXZsYJ",
+              "received": false
+            }
+          ],
+          "total_price": 50700,
+          "delivery": null,
+          "changedOn": "2025-12-17T21:47:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

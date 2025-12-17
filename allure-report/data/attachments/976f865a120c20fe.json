@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 21:48:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-rg0nPu9vmNJgu8JbWnWvly1ya+o\"",
+    "keep-alive": "timeout=5, max=37",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694325141c508c5d5ed1304e",
+      "status": "Draft",
+      "customer": {
+        "_id": "694325141c508c5d5ed1300a",
+        "email": "Daryl64@hotmail.com",
+        "name": "Titus Stokes",
+        "country": "Russia",
+        "city": "Rapid City",
+        "street": "Block Skyway 79",
+        "house": 68,
+        "flat": 2899,
+        "phone": "+947980705399714",
+        "createdOn": "2025-12-17T21:48:04.000Z",
+        "notes": "mVPb9wQCKqYXZFpS8IAdbI7j1HycyR"
+      },
+      "products": [
+        {
+          "_id": "694325141c508c5d5ed1301f",
+          "name": "Towels57199",
+          "amount": 755,
+          "price": 15281,
+          "manufacturer": "Microsoft",
+          "notes": "BKE3agIIcJ2yNjc9LdcUvVKrj5GYH9a9HwtCVohrQbaQ3Sfzte6KR0VKBCMkiGnoSwT8Y84QQTOBTr7EdRiZ0uSA9g94yNUpRVQx2HYPtKlJhDOk3XRlmRVsCjJ1jN1DTUjaQxPGiPW6dUs2V8ewilbrdvU5KBXILThTDWR51bGZdDxmqT5sa2g6xdIxb5CMYEzxBNQzo2bDO4Ox9HOHAzpW2S3mXKosJ8OhSF132pBL2V5hDBl7osPH3t",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Waldorf",
+          "street": "Emanuel Lake",
+          "house": 635,
+          "flat": 7413
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15281,
+      "createdOn": "2025-12-17T21:48:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694325141c508c5d5ed1300a",
+          "products": [
+            {
+              "_id": "694325141c508c5d5ed1301f",
+              "name": "Towels57199",
+              "amount": 755,
+              "price": 15281,
+              "manufacturer": "Microsoft",
+              "notes": "BKE3agIIcJ2yNjc9LdcUvVKrj5GYH9a9HwtCVohrQbaQ3Sfzte6KR0VKBCMkiGnoSwT8Y84QQTOBTr7EdRiZ0uSA9g94yNUpRVQx2HYPtKlJhDOk3XRlmRVsCjJ1jN1DTUjaQxPGiPW6dUs2V8ewilbrdvU5KBXILThTDWR51bGZdDxmqT5sa2g6xdIxb5CMYEzxBNQzo2bDO4Ox9HOHAzpW2S3mXKosJ8OhSF132pBL2V5hDBl7osPH3t",
+              "received": false
+            }
+          ],
+          "total_price": 15281,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Waldorf",
+              "street": "Emanuel Lake",
+              "house": 635,
+              "flat": 7413
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:48:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694325141c508c5d5ed1300a",
+          "products": [
+            {
+              "_id": "694325141c508c5d5ed1301f",
+              "name": "Towels57199",
+              "amount": 755,
+              "price": 15281,
+              "manufacturer": "Microsoft",
+              "notes": "BKE3agIIcJ2yNjc9LdcUvVKrj5GYH9a9HwtCVohrQbaQ3Sfzte6KR0VKBCMkiGnoSwT8Y84QQTOBTr7EdRiZ0uSA9g94yNUpRVQx2HYPtKlJhDOk3XRlmRVsCjJ1jN1DTUjaQxPGiPW6dUs2V8ewilbrdvU5KBXILThTDWR51bGZdDxmqT5sa2g6xdIxb5CMYEzxBNQzo2bDO4Ox9HOHAzpW2S3mXKosJ8OhSF132pBL2V5hDBl7osPH3t",
+              "received": false
+            }
+          ],
+          "total_price": 15281,
+          "delivery": null,
+          "changedOn": "2025-12-17T21:48:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

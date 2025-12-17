@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 21:48:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3906",
+    "etag": "W/\"f42-KkDHnAYyFhV6xZaC1t95gdkrDLs\"",
+    "keep-alive": "timeout=5, max=27",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943251e1c508c5d5ed13571",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943251b1c508c5d5ed133fd",
+        "email": "Lola45@gmail.com",
+        "name": "Audrey Hauck",
+        "country": "Belarus",
+        "city": "South Julienville",
+        "street": "Renner Flats 30",
+        "house": 252,
+        "flat": 9256,
+        "phone": "+924742685321203",
+        "createdOn": "2025-12-17T21:48:11.000Z",
+        "notes": "aBtthId3svwOyEzYS844cqzhQ0k8Oz"
+      },
+      "products": [
+        {
+          "_id": "6943251c1c508c5d5ed13414",
+          "name": "Bacon14046",
+          "amount": 374,
+          "price": 11389,
+          "manufacturer": "Samsung",
+          "notes": "1AOTkkEErTQPKHgmeKoVphD5FdaZS8NqL1F7frxgnLinPKNQmfvgckbt2pnZmfkLNKaU6rUw4YJumiN85oXD4W3wLsHHWGfDUnawCrMNVK0TqxTAA50cuX0TzeI9QY4YH54pUOoVKfERMywzw7FbHqGb4IOc2Mm0rqEoVpv5lUFw0nAy2ueJTHtvgenZiHYfrttkZNsfG7bcLJPPX61AnLH4pQfcIucvlh9jo52EZu32aHiBiDKPIoDGyc",
+          "received": false
+        },
+        {
+          "_id": "6943251d1c508c5d5ed134b2",
+          "name": "Chair23482",
+          "amount": 595,
+          "price": 77342,
+          "manufacturer": "Microsoft",
+          "notes": "AWEMdnOpu0uhje1zm9NvLdi2I0eBchIEpgEPztdhNWkx8dxJhE4Hc0WvjKx0nlDWmmfL4a1XlpHLgMGuN7dHxS5PRh7VB65c3QqIUdscqN5CtbdTKdAeZxK3HfCb4iKPwxQoyi7zq1CHTHqUM0TEa4vsfaMVDlnbyL7vRN9DyzKVlQxSpYvfNw2qqiXaemiAsGvsN56FvJrSMogigeliGcR7gR3mj77il5iCi2dluvKlrOtBVuxH97knTn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Kevonfield",
+          "street": "Ebert Cove",
+          "house": 655,
+          "flat": 870
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88731,
+      "createdOn": "2025-12-17T21:48:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943251b1c508c5d5ed133fd",
+          "products": [
+            {
+              "_id": "6943251c1c508c5d5ed13414",
+              "name": "Bacon14046",
+              "amount": 374,
+              "price": 11389,
+              "manufacturer": "Samsung",
+              "notes": "1AOTkkEErTQPKHgmeKoVphD5FdaZS8NqL1F7frxgnLinPKNQmfvgckbt2pnZmfkLNKaU6rUw4YJumiN85oXD4W3wLsHHWGfDUnawCrMNVK0TqxTAA50cuX0TzeI9QY4YH54pUOoVKfERMywzw7FbHqGb4IOc2Mm0rqEoVpv5lUFw0nAy2ueJTHtvgenZiHYfrttkZNsfG7bcLJPPX61AnLH4pQfcIucvlh9jo52EZu32aHiBiDKPIoDGyc",
+              "received": false
+            },
+            {
+              "_id": "6943251d1c508c5d5ed134b2",
+              "name": "Chair23482",
+              "amount": 595,
+              "price": 77342,
+              "manufacturer": "Microsoft",
+              "notes": "AWEMdnOpu0uhje1zm9NvLdi2I0eBchIEpgEPztdhNWkx8dxJhE4Hc0WvjKx0nlDWmmfL4a1XlpHLgMGuN7dHxS5PRh7VB65c3QqIUdscqN5CtbdTKdAeZxK3HfCb4iKPwxQoyi7zq1CHTHqUM0TEa4vsfaMVDlnbyL7vRN9DyzKVlQxSpYvfNw2qqiXaemiAsGvsN56FvJrSMogigeliGcR7gR3mj77il5iCi2dluvKlrOtBVuxH97knTn",
+              "received": false
+            }
+          ],
+          "total_price": 88731,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Kevonfield",
+              "street": "Ebert Cove",
+              "house": 655,
+              "flat": 870
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:48:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943251b1c508c5d5ed133fd",
+          "products": [
+            {
+              "_id": "6943251c1c508c5d5ed13414",
+              "name": "Bacon14046",
+              "amount": 374,
+              "price": 11389,
+              "manufacturer": "Samsung",
+              "notes": "1AOTkkEErTQPKHgmeKoVphD5FdaZS8NqL1F7frxgnLinPKNQmfvgckbt2pnZmfkLNKaU6rUw4YJumiN85oXD4W3wLsHHWGfDUnawCrMNVK0TqxTAA50cuX0TzeI9QY4YH54pUOoVKfERMywzw7FbHqGb4IOc2Mm0rqEoVpv5lUFw0nAy2ueJTHtvgenZiHYfrttkZNsfG7bcLJPPX61AnLH4pQfcIucvlh9jo52EZu32aHiBiDKPIoDGyc",
+              "received": false
+            },
+            {
+              "_id": "6943251d1c508c5d5ed134b2",
+              "name": "Chair23482",
+              "amount": 595,
+              "price": 77342,
+              "manufacturer": "Microsoft",
+              "notes": "AWEMdnOpu0uhje1zm9NvLdi2I0eBchIEpgEPztdhNWkx8dxJhE4Hc0WvjKx0nlDWmmfL4a1XlpHLgMGuN7dHxS5PRh7VB65c3QqIUdscqN5CtbdTKdAeZxK3HfCb4iKPwxQoyi7zq1CHTHqUM0TEa4vsfaMVDlnbyL7vRN9DyzKVlQxSpYvfNw2qqiXaemiAsGvsN56FvJrSMogigeliGcR7gR3mj77il5iCi2dluvKlrOtBVuxH97knTn",
+              "received": false
+            }
+          ],
+          "total_price": 88731,
+          "delivery": null,
+          "changedOn": "2025-12-17T21:48:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
