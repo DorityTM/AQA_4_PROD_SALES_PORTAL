@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 21:51:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6520",
+    "etag": "W/\"1978-4y5HuKSFkooi8wmTPgEWt7KNJO4\"",
+    "keep-alive": "timeout=5, max=53",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694325d91c508c5d5ed18af4",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694325d71c508c5d5ed18a7e",
+        "email": "Randal.Williamson@yahoo.com",
+        "name": "Susie Walter",
+        "country": "Germany",
+        "city": "Sanford",
+        "street": "Hill Street 59",
+        "house": 885,
+        "flat": 5097,
+        "phone": "+752009414998226",
+        "createdOn": "2025-12-17T21:51:19.000Z",
+        "notes": "cuTSv6OgzeMePUD7RwqTQAB5eillnm"
+      },
+      "products": [
+        {
+          "_id": "694325d81c508c5d5ed18a99",
+          "name": "Towels9340",
+          "amount": 955,
+          "price": 62419,
+          "manufacturer": "Tesla",
+          "notes": "5mADzs0St6n9RM4jTW1kJnolOgps7aTCaC7KbGXwKHQtXESCEVynwFsiCPjHkHROcbHTH6vXZH5tTCKa0G5Jn4jjtqFvx2ahuMW6fwZNvKMLlTq6WMQJReN12eRjLaC4l5WEyPqqOmWDP3r3hqEqlCtvQBi2XvGtDypJ6JqOxWpWVs4HXmZZbCBOenGZRGdk2aunjITPUSR67czlpHHeW5NwiY7IcTQwkWuTaEDSSb241lTKIkDFAKwmFO",
+          "received": true
+        },
+        {
+          "_id": "694325d81c508c5d5ed18abb",
+          "name": "Car26948",
+          "amount": 504,
+          "price": 48035,
+          "manufacturer": "Tesla",
+          "notes": "pUDK7wtutUOLDVRKb1h0XOoMMTsystPyfkV4jLBoCpM4rX2EEZShsBJDevdA1hprMawbSZWYB79lURrxsMk1kbwcy3hwXoiT5hPMsUdFxs5oqYpNzTG41MpBg2wJax4pVxwXxDekAY5doSHPTHTUCnyQ7jZa6GB2FrsIjU1cxrVEfYw5hXi8zMO6mSxhhirdL6rvX2vBUU97q628488CKGOIyJJyw6dZaL4LhQKOajQ9SK2qatsezpu8O7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Lake Sunny",
+          "street": "Nestor Motorway",
+          "house": 996,
+          "flat": 6647
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 110454,
+      "createdOn": "2025-12-17T21:51:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694325d71c508c5d5ed18a7e",
+          "products": [
+            {
+              "_id": "694325d81c508c5d5ed18a99",
+              "name": "Towels9340",
+              "amount": 955,
+              "price": 62419,
+              "manufacturer": "Tesla",
+              "notes": "5mADzs0St6n9RM4jTW1kJnolOgps7aTCaC7KbGXwKHQtXESCEVynwFsiCPjHkHROcbHTH6vXZH5tTCKa0G5Jn4jjtqFvx2ahuMW6fwZNvKMLlTq6WMQJReN12eRjLaC4l5WEyPqqOmWDP3r3hqEqlCtvQBi2XvGtDypJ6JqOxWpWVs4HXmZZbCBOenGZRGdk2aunjITPUSR67czlpHHeW5NwiY7IcTQwkWuTaEDSSb241lTKIkDFAKwmFO",
+              "received": true
+            },
+            {
+              "_id": "694325d81c508c5d5ed18abb",
+              "name": "Car26948",
+              "amount": 504,
+              "price": 48035,
+              "manufacturer": "Tesla",
+              "notes": "pUDK7wtutUOLDVRKb1h0XOoMMTsystPyfkV4jLBoCpM4rX2EEZShsBJDevdA1hprMawbSZWYB79lURrxsMk1kbwcy3hwXoiT5hPMsUdFxs5oqYpNzTG41MpBg2wJax4pVxwXxDekAY5doSHPTHTUCnyQ7jZa6GB2FrsIjU1cxrVEfYw5hXi8zMO6mSxhhirdL6rvX2vBUU97q628488CKGOIyJJyw6dZaL4LhQKOajQ9SK2qatsezpu8O7",
+              "received": false
+            }
+          ],
+          "total_price": 110454,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Sunny",
+              "street": "Nestor Motorway",
+              "house": 996,
+              "flat": 6647
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:51:23.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694325d71c508c5d5ed18a7e",
+          "products": [
+            {
+              "_id": "694325d81c508c5d5ed18a99",
+              "name": "Towels9340",
+              "amount": 955,
+              "price": 62419,
+              "manufacturer": "Tesla",
+              "notes": "5mADzs0St6n9RM4jTW1kJnolOgps7aTCaC7KbGXwKHQtXESCEVynwFsiCPjHkHROcbHTH6vXZH5tTCKa0G5Jn4jjtqFvx2ahuMW6fwZNvKMLlTq6WMQJReN12eRjLaC4l5WEyPqqOmWDP3r3hqEqlCtvQBi2XvGtDypJ6JqOxWpWVs4HXmZZbCBOenGZRGdk2aunjITPUSR67czlpHHeW5NwiY7IcTQwkWuTaEDSSb241lTKIkDFAKwmFO",
+              "received": false
+            },
+            {
+              "_id": "694325d81c508c5d5ed18abb",
+              "name": "Car26948",
+              "amount": 504,
+              "price": 48035,
+              "manufacturer": "Tesla",
+              "notes": "pUDK7wtutUOLDVRKb1h0XOoMMTsystPyfkV4jLBoCpM4rX2EEZShsBJDevdA1hprMawbSZWYB79lURrxsMk1kbwcy3hwXoiT5hPMsUdFxs5oqYpNzTG41MpBg2wJax4pVxwXxDekAY5doSHPTHTUCnyQ7jZa6GB2FrsIjU1cxrVEfYw5hXi8zMO6mSxhhirdL6rvX2vBUU97q628488CKGOIyJJyw6dZaL4LhQKOajQ9SK2qatsezpu8O7",
+              "received": false
+            }
+          ],
+          "total_price": 110454,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Sunny",
+              "street": "Nestor Motorway",
+              "house": 996,
+              "flat": 6647
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:51:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694325d71c508c5d5ed18a7e",
+          "products": [
+            {
+              "_id": "694325d81c508c5d5ed18a99",
+              "name": "Towels9340",
+              "amount": 955,
+              "price": 62419,
+              "manufacturer": "Tesla",
+              "notes": "5mADzs0St6n9RM4jTW1kJnolOgps7aTCaC7KbGXwKHQtXESCEVynwFsiCPjHkHROcbHTH6vXZH5tTCKa0G5Jn4jjtqFvx2ahuMW6fwZNvKMLlTq6WMQJReN12eRjLaC4l5WEyPqqOmWDP3r3hqEqlCtvQBi2XvGtDypJ6JqOxWpWVs4HXmZZbCBOenGZRGdk2aunjITPUSR67czlpHHeW5NwiY7IcTQwkWuTaEDSSb241lTKIkDFAKwmFO",
+              "received": false
+            },
+            {
+              "_id": "694325d81c508c5d5ed18abb",
+              "name": "Car26948",
+              "amount": 504,
+              "price": 48035,
+              "manufacturer": "Tesla",
+              "notes": "pUDK7wtutUOLDVRKb1h0XOoMMTsystPyfkV4jLBoCpM4rX2EEZShsBJDevdA1hprMawbSZWYB79lURrxsMk1kbwcy3hwXoiT5hPMsUdFxs5oqYpNzTG41MpBg2wJax4pVxwXxDekAY5doSHPTHTUCnyQ7jZa6GB2FrsIjU1cxrVEfYw5hXi8zMO6mSxhhirdL6rvX2vBUU97q628488CKGOIyJJyw6dZaL4LhQKOajQ9SK2qatsezpu8O7",
+              "received": false
+            }
+          ],
+          "total_price": 110454,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Sunny",
+              "street": "Nestor Motorway",
+              "house": 996,
+              "flat": 6647
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:51:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694325d71c508c5d5ed18a7e",
+          "products": [
+            {
+              "_id": "694325d81c508c5d5ed18a99",
+              "name": "Towels9340",
+              "amount": 955,
+              "price": 62419,
+              "manufacturer": "Tesla",
+              "notes": "5mADzs0St6n9RM4jTW1kJnolOgps7aTCaC7KbGXwKHQtXESCEVynwFsiCPjHkHROcbHTH6vXZH5tTCKa0G5Jn4jjtqFvx2ahuMW6fwZNvKMLlTq6WMQJReN12eRjLaC4l5WEyPqqOmWDP3r3hqEqlCtvQBi2XvGtDypJ6JqOxWpWVs4HXmZZbCBOenGZRGdk2aunjITPUSR67czlpHHeW5NwiY7IcTQwkWuTaEDSSb241lTKIkDFAKwmFO",
+              "received": false
+            },
+            {
+              "_id": "694325d81c508c5d5ed18abb",
+              "name": "Car26948",
+              "amount": 504,
+              "price": 48035,
+              "manufacturer": "Tesla",
+              "notes": "pUDK7wtutUOLDVRKb1h0XOoMMTsystPyfkV4jLBoCpM4rX2EEZShsBJDevdA1hprMawbSZWYB79lURrxsMk1kbwcy3hwXoiT5hPMsUdFxs5oqYpNzTG41MpBg2wJax4pVxwXxDekAY5doSHPTHTUCnyQ7jZa6GB2FrsIjU1cxrVEfYw5hXi8zMO6mSxhhirdL6rvX2vBUU97q628488CKGOIyJJyw6dZaL4LhQKOajQ9SK2qatsezpu8O7",
+              "received": false
+            }
+          ],
+          "total_price": 110454,
+          "delivery": null,
+          "changedOn": "2025-12-17T21:51:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

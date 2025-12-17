@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 21:51:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3656",
+    "etag": "W/\"e48-GeBVfbGlSnPJ0NhkNSHfenpS4/0\"",
+    "keep-alive": "timeout=5, max=56",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694325d61c508c5d5ed189c7",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694325d31c508c5d5ed187db",
+        "email": "Delphia.Franey@gmail.com",
+        "name": "Kenna Mueller",
+        "country": "Russia",
+        "city": "South Christystad",
+        "street": "Kasey Island 17",
+        "house": 151,
+        "flat": 2339,
+        "phone": "+027385692788654",
+        "createdOn": "2025-12-17T21:51:15.000Z",
+        "notes": "jotsP0EpjGE8vHJ8qIr0SPZ7cg0bE8"
+      },
+      "products": [
+        {
+          "_id": "694325d41c508c5d5ed1887f",
+          "name": "Table54884",
+          "amount": 838,
+          "price": 67854,
+          "manufacturer": "Tesla",
+          "notes": "nLwOArH0u2PDdliLU0RohdXJp2Kl1PWh1OI1TRvPrsfDpIYIKZgygKPgdSZPyrTYQw8mzEEgO82JlGJ5XcnbbnuhjcnRzAWqkFTZTCudeC84mO5Rm93miEIFdWtx0OzgopWxejNvZ0MoJenwcRyCSUXWd8sW1IHQl7InP8PRXJJDAKLBstXsWkU8omucpqbnd2gNRBS461wsaHghxHGKBwZM1nAu0BWeCdX6u2AmKw68Egd1iuh5V9VUO0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Rocklin",
+          "street": "Mertz Roads",
+          "house": 779,
+          "flat": 3346
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 67854,
+      "createdOn": "2025-12-17T21:51:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694325d31c508c5d5ed187db",
+          "products": [
+            {
+              "_id": "694325d41c508c5d5ed1887f",
+              "name": "Table54884",
+              "amount": 838,
+              "price": 67854,
+              "manufacturer": "Tesla",
+              "notes": "nLwOArH0u2PDdliLU0RohdXJp2Kl1PWh1OI1TRvPrsfDpIYIKZgygKPgdSZPyrTYQw8mzEEgO82JlGJ5XcnbbnuhjcnRzAWqkFTZTCudeC84mO5Rm93miEIFdWtx0OzgopWxejNvZ0MoJenwcRyCSUXWd8sW1IHQl7InP8PRXJJDAKLBstXsWkU8omucpqbnd2gNRBS461wsaHghxHGKBwZM1nAu0BWeCdX6u2AmKw68Egd1iuh5V9VUO0",
+              "received": false
+            }
+          ],
+          "total_price": 67854,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Rocklin",
+              "street": "Mertz Roads",
+              "house": 779,
+              "flat": 3346
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:51:20.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694325d31c508c5d5ed187db",
+          "products": [
+            {
+              "_id": "694325d41c508c5d5ed1887f",
+              "name": "Table54884",
+              "amount": 838,
+              "price": 67854,
+              "manufacturer": "Tesla",
+              "notes": "nLwOArH0u2PDdliLU0RohdXJp2Kl1PWh1OI1TRvPrsfDpIYIKZgygKPgdSZPyrTYQw8mzEEgO82JlGJ5XcnbbnuhjcnRzAWqkFTZTCudeC84mO5Rm93miEIFdWtx0OzgopWxejNvZ0MoJenwcRyCSUXWd8sW1IHQl7InP8PRXJJDAKLBstXsWkU8omucpqbnd2gNRBS461wsaHghxHGKBwZM1nAu0BWeCdX6u2AmKw68Egd1iuh5V9VUO0",
+              "received": false
+            }
+          ],
+          "total_price": 67854,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Rocklin",
+              "street": "Mertz Roads",
+              "house": 779,
+              "flat": 3346
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:51:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694325d31c508c5d5ed187db",
+          "products": [
+            {
+              "_id": "694325d41c508c5d5ed1887f",
+              "name": "Table54884",
+              "amount": 838,
+              "price": 67854,
+              "manufacturer": "Tesla",
+              "notes": "nLwOArH0u2PDdliLU0RohdXJp2Kl1PWh1OI1TRvPrsfDpIYIKZgygKPgdSZPyrTYQw8mzEEgO82JlGJ5XcnbbnuhjcnRzAWqkFTZTCudeC84mO5Rm93miEIFdWtx0OzgopWxejNvZ0MoJenwcRyCSUXWd8sW1IHQl7InP8PRXJJDAKLBstXsWkU8omucpqbnd2gNRBS461wsaHghxHGKBwZM1nAu0BWeCdX6u2AmKw68Egd1iuh5V9VUO0",
+              "received": false
+            }
+          ],
+          "total_price": 67854,
+          "delivery": null,
+          "changedOn": "2025-12-17T21:51:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

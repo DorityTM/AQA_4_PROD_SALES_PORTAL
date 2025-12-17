@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 21:52:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3658",
+    "etag": "W/\"e4a-T3zWz9eYl/kXMhRDOUEe/7vlkWw\"",
+    "keep-alive": "timeout=5, max=14",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694326051c508c5d5ed1a177",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694325fe1c508c5d5ed19dab",
+        "email": "Olen67@gmail.com",
+        "name": "Tyson Stiedemann",
+        "country": "Russia",
+        "city": "Hialeah",
+        "street": "South Drive 88",
+        "house": 701,
+        "flat": 5364,
+        "phone": "+726827642134645",
+        "createdOn": "2025-12-17T21:51:58.000Z",
+        "notes": "7CmGfE7VPVtdPaQ5xauB8DFnUCfcvq"
+      },
+      "products": [
+        {
+          "_id": "694326031c508c5d5ed1a0b2",
+          "name": "Table41461",
+          "amount": 956,
+          "price": 15821,
+          "manufacturer": "Apple",
+          "notes": "ssDmSht06LERiPUoNGUanpLopvS3Ws90TZ5fLoiasVJHU1kOChMt3nLyD0ObmJKfZjBdVQgxHhN6d75sFtwqTUg5vi5zTFx1sPeNhW5hwN1RS1ccUJeuucSbjPUI77mdOMV4qApCxwE3PnBi0skpHO2jGjdazfc0ZOemVjUw91KlJrQkMUb783LIhVO1Q496QxzeJJZfp2Hbe1Tkg3ORn8UjmgebqZPINXnsWmWySGY5oNJcO7hipXEbd9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Alverashire",
+          "street": "Adela Freeway",
+          "house": 32,
+          "flat": 4632
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15821,
+      "createdOn": "2025-12-17T21:52:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694325fe1c508c5d5ed19dab",
+          "products": [
+            {
+              "_id": "694326031c508c5d5ed1a0b2",
+              "name": "Table41461",
+              "amount": 956,
+              "price": 15821,
+              "manufacturer": "Apple",
+              "notes": "ssDmSht06LERiPUoNGUanpLopvS3Ws90TZ5fLoiasVJHU1kOChMt3nLyD0ObmJKfZjBdVQgxHhN6d75sFtwqTUg5vi5zTFx1sPeNhW5hwN1RS1ccUJeuucSbjPUI77mdOMV4qApCxwE3PnBi0skpHO2jGjdazfc0ZOemVjUw91KlJrQkMUb783LIhVO1Q496QxzeJJZfp2Hbe1Tkg3ORn8UjmgebqZPINXnsWmWySGY5oNJcO7hipXEbd9",
+              "received": false
+            }
+          ],
+          "total_price": 15821,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Alverashire",
+              "street": "Adela Freeway",
+              "house": 32,
+              "flat": 4632
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:52:06.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694325fe1c508c5d5ed19dab",
+          "products": [
+            {
+              "_id": "694326031c508c5d5ed1a0b2",
+              "name": "Table41461",
+              "amount": 956,
+              "price": 15821,
+              "manufacturer": "Apple",
+              "notes": "ssDmSht06LERiPUoNGUanpLopvS3Ws90TZ5fLoiasVJHU1kOChMt3nLyD0ObmJKfZjBdVQgxHhN6d75sFtwqTUg5vi5zTFx1sPeNhW5hwN1RS1ccUJeuucSbjPUI77mdOMV4qApCxwE3PnBi0skpHO2jGjdazfc0ZOemVjUw91KlJrQkMUb783LIhVO1Q496QxzeJJZfp2Hbe1Tkg3ORn8UjmgebqZPINXnsWmWySGY5oNJcO7hipXEbd9",
+              "received": false
+            }
+          ],
+          "total_price": 15821,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Alverashire",
+              "street": "Adela Freeway",
+              "house": 32,
+              "flat": 4632
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:52:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694325fe1c508c5d5ed19dab",
+          "products": [
+            {
+              "_id": "694326031c508c5d5ed1a0b2",
+              "name": "Table41461",
+              "amount": 956,
+              "price": 15821,
+              "manufacturer": "Apple",
+              "notes": "ssDmSht06LERiPUoNGUanpLopvS3Ws90TZ5fLoiasVJHU1kOChMt3nLyD0ObmJKfZjBdVQgxHhN6d75sFtwqTUg5vi5zTFx1sPeNhW5hwN1RS1ccUJeuucSbjPUI77mdOMV4qApCxwE3PnBi0skpHO2jGjdazfc0ZOemVjUw91KlJrQkMUb783LIhVO1Q496QxzeJJZfp2Hbe1Tkg3ORn8UjmgebqZPINXnsWmWySGY5oNJcO7hipXEbd9",
+              "received": false
+            }
+          ],
+          "total_price": 15821,
+          "delivery": null,
+          "changedOn": "2025-12-17T21:52:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

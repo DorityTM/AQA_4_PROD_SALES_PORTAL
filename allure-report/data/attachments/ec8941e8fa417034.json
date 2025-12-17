@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 21:50:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4606",
+    "etag": "W/\"11fe-CPCssxz02vIJNTJmc/QyDMmhLX8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694325b61c508c5d5ed179ad",
+      "status": "Received",
+      "customer": {
+        "_id": "694325b51c508c5d5ed178e3",
+        "email": "Gerald.Maggio58@yahoo.com",
+        "name": "Andreane Erdman",
+        "country": "France",
+        "city": "West Yvetteland",
+        "street": "Kunde Fort 74",
+        "house": 186,
+        "flat": 4347,
+        "phone": "+506447577585055",
+        "createdOn": "2025-12-17T21:50:45.000Z",
+        "notes": "9oKXAtU7kMmGBuWLQt9xR4V48hyQgr"
+      },
+      "products": [
+        {
+          "_id": "694325b51c508c5d5ed178fd",
+          "name": "Soap43149",
+          "amount": 746,
+          "price": 50157,
+          "manufacturer": "Google",
+          "notes": "SuatZBAK4rcZ8GuelLvSbROfw79GYf95n6jHMZrnrFfVBAA7t04zRLDv7eiNxoF9jqBw8Hxsiu664gFYG7lDQaTmHb17vo8uSnYbVKHASjODPneslnW1ByCWUMYbvH0PGB8uwpJ3BwhwiIcLOmy2CQPfyfH3NW0IPxAwwqIC9gVVjCWynVEt4D0Fye8NinImRzVAsVXbaaXNXsNcBsaQVu9BzFV6UtQPWeyUd0nBt2rUannrGgCEQg7tqM",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Valley City",
+          "street": "Wisoky Cove",
+          "house": 481,
+          "flat": 2380
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 50157,
+      "createdOn": "2025-12-17T21:50:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694325b51c508c5d5ed178e3",
+          "products": [
+            {
+              "_id": "694325b51c508c5d5ed178fd",
+              "name": "Soap43149",
+              "amount": 746,
+              "price": 50157,
+              "manufacturer": "Google",
+              "notes": "SuatZBAK4rcZ8GuelLvSbROfw79GYf95n6jHMZrnrFfVBAA7t04zRLDv7eiNxoF9jqBw8Hxsiu664gFYG7lDQaTmHb17vo8uSnYbVKHASjODPneslnW1ByCWUMYbvH0PGB8uwpJ3BwhwiIcLOmy2CQPfyfH3NW0IPxAwwqIC9gVVjCWynVEt4D0Fye8NinImRzVAsVXbaaXNXsNcBsaQVu9BzFV6UtQPWeyUd0nBt2rUannrGgCEQg7tqM",
+              "received": true
+            }
+          ],
+          "total_price": 50157,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Valley City",
+              "street": "Wisoky Cove",
+              "house": 481,
+              "flat": 2380
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:50:48.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694325b51c508c5d5ed178e3",
+          "products": [
+            {
+              "_id": "694325b51c508c5d5ed178fd",
+              "name": "Soap43149",
+              "amount": 746,
+              "price": 50157,
+              "manufacturer": "Google",
+              "notes": "SuatZBAK4rcZ8GuelLvSbROfw79GYf95n6jHMZrnrFfVBAA7t04zRLDv7eiNxoF9jqBw8Hxsiu664gFYG7lDQaTmHb17vo8uSnYbVKHASjODPneslnW1ByCWUMYbvH0PGB8uwpJ3BwhwiIcLOmy2CQPfyfH3NW0IPxAwwqIC9gVVjCWynVEt4D0Fye8NinImRzVAsVXbaaXNXsNcBsaQVu9BzFV6UtQPWeyUd0nBt2rUannrGgCEQg7tqM",
+              "received": false
+            }
+          ],
+          "total_price": 50157,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Valley City",
+              "street": "Wisoky Cove",
+              "house": 481,
+              "flat": 2380
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:50:48.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694325b51c508c5d5ed178e3",
+          "products": [
+            {
+              "_id": "694325b51c508c5d5ed178fd",
+              "name": "Soap43149",
+              "amount": 746,
+              "price": 50157,
+              "manufacturer": "Google",
+              "notes": "SuatZBAK4rcZ8GuelLvSbROfw79GYf95n6jHMZrnrFfVBAA7t04zRLDv7eiNxoF9jqBw8Hxsiu664gFYG7lDQaTmHb17vo8uSnYbVKHASjODPneslnW1ByCWUMYbvH0PGB8uwpJ3BwhwiIcLOmy2CQPfyfH3NW0IPxAwwqIC9gVVjCWynVEt4D0Fye8NinImRzVAsVXbaaXNXsNcBsaQVu9BzFV6UtQPWeyUd0nBt2rUannrGgCEQg7tqM",
+              "received": false
+            }
+          ],
+          "total_price": 50157,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Valley City",
+              "street": "Wisoky Cove",
+              "house": 481,
+              "flat": 2380
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T21:50:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694325b51c508c5d5ed178e3",
+          "products": [
+            {
+              "_id": "694325b51c508c5d5ed178fd",
+              "name": "Soap43149",
+              "amount": 746,
+              "price": 50157,
+              "manufacturer": "Google",
+              "notes": "SuatZBAK4rcZ8GuelLvSbROfw79GYf95n6jHMZrnrFfVBAA7t04zRLDv7eiNxoF9jqBw8Hxsiu664gFYG7lDQaTmHb17vo8uSnYbVKHASjODPneslnW1ByCWUMYbvH0PGB8uwpJ3BwhwiIcLOmy2CQPfyfH3NW0IPxAwwqIC9gVVjCWynVEt4D0Fye8NinImRzVAsVXbaaXNXsNcBsaQVu9BzFV6UtQPWeyUd0nBt2rUannrGgCEQg7tqM",
+              "received": false
+            }
+          ],
+          "total_price": 50157,
+          "delivery": null,
+          "changedOn": "2025-12-17T21:50:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
