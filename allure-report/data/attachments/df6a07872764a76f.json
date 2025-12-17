@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 23:17:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2765",
+    "etag": "W/\"acd-YxaGCRS1QAw3TBrZ0XjwQm/2KHU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694339f11c508c5d5ed60b4a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694339ef1c508c5d5ed60ace",
+        "email": "Imogene19@gmail.com",
+        "name": "Linnea Bosco Hagenes",
+        "country": "Russia",
+        "city": "Lake Dortha",
+        "street": "Karianne Springs 14",
+        "house": 923,
+        "flat": 2451,
+        "phone": "+090112838288628",
+        "createdOn": "2025-12-17T23:17:03.000Z",
+        "notes": "D71hJq2xt2amfx2tHaCEagel5jsMgl"
+      },
+      "products": [
+        {
+          "_id": "694339f01c508c5d5ed60af8",
+          "name": "Shirt59303",
+          "amount": 509,
+          "price": 24504,
+          "manufacturer": "Apple",
+          "notes": "A7JmiUNmNF2Hsl96ScTmphU7PzczG8ekbbZF0o1RU1TqOXOaP2qHFEHl8NZhLhjevRKCdzQXpnSRyU5sdsBpztzmf3bmCRjaZXf05Nae0igh9n843PTAzp4Fqu8K2YlvI3DQhdCtRVSdRD7PNFFsqNA1K5cTqRaXASX9wsOXz5Q0hBLLTysChGCFacrJmU04GBD9D7MgRqQmvsS9btiO0KKDg52p0GMPetRclkYQKEg1OqCAN4JiCX5fjY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Jorgeside",
+          "street": "Moore Prairie",
+          "house": 944,
+          "flat": 6456
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 24504,
+      "createdOn": "2025-12-17T23:17:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694339ef1c508c5d5ed60ace",
+          "products": [
+            {
+              "_id": "694339f01c508c5d5ed60af8",
+              "name": "Shirt59303",
+              "amount": 509,
+              "price": 24504,
+              "manufacturer": "Apple",
+              "notes": "A7JmiUNmNF2Hsl96ScTmphU7PzczG8ekbbZF0o1RU1TqOXOaP2qHFEHl8NZhLhjevRKCdzQXpnSRyU5sdsBpztzmf3bmCRjaZXf05Nae0igh9n843PTAzp4Fqu8K2YlvI3DQhdCtRVSdRD7PNFFsqNA1K5cTqRaXASX9wsOXz5Q0hBLLTysChGCFacrJmU04GBD9D7MgRqQmvsS9btiO0KKDg52p0GMPetRclkYQKEg1OqCAN4JiCX5fjY",
+              "received": false
+            }
+          ],
+          "total_price": 24504,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Jorgeside",
+              "street": "Moore Prairie",
+              "house": 944,
+              "flat": 6456
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:17:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694339ef1c508c5d5ed60ace",
+          "products": [
+            {
+              "_id": "694339f01c508c5d5ed60af8",
+              "name": "Shirt59303",
+              "amount": 509,
+              "price": 24504,
+              "manufacturer": "Apple",
+              "notes": "A7JmiUNmNF2Hsl96ScTmphU7PzczG8ekbbZF0o1RU1TqOXOaP2qHFEHl8NZhLhjevRKCdzQXpnSRyU5sdsBpztzmf3bmCRjaZXf05Nae0igh9n843PTAzp4Fqu8K2YlvI3DQhdCtRVSdRD7PNFFsqNA1K5cTqRaXASX9wsOXz5Q0hBLLTysChGCFacrJmU04GBD9D7MgRqQmvsS9btiO0KKDg52p0GMPetRclkYQKEg1OqCAN4JiCX5fjY",
+              "received": false
+            }
+          ],
+          "total_price": 24504,
+          "delivery": null,
+          "changedOn": "2025-12-17T23:17:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

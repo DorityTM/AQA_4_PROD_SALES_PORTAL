@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 23:13:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4636",
+    "etag": "W/\"121c-nVPtBJxGHw2RtDRbdnNuyejFmqY\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943392d1c508c5d5ed5a02c",
+      "status": "Received",
+      "customer": {
+        "_id": "6943392a1c508c5d5ed59e76",
+        "email": "Laurianne.Hickle13@hotmail.com",
+        "name": "Tremaine Orn",
+        "country": "Germany",
+        "city": "East Clementworth",
+        "street": "E Franklin Street 62",
+        "house": 538,
+        "flat": 8062,
+        "phone": "+038475464266957",
+        "createdOn": "2025-12-17T23:13:46.000Z",
+        "notes": "HamDRtK7wRhmNwTpJY5f9J6hhLkqp2"
+      },
+      "products": [
+        {
+          "_id": "6943392a1c508c5d5ed59e98",
+          "name": "Soap42610",
+          "amount": 32,
+          "price": 89577,
+          "manufacturer": "Apple",
+          "notes": "1ioBdLiqmWajpSV2PNDb8Km1VJGdGun9VeC1HpXJH4YJ0duKN3fmh7fRBPMftjmzszkV4xhUwRGdj3kH0vLsyF1hvYddlrovbHTNr2QonaCNwj0M2CuxbIFYR8qxaPdDjPO5OoGL6LKcgoMJhSBpyBVhk4fIkEvNbR9o11svdiSx81iO64afTIoRUvKQoUZN55ZHAC7oMGyR3kXmqK5KY1OBRo4mD1bhaNaBXn7QJoqHBUyAAMQ3JXSl7Z",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "South Justinacester",
+          "street": "Albina Ridge",
+          "house": 222,
+          "flat": 836
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 89577,
+      "createdOn": "2025-12-17T23:13:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6943392a1c508c5d5ed59e76",
+          "products": [
+            {
+              "_id": "6943392a1c508c5d5ed59e98",
+              "name": "Soap42610",
+              "amount": 32,
+              "price": 89577,
+              "manufacturer": "Apple",
+              "notes": "1ioBdLiqmWajpSV2PNDb8Km1VJGdGun9VeC1HpXJH4YJ0duKN3fmh7fRBPMftjmzszkV4xhUwRGdj3kH0vLsyF1hvYddlrovbHTNr2QonaCNwj0M2CuxbIFYR8qxaPdDjPO5OoGL6LKcgoMJhSBpyBVhk4fIkEvNbR9o11svdiSx81iO64afTIoRUvKQoUZN55ZHAC7oMGyR3kXmqK5KY1OBRo4mD1bhaNaBXn7QJoqHBUyAAMQ3JXSl7Z",
+              "received": true
+            }
+          ],
+          "total_price": 89577,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "South Justinacester",
+              "street": "Albina Ridge",
+              "house": 222,
+              "flat": 836
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:13:53.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6943392a1c508c5d5ed59e76",
+          "products": [
+            {
+              "_id": "6943392a1c508c5d5ed59e98",
+              "name": "Soap42610",
+              "amount": 32,
+              "price": 89577,
+              "manufacturer": "Apple",
+              "notes": "1ioBdLiqmWajpSV2PNDb8Km1VJGdGun9VeC1HpXJH4YJ0duKN3fmh7fRBPMftjmzszkV4xhUwRGdj3kH0vLsyF1hvYddlrovbHTNr2QonaCNwj0M2CuxbIFYR8qxaPdDjPO5OoGL6LKcgoMJhSBpyBVhk4fIkEvNbR9o11svdiSx81iO64afTIoRUvKQoUZN55ZHAC7oMGyR3kXmqK5KY1OBRo4mD1bhaNaBXn7QJoqHBUyAAMQ3JXSl7Z",
+              "received": false
+            }
+          ],
+          "total_price": 89577,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "South Justinacester",
+              "street": "Albina Ridge",
+              "house": 222,
+              "flat": 836
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:13:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943392a1c508c5d5ed59e76",
+          "products": [
+            {
+              "_id": "6943392a1c508c5d5ed59e98",
+              "name": "Soap42610",
+              "amount": 32,
+              "price": 89577,
+              "manufacturer": "Apple",
+              "notes": "1ioBdLiqmWajpSV2PNDb8Km1VJGdGun9VeC1HpXJH4YJ0duKN3fmh7fRBPMftjmzszkV4xhUwRGdj3kH0vLsyF1hvYddlrovbHTNr2QonaCNwj0M2CuxbIFYR8qxaPdDjPO5OoGL6LKcgoMJhSBpyBVhk4fIkEvNbR9o11svdiSx81iO64afTIoRUvKQoUZN55ZHAC7oMGyR3kXmqK5KY1OBRo4mD1bhaNaBXn7QJoqHBUyAAMQ3JXSl7Z",
+              "received": false
+            }
+          ],
+          "total_price": 89577,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "South Justinacester",
+              "street": "Albina Ridge",
+              "house": 222,
+              "flat": 836
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:13:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943392a1c508c5d5ed59e76",
+          "products": [
+            {
+              "_id": "6943392a1c508c5d5ed59e98",
+              "name": "Soap42610",
+              "amount": 32,
+              "price": 89577,
+              "manufacturer": "Apple",
+              "notes": "1ioBdLiqmWajpSV2PNDb8Km1VJGdGun9VeC1HpXJH4YJ0duKN3fmh7fRBPMftjmzszkV4xhUwRGdj3kH0vLsyF1hvYddlrovbHTNr2QonaCNwj0M2CuxbIFYR8qxaPdDjPO5OoGL6LKcgoMJhSBpyBVhk4fIkEvNbR9o11svdiSx81iO64afTIoRUvKQoUZN55ZHAC7oMGyR3kXmqK5KY1OBRo4mD1bhaNaBXn7QJoqHBUyAAMQ3JXSl7Z",
+              "received": false
+            }
+          ],
+          "total_price": 89577,
+          "delivery": null,
+          "changedOn": "2025-12-17T23:13:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

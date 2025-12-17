@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 23:15:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2738",
+    "etag": "W/\"ab2-ZFk9T6xHpXgq8MaGXYgLZG8JRJs\"",
+    "keep-alive": "timeout=5, max=49",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694339781c508c5d5ed5c8f1",
+      "status": "Draft",
+      "customer": {
+        "_id": "694339701c508c5d5ed5c453",
+        "email": "Opal.Witting@gmail.com",
+        "name": "Leslie Rau",
+        "country": "Germany",
+        "city": "Wichita",
+        "street": "Hodkiewicz Meadow 87",
+        "house": 582,
+        "flat": 9723,
+        "phone": "+267146790469567",
+        "createdOn": "2025-12-17T23:14:56.000Z",
+        "notes": "fXDzUZD04uHFZIk18yrqd93GTZpTON"
+      },
+      "products": [
+        {
+          "_id": "694339751c508c5d5ed5c75c",
+          "name": "Hat92169",
+          "amount": 492,
+          "price": 96688,
+          "manufacturer": "Tesla",
+          "notes": "42C0JsTqlsFx7hKucqZ0FqwFwSYY18KEHcoUv38wKlMBR0WyiwwTaiUuUQLNOJsRUmMOXEdCqoKlHSau9LV9MX4mge61XXw5jEHtemwgkproMneFse7KlSMBeGhO9kiwNWswQmKpYojxboieF9GHl2HsED1b0JCzLSLCfxvp4ifbPoqwfDCda9qe7O9liM6yCKShv67AVA70V0eVvlmiVGqNKksaCm6aMXCZe2bqyTfEtQG1Wcaus8Jxjq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Elysestad",
+          "street": "N Railroad Street",
+          "house": 345,
+          "flat": 4097
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 96688,
+      "createdOn": "2025-12-17T23:15:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694339701c508c5d5ed5c453",
+          "products": [
+            {
+              "_id": "694339751c508c5d5ed5c75c",
+              "name": "Hat92169",
+              "amount": 492,
+              "price": 96688,
+              "manufacturer": "Tesla",
+              "notes": "42C0JsTqlsFx7hKucqZ0FqwFwSYY18KEHcoUv38wKlMBR0WyiwwTaiUuUQLNOJsRUmMOXEdCqoKlHSau9LV9MX4mge61XXw5jEHtemwgkproMneFse7KlSMBeGhO9kiwNWswQmKpYojxboieF9GHl2HsED1b0JCzLSLCfxvp4ifbPoqwfDCda9qe7O9liM6yCKShv67AVA70V0eVvlmiVGqNKksaCm6aMXCZe2bqyTfEtQG1Wcaus8Jxjq",
+              "received": false
+            }
+          ],
+          "total_price": 96688,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Elysestad",
+              "street": "N Railroad Street",
+              "house": 345,
+              "flat": 4097
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T23:15:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694339701c508c5d5ed5c453",
+          "products": [
+            {
+              "_id": "694339751c508c5d5ed5c75c",
+              "name": "Hat92169",
+              "amount": 492,
+              "price": 96688,
+              "manufacturer": "Tesla",
+              "notes": "42C0JsTqlsFx7hKucqZ0FqwFwSYY18KEHcoUv38wKlMBR0WyiwwTaiUuUQLNOJsRUmMOXEdCqoKlHSau9LV9MX4mge61XXw5jEHtemwgkproMneFse7KlSMBeGhO9kiwNWswQmKpYojxboieF9GHl2HsED1b0JCzLSLCfxvp4ifbPoqwfDCda9qe7O9liM6yCKShv67AVA70V0eVvlmiVGqNKksaCm6aMXCZe2bqyTfEtQG1Wcaus8Jxjq",
+              "received": false
+            }
+          ],
+          "total_price": 96688,
+          "delivery": null,
+          "changedOn": "2025-12-17T23:15:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
