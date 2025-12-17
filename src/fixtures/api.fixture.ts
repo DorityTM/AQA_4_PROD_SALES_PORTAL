@@ -10,15 +10,12 @@ import { OrdersApi } from "api/api/orders.api";
 import { OrdersApiService } from "api/service/orders.service";
 import { EntitiesStore } from "api/service/stores/entities.store";
 import { OrdersFacadeService } from "api/facades/ordersFacade.service";
-import { DeliveryApiService } from "api/service/delivery.service";
-import { DeliveryApi } from "api/api/delivery.api";
 export interface IApi {
   // api
   productsApi: ProductsApi;
   loginApi: LoginApi;
   customersApi: CustomersApi;
   ordersApi: OrdersApi;
-  deliveryApi: DeliveryApi;
 
   // services
   productsApiService: ProductsApiService;
@@ -26,7 +23,6 @@ export interface IApi {
   customersApiService: CustomersApiService;
   ordersApiService: OrdersApiService;
   ordersFacadeService: OrdersFacadeService;
-  deliveryApiService: DeliveryApiService;
 
   // utils
   cleanup: {
@@ -61,11 +57,6 @@ const test = base.extend<IApi>({
     const api = new OrdersApi(apiClient);
     await use(api);
   },
-  deliveryApi: async ({ request }, use) => {
-    const apiClient = new RequestApi(request);
-    const api = new DeliveryApi(apiClient);
-    await use(api);
-  },
 
   //services
   productsApiService: async ({ productsApi }, use) => {
@@ -84,9 +75,6 @@ const test = base.extend<IApi>({
   },
   ordersFacadeService: async ({ ordersApi, customersApiService, productsApiService }, use) => {
     await use(new OrdersFacadeService(ordersApi, customersApiService, productsApiService));
-  },
-  deliveryApiService: async ({ deliveryApi }, use) => {
-    await use(new DeliveryApiService(deliveryApi));
   },
   // per-test cleanup registry with automatic teardown
   cleanup: async ({ loginApiService, ordersApiService, productsApiService, customersApiService }, use) => {

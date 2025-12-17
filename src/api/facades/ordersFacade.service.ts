@@ -28,7 +28,7 @@ export class OrdersFacadeService {
 
   async createOrderWithDelivery(token: string, numberOfProducts: number) {
     const createdOrder = await this.create(token, numberOfProducts);
-    const orderWithDelivery = await this.ordersApi.addDelivery(createdOrder.body.Order._id, generateDelivery(), token);
+    const orderWithDelivery = await this.ordersApi.addDelivery(token, createdOrder.body.Order._id, generateDelivery());
     return orderWithDelivery;
   }
 

@@ -36,12 +36,12 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
-  async addDelivery(_id: string, delivery: IDeliveryInfo, token: string) {
+  async addDelivery(token: string, orderId: string, deliveryData: IDeliveryInfo) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
-      url: apiConfig.endpoints.orderDelivery(_id),
+      url: apiConfig.endpoints.orderDelivery(orderId),
       method: "post",
-      data: delivery,
+      data: deliveryData,
       headers: {
         "content-type": "application/json",
         Authorization: `Bearer ${token}`,
