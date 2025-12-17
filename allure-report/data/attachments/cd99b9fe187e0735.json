@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 20:54:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2773",
+    "etag": "W/\"ad5-lpW5XHhiTcaf7Ctqr1bhC0PrWhE\"",
+    "keep-alive": "timeout=5, max=26",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694318851c508c5d5ed08c1a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694318841c508c5d5ed08bcb",
+        "email": "Salvatore.Blanda10@gmail.com",
+        "name": "Ebba Waelchi Feest",
+        "country": "France",
+        "city": "Port Benny",
+        "street": "Renner Extension 5",
+        "house": 226,
+        "flat": 6572,
+        "phone": "+051486411571303",
+        "createdOn": "2025-12-17T20:54:28.000Z",
+        "notes": "u3QbTDH2U5a5dW2Oi7CjlhD1r11FjX"
+      },
+      "products": [
+        {
+          "_id": "694318851c508c5d5ed08bf7",
+          "name": "Mouse43152",
+          "amount": 128,
+          "price": 72181,
+          "manufacturer": "Amazon",
+          "notes": "wCNrFQTf8Aq1CvekqpWmEwOdNc4jhwjeQ2GiW0hwGLdhVzP0VqttJ8zsGeWFNjqJkfiXCeuXQAndduu6UFYf6ugtW5ceOOw9PZNGPMbEyvyvX89ACywYWTj8LxAEyvZ5y1XvH6s1jUmnVx5j0bGGKs3sgROjAkD3rplu3h3zOF4YWVYkGVH8Ex5Ye4wngmXAEJ21477EJMHwj9IlDG5kWHGdzdYp94bkUaxvqiHmPmYhxPFuuqQqiahuFT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Yolanda",
+          "street": "Wintheiser Trail",
+          "house": 295,
+          "flat": 2833
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72181,
+      "createdOn": "2025-12-17T20:54:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694318841c508c5d5ed08bcb",
+          "products": [
+            {
+              "_id": "694318851c508c5d5ed08bf7",
+              "name": "Mouse43152",
+              "amount": 128,
+              "price": 72181,
+              "manufacturer": "Amazon",
+              "notes": "wCNrFQTf8Aq1CvekqpWmEwOdNc4jhwjeQ2GiW0hwGLdhVzP0VqttJ8zsGeWFNjqJkfiXCeuXQAndduu6UFYf6ugtW5ceOOw9PZNGPMbEyvyvX89ACywYWTj8LxAEyvZ5y1XvH6s1jUmnVx5j0bGGKs3sgROjAkD3rplu3h3zOF4YWVYkGVH8Ex5Ye4wngmXAEJ21477EJMHwj9IlDG5kWHGdzdYp94bkUaxvqiHmPmYhxPFuuqQqiahuFT",
+              "received": false
+            }
+          ],
+          "total_price": 72181,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Yolanda",
+              "street": "Wintheiser Trail",
+              "house": 295,
+              "flat": 2833
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:54:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694318841c508c5d5ed08bcb",
+          "products": [
+            {
+              "_id": "694318851c508c5d5ed08bf7",
+              "name": "Mouse43152",
+              "amount": 128,
+              "price": 72181,
+              "manufacturer": "Amazon",
+              "notes": "wCNrFQTf8Aq1CvekqpWmEwOdNc4jhwjeQ2GiW0hwGLdhVzP0VqttJ8zsGeWFNjqJkfiXCeuXQAndduu6UFYf6ugtW5ceOOw9PZNGPMbEyvyvX89ACywYWTj8LxAEyvZ5y1XvH6s1jUmnVx5j0bGGKs3sgROjAkD3rplu3h3zOF4YWVYkGVH8Ex5Ye4wngmXAEJ21477EJMHwj9IlDG5kWHGdzdYp94bkUaxvqiHmPmYhxPFuuqQqiahuFT",
+              "received": false
+            }
+          ],
+          "total_price": 72181,
+          "delivery": null,
+          "changedOn": "2025-12-17T20:54:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

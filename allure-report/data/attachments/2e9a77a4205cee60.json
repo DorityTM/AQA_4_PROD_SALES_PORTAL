@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 20:53:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4589",
+    "etag": "W/\"11ed-4BDEv7HeKZiQxxJHc1/69/Eu19k\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943185b1c508c5d5ed07831",
+      "status": "Received",
+      "customer": {
+        "_id": "6943185a1c508c5d5ed07789",
+        "email": "Maverick.Flatley62@gmail.com",
+        "name": "Ubaldo Waters",
+        "country": "France",
+        "city": "Handport",
+        "street": "Stanley Road 74",
+        "house": 542,
+        "flat": 6215,
+        "phone": "+532982309588409",
+        "createdOn": "2025-12-17T20:53:46.000Z",
+        "notes": "pjos6cePktop9UOKmDF6I8zGAXxJ0N"
+      },
+      "products": [
+        {
+          "_id": "6943185a1c508c5d5ed077a7",
+          "name": "Mouse2968",
+          "amount": 578,
+          "price": 23440,
+          "manufacturer": "Apple",
+          "notes": "7KN6ypIha8sKfpCQcPbFwR7DHClksMNThwBSX7M55BWoFmRUj5hgaRVFMMaxqiYrecVPk83Z8mHIkFZGMa7Vuxe3mM0t76jNJhAl6VmacrlDU44jjw7T4wX1ui4gTnDVMa9TvPZjLKGfyaTMh93SNxUrXvFJIizw4FRvOqDeys9Klr8t5hC3rdcJSSXsF2rPB7IRncZoNhU56mqlPgm4cXIvk7tyK3Yn1iEZ9RxAGiZARmIpP42eTDys2B",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Koeppbury",
+          "street": "Mueller Mills",
+          "house": 124,
+          "flat": 8614
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 23440,
+      "createdOn": "2025-12-17T20:53:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6943185a1c508c5d5ed07789",
+          "products": [
+            {
+              "_id": "6943185a1c508c5d5ed077a7",
+              "name": "Mouse2968",
+              "amount": 578,
+              "price": 23440,
+              "manufacturer": "Apple",
+              "notes": "7KN6ypIha8sKfpCQcPbFwR7DHClksMNThwBSX7M55BWoFmRUj5hgaRVFMMaxqiYrecVPk83Z8mHIkFZGMa7Vuxe3mM0t76jNJhAl6VmacrlDU44jjw7T4wX1ui4gTnDVMa9TvPZjLKGfyaTMh93SNxUrXvFJIizw4FRvOqDeys9Klr8t5hC3rdcJSSXsF2rPB7IRncZoNhU56mqlPgm4cXIvk7tyK3Yn1iEZ9RxAGiZARmIpP42eTDys2B",
+              "received": true
+            }
+          ],
+          "total_price": 23440,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Koeppbury",
+              "street": "Mueller Mills",
+              "house": 124,
+              "flat": 8614
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:53:49.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6943185a1c508c5d5ed07789",
+          "products": [
+            {
+              "_id": "6943185a1c508c5d5ed077a7",
+              "name": "Mouse2968",
+              "amount": 578,
+              "price": 23440,
+              "manufacturer": "Apple",
+              "notes": "7KN6ypIha8sKfpCQcPbFwR7DHClksMNThwBSX7M55BWoFmRUj5hgaRVFMMaxqiYrecVPk83Z8mHIkFZGMa7Vuxe3mM0t76jNJhAl6VmacrlDU44jjw7T4wX1ui4gTnDVMa9TvPZjLKGfyaTMh93SNxUrXvFJIizw4FRvOqDeys9Klr8t5hC3rdcJSSXsF2rPB7IRncZoNhU56mqlPgm4cXIvk7tyK3Yn1iEZ9RxAGiZARmIpP42eTDys2B",
+              "received": false
+            }
+          ],
+          "total_price": 23440,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Koeppbury",
+              "street": "Mueller Mills",
+              "house": 124,
+              "flat": 8614
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:53:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943185a1c508c5d5ed07789",
+          "products": [
+            {
+              "_id": "6943185a1c508c5d5ed077a7",
+              "name": "Mouse2968",
+              "amount": 578,
+              "price": 23440,
+              "manufacturer": "Apple",
+              "notes": "7KN6ypIha8sKfpCQcPbFwR7DHClksMNThwBSX7M55BWoFmRUj5hgaRVFMMaxqiYrecVPk83Z8mHIkFZGMa7Vuxe3mM0t76jNJhAl6VmacrlDU44jjw7T4wX1ui4gTnDVMa9TvPZjLKGfyaTMh93SNxUrXvFJIizw4FRvOqDeys9Klr8t5hC3rdcJSSXsF2rPB7IRncZoNhU56mqlPgm4cXIvk7tyK3Yn1iEZ9RxAGiZARmIpP42eTDys2B",
+              "received": false
+            }
+          ],
+          "total_price": 23440,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Koeppbury",
+              "street": "Mueller Mills",
+              "house": 124,
+              "flat": 8614
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:53:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943185a1c508c5d5ed07789",
+          "products": [
+            {
+              "_id": "6943185a1c508c5d5ed077a7",
+              "name": "Mouse2968",
+              "amount": 578,
+              "price": 23440,
+              "manufacturer": "Apple",
+              "notes": "7KN6ypIha8sKfpCQcPbFwR7DHClksMNThwBSX7M55BWoFmRUj5hgaRVFMMaxqiYrecVPk83Z8mHIkFZGMa7Vuxe3mM0t76jNJhAl6VmacrlDU44jjw7T4wX1ui4gTnDVMa9TvPZjLKGfyaTMh93SNxUrXvFJIizw4FRvOqDeys9Klr8t5hC3rdcJSSXsF2rPB7IRncZoNhU56mqlPgm4cXIvk7tyK3Yn1iEZ9RxAGiZARmIpP42eTDys2B",
+              "received": false
+            }
+          ],
+          "total_price": 23440,
+          "delivery": null,
+          "changedOn": "2025-12-17T20:53:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

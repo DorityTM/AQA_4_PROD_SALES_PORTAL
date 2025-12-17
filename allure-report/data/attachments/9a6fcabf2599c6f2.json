@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 20:54:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3673",
+    "etag": "W/\"e59-7zw2cajZu57WhVyv77kbJsVLyrA\"",
+    "keep-alive": "timeout=5, max=32",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943187a1c508c5d5ed086c8",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6943187a1c508c5d5ed08684",
+        "email": "Keira39@gmail.com",
+        "name": "Issac Ondricka",
+        "country": "Russia",
+        "city": "South Angelicabury",
+        "street": "14th Street 92",
+        "house": 497,
+        "flat": 1991,
+        "phone": "+978426696696522",
+        "createdOn": "2025-12-17T20:54:18.000Z",
+        "notes": "qDFgR3jxkN8euWwJ91omt7z3vxHuM9"
+      },
+      "products": [
+        {
+          "_id": "6943187a1c508c5d5ed086a2",
+          "name": "Chair96440",
+          "amount": 346,
+          "price": 99627,
+          "manufacturer": "Sony",
+          "notes": "o7VjiNFAODU9tHjobyV9u5zwDFPdyKMMqD6EQWwb8hS9UHsAMEjKZjFhD1L5foD3wV6bwiqrZhj5lV2Zr23rIfp6aqP0FW3YRh6jZA1khr7G1jcioFuuKoedxkCtiDPOHMsAtdbTfmgAQb3LG4V24diRuRswzU1rUICBVUMh51f9soSq9stZsTT8f0jxaU3USdRApXwTA89GEVemM2kxuqDHiiAEME88Omxn7sXZeF42v4J1xjeqHA2U8T",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Cummingsfield",
+          "street": "Clarence Road",
+          "house": 178,
+          "flat": 9796
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99627,
+      "createdOn": "2025-12-17T20:54:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6943187a1c508c5d5ed08684",
+          "products": [
+            {
+              "_id": "6943187a1c508c5d5ed086a2",
+              "name": "Chair96440",
+              "amount": 346,
+              "price": 99627,
+              "manufacturer": "Sony",
+              "notes": "o7VjiNFAODU9tHjobyV9u5zwDFPdyKMMqD6EQWwb8hS9UHsAMEjKZjFhD1L5foD3wV6bwiqrZhj5lV2Zr23rIfp6aqP0FW3YRh6jZA1khr7G1jcioFuuKoedxkCtiDPOHMsAtdbTfmgAQb3LG4V24diRuRswzU1rUICBVUMh51f9soSq9stZsTT8f0jxaU3USdRApXwTA89GEVemM2kxuqDHiiAEME88Omxn7sXZeF42v4J1xjeqHA2U8T",
+              "received": false
+            }
+          ],
+          "total_price": 99627,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Cummingsfield",
+              "street": "Clarence Road",
+              "house": 178,
+              "flat": 9796
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:54:19.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943187a1c508c5d5ed08684",
+          "products": [
+            {
+              "_id": "6943187a1c508c5d5ed086a2",
+              "name": "Chair96440",
+              "amount": 346,
+              "price": 99627,
+              "manufacturer": "Sony",
+              "notes": "o7VjiNFAODU9tHjobyV9u5zwDFPdyKMMqD6EQWwb8hS9UHsAMEjKZjFhD1L5foD3wV6bwiqrZhj5lV2Zr23rIfp6aqP0FW3YRh6jZA1khr7G1jcioFuuKoedxkCtiDPOHMsAtdbTfmgAQb3LG4V24diRuRswzU1rUICBVUMh51f9soSq9stZsTT8f0jxaU3USdRApXwTA89GEVemM2kxuqDHiiAEME88Omxn7sXZeF42v4J1xjeqHA2U8T",
+              "received": false
+            }
+          ],
+          "total_price": 99627,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Cummingsfield",
+              "street": "Clarence Road",
+              "house": 178,
+              "flat": 9796
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:54:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943187a1c508c5d5ed08684",
+          "products": [
+            {
+              "_id": "6943187a1c508c5d5ed086a2",
+              "name": "Chair96440",
+              "amount": 346,
+              "price": 99627,
+              "manufacturer": "Sony",
+              "notes": "o7VjiNFAODU9tHjobyV9u5zwDFPdyKMMqD6EQWwb8hS9UHsAMEjKZjFhD1L5foD3wV6bwiqrZhj5lV2Zr23rIfp6aqP0FW3YRh6jZA1khr7G1jcioFuuKoedxkCtiDPOHMsAtdbTfmgAQb3LG4V24diRuRswzU1rUICBVUMh51f9soSq9stZsTT8f0jxaU3USdRApXwTA89GEVemM2kxuqDHiiAEME88Omxn7sXZeF42v4J1xjeqHA2U8T",
+              "received": false
+            }
+          ],
+          "total_price": 99627,
+          "delivery": null,
+          "changedOn": "2025-12-17T20:54:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
