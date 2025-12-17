@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 10:03:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4613",
+    "etag": "W/\"1205-PHLZfWhDpWsUZhH546djs3GpDiw\"",
+    "keep-alive": "timeout=5, max=53",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694280001c508c5d5ecef36d",
+      "status": "Received",
+      "customer": {
+        "_id": "694280001c508c5d5ecef32d",
+        "email": "Hudson.Hane96@yahoo.com",
+        "name": "Rhea Strosin",
+        "country": "France",
+        "city": "Deltona",
+        "street": "Birch Avenue 92",
+        "house": 493,
+        "flat": 8923,
+        "phone": "+629671290278589",
+        "createdOn": "2025-12-17T10:03:44.000Z",
+        "notes": "yEdaKaUOqVwW0SerwwQ73GdQYUPuNh"
+      },
+      "products": [
+        {
+          "_id": "694280001c508c5d5ecef345",
+          "name": "Chicken71008",
+          "amount": 770,
+          "price": 63831,
+          "manufacturer": "Apple",
+          "notes": "1dVLNRT1ZU66rbq28ycTnxcACtge67aIhzmKfNniC7wiYuuiyEP3Isjj0O1OziZgc6nVkc2ps0QYhBfhin1Zy598AKRsuiiA7gOtPQc1pQ7oARz1FlGiTDwGeuuClDpy9x1Yyhjm5pzpWySw5EnLhXvE0pR7NGd5TJcu9t02pntBjGT9NzeyAtdaXaCLfOtwwMXatknlXHrP92P3MPibTLow5836lKWWNsajK4oo4XAgI50JsDHckXxuam",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Fort Garryton",
+          "street": "Monroe Street",
+          "house": 332,
+          "flat": 9532
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 63831,
+      "createdOn": "2025-12-17T10:03:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694280001c508c5d5ecef32d",
+          "products": [
+            {
+              "_id": "694280001c508c5d5ecef345",
+              "name": "Chicken71008",
+              "amount": 770,
+              "price": 63831,
+              "manufacturer": "Apple",
+              "notes": "1dVLNRT1ZU66rbq28ycTnxcACtge67aIhzmKfNniC7wiYuuiyEP3Isjj0O1OziZgc6nVkc2ps0QYhBfhin1Zy598AKRsuiiA7gOtPQc1pQ7oARz1FlGiTDwGeuuClDpy9x1Yyhjm5pzpWySw5EnLhXvE0pR7NGd5TJcu9t02pntBjGT9NzeyAtdaXaCLfOtwwMXatknlXHrP92P3MPibTLow5836lKWWNsajK4oo4XAgI50JsDHckXxuam",
+              "received": true
+            }
+          ],
+          "total_price": 63831,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Garryton",
+              "street": "Monroe Street",
+              "house": 332,
+              "flat": 9532
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:46.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694280001c508c5d5ecef32d",
+          "products": [
+            {
+              "_id": "694280001c508c5d5ecef345",
+              "name": "Chicken71008",
+              "amount": 770,
+              "price": 63831,
+              "manufacturer": "Apple",
+              "notes": "1dVLNRT1ZU66rbq28ycTnxcACtge67aIhzmKfNniC7wiYuuiyEP3Isjj0O1OziZgc6nVkc2ps0QYhBfhin1Zy598AKRsuiiA7gOtPQc1pQ7oARz1FlGiTDwGeuuClDpy9x1Yyhjm5pzpWySw5EnLhXvE0pR7NGd5TJcu9t02pntBjGT9NzeyAtdaXaCLfOtwwMXatknlXHrP92P3MPibTLow5836lKWWNsajK4oo4XAgI50JsDHckXxuam",
+              "received": false
+            }
+          ],
+          "total_price": 63831,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Garryton",
+              "street": "Monroe Street",
+              "house": 332,
+              "flat": 9532
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280001c508c5d5ecef32d",
+          "products": [
+            {
+              "_id": "694280001c508c5d5ecef345",
+              "name": "Chicken71008",
+              "amount": 770,
+              "price": 63831,
+              "manufacturer": "Apple",
+              "notes": "1dVLNRT1ZU66rbq28ycTnxcACtge67aIhzmKfNniC7wiYuuiyEP3Isjj0O1OziZgc6nVkc2ps0QYhBfhin1Zy598AKRsuiiA7gOtPQc1pQ7oARz1FlGiTDwGeuuClDpy9x1Yyhjm5pzpWySw5EnLhXvE0pR7NGd5TJcu9t02pntBjGT9NzeyAtdaXaCLfOtwwMXatknlXHrP92P3MPibTLow5836lKWWNsajK4oo4XAgI50JsDHckXxuam",
+              "received": false
+            }
+          ],
+          "total_price": 63831,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Garryton",
+              "street": "Monroe Street",
+              "house": 332,
+              "flat": 9532
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280001c508c5d5ecef32d",
+          "products": [
+            {
+              "_id": "694280001c508c5d5ecef345",
+              "name": "Chicken71008",
+              "amount": 770,
+              "price": 63831,
+              "manufacturer": "Apple",
+              "notes": "1dVLNRT1ZU66rbq28ycTnxcACtge67aIhzmKfNniC7wiYuuiyEP3Isjj0O1OziZgc6nVkc2ps0QYhBfhin1Zy598AKRsuiiA7gOtPQc1pQ7oARz1FlGiTDwGeuuClDpy9x1Yyhjm5pzpWySw5EnLhXvE0pR7NGd5TJcu9t02pntBjGT9NzeyAtdaXaCLfOtwwMXatknlXHrP92P3MPibTLow5836lKWWNsajK4oo4XAgI50JsDHckXxuam",
+              "received": false
+            }
+          ],
+          "total_price": 63831,
+          "delivery": null,
+          "changedOn": "2025-12-17T10:03:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

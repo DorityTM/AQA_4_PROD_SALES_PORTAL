@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 10:03:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2774",
+    "etag": "W/\"ad6-sI9FbOPq6Cayuglll7eRB+aHOSg\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694280011c508c5d5ecef3cc",
+      "status": "Draft",
+      "customer": {
+        "_id": "694280011c508c5d5ecef382",
+        "email": "Sienna.Luettgen-Schmeler3@gmail.com",
+        "name": "Rebeka Wisoky",
+        "country": "Germany",
+        "city": "West Elisaberg",
+        "street": "Washington Road 76",
+        "house": 438,
+        "flat": 2099,
+        "phone": "+473345023259500",
+        "createdOn": "2025-12-17T10:03:45.000Z",
+        "notes": "94J8P2cNDfD9hI9vovIjGJgsViODdb"
+      },
+      "products": [
+        {
+          "_id": "694280011c508c5d5ecef39e",
+          "name": "Towels10214",
+          "amount": 972,
+          "price": 84416,
+          "manufacturer": "Samsung",
+          "notes": "c3NIDi3GGUWty7ml0f1nuedKtcO2OJf3LRdrXacD28LFvcW4ZtnNd0NsijzCImcPyYMdmnUtUQ47IyYfSUz2eeNlpOBGf1zCPiolWfdUe1oiX9BACVxtIVenDssq1lDaK5pW6hQvJmcYTqPSKlubVpHIyeNEmPgH5YpntoXSqGGoUAsJOFp5liS9JMGJMsAuaBM9sbNtQHHkLL4EVr308rcQbUDFaAzPe38gZ69IZg88WS7Gh7DTTg1qtc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Dillonfurt",
+          "street": "St Johns Road",
+          "house": 601,
+          "flat": 4630
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 84416,
+      "createdOn": "2025-12-17T10:03:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694280011c508c5d5ecef382",
+          "products": [
+            {
+              "_id": "694280011c508c5d5ecef39e",
+              "name": "Towels10214",
+              "amount": 972,
+              "price": 84416,
+              "manufacturer": "Samsung",
+              "notes": "c3NIDi3GGUWty7ml0f1nuedKtcO2OJf3LRdrXacD28LFvcW4ZtnNd0NsijzCImcPyYMdmnUtUQ47IyYfSUz2eeNlpOBGf1zCPiolWfdUe1oiX9BACVxtIVenDssq1lDaK5pW6hQvJmcYTqPSKlubVpHIyeNEmPgH5YpntoXSqGGoUAsJOFp5liS9JMGJMsAuaBM9sbNtQHHkLL4EVr308rcQbUDFaAzPe38gZ69IZg88WS7Gh7DTTg1qtc",
+              "received": false
+            }
+          ],
+          "total_price": 84416,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Dillonfurt",
+              "street": "St Johns Road",
+              "house": 601,
+              "flat": 4630
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280011c508c5d5ecef382",
+          "products": [
+            {
+              "_id": "694280011c508c5d5ecef39e",
+              "name": "Towels10214",
+              "amount": 972,
+              "price": 84416,
+              "manufacturer": "Samsung",
+              "notes": "c3NIDi3GGUWty7ml0f1nuedKtcO2OJf3LRdrXacD28LFvcW4ZtnNd0NsijzCImcPyYMdmnUtUQ47IyYfSUz2eeNlpOBGf1zCPiolWfdUe1oiX9BACVxtIVenDssq1lDaK5pW6hQvJmcYTqPSKlubVpHIyeNEmPgH5YpntoXSqGGoUAsJOFp5liS9JMGJMsAuaBM9sbNtQHHkLL4EVr308rcQbUDFaAzPe38gZ69IZg88WS7Gh7DTTg1qtc",
+              "received": false
+            }
+          ],
+          "total_price": 84416,
+          "delivery": null,
+          "changedOn": "2025-12-17T10:03:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

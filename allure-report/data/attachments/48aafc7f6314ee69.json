@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 10:03:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3660",
+    "etag": "W/\"e4c-KLGZSp3aq4Iw5+tMdzHyNAcSPB4\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6942800e1c508c5d5ecef948",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6942800e1c508c5d5ecef904",
+        "email": "Gussie.Stamm@gmail.com",
+        "name": "Nedra Will",
+        "country": "Belarus",
+        "city": "North Ellis",
+        "street": "Lizzie Ports 91",
+        "house": 401,
+        "flat": 6556,
+        "phone": "+097308251997615",
+        "createdOn": "2025-12-17T10:03:58.000Z",
+        "notes": "pPqwv6ubX6R1W3V41nWukjm0VYCfd6"
+      },
+      "products": [
+        {
+          "_id": "6942800e1c508c5d5ecef917",
+          "name": "Tuna51368",
+          "amount": 527,
+          "price": 12060,
+          "manufacturer": "Tesla",
+          "notes": "Drsrpj0QbZs3AyfxSoryMKNQih5Ezl5U8BrGn29LJWZPk2w2X1hHuh309ELOTuE12KNPaqg9Dclb47qxcIz1kkepxwDL87RyhcWXcqgqaePNyWDDlwGGALUU3zE74EbXlCw77CMRzS0QMI4WT8v2CtRMHpHehXAcoTIBf5pp4h30ebOM6XD7ooExmS7DWVPROwzz9ssCqWmpoQoA5Saeup7UeGoElMaXzxepQqwiM7HpBtuahKfEHp5ssI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Daughertybury",
+          "street": "South View",
+          "house": 782,
+          "flat": 9685
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 12060,
+      "createdOn": "2025-12-17T10:03:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6942800e1c508c5d5ecef904",
+          "products": [
+            {
+              "_id": "6942800e1c508c5d5ecef917",
+              "name": "Tuna51368",
+              "amount": 527,
+              "price": 12060,
+              "manufacturer": "Tesla",
+              "notes": "Drsrpj0QbZs3AyfxSoryMKNQih5Ezl5U8BrGn29LJWZPk2w2X1hHuh309ELOTuE12KNPaqg9Dclb47qxcIz1kkepxwDL87RyhcWXcqgqaePNyWDDlwGGALUU3zE74EbXlCw77CMRzS0QMI4WT8v2CtRMHpHehXAcoTIBf5pp4h30ebOM6XD7ooExmS7DWVPROwzz9ssCqWmpoQoA5Saeup7UeGoElMaXzxepQqwiM7HpBtuahKfEHp5ssI",
+              "received": false
+            }
+          ],
+          "total_price": 12060,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Daughertybury",
+              "street": "South View",
+              "house": 782,
+              "flat": 9685
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:59.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6942800e1c508c5d5ecef904",
+          "products": [
+            {
+              "_id": "6942800e1c508c5d5ecef917",
+              "name": "Tuna51368",
+              "amount": 527,
+              "price": 12060,
+              "manufacturer": "Tesla",
+              "notes": "Drsrpj0QbZs3AyfxSoryMKNQih5Ezl5U8BrGn29LJWZPk2w2X1hHuh309ELOTuE12KNPaqg9Dclb47qxcIz1kkepxwDL87RyhcWXcqgqaePNyWDDlwGGALUU3zE74EbXlCw77CMRzS0QMI4WT8v2CtRMHpHehXAcoTIBf5pp4h30ebOM6XD7ooExmS7DWVPROwzz9ssCqWmpoQoA5Saeup7UeGoElMaXzxepQqwiM7HpBtuahKfEHp5ssI",
+              "received": false
+            }
+          ],
+          "total_price": 12060,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Daughertybury",
+              "street": "South View",
+              "house": 782,
+              "flat": 9685
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6942800e1c508c5d5ecef904",
+          "products": [
+            {
+              "_id": "6942800e1c508c5d5ecef917",
+              "name": "Tuna51368",
+              "amount": 527,
+              "price": 12060,
+              "manufacturer": "Tesla",
+              "notes": "Drsrpj0QbZs3AyfxSoryMKNQih5Ezl5U8BrGn29LJWZPk2w2X1hHuh309ELOTuE12KNPaqg9Dclb47qxcIz1kkepxwDL87RyhcWXcqgqaePNyWDDlwGGALUU3zE74EbXlCw77CMRzS0QMI4WT8v2CtRMHpHehXAcoTIBf5pp4h30ebOM6XD7ooExmS7DWVPROwzz9ssCqWmpoQoA5Saeup7UeGoElMaXzxepQqwiM7HpBtuahKfEHp5ssI",
+              "received": false
+            }
+          ],
+          "total_price": 12060,
+          "delivery": null,
+          "changedOn": "2025-12-17T10:03:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 10:03:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-bes5+M1MUFm7DSuORCs++vcopI8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69427ff81c508c5d5ecef004",
+      "status": "Draft",
+      "customer": {
+        "_id": "69427ff71c508c5d5eceefaf",
+        "email": "Dayne51@hotmail.com",
+        "name": "Candelario Kozey",
+        "country": "USA",
+        "city": "Yorba Linda",
+        "street": "The Copse 5",
+        "house": 809,
+        "flat": 4295,
+        "phone": "+028420277780177",
+        "createdOn": "2025-12-17T10:03:35.000Z",
+        "notes": "dC2Qdupwjmf3zudAHKfPNmgMmN1YqQ"
+      },
+      "products": [
+        {
+          "_id": "69427ff81c508c5d5eceefd5",
+          "name": "Ball66706",
+          "amount": 405,
+          "price": 20793,
+          "manufacturer": "Amazon",
+          "notes": "uRxfnKtpxau6O4mctixQLpdQ9KZnnQ5eQ2oNrniNHJlTj26lHJtzm3zBQxGmWy9Uumo8lQQq9J9YPLyi2NBJADEPgKR1w8ebirqcAncaLINigVp5E8ETXVLhEEqxsy63UrTicN4tg8PQZVoGpZQPaE3u4IlIgNz7itNDC7PgRcVUi8Dkh2NUh1Oj3BXpEtVpcTUmkBvsZUfWjzl429lO0Wh8G9ot0vm4c3ZWaGJdKY8bkp0YFbJJQX0jML",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Fort Trycia",
+          "street": "Hudson Cliffs",
+          "house": 981,
+          "flat": 6424
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 20793,
+      "createdOn": "2025-12-17T10:03:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69427ff71c508c5d5eceefaf",
+          "products": [
+            {
+              "_id": "69427ff81c508c5d5eceefd5",
+              "name": "Ball66706",
+              "amount": 405,
+              "price": 20793,
+              "manufacturer": "Amazon",
+              "notes": "uRxfnKtpxau6O4mctixQLpdQ9KZnnQ5eQ2oNrniNHJlTj26lHJtzm3zBQxGmWy9Uumo8lQQq9J9YPLyi2NBJADEPgKR1w8ebirqcAncaLINigVp5E8ETXVLhEEqxsy63UrTicN4tg8PQZVoGpZQPaE3u4IlIgNz7itNDC7PgRcVUi8Dkh2NUh1Oj3BXpEtVpcTUmkBvsZUfWjzl429lO0Wh8G9ot0vm4c3ZWaGJdKY8bkp0YFbJJQX0jML",
+              "received": false
+            }
+          ],
+          "total_price": 20793,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Trycia",
+              "street": "Hudson Cliffs",
+              "house": 981,
+              "flat": 6424
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69427ff71c508c5d5eceefaf",
+          "products": [
+            {
+              "_id": "69427ff81c508c5d5eceefd5",
+              "name": "Ball66706",
+              "amount": 405,
+              "price": 20793,
+              "manufacturer": "Amazon",
+              "notes": "uRxfnKtpxau6O4mctixQLpdQ9KZnnQ5eQ2oNrniNHJlTj26lHJtzm3zBQxGmWy9Uumo8lQQq9J9YPLyi2NBJADEPgKR1w8ebirqcAncaLINigVp5E8ETXVLhEEqxsy63UrTicN4tg8PQZVoGpZQPaE3u4IlIgNz7itNDC7PgRcVUi8Dkh2NUh1Oj3BXpEtVpcTUmkBvsZUfWjzl429lO0Wh8G9ot0vm4c3ZWaGJdKY8bkp0YFbJJQX0jML",
+              "received": false
+            }
+          ],
+          "total_price": 20793,
+          "delivery": null,
+          "changedOn": "2025-12-17T10:03:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

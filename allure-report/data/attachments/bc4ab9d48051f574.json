@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 10:04:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3659",
+    "etag": "W/\"e4b-5dMcbHmec2qAuzGgSVswNDZODfI\"",
+    "keep-alive": "timeout=5, max=14",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694280171c508c5d5ecefcf4",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694280161c508c5d5ecefca4",
+        "email": "Jeffery_Bahringer63@hotmail.com",
+        "name": "Dante Stark",
+        "country": "Belarus",
+        "city": "South Oliverfort",
+        "street": "York Road 82",
+        "house": 315,
+        "flat": 2631,
+        "phone": "+275781575109395",
+        "createdOn": "2025-12-17T10:04:06.000Z",
+        "notes": "foVRO8Tx3zjMHokbJ0QZ8Dgs5DAPWU"
+      },
+      "products": [
+        {
+          "_id": "694280171c508c5d5ecefccc",
+          "name": "Chair950",
+          "amount": 938,
+          "price": 20771,
+          "manufacturer": "Apple",
+          "notes": "eMUAIsHDHWb8AK4Bn9QpSNiD2yCGfp4vtg1RZqrrNDf7k1kJQXPRBAxOzI3rwBnEXA7J171bziwMTtaOEKQ263DO2Udy2od158KkRr06Za5tlOZlfJYrmcTsifHkuBUKxMEn1kv57m43q5jpDtGSIe0ZhTMXqmWQk2FenIOo3Zj8gT8grzAAmg1yQEXziyt1I16vXNGqvlLUHBQKH5J8CvPLuVGJdqlh9jTNuDHmZzLcQCVhKORcQte0D8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "New Erich",
+          "street": "Broad Street",
+          "house": 163,
+          "flat": 5215
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 20771,
+      "createdOn": "2025-12-17T10:04:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694280161c508c5d5ecefca4",
+          "products": [
+            {
+              "_id": "694280171c508c5d5ecefccc",
+              "name": "Chair950",
+              "amount": 938,
+              "price": 20771,
+              "manufacturer": "Apple",
+              "notes": "eMUAIsHDHWb8AK4Bn9QpSNiD2yCGfp4vtg1RZqrrNDf7k1kJQXPRBAxOzI3rwBnEXA7J171bziwMTtaOEKQ263DO2Udy2od158KkRr06Za5tlOZlfJYrmcTsifHkuBUKxMEn1kv57m43q5jpDtGSIe0ZhTMXqmWQk2FenIOo3Zj8gT8grzAAmg1yQEXziyt1I16vXNGqvlLUHBQKH5J8CvPLuVGJdqlh9jTNuDHmZzLcQCVhKORcQte0D8",
+              "received": false
+            }
+          ],
+          "total_price": 20771,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Erich",
+              "street": "Broad Street",
+              "house": 163,
+              "flat": 5215
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:04:08.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280161c508c5d5ecefca4",
+          "products": [
+            {
+              "_id": "694280171c508c5d5ecefccc",
+              "name": "Chair950",
+              "amount": 938,
+              "price": 20771,
+              "manufacturer": "Apple",
+              "notes": "eMUAIsHDHWb8AK4Bn9QpSNiD2yCGfp4vtg1RZqrrNDf7k1kJQXPRBAxOzI3rwBnEXA7J171bziwMTtaOEKQ263DO2Udy2od158KkRr06Za5tlOZlfJYrmcTsifHkuBUKxMEn1kv57m43q5jpDtGSIe0ZhTMXqmWQk2FenIOo3Zj8gT8grzAAmg1yQEXziyt1I16vXNGqvlLUHBQKH5J8CvPLuVGJdqlh9jTNuDHmZzLcQCVhKORcQte0D8",
+              "received": false
+            }
+          ],
+          "total_price": 20771,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Erich",
+              "street": "Broad Street",
+              "house": 163,
+              "flat": 5215
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:04:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280161c508c5d5ecefca4",
+          "products": [
+            {
+              "_id": "694280171c508c5d5ecefccc",
+              "name": "Chair950",
+              "amount": 938,
+              "price": 20771,
+              "manufacturer": "Apple",
+              "notes": "eMUAIsHDHWb8AK4Bn9QpSNiD2yCGfp4vtg1RZqrrNDf7k1kJQXPRBAxOzI3rwBnEXA7J171bziwMTtaOEKQ263DO2Udy2od158KkRr06Za5tlOZlfJYrmcTsifHkuBUKxMEn1kv57m43q5jpDtGSIe0ZhTMXqmWQk2FenIOo3Zj8gT8grzAAmg1yQEXziyt1I16vXNGqvlLUHBQKH5J8CvPLuVGJdqlh9jTNuDHmZzLcQCVhKORcQte0D8",
+              "received": false
+            }
+          ],
+          "total_price": 20771,
+          "delivery": null,
+          "changedOn": "2025-12-17T10:04:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

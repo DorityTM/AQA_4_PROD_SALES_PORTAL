@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 10:03:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3688",
+    "etag": "W/\"e68-Xqnc7xW4cXr6GhmXsr6IZir5bz4\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694280021c508c5d5ecef424",
+      "status": "In Process",
+      "customer": {
+        "_id": "694280011c508c5d5ecef3d1",
+        "email": "Deion.OHara@hotmail.com",
+        "name": "Lance Torphy",
+        "country": "Germany",
+        "city": "Downey",
+        "street": "Amy Trail 37",
+        "house": 489,
+        "flat": 602,
+        "phone": "+119086898929585",
+        "createdOn": "2025-12-17T10:03:45.000Z",
+        "notes": "hYKLGTSSDQcYhyK2e7kKcIo4t5KLlU"
+      },
+      "products": [
+        {
+          "_id": "694280011c508c5d5ecef3f7",
+          "name": "Computer56615",
+          "amount": 225,
+          "price": 37061,
+          "manufacturer": "Microsoft",
+          "notes": "yJZLYOpr2d5XUWjb1IpvieAyHuXW9UKWJ7BdVoaVuhSSseaY8QhwqBYHhDyJ22ldzXpbRGVaVf8P8JD1uXxlT8mDTsF3M525mcVuM0G8yZjCpwQ0Y8Lwd377pGv7Amsk9IuCx6SAZYcywn40tvhBcMLjvV1cDOg26MOcmK6DraLK7BV31CgDZ0KwdyTZa4yNjddQFw36AFv7rPrLjwWywMlsfAzMPLoG6yZ0LIHEKX80bWuRqn6VV8touj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Philadelphia",
+          "street": "Howell Ramp",
+          "house": 642,
+          "flat": 1086
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 37061,
+      "createdOn": "2025-12-17T10:03:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694280011c508c5d5ecef3d1",
+          "products": [
+            {
+              "_id": "694280011c508c5d5ecef3f7",
+              "name": "Computer56615",
+              "amount": 225,
+              "price": 37061,
+              "manufacturer": "Microsoft",
+              "notes": "yJZLYOpr2d5XUWjb1IpvieAyHuXW9UKWJ7BdVoaVuhSSseaY8QhwqBYHhDyJ22ldzXpbRGVaVf8P8JD1uXxlT8mDTsF3M525mcVuM0G8yZjCpwQ0Y8Lwd377pGv7Amsk9IuCx6SAZYcywn40tvhBcMLjvV1cDOg26MOcmK6DraLK7BV31CgDZ0KwdyTZa4yNjddQFw36AFv7rPrLjwWywMlsfAzMPLoG6yZ0LIHEKX80bWuRqn6VV8touj",
+              "received": false
+            }
+          ],
+          "total_price": 37061,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Philadelphia",
+              "street": "Howell Ramp",
+              "house": 642,
+              "flat": 1086
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280011c508c5d5ecef3d1",
+          "products": [
+            {
+              "_id": "694280011c508c5d5ecef3f7",
+              "name": "Computer56615",
+              "amount": 225,
+              "price": 37061,
+              "manufacturer": "Microsoft",
+              "notes": "yJZLYOpr2d5XUWjb1IpvieAyHuXW9UKWJ7BdVoaVuhSSseaY8QhwqBYHhDyJ22ldzXpbRGVaVf8P8JD1uXxlT8mDTsF3M525mcVuM0G8yZjCpwQ0Y8Lwd377pGv7Amsk9IuCx6SAZYcywn40tvhBcMLjvV1cDOg26MOcmK6DraLK7BV31CgDZ0KwdyTZa4yNjddQFw36AFv7rPrLjwWywMlsfAzMPLoG6yZ0LIHEKX80bWuRqn6VV8touj",
+              "received": false
+            }
+          ],
+          "total_price": 37061,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Philadelphia",
+              "street": "Howell Ramp",
+              "house": 642,
+              "flat": 1086
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280011c508c5d5ecef3d1",
+          "products": [
+            {
+              "_id": "694280011c508c5d5ecef3f7",
+              "name": "Computer56615",
+              "amount": 225,
+              "price": 37061,
+              "manufacturer": "Microsoft",
+              "notes": "yJZLYOpr2d5XUWjb1IpvieAyHuXW9UKWJ7BdVoaVuhSSseaY8QhwqBYHhDyJ22ldzXpbRGVaVf8P8JD1uXxlT8mDTsF3M525mcVuM0G8yZjCpwQ0Y8Lwd377pGv7Amsk9IuCx6SAZYcywn40tvhBcMLjvV1cDOg26MOcmK6DraLK7BV31CgDZ0KwdyTZa4yNjddQFw36AFv7rPrLjwWywMlsfAzMPLoG6yZ0LIHEKX80bWuRqn6VV8touj",
+              "received": false
+            }
+          ],
+          "total_price": 37061,
+          "delivery": null,
+          "changedOn": "2025-12-17T10:03:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

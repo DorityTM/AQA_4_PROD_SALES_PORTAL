@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 10:03:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3669",
+    "etag": "W/\"e55-hKQ0xpD88g8Ar29CqLc3c7x+B5A\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694280071c508c5d5ecef62b",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694280061c508c5d5ecef5db",
+        "email": "Reed46@gmail.com",
+        "name": "Therese Fahey",
+        "country": "Canada",
+        "city": "St Charles",
+        "street": "Erick Villages 97",
+        "house": 901,
+        "flat": 4515,
+        "phone": "+870511988488077",
+        "createdOn": "2025-12-17T10:03:50.000Z",
+        "notes": "L8rLZtYNTZ5l5gaJDeCNDueiYjfnk1"
+      },
+      "products": [
+        {
+          "_id": "694280061c508c5d5ecef600",
+          "name": "Shoes47617",
+          "amount": 413,
+          "price": 1172,
+          "manufacturer": "Microsoft",
+          "notes": "ejTDbOuWnjaGBjnupJMRYL4t2nkTbHAwfbJYShhZIYVGw3KF4WIGhTQePGNk6FJcz66nspDsAlZS6R4fbvn5byeAiNh19zI7h9LgUxSHU4PviVrqNQbCwZYJoNt5H8SdM4q5iNClwnmYQ8nqHV5C2Q5mKorWRFX8YD9ocP2I96rSEKVJf9bj0BBb3tKS0S9yXEEFyjxFkuKtmotnYRu1i8uZVrtLdS35UoyRQnZqikyKml9gRUn49fUYyV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Lavinia",
+          "street": "Jensen Pine",
+          "house": 756,
+          "flat": 2014
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 1172,
+      "createdOn": "2025-12-17T10:03:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694280061c508c5d5ecef5db",
+          "products": [
+            {
+              "_id": "694280061c508c5d5ecef600",
+              "name": "Shoes47617",
+              "amount": 413,
+              "price": 1172,
+              "manufacturer": "Microsoft",
+              "notes": "ejTDbOuWnjaGBjnupJMRYL4t2nkTbHAwfbJYShhZIYVGw3KF4WIGhTQePGNk6FJcz66nspDsAlZS6R4fbvn5byeAiNh19zI7h9LgUxSHU4PviVrqNQbCwZYJoNt5H8SdM4q5iNClwnmYQ8nqHV5C2Q5mKorWRFX8YD9ocP2I96rSEKVJf9bj0BBb3tKS0S9yXEEFyjxFkuKtmotnYRu1i8uZVrtLdS35UoyRQnZqikyKml9gRUn49fUYyV",
+              "received": false
+            }
+          ],
+          "total_price": 1172,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Lavinia",
+              "street": "Jensen Pine",
+              "house": 756,
+              "flat": 2014
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:52.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280061c508c5d5ecef5db",
+          "products": [
+            {
+              "_id": "694280061c508c5d5ecef600",
+              "name": "Shoes47617",
+              "amount": 413,
+              "price": 1172,
+              "manufacturer": "Microsoft",
+              "notes": "ejTDbOuWnjaGBjnupJMRYL4t2nkTbHAwfbJYShhZIYVGw3KF4WIGhTQePGNk6FJcz66nspDsAlZS6R4fbvn5byeAiNh19zI7h9LgUxSHU4PviVrqNQbCwZYJoNt5H8SdM4q5iNClwnmYQ8nqHV5C2Q5mKorWRFX8YD9ocP2I96rSEKVJf9bj0BBb3tKS0S9yXEEFyjxFkuKtmotnYRu1i8uZVrtLdS35UoyRQnZqikyKml9gRUn49fUYyV",
+              "received": false
+            }
+          ],
+          "total_price": 1172,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Lavinia",
+              "street": "Jensen Pine",
+              "house": 756,
+              "flat": 2014
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280061c508c5d5ecef5db",
+          "products": [
+            {
+              "_id": "694280061c508c5d5ecef600",
+              "name": "Shoes47617",
+              "amount": 413,
+              "price": 1172,
+              "manufacturer": "Microsoft",
+              "notes": "ejTDbOuWnjaGBjnupJMRYL4t2nkTbHAwfbJYShhZIYVGw3KF4WIGhTQePGNk6FJcz66nspDsAlZS6R4fbvn5byeAiNh19zI7h9LgUxSHU4PviVrqNQbCwZYJoNt5H8SdM4q5iNClwnmYQ8nqHV5C2Q5mKorWRFX8YD9ocP2I96rSEKVJf9bj0BBb3tKS0S9yXEEFyjxFkuKtmotnYRu1i8uZVrtLdS35UoyRQnZqikyKml9gRUn49fUYyV",
+              "received": false
+            }
+          ],
+          "total_price": 1172,
+          "delivery": null,
+          "changedOn": "2025-12-17T10:03:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

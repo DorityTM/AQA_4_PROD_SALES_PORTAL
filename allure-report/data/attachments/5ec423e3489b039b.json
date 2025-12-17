@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 10:04:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2730",
+    "etag": "W/\"aaa-Sfwjd6DwwFLB0/2dcbqemNd4SVM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694280201c508c5d5ecf00d2",
+      "status": "Draft",
+      "customer": {
+        "_id": "694280201c508c5d5ecf0081",
+        "email": "Judson_Kunze86@hotmail.com",
+        "name": "Pierre Gislason",
+        "country": "Belarus",
+        "city": "Ellicott City",
+        "street": "County Line Road 86",
+        "house": 257,
+        "flat": 1003,
+        "phone": "+856993485050707",
+        "createdOn": "2025-12-17T10:04:16.000Z",
+        "notes": "DEePPS5Pdz8JCuRmZmA7Xbuz01XamA"
+      },
+      "products": [
+        {
+          "_id": "694280201c508c5d5ecf00a8",
+          "name": "Table97097",
+          "amount": 460,
+          "price": 74687,
+          "manufacturer": "Apple",
+          "notes": "cKQp7pslj6zGMsuuLqTM0JI01hThrhYOCraMP5fC9NQWYtTxtnjPo1QfAusTqJziurrEu9zhHeNPwzF63Dd23VkHjslDRPLj25qi3irpUcP5pw7eRSSaON4mCbOob7G1HHpGCeQe9qqBMoBpRaFlVOlB1YqwUUrtcYYm76V0tsaGYEay1wTnMf02kfPMShV4GcF6LvV70JGQgdI57hDzM3dx19mlR6egWIrS5JV9qzEUlvqx4UusSaHIhB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "A",
+          "street": "5th Avenue",
+          "house": 1,
+          "flat": 101
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 74687,
+      "createdOn": "2025-12-17T10:04:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694280201c508c5d5ecf0081",
+          "products": [
+            {
+              "_id": "694280201c508c5d5ecf00a8",
+              "name": "Table97097",
+              "amount": 460,
+              "price": 74687,
+              "manufacturer": "Apple",
+              "notes": "cKQp7pslj6zGMsuuLqTM0JI01hThrhYOCraMP5fC9NQWYtTxtnjPo1QfAusTqJziurrEu9zhHeNPwzF63Dd23VkHjslDRPLj25qi3irpUcP5pw7eRSSaON4mCbOob7G1HHpGCeQe9qqBMoBpRaFlVOlB1YqwUUrtcYYm76V0tsaGYEay1wTnMf02kfPMShV4GcF6LvV70JGQgdI57hDzM3dx19mlR6egWIrS5JV9qzEUlvqx4UusSaHIhB",
+              "received": false
+            }
+          ],
+          "total_price": 74687,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "A",
+              "street": "5th Avenue",
+              "house": 1,
+              "flat": 101
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:04:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280201c508c5d5ecf0081",
+          "products": [
+            {
+              "_id": "694280201c508c5d5ecf00a8",
+              "name": "Table97097",
+              "amount": 460,
+              "price": 74687,
+              "manufacturer": "Apple",
+              "notes": "cKQp7pslj6zGMsuuLqTM0JI01hThrhYOCraMP5fC9NQWYtTxtnjPo1QfAusTqJziurrEu9zhHeNPwzF63Dd23VkHjslDRPLj25qi3irpUcP5pw7eRSSaON4mCbOob7G1HHpGCeQe9qqBMoBpRaFlVOlB1YqwUUrtcYYm76V0tsaGYEay1wTnMf02kfPMShV4GcF6LvV70JGQgdI57hDzM3dx19mlR6egWIrS5JV9qzEUlvqx4UusSaHIhB",
+              "received": false
+            }
+          ],
+          "total_price": 74687,
+          "delivery": null,
+          "changedOn": "2025-12-17T10:04:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

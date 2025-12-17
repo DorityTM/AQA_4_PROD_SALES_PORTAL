@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 10:03:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3672",
+    "etag": "W/\"e58-F7T/zL49nDzEaBhXyacRbswv2tg\"",
+    "keep-alive": "timeout=5, max=32",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6942800a1c508c5d5ecef743",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694280091c508c5d5ecef70e",
+        "email": "Rylan_Trantow@hotmail.com",
+        "name": "Marjorie McGlynn",
+        "country": "Ukraine",
+        "city": "Marquesport",
+        "street": "Davis Street 67",
+        "house": 70,
+        "flat": 1053,
+        "phone": "+934827231066972",
+        "createdOn": "2025-12-17T10:03:53.000Z",
+        "notes": "NAKrG3DfxaxLIcsa9jWzc24PbvAvlc"
+      },
+      "products": [
+        {
+          "_id": "694280091c508c5d5ecef727",
+          "name": "Sausages43387",
+          "amount": 768,
+          "price": 97410,
+          "manufacturer": "Tesla",
+          "notes": "9GaFB1zC5mFX2XGU2gMjx7iry7BdHZfeSDrSaD7i22UKeXL2RuD2YLCdLgMpooFDPigGmqFxIr2OxtZh5VfkoVRZh5AmaHSkZneYXKWaXMK74HHaWGdRa9mnahPdOEz7QFtjyTFk5aFb5hg6v3uR6Kwp5vNi1ekM88xOMdaDD9QUsU9k9ttNUG4is5cxiML2dLn2mdLK8zer9x6FhFybE6gzeX3aTkf2mLmYUhrjKeHGEBxVL8YISdL1eR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Wylie",
+          "street": "Johnson Street",
+          "house": 291,
+          "flat": 2197
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97410,
+      "createdOn": "2025-12-17T10:03:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694280091c508c5d5ecef70e",
+          "products": [
+            {
+              "_id": "694280091c508c5d5ecef727",
+              "name": "Sausages43387",
+              "amount": 768,
+              "price": 97410,
+              "manufacturer": "Tesla",
+              "notes": "9GaFB1zC5mFX2XGU2gMjx7iry7BdHZfeSDrSaD7i22UKeXL2RuD2YLCdLgMpooFDPigGmqFxIr2OxtZh5VfkoVRZh5AmaHSkZneYXKWaXMK74HHaWGdRa9mnahPdOEz7QFtjyTFk5aFb5hg6v3uR6Kwp5vNi1ekM88xOMdaDD9QUsU9k9ttNUG4is5cxiML2dLn2mdLK8zer9x6FhFybE6gzeX3aTkf2mLmYUhrjKeHGEBxVL8YISdL1eR",
+              "received": false
+            }
+          ],
+          "total_price": 97410,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Wylie",
+              "street": "Johnson Street",
+              "house": 291,
+              "flat": 2197
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:54.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280091c508c5d5ecef70e",
+          "products": [
+            {
+              "_id": "694280091c508c5d5ecef727",
+              "name": "Sausages43387",
+              "amount": 768,
+              "price": 97410,
+              "manufacturer": "Tesla",
+              "notes": "9GaFB1zC5mFX2XGU2gMjx7iry7BdHZfeSDrSaD7i22UKeXL2RuD2YLCdLgMpooFDPigGmqFxIr2OxtZh5VfkoVRZh5AmaHSkZneYXKWaXMK74HHaWGdRa9mnahPdOEz7QFtjyTFk5aFb5hg6v3uR6Kwp5vNi1ekM88xOMdaDD9QUsU9k9ttNUG4is5cxiML2dLn2mdLK8zer9x6FhFybE6gzeX3aTkf2mLmYUhrjKeHGEBxVL8YISdL1eR",
+              "received": false
+            }
+          ],
+          "total_price": 97410,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Wylie",
+              "street": "Johnson Street",
+              "house": 291,
+              "flat": 2197
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T10:03:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694280091c508c5d5ecef70e",
+          "products": [
+            {
+              "_id": "694280091c508c5d5ecef727",
+              "name": "Sausages43387",
+              "amount": 768,
+              "price": 97410,
+              "manufacturer": "Tesla",
+              "notes": "9GaFB1zC5mFX2XGU2gMjx7iry7BdHZfeSDrSaD7i22UKeXL2RuD2YLCdLgMpooFDPigGmqFxIr2OxtZh5VfkoVRZh5AmaHSkZneYXKWaXMK74HHaWGdRa9mnahPdOEz7QFtjyTFk5aFb5hg6v3uR6Kwp5vNi1ekM88xOMdaDD9QUsU9k9ttNUG4is5cxiML2dLn2mdLK8zer9x6FhFybE6gzeX3aTkf2mLmYUhrjKeHGEBxVL8YISdL1eR",
+              "received": false
+            }
+          ],
+          "total_price": 97410,
+          "delivery": null,
+          "changedOn": "2025-12-17T10:03:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
