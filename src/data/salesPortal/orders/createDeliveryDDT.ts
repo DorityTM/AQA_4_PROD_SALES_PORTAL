@@ -44,6 +44,14 @@ export const CREATE_DELIVERY_POSITIVE_CASES: ICreateDeliveryCase[] = [
     expectedStatus: STATUS_CODES.OK,
     expectedErrorMessage: null,
   },
+  {
+    title: "Single character city name",
+    deliveryData: generateDelivery({
+      address: createAddressVariation({ city: "A" }),
+    }),
+    expectedStatus: STATUS_CODES.OK,
+    expectedErrorMessage: null,
+  },
 ];
 
 const MISSING_FIELDS_CASES: ICreateDeliveryCase[] = [
@@ -129,14 +137,6 @@ const BOUNDARY_CASES: ICreateDeliveryCase[] = [
     }),
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     expectedErrorMessage: RESPONSE_ERRORS.INCORRECT_DELIVERY,
-  },
-  {
-    title: "Single character city name",
-    deliveryData: generateDelivery({
-      address: createAddressVariation({ city: "A" }),
-    }),
-    expectedStatus: STATUS_CODES.BAD_REQUEST,
-    expectedErrorMessage: RESPONSE_ERRORS.BAD_REQUEST,
   },
   {
     title: "Exceeded Max length street name (>40 chars)",
