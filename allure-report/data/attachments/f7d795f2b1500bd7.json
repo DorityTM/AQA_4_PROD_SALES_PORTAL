@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 20:16:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3698",
+    "etag": "W/\"e72-AjZXe3CTCgFgO4iNyr6Vy2KwNx0\"",
+    "keep-alive": "timeout=5, max=13",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69430fa01c508c5d5ed010fa",
+      "status": "In Process",
+      "customer": {
+        "_id": "69430f9f1c508c5d5ed0109f",
+        "email": "Oliver3@yahoo.com",
+        "name": "Gregorio Smitham",
+        "country": "Germany",
+        "city": "Fort Quinten",
+        "street": "University Drive 88",
+        "house": 803,
+        "flat": 5817,
+        "phone": "+164012187698282",
+        "createdOn": "2025-12-17T20:16:31.000Z",
+        "notes": "6HTHhfgR1SpA2z7oXjAO3MssPnQo69"
+      },
+      "products": [
+        {
+          "_id": "69430fa01c508c5d5ed010d1",
+          "name": "Gloves71665",
+          "amount": 371,
+          "price": 21839,
+          "manufacturer": "Microsoft",
+          "notes": "t31Q50oagL38KSbvJK4mfegQ6VPvmYJdLfBovwCCMversBaxNwJkdjkwff46kuQR5V7Z6SRtOEQJulM18dyAHq1zKSLsvlpsMSkze6HsU6u1Y1T5EfjMm0k0lrj3JOiE1dIOg00iuHYGXcd8SCTWsICvHbqGsqcZQk0k63Pur1EGyki7qRvQG4UPxXxziauriApN02Q8UhTaXzijGCtXNW5Km2ThXJvrFf6RGPOVgTerFXEjYBjBhhY2Bq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Wizaport",
+          "street": "Harris Mission",
+          "house": 341,
+          "flat": 5826
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 21839,
+      "createdOn": "2025-12-17T20:16:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69430f9f1c508c5d5ed0109f",
+          "products": [
+            {
+              "_id": "69430fa01c508c5d5ed010d1",
+              "name": "Gloves71665",
+              "amount": 371,
+              "price": 21839,
+              "manufacturer": "Microsoft",
+              "notes": "t31Q50oagL38KSbvJK4mfegQ6VPvmYJdLfBovwCCMversBaxNwJkdjkwff46kuQR5V7Z6SRtOEQJulM18dyAHq1zKSLsvlpsMSkze6HsU6u1Y1T5EfjMm0k0lrj3JOiE1dIOg00iuHYGXcd8SCTWsICvHbqGsqcZQk0k63Pur1EGyki7qRvQG4UPxXxziauriApN02Q8UhTaXzijGCtXNW5Km2ThXJvrFf6RGPOVgTerFXEjYBjBhhY2Bq",
+              "received": false
+            }
+          ],
+          "total_price": 21839,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Wizaport",
+              "street": "Harris Mission",
+              "house": 341,
+              "flat": 5826
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:16:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69430f9f1c508c5d5ed0109f",
+          "products": [
+            {
+              "_id": "69430fa01c508c5d5ed010d1",
+              "name": "Gloves71665",
+              "amount": 371,
+              "price": 21839,
+              "manufacturer": "Microsoft",
+              "notes": "t31Q50oagL38KSbvJK4mfegQ6VPvmYJdLfBovwCCMversBaxNwJkdjkwff46kuQR5V7Z6SRtOEQJulM18dyAHq1zKSLsvlpsMSkze6HsU6u1Y1T5EfjMm0k0lrj3JOiE1dIOg00iuHYGXcd8SCTWsICvHbqGsqcZQk0k63Pur1EGyki7qRvQG4UPxXxziauriApN02Q8UhTaXzijGCtXNW5Km2ThXJvrFf6RGPOVgTerFXEjYBjBhhY2Bq",
+              "received": false
+            }
+          ],
+          "total_price": 21839,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Wizaport",
+              "street": "Harris Mission",
+              "house": 341,
+              "flat": 5826
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:16:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69430f9f1c508c5d5ed0109f",
+          "products": [
+            {
+              "_id": "69430fa01c508c5d5ed010d1",
+              "name": "Gloves71665",
+              "amount": 371,
+              "price": 21839,
+              "manufacturer": "Microsoft",
+              "notes": "t31Q50oagL38KSbvJK4mfegQ6VPvmYJdLfBovwCCMversBaxNwJkdjkwff46kuQR5V7Z6SRtOEQJulM18dyAHq1zKSLsvlpsMSkze6HsU6u1Y1T5EfjMm0k0lrj3JOiE1dIOg00iuHYGXcd8SCTWsICvHbqGsqcZQk0k63Pur1EGyki7qRvQG4UPxXxziauriApN02Q8UhTaXzijGCtXNW5Km2ThXJvrFf6RGPOVgTerFXEjYBjBhhY2Bq",
+              "received": false
+            }
+          ],
+          "total_price": 21839,
+          "delivery": null,
+          "changedOn": "2025-12-17T20:16:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

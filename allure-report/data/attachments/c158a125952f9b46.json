@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 20:16:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2704",
+    "etag": "W/\"a90-mQDRRD3mjRQ+XfMrdYg/DM7vb2I\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69430fa61c508c5d5ed013a3",
+      "status": "Draft",
+      "customer": {
+        "_id": "69430fa61c508c5d5ed01356",
+        "email": "Aliza4@hotmail.com",
+        "name": "Jaunita Ebert",
+        "country": "Canada",
+        "city": "Janelleland",
+        "street": "Spinka Light 85",
+        "house": 583,
+        "flat": 1868,
+        "phone": "+789794311719446",
+        "createdOn": "2025-12-17T20:16:38.000Z",
+        "notes": "ndfoY6WfpcIFCLSpl7Op1B0d6QZFPb"
+      },
+      "products": [
+        {
+          "_id": "69430fa61c508c5d5ed01375",
+          "name": "Hat13535",
+          "amount": 604,
+          "price": 1711,
+          "manufacturer": "Xiaomi",
+          "notes": "C6rRqGQslekbOudizvQ2N7b2DJi5tzJcrSE7ZibGqTxd0kNaSL4f06EfNT3zMC2YqH3GeimlkSc0FJzpSSfBvFGvvIYGvV6gTZbyfXSTDvpXChKEEDSx7ksFCJA50tkJDEHTwdMOzy0DvvvSK2EuzfEK8KgKf1KfPaev87Ryls5Ye0fpMj5MHMQCg11RPMKLGw3mCrdFqJcIbl7gEVTN26h75xz4fLOOgyzgBBP7qv5a4e7I1QY3laITHt",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "A",
+          "street": "5th Avenue",
+          "house": 1,
+          "flat": 101
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 1711,
+      "createdOn": "2025-12-17T20:16:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69430fa61c508c5d5ed01356",
+          "products": [
+            {
+              "_id": "69430fa61c508c5d5ed01375",
+              "name": "Hat13535",
+              "amount": 604,
+              "price": 1711,
+              "manufacturer": "Xiaomi",
+              "notes": "C6rRqGQslekbOudizvQ2N7b2DJi5tzJcrSE7ZibGqTxd0kNaSL4f06EfNT3zMC2YqH3GeimlkSc0FJzpSSfBvFGvvIYGvV6gTZbyfXSTDvpXChKEEDSx7ksFCJA50tkJDEHTwdMOzy0DvvvSK2EuzfEK8KgKf1KfPaev87Ryls5Ye0fpMj5MHMQCg11RPMKLGw3mCrdFqJcIbl7gEVTN26h75xz4fLOOgyzgBBP7qv5a4e7I1QY3laITHt",
+              "received": false
+            }
+          ],
+          "total_price": 1711,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "A",
+              "street": "5th Avenue",
+              "house": 1,
+              "flat": 101
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:16:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69430fa61c508c5d5ed01356",
+          "products": [
+            {
+              "_id": "69430fa61c508c5d5ed01375",
+              "name": "Hat13535",
+              "amount": 604,
+              "price": 1711,
+              "manufacturer": "Xiaomi",
+              "notes": "C6rRqGQslekbOudizvQ2N7b2DJi5tzJcrSE7ZibGqTxd0kNaSL4f06EfNT3zMC2YqH3GeimlkSc0FJzpSSfBvFGvvIYGvV6gTZbyfXSTDvpXChKEEDSx7ksFCJA50tkJDEHTwdMOzy0DvvvSK2EuzfEK8KgKf1KfPaev87Ryls5Ye0fpMj5MHMQCg11RPMKLGw3mCrdFqJcIbl7gEVTN26h75xz4fLOOgyzgBBP7qv5a4e7I1QY3laITHt",
+              "received": false
+            }
+          ],
+          "total_price": 1711,
+          "delivery": null,
+          "changedOn": "2025-12-17T20:16:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

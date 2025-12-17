@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 20:16:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2764",
+    "etag": "W/\"acc-E46YSEInR+qsIR7akZb5vlOhPP4\"",
+    "keep-alive": "timeout=5, max=36",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69430f901c508c5d5ed00a59",
+      "status": "Draft",
+      "customer": {
+        "_id": "69430f8f1c508c5d5ed009fc",
+        "email": "Haskell_Ward69@hotmail.com",
+        "name": "Waino Langworth",
+        "country": "Canada",
+        "city": "Kyraborough",
+        "street": "Von Land 56",
+        "house": 518,
+        "flat": 3897,
+        "phone": "+682890660593528",
+        "createdOn": "2025-12-17T20:16:15.000Z",
+        "notes": "jUyPSAGIalf0zgP1FUxb9hBxtzyBlI"
+      },
+      "products": [
+        {
+          "_id": "69430f901c508c5d5ed00a1f",
+          "name": "Sausages76853",
+          "amount": 232,
+          "price": 22059,
+          "manufacturer": "Samsung",
+          "notes": "XG1lbOi6ulTZxBE6luaeyWaZwIjqzl0x08ia42x05mqGCMcvf4cQqvqYUozinr1EkmuJRwGreJJfLlRL3rFUUMrTg6uBIB574BBcuXQln3V5Jl7R2LWN0TYfkhoF7ctfBgWztE4ZZ11JSS5MJPUaBGBvDmIydxVoUsgyfUR5ynt7K3hjT9kY41JGiB8nghsfENLtC9vqfl27Hj3aHJZP5Cr0K0E2058L7i8sl28vWyrULvgwVrMgbYNrml",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "DAmorehaven",
+          "street": "Koch Gateway",
+          "house": 948,
+          "flat": 3816
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22059,
+      "createdOn": "2025-12-17T20:16:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69430f8f1c508c5d5ed009fc",
+          "products": [
+            {
+              "_id": "69430f901c508c5d5ed00a1f",
+              "name": "Sausages76853",
+              "amount": 232,
+              "price": 22059,
+              "manufacturer": "Samsung",
+              "notes": "XG1lbOi6ulTZxBE6luaeyWaZwIjqzl0x08ia42x05mqGCMcvf4cQqvqYUozinr1EkmuJRwGreJJfLlRL3rFUUMrTg6uBIB574BBcuXQln3V5Jl7R2LWN0TYfkhoF7ctfBgWztE4ZZ11JSS5MJPUaBGBvDmIydxVoUsgyfUR5ynt7K3hjT9kY41JGiB8nghsfENLtC9vqfl27Hj3aHJZP5Cr0K0E2058L7i8sl28vWyrULvgwVrMgbYNrml",
+              "received": false
+            }
+          ],
+          "total_price": 22059,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "DAmorehaven",
+              "street": "Koch Gateway",
+              "house": 948,
+              "flat": 3816
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:16:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69430f8f1c508c5d5ed009fc",
+          "products": [
+            {
+              "_id": "69430f901c508c5d5ed00a1f",
+              "name": "Sausages76853",
+              "amount": 232,
+              "price": 22059,
+              "manufacturer": "Samsung",
+              "notes": "XG1lbOi6ulTZxBE6luaeyWaZwIjqzl0x08ia42x05mqGCMcvf4cQqvqYUozinr1EkmuJRwGreJJfLlRL3rFUUMrTg6uBIB574BBcuXQln3V5Jl7R2LWN0TYfkhoF7ctfBgWztE4ZZ11JSS5MJPUaBGBvDmIydxVoUsgyfUR5ynt7K3hjT9kY41JGiB8nghsfENLtC9vqfl27Hj3aHJZP5Cr0K0E2058L7i8sl28vWyrULvgwVrMgbYNrml",
+              "received": false
+            }
+          ],
+          "total_price": 22059,
+          "delivery": null,
+          "changedOn": "2025-12-17T20:16:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

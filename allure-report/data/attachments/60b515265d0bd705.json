@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 17 Dec 2025 20:16:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2758",
+    "etag": "W/\"ac6-M+C31XFWipQNDsXn3u2vVb1tx0I\"",
+    "keep-alive": "timeout=5, max=6",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69430f9e1c508c5d5ed0100d",
+      "status": "Draft",
+      "customer": {
+        "_id": "69430f9d1c508c5d5ed00fa5",
+        "email": "Lupe.Stroman18@yahoo.com",
+        "name": "Marcel Goyette",
+        "country": "Germany",
+        "city": "New Nova",
+        "street": "Zulauf Loop 87",
+        "house": 650,
+        "flat": 6439,
+        "phone": "+162830133967292",
+        "createdOn": "2025-12-17T20:16:29.000Z",
+        "notes": "FqamHiNA78QmyqGf6gDSCG2MmbLbMP"
+      },
+      "products": [
+        {
+          "_id": "69430f9d1c508c5d5ed00fd7",
+          "name": "Chair2326",
+          "amount": 413,
+          "price": 88822,
+          "manufacturer": "Apple",
+          "notes": "tYupBpNaDuntqCQ5rDJXu2wvfrimsdS6RIrtsAmVR3nEKfDLb1YaDwxLO0DDFLc3ptfyXFEW6hhwYqfB9WCrNyG7ngyhGbwKSe2o8TNFUYDUJcmVS5jVoHbeMvvnOySwV7GDfhVNUUnpvH1aBj47wHLzYXVtMM9Xdwi7lsEgBVmHKajAZG3vZmTQPDKBDK6aBp4laXZeNrZiK2YAIZqaqJEyfjLj5Daifq2Z5sUtLogaNQwUeJgOm8WAFK",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Port Gersonstead",
+          "street": "Predovic Track",
+          "house": 649,
+          "flat": 3272
+        },
+        "finalDate": "2025-12-24T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88822,
+      "createdOn": "2025-12-17T20:16:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69430f9d1c508c5d5ed00fa5",
+          "products": [
+            {
+              "_id": "69430f9d1c508c5d5ed00fd7",
+              "name": "Chair2326",
+              "amount": 413,
+              "price": 88822,
+              "manufacturer": "Apple",
+              "notes": "tYupBpNaDuntqCQ5rDJXu2wvfrimsdS6RIrtsAmVR3nEKfDLb1YaDwxLO0DDFLc3ptfyXFEW6hhwYqfB9WCrNyG7ngyhGbwKSe2o8TNFUYDUJcmVS5jVoHbeMvvnOySwV7GDfhVNUUnpvH1aBj47wHLzYXVtMM9Xdwi7lsEgBVmHKajAZG3vZmTQPDKBDK6aBp4laXZeNrZiK2YAIZqaqJEyfjLj5Daifq2Z5sUtLogaNQwUeJgOm8WAFK",
+              "received": false
+            }
+          ],
+          "total_price": 88822,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Gersonstead",
+              "street": "Predovic Track",
+              "house": 649,
+              "flat": 3272
+            },
+            "finalDate": "2025-12-24T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-17T20:16:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69430f9d1c508c5d5ed00fa5",
+          "products": [
+            {
+              "_id": "69430f9d1c508c5d5ed00fd7",
+              "name": "Chair2326",
+              "amount": 413,
+              "price": 88822,
+              "manufacturer": "Apple",
+              "notes": "tYupBpNaDuntqCQ5rDJXu2wvfrimsdS6RIrtsAmVR3nEKfDLb1YaDwxLO0DDFLc3ptfyXFEW6hhwYqfB9WCrNyG7ngyhGbwKSe2o8TNFUYDUJcmVS5jVoHbeMvvnOySwV7GDfhVNUUnpvH1aBj47wHLzYXVtMM9Xdwi7lsEgBVmHKajAZG3vZmTQPDKBDK6aBp4laXZeNrZiK2YAIZqaqJEyfjLj5Daifq2Z5sUtLogaNQwUeJgOm8WAFK",
+              "received": false
+            }
+          ],
+          "total_price": 88822,
+          "delivery": null,
+          "changedOn": "2025-12-17T20:16:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
