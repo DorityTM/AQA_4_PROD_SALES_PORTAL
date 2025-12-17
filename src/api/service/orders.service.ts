@@ -157,9 +157,9 @@ export class OrdersApiService {
     const customers = this.entitiesStore.getCustomerIds();
     const products = this.entitiesStore.getProductIds();
 
-    await Promise.all(orders.map((orderId) => this.delete(token, orderId)));
-    await Promise.all(customers.map((customerId) => this.customersApiService.delete(token, customerId)));
-    await Promise.all(products.map((productId) => this.productsApiService.delete(token, productId)));
+    await Promise.allSettled(orders.map((orderId) => this.delete(token, orderId)));
+    await Promise.allSettled(customers.map((customerId) => this.customersApiService.delete(token, customerId)));
+    await Promise.allSettled(products.map((productId) => this.productsApiService.delete(token, productId)));
 
     this.entitiesStore.clear();
   }
@@ -181,5 +181,25 @@ export class OrdersApiService {
       status: STATUS_CODES.DELETED,
     });
     return response;
+  }
+
+  async createCustomerAndProducts(
+    token: string,
+    productsCount: number,
+  ): Promise<{
+    customerId: string;
+    productIds: string[];
+  }> {
+    const customer = await this.customersApiService.create(token);
+    this.entitiesStore.trackCustomers(customer._id);
+
+    const productIds: string[] = [];
+    for (let i = 0; i < productsCount; i++) {
+      const product = await this.productsApiService.create(token);
+      productIds.push(product._id);
+    }
+    this.entitiesStore.trackProducts(productIds);
+
+    return { customerId: customer._id, productIds };
   }
 }
