@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:05:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2751",
+    "etag": "W/\"abf-e9KFqxUl+caSgV2rDAQ+seSsPUI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944505e1c508c5d5eddb610",
+      "status": "Draft",
+      "customer": {
+        "_id": "6944505e1c508c5d5eddb5e3",
+        "email": "Aubrey62@hotmail.com",
+        "name": "Sadie Luettgen",
+        "country": "USA",
+        "city": "West Dina",
+        "street": "Prospect Avenue 9",
+        "house": 142,
+        "flat": 5140,
+        "phone": "+398213044369823",
+        "createdOn": "2025-12-18T19:05:02.000Z",
+        "notes": "s34ANKa4AMnGxAW1zIcejJTzdymD1I"
+      },
+      "products": [
+        {
+          "_id": "6944505e1c508c5d5eddb5f2",
+          "name": "Soap18495",
+          "amount": 555,
+          "price": 27692,
+          "manufacturer": "Google",
+          "notes": "QbP3VWUjqEPGD6PfhDYxDmiioFmZ7yfDf7MCdAlX2l38eh3pfsTbDxi5iKIvkxASLpCpvdTmTkoF9MBHS9bmPS2LeLv75fx7VZC7A1mBcFs1e2Q8ZrdlD0Pd5uLo70RY5eMQ13lcKeo2Wn6edTWmKQZlF9HiroUVDfFuC0HrUgMfJjkZ6Uk5uDm7NmHdZRdt0eTWPV0MhYePtxTu5MbIn4b0ocvXmjjcPzY9OsEdXVD6RLFXRsgvAC35x6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "North Laurynview",
+          "street": "The Ridgeway",
+          "house": 686,
+          "flat": 3239
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 27692,
+      "createdOn": "2025-12-18T19:05:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944505e1c508c5d5eddb5e3",
+          "products": [
+            {
+              "_id": "6944505e1c508c5d5eddb5f2",
+              "name": "Soap18495",
+              "amount": 555,
+              "price": 27692,
+              "manufacturer": "Google",
+              "notes": "QbP3VWUjqEPGD6PfhDYxDmiioFmZ7yfDf7MCdAlX2l38eh3pfsTbDxi5iKIvkxASLpCpvdTmTkoF9MBHS9bmPS2LeLv75fx7VZC7A1mBcFs1e2Q8ZrdlD0Pd5uLo70RY5eMQ13lcKeo2Wn6edTWmKQZlF9HiroUVDfFuC0HrUgMfJjkZ6Uk5uDm7NmHdZRdt0eTWPV0MhYePtxTu5MbIn4b0ocvXmjjcPzY9OsEdXVD6RLFXRsgvAC35x6",
+              "received": false
+            }
+          ],
+          "total_price": 27692,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "North Laurynview",
+              "street": "The Ridgeway",
+              "house": 686,
+              "flat": 3239
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:05:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944505e1c508c5d5eddb5e3",
+          "products": [
+            {
+              "_id": "6944505e1c508c5d5eddb5f2",
+              "name": "Soap18495",
+              "amount": 555,
+              "price": 27692,
+              "manufacturer": "Google",
+              "notes": "QbP3VWUjqEPGD6PfhDYxDmiioFmZ7yfDf7MCdAlX2l38eh3pfsTbDxi5iKIvkxASLpCpvdTmTkoF9MBHS9bmPS2LeLv75fx7VZC7A1mBcFs1e2Q8ZrdlD0Pd5uLo70RY5eMQ13lcKeo2Wn6edTWmKQZlF9HiroUVDfFuC0HrUgMfJjkZ6Uk5uDm7NmHdZRdt0eTWPV0MhYePtxTu5MbIn4b0ocvXmjjcPzY9OsEdXVD6RLFXRsgvAC35x6",
+              "received": false
+            }
+          ],
+          "total_price": 27692,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:05:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

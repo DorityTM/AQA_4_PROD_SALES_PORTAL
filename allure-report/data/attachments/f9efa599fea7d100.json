@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:05:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3694",
+    "etag": "W/\"e6e-fUQLF8UxA7nsrVBZDI1EnT6iDX4\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694450721c508c5d5eddc1f3",
+      "status": "In Process",
+      "customer": {
+        "_id": "694450711c508c5d5eddc11e",
+        "email": "Deangelo9@hotmail.com",
+        "name": "Marco Kilback",
+        "country": "Germany",
+        "city": "Fort Laisha",
+        "street": "Ernestine Keys 7",
+        "house": 111,
+        "flat": 6040,
+        "phone": "+900853654357017",
+        "createdOn": "2025-12-18T19:05:21.000Z",
+        "notes": "w1CpfIcvnukTkDKVRUljV5Zgw12kv3"
+      },
+      "products": [
+        {
+          "_id": "694450721c508c5d5eddc1c5",
+          "name": "Cheese97534",
+          "amount": 524,
+          "price": 58532,
+          "manufacturer": "Apple",
+          "notes": "ojcZqu2iWPowgket132VxvgHCf87NZF1UilG8pcTeQfP9dPXnajQIY0P9K1zjuZl5VwQCQSTUlVFZQzIHweZ7atwGEpERGxjiUGDCC68CWtUd4Ux89Ye8D1OpiFv9efS4jWl5faO460hceGGSVKKkCI4PcxPSBg31hkuIYht3oLcE1M82chcklD44T4pxcHkaHEX9tAFWN0StRd7m1lkMs9iAciHyeI6IsBCrgCPNFebHAX1OwshjeRRhM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "West Dejahborough",
+          "street": "Zora Well",
+          "house": 645,
+          "flat": 1314
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58532,
+      "createdOn": "2025-12-18T19:05:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694450711c508c5d5eddc11e",
+          "products": [
+            {
+              "_id": "694450721c508c5d5eddc1c5",
+              "name": "Cheese97534",
+              "amount": 524,
+              "price": 58532,
+              "manufacturer": "Apple",
+              "notes": "ojcZqu2iWPowgket132VxvgHCf87NZF1UilG8pcTeQfP9dPXnajQIY0P9K1zjuZl5VwQCQSTUlVFZQzIHweZ7atwGEpERGxjiUGDCC68CWtUd4Ux89Ye8D1OpiFv9efS4jWl5faO460hceGGSVKKkCI4PcxPSBg31hkuIYht3oLcE1M82chcklD44T4pxcHkaHEX9tAFWN0StRd7m1lkMs9iAciHyeI6IsBCrgCPNFebHAX1OwshjeRRhM",
+              "received": false
+            }
+          ],
+          "total_price": 58532,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Dejahborough",
+              "street": "Zora Well",
+              "house": 645,
+              "flat": 1314
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:05:24.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694450711c508c5d5eddc11e",
+          "products": [
+            {
+              "_id": "694450721c508c5d5eddc1c5",
+              "name": "Cheese97534",
+              "amount": 524,
+              "price": 58532,
+              "manufacturer": "Apple",
+              "notes": "ojcZqu2iWPowgket132VxvgHCf87NZF1UilG8pcTeQfP9dPXnajQIY0P9K1zjuZl5VwQCQSTUlVFZQzIHweZ7atwGEpERGxjiUGDCC68CWtUd4Ux89Ye8D1OpiFv9efS4jWl5faO460hceGGSVKKkCI4PcxPSBg31hkuIYht3oLcE1M82chcklD44T4pxcHkaHEX9tAFWN0StRd7m1lkMs9iAciHyeI6IsBCrgCPNFebHAX1OwshjeRRhM",
+              "received": false
+            }
+          ],
+          "total_price": 58532,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Dejahborough",
+              "street": "Zora Well",
+              "house": 645,
+              "flat": 1314
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:05:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694450711c508c5d5eddc11e",
+          "products": [
+            {
+              "_id": "694450721c508c5d5eddc1c5",
+              "name": "Cheese97534",
+              "amount": 524,
+              "price": 58532,
+              "manufacturer": "Apple",
+              "notes": "ojcZqu2iWPowgket132VxvgHCf87NZF1UilG8pcTeQfP9dPXnajQIY0P9K1zjuZl5VwQCQSTUlVFZQzIHweZ7atwGEpERGxjiUGDCC68CWtUd4Ux89Ye8D1OpiFv9efS4jWl5faO460hceGGSVKKkCI4PcxPSBg31hkuIYht3oLcE1M82chcklD44T4pxcHkaHEX9tAFWN0StRd7m1lkMs9iAciHyeI6IsBCrgCPNFebHAX1OwshjeRRhM",
+              "received": false
+            }
+          ],
+          "total_price": 58532,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:05:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

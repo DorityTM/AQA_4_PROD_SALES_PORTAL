@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:04:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3643",
+    "etag": "W/\"e3b-4cNKMlkAqC6cDmXsvWyzx0X5Xe4\"",
+    "keep-alive": "timeout=5, max=44",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694450371c508c5d5edda023",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694450361c508c5d5edd9fe4",
+        "email": "William.Hauck@gmail.com",
+        "name": "Romaine Hoppe",
+        "country": "Great Britain",
+        "city": "Lodi",
+        "street": "Stanton Meadows 90",
+        "house": 58,
+        "flat": 6916,
+        "phone": "+196595419317441",
+        "createdOn": "2025-12-18T19:04:22.000Z",
+        "notes": "yEUcvjnp8UF52cyygzic8bAPUVSwxU"
+      },
+      "products": [
+        {
+          "_id": "694450371c508c5d5edd9ffe",
+          "name": "Tuna65940",
+          "amount": 653,
+          "price": 33496,
+          "manufacturer": "Samsung",
+          "notes": "T8ebqES3BYcR5llM8UW07jBtLT7VGwaSDCGDyqV4xh8dY0c4GtY2pyh3whRROhQnn06hhZbm3wrPtJxqdBu8IfpSEOAJZZ6WuVv4enoUpOuXt8ZOuMazxvYIngYfnPhED1YSZsz6Hxqwe3NKEbhboHmFPOdKMEvcK6Yc2VMmNQRaHDncf4Yvg0Xn95Lv2t8NLyJtxPXQR7Alj35TCWG9RN2CuybxsAq3uSSUpguLUw0lgjO9JrGORQaUcA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Apex",
+          "street": "Pine Grove",
+          "house": 551,
+          "flat": 4857
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33496,
+      "createdOn": "2025-12-18T19:04:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694450361c508c5d5edd9fe4",
+          "products": [
+            {
+              "_id": "694450371c508c5d5edd9ffe",
+              "name": "Tuna65940",
+              "amount": 653,
+              "price": 33496,
+              "manufacturer": "Samsung",
+              "notes": "T8ebqES3BYcR5llM8UW07jBtLT7VGwaSDCGDyqV4xh8dY0c4GtY2pyh3whRROhQnn06hhZbm3wrPtJxqdBu8IfpSEOAJZZ6WuVv4enoUpOuXt8ZOuMazxvYIngYfnPhED1YSZsz6Hxqwe3NKEbhboHmFPOdKMEvcK6Yc2VMmNQRaHDncf4Yvg0Xn95Lv2t8NLyJtxPXQR7Alj35TCWG9RN2CuybxsAq3uSSUpguLUw0lgjO9JrGORQaUcA",
+              "received": false
+            }
+          ],
+          "total_price": 33496,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Apex",
+              "street": "Pine Grove",
+              "house": 551,
+              "flat": 4857
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:04:25.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694450361c508c5d5edd9fe4",
+          "products": [
+            {
+              "_id": "694450371c508c5d5edd9ffe",
+              "name": "Tuna65940",
+              "amount": 653,
+              "price": 33496,
+              "manufacturer": "Samsung",
+              "notes": "T8ebqES3BYcR5llM8UW07jBtLT7VGwaSDCGDyqV4xh8dY0c4GtY2pyh3whRROhQnn06hhZbm3wrPtJxqdBu8IfpSEOAJZZ6WuVv4enoUpOuXt8ZOuMazxvYIngYfnPhED1YSZsz6Hxqwe3NKEbhboHmFPOdKMEvcK6Yc2VMmNQRaHDncf4Yvg0Xn95Lv2t8NLyJtxPXQR7Alj35TCWG9RN2CuybxsAq3uSSUpguLUw0lgjO9JrGORQaUcA",
+              "received": false
+            }
+          ],
+          "total_price": 33496,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Apex",
+              "street": "Pine Grove",
+              "house": 551,
+              "flat": 4857
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:04:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694450361c508c5d5edd9fe4",
+          "products": [
+            {
+              "_id": "694450371c508c5d5edd9ffe",
+              "name": "Tuna65940",
+              "amount": 653,
+              "price": 33496,
+              "manufacturer": "Samsung",
+              "notes": "T8ebqES3BYcR5llM8UW07jBtLT7VGwaSDCGDyqV4xh8dY0c4GtY2pyh3whRROhQnn06hhZbm3wrPtJxqdBu8IfpSEOAJZZ6WuVv4enoUpOuXt8ZOuMazxvYIngYfnPhED1YSZsz6Hxqwe3NKEbhboHmFPOdKMEvcK6Yc2VMmNQRaHDncf4Yvg0Xn95Lv2t8NLyJtxPXQR7Alj35TCWG9RN2CuybxsAq3uSSUpguLUw0lgjO9JrGORQaUcA",
+              "received": false
+            }
+          ],
+          "total_price": 33496,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:04:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
