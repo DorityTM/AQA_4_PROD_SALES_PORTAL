@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:39:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3956",
+    "etag": "W/\"f74-TDLGQbldHUZFUOA33TFU7WpFohE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944123d1c508c5d5edaa539",
+      "status": "Draft",
+      "customer": {
+        "_id": "6944123c1c508c5d5edaa4a4",
+        "email": "Bartholome.Lowe48@gmail.com",
+        "name": "Deshawn Witting",
+        "country": "Ukraine",
+        "city": "New Deeland",
+        "street": "Lynch Mission 66",
+        "house": 341,
+        "flat": 7922,
+        "phone": "+024551387973480",
+        "createdOn": "2025-12-18T14:39:56.000Z",
+        "notes": "9H8pzW3kW5nCBg9gqk52ZDZdY5PyKc"
+      },
+      "products": [
+        {
+          "_id": "6944123c1c508c5d5edaa4b8",
+          "name": "Computer87680",
+          "amount": 334,
+          "price": 85525,
+          "manufacturer": "Microsoft",
+          "notes": "dIZ4iwHtupyl3JmF77Z6x4skrhk1z9Vhztghl9afjnwh9X1Ngax9LRSZnmMrYYyKKRqFQTlez5F0Rz1ko7pXypP8StpT907TLRxBI2DgehfBIXgAJ5qyi4Ux7dQkKq2QdUMZW4OoNGOkNXfRqREmkGCokW78JOvhvmdbUYlWPZ2rr7iBWaCz4HuJRF9zfTWc5BHI13FBcSoyqIZBKtOxSPzSJ8b8CCXIbMHAdBgGTlEzsRlQJdlTJCbQGe",
+          "received": false
+        },
+        {
+          "_id": "6944123d1c508c5d5edaa520",
+          "name": "Sausages5073",
+          "amount": 161,
+          "price": 78105,
+          "manufacturer": "Google",
+          "notes": "a5mFS16JZAhx4mTDskyZwy8yuUocOGSZ64m4RBq6gXJACmBMJUwmtAzoG1pc06ImIyGJMa1XTq7XMjwFHQbKuCidtHAFCyikaalhCBqz0QIDBwRPeveUZ3NsuZkInA60a05HcdAwPG99oDHekRVJutkP6YD654ZCEcYH3TQJHQSKOx8mB49iVorUyTZU9Q30OKx7PiKGoVyhii1pbcGe072JHrnn0vtZ5u3ucMBnyxOVnxy20oE0l6nJKv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Valeriefurt",
+          "street": "Genevieve Skyway",
+          "house": 730,
+          "flat": 3932
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 163630,
+      "createdOn": "2025-12-18T14:39:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944123c1c508c5d5edaa4a4",
+          "products": [
+            {
+              "_id": "6944123c1c508c5d5edaa4b8",
+              "name": "Computer87680",
+              "amount": 334,
+              "price": 85525,
+              "manufacturer": "Microsoft",
+              "notes": "dIZ4iwHtupyl3JmF77Z6x4skrhk1z9Vhztghl9afjnwh9X1Ngax9LRSZnmMrYYyKKRqFQTlez5F0Rz1ko7pXypP8StpT907TLRxBI2DgehfBIXgAJ5qyi4Ux7dQkKq2QdUMZW4OoNGOkNXfRqREmkGCokW78JOvhvmdbUYlWPZ2rr7iBWaCz4HuJRF9zfTWc5BHI13FBcSoyqIZBKtOxSPzSJ8b8CCXIbMHAdBgGTlEzsRlQJdlTJCbQGe",
+              "received": false
+            },
+            {
+              "_id": "6944123d1c508c5d5edaa520",
+              "name": "Sausages5073",
+              "amount": 161,
+              "price": 78105,
+              "manufacturer": "Google",
+              "notes": "a5mFS16JZAhx4mTDskyZwy8yuUocOGSZ64m4RBq6gXJACmBMJUwmtAzoG1pc06ImIyGJMa1XTq7XMjwFHQbKuCidtHAFCyikaalhCBqz0QIDBwRPeveUZ3NsuZkInA60a05HcdAwPG99oDHekRVJutkP6YD654ZCEcYH3TQJHQSKOx8mB49iVorUyTZU9Q30OKx7PiKGoVyhii1pbcGe072JHrnn0vtZ5u3ucMBnyxOVnxy20oE0l6nJKv",
+              "received": false
+            }
+          ],
+          "total_price": 163630,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Valeriefurt",
+              "street": "Genevieve Skyway",
+              "house": 730,
+              "flat": 3932
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:39:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944123c1c508c5d5edaa4a4",
+          "products": [
+            {
+              "_id": "6944123c1c508c5d5edaa4b8",
+              "name": "Computer87680",
+              "amount": 334,
+              "price": 85525,
+              "manufacturer": "Microsoft",
+              "notes": "dIZ4iwHtupyl3JmF77Z6x4skrhk1z9Vhztghl9afjnwh9X1Ngax9LRSZnmMrYYyKKRqFQTlez5F0Rz1ko7pXypP8StpT907TLRxBI2DgehfBIXgAJ5qyi4Ux7dQkKq2QdUMZW4OoNGOkNXfRqREmkGCokW78JOvhvmdbUYlWPZ2rr7iBWaCz4HuJRF9zfTWc5BHI13FBcSoyqIZBKtOxSPzSJ8b8CCXIbMHAdBgGTlEzsRlQJdlTJCbQGe",
+              "received": false
+            },
+            {
+              "_id": "6944123d1c508c5d5edaa520",
+              "name": "Sausages5073",
+              "amount": 161,
+              "price": 78105,
+              "manufacturer": "Google",
+              "notes": "a5mFS16JZAhx4mTDskyZwy8yuUocOGSZ64m4RBq6gXJACmBMJUwmtAzoG1pc06ImIyGJMa1XTq7XMjwFHQbKuCidtHAFCyikaalhCBqz0QIDBwRPeveUZ3NsuZkInA60a05HcdAwPG99oDHekRVJutkP6YD654ZCEcYH3TQJHQSKOx8mB49iVorUyTZU9Q30OKx7PiKGoVyhii1pbcGe072JHrnn0vtZ5u3ucMBnyxOVnxy20oE0l6nJKv",
+              "received": false
+            }
+          ],
+          "total_price": 163630,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:39:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

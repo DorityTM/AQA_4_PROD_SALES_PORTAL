@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:39:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2743",
+    "etag": "W/\"ab7-oQ5z4fLE5I/hqAJ127lqxFn8h44\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944122b1c508c5d5eda9d42",
+      "status": "Draft",
+      "customer": {
+        "_id": "6944122a1c508c5d5eda9d0b",
+        "email": "Seamus_Oberbrunner@hotmail.com",
+        "name": "Lukas Schulist",
+        "country": "Canada",
+        "city": "Port Ociestead",
+        "street": "Tyrique Port 99",
+        "house": 376,
+        "flat": 1889,
+        "phone": "+227327390205489",
+        "createdOn": "2025-12-18T14:39:38.000Z",
+        "notes": "SRSAxunbhCbqdrbgPO27u4dYgX9sJS"
+      },
+      "products": [
+        {
+          "_id": "6944122b1c508c5d5eda9d21",
+          "name": "Chicken8332",
+          "amount": 691,
+          "price": 87225,
+          "manufacturer": "Sony",
+          "notes": "FmJUNeWW8ftFxnmsTRQi8Zbni1X99qrejrt2TspEIUUhsbLKks3b1FBEYVwMrOZ3vady7x65JTDcfBqYiQsDf1L3P6ZumgUlayUhV1PGYRT6qJA4LdAlnCaqcwRAt4443cvhGt6SvxtxY5g3aL7Olil0D4g3I0QALvEzwXA9iPBGaL7BgzEmgwHkh9Tj0cHU0vziimhXZdUxTMODwYoWmY3oi7jJrchVUVXFHOrEkhK5EIZjMWs1xXYGph",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Cleveland",
+          "street": "Oaklands",
+          "house": 553,
+          "flat": 830
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 87225,
+      "createdOn": "2025-12-18T14:39:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944122a1c508c5d5eda9d0b",
+          "products": [
+            {
+              "_id": "6944122b1c508c5d5eda9d21",
+              "name": "Chicken8332",
+              "amount": 691,
+              "price": 87225,
+              "manufacturer": "Sony",
+              "notes": "FmJUNeWW8ftFxnmsTRQi8Zbni1X99qrejrt2TspEIUUhsbLKks3b1FBEYVwMrOZ3vady7x65JTDcfBqYiQsDf1L3P6ZumgUlayUhV1PGYRT6qJA4LdAlnCaqcwRAt4443cvhGt6SvxtxY5g3aL7Olil0D4g3I0QALvEzwXA9iPBGaL7BgzEmgwHkh9Tj0cHU0vziimhXZdUxTMODwYoWmY3oi7jJrchVUVXFHOrEkhK5EIZjMWs1xXYGph",
+              "received": false
+            }
+          ],
+          "total_price": 87225,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Cleveland",
+              "street": "Oaklands",
+              "house": 553,
+              "flat": 830
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:39:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944122a1c508c5d5eda9d0b",
+          "products": [
+            {
+              "_id": "6944122b1c508c5d5eda9d21",
+              "name": "Chicken8332",
+              "amount": 691,
+              "price": 87225,
+              "manufacturer": "Sony",
+              "notes": "FmJUNeWW8ftFxnmsTRQi8Zbni1X99qrejrt2TspEIUUhsbLKks3b1FBEYVwMrOZ3vady7x65JTDcfBqYiQsDf1L3P6ZumgUlayUhV1PGYRT6qJA4LdAlnCaqcwRAt4443cvhGt6SvxtxY5g3aL7Olil0D4g3I0QALvEzwXA9iPBGaL7BgzEmgwHkh9Tj0cHU0vziimhXZdUxTMODwYoWmY3oi7jJrchVUVXFHOrEkhK5EIZjMWs1xXYGph",
+              "received": false
+            }
+          ],
+          "total_price": 87225,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:39:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

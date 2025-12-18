@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:39:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2750",
+    "etag": "W/\"abe-tWFOOUqmui3abW7UjoLXpHuEdqc\"",
+    "keep-alive": "timeout=5, max=36",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694412061c508c5d5eda8d2d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694412051c508c5d5eda8cef",
+        "email": "Raheem26@gmail.com",
+        "name": "Kelvin Koepp",
+        "country": "Germany",
+        "city": "Fort Todside",
+        "street": "Mill Road 26",
+        "house": 476,
+        "flat": 377,
+        "phone": "+811186859431044",
+        "createdOn": "2025-12-18T14:39:01.000Z",
+        "notes": "U1muynPVwF6bzR4UkzI4ibmUnj6Vgy"
+      },
+      "products": [
+        {
+          "_id": "694412061c508c5d5eda8d04",
+          "name": "Sausages41041",
+          "amount": 658,
+          "price": 62622,
+          "manufacturer": "Amazon",
+          "notes": "7j2Ne1Q2dKzDm1YwksRiYHC7lRhu1zGSjGYIv31cmS2PVblanUlx8U223QSMakPfaFWK93i91Y77O5i8Z7yw2uKmTO7vPpbgWjB6rd1LGHwnj9Vual1VMSsJCyMkgMBU9kOJaPyb6a7YZJ6VXLkvAiCuzFxjzPxq8uPoVEbjHgIkoJyaTv98NvzlhQbotiilRYlpurDCj9oqzlcEe0wTfzjhUba1U0k1J9qCbdT7bWVeu13JAsGQHgNvzf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "South Jessika",
+          "street": "Brandy Key",
+          "house": 285,
+          "flat": 1531
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 62622,
+      "createdOn": "2025-12-18T14:39:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694412051c508c5d5eda8cef",
+          "products": [
+            {
+              "_id": "694412061c508c5d5eda8d04",
+              "name": "Sausages41041",
+              "amount": 658,
+              "price": 62622,
+              "manufacturer": "Amazon",
+              "notes": "7j2Ne1Q2dKzDm1YwksRiYHC7lRhu1zGSjGYIv31cmS2PVblanUlx8U223QSMakPfaFWK93i91Y77O5i8Z7yw2uKmTO7vPpbgWjB6rd1LGHwnj9Vual1VMSsJCyMkgMBU9kOJaPyb6a7YZJ6VXLkvAiCuzFxjzPxq8uPoVEbjHgIkoJyaTv98NvzlhQbotiilRYlpurDCj9oqzlcEe0wTfzjhUba1U0k1J9qCbdT7bWVeu13JAsGQHgNvzf",
+              "received": false
+            }
+          ],
+          "total_price": 62622,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Jessika",
+              "street": "Brandy Key",
+              "house": 285,
+              "flat": 1531
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:39:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694412051c508c5d5eda8cef",
+          "products": [
+            {
+              "_id": "694412061c508c5d5eda8d04",
+              "name": "Sausages41041",
+              "amount": 658,
+              "price": 62622,
+              "manufacturer": "Amazon",
+              "notes": "7j2Ne1Q2dKzDm1YwksRiYHC7lRhu1zGSjGYIv31cmS2PVblanUlx8U223QSMakPfaFWK93i91Y77O5i8Z7yw2uKmTO7vPpbgWjB6rd1LGHwnj9Vual1VMSsJCyMkgMBU9kOJaPyb6a7YZJ6VXLkvAiCuzFxjzPxq8uPoVEbjHgIkoJyaTv98NvzlhQbotiilRYlpurDCj9oqzlcEe0wTfzjhUba1U0k1J9qCbdT7bWVeu13JAsGQHgNvzf",
+              "received": false
+            }
+          ],
+          "total_price": 62622,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:39:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

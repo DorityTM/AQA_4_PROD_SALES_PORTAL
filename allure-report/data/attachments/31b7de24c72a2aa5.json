@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:39:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3673",
+    "etag": "W/\"e59-ex0kusbLdLnMf/1o3Cct/e+iDus\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694412351c508c5d5edaa1b5",
+      "status": "In Process",
+      "customer": {
+        "_id": "694412341c508c5d5edaa12a",
+        "email": "Antwan44@hotmail.com",
+        "name": "Jazmin Heathcote",
+        "country": "Belarus",
+        "city": "Vincenzochester",
+        "street": "Nicklaus Mount 28",
+        "house": 197,
+        "flat": 513,
+        "phone": "+997545137751323",
+        "createdOn": "2025-12-18T14:39:48.000Z",
+        "notes": "wNUVjZDFkMA7MPa3FaNm6uALAn6IZ0"
+      },
+      "products": [
+        {
+          "_id": "694412341c508c5d5edaa13e",
+          "name": "Chips6962",
+          "amount": 42,
+          "price": 72492,
+          "manufacturer": "Tesla",
+          "notes": "cgIQQniUyVoF81XJEByX0GvvllPVB8kYFPSFT3p2NCqjoO8vQavWRckYqi9PkOgEHln5L0KyGv5wdptXqMza7PKKstEKnZReL7QMd2SCccXVsibTuRtlwsFiwFRevaZ6jP1bh8SzPs1QW4K7JinTu85zVz6t4xzNZ83BYbMDleue9I4tjuPAWb2CkU8LmP0NL2pKaeSQ1NAQkvA0UilsjJ1VS5Pwi7Hl6Rc6u3YPyBDJwUIVzxbXxjsv1f",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Bartolettiton",
+          "street": "Schultz Parks",
+          "house": 910,
+          "flat": 414
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72492,
+      "createdOn": "2025-12-18T14:39:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694412341c508c5d5edaa12a",
+          "products": [
+            {
+              "_id": "694412341c508c5d5edaa13e",
+              "name": "Chips6962",
+              "amount": 42,
+              "price": 72492,
+              "manufacturer": "Tesla",
+              "notes": "cgIQQniUyVoF81XJEByX0GvvllPVB8kYFPSFT3p2NCqjoO8vQavWRckYqi9PkOgEHln5L0KyGv5wdptXqMza7PKKstEKnZReL7QMd2SCccXVsibTuRtlwsFiwFRevaZ6jP1bh8SzPs1QW4K7JinTu85zVz6t4xzNZ83BYbMDleue9I4tjuPAWb2CkU8LmP0NL2pKaeSQ1NAQkvA0UilsjJ1VS5Pwi7Hl6Rc6u3YPyBDJwUIVzxbXxjsv1f",
+              "received": false
+            }
+          ],
+          "total_price": 72492,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Bartolettiton",
+              "street": "Schultz Parks",
+              "house": 910,
+              "flat": 414
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:39:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694412341c508c5d5edaa12a",
+          "products": [
+            {
+              "_id": "694412341c508c5d5edaa13e",
+              "name": "Chips6962",
+              "amount": 42,
+              "price": 72492,
+              "manufacturer": "Tesla",
+              "notes": "cgIQQniUyVoF81XJEByX0GvvllPVB8kYFPSFT3p2NCqjoO8vQavWRckYqi9PkOgEHln5L0KyGv5wdptXqMza7PKKstEKnZReL7QMd2SCccXVsibTuRtlwsFiwFRevaZ6jP1bh8SzPs1QW4K7JinTu85zVz6t4xzNZ83BYbMDleue9I4tjuPAWb2CkU8LmP0NL2pKaeSQ1NAQkvA0UilsjJ1VS5Pwi7Hl6Rc6u3YPyBDJwUIVzxbXxjsv1f",
+              "received": false
+            }
+          ],
+          "total_price": 72492,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Bartolettiton",
+              "street": "Schultz Parks",
+              "house": 910,
+              "flat": 414
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:39:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694412341c508c5d5edaa12a",
+          "products": [
+            {
+              "_id": "694412341c508c5d5edaa13e",
+              "name": "Chips6962",
+              "amount": 42,
+              "price": 72492,
+              "manufacturer": "Tesla",
+              "notes": "cgIQQniUyVoF81XJEByX0GvvllPVB8kYFPSFT3p2NCqjoO8vQavWRckYqi9PkOgEHln5L0KyGv5wdptXqMza7PKKstEKnZReL7QMd2SCccXVsibTuRtlwsFiwFRevaZ6jP1bh8SzPs1QW4K7JinTu85zVz6t4xzNZ83BYbMDleue9I4tjuPAWb2CkU8LmP0NL2pKaeSQ1NAQkvA0UilsjJ1VS5Pwi7Hl6Rc6u3YPyBDJwUIVzxbXxjsv1f",
+              "received": false
+            }
+          ],
+          "total_price": 72492,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:39:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
