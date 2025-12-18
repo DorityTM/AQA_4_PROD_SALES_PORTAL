@@ -1,7 +1,7 @@
 import { test, expect } from "fixtures/api.fixture";
 import { TAGS } from "data/tags";
 import { validateResponse } from "utils/validation/validateResponse.utils";
-import { IOrderFromResponse, IOrderHistory } from "data/types/order.types";
+import { IOrderFromResponse } from "data/types/order.types";
 import { ORDER_HISTORY_ACTIONS, ORDER_STATUS } from "data/salesPortal/order-status";
 import type { IProduct } from "data/types/product.types";
 import { updateOrderErrorCases } from "data/salesPortal/orders/updateOrderTestData";
@@ -10,6 +10,9 @@ test.describe("[API][Orders]", () => {
   let token = "";
   let orderId = "";
   let orderObj: IOrderFromResponse | null = null;
+
+  const productIdsOf = (order: IOrderFromResponse) => order.products.map((p) => p._id);
+  const calcTotal = (order: IOrderFromResponse) => order.products.reduce((sum, p) => sum + p.price, 0);
 
   test.beforeEach(async ({ loginApiService, ordersApiService }) => {
     token = await loginApiService.loginAsAdmin();
@@ -31,7 +34,7 @@ test.describe("[API][Orders]", () => {
       "ORD-PUT-001: Successful products update recalculates total_price",
       { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
       async ({ ordersApiService, productsApiService }) => {
-        const original: IOrderFromResponse = orderObj!;
+        const original = orderObj!;
 
         expect.soft(original.products.length).toBeGreaterThan(0);
         const originalFirst = original.products[0]!;
@@ -48,10 +51,7 @@ test.describe("[API][Orders]", () => {
           customer: original.customer._id,
           products: [originalFirst._id],
         });
-        const expectedTotal = updated.products.reduce(
-          (sum: number, p: IOrderFromResponse["products"][number]) => sum + p.price,
-          0,
-        );
+        const expectedTotal = calcTotal(updated);
         expect.soft(updated.total_price).toBe(expectedTotal);
         expect.soft(updated.products[0]!.price).toBe(originalFirst.price + 100);
         expect.soft(updated._id).toBe(orderId);
@@ -62,20 +62,16 @@ test.describe("[API][Orders]", () => {
       "ORD-PUT-002: Successful update of customer in order",
       { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
       async ({ ordersApiService, customersApiService }) => {
-        const original: IOrderFromResponse = orderObj!;
+        const original = orderObj!;
         const newCustomer = await customersApiService.create(token);
 
-        const productIds = original.products.map((p) => p._id);
+        const productIds = productIdsOf(original);
         const updated = await ordersApiService.update(token, orderId, {
           customer: newCustomer._id,
           products: productIds,
         });
         expect.soft(updated.customer._id).toBe(newCustomer._id);
-
-        const expectedTotal = updated.products.reduce(
-          (sum: number, p: IOrderFromResponse["products"][number]) => sum + p.price,
-          0,
-        );
+        const expectedTotal = calcTotal(updated);
         expect.soft(updated.total_price).toBe(expectedTotal);
       },
     );
@@ -86,7 +82,7 @@ test.describe("[API][Orders]", () => {
       async ({ ordersApiService }) => {
         const before = orderObj!;
 
-        const productIds = before.products.map((p) => p._id);
+        const productIds = productIdsOf(before);
         const after = await ordersApiService.update(token, orderId, {
           customer: before.customer._id,
           products: productIds,
@@ -99,7 +95,7 @@ test.describe("[API][Orders]", () => {
       "ORD-PUT-004: History entry recorded when order composition changes",
       { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
       async ({ ordersApiService, productsApiService }) => {
-        const before: IOrderFromResponse = orderObj!;
+        const before = orderObj!;
         const beforeHistoryLen = before.history.length;
 
         const extraProduct = await productsApiService.create(token);
@@ -110,9 +106,7 @@ test.describe("[API][Orders]", () => {
           products: productIds,
         });
         expect.soft(after.history.length).toBeGreaterThan(beforeHistoryLen);
-        const changed = after.history.find(
-          (h: IOrderHistory) => h.action === ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
-        );
+        const changed = after.history.find((h) => h.action === ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED);
         expect.soft(changed).toBeTruthy();
         expect.soft(changed?.changedOn).toBeTruthy();
       },
@@ -137,17 +131,17 @@ test.describe("[API][Orders]", () => {
       async ({ ordersApiService }) => {
         const before = orderObj!;
 
-        const productIds = before.products.map((p) => p._id);
+        const productIds = productIdsOf(before);
         const after = await ordersApiService.update(token, orderId, {
           customer: before.customer._id,
           products: productIds,
         });
 
         const beforeCount = before.history.filter(
-          (h: IOrderHistory) => h.action === ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
+          (h) => h.action === ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
         ).length;
         const afterCount = after.history.filter(
-          (h: IOrderHistory) => h.action === ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
+          (h) => h.action === ORDER_HISTORY_ACTIONS.REQUIRED_PRODUCTS_CHANGED,
         ).length;
         expect.soft(afterCount).toBe(beforeCount);
       },
