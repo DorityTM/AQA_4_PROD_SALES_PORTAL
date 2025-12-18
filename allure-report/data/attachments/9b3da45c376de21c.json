@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 12:10:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6515",
+    "etag": "W/\"1973-nVd6MrqA6HxrjIja7Z2Xn/1E3rU\"",
+    "keep-alive": "timeout=5, max=51",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943ef401c508c5d5ed9c873",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6943ef3f1c508c5d5ed9c7ed",
+        "email": "Emery.Rosenbaum85@gmail.com",
+        "name": "Aiden Kerluke",
+        "country": "Canada",
+        "city": "Zboncakmouth",
+        "street": "Third Street 95",
+        "house": 399,
+        "flat": 9100,
+        "phone": "+823101077017839",
+        "createdOn": "2025-12-18T12:10:39.000Z",
+        "notes": "jNF5x0N0D5aKiXXqn9CxTW1Fv7BenA"
+      },
+      "products": [
+        {
+          "_id": "6943ef3f1c508c5d5ed9c7fd",
+          "name": "Car79652",
+          "amount": 927,
+          "price": 52116,
+          "manufacturer": "Tesla",
+          "notes": "xymwCql74H17ccoa3TC80Zfu1ub2x4UGMbi6Qc62OSRLOHfA3OvTDEjKld3hP2UaJoSriqb4xGkudcguVXERu3X7Ons1v6wniTJR5SWgtVetVXmd22HpVT3QqY46NWHWBnrmHElEcexBr6LFChQX99PxDLUHegAXTFUafkFupetKX1U65Wt3uUOFNLrJYseRNLQjQj1TkFO59nqX6FnDhmE9YqhyAXFMHkwj63KiptciYW8yeWJ4vI5sJo",
+          "received": true
+        },
+        {
+          "_id": "6943ef3f1c508c5d5ed9c826",
+          "name": "Towels78024",
+          "amount": 315,
+          "price": 26664,
+          "manufacturer": "Amazon",
+          "notes": "qHAq99TtzlSRAXTl2DDC1bbjUwteQJcjH9roPnYs1cWpQQ6QPjDWWq5Izh7eu2F7yrFefDor7O2Wr7PqlbLkq1KeA5RnhJb0aA4nnbfkXd9pKy6e6ireGocJ0bsfvdw2K5vviU6txxeQHHcnILeWZTWsdBEB64UV2THtMK126LTNhJg0NGpf4Ehu7xT8tZQVfetRnjf8OxTlsYMBDbtynj2nY2MIPEXrTrHwytREoFrHSueLDF006MiKWW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Mitchell",
+          "street": "Sven Skyway",
+          "house": 303,
+          "flat": 1660
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 78780,
+      "createdOn": "2025-12-18T12:10:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6943ef3f1c508c5d5ed9c7ed",
+          "products": [
+            {
+              "_id": "6943ef3f1c508c5d5ed9c7fd",
+              "name": "Car79652",
+              "amount": 927,
+              "price": 52116,
+              "manufacturer": "Tesla",
+              "notes": "xymwCql74H17ccoa3TC80Zfu1ub2x4UGMbi6Qc62OSRLOHfA3OvTDEjKld3hP2UaJoSriqb4xGkudcguVXERu3X7Ons1v6wniTJR5SWgtVetVXmd22HpVT3QqY46NWHWBnrmHElEcexBr6LFChQX99PxDLUHegAXTFUafkFupetKX1U65Wt3uUOFNLrJYseRNLQjQj1TkFO59nqX6FnDhmE9YqhyAXFMHkwj63KiptciYW8yeWJ4vI5sJo",
+              "received": true
+            },
+            {
+              "_id": "6943ef3f1c508c5d5ed9c826",
+              "name": "Towels78024",
+              "amount": 315,
+              "price": 26664,
+              "manufacturer": "Amazon",
+              "notes": "qHAq99TtzlSRAXTl2DDC1bbjUwteQJcjH9roPnYs1cWpQQ6QPjDWWq5Izh7eu2F7yrFefDor7O2Wr7PqlbLkq1KeA5RnhJb0aA4nnbfkXd9pKy6e6ireGocJ0bsfvdw2K5vviU6txxeQHHcnILeWZTWsdBEB64UV2THtMK126LTNhJg0NGpf4Ehu7xT8tZQVfetRnjf8OxTlsYMBDbtynj2nY2MIPEXrTrHwytREoFrHSueLDF006MiKWW",
+              "received": false
+            }
+          ],
+          "total_price": 78780,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Mitchell",
+              "street": "Sven Skyway",
+              "house": 303,
+              "flat": 1660
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:10:41.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6943ef3f1c508c5d5ed9c7ed",
+          "products": [
+            {
+              "_id": "6943ef3f1c508c5d5ed9c7fd",
+              "name": "Car79652",
+              "amount": 927,
+              "price": 52116,
+              "manufacturer": "Tesla",
+              "notes": "xymwCql74H17ccoa3TC80Zfu1ub2x4UGMbi6Qc62OSRLOHfA3OvTDEjKld3hP2UaJoSriqb4xGkudcguVXERu3X7Ons1v6wniTJR5SWgtVetVXmd22HpVT3QqY46NWHWBnrmHElEcexBr6LFChQX99PxDLUHegAXTFUafkFupetKX1U65Wt3uUOFNLrJYseRNLQjQj1TkFO59nqX6FnDhmE9YqhyAXFMHkwj63KiptciYW8yeWJ4vI5sJo",
+              "received": false
+            },
+            {
+              "_id": "6943ef3f1c508c5d5ed9c826",
+              "name": "Towels78024",
+              "amount": 315,
+              "price": 26664,
+              "manufacturer": "Amazon",
+              "notes": "qHAq99TtzlSRAXTl2DDC1bbjUwteQJcjH9roPnYs1cWpQQ6QPjDWWq5Izh7eu2F7yrFefDor7O2Wr7PqlbLkq1KeA5RnhJb0aA4nnbfkXd9pKy6e6ireGocJ0bsfvdw2K5vviU6txxeQHHcnILeWZTWsdBEB64UV2THtMK126LTNhJg0NGpf4Ehu7xT8tZQVfetRnjf8OxTlsYMBDbtynj2nY2MIPEXrTrHwytREoFrHSueLDF006MiKWW",
+              "received": false
+            }
+          ],
+          "total_price": 78780,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Mitchell",
+              "street": "Sven Skyway",
+              "house": 303,
+              "flat": 1660
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:10:41.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943ef3f1c508c5d5ed9c7ed",
+          "products": [
+            {
+              "_id": "6943ef3f1c508c5d5ed9c7fd",
+              "name": "Car79652",
+              "amount": 927,
+              "price": 52116,
+              "manufacturer": "Tesla",
+              "notes": "xymwCql74H17ccoa3TC80Zfu1ub2x4UGMbi6Qc62OSRLOHfA3OvTDEjKld3hP2UaJoSriqb4xGkudcguVXERu3X7Ons1v6wniTJR5SWgtVetVXmd22HpVT3QqY46NWHWBnrmHElEcexBr6LFChQX99PxDLUHegAXTFUafkFupetKX1U65Wt3uUOFNLrJYseRNLQjQj1TkFO59nqX6FnDhmE9YqhyAXFMHkwj63KiptciYW8yeWJ4vI5sJo",
+              "received": false
+            },
+            {
+              "_id": "6943ef3f1c508c5d5ed9c826",
+              "name": "Towels78024",
+              "amount": 315,
+              "price": 26664,
+              "manufacturer": "Amazon",
+              "notes": "qHAq99TtzlSRAXTl2DDC1bbjUwteQJcjH9roPnYs1cWpQQ6QPjDWWq5Izh7eu2F7yrFefDor7O2Wr7PqlbLkq1KeA5RnhJb0aA4nnbfkXd9pKy6e6ireGocJ0bsfvdw2K5vviU6txxeQHHcnILeWZTWsdBEB64UV2THtMK126LTNhJg0NGpf4Ehu7xT8tZQVfetRnjf8OxTlsYMBDbtynj2nY2MIPEXrTrHwytREoFrHSueLDF006MiKWW",
+              "received": false
+            }
+          ],
+          "total_price": 78780,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Mitchell",
+              "street": "Sven Skyway",
+              "house": 303,
+              "flat": 1660
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:10:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943ef3f1c508c5d5ed9c7ed",
+          "products": [
+            {
+              "_id": "6943ef3f1c508c5d5ed9c7fd",
+              "name": "Car79652",
+              "amount": 927,
+              "price": 52116,
+              "manufacturer": "Tesla",
+              "notes": "xymwCql74H17ccoa3TC80Zfu1ub2x4UGMbi6Qc62OSRLOHfA3OvTDEjKld3hP2UaJoSriqb4xGkudcguVXERu3X7Ons1v6wniTJR5SWgtVetVXmd22HpVT3QqY46NWHWBnrmHElEcexBr6LFChQX99PxDLUHegAXTFUafkFupetKX1U65Wt3uUOFNLrJYseRNLQjQj1TkFO59nqX6FnDhmE9YqhyAXFMHkwj63KiptciYW8yeWJ4vI5sJo",
+              "received": false
+            },
+            {
+              "_id": "6943ef3f1c508c5d5ed9c826",
+              "name": "Towels78024",
+              "amount": 315,
+              "price": 26664,
+              "manufacturer": "Amazon",
+              "notes": "qHAq99TtzlSRAXTl2DDC1bbjUwteQJcjH9roPnYs1cWpQQ6QPjDWWq5Izh7eu2F7yrFefDor7O2Wr7PqlbLkq1KeA5RnhJb0aA4nnbfkXd9pKy6e6ireGocJ0bsfvdw2K5vviU6txxeQHHcnILeWZTWsdBEB64UV2THtMK126LTNhJg0NGpf4Ehu7xT8tZQVfetRnjf8OxTlsYMBDbtynj2nY2MIPEXrTrHwytREoFrHSueLDF006MiKWW",
+              "received": false
+            }
+          ],
+          "total_price": 78780,
+          "delivery": null,
+          "changedOn": "2025-12-18T12:10:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 12:10:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3911",
+    "etag": "W/\"f47-HvzxlDb6/M4ufng9L4NyfP47Y/s\"",
+    "keep-alive": "timeout=5, max=42",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943ef451c508c5d5ed9ca7f",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943ef441c508c5d5ed9c9fc",
+        "email": "Vanessa_Rippin@hotmail.com",
+        "name": "Adriel Will",
+        "country": "Germany",
+        "city": "West Lindsey",
+        "street": "Liliane Loaf 96",
+        "house": 668,
+        "flat": 1126,
+        "phone": "+327234612055501",
+        "createdOn": "2025-12-18T12:10:44.000Z",
+        "notes": "C9ibueSFMxmItqCzao4gKobTF3NbaV"
+      },
+      "products": [
+        {
+          "_id": "6943ef441c508c5d5ed9ca32",
+          "name": "Pants6174",
+          "amount": 616,
+          "price": 48096,
+          "manufacturer": "Sony",
+          "notes": "NaCgYZcl2SBsFAR7XBMjP3wGG58TaFw3HdGNC0AKym5xKlUX8eLoLvRz58o9kQJOgoKBHnfOWRxikCXxM4jYrpK21nZTO2COnl61UQc7zWLjb0yjBOaZBIzEhDuf42rhXwsJN8bbtF04cyW699UbFWslnHfOaSkcBkqUSmlQLPagwJb1kN3MSJI8MTRtfOrKEKGQoZ7MrEzYUPtwpAG8AU1olOs0zwDP35XQLgtKqIz7w7hDqKj0hQHWQu",
+          "received": false
+        },
+        {
+          "_id": "6943ef441c508c5d5ed9ca5d",
+          "name": "Towels49007",
+          "amount": 923,
+          "price": 94178,
+          "manufacturer": "Amazon",
+          "notes": "r0MBc5hdprVXlIBh3qGC7UoLJ7MWkNnqlSYOAqfyk1g1QYwyptJxXNiNfJ6nfMw02qUIreYYPe7ycyKu2sS7EGc4wTQiRCMXW2bFpdjoHXHOwn7Aez7z5oTpY7sg3R8TeQ6ooU6Iz5AEUORMmuUzECpyvQlIco4IndtJ8vdakpXFYiEMDFwS7Wc04Z7l5A6Fr00iSl0pD98GBNLOUzQy7IR4idPjyUNyLtELz0wChVC2osP9eikkYz4fwV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "North Kaylaport",
+          "street": "Monique Fort",
+          "house": 254,
+          "flat": 7853
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 142274,
+      "createdOn": "2025-12-18T12:10:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943ef441c508c5d5ed9c9fc",
+          "products": [
+            {
+              "_id": "6943ef441c508c5d5ed9ca32",
+              "name": "Pants6174",
+              "amount": 616,
+              "price": 48096,
+              "manufacturer": "Sony",
+              "notes": "NaCgYZcl2SBsFAR7XBMjP3wGG58TaFw3HdGNC0AKym5xKlUX8eLoLvRz58o9kQJOgoKBHnfOWRxikCXxM4jYrpK21nZTO2COnl61UQc7zWLjb0yjBOaZBIzEhDuf42rhXwsJN8bbtF04cyW699UbFWslnHfOaSkcBkqUSmlQLPagwJb1kN3MSJI8MTRtfOrKEKGQoZ7MrEzYUPtwpAG8AU1olOs0zwDP35XQLgtKqIz7w7hDqKj0hQHWQu",
+              "received": false
+            },
+            {
+              "_id": "6943ef441c508c5d5ed9ca5d",
+              "name": "Towels49007",
+              "amount": 923,
+              "price": 94178,
+              "manufacturer": "Amazon",
+              "notes": "r0MBc5hdprVXlIBh3qGC7UoLJ7MWkNnqlSYOAqfyk1g1QYwyptJxXNiNfJ6nfMw02qUIreYYPe7ycyKu2sS7EGc4wTQiRCMXW2bFpdjoHXHOwn7Aez7z5oTpY7sg3R8TeQ6ooU6Iz5AEUORMmuUzECpyvQlIco4IndtJ8vdakpXFYiEMDFwS7Wc04Z7l5A6Fr00iSl0pD98GBNLOUzQy7IR4idPjyUNyLtELz0wChVC2osP9eikkYz4fwV",
+              "received": false
+            }
+          ],
+          "total_price": 142274,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "North Kaylaport",
+              "street": "Monique Fort",
+              "house": 254,
+              "flat": 7853
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:10:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943ef441c508c5d5ed9c9fc",
+          "products": [
+            {
+              "_id": "6943ef441c508c5d5ed9ca32",
+              "name": "Pants6174",
+              "amount": 616,
+              "price": 48096,
+              "manufacturer": "Sony",
+              "notes": "NaCgYZcl2SBsFAR7XBMjP3wGG58TaFw3HdGNC0AKym5xKlUX8eLoLvRz58o9kQJOgoKBHnfOWRxikCXxM4jYrpK21nZTO2COnl61UQc7zWLjb0yjBOaZBIzEhDuf42rhXwsJN8bbtF04cyW699UbFWslnHfOaSkcBkqUSmlQLPagwJb1kN3MSJI8MTRtfOrKEKGQoZ7MrEzYUPtwpAG8AU1olOs0zwDP35XQLgtKqIz7w7hDqKj0hQHWQu",
+              "received": false
+            },
+            {
+              "_id": "6943ef441c508c5d5ed9ca5d",
+              "name": "Towels49007",
+              "amount": 923,
+              "price": 94178,
+              "manufacturer": "Amazon",
+              "notes": "r0MBc5hdprVXlIBh3qGC7UoLJ7MWkNnqlSYOAqfyk1g1QYwyptJxXNiNfJ6nfMw02qUIreYYPe7ycyKu2sS7EGc4wTQiRCMXW2bFpdjoHXHOwn7Aez7z5oTpY7sg3R8TeQ6ooU6Iz5AEUORMmuUzECpyvQlIco4IndtJ8vdakpXFYiEMDFwS7Wc04Z7l5A6Fr00iSl0pD98GBNLOUzQy7IR4idPjyUNyLtELz0wChVC2osP9eikkYz4fwV",
+              "received": false
+            }
+          ],
+          "total_price": 142274,
+          "delivery": null,
+          "changedOn": "2025-12-18T12:10:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

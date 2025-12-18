@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 12:11:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4667",
+    "etag": "W/\"123b-dASHbTO+FGcvVWFFfRaC4iL9pcY\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943ef641c508c5d5ed9d7be",
+      "status": "Received",
+      "customer": {
+        "_id": "6943ef641c508c5d5ed9d77c",
+        "email": "Palma_Orn-Fisher@hotmail.com",
+        "name": "Hal Williamson",
+        "country": "USA",
+        "city": "Brandychester",
+        "street": "Caden Springs 10",
+        "house": 248,
+        "flat": 9453,
+        "phone": "+102655356370051",
+        "createdOn": "2025-12-18T12:11:16.000Z",
+        "notes": "iBrkTWvf0r07udQSzn4uozAndwCfJG"
+      },
+      "products": [
+        {
+          "_id": "6943ef641c508c5d5ed9d794",
+          "name": "Bacon82545",
+          "amount": 496,
+          "price": 39965,
+          "manufacturer": "Amazon",
+          "notes": "92KR3kZL593NriwrPeQV7MC1GbpTyexMAScKdhd6iRlgoB156zyYE87na9SMvBZUziqLFCb3TCxzZZ8jQU2VrQZFY47XmpLf20QWPBrnSvJzRSTZ0h95328KEFc1zJLLm6RqwPZYY8IhKZ4pfstBPLs4fKSWcf7dA786WwDOs0FKifvwwetJntKog5pTb8OKuLs6wgK9dU7vmCGjzmZ1ewTTIDrieoLkohoMeRF135sxo5mXgA8hI7EQ6j",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Koelpinton",
+          "street": "Martin Luther King Boulevard",
+          "house": 587,
+          "flat": 6485
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 39965,
+      "createdOn": "2025-12-18T12:11:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6943ef641c508c5d5ed9d77c",
+          "products": [
+            {
+              "_id": "6943ef641c508c5d5ed9d794",
+              "name": "Bacon82545",
+              "amount": 496,
+              "price": 39965,
+              "manufacturer": "Amazon",
+              "notes": "92KR3kZL593NriwrPeQV7MC1GbpTyexMAScKdhd6iRlgoB156zyYE87na9SMvBZUziqLFCb3TCxzZZ8jQU2VrQZFY47XmpLf20QWPBrnSvJzRSTZ0h95328KEFc1zJLLm6RqwPZYY8IhKZ4pfstBPLs4fKSWcf7dA786WwDOs0FKifvwwetJntKog5pTb8OKuLs6wgK9dU7vmCGjzmZ1ewTTIDrieoLkohoMeRF135sxo5mXgA8hI7EQ6j",
+              "received": true
+            }
+          ],
+          "total_price": 39965,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Koelpinton",
+              "street": "Martin Luther King Boulevard",
+              "house": 587,
+              "flat": 6485
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:11:17.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6943ef641c508c5d5ed9d77c",
+          "products": [
+            {
+              "_id": "6943ef641c508c5d5ed9d794",
+              "name": "Bacon82545",
+              "amount": 496,
+              "price": 39965,
+              "manufacturer": "Amazon",
+              "notes": "92KR3kZL593NriwrPeQV7MC1GbpTyexMAScKdhd6iRlgoB156zyYE87na9SMvBZUziqLFCb3TCxzZZ8jQU2VrQZFY47XmpLf20QWPBrnSvJzRSTZ0h95328KEFc1zJLLm6RqwPZYY8IhKZ4pfstBPLs4fKSWcf7dA786WwDOs0FKifvwwetJntKog5pTb8OKuLs6wgK9dU7vmCGjzmZ1ewTTIDrieoLkohoMeRF135sxo5mXgA8hI7EQ6j",
+              "received": false
+            }
+          ],
+          "total_price": 39965,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Koelpinton",
+              "street": "Martin Luther King Boulevard",
+              "house": 587,
+              "flat": 6485
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:11:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943ef641c508c5d5ed9d77c",
+          "products": [
+            {
+              "_id": "6943ef641c508c5d5ed9d794",
+              "name": "Bacon82545",
+              "amount": 496,
+              "price": 39965,
+              "manufacturer": "Amazon",
+              "notes": "92KR3kZL593NriwrPeQV7MC1GbpTyexMAScKdhd6iRlgoB156zyYE87na9SMvBZUziqLFCb3TCxzZZ8jQU2VrQZFY47XmpLf20QWPBrnSvJzRSTZ0h95328KEFc1zJLLm6RqwPZYY8IhKZ4pfstBPLs4fKSWcf7dA786WwDOs0FKifvwwetJntKog5pTb8OKuLs6wgK9dU7vmCGjzmZ1ewTTIDrieoLkohoMeRF135sxo5mXgA8hI7EQ6j",
+              "received": false
+            }
+          ],
+          "total_price": 39965,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Koelpinton",
+              "street": "Martin Luther King Boulevard",
+              "house": 587,
+              "flat": 6485
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:11:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943ef641c508c5d5ed9d77c",
+          "products": [
+            {
+              "_id": "6943ef641c508c5d5ed9d794",
+              "name": "Bacon82545",
+              "amount": 496,
+              "price": 39965,
+              "manufacturer": "Amazon",
+              "notes": "92KR3kZL593NriwrPeQV7MC1GbpTyexMAScKdhd6iRlgoB156zyYE87na9SMvBZUziqLFCb3TCxzZZ8jQU2VrQZFY47XmpLf20QWPBrnSvJzRSTZ0h95328KEFc1zJLLm6RqwPZYY8IhKZ4pfstBPLs4fKSWcf7dA786WwDOs0FKifvwwetJntKog5pTb8OKuLs6wgK9dU7vmCGjzmZ1ewTTIDrieoLkohoMeRF135sxo5mXgA8hI7EQ6j",
+              "received": false
+            }
+          ],
+          "total_price": 39965,
+          "delivery": null,
+          "changedOn": "2025-12-18T12:11:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

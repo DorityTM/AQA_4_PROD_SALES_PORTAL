@@ -1,0 +1,257 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 12:11:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6515",
+    "etag": "W/\"1973-5xq9ltGkpLBXyHR5Lc/yTflDzOA\"",
+    "connection": "close"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943ef541c508c5d5ed9d0f0",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6943ef531c508c5d5ed9d07d",
+        "email": "Alexane_Russel@hotmail.com",
+        "name": "Brady Sporer",
+        "country": "Great Britain",
+        "city": "Auerfield",
+        "street": "Abshire Glens 96",
+        "house": 60,
+        "flat": 7936,
+        "phone": "+233002883286659",
+        "createdOn": "2025-12-18T12:10:59.000Z",
+        "notes": "6gPPvngkRkmvYoN5sGoo7XQ8i4lXIU"
+      },
+      "products": [
+        {
+          "_id": "6943ef531c508c5d5ed9d09b",
+          "name": "Shirt49264",
+          "amount": 104,
+          "price": 11659,
+          "manufacturer": "Google",
+          "notes": "aKpa0PdbOZyvCbJGQpgfic6wQYKYzR1AxGE9Q9Uglg0PF7BfylYtGhTkVjpc3hxYfqGJhht3YWggV0DcHZqEK3QAyxnlHy93eKGpgquLULgiXqRb224ZwXg2mBuSZbWdl9J8cJk1SCrILM1PsxeqqX3KtGSgkdJQgTh9F0j9Qfp3NCO7YhQQseuunf2sJQ1NddQiwYPLAIm9nlkZojgfTwnYHvQptqTTmc5vjqiEDtKGkNlxjKK8jYhuH6",
+          "received": true
+        },
+        {
+          "_id": "6943ef541c508c5d5ed9d0bc",
+          "name": "Bike33267",
+          "amount": 284,
+          "price": 97887,
+          "manufacturer": "Amazon",
+          "notes": "5AtipL7RDnwo9nSLyV0HVkgsaDarHjEbvlZRAjpkr9o0WlWRdP8c2ZKHIQBZm9HMG3TwHW3kB5gV4zrPEE6dUjTa9Dak2mVCs1BooGjf4GNMcLXdla1eUaqSu4thxq0CQHY0U7e4eLOXA4WEZhr7EldhL7F6svg9cjLvqWDQOwITNcONT7zHiAGSq2IrDRfPDNNjp1tWwgtFE8ZtaGLSO9lfeYG912yQygHzprVimvfp7iQwlWUMhNmtxx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Highland",
+          "street": "Heaney Shores",
+          "house": 966,
+          "flat": 5313
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 109546,
+      "createdOn": "2025-12-18T12:11:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6943ef531c508c5d5ed9d07d",
+          "products": [
+            {
+              "_id": "6943ef531c508c5d5ed9d09b",
+              "name": "Shirt49264",
+              "amount": 104,
+              "price": 11659,
+              "manufacturer": "Google",
+              "notes": "aKpa0PdbOZyvCbJGQpgfic6wQYKYzR1AxGE9Q9Uglg0PF7BfylYtGhTkVjpc3hxYfqGJhht3YWggV0DcHZqEK3QAyxnlHy93eKGpgquLULgiXqRb224ZwXg2mBuSZbWdl9J8cJk1SCrILM1PsxeqqX3KtGSgkdJQgTh9F0j9Qfp3NCO7YhQQseuunf2sJQ1NddQiwYPLAIm9nlkZojgfTwnYHvQptqTTmc5vjqiEDtKGkNlxjKK8jYhuH6",
+              "received": true
+            },
+            {
+              "_id": "6943ef541c508c5d5ed9d0bc",
+              "name": "Bike33267",
+              "amount": 284,
+              "price": 97887,
+              "manufacturer": "Amazon",
+              "notes": "5AtipL7RDnwo9nSLyV0HVkgsaDarHjEbvlZRAjpkr9o0WlWRdP8c2ZKHIQBZm9HMG3TwHW3kB5gV4zrPEE6dUjTa9Dak2mVCs1BooGjf4GNMcLXdla1eUaqSu4thxq0CQHY0U7e4eLOXA4WEZhr7EldhL7F6svg9cjLvqWDQOwITNcONT7zHiAGSq2IrDRfPDNNjp1tWwgtFE8ZtaGLSO9lfeYG912yQygHzprVimvfp7iQwlWUMhNmtxx",
+              "received": false
+            }
+          ],
+          "total_price": 109546,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Highland",
+              "street": "Heaney Shores",
+              "house": 966,
+              "flat": 5313
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:11:01.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6943ef531c508c5d5ed9d07d",
+          "products": [
+            {
+              "_id": "6943ef531c508c5d5ed9d09b",
+              "name": "Shirt49264",
+              "amount": 104,
+              "price": 11659,
+              "manufacturer": "Google",
+              "notes": "aKpa0PdbOZyvCbJGQpgfic6wQYKYzR1AxGE9Q9Uglg0PF7BfylYtGhTkVjpc3hxYfqGJhht3YWggV0DcHZqEK3QAyxnlHy93eKGpgquLULgiXqRb224ZwXg2mBuSZbWdl9J8cJk1SCrILM1PsxeqqX3KtGSgkdJQgTh9F0j9Qfp3NCO7YhQQseuunf2sJQ1NddQiwYPLAIm9nlkZojgfTwnYHvQptqTTmc5vjqiEDtKGkNlxjKK8jYhuH6",
+              "received": false
+            },
+            {
+              "_id": "6943ef541c508c5d5ed9d0bc",
+              "name": "Bike33267",
+              "amount": 284,
+              "price": 97887,
+              "manufacturer": "Amazon",
+              "notes": "5AtipL7RDnwo9nSLyV0HVkgsaDarHjEbvlZRAjpkr9o0WlWRdP8c2ZKHIQBZm9HMG3TwHW3kB5gV4zrPEE6dUjTa9Dak2mVCs1BooGjf4GNMcLXdla1eUaqSu4thxq0CQHY0U7e4eLOXA4WEZhr7EldhL7F6svg9cjLvqWDQOwITNcONT7zHiAGSq2IrDRfPDNNjp1tWwgtFE8ZtaGLSO9lfeYG912yQygHzprVimvfp7iQwlWUMhNmtxx",
+              "received": false
+            }
+          ],
+          "total_price": 109546,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Highland",
+              "street": "Heaney Shores",
+              "house": 966,
+              "flat": 5313
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:11:00.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943ef531c508c5d5ed9d07d",
+          "products": [
+            {
+              "_id": "6943ef531c508c5d5ed9d09b",
+              "name": "Shirt49264",
+              "amount": 104,
+              "price": 11659,
+              "manufacturer": "Google",
+              "notes": "aKpa0PdbOZyvCbJGQpgfic6wQYKYzR1AxGE9Q9Uglg0PF7BfylYtGhTkVjpc3hxYfqGJhht3YWggV0DcHZqEK3QAyxnlHy93eKGpgquLULgiXqRb224ZwXg2mBuSZbWdl9J8cJk1SCrILM1PsxeqqX3KtGSgkdJQgTh9F0j9Qfp3NCO7YhQQseuunf2sJQ1NddQiwYPLAIm9nlkZojgfTwnYHvQptqTTmc5vjqiEDtKGkNlxjKK8jYhuH6",
+              "received": false
+            },
+            {
+              "_id": "6943ef541c508c5d5ed9d0bc",
+              "name": "Bike33267",
+              "amount": 284,
+              "price": 97887,
+              "manufacturer": "Amazon",
+              "notes": "5AtipL7RDnwo9nSLyV0HVkgsaDarHjEbvlZRAjpkr9o0WlWRdP8c2ZKHIQBZm9HMG3TwHW3kB5gV4zrPEE6dUjTa9Dak2mVCs1BooGjf4GNMcLXdla1eUaqSu4thxq0CQHY0U7e4eLOXA4WEZhr7EldhL7F6svg9cjLvqWDQOwITNcONT7zHiAGSq2IrDRfPDNNjp1tWwgtFE8ZtaGLSO9lfeYG912yQygHzprVimvfp7iQwlWUMhNmtxx",
+              "received": false
+            }
+          ],
+          "total_price": 109546,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Highland",
+              "street": "Heaney Shores",
+              "house": 966,
+              "flat": 5313
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:11:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943ef531c508c5d5ed9d07d",
+          "products": [
+            {
+              "_id": "6943ef531c508c5d5ed9d09b",
+              "name": "Shirt49264",
+              "amount": 104,
+              "price": 11659,
+              "manufacturer": "Google",
+              "notes": "aKpa0PdbOZyvCbJGQpgfic6wQYKYzR1AxGE9Q9Uglg0PF7BfylYtGhTkVjpc3hxYfqGJhht3YWggV0DcHZqEK3QAyxnlHy93eKGpgquLULgiXqRb224ZwXg2mBuSZbWdl9J8cJk1SCrILM1PsxeqqX3KtGSgkdJQgTh9F0j9Qfp3NCO7YhQQseuunf2sJQ1NddQiwYPLAIm9nlkZojgfTwnYHvQptqTTmc5vjqiEDtKGkNlxjKK8jYhuH6",
+              "received": false
+            },
+            {
+              "_id": "6943ef541c508c5d5ed9d0bc",
+              "name": "Bike33267",
+              "amount": 284,
+              "price": 97887,
+              "manufacturer": "Amazon",
+              "notes": "5AtipL7RDnwo9nSLyV0HVkgsaDarHjEbvlZRAjpkr9o0WlWRdP8c2ZKHIQBZm9HMG3TwHW3kB5gV4zrPEE6dUjTa9Dak2mVCs1BooGjf4GNMcLXdla1eUaqSu4thxq0CQHY0U7e4eLOXA4WEZhr7EldhL7F6svg9cjLvqWDQOwITNcONT7zHiAGSq2IrDRfPDNNjp1tWwgtFE8ZtaGLSO9lfeYG912yQygHzprVimvfp7iQwlWUMhNmtxx",
+              "received": false
+            }
+          ],
+          "total_price": 109546,
+          "delivery": null,
+          "changedOn": "2025-12-18T12:11:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

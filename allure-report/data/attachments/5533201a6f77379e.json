@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 12:10:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4629",
+    "etag": "W/\"1215-hQgMvZQZA8FwFkhis8S/nsCMLBA\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943ef371c508c5d5ed9c4a1",
+      "status": "Received",
+      "customer": {
+        "_id": "6943ef361c508c5d5ed9c45a",
+        "email": "Novella.McClure88@yahoo.com",
+        "name": "Kiara Bergnaum",
+        "country": "Great Britain",
+        "city": "Longmont",
+        "street": "Hosea Lakes 22",
+        "house": 757,
+        "flat": 7310,
+        "phone": "+939823700886852",
+        "createdOn": "2025-12-18T12:10:30.000Z",
+        "notes": "saC6dl4yMTUbOm7NCAqWcOvvJDzuQA"
+      },
+      "products": [
+        {
+          "_id": "6943ef361c508c5d5ed9c483",
+          "name": "Computer41079",
+          "amount": 717,
+          "price": 63784,
+          "manufacturer": "Samsung",
+          "notes": "I1N1TMn8cUmp1wbK7rwBYun3QJRpMCigrLMPs2vY78iUvqU829QfUwg5GhX5bYXFiNQLyjrqnucGQnXxHLuFMknpFUNEljGsrk3jLWfAbpoYAJhw9F8sxIBjrpA5C5p5INbIvYamZuN5PyT52rGGt8G4WC449eWgNwGxDQAnLsEHGXQmBxjdnFWkB7mXWlVPwY4KOfJ0FdNl4zp8mxmrJxRcRhb75DeuCxxi6DTobK6Lf55zRttXovuL26",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "North Lottie",
+          "street": "Hessel Glen",
+          "house": 982,
+          "flat": 9175
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 63784,
+      "createdOn": "2025-12-18T12:10:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6943ef361c508c5d5ed9c45a",
+          "products": [
+            {
+              "_id": "6943ef361c508c5d5ed9c483",
+              "name": "Computer41079",
+              "amount": 717,
+              "price": 63784,
+              "manufacturer": "Samsung",
+              "notes": "I1N1TMn8cUmp1wbK7rwBYun3QJRpMCigrLMPs2vY78iUvqU829QfUwg5GhX5bYXFiNQLyjrqnucGQnXxHLuFMknpFUNEljGsrk3jLWfAbpoYAJhw9F8sxIBjrpA5C5p5INbIvYamZuN5PyT52rGGt8G4WC449eWgNwGxDQAnLsEHGXQmBxjdnFWkB7mXWlVPwY4KOfJ0FdNl4zp8mxmrJxRcRhb75DeuCxxi6DTobK6Lf55zRttXovuL26",
+              "received": true
+            }
+          ],
+          "total_price": 63784,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Lottie",
+              "street": "Hessel Glen",
+              "house": 982,
+              "flat": 9175
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:10:32.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6943ef361c508c5d5ed9c45a",
+          "products": [
+            {
+              "_id": "6943ef361c508c5d5ed9c483",
+              "name": "Computer41079",
+              "amount": 717,
+              "price": 63784,
+              "manufacturer": "Samsung",
+              "notes": "I1N1TMn8cUmp1wbK7rwBYun3QJRpMCigrLMPs2vY78iUvqU829QfUwg5GhX5bYXFiNQLyjrqnucGQnXxHLuFMknpFUNEljGsrk3jLWfAbpoYAJhw9F8sxIBjrpA5C5p5INbIvYamZuN5PyT52rGGt8G4WC449eWgNwGxDQAnLsEHGXQmBxjdnFWkB7mXWlVPwY4KOfJ0FdNl4zp8mxmrJxRcRhb75DeuCxxi6DTobK6Lf55zRttXovuL26",
+              "received": false
+            }
+          ],
+          "total_price": 63784,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Lottie",
+              "street": "Hessel Glen",
+              "house": 982,
+              "flat": 9175
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:10:31.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943ef361c508c5d5ed9c45a",
+          "products": [
+            {
+              "_id": "6943ef361c508c5d5ed9c483",
+              "name": "Computer41079",
+              "amount": 717,
+              "price": 63784,
+              "manufacturer": "Samsung",
+              "notes": "I1N1TMn8cUmp1wbK7rwBYun3QJRpMCigrLMPs2vY78iUvqU829QfUwg5GhX5bYXFiNQLyjrqnucGQnXxHLuFMknpFUNEljGsrk3jLWfAbpoYAJhw9F8sxIBjrpA5C5p5INbIvYamZuN5PyT52rGGt8G4WC449eWgNwGxDQAnLsEHGXQmBxjdnFWkB7mXWlVPwY4KOfJ0FdNl4zp8mxmrJxRcRhb75DeuCxxi6DTobK6Lf55zRttXovuL26",
+              "received": false
+            }
+          ],
+          "total_price": 63784,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Lottie",
+              "street": "Hessel Glen",
+              "house": 982,
+              "flat": 9175
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T12:10:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943ef361c508c5d5ed9c45a",
+          "products": [
+            {
+              "_id": "6943ef361c508c5d5ed9c483",
+              "name": "Computer41079",
+              "amount": 717,
+              "price": 63784,
+              "manufacturer": "Samsung",
+              "notes": "I1N1TMn8cUmp1wbK7rwBYun3QJRpMCigrLMPs2vY78iUvqU829QfUwg5GhX5bYXFiNQLyjrqnucGQnXxHLuFMknpFUNEljGsrk3jLWfAbpoYAJhw9F8sxIBjrpA5C5p5INbIvYamZuN5PyT52rGGt8G4WC449eWgNwGxDQAnLsEHGXQmBxjdnFWkB7mXWlVPwY4KOfJ0FdNl4zp8mxmrJxRcRhb75DeuCxxi6DTobK6Lf55zRttXovuL26",
+              "received": false
+            }
+          ],
+          "total_price": 63784,
+          "delivery": null,
+          "changedOn": "2025-12-18T12:10:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

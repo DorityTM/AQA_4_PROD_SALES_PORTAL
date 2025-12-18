@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 12:11:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1679",
+    "etag": "W/\"68f-0VCeRmgCkD7Yb9MOVIk3opabI4I\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6943ef6a1c508c5d5ed9da3d",
+        "email": "Jan_Adams@hotmail.com",
+        "name": "Llewellyn Satterfield",
+        "country": "France",
+        "city": "Atascocita",
+        "street": "Gordon Road 23",
+        "house": 269,
+        "flat": 4330,
+        "phone": "+771821564855044",
+        "createdOn": "2025-12-18T12:11:22.000Z",
+        "notes": "mIz9StNRpu2a5d1DHsKSK6MtuYMFU8"
+      },
+      "products": [
+        {
+          "_id": "6943ef6a1c508c5d5ed9da56",
+          "name": "Gloves50676",
+          "amount": 565,
+          "price": 48401,
+          "manufacturer": "Amazon",
+          "notes": "K8hEAImS3soL649InQIxYfUViElFStexiwfTJRmf5CfNFdDAs6a7fwyG5CDDljG2MaQLlHE3WKOcPtmwVk1E6I80qwCrP17G3QNWLmt8iJo2aYOSpYNLqQwTL0HEQFkiDLxTe4V0Wm3QJ5wXv6255gGKeo6YFiNLRAVBE51bJEfJfuXls2Q6IOKqyx6Ouy3ONW5wcOfgv4jKQnjsn3ePqkTOXxLAuiMay9yOqhDpBoSBiK6cHlzWRy1Bs6",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 48401,
+      "createdOn": "2025-12-18T12:11:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943ef6a1c508c5d5ed9da3d",
+          "products": [
+            {
+              "_id": "6943ef6a1c508c5d5ed9da56",
+              "name": "Gloves50676",
+              "amount": 565,
+              "price": 48401,
+              "manufacturer": "Amazon",
+              "notes": "K8hEAImS3soL649InQIxYfUViElFStexiwfTJRmf5CfNFdDAs6a7fwyG5CDDljG2MaQLlHE3WKOcPtmwVk1E6I80qwCrP17G3QNWLmt8iJo2aYOSpYNLqQwTL0HEQFkiDLxTe4V0Wm3QJ5wXv6255gGKeo6YFiNLRAVBE51bJEfJfuXls2Q6IOKqyx6Ouy3ONW5wcOfgv4jKQnjsn3ePqkTOXxLAuiMay9yOqhDpBoSBiK6cHlzWRy1Bs6",
+              "received": false
+            }
+          ],
+          "total_price": 48401,
+          "delivery": null,
+          "changedOn": "2025-12-18T12:11:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6943ef6b1c508c5d5ed9da7f"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
