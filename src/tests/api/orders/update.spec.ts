@@ -6,14 +6,12 @@ import { IOrderFromResponse } from "data/types/order.types";
 import { ORDER_HISTORY_ACTIONS, ORDER_STATUS } from "data/salesPortal/order-status";
 import type { IProduct } from "data/types/product.types";
 import { updateOrderErrorCases } from "data/salesPortal/orders/updateOrderTestData";
+import { productIdsOf, calcTotal } from "utils/orders/helpers";
 
 test.describe("[API][Orders]", () => {
   let token = "";
   let orderId = "";
   let orderObj: IOrderFromResponse | null = null;
-
-  const productIdsOf = (order: IOrderFromResponse) => order.products.map((p) => p._id);
-  const calcTotal = (order: IOrderFromResponse) => order.products.reduce((sum, p) => sum + p.price, 0);
 
   test.beforeEach(async ({ loginApiService, ordersApiService }) => {
     token = await loginApiService.loginAsAdmin();
