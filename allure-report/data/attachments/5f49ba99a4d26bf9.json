@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:56:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4262",
+    "etag": "W/\"10a6-t1nNjIU65rwLGyaM8FIsqAXBNP0\"",
+    "keep-alive": "timeout=5, max=60",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944787b1c508c5d5ee2cb12",
+      "status": "Draft",
+      "customer": {
+        "_id": "6944787a1c508c5d5ee2ca8a",
+        "email": "Joana.Prosacco39@yahoo.com",
+        "name": "Santiago Rowe",
+        "country": "Germany",
+        "city": "West Yesseniatown",
+        "street": "South View 99",
+        "house": 829,
+        "flat": 7307,
+        "phone": "+855818026226114",
+        "createdOn": "2025-12-18T21:56:10.000Z",
+        "notes": "V5z82orzM0HaMFKKgwnXA8ZUdX3AeX"
+      },
+      "products": [
+        {
+          "_id": "6944787b1c508c5d5ee2cae0",
+          "name": "Gloves94446",
+          "amount": 589,
+          "price": 74629,
+          "manufacturer": "Apple",
+          "notes": "xKaa7JNdlMTCPZadsFRTYSoxjjeCpFA0vtTQME3saVuUbXezcFAdX4EXSNifUPMAzamyTmT0IRwmXuBil1e4EnhKqNe8CPiAHPyxXYIyJd3PCwOoIogEzezh9UZUV5YtWHeRRricqtK6qMU8pUJsYL6X4PepAzboCyZcsv5aRNyb3u9ZVxCBXmFWvCXmPIb30nimkcyRKbPkMP9mRlzLlLaCHxu0VuJF9URtzDcXtON08tiyypWyRm8V6n",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74629,
+      "createdOn": "2025-12-18T21:56:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944787a1c508c5d5ee2ca8a",
+          "products": [
+            {
+              "_id": "6944787b1c508c5d5ee2cae0",
+              "name": "Gloves94446",
+              "amount": 589,
+              "price": 74629,
+              "manufacturer": "Apple",
+              "notes": "xKaa7JNdlMTCPZadsFRTYSoxjjeCpFA0vtTQME3saVuUbXezcFAdX4EXSNifUPMAzamyTmT0IRwmXuBil1e4EnhKqNe8CPiAHPyxXYIyJd3PCwOoIogEzezh9UZUV5YtWHeRRricqtK6qMU8pUJsYL6X4PepAzboCyZcsv5aRNyb3u9ZVxCBXmFWvCXmPIb30nimkcyRKbPkMP9mRlzLlLaCHxu0VuJF9URtzDcXtON08tiyypWyRm8V6n",
+              "received": false
+            }
+          ],
+          "total_price": 74629,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:56:13.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "6944787a1c508c5d5ee2ca8a",
+          "products": [
+            {
+              "_id": "6944787b1c508c5d5ee2cae0",
+              "name": "Gloves94446",
+              "amount": 589,
+              "price": 74629,
+              "manufacturer": "Apple",
+              "notes": "xKaa7JNdlMTCPZadsFRTYSoxjjeCpFA0vtTQME3saVuUbXezcFAdX4EXSNifUPMAzamyTmT0IRwmXuBil1e4EnhKqNe8CPiAHPyxXYIyJd3PCwOoIogEzezh9UZUV5YtWHeRRricqtK6qMU8pUJsYL6X4PepAzboCyZcsv5aRNyb3u9ZVxCBXmFWvCXmPIb30nimkcyRKbPkMP9mRlzLlLaCHxu0VuJF9URtzDcXtON08tiyypWyRm8V6n",
+              "received": false
+            }
+          ],
+          "total_price": 74629,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Rathton",
+              "street": "Leonel Forks",
+              "house": 970,
+              "flat": 8100
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:56:12.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944787a1c508c5d5ee2ca8a",
+          "products": [
+            {
+              "_id": "6944787b1c508c5d5ee2cae0",
+              "name": "Gloves94446",
+              "amount": 589,
+              "price": 74629,
+              "manufacturer": "Apple",
+              "notes": "xKaa7JNdlMTCPZadsFRTYSoxjjeCpFA0vtTQME3saVuUbXezcFAdX4EXSNifUPMAzamyTmT0IRwmXuBil1e4EnhKqNe8CPiAHPyxXYIyJd3PCwOoIogEzezh9UZUV5YtWHeRRricqtK6qMU8pUJsYL6X4PepAzboCyZcsv5aRNyb3u9ZVxCBXmFWvCXmPIb30nimkcyRKbPkMP9mRlzLlLaCHxu0VuJF9URtzDcXtON08tiyypWyRm8V6n",
+              "received": false
+            }
+          ],
+          "total_price": 74629,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Rathton",
+              "street": "Leonel Forks",
+              "house": 970,
+              "flat": 8100
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:56:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944787a1c508c5d5ee2ca8a",
+          "products": [
+            {
+              "_id": "6944787b1c508c5d5ee2cae0",
+              "name": "Gloves94446",
+              "amount": 589,
+              "price": 74629,
+              "manufacturer": "Apple",
+              "notes": "xKaa7JNdlMTCPZadsFRTYSoxjjeCpFA0vtTQME3saVuUbXezcFAdX4EXSNifUPMAzamyTmT0IRwmXuBil1e4EnhKqNe8CPiAHPyxXYIyJd3PCwOoIogEzezh9UZUV5YtWHeRRricqtK6qMU8pUJsYL6X4PepAzboCyZcsv5aRNyb3u9ZVxCBXmFWvCXmPIb30nimkcyRKbPkMP9mRlzLlLaCHxu0VuJF9URtzDcXtON08tiyypWyRm8V6n",
+              "received": false
+            }
+          ],
+          "total_price": 74629,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:56:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

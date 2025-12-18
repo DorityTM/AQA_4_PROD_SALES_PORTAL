@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:56:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3906",
+    "etag": "W/\"f42-+vOCP1Bv6wrUOpp/iiDQz/Xw3hg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944786e1c508c5d5ee2c515",
+      "status": "Draft",
+      "customer": {
+        "_id": "6944786d1c508c5d5ee2c43f",
+        "email": "Raymundo_Jaskolski@gmail.com",
+        "name": "Carol Larkin",
+        "country": "Canada",
+        "city": "Avisfield",
+        "street": "Clarence Road 61",
+        "house": 717,
+        "flat": 7034,
+        "phone": "+874969887473446",
+        "createdOn": "2025-12-18T21:55:57.000Z",
+        "notes": "mgFum9l2XdzDA425cHVglEJkzcjZP3"
+      },
+      "products": [
+        {
+          "_id": "6944786d1c508c5d5ee2c483",
+          "name": "Bike70845",
+          "amount": 230,
+          "price": 44958,
+          "manufacturer": "Sony",
+          "notes": "LGPzgjlCt0oSSX1yPohD1At6PjGPMg2smgHnPh1lmfYt3YjRPTaVkau6CZZPfg0QpFfXlfKi4eOtbdGsBMngTzQDKTjUSHxSKVkCxo9oH43Z37D0PxDCMijpNPodFhUVJ1qUirrPFIurRRhtYu5ZX9CAsfKMSt2fyH3drqCPXLLOi2h67cMh3FZWRY6optl879x2fbhDScCyodStPvn7joLPiFb3tpsbHRyVNqaFSZMfmqZQ68ug293F2b",
+          "received": false
+        },
+        {
+          "_id": "6944786e1c508c5d5ee2c4c4",
+          "name": "Shirt90465",
+          "amount": 674,
+          "price": 95804,
+          "manufacturer": "Google",
+          "notes": "36XT2LdqMmGM1WYxFtyohYQx84IOpM3jy6XPih0R2fsFV34VL82lcwefVsW6Uiwrbf6Pvm9S6zseINguC1P4MIljIn3uISMJLtbEfkIuBnUZA1jDd4RdECz2de4UcqzfFvgXSqYGn3v9F4JFg0K85nGmd3QPNd65SrLsg9aJzBckvSpdzogTVe7XMG54zUaDjtWnNRzf5Kg9YahDs5RYEWh9iW1IMNMdl8jeYEdzhMDYhThGmVZhhnGu77",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Boganton",
+          "street": "Edward Street",
+          "house": 40,
+          "flat": 3819
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 140762,
+      "createdOn": "2025-12-18T21:55:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944786d1c508c5d5ee2c43f",
+          "products": [
+            {
+              "_id": "6944786d1c508c5d5ee2c483",
+              "name": "Bike70845",
+              "amount": 230,
+              "price": 44958,
+              "manufacturer": "Sony",
+              "notes": "LGPzgjlCt0oSSX1yPohD1At6PjGPMg2smgHnPh1lmfYt3YjRPTaVkau6CZZPfg0QpFfXlfKi4eOtbdGsBMngTzQDKTjUSHxSKVkCxo9oH43Z37D0PxDCMijpNPodFhUVJ1qUirrPFIurRRhtYu5ZX9CAsfKMSt2fyH3drqCPXLLOi2h67cMh3FZWRY6optl879x2fbhDScCyodStPvn7joLPiFb3tpsbHRyVNqaFSZMfmqZQ68ug293F2b",
+              "received": false
+            },
+            {
+              "_id": "6944786e1c508c5d5ee2c4c4",
+              "name": "Shirt90465",
+              "amount": 674,
+              "price": 95804,
+              "manufacturer": "Google",
+              "notes": "36XT2LdqMmGM1WYxFtyohYQx84IOpM3jy6XPih0R2fsFV34VL82lcwefVsW6Uiwrbf6Pvm9S6zseINguC1P4MIljIn3uISMJLtbEfkIuBnUZA1jDd4RdECz2de4UcqzfFvgXSqYGn3v9F4JFg0K85nGmd3QPNd65SrLsg9aJzBckvSpdzogTVe7XMG54zUaDjtWnNRzf5Kg9YahDs5RYEWh9iW1IMNMdl8jeYEdzhMDYhThGmVZhhnGu77",
+              "received": false
+            }
+          ],
+          "total_price": 140762,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Boganton",
+              "street": "Edward Street",
+              "house": 40,
+              "flat": 3819
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:56:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944786d1c508c5d5ee2c43f",
+          "products": [
+            {
+              "_id": "6944786d1c508c5d5ee2c483",
+              "name": "Bike70845",
+              "amount": 230,
+              "price": 44958,
+              "manufacturer": "Sony",
+              "notes": "LGPzgjlCt0oSSX1yPohD1At6PjGPMg2smgHnPh1lmfYt3YjRPTaVkau6CZZPfg0QpFfXlfKi4eOtbdGsBMngTzQDKTjUSHxSKVkCxo9oH43Z37D0PxDCMijpNPodFhUVJ1qUirrPFIurRRhtYu5ZX9CAsfKMSt2fyH3drqCPXLLOi2h67cMh3FZWRY6optl879x2fbhDScCyodStPvn7joLPiFb3tpsbHRyVNqaFSZMfmqZQ68ug293F2b",
+              "received": false
+            },
+            {
+              "_id": "6944786e1c508c5d5ee2c4c4",
+              "name": "Shirt90465",
+              "amount": 674,
+              "price": 95804,
+              "manufacturer": "Google",
+              "notes": "36XT2LdqMmGM1WYxFtyohYQx84IOpM3jy6XPih0R2fsFV34VL82lcwefVsW6Uiwrbf6Pvm9S6zseINguC1P4MIljIn3uISMJLtbEfkIuBnUZA1jDd4RdECz2de4UcqzfFvgXSqYGn3v9F4JFg0K85nGmd3QPNd65SrLsg9aJzBckvSpdzogTVe7XMG54zUaDjtWnNRzf5Kg9YahDs5RYEWh9iW1IMNMdl8jeYEdzhMDYhThGmVZhhnGu77",
+              "received": false
+            }
+          ],
+          "total_price": 140762,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:55:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
