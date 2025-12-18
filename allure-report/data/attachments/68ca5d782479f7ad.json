@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:25:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3676",
+    "etag": "W/\"e5c-O9Bsr7KIOE/W/RZYpXkYSJazyU8\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69440ede1c508c5d5eda122d",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69440edd1c508c5d5eda11ba",
+        "email": "Jaquelin_Mohr62@hotmail.com",
+        "name": "Greg Hermiston",
+        "country": "Ukraine",
+        "city": "Ceres",
+        "street": "Glover Drive 57",
+        "house": 533,
+        "flat": 6220,
+        "phone": "+567950491720972",
+        "createdOn": "2025-12-18T14:25:33.000Z",
+        "notes": "sDDYzj158gDCJrlbVTzKPq6H4tBTkW"
+      },
+      "products": [
+        {
+          "_id": "69440edd1c508c5d5eda11fb",
+          "name": "Salad3241",
+          "amount": 317,
+          "price": 27612,
+          "manufacturer": "Microsoft",
+          "notes": "kSOYjv7K2R8Kga3zuriaxZK4LrcdHZbz3STGq9c8cVqh0uN3TfGTwLsS9P9p8bTZUotaXg2Vnzd7HIdgO5tArkC3Xo2WtnWaUbQPAUgjAgjCuBW5d0DqsAM2vWImV2WC46ca12dlPzc4KR99sdYb7FGO4uJeVuW7wSS7epNvjWXWx2oUu9sabOl1xEYVxkR9GX4xyoYtEUdZPxchwf2AdDTjhw7nCtSwH0l3XoJytVNgy481BJhr3f1kpU",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Joplin",
+          "street": "Gerard Mountains",
+          "house": 220,
+          "flat": 3224
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 27612,
+      "createdOn": "2025-12-18T14:25:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69440edd1c508c5d5eda11ba",
+          "products": [
+            {
+              "_id": "69440edd1c508c5d5eda11fb",
+              "name": "Salad3241",
+              "amount": 317,
+              "price": 27612,
+              "manufacturer": "Microsoft",
+              "notes": "kSOYjv7K2R8Kga3zuriaxZK4LrcdHZbz3STGq9c8cVqh0uN3TfGTwLsS9P9p8bTZUotaXg2Vnzd7HIdgO5tArkC3Xo2WtnWaUbQPAUgjAgjCuBW5d0DqsAM2vWImV2WC46ca12dlPzc4KR99sdYb7FGO4uJeVuW7wSS7epNvjWXWx2oUu9sabOl1xEYVxkR9GX4xyoYtEUdZPxchwf2AdDTjhw7nCtSwH0l3XoJytVNgy481BJhr3f1kpU",
+              "received": false
+            }
+          ],
+          "total_price": 27612,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Joplin",
+              "street": "Gerard Mountains",
+              "house": 220,
+              "flat": 3224
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:25:35.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440edd1c508c5d5eda11ba",
+          "products": [
+            {
+              "_id": "69440edd1c508c5d5eda11fb",
+              "name": "Salad3241",
+              "amount": 317,
+              "price": 27612,
+              "manufacturer": "Microsoft",
+              "notes": "kSOYjv7K2R8Kga3zuriaxZK4LrcdHZbz3STGq9c8cVqh0uN3TfGTwLsS9P9p8bTZUotaXg2Vnzd7HIdgO5tArkC3Xo2WtnWaUbQPAUgjAgjCuBW5d0DqsAM2vWImV2WC46ca12dlPzc4KR99sdYb7FGO4uJeVuW7wSS7epNvjWXWx2oUu9sabOl1xEYVxkR9GX4xyoYtEUdZPxchwf2AdDTjhw7nCtSwH0l3XoJytVNgy481BJhr3f1kpU",
+              "received": false
+            }
+          ],
+          "total_price": 27612,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Joplin",
+              "street": "Gerard Mountains",
+              "house": 220,
+              "flat": 3224
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:25:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440edd1c508c5d5eda11ba",
+          "products": [
+            {
+              "_id": "69440edd1c508c5d5eda11fb",
+              "name": "Salad3241",
+              "amount": 317,
+              "price": 27612,
+              "manufacturer": "Microsoft",
+              "notes": "kSOYjv7K2R8Kga3zuriaxZK4LrcdHZbz3STGq9c8cVqh0uN3TfGTwLsS9P9p8bTZUotaXg2Vnzd7HIdgO5tArkC3Xo2WtnWaUbQPAUgjAgjCuBW5d0DqsAM2vWImV2WC46ca12dlPzc4KR99sdYb7FGO4uJeVuW7wSS7epNvjWXWx2oUu9sabOl1xEYVxkR9GX4xyoYtEUdZPxchwf2AdDTjhw7nCtSwH0l3XoJytVNgy481BJhr3f1kpU",
+              "received": false
+            }
+          ],
+          "total_price": 27612,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:25:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:25:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3679",
+    "etag": "W/\"e5f-dkl/WTA5ft7mQZvFOrBEElXf1kA\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69440ee01c508c5d5eda12df",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69440edf1c508c5d5eda128c",
+        "email": "Harry_Renner29@hotmail.com",
+        "name": "Hank Runolfsdottir",
+        "country": "Great Britain",
+        "city": "Allyberg",
+        "street": "Hauck Dam 59",
+        "house": 176,
+        "flat": 5331,
+        "phone": "+117806311396739",
+        "createdOn": "2025-12-18T14:25:35.000Z",
+        "notes": "Y5Z8eeF8bYc3zVLXuFNdYM9sQfH8Ao"
+      },
+      "products": [
+        {
+          "_id": "69440edf1c508c5d5eda12ab",
+          "name": "Tuna86860",
+          "amount": 257,
+          "price": 50839,
+          "manufacturer": "Xiaomi",
+          "notes": "IB1zmWbbBrT7Z3Y1Axewwvje2JW8rS09L5SmGY0lE6ViPFUore5CgzIZsQfSiHsKvqyuxnv3XY7hNrHKf7pmdHh35cjgDaVEHTqnRbCQci4jzoov3P5PqPXteCpFhL1OJtptQTAK9mrizELlO0yc70GMNCqyCXaxcjqQhN9g4WqvAtvZT8ZObEh60Pr7BEozx0kIvyRtSW5NWL3wnjwI2etorguqrAoyUiKjBDmZ2SYAnpLhXdgHrhCapc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Worcester",
+          "street": "Mitchell Bypass",
+          "house": 607,
+          "flat": 6119
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 50839,
+      "createdOn": "2025-12-18T14:25:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69440edf1c508c5d5eda128c",
+          "products": [
+            {
+              "_id": "69440edf1c508c5d5eda12ab",
+              "name": "Tuna86860",
+              "amount": 257,
+              "price": 50839,
+              "manufacturer": "Xiaomi",
+              "notes": "IB1zmWbbBrT7Z3Y1Axewwvje2JW8rS09L5SmGY0lE6ViPFUore5CgzIZsQfSiHsKvqyuxnv3XY7hNrHKf7pmdHh35cjgDaVEHTqnRbCQci4jzoov3P5PqPXteCpFhL1OJtptQTAK9mrizELlO0yc70GMNCqyCXaxcjqQhN9g4WqvAtvZT8ZObEh60Pr7BEozx0kIvyRtSW5NWL3wnjwI2etorguqrAoyUiKjBDmZ2SYAnpLhXdgHrhCapc",
+              "received": false
+            }
+          ],
+          "total_price": 50839,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Worcester",
+              "street": "Mitchell Bypass",
+              "house": 607,
+              "flat": 6119
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:25:37.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440edf1c508c5d5eda128c",
+          "products": [
+            {
+              "_id": "69440edf1c508c5d5eda12ab",
+              "name": "Tuna86860",
+              "amount": 257,
+              "price": 50839,
+              "manufacturer": "Xiaomi",
+              "notes": "IB1zmWbbBrT7Z3Y1Axewwvje2JW8rS09L5SmGY0lE6ViPFUore5CgzIZsQfSiHsKvqyuxnv3XY7hNrHKf7pmdHh35cjgDaVEHTqnRbCQci4jzoov3P5PqPXteCpFhL1OJtptQTAK9mrizELlO0yc70GMNCqyCXaxcjqQhN9g4WqvAtvZT8ZObEh60Pr7BEozx0kIvyRtSW5NWL3wnjwI2etorguqrAoyUiKjBDmZ2SYAnpLhXdgHrhCapc",
+              "received": false
+            }
+          ],
+          "total_price": 50839,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Worcester",
+              "street": "Mitchell Bypass",
+              "house": 607,
+              "flat": 6119
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:25:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440edf1c508c5d5eda128c",
+          "products": [
+            {
+              "_id": "69440edf1c508c5d5eda12ab",
+              "name": "Tuna86860",
+              "amount": 257,
+              "price": 50839,
+              "manufacturer": "Xiaomi",
+              "notes": "IB1zmWbbBrT7Z3Y1Axewwvje2JW8rS09L5SmGY0lE6ViPFUore5CgzIZsQfSiHsKvqyuxnv3XY7hNrHKf7pmdHh35cjgDaVEHTqnRbCQci4jzoov3P5PqPXteCpFhL1OJtptQTAK9mrizELlO0yc70GMNCqyCXaxcjqQhN9g4WqvAtvZT8ZObEh60Pr7BEozx0kIvyRtSW5NWL3wnjwI2etorguqrAoyUiKjBDmZ2SYAnpLhXdgHrhCapc",
+              "received": false
+            }
+          ],
+          "total_price": 50839,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:25:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

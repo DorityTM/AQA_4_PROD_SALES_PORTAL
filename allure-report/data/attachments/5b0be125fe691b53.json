@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:26:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3637",
+    "etag": "W/\"e35-jOBxaweO1oUhSieeK+JbrNJqG/s\"",
+    "keep-alive": "timeout=5, max=13",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69440eff1c508c5d5eda2028",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69440efe1c508c5d5eda1fdb",
+        "email": "Jeffry_Yost38@hotmail.com",
+        "name": "Ian Tromp",
+        "country": "Belarus",
+        "city": "Baumbachville",
+        "street": "Blanda Knolls 65",
+        "house": 720,
+        "flat": 69,
+        "phone": "+242009240967567",
+        "createdOn": "2025-12-18T14:26:06.000Z",
+        "notes": "b9VuuZ37jCA1OPmjy9Do0gVs32NPXx"
+      },
+      "products": [
+        {
+          "_id": "69440eff1c508c5d5eda1ffe",
+          "name": "Fish33663",
+          "amount": 254,
+          "price": 7605,
+          "manufacturer": "Tesla",
+          "notes": "37IfPvC28xUqzxwlihURPLTvjIJLXeYn4MmbGz7Nde9sSg7t3yuGsqWCnn14oKh9kG9tuDVUFLEZsHGarImxvNtADBUbg6rYOXubFc7mCGYn7vgDP1Wax81STJ25NiNVQeH324MarA37H27WF9b6HqaBbVbgDfdxBJ0CnHXwMY8fZ8ffrb8km4eaboEUwRAT3VAxmaDqBekhswORPtWEmo1S5Tzgsc3vbVNWawVI6TQAjzRYW64aHqu9dT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Kissimmee",
+          "street": "Bedford Road",
+          "house": 668,
+          "flat": 5933
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7605,
+      "createdOn": "2025-12-18T14:26:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69440efe1c508c5d5eda1fdb",
+          "products": [
+            {
+              "_id": "69440eff1c508c5d5eda1ffe",
+              "name": "Fish33663",
+              "amount": 254,
+              "price": 7605,
+              "manufacturer": "Tesla",
+              "notes": "37IfPvC28xUqzxwlihURPLTvjIJLXeYn4MmbGz7Nde9sSg7t3yuGsqWCnn14oKh9kG9tuDVUFLEZsHGarImxvNtADBUbg6rYOXubFc7mCGYn7vgDP1Wax81STJ25NiNVQeH324MarA37H27WF9b6HqaBbVbgDfdxBJ0CnHXwMY8fZ8ffrb8km4eaboEUwRAT3VAxmaDqBekhswORPtWEmo1S5Tzgsc3vbVNWawVI6TQAjzRYW64aHqu9dT",
+              "received": false
+            }
+          ],
+          "total_price": 7605,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kissimmee",
+              "street": "Bedford Road",
+              "house": 668,
+              "flat": 5933
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:26:09.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440efe1c508c5d5eda1fdb",
+          "products": [
+            {
+              "_id": "69440eff1c508c5d5eda1ffe",
+              "name": "Fish33663",
+              "amount": 254,
+              "price": 7605,
+              "manufacturer": "Tesla",
+              "notes": "37IfPvC28xUqzxwlihURPLTvjIJLXeYn4MmbGz7Nde9sSg7t3yuGsqWCnn14oKh9kG9tuDVUFLEZsHGarImxvNtADBUbg6rYOXubFc7mCGYn7vgDP1Wax81STJ25NiNVQeH324MarA37H27WF9b6HqaBbVbgDfdxBJ0CnHXwMY8fZ8ffrb8km4eaboEUwRAT3VAxmaDqBekhswORPtWEmo1S5Tzgsc3vbVNWawVI6TQAjzRYW64aHqu9dT",
+              "received": false
+            }
+          ],
+          "total_price": 7605,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kissimmee",
+              "street": "Bedford Road",
+              "house": 668,
+              "flat": 5933
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:26:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440efe1c508c5d5eda1fdb",
+          "products": [
+            {
+              "_id": "69440eff1c508c5d5eda1ffe",
+              "name": "Fish33663",
+              "amount": 254,
+              "price": 7605,
+              "manufacturer": "Tesla",
+              "notes": "37IfPvC28xUqzxwlihURPLTvjIJLXeYn4MmbGz7Nde9sSg7t3yuGsqWCnn14oKh9kG9tuDVUFLEZsHGarImxvNtADBUbg6rYOXubFc7mCGYn7vgDP1Wax81STJ25NiNVQeH324MarA37H27WF9b6HqaBbVbgDfdxBJ0CnHXwMY8fZ8ffrb8km4eaboEUwRAT3VAxmaDqBekhswORPtWEmo1S5Tzgsc3vbVNWawVI6TQAjzRYW64aHqu9dT",
+              "received": false
+            }
+          ],
+          "total_price": 7605,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:26:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

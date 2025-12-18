@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:25:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4624",
+    "etag": "W/\"1210-17CYWkgg6QBaTIt9V6LCYt5XM3I\"",
+    "keep-alive": "timeout=5, max=37",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69440ef61c508c5d5eda1c04",
+      "status": "Received",
+      "customer": {
+        "_id": "69440ef51c508c5d5eda1bd5",
+        "email": "Deangelo.Bins45@hotmail.com",
+        "name": "Buster Schuppe",
+        "country": "Germany",
+        "city": "New Faustinotown",
+        "street": "Center Road 19",
+        "house": 764,
+        "flat": 6671,
+        "phone": "+087501702612333",
+        "createdOn": "2025-12-18T14:25:57.000Z",
+        "notes": "Ry9CHV0HEcT2ciJp0YJX7XRKkInyT2"
+      },
+      "products": [
+        {
+          "_id": "69440ef51c508c5d5eda1bee",
+          "name": "Gloves26532",
+          "amount": 965,
+          "price": 86189,
+          "manufacturer": "Xiaomi",
+          "notes": "1wVPZhARIuvoAZQuFUmk0brmlTeXzKTBtsfG6PiRwUwWgU6UZh3R7rcbDhgOSyA3UIFtIxnaIfsXosjvaBYvrhKgREce3gbSEKmb7E0Ugra56jQfEjBn4HZM8pvlMMGhQ1ejgGiYLSOUiyFfDZQKen2TfBi2Cvoozivw4zFswfhMaP0FO5IjArisqrbeG2mhfTuOPbABLVkLPSwBZGCgIJYDOGVslCqQ9PwFzmZDH3FeiCaIUhVBOB8KPz",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Lake Bettieshire",
+          "street": "S Elm Street",
+          "house": 4,
+          "flat": 736
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 86189,
+      "createdOn": "2025-12-18T14:25:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69440ef51c508c5d5eda1bd5",
+          "products": [
+            {
+              "_id": "69440ef51c508c5d5eda1bee",
+              "name": "Gloves26532",
+              "amount": 965,
+              "price": 86189,
+              "manufacturer": "Xiaomi",
+              "notes": "1wVPZhARIuvoAZQuFUmk0brmlTeXzKTBtsfG6PiRwUwWgU6UZh3R7rcbDhgOSyA3UIFtIxnaIfsXosjvaBYvrhKgREce3gbSEKmb7E0Ugra56jQfEjBn4HZM8pvlMMGhQ1ejgGiYLSOUiyFfDZQKen2TfBi2Cvoozivw4zFswfhMaP0FO5IjArisqrbeG2mhfTuOPbABLVkLPSwBZGCgIJYDOGVslCqQ9PwFzmZDH3FeiCaIUhVBOB8KPz",
+              "received": true
+            }
+          ],
+          "total_price": 86189,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Bettieshire",
+              "street": "S Elm Street",
+              "house": 4,
+              "flat": 736
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:25:59.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69440ef51c508c5d5eda1bd5",
+          "products": [
+            {
+              "_id": "69440ef51c508c5d5eda1bee",
+              "name": "Gloves26532",
+              "amount": 965,
+              "price": 86189,
+              "manufacturer": "Xiaomi",
+              "notes": "1wVPZhARIuvoAZQuFUmk0brmlTeXzKTBtsfG6PiRwUwWgU6UZh3R7rcbDhgOSyA3UIFtIxnaIfsXosjvaBYvrhKgREce3gbSEKmb7E0Ugra56jQfEjBn4HZM8pvlMMGhQ1ejgGiYLSOUiyFfDZQKen2TfBi2Cvoozivw4zFswfhMaP0FO5IjArisqrbeG2mhfTuOPbABLVkLPSwBZGCgIJYDOGVslCqQ9PwFzmZDH3FeiCaIUhVBOB8KPz",
+              "received": false
+            }
+          ],
+          "total_price": 86189,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Bettieshire",
+              "street": "S Elm Street",
+              "house": 4,
+              "flat": 736
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:25:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440ef51c508c5d5eda1bd5",
+          "products": [
+            {
+              "_id": "69440ef51c508c5d5eda1bee",
+              "name": "Gloves26532",
+              "amount": 965,
+              "price": 86189,
+              "manufacturer": "Xiaomi",
+              "notes": "1wVPZhARIuvoAZQuFUmk0brmlTeXzKTBtsfG6PiRwUwWgU6UZh3R7rcbDhgOSyA3UIFtIxnaIfsXosjvaBYvrhKgREce3gbSEKmb7E0Ugra56jQfEjBn4HZM8pvlMMGhQ1ejgGiYLSOUiyFfDZQKen2TfBi2Cvoozivw4zFswfhMaP0FO5IjArisqrbeG2mhfTuOPbABLVkLPSwBZGCgIJYDOGVslCqQ9PwFzmZDH3FeiCaIUhVBOB8KPz",
+              "received": false
+            }
+          ],
+          "total_price": 86189,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Bettieshire",
+              "street": "S Elm Street",
+              "house": 4,
+              "flat": 736
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:25:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440ef51c508c5d5eda1bd5",
+          "products": [
+            {
+              "_id": "69440ef51c508c5d5eda1bee",
+              "name": "Gloves26532",
+              "amount": 965,
+              "price": 86189,
+              "manufacturer": "Xiaomi",
+              "notes": "1wVPZhARIuvoAZQuFUmk0brmlTeXzKTBtsfG6PiRwUwWgU6UZh3R7rcbDhgOSyA3UIFtIxnaIfsXosjvaBYvrhKgREce3gbSEKmb7E0Ugra56jQfEjBn4HZM8pvlMMGhQ1ejgGiYLSOUiyFfDZQKen2TfBi2Cvoozivw4zFswfhMaP0FO5IjArisqrbeG2mhfTuOPbABLVkLPSwBZGCgIJYDOGVslCqQ9PwFzmZDH3FeiCaIUhVBOB8KPz",
+              "received": false
+            }
+          ],
+          "total_price": 86189,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:25:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

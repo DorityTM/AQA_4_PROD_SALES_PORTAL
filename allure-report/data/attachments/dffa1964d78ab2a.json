@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:25:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3684",
+    "etag": "W/\"e64-bxPFpCPEsSHj50fRY4ta5M/de8w\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69440ed81c508c5d5eda0f7b",
+      "status": "In Process",
+      "customer": {
+        "_id": "69440ed71c508c5d5eda0f34",
+        "email": "Guillermo.Stokes@gmail.com",
+        "name": "Rosamond Murray",
+        "country": "Belarus",
+        "city": "Port Eunice",
+        "street": "Will Creek 43",
+        "house": 850,
+        "flat": 3330,
+        "phone": "+477669900931284",
+        "createdOn": "2025-12-18T14:25:27.000Z",
+        "notes": "JmEw4iOCTH3EecFkjtZ6DNGjYQqNc5"
+      },
+      "products": [
+        {
+          "_id": "69440ed71c508c5d5eda0f54",
+          "name": "Bike42092",
+          "amount": 645,
+          "price": 44725,
+          "manufacturer": "Tesla",
+          "notes": "iZ36HYLNxNg7vU0YXmruerCoIZz87PGAOBEEfOKjXwuOCFtvzfjSCPk0XVnSvxY8pGEe45ns7GKKHd4ofRB4gxKzyUtAtFFaOxEVP6SYm4YFn4TpQp5VqHut6mDf5fmUzoG5wmz05wtejFWqXVCAZvx8wu0a1yCJICfMUozGNZPMlNHwypsx65TF7n1eKQXQUuwFcBfFKdXJczxx0dsbqy7eTN5VaxMhPBxGfeROvzfZCB2FO1FKvsxcGn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "West Wilmer",
+          "street": "Jefferey Hollow",
+          "house": 50,
+          "flat": 9970
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 44725,
+      "createdOn": "2025-12-18T14:25:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69440ed71c508c5d5eda0f34",
+          "products": [
+            {
+              "_id": "69440ed71c508c5d5eda0f54",
+              "name": "Bike42092",
+              "amount": 645,
+              "price": 44725,
+              "manufacturer": "Tesla",
+              "notes": "iZ36HYLNxNg7vU0YXmruerCoIZz87PGAOBEEfOKjXwuOCFtvzfjSCPk0XVnSvxY8pGEe45ns7GKKHd4ofRB4gxKzyUtAtFFaOxEVP6SYm4YFn4TpQp5VqHut6mDf5fmUzoG5wmz05wtejFWqXVCAZvx8wu0a1yCJICfMUozGNZPMlNHwypsx65TF7n1eKQXQUuwFcBfFKdXJczxx0dsbqy7eTN5VaxMhPBxGfeROvzfZCB2FO1FKvsxcGn",
+              "received": false
+            }
+          ],
+          "total_price": 44725,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Wilmer",
+              "street": "Jefferey Hollow",
+              "house": 50,
+              "flat": 9970
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:25:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440ed71c508c5d5eda0f34",
+          "products": [
+            {
+              "_id": "69440ed71c508c5d5eda0f54",
+              "name": "Bike42092",
+              "amount": 645,
+              "price": 44725,
+              "manufacturer": "Tesla",
+              "notes": "iZ36HYLNxNg7vU0YXmruerCoIZz87PGAOBEEfOKjXwuOCFtvzfjSCPk0XVnSvxY8pGEe45ns7GKKHd4ofRB4gxKzyUtAtFFaOxEVP6SYm4YFn4TpQp5VqHut6mDf5fmUzoG5wmz05wtejFWqXVCAZvx8wu0a1yCJICfMUozGNZPMlNHwypsx65TF7n1eKQXQUuwFcBfFKdXJczxx0dsbqy7eTN5VaxMhPBxGfeROvzfZCB2FO1FKvsxcGn",
+              "received": false
+            }
+          ],
+          "total_price": 44725,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Wilmer",
+              "street": "Jefferey Hollow",
+              "house": 50,
+              "flat": 9970
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:25:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440ed71c508c5d5eda0f34",
+          "products": [
+            {
+              "_id": "69440ed71c508c5d5eda0f54",
+              "name": "Bike42092",
+              "amount": 645,
+              "price": 44725,
+              "manufacturer": "Tesla",
+              "notes": "iZ36HYLNxNg7vU0YXmruerCoIZz87PGAOBEEfOKjXwuOCFtvzfjSCPk0XVnSvxY8pGEe45ns7GKKHd4ofRB4gxKzyUtAtFFaOxEVP6SYm4YFn4TpQp5VqHut6mDf5fmUzoG5wmz05wtejFWqXVCAZvx8wu0a1yCJICfMUozGNZPMlNHwypsx65TF7n1eKQXQUuwFcBfFKdXJczxx0dsbqy7eTN5VaxMhPBxGfeROvzfZCB2FO1FKvsxcGn",
+              "received": false
+            }
+          ],
+          "total_price": 44725,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:25:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

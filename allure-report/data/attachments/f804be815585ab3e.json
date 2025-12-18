@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:26:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2752",
+    "etag": "W/\"ac0-xbYHFi87RzFeyeaRM7YE1BWn5wU\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69440f021c508c5d5eda2144",
+      "status": "Draft",
+      "customer": {
+        "_id": "69440f011c508c5d5eda2102",
+        "email": "Rick14@yahoo.com",
+        "name": "Fiona Cronin",
+        "country": "Russia",
+        "city": "Garricktown",
+        "street": "Ryan Squares 78",
+        "house": 767,
+        "flat": 4899,
+        "phone": "+131952941170361",
+        "createdOn": "2025-12-18T14:26:09.000Z",
+        "notes": "XKFB1pUQH7Cp1qDbjRmehMxCKioN3k"
+      },
+      "products": [
+        {
+          "_id": "69440f021c508c5d5eda212f",
+          "name": "Computer10955",
+          "amount": 450,
+          "price": 76732,
+          "manufacturer": "Sony",
+          "notes": "oeSj854Nzl4kfXbANfFSRYqpZeSTfEzajnlSPVL6I3Q5KT60xlq8XIOqdTzrAkChWjvLDZcqrgFfHu7P8sHgcV8353XW5d7tBX9KheTwzeApnQNcKbLpcphADbePNbEZUY5H0L4yeMVpNZHzT4wubrD6uXCfQLAzRKtPzeUvLi0PrZotPqTtWC0sIJyt9dk6LrSD91TzMpmjXQdmoHlKY2oivbWTz2fGk9MkYafKrmwJH25gC8W2ylg0kr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "North Carolina",
+          "street": "Raynor Manor",
+          "house": 627,
+          "flat": 1105
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76732,
+      "createdOn": "2025-12-18T14:26:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69440f011c508c5d5eda2102",
+          "products": [
+            {
+              "_id": "69440f021c508c5d5eda212f",
+              "name": "Computer10955",
+              "amount": 450,
+              "price": 76732,
+              "manufacturer": "Sony",
+              "notes": "oeSj854Nzl4kfXbANfFSRYqpZeSTfEzajnlSPVL6I3Q5KT60xlq8XIOqdTzrAkChWjvLDZcqrgFfHu7P8sHgcV8353XW5d7tBX9KheTwzeApnQNcKbLpcphADbePNbEZUY5H0L4yeMVpNZHzT4wubrD6uXCfQLAzRKtPzeUvLi0PrZotPqTtWC0sIJyt9dk6LrSD91TzMpmjXQdmoHlKY2oivbWTz2fGk9MkYafKrmwJH25gC8W2ylg0kr",
+              "received": false
+            }
+          ],
+          "total_price": 76732,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "North Carolina",
+              "street": "Raynor Manor",
+              "house": 627,
+              "flat": 1105
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:26:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69440f011c508c5d5eda2102",
+          "products": [
+            {
+              "_id": "69440f021c508c5d5eda212f",
+              "name": "Computer10955",
+              "amount": 450,
+              "price": 76732,
+              "manufacturer": "Sony",
+              "notes": "oeSj854Nzl4kfXbANfFSRYqpZeSTfEzajnlSPVL6I3Q5KT60xlq8XIOqdTzrAkChWjvLDZcqrgFfHu7P8sHgcV8353XW5d7tBX9KheTwzeApnQNcKbLpcphADbePNbEZUY5H0L4yeMVpNZHzT4wubrD6uXCfQLAzRKtPzeUvLi0PrZotPqTtWC0sIJyt9dk6LrSD91TzMpmjXQdmoHlKY2oivbWTz2fGk9MkYafKrmwJH25gC8W2ylg0kr",
+              "received": false
+            }
+          ],
+          "total_price": 76732,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:26:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
