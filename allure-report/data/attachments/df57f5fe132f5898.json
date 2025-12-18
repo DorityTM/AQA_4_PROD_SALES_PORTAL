@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:35:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3674",
+    "etag": "W/\"e5a-MlTL5jtglGIQUNdo1UbIvJnxke0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694473881c508c5d5ee1b7e3",
+      "status": "In Process",
+      "customer": {
+        "_id": "694473871c508c5d5ee1b750",
+        "email": "Mekhi89@hotmail.com",
+        "name": "Irwin Howe",
+        "country": "Great Britain",
+        "city": "McClurehaven",
+        "street": "Letitia Passage 90",
+        "house": 128,
+        "flat": 567,
+        "phone": "+578660369911291",
+        "createdOn": "2025-12-18T21:35:03.000Z",
+        "notes": "okHlzCAANKhyBFD5ZdRySeD6SSiKnk"
+      },
+      "products": [
+        {
+          "_id": "694473871c508c5d5ee1b795",
+          "name": "Table38689",
+          "amount": 637,
+          "price": 53218,
+          "manufacturer": "Sony",
+          "notes": "lJRyfCjy2l1aJzM9mesLiw5gJNIAyd5o4TXxNAQ2LRbEoZMIxfPXz3myrDHQWp30zUxsqjOyippNHnjL8iIstCrgFwwTp2lFPtzVBxWLSRxHAVKxjTJyIF8K88YgJZcFZSzsHzb7t0wVwCh1mxVpvKBpnwWhiveUu53wmrt4uWgz6GxM0Bs5eNLSLcMGnnLa84JSkepILicXur4xS8jPtsKzNTbbvExLZ5duOEh1zkpBUuzpaJtftHJxgg",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Emanuel",
+          "street": "Verlie Unions",
+          "house": 172,
+          "flat": 5987
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53218,
+      "createdOn": "2025-12-18T21:35:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694473871c508c5d5ee1b750",
+          "products": [
+            {
+              "_id": "694473871c508c5d5ee1b795",
+              "name": "Table38689",
+              "amount": 637,
+              "price": 53218,
+              "manufacturer": "Sony",
+              "notes": "lJRyfCjy2l1aJzM9mesLiw5gJNIAyd5o4TXxNAQ2LRbEoZMIxfPXz3myrDHQWp30zUxsqjOyippNHnjL8iIstCrgFwwTp2lFPtzVBxWLSRxHAVKxjTJyIF8K88YgJZcFZSzsHzb7t0wVwCh1mxVpvKBpnwWhiveUu53wmrt4uWgz6GxM0Bs5eNLSLcMGnnLa84JSkepILicXur4xS8jPtsKzNTbbvExLZ5duOEh1zkpBUuzpaJtftHJxgg",
+              "received": false
+            }
+          ],
+          "total_price": 53218,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Emanuel",
+              "street": "Verlie Unions",
+              "house": 172,
+              "flat": 5987
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694473871c508c5d5ee1b750",
+          "products": [
+            {
+              "_id": "694473871c508c5d5ee1b795",
+              "name": "Table38689",
+              "amount": 637,
+              "price": 53218,
+              "manufacturer": "Sony",
+              "notes": "lJRyfCjy2l1aJzM9mesLiw5gJNIAyd5o4TXxNAQ2LRbEoZMIxfPXz3myrDHQWp30zUxsqjOyippNHnjL8iIstCrgFwwTp2lFPtzVBxWLSRxHAVKxjTJyIF8K88YgJZcFZSzsHzb7t0wVwCh1mxVpvKBpnwWhiveUu53wmrt4uWgz6GxM0Bs5eNLSLcMGnnLa84JSkepILicXur4xS8jPtsKzNTbbvExLZ5duOEh1zkpBUuzpaJtftHJxgg",
+              "received": false
+            }
+          ],
+          "total_price": 53218,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Emanuel",
+              "street": "Verlie Unions",
+              "house": 172,
+              "flat": 5987
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694473871c508c5d5ee1b750",
+          "products": [
+            {
+              "_id": "694473871c508c5d5ee1b795",
+              "name": "Table38689",
+              "amount": 637,
+              "price": 53218,
+              "manufacturer": "Sony",
+              "notes": "lJRyfCjy2l1aJzM9mesLiw5gJNIAyd5o4TXxNAQ2LRbEoZMIxfPXz3myrDHQWp30zUxsqjOyippNHnjL8iIstCrgFwwTp2lFPtzVBxWLSRxHAVKxjTJyIF8K88YgJZcFZSzsHzb7t0wVwCh1mxVpvKBpnwWhiveUu53wmrt4uWgz6GxM0Bs5eNLSLcMGnnLa84JSkepILicXur4xS8jPtsKzNTbbvExLZ5duOEh1zkpBUuzpaJtftHJxgg",
+              "received": false
+            }
+          ],
+          "total_price": 53218,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:35:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

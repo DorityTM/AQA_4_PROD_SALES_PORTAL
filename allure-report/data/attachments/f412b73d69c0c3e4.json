@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:35:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4592",
+    "etag": "W/\"11f0-6emw+MHcawj1n9b7Tznu1gdqH/8\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694473881c508c5d5ee1b817",
+      "status": "Received",
+      "customer": {
+        "_id": "694473871c508c5d5ee1b79f",
+        "email": "Edd79@hotmail.com",
+        "name": "Alec Champlin",
+        "country": "France",
+        "city": "Gerardochester",
+        "street": "Jayda Knolls 19",
+        "house": 796,
+        "flat": 226,
+        "phone": "+654637711432417",
+        "createdOn": "2025-12-18T21:35:03.000Z",
+        "notes": "nUIQnoPVkHcX2uyTLmVtzAngTSo54O"
+      },
+      "products": [
+        {
+          "_id": "694473881c508c5d5ee1b7cd",
+          "name": "Chair96393",
+          "amount": 316,
+          "price": 57183,
+          "manufacturer": "Tesla",
+          "notes": "yMpAkYw0WfyDSdQjx2JEPPdYbRVDhw9N8Hs9CtJupMPvG0BX5J4kRrOj0ZnNBlEH2y3ct9bzBW00crSlla80dGWIjgWclBa8dj3uMy7d19Nr0pO6zU1eP7aBhZ2RGo51JTGY853IluxIO3UvrPl2uMD3racg3ESMZtEaYRrIP2wq005B85xVqyKBPe7ADii61wPTHwueVfMOo6Fd0QlSgPPBfM2VHs2lDVL4vhdKgUpsbkVEQIeP3Vs1j6",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Miami",
+          "street": "W Franklin Street",
+          "house": 167,
+          "flat": 6549
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 57183,
+      "createdOn": "2025-12-18T21:35:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694473871c508c5d5ee1b79f",
+          "products": [
+            {
+              "_id": "694473881c508c5d5ee1b7cd",
+              "name": "Chair96393",
+              "amount": 316,
+              "price": 57183,
+              "manufacturer": "Tesla",
+              "notes": "yMpAkYw0WfyDSdQjx2JEPPdYbRVDhw9N8Hs9CtJupMPvG0BX5J4kRrOj0ZnNBlEH2y3ct9bzBW00crSlla80dGWIjgWclBa8dj3uMy7d19Nr0pO6zU1eP7aBhZ2RGo51JTGY853IluxIO3UvrPl2uMD3racg3ESMZtEaYRrIP2wq005B85xVqyKBPe7ADii61wPTHwueVfMOo6Fd0QlSgPPBfM2VHs2lDVL4vhdKgUpsbkVEQIeP3Vs1j6",
+              "received": true
+            }
+          ],
+          "total_price": 57183,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Miami",
+              "street": "W Franklin Street",
+              "house": 167,
+              "flat": 6549
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:07.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694473871c508c5d5ee1b79f",
+          "products": [
+            {
+              "_id": "694473881c508c5d5ee1b7cd",
+              "name": "Chair96393",
+              "amount": 316,
+              "price": 57183,
+              "manufacturer": "Tesla",
+              "notes": "yMpAkYw0WfyDSdQjx2JEPPdYbRVDhw9N8Hs9CtJupMPvG0BX5J4kRrOj0ZnNBlEH2y3ct9bzBW00crSlla80dGWIjgWclBa8dj3uMy7d19Nr0pO6zU1eP7aBhZ2RGo51JTGY853IluxIO3UvrPl2uMD3racg3ESMZtEaYRrIP2wq005B85xVqyKBPe7ADii61wPTHwueVfMOo6Fd0QlSgPPBfM2VHs2lDVL4vhdKgUpsbkVEQIeP3Vs1j6",
+              "received": false
+            }
+          ],
+          "total_price": 57183,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Miami",
+              "street": "W Franklin Street",
+              "house": 167,
+              "flat": 6549
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694473871c508c5d5ee1b79f",
+          "products": [
+            {
+              "_id": "694473881c508c5d5ee1b7cd",
+              "name": "Chair96393",
+              "amount": 316,
+              "price": 57183,
+              "manufacturer": "Tesla",
+              "notes": "yMpAkYw0WfyDSdQjx2JEPPdYbRVDhw9N8Hs9CtJupMPvG0BX5J4kRrOj0ZnNBlEH2y3ct9bzBW00crSlla80dGWIjgWclBa8dj3uMy7d19Nr0pO6zU1eP7aBhZ2RGo51JTGY853IluxIO3UvrPl2uMD3racg3ESMZtEaYRrIP2wq005B85xVqyKBPe7ADii61wPTHwueVfMOo6Fd0QlSgPPBfM2VHs2lDVL4vhdKgUpsbkVEQIeP3Vs1j6",
+              "received": false
+            }
+          ],
+          "total_price": 57183,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Miami",
+              "street": "W Franklin Street",
+              "house": 167,
+              "flat": 6549
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694473871c508c5d5ee1b79f",
+          "products": [
+            {
+              "_id": "694473881c508c5d5ee1b7cd",
+              "name": "Chair96393",
+              "amount": 316,
+              "price": 57183,
+              "manufacturer": "Tesla",
+              "notes": "yMpAkYw0WfyDSdQjx2JEPPdYbRVDhw9N8Hs9CtJupMPvG0BX5J4kRrOj0ZnNBlEH2y3ct9bzBW00crSlla80dGWIjgWclBa8dj3uMy7d19Nr0pO6zU1eP7aBhZ2RGo51JTGY853IluxIO3UvrPl2uMD3racg3ESMZtEaYRrIP2wq005B85xVqyKBPe7ADii61wPTHwueVfMOo6Fd0QlSgPPBfM2VHs2lDVL4vhdKgUpsbkVEQIeP3Vs1j6",
+              "received": false
+            }
+          ],
+          "total_price": 57183,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:35:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

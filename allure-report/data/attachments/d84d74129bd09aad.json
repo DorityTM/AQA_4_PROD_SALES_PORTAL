@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:35:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2756",
+    "etag": "W/\"ac4-9EhIaL/Dvz+d8sQoWn8K7tV+zlU\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694473a81c508c5d5ee1c5c4",
+      "status": "Draft",
+      "customer": {
+        "_id": "694473a71c508c5d5ee1c569",
+        "email": "Clementina59@gmail.com",
+        "name": "Timothy Halvorson",
+        "country": "Great Britain",
+        "city": "Turcottemouth",
+        "street": "Brain Union 45",
+        "house": 373,
+        "flat": 5432,
+        "phone": "+073702957203861",
+        "createdOn": "2025-12-18T21:35:35.000Z",
+        "notes": "1bS8x96r7QpLf6ODaoTlIAGbulzOqY"
+      },
+      "products": [
+        {
+          "_id": "694473a81c508c5d5ee1c596",
+          "name": "Bacon249",
+          "amount": 49,
+          "price": 11460,
+          "manufacturer": "Samsung",
+          "notes": "JWyhVVf1itR2sTLMKvK3AcxJ7dSInR6bllfF3C7hTsmRXNZ0aT3yDoFByrHgj4Huz78u4xk2qoCikZfalZWYIO5BAaRHchMzIurx09j59952QCZWOswCesN0BhQWzsvQM7LmGyiE4fKv6PyeuGb9sa0Z6spY9pLDuusGHdz5SqniI8Rlsa9Iu20Xf731DqGYBWSWLNAo2GT4nHrTlLUxpe2lxgfvviJyX6KSPdMMYvkeTM2ipS0vwy7R1v",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Freidabury",
+          "street": "Lincoln Avenue",
+          "house": 693,
+          "flat": 8409
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 11460,
+      "createdOn": "2025-12-18T21:35:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694473a71c508c5d5ee1c569",
+          "products": [
+            {
+              "_id": "694473a81c508c5d5ee1c596",
+              "name": "Bacon249",
+              "amount": 49,
+              "price": 11460,
+              "manufacturer": "Samsung",
+              "notes": "JWyhVVf1itR2sTLMKvK3AcxJ7dSInR6bllfF3C7hTsmRXNZ0aT3yDoFByrHgj4Huz78u4xk2qoCikZfalZWYIO5BAaRHchMzIurx09j59952QCZWOswCesN0BhQWzsvQM7LmGyiE4fKv6PyeuGb9sa0Z6spY9pLDuusGHdz5SqniI8Rlsa9Iu20Xf731DqGYBWSWLNAo2GT4nHrTlLUxpe2lxgfvviJyX6KSPdMMYvkeTM2ipS0vwy7R1v",
+              "received": false
+            }
+          ],
+          "total_price": 11460,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Freidabury",
+              "street": "Lincoln Avenue",
+              "house": 693,
+              "flat": 8409
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694473a71c508c5d5ee1c569",
+          "products": [
+            {
+              "_id": "694473a81c508c5d5ee1c596",
+              "name": "Bacon249",
+              "amount": 49,
+              "price": 11460,
+              "manufacturer": "Samsung",
+              "notes": "JWyhVVf1itR2sTLMKvK3AcxJ7dSInR6bllfF3C7hTsmRXNZ0aT3yDoFByrHgj4Huz78u4xk2qoCikZfalZWYIO5BAaRHchMzIurx09j59952QCZWOswCesN0BhQWzsvQM7LmGyiE4fKv6PyeuGb9sa0Z6spY9pLDuusGHdz5SqniI8Rlsa9Iu20Xf731DqGYBWSWLNAo2GT4nHrTlLUxpe2lxgfvviJyX6KSPdMMYvkeTM2ipS0vwy7R1v",
+              "received": false
+            }
+          ],
+          "total_price": 11460,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:35:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

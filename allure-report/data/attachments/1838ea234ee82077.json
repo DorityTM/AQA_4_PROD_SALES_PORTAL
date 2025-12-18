@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:35:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4617",
+    "etag": "W/\"1209-LbzbkW0M87pQaCb4TUZ7xzHQVVI\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694473901c508c5d5ee1bb42",
+      "status": "Received",
+      "customer": {
+        "_id": "6944738f1c508c5d5ee1bac9",
+        "email": "Ubaldo.Trantow@hotmail.com",
+        "name": "Cecil Satterfield",
+        "country": "Germany",
+        "city": "South Virginie",
+        "street": "Jordyn Dale 44",
+        "house": 797,
+        "flat": 355,
+        "phone": "+619798530769320",
+        "createdOn": "2025-12-18T21:35:11.000Z",
+        "notes": "7pgVNea2qQjYEm7oL2xpJ2ThcZmCKq"
+      },
+      "products": [
+        {
+          "_id": "6944738f1c508c5d5ee1bb05",
+          "name": "Pizza987",
+          "amount": 231,
+          "price": 95191,
+          "manufacturer": "Samsung",
+          "notes": "b1qh9dDDVBJqmUnJfLThOJXIOBFk0TjHj3prw9x1nrG7gjnQ3q07ZF5osw6bm4bpGTa6ydV8qI2uKNLy0gVW3mEsBE2DApJkSnhivsLP8L9efTwfbrrY2VnVFzI6drdWyAllems2srkWQsFiRgdPSB31e4aCUjsp0GSBmWa50zUbsK5CAy07reNBzcC2EPdF8xB9Fd9cOhVv1uEUBKs1GPmPL2TEdskHnVrNY6PxkRo4ho3gkoBYPyjpcJ",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Joplin",
+          "street": "Osinski Plaza",
+          "house": 132,
+          "flat": 6757
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 95191,
+      "createdOn": "2025-12-18T21:35:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6944738f1c508c5d5ee1bac9",
+          "products": [
+            {
+              "_id": "6944738f1c508c5d5ee1bb05",
+              "name": "Pizza987",
+              "amount": 231,
+              "price": 95191,
+              "manufacturer": "Samsung",
+              "notes": "b1qh9dDDVBJqmUnJfLThOJXIOBFk0TjHj3prw9x1nrG7gjnQ3q07ZF5osw6bm4bpGTa6ydV8qI2uKNLy0gVW3mEsBE2DApJkSnhivsLP8L9efTwfbrrY2VnVFzI6drdWyAllems2srkWQsFiRgdPSB31e4aCUjsp0GSBmWa50zUbsK5CAy07reNBzcC2EPdF8xB9Fd9cOhVv1uEUBKs1GPmPL2TEdskHnVrNY6PxkRo4ho3gkoBYPyjpcJ",
+              "received": true
+            }
+          ],
+          "total_price": 95191,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Joplin",
+              "street": "Osinski Plaza",
+              "house": 132,
+              "flat": 6757
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:15.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6944738f1c508c5d5ee1bac9",
+          "products": [
+            {
+              "_id": "6944738f1c508c5d5ee1bb05",
+              "name": "Pizza987",
+              "amount": 231,
+              "price": 95191,
+              "manufacturer": "Samsung",
+              "notes": "b1qh9dDDVBJqmUnJfLThOJXIOBFk0TjHj3prw9x1nrG7gjnQ3q07ZF5osw6bm4bpGTa6ydV8qI2uKNLy0gVW3mEsBE2DApJkSnhivsLP8L9efTwfbrrY2VnVFzI6drdWyAllems2srkWQsFiRgdPSB31e4aCUjsp0GSBmWa50zUbsK5CAy07reNBzcC2EPdF8xB9Fd9cOhVv1uEUBKs1GPmPL2TEdskHnVrNY6PxkRo4ho3gkoBYPyjpcJ",
+              "received": false
+            }
+          ],
+          "total_price": 95191,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Joplin",
+              "street": "Osinski Plaza",
+              "house": 132,
+              "flat": 6757
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:14.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944738f1c508c5d5ee1bac9",
+          "products": [
+            {
+              "_id": "6944738f1c508c5d5ee1bb05",
+              "name": "Pizza987",
+              "amount": 231,
+              "price": 95191,
+              "manufacturer": "Samsung",
+              "notes": "b1qh9dDDVBJqmUnJfLThOJXIOBFk0TjHj3prw9x1nrG7gjnQ3q07ZF5osw6bm4bpGTa6ydV8qI2uKNLy0gVW3mEsBE2DApJkSnhivsLP8L9efTwfbrrY2VnVFzI6drdWyAllems2srkWQsFiRgdPSB31e4aCUjsp0GSBmWa50zUbsK5CAy07reNBzcC2EPdF8xB9Fd9cOhVv1uEUBKs1GPmPL2TEdskHnVrNY6PxkRo4ho3gkoBYPyjpcJ",
+              "received": false
+            }
+          ],
+          "total_price": 95191,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Joplin",
+              "street": "Osinski Plaza",
+              "house": 132,
+              "flat": 6757
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944738f1c508c5d5ee1bac9",
+          "products": [
+            {
+              "_id": "6944738f1c508c5d5ee1bb05",
+              "name": "Pizza987",
+              "amount": 231,
+              "price": 95191,
+              "manufacturer": "Samsung",
+              "notes": "b1qh9dDDVBJqmUnJfLThOJXIOBFk0TjHj3prw9x1nrG7gjnQ3q07ZF5osw6bm4bpGTa6ydV8qI2uKNLy0gVW3mEsBE2DApJkSnhivsLP8L9efTwfbrrY2VnVFzI6drdWyAllems2srkWQsFiRgdPSB31e4aCUjsp0GSBmWa50zUbsK5CAy07reNBzcC2EPdF8xB9Fd9cOhVv1uEUBKs1GPmPL2TEdskHnVrNY6PxkRo4ho3gkoBYPyjpcJ",
+              "received": false
+            }
+          ],
+          "total_price": 95191,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:35:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

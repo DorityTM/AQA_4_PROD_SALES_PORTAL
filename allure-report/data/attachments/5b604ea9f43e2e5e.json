@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:36:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2744",
+    "etag": "W/\"ab8-9mOhtAUOMAxE5v5DKGd/5ynwRyE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694473f21c508c5d5ee1eb70",
+      "status": "Draft",
+      "customer": {
+        "_id": "694473f11c508c5d5ee1eb00",
+        "email": "Colton42@hotmail.com",
+        "name": "Aliza Schumm",
+        "country": "Germany",
+        "city": "Coconut Creek",
+        "street": "Ledner Bypass 7",
+        "house": 773,
+        "flat": 3451,
+        "phone": "+361259407414208",
+        "createdOn": "2025-12-18T21:36:49.000Z",
+        "notes": "Z5TKNAkl0B37U53nUDzlWxkajSX6Gu"
+      },
+      "products": [
+        {
+          "_id": "694473f11c508c5d5ee1eb1a",
+          "name": "Salad40456",
+          "amount": 845,
+          "price": 99061,
+          "manufacturer": "Sony",
+          "notes": "ihkpKZgl1sjhr0fhdKJPt68FpFXr6uBdhsFwgQz92JTzA6KmPz2lPZ57FXIhkeXTY7LU3QI3z5VYHNJfFIFSSbXD28rHpSl5BqhgvruWxFJg7V1HbK4VL3qZ5NfnHRcaVgnxJjQTB2Z5YpJkrRB7OaPzr36OFD7tjAY94GvJljQ0voT1RSwcBsqXvw7ztkFDgOvQfzJ5wH66w0dlEEMOdzf9b9gOYZOba1DZNNig5tZ6RCX6VqvbQiniaI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "West Isidro",
+          "street": "Keaton Bypass",
+          "house": 168,
+          "flat": 5537
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99061,
+      "createdOn": "2025-12-18T21:36:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694473f11c508c5d5ee1eb00",
+          "products": [
+            {
+              "_id": "694473f11c508c5d5ee1eb1a",
+              "name": "Salad40456",
+              "amount": 845,
+              "price": 99061,
+              "manufacturer": "Sony",
+              "notes": "ihkpKZgl1sjhr0fhdKJPt68FpFXr6uBdhsFwgQz92JTzA6KmPz2lPZ57FXIhkeXTY7LU3QI3z5VYHNJfFIFSSbXD28rHpSl5BqhgvruWxFJg7V1HbK4VL3qZ5NfnHRcaVgnxJjQTB2Z5YpJkrRB7OaPzr36OFD7tjAY94GvJljQ0voT1RSwcBsqXvw7ztkFDgOvQfzJ5wH66w0dlEEMOdzf9b9gOYZOba1DZNNig5tZ6RCX6VqvbQiniaI",
+              "received": false
+            }
+          ],
+          "total_price": 99061,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Isidro",
+              "street": "Keaton Bypass",
+              "house": 168,
+              "flat": 5537
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:36:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694473f11c508c5d5ee1eb00",
+          "products": [
+            {
+              "_id": "694473f11c508c5d5ee1eb1a",
+              "name": "Salad40456",
+              "amount": 845,
+              "price": 99061,
+              "manufacturer": "Sony",
+              "notes": "ihkpKZgl1sjhr0fhdKJPt68FpFXr6uBdhsFwgQz92JTzA6KmPz2lPZ57FXIhkeXTY7LU3QI3z5VYHNJfFIFSSbXD28rHpSl5BqhgvruWxFJg7V1HbK4VL3qZ5NfnHRcaVgnxJjQTB2Z5YpJkrRB7OaPzr36OFD7tjAY94GvJljQ0voT1RSwcBsqXvw7ztkFDgOvQfzJ5wH66w0dlEEMOdzf9b9gOYZOba1DZNNig5tZ6RCX6VqvbQiniaI",
+              "received": false
+            }
+          ],
+          "total_price": 99061,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:36:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
