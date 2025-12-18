@@ -3,7 +3,6 @@ import {
   getCustomerByIdPositiveCases,
   getCustomerByIdNegativeCases,
 } from "data/salesPortal/customers/getByIdCustomerTestData";
-import { getByIdCustomerSchema } from "data/schemas/customers/getById.schema";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { TAGS } from "data/tags";
 
@@ -19,20 +18,14 @@ test.describe("[API] [Sales Portal] [Customers] [Get By Id]", () => {
       test(
         testCase.title,
         { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS] },
-        async ({ customersApi, customersApiService }) => {
+        async ({ customersApiService, cleanup }) => {
           const createdCustomer = await customersApiService.create(token);
           const id = createdCustomer._id;
-          const response = await customersApi.getById(token, id);
 
-          validateResponse(response, {
-            status: testCase.expectedStatus,
-            schema: getByIdCustomerSchema,
-            IsSuccess: testCase.isSuccess as boolean,
-            ErrorMessage: testCase.expectedErrorMessage,
-          });
+          const customer = await customersApiService.getById(token, id);
 
-          expect(response.body.Customer).toEqual(createdCustomer);
-          await customersApiService.delete(token, id);
+          expect(customer).toEqual(createdCustomer);
+          cleanup.addCustomer(id);
         },
       );
     }

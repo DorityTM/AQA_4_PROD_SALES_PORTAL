@@ -77,28 +77,14 @@ const test = base.extend<IApi>({
     await use(new OrdersFacadeService(ordersApi, customersApiService, productsApiService));
   },
   // per-test cleanup registry with automatic teardown
-  cleanup: async ({ loginApiService, ordersApiService, productsApiService, customersApiService }, use) => {
-    const state = {
-      orders: new Set<string>(),
-      products: new Set<string>(),
-      customers: new Set<string>(),
-    };
-
+  cleanup: async ({ loginApiService, ordersApiService }, use) => {
     await use({
-      addOrder: (orderId: string) => state.orders.add(orderId),
-      addProduct: (id: string) => state.products.add(id),
-      addCustomer: (id: string) => state.customers.add(id),
+      addOrder: (orderId: string) => ordersApiService.trackOrderId(orderId),
+      addProduct: (id: string) => ordersApiService.trackProductIds([id]),
+      addCustomer: (id: string) => ordersApiService.trackCustomerId(id),
     });
 
     const token = await loginApiService.loginAsAdmin();
-
-    await Promise.all(
-      Array.from(state.orders).map((orderId) => ordersApiService.deleteOrderAndEntities(token, orderId)),
-    );
-    await Promise.all(Array.from(state.products).map((id) => productsApiService.delete(token, id)));
-    await Promise.all(Array.from(state.customers).map((id) => customersApiService.delete(token, id)));
-
-    // Additionally perform token-only cleanup for any tracked entities
     await ordersApiService.fullDelete(token);
   },
 });

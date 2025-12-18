@@ -1,11 +1,7 @@
-// TODO: Migrate to customersApiService.delete(token, id)
-// Example: await customersApiService.delete(token, customerId);
-// Service handles validation automatically
 import { test, expect } from "fixtures/api.fixture";
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
-// import { INVALID_ID_SCENARIOS } from "data/salesPortal/customers/invalidData";
 
 test.describe("CST-008/009 Delete customer", () => {
   let token: string;
@@ -24,13 +20,12 @@ test.describe("CST-008/009 Delete customer", () => {
   test(
     "CST-008: Delete customer (Valid Id)",
     { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.SMOKE] },
-    async ({ customersApi }) => {
-      const created = await customersApi.create(token, generateCustomerData());
-      const id = created.body.Customer._id;
+    async ({ customersApiService, customersApi }) => {
+      const created = await customersApiService.create(token, generateCustomerData());
+      const id = created._id;
       createdCustomerIds.push(id);
 
-      const deleted = await customersApi.delete(token, id);
-      expect(deleted.status).toBe(STATUS_CODES.DELETED);
+      await customersApiService.delete(token, id);
 
       const afterDelete = await customersApi.getById(token, id);
       expect(afterDelete.status).toBe(STATUS_CODES.NOT_FOUND);

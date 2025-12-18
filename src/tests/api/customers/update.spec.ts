@@ -1,6 +1,5 @@
 import { test, expect } from "fixtures/api.fixture";
 import { generateCustomerData } from "data/salesPortal/customers/generateCustomerData";
-import { updateCustomerSchema } from "data/schemas/customers/update.schema";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import {
   updateCustomerPositiveCases,
@@ -17,30 +16,18 @@ test.describe("[API][Customers]", () => {
     token = await loginApiService.loginAsAdmin();
   });
 
-  test.afterEach(async ({ customersApiService }) => {
-    if (id) await customersApiService.delete(token, id);
-  });
-
   test.describe("[Update customer]", () => {
     for (const testCase of updateCustomerPositiveCases) {
       test(
         testCase.title,
         { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS] },
-        async ({ customersApiService, customersApi }) => {
+        async ({ customersApiService, cleanup }) => {
           const createdCustomer = await customersApiService.create(token);
           id = createdCustomer._id;
+          cleanup.addCustomer(id);
 
           const updatedCustomerData = { ...createdCustomer, ...testCase.customerData! };
-          const updatedCustomerResponse = await customersApi.update(token, id, updatedCustomerData);
-
-          validateResponse(updatedCustomerResponse, {
-            status: testCase.expectedStatus,
-            schema: updateCustomerSchema,
-            IsSuccess: testCase.isSuccess as boolean,
-            ErrorMessage: testCase.expectedErrorMessage,
-          });
-
-          const updatedCustomer = updatedCustomerResponse.body.Customer;
+          const updatedCustomer = await customersApiService.update(token, id, updatedCustomerData);
           expect.soft(updatedCustomer).toEqual(updatedCustomerData);
           expect.soft(updatedCustomer._id).toBe(id);
         },
@@ -53,9 +40,10 @@ test.describe("[API][Customers]", () => {
       test(
         testCase.title,
         { tag: [TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS] },
-        async ({ customersApiService, customersApi }) => {
+        async ({ customersApiService, customersApi, cleanup }) => {
           const createdCustomer = await customersApiService.create(token);
           id = createdCustomer._id;
+          cleanup.addCustomer(id);
 
           const updatedCustomerData = { ...createdCustomer, ...testCase.customerData! };
           const updatedCustomerResponse = await customersApi.update(token, id, updatedCustomerData);
@@ -75,9 +63,10 @@ test.describe("[API][Customers]", () => {
       test(
         testCase.title,
         { tag: [TAGS.REGRESSION, TAGS.API, TAGS.CUSTOMERS] },
-        async ({ customersApiService, customersApi }) => {
+        async ({ customersApiService, customersApi, cleanup }) => {
           const createdCustomer = await customersApiService.create(token);
           id = createdCustomer._id;
+          cleanup.addCustomer(id);
 
           const updatedCustomerData = generateCustomerData();
           const updatedCustomerResponse = await customersApi.update(token, testCase.id!, updatedCustomerData);
