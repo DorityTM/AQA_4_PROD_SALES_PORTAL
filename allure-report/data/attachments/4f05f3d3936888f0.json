@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:45:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-N/of0Sm2WHVleUixDMS+LuqR9no\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694475e01c508c5d5ee280c6",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694475e01c508c5d5ee28088",
+        "email": "Steve30@hotmail.com",
+        "name": "Javon Medhurst",
+        "country": "Germany",
+        "city": "Mobile",
+        "street": "South Avenue 73",
+        "house": 126,
+        "flat": 6199,
+        "phone": "+185861450456349",
+        "createdOn": "2025-12-18T21:45:04.000Z",
+        "notes": "rMCrO8eLUYEihSu9wMDce7XjcnWdKP"
+      },
+      "products": [
+        {
+          "_id": "694475e01c508c5d5ee2809c",
+          "name": "Towels28859",
+          "amount": 76,
+          "price": 47574,
+          "manufacturer": "Apple",
+          "notes": "88EyYamyIC30w7mYeybGspRFEH2Hc4A0H0Gcsr4COtBBogNKM9CzQ5LWNRI7kNmdWY5I59kGx8j7DyAL5lLoHrmGbWOd9h96XyZfapvLa3eynz8emkQzwuP85IZeVa674auQGsmhIxDme6NNENRhtAQ80DvE4zjvsi9X9JUPA6xk5oYfO5kYLfBFSI0AmWJJM8LwrWYuRfx33XPw0hcQOKcP4EuS8EXlNtEDM0gTNf1ymwfPJsZvw6J7LE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Corineworth",
+          "street": "Church Walk",
+          "house": 531,
+          "flat": 1948
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47574,
+      "createdOn": "2025-12-18T21:45:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694475e01c508c5d5ee28088",
+          "products": [
+            {
+              "_id": "694475e01c508c5d5ee2809c",
+              "name": "Towels28859",
+              "amount": 76,
+              "price": 47574,
+              "manufacturer": "Apple",
+              "notes": "88EyYamyIC30w7mYeybGspRFEH2Hc4A0H0Gcsr4COtBBogNKM9CzQ5LWNRI7kNmdWY5I59kGx8j7DyAL5lLoHrmGbWOd9h96XyZfapvLa3eynz8emkQzwuP85IZeVa674auQGsmhIxDme6NNENRhtAQ80DvE4zjvsi9X9JUPA6xk5oYfO5kYLfBFSI0AmWJJM8LwrWYuRfx33XPw0hcQOKcP4EuS8EXlNtEDM0gTNf1ymwfPJsZvw6J7LE",
+              "received": false
+            }
+          ],
+          "total_price": 47574,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Corineworth",
+              "street": "Church Walk",
+              "house": 531,
+              "flat": 1948
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:45:06.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694475e01c508c5d5ee28088",
+          "products": [
+            {
+              "_id": "694475e01c508c5d5ee2809c",
+              "name": "Towels28859",
+              "amount": 76,
+              "price": 47574,
+              "manufacturer": "Apple",
+              "notes": "88EyYamyIC30w7mYeybGspRFEH2Hc4A0H0Gcsr4COtBBogNKM9CzQ5LWNRI7kNmdWY5I59kGx8j7DyAL5lLoHrmGbWOd9h96XyZfapvLa3eynz8emkQzwuP85IZeVa674auQGsmhIxDme6NNENRhtAQ80DvE4zjvsi9X9JUPA6xk5oYfO5kYLfBFSI0AmWJJM8LwrWYuRfx33XPw0hcQOKcP4EuS8EXlNtEDM0gTNf1ymwfPJsZvw6J7LE",
+              "received": false
+            }
+          ],
+          "total_price": 47574,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Corineworth",
+              "street": "Church Walk",
+              "house": 531,
+              "flat": 1948
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:45:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694475e01c508c5d5ee28088",
+          "products": [
+            {
+              "_id": "694475e01c508c5d5ee2809c",
+              "name": "Towels28859",
+              "amount": 76,
+              "price": 47574,
+              "manufacturer": "Apple",
+              "notes": "88EyYamyIC30w7mYeybGspRFEH2Hc4A0H0Gcsr4COtBBogNKM9CzQ5LWNRI7kNmdWY5I59kGx8j7DyAL5lLoHrmGbWOd9h96XyZfapvLa3eynz8emkQzwuP85IZeVa674auQGsmhIxDme6NNENRhtAQ80DvE4zjvsi9X9JUPA6xk5oYfO5kYLfBFSI0AmWJJM8LwrWYuRfx33XPw0hcQOKcP4EuS8EXlNtEDM0gTNf1ymwfPJsZvw6J7LE",
+              "received": false
+            }
+          ],
+          "total_price": 47574,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:45:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

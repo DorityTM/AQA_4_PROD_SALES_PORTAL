@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:44:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3662",
+    "etag": "W/\"e4e-udVfRsk8sGes5S9UTuWipVKl1mY\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694475cf1c508c5d5ee277da",
+      "status": "In Process",
+      "customer": {
+        "_id": "694475ce1c508c5d5ee276fe",
+        "email": "Korey87@hotmail.com",
+        "name": "Bella Bernier",
+        "country": "Germany",
+        "city": "Portland",
+        "street": "Schaden Village 36",
+        "house": 857,
+        "flat": 9921,
+        "phone": "+478014028001866",
+        "createdOn": "2025-12-18T21:44:46.000Z",
+        "notes": "btUcF5N5wxudjeGDnTwdz4Cnj0nfiB"
+      },
+      "products": [
+        {
+          "_id": "694475ce1c508c5d5ee27762",
+          "name": "Table14291",
+          "amount": 197,
+          "price": 41573,
+          "manufacturer": "Sony",
+          "notes": "Fx0nYLaoWMc6DOR26XUv51CueQlNmv8md7blLYKV6v3t0ibwxW6bSBm3y6l29doI9bithSSpeariCluZowQLi7jPZ8ig7qYfroHKSNEDmPedg0y4VUUlCrRSVDCaVKUuQivn1qmlKiawvZyKFErVEckghzUR7DAEEzu7A0ymG7yAHL7noj2yZSHlN54slVnUWxBmHgMdj0qKX4dFcfPfzBlCiIaILRKHhhlxsTQtCKHE1mKniGg1ezUr7l",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Demarcoview",
+          "street": "Bethel Coves",
+          "house": 721,
+          "flat": 6770
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 41573,
+      "createdOn": "2025-12-18T21:44:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694475ce1c508c5d5ee276fe",
+          "products": [
+            {
+              "_id": "694475ce1c508c5d5ee27762",
+              "name": "Table14291",
+              "amount": 197,
+              "price": 41573,
+              "manufacturer": "Sony",
+              "notes": "Fx0nYLaoWMc6DOR26XUv51CueQlNmv8md7blLYKV6v3t0ibwxW6bSBm3y6l29doI9bithSSpeariCluZowQLi7jPZ8ig7qYfroHKSNEDmPedg0y4VUUlCrRSVDCaVKUuQivn1qmlKiawvZyKFErVEckghzUR7DAEEzu7A0ymG7yAHL7noj2yZSHlN54slVnUWxBmHgMdj0qKX4dFcfPfzBlCiIaILRKHhhlxsTQtCKHE1mKniGg1ezUr7l",
+              "received": false
+            }
+          ],
+          "total_price": 41573,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Demarcoview",
+              "street": "Bethel Coves",
+              "house": 721,
+              "flat": 6770
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:44:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694475ce1c508c5d5ee276fe",
+          "products": [
+            {
+              "_id": "694475ce1c508c5d5ee27762",
+              "name": "Table14291",
+              "amount": 197,
+              "price": 41573,
+              "manufacturer": "Sony",
+              "notes": "Fx0nYLaoWMc6DOR26XUv51CueQlNmv8md7blLYKV6v3t0ibwxW6bSBm3y6l29doI9bithSSpeariCluZowQLi7jPZ8ig7qYfroHKSNEDmPedg0y4VUUlCrRSVDCaVKUuQivn1qmlKiawvZyKFErVEckghzUR7DAEEzu7A0ymG7yAHL7noj2yZSHlN54slVnUWxBmHgMdj0qKX4dFcfPfzBlCiIaILRKHhhlxsTQtCKHE1mKniGg1ezUr7l",
+              "received": false
+            }
+          ],
+          "total_price": 41573,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Demarcoview",
+              "street": "Bethel Coves",
+              "house": 721,
+              "flat": 6770
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:44:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694475ce1c508c5d5ee276fe",
+          "products": [
+            {
+              "_id": "694475ce1c508c5d5ee27762",
+              "name": "Table14291",
+              "amount": 197,
+              "price": 41573,
+              "manufacturer": "Sony",
+              "notes": "Fx0nYLaoWMc6DOR26XUv51CueQlNmv8md7blLYKV6v3t0ibwxW6bSBm3y6l29doI9bithSSpeariCluZowQLi7jPZ8ig7qYfroHKSNEDmPedg0y4VUUlCrRSVDCaVKUuQivn1qmlKiawvZyKFErVEckghzUR7DAEEzu7A0ymG7yAHL7noj2yZSHlN54slVnUWxBmHgMdj0qKX4dFcfPfzBlCiIaILRKHhhlxsTQtCKHE1mKniGg1ezUr7l",
+              "received": false
+            }
+          ],
+          "total_price": 41573,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:44:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

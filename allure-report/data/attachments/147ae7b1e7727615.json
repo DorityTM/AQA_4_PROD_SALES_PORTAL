@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:45:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-20x1aaT1SQNFDXryX+4gQ9O5n2E\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694476071c508c5d5ee292aa",
+      "status": "Draft",
+      "customer": {
+        "_id": "694476061c508c5d5ee29252",
+        "email": "Russel60@gmail.com",
+        "name": "Robin Denesik Kovacek",
+        "country": "France",
+        "city": "Lake Luciousside",
+        "street": "Dietrich Fork 27",
+        "house": 850,
+        "flat": 9153,
+        "phone": "+695385218030176",
+        "createdOn": "2025-12-18T21:45:42.000Z",
+        "notes": "NV3igDchxNeBCZ1GIMlPWq2nxpnYNw"
+      },
+      "products": [
+        {
+          "_id": "694476061c508c5d5ee29275",
+          "name": "Chicken15308",
+          "amount": 687,
+          "price": 91349,
+          "manufacturer": "Sony",
+          "notes": "izPxU0FVofut8dus74EajVusosTcIAiG0AJgn22MnNoGzjXOtNZXwBeOuZvtTWC9UGdLlpO7VaE3b1Ndptm7GANPr7aN9MgB3auBc7WXI60WaI3wqRE6tfRAXf9BKVFTn7H43bJzl8ebqBX7TcPRo4VugJjwAA0cyr10k8SBykFGeuwc9mWCpwNGqjcswnXhVqgvPv9PLrLrWvTbF8QdxFfApdFntqF7rNiADZcTvntEzFQu1cymitkoYt",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Millsport",
+          "street": "Hammes Falls",
+          "house": 790,
+          "flat": 4575
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 91349,
+      "createdOn": "2025-12-18T21:45:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694476061c508c5d5ee29252",
+          "products": [
+            {
+              "_id": "694476061c508c5d5ee29275",
+              "name": "Chicken15308",
+              "amount": 687,
+              "price": 91349,
+              "manufacturer": "Sony",
+              "notes": "izPxU0FVofut8dus74EajVusosTcIAiG0AJgn22MnNoGzjXOtNZXwBeOuZvtTWC9UGdLlpO7VaE3b1Ndptm7GANPr7aN9MgB3auBc7WXI60WaI3wqRE6tfRAXf9BKVFTn7H43bJzl8ebqBX7TcPRo4VugJjwAA0cyr10k8SBykFGeuwc9mWCpwNGqjcswnXhVqgvPv9PLrLrWvTbF8QdxFfApdFntqF7rNiADZcTvntEzFQu1cymitkoYt",
+              "received": false
+            }
+          ],
+          "total_price": 91349,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Millsport",
+              "street": "Hammes Falls",
+              "house": 790,
+              "flat": 4575
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:45:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694476061c508c5d5ee29252",
+          "products": [
+            {
+              "_id": "694476061c508c5d5ee29275",
+              "name": "Chicken15308",
+              "amount": 687,
+              "price": 91349,
+              "manufacturer": "Sony",
+              "notes": "izPxU0FVofut8dus74EajVusosTcIAiG0AJgn22MnNoGzjXOtNZXwBeOuZvtTWC9UGdLlpO7VaE3b1Ndptm7GANPr7aN9MgB3auBc7WXI60WaI3wqRE6tfRAXf9BKVFTn7H43bJzl8ebqBX7TcPRo4VugJjwAA0cyr10k8SBykFGeuwc9mWCpwNGqjcswnXhVqgvPv9PLrLrWvTbF8QdxFfApdFntqF7rNiADZcTvntEzFQu1cymitkoYt",
+              "received": false
+            }
+          ],
+          "total_price": 91349,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:45:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

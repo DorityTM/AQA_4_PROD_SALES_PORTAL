@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:44:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3666",
+    "etag": "W/\"e52-UsbOEcRGhyhAGdfMVOKpeflA1h8\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694475d61c508c5d5ee27b5e",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694475d51c508c5d5ee27b20",
+        "email": "Kristina43@yahoo.com",
+        "name": "Sigrid MacGyver",
+        "country": "France",
+        "city": "South Arielborough",
+        "street": "Grove Road 53",
+        "house": 608,
+        "flat": 9128,
+        "phone": "+423116935731011",
+        "createdOn": "2025-12-18T21:44:53.000Z",
+        "notes": "6LmSD5AwHPVeGuySKDmt2h6uovezki"
+      },
+      "products": [
+        {
+          "_id": "694475d51c508c5d5ee27b35",
+          "name": "Gloves72880",
+          "amount": 896,
+          "price": 90965,
+          "manufacturer": "Apple",
+          "notes": "odUO3t5HiiXcQdhaUygcFjhi18VqRWq0aMLA3EYhTHFZbW1g0DNnVMx5DxWxChJKqOxatRDpkHGLThtVwzjoSsgBl7IEd2dqIrZ8z1KcX5NOl2821priubm1dpV6fX1YowJsXxPztu9d6jU3XeMrKnBceOqdfU3lotz8m10EBMsOlNUVT5JsFCtYZN192JSGEMZxAL46eHUUghjmdiT66qGqL873ugRUNnwuAFNrKjTPAQZOsNipKDDgVG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Lake Courtney",
+          "street": "Newton Road",
+          "house": 772,
+          "flat": 1049
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 90965,
+      "createdOn": "2025-12-18T21:44:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694475d51c508c5d5ee27b20",
+          "products": [
+            {
+              "_id": "694475d51c508c5d5ee27b35",
+              "name": "Gloves72880",
+              "amount": 896,
+              "price": 90965,
+              "manufacturer": "Apple",
+              "notes": "odUO3t5HiiXcQdhaUygcFjhi18VqRWq0aMLA3EYhTHFZbW1g0DNnVMx5DxWxChJKqOxatRDpkHGLThtVwzjoSsgBl7IEd2dqIrZ8z1KcX5NOl2821priubm1dpV6fX1YowJsXxPztu9d6jU3XeMrKnBceOqdfU3lotz8m10EBMsOlNUVT5JsFCtYZN192JSGEMZxAL46eHUUghjmdiT66qGqL873ugRUNnwuAFNrKjTPAQZOsNipKDDgVG",
+              "received": false
+            }
+          ],
+          "total_price": 90965,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lake Courtney",
+              "street": "Newton Road",
+              "house": 772,
+              "flat": 1049
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:44:55.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694475d51c508c5d5ee27b20",
+          "products": [
+            {
+              "_id": "694475d51c508c5d5ee27b35",
+              "name": "Gloves72880",
+              "amount": 896,
+              "price": 90965,
+              "manufacturer": "Apple",
+              "notes": "odUO3t5HiiXcQdhaUygcFjhi18VqRWq0aMLA3EYhTHFZbW1g0DNnVMx5DxWxChJKqOxatRDpkHGLThtVwzjoSsgBl7IEd2dqIrZ8z1KcX5NOl2821priubm1dpV6fX1YowJsXxPztu9d6jU3XeMrKnBceOqdfU3lotz8m10EBMsOlNUVT5JsFCtYZN192JSGEMZxAL46eHUUghjmdiT66qGqL873ugRUNnwuAFNrKjTPAQZOsNipKDDgVG",
+              "received": false
+            }
+          ],
+          "total_price": 90965,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lake Courtney",
+              "street": "Newton Road",
+              "house": 772,
+              "flat": 1049
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:44:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694475d51c508c5d5ee27b20",
+          "products": [
+            {
+              "_id": "694475d51c508c5d5ee27b35",
+              "name": "Gloves72880",
+              "amount": 896,
+              "price": 90965,
+              "manufacturer": "Apple",
+              "notes": "odUO3t5HiiXcQdhaUygcFjhi18VqRWq0aMLA3EYhTHFZbW1g0DNnVMx5DxWxChJKqOxatRDpkHGLThtVwzjoSsgBl7IEd2dqIrZ8z1KcX5NOl2821priubm1dpV6fX1YowJsXxPztu9d6jU3XeMrKnBceOqdfU3lotz8m10EBMsOlNUVT5JsFCtYZN192JSGEMZxAL46eHUUghjmdiT66qGqL873ugRUNnwuAFNrKjTPAQZOsNipKDDgVG",
+              "received": false
+            }
+          ],
+          "total_price": 90965,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:44:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
