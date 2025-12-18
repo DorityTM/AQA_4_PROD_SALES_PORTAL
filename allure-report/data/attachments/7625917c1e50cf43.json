@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 11:24:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2741",
+    "etag": "W/\"ab5-ye5M9c7/Z+PSpeJy0CqZyL7cPAo\"",
+    "keep-alive": "timeout=5, max=59",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943e47d1c508c5d5ed8a72a",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943e4771c508c5d5ed8a3cb",
+        "email": "Krystal.Lowe@yahoo.com",
+        "name": "Mustafa Herman",
+        "country": "Belarus",
+        "city": "Port Rodger",
+        "street": "W Lake Street 76",
+        "house": 296,
+        "flat": 984,
+        "phone": "+886696492589993",
+        "createdOn": "2025-12-18T11:24:39.000Z",
+        "notes": "c7RH5oRyJP17eNilkn5lzgKkioCKHC"
+      },
+      "products": [
+        {
+          "_id": "6943e47a1c508c5d5ed8a57b",
+          "name": "Soap26217",
+          "amount": 182,
+          "price": 70175,
+          "manufacturer": "Amazon",
+          "notes": "ke0rHmhizF1HTNFyqDyndg5WI8djMGmZgTC7SjqOseTdeFBAH4v5uuYdoJsgcyMMjIyorJ6Ly2188a9eEy4LE3TbNtIAeQJydKbEbWj7nr5ELrc6o2YM8urcrhUXIkGu3MEF0uKWYvchtnpzoAV8lySIGBDXHxA26OWFmAAgCRWS3Pzgan5ouw9E5G1EHIBL8fGhagGU6gjxqc0ioXxmgfv54ZQOlz8MvxzrlgO34lyMep2hjHcqFGNPDh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Kirkland",
+          "street": "The Causeway",
+          "house": 625,
+          "flat": 958
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 70175,
+      "createdOn": "2025-12-18T11:24:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943e4771c508c5d5ed8a3cb",
+          "products": [
+            {
+              "_id": "6943e47a1c508c5d5ed8a57b",
+              "name": "Soap26217",
+              "amount": 182,
+              "price": 70175,
+              "manufacturer": "Amazon",
+              "notes": "ke0rHmhizF1HTNFyqDyndg5WI8djMGmZgTC7SjqOseTdeFBAH4v5uuYdoJsgcyMMjIyorJ6Ly2188a9eEy4LE3TbNtIAeQJydKbEbWj7nr5ELrc6o2YM8urcrhUXIkGu3MEF0uKWYvchtnpzoAV8lySIGBDXHxA26OWFmAAgCRWS3Pzgan5ouw9E5G1EHIBL8fGhagGU6gjxqc0ioXxmgfv54ZQOlz8MvxzrlgO34lyMep2hjHcqFGNPDh",
+              "received": false
+            }
+          ],
+          "total_price": 70175,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Kirkland",
+              "street": "The Causeway",
+              "house": 625,
+              "flat": 958
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T11:24:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943e4771c508c5d5ed8a3cb",
+          "products": [
+            {
+              "_id": "6943e47a1c508c5d5ed8a57b",
+              "name": "Soap26217",
+              "amount": 182,
+              "price": 70175,
+              "manufacturer": "Amazon",
+              "notes": "ke0rHmhizF1HTNFyqDyndg5WI8djMGmZgTC7SjqOseTdeFBAH4v5uuYdoJsgcyMMjIyorJ6Ly2188a9eEy4LE3TbNtIAeQJydKbEbWj7nr5ELrc6o2YM8urcrhUXIkGu3MEF0uKWYvchtnpzoAV8lySIGBDXHxA26OWFmAAgCRWS3Pzgan5ouw9E5G1EHIBL8fGhagGU6gjxqc0ioXxmgfv54ZQOlz8MvxzrlgO34lyMep2hjHcqFGNPDh",
+              "received": false
+            }
+          ],
+          "total_price": 70175,
+          "delivery": null,
+          "changedOn": "2025-12-18T11:24:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

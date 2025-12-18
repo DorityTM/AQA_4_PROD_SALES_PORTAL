@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 11:27:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2761",
+    "etag": "W/\"ac9-pT2AMyfg9zyxBlzoDO2p2lG7CFw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943e5191c508c5d5ed8fdc7",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943e5161c508c5d5ed8fc02",
+        "email": "Alayna_Blick9@hotmail.com",
+        "name": "Gretchen Crist",
+        "country": "USA",
+        "city": "South Dustinfurt",
+        "street": "Feest Gateway 80",
+        "house": 712,
+        "flat": 7962,
+        "phone": "+790117552856688",
+        "createdOn": "2025-12-18T11:27:18.000Z",
+        "notes": "N0akj7X2W9HN3RpBPcfF0JUx16SJFz"
+      },
+      "products": [
+        {
+          "_id": "6943e5191c508c5d5ed8fdab",
+          "name": "Fish90935",
+          "amount": 735,
+          "price": 7367,
+          "manufacturer": "Apple",
+          "notes": "3jhRYLS51MvATdbZn0TyrdO526TlWyv9hWhe3kwkWIJaLva1QtGgadI5OxJysuGuaX7ONsQvFPNBwsFKHV51EppNDQRiccH83XF3lfg8cEDBfNS2ynpBoKjoJMazZ6XrhtiRF7JFY8UFz2jit7PBDXGjNVMsmD48umQeXlEnXWguqC2gy0zzM8gDEVvv8fErnd7igDxbERXXxRcFQnv8dOwiPawpRmoY2BWbv4QbN3m5shgurqbcVhI9NJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Lake Ridge",
+          "street": "Lockman Squares",
+          "house": 176,
+          "flat": 6168
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7367,
+      "createdOn": "2025-12-18T11:27:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943e5161c508c5d5ed8fc02",
+          "products": [
+            {
+              "_id": "6943e5191c508c5d5ed8fdab",
+              "name": "Fish90935",
+              "amount": 735,
+              "price": 7367,
+              "manufacturer": "Apple",
+              "notes": "3jhRYLS51MvATdbZn0TyrdO526TlWyv9hWhe3kwkWIJaLva1QtGgadI5OxJysuGuaX7ONsQvFPNBwsFKHV51EppNDQRiccH83XF3lfg8cEDBfNS2ynpBoKjoJMazZ6XrhtiRF7JFY8UFz2jit7PBDXGjNVMsmD48umQeXlEnXWguqC2gy0zzM8gDEVvv8fErnd7igDxbERXXxRcFQnv8dOwiPawpRmoY2BWbv4QbN3m5shgurqbcVhI9NJ",
+              "received": false
+            }
+          ],
+          "total_price": 7367,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Ridge",
+              "street": "Lockman Squares",
+              "house": 176,
+              "flat": 6168
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T11:27:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943e5161c508c5d5ed8fc02",
+          "products": [
+            {
+              "_id": "6943e5191c508c5d5ed8fdab",
+              "name": "Fish90935",
+              "amount": 735,
+              "price": 7367,
+              "manufacturer": "Apple",
+              "notes": "3jhRYLS51MvATdbZn0TyrdO526TlWyv9hWhe3kwkWIJaLva1QtGgadI5OxJysuGuaX7ONsQvFPNBwsFKHV51EppNDQRiccH83XF3lfg8cEDBfNS2ynpBoKjoJMazZ6XrhtiRF7JFY8UFz2jit7PBDXGjNVMsmD48umQeXlEnXWguqC2gy0zzM8gDEVvv8fErnd7igDxbERXXxRcFQnv8dOwiPawpRmoY2BWbv4QbN3m5shgurqbcVhI9NJ",
+              "received": false
+            }
+          ],
+          "total_price": 7367,
+          "delivery": null,
+          "changedOn": "2025-12-18T11:27:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

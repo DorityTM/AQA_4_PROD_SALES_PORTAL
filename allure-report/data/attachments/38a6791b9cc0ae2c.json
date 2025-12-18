@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 11:23:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2721",
+    "etag": "W/\"aa1-r75aNm5aRvwZYiSLm2mNmCRsB34\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943e4391c508c5d5ed8820c",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943e4381c508c5d5ed881ca",
+        "email": "Schuyler75@hotmail.com",
+        "name": "Lupe Skiles",
+        "country": "Belarus",
+        "city": "Guaynabo",
+        "street": "Hayes Pines 35",
+        "house": 708,
+        "flat": 9633,
+        "phone": "+742585999763040",
+        "createdOn": "2025-12-18T11:23:36.000Z",
+        "notes": "SHFPevH2YdvNP478Ko9LircHytdpjg"
+      },
+      "products": [
+        {
+          "_id": "6943e4381c508c5d5ed881e7",
+          "name": "Hat31365",
+          "amount": 12,
+          "price": 76916,
+          "manufacturer": "Tesla",
+          "notes": "YWoybc0VhUTCkt2gZye4n8mDTJxBW9yJC1v3muLYHLpNjyeP4Xgzsxw4iasxWw2jlm8qid7T4twVxknxKsotOLP8D4eJ7V1IE6aYAKbwQUv7Jzyt9hkCeAnCSyGrkrt9nvJegxSvALt3svEnpVKSsQqY6vOEdb8HuNQkhWkOKVDrterF7dxzieZH5kKoYI9Fx7l80qWrJJNfpE0TO5PsDv51b4wEe9C6JyDooXNwxVws52dh0PlR5B8nPH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Omaha",
+          "street": "Marks Bypass",
+          "house": 331,
+          "flat": 1691
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76916,
+      "createdOn": "2025-12-18T11:23:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943e4381c508c5d5ed881ca",
+          "products": [
+            {
+              "_id": "6943e4381c508c5d5ed881e7",
+              "name": "Hat31365",
+              "amount": 12,
+              "price": 76916,
+              "manufacturer": "Tesla",
+              "notes": "YWoybc0VhUTCkt2gZye4n8mDTJxBW9yJC1v3muLYHLpNjyeP4Xgzsxw4iasxWw2jlm8qid7T4twVxknxKsotOLP8D4eJ7V1IE6aYAKbwQUv7Jzyt9hkCeAnCSyGrkrt9nvJegxSvALt3svEnpVKSsQqY6vOEdb8HuNQkhWkOKVDrterF7dxzieZH5kKoYI9Fx7l80qWrJJNfpE0TO5PsDv51b4wEe9C6JyDooXNwxVws52dh0PlR5B8nPH",
+              "received": false
+            }
+          ],
+          "total_price": 76916,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Omaha",
+              "street": "Marks Bypass",
+              "house": 331,
+              "flat": 1691
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T11:23:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943e4381c508c5d5ed881ca",
+          "products": [
+            {
+              "_id": "6943e4381c508c5d5ed881e7",
+              "name": "Hat31365",
+              "amount": 12,
+              "price": 76916,
+              "manufacturer": "Tesla",
+              "notes": "YWoybc0VhUTCkt2gZye4n8mDTJxBW9yJC1v3muLYHLpNjyeP4Xgzsxw4iasxWw2jlm8qid7T4twVxknxKsotOLP8D4eJ7V1IE6aYAKbwQUv7Jzyt9hkCeAnCSyGrkrt9nvJegxSvALt3svEnpVKSsQqY6vOEdb8HuNQkhWkOKVDrterF7dxzieZH5kKoYI9Fx7l80qWrJJNfpE0TO5PsDv51b4wEe9C6JyDooXNwxVws52dh0PlR5B8nPH",
+              "received": false
+            }
+          ],
+          "total_price": 76916,
+          "delivery": null,
+          "changedOn": "2025-12-18T11:23:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

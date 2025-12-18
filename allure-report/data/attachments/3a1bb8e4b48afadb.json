@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 11:24:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3675",
+    "etag": "W/\"e5b-DGW086GYb5/HtQmi+YcrbsiyxrA\"",
+    "keep-alive": "timeout=5, max=24",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943e4511c508c5d5ed88f40",
+      "status": "In Process",
+      "customer": {
+        "_id": "6943e4501c508c5d5ed88eec",
+        "email": "Crystal.Cummerata47@gmail.com",
+        "name": "Heaven Lemke",
+        "country": "Ukraine",
+        "city": "Boston",
+        "street": "Barn Close 54",
+        "house": 195,
+        "flat": 4465,
+        "phone": "+485877916118605",
+        "createdOn": "2025-12-18T11:24:00.000Z",
+        "notes": "0vLaUsaLDQN3yL61oyEo2SJvLDlj4k"
+      },
+      "products": [
+        {
+          "_id": "6943e4501c508c5d5ed88f11",
+          "name": "Soap43311",
+          "amount": 417,
+          "price": 23016,
+          "manufacturer": "Sony",
+          "notes": "Icybxx4oQlnoD0YI3eAVInRE0SI7yI6HlN1OfdssZJc8Cardd3C7tYY0330qlnjk4e50edl33vOwZhaBQdMs5wlLtwdj8pNeiw2EOdDTaz3xm1zhlkhkeoIhTDcxM8zJh4Zgjp1nntXNzguxmqTTdbc88dhLhweHHno2GIszI8tfJ7tyJWTxqgpfFDbtgVXg3jMmT3PNpgJ4fKUozOUC8XRWkHc4tC9PeIlLNW436uxrurF0VkIz4g7I8d",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Rubyport",
+          "street": "Prosacco Mission",
+          "house": 570,
+          "flat": 165
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 23016,
+      "createdOn": "2025-12-18T11:24:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6943e4501c508c5d5ed88eec",
+          "products": [
+            {
+              "_id": "6943e4501c508c5d5ed88f11",
+              "name": "Soap43311",
+              "amount": 417,
+              "price": 23016,
+              "manufacturer": "Sony",
+              "notes": "Icybxx4oQlnoD0YI3eAVInRE0SI7yI6HlN1OfdssZJc8Cardd3C7tYY0330qlnjk4e50edl33vOwZhaBQdMs5wlLtwdj8pNeiw2EOdDTaz3xm1zhlkhkeoIhTDcxM8zJh4Zgjp1nntXNzguxmqTTdbc88dhLhweHHno2GIszI8tfJ7tyJWTxqgpfFDbtgVXg3jMmT3PNpgJ4fKUozOUC8XRWkHc4tC9PeIlLNW436uxrurF0VkIz4g7I8d",
+              "received": false
+            }
+          ],
+          "total_price": 23016,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Rubyport",
+              "street": "Prosacco Mission",
+              "house": 570,
+              "flat": 165
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T11:24:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943e4501c508c5d5ed88eec",
+          "products": [
+            {
+              "_id": "6943e4501c508c5d5ed88f11",
+              "name": "Soap43311",
+              "amount": 417,
+              "price": 23016,
+              "manufacturer": "Sony",
+              "notes": "Icybxx4oQlnoD0YI3eAVInRE0SI7yI6HlN1OfdssZJc8Cardd3C7tYY0330qlnjk4e50edl33vOwZhaBQdMs5wlLtwdj8pNeiw2EOdDTaz3xm1zhlkhkeoIhTDcxM8zJh4Zgjp1nntXNzguxmqTTdbc88dhLhweHHno2GIszI8tfJ7tyJWTxqgpfFDbtgVXg3jMmT3PNpgJ4fKUozOUC8XRWkHc4tC9PeIlLNW436uxrurF0VkIz4g7I8d",
+              "received": false
+            }
+          ],
+          "total_price": 23016,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Rubyport",
+              "street": "Prosacco Mission",
+              "house": 570,
+              "flat": 165
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T11:24:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943e4501c508c5d5ed88eec",
+          "products": [
+            {
+              "_id": "6943e4501c508c5d5ed88f11",
+              "name": "Soap43311",
+              "amount": 417,
+              "price": 23016,
+              "manufacturer": "Sony",
+              "notes": "Icybxx4oQlnoD0YI3eAVInRE0SI7yI6HlN1OfdssZJc8Cardd3C7tYY0330qlnjk4e50edl33vOwZhaBQdMs5wlLtwdj8pNeiw2EOdDTaz3xm1zhlkhkeoIhTDcxM8zJh4Zgjp1nntXNzguxmqTTdbc88dhLhweHHno2GIszI8tfJ7tyJWTxqgpfFDbtgVXg3jMmT3PNpgJ4fKUozOUC8XRWkHc4tC9PeIlLNW436uxrurF0VkIz4g7I8d",
+              "received": false
+            }
+          ],
+          "total_price": 23016,
+          "delivery": null,
+          "changedOn": "2025-12-18T11:24:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
