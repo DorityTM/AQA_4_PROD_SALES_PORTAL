@@ -9,7 +9,14 @@ test("create storage state for authenticated user", async ({ page, context }) =>
   await page.locator("button[type='submit']").click();
 
   // Wait for Home page to be fully opened (more robust than raw locator)
-  await new HomePage(page).waitForOpened();
+  try {
+    await new HomePage(page).waitForOpened();
+  } catch {
+    // Sometimes SPA redirect/login processing is flaky; retry click once and wait again.
+    await page.waitForTimeout(1000);
+    await page.locator("button[type='submit']").click();
+    await new HomePage(page).waitForOpened();
+  }
 
   await context.storageState({ path: "src/.auth/user.json" });
 });

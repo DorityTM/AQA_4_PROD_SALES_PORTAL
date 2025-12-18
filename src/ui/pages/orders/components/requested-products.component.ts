@@ -155,15 +155,45 @@ export class OrderDetailsRequestedProducts extends BasePage {
   }
 
   @logStep("PRODUCTS: WAIT FOR RECEIVING READY")
+  async waitForStartReceiving(timeoutMs: number = TIMEOUT_15_S) {
+    const startLocator = this.uniqueElement.locator("#start-receiving-products, #start-receiving").first();
+    await startLocator.waitFor({ state: "visible", timeout: timeoutMs });
+  }
+
+  async waitForSaveCancel(timeoutMs: number = TIMEOUT_15_S) {
+    const save = this.uniqueElement
+      .locator("#save-received-products, #save-receiving, button#save-received-products")
+      .first();
+    const cancel = this.uniqueElement.locator("#cancel-receiving").first();
+    await Promise.all([
+      save.waitFor({ state: "visible", timeout: timeoutMs }),
+      cancel.waitFor({ state: "visible", timeout: timeoutMs }),
+    ]);
+  }
+
   async waitForReceivingReady(timeoutMs: number = TIMEOUT_15_S) {
-    const deadline = Date.now() + timeoutMs;
-    while (Date.now() < deadline) {
-      if (await this.isStartReceivingVisible()) return;
-      const saveVisible = await this.isSaveReceivingVisible();
-      const cancelVisible = await this.isCancelReceivingVisible();
-      if (saveVisible && cancelVisible) return;
-      await this.page.waitForTimeout(250);
+    const startPromise = this.uniqueElement
+      .locator("#start-receiving-products, #start-receiving")
+      .first()
+      .waitFor({ state: "visible", timeout: timeoutMs });
+
+    const save = this.uniqueElement
+      .locator("#save-received-products, #save-receiving, button#save-received-products")
+      .first();
+    const cancel = this.uniqueElement.locator("#cancel-receiving").first();
+    const saveCancelPromise = Promise.all([
+      save.waitFor({ state: "visible", timeout: timeoutMs }),
+      cancel.waitFor({ state: "visible", timeout: timeoutMs }),
+    ]);
+
+    try {
+      // Resolve when either start becomes visible OR both save+cancel become visible
+      // `Promise.any` returns on first fulfilled promise; if all reject, it throws.
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore - `Promise.any` is supported in runtime
+      await Promise.any([startPromise, saveCancelPromise]);
+    } catch {
+      throw new Error("Receiving controls not ready within timeout");
     }
-    throw new Error("Receiving controls not ready within timeout");
   }
 }
