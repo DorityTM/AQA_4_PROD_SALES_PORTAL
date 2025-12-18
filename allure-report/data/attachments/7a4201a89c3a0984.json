@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:05:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6554",
+    "etag": "W/\"199a-thuAhQOPExlRBo6hGb6VsLBynaU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69446c7b1c508c5d5edf671b",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "69446c7a1c508c5d5edf66bf",
+        "email": "Saul.Bashirian@gmail.com",
+        "name": "Darien Ritchie",
+        "country": "France",
+        "city": "Randyburgh",
+        "street": "Schmidt Roads 81",
+        "house": 604,
+        "flat": 1305,
+        "phone": "+673221812056194",
+        "createdOn": "2025-12-18T21:04:58.000Z",
+        "notes": "OAq37T7yPWdzoA0U1kMgtj5kbBE7yw"
+      },
+      "products": [
+        {
+          "_id": "69446c7a1c508c5d5edf66d0",
+          "name": "Chair33631",
+          "amount": 921,
+          "price": 23179,
+          "manufacturer": "Amazon",
+          "notes": "5uZIAt7aO736bIUIqP0AyGXiPZrD9lCBZRdIDdGM90tZjOcGWeUbtAtQTzTVhH0KLMQP2xgBFz2WmYzXOCYyntAdH7yzrx1A2BaygiU0DH6aeunSylHFJgUfLFvYMnavc6rKRzsYo8QdLVvL7OFG1AiZoZwCWyPvXLys4lX7xFZaxE591Id0qAk5y50ZyLGSCzNAZG3u99uiVInGQgdiPPu9EycUbAu5ig06ADpNrqHoo9TYFnunm7531J",
+          "received": true
+        },
+        {
+          "_id": "69446c7a1c508c5d5edf66f3",
+          "name": "Gloves18919",
+          "amount": 829,
+          "price": 24376,
+          "manufacturer": "Microsoft",
+          "notes": "LekImlgi0GwcKpNPkxaXqsMha5FhiMeumsxxjKuexxLGvONXKoZh1YkisrFVBJXNy2YFTbq5FwtsxWrkU6OrtbqUtLlED9ByFavql0mMaVX2DXyELOMsB5ZLTGQphcFtllMK7qhc4m1AxcOPrAbf9aeyEvMUqqwhbHba0hfBm9xI6fDUGvgo5SLt9CYJzdE3u7OYxMhxlAhzqJHhCwKOsK0Y6zg2y9PXfZI1DnVXoIykJWGjvuuyUykaRp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Port Kileyfort",
+          "street": "Friesen Rue",
+          "house": 71,
+          "flat": 356
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47555,
+      "createdOn": "2025-12-18T21:04:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "69446c7a1c508c5d5edf66bf",
+          "products": [
+            {
+              "_id": "69446c7a1c508c5d5edf66d0",
+              "name": "Chair33631",
+              "amount": 921,
+              "price": 23179,
+              "manufacturer": "Amazon",
+              "notes": "5uZIAt7aO736bIUIqP0AyGXiPZrD9lCBZRdIDdGM90tZjOcGWeUbtAtQTzTVhH0KLMQP2xgBFz2WmYzXOCYyntAdH7yzrx1A2BaygiU0DH6aeunSylHFJgUfLFvYMnavc6rKRzsYo8QdLVvL7OFG1AiZoZwCWyPvXLys4lX7xFZaxE591Id0qAk5y50ZyLGSCzNAZG3u99uiVInGQgdiPPu9EycUbAu5ig06ADpNrqHoo9TYFnunm7531J",
+              "received": true
+            },
+            {
+              "_id": "69446c7a1c508c5d5edf66f3",
+              "name": "Gloves18919",
+              "amount": 829,
+              "price": 24376,
+              "manufacturer": "Microsoft",
+              "notes": "LekImlgi0GwcKpNPkxaXqsMha5FhiMeumsxxjKuexxLGvONXKoZh1YkisrFVBJXNy2YFTbq5FwtsxWrkU6OrtbqUtLlED9ByFavql0mMaVX2DXyELOMsB5ZLTGQphcFtllMK7qhc4m1AxcOPrAbf9aeyEvMUqqwhbHba0hfBm9xI6fDUGvgo5SLt9CYJzdE3u7OYxMhxlAhzqJHhCwKOsK0Y6zg2y9PXfZI1DnVXoIykJWGjvuuyUykaRp",
+              "received": false
+            }
+          ],
+          "total_price": 47555,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Kileyfort",
+              "street": "Friesen Rue",
+              "house": 71,
+              "flat": 356
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:05:02.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69446c7a1c508c5d5edf66bf",
+          "products": [
+            {
+              "_id": "69446c7a1c508c5d5edf66d0",
+              "name": "Chair33631",
+              "amount": 921,
+              "price": 23179,
+              "manufacturer": "Amazon",
+              "notes": "5uZIAt7aO736bIUIqP0AyGXiPZrD9lCBZRdIDdGM90tZjOcGWeUbtAtQTzTVhH0KLMQP2xgBFz2WmYzXOCYyntAdH7yzrx1A2BaygiU0DH6aeunSylHFJgUfLFvYMnavc6rKRzsYo8QdLVvL7OFG1AiZoZwCWyPvXLys4lX7xFZaxE591Id0qAk5y50ZyLGSCzNAZG3u99uiVInGQgdiPPu9EycUbAu5ig06ADpNrqHoo9TYFnunm7531J",
+              "received": false
+            },
+            {
+              "_id": "69446c7a1c508c5d5edf66f3",
+              "name": "Gloves18919",
+              "amount": 829,
+              "price": 24376,
+              "manufacturer": "Microsoft",
+              "notes": "LekImlgi0GwcKpNPkxaXqsMha5FhiMeumsxxjKuexxLGvONXKoZh1YkisrFVBJXNy2YFTbq5FwtsxWrkU6OrtbqUtLlED9ByFavql0mMaVX2DXyELOMsB5ZLTGQphcFtllMK7qhc4m1AxcOPrAbf9aeyEvMUqqwhbHba0hfBm9xI6fDUGvgo5SLt9CYJzdE3u7OYxMhxlAhzqJHhCwKOsK0Y6zg2y9PXfZI1DnVXoIykJWGjvuuyUykaRp",
+              "received": false
+            }
+          ],
+          "total_price": 47555,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Kileyfort",
+              "street": "Friesen Rue",
+              "house": 71,
+              "flat": 356
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:05:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446c7a1c508c5d5edf66bf",
+          "products": [
+            {
+              "_id": "69446c7a1c508c5d5edf66d0",
+              "name": "Chair33631",
+              "amount": 921,
+              "price": 23179,
+              "manufacturer": "Amazon",
+              "notes": "5uZIAt7aO736bIUIqP0AyGXiPZrD9lCBZRdIDdGM90tZjOcGWeUbtAtQTzTVhH0KLMQP2xgBFz2WmYzXOCYyntAdH7yzrx1A2BaygiU0DH6aeunSylHFJgUfLFvYMnavc6rKRzsYo8QdLVvL7OFG1AiZoZwCWyPvXLys4lX7xFZaxE591Id0qAk5y50ZyLGSCzNAZG3u99uiVInGQgdiPPu9EycUbAu5ig06ADpNrqHoo9TYFnunm7531J",
+              "received": false
+            },
+            {
+              "_id": "69446c7a1c508c5d5edf66f3",
+              "name": "Gloves18919",
+              "amount": 829,
+              "price": 24376,
+              "manufacturer": "Microsoft",
+              "notes": "LekImlgi0GwcKpNPkxaXqsMha5FhiMeumsxxjKuexxLGvONXKoZh1YkisrFVBJXNy2YFTbq5FwtsxWrkU6OrtbqUtLlED9ByFavql0mMaVX2DXyELOMsB5ZLTGQphcFtllMK7qhc4m1AxcOPrAbf9aeyEvMUqqwhbHba0hfBm9xI6fDUGvgo5SLt9CYJzdE3u7OYxMhxlAhzqJHhCwKOsK0Y6zg2y9PXfZI1DnVXoIykJWGjvuuyUykaRp",
+              "received": false
+            }
+          ],
+          "total_price": 47555,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Kileyfort",
+              "street": "Friesen Rue",
+              "house": 71,
+              "flat": 356
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:05:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446c7a1c508c5d5edf66bf",
+          "products": [
+            {
+              "_id": "69446c7a1c508c5d5edf66d0",
+              "name": "Chair33631",
+              "amount": 921,
+              "price": 23179,
+              "manufacturer": "Amazon",
+              "notes": "5uZIAt7aO736bIUIqP0AyGXiPZrD9lCBZRdIDdGM90tZjOcGWeUbtAtQTzTVhH0KLMQP2xgBFz2WmYzXOCYyntAdH7yzrx1A2BaygiU0DH6aeunSylHFJgUfLFvYMnavc6rKRzsYo8QdLVvL7OFG1AiZoZwCWyPvXLys4lX7xFZaxE591Id0qAk5y50ZyLGSCzNAZG3u99uiVInGQgdiPPu9EycUbAu5ig06ADpNrqHoo9TYFnunm7531J",
+              "received": false
+            },
+            {
+              "_id": "69446c7a1c508c5d5edf66f3",
+              "name": "Gloves18919",
+              "amount": 829,
+              "price": 24376,
+              "manufacturer": "Microsoft",
+              "notes": "LekImlgi0GwcKpNPkxaXqsMha5FhiMeumsxxjKuexxLGvONXKoZh1YkisrFVBJXNy2YFTbq5FwtsxWrkU6OrtbqUtLlED9ByFavql0mMaVX2DXyELOMsB5ZLTGQphcFtllMK7qhc4m1AxcOPrAbf9aeyEvMUqqwhbHba0hfBm9xI6fDUGvgo5SLt9CYJzdE3u7OYxMhxlAhzqJHhCwKOsK0Y6zg2y9PXfZI1DnVXoIykJWGjvuuyUykaRp",
+              "received": false
+            }
+          ],
+          "total_price": 47555,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:04:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

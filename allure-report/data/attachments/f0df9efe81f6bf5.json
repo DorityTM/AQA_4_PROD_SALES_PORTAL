@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:05:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1778",
+    "etag": "W/\"6f2-LzaUh8fXnpBuWnQZaqL2h4qTqhE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69446c931c508c5d5edf7613",
+      "status": "Draft",
+      "customer": {
+        "_id": "69446c911c508c5d5edf7465",
+        "email": "Alvera_MacGyver26@yahoo.com",
+        "name": "Antonia Hansen",
+        "country": "USA",
+        "city": "Brooklyn Park",
+        "street": "S 14th Street 14",
+        "house": 454,
+        "flat": 203,
+        "phone": "+510098820696553",
+        "createdOn": "2025-12-18T21:05:21.000Z",
+        "notes": "Tgy4hY7RHNipYC0pFRLqUCrRD6zlW7"
+      },
+      "products": [
+        {
+          "_id": "69446c911c508c5d5edf7532",
+          "name": "Car63092",
+          "amount": 49,
+          "price": 88302,
+          "manufacturer": "Tesla",
+          "notes": "78b7kCxD6LJjS8AmIVKYJJHRFliKe6Nu6IWGWCBSt2af2eMDoCyeu5xqNDCXYbzwTJzc88nG6AjuBGP1aJIdXQUDjlCdaTLey5XHeq2Nt0prqErvWyjnJLLSotMcmPZ4Isc30lJ97V0RQBZhm4YtkceexDRmiaPiMZUMizLvMcMa8vEPQ5lfN9MSUxY203mjPAEZv3UM6jnYxC07HH19YubGLZXSMy1p9eddT72VNZpKlzD4jzLi4hZuJs",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 88302,
+      "createdOn": "2025-12-18T21:05:23.000Z",
+      "comments": [
+        {
+          "text": "Please check < invalid tag",
+          "createdOn": "2025-12-18T21:05:24.000Z",
+          "_id": "69446c941c508c5d5edf76ef"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69446c911c508c5d5edf7465",
+          "products": [
+            {
+              "_id": "69446c911c508c5d5edf7532",
+              "name": "Car63092",
+              "amount": 49,
+              "price": 88302,
+              "manufacturer": "Tesla",
+              "notes": "78b7kCxD6LJjS8AmIVKYJJHRFliKe6Nu6IWGWCBSt2af2eMDoCyeu5xqNDCXYbzwTJzc88nG6AjuBGP1aJIdXQUDjlCdaTLey5XHeq2Nt0prqErvWyjnJLLSotMcmPZ4Isc30lJ97V0RQBZhm4YtkceexDRmiaPiMZUMizLvMcMa8vEPQ5lfN9MSUxY203mjPAEZv3UM6jnYxC07HH19YubGLZXSMy1p9eddT72VNZpKlzD4jzLi4hZuJs",
+              "received": false
+            }
+          ],
+          "total_price": 88302,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:05:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

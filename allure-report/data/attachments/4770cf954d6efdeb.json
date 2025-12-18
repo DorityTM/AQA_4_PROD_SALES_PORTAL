@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:06:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3696",
+    "etag": "W/\"e70-gE5+sRnf90tFba/FOpCSYKGkrNI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69446cbd1c508c5d5edf902b",
+      "status": "In Process",
+      "customer": {
+        "_id": "69446cbc1c508c5d5edf8fe3",
+        "email": "Mack_Bradtke37@yahoo.com",
+        "name": "Aron Glover",
+        "country": "USA",
+        "city": "Arvidland",
+        "street": "Flatley Club 83",
+        "house": 615,
+        "flat": 7581,
+        "phone": "+742706684657502",
+        "createdOn": "2025-12-18T21:06:04.000Z",
+        "notes": "2YPKKFngtyAAp1CEgYdZ6VFLT8ycHb"
+      },
+      "products": [
+        {
+          "_id": "69446cbd1c508c5d5edf8fff",
+          "name": "Chips30220",
+          "amount": 205,
+          "price": 24546,
+          "manufacturer": "Apple",
+          "notes": "lyh2xHuLOHQyEXh4sdNIYBoQpVRwQ5GRzizFH1LbWmWMDQm3gKvo9WRvNRuaRVAUtAFcZ4lJ6e13HxPjdbmpDHmRPfv1nxyYAUbhKJZZuPRLdkijyySmin2XbM4kYBN2vmMuVFhBfyPrqhCnlD1doInZgohOg5oxNTMtLp2CHaBaSatI9wGeP4r19JMlhHorOEdf6lK4nQmu40cuTzkbuNEDUxsJTgll6DsVi9MDU2DHs1b1MBR56znvyi",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Ethelmouth",
+          "street": "Stroman Stream",
+          "house": 664,
+          "flat": 4548
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 24546,
+      "createdOn": "2025-12-18T21:06:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69446cbc1c508c5d5edf8fe3",
+          "products": [
+            {
+              "_id": "69446cbd1c508c5d5edf8fff",
+              "name": "Chips30220",
+              "amount": 205,
+              "price": 24546,
+              "manufacturer": "Apple",
+              "notes": "lyh2xHuLOHQyEXh4sdNIYBoQpVRwQ5GRzizFH1LbWmWMDQm3gKvo9WRvNRuaRVAUtAFcZ4lJ6e13HxPjdbmpDHmRPfv1nxyYAUbhKJZZuPRLdkijyySmin2XbM4kYBN2vmMuVFhBfyPrqhCnlD1doInZgohOg5oxNTMtLp2CHaBaSatI9wGeP4r19JMlhHorOEdf6lK4nQmu40cuTzkbuNEDUxsJTgll6DsVi9MDU2DHs1b1MBR56znvyi",
+              "received": false
+            }
+          ],
+          "total_price": 24546,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Ethelmouth",
+              "street": "Stroman Stream",
+              "house": 664,
+              "flat": 4548
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:06:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446cbc1c508c5d5edf8fe3",
+          "products": [
+            {
+              "_id": "69446cbd1c508c5d5edf8fff",
+              "name": "Chips30220",
+              "amount": 205,
+              "price": 24546,
+              "manufacturer": "Apple",
+              "notes": "lyh2xHuLOHQyEXh4sdNIYBoQpVRwQ5GRzizFH1LbWmWMDQm3gKvo9WRvNRuaRVAUtAFcZ4lJ6e13HxPjdbmpDHmRPfv1nxyYAUbhKJZZuPRLdkijyySmin2XbM4kYBN2vmMuVFhBfyPrqhCnlD1doInZgohOg5oxNTMtLp2CHaBaSatI9wGeP4r19JMlhHorOEdf6lK4nQmu40cuTzkbuNEDUxsJTgll6DsVi9MDU2DHs1b1MBR56znvyi",
+              "received": false
+            }
+          ],
+          "total_price": 24546,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Ethelmouth",
+              "street": "Stroman Stream",
+              "house": 664,
+              "flat": 4548
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:06:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446cbc1c508c5d5edf8fe3",
+          "products": [
+            {
+              "_id": "69446cbd1c508c5d5edf8fff",
+              "name": "Chips30220",
+              "amount": 205,
+              "price": 24546,
+              "manufacturer": "Apple",
+              "notes": "lyh2xHuLOHQyEXh4sdNIYBoQpVRwQ5GRzizFH1LbWmWMDQm3gKvo9WRvNRuaRVAUtAFcZ4lJ6e13HxPjdbmpDHmRPfv1nxyYAUbhKJZZuPRLdkijyySmin2XbM4kYBN2vmMuVFhBfyPrqhCnlD1doInZgohOg5oxNTMtLp2CHaBaSatI9wGeP4r19JMlhHorOEdf6lK4nQmu40cuTzkbuNEDUxsJTgll6DsVi9MDU2DHs1b1MBR56znvyi",
+              "received": false
+            }
+          ],
+          "total_price": 24546,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:06:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

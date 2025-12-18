@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:05:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3693",
+    "etag": "W/\"e6d-dYZ6XE2WjkH8MePczvMDwPRBWpQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69446cb11c508c5d5edf8885",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69446cb01c508c5d5edf8840",
+        "email": "Juvenal.Koch@yahoo.com",
+        "name": "Amara Cartwright",
+        "country": "USA",
+        "city": "Palmdale",
+        "street": "Mount Street 30",
+        "house": 460,
+        "flat": 8757,
+        "phone": "+102158369294522",
+        "createdOn": "2025-12-18T21:05:52.000Z",
+        "notes": "jVtaslxEl1SjsesPnI4cqGu8frpUCx"
+      },
+      "products": [
+        {
+          "_id": "69446cb01c508c5d5edf885e",
+          "name": "Pants85585",
+          "amount": 244,
+          "price": 55138,
+          "manufacturer": "Apple",
+          "notes": "6AfaV6K1QS24FwK5kG80ToblFnnZgTRiBuNW9tRBL8LmhpZ2WtDKEOPbi67wVGFgX2CBECB29lwMljoT3BkokxPnibVBRCBjgRBeCDvNg5r1PY7nMXaJVnqa9zndR8TuO6wWIh2zGXkkgBQQMR6myeEIqFavKsIbunw3DjsENz86ZeoCavQlN7fg77UkHTObZiJ8YnMKzrqcuToHhJjIpdjjWG6V6jm80KJ83DH2YdwpzZ7J3a177MCiOU",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Lake Hestercester",
+          "street": "Schroeder Forest",
+          "house": 876,
+          "flat": 9449
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55138,
+      "createdOn": "2025-12-18T21:05:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69446cb01c508c5d5edf8840",
+          "products": [
+            {
+              "_id": "69446cb01c508c5d5edf885e",
+              "name": "Pants85585",
+              "amount": 244,
+              "price": 55138,
+              "manufacturer": "Apple",
+              "notes": "6AfaV6K1QS24FwK5kG80ToblFnnZgTRiBuNW9tRBL8LmhpZ2WtDKEOPbi67wVGFgX2CBECB29lwMljoT3BkokxPnibVBRCBjgRBeCDvNg5r1PY7nMXaJVnqa9zndR8TuO6wWIh2zGXkkgBQQMR6myeEIqFavKsIbunw3DjsENz86ZeoCavQlN7fg77UkHTObZiJ8YnMKzrqcuToHhJjIpdjjWG6V6jm80KJ83DH2YdwpzZ7J3a177MCiOU",
+              "received": false
+            }
+          ],
+          "total_price": 55138,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Lake Hestercester",
+              "street": "Schroeder Forest",
+              "house": 876,
+              "flat": 9449
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:05:54.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446cb01c508c5d5edf8840",
+          "products": [
+            {
+              "_id": "69446cb01c508c5d5edf885e",
+              "name": "Pants85585",
+              "amount": 244,
+              "price": 55138,
+              "manufacturer": "Apple",
+              "notes": "6AfaV6K1QS24FwK5kG80ToblFnnZgTRiBuNW9tRBL8LmhpZ2WtDKEOPbi67wVGFgX2CBECB29lwMljoT3BkokxPnibVBRCBjgRBeCDvNg5r1PY7nMXaJVnqa9zndR8TuO6wWIh2zGXkkgBQQMR6myeEIqFavKsIbunw3DjsENz86ZeoCavQlN7fg77UkHTObZiJ8YnMKzrqcuToHhJjIpdjjWG6V6jm80KJ83DH2YdwpzZ7J3a177MCiOU",
+              "received": false
+            }
+          ],
+          "total_price": 55138,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Lake Hestercester",
+              "street": "Schroeder Forest",
+              "house": 876,
+              "flat": 9449
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:05:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446cb01c508c5d5edf8840",
+          "products": [
+            {
+              "_id": "69446cb01c508c5d5edf885e",
+              "name": "Pants85585",
+              "amount": 244,
+              "price": 55138,
+              "manufacturer": "Apple",
+              "notes": "6AfaV6K1QS24FwK5kG80ToblFnnZgTRiBuNW9tRBL8LmhpZ2WtDKEOPbi67wVGFgX2CBECB29lwMljoT3BkokxPnibVBRCBjgRBeCDvNg5r1PY7nMXaJVnqa9zndR8TuO6wWIh2zGXkkgBQQMR6myeEIqFavKsIbunw3DjsENz86ZeoCavQlN7fg77UkHTObZiJ8YnMKzrqcuToHhJjIpdjjWG6V6jm80KJ83DH2YdwpzZ7J3a177MCiOU",
+              "received": false
+            }
+          ],
+          "total_price": 55138,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:05:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:04:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3687",
+    "etag": "W/\"e67-Sf5OiPOz7VKms5PeY8ZboNCb/Rs\"",
+    "keep-alive": "timeout=5, max=46",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69446c6f1c508c5d5edf6052",
+      "status": "In Process",
+      "customer": {
+        "_id": "69446c6d1c508c5d5edf5ec0",
+        "email": "Nicholas70@yahoo.com",
+        "name": "Rodrick Kihn Streich",
+        "country": "Russia",
+        "city": "Pricecester",
+        "street": "S Bridge Street 44",
+        "house": 347,
+        "flat": 9632,
+        "phone": "+294024309411590",
+        "createdOn": "2025-12-18T21:04:45.000Z",
+        "notes": "bISJDRwBMAA9vBmFgSmmdjCC0aPr0C"
+      },
+      "products": [
+        {
+          "_id": "69446c6e1c508c5d5edf5ed5",
+          "name": "Sausages7488",
+          "amount": 38,
+          "price": 45397,
+          "manufacturer": "Amazon",
+          "notes": "sOn7a9ik011zSr6ocrtnN4JnAA4huhdaGX7vxFcVtJvng7qhl6YpJpeVe0NKxBZMfh8W43RgLXf3X0QyJn2RoWVAqYGe5WtoujLhE9NYswL4KiwPijELJH24Xu4UEUyFqxTMbfsHrsR8JqFer262QqcyWezJtltSBicpaAOwz1DBUWXW0SAtv5evFVlkW2SYxgMMEvtFYKjLcTEsuJPxuLHiXFb5pwavC7Efi6iQlzoLkjPerb1X7V5sVd",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Rippinland",
+          "street": "Ryan Manor",
+          "house": 905,
+          "flat": 7888
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 45397,
+      "createdOn": "2025-12-18T21:04:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69446c6d1c508c5d5edf5ec0",
+          "products": [
+            {
+              "_id": "69446c6e1c508c5d5edf5ed5",
+              "name": "Sausages7488",
+              "amount": 38,
+              "price": 45397,
+              "manufacturer": "Amazon",
+              "notes": "sOn7a9ik011zSr6ocrtnN4JnAA4huhdaGX7vxFcVtJvng7qhl6YpJpeVe0NKxBZMfh8W43RgLXf3X0QyJn2RoWVAqYGe5WtoujLhE9NYswL4KiwPijELJH24Xu4UEUyFqxTMbfsHrsR8JqFer262QqcyWezJtltSBicpaAOwz1DBUWXW0SAtv5evFVlkW2SYxgMMEvtFYKjLcTEsuJPxuLHiXFb5pwavC7Efi6iQlzoLkjPerb1X7V5sVd",
+              "received": false
+            }
+          ],
+          "total_price": 45397,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Rippinland",
+              "street": "Ryan Manor",
+              "house": 905,
+              "flat": 7888
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:04:50.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446c6d1c508c5d5edf5ec0",
+          "products": [
+            {
+              "_id": "69446c6e1c508c5d5edf5ed5",
+              "name": "Sausages7488",
+              "amount": 38,
+              "price": 45397,
+              "manufacturer": "Amazon",
+              "notes": "sOn7a9ik011zSr6ocrtnN4JnAA4huhdaGX7vxFcVtJvng7qhl6YpJpeVe0NKxBZMfh8W43RgLXf3X0QyJn2RoWVAqYGe5WtoujLhE9NYswL4KiwPijELJH24Xu4UEUyFqxTMbfsHrsR8JqFer262QqcyWezJtltSBicpaAOwz1DBUWXW0SAtv5evFVlkW2SYxgMMEvtFYKjLcTEsuJPxuLHiXFb5pwavC7Efi6iQlzoLkjPerb1X7V5sVd",
+              "received": false
+            }
+          ],
+          "total_price": 45397,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Rippinland",
+              "street": "Ryan Manor",
+              "house": 905,
+              "flat": 7888
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:04:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446c6d1c508c5d5edf5ec0",
+          "products": [
+            {
+              "_id": "69446c6e1c508c5d5edf5ed5",
+              "name": "Sausages7488",
+              "amount": 38,
+              "price": 45397,
+              "manufacturer": "Amazon",
+              "notes": "sOn7a9ik011zSr6ocrtnN4JnAA4huhdaGX7vxFcVtJvng7qhl6YpJpeVe0NKxBZMfh8W43RgLXf3X0QyJn2RoWVAqYGe5WtoujLhE9NYswL4KiwPijELJH24Xu4UEUyFqxTMbfsHrsR8JqFer262QqcyWezJtltSBicpaAOwz1DBUWXW0SAtv5evFVlkW2SYxgMMEvtFYKjLcTEsuJPxuLHiXFb5pwavC7Efi6iQlzoLkjPerb1X7V5sVd",
+              "received": false
+            }
+          ],
+          "total_price": 45397,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:04:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:04:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6562",
+    "etag": "W/\"19a2-96VaYur9Dl9QyZs97GHzgqtHpPQ\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69446c5d1c508c5d5edf5520",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "69446c591c508c5d5edf52d1",
+        "email": "Baylee.Steuber@hotmail.com",
+        "name": "Jayde Rath",
+        "country": "USA",
+        "city": "Lake Lucy",
+        "street": "Princess Street 56",
+        "house": 289,
+        "flat": 3910,
+        "phone": "+182728433529188",
+        "createdOn": "2025-12-18T21:04:25.000Z",
+        "notes": "ooM8QVvsoIBLuF6O3kRyLkBvo1nZkn"
+      },
+      "products": [
+        {
+          "_id": "69446c5a1c508c5d5edf5395",
+          "name": "Bacon30326",
+          "amount": 725,
+          "price": 75043,
+          "manufacturer": "Microsoft",
+          "notes": "dmlNKIDgbu8mAhhFoYivvsLRBFIUN42oilB03XIxkzmJWirqh8nM3lxzTTFD295AYIBNW6H3J8WlZza8mxFI30E8SHhl3om18aKlRhPjWV0cYVku8xM2dZzdkdNQu86jKYEzHl7w3IV8DxtiRZLXymjJ4TB4UwmkJ1UWS7Y0PXldlqJtyAaXlP3vmAjEhhw2dPOG9DGh0BNHUps0EHCl8EIeOBMHfPsfnRQSR00Xe8obdrgPdamcXxojUh",
+          "received": true
+        },
+        {
+          "_id": "69446c5d1c508c5d5edf5502",
+          "name": "Shoes98617",
+          "amount": 442,
+          "price": 20563,
+          "manufacturer": "Samsung",
+          "notes": "03y4Fznd0lVnNqtfOlSlMwrhU4nDvdfmkssBrIgZBl0A902vv28035rGvzpYYhNrQSFFKyPWhw7RigRdQ7mLpV597nplNyI0K4gmrWkdhxtmSpYGh0UOPqG2Ofs6Wm2aUT3x5bSUlmfr5JTtmyuEaESqaJ3bGIPY1pJOInulaKzap8OPhlPsViXZgHiGWgDYwuo8EvHqjLRQk2SoF8Y3ZZEcOdMoZVxjWvqnW0f9szozRY1as6iLroX9zY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "East Leanne",
+          "street": "Dickinson Throughway",
+          "house": 105,
+          "flat": 897
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 95606,
+      "createdOn": "2025-12-18T21:04:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "69446c591c508c5d5edf52d1",
+          "products": [
+            {
+              "_id": "69446c5a1c508c5d5edf5395",
+              "name": "Bacon30326",
+              "amount": 725,
+              "price": 75043,
+              "manufacturer": "Microsoft",
+              "notes": "dmlNKIDgbu8mAhhFoYivvsLRBFIUN42oilB03XIxkzmJWirqh8nM3lxzTTFD295AYIBNW6H3J8WlZza8mxFI30E8SHhl3om18aKlRhPjWV0cYVku8xM2dZzdkdNQu86jKYEzHl7w3IV8DxtiRZLXymjJ4TB4UwmkJ1UWS7Y0PXldlqJtyAaXlP3vmAjEhhw2dPOG9DGh0BNHUps0EHCl8EIeOBMHfPsfnRQSR00Xe8obdrgPdamcXxojUh",
+              "received": true
+            },
+            {
+              "_id": "69446c5d1c508c5d5edf5502",
+              "name": "Shoes98617",
+              "amount": 442,
+              "price": 20563,
+              "manufacturer": "Samsung",
+              "notes": "03y4Fznd0lVnNqtfOlSlMwrhU4nDvdfmkssBrIgZBl0A902vv28035rGvzpYYhNrQSFFKyPWhw7RigRdQ7mLpV597nplNyI0K4gmrWkdhxtmSpYGh0UOPqG2Ofs6Wm2aUT3x5bSUlmfr5JTtmyuEaESqaJ3bGIPY1pJOInulaKzap8OPhlPsViXZgHiGWgDYwuo8EvHqjLRQk2SoF8Y3ZZEcOdMoZVxjWvqnW0f9szozRY1as6iLroX9zY",
+              "received": false
+            }
+          ],
+          "total_price": 95606,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "East Leanne",
+              "street": "Dickinson Throughway",
+              "house": 105,
+              "flat": 897
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:04:31.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69446c591c508c5d5edf52d1",
+          "products": [
+            {
+              "_id": "69446c5a1c508c5d5edf5395",
+              "name": "Bacon30326",
+              "amount": 725,
+              "price": 75043,
+              "manufacturer": "Microsoft",
+              "notes": "dmlNKIDgbu8mAhhFoYivvsLRBFIUN42oilB03XIxkzmJWirqh8nM3lxzTTFD295AYIBNW6H3J8WlZza8mxFI30E8SHhl3om18aKlRhPjWV0cYVku8xM2dZzdkdNQu86jKYEzHl7w3IV8DxtiRZLXymjJ4TB4UwmkJ1UWS7Y0PXldlqJtyAaXlP3vmAjEhhw2dPOG9DGh0BNHUps0EHCl8EIeOBMHfPsfnRQSR00Xe8obdrgPdamcXxojUh",
+              "received": false
+            },
+            {
+              "_id": "69446c5d1c508c5d5edf5502",
+              "name": "Shoes98617",
+              "amount": 442,
+              "price": 20563,
+              "manufacturer": "Samsung",
+              "notes": "03y4Fznd0lVnNqtfOlSlMwrhU4nDvdfmkssBrIgZBl0A902vv28035rGvzpYYhNrQSFFKyPWhw7RigRdQ7mLpV597nplNyI0K4gmrWkdhxtmSpYGh0UOPqG2Ofs6Wm2aUT3x5bSUlmfr5JTtmyuEaESqaJ3bGIPY1pJOInulaKzap8OPhlPsViXZgHiGWgDYwuo8EvHqjLRQk2SoF8Y3ZZEcOdMoZVxjWvqnW0f9szozRY1as6iLroX9zY",
+              "received": false
+            }
+          ],
+          "total_price": 95606,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "East Leanne",
+              "street": "Dickinson Throughway",
+              "house": 105,
+              "flat": 897
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:04:31.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446c591c508c5d5edf52d1",
+          "products": [
+            {
+              "_id": "69446c5a1c508c5d5edf5395",
+              "name": "Bacon30326",
+              "amount": 725,
+              "price": 75043,
+              "manufacturer": "Microsoft",
+              "notes": "dmlNKIDgbu8mAhhFoYivvsLRBFIUN42oilB03XIxkzmJWirqh8nM3lxzTTFD295AYIBNW6H3J8WlZza8mxFI30E8SHhl3om18aKlRhPjWV0cYVku8xM2dZzdkdNQu86jKYEzHl7w3IV8DxtiRZLXymjJ4TB4UwmkJ1UWS7Y0PXldlqJtyAaXlP3vmAjEhhw2dPOG9DGh0BNHUps0EHCl8EIeOBMHfPsfnRQSR00Xe8obdrgPdamcXxojUh",
+              "received": false
+            },
+            {
+              "_id": "69446c5d1c508c5d5edf5502",
+              "name": "Shoes98617",
+              "amount": 442,
+              "price": 20563,
+              "manufacturer": "Samsung",
+              "notes": "03y4Fznd0lVnNqtfOlSlMwrhU4nDvdfmkssBrIgZBl0A902vv28035rGvzpYYhNrQSFFKyPWhw7RigRdQ7mLpV597nplNyI0K4gmrWkdhxtmSpYGh0UOPqG2Ofs6Wm2aUT3x5bSUlmfr5JTtmyuEaESqaJ3bGIPY1pJOInulaKzap8OPhlPsViXZgHiGWgDYwuo8EvHqjLRQk2SoF8Y3ZZEcOdMoZVxjWvqnW0f9szozRY1as6iLroX9zY",
+              "received": false
+            }
+          ],
+          "total_price": 95606,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "East Leanne",
+              "street": "Dickinson Throughway",
+              "house": 105,
+              "flat": 897
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:04:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446c591c508c5d5edf52d1",
+          "products": [
+            {
+              "_id": "69446c5a1c508c5d5edf5395",
+              "name": "Bacon30326",
+              "amount": 725,
+              "price": 75043,
+              "manufacturer": "Microsoft",
+              "notes": "dmlNKIDgbu8mAhhFoYivvsLRBFIUN42oilB03XIxkzmJWirqh8nM3lxzTTFD295AYIBNW6H3J8WlZza8mxFI30E8SHhl3om18aKlRhPjWV0cYVku8xM2dZzdkdNQu86jKYEzHl7w3IV8DxtiRZLXymjJ4TB4UwmkJ1UWS7Y0PXldlqJtyAaXlP3vmAjEhhw2dPOG9DGh0BNHUps0EHCl8EIeOBMHfPsfnRQSR00Xe8obdrgPdamcXxojUh",
+              "received": false
+            },
+            {
+              "_id": "69446c5d1c508c5d5edf5502",
+              "name": "Shoes98617",
+              "amount": 442,
+              "price": 20563,
+              "manufacturer": "Samsung",
+              "notes": "03y4Fznd0lVnNqtfOlSlMwrhU4nDvdfmkssBrIgZBl0A902vv28035rGvzpYYhNrQSFFKyPWhw7RigRdQ7mLpV597nplNyI0K4gmrWkdhxtmSpYGh0UOPqG2Ofs6Wm2aUT3x5bSUlmfr5JTtmyuEaESqaJ3bGIPY1pJOInulaKzap8OPhlPsViXZgHiGWgDYwuo8EvHqjLRQk2SoF8Y3ZZEcOdMoZVxjWvqnW0f9szozRY1as6iLroX9zY",
+              "received": false
+            }
+          ],
+          "total_price": 95606,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:04:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
