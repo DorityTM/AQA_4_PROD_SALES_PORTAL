@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:17:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-Blj4wMmKv0JD9q5T+/je6T16rso\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694445231c508c5d5edc5258",
+      "status": "Draft",
+      "customer": {
+        "_id": "694445221c508c5d5edc51ea",
+        "email": "Jerome.Jacobson@hotmail.com",
+        "name": "Idell Fahey",
+        "country": "Belarus",
+        "city": "Boganfurt",
+        "street": "First Street 89",
+        "house": 319,
+        "flat": 8834,
+        "phone": "+119500681648915",
+        "createdOn": "2025-12-18T18:17:06.000Z",
+        "notes": "6Pxn2MDawLAkmwy0fIDUdGd1YFdA7E"
+      },
+      "products": [
+        {
+          "_id": "694445221c508c5d5edc5226",
+          "name": "Computer73370",
+          "amount": 342,
+          "price": 15834,
+          "manufacturer": "Xiaomi",
+          "notes": "j1EUQtZUHkw9AzXgoUJzkfFfuV4qPHYDrYesqjAAfsKCAA5PFvZr42WiSLbB5EfaVsESzFFCeqgnyPy6lxlZ606erg4RiPsGpQ9S4uzrQD4COOskifskLq6FiAG52DK6uH631NbXZA8iIcT8gZEc8JmS4sc8GqB0GVBPH5jTAmAwqsherVXA8uqrkUSlTQky62rUJbMuFslbaBj6pyCPZa7a2tlxDlBJfzMlk3sikYwh14ExLinDHgUsgB",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 15834,
+      "createdOn": "2025-12-18T18:17:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694445221c508c5d5edc51ea",
+          "products": [
+            {
+              "_id": "694445221c508c5d5edc5226",
+              "name": "Computer73370",
+              "amount": 342,
+              "price": 15834,
+              "manufacturer": "Xiaomi",
+              "notes": "j1EUQtZUHkw9AzXgoUJzkfFfuV4qPHYDrYesqjAAfsKCAA5PFvZr42WiSLbB5EfaVsESzFFCeqgnyPy6lxlZ606erg4RiPsGpQ9S4uzrQD4COOskifskLq6FiAG52DK6uH631NbXZA8iIcT8gZEc8JmS4sc8GqB0GVBPH5jTAmAwqsherVXA8uqrkUSlTQky62rUJbMuFslbaBj6pyCPZa7a2tlxDlBJfzMlk3sikYwh14ExLinDHgUsgB",
+              "received": false
+            }
+          ],
+          "total_price": 15834,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:17:08.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694445221c508c5d5edc51ea",
+          "products": [
+            {
+              "_id": "694445221c508c5d5edc5226",
+              "name": "Computer73370",
+              "amount": 342,
+              "price": 15834,
+              "manufacturer": "Xiaomi",
+              "notes": "j1EUQtZUHkw9AzXgoUJzkfFfuV4qPHYDrYesqjAAfsKCAA5PFvZr42WiSLbB5EfaVsESzFFCeqgnyPy6lxlZ606erg4RiPsGpQ9S4uzrQD4COOskifskLq6FiAG52DK6uH631NbXZA8iIcT8gZEc8JmS4sc8GqB0GVBPH5jTAmAwqsherVXA8uqrkUSlTQky62rUJbMuFslbaBj6pyCPZa7a2tlxDlBJfzMlk3sikYwh14ExLinDHgUsgB",
+              "received": false
+            }
+          ],
+          "total_price": 15834,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:17:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

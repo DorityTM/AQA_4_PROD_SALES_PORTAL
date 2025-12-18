@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:17:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4599",
+    "etag": "W/\"11f7-mKrJjmLp4de3O6ZLGNRJeq+4x34\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944454f1c508c5d5edc6774",
+      "status": "Received",
+      "customer": {
+        "_id": "6944454d1c508c5d5edc668e",
+        "email": "Rylee71@gmail.com",
+        "name": "Lexi Carroll",
+        "country": "Ukraine",
+        "city": "Parma",
+        "street": "Funk Haven 83",
+        "house": 767,
+        "flat": 2737,
+        "phone": "+766464468932530",
+        "createdOn": "2025-12-18T18:17:49.000Z",
+        "notes": "jOy9vJEFkgUoiv1PAKVRBqDCbZr1Tv"
+      },
+      "products": [
+        {
+          "_id": "6944454e1c508c5d5edc6744",
+          "name": "Chicken2475",
+          "amount": 112,
+          "price": 89953,
+          "manufacturer": "Apple",
+          "notes": "QiH7yTRYULwhkKlXgXHZM9NjWI1V9ITcAvGvQjWDQQKocTG04SJEInqzY9tfdIvhrkAO44uNkEK4EzV0Z9kyDQJI25Pi0vpTdeTpORtdIQNKsY3IglWLa6eCCOdAz0WTeRgIa1BSLSkHMfcWP5777qvQ5VvYIegXRtWFG22YoIBNmKwK51RRYZPew6RwbxNCVLcUlmlv8JTC5cnvbSCyd5X12dsPJP4gmiM2Sf3mdjO7y55hoUempHDSiO",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Feeneyfurt",
+          "street": "Smitham Orchard",
+          "house": 669,
+          "flat": 3359
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 89953,
+      "createdOn": "2025-12-18T18:17:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6944454d1c508c5d5edc668e",
+          "products": [
+            {
+              "_id": "6944454e1c508c5d5edc6744",
+              "name": "Chicken2475",
+              "amount": 112,
+              "price": 89953,
+              "manufacturer": "Apple",
+              "notes": "QiH7yTRYULwhkKlXgXHZM9NjWI1V9ITcAvGvQjWDQQKocTG04SJEInqzY9tfdIvhrkAO44uNkEK4EzV0Z9kyDQJI25Pi0vpTdeTpORtdIQNKsY3IglWLa6eCCOdAz0WTeRgIa1BSLSkHMfcWP5777qvQ5VvYIegXRtWFG22YoIBNmKwK51RRYZPew6RwbxNCVLcUlmlv8JTC5cnvbSCyd5X12dsPJP4gmiM2Sf3mdjO7y55hoUempHDSiO",
+              "received": true
+            }
+          ],
+          "total_price": 89953,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Feeneyfurt",
+              "street": "Smitham Orchard",
+              "house": 669,
+              "flat": 3359
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:17:57.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6944454d1c508c5d5edc668e",
+          "products": [
+            {
+              "_id": "6944454e1c508c5d5edc6744",
+              "name": "Chicken2475",
+              "amount": 112,
+              "price": 89953,
+              "manufacturer": "Apple",
+              "notes": "QiH7yTRYULwhkKlXgXHZM9NjWI1V9ITcAvGvQjWDQQKocTG04SJEInqzY9tfdIvhrkAO44uNkEK4EzV0Z9kyDQJI25Pi0vpTdeTpORtdIQNKsY3IglWLa6eCCOdAz0WTeRgIa1BSLSkHMfcWP5777qvQ5VvYIegXRtWFG22YoIBNmKwK51RRYZPew6RwbxNCVLcUlmlv8JTC5cnvbSCyd5X12dsPJP4gmiM2Sf3mdjO7y55hoUempHDSiO",
+              "received": false
+            }
+          ],
+          "total_price": 89953,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Feeneyfurt",
+              "street": "Smitham Orchard",
+              "house": 669,
+              "flat": 3359
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:17:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944454d1c508c5d5edc668e",
+          "products": [
+            {
+              "_id": "6944454e1c508c5d5edc6744",
+              "name": "Chicken2475",
+              "amount": 112,
+              "price": 89953,
+              "manufacturer": "Apple",
+              "notes": "QiH7yTRYULwhkKlXgXHZM9NjWI1V9ITcAvGvQjWDQQKocTG04SJEInqzY9tfdIvhrkAO44uNkEK4EzV0Z9kyDQJI25Pi0vpTdeTpORtdIQNKsY3IglWLa6eCCOdAz0WTeRgIa1BSLSkHMfcWP5777qvQ5VvYIegXRtWFG22YoIBNmKwK51RRYZPew6RwbxNCVLcUlmlv8JTC5cnvbSCyd5X12dsPJP4gmiM2Sf3mdjO7y55hoUempHDSiO",
+              "received": false
+            }
+          ],
+          "total_price": 89953,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Feeneyfurt",
+              "street": "Smitham Orchard",
+              "house": 669,
+              "flat": 3359
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:17:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944454d1c508c5d5edc668e",
+          "products": [
+            {
+              "_id": "6944454e1c508c5d5edc6744",
+              "name": "Chicken2475",
+              "amount": 112,
+              "price": 89953,
+              "manufacturer": "Apple",
+              "notes": "QiH7yTRYULwhkKlXgXHZM9NjWI1V9ITcAvGvQjWDQQKocTG04SJEInqzY9tfdIvhrkAO44uNkEK4EzV0Z9kyDQJI25Pi0vpTdeTpORtdIQNKsY3IglWLa6eCCOdAz0WTeRgIa1BSLSkHMfcWP5777qvQ5VvYIegXRtWFG22YoIBNmKwK51RRYZPew6RwbxNCVLcUlmlv8JTC5cnvbSCyd5X12dsPJP4gmiM2Sf3mdjO7y55hoUempHDSiO",
+              "received": false
+            }
+          ],
+          "total_price": 89953,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:17:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

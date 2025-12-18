@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:17:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4605",
+    "etag": "W/\"11fd-5Hj4A9VeLeVO813QhdPQ2etfO64\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944452d1c508c5d5edc5703",
+      "status": "Received",
+      "customer": {
+        "_id": "6944452b1c508c5d5edc5631",
+        "email": "Tressa_Sawayn14@hotmail.com",
+        "name": "Brant Hoeger",
+        "country": "Russia",
+        "city": "Kendallfield",
+        "street": "Poplar Road 73",
+        "house": 64,
+        "flat": 1442,
+        "phone": "+852321170735838",
+        "createdOn": "2025-12-18T18:17:15.000Z",
+        "notes": "cqyKtqgWFAEWOEZkqKHavdCfZANouk"
+      },
+      "products": [
+        {
+          "_id": "6944452c1c508c5d5edc5686",
+          "name": "Chicken11287",
+          "amount": 724,
+          "price": 42935,
+          "manufacturer": "Amazon",
+          "notes": "5KGbfm90KtgNcGpOxbBPIscULcPONnczUXQl8HwpRfAtw8E6a6BglbldNhSA41xLa1UoTwsfQmtN2PdbNEgVQo2ZRaOHn0ud6CSQIgijV2EiOQKAtQdRpBsZSLlLwBt7lTpt9sTM91sSQumvRoxdFDAry5GBhc4DitdLOTzP5cr8UtUk7V0xpX0MEg1ezbUCOKfrit6IHFBdHVonLN1BRWf5z4MV3tEjMzMAKk1EtyD4sZGIVAyLTCIUle",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Beattyside",
+          "street": "Karen River",
+          "house": 56,
+          "flat": 2681
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42935,
+      "createdOn": "2025-12-18T18:17:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6944452b1c508c5d5edc5631",
+          "products": [
+            {
+              "_id": "6944452c1c508c5d5edc5686",
+              "name": "Chicken11287",
+              "amount": 724,
+              "price": 42935,
+              "manufacturer": "Amazon",
+              "notes": "5KGbfm90KtgNcGpOxbBPIscULcPONnczUXQl8HwpRfAtw8E6a6BglbldNhSA41xLa1UoTwsfQmtN2PdbNEgVQo2ZRaOHn0ud6CSQIgijV2EiOQKAtQdRpBsZSLlLwBt7lTpt9sTM91sSQumvRoxdFDAry5GBhc4DitdLOTzP5cr8UtUk7V0xpX0MEg1ezbUCOKfrit6IHFBdHVonLN1BRWf5z4MV3tEjMzMAKk1EtyD4sZGIVAyLTCIUle",
+              "received": true
+            }
+          ],
+          "total_price": 42935,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Beattyside",
+              "street": "Karen River",
+              "house": 56,
+              "flat": 2681
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:17:24.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6944452b1c508c5d5edc5631",
+          "products": [
+            {
+              "_id": "6944452c1c508c5d5edc5686",
+              "name": "Chicken11287",
+              "amount": 724,
+              "price": 42935,
+              "manufacturer": "Amazon",
+              "notes": "5KGbfm90KtgNcGpOxbBPIscULcPONnczUXQl8HwpRfAtw8E6a6BglbldNhSA41xLa1UoTwsfQmtN2PdbNEgVQo2ZRaOHn0ud6CSQIgijV2EiOQKAtQdRpBsZSLlLwBt7lTpt9sTM91sSQumvRoxdFDAry5GBhc4DitdLOTzP5cr8UtUk7V0xpX0MEg1ezbUCOKfrit6IHFBdHVonLN1BRWf5z4MV3tEjMzMAKk1EtyD4sZGIVAyLTCIUle",
+              "received": false
+            }
+          ],
+          "total_price": 42935,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Beattyside",
+              "street": "Karen River",
+              "house": 56,
+              "flat": 2681
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:17:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944452b1c508c5d5edc5631",
+          "products": [
+            {
+              "_id": "6944452c1c508c5d5edc5686",
+              "name": "Chicken11287",
+              "amount": 724,
+              "price": 42935,
+              "manufacturer": "Amazon",
+              "notes": "5KGbfm90KtgNcGpOxbBPIscULcPONnczUXQl8HwpRfAtw8E6a6BglbldNhSA41xLa1UoTwsfQmtN2PdbNEgVQo2ZRaOHn0ud6CSQIgijV2EiOQKAtQdRpBsZSLlLwBt7lTpt9sTM91sSQumvRoxdFDAry5GBhc4DitdLOTzP5cr8UtUk7V0xpX0MEg1ezbUCOKfrit6IHFBdHVonLN1BRWf5z4MV3tEjMzMAKk1EtyD4sZGIVAyLTCIUle",
+              "received": false
+            }
+          ],
+          "total_price": 42935,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Beattyside",
+              "street": "Karen River",
+              "house": 56,
+              "flat": 2681
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:17:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944452b1c508c5d5edc5631",
+          "products": [
+            {
+              "_id": "6944452c1c508c5d5edc5686",
+              "name": "Chicken11287",
+              "amount": 724,
+              "price": 42935,
+              "manufacturer": "Amazon",
+              "notes": "5KGbfm90KtgNcGpOxbBPIscULcPONnczUXQl8HwpRfAtw8E6a6BglbldNhSA41xLa1UoTwsfQmtN2PdbNEgVQo2ZRaOHn0ud6CSQIgijV2EiOQKAtQdRpBsZSLlLwBt7lTpt9sTM91sSQumvRoxdFDAry5GBhc4DitdLOTzP5cr8UtUk7V0xpX0MEg1ezbUCOKfrit6IHFBdHVonLN1BRWf5z4MV3tEjMzMAKk1EtyD4sZGIVAyLTCIUle",
+              "received": false
+            }
+          ],
+          "total_price": 42935,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:17:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

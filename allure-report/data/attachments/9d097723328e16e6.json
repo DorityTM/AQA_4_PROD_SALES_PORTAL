@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:18:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3667",
+    "etag": "W/\"e53-S5uIbctoWgTar9p2POpGjSweRso\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694445771c508c5d5edc7b8d",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694445741c508c5d5edc7a45",
+        "email": "Julian53@hotmail.com",
+        "name": "Eric Kihn",
+        "country": "Germany",
+        "city": "Geraldineburgh",
+        "street": "Haley Lane 53",
+        "house": 58,
+        "flat": 613,
+        "phone": "+611272042868658",
+        "createdOn": "2025-12-18T18:18:28.000Z",
+        "notes": "Y9XzdOW2ciH8ohNbT3d8JMmtn7LxNJ"
+      },
+      "products": [
+        {
+          "_id": "694445751c508c5d5edc7ab4",
+          "name": "Cheese58842",
+          "amount": 719,
+          "price": 25672,
+          "manufacturer": "Tesla",
+          "notes": "PVoRLmlhWL40Tfn68pxAIY2uv3RQeWHy1JwxSTYvzYBned10AsPKFn9SDRFnqNf2BDNDOtrNOrzX5GrIqSCrYxd5rgPsBePnaxPM5Z23ctNPaFCFkleOJs6zBgBPL15t99bhYXZAkUly08qTjdVDfI9r6u4F4RvsgQeKhqT0ABfZ8nlnH5vLUfELGFWn0u4e0QJsOOnOVWWsM7Te61jhtggbS5sdEHruurYuZZwkha8RjQV6TyU8U5xTbD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Jaceyworth",
+          "street": "Jacklyn Knolls",
+          "house": 272,
+          "flat": 5919
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25672,
+      "createdOn": "2025-12-18T18:18:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694445741c508c5d5edc7a45",
+          "products": [
+            {
+              "_id": "694445751c508c5d5edc7ab4",
+              "name": "Cheese58842",
+              "amount": 719,
+              "price": 25672,
+              "manufacturer": "Tesla",
+              "notes": "PVoRLmlhWL40Tfn68pxAIY2uv3RQeWHy1JwxSTYvzYBned10AsPKFn9SDRFnqNf2BDNDOtrNOrzX5GrIqSCrYxd5rgPsBePnaxPM5Z23ctNPaFCFkleOJs6zBgBPL15t99bhYXZAkUly08qTjdVDfI9r6u4F4RvsgQeKhqT0ABfZ8nlnH5vLUfELGFWn0u4e0QJsOOnOVWWsM7Te61jhtggbS5sdEHruurYuZZwkha8RjQV6TyU8U5xTbD",
+              "received": false
+            }
+          ],
+          "total_price": 25672,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Jaceyworth",
+              "street": "Jacklyn Knolls",
+              "house": 272,
+              "flat": 5919
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:18:34.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694445741c508c5d5edc7a45",
+          "products": [
+            {
+              "_id": "694445751c508c5d5edc7ab4",
+              "name": "Cheese58842",
+              "amount": 719,
+              "price": 25672,
+              "manufacturer": "Tesla",
+              "notes": "PVoRLmlhWL40Tfn68pxAIY2uv3RQeWHy1JwxSTYvzYBned10AsPKFn9SDRFnqNf2BDNDOtrNOrzX5GrIqSCrYxd5rgPsBePnaxPM5Z23ctNPaFCFkleOJs6zBgBPL15t99bhYXZAkUly08qTjdVDfI9r6u4F4RvsgQeKhqT0ABfZ8nlnH5vLUfELGFWn0u4e0QJsOOnOVWWsM7Te61jhtggbS5sdEHruurYuZZwkha8RjQV6TyU8U5xTbD",
+              "received": false
+            }
+          ],
+          "total_price": 25672,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Jaceyworth",
+              "street": "Jacklyn Knolls",
+              "house": 272,
+              "flat": 5919
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:18:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694445741c508c5d5edc7a45",
+          "products": [
+            {
+              "_id": "694445751c508c5d5edc7ab4",
+              "name": "Cheese58842",
+              "amount": 719,
+              "price": 25672,
+              "manufacturer": "Tesla",
+              "notes": "PVoRLmlhWL40Tfn68pxAIY2uv3RQeWHy1JwxSTYvzYBned10AsPKFn9SDRFnqNf2BDNDOtrNOrzX5GrIqSCrYxd5rgPsBePnaxPM5Z23ctNPaFCFkleOJs6zBgBPL15t99bhYXZAkUly08qTjdVDfI9r6u4F4RvsgQeKhqT0ABfZ8nlnH5vLUfELGFWn0u4e0QJsOOnOVWWsM7Te61jhtggbS5sdEHruurYuZZwkha8RjQV6TyU8U5xTbD",
+              "received": false
+            }
+          ],
+          "total_price": 25672,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:18:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

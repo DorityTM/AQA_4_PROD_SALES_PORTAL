@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:19:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4242",
+    "etag": "W/\"1092-Mc2/quolOgL5Sc7X+aQmreDatwg\"",
+    "keep-alive": "timeout=5, max=65",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694445b91c508c5d5edc9d3c",
+      "status": "Draft",
+      "customer": {
+        "_id": "694445b91c508c5d5edc9cfb",
+        "email": "Domenick47@gmail.com",
+        "name": "Kacie Breitenberg",
+        "country": "Great Britain",
+        "city": "New Roelhaven",
+        "street": "Euclid Avenue 64",
+        "house": 428,
+        "flat": 7130,
+        "phone": "+331982745768210",
+        "createdOn": "2025-12-18T18:19:37.000Z",
+        "notes": "Wf99eQNowO4nV4E6xO0cSohdWJk5K1"
+      },
+      "products": [
+        {
+          "_id": "694445b91c508c5d5edc9d18",
+          "name": "Soap761",
+          "amount": 513,
+          "price": 27374,
+          "manufacturer": "Sony",
+          "notes": "VUJMNGmn7cEP1HdXq5OevnreTpk8nMIPcdkAqF5gA5CnoNMKiAadaPc8vBQEc5VF1dHSUsCDj83ysk1onsusgvVhivDIp7fz1y6eQWTWOTMIYNuWi2AroyUpikZLcozhgqIHXouIHXIobvWyKH0LTOsdUtKsj35UutaCOXU0ybMEeQTUfGf5ARlpQwhjg2caWwKTe93gmLzthAcFckNoR6ZxSGbJJ3ZenFRtZRLc7hKKc6I8M9bvkGp2dl",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 27374,
+      "createdOn": "2025-12-18T18:19:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694445b91c508c5d5edc9cfb",
+          "products": [
+            {
+              "_id": "694445b91c508c5d5edc9d18",
+              "name": "Soap761",
+              "amount": 513,
+              "price": 27374,
+              "manufacturer": "Sony",
+              "notes": "VUJMNGmn7cEP1HdXq5OevnreTpk8nMIPcdkAqF5gA5CnoNMKiAadaPc8vBQEc5VF1dHSUsCDj83ysk1onsusgvVhivDIp7fz1y6eQWTWOTMIYNuWi2AroyUpikZLcozhgqIHXouIHXIobvWyKH0LTOsdUtKsj35UutaCOXU0ybMEeQTUfGf5ARlpQwhjg2caWwKTe93gmLzthAcFckNoR6ZxSGbJJ3ZenFRtZRLc7hKKc6I8M9bvkGp2dl",
+              "received": false
+            }
+          ],
+          "total_price": 27374,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:19:40.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "694445b91c508c5d5edc9cfb",
+          "products": [
+            {
+              "_id": "694445b91c508c5d5edc9d18",
+              "name": "Soap761",
+              "amount": 513,
+              "price": 27374,
+              "manufacturer": "Sony",
+              "notes": "VUJMNGmn7cEP1HdXq5OevnreTpk8nMIPcdkAqF5gA5CnoNMKiAadaPc8vBQEc5VF1dHSUsCDj83ysk1onsusgvVhivDIp7fz1y6eQWTWOTMIYNuWi2AroyUpikZLcozhgqIHXouIHXIobvWyKH0LTOsdUtKsj35UutaCOXU0ybMEeQTUfGf5ARlpQwhjg2caWwKTe93gmLzthAcFckNoR6ZxSGbJJ3ZenFRtZRLc7hKKc6I8M9bvkGp2dl",
+              "received": false
+            }
+          ],
+          "total_price": 27374,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Littlechester",
+              "street": "Hermann Union",
+              "house": 24,
+              "flat": 209
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:19:40.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694445b91c508c5d5edc9cfb",
+          "products": [
+            {
+              "_id": "694445b91c508c5d5edc9d18",
+              "name": "Soap761",
+              "amount": 513,
+              "price": 27374,
+              "manufacturer": "Sony",
+              "notes": "VUJMNGmn7cEP1HdXq5OevnreTpk8nMIPcdkAqF5gA5CnoNMKiAadaPc8vBQEc5VF1dHSUsCDj83ysk1onsusgvVhivDIp7fz1y6eQWTWOTMIYNuWi2AroyUpikZLcozhgqIHXouIHXIobvWyKH0LTOsdUtKsj35UutaCOXU0ybMEeQTUfGf5ARlpQwhjg2caWwKTe93gmLzthAcFckNoR6ZxSGbJJ3ZenFRtZRLc7hKKc6I8M9bvkGp2dl",
+              "received": false
+            }
+          ],
+          "total_price": 27374,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Littlechester",
+              "street": "Hermann Union",
+              "house": 24,
+              "flat": 209
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:19:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694445b91c508c5d5edc9cfb",
+          "products": [
+            {
+              "_id": "694445b91c508c5d5edc9d18",
+              "name": "Soap761",
+              "amount": 513,
+              "price": 27374,
+              "manufacturer": "Sony",
+              "notes": "VUJMNGmn7cEP1HdXq5OevnreTpk8nMIPcdkAqF5gA5CnoNMKiAadaPc8vBQEc5VF1dHSUsCDj83ysk1onsusgvVhivDIp7fz1y6eQWTWOTMIYNuWi2AroyUpikZLcozhgqIHXouIHXIobvWyKH0LTOsdUtKsj35UutaCOXU0ybMEeQTUfGf5ARlpQwhjg2caWwKTe93gmLzthAcFckNoR6ZxSGbJJ3ZenFRtZRLc7hKKc6I8M9bvkGp2dl",
+              "received": false
+            }
+          ],
+          "total_price": 27374,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:19:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

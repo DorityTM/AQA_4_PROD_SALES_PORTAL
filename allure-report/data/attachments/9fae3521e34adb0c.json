@@ -1,0 +1,113 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:19:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2422",
+    "etag": "W/\"976-D51EwayUlTjycm2yZVamjHXqpho\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694445ca1c508c5d5edca5f2",
+      "status": "Draft",
+      "customer": {
+        "_id": "694445ca1c508c5d5edca607",
+        "email": "Rogelio81@gmail.com",
+        "name": "Erick Hermann",
+        "country": "USA",
+        "city": "Treutelchester",
+        "street": "N Locust Street 47",
+        "house": 194,
+        "flat": 6171,
+        "phone": "+616144127298540",
+        "createdOn": "2025-12-18T18:19:54.000Z",
+        "notes": "b2XHXMy5FEilvHZu121QTvWqGfHIdc"
+      },
+      "products": [
+        {
+          "_id": "694445c91c508c5d5edca57c",
+          "name": "Pants80156",
+          "amount": 618,
+          "price": 90789,
+          "manufacturer": "Sony",
+          "notes": "OjrqsfSR1HoiE0kH2x7INeFSMqlwYPlbSNyTYRHCpBG3l3ZaCS929mZeiIB86TAngwRVoYFbLhnFLKmXxZmAtNrk0w1RoYHRkkjK1uJm4xAF4XzR7AzULl0xHHR6jSje9k0rXgSE67j6m8szVgaELBgpyZIMQsOCJfs7kNhvMNaDFEoPCBkwY6RODeFKnttvBVMvNTNNnZxSVfkj4kC5NqndoPQbtGfJUYVjeMVgG3TfgHa6qRpMdwS9gG",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90789,
+      "createdOn": "2025-12-18T18:19:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694445ca1c508c5d5edca607",
+          "products": [
+            {
+              "_id": "694445c91c508c5d5edca57c",
+              "name": "Pants80156",
+              "amount": 618,
+              "price": 90789,
+              "manufacturer": "Sony",
+              "notes": "OjrqsfSR1HoiE0kH2x7INeFSMqlwYPlbSNyTYRHCpBG3l3ZaCS929mZeiIB86TAngwRVoYFbLhnFLKmXxZmAtNrk0w1RoYHRkkjK1uJm4xAF4XzR7AzULl0xHHR6jSje9k0rXgSE67j6m8szVgaELBgpyZIMQsOCJfs7kNhvMNaDFEoPCBkwY6RODeFKnttvBVMvNTNNnZxSVfkj4kC5NqndoPQbtGfJUYVjeMVgG3TfgHa6qRpMdwS9gG",
+              "received": false
+            }
+          ],
+          "total_price": 90789,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:19:55.000Z",
+          "action": "Customer changed",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694445c91c508c5d5edca56f",
+          "products": [
+            {
+              "_id": "694445c91c508c5d5edca57c",
+              "name": "Pants80156",
+              "amount": 618,
+              "price": 90789,
+              "manufacturer": "Sony",
+              "notes": "OjrqsfSR1HoiE0kH2x7INeFSMqlwYPlbSNyTYRHCpBG3l3ZaCS929mZeiIB86TAngwRVoYFbLhnFLKmXxZmAtNrk0w1RoYHRkkjK1uJm4xAF4XzR7AzULl0xHHR6jSje9k0rXgSE67j6m8szVgaELBgpyZIMQsOCJfs7kNhvMNaDFEoPCBkwY6RODeFKnttvBVMvNTNNnZxSVfkj4kC5NqndoPQbtGfJUYVjeMVgG3TfgHa6qRpMdwS9gG",
+              "received": false
+            }
+          ],
+          "total_price": 90789,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:19:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

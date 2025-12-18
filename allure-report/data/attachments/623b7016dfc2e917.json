@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:19:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2738",
+    "etag": "W/\"ab2-kuYECotwVrgEY03tMUVjXgbNqfY\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694445c61c508c5d5edca3b7",
+      "status": "Draft",
+      "customer": {
+        "_id": "694445c51c508c5d5edca368",
+        "email": "Andreane.Stark@hotmail.com",
+        "name": "Jasper Lind",
+        "country": "USA",
+        "city": "Whitetown",
+        "street": "Castle Lane 48",
+        "house": 134,
+        "flat": 3236,
+        "phone": "+112554077030538",
+        "createdOn": "2025-12-18T18:19:49.000Z",
+        "notes": "3twfIXpGG8O4KkZxwO94hIRY10krnL"
+      },
+      "products": [
+        {
+          "_id": "694445c51c508c5d5edca389",
+          "name": "Tuna70342",
+          "amount": 564,
+          "price": 74030,
+          "manufacturer": "Microsoft",
+          "notes": "kKtyoZYF0nkY5QekH16OZqAPuO44OD9Fxj11eKlZrfLnff5CtSkXeLu3uqtWzAhdKUftjYmbfXX1tX0eFnhMPStZ4b6919YJBRQwdqyyiv1ud0IcsNqlO6Y7j3dbDrwntYyZ5UeuebAhwwCKcO52eHWvOXpBfSIUpr8DnFsWGDDSjcq1xGxPlatVDideDfCR0dW850uTAUWOnmSQb2c2HevnLp2JyX01sgNMMdibD1VZc6srwS5NsbtIlN",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Turlock",
+          "street": "Yost Ville",
+          "house": 422,
+          "flat": 3057
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 74030,
+      "createdOn": "2025-12-18T18:19:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694445c51c508c5d5edca368",
+          "products": [
+            {
+              "_id": "694445c51c508c5d5edca389",
+              "name": "Tuna70342",
+              "amount": 564,
+              "price": 74030,
+              "manufacturer": "Microsoft",
+              "notes": "kKtyoZYF0nkY5QekH16OZqAPuO44OD9Fxj11eKlZrfLnff5CtSkXeLu3uqtWzAhdKUftjYmbfXX1tX0eFnhMPStZ4b6919YJBRQwdqyyiv1ud0IcsNqlO6Y7j3dbDrwntYyZ5UeuebAhwwCKcO52eHWvOXpBfSIUpr8DnFsWGDDSjcq1xGxPlatVDideDfCR0dW850uTAUWOnmSQb2c2HevnLp2JyX01sgNMMdibD1VZc6srwS5NsbtIlN",
+              "received": false
+            }
+          ],
+          "total_price": 74030,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Turlock",
+              "street": "Yost Ville",
+              "house": 422,
+              "flat": 3057
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:19:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694445c51c508c5d5edca368",
+          "products": [
+            {
+              "_id": "694445c51c508c5d5edca389",
+              "name": "Tuna70342",
+              "amount": 564,
+              "price": 74030,
+              "manufacturer": "Microsoft",
+              "notes": "kKtyoZYF0nkY5QekH16OZqAPuO44OD9Fxj11eKlZrfLnff5CtSkXeLu3uqtWzAhdKUftjYmbfXX1tX0eFnhMPStZ4b6919YJBRQwdqyyiv1ud0IcsNqlO6Y7j3dbDrwntYyZ5UeuebAhwwCKcO52eHWvOXpBfSIUpr8DnFsWGDDSjcq1xGxPlatVDideDfCR0dW850uTAUWOnmSQb2c2HevnLp2JyX01sgNMMdibD1VZc6srwS5NsbtIlN",
+              "received": false
+            }
+          ],
+          "total_price": 74030,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:19:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
