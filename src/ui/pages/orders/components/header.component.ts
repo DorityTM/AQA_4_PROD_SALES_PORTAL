@@ -13,7 +13,7 @@ export class OrderDetailsHeader extends BasePage {
   }
 
   // Containers
-  readonly root = this.page.locator("#order-info-container");
+  readonly uniqueElement = this.page.locator("#order-info-container");
   readonly assignedManagerContainer = this.page.locator("#assigned-manager-container");
   readonly statusBarContainer = this.page.locator("#order-status-bar-container");
 
@@ -65,7 +65,7 @@ export class OrderDetailsHeader extends BasePage {
     // After confirm, FE re-renders the entire page; wait for spinners to clear and stable state
     await expect(this.page.locator(".spinner-border")).toHaveCount(0, { timeout: TIMEOUT_30_S });
     await expect(this.processButton).toBeHidden({ timeout: TIMEOUT_30_S });
-    await expect(this.root).toBeVisible({ timeout: TIMEOUT_15_S });
+    await expect(this.uniqueElement).toBeVisible({ timeout: TIMEOUT_15_S });
   }
 
   @logStep("HEADER: OPEN ASSIGN MANAGER MODAL")

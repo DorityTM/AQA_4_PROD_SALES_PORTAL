@@ -10,7 +10,7 @@ export class OrderDetailsCustomerDetails extends BasePage {
     super(page);
   }
 
-  readonly root = this.page.locator("#customer-section");
+  readonly uniqueElement = this.page.locator("#customer-section");
   readonly editButton = this.page.locator("#edit-customer-pencil");
 
   @logStep("CUSTOMER: CLICK EDIT")
@@ -19,7 +19,7 @@ export class OrderDetailsCustomerDetails extends BasePage {
   }
 
   async isVisible() {
-    return this.root.isVisible();
+    return this.uniqueElement.isVisible();
   }
   async isEditVisible() {
     return this.editButton.isVisible();

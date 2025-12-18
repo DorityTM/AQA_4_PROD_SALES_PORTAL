@@ -11,25 +11,21 @@ export class OrderDetailsRequestedProducts extends BasePage {
     super(page);
   }
 
-  readonly root = this.page
-    .locator("#products-section")
-    .or(this.page.locator("#products-accordion-section").locator("xpath=ancestor::*[self::section or self::div][1]"))
-    .or(this.page.locator("#edit-products-pencil").locator("xpath=ancestor::*[self::section or self::div][1]"))
-    .or(this.page.locator("#selectAll").locator("xpath=ancestor::*[self::section or self::div][1]"))
-    .first();
+  // Rely on frontend to render `#products-section`; `uniqueElement` is the component marker.
+  readonly uniqueElement = this.page.locator("#products-section").first();
 
   readonly accordionRoot = this.page.locator("#products-accordion-section");
 
   readonly editButton = this.page.locator("#edit-products-pencil");
 
   // Receiving controls
-  readonly startReceivingButton = this.root.locator("#start-receiving-products, #start-receiving").first();
+  readonly startReceivingButton = this.uniqueElement.locator("#start-receiving-products, #start-receiving").first();
   // Be flexible across FE variants
-  readonly saveReceivingButton = this.root
+  readonly saveReceivingButton = this.uniqueElement
     .locator("#save-received-products, #save-receiving, button#save-received-products")
     .first();
-  readonly cancelReceivingButton = this.root.locator("#cancel-receiving").first();
-  readonly selectAllCheckbox = this.root.locator("#selectAll");
+  readonly cancelReceivingButton = this.uniqueElement.locator("#cancel-receiving").first();
+  readonly selectAllCheckbox = this.uniqueElement.locator("#selectAll");
   readonly productCheckboxes = this.page.locator('input[name="product"]');
 
   // Per-product helpers
@@ -48,7 +44,7 @@ export class OrderDetailsRequestedProducts extends BasePage {
   productItemByName(name: string) {
     // Product name itself is stable (not localized). Different UI modes render different wrappers,
     // so anchor on the product button text.
-    return this.root.locator("button", { hasText: name }).first();
+    return this.uniqueElement.locator("button", { hasText: name }).first();
   }
 
   receivedLabelWithin(item: Locator) {
@@ -94,7 +90,7 @@ export class OrderDetailsRequestedProducts extends BasePage {
 
   @logStep("PRODUCTS: EXPECT LOADED")
   async expectLoaded() {
-    await expect(this.root).toBeVisible();
+    await expect(this.uniqueElement).toBeVisible();
     // Not all UI states render the accordion (e.g. after fully received).
     if (await this.accordionRoot.first().isVisible()) {
       await expect(this.accordionRoot.first()).toBeVisible();
