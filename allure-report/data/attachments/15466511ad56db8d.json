@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:19:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2755",
+    "etag": "W/\"ac3-E5i5eGHtWoiFRlvOHOtw86BzfiM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694453cc1c508c5d5ede360b",
+      "status": "Draft",
+      "customer": {
+        "_id": "694453cc1c508c5d5ede35ce",
+        "email": "Vernice_Pagac@yahoo.com",
+        "name": "Stephanie Schiller",
+        "country": "Russia",
+        "city": "New Alison",
+        "street": "West Valley 63",
+        "house": 898,
+        "flat": 2071,
+        "phone": "+777700325255159",
+        "createdOn": "2025-12-18T19:19:40.000Z",
+        "notes": "bCqWiR07RhEoCcxlu9fMX0IBOuob9t"
+      },
+      "products": [
+        {
+          "_id": "694453cc1c508c5d5ede35e3",
+          "name": "Mouse36337",
+          "amount": 145,
+          "price": 51655,
+          "manufacturer": "Microsoft",
+          "notes": "Du842S3UIQHQtNrGb02APLcQf16vlYA4KYKC3bg0IHF3c5JvDDgBhcnmR4t4KOm9gqslvNXcNBhr4OOIGcarjTeBeaT8gH0iur1W0wtZJBDfcZpjkqnWW95TkOVImMn51jQIxHhCo1wuM1Tk1ryxV5DngdnfQliHBdSBa1qguJQRMS0yCLBbkMVo0aWrAS3ThuAxM9owG25SOENe5UDMOk9zUPe98EkGvljtrX74KEIlN8Hck24hQOsDB2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Beahanstead",
+          "street": "Feil Heights",
+          "house": 8,
+          "flat": 149
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51655,
+      "createdOn": "2025-12-18T19:19:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694453cc1c508c5d5ede35ce",
+          "products": [
+            {
+              "_id": "694453cc1c508c5d5ede35e3",
+              "name": "Mouse36337",
+              "amount": 145,
+              "price": 51655,
+              "manufacturer": "Microsoft",
+              "notes": "Du842S3UIQHQtNrGb02APLcQf16vlYA4KYKC3bg0IHF3c5JvDDgBhcnmR4t4KOm9gqslvNXcNBhr4OOIGcarjTeBeaT8gH0iur1W0wtZJBDfcZpjkqnWW95TkOVImMn51jQIxHhCo1wuM1Tk1ryxV5DngdnfQliHBdSBa1qguJQRMS0yCLBbkMVo0aWrAS3ThuAxM9owG25SOENe5UDMOk9zUPe98EkGvljtrX74KEIlN8Hck24hQOsDB2",
+              "received": false
+            }
+          ],
+          "total_price": 51655,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Beahanstead",
+              "street": "Feil Heights",
+              "house": 8,
+              "flat": 149
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:19:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694453cc1c508c5d5ede35ce",
+          "products": [
+            {
+              "_id": "694453cc1c508c5d5ede35e3",
+              "name": "Mouse36337",
+              "amount": 145,
+              "price": 51655,
+              "manufacturer": "Microsoft",
+              "notes": "Du842S3UIQHQtNrGb02APLcQf16vlYA4KYKC3bg0IHF3c5JvDDgBhcnmR4t4KOm9gqslvNXcNBhr4OOIGcarjTeBeaT8gH0iur1W0wtZJBDfcZpjkqnWW95TkOVImMn51jQIxHhCo1wuM1Tk1ryxV5DngdnfQliHBdSBa1qguJQRMS0yCLBbkMVo0aWrAS3ThuAxM9owG25SOENe5UDMOk9zUPe98EkGvljtrX74KEIlN8Hck24hQOsDB2",
+              "received": false
+            }
+          ],
+          "total_price": 51655,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:19:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

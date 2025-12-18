@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:18:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4626",
+    "etag": "W/\"1212-JCTMG+60kZokjDQilnqRwpl+rk8\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694453791c508c5d5ede0600",
+      "status": "Received",
+      "customer": {
+        "_id": "694453781c508c5d5ede05b9",
+        "email": "Eva_Ondricka@hotmail.com",
+        "name": "Alysson Wilderman",
+        "country": "Canada",
+        "city": "Philadelphia",
+        "street": "Heather Close 64",
+        "house": 940,
+        "flat": 6691,
+        "phone": "+539699573200391",
+        "createdOn": "2025-12-18T19:18:16.000Z",
+        "notes": "LstUmvS1WTf0cmutiWGgD6IZRRMDhW"
+      },
+      "products": [
+        {
+          "_id": "694453791c508c5d5ede05d4",
+          "name": "Car84780",
+          "amount": 551,
+          "price": 61576,
+          "manufacturer": "Google",
+          "notes": "07pHLCGhP0D04FY3De1PIYH0CBPJoc93d2eyDFW9IAcMK5lP13yAcrY9hU3f4qnrLYgtLIfgTlxRzrGcer2KRopjWNXdKBoephUp7J4Gqp5YWfxFjqzH8YEUWfHFdPaEv1kDumGfaU4RF7rm7qNmpEU3FPxgd3w6NkbV1biTIoVHp4Ymz0iCZAGe2S2MuvbtlfQMixfeBTYZRzhrvp98b5MvAcaWaVYMX3RCunIC7IZoJPArbX2Iaw6tQ2",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "South Marioville",
+          "street": "Wilderman Path",
+          "house": 542,
+          "flat": 5685
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 61576,
+      "createdOn": "2025-12-18T19:18:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694453781c508c5d5ede05b9",
+          "products": [
+            {
+              "_id": "694453791c508c5d5ede05d4",
+              "name": "Car84780",
+              "amount": 551,
+              "price": 61576,
+              "manufacturer": "Google",
+              "notes": "07pHLCGhP0D04FY3De1PIYH0CBPJoc93d2eyDFW9IAcMK5lP13yAcrY9hU3f4qnrLYgtLIfgTlxRzrGcer2KRopjWNXdKBoephUp7J4Gqp5YWfxFjqzH8YEUWfHFdPaEv1kDumGfaU4RF7rm7qNmpEU3FPxgd3w6NkbV1biTIoVHp4Ymz0iCZAGe2S2MuvbtlfQMixfeBTYZRzhrvp98b5MvAcaWaVYMX3RCunIC7IZoJPArbX2Iaw6tQ2",
+              "received": true
+            }
+          ],
+          "total_price": 61576,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Marioville",
+              "street": "Wilderman Path",
+              "house": 542,
+              "flat": 5685
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:18:19.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694453781c508c5d5ede05b9",
+          "products": [
+            {
+              "_id": "694453791c508c5d5ede05d4",
+              "name": "Car84780",
+              "amount": 551,
+              "price": 61576,
+              "manufacturer": "Google",
+              "notes": "07pHLCGhP0D04FY3De1PIYH0CBPJoc93d2eyDFW9IAcMK5lP13yAcrY9hU3f4qnrLYgtLIfgTlxRzrGcer2KRopjWNXdKBoephUp7J4Gqp5YWfxFjqzH8YEUWfHFdPaEv1kDumGfaU4RF7rm7qNmpEU3FPxgd3w6NkbV1biTIoVHp4Ymz0iCZAGe2S2MuvbtlfQMixfeBTYZRzhrvp98b5MvAcaWaVYMX3RCunIC7IZoJPArbX2Iaw6tQ2",
+              "received": false
+            }
+          ],
+          "total_price": 61576,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Marioville",
+              "street": "Wilderman Path",
+              "house": 542,
+              "flat": 5685
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:18:19.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694453781c508c5d5ede05b9",
+          "products": [
+            {
+              "_id": "694453791c508c5d5ede05d4",
+              "name": "Car84780",
+              "amount": 551,
+              "price": 61576,
+              "manufacturer": "Google",
+              "notes": "07pHLCGhP0D04FY3De1PIYH0CBPJoc93d2eyDFW9IAcMK5lP13yAcrY9hU3f4qnrLYgtLIfgTlxRzrGcer2KRopjWNXdKBoephUp7J4Gqp5YWfxFjqzH8YEUWfHFdPaEv1kDumGfaU4RF7rm7qNmpEU3FPxgd3w6NkbV1biTIoVHp4Ymz0iCZAGe2S2MuvbtlfQMixfeBTYZRzhrvp98b5MvAcaWaVYMX3RCunIC7IZoJPArbX2Iaw6tQ2",
+              "received": false
+            }
+          ],
+          "total_price": 61576,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Marioville",
+              "street": "Wilderman Path",
+              "house": 542,
+              "flat": 5685
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:18:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694453781c508c5d5ede05b9",
+          "products": [
+            {
+              "_id": "694453791c508c5d5ede05d4",
+              "name": "Car84780",
+              "amount": 551,
+              "price": 61576,
+              "manufacturer": "Google",
+              "notes": "07pHLCGhP0D04FY3De1PIYH0CBPJoc93d2eyDFW9IAcMK5lP13yAcrY9hU3f4qnrLYgtLIfgTlxRzrGcer2KRopjWNXdKBoephUp7J4Gqp5YWfxFjqzH8YEUWfHFdPaEv1kDumGfaU4RF7rm7qNmpEU3FPxgd3w6NkbV1biTIoVHp4Ymz0iCZAGe2S2MuvbtlfQMixfeBTYZRzhrvp98b5MvAcaWaVYMX3RCunIC7IZoJPArbX2Iaw6tQ2",
+              "received": false
+            }
+          ],
+          "total_price": 61576,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:18:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

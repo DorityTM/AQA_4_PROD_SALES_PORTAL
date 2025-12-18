@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:20:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2760",
+    "etag": "W/\"ac8-JjKrJCgrA5BOhFV0F4fTUW7VPe8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694453f41c508c5d5ede4f2e",
+      "status": "Draft",
+      "customer": {
+        "_id": "694453f21c508c5d5ede4daa",
+        "email": "Marcelo.Wuckert70@yahoo.com",
+        "name": "Anissa Krajcik",
+        "country": "Ukraine",
+        "city": "Coconut Creek",
+        "street": "Muller Plains 45",
+        "house": 852,
+        "flat": 3413,
+        "phone": "+004862964238850",
+        "createdOn": "2025-12-18T19:20:18.000Z",
+        "notes": "GpMttA2aNBOAHGZzI9gvWv7HH6IyX3"
+      },
+      "products": [
+        {
+          "_id": "694453f31c508c5d5ede4dbf",
+          "name": "Ball54086",
+          "amount": 437,
+          "price": 80613,
+          "manufacturer": "Tesla",
+          "notes": "qvExxiLV0McvsIVgf22WmsPHeLBg7NYhjXHlhjzQyqZlMfufvNnfQgMHCKfQoYZCfYkpECX3nJvxy9gmhhqPaMHA0aDYJnnoHtMIZO0BZhFSceB0REzvFeJwdOpmQr4YlAHJFqBHXRuhCHcea6DAJPAwdeLwzLycCQZ6QAScgsgdZYivXUSzSDppUfq2HjOpvND2pxQbSIjiQyEMSZL1XrrjJdevh0LJImF0K03FidMebd6hHDfIVxO7kL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Orloland",
+          "street": "Bria Mission",
+          "house": 818,
+          "flat": 4000
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80613,
+      "createdOn": "2025-12-18T19:20:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694453f21c508c5d5ede4daa",
+          "products": [
+            {
+              "_id": "694453f31c508c5d5ede4dbf",
+              "name": "Ball54086",
+              "amount": 437,
+              "price": 80613,
+              "manufacturer": "Tesla",
+              "notes": "qvExxiLV0McvsIVgf22WmsPHeLBg7NYhjXHlhjzQyqZlMfufvNnfQgMHCKfQoYZCfYkpECX3nJvxy9gmhhqPaMHA0aDYJnnoHtMIZO0BZhFSceB0REzvFeJwdOpmQr4YlAHJFqBHXRuhCHcea6DAJPAwdeLwzLycCQZ6QAScgsgdZYivXUSzSDppUfq2HjOpvND2pxQbSIjiQyEMSZL1XrrjJdevh0LJImF0K03FidMebd6hHDfIVxO7kL",
+              "received": false
+            }
+          ],
+          "total_price": 80613,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Orloland",
+              "street": "Bria Mission",
+              "house": 818,
+              "flat": 4000
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:20:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694453f21c508c5d5ede4daa",
+          "products": [
+            {
+              "_id": "694453f31c508c5d5ede4dbf",
+              "name": "Ball54086",
+              "amount": 437,
+              "price": 80613,
+              "manufacturer": "Tesla",
+              "notes": "qvExxiLV0McvsIVgf22WmsPHeLBg7NYhjXHlhjzQyqZlMfufvNnfQgMHCKfQoYZCfYkpECX3nJvxy9gmhhqPaMHA0aDYJnnoHtMIZO0BZhFSceB0REzvFeJwdOpmQr4YlAHJFqBHXRuhCHcea6DAJPAwdeLwzLycCQZ6QAScgsgdZYivXUSzSDppUfq2HjOpvND2pxQbSIjiQyEMSZL1XrrjJdevh0LJImF0K03FidMebd6hHDfIVxO7kL",
+              "received": false
+            }
+          ],
+          "total_price": 80613,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:20:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

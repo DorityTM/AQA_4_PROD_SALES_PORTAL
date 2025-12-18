@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:19:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3658",
+    "etag": "W/\"e4a-sJKoX8Mmduf9s9SDVKneQ+mLTZo\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694453cf1c508c5d5ede37e3",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694453ce1c508c5d5ede379c",
+        "email": "Laurie.Mann50@yahoo.com",
+        "name": "Emil Hane",
+        "country": "Canada",
+        "city": "Glendora",
+        "street": "Westfield Road 75",
+        "house": 583,
+        "flat": 4571,
+        "phone": "+701475164698047",
+        "createdOn": "2025-12-18T19:19:42.000Z",
+        "notes": "aMQyqT8ndMFA7YagRRkYkJ1eTlepVp"
+      },
+      "products": [
+        {
+          "_id": "694453cf1c508c5d5ede37bb",
+          "name": "Cheese77928",
+          "amount": 129,
+          "price": 21105,
+          "manufacturer": "Google",
+          "notes": "UCaDi0VYjMLZXHb3zAqb6jS1Am70jfsLygjviZSVBtjbJithIAJbkyXnHZFwPXKZFNTf27FZdGOIj7PXgFidNeyh4BmxYS3ksWZdOdNp2qa9AeTpWRsa7jSyTesWIey7L0fM3sCmTjvezJxOcjbgP82rYR5U3w3bYLslzo6GuGliCXWSByPrZg6NgdTuF7XeTdmBzzMdszcS8kgSTSAKyixxfgPxQp2xToI313tv5uEZWAFwbeuHzI8N0u",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Enricohaven",
+          "street": "Mill Lane",
+          "house": 802,
+          "flat": 8584
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 21105,
+      "createdOn": "2025-12-18T19:19:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694453ce1c508c5d5ede379c",
+          "products": [
+            {
+              "_id": "694453cf1c508c5d5ede37bb",
+              "name": "Cheese77928",
+              "amount": 129,
+              "price": 21105,
+              "manufacturer": "Google",
+              "notes": "UCaDi0VYjMLZXHb3zAqb6jS1Am70jfsLygjviZSVBtjbJithIAJbkyXnHZFwPXKZFNTf27FZdGOIj7PXgFidNeyh4BmxYS3ksWZdOdNp2qa9AeTpWRsa7jSyTesWIey7L0fM3sCmTjvezJxOcjbgP82rYR5U3w3bYLslzo6GuGliCXWSByPrZg6NgdTuF7XeTdmBzzMdszcS8kgSTSAKyixxfgPxQp2xToI313tv5uEZWAFwbeuHzI8N0u",
+              "received": false
+            }
+          ],
+          "total_price": 21105,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Enricohaven",
+              "street": "Mill Lane",
+              "house": 802,
+              "flat": 8584
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:19:44.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694453ce1c508c5d5ede379c",
+          "products": [
+            {
+              "_id": "694453cf1c508c5d5ede37bb",
+              "name": "Cheese77928",
+              "amount": 129,
+              "price": 21105,
+              "manufacturer": "Google",
+              "notes": "UCaDi0VYjMLZXHb3zAqb6jS1Am70jfsLygjviZSVBtjbJithIAJbkyXnHZFwPXKZFNTf27FZdGOIj7PXgFidNeyh4BmxYS3ksWZdOdNp2qa9AeTpWRsa7jSyTesWIey7L0fM3sCmTjvezJxOcjbgP82rYR5U3w3bYLslzo6GuGliCXWSByPrZg6NgdTuF7XeTdmBzzMdszcS8kgSTSAKyixxfgPxQp2xToI313tv5uEZWAFwbeuHzI8N0u",
+              "received": false
+            }
+          ],
+          "total_price": 21105,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Enricohaven",
+              "street": "Mill Lane",
+              "house": 802,
+              "flat": 8584
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:19:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694453ce1c508c5d5ede379c",
+          "products": [
+            {
+              "_id": "694453cf1c508c5d5ede37bb",
+              "name": "Cheese77928",
+              "amount": 129,
+              "price": 21105,
+              "manufacturer": "Google",
+              "notes": "UCaDi0VYjMLZXHb3zAqb6jS1Am70jfsLygjviZSVBtjbJithIAJbkyXnHZFwPXKZFNTf27FZdGOIj7PXgFidNeyh4BmxYS3ksWZdOdNp2qa9AeTpWRsa7jSyTesWIey7L0fM3sCmTjvezJxOcjbgP82rYR5U3w3bYLslzo6GuGliCXWSByPrZg6NgdTuF7XeTdmBzzMdszcS8kgSTSAKyixxfgPxQp2xToI313tv5uEZWAFwbeuHzI8N0u",
+              "received": false
+            }
+          ],
+          "total_price": 21105,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:19:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

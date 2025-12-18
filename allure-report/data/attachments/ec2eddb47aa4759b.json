@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:18:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3694",
+    "etag": "W/\"e6e-zBeNPfOoFBq8mxF51VGGDncELlg\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694453941c508c5d5ede151b",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694453931c508c5d5ede1460",
+        "email": "Isabel.Cummerata45@gmail.com",
+        "name": "Richmond Macejkovic",
+        "country": "Ukraine",
+        "city": "Robelfield",
+        "street": "Josefa Heights 97",
+        "house": 991,
+        "flat": 3208,
+        "phone": "+336163627972455",
+        "createdOn": "2025-12-18T19:18:43.000Z",
+        "notes": "JLJlOxI6NPeoWSiJ8myJmJTgE55sxe"
+      },
+      "products": [
+        {
+          "_id": "694453931c508c5d5ede1472",
+          "name": "Soap74707",
+          "amount": 96,
+          "price": 29348,
+          "manufacturer": "Amazon",
+          "notes": "ZcSCtq1UvrGJaqjjKsgeTjEWsIVMA8y0OfRQZ5CrdbUyb0fy8MMuD02p7jtQDEc4IYFlpIXbQpQsMt7G2KNtZqiI9rY1vZIp479TViqcnisBl0yhXHYhGTiPvXOWLBz3uD7Aj7GAlCizDO3niIxrfSwuEihXRK9jwVJpzX6T57i3MfOrVUqtNdQhbcN95Mb7dP0fRWyBOgBHbFvUWXwpb7Su44r547HONXAfr6MkfnwrfJrLFJoZq6Xr3S",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Brisastad",
+          "street": "Fritz Crescent",
+          "house": 146,
+          "flat": 1571
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 29348,
+      "createdOn": "2025-12-18T19:18:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694453931c508c5d5ede1460",
+          "products": [
+            {
+              "_id": "694453931c508c5d5ede1472",
+              "name": "Soap74707",
+              "amount": 96,
+              "price": 29348,
+              "manufacturer": "Amazon",
+              "notes": "ZcSCtq1UvrGJaqjjKsgeTjEWsIVMA8y0OfRQZ5CrdbUyb0fy8MMuD02p7jtQDEc4IYFlpIXbQpQsMt7G2KNtZqiI9rY1vZIp479TViqcnisBl0yhXHYhGTiPvXOWLBz3uD7Aj7GAlCizDO3niIxrfSwuEihXRK9jwVJpzX6T57i3MfOrVUqtNdQhbcN95Mb7dP0fRWyBOgBHbFvUWXwpb7Su44r547HONXAfr6MkfnwrfJrLFJoZq6Xr3S",
+              "received": false
+            }
+          ],
+          "total_price": 29348,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Brisastad",
+              "street": "Fritz Crescent",
+              "house": 146,
+              "flat": 1571
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:18:45.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694453931c508c5d5ede1460",
+          "products": [
+            {
+              "_id": "694453931c508c5d5ede1472",
+              "name": "Soap74707",
+              "amount": 96,
+              "price": 29348,
+              "manufacturer": "Amazon",
+              "notes": "ZcSCtq1UvrGJaqjjKsgeTjEWsIVMA8y0OfRQZ5CrdbUyb0fy8MMuD02p7jtQDEc4IYFlpIXbQpQsMt7G2KNtZqiI9rY1vZIp479TViqcnisBl0yhXHYhGTiPvXOWLBz3uD7Aj7GAlCizDO3niIxrfSwuEihXRK9jwVJpzX6T57i3MfOrVUqtNdQhbcN95Mb7dP0fRWyBOgBHbFvUWXwpb7Su44r547HONXAfr6MkfnwrfJrLFJoZq6Xr3S",
+              "received": false
+            }
+          ],
+          "total_price": 29348,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Brisastad",
+              "street": "Fritz Crescent",
+              "house": 146,
+              "flat": 1571
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:18:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694453931c508c5d5ede1460",
+          "products": [
+            {
+              "_id": "694453931c508c5d5ede1472",
+              "name": "Soap74707",
+              "amount": 96,
+              "price": 29348,
+              "manufacturer": "Amazon",
+              "notes": "ZcSCtq1UvrGJaqjjKsgeTjEWsIVMA8y0OfRQZ5CrdbUyb0fy8MMuD02p7jtQDEc4IYFlpIXbQpQsMt7G2KNtZqiI9rY1vZIp479TViqcnisBl0yhXHYhGTiPvXOWLBz3uD7Aj7GAlCizDO3niIxrfSwuEihXRK9jwVJpzX6T57i3MfOrVUqtNdQhbcN95Mb7dP0fRWyBOgBHbFvUWXwpb7Su44r547HONXAfr6MkfnwrfJrLFJoZq6Xr3S",
+              "received": false
+            }
+          ],
+          "total_price": 29348,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:18:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

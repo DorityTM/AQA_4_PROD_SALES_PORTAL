@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 19:18:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4650",
+    "etag": "W/\"122a-40dVKlU/U/OXCypj0U1osZ5qhN4\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944538c1c508c5d5ede1084",
+      "status": "Received",
+      "customer": {
+        "_id": "6944538a1c508c5d5ede0f2c",
+        "email": "Tyson99@hotmail.com",
+        "name": "Francisco Erdman",
+        "country": "USA",
+        "city": "Siennamouth",
+        "street": "Woodland Road 97",
+        "house": 407,
+        "flat": 1007,
+        "phone": "+644981480048370",
+        "createdOn": "2025-12-18T19:18:34.000Z",
+        "notes": "2DxMDGKS2AqQ0gVAbtt6goQIkICUnn"
+      },
+      "products": [
+        {
+          "_id": "6944538b1c508c5d5ede0fce",
+          "name": "Chair72305",
+          "amount": 652,
+          "price": 74305,
+          "manufacturer": "Xiaomi",
+          "notes": "W1ZOfCS6HC87M03lA5HTcbUs0rhAvToqj62SMfUvE2deWPXr4xXOabcluT7jHWqXze8e6vJSg0GJ3FLkLLogvVmSL8ekHePytZdvQMZHjcDDFTQe7uIDlGy4IeftYrhwNZNOXki9v2P1dlA5aE71VqepPqz6tBr40iQp9gP5eRxhMVe8Su8vBCD5KAYy5D0gHFYsVcrcPpqvFWh7MPCMtvpYDk15XqqkKc1UujRTNhlaN66NTy6cMh0rgF",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Simonisburgh",
+          "street": "Buckridge Mission",
+          "house": 329,
+          "flat": 6029
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 74305,
+      "createdOn": "2025-12-18T19:18:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6944538a1c508c5d5ede0f2c",
+          "products": [
+            {
+              "_id": "6944538b1c508c5d5ede0fce",
+              "name": "Chair72305",
+              "amount": 652,
+              "price": 74305,
+              "manufacturer": "Xiaomi",
+              "notes": "W1ZOfCS6HC87M03lA5HTcbUs0rhAvToqj62SMfUvE2deWPXr4xXOabcluT7jHWqXze8e6vJSg0GJ3FLkLLogvVmSL8ekHePytZdvQMZHjcDDFTQe7uIDlGy4IeftYrhwNZNOXki9v2P1dlA5aE71VqepPqz6tBr40iQp9gP5eRxhMVe8Su8vBCD5KAYy5D0gHFYsVcrcPpqvFWh7MPCMtvpYDk15XqqkKc1UujRTNhlaN66NTy6cMh0rgF",
+              "received": true
+            }
+          ],
+          "total_price": 74305,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Simonisburgh",
+              "street": "Buckridge Mission",
+              "house": 329,
+              "flat": 6029
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:18:38.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6944538a1c508c5d5ede0f2c",
+          "products": [
+            {
+              "_id": "6944538b1c508c5d5ede0fce",
+              "name": "Chair72305",
+              "amount": 652,
+              "price": 74305,
+              "manufacturer": "Xiaomi",
+              "notes": "W1ZOfCS6HC87M03lA5HTcbUs0rhAvToqj62SMfUvE2deWPXr4xXOabcluT7jHWqXze8e6vJSg0GJ3FLkLLogvVmSL8ekHePytZdvQMZHjcDDFTQe7uIDlGy4IeftYrhwNZNOXki9v2P1dlA5aE71VqepPqz6tBr40iQp9gP5eRxhMVe8Su8vBCD5KAYy5D0gHFYsVcrcPpqvFWh7MPCMtvpYDk15XqqkKc1UujRTNhlaN66NTy6cMh0rgF",
+              "received": false
+            }
+          ],
+          "total_price": 74305,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Simonisburgh",
+              "street": "Buckridge Mission",
+              "house": 329,
+              "flat": 6029
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:18:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944538a1c508c5d5ede0f2c",
+          "products": [
+            {
+              "_id": "6944538b1c508c5d5ede0fce",
+              "name": "Chair72305",
+              "amount": 652,
+              "price": 74305,
+              "manufacturer": "Xiaomi",
+              "notes": "W1ZOfCS6HC87M03lA5HTcbUs0rhAvToqj62SMfUvE2deWPXr4xXOabcluT7jHWqXze8e6vJSg0GJ3FLkLLogvVmSL8ekHePytZdvQMZHjcDDFTQe7uIDlGy4IeftYrhwNZNOXki9v2P1dlA5aE71VqepPqz6tBr40iQp9gP5eRxhMVe8Su8vBCD5KAYy5D0gHFYsVcrcPpqvFWh7MPCMtvpYDk15XqqkKc1UujRTNhlaN66NTy6cMh0rgF",
+              "received": false
+            }
+          ],
+          "total_price": 74305,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Simonisburgh",
+              "street": "Buckridge Mission",
+              "house": 329,
+              "flat": 6029
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T19:18:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944538a1c508c5d5ede0f2c",
+          "products": [
+            {
+              "_id": "6944538b1c508c5d5ede0fce",
+              "name": "Chair72305",
+              "amount": 652,
+              "price": 74305,
+              "manufacturer": "Xiaomi",
+              "notes": "W1ZOfCS6HC87M03lA5HTcbUs0rhAvToqj62SMfUvE2deWPXr4xXOabcluT7jHWqXze8e6vJSg0GJ3FLkLLogvVmSL8ekHePytZdvQMZHjcDDFTQe7uIDlGy4IeftYrhwNZNOXki9v2P1dlA5aE71VqepPqz6tBr40iQp9gP5eRxhMVe8Su8vBCD5KAYy5D0gHFYsVcrcPpqvFWh7MPCMtvpYDk15XqqkKc1UujRTNhlaN66NTy6cMh0rgF",
+              "received": false
+            }
+          ],
+          "total_price": 74305,
+          "delivery": null,
+          "changedOn": "2025-12-18T19:18:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
