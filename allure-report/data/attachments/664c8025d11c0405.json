@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 17:39:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3677",
+    "etag": "W/\"e5d-4UsChSODnsqvUSyUXPB+rYbm8mQ\"",
+    "keep-alive": "timeout=5, max=18",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69443c3a1c508c5d5edb97c9",
+      "status": "In Process",
+      "customer": {
+        "_id": "69443c391c508c5d5edb9733",
+        "email": "Edna_Satterfield58@yahoo.com",
+        "name": "Levi Wiegand",
+        "country": "France",
+        "city": "Port Gordonberg",
+        "street": "Dach Plains 71",
+        "house": 109,
+        "flat": 4199,
+        "phone": "+082589062055867",
+        "createdOn": "2025-12-18T17:39:05.000Z",
+        "notes": "nmq2sZ2jseCoGLXvPMS6kxFM8bYk1z"
+      },
+      "products": [
+        {
+          "_id": "69443c391c508c5d5edb9755",
+          "name": "Shoes77241",
+          "amount": 955,
+          "price": 47694,
+          "manufacturer": "Xiaomi",
+          "notes": "7ZLrUno6uqU0JBI7GoGxBTxmRCvsACVcn3oRCNSUN34l1QlPrPQ630gb7RzXp06ZxBc5CjM4a4YpvxJREI1719AJ8962AFVuJmkjwXM8qvMfHZP568exhzOHXBiAPofRwbEAPSrrFwZyAyFFchpgbBvl5Lqm9u9mcvT9Su6Uda4XiD1Lfc2kDit7luSu3pNPCiQfwgpAysMbTjQVH43lBplkGYL6V6JAWN0hgvkBQ4nB1wuKbk91jak15T",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Andrefort",
+          "street": "Harris Key",
+          "house": 815,
+          "flat": 2121
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47694,
+      "createdOn": "2025-12-18T17:39:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69443c391c508c5d5edb9733",
+          "products": [
+            {
+              "_id": "69443c391c508c5d5edb9755",
+              "name": "Shoes77241",
+              "amount": 955,
+              "price": 47694,
+              "manufacturer": "Xiaomi",
+              "notes": "7ZLrUno6uqU0JBI7GoGxBTxmRCvsACVcn3oRCNSUN34l1QlPrPQ630gb7RzXp06ZxBc5CjM4a4YpvxJREI1719AJ8962AFVuJmkjwXM8qvMfHZP568exhzOHXBiAPofRwbEAPSrrFwZyAyFFchpgbBvl5Lqm9u9mcvT9Su6Uda4XiD1Lfc2kDit7luSu3pNPCiQfwgpAysMbTjQVH43lBplkGYL6V6JAWN0hgvkBQ4nB1wuKbk91jak15T",
+              "received": false
+            }
+          ],
+          "total_price": 47694,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Andrefort",
+              "street": "Harris Key",
+              "house": 815,
+              "flat": 2121
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T17:39:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69443c391c508c5d5edb9733",
+          "products": [
+            {
+              "_id": "69443c391c508c5d5edb9755",
+              "name": "Shoes77241",
+              "amount": 955,
+              "price": 47694,
+              "manufacturer": "Xiaomi",
+              "notes": "7ZLrUno6uqU0JBI7GoGxBTxmRCvsACVcn3oRCNSUN34l1QlPrPQ630gb7RzXp06ZxBc5CjM4a4YpvxJREI1719AJ8962AFVuJmkjwXM8qvMfHZP568exhzOHXBiAPofRwbEAPSrrFwZyAyFFchpgbBvl5Lqm9u9mcvT9Su6Uda4XiD1Lfc2kDit7luSu3pNPCiQfwgpAysMbTjQVH43lBplkGYL6V6JAWN0hgvkBQ4nB1wuKbk91jak15T",
+              "received": false
+            }
+          ],
+          "total_price": 47694,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Andrefort",
+              "street": "Harris Key",
+              "house": 815,
+              "flat": 2121
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T17:39:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69443c391c508c5d5edb9733",
+          "products": [
+            {
+              "_id": "69443c391c508c5d5edb9755",
+              "name": "Shoes77241",
+              "amount": 955,
+              "price": 47694,
+              "manufacturer": "Xiaomi",
+              "notes": "7ZLrUno6uqU0JBI7GoGxBTxmRCvsACVcn3oRCNSUN34l1QlPrPQ630gb7RzXp06ZxBc5CjM4a4YpvxJREI1719AJ8962AFVuJmkjwXM8qvMfHZP568exhzOHXBiAPofRwbEAPSrrFwZyAyFFchpgbBvl5Lqm9u9mcvT9Su6Uda4XiD1Lfc2kDit7luSu3pNPCiQfwgpAysMbTjQVH43lBplkGYL6V6JAWN0hgvkBQ4nB1wuKbk91jak15T",
+              "received": false
+            }
+          ],
+          "total_price": 47694,
+          "delivery": null,
+          "changedOn": "2025-12-18T17:39:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

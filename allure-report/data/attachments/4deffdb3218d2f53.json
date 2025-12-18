@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 17:40:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4599",
+    "etag": "W/\"11f7-7FlR9S6biYB6O0SqwjUfFEz+yos\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69443c711c508c5d5edbaf77",
+      "status": "Received",
+      "customer": {
+        "_id": "69443c711c508c5d5edbaf40",
+        "email": "Korbin89@yahoo.com",
+        "name": "Joana Luettgen",
+        "country": "Germany",
+        "city": "Fort Robynfurt",
+        "street": "S Maple Street 26",
+        "house": 187,
+        "flat": 4864,
+        "phone": "+712425708385954",
+        "createdOn": "2025-12-18T17:40:01.000Z",
+        "notes": "AUXDmVdZmV8YYNLFZdKLUTgIN2XdLy"
+      },
+      "products": [
+        {
+          "_id": "69443c711c508c5d5edbaf53",
+          "name": "Mouse87744",
+          "amount": 875,
+          "price": 81421,
+          "manufacturer": "Google",
+          "notes": "jOpGx4Jj8gaaZXGmeVp2xIthxrCWr1ZTjcVKH11Fqiu4MRE53TLJyqLOL6ovjPM3tNl5MvIx0zkr1g4RmH5r3tuNiAEPlzweYXPNVM5NM8dLrdH3CJZacIxGMI14joHpTVkmX9UTg7WhfoguASHou09FKgtHzszo1zVv2xYdQY2XxTceIu3XmykaypRVXk5uL4oBpXrjmewWth681Vph3H6Ns7oOnZvAEHSJ0Gd5hsVmuLLbyHKx2xGvk8",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Union City",
+          "street": "Kali Valleys",
+          "house": 662,
+          "flat": 2134
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 81421,
+      "createdOn": "2025-12-18T17:40:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69443c711c508c5d5edbaf40",
+          "products": [
+            {
+              "_id": "69443c711c508c5d5edbaf53",
+              "name": "Mouse87744",
+              "amount": 875,
+              "price": 81421,
+              "manufacturer": "Google",
+              "notes": "jOpGx4Jj8gaaZXGmeVp2xIthxrCWr1ZTjcVKH11Fqiu4MRE53TLJyqLOL6ovjPM3tNl5MvIx0zkr1g4RmH5r3tuNiAEPlzweYXPNVM5NM8dLrdH3CJZacIxGMI14joHpTVkmX9UTg7WhfoguASHou09FKgtHzszo1zVv2xYdQY2XxTceIu3XmykaypRVXk5uL4oBpXrjmewWth681Vph3H6Ns7oOnZvAEHSJ0Gd5hsVmuLLbyHKx2xGvk8",
+              "received": true
+            }
+          ],
+          "total_price": 81421,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Union City",
+              "street": "Kali Valleys",
+              "house": 662,
+              "flat": 2134
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T17:40:03.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69443c711c508c5d5edbaf40",
+          "products": [
+            {
+              "_id": "69443c711c508c5d5edbaf53",
+              "name": "Mouse87744",
+              "amount": 875,
+              "price": 81421,
+              "manufacturer": "Google",
+              "notes": "jOpGx4Jj8gaaZXGmeVp2xIthxrCWr1ZTjcVKH11Fqiu4MRE53TLJyqLOL6ovjPM3tNl5MvIx0zkr1g4RmH5r3tuNiAEPlzweYXPNVM5NM8dLrdH3CJZacIxGMI14joHpTVkmX9UTg7WhfoguASHou09FKgtHzszo1zVv2xYdQY2XxTceIu3XmykaypRVXk5uL4oBpXrjmewWth681Vph3H6Ns7oOnZvAEHSJ0Gd5hsVmuLLbyHKx2xGvk8",
+              "received": false
+            }
+          ],
+          "total_price": 81421,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Union City",
+              "street": "Kali Valleys",
+              "house": 662,
+              "flat": 2134
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T17:40:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69443c711c508c5d5edbaf40",
+          "products": [
+            {
+              "_id": "69443c711c508c5d5edbaf53",
+              "name": "Mouse87744",
+              "amount": 875,
+              "price": 81421,
+              "manufacturer": "Google",
+              "notes": "jOpGx4Jj8gaaZXGmeVp2xIthxrCWr1ZTjcVKH11Fqiu4MRE53TLJyqLOL6ovjPM3tNl5MvIx0zkr1g4RmH5r3tuNiAEPlzweYXPNVM5NM8dLrdH3CJZacIxGMI14joHpTVkmX9UTg7WhfoguASHou09FKgtHzszo1zVv2xYdQY2XxTceIu3XmykaypRVXk5uL4oBpXrjmewWth681Vph3H6Ns7oOnZvAEHSJ0Gd5hsVmuLLbyHKx2xGvk8",
+              "received": false
+            }
+          ],
+          "total_price": 81421,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Union City",
+              "street": "Kali Valleys",
+              "house": 662,
+              "flat": 2134
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T17:40:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69443c711c508c5d5edbaf40",
+          "products": [
+            {
+              "_id": "69443c711c508c5d5edbaf53",
+              "name": "Mouse87744",
+              "amount": 875,
+              "price": 81421,
+              "manufacturer": "Google",
+              "notes": "jOpGx4Jj8gaaZXGmeVp2xIthxrCWr1ZTjcVKH11Fqiu4MRE53TLJyqLOL6ovjPM3tNl5MvIx0zkr1g4RmH5r3tuNiAEPlzweYXPNVM5NM8dLrdH3CJZacIxGMI14joHpTVkmX9UTg7WhfoguASHou09FKgtHzszo1zVv2xYdQY2XxTceIu3XmykaypRVXk5uL4oBpXrjmewWth681Vph3H6Ns7oOnZvAEHSJ0Gd5hsVmuLLbyHKx2xGvk8",
+              "received": false
+            }
+          ],
+          "total_price": 81421,
+          "delivery": null,
+          "changedOn": "2025-12-18T17:40:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 17:39:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3676",
+    "etag": "W/\"e5c-neo4RKb9vyewPn0mibH8EIHiwf4\"",
+    "keep-alive": "timeout=5, max=2",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69443c5d1c508c5d5edba6fa",
+      "status": "In Process",
+      "customer": {
+        "_id": "69443c5d1c508c5d5edba6a3",
+        "email": "Barton57@yahoo.com",
+        "name": "Lilla Blanda",
+        "country": "USA",
+        "city": "Oscarfield",
+        "street": "Floyd Stream 96",
+        "house": 456,
+        "flat": 1287,
+        "phone": "+702886783980899",
+        "createdOn": "2025-12-18T17:39:41.000Z",
+        "notes": "Fy7K34H572pdreqwAxdWAx4qf6tP1I"
+      },
+      "products": [
+        {
+          "_id": "69443c5d1c508c5d5edba6bd",
+          "name": "Sausages13294",
+          "amount": 767,
+          "price": 56661,
+          "manufacturer": "Samsung",
+          "notes": "rRs7NQ9n7qwbhbMLaQGOxb11hWw2yC1nm0MBn12zHiQGYRZwdkyD1ipc4jIsr1ELWqPuEQQ5FQupKv74oIjIx2e5HplBDvrgNuYspoLj4vYg9lCVj0Nik2YGwaY2oJEXg6rflVPIOV8HfQACu0q3K5s9g1QoUDrkDUAonDtNYHEFCuzn10OK262JctImmhSYes9VCNe7nC5bEeevs0BJlfagFEL512NypAnT3IuGyWZAwIhhqh4MhhGLS3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Irving",
+          "street": "Wuckert Ferry",
+          "house": 852,
+          "flat": 6011
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56661,
+      "createdOn": "2025-12-18T17:39:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69443c5d1c508c5d5edba6a3",
+          "products": [
+            {
+              "_id": "69443c5d1c508c5d5edba6bd",
+              "name": "Sausages13294",
+              "amount": 767,
+              "price": 56661,
+              "manufacturer": "Samsung",
+              "notes": "rRs7NQ9n7qwbhbMLaQGOxb11hWw2yC1nm0MBn12zHiQGYRZwdkyD1ipc4jIsr1ELWqPuEQQ5FQupKv74oIjIx2e5HplBDvrgNuYspoLj4vYg9lCVj0Nik2YGwaY2oJEXg6rflVPIOV8HfQACu0q3K5s9g1QoUDrkDUAonDtNYHEFCuzn10OK262JctImmhSYes9VCNe7nC5bEeevs0BJlfagFEL512NypAnT3IuGyWZAwIhhqh4MhhGLS3",
+              "received": false
+            }
+          ],
+          "total_price": 56661,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Irving",
+              "street": "Wuckert Ferry",
+              "house": 852,
+              "flat": 6011
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T17:39:42.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69443c5d1c508c5d5edba6a3",
+          "products": [
+            {
+              "_id": "69443c5d1c508c5d5edba6bd",
+              "name": "Sausages13294",
+              "amount": 767,
+              "price": 56661,
+              "manufacturer": "Samsung",
+              "notes": "rRs7NQ9n7qwbhbMLaQGOxb11hWw2yC1nm0MBn12zHiQGYRZwdkyD1ipc4jIsr1ELWqPuEQQ5FQupKv74oIjIx2e5HplBDvrgNuYspoLj4vYg9lCVj0Nik2YGwaY2oJEXg6rflVPIOV8HfQACu0q3K5s9g1QoUDrkDUAonDtNYHEFCuzn10OK262JctImmhSYes9VCNe7nC5bEeevs0BJlfagFEL512NypAnT3IuGyWZAwIhhqh4MhhGLS3",
+              "received": false
+            }
+          ],
+          "total_price": 56661,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Irving",
+              "street": "Wuckert Ferry",
+              "house": 852,
+              "flat": 6011
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T17:39:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69443c5d1c508c5d5edba6a3",
+          "products": [
+            {
+              "_id": "69443c5d1c508c5d5edba6bd",
+              "name": "Sausages13294",
+              "amount": 767,
+              "price": 56661,
+              "manufacturer": "Samsung",
+              "notes": "rRs7NQ9n7qwbhbMLaQGOxb11hWw2yC1nm0MBn12zHiQGYRZwdkyD1ipc4jIsr1ELWqPuEQQ5FQupKv74oIjIx2e5HplBDvrgNuYspoLj4vYg9lCVj0Nik2YGwaY2oJEXg6rflVPIOV8HfQACu0q3K5s9g1QoUDrkDUAonDtNYHEFCuzn10OK262JctImmhSYes9VCNe7nC5bEeevs0BJlfagFEL512NypAnT3IuGyWZAwIhhqh4MhhGLS3",
+              "received": false
+            }
+          ],
+          "total_price": 56661,
+          "delivery": null,
+          "changedOn": "2025-12-18T17:39:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
