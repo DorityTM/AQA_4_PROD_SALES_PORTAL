@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:36:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3674",
+    "etag": "W/\"e5a-MRzRvNP9AaCoKIWGuD9mb+Cct/8\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694473e11c508c5d5ee1e2a5",
+      "status": "In Process",
+      "customer": {
+        "_id": "694473e01c508c5d5ee1e207",
+        "email": "Dayton.Funk@yahoo.com",
+        "name": "Alphonso Murazik",
+        "country": "Russia",
+        "city": "Gibsonside",
+        "street": "Reynolds Shores 36",
+        "house": 199,
+        "flat": 4788,
+        "phone": "+978764878005025",
+        "createdOn": "2025-12-18T21:36:32.000Z",
+        "notes": "4cjXCsVBbeIrR9H3MXpZcocflDVBvc"
+      },
+      "products": [
+        {
+          "_id": "694473e01c508c5d5ee1e22f",
+          "name": "Bike67863",
+          "amount": 720,
+          "price": 41344,
+          "manufacturer": "Tesla",
+          "notes": "06xgSAqgSZrrlG7lfhP1aZ5owuc4yWBMs92bJImlzFTYyOtETOjKajyQB7mx3FDtOCHKPHFRl5UKOP6nJdbtu9MP3BHUGl9Xt6pN7dYtCEjfOlBi1SnJqaFag5bw356CftoktrOFl1aSdPBhbrlgAh4oOTDFwRJFVWK5gH3Zz74szzF7taOldKfBaxHB7fdXmxpKsRTq99XwIpIrp3LkMoIzyHTfj0LPZ5oVDQ5B68ujkfskN3HPClNHBv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Schimmelfurt",
+          "street": "Klocko Pike",
+          "house": 597,
+          "flat": 277
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 41344,
+      "createdOn": "2025-12-18T21:36:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694473e01c508c5d5ee1e207",
+          "products": [
+            {
+              "_id": "694473e01c508c5d5ee1e22f",
+              "name": "Bike67863",
+              "amount": 720,
+              "price": 41344,
+              "manufacturer": "Tesla",
+              "notes": "06xgSAqgSZrrlG7lfhP1aZ5owuc4yWBMs92bJImlzFTYyOtETOjKajyQB7mx3FDtOCHKPHFRl5UKOP6nJdbtu9MP3BHUGl9Xt6pN7dYtCEjfOlBi1SnJqaFag5bw356CftoktrOFl1aSdPBhbrlgAh4oOTDFwRJFVWK5gH3Zz74szzF7taOldKfBaxHB7fdXmxpKsRTq99XwIpIrp3LkMoIzyHTfj0LPZ5oVDQ5B68ujkfskN3HPClNHBv",
+              "received": false
+            }
+          ],
+          "total_price": 41344,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Schimmelfurt",
+              "street": "Klocko Pike",
+              "house": 597,
+              "flat": 277
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:36:35.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694473e01c508c5d5ee1e207",
+          "products": [
+            {
+              "_id": "694473e01c508c5d5ee1e22f",
+              "name": "Bike67863",
+              "amount": 720,
+              "price": 41344,
+              "manufacturer": "Tesla",
+              "notes": "06xgSAqgSZrrlG7lfhP1aZ5owuc4yWBMs92bJImlzFTYyOtETOjKajyQB7mx3FDtOCHKPHFRl5UKOP6nJdbtu9MP3BHUGl9Xt6pN7dYtCEjfOlBi1SnJqaFag5bw356CftoktrOFl1aSdPBhbrlgAh4oOTDFwRJFVWK5gH3Zz74szzF7taOldKfBaxHB7fdXmxpKsRTq99XwIpIrp3LkMoIzyHTfj0LPZ5oVDQ5B68ujkfskN3HPClNHBv",
+              "received": false
+            }
+          ],
+          "total_price": 41344,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Schimmelfurt",
+              "street": "Klocko Pike",
+              "house": 597,
+              "flat": 277
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:36:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694473e01c508c5d5ee1e207",
+          "products": [
+            {
+              "_id": "694473e01c508c5d5ee1e22f",
+              "name": "Bike67863",
+              "amount": 720,
+              "price": 41344,
+              "manufacturer": "Tesla",
+              "notes": "06xgSAqgSZrrlG7lfhP1aZ5owuc4yWBMs92bJImlzFTYyOtETOjKajyQB7mx3FDtOCHKPHFRl5UKOP6nJdbtu9MP3BHUGl9Xt6pN7dYtCEjfOlBi1SnJqaFag5bw356CftoktrOFl1aSdPBhbrlgAh4oOTDFwRJFVWK5gH3Zz74szzF7taOldKfBaxHB7fdXmxpKsRTq99XwIpIrp3LkMoIzyHTfj0LPZ5oVDQ5B68ujkfskN3HPClNHBv",
+              "received": false
+            }
+          ],
+          "total_price": 41344,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:36:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

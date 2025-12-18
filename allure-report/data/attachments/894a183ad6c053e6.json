@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:37:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3695",
+    "etag": "W/\"e6f-jvRVIn5ZmmUbh9PXI2DM1d6AhYM\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694474021c508c5d5ee1f41a",
+      "status": "In Process",
+      "customer": {
+        "_id": "694474001c508c5d5ee1f326",
+        "email": "Cheyenne27@gmail.com",
+        "name": "Gladyce Kassulke",
+        "country": "USA",
+        "city": "Alejandratown",
+        "street": "Corwin Center 35",
+        "house": 714,
+        "flat": 9118,
+        "phone": "+279886699087139",
+        "createdOn": "2025-12-18T21:37:04.000Z",
+        "notes": "EyQC2Mru0yj33oW0asqGsPlXNS0tQ8"
+      },
+      "products": [
+        {
+          "_id": "694474011c508c5d5ee1f39d",
+          "name": "Chicken94798",
+          "amount": 448,
+          "price": 58980,
+          "manufacturer": "Apple",
+          "notes": "BQdcd0OIFp12Ax3sBrqJPAJIcIO9prOetQwrQk4ytlDtQXo1xwTkYKH8S0OdV2qiSHQU9dlyWMqhFjH736bTbrwJSSOmOwyqwh0xR24OvN8a2WPDZ9ZYbR78XIABhpfDPKFuLx0x9bfYBwH4aQhLB4pGFIjNUMouu1C2yU5U0gwH6YD5ag1PHdBUsvzp040RMJhSC4LFSNYF7QSMEtKIPVNCMYkC6rSa8wYNFkTjYsKdLLWe3iLiKuLtFb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Ullrichshire",
+          "street": "Braxton Knoll",
+          "house": 727,
+          "flat": 6276
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58980,
+      "createdOn": "2025-12-18T21:37:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694474001c508c5d5ee1f326",
+          "products": [
+            {
+              "_id": "694474011c508c5d5ee1f39d",
+              "name": "Chicken94798",
+              "amount": 448,
+              "price": 58980,
+              "manufacturer": "Apple",
+              "notes": "BQdcd0OIFp12Ax3sBrqJPAJIcIO9prOetQwrQk4ytlDtQXo1xwTkYKH8S0OdV2qiSHQU9dlyWMqhFjH736bTbrwJSSOmOwyqwh0xR24OvN8a2WPDZ9ZYbR78XIABhpfDPKFuLx0x9bfYBwH4aQhLB4pGFIjNUMouu1C2yU5U0gwH6YD5ag1PHdBUsvzp040RMJhSC4LFSNYF7QSMEtKIPVNCMYkC6rSa8wYNFkTjYsKdLLWe3iLiKuLtFb",
+              "received": false
+            }
+          ],
+          "total_price": 58980,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Ullrichshire",
+              "street": "Braxton Knoll",
+              "house": 727,
+              "flat": 6276
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:37:09.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474001c508c5d5ee1f326",
+          "products": [
+            {
+              "_id": "694474011c508c5d5ee1f39d",
+              "name": "Chicken94798",
+              "amount": 448,
+              "price": 58980,
+              "manufacturer": "Apple",
+              "notes": "BQdcd0OIFp12Ax3sBrqJPAJIcIO9prOetQwrQk4ytlDtQXo1xwTkYKH8S0OdV2qiSHQU9dlyWMqhFjH736bTbrwJSSOmOwyqwh0xR24OvN8a2WPDZ9ZYbR78XIABhpfDPKFuLx0x9bfYBwH4aQhLB4pGFIjNUMouu1C2yU5U0gwH6YD5ag1PHdBUsvzp040RMJhSC4LFSNYF7QSMEtKIPVNCMYkC6rSa8wYNFkTjYsKdLLWe3iLiKuLtFb",
+              "received": false
+            }
+          ],
+          "total_price": 58980,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Ullrichshire",
+              "street": "Braxton Knoll",
+              "house": 727,
+              "flat": 6276
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:37:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474001c508c5d5ee1f326",
+          "products": [
+            {
+              "_id": "694474011c508c5d5ee1f39d",
+              "name": "Chicken94798",
+              "amount": 448,
+              "price": 58980,
+              "manufacturer": "Apple",
+              "notes": "BQdcd0OIFp12Ax3sBrqJPAJIcIO9prOetQwrQk4ytlDtQXo1xwTkYKH8S0OdV2qiSHQU9dlyWMqhFjH736bTbrwJSSOmOwyqwh0xR24OvN8a2WPDZ9ZYbR78XIABhpfDPKFuLx0x9bfYBwH4aQhLB4pGFIjNUMouu1C2yU5U0gwH6YD5ag1PHdBUsvzp040RMJhSC4LFSNYF7QSMEtKIPVNCMYkC6rSa8wYNFkTjYsKdLLWe3iLiKuLtFb",
+              "received": false
+            }
+          ],
+          "total_price": 58980,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:37:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

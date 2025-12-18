@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:34:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1676",
+    "etag": "W/\"68c-tUJvy5wlRzlywL9/0ekjiTtm4as\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694473741c508c5d5ee1af6f",
+      "status": "Draft",
+      "customer": {
+        "_id": "694473731c508c5d5ee1af15",
+        "email": "Jairo.Cremin@yahoo.com",
+        "name": "Gerard Ruecker",
+        "country": "Belarus",
+        "city": "Minnetonka",
+        "street": "S Chestnut Street 99",
+        "house": 580,
+        "flat": 2388,
+        "phone": "+195869396680883",
+        "createdOn": "2025-12-18T21:34:43.000Z",
+        "notes": "PDgfhhqFCcqjqpakBP1sNCCMGufhah"
+      },
+      "products": [
+        {
+          "_id": "694473741c508c5d5ee1af3c",
+          "name": "Soap56180",
+          "amount": 272,
+          "price": 12899,
+          "manufacturer": "Amazon",
+          "notes": "aYQpdZVJTTUYDpirDq2qTcBmTcgynRKbzQiOOqyCB5lylesi7ursK5QLYfJ735Py74F9pAER1v8YE2HPWbNLPZKO2LNkld7NL8NyBdIaOOSWRqldfC9TVixbMmlJrxj6eB3Kg5dNdQcLMTXHAph2D0AGLfsoKdhZsX9SiVtCS4uYcocTGBBQYCw1fMxNKwroImohMsmsQncEQp0a2Nwcn3NgQyEEad4pvQ9S5zlxdVNXhd8UVmEnErXNxg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 12899,
+      "createdOn": "2025-12-18T21:34:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694473731c508c5d5ee1af15",
+          "products": [
+            {
+              "_id": "694473741c508c5d5ee1af3c",
+              "name": "Soap56180",
+              "amount": 272,
+              "price": 12899,
+              "manufacturer": "Amazon",
+              "notes": "aYQpdZVJTTUYDpirDq2qTcBmTcgynRKbzQiOOqyCB5lylesi7ursK5QLYfJ735Py74F9pAER1v8YE2HPWbNLPZKO2LNkld7NL8NyBdIaOOSWRqldfC9TVixbMmlJrxj6eB3Kg5dNdQcLMTXHAph2D0AGLfsoKdhZsX9SiVtCS4uYcocTGBBQYCw1fMxNKwroImohMsmsQncEQp0a2Nwcn3NgQyEEad4pvQ9S5zlxdVNXhd8UVmEnErXNxg",
+              "received": false
+            }
+          ],
+          "total_price": 12899,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:34:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:35:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5217",
+    "etag": "W/\"1461-WXFFD3FdWUf2Vap4ZgM4NH7yL10\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944738c1c508c5d5ee1b9a5",
+      "status": "In Process",
+      "customer": {
+        "_id": "6944738a1c508c5d5ee1b8aa",
+        "email": "Jermain.Bednar78@gmail.com",
+        "name": "Thalia Maggio",
+        "country": "France",
+        "city": "Hammond",
+        "street": "Tobin Manors 38",
+        "house": 544,
+        "flat": 9685,
+        "phone": "+258235294017213",
+        "createdOn": "2025-12-18T21:35:06.000Z",
+        "notes": "QbYmE3sRX145WXlLeXKqKWAmBJveE9"
+      },
+      "products": [
+        {
+          "_id": "6944738b1c508c5d5ee1b901",
+          "name": "Pizza76822",
+          "amount": 328,
+          "price": 44815,
+          "manufacturer": "Google",
+          "notes": "EXtmvTf35ELZsgqRfTAWhG4UKQ9ZxRmW1kfXrcZKMvgI040knCOxrfuJKjVtHje6VgvOR5cDJygeaYolggG5pFSdOZnHGuXVGUqQt3HK9IU2lwZec0sPIaxVcJMf2ZzP253OJic3DqnOaG5e5NQ39jGVyG3cbiEsSpyXa8Sbr0hkOnSGEuTZilgMYY3JNqA3ws2TYK8LX4TfN2GDoVNi8fu3cHAx4Yv5kOGPGVe2qOBhAnBK1k6VFPnSRK",
+          "received": false
+        },
+        {
+          "_id": "6944738b1c508c5d5ee1b944",
+          "name": "Mouse63192",
+          "amount": 600,
+          "price": 8824,
+          "manufacturer": "Samsung",
+          "notes": "MVv6cR8qf1GkpsoCotQo7pTZuxFJyvb2Z2Ls5km8x45EMB2ypfH5Tf995SJCbaFIDbaazcFO3YXyBfTyBJ6lalGGpdFSpyXQy2TdpCWRgE0MCsatoc5FeN7tpvVe5FwgAIH4YZNGglUVaoRkIbDT8NUTKny2NIY857DEE4ZOuSdHjbz2TMBhcRkwyHGNYmtvtJQh5weEndEzB6FZ7E953FNf77qAo4F46UkWL43H514LtvJC8T24GLIlK1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Predovicstad",
+          "street": "Church Road",
+          "house": 243,
+          "flat": 3602
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53639,
+      "createdOn": "2025-12-18T21:35:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6944738a1c508c5d5ee1b8aa",
+          "products": [
+            {
+              "_id": "6944738b1c508c5d5ee1b901",
+              "name": "Pizza76822",
+              "amount": 328,
+              "price": 44815,
+              "manufacturer": "Google",
+              "notes": "EXtmvTf35ELZsgqRfTAWhG4UKQ9ZxRmW1kfXrcZKMvgI040knCOxrfuJKjVtHje6VgvOR5cDJygeaYolggG5pFSdOZnHGuXVGUqQt3HK9IU2lwZec0sPIaxVcJMf2ZzP253OJic3DqnOaG5e5NQ39jGVyG3cbiEsSpyXa8Sbr0hkOnSGEuTZilgMYY3JNqA3ws2TYK8LX4TfN2GDoVNi8fu3cHAx4Yv5kOGPGVe2qOBhAnBK1k6VFPnSRK",
+              "received": false
+            },
+            {
+              "_id": "6944738b1c508c5d5ee1b944",
+              "name": "Mouse63192",
+              "amount": 600,
+              "price": 8824,
+              "manufacturer": "Samsung",
+              "notes": "MVv6cR8qf1GkpsoCotQo7pTZuxFJyvb2Z2Ls5km8x45EMB2ypfH5Tf995SJCbaFIDbaazcFO3YXyBfTyBJ6lalGGpdFSpyXQy2TdpCWRgE0MCsatoc5FeN7tpvVe5FwgAIH4YZNGglUVaoRkIbDT8NUTKny2NIY857DEE4ZOuSdHjbz2TMBhcRkwyHGNYmtvtJQh5weEndEzB6FZ7E953FNf77qAo4F46UkWL43H514LtvJC8T24GLIlK1",
+              "received": false
+            }
+          ],
+          "total_price": 53639,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Predovicstad",
+              "street": "Church Road",
+              "house": 243,
+              "flat": 3602
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944738a1c508c5d5ee1b8aa",
+          "products": [
+            {
+              "_id": "6944738b1c508c5d5ee1b901",
+              "name": "Pizza76822",
+              "amount": 328,
+              "price": 44815,
+              "manufacturer": "Google",
+              "notes": "EXtmvTf35ELZsgqRfTAWhG4UKQ9ZxRmW1kfXrcZKMvgI040knCOxrfuJKjVtHje6VgvOR5cDJygeaYolggG5pFSdOZnHGuXVGUqQt3HK9IU2lwZec0sPIaxVcJMf2ZzP253OJic3DqnOaG5e5NQ39jGVyG3cbiEsSpyXa8Sbr0hkOnSGEuTZilgMYY3JNqA3ws2TYK8LX4TfN2GDoVNi8fu3cHAx4Yv5kOGPGVe2qOBhAnBK1k6VFPnSRK",
+              "received": false
+            },
+            {
+              "_id": "6944738b1c508c5d5ee1b944",
+              "name": "Mouse63192",
+              "amount": 600,
+              "price": 8824,
+              "manufacturer": "Samsung",
+              "notes": "MVv6cR8qf1GkpsoCotQo7pTZuxFJyvb2Z2Ls5km8x45EMB2ypfH5Tf995SJCbaFIDbaazcFO3YXyBfTyBJ6lalGGpdFSpyXQy2TdpCWRgE0MCsatoc5FeN7tpvVe5FwgAIH4YZNGglUVaoRkIbDT8NUTKny2NIY857DEE4ZOuSdHjbz2TMBhcRkwyHGNYmtvtJQh5weEndEzB6FZ7E953FNf77qAo4F46UkWL43H514LtvJC8T24GLIlK1",
+              "received": false
+            }
+          ],
+          "total_price": 53639,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Predovicstad",
+              "street": "Church Road",
+              "house": 243,
+              "flat": 3602
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944738a1c508c5d5ee1b8aa",
+          "products": [
+            {
+              "_id": "6944738b1c508c5d5ee1b901",
+              "name": "Pizza76822",
+              "amount": 328,
+              "price": 44815,
+              "manufacturer": "Google",
+              "notes": "EXtmvTf35ELZsgqRfTAWhG4UKQ9ZxRmW1kfXrcZKMvgI040knCOxrfuJKjVtHje6VgvOR5cDJygeaYolggG5pFSdOZnHGuXVGUqQt3HK9IU2lwZec0sPIaxVcJMf2ZzP253OJic3DqnOaG5e5NQ39jGVyG3cbiEsSpyXa8Sbr0hkOnSGEuTZilgMYY3JNqA3ws2TYK8LX4TfN2GDoVNi8fu3cHAx4Yv5kOGPGVe2qOBhAnBK1k6VFPnSRK",
+              "received": false
+            },
+            {
+              "_id": "6944738b1c508c5d5ee1b944",
+              "name": "Mouse63192",
+              "amount": 600,
+              "price": 8824,
+              "manufacturer": "Samsung",
+              "notes": "MVv6cR8qf1GkpsoCotQo7pTZuxFJyvb2Z2Ls5km8x45EMB2ypfH5Tf995SJCbaFIDbaazcFO3YXyBfTyBJ6lalGGpdFSpyXQy2TdpCWRgE0MCsatoc5FeN7tpvVe5FwgAIH4YZNGglUVaoRkIbDT8NUTKny2NIY857DEE4ZOuSdHjbz2TMBhcRkwyHGNYmtvtJQh5weEndEzB6FZ7E953FNf77qAo4F46UkWL43H514LtvJC8T24GLIlK1",
+              "received": false
+            }
+          ],
+          "total_price": 53639,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:35:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

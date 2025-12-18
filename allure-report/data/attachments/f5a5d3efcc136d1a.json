@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:35:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2751",
+    "etag": "W/\"abf-mfj44a2LweLykaYfoS1NT0yUt3I\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944738b1c508c5d5ee1b94d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6944738a1c508c5d5ee1b8ac",
+        "email": "Drake38@yahoo.com",
+        "name": "Eileen Roob",
+        "country": "Belarus",
+        "city": "Corona",
+        "street": "Ollie Lights 30",
+        "house": 984,
+        "flat": 9185,
+        "phone": "+040375962260231",
+        "createdOn": "2025-12-18T21:35:06.000Z",
+        "notes": "7Hjmy0LApPREIOyJ5KT8ULMUxpbMut"
+      },
+      "products": [
+        {
+          "_id": "6944738b1c508c5d5ee1b8ff",
+          "name": "Ball76695",
+          "amount": 779,
+          "price": 79464,
+          "manufacturer": "Samsung",
+          "notes": "7tiuThXjG0k4ee41TNh7H3XqTObQAECxBrRVqwPFiW2GufYzN6EulYOkcTRfsB4vKJUOurnEOfsVmixSHRbVuJWiIdpm4ll00jiQjzYR8ImST7RWYPnKQgdQLE5h02V3p81qdoYg7sUP606bqRiPN2T7QlFrR0Yu4icBust3dxzvAAJ3OxIQGqDOqpascdDHFvxR1dHjJFTRAEFm3W5PLqy9WtO3c5JKHmcfrXmivxw28p6CbukGLUOsVG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Clarksville",
+          "street": "Clark Street",
+          "house": 246,
+          "flat": 7067
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79464,
+      "createdOn": "2025-12-18T21:35:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944738a1c508c5d5ee1b8ac",
+          "products": [
+            {
+              "_id": "6944738b1c508c5d5ee1b8ff",
+              "name": "Ball76695",
+              "amount": 779,
+              "price": 79464,
+              "manufacturer": "Samsung",
+              "notes": "7tiuThXjG0k4ee41TNh7H3XqTObQAECxBrRVqwPFiW2GufYzN6EulYOkcTRfsB4vKJUOurnEOfsVmixSHRbVuJWiIdpm4ll00jiQjzYR8ImST7RWYPnKQgdQLE5h02V3p81qdoYg7sUP606bqRiPN2T7QlFrR0Yu4icBust3dxzvAAJ3OxIQGqDOqpascdDHFvxR1dHjJFTRAEFm3W5PLqy9WtO3c5JKHmcfrXmivxw28p6CbukGLUOsVG",
+              "received": false
+            }
+          ],
+          "total_price": 79464,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Clarksville",
+              "street": "Clark Street",
+              "house": 246,
+              "flat": 7067
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944738a1c508c5d5ee1b8ac",
+          "products": [
+            {
+              "_id": "6944738b1c508c5d5ee1b8ff",
+              "name": "Ball76695",
+              "amount": 779,
+              "price": 79464,
+              "manufacturer": "Samsung",
+              "notes": "7tiuThXjG0k4ee41TNh7H3XqTObQAECxBrRVqwPFiW2GufYzN6EulYOkcTRfsB4vKJUOurnEOfsVmixSHRbVuJWiIdpm4ll00jiQjzYR8ImST7RWYPnKQgdQLE5h02V3p81qdoYg7sUP606bqRiPN2T7QlFrR0Yu4icBust3dxzvAAJ3OxIQGqDOqpascdDHFvxR1dHjJFTRAEFm3W5PLqy9WtO3c5JKHmcfrXmivxw28p6CbukGLUOsVG",
+              "received": false
+            }
+          ],
+          "total_price": 79464,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:35:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

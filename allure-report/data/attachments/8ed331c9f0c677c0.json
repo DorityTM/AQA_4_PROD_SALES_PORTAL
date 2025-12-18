@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:35:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-eLP5V2HR+uoLM5pgacGsQuuo5ok\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694473841c508c5d5ee1b62f",
+      "status": "Draft",
+      "customer": {
+        "_id": "694473831c508c5d5ee1b5ac",
+        "email": "Aniya.Howell@hotmail.com",
+        "name": "Jaren Nitzsche",
+        "country": "Great Britain",
+        "city": "East Kendraville",
+        "street": "O Kon Orchard 74",
+        "house": 697,
+        "flat": 9577,
+        "phone": "+376064752643948",
+        "createdOn": "2025-12-18T21:34:59.000Z",
+        "notes": "YikqbuCTuow7i7OcrMwtgNeYlu58U0"
+      },
+      "products": [
+        {
+          "_id": "694473831c508c5d5ee1b5db",
+          "name": "Mouse73638",
+          "amount": 839,
+          "price": 30440,
+          "manufacturer": "Tesla",
+          "notes": "i6RxrBCY1yaXoSm41RF4RPKjkCSA51MjBqx4qNvqklM1YdpIbK9nXbwiIOl9n0E99iluDTcmhvOq5RXnTjdQjmTt8m88LroRBXzRJxHD5T7e0G4NghovIAfa21A8jENDRfbqWFHTvJS3CmP9XoRvgTFIeaqF7363OpH1e1PtZa3d2MKwimaHOeBTnzfVJzE7jZeS5pjodOWUqzMPI3yAD2tqvXFknlJodxMJPourJMsjpADWgl1QA244D0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Wayne",
+          "street": "Christa Fall",
+          "house": 852,
+          "flat": 7040
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 30440,
+      "createdOn": "2025-12-18T21:35:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694473831c508c5d5ee1b5ac",
+          "products": [
+            {
+              "_id": "694473831c508c5d5ee1b5db",
+              "name": "Mouse73638",
+              "amount": 839,
+              "price": 30440,
+              "manufacturer": "Tesla",
+              "notes": "i6RxrBCY1yaXoSm41RF4RPKjkCSA51MjBqx4qNvqklM1YdpIbK9nXbwiIOl9n0E99iluDTcmhvOq5RXnTjdQjmTt8m88LroRBXzRJxHD5T7e0G4NghovIAfa21A8jENDRfbqWFHTvJS3CmP9XoRvgTFIeaqF7363OpH1e1PtZa3d2MKwimaHOeBTnzfVJzE7jZeS5pjodOWUqzMPI3yAD2tqvXFknlJodxMJPourJMsjpADWgl1QA244D0",
+              "received": false
+            }
+          ],
+          "total_price": 30440,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Wayne",
+              "street": "Christa Fall",
+              "house": 852,
+              "flat": 7040
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:35:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694473831c508c5d5ee1b5ac",
+          "products": [
+            {
+              "_id": "694473831c508c5d5ee1b5db",
+              "name": "Mouse73638",
+              "amount": 839,
+              "price": 30440,
+              "manufacturer": "Tesla",
+              "notes": "i6RxrBCY1yaXoSm41RF4RPKjkCSA51MjBqx4qNvqklM1YdpIbK9nXbwiIOl9n0E99iluDTcmhvOq5RXnTjdQjmTt8m88LroRBXzRJxHD5T7e0G4NghovIAfa21A8jENDRfbqWFHTvJS3CmP9XoRvgTFIeaqF7363OpH1e1PtZa3d2MKwimaHOeBTnzfVJzE7jZeS5pjodOWUqzMPI3yAD2tqvXFknlJodxMJPourJMsjpADWgl1QA244D0",
+              "received": false
+            }
+          ],
+          "total_price": 30440,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:35:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
