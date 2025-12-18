@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:25:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4281",
+    "etag": "W/\"10b9-uj7nCUM6fBY4rPyTei3yhayglMo\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944714f1c508c5d5ee11ba7",
+      "status": "Draft",
+      "customer": {
+        "_id": "6944714e1c508c5d5ee11b5a",
+        "email": "Fiona_Kirlin@hotmail.com",
+        "name": "Lois Sanford",
+        "country": "Germany",
+        "city": "Lake Carmelofurt",
+        "street": "Lake Drive 12",
+        "house": 952,
+        "flat": 639,
+        "phone": "+947865510323183",
+        "createdOn": "2025-12-18T21:25:34.000Z",
+        "notes": "mn1tR9otIMM0lXTnORN7qt6RMrLxNs"
+      },
+      "products": [
+        {
+          "_id": "6944714e1c508c5d5ee11b7e",
+          "name": "Fish90454",
+          "amount": 303,
+          "price": 55070,
+          "manufacturer": "Samsung",
+          "notes": "gM9EGdDWuWdE136N8Rcz9vDhLiF9slDT7mrFXzMTSybNBjNGTPqP0CCIKCRETsyGPEwDUwZteARXGtrgGR6NUYcUl2RUfHNqijoAKw2ySiY6ggFAuMvQigG75RkEu7V4utAC1DUvXgNDx8GNOnqHGaAVoJOL1s2FU7eNglLqRThjoX2IiAolqKXcYUsfwclvQzNunUKm6ukpSbRCQVm6mEGgyxBc3vShCpY0z0QEP06lPSM3cECoyZGh21",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 55070,
+      "createdOn": "2025-12-18T21:25:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944714e1c508c5d5ee11b5a",
+          "products": [
+            {
+              "_id": "6944714e1c508c5d5ee11b7e",
+              "name": "Fish90454",
+              "amount": 303,
+              "price": 55070,
+              "manufacturer": "Samsung",
+              "notes": "gM9EGdDWuWdE136N8Rcz9vDhLiF9slDT7mrFXzMTSybNBjNGTPqP0CCIKCRETsyGPEwDUwZteARXGtrgGR6NUYcUl2RUfHNqijoAKw2ySiY6ggFAuMvQigG75RkEu7V4utAC1DUvXgNDx8GNOnqHGaAVoJOL1s2FU7eNglLqRThjoX2IiAolqKXcYUsfwclvQzNunUKm6ukpSbRCQVm6mEGgyxBc3vShCpY0z0QEP06lPSM3cECoyZGh21",
+              "received": false
+            }
+          ],
+          "total_price": 55070,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:25:37.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "6944714e1c508c5d5ee11b5a",
+          "products": [
+            {
+              "_id": "6944714e1c508c5d5ee11b7e",
+              "name": "Fish90454",
+              "amount": 303,
+              "price": 55070,
+              "manufacturer": "Samsung",
+              "notes": "gM9EGdDWuWdE136N8Rcz9vDhLiF9slDT7mrFXzMTSybNBjNGTPqP0CCIKCRETsyGPEwDUwZteARXGtrgGR6NUYcUl2RUfHNqijoAKw2ySiY6ggFAuMvQigG75RkEu7V4utAC1DUvXgNDx8GNOnqHGaAVoJOL1s2FU7eNglLqRThjoX2IiAolqKXcYUsfwclvQzNunUKm6ukpSbRCQVm6mEGgyxBc3vShCpY0z0QEP06lPSM3cECoyZGh21",
+              "received": false
+            }
+          ],
+          "total_price": 55070,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "New Kristopherfield",
+              "street": "Highfield Road",
+              "house": 40,
+              "flat": 7581
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:25:37.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944714e1c508c5d5ee11b5a",
+          "products": [
+            {
+              "_id": "6944714e1c508c5d5ee11b7e",
+              "name": "Fish90454",
+              "amount": 303,
+              "price": 55070,
+              "manufacturer": "Samsung",
+              "notes": "gM9EGdDWuWdE136N8Rcz9vDhLiF9slDT7mrFXzMTSybNBjNGTPqP0CCIKCRETsyGPEwDUwZteARXGtrgGR6NUYcUl2RUfHNqijoAKw2ySiY6ggFAuMvQigG75RkEu7V4utAC1DUvXgNDx8GNOnqHGaAVoJOL1s2FU7eNglLqRThjoX2IiAolqKXcYUsfwclvQzNunUKm6ukpSbRCQVm6mEGgyxBc3vShCpY0z0QEP06lPSM3cECoyZGh21",
+              "received": false
+            }
+          ],
+          "total_price": 55070,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "New Kristopherfield",
+              "street": "Highfield Road",
+              "house": 40,
+              "flat": 7581
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:25:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944714e1c508c5d5ee11b5a",
+          "products": [
+            {
+              "_id": "6944714e1c508c5d5ee11b7e",
+              "name": "Fish90454",
+              "amount": 303,
+              "price": 55070,
+              "manufacturer": "Samsung",
+              "notes": "gM9EGdDWuWdE136N8Rcz9vDhLiF9slDT7mrFXzMTSybNBjNGTPqP0CCIKCRETsyGPEwDUwZteARXGtrgGR6NUYcUl2RUfHNqijoAKw2ySiY6ggFAuMvQigG75RkEu7V4utAC1DUvXgNDx8GNOnqHGaAVoJOL1s2FU7eNglLqRThjoX2IiAolqKXcYUsfwclvQzNunUKm6ukpSbRCQVm6mEGgyxBc3vShCpY0z0QEP06lPSM3cECoyZGh21",
+              "received": false
+            }
+          ],
+          "total_price": 55070,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:25:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

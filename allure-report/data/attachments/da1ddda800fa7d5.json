@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:24:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4594",
+    "etag": "W/\"11f2-YYo/U/BcakxgCmiXoifoXq8JVCo\"",
+    "keep-alive": "timeout=5, max=11",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694471201c508c5d5ee0fdae",
+      "status": "Received",
+      "customer": {
+        "_id": "694471201c508c5d5ee0fd68",
+        "email": "Chad_Schroeder@hotmail.com",
+        "name": "Britney Bosco",
+        "country": "Canada",
+        "city": "New Haven",
+        "street": "Howard Street 87",
+        "house": 75,
+        "flat": 3632,
+        "phone": "+336030175299580",
+        "createdOn": "2025-12-18T21:24:48.000Z",
+        "notes": "qcwfxjFC6rFkN2J6DAmLMrcPsbBG9h"
+      },
+      "products": [
+        {
+          "_id": "694471201c508c5d5ee0fd8f",
+          "name": "Gloves55778",
+          "amount": 452,
+          "price": 48401,
+          "manufacturer": "Apple",
+          "notes": "3JNL5bsKALpN5Xnc6FDNk1Oq3HEhrkRWZkEJ5R9FQpAzvIyOW1lepQ6a1hwA2vbWXjk4E117g67skrLjqyrArkiyATYlkViTsQDlku39wX12GGNiU99c8TnQkCieqt1lhXvD115nHvgEjhcOOPpKcGT6c0b7IpdKVQx1SQ8TlIBDY6dD1Yfb7ywbHcdSFmyEHpxq1FoPxk3aI5SMthJp4VJhrMI3cIGp8wQlEkcxEPUS0jBVXu73BHdNr0",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Macychester",
+          "street": "Erin Union",
+          "house": 136,
+          "flat": 1101
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 48401,
+      "createdOn": "2025-12-18T21:24:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694471201c508c5d5ee0fd68",
+          "products": [
+            {
+              "_id": "694471201c508c5d5ee0fd8f",
+              "name": "Gloves55778",
+              "amount": 452,
+              "price": 48401,
+              "manufacturer": "Apple",
+              "notes": "3JNL5bsKALpN5Xnc6FDNk1Oq3HEhrkRWZkEJ5R9FQpAzvIyOW1lepQ6a1hwA2vbWXjk4E117g67skrLjqyrArkiyATYlkViTsQDlku39wX12GGNiU99c8TnQkCieqt1lhXvD115nHvgEjhcOOPpKcGT6c0b7IpdKVQx1SQ8TlIBDY6dD1Yfb7ywbHcdSFmyEHpxq1FoPxk3aI5SMthJp4VJhrMI3cIGp8wQlEkcxEPUS0jBVXu73BHdNr0",
+              "received": true
+            }
+          ],
+          "total_price": 48401,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Macychester",
+              "street": "Erin Union",
+              "house": 136,
+              "flat": 1101
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:24:50.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694471201c508c5d5ee0fd68",
+          "products": [
+            {
+              "_id": "694471201c508c5d5ee0fd8f",
+              "name": "Gloves55778",
+              "amount": 452,
+              "price": 48401,
+              "manufacturer": "Apple",
+              "notes": "3JNL5bsKALpN5Xnc6FDNk1Oq3HEhrkRWZkEJ5R9FQpAzvIyOW1lepQ6a1hwA2vbWXjk4E117g67skrLjqyrArkiyATYlkViTsQDlku39wX12GGNiU99c8TnQkCieqt1lhXvD115nHvgEjhcOOPpKcGT6c0b7IpdKVQx1SQ8TlIBDY6dD1Yfb7ywbHcdSFmyEHpxq1FoPxk3aI5SMthJp4VJhrMI3cIGp8wQlEkcxEPUS0jBVXu73BHdNr0",
+              "received": false
+            }
+          ],
+          "total_price": 48401,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Macychester",
+              "street": "Erin Union",
+              "house": 136,
+              "flat": 1101
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:24:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694471201c508c5d5ee0fd68",
+          "products": [
+            {
+              "_id": "694471201c508c5d5ee0fd8f",
+              "name": "Gloves55778",
+              "amount": 452,
+              "price": 48401,
+              "manufacturer": "Apple",
+              "notes": "3JNL5bsKALpN5Xnc6FDNk1Oq3HEhrkRWZkEJ5R9FQpAzvIyOW1lepQ6a1hwA2vbWXjk4E117g67skrLjqyrArkiyATYlkViTsQDlku39wX12GGNiU99c8TnQkCieqt1lhXvD115nHvgEjhcOOPpKcGT6c0b7IpdKVQx1SQ8TlIBDY6dD1Yfb7ywbHcdSFmyEHpxq1FoPxk3aI5SMthJp4VJhrMI3cIGp8wQlEkcxEPUS0jBVXu73BHdNr0",
+              "received": false
+            }
+          ],
+          "total_price": 48401,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Macychester",
+              "street": "Erin Union",
+              "house": 136,
+              "flat": 1101
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:24:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694471201c508c5d5ee0fd68",
+          "products": [
+            {
+              "_id": "694471201c508c5d5ee0fd8f",
+              "name": "Gloves55778",
+              "amount": 452,
+              "price": 48401,
+              "manufacturer": "Apple",
+              "notes": "3JNL5bsKALpN5Xnc6FDNk1Oq3HEhrkRWZkEJ5R9FQpAzvIyOW1lepQ6a1hwA2vbWXjk4E117g67skrLjqyrArkiyATYlkViTsQDlku39wX12GGNiU99c8TnQkCieqt1lhXvD115nHvgEjhcOOPpKcGT6c0b7IpdKVQx1SQ8TlIBDY6dD1Yfb7ywbHcdSFmyEHpxq1FoPxk3aI5SMthJp4VJhrMI3cIGp8wQlEkcxEPUS0jBVXu73BHdNr0",
+              "received": false
+            }
+          ],
+          "total_price": 48401,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:24:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

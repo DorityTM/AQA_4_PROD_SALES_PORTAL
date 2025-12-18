@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:22:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2765",
+    "etag": "W/\"acd-6/B6hR7x4DmH386HmpgJLo5V5+c\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694470a01c508c5d5ee0aae1",
+      "status": "Draft",
+      "customer": {
+        "_id": "6944709d1c508c5d5ee0a8c2",
+        "email": "Santa_Anderson97@gmail.com",
+        "name": "Miguel Wintheiser",
+        "country": "Russia",
+        "city": "Rennermouth",
+        "street": "Dach Centers 91",
+        "house": 403,
+        "flat": 4997,
+        "phone": "+554966324264426",
+        "createdOn": "2025-12-18T21:22:37.000Z",
+        "notes": "YXKRrkYWu1B8r91i8oRbr9MAGwPbwD"
+      },
+      "products": [
+        {
+          "_id": "6944709e1c508c5d5ee0a9ca",
+          "name": "Car23785",
+          "amount": 916,
+          "price": 10049,
+          "manufacturer": "Tesla",
+          "notes": "5H0UG7UUrUnVBu8lDNkpEbfMlFCZ6UizytNSqNYjnkKr3ZaMN1bEDCa2isYB70Bioj766pdwYw65aaP6VOB8CYqAOX2dVmwZb5qYQC2Wr7kSEeKT5lQAIocPLymOGFhbqnCH16avtGDZEujKdDyIXRUOFTmPxxjYrUFBijhWt2VCUNF6VqoVvKZrta5ZAN15Y5n4VZpcAEIUfDxpCJbaoAC0cwTaMwnDkLmvWWer5uZe2lQDH4ZjAvpeS0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lake Tarynmouth",
+          "street": "Chauncey Overpass",
+          "house": 838,
+          "flat": 3495
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 10049,
+      "createdOn": "2025-12-18T21:22:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944709d1c508c5d5ee0a8c2",
+          "products": [
+            {
+              "_id": "6944709e1c508c5d5ee0a9ca",
+              "name": "Car23785",
+              "amount": 916,
+              "price": 10049,
+              "manufacturer": "Tesla",
+              "notes": "5H0UG7UUrUnVBu8lDNkpEbfMlFCZ6UizytNSqNYjnkKr3ZaMN1bEDCa2isYB70Bioj766pdwYw65aaP6VOB8CYqAOX2dVmwZb5qYQC2Wr7kSEeKT5lQAIocPLymOGFhbqnCH16avtGDZEujKdDyIXRUOFTmPxxjYrUFBijhWt2VCUNF6VqoVvKZrta5ZAN15Y5n4VZpcAEIUfDxpCJbaoAC0cwTaMwnDkLmvWWer5uZe2lQDH4ZjAvpeS0",
+              "received": false
+            }
+          ],
+          "total_price": 10049,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lake Tarynmouth",
+              "street": "Chauncey Overpass",
+              "house": 838,
+              "flat": 3495
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:22:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944709d1c508c5d5ee0a8c2",
+          "products": [
+            {
+              "_id": "6944709e1c508c5d5ee0a9ca",
+              "name": "Car23785",
+              "amount": 916,
+              "price": 10049,
+              "manufacturer": "Tesla",
+              "notes": "5H0UG7UUrUnVBu8lDNkpEbfMlFCZ6UizytNSqNYjnkKr3ZaMN1bEDCa2isYB70Bioj766pdwYw65aaP6VOB8CYqAOX2dVmwZb5qYQC2Wr7kSEeKT5lQAIocPLymOGFhbqnCH16avtGDZEujKdDyIXRUOFTmPxxjYrUFBijhWt2VCUNF6VqoVvKZrta5ZAN15Y5n4VZpcAEIUfDxpCJbaoAC0cwTaMwnDkLmvWWer5uZe2lQDH4ZjAvpeS0",
+              "received": false
+            }
+          ],
+          "total_price": 10049,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:22:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
