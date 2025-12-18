@@ -9,6 +9,7 @@ import { generateDelivery } from "data/salesPortal/orders/generateDeliveryData";
 import { getOrderSchema } from "data/schemas/orders/get.schema";
 import { EntitiesStore } from "api/service/stores/entities.store";
 import { faker } from "@faker-js/faker";
+import { logStep } from "utils/report/logStep.utils.js";
 
 export class OrdersApiService {
   constructor(
@@ -30,6 +31,7 @@ export class OrdersApiService {
     this.entitiesStore.trackProducts(ids);
   }
 
+  @logStep("CREATE ORDER - API")
   async create(token: string, customerId: string, productIds: string[]): Promise<IOrderFromResponse> {
     const payload: IOrderCreateBody = {
       customer: customerId,
@@ -48,6 +50,7 @@ export class OrdersApiService {
     return response.body.Order;
   }
 
+  @logStep("CREATE ORDER AND ENTITIES - API")
   async createOrderAndEntities(token: string, numberOfProducts: number): Promise<IOrderFromResponse> {
     const customersService = this.customersApiService;
     const productsService = this.productsApiService;
@@ -74,6 +77,7 @@ export class OrdersApiService {
     return order;
   }
 
+  @logStep("CREATE ORDER WITH DELIVERY - API")
   async createOrderWithDelivery(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderAndEntities(token, numberOfProducts);
     const orderWithDelivery = await this.ordersApi.addDelivery(token, createdOrder._id, generateDelivery());
@@ -85,6 +89,7 @@ export class OrdersApiService {
     return orderWithDelivery.body.Order;
   }
 
+  @logStep("CREATE ORDER IN PROCESS - API")
   async createOrderInProcess(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderWithDelivery(token, numberOfProducts);
     const order = await this.ordersApi.updateStatus(createdOrder._id, ORDER_STATUS.PROCESSING, token);
@@ -96,6 +101,7 @@ export class OrdersApiService {
     return order.body.Order;
   }
 
+  @logStep("CREATE CANCELED ORDER - API")
   async createCanceledOrder(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderWithDelivery(token, numberOfProducts);
     const order = await this.ordersApi.updateStatus(createdOrder._id, ORDER_STATUS.CANCELED, token);
@@ -107,6 +113,7 @@ export class OrdersApiService {
     return order.body.Order;
   }
 
+  @logStep("CREATE PARTIALLY RECEIVED ORDER - API")
   async createPartiallyReceivedOrder(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderInProcess(token, numberOfProducts);
     const order = await this.ordersApi.receiveProducts(createdOrder._id, [createdOrder.products[0]!._id], token);
@@ -118,6 +125,7 @@ export class OrdersApiService {
     return order.body.Order;
   }
 
+  @logStep("CREATE RECEIVED ORDER - API")
   async createReceivedOrder(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderInProcess(token, numberOfProducts);
     const order = await this.ordersApi.receiveProducts(
@@ -133,17 +141,20 @@ export class OrdersApiService {
     return order.body.Order;
   }
 
+  @logStep("DELETE ORDER - API")
   async delete(token: string, id: string) {
     const res = await this.ordersApi.delete(token, id);
     validateResponse(res, { status: STATUS_CODES.DELETED });
   }
 
+  @logStep("UPDATE ORDER - API")
   async update(token: string, id: string, payload: IOrderUpdateBody): Promise<IOrderFromResponse> {
     const res = await this.ordersApi.update(token, id, payload);
     validateResponse(res, { status: STATUS_CODES.OK });
     return res.body.Order;
   }
 
+  @logStep("DELETE ORDER AND ENTITIES - API")
   async deleteOrderAndEntities(token: string, orderId: string): Promise<void> {
     // Backward-compatible cleanup by specific orderId
     const response = await this.ordersApi.getById(orderId, token);
@@ -173,6 +184,7 @@ export class OrdersApiService {
   }
 
   // New: full cleanup by using only token (for after hooks)
+  @logStep("FULL DELETE ORDERS AND ENTITIES - API")
   async fullDelete(token: string): Promise<void> {
     const orders = this.entitiesStore.getOrderIds();
     const customers = this.entitiesStore.getCustomerIds();
@@ -185,6 +197,7 @@ export class OrdersApiService {
     this.entitiesStore.clear();
   }
 
+  @logStep("ADD COMMENT - API")
   async addComment(token: string, orderId: string, text?: string) {
     const response = await this.ordersApi.addComment(token, orderId, text || faker.lorem.sentence(5));
     validateResponse(response, {
@@ -196,6 +209,7 @@ export class OrdersApiService {
     return response.body.Order.comments[response.body.Order.comments.length - 1];
   }
 
+  @logStep("DELETE COMMENT - API")
   async deleteComment(token: string, orderId: string, commentId: string) {
     const response = await this.ordersApi.deleteComment(token, orderId, commentId);
     validateResponse(response, {
@@ -204,6 +218,7 @@ export class OrdersApiService {
     return response;
   }
 
+  @logStep("CREATE CUSTOMER AND PRODUCTS - API")
   async createCustomerAndProducts(
     token: string,
     productsCount: number,

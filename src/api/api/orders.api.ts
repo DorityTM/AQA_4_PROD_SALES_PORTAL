@@ -4,10 +4,12 @@ import { IDeliveryInfo } from "data/salesPortal/delivery-status";
 import { ORDER_STATUS } from "data/salesPortal/order-status";
 import { IRequestOptions } from "data/types/core.types";
 import { IOrderCreateBody, IOrderResponse, IOrderUpdateBody } from "data/types/order.types";
+import { logStep } from "utils/report/logStep.utils";
 
 export class OrdersApi {
   constructor(private apiClient: IApiClient) {}
 
+  @logStep("CREATE /api/orders")
   async create(token: string, payload: IOrderCreateBody) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -22,6 +24,7 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
+  @logStep("GET /api/orders/{id}")
   async getById(_id: string, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -36,6 +39,7 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
+  @logStep("CREATE /api/orders/{orderId}/delivery")
   async addDelivery(token: string, orderId: string, deliveryData: IDeliveryInfo) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -51,6 +55,7 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
+  @logStep("UPDATE /api/orders/{id}/status")
   async updateStatus(_id: string, status: ORDER_STATUS, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -66,6 +71,7 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
+  @logStep("CREATE /api/orders/{id}/receive")
   async receiveProducts(_id: string, productsId: string[], token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -81,6 +87,7 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
+  @logStep("DELETE /api/orders/{id}")
   async delete(token: string, _id: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -94,6 +101,7 @@ export class OrdersApi {
     return await this.apiClient.send<null>(options);
   }
 
+  @logStep("CREATE /api/orders/{id}/comments")
   async addComment(token: string, orderId: string, comment: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -108,6 +116,7 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
+  @logStep("DELETE /api/orders/{id}/comments/{commentId}")
   async deleteComment(token: string, orderId: string, commentId: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -121,6 +130,7 @@ export class OrdersApi {
     return await this.apiClient.send<null>(options);
   }
 
+  @logStep("UPDATE /api/orders/{id}")
   async update(token: string, _id: string, payload: IOrderUpdateBody) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -135,6 +145,7 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
+  @logStep("PUT /api/orders/{orderId}/assign-manager/{managerId}")
   async assingManager(token: string, orderId?: string, managerId?: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -148,6 +159,7 @@ export class OrdersApi {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
+  @logStep("PUT /api/orders/{orderId}/unassign-manager")
   async unassingManager(token: string, orderId?: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,

@@ -9,10 +9,12 @@ import {
   IGetCustomersParams,
 } from "data/types/customer.types";
 import { convertRequestParams } from "utils/queryParams.utils";
+import { logStep } from "utils/report/logStep.utils";
 
 export class CustomersApi {
   constructor(private apiClient: IApiClient) {}
 
+  @logStep("CREATE /api/customers")
   async create(token: string, customer: ICustomer) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -27,6 +29,7 @@ export class CustomersApi {
     return await this.apiClient.send<ICustomerResponse>(options);
   }
 
+  @logStep("DELETE /api/customers/{id}")
   async delete(token: string, _id: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -41,6 +44,7 @@ export class CustomersApi {
     return await this.apiClient.send<IResponseFields>(options);
   }
 
+  @logStep("GET /api/customers")
   async getList(token: string, params: Partial<IGetCustomersParams>) {
     const query = convertRequestParams(params);
     const options: IRequestOptions = {
@@ -55,6 +59,7 @@ export class CustomersApi {
     return await this.apiClient.send<ICustomerListResponse>(options);
   }
 
+  @logStep("GET /api/customers/all")
   async getAll(token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -68,6 +73,7 @@ export class CustomersApi {
     return await this.apiClient.send<ICustomersResponse>(options);
   }
 
+  @logStep("GET /api/customers/{id}")
   async getById(token: string, _id: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
@@ -81,6 +87,7 @@ export class CustomersApi {
     return await this.apiClient.send<ICustomerResponse>(options);
   }
 
+  @logStep("UPDATE /api/customers/{id}")
   async update(token: string, _id: string, customer: Partial<ICustomer>) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseURL,
