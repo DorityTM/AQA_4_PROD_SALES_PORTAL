@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 13:08:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3674",
+    "etag": "W/\"e5a-5h8eMNBOcnS6dGTI878+ZSqPrWw\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943fce51c508c5d5ed9efac",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6943fce41c508c5d5ed9ef60",
+        "email": "Josue_Kuhlman@hotmail.com",
+        "name": "Newell Bailey",
+        "country": "Germany",
+        "city": "Jaedenburgh",
+        "street": "Park Crescent 43",
+        "house": 117,
+        "flat": 8366,
+        "phone": "+781161838475736",
+        "createdOn": "2025-12-18T13:08:52.000Z",
+        "notes": "b2rojZcySFj8ZHJ4kSUzsUQY2HkUG4"
+      },
+      "products": [
+        {
+          "_id": "6943fce51c508c5d5ed9ef89",
+          "name": "Tuna45094",
+          "amount": 421,
+          "price": 87857,
+          "manufacturer": "Google",
+          "notes": "5gJhljrLn2edFRFjnVNo2kH3vgdgVVXLX5XuWbk9DutXL8Ncuvxn2UOTenhs04VrsCWpXE5qGcz1P1TleKKF9dEKGdvMUhv3xd3OGevOzxc1izFC1bdpIFXEIrOReipdjqbMTg9uHQrtANlbmJ6bOmODRyi4KqqA2MDhNQXE2z5cFTeM9HagFaoGJWJ3PatWgxCuInOjWefPbSbv0yzeWtK6vO50Bn9XwGiJGCD5VCf9Fs0ylrQG8hz5VJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "South Reneland",
+          "street": "Lilly Flats",
+          "house": 128,
+          "flat": 7039
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 87857,
+      "createdOn": "2025-12-18T13:08:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6943fce41c508c5d5ed9ef60",
+          "products": [
+            {
+              "_id": "6943fce51c508c5d5ed9ef89",
+              "name": "Tuna45094",
+              "amount": 421,
+              "price": 87857,
+              "manufacturer": "Google",
+              "notes": "5gJhljrLn2edFRFjnVNo2kH3vgdgVVXLX5XuWbk9DutXL8Ncuvxn2UOTenhs04VrsCWpXE5qGcz1P1TleKKF9dEKGdvMUhv3xd3OGevOzxc1izFC1bdpIFXEIrOReipdjqbMTg9uHQrtANlbmJ6bOmODRyi4KqqA2MDhNQXE2z5cFTeM9HagFaoGJWJ3PatWgxCuInOjWefPbSbv0yzeWtK6vO50Bn9XwGiJGCD5VCf9Fs0ylrQG8hz5VJ",
+              "received": false
+            }
+          ],
+          "total_price": 87857,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Reneland",
+              "street": "Lilly Flats",
+              "house": 128,
+              "flat": 7039
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T13:08:54.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943fce41c508c5d5ed9ef60",
+          "products": [
+            {
+              "_id": "6943fce51c508c5d5ed9ef89",
+              "name": "Tuna45094",
+              "amount": 421,
+              "price": 87857,
+              "manufacturer": "Google",
+              "notes": "5gJhljrLn2edFRFjnVNo2kH3vgdgVVXLX5XuWbk9DutXL8Ncuvxn2UOTenhs04VrsCWpXE5qGcz1P1TleKKF9dEKGdvMUhv3xd3OGevOzxc1izFC1bdpIFXEIrOReipdjqbMTg9uHQrtANlbmJ6bOmODRyi4KqqA2MDhNQXE2z5cFTeM9HagFaoGJWJ3PatWgxCuInOjWefPbSbv0yzeWtK6vO50Bn9XwGiJGCD5VCf9Fs0ylrQG8hz5VJ",
+              "received": false
+            }
+          ],
+          "total_price": 87857,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Reneland",
+              "street": "Lilly Flats",
+              "house": 128,
+              "flat": 7039
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T13:08:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943fce41c508c5d5ed9ef60",
+          "products": [
+            {
+              "_id": "6943fce51c508c5d5ed9ef89",
+              "name": "Tuna45094",
+              "amount": 421,
+              "price": 87857,
+              "manufacturer": "Google",
+              "notes": "5gJhljrLn2edFRFjnVNo2kH3vgdgVVXLX5XuWbk9DutXL8Ncuvxn2UOTenhs04VrsCWpXE5qGcz1P1TleKKF9dEKGdvMUhv3xd3OGevOzxc1izFC1bdpIFXEIrOReipdjqbMTg9uHQrtANlbmJ6bOmODRyi4KqqA2MDhNQXE2z5cFTeM9HagFaoGJWJ3PatWgxCuInOjWefPbSbv0yzeWtK6vO50Bn9XwGiJGCD5VCf9Fs0ylrQG8hz5VJ",
+              "received": false
+            }
+          ],
+          "total_price": 87857,
+          "delivery": null,
+          "changedOn": "2025-12-18T13:08:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

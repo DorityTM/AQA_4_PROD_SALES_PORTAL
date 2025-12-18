@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 13:09:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2758",
+    "etag": "W/\"ac6-ZOR/a8Dkh5UL2KaaaZaMj+dWCvU\"",
+    "keep-alive": "timeout=5, max=14",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943fcf41c508c5d5ed9f5da",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943fcf31c508c5d5ed9f5ad",
+        "email": "Toby14@hotmail.com",
+        "name": "Gerhard Rosenbaum",
+        "country": "USA",
+        "city": "Lehigh Acres",
+        "street": "Barton Road 4",
+        "house": 739,
+        "flat": 7754,
+        "phone": "+969983530042214",
+        "createdOn": "2025-12-18T13:09:07.000Z",
+        "notes": "xgawoQrkYT7IlOU6JdeB4WzUrpmQ6p"
+      },
+      "products": [
+        {
+          "_id": "6943fcf41c508c5d5ed9f5b7",
+          "name": "Salad31998",
+          "amount": 870,
+          "price": 71909,
+          "manufacturer": "Xiaomi",
+          "notes": "CXME3Lu34bXJHrYdQ4D6Gn2flBGfTYkGE1uAR9vxIDJiMwUO9VPlU9FpaXyvdaZSc75ecQs7Xcb49yiWtmiGH8QBQrHbzo4pbtylbEuqR2CdEBEKNiXZZmm7YTGTwfRNokEpDlYLSHDKO7u9UHtD9Qel9pvTgBYoynnTPq3rRmxEJogZgvfuGEmePJhaRbtP0XlcROGJX1GI06fio0lm5EnKpBAtSerRyeafrWpFnGrusAg0iEP4hHxMAK",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Heidenreichberg",
+          "street": "N Poplar Street",
+          "house": 900,
+          "flat": 6650
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 71909,
+      "createdOn": "2025-12-18T13:09:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943fcf31c508c5d5ed9f5ad",
+          "products": [
+            {
+              "_id": "6943fcf41c508c5d5ed9f5b7",
+              "name": "Salad31998",
+              "amount": 870,
+              "price": 71909,
+              "manufacturer": "Xiaomi",
+              "notes": "CXME3Lu34bXJHrYdQ4D6Gn2flBGfTYkGE1uAR9vxIDJiMwUO9VPlU9FpaXyvdaZSc75ecQs7Xcb49yiWtmiGH8QBQrHbzo4pbtylbEuqR2CdEBEKNiXZZmm7YTGTwfRNokEpDlYLSHDKO7u9UHtD9Qel9pvTgBYoynnTPq3rRmxEJogZgvfuGEmePJhaRbtP0XlcROGJX1GI06fio0lm5EnKpBAtSerRyeafrWpFnGrusAg0iEP4hHxMAK",
+              "received": false
+            }
+          ],
+          "total_price": 71909,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Heidenreichberg",
+              "street": "N Poplar Street",
+              "house": 900,
+              "flat": 6650
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T13:09:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943fcf31c508c5d5ed9f5ad",
+          "products": [
+            {
+              "_id": "6943fcf41c508c5d5ed9f5b7",
+              "name": "Salad31998",
+              "amount": 870,
+              "price": 71909,
+              "manufacturer": "Xiaomi",
+              "notes": "CXME3Lu34bXJHrYdQ4D6Gn2flBGfTYkGE1uAR9vxIDJiMwUO9VPlU9FpaXyvdaZSc75ecQs7Xcb49yiWtmiGH8QBQrHbzo4pbtylbEuqR2CdEBEKNiXZZmm7YTGTwfRNokEpDlYLSHDKO7u9UHtD9Qel9pvTgBYoynnTPq3rRmxEJogZgvfuGEmePJhaRbtP0XlcROGJX1GI06fio0lm5EnKpBAtSerRyeafrWpFnGrusAg0iEP4hHxMAK",
+              "received": false
+            }
+          ],
+          "total_price": 71909,
+          "delivery": null,
+          "changedOn": "2025-12-18T13:09:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

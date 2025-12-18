@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 13:08:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3905",
+    "etag": "W/\"f41-NhqEYINaXDDj5E/tqEIWgqWzH0M\"",
+    "keep-alive": "timeout=5, max=42",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943fce71c508c5d5ed9f095",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943fce61c508c5d5ed9f01e",
+        "email": "Brook.White@yahoo.com",
+        "name": "Della Heaney",
+        "country": "France",
+        "city": "Buffalo Grove",
+        "street": "Ralph Circle 67",
+        "house": 265,
+        "flat": 3559,
+        "phone": "+074858258409024",
+        "createdOn": "2025-12-18T13:08:54.000Z",
+        "notes": "noHQBhDYDKFAfWlJwGQM3ciL9KvvfN"
+      },
+      "products": [
+        {
+          "_id": "6943fce61c508c5d5ed9f040",
+          "name": "Chips81977",
+          "amount": 423,
+          "price": 22651,
+          "manufacturer": "Google",
+          "notes": "or5ZjCRXhjzffdbfIjTnM090lcAxfg10adTSKn7E7cGK8FNuUW3YsUXS7nqj1VRcqNOHDCbpW87YBhtMn9cqsPUdZ353F2XXUkNGwdgia21cdja4Nftq8VxUqkEYg3wgyF9b1TrhDNfwjzip5W4BnDwtAlGHIZY3Ft4zWYZqjkg6YA8dMYgq3EjLbg9zYdJjUsgetwG0rAjr8NujGmL69JgKl8j43x8z86I5oQ78e2XGQFftoP0RDQOOHO",
+          "received": false
+        },
+        {
+          "_id": "6943fce71c508c5d5ed9f063",
+          "name": "Bacon66254",
+          "amount": 977,
+          "price": 30156,
+          "manufacturer": "Apple",
+          "notes": "5I5JVKr5lY0Pg9yZqfrSFWcIERUUijmHdI4PeUL02C3WkSJyXoqHmqWXHYgE4LSPwhTbe4AFpTCyh8sJtTYUgR9a7g6NvO9qyUsRj3Q1NgwshK5OuAt4W8ql43jRpYisgY7h2eM39Eepbe8Wf7ZslPuK3Nls5j8RHzyGrsudox19fSkUCYX1CWj9eZz7LnzrDnVcVtLAUWr36KVuzCDIgJpjUqo2vz8tYxOUsJnF3mOaB0e3bJk2D5DO7K",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "South Camren",
+          "street": "Donavon Prairie",
+          "house": 928,
+          "flat": 2411
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 52807,
+      "createdOn": "2025-12-18T13:08:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943fce61c508c5d5ed9f01e",
+          "products": [
+            {
+              "_id": "6943fce61c508c5d5ed9f040",
+              "name": "Chips81977",
+              "amount": 423,
+              "price": 22651,
+              "manufacturer": "Google",
+              "notes": "or5ZjCRXhjzffdbfIjTnM090lcAxfg10adTSKn7E7cGK8FNuUW3YsUXS7nqj1VRcqNOHDCbpW87YBhtMn9cqsPUdZ353F2XXUkNGwdgia21cdja4Nftq8VxUqkEYg3wgyF9b1TrhDNfwjzip5W4BnDwtAlGHIZY3Ft4zWYZqjkg6YA8dMYgq3EjLbg9zYdJjUsgetwG0rAjr8NujGmL69JgKl8j43x8z86I5oQ78e2XGQFftoP0RDQOOHO",
+              "received": false
+            },
+            {
+              "_id": "6943fce71c508c5d5ed9f063",
+              "name": "Bacon66254",
+              "amount": 977,
+              "price": 30156,
+              "manufacturer": "Apple",
+              "notes": "5I5JVKr5lY0Pg9yZqfrSFWcIERUUijmHdI4PeUL02C3WkSJyXoqHmqWXHYgE4LSPwhTbe4AFpTCyh8sJtTYUgR9a7g6NvO9qyUsRj3Q1NgwshK5OuAt4W8ql43jRpYisgY7h2eM39Eepbe8Wf7ZslPuK3Nls5j8RHzyGrsudox19fSkUCYX1CWj9eZz7LnzrDnVcVtLAUWr36KVuzCDIgJpjUqo2vz8tYxOUsJnF3mOaB0e3bJk2D5DO7K",
+              "received": false
+            }
+          ],
+          "total_price": 52807,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "South Camren",
+              "street": "Donavon Prairie",
+              "house": 928,
+              "flat": 2411
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T13:08:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943fce61c508c5d5ed9f01e",
+          "products": [
+            {
+              "_id": "6943fce61c508c5d5ed9f040",
+              "name": "Chips81977",
+              "amount": 423,
+              "price": 22651,
+              "manufacturer": "Google",
+              "notes": "or5ZjCRXhjzffdbfIjTnM090lcAxfg10adTSKn7E7cGK8FNuUW3YsUXS7nqj1VRcqNOHDCbpW87YBhtMn9cqsPUdZ353F2XXUkNGwdgia21cdja4Nftq8VxUqkEYg3wgyF9b1TrhDNfwjzip5W4BnDwtAlGHIZY3Ft4zWYZqjkg6YA8dMYgq3EjLbg9zYdJjUsgetwG0rAjr8NujGmL69JgKl8j43x8z86I5oQ78e2XGQFftoP0RDQOOHO",
+              "received": false
+            },
+            {
+              "_id": "6943fce71c508c5d5ed9f063",
+              "name": "Bacon66254",
+              "amount": 977,
+              "price": 30156,
+              "manufacturer": "Apple",
+              "notes": "5I5JVKr5lY0Pg9yZqfrSFWcIERUUijmHdI4PeUL02C3WkSJyXoqHmqWXHYgE4LSPwhTbe4AFpTCyh8sJtTYUgR9a7g6NvO9qyUsRj3Q1NgwshK5OuAt4W8ql43jRpYisgY7h2eM39Eepbe8Wf7ZslPuK3Nls5j8RHzyGrsudox19fSkUCYX1CWj9eZz7LnzrDnVcVtLAUWr36KVuzCDIgJpjUqo2vz8tYxOUsJnF3mOaB0e3bJk2D5DO7K",
+              "received": false
+            }
+          ],
+          "total_price": 52807,
+          "delivery": null,
+          "changedOn": "2025-12-18T13:08:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

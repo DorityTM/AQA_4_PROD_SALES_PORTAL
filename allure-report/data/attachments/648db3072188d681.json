@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 13:08:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2745",
+    "etag": "W/\"ab9-CHV2s5H8yVaaYkXVzFNC1I28r0g\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943fcd51c508c5d5ed9e8ef",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943fcd41c508c5d5ed9e889",
+        "email": "Dino_Schmeler@hotmail.com",
+        "name": "Rebeka Wuckert",
+        "country": "Belarus",
+        "city": "Racine",
+        "street": "Hessel Tunnel 36",
+        "house": 868,
+        "flat": 8371,
+        "phone": "+032695952318401",
+        "createdOn": "2025-12-18T13:08:36.000Z",
+        "notes": "GMLjuU66dyQNE0ZLdpIGXPZQXEfTvU"
+      },
+      "products": [
+        {
+          "_id": "6943fcd41c508c5d5ed9e8bd",
+          "name": "Chicken35252",
+          "amount": 857,
+          "price": 56691,
+          "manufacturer": "Sony",
+          "notes": "OqyUYoscsxBEX1jBg8HI2af6SAq1y3cS4jNbi52jF5zYfN98HDZQWEzEdsQXnGsYbOwGGArKwwiT6oRKH55BhdXtWk63lrny6u7sH7eiibhiKJeT61zP2qHezLTu8ip6xb8obORiSNJxrap9o5sFlQjlsX25eXSFS1m9QXFsk6oxH05HN0DIicNEHvuEonFfe2Cq6YO3Sx002mKmcGry5SVmFNcgSXhnGVFMQuZpeG2XI3UWxohaYsnG9o",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Conway",
+          "street": "Brigitte Common",
+          "house": 128,
+          "flat": 2833
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56691,
+      "createdOn": "2025-12-18T13:08:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943fcd41c508c5d5ed9e889",
+          "products": [
+            {
+              "_id": "6943fcd41c508c5d5ed9e8bd",
+              "name": "Chicken35252",
+              "amount": 857,
+              "price": 56691,
+              "manufacturer": "Sony",
+              "notes": "OqyUYoscsxBEX1jBg8HI2af6SAq1y3cS4jNbi52jF5zYfN98HDZQWEzEdsQXnGsYbOwGGArKwwiT6oRKH55BhdXtWk63lrny6u7sH7eiibhiKJeT61zP2qHezLTu8ip6xb8obORiSNJxrap9o5sFlQjlsX25eXSFS1m9QXFsk6oxH05HN0DIicNEHvuEonFfe2Cq6YO3Sx002mKmcGry5SVmFNcgSXhnGVFMQuZpeG2XI3UWxohaYsnG9o",
+              "received": false
+            }
+          ],
+          "total_price": 56691,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Conway",
+              "street": "Brigitte Common",
+              "house": 128,
+              "flat": 2833
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T13:08:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943fcd41c508c5d5ed9e889",
+          "products": [
+            {
+              "_id": "6943fcd41c508c5d5ed9e8bd",
+              "name": "Chicken35252",
+              "amount": 857,
+              "price": 56691,
+              "manufacturer": "Sony",
+              "notes": "OqyUYoscsxBEX1jBg8HI2af6SAq1y3cS4jNbi52jF5zYfN98HDZQWEzEdsQXnGsYbOwGGArKwwiT6oRKH55BhdXtWk63lrny6u7sH7eiibhiKJeT61zP2qHezLTu8ip6xb8obORiSNJxrap9o5sFlQjlsX25eXSFS1m9QXFsk6oxH05HN0DIicNEHvuEonFfe2Cq6YO3Sx002mKmcGry5SVmFNcgSXhnGVFMQuZpeG2XI3UWxohaYsnG9o",
+              "received": false
+            }
+          ],
+          "total_price": 56691,
+          "delivery": null,
+          "changedOn": "2025-12-18T13:08:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

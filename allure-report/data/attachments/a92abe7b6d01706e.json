@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 13:09:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2755",
+    "etag": "W/\"ac3-ai3kGFg460ZiA5GkdPbItqtoyWs\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6943fcf51c508c5d5ed9f639",
+      "status": "Draft",
+      "customer": {
+        "_id": "6943fcf41c508c5d5ed9f5e6",
+        "email": "Luciano63@gmail.com",
+        "name": "Kirsten Lesch",
+        "country": "Belarus",
+        "city": "Rowefurt",
+        "street": "Emard Forks 32",
+        "house": 413,
+        "flat": 5426,
+        "phone": "+414652091747083",
+        "createdOn": "2025-12-18T13:09:08.000Z",
+        "notes": "PEqhJdFIG8qXVvNSIvHXVmTShjLzqN"
+      },
+      "products": [
+        {
+          "_id": "6943fcf41c508c5d5ed9f61a",
+          "name": "Table1445",
+          "amount": 621,
+          "price": 21293,
+          "manufacturer": "Google",
+          "notes": "YG3nVpIOa46zLyHkL4zi5N9TZmDLaPcoyjFvvY7yUhvfvtTuPy7hKCSfTpfVYfyprrCIMQzZYVjk2my1O5Plvyo2gdekSH765D1kjJRNGiLeFaQSqBlq4PB6QkpFw5jjCQ9RS8IifOnuS3LAVW9kbgj5NEkl0sDyQZw5xXnVfqk9z5qJbrFDQuNNk8V1LHxXts4wZXnH5AnaKHT8OdPIA4WZzn0JW0VYgJjWhkjWHgEYuKMe3qGOX3U4nS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Lake Colemanburgh",
+          "street": "Poplar Avenue",
+          "house": 724,
+          "flat": 2651
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 21293,
+      "createdOn": "2025-12-18T13:09:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6943fcf41c508c5d5ed9f5e6",
+          "products": [
+            {
+              "_id": "6943fcf41c508c5d5ed9f61a",
+              "name": "Table1445",
+              "amount": 621,
+              "price": 21293,
+              "manufacturer": "Google",
+              "notes": "YG3nVpIOa46zLyHkL4zi5N9TZmDLaPcoyjFvvY7yUhvfvtTuPy7hKCSfTpfVYfyprrCIMQzZYVjk2my1O5Plvyo2gdekSH765D1kjJRNGiLeFaQSqBlq4PB6QkpFw5jjCQ9RS8IifOnuS3LAVW9kbgj5NEkl0sDyQZw5xXnVfqk9z5qJbrFDQuNNk8V1LHxXts4wZXnH5AnaKHT8OdPIA4WZzn0JW0VYgJjWhkjWHgEYuKMe3qGOX3U4nS",
+              "received": false
+            }
+          ],
+          "total_price": 21293,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Lake Colemanburgh",
+              "street": "Poplar Avenue",
+              "house": 724,
+              "flat": 2651
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T13:09:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6943fcf41c508c5d5ed9f5e6",
+          "products": [
+            {
+              "_id": "6943fcf41c508c5d5ed9f61a",
+              "name": "Table1445",
+              "amount": 621,
+              "price": 21293,
+              "manufacturer": "Google",
+              "notes": "YG3nVpIOa46zLyHkL4zi5N9TZmDLaPcoyjFvvY7yUhvfvtTuPy7hKCSfTpfVYfyprrCIMQzZYVjk2my1O5Plvyo2gdekSH765D1kjJRNGiLeFaQSqBlq4PB6QkpFw5jjCQ9RS8IifOnuS3LAVW9kbgj5NEkl0sDyQZw5xXnVfqk9z5qJbrFDQuNNk8V1LHxXts4wZXnH5AnaKHT8OdPIA4WZzn0JW0VYgJjWhkjWHgEYuKMe3qGOX3U4nS",
+              "received": false
+            }
+          ],
+          "total_price": 21293,
+          "delivery": null,
+          "changedOn": "2025-12-18T13:09:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
