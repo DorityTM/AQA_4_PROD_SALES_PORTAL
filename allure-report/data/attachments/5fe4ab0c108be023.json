@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:26:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1676",
+    "etag": "W/\"68c-mlAbJNMV2oaMTT1O6ZqaYnhq62c\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6944476a1c508c5d5edd1a7c",
+        "email": "Damien.Kozey@gmail.com",
+        "name": "Novella Williamson",
+        "country": "Canada",
+        "city": "Welchstead",
+        "street": "Benjamin Fort 62",
+        "house": 871,
+        "flat": 938,
+        "phone": "+409324284231845",
+        "createdOn": "2025-12-18T18:26:50.000Z",
+        "notes": "Gh4JuNHIWCKo31TEL6cs6vtayoBtDc"
+      },
+      "products": [
+        {
+          "_id": "6944476b1c508c5d5edd1b7f",
+          "name": "Bacon81248",
+          "amount": 657,
+          "price": 98160,
+          "manufacturer": "Amazon",
+          "notes": "b1jGWNp3K2Wn08iFvex9TXGaY65HXZQ6pgcpvAlbMUafgSz6GAhE26eHnduAfjSPjbbMW4BGPq3rPJwLR1V4vRrZaF5Tg4r6GJI9um5oerkik3QiYEdbRPE2P3hcRluuodNsufuEFEx3V1pFgXFVKbl7WnXh2X2GPBhgNDteNe4qbkn869CAaRxrqzV6vC8jRQ2KzWUz103eEWD6KtdtUzWZFMbHb2r9PZKbJ6pLa4xixBZCAqVVoDvJI8",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98160,
+      "createdOn": "2025-12-18T18:26:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944476a1c508c5d5edd1a7c",
+          "products": [
+            {
+              "_id": "6944476b1c508c5d5edd1b7f",
+              "name": "Bacon81248",
+              "amount": 657,
+              "price": 98160,
+              "manufacturer": "Amazon",
+              "notes": "b1jGWNp3K2Wn08iFvex9TXGaY65HXZQ6pgcpvAlbMUafgSz6GAhE26eHnduAfjSPjbbMW4BGPq3rPJwLR1V4vRrZaF5Tg4r6GJI9um5oerkik3QiYEdbRPE2P3hcRluuodNsufuEFEx3V1pFgXFVKbl7WnXh2X2GPBhgNDteNe4qbkn869CAaRxrqzV6vC8jRQ2KzWUz103eEWD6KtdtUzWZFMbHb2r9PZKbJ6pLa4xixBZCAqVVoDvJI8",
+              "received": false
+            }
+          ],
+          "total_price": 98160,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:26:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6944476d1c508c5d5edd1c7d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

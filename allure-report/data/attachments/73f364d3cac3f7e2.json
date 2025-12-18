@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:25:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-WYChKoo5LojW50AywFFDE4hH+qw\"",
+    "keep-alive": "timeout=5, max=27",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694447241c508c5d5edcf43d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694447231c508c5d5edcf399",
+        "email": "Mara83@hotmail.com",
+        "name": "Jada Daugherty",
+        "country": "France",
+        "city": "Schmittstead",
+        "street": "School Road 35",
+        "house": 89,
+        "flat": 8405,
+        "phone": "+670430861373731",
+        "createdOn": "2025-12-18T18:25:39.000Z",
+        "notes": "YpS8dfq5TayP01ctqKEkRLjpQmajUp"
+      },
+      "products": [
+        {
+          "_id": "694447231c508c5d5edcf3b6",
+          "name": "Pizza33721",
+          "amount": 128,
+          "price": 97153,
+          "manufacturer": "Samsung",
+          "notes": "9Ys9oKCES7V17UmnsGXYIYgSbSeJxVVEyzEVQSqReAMS4BJRnzPL1ijKhI45BHgAFOni1n8hkb49LU8SInChewUFoHdgX16QxAqLj0xJk8c4HGkaHwX5VTd6NsN5U9RQOjGhS9o2m3aQ0Mp79OtAuxb0hfUb4XWERwpojxo6rp8QVhBl8UhwGFqQNL2vZodlskLn9Qn5rDeMAgR4uBLbazKyHL2bW2OppKHf8GRORU12yqs07syd7jwIft",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "West Lafayette",
+          "street": "Abdiel Estate",
+          "house": 867,
+          "flat": 1302
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97153,
+      "createdOn": "2025-12-18T18:25:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694447231c508c5d5edcf399",
+          "products": [
+            {
+              "_id": "694447231c508c5d5edcf3b6",
+              "name": "Pizza33721",
+              "amount": 128,
+              "price": 97153,
+              "manufacturer": "Samsung",
+              "notes": "9Ys9oKCES7V17UmnsGXYIYgSbSeJxVVEyzEVQSqReAMS4BJRnzPL1ijKhI45BHgAFOni1n8hkb49LU8SInChewUFoHdgX16QxAqLj0xJk8c4HGkaHwX5VTd6NsN5U9RQOjGhS9o2m3aQ0Mp79OtAuxb0hfUb4XWERwpojxo6rp8QVhBl8UhwGFqQNL2vZodlskLn9Qn5rDeMAgR4uBLbazKyHL2bW2OppKHf8GRORU12yqs07syd7jwIft",
+              "received": false
+            }
+          ],
+          "total_price": 97153,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "West Lafayette",
+              "street": "Abdiel Estate",
+              "house": 867,
+              "flat": 1302
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:25:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694447231c508c5d5edcf399",
+          "products": [
+            {
+              "_id": "694447231c508c5d5edcf3b6",
+              "name": "Pizza33721",
+              "amount": 128,
+              "price": 97153,
+              "manufacturer": "Samsung",
+              "notes": "9Ys9oKCES7V17UmnsGXYIYgSbSeJxVVEyzEVQSqReAMS4BJRnzPL1ijKhI45BHgAFOni1n8hkb49LU8SInChewUFoHdgX16QxAqLj0xJk8c4HGkaHwX5VTd6NsN5U9RQOjGhS9o2m3aQ0Mp79OtAuxb0hfUb4XWERwpojxo6rp8QVhBl8UhwGFqQNL2vZodlskLn9Qn5rDeMAgR4uBLbazKyHL2bW2OppKHf8GRORU12yqs07syd7jwIft",
+              "received": false
+            }
+          ],
+          "total_price": 97153,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:25:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:25:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3669",
+    "etag": "W/\"e55-hH1xpx0Ex8PIh/AuunE1Sa1uNi8\"",
+    "keep-alive": "timeout=5, max=36",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944471e1c508c5d5edcf1be",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6944471d1c508c5d5edcf0d9",
+        "email": "Astrid49@gmail.com",
+        "name": "Matt Bahringer",
+        "country": "Russia",
+        "city": "Lake Enolaland",
+        "street": "Marina Key 47",
+        "house": 146,
+        "flat": 219,
+        "phone": "+301592127162029",
+        "createdOn": "2025-12-18T18:25:33.000Z",
+        "notes": "ZFMzoD5ogep0tqM4rjZdHuLdCJYulj"
+      },
+      "products": [
+        {
+          "_id": "6944471d1c508c5d5edcf145",
+          "name": "Cheese51710",
+          "amount": 681,
+          "price": 17559,
+          "manufacturer": "Samsung",
+          "notes": "KDo0guzvz1yYmyQCumfLuB9Z7KbPzFwBUzJHjmzy7c8817Sh59p11zcHdWzcNcrRjAE2nLAm8BYisB39Ofe2vqWgeb5CCAlUZH4D1pMfW57sLTKaRXyYGzGexu1jjUy1vTuFVAfoAW6QZ3uChShXMgsq3fwdXKvgzbTJBODhZkJMEpaeu2B27ZkfE8DufgYdu7wKEoSmDW31sFL1milI02NYkaKbQqq7o51kNlLCqjkn4CiwdwS52LgPmT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Verlaboro",
+          "street": "Laurel Ridges",
+          "house": 648,
+          "flat": 5913
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17559,
+      "createdOn": "2025-12-18T18:25:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6944471d1c508c5d5edcf0d9",
+          "products": [
+            {
+              "_id": "6944471d1c508c5d5edcf145",
+              "name": "Cheese51710",
+              "amount": 681,
+              "price": 17559,
+              "manufacturer": "Samsung",
+              "notes": "KDo0guzvz1yYmyQCumfLuB9Z7KbPzFwBUzJHjmzy7c8817Sh59p11zcHdWzcNcrRjAE2nLAm8BYisB39Ofe2vqWgeb5CCAlUZH4D1pMfW57sLTKaRXyYGzGexu1jjUy1vTuFVAfoAW6QZ3uChShXMgsq3fwdXKvgzbTJBODhZkJMEpaeu2B27ZkfE8DufgYdu7wKEoSmDW31sFL1milI02NYkaKbQqq7o51kNlLCqjkn4CiwdwS52LgPmT",
+              "received": false
+            }
+          ],
+          "total_price": 17559,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Verlaboro",
+              "street": "Laurel Ridges",
+              "house": 648,
+              "flat": 5913
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:25:36.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944471d1c508c5d5edcf0d9",
+          "products": [
+            {
+              "_id": "6944471d1c508c5d5edcf145",
+              "name": "Cheese51710",
+              "amount": 681,
+              "price": 17559,
+              "manufacturer": "Samsung",
+              "notes": "KDo0guzvz1yYmyQCumfLuB9Z7KbPzFwBUzJHjmzy7c8817Sh59p11zcHdWzcNcrRjAE2nLAm8BYisB39Ofe2vqWgeb5CCAlUZH4D1pMfW57sLTKaRXyYGzGexu1jjUy1vTuFVAfoAW6QZ3uChShXMgsq3fwdXKvgzbTJBODhZkJMEpaeu2B27ZkfE8DufgYdu7wKEoSmDW31sFL1milI02NYkaKbQqq7o51kNlLCqjkn4CiwdwS52LgPmT",
+              "received": false
+            }
+          ],
+          "total_price": 17559,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Verlaboro",
+              "street": "Laurel Ridges",
+              "house": 648,
+              "flat": 5913
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:25:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944471d1c508c5d5edcf0d9",
+          "products": [
+            {
+              "_id": "6944471d1c508c5d5edcf145",
+              "name": "Cheese51710",
+              "amount": 681,
+              "price": 17559,
+              "manufacturer": "Samsung",
+              "notes": "KDo0guzvz1yYmyQCumfLuB9Z7KbPzFwBUzJHjmzy7c8817Sh59p11zcHdWzcNcrRjAE2nLAm8BYisB39Ofe2vqWgeb5CCAlUZH4D1pMfW57sLTKaRXyYGzGexu1jjUy1vTuFVAfoAW6QZ3uChShXMgsq3fwdXKvgzbTJBODhZkJMEpaeu2B27ZkfE8DufgYdu7wKEoSmDW31sFL1milI02NYkaKbQqq7o51kNlLCqjkn4CiwdwS52LgPmT",
+              "received": false
+            }
+          ],
+          "total_price": 17559,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:25:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

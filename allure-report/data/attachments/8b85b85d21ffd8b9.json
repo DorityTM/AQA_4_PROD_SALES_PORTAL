@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:24:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2755",
+    "etag": "W/\"ac3-ibGpSjwAI+viH1lL2eZGOxCbvbY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694446f21c508c5d5edcdbe3",
+      "status": "Draft",
+      "customer": {
+        "_id": "694446f11c508c5d5edcdb4b",
+        "email": "Beatrice.Berge@gmail.com",
+        "name": "Rosemarie Crooks",
+        "country": "Germany",
+        "city": "Fort Collins",
+        "street": "Ziemann Fords 9",
+        "house": 741,
+        "flat": 8118,
+        "phone": "+926865828689229",
+        "createdOn": "2025-12-18T18:24:49.000Z",
+        "notes": "zRnVaWPJtk1wrCHICe7vEvtasGNybY"
+      },
+      "products": [
+        {
+          "_id": "694446f11c508c5d5edcdb56",
+          "name": "Shoes70231",
+          "amount": 35,
+          "price": 80910,
+          "manufacturer": "Apple",
+          "notes": "JHZE9lv3Q8IiwSLSsry16q336giPSVQ7q8klYkTjzQyiRvsCKdELvuQyJO59VJ0HT3IBDMLCoQ8Y80APoYmEXA5iGMfbUA2xhJ4nIwrAnepQZHFZYaP00sYdFQoUPvzdFfFiddqvnH4yxf2aiVImhJPN51QR5V6dt98EBQMLkZtsllqKr71cGTVZOKgb7PvMh9WAyYR4KTYwwdP8iVoopcuKIoeXA29Dfmr3ClhuqSTUbGBRRIVugDkbHg",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Ellicott City",
+          "street": "Julius Branch",
+          "house": 191,
+          "flat": 6893
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80910,
+      "createdOn": "2025-12-18T18:24:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694446f11c508c5d5edcdb4b",
+          "products": [
+            {
+              "_id": "694446f11c508c5d5edcdb56",
+              "name": "Shoes70231",
+              "amount": 35,
+              "price": 80910,
+              "manufacturer": "Apple",
+              "notes": "JHZE9lv3Q8IiwSLSsry16q336giPSVQ7q8klYkTjzQyiRvsCKdELvuQyJO59VJ0HT3IBDMLCoQ8Y80APoYmEXA5iGMfbUA2xhJ4nIwrAnepQZHFZYaP00sYdFQoUPvzdFfFiddqvnH4yxf2aiVImhJPN51QR5V6dt98EBQMLkZtsllqKr71cGTVZOKgb7PvMh9WAyYR4KTYwwdP8iVoopcuKIoeXA29Dfmr3ClhuqSTUbGBRRIVugDkbHg",
+              "received": false
+            }
+          ],
+          "total_price": 80910,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Ellicott City",
+              "street": "Julius Branch",
+              "house": 191,
+              "flat": 6893
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:24:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694446f11c508c5d5edcdb4b",
+          "products": [
+            {
+              "_id": "694446f11c508c5d5edcdb56",
+              "name": "Shoes70231",
+              "amount": 35,
+              "price": 80910,
+              "manufacturer": "Apple",
+              "notes": "JHZE9lv3Q8IiwSLSsry16q336giPSVQ7q8klYkTjzQyiRvsCKdELvuQyJO59VJ0HT3IBDMLCoQ8Y80APoYmEXA5iGMfbUA2xhJ4nIwrAnepQZHFZYaP00sYdFQoUPvzdFfFiddqvnH4yxf2aiVImhJPN51QR5V6dt98EBQMLkZtsllqKr71cGTVZOKgb7PvMh9WAyYR4KTYwwdP8iVoopcuKIoeXA29Dfmr3ClhuqSTUbGBRRIVugDkbHg",
+              "received": false
+            }
+          ],
+          "total_price": 80910,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:24:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

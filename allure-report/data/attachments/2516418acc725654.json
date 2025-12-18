@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:26:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4581",
+    "etag": "W/\"11e5-m8736lvIcys4RFu4RH3rLrLzgW8\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944475c1c508c5d5edd1259",
+      "status": "Received",
+      "customer": {
+        "_id": "6944475b1c508c5d5edd121e",
+        "email": "Jimmie_Hintz87@gmail.com",
+        "name": "Lindsey Von",
+        "country": "Germany",
+        "city": "Reannastad",
+        "street": "Madison Avenue 9",
+        "house": 873,
+        "flat": 5583,
+        "phone": "+082660613677422",
+        "createdOn": "2025-12-18T18:26:35.000Z",
+        "notes": "EvS63jH1DAkSfDv275Dk0jAvvMNo8Y"
+      },
+      "products": [
+        {
+          "_id": "6944475c1c508c5d5edd1230",
+          "name": "Hat71587",
+          "amount": 492,
+          "price": 70784,
+          "manufacturer": "Sony",
+          "notes": "ohc5HlI9bWtZq67RzzQfrheliP1oa7lvJ3FPNjkOZnQTMT4hpYZYju7WE4bnhBbjQYgadodxJMf1Ch8hC19PMP9ygjfXKDpmbl5byhGfxxUQNjT8Uu2SRjdT4tXmPTuyCSTKpZ1BYH4VDKo9BAk9NRLo2XAoOWSoVcepPj6a2iGL2HtBDXJsQhIMfQ0HBeVxqB8W1dm75NqIKACQCyPtrRoWLzsgycahoXsPSAgeOO7M5sBwlHzuXUGFAB",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Reaganside",
+          "street": "Daugherty Fork",
+          "house": 846,
+          "flat": 112
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 70784,
+      "createdOn": "2025-12-18T18:26:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6944475b1c508c5d5edd121e",
+          "products": [
+            {
+              "_id": "6944475c1c508c5d5edd1230",
+              "name": "Hat71587",
+              "amount": 492,
+              "price": 70784,
+              "manufacturer": "Sony",
+              "notes": "ohc5HlI9bWtZq67RzzQfrheliP1oa7lvJ3FPNjkOZnQTMT4hpYZYju7WE4bnhBbjQYgadodxJMf1Ch8hC19PMP9ygjfXKDpmbl5byhGfxxUQNjT8Uu2SRjdT4tXmPTuyCSTKpZ1BYH4VDKo9BAk9NRLo2XAoOWSoVcepPj6a2iGL2HtBDXJsQhIMfQ0HBeVxqB8W1dm75NqIKACQCyPtrRoWLzsgycahoXsPSAgeOO7M5sBwlHzuXUGFAB",
+              "received": true
+            }
+          ],
+          "total_price": 70784,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Reaganside",
+              "street": "Daugherty Fork",
+              "house": 846,
+              "flat": 112
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:26:38.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6944475b1c508c5d5edd121e",
+          "products": [
+            {
+              "_id": "6944475c1c508c5d5edd1230",
+              "name": "Hat71587",
+              "amount": 492,
+              "price": 70784,
+              "manufacturer": "Sony",
+              "notes": "ohc5HlI9bWtZq67RzzQfrheliP1oa7lvJ3FPNjkOZnQTMT4hpYZYju7WE4bnhBbjQYgadodxJMf1Ch8hC19PMP9ygjfXKDpmbl5byhGfxxUQNjT8Uu2SRjdT4tXmPTuyCSTKpZ1BYH4VDKo9BAk9NRLo2XAoOWSoVcepPj6a2iGL2HtBDXJsQhIMfQ0HBeVxqB8W1dm75NqIKACQCyPtrRoWLzsgycahoXsPSAgeOO7M5sBwlHzuXUGFAB",
+              "received": false
+            }
+          ],
+          "total_price": 70784,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Reaganside",
+              "street": "Daugherty Fork",
+              "house": 846,
+              "flat": 112
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:26:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944475b1c508c5d5edd121e",
+          "products": [
+            {
+              "_id": "6944475c1c508c5d5edd1230",
+              "name": "Hat71587",
+              "amount": 492,
+              "price": 70784,
+              "manufacturer": "Sony",
+              "notes": "ohc5HlI9bWtZq67RzzQfrheliP1oa7lvJ3FPNjkOZnQTMT4hpYZYju7WE4bnhBbjQYgadodxJMf1Ch8hC19PMP9ygjfXKDpmbl5byhGfxxUQNjT8Uu2SRjdT4tXmPTuyCSTKpZ1BYH4VDKo9BAk9NRLo2XAoOWSoVcepPj6a2iGL2HtBDXJsQhIMfQ0HBeVxqB8W1dm75NqIKACQCyPtrRoWLzsgycahoXsPSAgeOO7M5sBwlHzuXUGFAB",
+              "received": false
+            }
+          ],
+          "total_price": 70784,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Reaganside",
+              "street": "Daugherty Fork",
+              "house": 846,
+              "flat": 112
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:26:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944475b1c508c5d5edd121e",
+          "products": [
+            {
+              "_id": "6944475c1c508c5d5edd1230",
+              "name": "Hat71587",
+              "amount": 492,
+              "price": 70784,
+              "manufacturer": "Sony",
+              "notes": "ohc5HlI9bWtZq67RzzQfrheliP1oa7lvJ3FPNjkOZnQTMT4hpYZYju7WE4bnhBbjQYgadodxJMf1Ch8hC19PMP9ygjfXKDpmbl5byhGfxxUQNjT8Uu2SRjdT4tXmPTuyCSTKpZ1BYH4VDKo9BAk9NRLo2XAoOWSoVcepPj6a2iGL2HtBDXJsQhIMfQ0HBeVxqB8W1dm75NqIKACQCyPtrRoWLzsgycahoXsPSAgeOO7M5sBwlHzuXUGFAB",
+              "received": false
+            }
+          ],
+          "total_price": 70784,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:26:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

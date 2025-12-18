@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:26:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3672",
+    "etag": "W/\"e58-sG94MxnFqREGeTjUEU8ulty2BiE\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944473f1c508c5d5edd0237",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6944473f1c508c5d5edd01f3",
+        "email": "Dovie40@yahoo.com",
+        "name": "Mitchel Ortiz",
+        "country": "Germany",
+        "city": "North Jadaland",
+        "street": "Geovanni Meadow 8",
+        "house": 965,
+        "flat": 4524,
+        "phone": "+998062188680126",
+        "createdOn": "2025-12-18T18:26:07.000Z",
+        "notes": "zGkChL0PVJc3Fx9gPwRUfVL0el0YiT"
+      },
+      "products": [
+        {
+          "_id": "6944473f1c508c5d5edd0213",
+          "name": "Computer31044",
+          "amount": 19,
+          "price": 47277,
+          "manufacturer": "Apple",
+          "notes": "1RREcdzaUFpaqZqjFn5IVwj7FJnqy9bJFtSXpkgE7hxJCWGX4UGg4WLJcKgCQFAPARYJF3eMmq59LoHVA4oAFElGomT8W7axPIi7SHttg9jCeA5iO6NH0tEtR75Q2diu1vozO9DpaYop4hHYaGvcBpUJmUaGIG0f0YXzRMA8TbQTF9xx1ZDJkML6o0JM3HQpDgbMLaynP83JNlf5ZMXWbjfr1MqEmJBS9Qo9q5c3J0gRNrVRLOYmEvD2I1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Palm Beach",
+          "street": "Buddy Forks",
+          "house": 323,
+          "flat": 3274
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47277,
+      "createdOn": "2025-12-18T18:26:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6944473f1c508c5d5edd01f3",
+          "products": [
+            {
+              "_id": "6944473f1c508c5d5edd0213",
+              "name": "Computer31044",
+              "amount": 19,
+              "price": 47277,
+              "manufacturer": "Apple",
+              "notes": "1RREcdzaUFpaqZqjFn5IVwj7FJnqy9bJFtSXpkgE7hxJCWGX4UGg4WLJcKgCQFAPARYJF3eMmq59LoHVA4oAFElGomT8W7axPIi7SHttg9jCeA5iO6NH0tEtR75Q2diu1vozO9DpaYop4hHYaGvcBpUJmUaGIG0f0YXzRMA8TbQTF9xx1ZDJkML6o0JM3HQpDgbMLaynP83JNlf5ZMXWbjfr1MqEmJBS9Qo9q5c3J0gRNrVRLOYmEvD2I1",
+              "received": false
+            }
+          ],
+          "total_price": 47277,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Palm Beach",
+              "street": "Buddy Forks",
+              "house": 323,
+              "flat": 3274
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:26:08.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944473f1c508c5d5edd01f3",
+          "products": [
+            {
+              "_id": "6944473f1c508c5d5edd0213",
+              "name": "Computer31044",
+              "amount": 19,
+              "price": 47277,
+              "manufacturer": "Apple",
+              "notes": "1RREcdzaUFpaqZqjFn5IVwj7FJnqy9bJFtSXpkgE7hxJCWGX4UGg4WLJcKgCQFAPARYJF3eMmq59LoHVA4oAFElGomT8W7axPIi7SHttg9jCeA5iO6NH0tEtR75Q2diu1vozO9DpaYop4hHYaGvcBpUJmUaGIG0f0YXzRMA8TbQTF9xx1ZDJkML6o0JM3HQpDgbMLaynP83JNlf5ZMXWbjfr1MqEmJBS9Qo9q5c3J0gRNrVRLOYmEvD2I1",
+              "received": false
+            }
+          ],
+          "total_price": 47277,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Palm Beach",
+              "street": "Buddy Forks",
+              "house": 323,
+              "flat": 3274
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:26:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944473f1c508c5d5edd01f3",
+          "products": [
+            {
+              "_id": "6944473f1c508c5d5edd0213",
+              "name": "Computer31044",
+              "amount": 19,
+              "price": 47277,
+              "manufacturer": "Apple",
+              "notes": "1RREcdzaUFpaqZqjFn5IVwj7FJnqy9bJFtSXpkgE7hxJCWGX4UGg4WLJcKgCQFAPARYJF3eMmq59LoHVA4oAFElGomT8W7axPIi7SHttg9jCeA5iO6NH0tEtR75Q2diu1vozO9DpaYop4hHYaGvcBpUJmUaGIG0f0YXzRMA8TbQTF9xx1ZDJkML6o0JM3HQpDgbMLaynP83JNlf5ZMXWbjfr1MqEmJBS9Qo9q5c3J0gRNrVRLOYmEvD2I1",
+              "received": false
+            }
+          ],
+          "total_price": 47277,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:26:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

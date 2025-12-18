@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 18:24:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4589",
+    "etag": "W/\"11ed-RcDK2vnE6Td1dZjBE6oIftx5LDQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694446f31c508c5d5edcdc3f",
+      "status": "Received",
+      "customer": {
+        "_id": "694446f21c508c5d5edcdbec",
+        "email": "Candida.Connelly68@gmail.com",
+        "name": "Florian Donnelly",
+        "country": "Canada",
+        "city": "Rickieborough",
+        "street": "Hailee Plaza 29",
+        "house": 813,
+        "flat": 119,
+        "phone": "+250126041742215",
+        "createdOn": "2025-12-18T18:24:50.000Z",
+        "notes": "RRfv0Ore25mMQ9KXwyrCGOPV1H19uH"
+      },
+      "products": [
+        {
+          "_id": "694446f21c508c5d5edcdc04",
+          "name": "Mouse91565",
+          "amount": 208,
+          "price": 32326,
+          "manufacturer": "Apple",
+          "notes": "IT7xPiJenkjmKEEGl4BXhuL9oZhkSYsDbouhWJZp21iELqqkOXVHNskik5nZsMpYDk4b3lGayyvNyDf7BPt7NP9saLIxmv2IWS3WgP2JqJi8UoOkCdwhuxDV6KfxuFDCC1JeltyVnXKQxOjmcM7S06PozVKjpoWiqnKPu4J6eZVaMm4JZ4Dm1dnl54QeBkdoNd0G4j7G5DrtxiWSKqysd7mYVLbBopY5CuixZQb5mCuJ3AxnyPR1Mbw2Aq",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Kiehnview",
+          "street": "Madison Avenue",
+          "house": 85,
+          "flat": 7238
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 32326,
+      "createdOn": "2025-12-18T18:24:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694446f21c508c5d5edcdbec",
+          "products": [
+            {
+              "_id": "694446f21c508c5d5edcdc04",
+              "name": "Mouse91565",
+              "amount": 208,
+              "price": 32326,
+              "manufacturer": "Apple",
+              "notes": "IT7xPiJenkjmKEEGl4BXhuL9oZhkSYsDbouhWJZp21iELqqkOXVHNskik5nZsMpYDk4b3lGayyvNyDf7BPt7NP9saLIxmv2IWS3WgP2JqJi8UoOkCdwhuxDV6KfxuFDCC1JeltyVnXKQxOjmcM7S06PozVKjpoWiqnKPu4J6eZVaMm4JZ4Dm1dnl54QeBkdoNd0G4j7G5DrtxiWSKqysd7mYVLbBopY5CuixZQb5mCuJ3AxnyPR1Mbw2Aq",
+              "received": true
+            }
+          ],
+          "total_price": 32326,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kiehnview",
+              "street": "Madison Avenue",
+              "house": 85,
+              "flat": 7238
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:24:52.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694446f21c508c5d5edcdbec",
+          "products": [
+            {
+              "_id": "694446f21c508c5d5edcdc04",
+              "name": "Mouse91565",
+              "amount": 208,
+              "price": 32326,
+              "manufacturer": "Apple",
+              "notes": "IT7xPiJenkjmKEEGl4BXhuL9oZhkSYsDbouhWJZp21iELqqkOXVHNskik5nZsMpYDk4b3lGayyvNyDf7BPt7NP9saLIxmv2IWS3WgP2JqJi8UoOkCdwhuxDV6KfxuFDCC1JeltyVnXKQxOjmcM7S06PozVKjpoWiqnKPu4J6eZVaMm4JZ4Dm1dnl54QeBkdoNd0G4j7G5DrtxiWSKqysd7mYVLbBopY5CuixZQb5mCuJ3AxnyPR1Mbw2Aq",
+              "received": false
+            }
+          ],
+          "total_price": 32326,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kiehnview",
+              "street": "Madison Avenue",
+              "house": 85,
+              "flat": 7238
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:24:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694446f21c508c5d5edcdbec",
+          "products": [
+            {
+              "_id": "694446f21c508c5d5edcdc04",
+              "name": "Mouse91565",
+              "amount": 208,
+              "price": 32326,
+              "manufacturer": "Apple",
+              "notes": "IT7xPiJenkjmKEEGl4BXhuL9oZhkSYsDbouhWJZp21iELqqkOXVHNskik5nZsMpYDk4b3lGayyvNyDf7BPt7NP9saLIxmv2IWS3WgP2JqJi8UoOkCdwhuxDV6KfxuFDCC1JeltyVnXKQxOjmcM7S06PozVKjpoWiqnKPu4J6eZVaMm4JZ4Dm1dnl54QeBkdoNd0G4j7G5DrtxiWSKqysd7mYVLbBopY5CuixZQb5mCuJ3AxnyPR1Mbw2Aq",
+              "received": false
+            }
+          ],
+          "total_price": 32326,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kiehnview",
+              "street": "Madison Avenue",
+              "house": 85,
+              "flat": 7238
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T18:24:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694446f21c508c5d5edcdbec",
+          "products": [
+            {
+              "_id": "694446f21c508c5d5edcdc04",
+              "name": "Mouse91565",
+              "amount": 208,
+              "price": 32326,
+              "manufacturer": "Apple",
+              "notes": "IT7xPiJenkjmKEEGl4BXhuL9oZhkSYsDbouhWJZp21iELqqkOXVHNskik5nZsMpYDk4b3lGayyvNyDf7BPt7NP9saLIxmv2IWS3WgP2JqJi8UoOkCdwhuxDV6KfxuFDCC1JeltyVnXKQxOjmcM7S06PozVKjpoWiqnKPu4J6eZVaMm4JZ4Dm1dnl54QeBkdoNd0G4j7G5DrtxiWSKqysd7mYVLbBopY5CuixZQb5mCuJ3AxnyPR1Mbw2Aq",
+              "received": false
+            }
+          ],
+          "total_price": 32326,
+          "delivery": null,
+          "changedOn": "2025-12-18T18:24:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
