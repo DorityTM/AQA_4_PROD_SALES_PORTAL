@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:40:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3684",
+    "etag": "W/\"e64-USSOWMJctb7X3F/D04J+GVt74T8\"",
+    "keep-alive": "timeout=5, max=20",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694474b71c508c5d5ee22652",
+      "status": "In Process",
+      "customer": {
+        "_id": "694474b61c508c5d5ee2260e",
+        "email": "Natalia_Kilback87@gmail.com",
+        "name": "Keshaun White",
+        "country": "Germany",
+        "city": "South Moisesport",
+        "street": "Front Street 28",
+        "house": 686,
+        "flat": 9016,
+        "phone": "+817441278652374",
+        "createdOn": "2025-12-18T21:40:06.000Z",
+        "notes": "VvyXuAUZuuHs7QNvYF3gLi9DIqLYZL"
+      },
+      "products": [
+        {
+          "_id": "694474b61c508c5d5ee22622",
+          "name": "Computer15389",
+          "amount": 47,
+          "price": 76865,
+          "manufacturer": "Apple",
+          "notes": "HCOSYS376r3bm6Z8M8tISPniuAhQEmCM3IznlDvfdSKOxs543IF1auPl7ZJy08BDtb3gYMY6TZWKIu3dCJpHl5GUneZ0g0R3OLW5zfv7WSW2k6BoK85Snzj4gJ2pS7zFkWH79ziV68VBf0gs0BpcfkVVxV9W83MUWEuA1v9BxEYmfzAFJipciZmYwoay9FoqT7Ik0FXrj1puQZINS1hkCFf1vF3VEwRcdmweagLQfxx1TrRoAas1ls1bI4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Burbank",
+          "street": "Jacobi Vista",
+          "house": 251,
+          "flat": 995
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76865,
+      "createdOn": "2025-12-18T21:40:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694474b61c508c5d5ee2260e",
+          "products": [
+            {
+              "_id": "694474b61c508c5d5ee22622",
+              "name": "Computer15389",
+              "amount": 47,
+              "price": 76865,
+              "manufacturer": "Apple",
+              "notes": "HCOSYS376r3bm6Z8M8tISPniuAhQEmCM3IznlDvfdSKOxs543IF1auPl7ZJy08BDtb3gYMY6TZWKIu3dCJpHl5GUneZ0g0R3OLW5zfv7WSW2k6BoK85Snzj4gJ2pS7zFkWH79ziV68VBf0gs0BpcfkVVxV9W83MUWEuA1v9BxEYmfzAFJipciZmYwoay9FoqT7Ik0FXrj1puQZINS1hkCFf1vF3VEwRcdmweagLQfxx1TrRoAas1ls1bI4",
+              "received": false
+            }
+          ],
+          "total_price": 76865,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Burbank",
+              "street": "Jacobi Vista",
+              "house": 251,
+              "flat": 995
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474b61c508c5d5ee2260e",
+          "products": [
+            {
+              "_id": "694474b61c508c5d5ee22622",
+              "name": "Computer15389",
+              "amount": 47,
+              "price": 76865,
+              "manufacturer": "Apple",
+              "notes": "HCOSYS376r3bm6Z8M8tISPniuAhQEmCM3IznlDvfdSKOxs543IF1auPl7ZJy08BDtb3gYMY6TZWKIu3dCJpHl5GUneZ0g0R3OLW5zfv7WSW2k6BoK85Snzj4gJ2pS7zFkWH79ziV68VBf0gs0BpcfkVVxV9W83MUWEuA1v9BxEYmfzAFJipciZmYwoay9FoqT7Ik0FXrj1puQZINS1hkCFf1vF3VEwRcdmweagLQfxx1TrRoAas1ls1bI4",
+              "received": false
+            }
+          ],
+          "total_price": 76865,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Burbank",
+              "street": "Jacobi Vista",
+              "house": 251,
+              "flat": 995
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474b61c508c5d5ee2260e",
+          "products": [
+            {
+              "_id": "694474b61c508c5d5ee22622",
+              "name": "Computer15389",
+              "amount": 47,
+              "price": 76865,
+              "manufacturer": "Apple",
+              "notes": "HCOSYS376r3bm6Z8M8tISPniuAhQEmCM3IznlDvfdSKOxs543IF1auPl7ZJy08BDtb3gYMY6TZWKIu3dCJpHl5GUneZ0g0R3OLW5zfv7WSW2k6BoK85Snzj4gJ2pS7zFkWH79ziV68VBf0gs0BpcfkVVxV9W83MUWEuA1v9BxEYmfzAFJipciZmYwoay9FoqT7Ik0FXrj1puQZINS1hkCFf1vF3VEwRcdmweagLQfxx1TrRoAas1ls1bI4",
+              "received": false
+            }
+          ],
+          "total_price": 76865,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:40:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

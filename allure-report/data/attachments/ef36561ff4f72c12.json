@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:40:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4627",
+    "etag": "W/\"1213-fo0FhvyYHOit5r72DKZC+/mcHHw\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694474b41c508c5d5ee224c5",
+      "status": "Received",
+      "customer": {
+        "_id": "694474b31c508c5d5ee22441",
+        "email": "Demarcus_Gusikowski@gmail.com",
+        "name": "Emma Dooley",
+        "country": "France",
+        "city": "Lake Domenic",
+        "street": "Woodlands 73",
+        "house": 486,
+        "flat": 5657,
+        "phone": "+930764619110898",
+        "createdOn": "2025-12-18T21:40:03.000Z",
+        "notes": "otVubUgF6OaqMovwNHTOMx2P3mb6wm"
+      },
+      "products": [
+        {
+          "_id": "694474b31c508c5d5ee2245b",
+          "name": "Soap90849",
+          "amount": 502,
+          "price": 42764,
+          "manufacturer": "Samsung",
+          "notes": "TiBWUZuC9b1dwYoC3B2JfViuC4xjS10UujkrjpvdusTWQ1VRGXUS41BfG6GQo1QqAl2KhxtQYNLukOIUMnqND2ztqZtbW9v4yN1372Tt4G7T0PAnXPWovT4eaQrMQQImstuGujP0CgCDK8zTvXuUTYFCVP3InDce86vF6yIPyI0ofCLCXCgT3kNA1kELma9dtbnEWkW1JGgHT9WGkXpFQ30noGgFWaCx0J47AIEERmSQDAJUbdkXMalRXW",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Darylbury",
+          "street": "Thompson Views",
+          "house": 680,
+          "flat": 2289
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42764,
+      "createdOn": "2025-12-18T21:40:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694474b31c508c5d5ee22441",
+          "products": [
+            {
+              "_id": "694474b31c508c5d5ee2245b",
+              "name": "Soap90849",
+              "amount": 502,
+              "price": 42764,
+              "manufacturer": "Samsung",
+              "notes": "TiBWUZuC9b1dwYoC3B2JfViuC4xjS10UujkrjpvdusTWQ1VRGXUS41BfG6GQo1QqAl2KhxtQYNLukOIUMnqND2ztqZtbW9v4yN1372Tt4G7T0PAnXPWovT4eaQrMQQImstuGujP0CgCDK8zTvXuUTYFCVP3InDce86vF6yIPyI0ofCLCXCgT3kNA1kELma9dtbnEWkW1JGgHT9WGkXpFQ30noGgFWaCx0J47AIEERmSQDAJUbdkXMalRXW",
+              "received": true
+            }
+          ],
+          "total_price": 42764,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Darylbury",
+              "street": "Thompson Views",
+              "house": 680,
+              "flat": 2289
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:06.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694474b31c508c5d5ee22441",
+          "products": [
+            {
+              "_id": "694474b31c508c5d5ee2245b",
+              "name": "Soap90849",
+              "amount": 502,
+              "price": 42764,
+              "manufacturer": "Samsung",
+              "notes": "TiBWUZuC9b1dwYoC3B2JfViuC4xjS10UujkrjpvdusTWQ1VRGXUS41BfG6GQo1QqAl2KhxtQYNLukOIUMnqND2ztqZtbW9v4yN1372Tt4G7T0PAnXPWovT4eaQrMQQImstuGujP0CgCDK8zTvXuUTYFCVP3InDce86vF6yIPyI0ofCLCXCgT3kNA1kELma9dtbnEWkW1JGgHT9WGkXpFQ30noGgFWaCx0J47AIEERmSQDAJUbdkXMalRXW",
+              "received": false
+            }
+          ],
+          "total_price": 42764,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Darylbury",
+              "street": "Thompson Views",
+              "house": 680,
+              "flat": 2289
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474b31c508c5d5ee22441",
+          "products": [
+            {
+              "_id": "694474b31c508c5d5ee2245b",
+              "name": "Soap90849",
+              "amount": 502,
+              "price": 42764,
+              "manufacturer": "Samsung",
+              "notes": "TiBWUZuC9b1dwYoC3B2JfViuC4xjS10UujkrjpvdusTWQ1VRGXUS41BfG6GQo1QqAl2KhxtQYNLukOIUMnqND2ztqZtbW9v4yN1372Tt4G7T0PAnXPWovT4eaQrMQQImstuGujP0CgCDK8zTvXuUTYFCVP3InDce86vF6yIPyI0ofCLCXCgT3kNA1kELma9dtbnEWkW1JGgHT9WGkXpFQ30noGgFWaCx0J47AIEERmSQDAJUbdkXMalRXW",
+              "received": false
+            }
+          ],
+          "total_price": 42764,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Darylbury",
+              "street": "Thompson Views",
+              "house": 680,
+              "flat": 2289
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474b31c508c5d5ee22441",
+          "products": [
+            {
+              "_id": "694474b31c508c5d5ee2245b",
+              "name": "Soap90849",
+              "amount": 502,
+              "price": 42764,
+              "manufacturer": "Samsung",
+              "notes": "TiBWUZuC9b1dwYoC3B2JfViuC4xjS10UujkrjpvdusTWQ1VRGXUS41BfG6GQo1QqAl2KhxtQYNLukOIUMnqND2ztqZtbW9v4yN1372Tt4G7T0PAnXPWovT4eaQrMQQImstuGujP0CgCDK8zTvXuUTYFCVP3InDce86vF6yIPyI0ofCLCXCgT3kNA1kELma9dtbnEWkW1JGgHT9WGkXpFQ30noGgFWaCx0J47AIEERmSQDAJUbdkXMalRXW",
+              "received": false
+            }
+          ],
+          "total_price": 42764,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:40:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

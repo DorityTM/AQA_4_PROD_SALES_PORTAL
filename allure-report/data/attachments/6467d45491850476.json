@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:40:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4623",
+    "etag": "W/\"120f-87nbfD0ma+yOlSD1/2QRLs1jCpM\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694474b11c508c5d5ee2236b",
+      "status": "Received",
+      "customer": {
+        "_id": "694474b01c508c5d5ee222e8",
+        "email": "Ladarius.Tremblay@yahoo.com",
+        "name": "Ellis Tromp Bechtelar",
+        "country": "Great Britain",
+        "city": "East Krista",
+        "street": "Lorenzo Courts 85",
+        "house": 336,
+        "flat": 1590,
+        "phone": "+332005625574227",
+        "createdOn": "2025-12-18T21:40:00.000Z",
+        "notes": "yE8dfDDMnHZATH6JBb4osUGLyUpeaz"
+      },
+      "products": [
+        {
+          "_id": "694474b01c508c5d5ee22304",
+          "name": "Car43908",
+          "amount": 977,
+          "price": 33244,
+          "manufacturer": "Microsoft",
+          "notes": "cwyf4w6UudaakWnkRc6r4tXkb6PWEsjiTxi4jtBA028WKzEiz0eDeN2IZHl9hdEmfwIS9NxSYteI4AuZhz9znGiHgBPZ8SNTjvNhTFjZqQC6iwzxYvwrbDRF17Wrcj7kLZbWrnVISmLSfSwrhvBFFBuMe1PCBhj74mEP3D4Wl5u62VabebVAXpu35PxwDINqRhkyBzdfNgZSAmJFnO6btFOCkJjdyqw8nDdTwStvipYpOH4EdQ4oltduzi",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Lake Twila",
+          "street": "S 6th Street",
+          "house": 880,
+          "flat": 7470
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33244,
+      "createdOn": "2025-12-18T21:40:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694474b01c508c5d5ee222e8",
+          "products": [
+            {
+              "_id": "694474b01c508c5d5ee22304",
+              "name": "Car43908",
+              "amount": 977,
+              "price": 33244,
+              "manufacturer": "Microsoft",
+              "notes": "cwyf4w6UudaakWnkRc6r4tXkb6PWEsjiTxi4jtBA028WKzEiz0eDeN2IZHl9hdEmfwIS9NxSYteI4AuZhz9znGiHgBPZ8SNTjvNhTFjZqQC6iwzxYvwrbDRF17Wrcj7kLZbWrnVISmLSfSwrhvBFFBuMe1PCBhj74mEP3D4Wl5u62VabebVAXpu35PxwDINqRhkyBzdfNgZSAmJFnO6btFOCkJjdyqw8nDdTwStvipYpOH4EdQ4oltduzi",
+              "received": true
+            }
+          ],
+          "total_price": 33244,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Twila",
+              "street": "S 6th Street",
+              "house": 880,
+              "flat": 7470
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:03.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694474b01c508c5d5ee222e8",
+          "products": [
+            {
+              "_id": "694474b01c508c5d5ee22304",
+              "name": "Car43908",
+              "amount": 977,
+              "price": 33244,
+              "manufacturer": "Microsoft",
+              "notes": "cwyf4w6UudaakWnkRc6r4tXkb6PWEsjiTxi4jtBA028WKzEiz0eDeN2IZHl9hdEmfwIS9NxSYteI4AuZhz9znGiHgBPZ8SNTjvNhTFjZqQC6iwzxYvwrbDRF17Wrcj7kLZbWrnVISmLSfSwrhvBFFBuMe1PCBhj74mEP3D4Wl5u62VabebVAXpu35PxwDINqRhkyBzdfNgZSAmJFnO6btFOCkJjdyqw8nDdTwStvipYpOH4EdQ4oltduzi",
+              "received": false
+            }
+          ],
+          "total_price": 33244,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Twila",
+              "street": "S 6th Street",
+              "house": 880,
+              "flat": 7470
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474b01c508c5d5ee222e8",
+          "products": [
+            {
+              "_id": "694474b01c508c5d5ee22304",
+              "name": "Car43908",
+              "amount": 977,
+              "price": 33244,
+              "manufacturer": "Microsoft",
+              "notes": "cwyf4w6UudaakWnkRc6r4tXkb6PWEsjiTxi4jtBA028WKzEiz0eDeN2IZHl9hdEmfwIS9NxSYteI4AuZhz9znGiHgBPZ8SNTjvNhTFjZqQC6iwzxYvwrbDRF17Wrcj7kLZbWrnVISmLSfSwrhvBFFBuMe1PCBhj74mEP3D4Wl5u62VabebVAXpu35PxwDINqRhkyBzdfNgZSAmJFnO6btFOCkJjdyqw8nDdTwStvipYpOH4EdQ4oltduzi",
+              "received": false
+            }
+          ],
+          "total_price": 33244,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Twila",
+              "street": "S 6th Street",
+              "house": 880,
+              "flat": 7470
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474b01c508c5d5ee222e8",
+          "products": [
+            {
+              "_id": "694474b01c508c5d5ee22304",
+              "name": "Car43908",
+              "amount": 977,
+              "price": 33244,
+              "manufacturer": "Microsoft",
+              "notes": "cwyf4w6UudaakWnkRc6r4tXkb6PWEsjiTxi4jtBA028WKzEiz0eDeN2IZHl9hdEmfwIS9NxSYteI4AuZhz9znGiHgBPZ8SNTjvNhTFjZqQC6iwzxYvwrbDRF17Wrcj7kLZbWrnVISmLSfSwrhvBFFBuMe1PCBhj74mEP3D4Wl5u62VabebVAXpu35PxwDINqRhkyBzdfNgZSAmJFnO6btFOCkJjdyqw8nDdTwStvipYpOH4EdQ4oltduzi",
+              "received": false
+            }
+          ],
+          "total_price": 33244,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:40:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

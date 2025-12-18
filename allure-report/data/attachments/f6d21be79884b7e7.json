@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:40:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4626",
+    "etag": "W/\"1212-JdZurgSpc7KzRD2huRWeQDEtBCk\"",
+    "keep-alive": "timeout=5, max=11",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694474db1c508c5d5ee23840",
+      "status": "Received",
+      "customer": {
+        "_id": "694474da1c508c5d5ee237fd",
+        "email": "Gregg_Bechtelar@gmail.com",
+        "name": "Elza Franecki",
+        "country": "USA",
+        "city": "Roobside",
+        "street": "Kory Knoll 93",
+        "house": 448,
+        "flat": 8431,
+        "phone": "+034606384432609",
+        "createdOn": "2025-12-18T21:40:42.000Z",
+        "notes": "He4MnFt2h8T5XPcbivoIJEj2dGgwko"
+      },
+      "products": [
+        {
+          "_id": "694474db1c508c5d5ee2381a",
+          "name": "Salad48467",
+          "amount": 180,
+          "price": 22273,
+          "manufacturer": "Microsoft",
+          "notes": "g51MEY6Ks0gK5Ee2HrGJTr8uTEhJfSbwMeijXRmVxPrLsAcPUebynWaeYRZXZmOPFw0OoqeFVVCfYZakG33povsjHuX6LD1ekMu5qFWyBOJIaB5PBDEg09pSfojDU9XCVgMSsIojsIlVUMHYIUFjgStihfi79dJvnD0Blj6W45tyca37N236qmgX1AmbpQO3wJ3tQhPobNYQSlFIVqHuA8FlKVKLAYQEvcyM1yi9OKbKHDOrsde4ICCcxW",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Malikahaven",
+          "street": "E Market Street",
+          "house": 304,
+          "flat": 2295
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22273,
+      "createdOn": "2025-12-18T21:40:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694474da1c508c5d5ee237fd",
+          "products": [
+            {
+              "_id": "694474db1c508c5d5ee2381a",
+              "name": "Salad48467",
+              "amount": 180,
+              "price": 22273,
+              "manufacturer": "Microsoft",
+              "notes": "g51MEY6Ks0gK5Ee2HrGJTr8uTEhJfSbwMeijXRmVxPrLsAcPUebynWaeYRZXZmOPFw0OoqeFVVCfYZakG33povsjHuX6LD1ekMu5qFWyBOJIaB5PBDEg09pSfojDU9XCVgMSsIojsIlVUMHYIUFjgStihfi79dJvnD0Blj6W45tyca37N236qmgX1AmbpQO3wJ3tQhPobNYQSlFIVqHuA8FlKVKLAYQEvcyM1yi9OKbKHDOrsde4ICCcxW",
+              "received": true
+            }
+          ],
+          "total_price": 22273,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Malikahaven",
+              "street": "E Market Street",
+              "house": 304,
+              "flat": 2295
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:44.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694474da1c508c5d5ee237fd",
+          "products": [
+            {
+              "_id": "694474db1c508c5d5ee2381a",
+              "name": "Salad48467",
+              "amount": 180,
+              "price": 22273,
+              "manufacturer": "Microsoft",
+              "notes": "g51MEY6Ks0gK5Ee2HrGJTr8uTEhJfSbwMeijXRmVxPrLsAcPUebynWaeYRZXZmOPFw0OoqeFVVCfYZakG33povsjHuX6LD1ekMu5qFWyBOJIaB5PBDEg09pSfojDU9XCVgMSsIojsIlVUMHYIUFjgStihfi79dJvnD0Blj6W45tyca37N236qmgX1AmbpQO3wJ3tQhPobNYQSlFIVqHuA8FlKVKLAYQEvcyM1yi9OKbKHDOrsde4ICCcxW",
+              "received": false
+            }
+          ],
+          "total_price": 22273,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Malikahaven",
+              "street": "E Market Street",
+              "house": 304,
+              "flat": 2295
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:44.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474da1c508c5d5ee237fd",
+          "products": [
+            {
+              "_id": "694474db1c508c5d5ee2381a",
+              "name": "Salad48467",
+              "amount": 180,
+              "price": 22273,
+              "manufacturer": "Microsoft",
+              "notes": "g51MEY6Ks0gK5Ee2HrGJTr8uTEhJfSbwMeijXRmVxPrLsAcPUebynWaeYRZXZmOPFw0OoqeFVVCfYZakG33povsjHuX6LD1ekMu5qFWyBOJIaB5PBDEg09pSfojDU9XCVgMSsIojsIlVUMHYIUFjgStihfi79dJvnD0Blj6W45tyca37N236qmgX1AmbpQO3wJ3tQhPobNYQSlFIVqHuA8FlKVKLAYQEvcyM1yi9OKbKHDOrsde4ICCcxW",
+              "received": false
+            }
+          ],
+          "total_price": 22273,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Malikahaven",
+              "street": "E Market Street",
+              "house": 304,
+              "flat": 2295
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474da1c508c5d5ee237fd",
+          "products": [
+            {
+              "_id": "694474db1c508c5d5ee2381a",
+              "name": "Salad48467",
+              "amount": 180,
+              "price": 22273,
+              "manufacturer": "Microsoft",
+              "notes": "g51MEY6Ks0gK5Ee2HrGJTr8uTEhJfSbwMeijXRmVxPrLsAcPUebynWaeYRZXZmOPFw0OoqeFVVCfYZakG33povsjHuX6LD1ekMu5qFWyBOJIaB5PBDEg09pSfojDU9XCVgMSsIojsIlVUMHYIUFjgStihfi79dJvnD0Blj6W45tyca37N236qmgX1AmbpQO3wJ3tQhPobNYQSlFIVqHuA8FlKVKLAYQEvcyM1yi9OKbKHDOrsde4ICCcxW",
+              "received": false
+            }
+          ],
+          "total_price": 22273,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:40:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

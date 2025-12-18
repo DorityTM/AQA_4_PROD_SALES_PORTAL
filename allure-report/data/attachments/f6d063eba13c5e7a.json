@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:40:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3718",
+    "etag": "W/\"e86-3yWu1dhgzcEszpJzBNWfcWRxVuQ\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694474e81c508c5d5ee23f93",
+      "status": "In Process",
+      "customer": {
+        "_id": "694474e71c508c5d5ee23f5b",
+        "email": "Haleigh63@gmail.com",
+        "name": "Hudson Gerlach",
+        "country": "Ukraine",
+        "city": "Lake Earleneworth",
+        "street": "Effertz Causeway 92",
+        "house": 177,
+        "flat": 8834,
+        "phone": "+435736244849826",
+        "createdOn": "2025-12-18T21:40:55.000Z",
+        "notes": "ptlBX2ADB18c0Xd60Cu9WW81f7F18d"
+      },
+      "products": [
+        {
+          "_id": "694474e81c508c5d5ee23f71",
+          "name": "Shoes46173",
+          "amount": 655,
+          "price": 76447,
+          "manufacturer": "Sony",
+          "notes": "KxiNI2lbOcDJiuH92Jkym7GKX39YMqZ9KbEdiw7l7KgDrAx1QinALGHbRwp9hClFvRh0pRwW7vVDcpm8vS4ZpZOmchWxptwiaWtiMrEJPDWLsAR5ia9RzaKpm9tTtZhLuqRPwfnfwprokYJROIpynivOwKXNLESfLTOBAWi0H780z8jzUUnsIUY05oSwZLyCsdEnPo6EM9omwapW548DixMNqvoWIBkz6xAEnmZcuTm18R8koVYrwBlr16",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Priscillaburgh",
+          "street": "Hegmann Greens",
+          "house": 661,
+          "flat": 6638
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76447,
+      "createdOn": "2025-12-18T21:40:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694474e71c508c5d5ee23f5b",
+          "products": [
+            {
+              "_id": "694474e81c508c5d5ee23f71",
+              "name": "Shoes46173",
+              "amount": 655,
+              "price": 76447,
+              "manufacturer": "Sony",
+              "notes": "KxiNI2lbOcDJiuH92Jkym7GKX39YMqZ9KbEdiw7l7KgDrAx1QinALGHbRwp9hClFvRh0pRwW7vVDcpm8vS4ZpZOmchWxptwiaWtiMrEJPDWLsAR5ia9RzaKpm9tTtZhLuqRPwfnfwprokYJROIpynivOwKXNLESfLTOBAWi0H780z8jzUUnsIUY05oSwZLyCsdEnPo6EM9omwapW548DixMNqvoWIBkz6xAEnmZcuTm18R8koVYrwBlr16",
+              "received": false
+            }
+          ],
+          "total_price": 76447,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Priscillaburgh",
+              "street": "Hegmann Greens",
+              "house": 661,
+              "flat": 6638
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:56.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474e71c508c5d5ee23f5b",
+          "products": [
+            {
+              "_id": "694474e81c508c5d5ee23f71",
+              "name": "Shoes46173",
+              "amount": 655,
+              "price": 76447,
+              "manufacturer": "Sony",
+              "notes": "KxiNI2lbOcDJiuH92Jkym7GKX39YMqZ9KbEdiw7l7KgDrAx1QinALGHbRwp9hClFvRh0pRwW7vVDcpm8vS4ZpZOmchWxptwiaWtiMrEJPDWLsAR5ia9RzaKpm9tTtZhLuqRPwfnfwprokYJROIpynivOwKXNLESfLTOBAWi0H780z8jzUUnsIUY05oSwZLyCsdEnPo6EM9omwapW548DixMNqvoWIBkz6xAEnmZcuTm18R8koVYrwBlr16",
+              "received": false
+            }
+          ],
+          "total_price": 76447,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Priscillaburgh",
+              "street": "Hegmann Greens",
+              "house": 661,
+              "flat": 6638
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:40:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694474e71c508c5d5ee23f5b",
+          "products": [
+            {
+              "_id": "694474e81c508c5d5ee23f71",
+              "name": "Shoes46173",
+              "amount": 655,
+              "price": 76447,
+              "manufacturer": "Sony",
+              "notes": "KxiNI2lbOcDJiuH92Jkym7GKX39YMqZ9KbEdiw7l7KgDrAx1QinALGHbRwp9hClFvRh0pRwW7vVDcpm8vS4ZpZOmchWxptwiaWtiMrEJPDWLsAR5ia9RzaKpm9tTtZhLuqRPwfnfwprokYJROIpynivOwKXNLESfLTOBAWi0H780z8jzUUnsIUY05oSwZLyCsdEnPo6EM9omwapW548DixMNqvoWIBkz6xAEnmZcuTm18R8koVYrwBlr16",
+              "received": false
+            }
+          ],
+          "total_price": 76447,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:40:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

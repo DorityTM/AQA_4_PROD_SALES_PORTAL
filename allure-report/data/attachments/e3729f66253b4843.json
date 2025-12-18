@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:41:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-ep/1pwwf35z4QUHiQnIs4k38loc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694475051c508c5d5ee25001",
+      "status": "Draft",
+      "customer": {
+        "_id": "694475041c508c5d5ee24f19",
+        "email": "Clarabelle73@yahoo.com",
+        "name": "Adam Mills",
+        "country": "Germany",
+        "city": "Lenexa",
+        "street": "Avenue Road 76",
+        "house": 552,
+        "flat": 9003,
+        "phone": "+097931508877704",
+        "createdOn": "2025-12-18T21:41:24.000Z",
+        "notes": "xozHNtjjY08pdQqjuiAdmemqt8jqlz"
+      },
+      "products": [
+        {
+          "_id": "694475041c508c5d5ee24f37",
+          "name": "Mouse89339",
+          "amount": 745,
+          "price": 25471,
+          "manufacturer": "Xiaomi",
+          "notes": "GDBXoYOUYHWXRMfo2EYulmc7NIMtwScoRSSJt7aOjTpF1GtLQa7Yc1uRzXqXNdr4lwgeSneRztdhICSCY184WCHfFjkIZXHoFR331sCYw0HvTvNMrntGMETxHvOrYuUFq5x6jcYeN7kV7C5sOGr3poLr0yVXophASzB2dAfVN2XN3dHEoGMvky0NbVFYCrgaxFHI5afKWoM0KYtTYzfT5H00EbqoutX73wUFQHu65uThZTU68OvKbZKuKu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Newport Beach",
+          "street": "Rempel Place",
+          "house": 194,
+          "flat": 168
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25471,
+      "createdOn": "2025-12-18T21:41:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694475041c508c5d5ee24f19",
+          "products": [
+            {
+              "_id": "694475041c508c5d5ee24f37",
+              "name": "Mouse89339",
+              "amount": 745,
+              "price": 25471,
+              "manufacturer": "Xiaomi",
+              "notes": "GDBXoYOUYHWXRMfo2EYulmc7NIMtwScoRSSJt7aOjTpF1GtLQa7Yc1uRzXqXNdr4lwgeSneRztdhICSCY184WCHfFjkIZXHoFR331sCYw0HvTvNMrntGMETxHvOrYuUFq5x6jcYeN7kV7C5sOGr3poLr0yVXophASzB2dAfVN2XN3dHEoGMvky0NbVFYCrgaxFHI5afKWoM0KYtTYzfT5H00EbqoutX73wUFQHu65uThZTU68OvKbZKuKu",
+              "received": false
+            }
+          ],
+          "total_price": 25471,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Newport Beach",
+              "street": "Rempel Place",
+              "house": 194,
+              "flat": 168
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:41:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694475041c508c5d5ee24f19",
+          "products": [
+            {
+              "_id": "694475041c508c5d5ee24f37",
+              "name": "Mouse89339",
+              "amount": 745,
+              "price": 25471,
+              "manufacturer": "Xiaomi",
+              "notes": "GDBXoYOUYHWXRMfo2EYulmc7NIMtwScoRSSJt7aOjTpF1GtLQa7Yc1uRzXqXNdr4lwgeSneRztdhICSCY184WCHfFjkIZXHoFR331sCYw0HvTvNMrntGMETxHvOrYuUFq5x6jcYeN7kV7C5sOGr3poLr0yVXophASzB2dAfVN2XN3dHEoGMvky0NbVFYCrgaxFHI5afKWoM0KYtTYzfT5H00EbqoutX73wUFQHu65uThZTU68OvKbZKuKu",
+              "received": false
+            }
+          ],
+          "total_price": 25471,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:41:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
