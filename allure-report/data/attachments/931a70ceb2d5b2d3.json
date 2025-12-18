@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:19:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-+3GUG1WOUP8eq/9zDXmb9+ux4jU\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69446fc91c508c5d5ee01e12",
+      "status": "Draft",
+      "customer": {
+        "_id": "69446fc71c508c5d5ee01ce9",
+        "email": "Margot_Moen@hotmail.com",
+        "name": "Chanel Abernathy",
+        "country": "USA",
+        "city": "Germantown",
+        "street": "Albert Road 39",
+        "house": 854,
+        "flat": 6312,
+        "phone": "+467289823865954",
+        "createdOn": "2025-12-18T21:19:03.000Z",
+        "notes": "Px5AVO5Wary7VcUKkvQ0k00fTV741O"
+      },
+      "products": [
+        {
+          "_id": "69446fc71c508c5d5ee01d11",
+          "name": "Soap23032",
+          "amount": 833,
+          "price": 9834,
+          "manufacturer": "Sony",
+          "notes": "6QlwSytobI65biZs73uwUp2kaR7hMBtFN5O8RAbtSKwyFbblb7BoIQPN2nEG5k1vMnm5ghgo8MDO2WM69wnWS44u1L5S51gYQV3orFenvnGDKVrAv3xgWcYXqAYvJ2EdyISxL0zJ2k4OyRHRfpkSluAIAmZ1SLA65mD6eNAAkuCJkmm99AOKRnEgcXioTMAsITfCkZYPdTb3nP6cjYu9d4dj6CCjDIuIvC97aVhZit0udeSZTwNf3cSN6z",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Fort Wilfordtown",
+          "street": "Berge Tunnel",
+          "house": 549,
+          "flat": 3884
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 9834,
+      "createdOn": "2025-12-18T21:19:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69446fc71c508c5d5ee01ce9",
+          "products": [
+            {
+              "_id": "69446fc71c508c5d5ee01d11",
+              "name": "Soap23032",
+              "amount": 833,
+              "price": 9834,
+              "manufacturer": "Sony",
+              "notes": "6QlwSytobI65biZs73uwUp2kaR7hMBtFN5O8RAbtSKwyFbblb7BoIQPN2nEG5k1vMnm5ghgo8MDO2WM69wnWS44u1L5S51gYQV3orFenvnGDKVrAv3xgWcYXqAYvJ2EdyISxL0zJ2k4OyRHRfpkSluAIAmZ1SLA65mD6eNAAkuCJkmm99AOKRnEgcXioTMAsITfCkZYPdTb3nP6cjYu9d4dj6CCjDIuIvC97aVhZit0udeSZTwNf3cSN6z",
+              "received": false
+            }
+          ],
+          "total_price": 9834,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Wilfordtown",
+              "street": "Berge Tunnel",
+              "house": 549,
+              "flat": 3884
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:19:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446fc71c508c5d5ee01ce9",
+          "products": [
+            {
+              "_id": "69446fc71c508c5d5ee01d11",
+              "name": "Soap23032",
+              "amount": 833,
+              "price": 9834,
+              "manufacturer": "Sony",
+              "notes": "6QlwSytobI65biZs73uwUp2kaR7hMBtFN5O8RAbtSKwyFbblb7BoIQPN2nEG5k1vMnm5ghgo8MDO2WM69wnWS44u1L5S51gYQV3orFenvnGDKVrAv3xgWcYXqAYvJ2EdyISxL0zJ2k4OyRHRfpkSluAIAmZ1SLA65mD6eNAAkuCJkmm99AOKRnEgcXioTMAsITfCkZYPdTb3nP6cjYu9d4dj6CCjDIuIvC97aVhZit0udeSZTwNf3cSN6z",
+              "received": false
+            }
+          ],
+          "total_price": 9834,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:19:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

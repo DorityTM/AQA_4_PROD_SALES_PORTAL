@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:18:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4645",
+    "etag": "W/\"1225-x+hnR3uHGuwsMxSbJBauenQ7e34\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69446fad1c508c5d5ee00d53",
+      "status": "Received",
+      "customer": {
+        "_id": "69446fad1c508c5d5ee00d11",
+        "email": "Glen_Pagac@yahoo.com",
+        "name": "Lessie Koepp",
+        "country": "Canada",
+        "city": "South Arthur",
+        "street": "S 6th Street 84",
+        "house": 304,
+        "flat": 7615,
+        "phone": "+991997026032386",
+        "createdOn": "2025-12-18T21:18:37.000Z",
+        "notes": "OgNbrYvNT6Lr1aLvnxsHOTDeULyfx4"
+      },
+      "products": [
+        {
+          "_id": "69446fad1c508c5d5ee00d2b",
+          "name": "Tuna11020",
+          "amount": 655,
+          "price": 71260,
+          "manufacturer": "Amazon",
+          "notes": "bHWwJLDwhTClyJAYwKiFUUT8tWs5X18hnzxGfMFMPwUyboILFS8Thg5DNK516OKG8ZJFLt1e9nT2oCVh00oU2KImSyGYT87YyZmAgZQDeZOF9WF7EmjCepkycKO0Wmo8hNNNaZbMbCq3ARgHzZ52HwzjeBDKGGjJIsE2D1hSDQrtE9YwtRhzlEhNJoTddbAyQXXkowMELWafw9ljaVeqWGq8Rgh5xg1ZuaJpNslh0eOfybpuYWgYEVAh0G",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Stoltenbergmouth",
+          "street": "N East Street",
+          "house": 306,
+          "flat": 9005
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 71260,
+      "createdOn": "2025-12-18T21:18:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69446fad1c508c5d5ee00d11",
+          "products": [
+            {
+              "_id": "69446fad1c508c5d5ee00d2b",
+              "name": "Tuna11020",
+              "amount": 655,
+              "price": 71260,
+              "manufacturer": "Amazon",
+              "notes": "bHWwJLDwhTClyJAYwKiFUUT8tWs5X18hnzxGfMFMPwUyboILFS8Thg5DNK516OKG8ZJFLt1e9nT2oCVh00oU2KImSyGYT87YyZmAgZQDeZOF9WF7EmjCepkycKO0Wmo8hNNNaZbMbCq3ARgHzZ52HwzjeBDKGGjJIsE2D1hSDQrtE9YwtRhzlEhNJoTddbAyQXXkowMELWafw9ljaVeqWGq8Rgh5xg1ZuaJpNslh0eOfybpuYWgYEVAh0G",
+              "received": true
+            }
+          ],
+          "total_price": 71260,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Stoltenbergmouth",
+              "street": "N East Street",
+              "house": 306,
+              "flat": 9005
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:18:41.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69446fad1c508c5d5ee00d11",
+          "products": [
+            {
+              "_id": "69446fad1c508c5d5ee00d2b",
+              "name": "Tuna11020",
+              "amount": 655,
+              "price": 71260,
+              "manufacturer": "Amazon",
+              "notes": "bHWwJLDwhTClyJAYwKiFUUT8tWs5X18hnzxGfMFMPwUyboILFS8Thg5DNK516OKG8ZJFLt1e9nT2oCVh00oU2KImSyGYT87YyZmAgZQDeZOF9WF7EmjCepkycKO0Wmo8hNNNaZbMbCq3ARgHzZ52HwzjeBDKGGjJIsE2D1hSDQrtE9YwtRhzlEhNJoTddbAyQXXkowMELWafw9ljaVeqWGq8Rgh5xg1ZuaJpNslh0eOfybpuYWgYEVAh0G",
+              "received": false
+            }
+          ],
+          "total_price": 71260,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Stoltenbergmouth",
+              "street": "N East Street",
+              "house": 306,
+              "flat": 9005
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:18:38.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446fad1c508c5d5ee00d11",
+          "products": [
+            {
+              "_id": "69446fad1c508c5d5ee00d2b",
+              "name": "Tuna11020",
+              "amount": 655,
+              "price": 71260,
+              "manufacturer": "Amazon",
+              "notes": "bHWwJLDwhTClyJAYwKiFUUT8tWs5X18hnzxGfMFMPwUyboILFS8Thg5DNK516OKG8ZJFLt1e9nT2oCVh00oU2KImSyGYT87YyZmAgZQDeZOF9WF7EmjCepkycKO0Wmo8hNNNaZbMbCq3ARgHzZ52HwzjeBDKGGjJIsE2D1hSDQrtE9YwtRhzlEhNJoTddbAyQXXkowMELWafw9ljaVeqWGq8Rgh5xg1ZuaJpNslh0eOfybpuYWgYEVAh0G",
+              "received": false
+            }
+          ],
+          "total_price": 71260,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Stoltenbergmouth",
+              "street": "N East Street",
+              "house": 306,
+              "flat": 9005
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:18:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446fad1c508c5d5ee00d11",
+          "products": [
+            {
+              "_id": "69446fad1c508c5d5ee00d2b",
+              "name": "Tuna11020",
+              "amount": 655,
+              "price": 71260,
+              "manufacturer": "Amazon",
+              "notes": "bHWwJLDwhTClyJAYwKiFUUT8tWs5X18hnzxGfMFMPwUyboILFS8Thg5DNK516OKG8ZJFLt1e9nT2oCVh00oU2KImSyGYT87YyZmAgZQDeZOF9WF7EmjCepkycKO0Wmo8hNNNaZbMbCq3ARgHzZ52HwzjeBDKGGjJIsE2D1hSDQrtE9YwtRhzlEhNJoTddbAyQXXkowMELWafw9ljaVeqWGq8Rgh5xg1ZuaJpNslh0eOfybpuYWgYEVAh0G",
+              "received": false
+            }
+          ],
+          "total_price": 71260,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:18:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

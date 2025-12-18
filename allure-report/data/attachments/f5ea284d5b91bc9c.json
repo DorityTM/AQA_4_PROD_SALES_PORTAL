@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 21:18:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2749",
+    "etag": "W/\"abd-/f/T2eMCk6ks7BysXwy17F+YC3Y\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69446fbb1c508c5d5ee01567",
+      "status": "Draft",
+      "customer": {
+        "_id": "69446fba1c508c5d5ee01506",
+        "email": "Barry.Rohan@gmail.com",
+        "name": "Aglae Bruen",
+        "country": "Belarus",
+        "city": "Prosaccoland",
+        "street": "Marquardt Fall 37",
+        "house": 557,
+        "flat": 7038,
+        "phone": "+428047076697318",
+        "createdOn": "2025-12-18T21:18:50.000Z",
+        "notes": "yHf4vsU9m1nI0ibvTQ2Umr4SRPVNh7"
+      },
+      "products": [
+        {
+          "_id": "69446fba1c508c5d5ee01534",
+          "name": "Mouse5574",
+          "amount": 174,
+          "price": 2724,
+          "manufacturer": "Samsung",
+          "notes": "0mzjmHbtPrYwzSeG3vhfbS69qV85OaNqvnnrZJQZxCU9UmkwxKZFEvbnEHnHvSYCnCrRZainZRxeLltyaNvWytPNBqulgZBvDYB4Cj0i4oovOcfBKrko4tlV7tlxa1ebsCmhTukoFvNFDRe7Aq25xFFfIo0wD6hpHiwU1pLuAx42Dtnfg1iKRgmS8bIBNXdbRBt1wP002X0b6vq1upnD11Ulm1a9BSt2d32AnlhLXhJogwxpnKKY6mtFGO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Camarillo",
+          "street": "S Broadway Street",
+          "house": 240,
+          "flat": 942
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 2724,
+      "createdOn": "2025-12-18T21:18:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69446fba1c508c5d5ee01506",
+          "products": [
+            {
+              "_id": "69446fba1c508c5d5ee01534",
+              "name": "Mouse5574",
+              "amount": 174,
+              "price": 2724,
+              "manufacturer": "Samsung",
+              "notes": "0mzjmHbtPrYwzSeG3vhfbS69qV85OaNqvnnrZJQZxCU9UmkwxKZFEvbnEHnHvSYCnCrRZainZRxeLltyaNvWytPNBqulgZBvDYB4Cj0i4oovOcfBKrko4tlV7tlxa1ebsCmhTukoFvNFDRe7Aq25xFFfIo0wD6hpHiwU1pLuAx42Dtnfg1iKRgmS8bIBNXdbRBt1wP002X0b6vq1upnD11Ulm1a9BSt2d32AnlhLXhJogwxpnKKY6mtFGO",
+              "received": false
+            }
+          ],
+          "total_price": 2724,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Camarillo",
+              "street": "S Broadway Street",
+              "house": 240,
+              "flat": 942
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T21:18:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69446fba1c508c5d5ee01506",
+          "products": [
+            {
+              "_id": "69446fba1c508c5d5ee01534",
+              "name": "Mouse5574",
+              "amount": 174,
+              "price": 2724,
+              "manufacturer": "Samsung",
+              "notes": "0mzjmHbtPrYwzSeG3vhfbS69qV85OaNqvnnrZJQZxCU9UmkwxKZFEvbnEHnHvSYCnCrRZainZRxeLltyaNvWytPNBqulgZBvDYB4Cj0i4oovOcfBKrko4tlV7tlxa1ebsCmhTukoFvNFDRe7Aq25xFFfIo0wD6hpHiwU1pLuAx42Dtnfg1iKRgmS8bIBNXdbRBt1wP002X0b6vq1upnD11Ulm1a9BSt2d32AnlhLXhJogwxpnKKY6mtFGO",
+              "received": false
+            }
+          ],
+          "total_price": 2724,
+          "delivery": null,
+          "changedOn": "2025-12-18T21:18:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
