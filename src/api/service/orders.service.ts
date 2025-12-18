@@ -77,6 +77,7 @@ export class OrdersApiService {
   async createOrderWithDelivery(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderAndEntities(token, numberOfProducts);
     const orderWithDelivery = await this.ordersApi.addDelivery(token, createdOrder._id, generateDelivery());
+
     validateResponse(orderWithDelivery, {
       status: STATUS_CODES.OK,
       IsSuccess: true,

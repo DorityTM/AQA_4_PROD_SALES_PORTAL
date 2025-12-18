@@ -19,7 +19,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "test:ui": "npx playwright test",
+    "test:ui": "npx playwright test --project=sales-portal-ui",
     "ui-mode": "npx playwright test --ui",
     "ui-mode:dev": "cross-env TEST_ENV=dev npx playwright test --ui",
     "test": "npx playwright test",

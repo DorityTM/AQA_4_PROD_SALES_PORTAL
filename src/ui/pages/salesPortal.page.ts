@@ -22,6 +22,14 @@ export abstract class SalesPortalPage extends BasePage {
 
   @logStep("OPEN SALES PORTAL PAGE WITH ROUTE")
   async open(route?: string) {
-    await this.page.goto(SALES_PORTAL_URL + route);
+    const normalizedRoute = route
+      ? route
+          .trim()
+          // allow passing '/#/orders/123', '#/orders/123', or '/orders/123'
+          .replace(/^\/?#\/?/, "")
+          .replace(/^\//, "")
+      : "";
+    const url = normalizedRoute ? SALES_PORTAL_URL + normalizedRoute : SALES_PORTAL_URL;
+    await this.page.goto(url, { waitUntil: "domcontentloaded", timeout: TIMEOUT_30_S });
   }
 }
