@@ -77,47 +77,60 @@ export class OrdersApiService {
   async createOrderWithDelivery(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderAndEntities(token, numberOfProducts);
     const orderWithDelivery = await this.ordersApi.addDelivery(token, createdOrder._id, generateDelivery());
-
     validateResponse(orderWithDelivery, {
       status: STATUS_CODES.OK,
       IsSuccess: true,
       ErrorMessage: null,
-      schema: getOrderSchema,
     });
-
-    return orderWithDelivery;
+    return orderWithDelivery.body.Order;
   }
 
   async createOrderInProcess(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderWithDelivery(token, numberOfProducts);
-    const order = await this.ordersApi.updateStatus(createdOrder.body.Order._id, ORDER_STATUS.PROCESSING, token);
-    return order;
+    const order = await this.ordersApi.updateStatus(createdOrder._id, ORDER_STATUS.PROCESSING, token);
+    validateResponse(order, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+    });
+    return order.body.Order;
   }
 
   async createCanceledOrder(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderWithDelivery(token, numberOfProducts);
-    const order = await this.ordersApi.updateStatus(createdOrder.body.Order._id, ORDER_STATUS.CANCELED, token);
-    return order;
+    const order = await this.ordersApi.updateStatus(createdOrder._id, ORDER_STATUS.CANCELED, token);
+    validateResponse(order, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+    });
+    return order.body.Order;
   }
 
   async createPartiallyReceivedOrder(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderInProcess(token, numberOfProducts);
-    const order = await this.ordersApi.receiveProducts(
-      createdOrder.body.Order._id,
-      [createdOrder.body.Order.products[0]!._id],
-      token,
-    );
-    return order;
+    const order = await this.ordersApi.receiveProducts(createdOrder._id, [createdOrder.products[0]!._id], token);
+    validateResponse(order, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+    });
+    return order.body.Order;
   }
 
   async createReceivedOrder(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderInProcess(token, numberOfProducts);
     const order = await this.ordersApi.receiveProducts(
-      createdOrder.body.Order._id,
-      createdOrder.body.Order.products.map((product) => product._id),
+      createdOrder._id,
+      createdOrder.products.map((product) => product._id),
       token,
     );
-    return order;
+    validateResponse(order, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+    });
+    return order.body.Order;
   }
 
   async delete(token: string, id: string) {

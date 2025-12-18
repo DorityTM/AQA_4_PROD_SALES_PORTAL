@@ -25,7 +25,7 @@ test.describe("[API][Orders][Manager assignment flow]", () => {
       });
 
       test.afterEach(async ({ ordersApiService }) => {
-        if (order) await ordersApiService.deleteOrderAndEntities(token, order._id);
+        await ordersApiService.fullDelete(token);
       });
 
       test("Assign manager to order", async ({ ordersApi }) => {

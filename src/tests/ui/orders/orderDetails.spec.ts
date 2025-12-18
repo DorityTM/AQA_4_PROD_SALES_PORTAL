@@ -38,7 +38,7 @@ test.describe("[UI][Orders][Order Details]", () => {
     async ({ loginApiService, ordersApiService, page }) => {
       const token = await loginApiService.loginAsAdmin();
       const created = await ordersApiService.createOrderWithDelivery(token, 1);
-      const orderId = created.body.Order._id;
+      const orderId = created._id;
 
       const orderDetails = new OrderDetailsPage(page);
       await orderDetails.openByOrderId(orderId);
@@ -54,7 +54,7 @@ test.describe("[UI][Orders][Order Details]", () => {
     async ({ loginApiService, ordersApiService, page }) => {
       const token = await loginApiService.loginAsAdmin();
       const created = await ordersApiService.createOrderInProcess(token, 2);
-      const orderId = created.body.Order._id;
+      const orderId = created._id;
 
       const orderDetails = new OrderDetailsPage(page);
       await orderDetails.openByOrderId(orderId);
@@ -74,7 +74,7 @@ test.describe("[UI][Orders][Order Details]", () => {
     async ({ loginApiService, ordersApiService, page }) => {
       const token = await loginApiService.loginAsAdmin();
       const created = await ordersApiService.createCanceledOrder(token, 1);
-      const orderId = created.body.Order._id;
+      const orderId = created._id;
 
       const orderDetails = new OrderDetailsPage(page);
       await orderDetails.openByOrderId(orderId);
@@ -92,7 +92,7 @@ test.describe("[UI][Orders][Order Details]", () => {
     async ({ loginApiService, ordersApiService, page }) => {
       const token = await loginApiService.loginAsAdmin();
       const created = await ordersApiService.createPartiallyReceivedOrder(token, 2);
-      const orderId = created.body.Order._id;
+      const orderId = created._id;
 
       const orderDetails = new OrderDetailsPage(page);
       await orderDetails.openByOrderId(orderId);
@@ -109,7 +109,7 @@ test.describe("[UI][Orders][Order Details]", () => {
     async ({ loginApiService, ordersApiService, page }) => {
       const token = await loginApiService.loginAsAdmin();
       const created = await ordersApiService.createOrderWithDelivery(token, 1);
-      const orderId = created.body.Order._id;
+      const orderId = created._id;
 
       const orderDetails = new OrderDetailsPage(page);
       await orderDetails.openByOrderId(orderId);
@@ -146,7 +146,7 @@ test.describe("[UI][Orders][Order Details]", () => {
     async ({ loginApiService, ordersApiService, page }) => {
       const token = await loginApiService.loginAsAdmin();
       const created = await ordersApiService.createOrderWithDelivery(token, 1);
-      const orderId = created.body.Order._id;
+      const orderId = created._id;
 
       const orderDetails = new OrderDetailsPage(page);
       await orderDetails.openByOrderId(orderId);
@@ -164,7 +164,7 @@ test.describe("[UI][Orders][Order Details]", () => {
     async ({ loginApiService, ordersApiService, page }) => {
       const token = await loginApiService.loginAsAdmin();
       const created = await ordersApiService.createOrderInProcess(token, 2);
-      const order = created.body.Order;
+      const order = created;
 
       const orderDetails = new OrderDetailsPage(page);
       await orderDetails.openByOrderId(order._id);

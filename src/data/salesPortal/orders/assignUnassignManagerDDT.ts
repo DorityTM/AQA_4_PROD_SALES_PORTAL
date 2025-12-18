@@ -6,31 +6,19 @@ export const orderInStatus: IManagerAssignCases[] = [
   { name: "Draft", create: (ordersApiService, token) => ordersApiService.createOrderAndEntities(token, 1) },
   {
     name: "In Process",
-    create: async (ordersApiService, token) => {
-      const response = await ordersApiService.createOrderInProcess(token, 1);
-      return response.body.Order;
-    },
+    create: (ordersApiService, token) => ordersApiService.createOrderInProcess(token, 1),
   },
   {
     name: "Partially Received",
-    create: async (ordersApiService, token) => {
-      const response = await ordersApiService.createPartiallyReceivedOrder(token, 2);
-      return response.body.Order;
-    },
+    create: (ordersApiService, token) => ordersApiService.createPartiallyReceivedOrder(token, 2),
   },
   {
     name: "Received",
-    create: async (ordersApiService, token) => {
-      const response = await ordersApiService.createReceivedOrder(token, 1);
-      return response.body.Order;
-    },
+    create: (ordersApiService, token) => ordersApiService.createReceivedOrder(token, 1),
   },
   {
     name: "Canceled",
-    create: async (ordersApiService, token) => {
-      const response = await ordersApiService.createCanceledOrder(token, 1);
-      return response.body.Order;
-    },
+    create: (ordersApiService, token) => ordersApiService.createCanceledOrder(token, 1),
   },
 ];
 
@@ -46,14 +34,14 @@ export interface IManagerAssignNegativeCase {
 }
 
 export const assignUnassignManagerNegativeCases: IManagerAssignNegativeCase[] = [
-    {
+  {
     title: "manager with non-existing managerId",
     managerId: () => "000000000000000000000000",
     orderId: (orderId: string) => orderId,
     expected: {
       status: STATUS_CODES.NOT_FOUND,
-        isSuccessful: false,
-        errorMessage: RESPONSE_ERRORS.MANAGER_NOT_FOUND("000000000000000000000000"),
+      isSuccessful: false,
+      errorMessage: RESPONSE_ERRORS.MANAGER_NOT_FOUND("000000000000000000000000"),
     },
   },
   {
@@ -62,8 +50,8 @@ export const assignUnassignManagerNegativeCases: IManagerAssignNegativeCase[] = 
     managerId: (managerId: string) => managerId,
     expected: {
       status: STATUS_CODES.NOT_FOUND,
-        isSuccessful: false,
-        errorMessage: RESPONSE_ERRORS.ORDER_NOT_FOUND("000000000000000000000000"),
+      isSuccessful: false,
+      errorMessage: RESPONSE_ERRORS.ORDER_NOT_FOUND("000000000000000000000000"),
     },
   },
-]
+];
