@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:35:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3703",
+    "etag": "W/\"e77-UEQMG8o0+a8vuxqIJT+1BRUUf7g\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694411251c508c5d5eda5918",
+      "status": "In Process",
+      "customer": {
+        "_id": "694411241c508c5d5eda58a8",
+        "email": "Alyson16@hotmail.com",
+        "name": "Steve Cummings Steuber",
+        "country": "Russia",
+        "city": "East Leola",
+        "street": "Airport Road 84",
+        "house": 167,
+        "flat": 9255,
+        "phone": "+811180234432632",
+        "createdOn": "2025-12-18T14:35:16.000Z",
+        "notes": "yc8V6elDV7qctZ5x7hYpcBB48iecse"
+      },
+      "products": [
+        {
+          "_id": "694411241c508c5d5eda58d9",
+          "name": "Mouse51016",
+          "amount": 334,
+          "price": 13187,
+          "manufacturer": "Samsung",
+          "notes": "X1kztQalKPBA4fda6M6WJATwWSBjQqga0jM08vY2NlqqApPTMkjqQvL6TDZlQHhNgWHxI0M6Bp9J8T0RaeFJfothU1RM5mNY857jmwqLzrKIL9r5xFAd7JspK8e0PDWFE7TdARVoNjQPa3hNKYIH4U8frRsWJ4aWRi3x8DEtLfWe8Net00TFTZqpHIMLqqHPyVauhaufsyE1g996SW9VdQwbN8Wkt8ZMz2qToeNQUw50s2X7CqE4IjWVcY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Port Dessieburgh",
+          "street": "Kenya Drive",
+          "house": 889,
+          "flat": 879
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 13187,
+      "createdOn": "2025-12-18T14:35:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694411241c508c5d5eda58a8",
+          "products": [
+            {
+              "_id": "694411241c508c5d5eda58d9",
+              "name": "Mouse51016",
+              "amount": 334,
+              "price": 13187,
+              "manufacturer": "Samsung",
+              "notes": "X1kztQalKPBA4fda6M6WJATwWSBjQqga0jM08vY2NlqqApPTMkjqQvL6TDZlQHhNgWHxI0M6Bp9J8T0RaeFJfothU1RM5mNY857jmwqLzrKIL9r5xFAd7JspK8e0PDWFE7TdARVoNjQPa3hNKYIH4U8frRsWJ4aWRi3x8DEtLfWe8Net00TFTZqpHIMLqqHPyVauhaufsyE1g996SW9VdQwbN8Wkt8ZMz2qToeNQUw50s2X7CqE4IjWVcY",
+              "received": false
+            }
+          ],
+          "total_price": 13187,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Dessieburgh",
+              "street": "Kenya Drive",
+              "house": 889,
+              "flat": 879
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:35:18.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694411241c508c5d5eda58a8",
+          "products": [
+            {
+              "_id": "694411241c508c5d5eda58d9",
+              "name": "Mouse51016",
+              "amount": 334,
+              "price": 13187,
+              "manufacturer": "Samsung",
+              "notes": "X1kztQalKPBA4fda6M6WJATwWSBjQqga0jM08vY2NlqqApPTMkjqQvL6TDZlQHhNgWHxI0M6Bp9J8T0RaeFJfothU1RM5mNY857jmwqLzrKIL9r5xFAd7JspK8e0PDWFE7TdARVoNjQPa3hNKYIH4U8frRsWJ4aWRi3x8DEtLfWe8Net00TFTZqpHIMLqqHPyVauhaufsyE1g996SW9VdQwbN8Wkt8ZMz2qToeNQUw50s2X7CqE4IjWVcY",
+              "received": false
+            }
+          ],
+          "total_price": 13187,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Dessieburgh",
+              "street": "Kenya Drive",
+              "house": 889,
+              "flat": 879
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:35:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694411241c508c5d5eda58a8",
+          "products": [
+            {
+              "_id": "694411241c508c5d5eda58d9",
+              "name": "Mouse51016",
+              "amount": 334,
+              "price": 13187,
+              "manufacturer": "Samsung",
+              "notes": "X1kztQalKPBA4fda6M6WJATwWSBjQqga0jM08vY2NlqqApPTMkjqQvL6TDZlQHhNgWHxI0M6Bp9J8T0RaeFJfothU1RM5mNY857jmwqLzrKIL9r5xFAd7JspK8e0PDWFE7TdARVoNjQPa3hNKYIH4U8frRsWJ4aWRi3x8DEtLfWe8Net00TFTZqpHIMLqqHPyVauhaufsyE1g996SW9VdQwbN8Wkt8ZMz2qToeNQUw50s2X7CqE4IjWVcY",
+              "received": false
+            }
+          ],
+          "total_price": 13187,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:35:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

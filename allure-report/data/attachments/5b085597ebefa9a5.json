@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:34:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4598",
+    "etag": "W/\"11f6-U6nEw5rNvSzwgqU0H92Z9IF0gyE\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694410ee1c508c5d5eda41b7",
+      "status": "Received",
+      "customer": {
+        "_id": "694410ee1c508c5d5eda416d",
+        "email": "April_Fritsch@yahoo.com",
+        "name": "Ralph Sanford",
+        "country": "Canada",
+        "city": "O Fallon",
+        "street": "Osinski Prairie 66",
+        "house": 832,
+        "flat": 5013,
+        "phone": "+573120272300605",
+        "createdOn": "2025-12-18T14:34:22.000Z",
+        "notes": "7fesjD2QuPYnLSxbnP8v4vCqQ9w0oX"
+      },
+      "products": [
+        {
+          "_id": "694410ee1c508c5d5eda4195",
+          "name": "Fish93145",
+          "amount": 343,
+          "price": 26974,
+          "manufacturer": "Sony",
+          "notes": "TwledZuwmtRBUnRItukg5yBnR7AoeENbPkjRRLVMU2PbGXCr8LYvgbbQO420q5C5NTelueo0pe5TI7ByCkTx7amhJ7s81oxk2qWt4AU85EiamQlTO7Kf8jxABBTVvpdsDMpeEYiGJHiFMaSNnvri4vNrQoGjf4sDZ2aWa3cq7pSzucMzvP44Wuw29QsK4qdIz6IkwcPt0it5nlkFkZoXZdFzk3rfEtynirK0joFTMVMd0juBgKejYv8cLQ",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Raymundoton",
+          "street": "Shanahan Light",
+          "house": 979,
+          "flat": 1813
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 26974,
+      "createdOn": "2025-12-18T14:34:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694410ee1c508c5d5eda416d",
+          "products": [
+            {
+              "_id": "694410ee1c508c5d5eda4195",
+              "name": "Fish93145",
+              "amount": 343,
+              "price": 26974,
+              "manufacturer": "Sony",
+              "notes": "TwledZuwmtRBUnRItukg5yBnR7AoeENbPkjRRLVMU2PbGXCr8LYvgbbQO420q5C5NTelueo0pe5TI7ByCkTx7amhJ7s81oxk2qWt4AU85EiamQlTO7Kf8jxABBTVvpdsDMpeEYiGJHiFMaSNnvri4vNrQoGjf4sDZ2aWa3cq7pSzucMzvP44Wuw29QsK4qdIz6IkwcPt0it5nlkFkZoXZdFzk3rfEtynirK0joFTMVMd0juBgKejYv8cLQ",
+              "received": true
+            }
+          ],
+          "total_price": 26974,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Raymundoton",
+              "street": "Shanahan Light",
+              "house": 979,
+              "flat": 1813
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:34:24.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694410ee1c508c5d5eda416d",
+          "products": [
+            {
+              "_id": "694410ee1c508c5d5eda4195",
+              "name": "Fish93145",
+              "amount": 343,
+              "price": 26974,
+              "manufacturer": "Sony",
+              "notes": "TwledZuwmtRBUnRItukg5yBnR7AoeENbPkjRRLVMU2PbGXCr8LYvgbbQO420q5C5NTelueo0pe5TI7ByCkTx7amhJ7s81oxk2qWt4AU85EiamQlTO7Kf8jxABBTVvpdsDMpeEYiGJHiFMaSNnvri4vNrQoGjf4sDZ2aWa3cq7pSzucMzvP44Wuw29QsK4qdIz6IkwcPt0it5nlkFkZoXZdFzk3rfEtynirK0joFTMVMd0juBgKejYv8cLQ",
+              "received": false
+            }
+          ],
+          "total_price": 26974,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Raymundoton",
+              "street": "Shanahan Light",
+              "house": 979,
+              "flat": 1813
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:34:24.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694410ee1c508c5d5eda416d",
+          "products": [
+            {
+              "_id": "694410ee1c508c5d5eda4195",
+              "name": "Fish93145",
+              "amount": 343,
+              "price": 26974,
+              "manufacturer": "Sony",
+              "notes": "TwledZuwmtRBUnRItukg5yBnR7AoeENbPkjRRLVMU2PbGXCr8LYvgbbQO420q5C5NTelueo0pe5TI7ByCkTx7amhJ7s81oxk2qWt4AU85EiamQlTO7Kf8jxABBTVvpdsDMpeEYiGJHiFMaSNnvri4vNrQoGjf4sDZ2aWa3cq7pSzucMzvP44Wuw29QsK4qdIz6IkwcPt0it5nlkFkZoXZdFzk3rfEtynirK0joFTMVMd0juBgKejYv8cLQ",
+              "received": false
+            }
+          ],
+          "total_price": 26974,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Raymundoton",
+              "street": "Shanahan Light",
+              "house": 979,
+              "flat": 1813
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:34:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694410ee1c508c5d5eda416d",
+          "products": [
+            {
+              "_id": "694410ee1c508c5d5eda4195",
+              "name": "Fish93145",
+              "amount": 343,
+              "price": 26974,
+              "manufacturer": "Sony",
+              "notes": "TwledZuwmtRBUnRItukg5yBnR7AoeENbPkjRRLVMU2PbGXCr8LYvgbbQO420q5C5NTelueo0pe5TI7ByCkTx7amhJ7s81oxk2qWt4AU85EiamQlTO7Kf8jxABBTVvpdsDMpeEYiGJHiFMaSNnvri4vNrQoGjf4sDZ2aWa3cq7pSzucMzvP44Wuw29QsK4qdIz6IkwcPt0it5nlkFkZoXZdFzk3rfEtynirK0joFTMVMd0juBgKejYv8cLQ",
+              "received": false
+            }
+          ],
+          "total_price": 26974,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:34:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:35:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3673",
+    "etag": "W/\"e59-KUogR13CdPwQUSfRNkA3HgFZnOw\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944112f1c508c5d5eda5dd1",
+      "status": "In Process",
+      "customer": {
+        "_id": "6944112f1c508c5d5eda5d9b",
+        "email": "Isai13@hotmail.com",
+        "name": "Bridgette Herzog",
+        "country": "Ukraine",
+        "city": "Blaine",
+        "street": "Tom River 33",
+        "house": 105,
+        "flat": 9094,
+        "phone": "+749782740055000",
+        "createdOn": "2025-12-18T14:35:27.000Z",
+        "notes": "MuAJB5Y2otJqVP8gNUHMgs5Hnk1Kb0"
+      },
+      "products": [
+        {
+          "_id": "6944112f1c508c5d5eda5db0",
+          "name": "Hat74184",
+          "amount": 60,
+          "price": 57698,
+          "manufacturer": "Microsoft",
+          "notes": "rIz5inW9FbuE39GBzjI2qXtHzDlhY5lnjntFo7vAzBSttHb0t2aa9IqgDakhvIYwVzKOLfhgbnbdvvMA1zRCV04swTVPsEDXRcDzpjwC8WbefrEJshQuy44glUaSNR39g1QFlatTtzGCbvXD5FXG8CJ6L38dddGrqfbvzE6qbN5fKIkDyd66fojwSMhms0PaWmyFbEoOlPWF3UUYRh4tBnS2952txqiC221EsXR5fcQ6Ldi480FWISeK7U",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Nienowchester",
+          "street": "Mayer Walk",
+          "house": 962,
+          "flat": 9719
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 57698,
+      "createdOn": "2025-12-18T14:35:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6944112f1c508c5d5eda5d9b",
+          "products": [
+            {
+              "_id": "6944112f1c508c5d5eda5db0",
+              "name": "Hat74184",
+              "amount": 60,
+              "price": 57698,
+              "manufacturer": "Microsoft",
+              "notes": "rIz5inW9FbuE39GBzjI2qXtHzDlhY5lnjntFo7vAzBSttHb0t2aa9IqgDakhvIYwVzKOLfhgbnbdvvMA1zRCV04swTVPsEDXRcDzpjwC8WbefrEJshQuy44glUaSNR39g1QFlatTtzGCbvXD5FXG8CJ6L38dddGrqfbvzE6qbN5fKIkDyd66fojwSMhms0PaWmyFbEoOlPWF3UUYRh4tBnS2952txqiC221EsXR5fcQ6Ldi480FWISeK7U",
+              "received": false
+            }
+          ],
+          "total_price": 57698,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Nienowchester",
+              "street": "Mayer Walk",
+              "house": 962,
+              "flat": 9719
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:35:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944112f1c508c5d5eda5d9b",
+          "products": [
+            {
+              "_id": "6944112f1c508c5d5eda5db0",
+              "name": "Hat74184",
+              "amount": 60,
+              "price": 57698,
+              "manufacturer": "Microsoft",
+              "notes": "rIz5inW9FbuE39GBzjI2qXtHzDlhY5lnjntFo7vAzBSttHb0t2aa9IqgDakhvIYwVzKOLfhgbnbdvvMA1zRCV04swTVPsEDXRcDzpjwC8WbefrEJshQuy44glUaSNR39g1QFlatTtzGCbvXD5FXG8CJ6L38dddGrqfbvzE6qbN5fKIkDyd66fojwSMhms0PaWmyFbEoOlPWF3UUYRh4tBnS2952txqiC221EsXR5fcQ6Ldi480FWISeK7U",
+              "received": false
+            }
+          ],
+          "total_price": 57698,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Nienowchester",
+              "street": "Mayer Walk",
+              "house": 962,
+              "flat": 9719
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:35:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944112f1c508c5d5eda5d9b",
+          "products": [
+            {
+              "_id": "6944112f1c508c5d5eda5db0",
+              "name": "Hat74184",
+              "amount": 60,
+              "price": 57698,
+              "manufacturer": "Microsoft",
+              "notes": "rIz5inW9FbuE39GBzjI2qXtHzDlhY5lnjntFo7vAzBSttHb0t2aa9IqgDakhvIYwVzKOLfhgbnbdvvMA1zRCV04swTVPsEDXRcDzpjwC8WbefrEJshQuy44glUaSNR39g1QFlatTtzGCbvXD5FXG8CJ6L38dddGrqfbvzE6qbN5fKIkDyd66fojwSMhms0PaWmyFbEoOlPWF3UUYRh4tBnS2952txqiC221EsXR5fcQ6Ldi480FWISeK7U",
+              "received": false
+            }
+          ],
+          "total_price": 57698,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:35:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

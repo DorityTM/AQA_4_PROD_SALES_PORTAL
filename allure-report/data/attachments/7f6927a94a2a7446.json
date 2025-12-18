@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:34:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5212",
+    "etag": "W/\"145c-sEotKI5Tlonnz0x1/mV9LySuwk4\"",
+    "keep-alive": "timeout=5, max=7",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694410fe1c508c5d5eda4889",
+      "status": "In Process",
+      "customer": {
+        "_id": "694410fd1c508c5d5eda4801",
+        "email": "Hadley2@hotmail.com",
+        "name": "Maymie Lang",
+        "country": "USA",
+        "city": "Elliottberg",
+        "street": "Reynolds Walks 40",
+        "house": 340,
+        "flat": 8842,
+        "phone": "+789883055574133",
+        "createdOn": "2025-12-18T14:34:37.000Z",
+        "notes": "J4mK0ytTkyFuxpR9BDuGztD7ySMQmh"
+      },
+      "products": [
+        {
+          "_id": "694410fd1c508c5d5eda4823",
+          "name": "Bacon74269",
+          "amount": 461,
+          "price": 35551,
+          "manufacturer": "Microsoft",
+          "notes": "LshoCfbxIGCN6ypsr2E6SXKHdPnGF9MY7YXqojWZetkY8CzMozrWErZfU3LS8szNueuFFJlufYvzhe0DkAU7fEoWx28FZLpHSpyNOWX9YYKYrwezXH3aC81x6q31PdGVbtcIIqRQAUqOYYDXG3phoXRWtqJLHicDCTkSNBzcOjiIlSHEw3Dpmw2dFQpt1Xd7oAzvcEtVriMXTVSOxDXKsmq0jWpnoBt9itRyQOCDb7pebIFob3AVnzEZvC",
+          "received": false
+        },
+        {
+          "_id": "694410fe1c508c5d5eda483d",
+          "name": "Pizza86699",
+          "amount": 828,
+          "price": 58111,
+          "manufacturer": "Sony",
+          "notes": "8Vb4oojP0jKBIHjkLBR9WTUJDtxKmXKoc8VOlkbtgDV3C8FPOW3UgGjQMdiDDdFvcckjIf5rZNeB1ypUROTeft5iQsUw7opBUTeJwveRrCJ9mM7X9GwZyBpVBPjQwjq6oexfEis7cJOlfIpp65jcmaKRSpaIsFUQ7KUyzrELaiH4yhyatwR7JE9TdGPatj6YVDN12JzPdZinxWyusmyHH0ZweKFr6XkH9iGpgKnDOKsPJb8D4nQh6YBVWm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Welchside",
+          "street": "Kathleen Cape",
+          "house": 765,
+          "flat": 2521
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 93662,
+      "createdOn": "2025-12-18T14:34:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694410fd1c508c5d5eda4801",
+          "products": [
+            {
+              "_id": "694410fd1c508c5d5eda4823",
+              "name": "Bacon74269",
+              "amount": 461,
+              "price": 35551,
+              "manufacturer": "Microsoft",
+              "notes": "LshoCfbxIGCN6ypsr2E6SXKHdPnGF9MY7YXqojWZetkY8CzMozrWErZfU3LS8szNueuFFJlufYvzhe0DkAU7fEoWx28FZLpHSpyNOWX9YYKYrwezXH3aC81x6q31PdGVbtcIIqRQAUqOYYDXG3phoXRWtqJLHicDCTkSNBzcOjiIlSHEw3Dpmw2dFQpt1Xd7oAzvcEtVriMXTVSOxDXKsmq0jWpnoBt9itRyQOCDb7pebIFob3AVnzEZvC",
+              "received": false
+            },
+            {
+              "_id": "694410fe1c508c5d5eda483d",
+              "name": "Pizza86699",
+              "amount": 828,
+              "price": 58111,
+              "manufacturer": "Sony",
+              "notes": "8Vb4oojP0jKBIHjkLBR9WTUJDtxKmXKoc8VOlkbtgDV3C8FPOW3UgGjQMdiDDdFvcckjIf5rZNeB1ypUROTeft5iQsUw7opBUTeJwveRrCJ9mM7X9GwZyBpVBPjQwjq6oexfEis7cJOlfIpp65jcmaKRSpaIsFUQ7KUyzrELaiH4yhyatwR7JE9TdGPatj6YVDN12JzPdZinxWyusmyHH0ZweKFr6XkH9iGpgKnDOKsPJb8D4nQh6YBVWm",
+              "received": false
+            }
+          ],
+          "total_price": 93662,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Welchside",
+              "street": "Kathleen Cape",
+              "house": 765,
+              "flat": 2521
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:34:39.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694410fd1c508c5d5eda4801",
+          "products": [
+            {
+              "_id": "694410fd1c508c5d5eda4823",
+              "name": "Bacon74269",
+              "amount": 461,
+              "price": 35551,
+              "manufacturer": "Microsoft",
+              "notes": "LshoCfbxIGCN6ypsr2E6SXKHdPnGF9MY7YXqojWZetkY8CzMozrWErZfU3LS8szNueuFFJlufYvzhe0DkAU7fEoWx28FZLpHSpyNOWX9YYKYrwezXH3aC81x6q31PdGVbtcIIqRQAUqOYYDXG3phoXRWtqJLHicDCTkSNBzcOjiIlSHEw3Dpmw2dFQpt1Xd7oAzvcEtVriMXTVSOxDXKsmq0jWpnoBt9itRyQOCDb7pebIFob3AVnzEZvC",
+              "received": false
+            },
+            {
+              "_id": "694410fe1c508c5d5eda483d",
+              "name": "Pizza86699",
+              "amount": 828,
+              "price": 58111,
+              "manufacturer": "Sony",
+              "notes": "8Vb4oojP0jKBIHjkLBR9WTUJDtxKmXKoc8VOlkbtgDV3C8FPOW3UgGjQMdiDDdFvcckjIf5rZNeB1ypUROTeft5iQsUw7opBUTeJwveRrCJ9mM7X9GwZyBpVBPjQwjq6oexfEis7cJOlfIpp65jcmaKRSpaIsFUQ7KUyzrELaiH4yhyatwR7JE9TdGPatj6YVDN12JzPdZinxWyusmyHH0ZweKFr6XkH9iGpgKnDOKsPJb8D4nQh6YBVWm",
+              "received": false
+            }
+          ],
+          "total_price": 93662,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Welchside",
+              "street": "Kathleen Cape",
+              "house": 765,
+              "flat": 2521
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:34:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694410fd1c508c5d5eda4801",
+          "products": [
+            {
+              "_id": "694410fd1c508c5d5eda4823",
+              "name": "Bacon74269",
+              "amount": 461,
+              "price": 35551,
+              "manufacturer": "Microsoft",
+              "notes": "LshoCfbxIGCN6ypsr2E6SXKHdPnGF9MY7YXqojWZetkY8CzMozrWErZfU3LS8szNueuFFJlufYvzhe0DkAU7fEoWx28FZLpHSpyNOWX9YYKYrwezXH3aC81x6q31PdGVbtcIIqRQAUqOYYDXG3phoXRWtqJLHicDCTkSNBzcOjiIlSHEw3Dpmw2dFQpt1Xd7oAzvcEtVriMXTVSOxDXKsmq0jWpnoBt9itRyQOCDb7pebIFob3AVnzEZvC",
+              "received": false
+            },
+            {
+              "_id": "694410fe1c508c5d5eda483d",
+              "name": "Pizza86699",
+              "amount": 828,
+              "price": 58111,
+              "manufacturer": "Sony",
+              "notes": "8Vb4oojP0jKBIHjkLBR9WTUJDtxKmXKoc8VOlkbtgDV3C8FPOW3UgGjQMdiDDdFvcckjIf5rZNeB1ypUROTeft5iQsUw7opBUTeJwveRrCJ9mM7X9GwZyBpVBPjQwjq6oexfEis7cJOlfIpp65jcmaKRSpaIsFUQ7KUyzrELaiH4yhyatwR7JE9TdGPatj6YVDN12JzPdZinxWyusmyHH0ZweKFr6XkH9iGpgKnDOKsPJb8D4nQh6YBVWm",
+              "received": false
+            }
+          ],
+          "total_price": 93662,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:34:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:34:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-bKvs20vau9V/YS2at9HWWHa5QwE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694410ee1c508c5d5eda41c0",
+      "status": "Draft",
+      "customer": {
+        "_id": "694410ee1c508c5d5eda4171",
+        "email": "Eloy_Witting@yahoo.com",
+        "name": "Quinn White",
+        "country": "Belarus",
+        "city": "Lake Corene",
+        "street": "Ondricka Lock 40",
+        "house": 328,
+        "flat": 9107,
+        "phone": "+620557121072713",
+        "createdOn": "2025-12-18T14:34:22.000Z",
+        "notes": "pD5u8tdGN4NAGNTLhKhFtdRD9DoJHt"
+      },
+      "products": [
+        {
+          "_id": "694410ee1c508c5d5eda419c",
+          "name": "Car12738",
+          "amount": 571,
+          "price": 97742,
+          "manufacturer": "Samsung",
+          "notes": "pNBUBYTeFmAxIA9uP7HpVAgEVVeuWzTAAqoMVKwnGegejy9zLQT6oyAeFRe6x0qjWmS7HGyKfunb5lPe5VChyGIPaimwg2lxCrrdDS8MdflgTG0aVXqQyCjONoig2FWg5A4F3jsWX3R2lkabYYsRyuxjS8Dxr4l5nFfy45c7iACfKgDXNRBmbV3gcZSNhiLrhVrjhnF0qUW6NyZORrSM49SttMdHm3YPLFrUahsTwIZ16MSBgA7I2YtzO6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Port Ernestine",
+          "street": "Wood Street",
+          "house": 607,
+          "flat": 5253
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97742,
+      "createdOn": "2025-12-18T14:34:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694410ee1c508c5d5eda4171",
+          "products": [
+            {
+              "_id": "694410ee1c508c5d5eda419c",
+              "name": "Car12738",
+              "amount": 571,
+              "price": 97742,
+              "manufacturer": "Samsung",
+              "notes": "pNBUBYTeFmAxIA9uP7HpVAgEVVeuWzTAAqoMVKwnGegejy9zLQT6oyAeFRe6x0qjWmS7HGyKfunb5lPe5VChyGIPaimwg2lxCrrdDS8MdflgTG0aVXqQyCjONoig2FWg5A4F3jsWX3R2lkabYYsRyuxjS8Dxr4l5nFfy45c7iACfKgDXNRBmbV3gcZSNhiLrhVrjhnF0qUW6NyZORrSM49SttMdHm3YPLFrUahsTwIZ16MSBgA7I2YtzO6",
+              "received": false
+            }
+          ],
+          "total_price": 97742,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Ernestine",
+              "street": "Wood Street",
+              "house": 607,
+              "flat": 5253
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:34:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694410ee1c508c5d5eda4171",
+          "products": [
+            {
+              "_id": "694410ee1c508c5d5eda419c",
+              "name": "Car12738",
+              "amount": 571,
+              "price": 97742,
+              "manufacturer": "Samsung",
+              "notes": "pNBUBYTeFmAxIA9uP7HpVAgEVVeuWzTAAqoMVKwnGegejy9zLQT6oyAeFRe6x0qjWmS7HGyKfunb5lPe5VChyGIPaimwg2lxCrrdDS8MdflgTG0aVXqQyCjONoig2FWg5A4F3jsWX3R2lkabYYsRyuxjS8Dxr4l5nFfy45c7iACfKgDXNRBmbV3gcZSNhiLrhVrjhnF0qUW6NyZORrSM49SttMdHm3YPLFrUahsTwIZ16MSBgA7I2YtzO6",
+              "received": false
+            }
+          ],
+          "total_price": 97742,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:34:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

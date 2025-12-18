@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:35:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2762",
+    "etag": "W/\"aca-ZIDA1JLzm82lnNfpAjcH2yujf7g\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6944111d1c508c5d5eda55fe",
+      "status": "Draft",
+      "customer": {
+        "_id": "6944111d1c508c5d5eda55c0",
+        "email": "Hans.Spinka@hotmail.com",
+        "name": "Mabel Altenwerth",
+        "country": "Canada",
+        "city": "Lake Leif",
+        "street": "Mackenzie Way 64",
+        "house": 144,
+        "flat": 2775,
+        "phone": "+403321402848962",
+        "createdOn": "2025-12-18T14:35:09.000Z",
+        "notes": "fB1qjxXkhwf2ecgvZlE1jvdrkMxwNG"
+      },
+      "products": [
+        {
+          "_id": "6944111d1c508c5d5eda55d5",
+          "name": "Computer29893",
+          "amount": 29,
+          "price": 22262,
+          "manufacturer": "Microsoft",
+          "notes": "sH8D7zUPEuZ0c5JfPStTuiVsM9AoTB7RPHu6QnqpGk2yeSsa2Mm9ZGgRDzt3gtzX446DPLJ8Y5iwPI7ScRH0qX34le7ntv60wLrk3nk0BTrG0iEjWUDJNHVYAQaJo5nxIpKt97StHGf8gEF458kfatRjj1x9fKbjcJMnFY6brdhEMQBZglV65PVRfi4CNDF0Vsk0ZzbyTGqhK1wM063KTYxJFgrJ8aKXwbTU0p1zAMYS9DzdjToAW4ZtKX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Mylesboro",
+          "street": "Brook Street",
+          "house": 399,
+          "flat": 7404
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22262,
+      "createdOn": "2025-12-18T14:35:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6944111d1c508c5d5eda55c0",
+          "products": [
+            {
+              "_id": "6944111d1c508c5d5eda55d5",
+              "name": "Computer29893",
+              "amount": 29,
+              "price": 22262,
+              "manufacturer": "Microsoft",
+              "notes": "sH8D7zUPEuZ0c5JfPStTuiVsM9AoTB7RPHu6QnqpGk2yeSsa2Mm9ZGgRDzt3gtzX446DPLJ8Y5iwPI7ScRH0qX34le7ntv60wLrk3nk0BTrG0iEjWUDJNHVYAQaJo5nxIpKt97StHGf8gEF458kfatRjj1x9fKbjcJMnFY6brdhEMQBZglV65PVRfi4CNDF0Vsk0ZzbyTGqhK1wM063KTYxJFgrJ8aKXwbTU0p1zAMYS9DzdjToAW4ZtKX",
+              "received": false
+            }
+          ],
+          "total_price": 22262,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Mylesboro",
+              "street": "Brook Street",
+              "house": 399,
+              "flat": 7404
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:35:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6944111d1c508c5d5eda55c0",
+          "products": [
+            {
+              "_id": "6944111d1c508c5d5eda55d5",
+              "name": "Computer29893",
+              "amount": 29,
+              "price": 22262,
+              "manufacturer": "Microsoft",
+              "notes": "sH8D7zUPEuZ0c5JfPStTuiVsM9AoTB7RPHu6QnqpGk2yeSsa2Mm9ZGgRDzt3gtzX446DPLJ8Y5iwPI7ScRH0qX34le7ntv60wLrk3nk0BTrG0iEjWUDJNHVYAQaJo5nxIpKt97StHGf8gEF458kfatRjj1x9fKbjcJMnFY6brdhEMQBZglV65PVRfi4CNDF0Vsk0ZzbyTGqhK1wM063KTYxJFgrJ8aKXwbTU0p1zAMYS9DzdjToAW4ZtKX",
+              "received": false
+            }
+          ],
+          "total_price": 22262,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:35:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

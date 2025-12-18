@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 18 Dec 2025 14:34:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3890",
+    "etag": "W/\"f32-15NbM20FgDRB6d7zkXss2LCd3sg\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694411031c508c5d5eda4a7d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694411011c508c5d5eda49a9",
+        "email": "Austen3@yahoo.com",
+        "name": "Alysa Bernhard",
+        "country": "Belarus",
+        "city": "Port Juston",
+        "street": "Church Walk 48",
+        "house": 13,
+        "flat": 4514,
+        "phone": "+366263218536395",
+        "createdOn": "2025-12-18T14:34:41.000Z",
+        "notes": "L1rtaDeep2xtR477gJzetd772uyz5N"
+      },
+      "products": [
+        {
+          "_id": "694411021c508c5d5eda49fb",
+          "name": "Bike94482",
+          "amount": 426,
+          "price": 7012,
+          "manufacturer": "Tesla",
+          "notes": "QUve4YThIgzWbe9KQPEAyOHworNUNLWxVr7PjyJZ5EqOw4HMYV9lKNiQUMyVriP5sCweyWVXdwaDz1jrE9P9QCiyYJhKsGnTCH2VQpNOKDhZagBH7cHZBut9BoD6qJtsfnFr9NvOsKkzJzIz5ChGuK4GxMs345kXVyCTdXbyuayPjmWt0WAJbZvqyN9h59z3fOscQn2mDhXfBsyvzEIsooHBfVB8lKTVJ7ZDmyJSd3ChPyoaj2Rx0d0YvG",
+          "received": false
+        },
+        {
+          "_id": "694411021c508c5d5eda4a33",
+          "name": "Chicken68840",
+          "amount": 164,
+          "price": 74901,
+          "manufacturer": "Amazon",
+          "notes": "BFY88Qwin04bK6eX9pSiRfkS4kTW6VT5FvaMijn7dCGJfSqzoNzOj73gyQf8UYzRkDFqTfzvAd9kM2s7DVYvzMcSmmwtbdmQpt8B3TZ7BvX2sgoQXw7DAh7dK3CSItAiGiL7u4yEMVzXrAVm3t2d3tsimOGKjgTBio7NCnlQerYBcjNhod1ZBNYtlLnyah9MdkzhmPknWLr8nvW9YFa9vdKhll4YS4F7nbtFIddgOHVGBxfe33Cxe4L0XV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Malden",
+          "street": "Runolfsson Shore",
+          "house": 755,
+          "flat": 3838
+        },
+        "finalDate": "2025-12-25T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 81913,
+      "createdOn": "2025-12-18T14:34:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694411011c508c5d5eda49a9",
+          "products": [
+            {
+              "_id": "694411021c508c5d5eda49fb",
+              "name": "Bike94482",
+              "amount": 426,
+              "price": 7012,
+              "manufacturer": "Tesla",
+              "notes": "QUve4YThIgzWbe9KQPEAyOHworNUNLWxVr7PjyJZ5EqOw4HMYV9lKNiQUMyVriP5sCweyWVXdwaDz1jrE9P9QCiyYJhKsGnTCH2VQpNOKDhZagBH7cHZBut9BoD6qJtsfnFr9NvOsKkzJzIz5ChGuK4GxMs345kXVyCTdXbyuayPjmWt0WAJbZvqyN9h59z3fOscQn2mDhXfBsyvzEIsooHBfVB8lKTVJ7ZDmyJSd3ChPyoaj2Rx0d0YvG",
+              "received": false
+            },
+            {
+              "_id": "694411021c508c5d5eda4a33",
+              "name": "Chicken68840",
+              "amount": 164,
+              "price": 74901,
+              "manufacturer": "Amazon",
+              "notes": "BFY88Qwin04bK6eX9pSiRfkS4kTW6VT5FvaMijn7dCGJfSqzoNzOj73gyQf8UYzRkDFqTfzvAd9kM2s7DVYvzMcSmmwtbdmQpt8B3TZ7BvX2sgoQXw7DAh7dK3CSItAiGiL7u4yEMVzXrAVm3t2d3tsimOGKjgTBio7NCnlQerYBcjNhod1ZBNYtlLnyah9MdkzhmPknWLr8nvW9YFa9vdKhll4YS4F7nbtFIddgOHVGBxfe33Cxe4L0XV",
+              "received": false
+            }
+          ],
+          "total_price": 81913,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Malden",
+              "street": "Runolfsson Shore",
+              "house": 755,
+              "flat": 3838
+            },
+            "finalDate": "2025-12-25T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-18T14:34:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694411011c508c5d5eda49a9",
+          "products": [
+            {
+              "_id": "694411021c508c5d5eda49fb",
+              "name": "Bike94482",
+              "amount": 426,
+              "price": 7012,
+              "manufacturer": "Tesla",
+              "notes": "QUve4YThIgzWbe9KQPEAyOHworNUNLWxVr7PjyJZ5EqOw4HMYV9lKNiQUMyVriP5sCweyWVXdwaDz1jrE9P9QCiyYJhKsGnTCH2VQpNOKDhZagBH7cHZBut9BoD6qJtsfnFr9NvOsKkzJzIz5ChGuK4GxMs345kXVyCTdXbyuayPjmWt0WAJbZvqyN9h59z3fOscQn2mDhXfBsyvzEIsooHBfVB8lKTVJ7ZDmyJSd3ChPyoaj2Rx0d0YvG",
+              "received": false
+            },
+            {
+              "_id": "694411021c508c5d5eda4a33",
+              "name": "Chicken68840",
+              "amount": 164,
+              "price": 74901,
+              "manufacturer": "Amazon",
+              "notes": "BFY88Qwin04bK6eX9pSiRfkS4kTW6VT5FvaMijn7dCGJfSqzoNzOj73gyQf8UYzRkDFqTfzvAd9kM2s7DVYvzMcSmmwtbdmQpt8B3TZ7BvX2sgoQXw7DAh7dK3CSItAiGiL7u4yEMVzXrAVm3t2d3tsimOGKjgTBio7NCnlQerYBcjNhod1ZBNYtlLnyah9MdkzhmPknWLr8nvW9YFa9vdKhll4YS4F7nbtFIddgOHVGBxfe33Cxe4L0XV",
+              "received": false
+            }
+          ],
+          "total_price": 81913,
+          "delivery": null,
+          "changedOn": "2025-12-18T14:34:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
