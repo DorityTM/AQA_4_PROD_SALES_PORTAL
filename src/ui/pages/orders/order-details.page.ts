@@ -66,7 +66,7 @@ export class OrderDetailsPage extends SalesPortalPage {
     await this.open();
     const home = new HomePage(this.page);
     await home.waitForOpened();
-    await home.clickOnViewModel("Orders");
+    await home.clickOnViewModule("Orders");
 
     // Prefer structural match (href contains orderId) before falling back to row text.
     const rowByHref = this.page.locator(`tr:has(a[href*="${orderId}"])`).first();

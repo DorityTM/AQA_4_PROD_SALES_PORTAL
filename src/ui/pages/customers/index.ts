@@ -1,4 +1,4 @@
-// import { AddNewCustomerPage } from "../customers/addNewCustomer.page";
-// import { CustomersListPage } from "./customersList.page";
+import { AddNewCustomerPage } from "../customers/addNewCustomer.page";
+import { CustomersListPage } from "./customersList.page";
 
-// export {  AddNewCustomerPage, CustomersListPage };
+export { AddNewCustomerPage, CustomersListPage };

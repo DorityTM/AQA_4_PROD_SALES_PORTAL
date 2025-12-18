@@ -15,11 +15,6 @@ export class LoginPage extends SalesPortalPage {
     if (credentials.password) await this.passwordInput.fill(credentials.password);
   }
 
-  // async fillCredentials(email: string, password: string): Promise<void> {
-  //   await this.emailInput.fill(credentials.username);
-  //   await this.passwordInput.fill(credentials.password);
-  // }
-
   @logStep("CLICK LOGIN BUTTON")
   async loginButtonClick(): Promise<void> {
     await this.loginButton.click();

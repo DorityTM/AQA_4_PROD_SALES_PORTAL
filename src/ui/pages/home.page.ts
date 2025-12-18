@@ -21,7 +21,7 @@ export class HomePage extends SalesPortalPage {
   readonly uniqueElement = this.welcomeText;
 
   @logStep("CLICK ON VIEW MODULE BUTTON ON HOME PAGE")
-  async clickOnViewModel(module: HomeModuleButton) {
+  async clickOnViewModule(module: HomeModuleButton) {
     const moduleButtons: Record<HomeModuleButton, Locator> = {
       Products: this.productsButton,
       Customers: this.customersButton,
