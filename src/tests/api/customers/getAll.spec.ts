@@ -9,10 +9,9 @@ test.describe("CST-010 Get ALL customers (Technical endpoint)", () => {
     { tag: [TAGS.API, TAGS.CUSTOMERS, TAGS.SMOKE] },
     async ({ loginApiService, customersApiService }) => {
       const token = await loginApiService.loginAsAdmin();
-
       const customers = await customersApiService.getAll(token);
 
-      validateJsonSchema(customers, getAllCustomersSchema);
+      validateJsonSchema({ Customers: customers, IsSuccess: true, ErrorMessage: null }, getAllCustomersSchema);
     },
   );
 });
