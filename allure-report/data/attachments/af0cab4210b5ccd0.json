@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 07:52:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4585",
+    "etag": "W/\"11e9-eKkl3rce7G3vCfxPW+vQVbyi3SM\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694504401c508c5d5ee38750",
+      "status": "Received",
+      "customer": {
+        "_id": "6945043f1c508c5d5ee386f6",
+        "email": "Danika.Ortiz11@yahoo.com",
+        "name": "Dale Orn",
+        "country": "Germany",
+        "city": "Jerdeview",
+        "street": "Feest Curve 6",
+        "house": 242,
+        "flat": 5324,
+        "phone": "+184024480432858",
+        "createdOn": "2025-12-19T07:52:31.000Z",
+        "notes": "xfqI5ctQqlQj0DKa6xPfXhDG11lwNX"
+      },
+      "products": [
+        {
+          "_id": "694504401c508c5d5ee38731",
+          "name": "Ball85016",
+          "amount": 993,
+          "price": 59573,
+          "manufacturer": "Amazon",
+          "notes": "YrYsJZiZFFyJl0BktGjWIMUfQ862ubYpXuoIyWP7R35ZuddgGbFJtYW5wBg7cBCX2gzQB3bkshFl7V8sisrVV40ksEyjoT8Csq4MY1NbQ4YJP409HJOQEkJ5XtwrOLDDj3OCQOtiAhkzhvp7IayfSYaG7r4jAI2gMC8rFrwj6XxGa5JBDv2yiK4wlGwGcG98dbIWui0oYJwBdamOlw1sxhT54bDcIpqVfXNF75DH2wHizbHT9XYV3RCslp",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Dawn",
+          "street": "Abshire Ford",
+          "house": 765,
+          "flat": 6635
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 59573,
+      "createdOn": "2025-12-19T07:52:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6945043f1c508c5d5ee386f6",
+          "products": [
+            {
+              "_id": "694504401c508c5d5ee38731",
+              "name": "Ball85016",
+              "amount": 993,
+              "price": 59573,
+              "manufacturer": "Amazon",
+              "notes": "YrYsJZiZFFyJl0BktGjWIMUfQ862ubYpXuoIyWP7R35ZuddgGbFJtYW5wBg7cBCX2gzQB3bkshFl7V8sisrVV40ksEyjoT8Csq4MY1NbQ4YJP409HJOQEkJ5XtwrOLDDj3OCQOtiAhkzhvp7IayfSYaG7r4jAI2gMC8rFrwj6XxGa5JBDv2yiK4wlGwGcG98dbIWui0oYJwBdamOlw1sxhT54bDcIpqVfXNF75DH2wHizbHT9XYV3RCslp",
+              "received": true
+            }
+          ],
+          "total_price": 59573,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Dawn",
+              "street": "Abshire Ford",
+              "house": 765,
+              "flat": 6635
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:52:33.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6945043f1c508c5d5ee386f6",
+          "products": [
+            {
+              "_id": "694504401c508c5d5ee38731",
+              "name": "Ball85016",
+              "amount": 993,
+              "price": 59573,
+              "manufacturer": "Amazon",
+              "notes": "YrYsJZiZFFyJl0BktGjWIMUfQ862ubYpXuoIyWP7R35ZuddgGbFJtYW5wBg7cBCX2gzQB3bkshFl7V8sisrVV40ksEyjoT8Csq4MY1NbQ4YJP409HJOQEkJ5XtwrOLDDj3OCQOtiAhkzhvp7IayfSYaG7r4jAI2gMC8rFrwj6XxGa5JBDv2yiK4wlGwGcG98dbIWui0oYJwBdamOlw1sxhT54bDcIpqVfXNF75DH2wHizbHT9XYV3RCslp",
+              "received": false
+            }
+          ],
+          "total_price": 59573,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Dawn",
+              "street": "Abshire Ford",
+              "house": 765,
+              "flat": 6635
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:52:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6945043f1c508c5d5ee386f6",
+          "products": [
+            {
+              "_id": "694504401c508c5d5ee38731",
+              "name": "Ball85016",
+              "amount": 993,
+              "price": 59573,
+              "manufacturer": "Amazon",
+              "notes": "YrYsJZiZFFyJl0BktGjWIMUfQ862ubYpXuoIyWP7R35ZuddgGbFJtYW5wBg7cBCX2gzQB3bkshFl7V8sisrVV40ksEyjoT8Csq4MY1NbQ4YJP409HJOQEkJ5XtwrOLDDj3OCQOtiAhkzhvp7IayfSYaG7r4jAI2gMC8rFrwj6XxGa5JBDv2yiK4wlGwGcG98dbIWui0oYJwBdamOlw1sxhT54bDcIpqVfXNF75DH2wHizbHT9XYV3RCslp",
+              "received": false
+            }
+          ],
+          "total_price": 59573,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Dawn",
+              "street": "Abshire Ford",
+              "house": 765,
+              "flat": 6635
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:52:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6945043f1c508c5d5ee386f6",
+          "products": [
+            {
+              "_id": "694504401c508c5d5ee38731",
+              "name": "Ball85016",
+              "amount": 993,
+              "price": 59573,
+              "manufacturer": "Amazon",
+              "notes": "YrYsJZiZFFyJl0BktGjWIMUfQ862ubYpXuoIyWP7R35ZuddgGbFJtYW5wBg7cBCX2gzQB3bkshFl7V8sisrVV40ksEyjoT8Csq4MY1NbQ4YJP409HJOQEkJ5XtwrOLDDj3OCQOtiAhkzhvp7IayfSYaG7r4jAI2gMC8rFrwj6XxGa5JBDv2yiK4wlGwGcG98dbIWui0oYJwBdamOlw1sxhT54bDcIpqVfXNF75DH2wHizbHT9XYV3RCslp",
+              "received": false
+            }
+          ],
+          "total_price": 59573,
+          "delivery": null,
+          "changedOn": "2025-12-19T07:52:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 07:51:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3708",
+    "etag": "W/\"e7c-REr/SvRsJygbglWWu78dEm8B9JI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694504081c508c5d5ee36ece",
+      "status": "In Process",
+      "customer": {
+        "_id": "694504081c508c5d5ee36e89",
+        "email": "Dejah.Wolff@yahoo.com",
+        "name": "Kendrick Senger",
+        "country": "France",
+        "city": "Fort Israel",
+        "street": "N 3rd Street 96",
+        "house": 502,
+        "flat": 1220,
+        "phone": "+721711485274357",
+        "createdOn": "2025-12-19T07:51:36.000Z",
+        "notes": "bh27Vi6kS7W1vOyhHmKlvYQdAzXpRJ"
+      },
+      "products": [
+        {
+          "_id": "694504081c508c5d5ee36e9d",
+          "name": "Tuna40007",
+          "amount": 800,
+          "price": 33514,
+          "manufacturer": "Xiaomi",
+          "notes": "aSwuA5mN6Fe92ijvqxBoLGi6g3qhcuW26JrBXr3k3GqH9z1r0VE4j4p5QHl6BzzevhOTrR1unHtkNFiVnEYorNoVibp4j5lsh45TQsUsgjqX0YOuGw1g3rZVYAkI3beT4qHJjxd7SwzS49LqXC29TFwIdfSOqaabga1dWZuPf8h8bizaotFxd66d5HD1cdEUwF8MOpOA60veCCUjG6qniBhXlXgiOs0XkcCHqNvrVpWW5vZ3VfXCWH5nWu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Fort Antoinetteport",
+          "street": "Sydnee Estate",
+          "house": 912,
+          "flat": 4608
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33514,
+      "createdOn": "2025-12-19T07:51:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694504081c508c5d5ee36e89",
+          "products": [
+            {
+              "_id": "694504081c508c5d5ee36e9d",
+              "name": "Tuna40007",
+              "amount": 800,
+              "price": 33514,
+              "manufacturer": "Xiaomi",
+              "notes": "aSwuA5mN6Fe92ijvqxBoLGi6g3qhcuW26JrBXr3k3GqH9z1r0VE4j4p5QHl6BzzevhOTrR1unHtkNFiVnEYorNoVibp4j5lsh45TQsUsgjqX0YOuGw1g3rZVYAkI3beT4qHJjxd7SwzS49LqXC29TFwIdfSOqaabga1dWZuPf8h8bizaotFxd66d5HD1cdEUwF8MOpOA60veCCUjG6qniBhXlXgiOs0XkcCHqNvrVpWW5vZ3VfXCWH5nWu",
+              "received": false
+            }
+          ],
+          "total_price": 33514,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Antoinetteport",
+              "street": "Sydnee Estate",
+              "house": 912,
+              "flat": 4608
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:51:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694504081c508c5d5ee36e89",
+          "products": [
+            {
+              "_id": "694504081c508c5d5ee36e9d",
+              "name": "Tuna40007",
+              "amount": 800,
+              "price": 33514,
+              "manufacturer": "Xiaomi",
+              "notes": "aSwuA5mN6Fe92ijvqxBoLGi6g3qhcuW26JrBXr3k3GqH9z1r0VE4j4p5QHl6BzzevhOTrR1unHtkNFiVnEYorNoVibp4j5lsh45TQsUsgjqX0YOuGw1g3rZVYAkI3beT4qHJjxd7SwzS49LqXC29TFwIdfSOqaabga1dWZuPf8h8bizaotFxd66d5HD1cdEUwF8MOpOA60veCCUjG6qniBhXlXgiOs0XkcCHqNvrVpWW5vZ3VfXCWH5nWu",
+              "received": false
+            }
+          ],
+          "total_price": 33514,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Antoinetteport",
+              "street": "Sydnee Estate",
+              "house": 912,
+              "flat": 4608
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:51:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694504081c508c5d5ee36e89",
+          "products": [
+            {
+              "_id": "694504081c508c5d5ee36e9d",
+              "name": "Tuna40007",
+              "amount": 800,
+              "price": 33514,
+              "manufacturer": "Xiaomi",
+              "notes": "aSwuA5mN6Fe92ijvqxBoLGi6g3qhcuW26JrBXr3k3GqH9z1r0VE4j4p5QHl6BzzevhOTrR1unHtkNFiVnEYorNoVibp4j5lsh45TQsUsgjqX0YOuGw1g3rZVYAkI3beT4qHJjxd7SwzS49LqXC29TFwIdfSOqaabga1dWZuPf8h8bizaotFxd66d5HD1cdEUwF8MOpOA60veCCUjG6qniBhXlXgiOs0XkcCHqNvrVpWW5vZ3VfXCWH5nWu",
+              "received": false
+            }
+          ],
+          "total_price": 33514,
+          "delivery": null,
+          "changedOn": "2025-12-19T07:51:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

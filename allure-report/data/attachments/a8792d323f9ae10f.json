@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 07:52:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2775",
+    "etag": "W/\"ad7-97g+sx3UCFNL64ETu4zYpHq3kqs\"",
+    "keep-alive": "timeout=5, max=26",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694504241c508c5d5ee37a4a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694504241c508c5d5ee37a0d",
+        "email": "Alvina_Okuneva-Langosh61@hotmail.com",
+        "name": "Fabian Pfannerstill",
+        "country": "Russia",
+        "city": "Carlsbad",
+        "street": "Arjun Valley 17",
+        "house": 310,
+        "flat": 1258,
+        "phone": "+484594823287654",
+        "createdOn": "2025-12-19T07:52:04.000Z",
+        "notes": "0ZhalbPISgHZyAQS157ureNCguiht2"
+      },
+      "products": [
+        {
+          "_id": "694504241c508c5d5ee37a20",
+          "name": "Bacon564",
+          "amount": 101,
+          "price": 11550,
+          "manufacturer": "Amazon",
+          "notes": "UzpIMETVjzd6uZo94UDZQlvkIkDqKdnDhp6rJwKkRR5Dhcp8v7L0cFuEiti0XtsL44Q2Frb4f1YaGkfOdksbfxOcpz7ZalnJtemw3hjdgGvUwiKBEN6SrMsBFQBPaAzMEnzXApYjMKut11fjeTWCo6GmzRosbrefkKenY4KUkuKJnlJGSy2xlcSqLdlyIAtzjONab2IkBLpCnT9BuGluFD3M7zDHAUwXFVDWBRq9B7ACfBPdMOwbtkjpJ8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Elfriedaworth",
+          "street": "Clark Locks",
+          "house": 337,
+          "flat": 3006
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 11550,
+      "createdOn": "2025-12-19T07:52:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694504241c508c5d5ee37a0d",
+          "products": [
+            {
+              "_id": "694504241c508c5d5ee37a20",
+              "name": "Bacon564",
+              "amount": 101,
+              "price": 11550,
+              "manufacturer": "Amazon",
+              "notes": "UzpIMETVjzd6uZo94UDZQlvkIkDqKdnDhp6rJwKkRR5Dhcp8v7L0cFuEiti0XtsL44Q2Frb4f1YaGkfOdksbfxOcpz7ZalnJtemw3hjdgGvUwiKBEN6SrMsBFQBPaAzMEnzXApYjMKut11fjeTWCo6GmzRosbrefkKenY4KUkuKJnlJGSy2xlcSqLdlyIAtzjONab2IkBLpCnT9BuGluFD3M7zDHAUwXFVDWBRq9B7ACfBPdMOwbtkjpJ8",
+              "received": false
+            }
+          ],
+          "total_price": 11550,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Elfriedaworth",
+              "street": "Clark Locks",
+              "house": 337,
+              "flat": 3006
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:52:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694504241c508c5d5ee37a0d",
+          "products": [
+            {
+              "_id": "694504241c508c5d5ee37a20",
+              "name": "Bacon564",
+              "amount": 101,
+              "price": 11550,
+              "manufacturer": "Amazon",
+              "notes": "UzpIMETVjzd6uZo94UDZQlvkIkDqKdnDhp6rJwKkRR5Dhcp8v7L0cFuEiti0XtsL44Q2Frb4f1YaGkfOdksbfxOcpz7ZalnJtemw3hjdgGvUwiKBEN6SrMsBFQBPaAzMEnzXApYjMKut11fjeTWCo6GmzRosbrefkKenY4KUkuKJnlJGSy2xlcSqLdlyIAtzjONab2IkBLpCnT9BuGluFD3M7zDHAUwXFVDWBRq9B7ACfBPdMOwbtkjpJ8",
+              "received": false
+            }
+          ],
+          "total_price": 11550,
+          "delivery": null,
+          "changedOn": "2025-12-19T07:52:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

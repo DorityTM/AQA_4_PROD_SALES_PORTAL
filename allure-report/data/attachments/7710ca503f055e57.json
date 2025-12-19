@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 07:52:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4617",
+    "etag": "W/\"1209-0nczJSU3hjvKieH9pidRTaHFtgw\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694504441c508c5d5ee3896f",
+      "status": "Received",
+      "customer": {
+        "_id": "694504441c508c5d5ee38901",
+        "email": "Danyka77@yahoo.com",
+        "name": "Vladimir Emmerich",
+        "country": "Ukraine",
+        "city": "Daughertycester",
+        "street": "Isabell Inlet 97",
+        "house": 802,
+        "flat": 2894,
+        "phone": "+223090280373297",
+        "createdOn": "2025-12-19T07:52:36.000Z",
+        "notes": "aFv5zldUJR8Ik9mxJ9TEyxes9HFkes"
+      },
+      "products": [
+        {
+          "_id": "694504441c508c5d5ee3891e",
+          "name": "Tuna70120",
+          "amount": 150,
+          "price": 31538,
+          "manufacturer": "Amazon",
+          "notes": "ulepJOMGoLoSyuYQS2VCcPkgVWiaJjPHwWtMhOhRrc5ljO03jytJ6M1HT3g6ttaFMlI2jLYNUZwDiuSnsA8lJrd9bTYyVGP0LUBh6zrqk2q2JVJUiNqGw1kRKyIenRP34RWcnWIc3MUV997cuP2eERKy581ygedF5a2IamHWsHxxw7WNJXjg4biSsi3k6ql8bUdXmZEOdDSU2KOymslRK5Z6BTcUvt9mroDGMeZyMsEH8M22M5745tRoBH",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Micahfurt",
+          "street": "Hans Groves",
+          "house": 325,
+          "flat": 1092
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 31538,
+      "createdOn": "2025-12-19T07:52:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694504441c508c5d5ee38901",
+          "products": [
+            {
+              "_id": "694504441c508c5d5ee3891e",
+              "name": "Tuna70120",
+              "amount": 150,
+              "price": 31538,
+              "manufacturer": "Amazon",
+              "notes": "ulepJOMGoLoSyuYQS2VCcPkgVWiaJjPHwWtMhOhRrc5ljO03jytJ6M1HT3g6ttaFMlI2jLYNUZwDiuSnsA8lJrd9bTYyVGP0LUBh6zrqk2q2JVJUiNqGw1kRKyIenRP34RWcnWIc3MUV997cuP2eERKy581ygedF5a2IamHWsHxxw7WNJXjg4biSsi3k6ql8bUdXmZEOdDSU2KOymslRK5Z6BTcUvt9mroDGMeZyMsEH8M22M5745tRoBH",
+              "received": true
+            }
+          ],
+          "total_price": 31538,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Micahfurt",
+              "street": "Hans Groves",
+              "house": 325,
+              "flat": 1092
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:52:38.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694504441c508c5d5ee38901",
+          "products": [
+            {
+              "_id": "694504441c508c5d5ee3891e",
+              "name": "Tuna70120",
+              "amount": 150,
+              "price": 31538,
+              "manufacturer": "Amazon",
+              "notes": "ulepJOMGoLoSyuYQS2VCcPkgVWiaJjPHwWtMhOhRrc5ljO03jytJ6M1HT3g6ttaFMlI2jLYNUZwDiuSnsA8lJrd9bTYyVGP0LUBh6zrqk2q2JVJUiNqGw1kRKyIenRP34RWcnWIc3MUV997cuP2eERKy581ygedF5a2IamHWsHxxw7WNJXjg4biSsi3k6ql8bUdXmZEOdDSU2KOymslRK5Z6BTcUvt9mroDGMeZyMsEH8M22M5745tRoBH",
+              "received": false
+            }
+          ],
+          "total_price": 31538,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Micahfurt",
+              "street": "Hans Groves",
+              "house": 325,
+              "flat": 1092
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:52:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694504441c508c5d5ee38901",
+          "products": [
+            {
+              "_id": "694504441c508c5d5ee3891e",
+              "name": "Tuna70120",
+              "amount": 150,
+              "price": 31538,
+              "manufacturer": "Amazon",
+              "notes": "ulepJOMGoLoSyuYQS2VCcPkgVWiaJjPHwWtMhOhRrc5ljO03jytJ6M1HT3g6ttaFMlI2jLYNUZwDiuSnsA8lJrd9bTYyVGP0LUBh6zrqk2q2JVJUiNqGw1kRKyIenRP34RWcnWIc3MUV997cuP2eERKy581ygedF5a2IamHWsHxxw7WNJXjg4biSsi3k6ql8bUdXmZEOdDSU2KOymslRK5Z6BTcUvt9mroDGMeZyMsEH8M22M5745tRoBH",
+              "received": false
+            }
+          ],
+          "total_price": 31538,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Micahfurt",
+              "street": "Hans Groves",
+              "house": 325,
+              "flat": 1092
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:52:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694504441c508c5d5ee38901",
+          "products": [
+            {
+              "_id": "694504441c508c5d5ee3891e",
+              "name": "Tuna70120",
+              "amount": 150,
+              "price": 31538,
+              "manufacturer": "Amazon",
+              "notes": "ulepJOMGoLoSyuYQS2VCcPkgVWiaJjPHwWtMhOhRrc5ljO03jytJ6M1HT3g6ttaFMlI2jLYNUZwDiuSnsA8lJrd9bTYyVGP0LUBh6zrqk2q2JVJUiNqGw1kRKyIenRP34RWcnWIc3MUV997cuP2eERKy581ygedF5a2IamHWsHxxw7WNJXjg4biSsi3k6ql8bUdXmZEOdDSU2KOymslRK5Z6BTcUvt9mroDGMeZyMsEH8M22M5745tRoBH",
+              "received": false
+            }
+          ],
+          "total_price": 31538,
+          "delivery": null,
+          "changedOn": "2025-12-19T07:52:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
