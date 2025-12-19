@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 12:28:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3900",
+    "etag": "W/\"f3c-qf/F3IDFDHhhOxgUU6gUWqylHoY\"",
+    "keep-alive": "timeout=5, max=26",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694544d81c508c5d5ee42fdd",
+      "status": "Draft",
+      "customer": {
+        "_id": "694544d71c508c5d5ee42f86",
+        "email": "Susan_Volkman@gmail.com",
+        "name": "Ike Ritchie",
+        "country": "Germany",
+        "city": "St Charles",
+        "street": "Bogisich Landing 65",
+        "house": 39,
+        "flat": 9080,
+        "phone": "+335928397826812",
+        "createdOn": "2025-12-19T12:28:07.000Z",
+        "notes": "4WxHCEw2QvL0QzlKhSvw2wWZrgCYnb"
+      },
+      "products": [
+        {
+          "_id": "694544d71c508c5d5ee42f9e",
+          "name": "Keyboard37928",
+          "amount": 906,
+          "price": 23622,
+          "manufacturer": "Apple",
+          "notes": "pK0vdnwHOv4HfIytfmhYjrZCvXMDKVsCQwy0eePhuDIbKwGpOl39ZokbobsIaXoNku8wNjgOVdZY5cjmNBTxTGHVqr9Il5KZFy9B1qgtW9S1AS70Orbeiy5M9agkwOREp8KSjmRXAqgAgmX10oLrHSrAzGfi21kj5WDjggWa87bFT1YpQO3f0vcDvEA4DHbE4hzg8lrLso0sgUVLa8Vcecc3014kgaJpmvuKaMj3Qb5e0psFoioFng4tgG",
+          "received": false
+        },
+        {
+          "_id": "694544d71c508c5d5ee42fba",
+          "name": "Hat2255",
+          "amount": 845,
+          "price": 75944,
+          "manufacturer": "Tesla",
+          "notes": "842k6nt0BArMIFxDeWYwkmBR6KZl9fX3kvdMfUehvimzYybs2NIcmQWgIO8xUx4RZiy55UNt6k3y2DqYJPOBl8D0uTWhZNs4KDDF3aytQMFjeIrCKUQ0iYk1ALyI0iWvnSe2VYNJLj8iPULnXyptCAtwpGptJEGtwH02RUfLGXnEy2nIZZMiXodLtACbYrdgmnV8Es7eJnRj4fOEf0W6QCpCDXYuBAdxEvmxIuswkDJXg1dFqeNtHlGRSE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Kaylee",
+          "street": "Tamara Valley",
+          "house": 277,
+          "flat": 2827
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99566,
+      "createdOn": "2025-12-19T12:28:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694544d71c508c5d5ee42f86",
+          "products": [
+            {
+              "_id": "694544d71c508c5d5ee42f9e",
+              "name": "Keyboard37928",
+              "amount": 906,
+              "price": 23622,
+              "manufacturer": "Apple",
+              "notes": "pK0vdnwHOv4HfIytfmhYjrZCvXMDKVsCQwy0eePhuDIbKwGpOl39ZokbobsIaXoNku8wNjgOVdZY5cjmNBTxTGHVqr9Il5KZFy9B1qgtW9S1AS70Orbeiy5M9agkwOREp8KSjmRXAqgAgmX10oLrHSrAzGfi21kj5WDjggWa87bFT1YpQO3f0vcDvEA4DHbE4hzg8lrLso0sgUVLa8Vcecc3014kgaJpmvuKaMj3Qb5e0psFoioFng4tgG",
+              "received": false
+            },
+            {
+              "_id": "694544d71c508c5d5ee42fba",
+              "name": "Hat2255",
+              "amount": 845,
+              "price": 75944,
+              "manufacturer": "Tesla",
+              "notes": "842k6nt0BArMIFxDeWYwkmBR6KZl9fX3kvdMfUehvimzYybs2NIcmQWgIO8xUx4RZiy55UNt6k3y2DqYJPOBl8D0uTWhZNs4KDDF3aytQMFjeIrCKUQ0iYk1ALyI0iWvnSe2VYNJLj8iPULnXyptCAtwpGptJEGtwH02RUfLGXnEy2nIZZMiXodLtACbYrdgmnV8Es7eJnRj4fOEf0W6QCpCDXYuBAdxEvmxIuswkDJXg1dFqeNtHlGRSE",
+              "received": false
+            }
+          ],
+          "total_price": 99566,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Kaylee",
+              "street": "Tamara Valley",
+              "house": 277,
+              "flat": 2827
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T12:28:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694544d71c508c5d5ee42f86",
+          "products": [
+            {
+              "_id": "694544d71c508c5d5ee42f9e",
+              "name": "Keyboard37928",
+              "amount": 906,
+              "price": 23622,
+              "manufacturer": "Apple",
+              "notes": "pK0vdnwHOv4HfIytfmhYjrZCvXMDKVsCQwy0eePhuDIbKwGpOl39ZokbobsIaXoNku8wNjgOVdZY5cjmNBTxTGHVqr9Il5KZFy9B1qgtW9S1AS70Orbeiy5M9agkwOREp8KSjmRXAqgAgmX10oLrHSrAzGfi21kj5WDjggWa87bFT1YpQO3f0vcDvEA4DHbE4hzg8lrLso0sgUVLa8Vcecc3014kgaJpmvuKaMj3Qb5e0psFoioFng4tgG",
+              "received": false
+            },
+            {
+              "_id": "694544d71c508c5d5ee42fba",
+              "name": "Hat2255",
+              "amount": 845,
+              "price": 75944,
+              "manufacturer": "Tesla",
+              "notes": "842k6nt0BArMIFxDeWYwkmBR6KZl9fX3kvdMfUehvimzYybs2NIcmQWgIO8xUx4RZiy55UNt6k3y2DqYJPOBl8D0uTWhZNs4KDDF3aytQMFjeIrCKUQ0iYk1ALyI0iWvnSe2VYNJLj8iPULnXyptCAtwpGptJEGtwH02RUfLGXnEy2nIZZMiXodLtACbYrdgmnV8Es7eJnRj4fOEf0W6QCpCDXYuBAdxEvmxIuswkDJXg1dFqeNtHlGRSE",
+              "received": false
+            }
+          ],
+          "total_price": 99566,
+          "delivery": null,
+          "changedOn": "2025-12-19T12:28:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

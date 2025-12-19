@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 12:29:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2736",
+    "etag": "W/\"ab0-mI0veShWbotUVQaVgLAKgjY/D0s\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694545131c508c5d5ee45175",
+      "status": "Draft",
+      "customer": {
+        "_id": "694545121c508c5d5ee45131",
+        "email": "Ramona78@hotmail.com",
+        "name": "Heber Kirlin",
+        "country": "Belarus",
+        "city": "Tinaboro",
+        "street": "Dare Rue 61",
+        "house": 951,
+        "flat": 2731,
+        "phone": "+456708557579574",
+        "createdOn": "2025-12-19T12:29:06.000Z",
+        "notes": "J72rsUvsJkWVK7c7LF8upVQFnTNdgt"
+      },
+      "products": [
+        {
+          "_id": "694545131c508c5d5ee4514c",
+          "name": "Table83455",
+          "amount": 186,
+          "price": 92059,
+          "manufacturer": "Apple",
+          "notes": "vRqmjZvYe6E8Z962qFvsGqIgcFRV0qm8v50LBmjxpEYmtSJI7Y10MQR3o7HmIAOGTIA5VAvsFK92ghi4cnzWYxsBTV2zCfzCy8cSKjK6QCuE7DRjXp5JNI9y7L2RyudUfwvvtQtXMCIyPIUJDqlW0F0kwbv3gqP927W0HVNW69r7uo08VnpGwfgx6d4YRuC05sWdNIceQFtPSPv2FguRmIBRBqyIgZoVr3FA3YMav9djTnmMfVoEAvV3CZ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Aliviaboro",
+          "street": "Spring Street",
+          "house": 600,
+          "flat": 3695
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92059,
+      "createdOn": "2025-12-19T12:29:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694545121c508c5d5ee45131",
+          "products": [
+            {
+              "_id": "694545131c508c5d5ee4514c",
+              "name": "Table83455",
+              "amount": 186,
+              "price": 92059,
+              "manufacturer": "Apple",
+              "notes": "vRqmjZvYe6E8Z962qFvsGqIgcFRV0qm8v50LBmjxpEYmtSJI7Y10MQR3o7HmIAOGTIA5VAvsFK92ghi4cnzWYxsBTV2zCfzCy8cSKjK6QCuE7DRjXp5JNI9y7L2RyudUfwvvtQtXMCIyPIUJDqlW0F0kwbv3gqP927W0HVNW69r7uo08VnpGwfgx6d4YRuC05sWdNIceQFtPSPv2FguRmIBRBqyIgZoVr3FA3YMav9djTnmMfVoEAvV3CZ",
+              "received": false
+            }
+          ],
+          "total_price": 92059,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Aliviaboro",
+              "street": "Spring Street",
+              "house": 600,
+              "flat": 3695
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T12:29:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694545121c508c5d5ee45131",
+          "products": [
+            {
+              "_id": "694545131c508c5d5ee4514c",
+              "name": "Table83455",
+              "amount": 186,
+              "price": 92059,
+              "manufacturer": "Apple",
+              "notes": "vRqmjZvYe6E8Z962qFvsGqIgcFRV0qm8v50LBmjxpEYmtSJI7Y10MQR3o7HmIAOGTIA5VAvsFK92ghi4cnzWYxsBTV2zCfzCy8cSKjK6QCuE7DRjXp5JNI9y7L2RyudUfwvvtQtXMCIyPIUJDqlW0F0kwbv3gqP927W0HVNW69r7uo08VnpGwfgx6d4YRuC05sWdNIceQFtPSPv2FguRmIBRBqyIgZoVr3FA3YMav9djTnmMfVoEAvV3CZ",
+              "received": false
+            }
+          ],
+          "total_price": 92059,
+          "delivery": null,
+          "changedOn": "2025-12-19T12:29:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
