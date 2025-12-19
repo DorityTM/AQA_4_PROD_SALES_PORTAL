@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 00:01:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2752",
+    "etag": "W/\"ac0-hFb/C4Nrt468qWmA9/5GJnC5Ccs\"",
+    "keep-alive": "timeout=5, max=35",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694495c21c508c5d5ee30ac5",
+      "status": "Draft",
+      "customer": {
+        "_id": "694495c21c508c5d5ee30a83",
+        "email": "Tyrell_Reinger@gmail.com",
+        "name": "Broderick Hudson",
+        "country": "France",
+        "city": "Buffalo",
+        "street": "Oak Road 86",
+        "house": 903,
+        "flat": 9751,
+        "phone": "+485938511728946",
+        "createdOn": "2025-12-19T00:01:06.000Z",
+        "notes": "aD4HwtOeNpJNVyECYnzQZK7nEFc6va"
+      },
+      "products": [
+        {
+          "_id": "694495c21c508c5d5ee30a93",
+          "name": "Pizza37328",
+          "amount": 290,
+          "price": 96381,
+          "manufacturer": "Microsoft",
+          "notes": "jAIJVnZrGZ81k44ozQySqlEkWrsOqaicGF4GcLLHgd1MKLCzBixkstan2C97KTHKqtcFOssKsWU0qTCsA0YuVtJH5trxhaPa3svyU94cL27DuGoeKt52uALyEk9pVoevAXTprvEZfyUC4Oxm1XS7N17RgBXvdPGqwRIuKmPPC7P3zsLcep5ltjVo5oCt6hpkIuEhsxwOswAeBrG7eGoyfVaHF8ImOVh1w5pqbsc2o2qmX1TYahuVrzCL53",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Harveyberg",
+          "street": "Harvey Ports",
+          "house": 15,
+          "flat": 2385
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 96381,
+      "createdOn": "2025-12-19T00:01:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694495c21c508c5d5ee30a83",
+          "products": [
+            {
+              "_id": "694495c21c508c5d5ee30a93",
+              "name": "Pizza37328",
+              "amount": 290,
+              "price": 96381,
+              "manufacturer": "Microsoft",
+              "notes": "jAIJVnZrGZ81k44ozQySqlEkWrsOqaicGF4GcLLHgd1MKLCzBixkstan2C97KTHKqtcFOssKsWU0qTCsA0YuVtJH5trxhaPa3svyU94cL27DuGoeKt52uALyEk9pVoevAXTprvEZfyUC4Oxm1XS7N17RgBXvdPGqwRIuKmPPC7P3zsLcep5ltjVo5oCt6hpkIuEhsxwOswAeBrG7eGoyfVaHF8ImOVh1w5pqbsc2o2qmX1TYahuVrzCL53",
+              "received": false
+            }
+          ],
+          "total_price": 96381,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Harveyberg",
+              "street": "Harvey Ports",
+              "house": 15,
+              "flat": 2385
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T00:01:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694495c21c508c5d5ee30a83",
+          "products": [
+            {
+              "_id": "694495c21c508c5d5ee30a93",
+              "name": "Pizza37328",
+              "amount": 290,
+              "price": 96381,
+              "manufacturer": "Microsoft",
+              "notes": "jAIJVnZrGZ81k44ozQySqlEkWrsOqaicGF4GcLLHgd1MKLCzBixkstan2C97KTHKqtcFOssKsWU0qTCsA0YuVtJH5trxhaPa3svyU94cL27DuGoeKt52uALyEk9pVoevAXTprvEZfyUC4Oxm1XS7N17RgBXvdPGqwRIuKmPPC7P3zsLcep5ltjVo5oCt6hpkIuEhsxwOswAeBrG7eGoyfVaHF8ImOVh1w5pqbsc2o2qmX1TYahuVrzCL53",
+              "received": false
+            }
+          ],
+          "total_price": 96381,
+          "delivery": null,
+          "changedOn": "2025-12-19T00:01:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

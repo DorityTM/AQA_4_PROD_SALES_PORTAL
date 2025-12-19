@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 00:01:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5215",
+    "etag": "W/\"145f-UVrPa+eaevrHaleqFJqng6A81vw\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694495f41c508c5d5ee32235",
+      "status": "In Process",
+      "customer": {
+        "_id": "694495f31c508c5d5ee321ac",
+        "email": "Mariana.Stark44@yahoo.com",
+        "name": "Gudrun Lehner Krajcik",
+        "country": "Germany",
+        "city": "South Kennedy",
+        "street": "Ryann Path 43",
+        "house": 454,
+        "flat": 6728,
+        "phone": "+585374205753186",
+        "createdOn": "2025-12-19T00:01:55.000Z",
+        "notes": "Mf8XFUGrMT0U83sLqN0w8fDXHz0LLV"
+      },
+      "products": [
+        {
+          "_id": "694495f41c508c5d5ee321c9",
+          "name": "Cheese12039",
+          "amount": 396,
+          "price": 42586,
+          "manufacturer": "Google",
+          "notes": "N7TAna9gRkJUecIbKkZzKms59eiCiAm35yQL5I7OcIgbkmiIzwQidTI9PzKWTgz7UKbVnPLaAh1duEF0JxpcNnmBCCGbp4xcV2x3Zk3wjqG7GjyJk2ETwwP7A0wIob1qScbsVIyAzcAicNJUzNTdzIQDjDf6xKnjwvL52VMh4t9IokBJ9QWeagzL3Os8XKet71lT3zHwQVMbCcESVI52uQwbZ6kIvfS9UkmtgKLw1mdi86g7XAgEzTPh9S",
+          "received": false
+        },
+        {
+          "_id": "694495f41c508c5d5ee321ec",
+          "name": "Bike49692",
+          "amount": 436,
+          "price": 79773,
+          "manufacturer": "Google",
+          "notes": "0khs6WzcVoap5R0myoS4sKv43rOh7jcO85NEz8NuB3YvERlYywq6atxZVgXhxokBU6yXtgkefttEOVEWFT2VIKkH85dECOfktTrtZ0rPR4bixoXI1gLqRhuS7kKFWVZYS6dx95U6MPsEPe6AJJ44nSmCLZwsYMzZ4r769KQh19CznJw1GvTAbldQtQYGCisX9KAmRmJNvHGP60UKHmvOCcTSvHcD6jD45kgr6A0NgHqvuvd7ogI5vPl1w7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Maeshire",
+          "street": "Post Road",
+          "house": 577,
+          "flat": 5546
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 122359,
+      "createdOn": "2025-12-19T00:01:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694495f31c508c5d5ee321ac",
+          "products": [
+            {
+              "_id": "694495f41c508c5d5ee321c9",
+              "name": "Cheese12039",
+              "amount": 396,
+              "price": 42586,
+              "manufacturer": "Google",
+              "notes": "N7TAna9gRkJUecIbKkZzKms59eiCiAm35yQL5I7OcIgbkmiIzwQidTI9PzKWTgz7UKbVnPLaAh1duEF0JxpcNnmBCCGbp4xcV2x3Zk3wjqG7GjyJk2ETwwP7A0wIob1qScbsVIyAzcAicNJUzNTdzIQDjDf6xKnjwvL52VMh4t9IokBJ9QWeagzL3Os8XKet71lT3zHwQVMbCcESVI52uQwbZ6kIvfS9UkmtgKLw1mdi86g7XAgEzTPh9S",
+              "received": false
+            },
+            {
+              "_id": "694495f41c508c5d5ee321ec",
+              "name": "Bike49692",
+              "amount": 436,
+              "price": 79773,
+              "manufacturer": "Google",
+              "notes": "0khs6WzcVoap5R0myoS4sKv43rOh7jcO85NEz8NuB3YvERlYywq6atxZVgXhxokBU6yXtgkefttEOVEWFT2VIKkH85dECOfktTrtZ0rPR4bixoXI1gLqRhuS7kKFWVZYS6dx95U6MPsEPe6AJJ44nSmCLZwsYMzZ4r769KQh19CznJw1GvTAbldQtQYGCisX9KAmRmJNvHGP60UKHmvOCcTSvHcD6jD45kgr6A0NgHqvuvd7ogI5vPl1w7",
+              "received": false
+            }
+          ],
+          "total_price": 122359,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Maeshire",
+              "street": "Post Road",
+              "house": 577,
+              "flat": 5546
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T00:01:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694495f31c508c5d5ee321ac",
+          "products": [
+            {
+              "_id": "694495f41c508c5d5ee321c9",
+              "name": "Cheese12039",
+              "amount": 396,
+              "price": 42586,
+              "manufacturer": "Google",
+              "notes": "N7TAna9gRkJUecIbKkZzKms59eiCiAm35yQL5I7OcIgbkmiIzwQidTI9PzKWTgz7UKbVnPLaAh1duEF0JxpcNnmBCCGbp4xcV2x3Zk3wjqG7GjyJk2ETwwP7A0wIob1qScbsVIyAzcAicNJUzNTdzIQDjDf6xKnjwvL52VMh4t9IokBJ9QWeagzL3Os8XKet71lT3zHwQVMbCcESVI52uQwbZ6kIvfS9UkmtgKLw1mdi86g7XAgEzTPh9S",
+              "received": false
+            },
+            {
+              "_id": "694495f41c508c5d5ee321ec",
+              "name": "Bike49692",
+              "amount": 436,
+              "price": 79773,
+              "manufacturer": "Google",
+              "notes": "0khs6WzcVoap5R0myoS4sKv43rOh7jcO85NEz8NuB3YvERlYywq6atxZVgXhxokBU6yXtgkefttEOVEWFT2VIKkH85dECOfktTrtZ0rPR4bixoXI1gLqRhuS7kKFWVZYS6dx95U6MPsEPe6AJJ44nSmCLZwsYMzZ4r769KQh19CznJw1GvTAbldQtQYGCisX9KAmRmJNvHGP60UKHmvOCcTSvHcD6jD45kgr6A0NgHqvuvd7ogI5vPl1w7",
+              "received": false
+            }
+          ],
+          "total_price": 122359,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Maeshire",
+              "street": "Post Road",
+              "house": 577,
+              "flat": 5546
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T00:01:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694495f31c508c5d5ee321ac",
+          "products": [
+            {
+              "_id": "694495f41c508c5d5ee321c9",
+              "name": "Cheese12039",
+              "amount": 396,
+              "price": 42586,
+              "manufacturer": "Google",
+              "notes": "N7TAna9gRkJUecIbKkZzKms59eiCiAm35yQL5I7OcIgbkmiIzwQidTI9PzKWTgz7UKbVnPLaAh1duEF0JxpcNnmBCCGbp4xcV2x3Zk3wjqG7GjyJk2ETwwP7A0wIob1qScbsVIyAzcAicNJUzNTdzIQDjDf6xKnjwvL52VMh4t9IokBJ9QWeagzL3Os8XKet71lT3zHwQVMbCcESVI52uQwbZ6kIvfS9UkmtgKLw1mdi86g7XAgEzTPh9S",
+              "received": false
+            },
+            {
+              "_id": "694495f41c508c5d5ee321ec",
+              "name": "Bike49692",
+              "amount": 436,
+              "price": 79773,
+              "manufacturer": "Google",
+              "notes": "0khs6WzcVoap5R0myoS4sKv43rOh7jcO85NEz8NuB3YvERlYywq6atxZVgXhxokBU6yXtgkefttEOVEWFT2VIKkH85dECOfktTrtZ0rPR4bixoXI1gLqRhuS7kKFWVZYS6dx95U6MPsEPe6AJJ44nSmCLZwsYMzZ4r769KQh19CznJw1GvTAbldQtQYGCisX9KAmRmJNvHGP60UKHmvOCcTSvHcD6jD45kgr6A0NgHqvuvd7ogI5vPl1w7",
+              "received": false
+            }
+          ],
+          "total_price": 122359,
+          "delivery": null,
+          "changedOn": "2025-12-19T00:01:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

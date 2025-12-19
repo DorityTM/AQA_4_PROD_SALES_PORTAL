@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 00:00:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3697",
+    "etag": "W/\"e71-O1y8mYj9hGXmIAKzkvveXQD16n4\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694495ad1c508c5d5ee301f5",
+      "status": "In Process",
+      "customer": {
+        "_id": "694495ad1c508c5d5ee301c3",
+        "email": "Lila36@gmail.com",
+        "name": "Orin Stroman",
+        "country": "France",
+        "city": "West Sylvesterview",
+        "street": "Mya Crossroad 98",
+        "house": 727,
+        "flat": 4468,
+        "phone": "+501838324219534",
+        "createdOn": "2025-12-19T00:00:45.000Z",
+        "notes": "DAiFz3UWPne0xZElsLM7m77mceYzjs"
+      },
+      "products": [
+        {
+          "_id": "694495ad1c508c5d5ee301cf",
+          "name": "Bike77753",
+          "amount": 108,
+          "price": 30078,
+          "manufacturer": "Samsung",
+          "notes": "BBC65gNaeHZV1LLzgfPhEp2MKeB6wlQeRNrYSFHBQMNWD7wB0nF4idBqkWwbhsUPY2aqvqch4tue8UhyMjWuhMen6xirkdLtFwnzbISgFw552YGNEmmjCdtmjdpZnTKunvmifaC3GCrMPFXgryo2NIAanaRH1QDQoRNu1hsoEaLpJhKDQYGOJqVlYNKorI70VvGajVUhSWYaNOoV4BMTcx5qBjaURYWlesKO4DGIbxLcdMl7YRzKb8xnR3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Woodbury",
+          "street": "E Union Street",
+          "house": 508,
+          "flat": 544
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 30078,
+      "createdOn": "2025-12-19T00:00:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694495ad1c508c5d5ee301c3",
+          "products": [
+            {
+              "_id": "694495ad1c508c5d5ee301cf",
+              "name": "Bike77753",
+              "amount": 108,
+              "price": 30078,
+              "manufacturer": "Samsung",
+              "notes": "BBC65gNaeHZV1LLzgfPhEp2MKeB6wlQeRNrYSFHBQMNWD7wB0nF4idBqkWwbhsUPY2aqvqch4tue8UhyMjWuhMen6xirkdLtFwnzbISgFw552YGNEmmjCdtmjdpZnTKunvmifaC3GCrMPFXgryo2NIAanaRH1QDQoRNu1hsoEaLpJhKDQYGOJqVlYNKorI70VvGajVUhSWYaNOoV4BMTcx5qBjaURYWlesKO4DGIbxLcdMl7YRzKb8xnR3",
+              "received": false
+            }
+          ],
+          "total_price": 30078,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Woodbury",
+              "street": "E Union Street",
+              "house": 508,
+              "flat": 544
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T00:00:46.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694495ad1c508c5d5ee301c3",
+          "products": [
+            {
+              "_id": "694495ad1c508c5d5ee301cf",
+              "name": "Bike77753",
+              "amount": 108,
+              "price": 30078,
+              "manufacturer": "Samsung",
+              "notes": "BBC65gNaeHZV1LLzgfPhEp2MKeB6wlQeRNrYSFHBQMNWD7wB0nF4idBqkWwbhsUPY2aqvqch4tue8UhyMjWuhMen6xirkdLtFwnzbISgFw552YGNEmmjCdtmjdpZnTKunvmifaC3GCrMPFXgryo2NIAanaRH1QDQoRNu1hsoEaLpJhKDQYGOJqVlYNKorI70VvGajVUhSWYaNOoV4BMTcx5qBjaURYWlesKO4DGIbxLcdMl7YRzKb8xnR3",
+              "received": false
+            }
+          ],
+          "total_price": 30078,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Woodbury",
+              "street": "E Union Street",
+              "house": 508,
+              "flat": 544
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T00:00:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694495ad1c508c5d5ee301c3",
+          "products": [
+            {
+              "_id": "694495ad1c508c5d5ee301cf",
+              "name": "Bike77753",
+              "amount": 108,
+              "price": 30078,
+              "manufacturer": "Samsung",
+              "notes": "BBC65gNaeHZV1LLzgfPhEp2MKeB6wlQeRNrYSFHBQMNWD7wB0nF4idBqkWwbhsUPY2aqvqch4tue8UhyMjWuhMen6xirkdLtFwnzbISgFw552YGNEmmjCdtmjdpZnTKunvmifaC3GCrMPFXgryo2NIAanaRH1QDQoRNu1hsoEaLpJhKDQYGOJqVlYNKorI70VvGajVUhSWYaNOoV4BMTcx5qBjaURYWlesKO4DGIbxLcdMl7YRzKb8xnR3",
+              "received": false
+            }
+          ],
+          "total_price": 30078,
+          "delivery": null,
+          "changedOn": "2025-12-19T00:00:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

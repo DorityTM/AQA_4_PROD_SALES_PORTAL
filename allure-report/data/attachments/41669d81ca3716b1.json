@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 00:01:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2746",
+    "etag": "W/\"aba-vX6QQrcx9N6WB2gAVxP+NKqH6i8\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694495d61c508c5d5ee3141b",
+      "status": "Draft",
+      "customer": {
+        "_id": "694495d51c508c5d5ee31362",
+        "email": "Trevion26@gmail.com",
+        "name": "Nicholaus Walsh",
+        "country": "Belarus",
+        "city": "Roseton",
+        "street": "S Main Avenue 38",
+        "house": 563,
+        "flat": 1935,
+        "phone": "+197057731264811",
+        "createdOn": "2025-12-19T00:01:25.000Z",
+        "notes": "xEBW4xmV1t5Z9JZsex8tr34lrq7Yzb"
+      },
+      "products": [
+        {
+          "_id": "694495d51c508c5d5ee31379",
+          "name": "Hat45406",
+          "amount": 567,
+          "price": 22539,
+          "manufacturer": "Samsung",
+          "notes": "eBwqbJSkAkrUTledaUSchcy65aVQmxf2WQnQSn84xmGxSgUKj7T5YgEz8xIbQQUWK4lKVfKImEtfX56UrjU2kPijAESMkRNuC5ltYFyH5lEl73d0XB8XQTlTrjakTpnEbX2XmcmJjEn4KGGip7tsWklQzUiazH2gZC7cfCJlPulT3G8iiquVz0xJ6jLjm1Q3ExoC83Q37Iow2Bu4jLLAJ0nAoKNB3OfGBLFCs52xUPGGab8R8IRXVQEwPD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Evansville",
+          "street": "Thompson Course",
+          "house": 214,
+          "flat": 6560
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22539,
+      "createdOn": "2025-12-19T00:01:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694495d51c508c5d5ee31362",
+          "products": [
+            {
+              "_id": "694495d51c508c5d5ee31379",
+              "name": "Hat45406",
+              "amount": 567,
+              "price": 22539,
+              "manufacturer": "Samsung",
+              "notes": "eBwqbJSkAkrUTledaUSchcy65aVQmxf2WQnQSn84xmGxSgUKj7T5YgEz8xIbQQUWK4lKVfKImEtfX56UrjU2kPijAESMkRNuC5ltYFyH5lEl73d0XB8XQTlTrjakTpnEbX2XmcmJjEn4KGGip7tsWklQzUiazH2gZC7cfCJlPulT3G8iiquVz0xJ6jLjm1Q3ExoC83Q37Iow2Bu4jLLAJ0nAoKNB3OfGBLFCs52xUPGGab8R8IRXVQEwPD",
+              "received": false
+            }
+          ],
+          "total_price": 22539,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Evansville",
+              "street": "Thompson Course",
+              "house": 214,
+              "flat": 6560
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T00:01:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694495d51c508c5d5ee31362",
+          "products": [
+            {
+              "_id": "694495d51c508c5d5ee31379",
+              "name": "Hat45406",
+              "amount": 567,
+              "price": 22539,
+              "manufacturer": "Samsung",
+              "notes": "eBwqbJSkAkrUTledaUSchcy65aVQmxf2WQnQSn84xmGxSgUKj7T5YgEz8xIbQQUWK4lKVfKImEtfX56UrjU2kPijAESMkRNuC5ltYFyH5lEl73d0XB8XQTlTrjakTpnEbX2XmcmJjEn4KGGip7tsWklQzUiazH2gZC7cfCJlPulT3G8iiquVz0xJ6jLjm1Q3ExoC83Q37Iow2Bu4jLLAJ0nAoKNB3OfGBLFCs52xUPGGab8R8IRXVQEwPD",
+              "received": false
+            }
+          ],
+          "total_price": 22539,
+          "delivery": null,
+          "changedOn": "2025-12-19T00:01:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

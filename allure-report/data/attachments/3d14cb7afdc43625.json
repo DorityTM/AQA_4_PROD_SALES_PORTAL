@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 00:01:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3903",
+    "etag": "W/\"f3f-zv4zbdDcx8YwmLJENsNoYqCpR40\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694495db1c508c5d5ee31607",
+      "status": "Draft",
+      "customer": {
+        "_id": "694495da1c508c5d5ee31589",
+        "email": "Josue35@yahoo.com",
+        "name": "Justen Lang",
+        "country": "Great Britain",
+        "city": "North Desiree",
+        "street": "E North Street 77",
+        "house": 924,
+        "flat": 2677,
+        "phone": "+923550834683926",
+        "createdOn": "2025-12-19T00:01:30.000Z",
+        "notes": "NSBgt0dbTWgp4x7Zh3ypaf61oRyy5E"
+      },
+      "products": [
+        {
+          "_id": "694495da1c508c5d5ee315a2",
+          "name": "Car57224",
+          "amount": 831,
+          "price": 46130,
+          "manufacturer": "Xiaomi",
+          "notes": "nBB2iSSsKwl6XblJh7ByvBezwHGATiui1JNyI2D2fo7pn1neiWIIXREnzF3Ote2gbEjbCZ1FElpWMSmvuqwi4RLxI8Bj6Z1CZJjwis6rczHuUntQ12su7ckE1G3Qnbu9S6HWiTQJIv0fT2UGBxqn9JSYgMQgcqaUo60EyZfLS3jnytMQE4J1SBNtyye83vbCKddamp3Pfl09LTS7X1ffbpzImhYjZi6mf6Qv4gVdZ049ZP8jBCRur155gw",
+          "received": false
+        },
+        {
+          "_id": "694495da1c508c5d5ee315ca",
+          "name": "Mouse81478",
+          "amount": 341,
+          "price": 29208,
+          "manufacturer": "Apple",
+          "notes": "BdQFTha0dWeghdWM7H3CPBJjjsVOdz0taAdB6F8IOgfXqfTNT2UXQpeHhKkBsNSHN48FzsVIBXq7GYaDdv1MkMJeTAaitC4m6flGnuTudzttmSeFG24I2PFmpjqrtOKjVx0mYqki5k4MpDsWnnwPqnw0uaa6pHxmWIiyu7LRt96BnbfQpu3gzK1WS3Xkfi3P8vsYarjQZ2T722smzgxlEVSZ5aI7GgPPIphzNBGTcHDJIcko5C9EuXcJ1M",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Angelinachester",
+          "street": "Rosalyn Cape",
+          "house": 890,
+          "flat": 5762
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 75338,
+      "createdOn": "2025-12-19T00:01:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694495da1c508c5d5ee31589",
+          "products": [
+            {
+              "_id": "694495da1c508c5d5ee315a2",
+              "name": "Car57224",
+              "amount": 831,
+              "price": 46130,
+              "manufacturer": "Xiaomi",
+              "notes": "nBB2iSSsKwl6XblJh7ByvBezwHGATiui1JNyI2D2fo7pn1neiWIIXREnzF3Ote2gbEjbCZ1FElpWMSmvuqwi4RLxI8Bj6Z1CZJjwis6rczHuUntQ12su7ckE1G3Qnbu9S6HWiTQJIv0fT2UGBxqn9JSYgMQgcqaUo60EyZfLS3jnytMQE4J1SBNtyye83vbCKddamp3Pfl09LTS7X1ffbpzImhYjZi6mf6Qv4gVdZ049ZP8jBCRur155gw",
+              "received": false
+            },
+            {
+              "_id": "694495da1c508c5d5ee315ca",
+              "name": "Mouse81478",
+              "amount": 341,
+              "price": 29208,
+              "manufacturer": "Apple",
+              "notes": "BdQFTha0dWeghdWM7H3CPBJjjsVOdz0taAdB6F8IOgfXqfTNT2UXQpeHhKkBsNSHN48FzsVIBXq7GYaDdv1MkMJeTAaitC4m6flGnuTudzttmSeFG24I2PFmpjqrtOKjVx0mYqki5k4MpDsWnnwPqnw0uaa6pHxmWIiyu7LRt96BnbfQpu3gzK1WS3Xkfi3P8vsYarjQZ2T722smzgxlEVSZ5aI7GgPPIphzNBGTcHDJIcko5C9EuXcJ1M",
+              "received": false
+            }
+          ],
+          "total_price": 75338,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Angelinachester",
+              "street": "Rosalyn Cape",
+              "house": 890,
+              "flat": 5762
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T00:01:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694495da1c508c5d5ee31589",
+          "products": [
+            {
+              "_id": "694495da1c508c5d5ee315a2",
+              "name": "Car57224",
+              "amount": 831,
+              "price": 46130,
+              "manufacturer": "Xiaomi",
+              "notes": "nBB2iSSsKwl6XblJh7ByvBezwHGATiui1JNyI2D2fo7pn1neiWIIXREnzF3Ote2gbEjbCZ1FElpWMSmvuqwi4RLxI8Bj6Z1CZJjwis6rczHuUntQ12su7ckE1G3Qnbu9S6HWiTQJIv0fT2UGBxqn9JSYgMQgcqaUo60EyZfLS3jnytMQE4J1SBNtyye83vbCKddamp3Pfl09LTS7X1ffbpzImhYjZi6mf6Qv4gVdZ049ZP8jBCRur155gw",
+              "received": false
+            },
+            {
+              "_id": "694495da1c508c5d5ee315ca",
+              "name": "Mouse81478",
+              "amount": 341,
+              "price": 29208,
+              "manufacturer": "Apple",
+              "notes": "BdQFTha0dWeghdWM7H3CPBJjjsVOdz0taAdB6F8IOgfXqfTNT2UXQpeHhKkBsNSHN48FzsVIBXq7GYaDdv1MkMJeTAaitC4m6flGnuTudzttmSeFG24I2PFmpjqrtOKjVx0mYqki5k4MpDsWnnwPqnw0uaa6pHxmWIiyu7LRt96BnbfQpu3gzK1WS3Xkfi3P8vsYarjQZ2T722smzgxlEVSZ5aI7GgPPIphzNBGTcHDJIcko5C9EuXcJ1M",
+              "received": false
+            }
+          ],
+          "total_price": 75338,
+          "delivery": null,
+          "changedOn": "2025-12-19T00:01:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
