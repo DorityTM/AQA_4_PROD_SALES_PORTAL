@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 07:44:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2750",
+    "etag": "W/\"abe-GQf4CwEjiWOZ6OVkQWrrFixLsRI\"",
+    "keep-alive": "timeout=5, max=35",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694502711c508c5d5ee34068",
+      "status": "Draft",
+      "customer": {
+        "_id": "694502711c508c5d5ee34027",
+        "email": "Charlie61@hotmail.com",
+        "name": "Brando Lemke",
+        "country": "France",
+        "city": "Bartolettistad",
+        "street": "Salisbury Road 24",
+        "house": 19,
+        "flat": 5858,
+        "phone": "+774694203469502",
+        "createdOn": "2025-12-19T07:44:49.000Z",
+        "notes": "VwvtWMxw8kCKnhhJymTzLFJbjI3sBd"
+      },
+      "products": [
+        {
+          "_id": "694502711c508c5d5ee3403d",
+          "name": "Salad38898",
+          "amount": 270,
+          "price": 61816,
+          "manufacturer": "Amazon",
+          "notes": "DyZMZbbKFLSo6MlIXTOUBwbdPxKUAC9W34iHsynRvlh845VkCoAz7GVovZ7ddGoY9OZc7SRDHPZ9gIzWqorKvXIAHhLMEwatbEWyGNklJXbqoXlfuQDiEqPtrEbTop8dSvokjKUwMndK6to6mSHIBHAzSP9sN5rvHEVtLU3ZtQy8fz2SOx7rU85GR2KKgzzNdq0jeEbyRKtuSGwOlPgqaEe4uHmlKTGaqgSGsW13i7LHiZqpCrzzObfKZN",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Spencerstad",
+          "street": "Hagenes Fork",
+          "house": 278,
+          "flat": 1526
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 61816,
+      "createdOn": "2025-12-19T07:44:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694502711c508c5d5ee34027",
+          "products": [
+            {
+              "_id": "694502711c508c5d5ee3403d",
+              "name": "Salad38898",
+              "amount": 270,
+              "price": 61816,
+              "manufacturer": "Amazon",
+              "notes": "DyZMZbbKFLSo6MlIXTOUBwbdPxKUAC9W34iHsynRvlh845VkCoAz7GVovZ7ddGoY9OZc7SRDHPZ9gIzWqorKvXIAHhLMEwatbEWyGNklJXbqoXlfuQDiEqPtrEbTop8dSvokjKUwMndK6to6mSHIBHAzSP9sN5rvHEVtLU3ZtQy8fz2SOx7rU85GR2KKgzzNdq0jeEbyRKtuSGwOlPgqaEe4uHmlKTGaqgSGsW13i7LHiZqpCrzzObfKZN",
+              "received": false
+            }
+          ],
+          "total_price": 61816,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Spencerstad",
+              "street": "Hagenes Fork",
+              "house": 278,
+              "flat": 1526
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:44:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694502711c508c5d5ee34027",
+          "products": [
+            {
+              "_id": "694502711c508c5d5ee3403d",
+              "name": "Salad38898",
+              "amount": 270,
+              "price": 61816,
+              "manufacturer": "Amazon",
+              "notes": "DyZMZbbKFLSo6MlIXTOUBwbdPxKUAC9W34iHsynRvlh845VkCoAz7GVovZ7ddGoY9OZc7SRDHPZ9gIzWqorKvXIAHhLMEwatbEWyGNklJXbqoXlfuQDiEqPtrEbTop8dSvokjKUwMndK6to6mSHIBHAzSP9sN5rvHEVtLU3ZtQy8fz2SOx7rU85GR2KKgzzNdq0jeEbyRKtuSGwOlPgqaEe4uHmlKTGaqgSGsW13i7LHiZqpCrzzObfKZN",
+              "received": false
+            }
+          ],
+          "total_price": 61816,
+          "delivery": null,
+          "changedOn": "2025-12-19T07:44:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

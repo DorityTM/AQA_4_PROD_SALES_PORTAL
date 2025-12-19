@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 07:44:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3677",
+    "etag": "W/\"e5d-Mi3iww6J9bA4dq+PMf1uh0VEyP4\"",
+    "keep-alive": "timeout=5, max=29",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694502591c508c5d5ee33571",
+      "status": "In Process",
+      "customer": {
+        "_id": "694502581c508c5d5ee33508",
+        "email": "Brian67@hotmail.com",
+        "name": "Kale Miller",
+        "country": "USA",
+        "city": "West Maxie",
+        "street": "Kovacek Fords 80",
+        "house": 36,
+        "flat": 9456,
+        "phone": "+537165326093295",
+        "createdOn": "2025-12-19T07:44:24.000Z",
+        "notes": "zuKvUQQik1gYMzjyQkhtguJTrtxGg6"
+      },
+      "products": [
+        {
+          "_id": "694502591c508c5d5ee33545",
+          "name": "Sausages89520",
+          "amount": 250,
+          "price": 24048,
+          "manufacturer": "Apple",
+          "notes": "BCXeycp3v2ResstLFSd6GgTDqw4m1twlGZNlv5GDbwWRZ240a6W4COWrMa9d2ruaPVeqEfe7cF1nwa2NriZk6qqsOlR2hqTr3r4NnvjZawTAmTFiIeSmzUBxgjsVn4C5yLzN7FFK5dJwQH0z3lamKvnNNrUTgql8cUyFuek7ZVl1fDaQaH4LOB8ZD2JIoQyQJC2Tn4Z10o1kIt80jfslWy1yHVYPUI0o2uKNQXMIuS9nv6ebyEODPWgodB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Nikkiworth",
+          "street": "Claud Forge",
+          "house": 127,
+          "flat": 3489
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 24048,
+      "createdOn": "2025-12-19T07:44:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694502581c508c5d5ee33508",
+          "products": [
+            {
+              "_id": "694502591c508c5d5ee33545",
+              "name": "Sausages89520",
+              "amount": 250,
+              "price": 24048,
+              "manufacturer": "Apple",
+              "notes": "BCXeycp3v2ResstLFSd6GgTDqw4m1twlGZNlv5GDbwWRZ240a6W4COWrMa9d2ruaPVeqEfe7cF1nwa2NriZk6qqsOlR2hqTr3r4NnvjZawTAmTFiIeSmzUBxgjsVn4C5yLzN7FFK5dJwQH0z3lamKvnNNrUTgql8cUyFuek7ZVl1fDaQaH4LOB8ZD2JIoQyQJC2Tn4Z10o1kIt80jfslWy1yHVYPUI0o2uKNQXMIuS9nv6ebyEODPWgodB",
+              "received": false
+            }
+          ],
+          "total_price": 24048,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Nikkiworth",
+              "street": "Claud Forge",
+              "house": 127,
+              "flat": 3489
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:44:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694502581c508c5d5ee33508",
+          "products": [
+            {
+              "_id": "694502591c508c5d5ee33545",
+              "name": "Sausages89520",
+              "amount": 250,
+              "price": 24048,
+              "manufacturer": "Apple",
+              "notes": "BCXeycp3v2ResstLFSd6GgTDqw4m1twlGZNlv5GDbwWRZ240a6W4COWrMa9d2ruaPVeqEfe7cF1nwa2NriZk6qqsOlR2hqTr3r4NnvjZawTAmTFiIeSmzUBxgjsVn4C5yLzN7FFK5dJwQH0z3lamKvnNNrUTgql8cUyFuek7ZVl1fDaQaH4LOB8ZD2JIoQyQJC2Tn4Z10o1kIt80jfslWy1yHVYPUI0o2uKNQXMIuS9nv6ebyEODPWgodB",
+              "received": false
+            }
+          ],
+          "total_price": 24048,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Nikkiworth",
+              "street": "Claud Forge",
+              "house": 127,
+              "flat": 3489
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:44:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694502581c508c5d5ee33508",
+          "products": [
+            {
+              "_id": "694502591c508c5d5ee33545",
+              "name": "Sausages89520",
+              "amount": 250,
+              "price": 24048,
+              "manufacturer": "Apple",
+              "notes": "BCXeycp3v2ResstLFSd6GgTDqw4m1twlGZNlv5GDbwWRZ240a6W4COWrMa9d2ruaPVeqEfe7cF1nwa2NriZk6qqsOlR2hqTr3r4NnvjZawTAmTFiIeSmzUBxgjsVn4C5yLzN7FFK5dJwQH0z3lamKvnNNrUTgql8cUyFuek7ZVl1fDaQaH4LOB8ZD2JIoQyQJC2Tn4Z10o1kIt80jfslWy1yHVYPUI0o2uKNQXMIuS9nv6ebyEODPWgodB",
+              "received": false
+            }
+          ],
+          "total_price": 24048,
+          "delivery": null,
+          "changedOn": "2025-12-19T07:44:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

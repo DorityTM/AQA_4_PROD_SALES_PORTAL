@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 07:45:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4566",
+    "etag": "W/\"11d6-yFuSDOr4/+BYrDV7GFnLtBo3b4w\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694502861c508c5d5ee34a9d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694502851c508c5d5ee34a53",
+        "email": "Meaghan_Hackett@yahoo.com",
+        "name": "Julien Balistreri",
+        "country": "Germany",
+        "city": "Lonzoberg",
+        "street": "Mann Falls 68",
+        "house": 126,
+        "flat": 3804,
+        "phone": "+861566333690605",
+        "createdOn": "2025-12-19T07:45:09.000Z",
+        "notes": "0aOSXj7lOOC09NuVf9CRO1xdV253FC"
+      },
+      "products": [
+        {
+          "_id": "694502861c508c5d5ee34a73",
+          "name": "Pants41099",
+          "amount": 698,
+          "price": 28307,
+          "manufacturer": "Tesla",
+          "notes": "ooD4KMiWdMtI6EyizGVrsaooXjdqMNlVLi3uSg9uj4ISkf7BaQKur2xGQ9YibzpmqcSM8RplirvSVeg44mcgJcA6rJm2xWVf6h7HTt0kaW5CDybnsnIJVzz9zyE9FBuUQKAEv2uSgVTEUAnR1gzTKt8WQkBNAfT2dAsj3AFWzrNK5HDTNynTMzeuf4c05GCmNbYKIJOvzghve7kO5dSySA6X0IRMOdk8RqmD6U3hoao4nwXJHfIsldDTpM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Clovis",
+          "street": "Manor Way",
+          "house": 384,
+          "flat": 2419
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 28307,
+      "createdOn": "2025-12-19T07:45:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694502851c508c5d5ee34a53",
+          "products": [
+            {
+              "_id": "694502861c508c5d5ee34a73",
+              "name": "Pants41099",
+              "amount": 698,
+              "price": 28307,
+              "manufacturer": "Tesla",
+              "notes": "ooD4KMiWdMtI6EyizGVrsaooXjdqMNlVLi3uSg9uj4ISkf7BaQKur2xGQ9YibzpmqcSM8RplirvSVeg44mcgJcA6rJm2xWVf6h7HTt0kaW5CDybnsnIJVzz9zyE9FBuUQKAEv2uSgVTEUAnR1gzTKt8WQkBNAfT2dAsj3AFWzrNK5HDTNynTMzeuf4c05GCmNbYKIJOvzghve7kO5dSySA6X0IRMOdk8RqmD6U3hoao4nwXJHfIsldDTpM",
+              "received": false
+            }
+          ],
+          "total_price": 28307,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Clovis",
+              "street": "Manor Way",
+              "house": 384,
+              "flat": 2419
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:45:12.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694502851c508c5d5ee34a53",
+          "products": [
+            {
+              "_id": "694502861c508c5d5ee34a73",
+              "name": "Pants41099",
+              "amount": 698,
+              "price": 28307,
+              "manufacturer": "Tesla",
+              "notes": "ooD4KMiWdMtI6EyizGVrsaooXjdqMNlVLi3uSg9uj4ISkf7BaQKur2xGQ9YibzpmqcSM8RplirvSVeg44mcgJcA6rJm2xWVf6h7HTt0kaW5CDybnsnIJVzz9zyE9FBuUQKAEv2uSgVTEUAnR1gzTKt8WQkBNAfT2dAsj3AFWzrNK5HDTNynTMzeuf4c05GCmNbYKIJOvzghve7kO5dSySA6X0IRMOdk8RqmD6U3hoao4nwXJHfIsldDTpM",
+              "received": false
+            }
+          ],
+          "total_price": 28307,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Demariotown",
+              "street": "Wilfrid Overpass",
+              "house": 524,
+              "flat": 6699
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-19T07:45:11.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694502851c508c5d5ee34a53",
+          "products": [
+            {
+              "_id": "694502861c508c5d5ee34a73",
+              "name": "Pants41099",
+              "amount": 698,
+              "price": 28307,
+              "manufacturer": "Tesla",
+              "notes": "ooD4KMiWdMtI6EyizGVrsaooXjdqMNlVLi3uSg9uj4ISkf7BaQKur2xGQ9YibzpmqcSM8RplirvSVeg44mcgJcA6rJm2xWVf6h7HTt0kaW5CDybnsnIJVzz9zyE9FBuUQKAEv2uSgVTEUAnR1gzTKt8WQkBNAfT2dAsj3AFWzrNK5HDTNynTMzeuf4c05GCmNbYKIJOvzghve7kO5dSySA6X0IRMOdk8RqmD6U3hoao4nwXJHfIsldDTpM",
+              "received": false
+            }
+          ],
+          "total_price": 28307,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Jennyfer",
+              "street": "W 1st Street",
+              "house": 417,
+              "flat": 2235
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:45:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694502851c508c5d5ee34a53",
+          "products": [
+            {
+              "_id": "694502861c508c5d5ee34a73",
+              "name": "Pants41099",
+              "amount": 698,
+              "price": 28307,
+              "manufacturer": "Tesla",
+              "notes": "ooD4KMiWdMtI6EyizGVrsaooXjdqMNlVLi3uSg9uj4ISkf7BaQKur2xGQ9YibzpmqcSM8RplirvSVeg44mcgJcA6rJm2xWVf6h7HTt0kaW5CDybnsnIJVzz9zyE9FBuUQKAEv2uSgVTEUAnR1gzTKt8WQkBNAfT2dAsj3AFWzrNK5HDTNynTMzeuf4c05GCmNbYKIJOvzghve7kO5dSySA6X0IRMOdk8RqmD6U3hoao4nwXJHfIsldDTpM",
+              "received": false
+            }
+          ],
+          "total_price": 28307,
+          "delivery": null,
+          "changedOn": "2025-12-19T07:45:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

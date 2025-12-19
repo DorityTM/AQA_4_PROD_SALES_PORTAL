@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 07:45:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1788",
+    "etag": "W/\"6fc-nxndlm/rDTtVXaH3tuHBBvciXSw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6945027e1c508c5d5ee34680",
+      "status": "Draft",
+      "customer": {
+        "_id": "6945027d1c508c5d5ee34646",
+        "email": "Simone_Heathcote3@gmail.com",
+        "name": "Bradford Kling",
+        "country": "USA",
+        "city": "Shermanton",
+        "street": "E Washington Avenue 41",
+        "house": 171,
+        "flat": 4058,
+        "phone": "+343418935828694",
+        "createdOn": "2025-12-19T07:45:01.000Z",
+        "notes": "FJLc1NeBdgBYMl6qfLqyWXC6z6L84K"
+      },
+      "products": [
+        {
+          "_id": "6945027e1c508c5d5ee3465c",
+          "name": "Ball12962",
+          "amount": 191,
+          "price": 10553,
+          "manufacturer": "Xiaomi",
+          "notes": "SZkV0IJvpt58sdZygKNRxRmV7yzCYBUKiPZBiovPaRX1z6NHPZ2KrR0PKdqdvXdRct6qzqATN7nMV7215xRsbeDHpDDduLtOrmMmA00XMTACCp0cuTobxS59B8eLuQhSzNKMkQWxGcfFFuClmjIqn8ILqpOOpqmmsd7S6lAepfF49us2MgXZWiuhuGwv86SBWoZzS8Kqe56RXEgG2VpIC9dY9EPDvJ2MC66vyGaNCzE86PvX8kRLzCPLAp",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 10553,
+      "createdOn": "2025-12-19T07:45:02.000Z",
+      "comments": [
+        {
+          "text": "Please check < invalid tag",
+          "createdOn": "2025-12-19T07:45:03.000Z",
+          "_id": "6945027f1c508c5d5ee346a3"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6945027d1c508c5d5ee34646",
+          "products": [
+            {
+              "_id": "6945027e1c508c5d5ee3465c",
+              "name": "Ball12962",
+              "amount": 191,
+              "price": 10553,
+              "manufacturer": "Xiaomi",
+              "notes": "SZkV0IJvpt58sdZygKNRxRmV7yzCYBUKiPZBiovPaRX1z6NHPZ2KrR0PKdqdvXdRct6qzqATN7nMV7215xRsbeDHpDDduLtOrmMmA00XMTACCp0cuTobxS59B8eLuQhSzNKMkQWxGcfFFuClmjIqn8ILqpOOpqmmsd7S6lAepfF49us2MgXZWiuhuGwv86SBWoZzS8Kqe56RXEgG2VpIC9dY9EPDvJ2MC66vyGaNCzE86PvX8kRLzCPLAp",
+              "received": false
+            }
+          ],
+          "total_price": 10553,
+          "delivery": null,
+          "changedOn": "2025-12-19T07:45:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

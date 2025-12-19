@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Fri, 19 Dec 2025 07:44:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6539",
+    "etag": "W/\"198b-CX0aYMuOQWH7xTkuQM+ORkNwP90\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694502731c508c5d5ee34106",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694502711c508c5d5ee34078",
+        "email": "Zachary67@gmail.com",
+        "name": "Ariel Walker",
+        "country": "USA",
+        "city": "Fort Scot",
+        "street": "Powlowski Shore 53",
+        "house": 826,
+        "flat": 7239,
+        "phone": "+696734854981193",
+        "createdOn": "2025-12-19T07:44:49.000Z",
+        "notes": "EpLaqWwUMlQBcwzrTaB2e6xxoy0Uqn"
+      },
+      "products": [
+        {
+          "_id": "694502721c508c5d5ee340aa",
+          "name": "Shirt30815",
+          "amount": 664,
+          "price": 90896,
+          "manufacturer": "Xiaomi",
+          "notes": "4QweFQGvpz5H2mewYm2t1uJ9u2bJQcIpkJCZd9hmn6csU0twmrVSQy1Ghk6sLPnQBpo9B8lLNFplB3w4ptS9DywmlGNvIc0vCvUMZuQFTUPWUOzZ2FF1JgA8u40tpSavVvYhCLXzlNc5m16eTTouXS78iUT11lWfx0vEYY49NBM5Xnt2GG7bDmKaEAeiuZACgVzXwkHV8D3sbaKxREDxXWPjEhqJrzhAzDIRYt31dpo71GsedhuPsqkceV",
+          "received": true
+        },
+        {
+          "_id": "694502721c508c5d5ee340da",
+          "name": "Fish82527",
+          "amount": 334,
+          "price": 13799,
+          "manufacturer": "Sony",
+          "notes": "HBs3aNQl4mcJdmMK8ycyecQAU7xUbeqxorFvVn876eUeESJRq7onhp1I6y4xPSGxsThGtJKcYatjxRUfrOTtCy0FmSzHFLHlFq4FmBZDKqD3rmG2cV5nDzSCLf0thcg5gs8JvD0isdCyTbmAtviAiUNPh6QqSnmV0LeeUoBKy7TMMh6RNAz0GAJIulLwEaPt47qjh3QuxI9QIvTD3XTpFsaar8CSHwsxGd3PbbdStenBcaZ5JTHodpRY9h",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Altenwerthborough",
+          "street": "Bergnaum Rue",
+          "house": 468,
+          "flat": 1950
+        },
+        "finalDate": "2025-12-26T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 104695,
+      "createdOn": "2025-12-19T07:44:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694502711c508c5d5ee34078",
+          "products": [
+            {
+              "_id": "694502721c508c5d5ee340aa",
+              "name": "Shirt30815",
+              "amount": 664,
+              "price": 90896,
+              "manufacturer": "Xiaomi",
+              "notes": "4QweFQGvpz5H2mewYm2t1uJ9u2bJQcIpkJCZd9hmn6csU0twmrVSQy1Ghk6sLPnQBpo9B8lLNFplB3w4ptS9DywmlGNvIc0vCvUMZuQFTUPWUOzZ2FF1JgA8u40tpSavVvYhCLXzlNc5m16eTTouXS78iUT11lWfx0vEYY49NBM5Xnt2GG7bDmKaEAeiuZACgVzXwkHV8D3sbaKxREDxXWPjEhqJrzhAzDIRYt31dpo71GsedhuPsqkceV",
+              "received": true
+            },
+            {
+              "_id": "694502721c508c5d5ee340da",
+              "name": "Fish82527",
+              "amount": 334,
+              "price": 13799,
+              "manufacturer": "Sony",
+              "notes": "HBs3aNQl4mcJdmMK8ycyecQAU7xUbeqxorFvVn876eUeESJRq7onhp1I6y4xPSGxsThGtJKcYatjxRUfrOTtCy0FmSzHFLHlFq4FmBZDKqD3rmG2cV5nDzSCLf0thcg5gs8JvD0isdCyTbmAtviAiUNPh6QqSnmV0LeeUoBKy7TMMh6RNAz0GAJIulLwEaPt47qjh3QuxI9QIvTD3XTpFsaar8CSHwsxGd3PbbdStenBcaZ5JTHodpRY9h",
+              "received": false
+            }
+          ],
+          "total_price": 104695,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Altenwerthborough",
+              "street": "Bergnaum Rue",
+              "house": 468,
+              "flat": 1950
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:44:53.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694502711c508c5d5ee34078",
+          "products": [
+            {
+              "_id": "694502721c508c5d5ee340aa",
+              "name": "Shirt30815",
+              "amount": 664,
+              "price": 90896,
+              "manufacturer": "Xiaomi",
+              "notes": "4QweFQGvpz5H2mewYm2t1uJ9u2bJQcIpkJCZd9hmn6csU0twmrVSQy1Ghk6sLPnQBpo9B8lLNFplB3w4ptS9DywmlGNvIc0vCvUMZuQFTUPWUOzZ2FF1JgA8u40tpSavVvYhCLXzlNc5m16eTTouXS78iUT11lWfx0vEYY49NBM5Xnt2GG7bDmKaEAeiuZACgVzXwkHV8D3sbaKxREDxXWPjEhqJrzhAzDIRYt31dpo71GsedhuPsqkceV",
+              "received": false
+            },
+            {
+              "_id": "694502721c508c5d5ee340da",
+              "name": "Fish82527",
+              "amount": 334,
+              "price": 13799,
+              "manufacturer": "Sony",
+              "notes": "HBs3aNQl4mcJdmMK8ycyecQAU7xUbeqxorFvVn876eUeESJRq7onhp1I6y4xPSGxsThGtJKcYatjxRUfrOTtCy0FmSzHFLHlFq4FmBZDKqD3rmG2cV5nDzSCLf0thcg5gs8JvD0isdCyTbmAtviAiUNPh6QqSnmV0LeeUoBKy7TMMh6RNAz0GAJIulLwEaPt47qjh3QuxI9QIvTD3XTpFsaar8CSHwsxGd3PbbdStenBcaZ5JTHodpRY9h",
+              "received": false
+            }
+          ],
+          "total_price": 104695,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Altenwerthborough",
+              "street": "Bergnaum Rue",
+              "house": 468,
+              "flat": 1950
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:44:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694502711c508c5d5ee34078",
+          "products": [
+            {
+              "_id": "694502721c508c5d5ee340aa",
+              "name": "Shirt30815",
+              "amount": 664,
+              "price": 90896,
+              "manufacturer": "Xiaomi",
+              "notes": "4QweFQGvpz5H2mewYm2t1uJ9u2bJQcIpkJCZd9hmn6csU0twmrVSQy1Ghk6sLPnQBpo9B8lLNFplB3w4ptS9DywmlGNvIc0vCvUMZuQFTUPWUOzZ2FF1JgA8u40tpSavVvYhCLXzlNc5m16eTTouXS78iUT11lWfx0vEYY49NBM5Xnt2GG7bDmKaEAeiuZACgVzXwkHV8D3sbaKxREDxXWPjEhqJrzhAzDIRYt31dpo71GsedhuPsqkceV",
+              "received": false
+            },
+            {
+              "_id": "694502721c508c5d5ee340da",
+              "name": "Fish82527",
+              "amount": 334,
+              "price": 13799,
+              "manufacturer": "Sony",
+              "notes": "HBs3aNQl4mcJdmMK8ycyecQAU7xUbeqxorFvVn876eUeESJRq7onhp1I6y4xPSGxsThGtJKcYatjxRUfrOTtCy0FmSzHFLHlFq4FmBZDKqD3rmG2cV5nDzSCLf0thcg5gs8JvD0isdCyTbmAtviAiUNPh6QqSnmV0LeeUoBKy7TMMh6RNAz0GAJIulLwEaPt47qjh3QuxI9QIvTD3XTpFsaar8CSHwsxGd3PbbdStenBcaZ5JTHodpRY9h",
+              "received": false
+            }
+          ],
+          "total_price": 104695,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Altenwerthborough",
+              "street": "Bergnaum Rue",
+              "house": 468,
+              "flat": 1950
+            },
+            "finalDate": "2025-12-26T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-19T07:44:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694502711c508c5d5ee34078",
+          "products": [
+            {
+              "_id": "694502721c508c5d5ee340aa",
+              "name": "Shirt30815",
+              "amount": 664,
+              "price": 90896,
+              "manufacturer": "Xiaomi",
+              "notes": "4QweFQGvpz5H2mewYm2t1uJ9u2bJQcIpkJCZd9hmn6csU0twmrVSQy1Ghk6sLPnQBpo9B8lLNFplB3w4ptS9DywmlGNvIc0vCvUMZuQFTUPWUOzZ2FF1JgA8u40tpSavVvYhCLXzlNc5m16eTTouXS78iUT11lWfx0vEYY49NBM5Xnt2GG7bDmKaEAeiuZACgVzXwkHV8D3sbaKxREDxXWPjEhqJrzhAzDIRYt31dpo71GsedhuPsqkceV",
+              "received": false
+            },
+            {
+              "_id": "694502721c508c5d5ee340da",
+              "name": "Fish82527",
+              "amount": 334,
+              "price": 13799,
+              "manufacturer": "Sony",
+              "notes": "HBs3aNQl4mcJdmMK8ycyecQAU7xUbeqxorFvVn876eUeESJRq7onhp1I6y4xPSGxsThGtJKcYatjxRUfrOTtCy0FmSzHFLHlFq4FmBZDKqD3rmG2cV5nDzSCLf0thcg5gs8JvD0isdCyTbmAtviAiUNPh6QqSnmV0LeeUoBKy7TMMh6RNAz0GAJIulLwEaPt47qjh3QuxI9QIvTD3XTpFsaar8CSHwsxGd3PbbdStenBcaZ5JTHodpRY9h",
+              "received": false
+            }
+          ],
+          "total_price": 104695,
+          "delivery": null,
+          "changedOn": "2025-12-19T07:44:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
