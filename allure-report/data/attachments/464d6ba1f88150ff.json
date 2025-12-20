@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 23:55:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3693",
+    "etag": "W/\"e6d-QuUtWx3E8MRjHZ+Dkcrh6nNhC1w\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947375f1c508c5d5ee6be6a",
+      "status": "In Process",
+      "customer": {
+        "_id": "6947375e1c508c5d5ee6bdca",
+        "email": "Keeley94@gmail.com",
+        "name": "Malika Gutkowski",
+        "country": "Great Britain",
+        "city": "Galveston",
+        "street": "N Bridge Street 68",
+        "house": 914,
+        "flat": 5620,
+        "phone": "+689677862217946",
+        "createdOn": "2025-12-20T23:55:10.000Z",
+        "notes": "LWphgh2yZiW215H9pbVE1pVKX6t3So"
+      },
+      "products": [
+        {
+          "_id": "6947375f1c508c5d5ee6be42",
+          "name": "Ball22222",
+          "amount": 453,
+          "price": 53672,
+          "manufacturer": "Microsoft",
+          "notes": "D9YGOh0JhDPgwXyr7dCxx8tc39bJpQwJzEQ65nsvgMQ6RKuKFgOJYD0oDCjy8RHWXqKAlegQIAnOGloS8ZlAuzGWskh1bdCtorUNLQfSi8S5jc0pO4rFCeEqV4OBtxakGZhHgz1ju0oShpj3A2bLcshaAMxHqGAkt77MoGCH15UAqtWtaXpOF0Wgg4pEcraPnmRCzAySn4jmZvWdADEc3sGLSxbxM0nDjwEpwVUYoKWvjbSePOBjqy1n1P",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Weissnatshire",
+          "street": "The Chase",
+          "house": 350,
+          "flat": 1600
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53672,
+      "createdOn": "2025-12-20T23:55:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6947375e1c508c5d5ee6bdca",
+          "products": [
+            {
+              "_id": "6947375f1c508c5d5ee6be42",
+              "name": "Ball22222",
+              "amount": 453,
+              "price": 53672,
+              "manufacturer": "Microsoft",
+              "notes": "D9YGOh0JhDPgwXyr7dCxx8tc39bJpQwJzEQ65nsvgMQ6RKuKFgOJYD0oDCjy8RHWXqKAlegQIAnOGloS8ZlAuzGWskh1bdCtorUNLQfSi8S5jc0pO4rFCeEqV4OBtxakGZhHgz1ju0oShpj3A2bLcshaAMxHqGAkt77MoGCH15UAqtWtaXpOF0Wgg4pEcraPnmRCzAySn4jmZvWdADEc3sGLSxbxM0nDjwEpwVUYoKWvjbSePOBjqy1n1P",
+              "received": false
+            }
+          ],
+          "total_price": 53672,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Weissnatshire",
+              "street": "The Chase",
+              "house": 350,
+              "flat": 1600
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-20T23:55:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947375e1c508c5d5ee6bdca",
+          "products": [
+            {
+              "_id": "6947375f1c508c5d5ee6be42",
+              "name": "Ball22222",
+              "amount": 453,
+              "price": 53672,
+              "manufacturer": "Microsoft",
+              "notes": "D9YGOh0JhDPgwXyr7dCxx8tc39bJpQwJzEQ65nsvgMQ6RKuKFgOJYD0oDCjy8RHWXqKAlegQIAnOGloS8ZlAuzGWskh1bdCtorUNLQfSi8S5jc0pO4rFCeEqV4OBtxakGZhHgz1ju0oShpj3A2bLcshaAMxHqGAkt77MoGCH15UAqtWtaXpOF0Wgg4pEcraPnmRCzAySn4jmZvWdADEc3sGLSxbxM0nDjwEpwVUYoKWvjbSePOBjqy1n1P",
+              "received": false
+            }
+          ],
+          "total_price": 53672,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Weissnatshire",
+              "street": "The Chase",
+              "house": 350,
+              "flat": 1600
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-20T23:55:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947375e1c508c5d5ee6bdca",
+          "products": [
+            {
+              "_id": "6947375f1c508c5d5ee6be42",
+              "name": "Ball22222",
+              "amount": 453,
+              "price": 53672,
+              "manufacturer": "Microsoft",
+              "notes": "D9YGOh0JhDPgwXyr7dCxx8tc39bJpQwJzEQ65nsvgMQ6RKuKFgOJYD0oDCjy8RHWXqKAlegQIAnOGloS8ZlAuzGWskh1bdCtorUNLQfSi8S5jc0pO4rFCeEqV4OBtxakGZhHgz1ju0oShpj3A2bLcshaAMxHqGAkt77MoGCH15UAqtWtaXpOF0Wgg4pEcraPnmRCzAySn4jmZvWdADEc3sGLSxbxM0nDjwEpwVUYoKWvjbSePOBjqy1n1P",
+              "received": false
+            }
+          ],
+          "total_price": 53672,
+          "delivery": null,
+          "changedOn": "2025-12-20T23:55:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
