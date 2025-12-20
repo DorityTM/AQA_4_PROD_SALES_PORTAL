@@ -11,9 +11,7 @@ export class LoginService {
 
   @logStep("LOGIN AS ADMIN - API")
   async loginAsAdmin(customCredentials?: ICredentials) {
-    const response = await this.loginApi.login(
-      customCredentials ?? credentials,
-    );
+    const response = await this.loginApi.login(customCredentials ?? credentials);
     validateResponse(response, {
       status: STATUS_CODES.OK,
       IsSuccess: true,

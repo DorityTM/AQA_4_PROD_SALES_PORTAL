@@ -2,7 +2,6 @@ import { defineConfig, devices } from "@playwright/test";
 import dotenv from "dotenv";
 import path from "path";
 
-
 // Load environment variables from the appropriate .env file.
 // Default: .env; Dev: .env.dev when TEST_ENV=dev
 const TEST_ENV = process.env.TEST_ENV?.trim();

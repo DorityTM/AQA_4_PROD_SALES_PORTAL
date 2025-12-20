@@ -10,5 +10,4 @@ export const credentials: ICredentials = {
   password: process.env.USER_PASSWORD!,
 };
 
-
 export const MANAGER_IDS: string[] = JSON.parse(process.env.MANAGER_IDS!);

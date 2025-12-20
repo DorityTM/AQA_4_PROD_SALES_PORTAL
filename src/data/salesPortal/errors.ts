@@ -9,5 +9,5 @@ export const RESPONSE_ERRORS = {
   CUSTOMER_MISSING: "Missing customer",
   MANAGER_NOT_FOUND: (id: string) => `Manager with id '${id}' wasn't found`,
   ORDER_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
-  INVALID_ORDRER_STATUS:"Invalid order status",
+  INVALID_ORDRER_STATUS: "Invalid order status",
 };

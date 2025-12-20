@@ -1,7 +1,10 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { RESPONSE_ERRORS } from "data/salesPortal/errors";
 import { ORDER_STATUS } from "data/salesPortal/order-status";
-import { invalidStatusesCases, negativeOrderStatusTransitions, positiveOrderStatusTransitions } from "data/salesPortal/orders/ordersStatusDDT";
+import {
+  invalidStatusesCases,
+  negativeOrderStatusTransitions,
+  positiveOrderStatusTransitions,
+} from "data/salesPortal/orders/ordersStatusDDT";
 import { getOrderSchema } from "data/schemas/orders/get.schema";
 import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
@@ -20,7 +23,7 @@ test.describe("[API][Orders][Positive Orders statuses transition]", () => {
 
   for (const orderCase of positiveOrderStatusTransitions) {
     test(
-      "Order status transition from " + orderCase.from + " to " + orderCase.to, 
+      "Order status transition from " + orderCase.from + " to " + orderCase.to,
       { tag: [TAGS.API, TAGS.ORDERS, TAGS.REGRESSION] },
       async ({ ordersApiService, ordersApi }) => {
         const order = await orderCase.create(ordersApiService, token);
@@ -52,7 +55,7 @@ test.describe("[API][Orders][Negative Orders statuses transition]", () => {
 
   for (const orderCase of negativeOrderStatusTransitions) {
     test(
-      "Order status transition from " + orderCase.from + " to " + orderCase.to, 
+      "Order status transition from " + orderCase.from + " to " + orderCase.to,
       { tag: [TAGS.API, TAGS.ORDERS, TAGS.REGRESSION] },
       async ({ ordersApiService, ordersApi }) => {
         const order = await orderCase.create(ordersApiService, token);
@@ -66,7 +69,6 @@ test.describe("[API][Orders][Negative Orders statuses transition]", () => {
     );
   }
 });
-
 
 test.describe("[API][Orders][Invalid Orders statuses]", () => {
   let token = "";
@@ -93,13 +95,17 @@ test.describe("[API][Orders][Invalid Orders statuses]", () => {
     );
   });
 
-  test("Should NOT change order status with non-existing orderId", { tag: [TAGS.API, TAGS.ORDERS, TAGS.REGRESSION] }, async ({ ordersApi, ordersApiService }) => {
-    await ordersApiService.createOrderAndEntities(token, 1);
-    const response = await ordersApi.updateStatus("000000000000000000000000", ORDER_STATUS.DRAFT, token);
-    validateResponse(response, {
-      status: STATUS_CODES.NOT_FOUND,
-      IsSuccess: false,
-      ErrorMessage: RESPONSE_ERRORS.ORDER_NOT_FOUND("000000000000000000000000"),
-    });
-  });
+  test(
+    "Should NOT change order status with non-existing orderId",
+    { tag: [TAGS.API, TAGS.ORDERS, TAGS.REGRESSION] },
+    async ({ ordersApi, ordersApiService }) => {
+      await ordersApiService.createOrderAndEntities(token, 1);
+      const response = await ordersApi.updateStatus("000000000000000000000000", ORDER_STATUS.DRAFT, token);
+      validateResponse(response, {
+        status: STATUS_CODES.NOT_FOUND,
+        IsSuccess: false,
+        ErrorMessage: RESPONSE_ERRORS.ORDER_NOT_FOUND("000000000000000000000000"),
+      });
+    },
+  );
 });

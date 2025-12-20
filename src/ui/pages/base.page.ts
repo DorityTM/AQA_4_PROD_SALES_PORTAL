@@ -5,11 +5,7 @@ import { logStep } from "utils/report/logStep.utils.js";
 export abstract class BasePage {
   constructor(protected page: Page) {}
 
-  async interceptRequest<T extends unknown[]>(
-    url: string,
-    triggerAction: (...args: T) => Promise<void>,
-    ...args: T
-  ) {
+  async interceptRequest<T extends unknown[]>(url: string, triggerAction: (...args: T) => Promise<void>, ...args: T) {
     const [request] = await Promise.all([
       this.page.waitForRequest((request) => request.url().includes(url)),
       triggerAction(...args),
@@ -35,9 +31,7 @@ export abstract class BasePage {
 
   @logStep("GET AUTH TOKEN FROM COOKIES")
   async getAuthToken() {
-    const token = (await this.page.context().cookies()).find(
-      (c) => c.name === "Authorization",
-    )!.value;
+    const token = (await this.page.context().cookies()).find((c) => c.name === "Authorization")!.value;
     return token;
   }
 }

@@ -14,9 +14,7 @@ export function generateProductData(params?: Partial<IProduct>): IProduct {
     ...params,
   };
 }
-export function generateProductResponseData(
-  params?: Partial<IProduct>,
-): IProductFromResponse {
+export function generateProductResponseData(params?: Partial<IProduct>): IProductFromResponse {
   const initial = generateProductData(params);
   return {
     _id: new ObjectId().toHexString(),

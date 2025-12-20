@@ -3,8 +3,8 @@ import { IOrderFromResponse } from "data/types/order.types";
 import { ORDER_STATUS } from "../order-status";
 import { STATUS_CODES } from "data/statusCodes";
 
-
-export interface IOrderStatusTransitionCase { from: string;
+export interface IOrderStatusTransitionCase {
+  from: string;
   create: (ordersApiService: OrdersApiService, token: string) => Promise<IOrderFromResponse>;
   to: ORDER_STATUS;
   expectedStatus: STATUS_CODES;

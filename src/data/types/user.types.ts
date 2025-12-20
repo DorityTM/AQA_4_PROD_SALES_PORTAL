@@ -11,9 +11,9 @@ export interface IUser extends ID, ICreatedOn, IResponseFields {
   lastName: string;
   roles: ROLES[];
 }
-export type IUserFromResponse = IUser
+export type IUserFromResponse = IUser;
 
-export type IAssignedManager = IUserFromResponse
+export type IAssignedManager = IUserFromResponse;
 
 export interface ICreateUserPayload {
   username: string;
