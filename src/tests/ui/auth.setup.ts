@@ -1,22 +1,25 @@
 import { test } from "@playwright/test";
-import { SALES_PORTAL_URL, credentials } from "config/env";
-import { HomePage } from "ui/pages/home.page";
+import { credentials } from "config/env";
+import { LoginService } from "../../api/service/login.service";
+import { LoginApi } from "../../api/api/login.api";
+import { RequestApi } from "../../api/apiClients/requestApi";
 
-test("create storage state for authenticated user", async ({ page, context }) => {
-  await page.goto(SALES_PORTAL_URL);
-  await page.locator("#emailinput").fill(credentials.username);
-  await page.locator("#passwordinput").fill(credentials.password);
-  await page.locator("button[type='submit']").click();
+test("create storage state for authenticated user", async ({ context, request }) => {
+  const loginApiService = new LoginService(new LoginApi(new RequestApi(request)));
+  const token = await loginApiService.loginAsAdmin(credentials);
 
-  // Wait for Home page to be fully opened (more robust than raw locator)
-  try {
-    await new HomePage(page).waitForOpened();
-  } catch {
-    // Sometimes SPA redirect/login processing is flaky; retry click once and wait again.
-    await page.waitForTimeout(1000);
-    await page.locator("button[type='submit']").click();
-    await new HomePage(page).waitForOpened();
-  }
+  await context.addCookies([
+    {
+      name: "Authorization",
+      value: token,
+      domain: "anatoly-karpovich.github.io",
+      path: "/aqa-course-project",
+      expires: -1,
+      httpOnly: false,
+      secure: false,
+      sameSite: "Lax",
+    },
+  ]);
 
   await context.storageState({ path: "src/.auth/user.json" });
 });

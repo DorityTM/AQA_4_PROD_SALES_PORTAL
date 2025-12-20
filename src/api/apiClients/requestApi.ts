@@ -2,6 +2,7 @@ import { APIRequestContext, APIResponse, test, TestStepInfo } from "@playwright/
 import { IRequestOptions, IResponse } from "data/types/core.types";
 import { BaseApiClient } from "./baseApiClient";
 import _ from "lodash";
+import { maskSecrets } from "../../utils/maskSecrets";
 
 export class RequestApi extends BaseApiClient {
   constructor(private requestContext: APIRequestContext) {
@@ -50,15 +51,18 @@ export class RequestApi extends BaseApiClient {
   }
 
   private async attachRequest(options: IRequestOptions, step: TestStepInfo) {
+    const stringData = JSON.stringify(
+      {
+        headers: options.headers,
+        ...(options.data && { body: options.data }),
+      },
+      null,
+      2,
+    );
+
+    const maskedData = maskSecrets(stringData);
     await step.attach(`Request ${options.method.toUpperCase()} ${options.url}`, {
-      body: JSON.stringify(
-        {
-          headers: options.headers,
-          ...(options.data && { body: options.data }),
-        },
-        null,
-        2,
-      ),
+      body: maskedData,
       contentType: "application/json",
     });
   }
@@ -68,15 +72,18 @@ export class RequestApi extends BaseApiClient {
     response: IResponse<T>,
     step: TestStepInfo,
   ) {
+    const stringData = JSON.stringify(
+      {
+        headers: response.headers,
+        body: response.body,
+      },
+      null,
+      2,
+    );
+
+    const maskedData = maskSecrets(stringData);
     await step.attach(`Response ${response.status} ${options.method.toUpperCase()} ${options.url}`, {
-      body: JSON.stringify(
-        {
-          headers: response.headers,
-          body: response.body,
-        },
-        null,
-        2,
-      ),
+      body: maskedData,
       contentType: "application/json",
     });
   }
