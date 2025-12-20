@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 23:45:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-+k/Ur34YDaGsY9KKnjFwxS6a/ww\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947351a1c508c5d5ee68080",
+      "status": "Draft",
+      "customer": {
+        "_id": "6947351a1c508c5d5ee6803d",
+        "email": "Maribel.Douglas@gmail.com",
+        "name": "Ima Collier",
+        "country": "USA",
+        "city": "Lake Arno",
+        "street": "Earline Springs 33",
+        "house": 859,
+        "flat": 8786,
+        "phone": "+568154382765249",
+        "createdOn": "2025-12-20T23:45:30.000Z",
+        "notes": "3DW27taC9PiA1hUGohOEbRgY3MCM49"
+      },
+      "products": [
+        {
+          "_id": "6947351a1c508c5d5ee68058",
+          "name": "Ball63422",
+          "amount": 543,
+          "price": 21368,
+          "manufacturer": "Amazon",
+          "notes": "LRJnPbaiWsArieFRr0Dkhb2PlqnS2My8cvQUUjHF02p1GzkwGKOWM2jJ7MKDqfos8D7Cew6i2fT8MMtiOXqlGrixk4pF20QOEVtWtjzORXIrgoO5GUVFkcuj721bTZNYyIyy1gNM0KyQL4tT20iHoJWTjiAwX5H15hlR23e4QSSMq50MrEocRcc1SpcsBoIg1sOTGt5hUx1oFut9Xpqq2a3aMwU0bfxGHeI9jQQnHwuktNP3poqOYFzqrA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Fort Hillary",
+          "street": "Sawayn Junction",
+          "house": 649,
+          "flat": 2402
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 21368,
+      "createdOn": "2025-12-20T23:45:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947351a1c508c5d5ee6803d",
+          "products": [
+            {
+              "_id": "6947351a1c508c5d5ee68058",
+              "name": "Ball63422",
+              "amount": 543,
+              "price": 21368,
+              "manufacturer": "Amazon",
+              "notes": "LRJnPbaiWsArieFRr0Dkhb2PlqnS2My8cvQUUjHF02p1GzkwGKOWM2jJ7MKDqfos8D7Cew6i2fT8MMtiOXqlGrixk4pF20QOEVtWtjzORXIrgoO5GUVFkcuj721bTZNYyIyy1gNM0KyQL4tT20iHoJWTjiAwX5H15hlR23e4QSSMq50MrEocRcc1SpcsBoIg1sOTGt5hUx1oFut9Xpqq2a3aMwU0bfxGHeI9jQQnHwuktNP3poqOYFzqrA",
+              "received": false
+            }
+          ],
+          "total_price": 21368,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Hillary",
+              "street": "Sawayn Junction",
+              "house": 649,
+              "flat": 2402
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-20T23:45:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947351a1c508c5d5ee6803d",
+          "products": [
+            {
+              "_id": "6947351a1c508c5d5ee68058",
+              "name": "Ball63422",
+              "amount": 543,
+              "price": 21368,
+              "manufacturer": "Amazon",
+              "notes": "LRJnPbaiWsArieFRr0Dkhb2PlqnS2My8cvQUUjHF02p1GzkwGKOWM2jJ7MKDqfos8D7Cew6i2fT8MMtiOXqlGrixk4pF20QOEVtWtjzORXIrgoO5GUVFkcuj721bTZNYyIyy1gNM0KyQL4tT20iHoJWTjiAwX5H15hlR23e4QSSMq50MrEocRcc1SpcsBoIg1sOTGt5hUx1oFut9Xpqq2a3aMwU0bfxGHeI9jQQnHwuktNP3poqOYFzqrA",
+              "received": false
+            }
+          ],
+          "total_price": 21368,
+          "delivery": null,
+          "changedOn": "2025-12-20T23:45:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

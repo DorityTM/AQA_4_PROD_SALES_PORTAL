@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 20 Dec 2025 23:46:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3676",
+    "etag": "W/\"e5c-9BdG+lnECHBzN2i54PVoFmrs/p4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694735371c508c5d5ee69016",
+      "status": "In Process",
+      "customer": {
+        "_id": "694735361c508c5d5ee68fc9",
+        "email": "Anika_Cormier72@gmail.com",
+        "name": "Roberta Hagenes",
+        "country": "France",
+        "city": "Fort Lon",
+        "street": "Bianka Lodge 73",
+        "house": 441,
+        "flat": 9560,
+        "phone": "+202701643936113",
+        "createdOn": "2025-12-20T23:45:58.000Z",
+        "notes": "dNJsREn315h7p4CDfHjZF47XeqAs1q"
+      },
+      "products": [
+        {
+          "_id": "694735371c508c5d5ee68fee",
+          "name": "Chips47228",
+          "amount": 178,
+          "price": 78369,
+          "manufacturer": "Apple",
+          "notes": "wD1TseziI56E7oyL42S5XIgdMS7HzM4RzjclwEmE4A91OcZzdslst1rvWVP0Si9n4F2u5b85yRXbYVjiNx3Wtrsyff48OFfNZDicmpTQ62Wef4I6UYo1dNQDAZO4ANTGKj9xqlCvNMMrXNfI1yxyewXela35izWGDtcNdGpWcKYgYPBu8E8A9K7urqUB1AHqZzoA3ksgXYwJSFdbVy3GyK3ekf6xRmUfjn0ftFf6S9kXH5coDZ6arrAQGp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Chula Vista",
+          "street": "Swift Mount",
+          "house": 212,
+          "flat": 8323
+        },
+        "finalDate": "2025-12-27T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 78369,
+      "createdOn": "2025-12-20T23:45:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694735361c508c5d5ee68fc9",
+          "products": [
+            {
+              "_id": "694735371c508c5d5ee68fee",
+              "name": "Chips47228",
+              "amount": 178,
+              "price": 78369,
+              "manufacturer": "Apple",
+              "notes": "wD1TseziI56E7oyL42S5XIgdMS7HzM4RzjclwEmE4A91OcZzdslst1rvWVP0Si9n4F2u5b85yRXbYVjiNx3Wtrsyff48OFfNZDicmpTQ62Wef4I6UYo1dNQDAZO4ANTGKj9xqlCvNMMrXNfI1yxyewXela35izWGDtcNdGpWcKYgYPBu8E8A9K7urqUB1AHqZzoA3ksgXYwJSFdbVy3GyK3ekf6xRmUfjn0ftFf6S9kXH5coDZ6arrAQGp",
+              "received": false
+            }
+          ],
+          "total_price": 78369,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Chula Vista",
+              "street": "Swift Mount",
+              "house": 212,
+              "flat": 8323
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-20T23:46:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694735361c508c5d5ee68fc9",
+          "products": [
+            {
+              "_id": "694735371c508c5d5ee68fee",
+              "name": "Chips47228",
+              "amount": 178,
+              "price": 78369,
+              "manufacturer": "Apple",
+              "notes": "wD1TseziI56E7oyL42S5XIgdMS7HzM4RzjclwEmE4A91OcZzdslst1rvWVP0Si9n4F2u5b85yRXbYVjiNx3Wtrsyff48OFfNZDicmpTQ62Wef4I6UYo1dNQDAZO4ANTGKj9xqlCvNMMrXNfI1yxyewXela35izWGDtcNdGpWcKYgYPBu8E8A9K7urqUB1AHqZzoA3ksgXYwJSFdbVy3GyK3ekf6xRmUfjn0ftFf6S9kXH5coDZ6arrAQGp",
+              "received": false
+            }
+          ],
+          "total_price": 78369,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Chula Vista",
+              "street": "Swift Mount",
+              "house": 212,
+              "flat": 8323
+            },
+            "finalDate": "2025-12-27T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-20T23:46:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694735361c508c5d5ee68fc9",
+          "products": [
+            {
+              "_id": "694735371c508c5d5ee68fee",
+              "name": "Chips47228",
+              "amount": 178,
+              "price": 78369,
+              "manufacturer": "Apple",
+              "notes": "wD1TseziI56E7oyL42S5XIgdMS7HzM4RzjclwEmE4A91OcZzdslst1rvWVP0Si9n4F2u5b85yRXbYVjiNx3Wtrsyff48OFfNZDicmpTQ62Wef4I6UYo1dNQDAZO4ANTGKj9xqlCvNMMrXNfI1yxyewXela35izWGDtcNdGpWcKYgYPBu8E8A9K7urqUB1AHqZzoA3ksgXYwJSFdbVy3GyK3ekf6xRmUfjn0ftFf6S9kXH5coDZ6arrAQGp",
+              "received": false
+            }
+          ],
+          "total_price": 78369,
+          "delivery": null,
+          "changedOn": "2025-12-20T23:45:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
