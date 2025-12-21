@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 08:05:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3701",
+    "etag": "W/\"e75-NhB1n5NyAT08hFrAl8Tf8iIfnwI\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947aa421c508c5d5ee755cc",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6947aa401c508c5d5ee75498",
+        "email": "Tod.Leannon34@gmail.com",
+        "name": "Claude Rice",
+        "country": "Germany",
+        "city": "West Claudia",
+        "street": "Rosa Camp 81",
+        "house": 518,
+        "flat": 6992,
+        "phone": "+368347803225463",
+        "createdOn": "2025-12-21T08:05:20.000Z",
+        "notes": "Ud6II5btBqaaGUcVIU7Z0Q6r32nef2"
+      },
+      "products": [
+        {
+          "_id": "6947aa411c508c5d5ee75529",
+          "name": "Sausages89006",
+          "amount": 192,
+          "price": 32541,
+          "manufacturer": "Xiaomi",
+          "notes": "y1Yt8QtHNfMYus2s8YPut2Ss3UYqt78UyrCGNil3Axb9ZgpiwwcEx9vqMpEC7TmdUt0iNK4sRPvBTUSRzHZvFX1z10TqyDvRLz1uG6isegIQfsFefPWVObxJixLq7sBSIBazI36IWEJeOmw4WeDPjyO2ubWvsdJaefN0KAPK21iSbVgSew5yFx3Hn98q2B5pFur1m78fN2PHVzFGrj22oWetguJUGFzBrkPZrhqQ9DcAkYv6P9xeja5FiX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "East Coltenborough",
+          "street": "Wolff Forges",
+          "house": 145,
+          "flat": 7023
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 32541,
+      "createdOn": "2025-12-21T08:05:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6947aa401c508c5d5ee75498",
+          "products": [
+            {
+              "_id": "6947aa411c508c5d5ee75529",
+              "name": "Sausages89006",
+              "amount": 192,
+              "price": 32541,
+              "manufacturer": "Xiaomi",
+              "notes": "y1Yt8QtHNfMYus2s8YPut2Ss3UYqt78UyrCGNil3Axb9ZgpiwwcEx9vqMpEC7TmdUt0iNK4sRPvBTUSRzHZvFX1z10TqyDvRLz1uG6isegIQfsFefPWVObxJixLq7sBSIBazI36IWEJeOmw4WeDPjyO2ubWvsdJaefN0KAPK21iSbVgSew5yFx3Hn98q2B5pFur1m78fN2PHVzFGrj22oWetguJUGFzBrkPZrhqQ9DcAkYv6P9xeja5FiX",
+              "received": false
+            }
+          ],
+          "total_price": 32541,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Coltenborough",
+              "street": "Wolff Forges",
+              "house": 145,
+              "flat": 7023
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T08:05:24.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947aa401c508c5d5ee75498",
+          "products": [
+            {
+              "_id": "6947aa411c508c5d5ee75529",
+              "name": "Sausages89006",
+              "amount": 192,
+              "price": 32541,
+              "manufacturer": "Xiaomi",
+              "notes": "y1Yt8QtHNfMYus2s8YPut2Ss3UYqt78UyrCGNil3Axb9ZgpiwwcEx9vqMpEC7TmdUt0iNK4sRPvBTUSRzHZvFX1z10TqyDvRLz1uG6isegIQfsFefPWVObxJixLq7sBSIBazI36IWEJeOmw4WeDPjyO2ubWvsdJaefN0KAPK21iSbVgSew5yFx3Hn98q2B5pFur1m78fN2PHVzFGrj22oWetguJUGFzBrkPZrhqQ9DcAkYv6P9xeja5FiX",
+              "received": false
+            }
+          ],
+          "total_price": 32541,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Coltenborough",
+              "street": "Wolff Forges",
+              "house": 145,
+              "flat": 7023
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T08:05:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947aa401c508c5d5ee75498",
+          "products": [
+            {
+              "_id": "6947aa411c508c5d5ee75529",
+              "name": "Sausages89006",
+              "amount": 192,
+              "price": 32541,
+              "manufacturer": "Xiaomi",
+              "notes": "y1Yt8QtHNfMYus2s8YPut2Ss3UYqt78UyrCGNil3Axb9ZgpiwwcEx9vqMpEC7TmdUt0iNK4sRPvBTUSRzHZvFX1z10TqyDvRLz1uG6isegIQfsFefPWVObxJixLq7sBSIBazI36IWEJeOmw4WeDPjyO2ubWvsdJaefN0KAPK21iSbVgSew5yFx3Hn98q2B5pFur1m78fN2PHVzFGrj22oWetguJUGFzBrkPZrhqQ9DcAkYv6P9xeja5FiX",
+              "received": false
+            }
+          ],
+          "total_price": 32541,
+          "delivery": null,
+          "changedOn": "2025-12-21T08:05:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

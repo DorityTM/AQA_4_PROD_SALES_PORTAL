@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 08:05:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6519",
+    "etag": "W/\"1977-BcmwEKh07R3ohNUGVGIEpw5IoXQ\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947aa401c508c5d5ee75492",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6947aa3b1c508c5d5ee7516c",
+        "email": "Reese.Swift@hotmail.com",
+        "name": "Joanie Trantow",
+        "country": "Belarus",
+        "city": "Rosenbaumworth",
+        "street": "Westgate 21",
+        "house": 623,
+        "flat": 957,
+        "phone": "+038216275912029",
+        "createdOn": "2025-12-21T08:05:15.000Z",
+        "notes": "wTbScc3gGmtS2rRzpncKmRhUORzKUb"
+      },
+      "products": [
+        {
+          "_id": "6947aa3c1c508c5d5ee75264",
+          "name": "Car57340",
+          "amount": 665,
+          "price": 96389,
+          "manufacturer": "Google",
+          "notes": "cmfz8TaqWRMNvAEOS1IuWJWYR8kyj2QWOO5xMBhn30IECOYLN9lXlJxKDuyfNb79njNF2dgd1ha6oB3EIbKV6IKRkFQX0rDtlKNCP4gvSR3MDZTi6BCV01VQ2yjJZL8HgwtlGWcAxjh1amPPyuuTZVW3J13KMk4PBZyi7JFUv7FlYuNHKUYfLoUe1nxQtRaYSRA03myxEvdfZtmElPVCxxhXciEvJkee8qpIXyIndqrSqXADM0SrpkDaBN",
+          "received": true
+        },
+        {
+          "_id": "6947aa3d1c508c5d5ee7529f",
+          "name": "Pizza22661",
+          "amount": 809,
+          "price": 77692,
+          "manufacturer": "Amazon",
+          "notes": "B5e2pGqyQOLu9DNb0fFCcLNw8IWW4pC4XETzIN57IuNUYPj27BmlgQiyY0KUVkiqNtftOr4IG4E0cxCuzNJZ1UkDSAoLBXseuWJ0uY3Mw9OE8YGxy71O9krfqqK3R4bYbTd5zXAmCUVtiY5u7iKRXSGoWvrs8RZscu6Y5R0Y9LXbzdJwNA1b33nAswwzQEjfNwgU9qyM4njGcfglKcNHxnauBNyBhuZt9MkPbu3GL3g2PzVggubgm78uhN",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Rhea",
+          "street": "Denesik View",
+          "house": 158,
+          "flat": 8785
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 174081,
+      "createdOn": "2025-12-21T08:05:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6947aa3b1c508c5d5ee7516c",
+          "products": [
+            {
+              "_id": "6947aa3c1c508c5d5ee75264",
+              "name": "Car57340",
+              "amount": 665,
+              "price": 96389,
+              "manufacturer": "Google",
+              "notes": "cmfz8TaqWRMNvAEOS1IuWJWYR8kyj2QWOO5xMBhn30IECOYLN9lXlJxKDuyfNb79njNF2dgd1ha6oB3EIbKV6IKRkFQX0rDtlKNCP4gvSR3MDZTi6BCV01VQ2yjJZL8HgwtlGWcAxjh1amPPyuuTZVW3J13KMk4PBZyi7JFUv7FlYuNHKUYfLoUe1nxQtRaYSRA03myxEvdfZtmElPVCxxhXciEvJkee8qpIXyIndqrSqXADM0SrpkDaBN",
+              "received": true
+            },
+            {
+              "_id": "6947aa3d1c508c5d5ee7529f",
+              "name": "Pizza22661",
+              "amount": 809,
+              "price": 77692,
+              "manufacturer": "Amazon",
+              "notes": "B5e2pGqyQOLu9DNb0fFCcLNw8IWW4pC4XETzIN57IuNUYPj27BmlgQiyY0KUVkiqNtftOr4IG4E0cxCuzNJZ1UkDSAoLBXseuWJ0uY3Mw9OE8YGxy71O9krfqqK3R4bYbTd5zXAmCUVtiY5u7iKRXSGoWvrs8RZscu6Y5R0Y9LXbzdJwNA1b33nAswwzQEjfNwgU9qyM4njGcfglKcNHxnauBNyBhuZt9MkPbu3GL3g2PzVggubgm78uhN",
+              "received": false
+            }
+          ],
+          "total_price": 174081,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Rhea",
+              "street": "Denesik View",
+              "house": 158,
+              "flat": 8785
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T08:05:23.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6947aa3b1c508c5d5ee7516c",
+          "products": [
+            {
+              "_id": "6947aa3c1c508c5d5ee75264",
+              "name": "Car57340",
+              "amount": 665,
+              "price": 96389,
+              "manufacturer": "Google",
+              "notes": "cmfz8TaqWRMNvAEOS1IuWJWYR8kyj2QWOO5xMBhn30IECOYLN9lXlJxKDuyfNb79njNF2dgd1ha6oB3EIbKV6IKRkFQX0rDtlKNCP4gvSR3MDZTi6BCV01VQ2yjJZL8HgwtlGWcAxjh1amPPyuuTZVW3J13KMk4PBZyi7JFUv7FlYuNHKUYfLoUe1nxQtRaYSRA03myxEvdfZtmElPVCxxhXciEvJkee8qpIXyIndqrSqXADM0SrpkDaBN",
+              "received": false
+            },
+            {
+              "_id": "6947aa3d1c508c5d5ee7529f",
+              "name": "Pizza22661",
+              "amount": 809,
+              "price": 77692,
+              "manufacturer": "Amazon",
+              "notes": "B5e2pGqyQOLu9DNb0fFCcLNw8IWW4pC4XETzIN57IuNUYPj27BmlgQiyY0KUVkiqNtftOr4IG4E0cxCuzNJZ1UkDSAoLBXseuWJ0uY3Mw9OE8YGxy71O9krfqqK3R4bYbTd5zXAmCUVtiY5u7iKRXSGoWvrs8RZscu6Y5R0Y9LXbzdJwNA1b33nAswwzQEjfNwgU9qyM4njGcfglKcNHxnauBNyBhuZt9MkPbu3GL3g2PzVggubgm78uhN",
+              "received": false
+            }
+          ],
+          "total_price": 174081,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Rhea",
+              "street": "Denesik View",
+              "house": 158,
+              "flat": 8785
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T08:05:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947aa3b1c508c5d5ee7516c",
+          "products": [
+            {
+              "_id": "6947aa3c1c508c5d5ee75264",
+              "name": "Car57340",
+              "amount": 665,
+              "price": 96389,
+              "manufacturer": "Google",
+              "notes": "cmfz8TaqWRMNvAEOS1IuWJWYR8kyj2QWOO5xMBhn30IECOYLN9lXlJxKDuyfNb79njNF2dgd1ha6oB3EIbKV6IKRkFQX0rDtlKNCP4gvSR3MDZTi6BCV01VQ2yjJZL8HgwtlGWcAxjh1amPPyuuTZVW3J13KMk4PBZyi7JFUv7FlYuNHKUYfLoUe1nxQtRaYSRA03myxEvdfZtmElPVCxxhXciEvJkee8qpIXyIndqrSqXADM0SrpkDaBN",
+              "received": false
+            },
+            {
+              "_id": "6947aa3d1c508c5d5ee7529f",
+              "name": "Pizza22661",
+              "amount": 809,
+              "price": 77692,
+              "manufacturer": "Amazon",
+              "notes": "B5e2pGqyQOLu9DNb0fFCcLNw8IWW4pC4XETzIN57IuNUYPj27BmlgQiyY0KUVkiqNtftOr4IG4E0cxCuzNJZ1UkDSAoLBXseuWJ0uY3Mw9OE8YGxy71O9krfqqK3R4bYbTd5zXAmCUVtiY5u7iKRXSGoWvrs8RZscu6Y5R0Y9LXbzdJwNA1b33nAswwzQEjfNwgU9qyM4njGcfglKcNHxnauBNyBhuZt9MkPbu3GL3g2PzVggubgm78uhN",
+              "received": false
+            }
+          ],
+          "total_price": 174081,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Rhea",
+              "street": "Denesik View",
+              "house": 158,
+              "flat": 8785
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T08:05:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947aa3b1c508c5d5ee7516c",
+          "products": [
+            {
+              "_id": "6947aa3c1c508c5d5ee75264",
+              "name": "Car57340",
+              "amount": 665,
+              "price": 96389,
+              "manufacturer": "Google",
+              "notes": "cmfz8TaqWRMNvAEOS1IuWJWYR8kyj2QWOO5xMBhn30IECOYLN9lXlJxKDuyfNb79njNF2dgd1ha6oB3EIbKV6IKRkFQX0rDtlKNCP4gvSR3MDZTi6BCV01VQ2yjJZL8HgwtlGWcAxjh1amPPyuuTZVW3J13KMk4PBZyi7JFUv7FlYuNHKUYfLoUe1nxQtRaYSRA03myxEvdfZtmElPVCxxhXciEvJkee8qpIXyIndqrSqXADM0SrpkDaBN",
+              "received": false
+            },
+            {
+              "_id": "6947aa3d1c508c5d5ee7529f",
+              "name": "Pizza22661",
+              "amount": 809,
+              "price": 77692,
+              "manufacturer": "Amazon",
+              "notes": "B5e2pGqyQOLu9DNb0fFCcLNw8IWW4pC4XETzIN57IuNUYPj27BmlgQiyY0KUVkiqNtftOr4IG4E0cxCuzNJZ1UkDSAoLBXseuWJ0uY3Mw9OE8YGxy71O9krfqqK3R4bYbTd5zXAmCUVtiY5u7iKRXSGoWvrs8RZscu6Y5R0Y9LXbzdJwNA1b33nAswwzQEjfNwgU9qyM4njGcfglKcNHxnauBNyBhuZt9MkPbu3GL3g2PzVggubgm78uhN",
+              "received": false
+            }
+          ],
+          "total_price": 174081,
+          "delivery": null,
+          "changedOn": "2025-12-21T08:05:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

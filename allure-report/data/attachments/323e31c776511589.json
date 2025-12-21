@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 08:06:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2758",
+    "etag": "W/\"ac6-YH7UkgH8oRagp0y2inIQeGKDbBQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947aa7c1c508c5d5ee7788b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6947aa7b1c508c5d5ee77836",
+        "email": "Eduardo_Weber28@gmail.com",
+        "name": "Lamar Leannon",
+        "country": "Ukraine",
+        "city": "Carolbury",
+        "street": "W Union Street 83",
+        "house": 600,
+        "flat": 6252,
+        "phone": "+059863009557867",
+        "createdOn": "2025-12-21T08:06:19.000Z",
+        "notes": "7y8AhbZMl8cUfsXbgl728ItowMhJOD"
+      },
+      "products": [
+        {
+          "_id": "6947aa7c1c508c5d5ee7785b",
+          "name": "Chair58558",
+          "amount": 695,
+          "price": 16856,
+          "manufacturer": "Google",
+          "notes": "CdHm2SEEnh5SiGuHKFNbl5d7qF2zcEV8PJhKVlhu8bN3xxa6S5LryRDTlLHvWnLV2jGkKicmmYU2z0extFgFeHXWIRWemwWQDnJRwbbCcHE3wABPUg4OCAEyy2NhzpRrrpAEqRbjxt5J54bE4sPI1f6mQ7lWyXch88ESZ908TQ0rw9URE2sYUXsnqnKQt7wf4vAPMmRgG6pvHoeCV9qqANIMMKgsBT7PBo9mXy4DrCf14RerSZs9PCfr28",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Port Tremaine",
+          "street": "Monahan Curve",
+          "house": 727,
+          "flat": 277
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16856,
+      "createdOn": "2025-12-21T08:06:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947aa7b1c508c5d5ee77836",
+          "products": [
+            {
+              "_id": "6947aa7c1c508c5d5ee7785b",
+              "name": "Chair58558",
+              "amount": 695,
+              "price": 16856,
+              "manufacturer": "Google",
+              "notes": "CdHm2SEEnh5SiGuHKFNbl5d7qF2zcEV8PJhKVlhu8bN3xxa6S5LryRDTlLHvWnLV2jGkKicmmYU2z0extFgFeHXWIRWemwWQDnJRwbbCcHE3wABPUg4OCAEyy2NhzpRrrpAEqRbjxt5J54bE4sPI1f6mQ7lWyXch88ESZ908TQ0rw9URE2sYUXsnqnKQt7wf4vAPMmRgG6pvHoeCV9qqANIMMKgsBT7PBo9mXy4DrCf14RerSZs9PCfr28",
+              "received": false
+            }
+          ],
+          "total_price": 16856,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Port Tremaine",
+              "street": "Monahan Curve",
+              "house": 727,
+              "flat": 277
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T08:06:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947aa7b1c508c5d5ee77836",
+          "products": [
+            {
+              "_id": "6947aa7c1c508c5d5ee7785b",
+              "name": "Chair58558",
+              "amount": 695,
+              "price": 16856,
+              "manufacturer": "Google",
+              "notes": "CdHm2SEEnh5SiGuHKFNbl5d7qF2zcEV8PJhKVlhu8bN3xxa6S5LryRDTlLHvWnLV2jGkKicmmYU2z0extFgFeHXWIRWemwWQDnJRwbbCcHE3wABPUg4OCAEyy2NhzpRrrpAEqRbjxt5J54bE4sPI1f6mQ7lWyXch88ESZ908TQ0rw9URE2sYUXsnqnKQt7wf4vAPMmRgG6pvHoeCV9qqANIMMKgsBT7PBo9mXy4DrCf14RerSZs9PCfr28",
+              "received": false
+            }
+          ],
+          "total_price": 16856,
+          "delivery": null,
+          "changedOn": "2025-12-21T08:06:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 08:06:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2760",
+    "etag": "W/\"ac8-vNuASXc9Y6mP7F/oWjRDdA6wkr4\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947aa7e1c508c5d5ee779ba",
+      "status": "Draft",
+      "customer": {
+        "_id": "6947aa7d1c508c5d5ee7796a",
+        "email": "Verla_Volkman@hotmail.com",
+        "name": "Jess Russel",
+        "country": "Great Britain",
+        "city": "Glenview",
+        "street": "Jazmyn Hollow 38",
+        "house": 217,
+        "flat": 9052,
+        "phone": "+553735490355909",
+        "createdOn": "2025-12-21T08:06:21.000Z",
+        "notes": "xCuQ19xJ2JjwyL0b8T1Cie5wo1FS7K"
+      },
+      "products": [
+        {
+          "_id": "6947aa7e1c508c5d5ee77990",
+          "name": "Chair97107",
+          "amount": 610,
+          "price": 90232,
+          "manufacturer": "Amazon",
+          "notes": "neKIwAhz5VFxNKPf0X0QsWPdad9HiWPOJvtAPUvAizo8jap4iRNmfFVhyfF1iDcoGWAFOcywAcxjvjAHO5AoqN66TTzYLwkSsXFers91OqbY5f2EIOWaEP9lC988H7OD0TyrigiLHOEUnEnbDFw956ABqqViLhD4sK2svvcZIsEhJCBjgA8dYt1F19jct9OA1decENPA5XdcVW0yrJUZYzfUr74TZPHeTlfNiuZfXeJA4mGtkItcEFGh4k",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Dallinstead",
+          "street": "Geovanny Common",
+          "house": 965,
+          "flat": 7195
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 90232,
+      "createdOn": "2025-12-21T08:06:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947aa7d1c508c5d5ee7796a",
+          "products": [
+            {
+              "_id": "6947aa7e1c508c5d5ee77990",
+              "name": "Chair97107",
+              "amount": 610,
+              "price": 90232,
+              "manufacturer": "Amazon",
+              "notes": "neKIwAhz5VFxNKPf0X0QsWPdad9HiWPOJvtAPUvAizo8jap4iRNmfFVhyfF1iDcoGWAFOcywAcxjvjAHO5AoqN66TTzYLwkSsXFers91OqbY5f2EIOWaEP9lC988H7OD0TyrigiLHOEUnEnbDFw956ABqqViLhD4sK2svvcZIsEhJCBjgA8dYt1F19jct9OA1decENPA5XdcVW0yrJUZYzfUr74TZPHeTlfNiuZfXeJA4mGtkItcEFGh4k",
+              "received": false
+            }
+          ],
+          "total_price": 90232,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Dallinstead",
+              "street": "Geovanny Common",
+              "house": 965,
+              "flat": 7195
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T08:06:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947aa7d1c508c5d5ee7796a",
+          "products": [
+            {
+              "_id": "6947aa7e1c508c5d5ee77990",
+              "name": "Chair97107",
+              "amount": 610,
+              "price": 90232,
+              "manufacturer": "Amazon",
+              "notes": "neKIwAhz5VFxNKPf0X0QsWPdad9HiWPOJvtAPUvAizo8jap4iRNmfFVhyfF1iDcoGWAFOcywAcxjvjAHO5AoqN66TTzYLwkSsXFers91OqbY5f2EIOWaEP9lC988H7OD0TyrigiLHOEUnEnbDFw956ABqqViLhD4sK2svvcZIsEhJCBjgA8dYt1F19jct9OA1decENPA5XdcVW0yrJUZYzfUr74TZPHeTlfNiuZfXeJA4mGtkItcEFGh4k",
+              "received": false
+            }
+          ],
+          "total_price": 90232,
+          "delivery": null,
+          "changedOn": "2025-12-21T08:06:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

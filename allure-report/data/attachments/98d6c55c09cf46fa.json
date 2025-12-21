@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 08:05:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-n7wDHz4AQMYNjwtc/7IvDr5qCBc\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947aa441c508c5d5ee756e3",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6947aa431c508c5d5ee75693",
+        "email": "Providenci79@gmail.com",
+        "name": "Dandre Fadel",
+        "country": "USA",
+        "city": "Gerholdborough",
+        "street": "Crown Street 96",
+        "house": 203,
+        "flat": 6906,
+        "phone": "+551932340472466",
+        "createdOn": "2025-12-21T08:05:23.000Z",
+        "notes": "KaELZ90tnwm5bbMxJBpbP00USyN85w"
+      },
+      "products": [
+        {
+          "_id": "6947aa441c508c5d5ee756bf",
+          "name": "Bike89748",
+          "amount": 705,
+          "price": 51716,
+          "manufacturer": "Amazon",
+          "notes": "R2fEHsMBYNtoiVY57wn26nXSekvlAqCUYuyn2QjBx57GQ3729TBwHjtQ9KL5UDK9vhvUDCkS9ZtYAIqCXNGt3XkuF7QZByBgRvSP1dBPQYYKKeLH9dXUJw1Hy3EL4LEH9PktEyNvskgPjbWQLzEVj9pmWbJiZEBPsgvISiRSOLMQotvzbXZsZR1m4dNfpngfWy9MDV1YTwvckNPra6QOLZSLHBfVT4YSgirjDKxJQT8LfmmesuX1dAwVcl",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Sacramento",
+          "street": "Gloucester Road",
+          "house": 633,
+          "flat": 7055
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51716,
+      "createdOn": "2025-12-21T08:05:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6947aa431c508c5d5ee75693",
+          "products": [
+            {
+              "_id": "6947aa441c508c5d5ee756bf",
+              "name": "Bike89748",
+              "amount": 705,
+              "price": 51716,
+              "manufacturer": "Amazon",
+              "notes": "R2fEHsMBYNtoiVY57wn26nXSekvlAqCUYuyn2QjBx57GQ3729TBwHjtQ9KL5UDK9vhvUDCkS9ZtYAIqCXNGt3XkuF7QZByBgRvSP1dBPQYYKKeLH9dXUJw1Hy3EL4LEH9PktEyNvskgPjbWQLzEVj9pmWbJiZEBPsgvISiRSOLMQotvzbXZsZR1m4dNfpngfWy9MDV1YTwvckNPra6QOLZSLHBfVT4YSgirjDKxJQT8LfmmesuX1dAwVcl",
+              "received": false
+            }
+          ],
+          "total_price": 51716,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Sacramento",
+              "street": "Gloucester Road",
+              "house": 633,
+              "flat": 7055
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T08:05:26.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947aa431c508c5d5ee75693",
+          "products": [
+            {
+              "_id": "6947aa441c508c5d5ee756bf",
+              "name": "Bike89748",
+              "amount": 705,
+              "price": 51716,
+              "manufacturer": "Amazon",
+              "notes": "R2fEHsMBYNtoiVY57wn26nXSekvlAqCUYuyn2QjBx57GQ3729TBwHjtQ9KL5UDK9vhvUDCkS9ZtYAIqCXNGt3XkuF7QZByBgRvSP1dBPQYYKKeLH9dXUJw1Hy3EL4LEH9PktEyNvskgPjbWQLzEVj9pmWbJiZEBPsgvISiRSOLMQotvzbXZsZR1m4dNfpngfWy9MDV1YTwvckNPra6QOLZSLHBfVT4YSgirjDKxJQT8LfmmesuX1dAwVcl",
+              "received": false
+            }
+          ],
+          "total_price": 51716,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Sacramento",
+              "street": "Gloucester Road",
+              "house": 633,
+              "flat": 7055
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T08:05:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947aa431c508c5d5ee75693",
+          "products": [
+            {
+              "_id": "6947aa441c508c5d5ee756bf",
+              "name": "Bike89748",
+              "amount": 705,
+              "price": 51716,
+              "manufacturer": "Amazon",
+              "notes": "R2fEHsMBYNtoiVY57wn26nXSekvlAqCUYuyn2QjBx57GQ3729TBwHjtQ9KL5UDK9vhvUDCkS9ZtYAIqCXNGt3XkuF7QZByBgRvSP1dBPQYYKKeLH9dXUJw1Hy3EL4LEH9PktEyNvskgPjbWQLzEVj9pmWbJiZEBPsgvISiRSOLMQotvzbXZsZR1m4dNfpngfWy9MDV1YTwvckNPra6QOLZSLHBfVT4YSgirjDKxJQT8LfmmesuX1dAwVcl",
+              "received": false
+            }
+          ],
+          "total_price": 51716,
+          "delivery": null,
+          "changedOn": "2025-12-21T08:05:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
