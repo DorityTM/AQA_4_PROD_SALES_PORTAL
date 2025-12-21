@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 19:39:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2758",
+    "etag": "W/\"ac6-dYgJ02TwZ+peoikUAqHTqc76S2g\"",
+    "keep-alive": "timeout=5, max=13",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69484cdf1c508c5d5eea643e",
+      "status": "Draft",
+      "customer": {
+        "_id": "69484cde1c508c5d5eea641a",
+        "email": "Walter_Kuhn@hotmail.com",
+        "name": "Blanche Leffler",
+        "country": "Russia",
+        "city": "Windlerstad",
+        "street": "Franklin Road 62",
+        "house": 135,
+        "flat": 4068,
+        "phone": "+029116015279999",
+        "createdOn": "2025-12-21T19:39:10.000Z",
+        "notes": "FXkYjArBXWDN8GTYngDCetImdvP26m"
+      },
+      "products": [
+        {
+          "_id": "69484cde1c508c5d5eea6424",
+          "name": "Bacon25784",
+          "amount": 277,
+          "price": 13359,
+          "manufacturer": "Sony",
+          "notes": "IBX4MIacnlDUIP2i6KSKU3RDpfkBxyDS8BXQuO6QIzIrKVFBhBrxKmmVRkrdZhdiRlHQ2bvYPcd8bR0eWq7qxWdmFQHIroF8scQVjwp679eg6Nxv5ytPE59YPYaSIHOEhjy058N4OGagkFHVV6O6sDvF4wGWy46Iqnt4gfRvXzoOR0YEz4C1HmYaiZzTfx6TwSLIO2K9KbfdhOZlLLdDTZxCcpGXh9rJBHllhPyrxxuOa3yLkmZyeZe6Qc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "West Marcosside",
+          "street": "School Street",
+          "house": 148,
+          "flat": 3970
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 13359,
+      "createdOn": "2025-12-21T19:39:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69484cde1c508c5d5eea641a",
+          "products": [
+            {
+              "_id": "69484cde1c508c5d5eea6424",
+              "name": "Bacon25784",
+              "amount": 277,
+              "price": 13359,
+              "manufacturer": "Sony",
+              "notes": "IBX4MIacnlDUIP2i6KSKU3RDpfkBxyDS8BXQuO6QIzIrKVFBhBrxKmmVRkrdZhdiRlHQ2bvYPcd8bR0eWq7qxWdmFQHIroF8scQVjwp679eg6Nxv5ytPE59YPYaSIHOEhjy058N4OGagkFHVV6O6sDvF4wGWy46Iqnt4gfRvXzoOR0YEz4C1HmYaiZzTfx6TwSLIO2K9KbfdhOZlLLdDTZxCcpGXh9rJBHllhPyrxxuOa3yLkmZyeZe6Qc",
+              "received": false
+            }
+          ],
+          "total_price": 13359,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "West Marcosside",
+              "street": "School Street",
+              "house": 148,
+              "flat": 3970
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:39:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69484cde1c508c5d5eea641a",
+          "products": [
+            {
+              "_id": "69484cde1c508c5d5eea6424",
+              "name": "Bacon25784",
+              "amount": 277,
+              "price": 13359,
+              "manufacturer": "Sony",
+              "notes": "IBX4MIacnlDUIP2i6KSKU3RDpfkBxyDS8BXQuO6QIzIrKVFBhBrxKmmVRkrdZhdiRlHQ2bvYPcd8bR0eWq7qxWdmFQHIroF8scQVjwp679eg6Nxv5ytPE59YPYaSIHOEhjy058N4OGagkFHVV6O6sDvF4wGWy46Iqnt4gfRvXzoOR0YEz4C1HmYaiZzTfx6TwSLIO2K9KbfdhOZlLLdDTZxCcpGXh9rJBHllhPyrxxuOa3yLkmZyeZe6Qc",
+              "received": false
+            }
+          ],
+          "total_price": 13359,
+          "delivery": null,
+          "changedOn": "2025-12-21T19:39:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

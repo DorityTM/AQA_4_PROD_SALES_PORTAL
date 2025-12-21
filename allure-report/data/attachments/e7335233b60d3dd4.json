@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 19:39:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1781",
+    "etag": "W/\"6f5-Bvu/aq/pJdP4+s9gNsWeXRwQSfg\"",
+    "keep-alive": "timeout=5, max=25",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69484cd91c508c5d5eea6124",
+      "status": "Draft",
+      "customer": {
+        "_id": "69484cd81c508c5d5eea601d",
+        "email": "Porter.Erdman91@yahoo.com",
+        "name": "Minnie Konopelski",
+        "country": "France",
+        "city": "Merced",
+        "street": "Water Lane 47",
+        "house": 329,
+        "flat": 5534,
+        "phone": "+458084268163400",
+        "createdOn": "2025-12-21T19:39:04.000Z",
+        "notes": "eY5ww1523ipBSrK5sMUIMfvqKa5CRZ"
+      },
+      "products": [
+        {
+          "_id": "69484cd91c508c5d5eea603e",
+          "name": "Hat79047",
+          "amount": 809,
+          "price": 34185,
+          "manufacturer": "Xiaomi",
+          "notes": "5QOMftTn1kNDSGH8Ro2ZviFbBXLQwKgt6FddHfLed2Vih8u8GTcot6gcfaV9gzCQz2A2PgafD1vu6eFjjQja6yG82u1RPCcVT1WqbemGI5Hk91Pp7cSDnLjeFaLyk8spZLc9gobCsjETtoIhHgBtp0oa7F3DpPsi1CLwDMRmV1zHJcgW7KjpXZJUqZagULHWOXntXulsmTpaCPoWAVhcXiZFL6o6G1rTG27RMCuPvHm703mWWXrdwSDM2r",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 34185,
+      "createdOn": "2025-12-21T19:39:05.000Z",
+      "comments": [
+        {
+          "text": "Ensure > threshold before ship",
+          "createdOn": "2025-12-21T19:39:06.000Z",
+          "_id": "69484cda1c508c5d5eea614f"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69484cd81c508c5d5eea601d",
+          "products": [
+            {
+              "_id": "69484cd91c508c5d5eea603e",
+              "name": "Hat79047",
+              "amount": 809,
+              "price": 34185,
+              "manufacturer": "Xiaomi",
+              "notes": "5QOMftTn1kNDSGH8Ro2ZviFbBXLQwKgt6FddHfLed2Vih8u8GTcot6gcfaV9gzCQz2A2PgafD1vu6eFjjQja6yG82u1RPCcVT1WqbemGI5Hk91Pp7cSDnLjeFaLyk8spZLc9gobCsjETtoIhHgBtp0oa7F3DpPsi1CLwDMRmV1zHJcgW7KjpXZJUqZagULHWOXntXulsmTpaCPoWAVhcXiZFL6o6G1rTG27RMCuPvHm703mWWXrdwSDM2r",
+              "received": false
+            }
+          ],
+          "total_price": 34185,
+          "delivery": null,
+          "changedOn": "2025-12-21T19:39:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 19:40:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4622",
+    "etag": "W/\"120e-Lcj3hK6JQLT5nEUuy9PGWTRXcrc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69484d291c508c5d5eea941e",
+      "status": "Received",
+      "customer": {
+        "_id": "69484d261c508c5d5eea9224",
+        "email": "Cole_Hane60@yahoo.com",
+        "name": "Judy Renner",
+        "country": "France",
+        "city": "Langoshstad",
+        "street": "E Pine Street 47",
+        "house": 304,
+        "flat": 8552,
+        "phone": "+484638297395324",
+        "createdOn": "2025-12-21T19:40:22.000Z",
+        "notes": "NC2IYtKc2fZ9aIRpbgfCn4JAaeUtrn"
+      },
+      "products": [
+        {
+          "_id": "69484d271c508c5d5eea9312",
+          "name": "Mouse71613",
+          "amount": 331,
+          "price": 56324,
+          "manufacturer": "Xiaomi",
+          "notes": "VqVJT7w7gY50UDh1wb8HTDruqfC2tS2FkmkbDLRVcoNzmsf8eHpyiXEAlg69mxKA46plKbe1LrASFTu3Imd7LAYTNpLz91Ut20BtAKMZUxb2nPH0rqmuRfTiWCp1Eto7LKl2dMD9b86DafH4fLEyqzsDQLB3iClZLAKdFhWVPC2W9CobDFSFJVCipB5iksy6z62JaNSprlmoieLXdU11mFvC5LAaZdX3cXgTC80peOm5NAhZZyMtuz2jmI",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Kentwood",
+          "street": "Reichel Ridges",
+          "house": 309,
+          "flat": 9286
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56324,
+      "createdOn": "2025-12-21T19:40:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69484d261c508c5d5eea9224",
+          "products": [
+            {
+              "_id": "69484d271c508c5d5eea9312",
+              "name": "Mouse71613",
+              "amount": 331,
+              "price": 56324,
+              "manufacturer": "Xiaomi",
+              "notes": "VqVJT7w7gY50UDh1wb8HTDruqfC2tS2FkmkbDLRVcoNzmsf8eHpyiXEAlg69mxKA46plKbe1LrASFTu3Imd7LAYTNpLz91Ut20BtAKMZUxb2nPH0rqmuRfTiWCp1Eto7LKl2dMD9b86DafH4fLEyqzsDQLB3iClZLAKdFhWVPC2W9CobDFSFJVCipB5iksy6z62JaNSprlmoieLXdU11mFvC5LAaZdX3cXgTC80peOm5NAhZZyMtuz2jmI",
+              "received": true
+            }
+          ],
+          "total_price": 56324,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kentwood",
+              "street": "Reichel Ridges",
+              "house": 309,
+              "flat": 9286
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:40:29.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69484d261c508c5d5eea9224",
+          "products": [
+            {
+              "_id": "69484d271c508c5d5eea9312",
+              "name": "Mouse71613",
+              "amount": 331,
+              "price": 56324,
+              "manufacturer": "Xiaomi",
+              "notes": "VqVJT7w7gY50UDh1wb8HTDruqfC2tS2FkmkbDLRVcoNzmsf8eHpyiXEAlg69mxKA46plKbe1LrASFTu3Imd7LAYTNpLz91Ut20BtAKMZUxb2nPH0rqmuRfTiWCp1Eto7LKl2dMD9b86DafH4fLEyqzsDQLB3iClZLAKdFhWVPC2W9CobDFSFJVCipB5iksy6z62JaNSprlmoieLXdU11mFvC5LAaZdX3cXgTC80peOm5NAhZZyMtuz2jmI",
+              "received": false
+            }
+          ],
+          "total_price": 56324,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kentwood",
+              "street": "Reichel Ridges",
+              "house": 309,
+              "flat": 9286
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:40:28.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69484d261c508c5d5eea9224",
+          "products": [
+            {
+              "_id": "69484d271c508c5d5eea9312",
+              "name": "Mouse71613",
+              "amount": 331,
+              "price": 56324,
+              "manufacturer": "Xiaomi",
+              "notes": "VqVJT7w7gY50UDh1wb8HTDruqfC2tS2FkmkbDLRVcoNzmsf8eHpyiXEAlg69mxKA46plKbe1LrASFTu3Imd7LAYTNpLz91Ut20BtAKMZUxb2nPH0rqmuRfTiWCp1Eto7LKl2dMD9b86DafH4fLEyqzsDQLB3iClZLAKdFhWVPC2W9CobDFSFJVCipB5iksy6z62JaNSprlmoieLXdU11mFvC5LAaZdX3cXgTC80peOm5NAhZZyMtuz2jmI",
+              "received": false
+            }
+          ],
+          "total_price": 56324,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kentwood",
+              "street": "Reichel Ridges",
+              "house": 309,
+              "flat": 9286
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:40:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69484d261c508c5d5eea9224",
+          "products": [
+            {
+              "_id": "69484d271c508c5d5eea9312",
+              "name": "Mouse71613",
+              "amount": 331,
+              "price": 56324,
+              "manufacturer": "Xiaomi",
+              "notes": "VqVJT7w7gY50UDh1wb8HTDruqfC2tS2FkmkbDLRVcoNzmsf8eHpyiXEAlg69mxKA46plKbe1LrASFTu3Imd7LAYTNpLz91Ut20BtAKMZUxb2nPH0rqmuRfTiWCp1Eto7LKl2dMD9b86DafH4fLEyqzsDQLB3iClZLAKdFhWVPC2W9CobDFSFJVCipB5iksy6z62JaNSprlmoieLXdU11mFvC5LAaZdX3cXgTC80peOm5NAhZZyMtuz2jmI",
+              "received": false
+            }
+          ],
+          "total_price": 56324,
+          "delivery": null,
+          "changedOn": "2025-12-21T19:40:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

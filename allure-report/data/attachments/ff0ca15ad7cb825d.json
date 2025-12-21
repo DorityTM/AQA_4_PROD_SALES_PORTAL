@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 19:40:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3720",
+    "etag": "W/\"e88-I8nEN29J+JaR61QxJ+mi75xuuU4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69484d1a1c508c5d5eea8bf3",
+      "status": "In Process",
+      "customer": {
+        "_id": "69484d171c508c5d5eea8845",
+        "email": "Ashtyn35@hotmail.com",
+        "name": "Oscar Rodriguez",
+        "country": "Ukraine",
+        "city": "Schuppebury",
+        "street": "E Broadway Street 46",
+        "house": 308,
+        "flat": 3628,
+        "phone": "+774556377265379",
+        "createdOn": "2025-12-21T19:40:07.000Z",
+        "notes": "jvJcHq6XS3qBbHZzkCQqwZrKOOrt8i"
+      },
+      "products": [
+        {
+          "_id": "69484d181c508c5d5eea8936",
+          "name": "Computer99314",
+          "amount": 779,
+          "price": 58319,
+          "manufacturer": "Google",
+          "notes": "AZsQS9KM2BTM1Mr6WhPxz5zbDk6krASJscqIqQerqCdfD685hWwN3A5Ybu9jpULKMLj918or9O8PuXRUpuUPFSDl7Wo8NWeWpgx2hcjErc5tnYNEHadrfwXFYlz2bvsMzK1C4e5CtERmNcmR6zTmflx1Mu4NcvZaqQhgovtAIn2fYgIGo3gGfP1PJrWh3hJ6BHRZsFCRaBJSjduiO981aY4E0KMvGoQ7VImec2pXmf8i07qIEW2E9yXi8K",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Port Anissaberg",
+          "street": "Raphael Highway",
+          "house": 430,
+          "flat": 9139
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58319,
+      "createdOn": "2025-12-21T19:40:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69484d171c508c5d5eea8845",
+          "products": [
+            {
+              "_id": "69484d181c508c5d5eea8936",
+              "name": "Computer99314",
+              "amount": 779,
+              "price": 58319,
+              "manufacturer": "Google",
+              "notes": "AZsQS9KM2BTM1Mr6WhPxz5zbDk6krASJscqIqQerqCdfD685hWwN3A5Ybu9jpULKMLj918or9O8PuXRUpuUPFSDl7Wo8NWeWpgx2hcjErc5tnYNEHadrfwXFYlz2bvsMzK1C4e5CtERmNcmR6zTmflx1Mu4NcvZaqQhgovtAIn2fYgIGo3gGfP1PJrWh3hJ6BHRZsFCRaBJSjduiO981aY4E0KMvGoQ7VImec2pXmf8i07qIEW2E9yXi8K",
+              "received": false
+            }
+          ],
+          "total_price": 58319,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Anissaberg",
+              "street": "Raphael Highway",
+              "house": 430,
+              "flat": 9139
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:40:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69484d171c508c5d5eea8845",
+          "products": [
+            {
+              "_id": "69484d181c508c5d5eea8936",
+              "name": "Computer99314",
+              "amount": 779,
+              "price": 58319,
+              "manufacturer": "Google",
+              "notes": "AZsQS9KM2BTM1Mr6WhPxz5zbDk6krASJscqIqQerqCdfD685hWwN3A5Ybu9jpULKMLj918or9O8PuXRUpuUPFSDl7Wo8NWeWpgx2hcjErc5tnYNEHadrfwXFYlz2bvsMzK1C4e5CtERmNcmR6zTmflx1Mu4NcvZaqQhgovtAIn2fYgIGo3gGfP1PJrWh3hJ6BHRZsFCRaBJSjduiO981aY4E0KMvGoQ7VImec2pXmf8i07qIEW2E9yXi8K",
+              "received": false
+            }
+          ],
+          "total_price": 58319,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Anissaberg",
+              "street": "Raphael Highway",
+              "house": 430,
+              "flat": 9139
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:40:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69484d171c508c5d5eea8845",
+          "products": [
+            {
+              "_id": "69484d181c508c5d5eea8936",
+              "name": "Computer99314",
+              "amount": 779,
+              "price": 58319,
+              "manufacturer": "Google",
+              "notes": "AZsQS9KM2BTM1Mr6WhPxz5zbDk6krASJscqIqQerqCdfD685hWwN3A5Ybu9jpULKMLj918or9O8PuXRUpuUPFSDl7Wo8NWeWpgx2hcjErc5tnYNEHadrfwXFYlz2bvsMzK1C4e5CtERmNcmR6zTmflx1Mu4NcvZaqQhgovtAIn2fYgIGo3gGfP1PJrWh3hJ6BHRZsFCRaBJSjduiO981aY4E0KMvGoQ7VImec2pXmf8i07qIEW2E9yXi8K",
+              "received": false
+            }
+          ],
+          "total_price": 58319,
+          "delivery": null,
+          "changedOn": "2025-12-21T19:40:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

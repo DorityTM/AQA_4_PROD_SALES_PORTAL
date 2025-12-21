@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 19:38:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3665",
+    "etag": "W/\"e51-1wUcA+1NyWkWZBqiBQZbfGS98Yc\"",
+    "keep-alive": "timeout=5, max=46",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69484cbd1c508c5d5eea4fac",
+      "status": "In Process",
+      "customer": {
+        "_id": "69484cbb1c508c5d5eea4ea1",
+        "email": "Lewis96@hotmail.com",
+        "name": "Kellen Klocko",
+        "country": "Russia",
+        "city": "Heidenreichville",
+        "street": "W 5th Street 63",
+        "house": 525,
+        "flat": 5904,
+        "phone": "+282592660878152",
+        "createdOn": "2025-12-21T19:38:35.000Z",
+        "notes": "lofs5WKlNUUOty8uou4JQN3nSjBrnV"
+      },
+      "products": [
+        {
+          "_id": "69484cbc1c508c5d5eea4ecc",
+          "name": "Towels23053",
+          "amount": 812,
+          "price": 73256,
+          "manufacturer": "Apple",
+          "notes": "DvS5ENgtpx30sBOqMgSpGgOQG6PKg6iL76229QURpCjgX5LHkUCZejQuwak8JkUDIyL5Zx6qlebajIcuroehL5A6OsOg0t7v47ck7ICcBqNZvJ97wN2eJLDP3n1awSIWiugtCQbWl3esddkXM2VH83ygt8OgtaHBB5pEriX616Hl6W362I421ovvxbSrVrFGTOmvVncYDMvjdtDUl9E0NOPNPIIr0TRKGtR2taShD1T6A1eDHhPhAdDnmg",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Hawthorne",
+          "street": "Veda Square",
+          "house": 109,
+          "flat": 4164
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 73256,
+      "createdOn": "2025-12-21T19:38:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69484cbb1c508c5d5eea4ea1",
+          "products": [
+            {
+              "_id": "69484cbc1c508c5d5eea4ecc",
+              "name": "Towels23053",
+              "amount": 812,
+              "price": 73256,
+              "manufacturer": "Apple",
+              "notes": "DvS5ENgtpx30sBOqMgSpGgOQG6PKg6iL76229QURpCjgX5LHkUCZejQuwak8JkUDIyL5Zx6qlebajIcuroehL5A6OsOg0t7v47ck7ICcBqNZvJ97wN2eJLDP3n1awSIWiugtCQbWl3esddkXM2VH83ygt8OgtaHBB5pEriX616Hl6W362I421ovvxbSrVrFGTOmvVncYDMvjdtDUl9E0NOPNPIIr0TRKGtR2taShD1T6A1eDHhPhAdDnmg",
+              "received": false
+            }
+          ],
+          "total_price": 73256,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Hawthorne",
+              "street": "Veda Square",
+              "house": 109,
+              "flat": 4164
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:38:40.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69484cbb1c508c5d5eea4ea1",
+          "products": [
+            {
+              "_id": "69484cbc1c508c5d5eea4ecc",
+              "name": "Towels23053",
+              "amount": 812,
+              "price": 73256,
+              "manufacturer": "Apple",
+              "notes": "DvS5ENgtpx30sBOqMgSpGgOQG6PKg6iL76229QURpCjgX5LHkUCZejQuwak8JkUDIyL5Zx6qlebajIcuroehL5A6OsOg0t7v47ck7ICcBqNZvJ97wN2eJLDP3n1awSIWiugtCQbWl3esddkXM2VH83ygt8OgtaHBB5pEriX616Hl6W362I421ovvxbSrVrFGTOmvVncYDMvjdtDUl9E0NOPNPIIr0TRKGtR2taShD1T6A1eDHhPhAdDnmg",
+              "received": false
+            }
+          ],
+          "total_price": 73256,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Hawthorne",
+              "street": "Veda Square",
+              "house": 109,
+              "flat": 4164
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:38:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69484cbb1c508c5d5eea4ea1",
+          "products": [
+            {
+              "_id": "69484cbc1c508c5d5eea4ecc",
+              "name": "Towels23053",
+              "amount": 812,
+              "price": 73256,
+              "manufacturer": "Apple",
+              "notes": "DvS5ENgtpx30sBOqMgSpGgOQG6PKg6iL76229QURpCjgX5LHkUCZejQuwak8JkUDIyL5Zx6qlebajIcuroehL5A6OsOg0t7v47ck7ICcBqNZvJ97wN2eJLDP3n1awSIWiugtCQbWl3esddkXM2VH83ygt8OgtaHBB5pEriX616Hl6W362I421ovvxbSrVrFGTOmvVncYDMvjdtDUl9E0NOPNPIIr0TRKGtR2taShD1T6A1eDHhPhAdDnmg",
+              "received": false
+            }
+          ],
+          "total_price": 73256,
+          "delivery": null,
+          "changedOn": "2025-12-21T19:38:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
