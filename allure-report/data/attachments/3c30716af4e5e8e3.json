@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:34:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4585",
+    "etag": "W/\"11e9-v0169xRSDrpI2q7fCfJaOw+Nrl0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694875e21c508c5d5ef0ad65",
+      "status": "Received",
+      "customer": {
+        "_id": "694875da1c508c5d5ef0a5c1",
+        "email": "Sonny24@hotmail.com",
+        "name": "Carolanne Heaney",
+        "country": "USA",
+        "city": "Angelinacester",
+        "street": "S Franklin Street 87",
+        "house": 661,
+        "flat": 4387,
+        "phone": "+917040111780976",
+        "createdOn": "2025-12-21T22:34:02.000Z",
+        "notes": "wKdboyUs9JmzCDGSFwDZMUDkX6z5j2"
+      },
+      "products": [
+        {
+          "_id": "694875dc1c508c5d5ef0a74c",
+          "name": "Pizza78903",
+          "amount": 746,
+          "price": 74712,
+          "manufacturer": "Google",
+          "notes": "vyDoy2LupvfrNdgzU8L9tDDoktfqPzEegRrbfCweKHd02NEsREjbHCwtH5k2FNJRjszqLZlyEVIpw0302MJibfdobaG93KflglSSmT3WszXiqLKig6E7bfgoBF4o48oYOjE8RYxv1YIeeF8DbtvEQC6nPzTHRfMfQr8DTFQylFOZLB6QLeYkDdBUPURskkMecPjqczfgEMhfannXpLogcc95mFnsnI5F4f836fgFcFNrFLEf6CRDCrSnxw",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Weston",
+          "street": "Tanya Alley",
+          "house": 961,
+          "flat": 2444
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 74712,
+      "createdOn": "2025-12-21T22:34:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694875da1c508c5d5ef0a5c1",
+          "products": [
+            {
+              "_id": "694875dc1c508c5d5ef0a74c",
+              "name": "Pizza78903",
+              "amount": 746,
+              "price": 74712,
+              "manufacturer": "Google",
+              "notes": "vyDoy2LupvfrNdgzU8L9tDDoktfqPzEegRrbfCweKHd02NEsREjbHCwtH5k2FNJRjszqLZlyEVIpw0302MJibfdobaG93KflglSSmT3WszXiqLKig6E7bfgoBF4o48oYOjE8RYxv1YIeeF8DbtvEQC6nPzTHRfMfQr8DTFQylFOZLB6QLeYkDdBUPURskkMecPjqczfgEMhfannXpLogcc95mFnsnI5F4f836fgFcFNrFLEf6CRDCrSnxw",
+              "received": true
+            }
+          ],
+          "total_price": 74712,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Weston",
+              "street": "Tanya Alley",
+              "house": 961,
+              "flat": 2444
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:34:15.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694875da1c508c5d5ef0a5c1",
+          "products": [
+            {
+              "_id": "694875dc1c508c5d5ef0a74c",
+              "name": "Pizza78903",
+              "amount": 746,
+              "price": 74712,
+              "manufacturer": "Google",
+              "notes": "vyDoy2LupvfrNdgzU8L9tDDoktfqPzEegRrbfCweKHd02NEsREjbHCwtH5k2FNJRjszqLZlyEVIpw0302MJibfdobaG93KflglSSmT3WszXiqLKig6E7bfgoBF4o48oYOjE8RYxv1YIeeF8DbtvEQC6nPzTHRfMfQr8DTFQylFOZLB6QLeYkDdBUPURskkMecPjqczfgEMhfannXpLogcc95mFnsnI5F4f836fgFcFNrFLEf6CRDCrSnxw",
+              "received": false
+            }
+          ],
+          "total_price": 74712,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Weston",
+              "street": "Tanya Alley",
+              "house": 961,
+              "flat": 2444
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:34:14.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694875da1c508c5d5ef0a5c1",
+          "products": [
+            {
+              "_id": "694875dc1c508c5d5ef0a74c",
+              "name": "Pizza78903",
+              "amount": 746,
+              "price": 74712,
+              "manufacturer": "Google",
+              "notes": "vyDoy2LupvfrNdgzU8L9tDDoktfqPzEegRrbfCweKHd02NEsREjbHCwtH5k2FNJRjszqLZlyEVIpw0302MJibfdobaG93KflglSSmT3WszXiqLKig6E7bfgoBF4o48oYOjE8RYxv1YIeeF8DbtvEQC6nPzTHRfMfQr8DTFQylFOZLB6QLeYkDdBUPURskkMecPjqczfgEMhfannXpLogcc95mFnsnI5F4f836fgFcFNrFLEf6CRDCrSnxw",
+              "received": false
+            }
+          ],
+          "total_price": 74712,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Weston",
+              "street": "Tanya Alley",
+              "house": 961,
+              "flat": 2444
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:34:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694875da1c508c5d5ef0a5c1",
+          "products": [
+            {
+              "_id": "694875dc1c508c5d5ef0a74c",
+              "name": "Pizza78903",
+              "amount": 746,
+              "price": 74712,
+              "manufacturer": "Google",
+              "notes": "vyDoy2LupvfrNdgzU8L9tDDoktfqPzEegRrbfCweKHd02NEsREjbHCwtH5k2FNJRjszqLZlyEVIpw0302MJibfdobaG93KflglSSmT3WszXiqLKig6E7bfgoBF4o48oYOjE8RYxv1YIeeF8DbtvEQC6nPzTHRfMfQr8DTFQylFOZLB6QLeYkDdBUPURskkMecPjqczfgEMhfannXpLogcc95mFnsnI5F4f836fgFcFNrFLEf6CRDCrSnxw",
+              "received": false
+            }
+          ],
+          "total_price": 74712,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:34:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

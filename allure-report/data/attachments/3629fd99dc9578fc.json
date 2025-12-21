@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:31:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3688",
+    "etag": "W/\"e68-EjJx66n40C1jBISaER1LbfW/PUw\"",
+    "keep-alive": "timeout=5, max=32",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694875541c508c5d5ef0495f",
+      "status": "In Process",
+      "customer": {
+        "_id": "694875531c508c5d5ef04923",
+        "email": "Isac_Abernathy30@gmail.com",
+        "name": "Aliyah Marquardt Mosciski",
+        "country": "Great Britain",
+        "city": "Lake Travis",
+        "street": "S 10th Street 24",
+        "house": 362,
+        "flat": 6216,
+        "phone": "+445632718708180",
+        "createdOn": "2025-12-21T22:31:47.000Z",
+        "notes": "lzqGUcsdvK7Z0btY4wsM36QKXri77Y"
+      },
+      "products": [
+        {
+          "_id": "694875531c508c5d5ef04944",
+          "name": "Bacon85223",
+          "amount": 218,
+          "price": 3744,
+          "manufacturer": "Amazon",
+          "notes": "m3ItoYZ0VPhqiiDKDz7ScVJ8tk4X0w4XCuTJCcUnj1fZLpsOiYpfNQMkiGBdsyaC6Cmq7iEkkzndyONRb4xZr9u6qEPE33VqiKImJCHuZNOFTz8e1vusYy3lM0WRLyU6gBF9w9QWccMSF3pv3dWNSe1qhGLzr3ujRnulfWhf42nLiidHYDHbVqzvSbkfsunXfAzGDmlQoEarSEU106DSCbULO1znW1cKZeHLeb2cEXUxmtw42KrhG18ogL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Lake Titus",
+          "street": "Lesch Gateway",
+          "house": 673,
+          "flat": 4636
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3744,
+      "createdOn": "2025-12-21T22:31:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694875531c508c5d5ef04923",
+          "products": [
+            {
+              "_id": "694875531c508c5d5ef04944",
+              "name": "Bacon85223",
+              "amount": 218,
+              "price": 3744,
+              "manufacturer": "Amazon",
+              "notes": "m3ItoYZ0VPhqiiDKDz7ScVJ8tk4X0w4XCuTJCcUnj1fZLpsOiYpfNQMkiGBdsyaC6Cmq7iEkkzndyONRb4xZr9u6qEPE33VqiKImJCHuZNOFTz8e1vusYy3lM0WRLyU6gBF9w9QWccMSF3pv3dWNSe1qhGLzr3ujRnulfWhf42nLiidHYDHbVqzvSbkfsunXfAzGDmlQoEarSEU106DSCbULO1znW1cKZeHLeb2cEXUxmtw42KrhG18ogL",
+              "received": false
+            }
+          ],
+          "total_price": 3744,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lake Titus",
+              "street": "Lesch Gateway",
+              "house": 673,
+              "flat": 4636
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:50.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694875531c508c5d5ef04923",
+          "products": [
+            {
+              "_id": "694875531c508c5d5ef04944",
+              "name": "Bacon85223",
+              "amount": 218,
+              "price": 3744,
+              "manufacturer": "Amazon",
+              "notes": "m3ItoYZ0VPhqiiDKDz7ScVJ8tk4X0w4XCuTJCcUnj1fZLpsOiYpfNQMkiGBdsyaC6Cmq7iEkkzndyONRb4xZr9u6qEPE33VqiKImJCHuZNOFTz8e1vusYy3lM0WRLyU6gBF9w9QWccMSF3pv3dWNSe1qhGLzr3ujRnulfWhf42nLiidHYDHbVqzvSbkfsunXfAzGDmlQoEarSEU106DSCbULO1znW1cKZeHLeb2cEXUxmtw42KrhG18ogL",
+              "received": false
+            }
+          ],
+          "total_price": 3744,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lake Titus",
+              "street": "Lesch Gateway",
+              "house": 673,
+              "flat": 4636
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694875531c508c5d5ef04923",
+          "products": [
+            {
+              "_id": "694875531c508c5d5ef04944",
+              "name": "Bacon85223",
+              "amount": 218,
+              "price": 3744,
+              "manufacturer": "Amazon",
+              "notes": "m3ItoYZ0VPhqiiDKDz7ScVJ8tk4X0w4XCuTJCcUnj1fZLpsOiYpfNQMkiGBdsyaC6Cmq7iEkkzndyONRb4xZr9u6qEPE33VqiKImJCHuZNOFTz8e1vusYy3lM0WRLyU6gBF9w9QWccMSF3pv3dWNSe1qhGLzr3ujRnulfWhf42nLiidHYDHbVqzvSbkfsunXfAzGDmlQoEarSEU106DSCbULO1znW1cKZeHLeb2cEXUxmtw42KrhG18ogL",
+              "received": false
+            }
+          ],
+          "total_price": 3744,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:31:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:31:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-4EeNpq5K1NAsoj1hZlq04esVPLE\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694875531c508c5d5ef04948",
+      "status": "Draft",
+      "customer": {
+        "_id": "694875511c508c5d5ef0479f",
+        "email": "Orpha27@yahoo.com",
+        "name": "Kylie Durgan",
+        "country": "Great Britain",
+        "city": "New Samirville",
+        "street": "Jaskolski Via 55",
+        "house": 733,
+        "flat": 5831,
+        "phone": "+324906845600491",
+        "createdOn": "2025-12-21T22:31:45.000Z",
+        "notes": "h8BZJirbnGN07RHbio9wvWEf8OASD8"
+      },
+      "products": [
+        {
+          "_id": "694875531c508c5d5ef04921",
+          "name": "Soap59472",
+          "amount": 440,
+          "price": 80060,
+          "manufacturer": "Amazon",
+          "notes": "vDa43PvEw3xIi2UPj15yaDZWpV3ljTL7iM5i4wlEz95EOhmn8yR7echzQlw1vOaPt7be8HXWXy9ePVWKBaxb8hS60i7b8qW3kZBtPzbgTOzp4SwqglmhpmUjTbY2gIfaC3X6MEPaxaLjjQDCxNg6WtIFHs2VCtvsgtgJjQ6gJca1CbTNnBgMWcREcr2hUvW4XH8fmSN9ugkYs9Rws1dBUZceOhjApS9wrVRxUAUsUhxpgveExKGWYAmmid",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Noeliaborough",
+          "street": "Ashlee Well",
+          "house": 472,
+          "flat": 3457
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80060,
+      "createdOn": "2025-12-21T22:31:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694875511c508c5d5ef0479f",
+          "products": [
+            {
+              "_id": "694875531c508c5d5ef04921",
+              "name": "Soap59472",
+              "amount": 440,
+              "price": 80060,
+              "manufacturer": "Amazon",
+              "notes": "vDa43PvEw3xIi2UPj15yaDZWpV3ljTL7iM5i4wlEz95EOhmn8yR7echzQlw1vOaPt7be8HXWXy9ePVWKBaxb8hS60i7b8qW3kZBtPzbgTOzp4SwqglmhpmUjTbY2gIfaC3X6MEPaxaLjjQDCxNg6WtIFHs2VCtvsgtgJjQ6gJca1CbTNnBgMWcREcr2hUvW4XH8fmSN9ugkYs9Rws1dBUZceOhjApS9wrVRxUAUsUhxpgveExKGWYAmmid",
+              "received": false
+            }
+          ],
+          "total_price": 80060,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Noeliaborough",
+              "street": "Ashlee Well",
+              "house": 472,
+              "flat": 3457
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694875511c508c5d5ef0479f",
+          "products": [
+            {
+              "_id": "694875531c508c5d5ef04921",
+              "name": "Soap59472",
+              "amount": 440,
+              "price": 80060,
+              "manufacturer": "Amazon",
+              "notes": "vDa43PvEw3xIi2UPj15yaDZWpV3ljTL7iM5i4wlEz95EOhmn8yR7echzQlw1vOaPt7be8HXWXy9ePVWKBaxb8hS60i7b8qW3kZBtPzbgTOzp4SwqglmhpmUjTbY2gIfaC3X6MEPaxaLjjQDCxNg6WtIFHs2VCtvsgtgJjQ6gJca1CbTNnBgMWcREcr2hUvW4XH8fmSN9ugkYs9Rws1dBUZceOhjApS9wrVRxUAUsUhxpgveExKGWYAmmid",
+              "received": false
+            }
+          ],
+          "total_price": 80060,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:31:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

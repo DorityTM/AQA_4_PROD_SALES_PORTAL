@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:30:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2777",
+    "etag": "W/\"ad9-u+DMWMtIuP8LBfReRbwQrrDjo7s\"",
+    "keep-alive": "timeout=5, max=31",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694875191c508c5d5ef0212a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694875181c508c5d5ef020cb",
+        "email": "Ramon.Schamberger63@hotmail.com",
+        "name": "Braden Crist",
+        "country": "USA",
+        "city": "Lake Jonatan",
+        "street": "N 8th Street 89",
+        "house": 57,
+        "flat": 6818,
+        "phone": "+685684564441493",
+        "createdOn": "2025-12-21T22:30:48.000Z",
+        "notes": "odzxS6hwAx9WIE3l9JEM3quNiiSEhj"
+      },
+      "products": [
+        {
+          "_id": "694875181c508c5d5ef020f8",
+          "name": "Computer80795",
+          "amount": 413,
+          "price": 72713,
+          "manufacturer": "Microsoft",
+          "notes": "sJM8iMaG6l4KlHW6P9jjrBeGpM3tOIdmMrqxeXJ9aNPlR2QzZBYgZeQ2COffzcv4KSSovMUAqGrB414ymaynF7hBnztLCIoDDzAUJILz8FUTXOc4493zNWuA7xFXzzubdeBDT6litlB9GrDcL4i5P0dLfMIPQs3VT643cotaUZH8lHNdppBQ8jIeC1JUZ61p1Ml1ajRBLF34tG2yU5T0TPUemR9C40uxafGwVu93sQXQI3DpxWK3FWMGMO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "North Joshuah",
+          "street": "Eleanore Park",
+          "house": 823,
+          "flat": 5032
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72713,
+      "createdOn": "2025-12-21T22:30:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694875181c508c5d5ef020cb",
+          "products": [
+            {
+              "_id": "694875181c508c5d5ef020f8",
+              "name": "Computer80795",
+              "amount": 413,
+              "price": 72713,
+              "manufacturer": "Microsoft",
+              "notes": "sJM8iMaG6l4KlHW6P9jjrBeGpM3tOIdmMrqxeXJ9aNPlR2QzZBYgZeQ2COffzcv4KSSovMUAqGrB414ymaynF7hBnztLCIoDDzAUJILz8FUTXOc4493zNWuA7xFXzzubdeBDT6litlB9GrDcL4i5P0dLfMIPQs3VT643cotaUZH8lHNdppBQ8jIeC1JUZ61p1Ml1ajRBLF34tG2yU5T0TPUemR9C40uxafGwVu93sQXQI3DpxWK3FWMGMO",
+              "received": false
+            }
+          ],
+          "total_price": 72713,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Joshuah",
+              "street": "Eleanore Park",
+              "house": 823,
+              "flat": 5032
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:30:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694875181c508c5d5ef020cb",
+          "products": [
+            {
+              "_id": "694875181c508c5d5ef020f8",
+              "name": "Computer80795",
+              "amount": 413,
+              "price": 72713,
+              "manufacturer": "Microsoft",
+              "notes": "sJM8iMaG6l4KlHW6P9jjrBeGpM3tOIdmMrqxeXJ9aNPlR2QzZBYgZeQ2COffzcv4KSSovMUAqGrB414ymaynF7hBnztLCIoDDzAUJILz8FUTXOc4493zNWuA7xFXzzubdeBDT6litlB9GrDcL4i5P0dLfMIPQs3VT643cotaUZH8lHNdppBQ8jIeC1JUZ61p1Ml1ajRBLF34tG2yU5T0TPUemR9C40uxafGwVu93sQXQI3DpxWK3FWMGMO",
+              "received": false
+            }
+          ],
+          "total_price": 72713,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:30:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

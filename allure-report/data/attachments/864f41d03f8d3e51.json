@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:31:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3692",
+    "etag": "W/\"e6c-jKdwU+mUloTuuiRDhNjhDlzCHao\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694875251c508c5d5ef02960",
+      "status": "In Process",
+      "customer": {
+        "_id": "694875251c508c5d5ef02918",
+        "email": "Novella_Watsica@hotmail.com",
+        "name": "Abdul Dach",
+        "country": "Russia",
+        "city": "East Adela",
+        "street": "Fritsch Drives 48",
+        "house": 788,
+        "flat": 8656,
+        "phone": "+394396275598907",
+        "createdOn": "2025-12-21T22:31:01.000Z",
+        "notes": "IdAUMGTchAe6bUWInqmWIQ9igsuq3c"
+      },
+      "products": [
+        {
+          "_id": "694875251c508c5d5ef02935",
+          "name": "Sausages534",
+          "amount": 344,
+          "price": 40584,
+          "manufacturer": "Sony",
+          "notes": "YcU7aZvSZnleK5GYCMFxKZWYHxmRqGv0Jecy3flveODf3pyc1IMmeHdh0nomAP0ZF9vJhx7XZC4p0mTpgOsH8xEuJuuTseLSVVJldsxryQ10kYG0Okg12pU2C5cuj2MNtcwkT3YWolmb3e2WldL1OGiKQ3UAVHDSOVVk0LGIy4UqUGRl1vrOhdC8RFHRDu2LnjHLR50zqWl5pZBtY7dLphRYqmnnd9Hc2N9sNAKbauZllUpEvl69tdg2nZ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "North Violet",
+          "street": "Bartell Lights",
+          "house": 410,
+          "flat": 1611
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 40584,
+      "createdOn": "2025-12-21T22:31:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694875251c508c5d5ef02918",
+          "products": [
+            {
+              "_id": "694875251c508c5d5ef02935",
+              "name": "Sausages534",
+              "amount": 344,
+              "price": 40584,
+              "manufacturer": "Sony",
+              "notes": "YcU7aZvSZnleK5GYCMFxKZWYHxmRqGv0Jecy3flveODf3pyc1IMmeHdh0nomAP0ZF9vJhx7XZC4p0mTpgOsH8xEuJuuTseLSVVJldsxryQ10kYG0Okg12pU2C5cuj2MNtcwkT3YWolmb3e2WldL1OGiKQ3UAVHDSOVVk0LGIy4UqUGRl1vrOhdC8RFHRDu2LnjHLR50zqWl5pZBtY7dLphRYqmnnd9Hc2N9sNAKbauZllUpEvl69tdg2nZ",
+              "received": false
+            }
+          ],
+          "total_price": 40584,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "North Violet",
+              "street": "Bartell Lights",
+              "house": 410,
+              "flat": 1611
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694875251c508c5d5ef02918",
+          "products": [
+            {
+              "_id": "694875251c508c5d5ef02935",
+              "name": "Sausages534",
+              "amount": 344,
+              "price": 40584,
+              "manufacturer": "Sony",
+              "notes": "YcU7aZvSZnleK5GYCMFxKZWYHxmRqGv0Jecy3flveODf3pyc1IMmeHdh0nomAP0ZF9vJhx7XZC4p0mTpgOsH8xEuJuuTseLSVVJldsxryQ10kYG0Okg12pU2C5cuj2MNtcwkT3YWolmb3e2WldL1OGiKQ3UAVHDSOVVk0LGIy4UqUGRl1vrOhdC8RFHRDu2LnjHLR50zqWl5pZBtY7dLphRYqmnnd9Hc2N9sNAKbauZllUpEvl69tdg2nZ",
+              "received": false
+            }
+          ],
+          "total_price": 40584,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "North Violet",
+              "street": "Bartell Lights",
+              "house": 410,
+              "flat": 1611
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694875251c508c5d5ef02918",
+          "products": [
+            {
+              "_id": "694875251c508c5d5ef02935",
+              "name": "Sausages534",
+              "amount": 344,
+              "price": 40584,
+              "manufacturer": "Sony",
+              "notes": "YcU7aZvSZnleK5GYCMFxKZWYHxmRqGv0Jecy3flveODf3pyc1IMmeHdh0nomAP0ZF9vJhx7XZC4p0mTpgOsH8xEuJuuTseLSVVJldsxryQ10kYG0Okg12pU2C5cuj2MNtcwkT3YWolmb3e2WldL1OGiKQ3UAVHDSOVVk0LGIy4UqUGRl1vrOhdC8RFHRDu2LnjHLR50zqWl5pZBtY7dLphRYqmnnd9Hc2N9sNAKbauZllUpEvl69tdg2nZ",
+              "received": false
+            }
+          ],
+          "total_price": 40584,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:31:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:31:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4621",
+    "etag": "W/\"120d-pCfRYLPqszEZfHD+kJvrNFacjKs\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948752b1c508c5d5ef02d11",
+      "status": "Received",
+      "customer": {
+        "_id": "6948752a1c508c5d5ef02ccb",
+        "email": "Una.Veum@yahoo.com",
+        "name": "Makayla Pfannerstill",
+        "country": "Russia",
+        "city": "Taylorsville",
+        "street": "Sanford Park 46",
+        "house": 900,
+        "flat": 5433,
+        "phone": "+773950300141638",
+        "createdOn": "2025-12-21T22:31:06.000Z",
+        "notes": "AcTeWMc6HNYdNNbvxbdJs3WIeZlnNg"
+      },
+      "products": [
+        {
+          "_id": "6948752a1c508c5d5ef02cdf",
+          "name": "Tuna93327",
+          "amount": 664,
+          "price": 5512,
+          "manufacturer": "Amazon",
+          "notes": "OocGNlRoyyb2gi64gWNOOCYlAJFn1W0IfEkZrLYwoF61yUBxV5fWJmiJSH5QJw0ZmZryDjqGpYWOkIM2ChysGLS8LJqeBMCsoTaFjLRTDNVXeQD1igoyTj6FV8IbiO4f6lkOgplIuBEv02TyPPhRVEBRjR4Vo97Fwi8GKrrtYTk0fyAzPnQfbs4vmRR9dVfmtEXyTHsVGZ2vk4grozt9zaZIsT21V73emSBmFTRTciay1yxO0kCT4KHjez",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Lombard",
+          "street": "Quigley Crossroad",
+          "house": 294,
+          "flat": 9916
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 5512,
+      "createdOn": "2025-12-21T22:31:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6948752a1c508c5d5ef02ccb",
+          "products": [
+            {
+              "_id": "6948752a1c508c5d5ef02cdf",
+              "name": "Tuna93327",
+              "amount": 664,
+              "price": 5512,
+              "manufacturer": "Amazon",
+              "notes": "OocGNlRoyyb2gi64gWNOOCYlAJFn1W0IfEkZrLYwoF61yUBxV5fWJmiJSH5QJw0ZmZryDjqGpYWOkIM2ChysGLS8LJqeBMCsoTaFjLRTDNVXeQD1igoyTj6FV8IbiO4f6lkOgplIuBEv02TyPPhRVEBRjR4Vo97Fwi8GKrrtYTk0fyAzPnQfbs4vmRR9dVfmtEXyTHsVGZ2vk4grozt9zaZIsT21V73emSBmFTRTciay1yxO0kCT4KHjez",
+              "received": true
+            }
+          ],
+          "total_price": 5512,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lombard",
+              "street": "Quigley Crossroad",
+              "house": 294,
+              "flat": 9916
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:10.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6948752a1c508c5d5ef02ccb",
+          "products": [
+            {
+              "_id": "6948752a1c508c5d5ef02cdf",
+              "name": "Tuna93327",
+              "amount": 664,
+              "price": 5512,
+              "manufacturer": "Amazon",
+              "notes": "OocGNlRoyyb2gi64gWNOOCYlAJFn1W0IfEkZrLYwoF61yUBxV5fWJmiJSH5QJw0ZmZryDjqGpYWOkIM2ChysGLS8LJqeBMCsoTaFjLRTDNVXeQD1igoyTj6FV8IbiO4f6lkOgplIuBEv02TyPPhRVEBRjR4Vo97Fwi8GKrrtYTk0fyAzPnQfbs4vmRR9dVfmtEXyTHsVGZ2vk4grozt9zaZIsT21V73emSBmFTRTciay1yxO0kCT4KHjez",
+              "received": false
+            }
+          ],
+          "total_price": 5512,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lombard",
+              "street": "Quigley Crossroad",
+              "house": 294,
+              "flat": 9916
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948752a1c508c5d5ef02ccb",
+          "products": [
+            {
+              "_id": "6948752a1c508c5d5ef02cdf",
+              "name": "Tuna93327",
+              "amount": 664,
+              "price": 5512,
+              "manufacturer": "Amazon",
+              "notes": "OocGNlRoyyb2gi64gWNOOCYlAJFn1W0IfEkZrLYwoF61yUBxV5fWJmiJSH5QJw0ZmZryDjqGpYWOkIM2ChysGLS8LJqeBMCsoTaFjLRTDNVXeQD1igoyTj6FV8IbiO4f6lkOgplIuBEv02TyPPhRVEBRjR4Vo97Fwi8GKrrtYTk0fyAzPnQfbs4vmRR9dVfmtEXyTHsVGZ2vk4grozt9zaZIsT21V73emSBmFTRTciay1yxO0kCT4KHjez",
+              "received": false
+            }
+          ],
+          "total_price": 5512,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lombard",
+              "street": "Quigley Crossroad",
+              "house": 294,
+              "flat": 9916
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948752a1c508c5d5ef02ccb",
+          "products": [
+            {
+              "_id": "6948752a1c508c5d5ef02cdf",
+              "name": "Tuna93327",
+              "amount": 664,
+              "price": 5512,
+              "manufacturer": "Amazon",
+              "notes": "OocGNlRoyyb2gi64gWNOOCYlAJFn1W0IfEkZrLYwoF61yUBxV5fWJmiJSH5QJw0ZmZryDjqGpYWOkIM2ChysGLS8LJqeBMCsoTaFjLRTDNVXeQD1igoyTj6FV8IbiO4f6lkOgplIuBEv02TyPPhRVEBRjR4Vo97Fwi8GKrrtYTk0fyAzPnQfbs4vmRR9dVfmtEXyTHsVGZ2vk4grozt9zaZIsT21V73emSBmFTRTciay1yxO0kCT4KHjez",
+              "received": false
+            }
+          ],
+          "total_price": 5512,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:31:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

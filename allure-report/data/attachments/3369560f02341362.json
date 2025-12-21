@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:33:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-dOYXMqePeQrIRpZvD6qy9MXH9sE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694875bc1c508c5d5ef09120",
+      "status": "In Process",
+      "customer": {
+        "_id": "694875b81c508c5d5ef08df5",
+        "email": "Arden.Von27@gmail.com",
+        "name": "Mittie Strosin",
+        "country": "Belarus",
+        "city": "Cuyahoga Falls",
+        "street": "Annie Burgs 92",
+        "house": 351,
+        "flat": 4001,
+        "phone": "+180645523210751",
+        "createdOn": "2025-12-21T22:33:28.000Z",
+        "notes": "AWIqt082QHbDr6Xdi2NdLMkm63gv3U"
+      },
+      "products": [
+        {
+          "_id": "694875ba1c508c5d5ef08f8a",
+          "name": "Shirt14368",
+          "amount": 223,
+          "price": 60964,
+          "manufacturer": "Microsoft",
+          "notes": "v5u4GN9ZLxO57kWQL7ZY4bfTih5cioIKqfhnMfSnxojIms7nXbCyUUltr9BOCjnOC838EiBkKbQ2cL1wAS2TAPBJ9q6Sy1ruTIq4dv5ZyILmHZEPGsc6LhznYNlT3qQstTXB3zCG82CX4yIDi6vAj92I5QnZ5DkUd3R20NqN8sxTgWVwqeaUh7CKz78lOqGS3ZHhaDRerYzgF5AIATFZUqRgCcuDuD65k9KGVLoxjOUNpIeCON5gEKFBP4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "North Bethesda",
+          "street": "New Road",
+          "house": 302,
+          "flat": 488
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 60964,
+      "createdOn": "2025-12-21T22:33:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694875b81c508c5d5ef08df5",
+          "products": [
+            {
+              "_id": "694875ba1c508c5d5ef08f8a",
+              "name": "Shirt14368",
+              "amount": 223,
+              "price": 60964,
+              "manufacturer": "Microsoft",
+              "notes": "v5u4GN9ZLxO57kWQL7ZY4bfTih5cioIKqfhnMfSnxojIms7nXbCyUUltr9BOCjnOC838EiBkKbQ2cL1wAS2TAPBJ9q6Sy1ruTIq4dv5ZyILmHZEPGsc6LhznYNlT3qQstTXB3zCG82CX4yIDi6vAj92I5QnZ5DkUd3R20NqN8sxTgWVwqeaUh7CKz78lOqGS3ZHhaDRerYzgF5AIATFZUqRgCcuDuD65k9KGVLoxjOUNpIeCON5gEKFBP4",
+              "received": false
+            }
+          ],
+          "total_price": 60964,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Bethesda",
+              "street": "New Road",
+              "house": 302,
+              "flat": 488
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:33:39.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694875b81c508c5d5ef08df5",
+          "products": [
+            {
+              "_id": "694875ba1c508c5d5ef08f8a",
+              "name": "Shirt14368",
+              "amount": 223,
+              "price": 60964,
+              "manufacturer": "Microsoft",
+              "notes": "v5u4GN9ZLxO57kWQL7ZY4bfTih5cioIKqfhnMfSnxojIms7nXbCyUUltr9BOCjnOC838EiBkKbQ2cL1wAS2TAPBJ9q6Sy1ruTIq4dv5ZyILmHZEPGsc6LhznYNlT3qQstTXB3zCG82CX4yIDi6vAj92I5QnZ5DkUd3R20NqN8sxTgWVwqeaUh7CKz78lOqGS3ZHhaDRerYzgF5AIATFZUqRgCcuDuD65k9KGVLoxjOUNpIeCON5gEKFBP4",
+              "received": false
+            }
+          ],
+          "total_price": 60964,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Bethesda",
+              "street": "New Road",
+              "house": 302,
+              "flat": 488
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:33:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694875b81c508c5d5ef08df5",
+          "products": [
+            {
+              "_id": "694875ba1c508c5d5ef08f8a",
+              "name": "Shirt14368",
+              "amount": 223,
+              "price": 60964,
+              "manufacturer": "Microsoft",
+              "notes": "v5u4GN9ZLxO57kWQL7ZY4bfTih5cioIKqfhnMfSnxojIms7nXbCyUUltr9BOCjnOC838EiBkKbQ2cL1wAS2TAPBJ9q6Sy1ruTIq4dv5ZyILmHZEPGsc6LhznYNlT3qQstTXB3zCG82CX4yIDi6vAj92I5QnZ5DkUd3R20NqN8sxTgWVwqeaUh7CKz78lOqGS3ZHhaDRerYzgF5AIATFZUqRgCcuDuD65k9KGVLoxjOUNpIeCON5gEKFBP4",
+              "received": false
+            }
+          ],
+          "total_price": 60964,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:33:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

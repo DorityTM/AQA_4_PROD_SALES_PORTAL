@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:31:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8169",
+    "etag": "W/\"1fe9-OshlpyuW7cz5eFU+zxV3pZw8YtY\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948754f1c508c5d5ef0461b",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6948754d1c508c5d5ef04459",
+        "email": "Tristian_Jacobs53@yahoo.com",
+        "name": "Eddie Simonis",
+        "country": "Great Britain",
+        "city": "Hagenesland",
+        "street": "Rolfson Spring 46",
+        "house": 854,
+        "flat": 8302,
+        "phone": "+780829457242532",
+        "createdOn": "2025-12-21T22:31:41.000Z",
+        "notes": "jGk9IRtG63D7ayz5Rex2DfGLssVOSl"
+      },
+      "products": [
+        {
+          "_id": "6948754d1c508c5d5ef0446c",
+          "name": "Soap29675",
+          "amount": 270,
+          "price": 84234,
+          "manufacturer": "Amazon",
+          "notes": "FyYfHpuzzocuhIUISGxHN881ksRZGxwHAA2vPkz5t3qqAcFXAL3UEW1muzKwYHscXP0FbPcIX8LtSAjWEisD3kzs7SBh3NmYlyPKBkSQzJtrXrm6TK1tV0TFaF9fkm7K0EO8Lrr3dmMPMnNiLMjeZ21TbiCEU8v2VgOgSlhXGcr0ODOIpHdWnC3GgBaHpsAwvkzj5ABpTBpMXmSQhyiR3EEP11WKiCqjnaH9jjjdR2CjUr3ogktzSeZzdP",
+          "received": true
+        },
+        {
+          "_id": "6948754d1c508c5d5ef0449a",
+          "name": "Tuna54093",
+          "amount": 929,
+          "price": 72327,
+          "manufacturer": "Amazon",
+          "notes": "F8JxFbJzG1avX2cpVyBE2YiWBiZifXr2iXyfvYWEjxzGbYE4CdHrX6KdK4Q8HOhKOyopk57zaO4DmamT49933GrNIse5bs5sC5AK2lX0vtfrQpR024DFbf3izf08Q6MGZ5Fc64UUbkWeJGac8GtBUzyvTensiFZ4SjSzqV6QvJIQUf5AsGtbAskGOGpscc6WfkCt0fhxQrq1yUn476lUUsf2MBl8gRvFRmDJsOEvVEvNmELs5TAnkQBSW5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "East Bart",
+          "street": "St Georges Road",
+          "house": 271,
+          "flat": 1949
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 156561,
+      "createdOn": "2025-12-21T22:31:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6948754d1c508c5d5ef04459",
+          "products": [
+            {
+              "_id": "6948754d1c508c5d5ef0446c",
+              "name": "Soap29675",
+              "amount": 270,
+              "price": 84234,
+              "manufacturer": "Amazon",
+              "notes": "FyYfHpuzzocuhIUISGxHN881ksRZGxwHAA2vPkz5t3qqAcFXAL3UEW1muzKwYHscXP0FbPcIX8LtSAjWEisD3kzs7SBh3NmYlyPKBkSQzJtrXrm6TK1tV0TFaF9fkm7K0EO8Lrr3dmMPMnNiLMjeZ21TbiCEU8v2VgOgSlhXGcr0ODOIpHdWnC3GgBaHpsAwvkzj5ABpTBpMXmSQhyiR3EEP11WKiCqjnaH9jjjdR2CjUr3ogktzSeZzdP",
+              "received": true
+            },
+            {
+              "_id": "6948754d1c508c5d5ef0449a",
+              "name": "Tuna54093",
+              "amount": 929,
+              "price": 72327,
+              "manufacturer": "Amazon",
+              "notes": "F8JxFbJzG1avX2cpVyBE2YiWBiZifXr2iXyfvYWEjxzGbYE4CdHrX6KdK4Q8HOhKOyopk57zaO4DmamT49933GrNIse5bs5sC5AK2lX0vtfrQpR024DFbf3izf08Q6MGZ5Fc64UUbkWeJGac8GtBUzyvTensiFZ4SjSzqV6QvJIQUf5AsGtbAskGOGpscc6WfkCt0fhxQrq1yUn476lUUsf2MBl8gRvFRmDJsOEvVEvNmELs5TAnkQBSW5",
+              "received": false
+            }
+          ],
+          "total_price": 156561,
+          "delivery": {
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery",
+            "address": {
+              "country": "France",
+              "city": "East Bart",
+              "street": "St Georges Road",
+              "house": 271,
+              "flat": 1949
+            }
+          },
+          "changedOn": "2025-12-21T22:31:48.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "6948754d1c508c5d5ef04459",
+          "products": [
+            {
+              "_id": "6948754d1c508c5d5ef0446c",
+              "name": "Soap29675",
+              "amount": 270,
+              "price": 84234,
+              "manufacturer": "Amazon",
+              "notes": "FyYfHpuzzocuhIUISGxHN881ksRZGxwHAA2vPkz5t3qqAcFXAL3UEW1muzKwYHscXP0FbPcIX8LtSAjWEisD3kzs7SBh3NmYlyPKBkSQzJtrXrm6TK1tV0TFaF9fkm7K0EO8Lrr3dmMPMnNiLMjeZ21TbiCEU8v2VgOgSlhXGcr0ODOIpHdWnC3GgBaHpsAwvkzj5ABpTBpMXmSQhyiR3EEP11WKiCqjnaH9jjjdR2CjUr3ogktzSeZzdP",
+              "received": true
+            },
+            {
+              "_id": "6948754d1c508c5d5ef0449a",
+              "name": "Tuna54093",
+              "amount": 929,
+              "price": 72327,
+              "manufacturer": "Amazon",
+              "notes": "F8JxFbJzG1avX2cpVyBE2YiWBiZifXr2iXyfvYWEjxzGbYE4CdHrX6KdK4Q8HOhKOyopk57zaO4DmamT49933GrNIse5bs5sC5AK2lX0vtfrQpR024DFbf3izf08Q6MGZ5Fc64UUbkWeJGac8GtBUzyvTensiFZ4SjSzqV6QvJIQUf5AsGtbAskGOGpscc6WfkCt0fhxQrq1yUn476lUUsf2MBl8gRvFRmDJsOEvVEvNmELs5TAnkQBSW5",
+              "received": false
+            }
+          ],
+          "total_price": 156561,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Bart",
+              "street": "St Georges Road",
+              "house": 271,
+              "flat": 1949
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:48.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6948754d1c508c5d5ef04459",
+          "products": [
+            {
+              "_id": "6948754d1c508c5d5ef0446c",
+              "name": "Soap29675",
+              "amount": 270,
+              "price": 84234,
+              "manufacturer": "Amazon",
+              "notes": "FyYfHpuzzocuhIUISGxHN881ksRZGxwHAA2vPkz5t3qqAcFXAL3UEW1muzKwYHscXP0FbPcIX8LtSAjWEisD3kzs7SBh3NmYlyPKBkSQzJtrXrm6TK1tV0TFaF9fkm7K0EO8Lrr3dmMPMnNiLMjeZ21TbiCEU8v2VgOgSlhXGcr0ODOIpHdWnC3GgBaHpsAwvkzj5ABpTBpMXmSQhyiR3EEP11WKiCqjnaH9jjjdR2CjUr3ogktzSeZzdP",
+              "received": false
+            },
+            {
+              "_id": "6948754d1c508c5d5ef0449a",
+              "name": "Tuna54093",
+              "amount": 929,
+              "price": 72327,
+              "manufacturer": "Amazon",
+              "notes": "F8JxFbJzG1avX2cpVyBE2YiWBiZifXr2iXyfvYWEjxzGbYE4CdHrX6KdK4Q8HOhKOyopk57zaO4DmamT49933GrNIse5bs5sC5AK2lX0vtfrQpR024DFbf3izf08Q6MGZ5Fc64UUbkWeJGac8GtBUzyvTensiFZ4SjSzqV6QvJIQUf5AsGtbAskGOGpscc6WfkCt0fhxQrq1yUn476lUUsf2MBl8gRvFRmDJsOEvVEvNmELs5TAnkQBSW5",
+              "received": false
+            }
+          ],
+          "total_price": 156561,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Bart",
+              "street": "St Georges Road",
+              "house": 271,
+              "flat": 1949
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948754d1c508c5d5ef04459",
+          "products": [
+            {
+              "_id": "6948754d1c508c5d5ef0446c",
+              "name": "Soap29675",
+              "amount": 270,
+              "price": 84234,
+              "manufacturer": "Amazon",
+              "notes": "FyYfHpuzzocuhIUISGxHN881ksRZGxwHAA2vPkz5t3qqAcFXAL3UEW1muzKwYHscXP0FbPcIX8LtSAjWEisD3kzs7SBh3NmYlyPKBkSQzJtrXrm6TK1tV0TFaF9fkm7K0EO8Lrr3dmMPMnNiLMjeZ21TbiCEU8v2VgOgSlhXGcr0ODOIpHdWnC3GgBaHpsAwvkzj5ABpTBpMXmSQhyiR3EEP11WKiCqjnaH9jjjdR2CjUr3ogktzSeZzdP",
+              "received": false
+            },
+            {
+              "_id": "6948754d1c508c5d5ef0449a",
+              "name": "Tuna54093",
+              "amount": 929,
+              "price": 72327,
+              "manufacturer": "Amazon",
+              "notes": "F8JxFbJzG1avX2cpVyBE2YiWBiZifXr2iXyfvYWEjxzGbYE4CdHrX6KdK4Q8HOhKOyopk57zaO4DmamT49933GrNIse5bs5sC5AK2lX0vtfrQpR024DFbf3izf08Q6MGZ5Fc64UUbkWeJGac8GtBUzyvTensiFZ4SjSzqV6QvJIQUf5AsGtbAskGOGpscc6WfkCt0fhxQrq1yUn476lUUsf2MBl8gRvFRmDJsOEvVEvNmELs5TAnkQBSW5",
+              "received": false
+            }
+          ],
+          "total_price": 156561,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Bart",
+              "street": "St Georges Road",
+              "house": 271,
+              "flat": 1949
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948754d1c508c5d5ef04459",
+          "products": [
+            {
+              "_id": "6948754d1c508c5d5ef0446c",
+              "name": "Soap29675",
+              "amount": 270,
+              "price": 84234,
+              "manufacturer": "Amazon",
+              "notes": "FyYfHpuzzocuhIUISGxHN881ksRZGxwHAA2vPkz5t3qqAcFXAL3UEW1muzKwYHscXP0FbPcIX8LtSAjWEisD3kzs7SBh3NmYlyPKBkSQzJtrXrm6TK1tV0TFaF9fkm7K0EO8Lrr3dmMPMnNiLMjeZ21TbiCEU8v2VgOgSlhXGcr0ODOIpHdWnC3GgBaHpsAwvkzj5ABpTBpMXmSQhyiR3EEP11WKiCqjnaH9jjjdR2CjUr3ogktzSeZzdP",
+              "received": false
+            },
+            {
+              "_id": "6948754d1c508c5d5ef0449a",
+              "name": "Tuna54093",
+              "amount": 929,
+              "price": 72327,
+              "manufacturer": "Amazon",
+              "notes": "F8JxFbJzG1avX2cpVyBE2YiWBiZifXr2iXyfvYWEjxzGbYE4CdHrX6KdK4Q8HOhKOyopk57zaO4DmamT49933GrNIse5bs5sC5AK2lX0vtfrQpR024DFbf3izf08Q6MGZ5Fc64UUbkWeJGac8GtBUzyvTensiFZ4SjSzqV6QvJIQUf5AsGtbAskGOGpscc6WfkCt0fhxQrq1yUn476lUUsf2MBl8gRvFRmDJsOEvVEvNmELs5TAnkQBSW5",
+              "received": false
+            }
+          ],
+          "total_price": 156561,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:31:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

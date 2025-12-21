@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:32:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4580",
+    "etag": "W/\"11e4-PQNrRzaoiVzcClYISn6rcjK7oNw\"",
+    "keep-alive": "timeout=5, max=11",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948757c1c508c5d5ef06476",
+      "status": "Received",
+      "customer": {
+        "_id": "6948757a1c508c5d5ef062c5",
+        "email": "Mara_Hamill58@hotmail.com",
+        "name": "Quinn Hahn",
+        "country": "Belarus",
+        "city": "Columbia",
+        "street": "Deontae Brooks 37",
+        "house": 860,
+        "flat": 5581,
+        "phone": "+775078909770484",
+        "createdOn": "2025-12-21T22:32:26.000Z",
+        "notes": "JKnG1cgy4ybXwhJ20KHNZzMd5oTCz4"
+      },
+      "products": [
+        {
+          "_id": "6948757c1c508c5d5ef0644b",
+          "name": "Chicken51115",
+          "amount": 980,
+          "price": 2996,
+          "manufacturer": "Amazon",
+          "notes": "UOMGt87JSBeGO5T3sD9nHF4KDNzlY2jDeCpyyZJD3lh6K95IF7y1Z6ENbGLuorWVbdW9paxueAd9JXQSUbQ0Gqnbuk89SG7NqYQJYOZtth0p60lMK0RJ7eFwjRruCd2xqMitiSjzeY1kjWtjp0vWTW0i6yRGCvhMWT8g0bt9iiN075wUMraCU2tayVS4I42nVRyk3iCiOL42fbJJwg2bOqiI97gCvVYOITSpC0ezaRHdgPag33TluT2QrX",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Kihnmouth",
+          "street": "Back Lane",
+          "house": 841,
+          "flat": 4900
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 2996,
+      "createdOn": "2025-12-21T22:32:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6948757a1c508c5d5ef062c5",
+          "products": [
+            {
+              "_id": "6948757c1c508c5d5ef0644b",
+              "name": "Chicken51115",
+              "amount": 980,
+              "price": 2996,
+              "manufacturer": "Amazon",
+              "notes": "UOMGt87JSBeGO5T3sD9nHF4KDNzlY2jDeCpyyZJD3lh6K95IF7y1Z6ENbGLuorWVbdW9paxueAd9JXQSUbQ0Gqnbuk89SG7NqYQJYOZtth0p60lMK0RJ7eFwjRruCd2xqMitiSjzeY1kjWtjp0vWTW0i6yRGCvhMWT8g0bt9iiN075wUMraCU2tayVS4I42nVRyk3iCiOL42fbJJwg2bOqiI97gCvVYOITSpC0ezaRHdgPag33TluT2QrX",
+              "received": true
+            }
+          ],
+          "total_price": 2996,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Kihnmouth",
+              "street": "Back Lane",
+              "house": 841,
+              "flat": 4900
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:32:29.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6948757a1c508c5d5ef062c5",
+          "products": [
+            {
+              "_id": "6948757c1c508c5d5ef0644b",
+              "name": "Chicken51115",
+              "amount": 980,
+              "price": 2996,
+              "manufacturer": "Amazon",
+              "notes": "UOMGt87JSBeGO5T3sD9nHF4KDNzlY2jDeCpyyZJD3lh6K95IF7y1Z6ENbGLuorWVbdW9paxueAd9JXQSUbQ0Gqnbuk89SG7NqYQJYOZtth0p60lMK0RJ7eFwjRruCd2xqMitiSjzeY1kjWtjp0vWTW0i6yRGCvhMWT8g0bt9iiN075wUMraCU2tayVS4I42nVRyk3iCiOL42fbJJwg2bOqiI97gCvVYOITSpC0ezaRHdgPag33TluT2QrX",
+              "received": false
+            }
+          ],
+          "total_price": 2996,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Kihnmouth",
+              "street": "Back Lane",
+              "house": 841,
+              "flat": 4900
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:32:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948757a1c508c5d5ef062c5",
+          "products": [
+            {
+              "_id": "6948757c1c508c5d5ef0644b",
+              "name": "Chicken51115",
+              "amount": 980,
+              "price": 2996,
+              "manufacturer": "Amazon",
+              "notes": "UOMGt87JSBeGO5T3sD9nHF4KDNzlY2jDeCpyyZJD3lh6K95IF7y1Z6ENbGLuorWVbdW9paxueAd9JXQSUbQ0Gqnbuk89SG7NqYQJYOZtth0p60lMK0RJ7eFwjRruCd2xqMitiSjzeY1kjWtjp0vWTW0i6yRGCvhMWT8g0bt9iiN075wUMraCU2tayVS4I42nVRyk3iCiOL42fbJJwg2bOqiI97gCvVYOITSpC0ezaRHdgPag33TluT2QrX",
+              "received": false
+            }
+          ],
+          "total_price": 2996,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Kihnmouth",
+              "street": "Back Lane",
+              "house": 841,
+              "flat": 4900
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:32:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948757a1c508c5d5ef062c5",
+          "products": [
+            {
+              "_id": "6948757c1c508c5d5ef0644b",
+              "name": "Chicken51115",
+              "amount": 980,
+              "price": 2996,
+              "manufacturer": "Amazon",
+              "notes": "UOMGt87JSBeGO5T3sD9nHF4KDNzlY2jDeCpyyZJD3lh6K95IF7y1Z6ENbGLuorWVbdW9paxueAd9JXQSUbQ0Gqnbuk89SG7NqYQJYOZtth0p60lMK0RJ7eFwjRruCd2xqMitiSjzeY1kjWtjp0vWTW0i6yRGCvhMWT8g0bt9iiN075wUMraCU2tayVS4I42nVRyk3iCiOL42fbJJwg2bOqiI97gCvVYOITSpC0ezaRHdgPag33TluT2QrX",
+              "received": false
+            }
+          ],
+          "total_price": 2996,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:32:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

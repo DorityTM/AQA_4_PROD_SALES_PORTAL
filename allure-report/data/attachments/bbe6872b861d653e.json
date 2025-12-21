@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 22:31:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4592",
+    "etag": "W/\"11f0-nspo6YGf8rueG2a29ukAqFOzf9A\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948751e1c508c5d5ef0246a",
+      "status": "Received",
+      "customer": {
+        "_id": "6948751b1c508c5d5ef022d1",
+        "email": "Lacey.West@hotmail.com",
+        "name": "Salma Schimmel",
+        "country": "USA",
+        "city": "East Nicklaus",
+        "street": "Alexzander Mission 3",
+        "house": 164,
+        "flat": 9082,
+        "phone": "+925494402219500",
+        "createdOn": "2025-12-21T22:30:51.000Z",
+        "notes": "pT027VJqbb1TlrYexepvDcsauNnd1S"
+      },
+      "products": [
+        {
+          "_id": "6948751e1c508c5d5ef0244b",
+          "name": "Towels99147",
+          "amount": 94,
+          "price": 72503,
+          "manufacturer": "Apple",
+          "notes": "uqcxsY8Owd20fQsu8mnXWHFvBHFT3O9t57gIs3RNVM3ieVcW8wf4YaCcU0MYh3uX6Uu2AOUdKFg8tW6VYN6UTht2p2uHXzGs2CnLrLO5igWO7OuIl4FyrYffyOlXTRBGfmqCeZcm8XrC2S81A23cQZSmgechz7JZfkg6AH143vPUaySdAtxDKYAZ48idFzRNkWutOZ6sXK4F9hW9TZp7eBjXScBNANLcTef1eo9IIqmtL9oJ4V1yLFLk3h",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Fort Talia",
+          "street": "Zieme Green",
+          "house": 255,
+          "flat": 8864
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72503,
+      "createdOn": "2025-12-21T22:30:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6948751b1c508c5d5ef022d1",
+          "products": [
+            {
+              "_id": "6948751e1c508c5d5ef0244b",
+              "name": "Towels99147",
+              "amount": 94,
+              "price": 72503,
+              "manufacturer": "Apple",
+              "notes": "uqcxsY8Owd20fQsu8mnXWHFvBHFT3O9t57gIs3RNVM3ieVcW8wf4YaCcU0MYh3uX6Uu2AOUdKFg8tW6VYN6UTht2p2uHXzGs2CnLrLO5igWO7OuIl4FyrYffyOlXTRBGfmqCeZcm8XrC2S81A23cQZSmgechz7JZfkg6AH143vPUaySdAtxDKYAZ48idFzRNkWutOZ6sXK4F9hW9TZp7eBjXScBNANLcTef1eo9IIqmtL9oJ4V1yLFLk3h",
+              "received": true
+            }
+          ],
+          "total_price": 72503,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Talia",
+              "street": "Zieme Green",
+              "house": 255,
+              "flat": 8864
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:31:00.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6948751b1c508c5d5ef022d1",
+          "products": [
+            {
+              "_id": "6948751e1c508c5d5ef0244b",
+              "name": "Towels99147",
+              "amount": 94,
+              "price": 72503,
+              "manufacturer": "Apple",
+              "notes": "uqcxsY8Owd20fQsu8mnXWHFvBHFT3O9t57gIs3RNVM3ieVcW8wf4YaCcU0MYh3uX6Uu2AOUdKFg8tW6VYN6UTht2p2uHXzGs2CnLrLO5igWO7OuIl4FyrYffyOlXTRBGfmqCeZcm8XrC2S81A23cQZSmgechz7JZfkg6AH143vPUaySdAtxDKYAZ48idFzRNkWutOZ6sXK4F9hW9TZp7eBjXScBNANLcTef1eo9IIqmtL9oJ4V1yLFLk3h",
+              "received": false
+            }
+          ],
+          "total_price": 72503,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Talia",
+              "street": "Zieme Green",
+              "house": 255,
+              "flat": 8864
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:30:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948751b1c508c5d5ef022d1",
+          "products": [
+            {
+              "_id": "6948751e1c508c5d5ef0244b",
+              "name": "Towels99147",
+              "amount": 94,
+              "price": 72503,
+              "manufacturer": "Apple",
+              "notes": "uqcxsY8Owd20fQsu8mnXWHFvBHFT3O9t57gIs3RNVM3ieVcW8wf4YaCcU0MYh3uX6Uu2AOUdKFg8tW6VYN6UTht2p2uHXzGs2CnLrLO5igWO7OuIl4FyrYffyOlXTRBGfmqCeZcm8XrC2S81A23cQZSmgechz7JZfkg6AH143vPUaySdAtxDKYAZ48idFzRNkWutOZ6sXK4F9hW9TZp7eBjXScBNANLcTef1eo9IIqmtL9oJ4V1yLFLk3h",
+              "received": false
+            }
+          ],
+          "total_price": 72503,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Talia",
+              "street": "Zieme Green",
+              "house": 255,
+              "flat": 8864
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T22:30:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948751b1c508c5d5ef022d1",
+          "products": [
+            {
+              "_id": "6948751e1c508c5d5ef0244b",
+              "name": "Towels99147",
+              "amount": 94,
+              "price": 72503,
+              "manufacturer": "Apple",
+              "notes": "uqcxsY8Owd20fQsu8mnXWHFvBHFT3O9t57gIs3RNVM3ieVcW8wf4YaCcU0MYh3uX6Uu2AOUdKFg8tW6VYN6UTht2p2uHXzGs2CnLrLO5igWO7OuIl4FyrYffyOlXTRBGfmqCeZcm8XrC2S81A23cQZSmgechz7JZfkg6AH143vPUaySdAtxDKYAZ48idFzRNkWutOZ6sXK4F9hW9TZp7eBjXScBNANLcTef1eo9IIqmtL9oJ4V1yLFLk3h",
+              "received": false
+            }
+          ],
+          "total_price": 72503,
+          "delivery": null,
+          "changedOn": "2025-12-21T22:30:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
