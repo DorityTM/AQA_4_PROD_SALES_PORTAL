@@ -61,9 +61,9 @@ export const RECEIVE_PRODUCTS_INVALID_PAYLOAD_CASES: IReceiveProductsInvalidPayl
   },
   {
     title: "Invalid product id: null string",
-    buildProducts: () => ["null"],
+    buildProducts: () => [null as unknown as string],
     expectedStatus: STATUS_CODES.BAD_REQUEST,
-    expectedErrorMessage: RESPONSE_ERRORS.PRODUCT_NOT_REQUESTED("null"),
+    expectedErrorMessage: RESPONSE_ERRORS.BAD_REQUEST,
   },
   {
     title: "Invalid product id: UUID string",
