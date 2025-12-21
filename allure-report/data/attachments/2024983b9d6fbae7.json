@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:47:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8190",
+    "etag": "W/\"1ffe-6prd7BMiKwvx1UN//6FoMFeBdPI\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69486aed1c508c5d5eed0f0b",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "69486aeb1c508c5d5eed0d8f",
+        "email": "Godfrey.Jacobson@hotmail.com",
+        "name": "Orie Ondricka",
+        "country": "Belarus",
+        "city": "Cedar Rapids",
+        "street": "Cruickshank Knolls 37",
+        "house": 694,
+        "flat": 8656,
+        "phone": "+461299363264245",
+        "createdOn": "2025-12-21T21:47:23.000Z",
+        "notes": "lUdVJmxQrnXQaOCyikD8inPp1FN97z"
+      },
+      "products": [
+        {
+          "_id": "69486aec1c508c5d5eed0db4",
+          "name": "Chicken31992",
+          "amount": 171,
+          "price": 25163,
+          "manufacturer": "Xiaomi",
+          "notes": "2MxZUWVxzjc8zumCKrM9Lnwq3gMUksWfRNkOwwvpspPoyqEVME5qJXlBVFjzAhTfa8vKpA7KngO8EHtlYtvk0vvIKOkoCpzLEVGpqXnYels9deBRXTrgZGI0RSujhpciVbbjKphrB6cSo3QUau1qySelhfB5FGnLQ68giVbS9YO1sQwbl1hia39lksUaaozWM59dvRU1wWDe5j1m8bsfOaq07C3Meh2swNzpupb0JnBwSwCU98oW0vTOPz",
+          "received": true
+        },
+        {
+          "_id": "69486aec1c508c5d5eed0dca",
+          "name": "Chicken40171",
+          "amount": 687,
+          "price": 79343,
+          "manufacturer": "Google",
+          "notes": "Hz4eoqBwUA0k7WNcF4gAhIe9OufYEyUNB38fn5kbiPG4gk1rIiD0E4nZyCK0moUnFdIkKs0QfeC6P0Z40MEqf7ifrqIvsGomXXb7BzKobyOfXQAgJ7RXDeOPAuprHeCRcUCMNOxLwxebjonfF2gGNkYWgpqB7DCDNawJSjH6oaMHkmtsg2W9l25EZ2RVX9jCcergZuKEuIc0puShEMfiK01EvkY3ojsxC3HwbKos0VdS4xNpRIPKqrHxMw",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "New Joelle",
+          "street": "Garth Drive",
+          "house": 140,
+          "flat": 2969
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 104506,
+      "createdOn": "2025-12-21T21:47:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "69486aeb1c508c5d5eed0d8f",
+          "products": [
+            {
+              "_id": "69486aec1c508c5d5eed0db4",
+              "name": "Chicken31992",
+              "amount": 171,
+              "price": 25163,
+              "manufacturer": "Xiaomi",
+              "notes": "2MxZUWVxzjc8zumCKrM9Lnwq3gMUksWfRNkOwwvpspPoyqEVME5qJXlBVFjzAhTfa8vKpA7KngO8EHtlYtvk0vvIKOkoCpzLEVGpqXnYels9deBRXTrgZGI0RSujhpciVbbjKphrB6cSo3QUau1qySelhfB5FGnLQ68giVbS9YO1sQwbl1hia39lksUaaozWM59dvRU1wWDe5j1m8bsfOaq07C3Meh2swNzpupb0JnBwSwCU98oW0vTOPz",
+              "received": true
+            },
+            {
+              "_id": "69486aec1c508c5d5eed0dca",
+              "name": "Chicken40171",
+              "amount": 687,
+              "price": 79343,
+              "manufacturer": "Google",
+              "notes": "Hz4eoqBwUA0k7WNcF4gAhIe9OufYEyUNB38fn5kbiPG4gk1rIiD0E4nZyCK0moUnFdIkKs0QfeC6P0Z40MEqf7ifrqIvsGomXXb7BzKobyOfXQAgJ7RXDeOPAuprHeCRcUCMNOxLwxebjonfF2gGNkYWgpqB7DCDNawJSjH6oaMHkmtsg2W9l25EZ2RVX9jCcergZuKEuIc0puShEMfiK01EvkY3ojsxC3HwbKos0VdS4xNpRIPKqrHxMw",
+              "received": false
+            }
+          ],
+          "total_price": 104506,
+          "delivery": {
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery",
+            "address": {
+              "country": "France",
+              "city": "New Joelle",
+              "street": "Garth Drive",
+              "house": 140,
+              "flat": 2969
+            }
+          },
+          "changedOn": "2025-12-21T21:47:27.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "69486aeb1c508c5d5eed0d8f",
+          "products": [
+            {
+              "_id": "69486aec1c508c5d5eed0db4",
+              "name": "Chicken31992",
+              "amount": 171,
+              "price": 25163,
+              "manufacturer": "Xiaomi",
+              "notes": "2MxZUWVxzjc8zumCKrM9Lnwq3gMUksWfRNkOwwvpspPoyqEVME5qJXlBVFjzAhTfa8vKpA7KngO8EHtlYtvk0vvIKOkoCpzLEVGpqXnYels9deBRXTrgZGI0RSujhpciVbbjKphrB6cSo3QUau1qySelhfB5FGnLQ68giVbS9YO1sQwbl1hia39lksUaaozWM59dvRU1wWDe5j1m8bsfOaq07C3Meh2swNzpupb0JnBwSwCU98oW0vTOPz",
+              "received": true
+            },
+            {
+              "_id": "69486aec1c508c5d5eed0dca",
+              "name": "Chicken40171",
+              "amount": 687,
+              "price": 79343,
+              "manufacturer": "Google",
+              "notes": "Hz4eoqBwUA0k7WNcF4gAhIe9OufYEyUNB38fn5kbiPG4gk1rIiD0E4nZyCK0moUnFdIkKs0QfeC6P0Z40MEqf7ifrqIvsGomXXb7BzKobyOfXQAgJ7RXDeOPAuprHeCRcUCMNOxLwxebjonfF2gGNkYWgpqB7DCDNawJSjH6oaMHkmtsg2W9l25EZ2RVX9jCcergZuKEuIc0puShEMfiK01EvkY3ojsxC3HwbKos0VdS4xNpRIPKqrHxMw",
+              "received": false
+            }
+          ],
+          "total_price": 104506,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Joelle",
+              "street": "Garth Drive",
+              "house": 140,
+              "flat": 2969
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T21:47:27.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69486aeb1c508c5d5eed0d8f",
+          "products": [
+            {
+              "_id": "69486aec1c508c5d5eed0db4",
+              "name": "Chicken31992",
+              "amount": 171,
+              "price": 25163,
+              "manufacturer": "Xiaomi",
+              "notes": "2MxZUWVxzjc8zumCKrM9Lnwq3gMUksWfRNkOwwvpspPoyqEVME5qJXlBVFjzAhTfa8vKpA7KngO8EHtlYtvk0vvIKOkoCpzLEVGpqXnYels9deBRXTrgZGI0RSujhpciVbbjKphrB6cSo3QUau1qySelhfB5FGnLQ68giVbS9YO1sQwbl1hia39lksUaaozWM59dvRU1wWDe5j1m8bsfOaq07C3Meh2swNzpupb0JnBwSwCU98oW0vTOPz",
+              "received": false
+            },
+            {
+              "_id": "69486aec1c508c5d5eed0dca",
+              "name": "Chicken40171",
+              "amount": 687,
+              "price": 79343,
+              "manufacturer": "Google",
+              "notes": "Hz4eoqBwUA0k7WNcF4gAhIe9OufYEyUNB38fn5kbiPG4gk1rIiD0E4nZyCK0moUnFdIkKs0QfeC6P0Z40MEqf7ifrqIvsGomXXb7BzKobyOfXQAgJ7RXDeOPAuprHeCRcUCMNOxLwxebjonfF2gGNkYWgpqB7DCDNawJSjH6oaMHkmtsg2W9l25EZ2RVX9jCcergZuKEuIc0puShEMfiK01EvkY3ojsxC3HwbKos0VdS4xNpRIPKqrHxMw",
+              "received": false
+            }
+          ],
+          "total_price": 104506,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Joelle",
+              "street": "Garth Drive",
+              "house": 140,
+              "flat": 2969
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T21:47:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486aeb1c508c5d5eed0d8f",
+          "products": [
+            {
+              "_id": "69486aec1c508c5d5eed0db4",
+              "name": "Chicken31992",
+              "amount": 171,
+              "price": 25163,
+              "manufacturer": "Xiaomi",
+              "notes": "2MxZUWVxzjc8zumCKrM9Lnwq3gMUksWfRNkOwwvpspPoyqEVME5qJXlBVFjzAhTfa8vKpA7KngO8EHtlYtvk0vvIKOkoCpzLEVGpqXnYels9deBRXTrgZGI0RSujhpciVbbjKphrB6cSo3QUau1qySelhfB5FGnLQ68giVbS9YO1sQwbl1hia39lksUaaozWM59dvRU1wWDe5j1m8bsfOaq07C3Meh2swNzpupb0JnBwSwCU98oW0vTOPz",
+              "received": false
+            },
+            {
+              "_id": "69486aec1c508c5d5eed0dca",
+              "name": "Chicken40171",
+              "amount": 687,
+              "price": 79343,
+              "manufacturer": "Google",
+              "notes": "Hz4eoqBwUA0k7WNcF4gAhIe9OufYEyUNB38fn5kbiPG4gk1rIiD0E4nZyCK0moUnFdIkKs0QfeC6P0Z40MEqf7ifrqIvsGomXXb7BzKobyOfXQAgJ7RXDeOPAuprHeCRcUCMNOxLwxebjonfF2gGNkYWgpqB7DCDNawJSjH6oaMHkmtsg2W9l25EZ2RVX9jCcergZuKEuIc0puShEMfiK01EvkY3ojsxC3HwbKos0VdS4xNpRIPKqrHxMw",
+              "received": false
+            }
+          ],
+          "total_price": 104506,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Joelle",
+              "street": "Garth Drive",
+              "house": 140,
+              "flat": 2969
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T21:47:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486aeb1c508c5d5eed0d8f",
+          "products": [
+            {
+              "_id": "69486aec1c508c5d5eed0db4",
+              "name": "Chicken31992",
+              "amount": 171,
+              "price": 25163,
+              "manufacturer": "Xiaomi",
+              "notes": "2MxZUWVxzjc8zumCKrM9Lnwq3gMUksWfRNkOwwvpspPoyqEVME5qJXlBVFjzAhTfa8vKpA7KngO8EHtlYtvk0vvIKOkoCpzLEVGpqXnYels9deBRXTrgZGI0RSujhpciVbbjKphrB6cSo3QUau1qySelhfB5FGnLQ68giVbS9YO1sQwbl1hia39lksUaaozWM59dvRU1wWDe5j1m8bsfOaq07C3Meh2swNzpupb0JnBwSwCU98oW0vTOPz",
+              "received": false
+            },
+            {
+              "_id": "69486aec1c508c5d5eed0dca",
+              "name": "Chicken40171",
+              "amount": 687,
+              "price": 79343,
+              "manufacturer": "Google",
+              "notes": "Hz4eoqBwUA0k7WNcF4gAhIe9OufYEyUNB38fn5kbiPG4gk1rIiD0E4nZyCK0moUnFdIkKs0QfeC6P0Z40MEqf7ifrqIvsGomXXb7BzKobyOfXQAgJ7RXDeOPAuprHeCRcUCMNOxLwxebjonfF2gGNkYWgpqB7DCDNawJSjH6oaMHkmtsg2W9l25EZ2RVX9jCcergZuKEuIc0puShEMfiK01EvkY3ojsxC3HwbKos0VdS4xNpRIPKqrHxMw",
+              "received": false
+            }
+          ],
+          "total_price": 104506,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:47:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

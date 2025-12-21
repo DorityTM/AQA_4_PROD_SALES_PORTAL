@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:47:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4597",
+    "etag": "W/\"11f5-7Z0JtXo/E2K6Rcv7Bx5Ie8Hrs98\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69486afa1c508c5d5eed16ff",
+      "status": "Received",
+      "customer": {
+        "_id": "69486af91c508c5d5eed16c6",
+        "email": "Novella_Emard37@hotmail.com",
+        "name": "Camille Bernier",
+        "country": "Great Britain",
+        "city": "O Reillyboro",
+        "street": "Jo Pike 35",
+        "house": 735,
+        "flat": 4629,
+        "phone": "+359630185371070",
+        "createdOn": "2025-12-21T21:47:37.000Z",
+        "notes": "QN89H4txADbOiZQlY0OXV8kGi5mwAJ"
+      },
+      "products": [
+        {
+          "_id": "69486afa1c508c5d5eed16e4",
+          "name": "Pizza83891",
+          "amount": 285,
+          "price": 78314,
+          "manufacturer": "Apple",
+          "notes": "MbiwGJhvSu99oLqE6dKrJNiPJFKfbzWcshm2db81ci4HiE2u4mEyQIw2WuTP07LiEHpPXV8rQVJNW972Vw5GG34UihVfaeIP5TSnAvLPKNkjQVzoDiV2j2As1pSFmEKOblkTxkk3G7Ykl4wX18k4Z753w70x1sb1V5lN5jwlKdFGTKsOuSgcH4x9jlldk40gCLjdKFK1zrQ7MjWFikeiJubAtkvDLVUrqyymWoHQb5s9kwGG3GJRnVci9E",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "South Chadrick",
+          "street": "Will Plain",
+          "house": 218,
+          "flat": 2014
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 78314,
+      "createdOn": "2025-12-21T21:47:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69486af91c508c5d5eed16c6",
+          "products": [
+            {
+              "_id": "69486afa1c508c5d5eed16e4",
+              "name": "Pizza83891",
+              "amount": 285,
+              "price": 78314,
+              "manufacturer": "Apple",
+              "notes": "MbiwGJhvSu99oLqE6dKrJNiPJFKfbzWcshm2db81ci4HiE2u4mEyQIw2WuTP07LiEHpPXV8rQVJNW972Vw5GG34UihVfaeIP5TSnAvLPKNkjQVzoDiV2j2As1pSFmEKOblkTxkk3G7Ykl4wX18k4Z753w70x1sb1V5lN5jwlKdFGTKsOuSgcH4x9jlldk40gCLjdKFK1zrQ7MjWFikeiJubAtkvDLVUrqyymWoHQb5s9kwGG3GJRnVci9E",
+              "received": true
+            }
+          ],
+          "total_price": 78314,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Chadrick",
+              "street": "Will Plain",
+              "house": 218,
+              "flat": 2014
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T21:47:42.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69486af91c508c5d5eed16c6",
+          "products": [
+            {
+              "_id": "69486afa1c508c5d5eed16e4",
+              "name": "Pizza83891",
+              "amount": 285,
+              "price": 78314,
+              "manufacturer": "Apple",
+              "notes": "MbiwGJhvSu99oLqE6dKrJNiPJFKfbzWcshm2db81ci4HiE2u4mEyQIw2WuTP07LiEHpPXV8rQVJNW972Vw5GG34UihVfaeIP5TSnAvLPKNkjQVzoDiV2j2As1pSFmEKOblkTxkk3G7Ykl4wX18k4Z753w70x1sb1V5lN5jwlKdFGTKsOuSgcH4x9jlldk40gCLjdKFK1zrQ7MjWFikeiJubAtkvDLVUrqyymWoHQb5s9kwGG3GJRnVci9E",
+              "received": false
+            }
+          ],
+          "total_price": 78314,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Chadrick",
+              "street": "Will Plain",
+              "house": 218,
+              "flat": 2014
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T21:47:40.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486af91c508c5d5eed16c6",
+          "products": [
+            {
+              "_id": "69486afa1c508c5d5eed16e4",
+              "name": "Pizza83891",
+              "amount": 285,
+              "price": 78314,
+              "manufacturer": "Apple",
+              "notes": "MbiwGJhvSu99oLqE6dKrJNiPJFKfbzWcshm2db81ci4HiE2u4mEyQIw2WuTP07LiEHpPXV8rQVJNW972Vw5GG34UihVfaeIP5TSnAvLPKNkjQVzoDiV2j2As1pSFmEKOblkTxkk3G7Ykl4wX18k4Z753w70x1sb1V5lN5jwlKdFGTKsOuSgcH4x9jlldk40gCLjdKFK1zrQ7MjWFikeiJubAtkvDLVUrqyymWoHQb5s9kwGG3GJRnVci9E",
+              "received": false
+            }
+          ],
+          "total_price": 78314,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Chadrick",
+              "street": "Will Plain",
+              "house": 218,
+              "flat": 2014
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T21:47:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486af91c508c5d5eed16c6",
+          "products": [
+            {
+              "_id": "69486afa1c508c5d5eed16e4",
+              "name": "Pizza83891",
+              "amount": 285,
+              "price": 78314,
+              "manufacturer": "Apple",
+              "notes": "MbiwGJhvSu99oLqE6dKrJNiPJFKfbzWcshm2db81ci4HiE2u4mEyQIw2WuTP07LiEHpPXV8rQVJNW972Vw5GG34UihVfaeIP5TSnAvLPKNkjQVzoDiV2j2As1pSFmEKOblkTxkk3G7Ykl4wX18k4Z753w70x1sb1V5lN5jwlKdFGTKsOuSgcH4x9jlldk40gCLjdKFK1zrQ7MjWFikeiJubAtkvDLVUrqyymWoHQb5s9kwGG3GJRnVci9E",
+              "received": false
+            }
+          ],
+          "total_price": 78314,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:47:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:50:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6605",
+    "etag": "W/\"19cd-Xu8NKh92tZMNM0p8Z0TSUGWtDp8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69486b851c508c5d5eed706d",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "69486b821c508c5d5eed6ed5",
+        "email": "Nicolette_Herzog@hotmail.com",
+        "name": "Eleonore Powlowski",
+        "country": "Great Britain",
+        "city": "The Woodlands",
+        "street": "15th Street 97",
+        "house": 820,
+        "flat": 8515,
+        "phone": "+538695160645492",
+        "createdOn": "2025-12-21T21:49:54.000Z",
+        "notes": "LKpXuGkyC2QZ2hI6HplPSLE59p8dkJ"
+      },
+      "products": [
+        {
+          "_id": "69486b831c508c5d5eed6efe",
+          "name": "Bacon22882",
+          "amount": 751,
+          "price": 19097,
+          "manufacturer": "Amazon",
+          "notes": "IfLN8guTAsOD4EVwS7qQwW1sLuLN43CL1ZROCAmF1TOFy3Btt3JXwVCV8jO7Ju7422z3wxg79J1kB6nwUOZxE2UO9PB0jG5Jp4rNl4fDofXhBfbJ8soorvKATz56RpOwc061PyvktaJBaPVUqgIF4GlbYRqR5nppGJZ3zB10j0fJqcw0twHvBG3pL0gY6lqUb5wzmhMIL3B4uNpPzpa25EJd9JnvgUoIokN1DLxY0hdJcJGXUzOG1rxn8O",
+          "received": true
+        },
+        {
+          "_id": "69486b831c508c5d5eed6f1a",
+          "name": "Soap56325",
+          "amount": 171,
+          "price": 45399,
+          "manufacturer": "Amazon",
+          "notes": "TWuVxB3E4DJkSL2ZshQ2Q3q17Eb9mcLqJ6weGX421xjU7eXjw2HphpQUtUddVMQpW1ybxnixQA5xxPFk7PJuizqqF2CjTtpsAHlgqeEYzp9TLprAnxUnwACWeLkIG6jSLQpT74cMrowhsDWvuDBLow5fuLi4UjtaRRa4gXugjOIQ7EmNShQZvrGkZwrAPFe4uzGHJiCEVH4pmBmcdMvEmu3RQjhJWATK6vFRgMuQCXJDiyy4WB6f44iKu9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Anastasiafield",
+          "street": "Greenwood Road",
+          "house": 766,
+          "flat": 4785
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64496,
+      "createdOn": "2025-12-21T21:49:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "69486b821c508c5d5eed6ed5",
+          "products": [
+            {
+              "_id": "69486b831c508c5d5eed6efe",
+              "name": "Bacon22882",
+              "amount": 751,
+              "price": 19097,
+              "manufacturer": "Amazon",
+              "notes": "IfLN8guTAsOD4EVwS7qQwW1sLuLN43CL1ZROCAmF1TOFy3Btt3JXwVCV8jO7Ju7422z3wxg79J1kB6nwUOZxE2UO9PB0jG5Jp4rNl4fDofXhBfbJ8soorvKATz56RpOwc061PyvktaJBaPVUqgIF4GlbYRqR5nppGJZ3zB10j0fJqcw0twHvBG3pL0gY6lqUb5wzmhMIL3B4uNpPzpa25EJd9JnvgUoIokN1DLxY0hdJcJGXUzOG1rxn8O",
+              "received": true
+            },
+            {
+              "_id": "69486b831c508c5d5eed6f1a",
+              "name": "Soap56325",
+              "amount": 171,
+              "price": 45399,
+              "manufacturer": "Amazon",
+              "notes": "TWuVxB3E4DJkSL2ZshQ2Q3q17Eb9mcLqJ6weGX421xjU7eXjw2HphpQUtUddVMQpW1ybxnixQA5xxPFk7PJuizqqF2CjTtpsAHlgqeEYzp9TLprAnxUnwACWeLkIG6jSLQpT74cMrowhsDWvuDBLow5fuLi4UjtaRRa4gXugjOIQ7EmNShQZvrGkZwrAPFe4uzGHJiCEVH4pmBmcdMvEmu3RQjhJWATK6vFRgMuQCXJDiyy4WB6f44iKu9",
+              "received": false
+            }
+          ],
+          "total_price": 64496,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Anastasiafield",
+              "street": "Greenwood Road",
+              "house": 766,
+              "flat": 4785
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T21:50:01.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69486b821c508c5d5eed6ed5",
+          "products": [
+            {
+              "_id": "69486b831c508c5d5eed6efe",
+              "name": "Bacon22882",
+              "amount": 751,
+              "price": 19097,
+              "manufacturer": "Amazon",
+              "notes": "IfLN8guTAsOD4EVwS7qQwW1sLuLN43CL1ZROCAmF1TOFy3Btt3JXwVCV8jO7Ju7422z3wxg79J1kB6nwUOZxE2UO9PB0jG5Jp4rNl4fDofXhBfbJ8soorvKATz56RpOwc061PyvktaJBaPVUqgIF4GlbYRqR5nppGJZ3zB10j0fJqcw0twHvBG3pL0gY6lqUb5wzmhMIL3B4uNpPzpa25EJd9JnvgUoIokN1DLxY0hdJcJGXUzOG1rxn8O",
+              "received": false
+            },
+            {
+              "_id": "69486b831c508c5d5eed6f1a",
+              "name": "Soap56325",
+              "amount": 171,
+              "price": 45399,
+              "manufacturer": "Amazon",
+              "notes": "TWuVxB3E4DJkSL2ZshQ2Q3q17Eb9mcLqJ6weGX421xjU7eXjw2HphpQUtUddVMQpW1ybxnixQA5xxPFk7PJuizqqF2CjTtpsAHlgqeEYzp9TLprAnxUnwACWeLkIG6jSLQpT74cMrowhsDWvuDBLow5fuLi4UjtaRRa4gXugjOIQ7EmNShQZvrGkZwrAPFe4uzGHJiCEVH4pmBmcdMvEmu3RQjhJWATK6vFRgMuQCXJDiyy4WB6f44iKu9",
+              "received": false
+            }
+          ],
+          "total_price": 64496,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Anastasiafield",
+              "street": "Greenwood Road",
+              "house": 766,
+              "flat": 4785
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T21:50:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486b821c508c5d5eed6ed5",
+          "products": [
+            {
+              "_id": "69486b831c508c5d5eed6efe",
+              "name": "Bacon22882",
+              "amount": 751,
+              "price": 19097,
+              "manufacturer": "Amazon",
+              "notes": "IfLN8guTAsOD4EVwS7qQwW1sLuLN43CL1ZROCAmF1TOFy3Btt3JXwVCV8jO7Ju7422z3wxg79J1kB6nwUOZxE2UO9PB0jG5Jp4rNl4fDofXhBfbJ8soorvKATz56RpOwc061PyvktaJBaPVUqgIF4GlbYRqR5nppGJZ3zB10j0fJqcw0twHvBG3pL0gY6lqUb5wzmhMIL3B4uNpPzpa25EJd9JnvgUoIokN1DLxY0hdJcJGXUzOG1rxn8O",
+              "received": false
+            },
+            {
+              "_id": "69486b831c508c5d5eed6f1a",
+              "name": "Soap56325",
+              "amount": 171,
+              "price": 45399,
+              "manufacturer": "Amazon",
+              "notes": "TWuVxB3E4DJkSL2ZshQ2Q3q17Eb9mcLqJ6weGX421xjU7eXjw2HphpQUtUddVMQpW1ybxnixQA5xxPFk7PJuizqqF2CjTtpsAHlgqeEYzp9TLprAnxUnwACWeLkIG6jSLQpT74cMrowhsDWvuDBLow5fuLi4UjtaRRa4gXugjOIQ7EmNShQZvrGkZwrAPFe4uzGHJiCEVH4pmBmcdMvEmu3RQjhJWATK6vFRgMuQCXJDiyy4WB6f44iKu9",
+              "received": false
+            }
+          ],
+          "total_price": 64496,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Anastasiafield",
+              "street": "Greenwood Road",
+              "house": 766,
+              "flat": 4785
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T21:49:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486b821c508c5d5eed6ed5",
+          "products": [
+            {
+              "_id": "69486b831c508c5d5eed6efe",
+              "name": "Bacon22882",
+              "amount": 751,
+              "price": 19097,
+              "manufacturer": "Amazon",
+              "notes": "IfLN8guTAsOD4EVwS7qQwW1sLuLN43CL1ZROCAmF1TOFy3Btt3JXwVCV8jO7Ju7422z3wxg79J1kB6nwUOZxE2UO9PB0jG5Jp4rNl4fDofXhBfbJ8soorvKATz56RpOwc061PyvktaJBaPVUqgIF4GlbYRqR5nppGJZ3zB10j0fJqcw0twHvBG3pL0gY6lqUb5wzmhMIL3B4uNpPzpa25EJd9JnvgUoIokN1DLxY0hdJcJGXUzOG1rxn8O",
+              "received": false
+            },
+            {
+              "_id": "69486b831c508c5d5eed6f1a",
+              "name": "Soap56325",
+              "amount": 171,
+              "price": 45399,
+              "manufacturer": "Amazon",
+              "notes": "TWuVxB3E4DJkSL2ZshQ2Q3q17Eb9mcLqJ6weGX421xjU7eXjw2HphpQUtUddVMQpW1ybxnixQA5xxPFk7PJuizqqF2CjTtpsAHlgqeEYzp9TLprAnxUnwACWeLkIG6jSLQpT74cMrowhsDWvuDBLow5fuLi4UjtaRRa4gXugjOIQ7EmNShQZvrGkZwrAPFe4uzGHJiCEVH4pmBmcdMvEmu3RQjhJWATK6vFRgMuQCXJDiyy4WB6f44iKu9",
+              "received": false
+            }
+          ],
+          "total_price": 64496,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:49:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

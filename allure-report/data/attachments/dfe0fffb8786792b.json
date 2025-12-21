@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 21:47:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3906",
+    "etag": "W/\"f42-7AA3hLFnnJKretffF/+SSWRq/T0\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69486b041c508c5d5eed1dba",
+      "status": "Draft",
+      "customer": {
+        "_id": "69486aff1c508c5d5eed19e9",
+        "email": "Albina.Purdy@hotmail.com",
+        "name": "Colten Reichel",
+        "country": "Canada",
+        "city": "East Orange",
+        "street": "Grant Street 43",
+        "house": 156,
+        "flat": 6938,
+        "phone": "+124387460447333",
+        "createdOn": "2025-12-21T21:47:43.000Z",
+        "notes": "6TE746p3xo4m9pwBwrjYfmx0Kh8DYH"
+      },
+      "products": [
+        {
+          "_id": "69486b001c508c5d5eed1b31",
+          "name": "Pants26515",
+          "amount": 158,
+          "price": 9620,
+          "manufacturer": "Microsoft",
+          "notes": "sKUWPdpxhZovUl2nCFutba3OFzESGijcQvakP00OaeNgqZ46T7cUhUEMsi31qiUzjRcQQ2l9y66bFzWA220D1zDatR8VOjkqMQsgNWjri88Gpzol1aeawIVHMNtHvFTaTZwNHopvOZ2X2JQShJNWKY5ULOCJUUMjTcW21PJEcK9Kkl7i8V3NKfxO20Fbz9TzWewxHeLifadgVXoTu04hsQoS2U7G7D2R49G2C5fTmy6VZDhvtiqmNUsTAV",
+          "received": false
+        },
+        {
+          "_id": "69486b011c508c5d5eed1b51",
+          "name": "Gloves7509",
+          "amount": 910,
+          "price": 40553,
+          "manufacturer": "Samsung",
+          "notes": "3oqIxjgeyLOrOdrzEtqAkOmtts7f4mpoZMEmxZcdfQ4LpFqVZLNNoA2KI0SIZmqLDAAfFlDXc3T6Mg6ix8baaBQ70uHSBrDgHW4iBKCONRUSvFZx7B7hHMWKPZQR3HcrEawCeipThj7uovXXhzhJopxZhk5pc1CHzIAwLpPqkD7oFWksotpVN4j3VxZtQYyqUHglA8pJpYOIws9V9sCefI8UOVTtSdDg0pI5b3SW67BTGTYx7JcqEe3e2e",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Michelestad",
+          "street": "Elton Via",
+          "house": 275,
+          "flat": 9825
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 50173,
+      "createdOn": "2025-12-21T21:47:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69486aff1c508c5d5eed19e9",
+          "products": [
+            {
+              "_id": "69486b001c508c5d5eed1b31",
+              "name": "Pants26515",
+              "amount": 158,
+              "price": 9620,
+              "manufacturer": "Microsoft",
+              "notes": "sKUWPdpxhZovUl2nCFutba3OFzESGijcQvakP00OaeNgqZ46T7cUhUEMsi31qiUzjRcQQ2l9y66bFzWA220D1zDatR8VOjkqMQsgNWjri88Gpzol1aeawIVHMNtHvFTaTZwNHopvOZ2X2JQShJNWKY5ULOCJUUMjTcW21PJEcK9Kkl7i8V3NKfxO20Fbz9TzWewxHeLifadgVXoTu04hsQoS2U7G7D2R49G2C5fTmy6VZDhvtiqmNUsTAV",
+              "received": false
+            },
+            {
+              "_id": "69486b011c508c5d5eed1b51",
+              "name": "Gloves7509",
+              "amount": 910,
+              "price": 40553,
+              "manufacturer": "Samsung",
+              "notes": "3oqIxjgeyLOrOdrzEtqAkOmtts7f4mpoZMEmxZcdfQ4LpFqVZLNNoA2KI0SIZmqLDAAfFlDXc3T6Mg6ix8baaBQ70uHSBrDgHW4iBKCONRUSvFZx7B7hHMWKPZQR3HcrEawCeipThj7uovXXhzhJopxZhk5pc1CHzIAwLpPqkD7oFWksotpVN4j3VxZtQYyqUHglA8pJpYOIws9V9sCefI8UOVTtSdDg0pI5b3SW67BTGTYx7JcqEe3e2e",
+              "received": false
+            }
+          ],
+          "total_price": 50173,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Michelestad",
+              "street": "Elton Via",
+              "house": 275,
+              "flat": 9825
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T21:47:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69486aff1c508c5d5eed19e9",
+          "products": [
+            {
+              "_id": "69486b001c508c5d5eed1b31",
+              "name": "Pants26515",
+              "amount": 158,
+              "price": 9620,
+              "manufacturer": "Microsoft",
+              "notes": "sKUWPdpxhZovUl2nCFutba3OFzESGijcQvakP00OaeNgqZ46T7cUhUEMsi31qiUzjRcQQ2l9y66bFzWA220D1zDatR8VOjkqMQsgNWjri88Gpzol1aeawIVHMNtHvFTaTZwNHopvOZ2X2JQShJNWKY5ULOCJUUMjTcW21PJEcK9Kkl7i8V3NKfxO20Fbz9TzWewxHeLifadgVXoTu04hsQoS2U7G7D2R49G2C5fTmy6VZDhvtiqmNUsTAV",
+              "received": false
+            },
+            {
+              "_id": "69486b011c508c5d5eed1b51",
+              "name": "Gloves7509",
+              "amount": 910,
+              "price": 40553,
+              "manufacturer": "Samsung",
+              "notes": "3oqIxjgeyLOrOdrzEtqAkOmtts7f4mpoZMEmxZcdfQ4LpFqVZLNNoA2KI0SIZmqLDAAfFlDXc3T6Mg6ix8baaBQ70uHSBrDgHW4iBKCONRUSvFZx7B7hHMWKPZQR3HcrEawCeipThj7uovXXhzhJopxZhk5pc1CHzIAwLpPqkD7oFWksotpVN4j3VxZtQYyqUHglA8pJpYOIws9V9sCefI8UOVTtSdDg0pI5b3SW67BTGTYx7JcqEe3e2e",
+              "received": false
+            }
+          ],
+          "total_price": 50173,
+          "delivery": null,
+          "changedOn": "2025-12-21T21:47:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
