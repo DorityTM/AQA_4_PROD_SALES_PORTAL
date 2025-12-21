@@ -10,4 +10,7 @@ export const RESPONSE_ERRORS = {
   MANAGER_NOT_FOUND: (id: string) => `Manager with id '${id}' wasn't found`,
   ORDER_NOT_FOUND: (id: string) => `Order with id '${id}' wasn't found`,
   INVALID_ORDRER_STATUS: "Invalid order status",
+  ORDER_IS_NOT_PROCESSED: `Can't process order. Please, schedule delivery`,
+  PRODUCT_NOT_REQUESTED: (id: string) => `Product with Id '${id}' is not requested`,
+  INVALID_PAYLOAD: "Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer",
 };

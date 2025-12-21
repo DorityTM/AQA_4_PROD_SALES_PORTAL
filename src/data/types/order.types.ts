@@ -132,3 +132,25 @@ export interface IManagerAssignCases {
   name: string;
   create: (ordersApiService: OrdersApiService, token: string) => Promise<IOrderFromResponse>;
 }
+
+export interface IReceiveProductsPositiveCase {
+  title: string;
+  orderProductsCount: number;
+  receiveProductsCount: number;
+  expectedOrderStatus: ORDER_STATUS;
+}
+
+export interface IReceiveProductsNegativeStatusCase {
+  title: string;
+  create: (ordersApiService: OrdersApiService, token: string) => Promise<IOrderFromResponse>;
+  receiveProductsCount: number;
+  expectedStatus: STATUS_CODES;
+  expectedErrorMessage: string | null | ((order: IOrderFromResponse) => string | null);
+}
+
+export interface IReceiveProductsInvalidPayloadCase {
+  title: string;
+  buildProducts: (order: IOrderFromResponse) => Array<string>;
+  expectedStatus: STATUS_CODES;
+  expectedErrorMessage: string | null;
+}
