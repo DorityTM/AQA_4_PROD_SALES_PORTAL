@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 19:54:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2750",
+    "etag": "W/\"abe-yZvKKTzn9CWaUF6SDKo5WwDPMOA\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948508a1c508c5d5eeae659",
+      "status": "Draft",
+      "customer": {
+        "_id": "694850891c508c5d5eeae60b",
+        "email": "Kale.Mayert@gmail.com",
+        "name": "Mac Doyle",
+        "country": "Russia",
+        "city": "Danialton",
+        "street": "S 7th Street 42",
+        "house": 910,
+        "flat": 6450,
+        "phone": "+276817177029412",
+        "createdOn": "2025-12-21T19:54:49.000Z",
+        "notes": "qIO2WV1TgIUVRns31I1fPYmO8JucIf"
+      },
+      "products": [
+        {
+          "_id": "6948508a1c508c5d5eeae628",
+          "name": "Table23767",
+          "amount": 16,
+          "price": 79449,
+          "manufacturer": "Amazon",
+          "notes": "BcoNgQBsyUsrR0xcfYRykKfkIekXsaCHuIqOINuDaA0rCtS1E4qiR8hOjbwOEhnjIiANRYBX2AEC0QJuLS6szAG58TAHR1DBQJecOZOxNB4VkEBvIS0Gt5oE4HpL4plMMuplh7XZgVDZ1UeSmbfOYP5ZiJKhQr6FzvE7tnIC60sS9VcRcxWxviZ7cfynslI77roorYWlZJPAAuY9cDIHFoPbMSLs5dqrIsHFIRDJcbbCtdgw4SVquiXNS6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "South Clara",
+          "street": "Grant Alley",
+          "house": 937,
+          "flat": 9901
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79449,
+      "createdOn": "2025-12-21T19:54:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694850891c508c5d5eeae60b",
+          "products": [
+            {
+              "_id": "6948508a1c508c5d5eeae628",
+              "name": "Table23767",
+              "amount": 16,
+              "price": 79449,
+              "manufacturer": "Amazon",
+              "notes": "BcoNgQBsyUsrR0xcfYRykKfkIekXsaCHuIqOINuDaA0rCtS1E4qiR8hOjbwOEhnjIiANRYBX2AEC0QJuLS6szAG58TAHR1DBQJecOZOxNB4VkEBvIS0Gt5oE4HpL4plMMuplh7XZgVDZ1UeSmbfOYP5ZiJKhQr6FzvE7tnIC60sS9VcRcxWxviZ7cfynslI77roorYWlZJPAAuY9cDIHFoPbMSLs5dqrIsHFIRDJcbbCtdgw4SVquiXNS6",
+              "received": false
+            }
+          ],
+          "total_price": 79449,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Clara",
+              "street": "Grant Alley",
+              "house": 937,
+              "flat": 9901
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:54:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694850891c508c5d5eeae60b",
+          "products": [
+            {
+              "_id": "6948508a1c508c5d5eeae628",
+              "name": "Table23767",
+              "amount": 16,
+              "price": 79449,
+              "manufacturer": "Amazon",
+              "notes": "BcoNgQBsyUsrR0xcfYRykKfkIekXsaCHuIqOINuDaA0rCtS1E4qiR8hOjbwOEhnjIiANRYBX2AEC0QJuLS6szAG58TAHR1DBQJecOZOxNB4VkEBvIS0Gt5oE4HpL4plMMuplh7XZgVDZ1UeSmbfOYP5ZiJKhQr6FzvE7tnIC60sS9VcRcxWxviZ7cfynslI77roorYWlZJPAAuY9cDIHFoPbMSLs5dqrIsHFIRDJcbbCtdgw4SVquiXNS6",
+              "received": false
+            }
+          ],
+          "total_price": 79449,
+          "delivery": null,
+          "changedOn": "2025-12-21T19:54:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 19:57:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-4kDbZ0OfW0byh4ZEphls3lY6HlY\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948510b1c508c5d5eeb38a5",
+      "status": "Draft",
+      "customer": {
+        "_id": "6948510a1c508c5d5eeb3864",
+        "email": "Neil13@hotmail.com",
+        "name": "Loren MacGyver",
+        "country": "Ukraine",
+        "city": "Reynoldport",
+        "street": "Bauch Bypass 67",
+        "house": 41,
+        "flat": 9296,
+        "phone": "+749779009165041",
+        "createdOn": "2025-12-21T19:56:58.000Z",
+        "notes": "6DIiPMV5UYGYzzu4jppBpvn6MYu0IM"
+      },
+      "products": [
+        {
+          "_id": "6948510a1c508c5d5eeb3880",
+          "name": "Cheese53566",
+          "amount": 666,
+          "price": 5427,
+          "manufacturer": "Google",
+          "notes": "G1fEz1X8oURgOqwW3xXd5WpOzHmq0xPuGVDEY03RUheGKJDn9nKuBFsEbjI5zBid8u2eiDSIpJ3jGNtRsSxo1mRjvK12VR476j8aZP6rffkWn9ildWlPvcUbugj62ATHTUyyJZj7qSniO7Kkjyzqh1BBom0BbMQ3yVkeRHtbJnVy1hQlh8l2ccKdSd9PDYX3dY52FLwZq8JhIMg8bvlWc9jS8rEHJ26UiZP6z0NajyfESVxLL0Cw82jE11",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Jeramybury",
+          "street": "Alexane Drives",
+          "house": 115,
+          "flat": 790
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 5427,
+      "createdOn": "2025-12-21T19:56:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6948510a1c508c5d5eeb3864",
+          "products": [
+            {
+              "_id": "6948510a1c508c5d5eeb3880",
+              "name": "Cheese53566",
+              "amount": 666,
+              "price": 5427,
+              "manufacturer": "Google",
+              "notes": "G1fEz1X8oURgOqwW3xXd5WpOzHmq0xPuGVDEY03RUheGKJDn9nKuBFsEbjI5zBid8u2eiDSIpJ3jGNtRsSxo1mRjvK12VR476j8aZP6rffkWn9ildWlPvcUbugj62ATHTUyyJZj7qSniO7Kkjyzqh1BBom0BbMQ3yVkeRHtbJnVy1hQlh8l2ccKdSd9PDYX3dY52FLwZq8JhIMg8bvlWc9jS8rEHJ26UiZP6z0NajyfESVxLL0Cw82jE11",
+              "received": false
+            }
+          ],
+          "total_price": 5427,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Jeramybury",
+              "street": "Alexane Drives",
+              "house": 115,
+              "flat": 790
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:57:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6948510a1c508c5d5eeb3864",
+          "products": [
+            {
+              "_id": "6948510a1c508c5d5eeb3880",
+              "name": "Cheese53566",
+              "amount": 666,
+              "price": 5427,
+              "manufacturer": "Google",
+              "notes": "G1fEz1X8oURgOqwW3xXd5WpOzHmq0xPuGVDEY03RUheGKJDn9nKuBFsEbjI5zBid8u2eiDSIpJ3jGNtRsSxo1mRjvK12VR476j8aZP6rffkWn9ildWlPvcUbugj62ATHTUyyJZj7qSniO7Kkjyzqh1BBom0BbMQ3yVkeRHtbJnVy1hQlh8l2ccKdSd9PDYX3dY52FLwZq8JhIMg8bvlWc9jS8rEHJ26UiZP6z0NajyfESVxLL0Cw82jE11",
+              "received": false
+            }
+          ],
+          "total_price": 5427,
+          "delivery": null,
+          "changedOn": "2025-12-21T19:56:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

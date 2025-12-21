@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 19:56:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3647",
+    "etag": "W/\"e3f-1j7yvwAQHskuPoWDQ3lDaDlbd5o\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694850ff1c508c5d5eeb3123",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694850fb1c508c5d5eeb2e09",
+        "email": "Shad_Wisoky@yahoo.com",
+        "name": "Cassidy Mante",
+        "country": "USA",
+        "city": "East Orvillefield",
+        "street": "Lemke Burgs 2",
+        "house": 194,
+        "flat": 5687,
+        "phone": "+402061324864677",
+        "createdOn": "2025-12-21T19:56:43.000Z",
+        "notes": "hGlSOpwaAulrW33fJP2qsMnjUjVF77"
+      },
+      "products": [
+        {
+          "_id": "694850fc1c508c5d5eeb2f1d",
+          "name": "Hat3855",
+          "amount": 122,
+          "price": 70448,
+          "manufacturer": "Sony",
+          "notes": "ApYtwX0Zkhdm3EQcATYDPkZ4cswMHkAkStNSNlUoyzz7MI3J1tntO3GSzCaLqc3BHcGaHeyO76PcCfcmaTdPoSp2kFgeCXDmnSNl3NAvpQsEcz7SNrMZ4HCJgfvCoKjSCUc7lawItQlJq0WgAikPqWgIIsTxs3uQ5daPxzEoQ0EFEm8fVIA84nvWGv1ofLnv6F3vsOV2ixhZffsnzZDrKdaa1W0iEdryAzyUVSgKXbeaVNKHTPSvNfHqor",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Lake Garrick",
+          "street": "Uriel Stravenue",
+          "house": 26,
+          "flat": 3159
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 70448,
+      "createdOn": "2025-12-21T19:56:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694850fb1c508c5d5eeb2e09",
+          "products": [
+            {
+              "_id": "694850fc1c508c5d5eeb2f1d",
+              "name": "Hat3855",
+              "amount": 122,
+              "price": 70448,
+              "manufacturer": "Sony",
+              "notes": "ApYtwX0Zkhdm3EQcATYDPkZ4cswMHkAkStNSNlUoyzz7MI3J1tntO3GSzCaLqc3BHcGaHeyO76PcCfcmaTdPoSp2kFgeCXDmnSNl3NAvpQsEcz7SNrMZ4HCJgfvCoKjSCUc7lawItQlJq0WgAikPqWgIIsTxs3uQ5daPxzEoQ0EFEm8fVIA84nvWGv1ofLnv6F3vsOV2ixhZffsnzZDrKdaa1W0iEdryAzyUVSgKXbeaVNKHTPSvNfHqor",
+              "received": false
+            }
+          ],
+          "total_price": 70448,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lake Garrick",
+              "street": "Uriel Stravenue",
+              "house": 26,
+              "flat": 3159
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:56:50.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694850fb1c508c5d5eeb2e09",
+          "products": [
+            {
+              "_id": "694850fc1c508c5d5eeb2f1d",
+              "name": "Hat3855",
+              "amount": 122,
+              "price": 70448,
+              "manufacturer": "Sony",
+              "notes": "ApYtwX0Zkhdm3EQcATYDPkZ4cswMHkAkStNSNlUoyzz7MI3J1tntO3GSzCaLqc3BHcGaHeyO76PcCfcmaTdPoSp2kFgeCXDmnSNl3NAvpQsEcz7SNrMZ4HCJgfvCoKjSCUc7lawItQlJq0WgAikPqWgIIsTxs3uQ5daPxzEoQ0EFEm8fVIA84nvWGv1ofLnv6F3vsOV2ixhZffsnzZDrKdaa1W0iEdryAzyUVSgKXbeaVNKHTPSvNfHqor",
+              "received": false
+            }
+          ],
+          "total_price": 70448,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lake Garrick",
+              "street": "Uriel Stravenue",
+              "house": 26,
+              "flat": 3159
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T19:56:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694850fb1c508c5d5eeb2e09",
+          "products": [
+            {
+              "_id": "694850fc1c508c5d5eeb2f1d",
+              "name": "Hat3855",
+              "amount": 122,
+              "price": 70448,
+              "manufacturer": "Sony",
+              "notes": "ApYtwX0Zkhdm3EQcATYDPkZ4cswMHkAkStNSNlUoyzz7MI3J1tntO3GSzCaLqc3BHcGaHeyO76PcCfcmaTdPoSp2kFgeCXDmnSNl3NAvpQsEcz7SNrMZ4HCJgfvCoKjSCUc7lawItQlJq0WgAikPqWgIIsTxs3uQ5daPxzEoQ0EFEm8fVIA84nvWGv1ofLnv6F3vsOV2ixhZffsnzZDrKdaa1W0iEdryAzyUVSgKXbeaVNKHTPSvNfHqor",
+              "received": false
+            }
+          ],
+          "total_price": 70448,
+          "delivery": null,
+          "changedOn": "2025-12-21T19:56:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
