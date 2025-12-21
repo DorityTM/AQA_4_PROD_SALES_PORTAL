@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 20:02:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3671",
+    "etag": "W/\"e57-5aJlaVHDOFXRZhdtDrn3W9Lrm4U\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6948526a1c508c5d5eec033e",
+      "status": "In Process",
+      "customer": {
+        "_id": "694852681c508c5d5eec01f1",
+        "email": "Earnestine99@gmail.com",
+        "name": "Neal Hoppe",
+        "country": "Great Britain",
+        "city": "West Garfield",
+        "street": "Lue Rest 90",
+        "house": 62,
+        "flat": 9845,
+        "phone": "+552267370253600",
+        "createdOn": "2025-12-21T20:02:48.000Z",
+        "notes": "YkcsCVBRSjR78ULYxvF3lr3W9zsn2R"
+      },
+      "products": [
+        {
+          "_id": "694852691c508c5d5eec031f",
+          "name": "Keyboard86655",
+          "amount": 245,
+          "price": 7346,
+          "manufacturer": "Google",
+          "notes": "PnQVzDVlgrljRUgNO9bpvp1STywrYG2YiPm525Hg7MjMCvQX370MWnUMyMb5CYK2bSvzPGXz3Dj7ifXRbAHR1aNMWsoYW7q20wwPIeHgWyWdMjf5lPrmCMTbwKoy9VJg5w9M8cuuyh8J1kjIDDN6AHqZPcVBrk8FtYl4kC90FLhZIGWcEzzr5RE49YcjHt66OpEl2t0M9jMf7tTaDEe0TaTMlCZ17VFukssIgzz4JRsfwDNa3zqL9jtAfs",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Bountiful",
+          "street": "Oak Road",
+          "house": 555,
+          "flat": 8595
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7346,
+      "createdOn": "2025-12-21T20:02:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694852681c508c5d5eec01f1",
+          "products": [
+            {
+              "_id": "694852691c508c5d5eec031f",
+              "name": "Keyboard86655",
+              "amount": 245,
+              "price": 7346,
+              "manufacturer": "Google",
+              "notes": "PnQVzDVlgrljRUgNO9bpvp1STywrYG2YiPm525Hg7MjMCvQX370MWnUMyMb5CYK2bSvzPGXz3Dj7ifXRbAHR1aNMWsoYW7q20wwPIeHgWyWdMjf5lPrmCMTbwKoy9VJg5w9M8cuuyh8J1kjIDDN6AHqZPcVBrk8FtYl4kC90FLhZIGWcEzzr5RE49YcjHt66OpEl2t0M9jMf7tTaDEe0TaTMlCZ17VFukssIgzz4JRsfwDNa3zqL9jtAfs",
+              "received": false
+            }
+          ],
+          "total_price": 7346,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Bountiful",
+              "street": "Oak Road",
+              "house": 555,
+              "flat": 8595
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T20:02:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694852681c508c5d5eec01f1",
+          "products": [
+            {
+              "_id": "694852691c508c5d5eec031f",
+              "name": "Keyboard86655",
+              "amount": 245,
+              "price": 7346,
+              "manufacturer": "Google",
+              "notes": "PnQVzDVlgrljRUgNO9bpvp1STywrYG2YiPm525Hg7MjMCvQX370MWnUMyMb5CYK2bSvzPGXz3Dj7ifXRbAHR1aNMWsoYW7q20wwPIeHgWyWdMjf5lPrmCMTbwKoy9VJg5w9M8cuuyh8J1kjIDDN6AHqZPcVBrk8FtYl4kC90FLhZIGWcEzzr5RE49YcjHt66OpEl2t0M9jMf7tTaDEe0TaTMlCZ17VFukssIgzz4JRsfwDNa3zqL9jtAfs",
+              "received": false
+            }
+          ],
+          "total_price": 7346,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Bountiful",
+              "street": "Oak Road",
+              "house": 555,
+              "flat": 8595
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T20:02:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694852681c508c5d5eec01f1",
+          "products": [
+            {
+              "_id": "694852691c508c5d5eec031f",
+              "name": "Keyboard86655",
+              "amount": 245,
+              "price": 7346,
+              "manufacturer": "Google",
+              "notes": "PnQVzDVlgrljRUgNO9bpvp1STywrYG2YiPm525Hg7MjMCvQX370MWnUMyMb5CYK2bSvzPGXz3Dj7ifXRbAHR1aNMWsoYW7q20wwPIeHgWyWdMjf5lPrmCMTbwKoy9VJg5w9M8cuuyh8J1kjIDDN6AHqZPcVBrk8FtYl4kC90FLhZIGWcEzzr5RE49YcjHt66OpEl2t0M9jMf7tTaDEe0TaTMlCZ17VFukssIgzz4JRsfwDNa3zqL9jtAfs",
+              "received": false
+            }
+          ],
+          "total_price": 7346,
+          "delivery": null,
+          "changedOn": "2025-12-21T20:02:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

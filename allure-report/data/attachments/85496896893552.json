@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 20:00:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2744",
+    "etag": "W/\"ab8-QrFXJXzA/ZPJah566qF3gquqwbU\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694851dc1c508c5d5eeba6d9",
+      "status": "Draft",
+      "customer": {
+        "_id": "694851da1c508c5d5eeba597",
+        "email": "Lonie.Jones@hotmail.com",
+        "name": "Fred Douglas",
+        "country": "USA",
+        "city": "South Bart",
+        "street": "Beech Grove 81",
+        "house": 85,
+        "flat": 5614,
+        "phone": "+182115804151376",
+        "createdOn": "2025-12-21T20:00:26.000Z",
+        "notes": "2e8xxmBOuF8YhPZq7F4mTgdS58NRqC"
+      },
+      "products": [
+        {
+          "_id": "694851dc1c508c5d5eeba6af",
+          "name": "Car87190",
+          "amount": 717,
+          "price": 15918,
+          "manufacturer": "Amazon",
+          "notes": "nO3LR4pVq7u38ZyJ6sBZYnFYDavPRLMZ2CPZs0udCIBP0kylLiBJfRLQuFtupUzrCq8zFnbVY7k5OrH2Nn1GByUQ7Vi4z5HtfUdtKFyyg0BKFrMWOqasL2R0wSKuaBAt3eOBdBf4zDVYXi1cXcxMx39a5dQu9Gu9co0jLHTxheKIHgTW4mFEdgEE8C7TEaFUbZncPTWV3x886HsBWhvd5qppVDLt7I8zNU9Q05g5TuRAKG7ElMOlg9kuaw",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "East Valentine",
+          "street": "Tamara Bridge",
+          "house": 575,
+          "flat": 7669
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15918,
+      "createdOn": "2025-12-21T20:00:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694851da1c508c5d5eeba597",
+          "products": [
+            {
+              "_id": "694851dc1c508c5d5eeba6af",
+              "name": "Car87190",
+              "amount": 717,
+              "price": 15918,
+              "manufacturer": "Amazon",
+              "notes": "nO3LR4pVq7u38ZyJ6sBZYnFYDavPRLMZ2CPZs0udCIBP0kylLiBJfRLQuFtupUzrCq8zFnbVY7k5OrH2Nn1GByUQ7Vi4z5HtfUdtKFyyg0BKFrMWOqasL2R0wSKuaBAt3eOBdBf4zDVYXi1cXcxMx39a5dQu9Gu9co0jLHTxheKIHgTW4mFEdgEE8C7TEaFUbZncPTWV3x886HsBWhvd5qppVDLt7I8zNU9Q05g5TuRAKG7ElMOlg9kuaw",
+              "received": false
+            }
+          ],
+          "total_price": 15918,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Valentine",
+              "street": "Tamara Bridge",
+              "house": 575,
+              "flat": 7669
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T20:00:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694851da1c508c5d5eeba597",
+          "products": [
+            {
+              "_id": "694851dc1c508c5d5eeba6af",
+              "name": "Car87190",
+              "amount": 717,
+              "price": 15918,
+              "manufacturer": "Amazon",
+              "notes": "nO3LR4pVq7u38ZyJ6sBZYnFYDavPRLMZ2CPZs0udCIBP0kylLiBJfRLQuFtupUzrCq8zFnbVY7k5OrH2Nn1GByUQ7Vi4z5HtfUdtKFyyg0BKFrMWOqasL2R0wSKuaBAt3eOBdBf4zDVYXi1cXcxMx39a5dQu9Gu9co0jLHTxheKIHgTW4mFEdgEE8C7TEaFUbZncPTWV3x886HsBWhvd5qppVDLt7I8zNU9Q05g5TuRAKG7ElMOlg9kuaw",
+              "received": false
+            }
+          ],
+          "total_price": 15918,
+          "delivery": null,
+          "changedOn": "2025-12-21T20:00:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

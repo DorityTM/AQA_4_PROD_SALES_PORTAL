@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 20:01:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3667",
+    "etag": "W/\"e53-q+w5ptr4mSsM4qJuRulcUZuC7vg\"",
+    "keep-alive": "timeout=5, max=13",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694852131c508c5d5eebc9b2",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694852121c508c5d5eebc88c",
+        "email": "Tina_Treutel95@yahoo.com",
+        "name": "Garret Muller",
+        "country": "Belarus",
+        "city": "Lake Gustaveworth",
+        "street": "Clarence Road 47",
+        "house": 877,
+        "flat": 9229,
+        "phone": "+568511255979085",
+        "createdOn": "2025-12-21T20:01:22.000Z",
+        "notes": "u8enSY6Q9Sxx8fk1bfVOVpK1qaHUDV"
+      },
+      "products": [
+        {
+          "_id": "694852121c508c5d5eebc899",
+          "name": "Pants79910",
+          "amount": 623,
+          "price": 51981,
+          "manufacturer": "Tesla",
+          "notes": "5XfAjn1ByZVpCOVThfrb0oK3ItZMl2reK1i4DaQZuIqrgzrpWQtzuBe2DEIaB0UvTA8mvRswvotNLi0nWv2m1h92mJZ7Zvr4unsDCvLMZo7cSsZhaER3R0YTEbhiZ4artJ4R5HIPMTC9eIlbOWj86D5aq3osi28bsgz7fuTvU2Neri0xQ92bhrGl9fhIAd91m0ZeGQMmPRemm4BrdVL4Pt1WF41jPJLxjjPBplZTPPdvO8RtQE3suTxV3y",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Russelton",
+          "street": "S Jackson Street",
+          "house": 781,
+          "flat": 204
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51981,
+      "createdOn": "2025-12-21T20:01:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694852121c508c5d5eebc88c",
+          "products": [
+            {
+              "_id": "694852121c508c5d5eebc899",
+              "name": "Pants79910",
+              "amount": 623,
+              "price": 51981,
+              "manufacturer": "Tesla",
+              "notes": "5XfAjn1ByZVpCOVThfrb0oK3ItZMl2reK1i4DaQZuIqrgzrpWQtzuBe2DEIaB0UvTA8mvRswvotNLi0nWv2m1h92mJZ7Zvr4unsDCvLMZo7cSsZhaER3R0YTEbhiZ4artJ4R5HIPMTC9eIlbOWj86D5aq3osi28bsgz7fuTvU2Neri0xQ92bhrGl9fhIAd91m0ZeGQMmPRemm4BrdVL4Pt1WF41jPJLxjjPBplZTPPdvO8RtQE3suTxV3y",
+              "received": false
+            }
+          ],
+          "total_price": 51981,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Russelton",
+              "street": "S Jackson Street",
+              "house": 781,
+              "flat": 204
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T20:01:25.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694852121c508c5d5eebc88c",
+          "products": [
+            {
+              "_id": "694852121c508c5d5eebc899",
+              "name": "Pants79910",
+              "amount": 623,
+              "price": 51981,
+              "manufacturer": "Tesla",
+              "notes": "5XfAjn1ByZVpCOVThfrb0oK3ItZMl2reK1i4DaQZuIqrgzrpWQtzuBe2DEIaB0UvTA8mvRswvotNLi0nWv2m1h92mJZ7Zvr4unsDCvLMZo7cSsZhaER3R0YTEbhiZ4artJ4R5HIPMTC9eIlbOWj86D5aq3osi28bsgz7fuTvU2Neri0xQ92bhrGl9fhIAd91m0ZeGQMmPRemm4BrdVL4Pt1WF41jPJLxjjPBplZTPPdvO8RtQE3suTxV3y",
+              "received": false
+            }
+          ],
+          "total_price": 51981,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Russelton",
+              "street": "S Jackson Street",
+              "house": 781,
+              "flat": 204
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T20:01:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694852121c508c5d5eebc88c",
+          "products": [
+            {
+              "_id": "694852121c508c5d5eebc899",
+              "name": "Pants79910",
+              "amount": 623,
+              "price": 51981,
+              "manufacturer": "Tesla",
+              "notes": "5XfAjn1ByZVpCOVThfrb0oK3ItZMl2reK1i4DaQZuIqrgzrpWQtzuBe2DEIaB0UvTA8mvRswvotNLi0nWv2m1h92mJZ7Zvr4unsDCvLMZo7cSsZhaER3R0YTEbhiZ4artJ4R5HIPMTC9eIlbOWj86D5aq3osi28bsgz7fuTvU2Neri0xQ92bhrGl9fhIAd91m0ZeGQMmPRemm4BrdVL4Pt1WF41jPJLxjjPBplZTPPdvO8RtQE3suTxV3y",
+              "received": false
+            }
+          ],
+          "total_price": 51981,
+          "delivery": null,
+          "changedOn": "2025-12-21T20:01:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
