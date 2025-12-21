@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 11:48:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3625",
+    "etag": "W/\"e29-N0hKpJC2MR1SVocq5LBV2gvpom8\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947de811c508c5d5ee7efeb",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6947de801c508c5d5ee7ef15",
+        "email": "Viva_Batz@gmail.com",
+        "name": "Elwin Hudson",
+        "country": "USA",
+        "city": "Deondreborough",
+        "street": "Broad Lane 10",
+        "house": 242,
+        "flat": 6870,
+        "phone": "+291882914642145",
+        "createdOn": "2025-12-21T11:48:16.000Z",
+        "notes": "LBpcsgkuzDIRlEjilLguC0vVD2dec7"
+      },
+      "products": [
+        {
+          "_id": "6947de811c508c5d5ee7efc5",
+          "name": "Hat5026",
+          "amount": 440,
+          "price": 58976,
+          "manufacturer": "Amazon",
+          "notes": "Y2fQdfcwPkAdhqdhmCXAURcwg2zYWYlqAqvLBxknb8T337A4NgZSNIiNZ1cjjeBxM8RqS3aCiKvXwaxxOyBOgE1nPsJjxWIMju8Fo7n4yqkoy10SYuMbOJkm7jr3NjxMyakT8s2Uo90DkHdmawcofAlolADdJBqAlEFiy4xqm7xCXQDEQ0sXsjvlNAIJv8a6DtkcEAajZlsEaEPfsQPMD16q06pslOEop5zpzWBGVazMXLgVwNr3Q7hlRc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Sophiefurt",
+          "street": "Main",
+          "house": 980,
+          "flat": 5479
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58976,
+      "createdOn": "2025-12-21T11:48:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6947de801c508c5d5ee7ef15",
+          "products": [
+            {
+              "_id": "6947de811c508c5d5ee7efc5",
+              "name": "Hat5026",
+              "amount": 440,
+              "price": 58976,
+              "manufacturer": "Amazon",
+              "notes": "Y2fQdfcwPkAdhqdhmCXAURcwg2zYWYlqAqvLBxknb8T337A4NgZSNIiNZ1cjjeBxM8RqS3aCiKvXwaxxOyBOgE1nPsJjxWIMju8Fo7n4yqkoy10SYuMbOJkm7jr3NjxMyakT8s2Uo90DkHdmawcofAlolADdJBqAlEFiy4xqm7xCXQDEQ0sXsjvlNAIJv8a6DtkcEAajZlsEaEPfsQPMD16q06pslOEop5zpzWBGVazMXLgVwNr3Q7hlRc",
+              "received": false
+            }
+          ],
+          "total_price": 58976,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Sophiefurt",
+              "street": "Main",
+              "house": 980,
+              "flat": 5479
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:48:20.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de801c508c5d5ee7ef15",
+          "products": [
+            {
+              "_id": "6947de811c508c5d5ee7efc5",
+              "name": "Hat5026",
+              "amount": 440,
+              "price": 58976,
+              "manufacturer": "Amazon",
+              "notes": "Y2fQdfcwPkAdhqdhmCXAURcwg2zYWYlqAqvLBxknb8T337A4NgZSNIiNZ1cjjeBxM8RqS3aCiKvXwaxxOyBOgE1nPsJjxWIMju8Fo7n4yqkoy10SYuMbOJkm7jr3NjxMyakT8s2Uo90DkHdmawcofAlolADdJBqAlEFiy4xqm7xCXQDEQ0sXsjvlNAIJv8a6DtkcEAajZlsEaEPfsQPMD16q06pslOEop5zpzWBGVazMXLgVwNr3Q7hlRc",
+              "received": false
+            }
+          ],
+          "total_price": 58976,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Sophiefurt",
+              "street": "Main",
+              "house": 980,
+              "flat": 5479
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:48:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de801c508c5d5ee7ef15",
+          "products": [
+            {
+              "_id": "6947de811c508c5d5ee7efc5",
+              "name": "Hat5026",
+              "amount": 440,
+              "price": 58976,
+              "manufacturer": "Amazon",
+              "notes": "Y2fQdfcwPkAdhqdhmCXAURcwg2zYWYlqAqvLBxknb8T337A4NgZSNIiNZ1cjjeBxM8RqS3aCiKvXwaxxOyBOgE1nPsJjxWIMju8Fo7n4yqkoy10SYuMbOJkm7jr3NjxMyakT8s2Uo90DkHdmawcofAlolADdJBqAlEFiy4xqm7xCXQDEQ0sXsjvlNAIJv8a6DtkcEAajZlsEaEPfsQPMD16q06pslOEop5zpzWBGVazMXLgVwNr3Q7hlRc",
+              "received": false
+            }
+          ],
+          "total_price": 58976,
+          "delivery": null,
+          "changedOn": "2025-12-21T11:48:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

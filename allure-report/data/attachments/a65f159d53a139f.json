@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 11:48:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3648",
+    "etag": "W/\"e40-EhblneOchTyBQpxEVl4VtMExsEQ\"",
+    "keep-alive": "timeout=5, max=33",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947de8d1c508c5d5ee7f613",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6947de8c1c508c5d5ee7f5d0",
+        "email": "Delia64@gmail.com",
+        "name": "Willis Shanahan",
+        "country": "Great Britain",
+        "city": "Florissant",
+        "street": "Brycen Mews 77",
+        "house": 312,
+        "flat": 4176,
+        "phone": "+827460170785341",
+        "createdOn": "2025-12-21T11:48:28.000Z",
+        "notes": "qifosNyeMWoHa01UqSHiPXGBFozId0"
+      },
+      "products": [
+        {
+          "_id": "6947de8c1c508c5d5ee7f5ee",
+          "name": "Bike94085",
+          "amount": 135,
+          "price": 46629,
+          "manufacturer": "Sony",
+          "notes": "EPx2vnIIE8M4nupP2XBdzZQpTlCeXjefva0CW15JK6w0qL66etp5Wh0UR3BYGcYW2c0Fzxy9G3OyyulBjGlHGBjGt32LA3PqSqifiE3jYogamp5T5RXUneLDjAhJRnIxWG0WTim0qf4lOfxayQauDxKU3M2rceXRvAO9vYymQd6TxT9C5LR8Nl6VHT7cwXBaam3T8DOPaMCCurnTQYGfd9cRhzrFeew7blSLotKfBvHwYGVJmufvPka7zv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Vallejo",
+          "street": "Main Street N",
+          "house": 530,
+          "flat": 8309
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 46629,
+      "createdOn": "2025-12-21T11:48:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6947de8c1c508c5d5ee7f5d0",
+          "products": [
+            {
+              "_id": "6947de8c1c508c5d5ee7f5ee",
+              "name": "Bike94085",
+              "amount": 135,
+              "price": 46629,
+              "manufacturer": "Sony",
+              "notes": "EPx2vnIIE8M4nupP2XBdzZQpTlCeXjefva0CW15JK6w0qL66etp5Wh0UR3BYGcYW2c0Fzxy9G3OyyulBjGlHGBjGt32LA3PqSqifiE3jYogamp5T5RXUneLDjAhJRnIxWG0WTim0qf4lOfxayQauDxKU3M2rceXRvAO9vYymQd6TxT9C5LR8Nl6VHT7cwXBaam3T8DOPaMCCurnTQYGfd9cRhzrFeew7blSLotKfBvHwYGVJmufvPka7zv",
+              "received": false
+            }
+          ],
+          "total_price": 46629,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Vallejo",
+              "street": "Main Street N",
+              "house": 530,
+              "flat": 8309
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:48:30.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de8c1c508c5d5ee7f5d0",
+          "products": [
+            {
+              "_id": "6947de8c1c508c5d5ee7f5ee",
+              "name": "Bike94085",
+              "amount": 135,
+              "price": 46629,
+              "manufacturer": "Sony",
+              "notes": "EPx2vnIIE8M4nupP2XBdzZQpTlCeXjefva0CW15JK6w0qL66etp5Wh0UR3BYGcYW2c0Fzxy9G3OyyulBjGlHGBjGt32LA3PqSqifiE3jYogamp5T5RXUneLDjAhJRnIxWG0WTim0qf4lOfxayQauDxKU3M2rceXRvAO9vYymQd6TxT9C5LR8Nl6VHT7cwXBaam3T8DOPaMCCurnTQYGfd9cRhzrFeew7blSLotKfBvHwYGVJmufvPka7zv",
+              "received": false
+            }
+          ],
+          "total_price": 46629,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Vallejo",
+              "street": "Main Street N",
+              "house": 530,
+              "flat": 8309
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:48:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de8c1c508c5d5ee7f5d0",
+          "products": [
+            {
+              "_id": "6947de8c1c508c5d5ee7f5ee",
+              "name": "Bike94085",
+              "amount": 135,
+              "price": 46629,
+              "manufacturer": "Sony",
+              "notes": "EPx2vnIIE8M4nupP2XBdzZQpTlCeXjefva0CW15JK6w0qL66etp5Wh0UR3BYGcYW2c0Fzxy9G3OyyulBjGlHGBjGt32LA3PqSqifiE3jYogamp5T5RXUneLDjAhJRnIxWG0WTim0qf4lOfxayQauDxKU3M2rceXRvAO9vYymQd6TxT9C5LR8Nl6VHT7cwXBaam3T8DOPaMCCurnTQYGfd9cRhzrFeew7blSLotKfBvHwYGVJmufvPka7zv",
+              "received": false
+            }
+          ],
+          "total_price": 46629,
+          "delivery": null,
+          "changedOn": "2025-12-21T11:48:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

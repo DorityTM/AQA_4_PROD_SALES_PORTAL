@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 11:48:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-MldUXr6cUKQBRvDnJIilEaBj+ok\"",
+    "keep-alive": "timeout=5, max=44",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947de831c508c5d5ee7f0c4",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6947de811c508c5d5ee7efed",
+        "email": "Darrion_Jenkins@hotmail.com",
+        "name": "Charlie Lubowitz",
+        "country": "France",
+        "city": "Fort Joan",
+        "street": "S College Street 53",
+        "house": 976,
+        "flat": 9432,
+        "phone": "+025734931573068",
+        "createdOn": "2025-12-21T11:48:17.000Z",
+        "notes": "71ywLXR5Zyt8lhyHkAPow540BmFwuS"
+      },
+      "products": [
+        {
+          "_id": "6947de821c508c5d5ee7f010",
+          "name": "Bacon47002",
+          "amount": 61,
+          "price": 85487,
+          "manufacturer": "Samsung",
+          "notes": "gJZm3VrYeWt25hZdbO1OIE2OxOceaCQa2dOlw8EjthVUVzUzFA0XACnajov3ESuVjxdSdc5nQwhwMYMSmE85F4Jq1dXjFUUe94EFg16FizhQlFZ2JN5hfPTybPnfaoKL164ClNfy8AYSYucsC4Gf0niaMwrE9g9yJ64y3bqnrlR8fXyigSzmbN1Es2mbHogoX9U9byM9N95PjgU6y66HLBT7TNg7myNAeiDIHYJq5RLoNKptsRIQlQGbpH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "West Webster",
+          "street": "German Orchard",
+          "house": 882,
+          "flat": 2426
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 85487,
+      "createdOn": "2025-12-21T11:48:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6947de811c508c5d5ee7efed",
+          "products": [
+            {
+              "_id": "6947de821c508c5d5ee7f010",
+              "name": "Bacon47002",
+              "amount": 61,
+              "price": 85487,
+              "manufacturer": "Samsung",
+              "notes": "gJZm3VrYeWt25hZdbO1OIE2OxOceaCQa2dOlw8EjthVUVzUzFA0XACnajov3ESuVjxdSdc5nQwhwMYMSmE85F4Jq1dXjFUUe94EFg16FizhQlFZ2JN5hfPTybPnfaoKL164ClNfy8AYSYucsC4Gf0niaMwrE9g9yJ64y3bqnrlR8fXyigSzmbN1Es2mbHogoX9U9byM9N95PjgU6y66HLBT7TNg7myNAeiDIHYJq5RLoNKptsRIQlQGbpH",
+              "received": false
+            }
+          ],
+          "total_price": 85487,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Webster",
+              "street": "German Orchard",
+              "house": 882,
+              "flat": 2426
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:48:21.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de811c508c5d5ee7efed",
+          "products": [
+            {
+              "_id": "6947de821c508c5d5ee7f010",
+              "name": "Bacon47002",
+              "amount": 61,
+              "price": 85487,
+              "manufacturer": "Samsung",
+              "notes": "gJZm3VrYeWt25hZdbO1OIE2OxOceaCQa2dOlw8EjthVUVzUzFA0XACnajov3ESuVjxdSdc5nQwhwMYMSmE85F4Jq1dXjFUUe94EFg16FizhQlFZ2JN5hfPTybPnfaoKL164ClNfy8AYSYucsC4Gf0niaMwrE9g9yJ64y3bqnrlR8fXyigSzmbN1Es2mbHogoX9U9byM9N95PjgU6y66HLBT7TNg7myNAeiDIHYJq5RLoNKptsRIQlQGbpH",
+              "received": false
+            }
+          ],
+          "total_price": 85487,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Webster",
+              "street": "German Orchard",
+              "house": 882,
+              "flat": 2426
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:48:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de811c508c5d5ee7efed",
+          "products": [
+            {
+              "_id": "6947de821c508c5d5ee7f010",
+              "name": "Bacon47002",
+              "amount": 61,
+              "price": 85487,
+              "manufacturer": "Samsung",
+              "notes": "gJZm3VrYeWt25hZdbO1OIE2OxOceaCQa2dOlw8EjthVUVzUzFA0XACnajov3ESuVjxdSdc5nQwhwMYMSmE85F4Jq1dXjFUUe94EFg16FizhQlFZ2JN5hfPTybPnfaoKL164ClNfy8AYSYucsC4Gf0niaMwrE9g9yJ64y3bqnrlR8fXyigSzmbN1Es2mbHogoX9U9byM9N95PjgU6y66HLBT7TNg7myNAeiDIHYJq5RLoNKptsRIQlQGbpH",
+              "received": false
+            }
+          ],
+          "total_price": 85487,
+          "delivery": null,
+          "changedOn": "2025-12-21T11:48:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

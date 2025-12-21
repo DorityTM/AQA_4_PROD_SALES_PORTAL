@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 11:47:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3680",
+    "etag": "W/\"e60-P0DDfdve84kvS3zmUoG0qjbjZUU\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947de651c508c5d5ee7df34",
+      "status": "In Process",
+      "customer": {
+        "_id": "6947de641c508c5d5ee7defb",
+        "email": "Kale_Rice@gmail.com",
+        "name": "Josianne Okuneva",
+        "country": "Russia",
+        "city": "Port Lilaport",
+        "street": "Willa Villages 80",
+        "house": 708,
+        "flat": 7068,
+        "phone": "+727668393264276",
+        "createdOn": "2025-12-21T11:47:48.000Z",
+        "notes": "vDps9Y9BQiGBaNF3H2UbOvaWH0w2fR"
+      },
+      "products": [
+        {
+          "_id": "6947de651c508c5d5ee7df16",
+          "name": "Bacon98651",
+          "amount": 34,
+          "price": 9754,
+          "manufacturer": "Samsung",
+          "notes": "Hp2dI7RkIQFBSNUTBdPaW9i7ygkI4cvx8wjzxgdwYojMMbVHO4cn210d9UMAnMR9iZKc1zBAdC4y3HgEs6vlFM0I7w0wXf6F0oHQkxkLqHRq6ME3l5G1tjBaurK6GIZ9TaiBssZ5hWvYhhwryLJTdoX7b2riE3aiZtvaxWhzsyqxtIDRHBokFcmncO9JAT03vlSelSZOg5Z8w1VHpqSXfiUuyxWfRjRCFKzbrpM4DXTxTh9NJcP6SawlDW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Amelyview",
+          "street": "Franklin Avenue",
+          "house": 917,
+          "flat": 6863
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 9754,
+      "createdOn": "2025-12-21T11:47:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6947de641c508c5d5ee7defb",
+          "products": [
+            {
+              "_id": "6947de651c508c5d5ee7df16",
+              "name": "Bacon98651",
+              "amount": 34,
+              "price": 9754,
+              "manufacturer": "Samsung",
+              "notes": "Hp2dI7RkIQFBSNUTBdPaW9i7ygkI4cvx8wjzxgdwYojMMbVHO4cn210d9UMAnMR9iZKc1zBAdC4y3HgEs6vlFM0I7w0wXf6F0oHQkxkLqHRq6ME3l5G1tjBaurK6GIZ9TaiBssZ5hWvYhhwryLJTdoX7b2riE3aiZtvaxWhzsyqxtIDRHBokFcmncO9JAT03vlSelSZOg5Z8w1VHpqSXfiUuyxWfRjRCFKzbrpM4DXTxTh9NJcP6SawlDW",
+              "received": false
+            }
+          ],
+          "total_price": 9754,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Amelyview",
+              "street": "Franklin Avenue",
+              "house": 917,
+              "flat": 6863
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:47:51.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de641c508c5d5ee7defb",
+          "products": [
+            {
+              "_id": "6947de651c508c5d5ee7df16",
+              "name": "Bacon98651",
+              "amount": 34,
+              "price": 9754,
+              "manufacturer": "Samsung",
+              "notes": "Hp2dI7RkIQFBSNUTBdPaW9i7ygkI4cvx8wjzxgdwYojMMbVHO4cn210d9UMAnMR9iZKc1zBAdC4y3HgEs6vlFM0I7w0wXf6F0oHQkxkLqHRq6ME3l5G1tjBaurK6GIZ9TaiBssZ5hWvYhhwryLJTdoX7b2riE3aiZtvaxWhzsyqxtIDRHBokFcmncO9JAT03vlSelSZOg5Z8w1VHpqSXfiUuyxWfRjRCFKzbrpM4DXTxTh9NJcP6SawlDW",
+              "received": false
+            }
+          ],
+          "total_price": 9754,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Amelyview",
+              "street": "Franklin Avenue",
+              "house": 917,
+              "flat": 6863
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:47:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de641c508c5d5ee7defb",
+          "products": [
+            {
+              "_id": "6947de651c508c5d5ee7df16",
+              "name": "Bacon98651",
+              "amount": 34,
+              "price": 9754,
+              "manufacturer": "Samsung",
+              "notes": "Hp2dI7RkIQFBSNUTBdPaW9i7ygkI4cvx8wjzxgdwYojMMbVHO4cn210d9UMAnMR9iZKc1zBAdC4y3HgEs6vlFM0I7w0wXf6F0oHQkxkLqHRq6ME3l5G1tjBaurK6GIZ9TaiBssZ5hWvYhhwryLJTdoX7b2riE3aiZtvaxWhzsyqxtIDRHBokFcmncO9JAT03vlSelSZOg5Z8w1VHpqSXfiUuyxWfRjRCFKzbrpM4DXTxTh9NJcP6SawlDW",
+              "received": false
+            }
+          ],
+          "total_price": 9754,
+          "delivery": null,
+          "changedOn": "2025-12-21T11:47:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

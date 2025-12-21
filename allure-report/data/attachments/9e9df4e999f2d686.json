@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 11:49:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4663",
+    "etag": "W/\"1237-v2aBgdDhy82lGJU2U2o7UQhTgE0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947dec61c508c5d5ee81a35",
+      "status": "Received",
+      "customer": {
+        "_id": "6947dec51c508c5d5ee819eb",
+        "email": "Darryl_Weissnat@gmail.com",
+        "name": "Judson Bogisich",
+        "country": "Germany",
+        "city": "North Betsytown",
+        "street": "Carter Lake 21",
+        "house": 267,
+        "flat": 3800,
+        "phone": "+107247513541731",
+        "createdOn": "2025-12-21T11:49:25.000Z",
+        "notes": "X6HAHblU8vRxbqY9jA1Zc1Mj4UgYYj"
+      },
+      "products": [
+        {
+          "_id": "6947dec51c508c5d5ee81a04",
+          "name": "Ball28996",
+          "amount": 580,
+          "price": 35994,
+          "manufacturer": "Microsoft",
+          "notes": "QCXgcLqWEeX3vHviMqrD1zj1FWwGEobbmYj7lbkPqaFC5It2C90iGr1DQDviF7PfaeQUvpQXVOdQlNGq4knS1T869nV5W13fDbsrzqEoiX3qyx9fUEfsBuNCJJP8Om8P4AG8GWvSm9uR7dk2PRnLy6DhBBwrx4oQuyo1BTM1ofhZRuJMbLWb6HqEem8hRkaiN3rcFRi4BcAXap7sh1W3pX8vCMKab4spfKsJT4mcaSG2EQTa3w6pUwvDrM",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Minneapolis",
+          "street": "Wiley Extensions",
+          "house": 558,
+          "flat": 1148
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 35994,
+      "createdOn": "2025-12-21T11:49:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6947dec51c508c5d5ee819eb",
+          "products": [
+            {
+              "_id": "6947dec51c508c5d5ee81a04",
+              "name": "Ball28996",
+              "amount": 580,
+              "price": 35994,
+              "manufacturer": "Microsoft",
+              "notes": "QCXgcLqWEeX3vHviMqrD1zj1FWwGEobbmYj7lbkPqaFC5It2C90iGr1DQDviF7PfaeQUvpQXVOdQlNGq4knS1T869nV5W13fDbsrzqEoiX3qyx9fUEfsBuNCJJP8Om8P4AG8GWvSm9uR7dk2PRnLy6DhBBwrx4oQuyo1BTM1ofhZRuJMbLWb6HqEem8hRkaiN3rcFRi4BcAXap7sh1W3pX8vCMKab4spfKsJT4mcaSG2EQTa3w6pUwvDrM",
+              "received": true
+            }
+          ],
+          "total_price": 35994,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Minneapolis",
+              "street": "Wiley Extensions",
+              "house": 558,
+              "flat": 1148
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:49:28.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6947dec51c508c5d5ee819eb",
+          "products": [
+            {
+              "_id": "6947dec51c508c5d5ee81a04",
+              "name": "Ball28996",
+              "amount": 580,
+              "price": 35994,
+              "manufacturer": "Microsoft",
+              "notes": "QCXgcLqWEeX3vHviMqrD1zj1FWwGEobbmYj7lbkPqaFC5It2C90iGr1DQDviF7PfaeQUvpQXVOdQlNGq4knS1T869nV5W13fDbsrzqEoiX3qyx9fUEfsBuNCJJP8Om8P4AG8GWvSm9uR7dk2PRnLy6DhBBwrx4oQuyo1BTM1ofhZRuJMbLWb6HqEem8hRkaiN3rcFRi4BcAXap7sh1W3pX8vCMKab4spfKsJT4mcaSG2EQTa3w6pUwvDrM",
+              "received": false
+            }
+          ],
+          "total_price": 35994,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Minneapolis",
+              "street": "Wiley Extensions",
+              "house": 558,
+              "flat": 1148
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:49:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947dec51c508c5d5ee819eb",
+          "products": [
+            {
+              "_id": "6947dec51c508c5d5ee81a04",
+              "name": "Ball28996",
+              "amount": 580,
+              "price": 35994,
+              "manufacturer": "Microsoft",
+              "notes": "QCXgcLqWEeX3vHviMqrD1zj1FWwGEobbmYj7lbkPqaFC5It2C90iGr1DQDviF7PfaeQUvpQXVOdQlNGq4knS1T869nV5W13fDbsrzqEoiX3qyx9fUEfsBuNCJJP8Om8P4AG8GWvSm9uR7dk2PRnLy6DhBBwrx4oQuyo1BTM1ofhZRuJMbLWb6HqEem8hRkaiN3rcFRi4BcAXap7sh1W3pX8vCMKab4spfKsJT4mcaSG2EQTa3w6pUwvDrM",
+              "received": false
+            }
+          ],
+          "total_price": 35994,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Minneapolis",
+              "street": "Wiley Extensions",
+              "house": 558,
+              "flat": 1148
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:49:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947dec51c508c5d5ee819eb",
+          "products": [
+            {
+              "_id": "6947dec51c508c5d5ee81a04",
+              "name": "Ball28996",
+              "amount": 580,
+              "price": 35994,
+              "manufacturer": "Microsoft",
+              "notes": "QCXgcLqWEeX3vHviMqrD1zj1FWwGEobbmYj7lbkPqaFC5It2C90iGr1DQDviF7PfaeQUvpQXVOdQlNGq4knS1T869nV5W13fDbsrzqEoiX3qyx9fUEfsBuNCJJP8Om8P4AG8GWvSm9uR7dk2PRnLy6DhBBwrx4oQuyo1BTM1ofhZRuJMbLWb6HqEem8hRkaiN3rcFRi4BcAXap7sh1W3pX8vCMKab4spfKsJT4mcaSG2EQTa3w6pUwvDrM",
+              "received": false
+            }
+          ],
+          "total_price": 35994,
+          "delivery": null,
+          "changedOn": "2025-12-21T11:49:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

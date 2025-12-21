@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 11:47:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2760",
+    "etag": "W/\"ac8-+mHMAIMGNQCWuY0DtxxgG96LRy4\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947de691c508c5d5ee7e16b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6947de681c508c5d5ee7e11b",
+        "email": "Bettye_Koch19@hotmail.com",
+        "name": "Vincenza Krajcik",
+        "country": "USA",
+        "city": "Elouiseberg",
+        "street": "School Lane 98",
+        "house": 284,
+        "flat": 8124,
+        "phone": "+353481098620049",
+        "createdOn": "2025-12-21T11:47:52.000Z",
+        "notes": "sE3Tr46T7Wo4Ux2jneJoCnFMScfL7O"
+      },
+      "products": [
+        {
+          "_id": "6947de691c508c5d5ee7e144",
+          "name": "Towels9635",
+          "amount": 67,
+          "price": 19352,
+          "manufacturer": "Microsoft",
+          "notes": "PN1rA6isgcbDat2tgNMbCqwFDeAPjrTZ9gaqTSND8lqnQDkp4FxQ8gup6kisMKACcUVQ2A6biuOCtUvrff7KKpXcR8CXx2i16BTME4VOEFWtnM24hgmgTD3pF134H9ZsjPTO2wXvGgGuv9wK7O1cSN7TLA36kKNpPgnKSXIcfsveHuG9BodFhMpcrTJNW6kZmmvecUdPKSS8BBbHLK0G8GE8OPjFIBC7EQQ8AKLFlqit2WFJl4rcEzCZsk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "East Roryborough",
+          "street": "Hahn Camp",
+          "house": 275,
+          "flat": 2421
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 19352,
+      "createdOn": "2025-12-21T11:47:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947de681c508c5d5ee7e11b",
+          "products": [
+            {
+              "_id": "6947de691c508c5d5ee7e144",
+              "name": "Towels9635",
+              "amount": 67,
+              "price": 19352,
+              "manufacturer": "Microsoft",
+              "notes": "PN1rA6isgcbDat2tgNMbCqwFDeAPjrTZ9gaqTSND8lqnQDkp4FxQ8gup6kisMKACcUVQ2A6biuOCtUvrff7KKpXcR8CXx2i16BTME4VOEFWtnM24hgmgTD3pF134H9ZsjPTO2wXvGgGuv9wK7O1cSN7TLA36kKNpPgnKSXIcfsveHuG9BodFhMpcrTJNW6kZmmvecUdPKSS8BBbHLK0G8GE8OPjFIBC7EQQ8AKLFlqit2WFJl4rcEzCZsk",
+              "received": false
+            }
+          ],
+          "total_price": 19352,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Roryborough",
+              "street": "Hahn Camp",
+              "house": 275,
+              "flat": 2421
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:47:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de681c508c5d5ee7e11b",
+          "products": [
+            {
+              "_id": "6947de691c508c5d5ee7e144",
+              "name": "Towels9635",
+              "amount": 67,
+              "price": 19352,
+              "manufacturer": "Microsoft",
+              "notes": "PN1rA6isgcbDat2tgNMbCqwFDeAPjrTZ9gaqTSND8lqnQDkp4FxQ8gup6kisMKACcUVQ2A6biuOCtUvrff7KKpXcR8CXx2i16BTME4VOEFWtnM24hgmgTD3pF134H9ZsjPTO2wXvGgGuv9wK7O1cSN7TLA36kKNpPgnKSXIcfsveHuG9BodFhMpcrTJNW6kZmmvecUdPKSS8BBbHLK0G8GE8OPjFIBC7EQQ8AKLFlqit2WFJl4rcEzCZsk",
+              "received": false
+            }
+          ],
+          "total_price": 19352,
+          "delivery": null,
+          "changedOn": "2025-12-21T11:47:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

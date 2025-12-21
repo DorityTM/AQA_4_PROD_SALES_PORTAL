@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 11:47:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3880",
+    "etag": "W/\"f28-k+JGPs2VLblxU57iigMnT76SPJ0\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947de651c508c5d5ee7df37",
+      "status": "Draft",
+      "customer": {
+        "_id": "6947de641c508c5d5ee7ded5",
+        "email": "Nash46@gmail.com",
+        "name": "Jared Goodwin",
+        "country": "Belarus",
+        "city": "Kuphalberg",
+        "street": "Rice Views 10",
+        "house": 657,
+        "flat": 6006,
+        "phone": "+729387971848571",
+        "createdOn": "2025-12-21T11:47:48.000Z",
+        "notes": "ADLlWBasMbNIVpd6FS2zoXPxw9pnC4"
+      },
+      "products": [
+        {
+          "_id": "6947de641c508c5d5ee7dee4",
+          "name": "Chips2357",
+          "amount": 538,
+          "price": 75380,
+          "manufacturer": "Apple",
+          "notes": "tl7lqYsQ3ZXGMoD9XrdFrhQVgpMkuHxh8yjkYZquy35zqWpK2VKDfMteY4T2k8xqomEqvzRAaWbn13Y3c6icQC8gfPirNwogUjgPfoz9x7leL2amx1VeZ3wn8ZoyYoJKGjexwTFPYE5D0mwbnIKwH2eve8H6X1dHGNmSmdUvocY3lI1ExD5p4IF78mzv9quD14HxAQe5ANiTyKVa8bhnniyOhZvOgBV5CpuhR8xVjlfKDjRi0ed2vfc5zL",
+          "received": false
+        },
+        {
+          "_id": "6947de641c508c5d5ee7deff",
+          "name": "Computer12986",
+          "amount": 44,
+          "price": 20393,
+          "manufacturer": "Amazon",
+          "notes": "xPGXRMZmre72LR822iN0xCwt9lGbOMVY3FuU3rqTuhBoLWhIdY5csnfGCCB9rKnPtONxhbwtXqKOQFXiJK8pGuSJcKousk68iekwyqb93O95bQKDMLl0RmwHCYgB5YlCtXAOw02e4kn5jx9gUCvq7zGCxS6DBlD9PK9fbBY7pYQHMPcgzjmMD4yDSt3ulOC69uetrx85hZ3LPnoqXiJDrq2IQfkzzDBGJL0OU5GWQt8E6k7dh8ttPZL25d",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Nigelshire",
+          "street": "Bayer Oval",
+          "house": 101,
+          "flat": 2609
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 95773,
+      "createdOn": "2025-12-21T11:47:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947de641c508c5d5ee7ded5",
+          "products": [
+            {
+              "_id": "6947de641c508c5d5ee7dee4",
+              "name": "Chips2357",
+              "amount": 538,
+              "price": 75380,
+              "manufacturer": "Apple",
+              "notes": "tl7lqYsQ3ZXGMoD9XrdFrhQVgpMkuHxh8yjkYZquy35zqWpK2VKDfMteY4T2k8xqomEqvzRAaWbn13Y3c6icQC8gfPirNwogUjgPfoz9x7leL2amx1VeZ3wn8ZoyYoJKGjexwTFPYE5D0mwbnIKwH2eve8H6X1dHGNmSmdUvocY3lI1ExD5p4IF78mzv9quD14HxAQe5ANiTyKVa8bhnniyOhZvOgBV5CpuhR8xVjlfKDjRi0ed2vfc5zL",
+              "received": false
+            },
+            {
+              "_id": "6947de641c508c5d5ee7deff",
+              "name": "Computer12986",
+              "amount": 44,
+              "price": 20393,
+              "manufacturer": "Amazon",
+              "notes": "xPGXRMZmre72LR822iN0xCwt9lGbOMVY3FuU3rqTuhBoLWhIdY5csnfGCCB9rKnPtONxhbwtXqKOQFXiJK8pGuSJcKousk68iekwyqb93O95bQKDMLl0RmwHCYgB5YlCtXAOw02e4kn5jx9gUCvq7zGCxS6DBlD9PK9fbBY7pYQHMPcgzjmMD4yDSt3ulOC69uetrx85hZ3LPnoqXiJDrq2IQfkzzDBGJL0OU5GWQt8E6k7dh8ttPZL25d",
+              "received": false
+            }
+          ],
+          "total_price": 95773,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Nigelshire",
+              "street": "Bayer Oval",
+              "house": 101,
+              "flat": 2609
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:47:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de641c508c5d5ee7ded5",
+          "products": [
+            {
+              "_id": "6947de641c508c5d5ee7dee4",
+              "name": "Chips2357",
+              "amount": 538,
+              "price": 75380,
+              "manufacturer": "Apple",
+              "notes": "tl7lqYsQ3ZXGMoD9XrdFrhQVgpMkuHxh8yjkYZquy35zqWpK2VKDfMteY4T2k8xqomEqvzRAaWbn13Y3c6icQC8gfPirNwogUjgPfoz9x7leL2amx1VeZ3wn8ZoyYoJKGjexwTFPYE5D0mwbnIKwH2eve8H6X1dHGNmSmdUvocY3lI1ExD5p4IF78mzv9quD14HxAQe5ANiTyKVa8bhnniyOhZvOgBV5CpuhR8xVjlfKDjRi0ed2vfc5zL",
+              "received": false
+            },
+            {
+              "_id": "6947de641c508c5d5ee7deff",
+              "name": "Computer12986",
+              "amount": 44,
+              "price": 20393,
+              "manufacturer": "Amazon",
+              "notes": "xPGXRMZmre72LR822iN0xCwt9lGbOMVY3FuU3rqTuhBoLWhIdY5csnfGCCB9rKnPtONxhbwtXqKOQFXiJK8pGuSJcKousk68iekwyqb93O95bQKDMLl0RmwHCYgB5YlCtXAOw02e4kn5jx9gUCvq7zGCxS6DBlD9PK9fbBY7pYQHMPcgzjmMD4yDSt3ulOC69uetrx85hZ3LPnoqXiJDrq2IQfkzzDBGJL0OU5GWQt8E6k7dh8ttPZL25d",
+              "received": false
+            }
+          ],
+          "total_price": 95773,
+          "delivery": null,
+          "changedOn": "2025-12-21T11:47:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

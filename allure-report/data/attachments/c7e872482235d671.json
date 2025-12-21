@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 21 Dec 2025 11:48:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2782",
+    "etag": "W/\"ade-urEfxeMx71MRKwAjCwQjR17136c\"",
+    "keep-alive": "timeout=5, max=26",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6947de941c508c5d5ee7fa73",
+      "status": "Draft",
+      "customer": {
+        "_id": "6947de931c508c5d5ee7fa3c",
+        "email": "Rosario.Daugherty23@yahoo.com",
+        "name": "Junior Brown",
+        "country": "Belarus",
+        "city": "New Ibrahim",
+        "street": "Grove Street 63",
+        "house": 322,
+        "flat": 461,
+        "phone": "+072474047626042",
+        "createdOn": "2025-12-21T11:48:35.000Z",
+        "notes": "rc0kUycEFcCzR6KkjCsk6EF4hkF4ob"
+      },
+      "products": [
+        {
+          "_id": "6947de931c508c5d5ee7fa51",
+          "name": "Computer30773",
+          "amount": 671,
+          "price": 57640,
+          "manufacturer": "Samsung",
+          "notes": "gVVgygu7Hp1Gsnyzc3xI6ZnJ9mVjwPv5z2K6hFg9a69FIBT5l5rM9dSWUtDlzqaIxjAkoa59Ba0QnPN0W4uMuOSNAoUKGZbmA2Ve4P6R0uQbWUyAlm3tFKPma9mzbTibvoad5xE3w79421VSaXYUDVIGXgRZBSuUtGjCm1LmVMtJG6ipwunlGBpjayVb276wmxW3chi13ZGwTuFqqOa80jGuWNtfpikk4wt04JMDEIc9pbq0P6CAT5vKlQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Hayleeshire",
+          "street": "W Washington Avenue",
+          "house": 379,
+          "flat": 5196
+        },
+        "finalDate": "2025-12-28T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 57640,
+      "createdOn": "2025-12-21T11:48:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6947de931c508c5d5ee7fa3c",
+          "products": [
+            {
+              "_id": "6947de931c508c5d5ee7fa51",
+              "name": "Computer30773",
+              "amount": 671,
+              "price": 57640,
+              "manufacturer": "Samsung",
+              "notes": "gVVgygu7Hp1Gsnyzc3xI6ZnJ9mVjwPv5z2K6hFg9a69FIBT5l5rM9dSWUtDlzqaIxjAkoa59Ba0QnPN0W4uMuOSNAoUKGZbmA2Ve4P6R0uQbWUyAlm3tFKPma9mzbTibvoad5xE3w79421VSaXYUDVIGXgRZBSuUtGjCm1LmVMtJG6ipwunlGBpjayVb276wmxW3chi13ZGwTuFqqOa80jGuWNtfpikk4wt04JMDEIc9pbq0P6CAT5vKlQ",
+              "received": false
+            }
+          ],
+          "total_price": 57640,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Hayleeshire",
+              "street": "W Washington Avenue",
+              "house": 379,
+              "flat": 5196
+            },
+            "finalDate": "2025-12-28T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-21T11:48:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6947de931c508c5d5ee7fa3c",
+          "products": [
+            {
+              "_id": "6947de931c508c5d5ee7fa51",
+              "name": "Computer30773",
+              "amount": 671,
+              "price": 57640,
+              "manufacturer": "Samsung",
+              "notes": "gVVgygu7Hp1Gsnyzc3xI6ZnJ9mVjwPv5z2K6hFg9a69FIBT5l5rM9dSWUtDlzqaIxjAkoa59Ba0QnPN0W4uMuOSNAoUKGZbmA2Ve4P6R0uQbWUyAlm3tFKPma9mzbTibvoad5xE3w79421VSaXYUDVIGXgRZBSuUtGjCm1LmVMtJG6ipwunlGBpjayVb276wmxW3chi13ZGwTuFqqOa80jGuWNtfpikk4wt04JMDEIc9pbq0P6CAT5vKlQ",
+              "received": false
+            }
+          ],
+          "total_price": 57640,
+          "delivery": null,
+          "changedOn": "2025-12-21T11:48:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
