@@ -21,6 +21,9 @@ export const apiConfig = {
     orderUnassignManager: (orderId?: string) => `/api/orders/${orderId}/unassign-manager`, // data > types > user.types.ts
     orderComments: (orderId: string) => `/api/orders/${orderId}/comments`,
     orderCommentById: (orderId: string, commentId: string) => `/api/orders/${orderId}/comments/${commentId}`,
+    notifications: "/api/notifications",
+    notificationAsRead: (id: string) => `/api/notifications/${id}/read`,
+    notificationsAllAsRead: "/api/notifications/mark-all-read",
     users: "/api/users",
     userById: (id: string) => `/api/users/${id}/`,
   },
