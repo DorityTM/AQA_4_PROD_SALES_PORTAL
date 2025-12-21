@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-import { credentials } from "config/env";
+import { credentials, SALES_PORTAL_URL } from "config/env";
 import { LoginService } from "../../api/service/login.service";
 import { LoginApi } from "../../api/api/login.api";
 import { RequestApi } from "../../api/apiClients/requestApi";
@@ -12,8 +12,7 @@ test("create storage state for authenticated user", async ({ context, request })
     {
       name: "Authorization",
       value: token,
-      domain: "anatoly-karpovich.github.io",
-      path: "/aqa-course-project",
+      url: SALES_PORTAL_URL,
       expires: -1,
       httpOnly: false,
       secure: false,
