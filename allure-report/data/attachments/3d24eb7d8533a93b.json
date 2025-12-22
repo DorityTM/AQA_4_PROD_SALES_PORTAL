@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 09:21:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2751",
+    "etag": "W/\"abf-pdT9nT/44Rj9KVUn41Ix0/C+5Ps\"",
+    "keep-alive": "timeout=5, max=13",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69490d9a1c508c5d5ef1ebe1",
+      "status": "Draft",
+      "customer": {
+        "_id": "69490d991c508c5d5ef1eb99",
+        "email": "Elmore.Gusikowski@gmail.com",
+        "name": "Benedict Yost",
+        "country": "Canada",
+        "city": "Marysville",
+        "street": "Larissa Pike 58",
+        "house": 787,
+        "flat": 4779,
+        "phone": "+427167094455363",
+        "createdOn": "2025-12-22T09:21:29.000Z",
+        "notes": "XJsaPbq1zIdP4j1dE0HMpdhKPGM5Nz"
+      },
+      "products": [
+        {
+          "_id": "69490d9a1c508c5d5ef1ebb8",
+          "name": "Cheese7204",
+          "amount": 45,
+          "price": 58157,
+          "manufacturer": "Amazon",
+          "notes": "lRtz4ARDBWqjzoI5WdyOg7FipnD7NkXA05pSfV0UQrZpP7G7IDcCQ5QNq5lvhlF5aWUF2yhWXOsqSn4sZDZAWP1EAhP0YkBu2tcBC3TlqP2USQLZSBTfuIMhAWeDACIXwhGFIqmrCS4cRzgW37ROFzUhT3zSf3lUDGPW4EFtJ4ORfPb0d43DlTGZnSSPGsfiJpYWV1OA6I8hxzQg23yzZ7WBjNOBJZYtI7Jy0HHNGN5vyoNAt37PrBekuj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Port Bernard",
+          "street": "Hosea Crossroad",
+          "house": 468,
+          "flat": 4567
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58157,
+      "createdOn": "2025-12-22T09:21:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69490d991c508c5d5ef1eb99",
+          "products": [
+            {
+              "_id": "69490d9a1c508c5d5ef1ebb8",
+              "name": "Cheese7204",
+              "amount": 45,
+              "price": 58157,
+              "manufacturer": "Amazon",
+              "notes": "lRtz4ARDBWqjzoI5WdyOg7FipnD7NkXA05pSfV0UQrZpP7G7IDcCQ5QNq5lvhlF5aWUF2yhWXOsqSn4sZDZAWP1EAhP0YkBu2tcBC3TlqP2USQLZSBTfuIMhAWeDACIXwhGFIqmrCS4cRzgW37ROFzUhT3zSf3lUDGPW4EFtJ4ORfPb0d43DlTGZnSSPGsfiJpYWV1OA6I8hxzQg23yzZ7WBjNOBJZYtI7Jy0HHNGN5vyoNAt37PrBekuj",
+              "received": false
+            }
+          ],
+          "total_price": 58157,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Bernard",
+              "street": "Hosea Crossroad",
+              "house": 468,
+              "flat": 4567
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T09:21:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69490d991c508c5d5ef1eb99",
+          "products": [
+            {
+              "_id": "69490d9a1c508c5d5ef1ebb8",
+              "name": "Cheese7204",
+              "amount": 45,
+              "price": 58157,
+              "manufacturer": "Amazon",
+              "notes": "lRtz4ARDBWqjzoI5WdyOg7FipnD7NkXA05pSfV0UQrZpP7G7IDcCQ5QNq5lvhlF5aWUF2yhWXOsqSn4sZDZAWP1EAhP0YkBu2tcBC3TlqP2USQLZSBTfuIMhAWeDACIXwhGFIqmrCS4cRzgW37ROFzUhT3zSf3lUDGPW4EFtJ4ORfPb0d43DlTGZnSSPGsfiJpYWV1OA6I8hxzQg23yzZ7WBjNOBJZYtI7Jy0HHNGN5vyoNAt37PrBekuj",
+              "received": false
+            }
+          ],
+          "total_price": 58157,
+          "delivery": null,
+          "changedOn": "2025-12-22T09:21:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

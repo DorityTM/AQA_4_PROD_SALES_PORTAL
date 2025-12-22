@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 09:20:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-pLMyNe8txN3W4DeHCZJMPbvDQYc\"",
+    "keep-alive": "timeout=5, max=16",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69490d511c508c5d5ef1b983",
+      "status": "Draft",
+      "customer": {
+        "_id": "69490d501c508c5d5ef1b92f",
+        "email": "Joany_Osinski71@gmail.com",
+        "name": "Savion Glover",
+        "country": "Ukraine",
+        "city": "New Warren",
+        "street": "Sydnie Lock 5",
+        "house": 327,
+        "flat": 1928,
+        "phone": "+553671595024087",
+        "createdOn": "2025-12-22T09:20:16.000Z",
+        "notes": "lJFHI2IcxIT9MVVx5iPitWnXpfIQ6J"
+      },
+      "products": [
+        {
+          "_id": "69490d501c508c5d5ef1b94f",
+          "name": "Fish20339",
+          "amount": 898,
+          "price": 29523,
+          "manufacturer": "Xiaomi",
+          "notes": "KjaF4z1LK3vvoWEu6ACnbTZ5PGTF1V57ba8hsDaI7TyyZHkStUh7z6pa2F002nbZHyQR0otUfcGIOblWLrimTCoK5HVwET7URGdAMRLljggl2OmHa6Czk9Z0RVtD8ESVM9lgKRZBQvjBojTWzhQeij2AUFp8uBhBtkcEByZMkqFOkeztkp0wXT4LjeDP6yhOIhHh2ZeomdaqTIwXurBT7YC3J6E8IL1JUMtj1Ujvnv8fX6JkqFPDWekqTY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Spring Hill",
+          "street": "Jaskolski Ridges",
+          "house": 792,
+          "flat": 8907
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 29523,
+      "createdOn": "2025-12-22T09:20:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69490d501c508c5d5ef1b92f",
+          "products": [
+            {
+              "_id": "69490d501c508c5d5ef1b94f",
+              "name": "Fish20339",
+              "amount": 898,
+              "price": 29523,
+              "manufacturer": "Xiaomi",
+              "notes": "KjaF4z1LK3vvoWEu6ACnbTZ5PGTF1V57ba8hsDaI7TyyZHkStUh7z6pa2F002nbZHyQR0otUfcGIOblWLrimTCoK5HVwET7URGdAMRLljggl2OmHa6Czk9Z0RVtD8ESVM9lgKRZBQvjBojTWzhQeij2AUFp8uBhBtkcEByZMkqFOkeztkp0wXT4LjeDP6yhOIhHh2ZeomdaqTIwXurBT7YC3J6E8IL1JUMtj1Ujvnv8fX6JkqFPDWekqTY",
+              "received": false
+            }
+          ],
+          "total_price": 29523,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Spring Hill",
+              "street": "Jaskolski Ridges",
+              "house": 792,
+              "flat": 8907
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T09:20:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69490d501c508c5d5ef1b92f",
+          "products": [
+            {
+              "_id": "69490d501c508c5d5ef1b94f",
+              "name": "Fish20339",
+              "amount": 898,
+              "price": 29523,
+              "manufacturer": "Xiaomi",
+              "notes": "KjaF4z1LK3vvoWEu6ACnbTZ5PGTF1V57ba8hsDaI7TyyZHkStUh7z6pa2F002nbZHyQR0otUfcGIOblWLrimTCoK5HVwET7URGdAMRLljggl2OmHa6Czk9Z0RVtD8ESVM9lgKRZBQvjBojTWzhQeij2AUFp8uBhBtkcEByZMkqFOkeztkp0wXT4LjeDP6yhOIhHh2ZeomdaqTIwXurBT7YC3J6E8IL1JUMtj1Ujvnv8fX6JkqFPDWekqTY",
+              "received": false
+            }
+          ],
+          "total_price": 29523,
+          "delivery": null,
+          "changedOn": "2025-12-22T09:20:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

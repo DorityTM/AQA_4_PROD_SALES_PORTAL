@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 09:20:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-6WWH2nLFfynZeFHdotJBEx/3lp8\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69490d641c508c5d5ef1c637",
+      "status": "Draft",
+      "customer": {
+        "_id": "69490d611c508c5d5ef1c460",
+        "email": "Annamarie46@yahoo.com",
+        "name": "Eleonore Grimes",
+        "country": "Canada",
+        "city": "Gunnerchester",
+        "street": "The Fairway 32",
+        "house": 714,
+        "flat": 1439,
+        "phone": "+816837257986557",
+        "createdOn": "2025-12-22T09:20:33.000Z",
+        "notes": "XuFqloEA2FT4slg0GLKskEy3EY4FMY"
+      },
+      "products": [
+        {
+          "_id": "69490d631c508c5d5ef1c60b",
+          "name": "Shoes3736",
+          "amount": 110,
+          "price": 38304,
+          "manufacturer": "Apple",
+          "notes": "neQQvZZbnkkhwDxwcuLUG0GvXsLwDpjSImLt4pHYuyItIg7tjMq6plp1eC2bbZWubqdr0hkPMcOQWgqDYPkfSEjAx2ydFSklkekDOkS1FbN1DgBcTRQ0IvqbXWnFVaQ62fydfH0st2FlSfvhx68Vk7F0VegYJ0mNM1SvoE2sqWXqSFsRQix0bWQIK6YlndSqAMV7331uzSkFEuj9mzDDNZeC7cdApN6SZXHhSiSDe8TCjd1Lqg3gdygXis",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "West Iva",
+          "street": "Second Avenue",
+          "house": 128,
+          "flat": 2600
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 38304,
+      "createdOn": "2025-12-22T09:20:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69490d611c508c5d5ef1c460",
+          "products": [
+            {
+              "_id": "69490d631c508c5d5ef1c60b",
+              "name": "Shoes3736",
+              "amount": 110,
+              "price": 38304,
+              "manufacturer": "Apple",
+              "notes": "neQQvZZbnkkhwDxwcuLUG0GvXsLwDpjSImLt4pHYuyItIg7tjMq6plp1eC2bbZWubqdr0hkPMcOQWgqDYPkfSEjAx2ydFSklkekDOkS1FbN1DgBcTRQ0IvqbXWnFVaQ62fydfH0st2FlSfvhx68Vk7F0VegYJ0mNM1SvoE2sqWXqSFsRQix0bWQIK6YlndSqAMV7331uzSkFEuj9mzDDNZeC7cdApN6SZXHhSiSDe8TCjd1Lqg3gdygXis",
+              "received": false
+            }
+          ],
+          "total_price": 38304,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Iva",
+              "street": "Second Avenue",
+              "house": 128,
+              "flat": 2600
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T09:20:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69490d611c508c5d5ef1c460",
+          "products": [
+            {
+              "_id": "69490d631c508c5d5ef1c60b",
+              "name": "Shoes3736",
+              "amount": 110,
+              "price": 38304,
+              "manufacturer": "Apple",
+              "notes": "neQQvZZbnkkhwDxwcuLUG0GvXsLwDpjSImLt4pHYuyItIg7tjMq6plp1eC2bbZWubqdr0hkPMcOQWgqDYPkfSEjAx2ydFSklkekDOkS1FbN1DgBcTRQ0IvqbXWnFVaQ62fydfH0st2FlSfvhx68Vk7F0VegYJ0mNM1SvoE2sqWXqSFsRQix0bWQIK6YlndSqAMV7331uzSkFEuj9mzDDNZeC7cdApN6SZXHhSiSDe8TCjd1Lqg3gdygXis",
+              "received": false
+            }
+          ],
+          "total_price": 38304,
+          "delivery": null,
+          "changedOn": "2025-12-22T09:20:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

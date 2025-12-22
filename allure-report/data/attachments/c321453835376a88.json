@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 09:22:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3660",
+    "etag": "W/\"e4c-fb2WTnBZvXjCY+xMsuUqD5lEqSc\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69490dbc1c508c5d5ef2046c",
+      "status": "In Process",
+      "customer": {
+        "_id": "69490dbb1c508c5d5ef2042e",
+        "email": "Idella_Dooley@hotmail.com",
+        "name": "Norberto Rempel",
+        "country": "Belarus",
+        "city": "Millcreek",
+        "street": "West Forges 82",
+        "house": 761,
+        "flat": 4371,
+        "phone": "+722755902773638",
+        "createdOn": "2025-12-22T09:22:03.000Z",
+        "notes": "6gLE4MsW0zJ5WW8Lb4Y8evQN9lrsCZ"
+      },
+      "products": [
+        {
+          "_id": "69490dbb1c508c5d5ef20449",
+          "name": "Tuna30827",
+          "amount": 542,
+          "price": 25379,
+          "manufacturer": "Sony",
+          "notes": "x8RME6gbFHPiir4JoY8eUmdEibRN5xvTI1jyLkTzPeQ0B0qn4duKe16GF5Bb9OpvjTXKc0Mu9JYFEQncHcYSf7fkE5guXkyXIBD1BXDSN52H5PwU8p3ll8eUOGrjiB047xwln82cikFvAl11IhWAvZb22R8gF7rF0YUYCmBcf7v4vzeHKCc1GvSaN97Z70vlCCv3jdNUDE3xEMn0dAlFBZw2ZmrqKrZnZUyHhn9pUDMXX3VZb7uO5qFbzo",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Zack",
+          "street": "Raymundo Cove",
+          "house": 152,
+          "flat": 6468
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25379,
+      "createdOn": "2025-12-22T09:22:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69490dbb1c508c5d5ef2042e",
+          "products": [
+            {
+              "_id": "69490dbb1c508c5d5ef20449",
+              "name": "Tuna30827",
+              "amount": 542,
+              "price": 25379,
+              "manufacturer": "Sony",
+              "notes": "x8RME6gbFHPiir4JoY8eUmdEibRN5xvTI1jyLkTzPeQ0B0qn4duKe16GF5Bb9OpvjTXKc0Mu9JYFEQncHcYSf7fkE5guXkyXIBD1BXDSN52H5PwU8p3ll8eUOGrjiB047xwln82cikFvAl11IhWAvZb22R8gF7rF0YUYCmBcf7v4vzeHKCc1GvSaN97Z70vlCCv3jdNUDE3xEMn0dAlFBZw2ZmrqKrZnZUyHhn9pUDMXX3VZb7uO5qFbzo",
+              "received": false
+            }
+          ],
+          "total_price": 25379,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Zack",
+              "street": "Raymundo Cove",
+              "house": 152,
+              "flat": 6468
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T09:22:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69490dbb1c508c5d5ef2042e",
+          "products": [
+            {
+              "_id": "69490dbb1c508c5d5ef20449",
+              "name": "Tuna30827",
+              "amount": 542,
+              "price": 25379,
+              "manufacturer": "Sony",
+              "notes": "x8RME6gbFHPiir4JoY8eUmdEibRN5xvTI1jyLkTzPeQ0B0qn4duKe16GF5Bb9OpvjTXKc0Mu9JYFEQncHcYSf7fkE5guXkyXIBD1BXDSN52H5PwU8p3ll8eUOGrjiB047xwln82cikFvAl11IhWAvZb22R8gF7rF0YUYCmBcf7v4vzeHKCc1GvSaN97Z70vlCCv3jdNUDE3xEMn0dAlFBZw2ZmrqKrZnZUyHhn9pUDMXX3VZb7uO5qFbzo",
+              "received": false
+            }
+          ],
+          "total_price": 25379,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Zack",
+              "street": "Raymundo Cove",
+              "house": 152,
+              "flat": 6468
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T09:22:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69490dbb1c508c5d5ef2042e",
+          "products": [
+            {
+              "_id": "69490dbb1c508c5d5ef20449",
+              "name": "Tuna30827",
+              "amount": 542,
+              "price": 25379,
+              "manufacturer": "Sony",
+              "notes": "x8RME6gbFHPiir4JoY8eUmdEibRN5xvTI1jyLkTzPeQ0B0qn4duKe16GF5Bb9OpvjTXKc0Mu9JYFEQncHcYSf7fkE5guXkyXIBD1BXDSN52H5PwU8p3ll8eUOGrjiB047xwln82cikFvAl11IhWAvZb22R8gF7rF0YUYCmBcf7v4vzeHKCc1GvSaN97Z70vlCCv3jdNUDE3xEMn0dAlFBZw2ZmrqKrZnZUyHhn9pUDMXX3VZb7uO5qFbzo",
+              "received": false
+            }
+          ],
+          "total_price": 25379,
+          "delivery": null,
+          "changedOn": "2025-12-22T09:22:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

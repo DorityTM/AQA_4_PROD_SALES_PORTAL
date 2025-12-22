@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 09:20:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3660",
+    "etag": "W/\"e4c-6xKaGGFhRGvMVosaehUM6c/AQA0\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69490d551c508c5d5ef1bbe4",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69490d541c508c5d5ef1bb8d",
+        "email": "Alexandro.Haag@gmail.com",
+        "name": "Roy Dach",
+        "country": "Great Britain",
+        "city": "Placentia",
+        "street": "Daniel Circle 96",
+        "house": 628,
+        "flat": 6613,
+        "phone": "+893065997651740",
+        "createdOn": "2025-12-22T09:20:20.000Z",
+        "notes": "VoeINQcfWdtQk7hMLOj6kTjHnoT83g"
+      },
+      "products": [
+        {
+          "_id": "69490d551c508c5d5ef1bbbc",
+          "name": "Bike98086",
+          "amount": 691,
+          "price": 19037,
+          "manufacturer": "Google",
+          "notes": "NPnnq4s3BjOsXtme17mZFwzTeAixZyty6HpZUMa5l9bEi39Y7RZ0Skfns3Die8veryonpa6WlCUFMR8OfI0qUEFZtDmw1whrbsHNRvDo8B1tuwsI5EtIjnaTylzUCxZLrDgnYQV5iiV0q5oU7bTaG2chREPcHnn5NyIxpRURiz7Zj5H6eDpnGdBGniJx1IzyRx4PZkK0Damy8zxftM0JzGoFlEHGrYTz1wdHywHwutWbgpch8AKVSjvvkh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Luellaport",
+          "street": "Kunde Brook",
+          "house": 855,
+          "flat": 4303
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 19037,
+      "createdOn": "2025-12-22T09:20:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69490d541c508c5d5ef1bb8d",
+          "products": [
+            {
+              "_id": "69490d551c508c5d5ef1bbbc",
+              "name": "Bike98086",
+              "amount": 691,
+              "price": 19037,
+              "manufacturer": "Google",
+              "notes": "NPnnq4s3BjOsXtme17mZFwzTeAixZyty6HpZUMa5l9bEi39Y7RZ0Skfns3Die8veryonpa6WlCUFMR8OfI0qUEFZtDmw1whrbsHNRvDo8B1tuwsI5EtIjnaTylzUCxZLrDgnYQV5iiV0q5oU7bTaG2chREPcHnn5NyIxpRURiz7Zj5H6eDpnGdBGniJx1IzyRx4PZkK0Damy8zxftM0JzGoFlEHGrYTz1wdHywHwutWbgpch8AKVSjvvkh",
+              "received": false
+            }
+          ],
+          "total_price": 19037,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Luellaport",
+              "street": "Kunde Brook",
+              "house": 855,
+              "flat": 4303
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T09:20:24.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69490d541c508c5d5ef1bb8d",
+          "products": [
+            {
+              "_id": "69490d551c508c5d5ef1bbbc",
+              "name": "Bike98086",
+              "amount": 691,
+              "price": 19037,
+              "manufacturer": "Google",
+              "notes": "NPnnq4s3BjOsXtme17mZFwzTeAixZyty6HpZUMa5l9bEi39Y7RZ0Skfns3Die8veryonpa6WlCUFMR8OfI0qUEFZtDmw1whrbsHNRvDo8B1tuwsI5EtIjnaTylzUCxZLrDgnYQV5iiV0q5oU7bTaG2chREPcHnn5NyIxpRURiz7Zj5H6eDpnGdBGniJx1IzyRx4PZkK0Damy8zxftM0JzGoFlEHGrYTz1wdHywHwutWbgpch8AKVSjvvkh",
+              "received": false
+            }
+          ],
+          "total_price": 19037,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Luellaport",
+              "street": "Kunde Brook",
+              "house": 855,
+              "flat": 4303
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T09:20:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69490d541c508c5d5ef1bb8d",
+          "products": [
+            {
+              "_id": "69490d551c508c5d5ef1bbbc",
+              "name": "Bike98086",
+              "amount": 691,
+              "price": 19037,
+              "manufacturer": "Google",
+              "notes": "NPnnq4s3BjOsXtme17mZFwzTeAixZyty6HpZUMa5l9bEi39Y7RZ0Skfns3Die8veryonpa6WlCUFMR8OfI0qUEFZtDmw1whrbsHNRvDo8B1tuwsI5EtIjnaTylzUCxZLrDgnYQV5iiV0q5oU7bTaG2chREPcHnn5NyIxpRURiz7Zj5H6eDpnGdBGniJx1IzyRx4PZkK0Damy8zxftM0JzGoFlEHGrYTz1wdHywHwutWbgpch8AKVSjvvkh",
+              "received": false
+            }
+          ],
+          "total_price": 19037,
+          "delivery": null,
+          "changedOn": "2025-12-22T09:20:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

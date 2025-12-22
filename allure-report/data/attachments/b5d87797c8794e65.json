@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 09:21:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3711",
+    "etag": "W/\"e7f-s8vBPVHO6o+8j9jQXybRpIbcWi4\"",
+    "keep-alive": "timeout=5, max=33",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69490d811c508c5d5ef1db12",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69490d7f1c508c5d5ef1d95f",
+        "email": "Kaelyn.Tremblay66@yahoo.com",
+        "name": "Jaylan Miller",
+        "country": "Belarus",
+        "city": "Beaverton",
+        "street": "Toy Green 2",
+        "house": 551,
+        "flat": 6473,
+        "phone": "+299963897812948",
+        "createdOn": "2025-12-22T09:21:03.000Z",
+        "notes": "crhFeQiizx0c2tmdr6eq23yGtPKsl2"
+      },
+      "products": [
+        {
+          "_id": "69490d7f1c508c5d5ef1d983",
+          "name": "Chicken41077",
+          "amount": 322,
+          "price": 16553,
+          "manufacturer": "Microsoft",
+          "notes": "qZYdQ1xvS1AzlnQxhxaA3KWi5PAXRwiXyiyoFjOcaYlh2tPTsTKcLmaX3V1BUMn4F2uCEawqbk8wmw1cvcH6k7NuNFZJeUAKDDkicuURf9S6BbZkqu5oql1TJzSIkgRSTtR2UVbKLCHk7JMjjjN76AeKPlTa8tw45O37HaCnhTbSeIASVR109wB3t2WYNRzpQoWsUWLzbk1YsLRzozyCLPLCcobB8JLfjcUhFjL911V6C8zz7LDFsWgiTp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Heidenreichstad",
+          "street": "Selena Junctions",
+          "house": 631,
+          "flat": 9524
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16553,
+      "createdOn": "2025-12-22T09:21:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69490d7f1c508c5d5ef1d95f",
+          "products": [
+            {
+              "_id": "69490d7f1c508c5d5ef1d983",
+              "name": "Chicken41077",
+              "amount": 322,
+              "price": 16553,
+              "manufacturer": "Microsoft",
+              "notes": "qZYdQ1xvS1AzlnQxhxaA3KWi5PAXRwiXyiyoFjOcaYlh2tPTsTKcLmaX3V1BUMn4F2uCEawqbk8wmw1cvcH6k7NuNFZJeUAKDDkicuURf9S6BbZkqu5oql1TJzSIkgRSTtR2UVbKLCHk7JMjjjN76AeKPlTa8tw45O37HaCnhTbSeIASVR109wB3t2WYNRzpQoWsUWLzbk1YsLRzozyCLPLCcobB8JLfjcUhFjL911V6C8zz7LDFsWgiTp",
+              "received": false
+            }
+          ],
+          "total_price": 16553,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Heidenreichstad",
+              "street": "Selena Junctions",
+              "house": 631,
+              "flat": 9524
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T09:21:06.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69490d7f1c508c5d5ef1d95f",
+          "products": [
+            {
+              "_id": "69490d7f1c508c5d5ef1d983",
+              "name": "Chicken41077",
+              "amount": 322,
+              "price": 16553,
+              "manufacturer": "Microsoft",
+              "notes": "qZYdQ1xvS1AzlnQxhxaA3KWi5PAXRwiXyiyoFjOcaYlh2tPTsTKcLmaX3V1BUMn4F2uCEawqbk8wmw1cvcH6k7NuNFZJeUAKDDkicuURf9S6BbZkqu5oql1TJzSIkgRSTtR2UVbKLCHk7JMjjjN76AeKPlTa8tw45O37HaCnhTbSeIASVR109wB3t2WYNRzpQoWsUWLzbk1YsLRzozyCLPLCcobB8JLfjcUhFjL911V6C8zz7LDFsWgiTp",
+              "received": false
+            }
+          ],
+          "total_price": 16553,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Heidenreichstad",
+              "street": "Selena Junctions",
+              "house": 631,
+              "flat": 9524
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T09:21:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69490d7f1c508c5d5ef1d95f",
+          "products": [
+            {
+              "_id": "69490d7f1c508c5d5ef1d983",
+              "name": "Chicken41077",
+              "amount": 322,
+              "price": 16553,
+              "manufacturer": "Microsoft",
+              "notes": "qZYdQ1xvS1AzlnQxhxaA3KWi5PAXRwiXyiyoFjOcaYlh2tPTsTKcLmaX3V1BUMn4F2uCEawqbk8wmw1cvcH6k7NuNFZJeUAKDDkicuURf9S6BbZkqu5oql1TJzSIkgRSTtR2UVbKLCHk7JMjjjN76AeKPlTa8tw45O37HaCnhTbSeIASVR109wB3t2WYNRzpQoWsUWLzbk1YsLRzozyCLPLCcobB8JLfjcUhFjL911V6C8zz7LDFsWgiTp",
+              "received": false
+            }
+          ],
+          "total_price": 16553,
+          "delivery": null,
+          "changedOn": "2025-12-22T09:21:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

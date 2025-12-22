@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 09:23:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2769",
+    "etag": "W/\"ad1-jtEePj4noPKibgzCs+Ps8rOxv4I\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69490e051c508c5d5ef238d5",
+      "status": "Draft",
+      "customer": {
+        "_id": "69490e031c508c5d5ef23701",
+        "email": "Kris.Bartell24@yahoo.com",
+        "name": "Justyn Moen",
+        "country": "Great Britain",
+        "city": "Ethelbury",
+        "street": "Nolan Light 54",
+        "house": 908,
+        "flat": 3074,
+        "phone": "+295716079579747",
+        "createdOn": "2025-12-22T09:23:15.000Z",
+        "notes": "4iJLOkCLVVcF9iAbHWk3woQ9BkI0lW"
+      },
+      "products": [
+        {
+          "_id": "69490e051c508c5d5ef238ab",
+          "name": "Shoes31822",
+          "amount": 750,
+          "price": 98976,
+          "manufacturer": "Apple",
+          "notes": "pwaVhZsVO0tEoPIsEnJHTnlZY8KdNzfhn4IDVgCjWGiLLMkc9cwTKZnMvw3VG7AleN9QfWoAMiTgdtgLt5OnnVY4I01MQGhrASjB6dYSYSz7U5gb08tlZGwdfh4wjLFfjr5yvD4Miay9UZLxp2GTv7RWwbgQ2dI6OOY6uX2Da9HsCCWP4tiBZwKpmhHjl8OCNxRwMMVyAadqqlimNERCrxkqKbP198fOn876Sh7XnUSF90QttuO9a3mtqf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Dannieburgh",
+          "street": "Pagac Court",
+          "house": 955,
+          "flat": 8409
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98976,
+      "createdOn": "2025-12-22T09:23:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69490e031c508c5d5ef23701",
+          "products": [
+            {
+              "_id": "69490e051c508c5d5ef238ab",
+              "name": "Shoes31822",
+              "amount": 750,
+              "price": 98976,
+              "manufacturer": "Apple",
+              "notes": "pwaVhZsVO0tEoPIsEnJHTnlZY8KdNzfhn4IDVgCjWGiLLMkc9cwTKZnMvw3VG7AleN9QfWoAMiTgdtgLt5OnnVY4I01MQGhrASjB6dYSYSz7U5gb08tlZGwdfh4wjLFfjr5yvD4Miay9UZLxp2GTv7RWwbgQ2dI6OOY6uX2Da9HsCCWP4tiBZwKpmhHjl8OCNxRwMMVyAadqqlimNERCrxkqKbP198fOn876Sh7XnUSF90QttuO9a3mtqf",
+              "received": false
+            }
+          ],
+          "total_price": 98976,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Dannieburgh",
+              "street": "Pagac Court",
+              "house": 955,
+              "flat": 8409
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T09:23:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69490e031c508c5d5ef23701",
+          "products": [
+            {
+              "_id": "69490e051c508c5d5ef238ab",
+              "name": "Shoes31822",
+              "amount": 750,
+              "price": 98976,
+              "manufacturer": "Apple",
+              "notes": "pwaVhZsVO0tEoPIsEnJHTnlZY8KdNzfhn4IDVgCjWGiLLMkc9cwTKZnMvw3VG7AleN9QfWoAMiTgdtgLt5OnnVY4I01MQGhrASjB6dYSYSz7U5gb08tlZGwdfh4wjLFfjr5yvD4Miay9UZLxp2GTv7RWwbgQ2dI6OOY6uX2Da9HsCCWP4tiBZwKpmhHjl8OCNxRwMMVyAadqqlimNERCrxkqKbP198fOn876Sh7XnUSF90QttuO9a3mtqf",
+              "received": false
+            }
+          ],
+          "total_price": 98976,
+          "delivery": null,
+          "changedOn": "2025-12-22T09:23:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
