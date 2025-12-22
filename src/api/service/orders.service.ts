@@ -101,6 +101,17 @@ export class OrdersApiService {
     return order.body.Order;
   }
 
+  @logStep("UPDATE ORDER STATUS - API")
+  async updateStatus(token: string, orderId: string, status: ORDER_STATUS) {
+    const response = await this.ordersApi.updateStatus(orderId, status, token);
+    validateResponse(response, {
+      status: STATUS_CODES.OK,
+      IsSuccess: true,
+      ErrorMessage: null,
+    });
+    return response.body.Order;
+  }
+
   @logStep("CREATE CANCELED ORDER - API")
   async createCanceledOrder(token: string, numberOfProducts: number) {
     const createdOrder = await this.createOrderWithDelivery(token, numberOfProducts);
