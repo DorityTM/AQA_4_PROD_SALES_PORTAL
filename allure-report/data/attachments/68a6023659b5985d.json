@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:52:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5226",
+    "etag": "W/\"146a-DsFWYe8xOlvACfJ+7uP2t3aeTEM\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949af791c508c5d5ef45be0",
+      "status": "In Process",
+      "customer": {
+        "_id": "6949af781c508c5d5ef45b54",
+        "email": "Jairo46@yahoo.com",
+        "name": "Clarissa Grady",
+        "country": "France",
+        "city": "North Cecilchester",
+        "street": "Park Street 69",
+        "house": 456,
+        "flat": 2956,
+        "phone": "+220777242412502",
+        "createdOn": "2025-12-22T20:52:08.000Z",
+        "notes": "JMa75YQHKBt6BZyttQxAXisTjVN222"
+      },
+      "products": [
+        {
+          "_id": "6949af791c508c5d5ef45b86",
+          "name": "Soap53190",
+          "amount": 120,
+          "price": 66536,
+          "manufacturer": "Samsung",
+          "notes": "0T3mBabMU1dVZRvCtescin4XXYpfe6skS40w7HuPbzcY4sWd11YZkt9YAXB1nzNM0Iw6ZXkDRDGMLwDHDamDHpaLuMmDBUB72qvWKfAF1DqGP0FA3AZ8L7XpFftYHGuzB6MvPhQBY42mhHgKHYQtn7mEd9gJPe9NO5t5wnDV1dLn9ZTxPyky2OkTMjg10ZWn3WNMtnS9cQXXFn2HogBZauwgquwa3K9yjPC7LGB5Dzkrhlk8hW5odfdtie",
+          "received": false
+        },
+        {
+          "_id": "6949af791c508c5d5ef45bb5",
+          "name": "Salad42700",
+          "amount": 278,
+          "price": 87003,
+          "manufacturer": "Xiaomi",
+          "notes": "bTxVaQ7Bh16RNXVUkRaV1LyoilsdawiAJmTCHZyD5ZxV2KMepYcobip5gVwGvAJKqTdrq5g7Gq2EcukJdsFFFITARyEV7Ddm8FVQIiNcdUWO6kbmPhIrjqC2zFVECVxz2eGqjlVKaGJ7WLME8FSK5pALx3TeYAHl4P19qNVIX4odfen0IaWivnGV4BQymW70P1pF4cBIxfJWGboTeWmpEfob79tGyTJ38HGQn0VlVgDySWKCUvxg9Tctfq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Esthercester",
+          "street": "Stark Summit",
+          "house": 143,
+          "flat": 6163
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 153539,
+      "createdOn": "2025-12-22T20:52:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6949af781c508c5d5ef45b54",
+          "products": [
+            {
+              "_id": "6949af791c508c5d5ef45b86",
+              "name": "Soap53190",
+              "amount": 120,
+              "price": 66536,
+              "manufacturer": "Samsung",
+              "notes": "0T3mBabMU1dVZRvCtescin4XXYpfe6skS40w7HuPbzcY4sWd11YZkt9YAXB1nzNM0Iw6ZXkDRDGMLwDHDamDHpaLuMmDBUB72qvWKfAF1DqGP0FA3AZ8L7XpFftYHGuzB6MvPhQBY42mhHgKHYQtn7mEd9gJPe9NO5t5wnDV1dLn9ZTxPyky2OkTMjg10ZWn3WNMtnS9cQXXFn2HogBZauwgquwa3K9yjPC7LGB5Dzkrhlk8hW5odfdtie",
+              "received": false
+            },
+            {
+              "_id": "6949af791c508c5d5ef45bb5",
+              "name": "Salad42700",
+              "amount": 278,
+              "price": 87003,
+              "manufacturer": "Xiaomi",
+              "notes": "bTxVaQ7Bh16RNXVUkRaV1LyoilsdawiAJmTCHZyD5ZxV2KMepYcobip5gVwGvAJKqTdrq5g7Gq2EcukJdsFFFITARyEV7Ddm8FVQIiNcdUWO6kbmPhIrjqC2zFVECVxz2eGqjlVKaGJ7WLME8FSK5pALx3TeYAHl4P19qNVIX4odfen0IaWivnGV4BQymW70P1pF4cBIxfJWGboTeWmpEfob79tGyTJ38HGQn0VlVgDySWKCUvxg9Tctfq",
+              "received": false
+            }
+          ],
+          "total_price": 153539,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Esthercester",
+              "street": "Stark Summit",
+              "house": 143,
+              "flat": 6163
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T20:52:11.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949af781c508c5d5ef45b54",
+          "products": [
+            {
+              "_id": "6949af791c508c5d5ef45b86",
+              "name": "Soap53190",
+              "amount": 120,
+              "price": 66536,
+              "manufacturer": "Samsung",
+              "notes": "0T3mBabMU1dVZRvCtescin4XXYpfe6skS40w7HuPbzcY4sWd11YZkt9YAXB1nzNM0Iw6ZXkDRDGMLwDHDamDHpaLuMmDBUB72qvWKfAF1DqGP0FA3AZ8L7XpFftYHGuzB6MvPhQBY42mhHgKHYQtn7mEd9gJPe9NO5t5wnDV1dLn9ZTxPyky2OkTMjg10ZWn3WNMtnS9cQXXFn2HogBZauwgquwa3K9yjPC7LGB5Dzkrhlk8hW5odfdtie",
+              "received": false
+            },
+            {
+              "_id": "6949af791c508c5d5ef45bb5",
+              "name": "Salad42700",
+              "amount": 278,
+              "price": 87003,
+              "manufacturer": "Xiaomi",
+              "notes": "bTxVaQ7Bh16RNXVUkRaV1LyoilsdawiAJmTCHZyD5ZxV2KMepYcobip5gVwGvAJKqTdrq5g7Gq2EcukJdsFFFITARyEV7Ddm8FVQIiNcdUWO6kbmPhIrjqC2zFVECVxz2eGqjlVKaGJ7WLME8FSK5pALx3TeYAHl4P19qNVIX4odfen0IaWivnGV4BQymW70P1pF4cBIxfJWGboTeWmpEfob79tGyTJ38HGQn0VlVgDySWKCUvxg9Tctfq",
+              "received": false
+            }
+          ],
+          "total_price": 153539,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Esthercester",
+              "street": "Stark Summit",
+              "house": 143,
+              "flat": 6163
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T20:52:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949af781c508c5d5ef45b54",
+          "products": [
+            {
+              "_id": "6949af791c508c5d5ef45b86",
+              "name": "Soap53190",
+              "amount": 120,
+              "price": 66536,
+              "manufacturer": "Samsung",
+              "notes": "0T3mBabMU1dVZRvCtescin4XXYpfe6skS40w7HuPbzcY4sWd11YZkt9YAXB1nzNM0Iw6ZXkDRDGMLwDHDamDHpaLuMmDBUB72qvWKfAF1DqGP0FA3AZ8L7XpFftYHGuzB6MvPhQBY42mhHgKHYQtn7mEd9gJPe9NO5t5wnDV1dLn9ZTxPyky2OkTMjg10ZWn3WNMtnS9cQXXFn2HogBZauwgquwa3K9yjPC7LGB5Dzkrhlk8hW5odfdtie",
+              "received": false
+            },
+            {
+              "_id": "6949af791c508c5d5ef45bb5",
+              "name": "Salad42700",
+              "amount": 278,
+              "price": 87003,
+              "manufacturer": "Xiaomi",
+              "notes": "bTxVaQ7Bh16RNXVUkRaV1LyoilsdawiAJmTCHZyD5ZxV2KMepYcobip5gVwGvAJKqTdrq5g7Gq2EcukJdsFFFITARyEV7Ddm8FVQIiNcdUWO6kbmPhIrjqC2zFVECVxz2eGqjlVKaGJ7WLME8FSK5pALx3TeYAHl4P19qNVIX4odfen0IaWivnGV4BQymW70P1pF4cBIxfJWGboTeWmpEfob79tGyTJ38HGQn0VlVgDySWKCUvxg9Tctfq",
+              "received": false
+            }
+          ],
+          "total_price": 153539,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:52:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

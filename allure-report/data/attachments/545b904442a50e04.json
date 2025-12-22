@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:51:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3692",
+    "etag": "W/\"e6c-XILpuY+QZLgTWp01aWnnAvZ/pS0\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949af5c1c508c5d5ef44e70",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6949af5b1c508c5d5ef44e32",
+        "email": "Halie.Kuhic@yahoo.com",
+        "name": "Adelle Nikolaus",
+        "country": "USA",
+        "city": "Kingside",
+        "street": "Renner Vista 5",
+        "house": 180,
+        "flat": 7233,
+        "phone": "+404407976176035",
+        "createdOn": "2025-12-22T20:51:39.000Z",
+        "notes": "7jOeWYsvwBub5JaFzc8azTfC7FPT6C"
+      },
+      "products": [
+        {
+          "_id": "6949af5b1c508c5d5ef44e42",
+          "name": "Pizza78004",
+          "amount": 285,
+          "price": 32955,
+          "manufacturer": "Sony",
+          "notes": "R81YSW6a9QNxkH6yd5EwUjJBDpLgN6Du3pqgoZnoLuVqVMONYOtUgyLx27b1KfF5jTY6hmrhRL0zpgTgDnyfrWbngYTLztKIKqS2TgCpms7LDBRGw57NjBglLgquK1qSq8oISRUCpy8opHDKpmY237HsGHywf1rwykwopqvBwhGDfmutb5CfgvnDrOcGTl6IOtopiQV154zvcaJ9h01l1KOhy9a2N7N8ac5yBfiO2mEPIR061yJChEqhVI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "West Janessa",
+          "street": "Armstrong Streets",
+          "house": 376,
+          "flat": 7056
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 32955,
+      "createdOn": "2025-12-22T20:51:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6949af5b1c508c5d5ef44e32",
+          "products": [
+            {
+              "_id": "6949af5b1c508c5d5ef44e42",
+              "name": "Pizza78004",
+              "amount": 285,
+              "price": 32955,
+              "manufacturer": "Sony",
+              "notes": "R81YSW6a9QNxkH6yd5EwUjJBDpLgN6Du3pqgoZnoLuVqVMONYOtUgyLx27b1KfF5jTY6hmrhRL0zpgTgDnyfrWbngYTLztKIKqS2TgCpms7LDBRGw57NjBglLgquK1qSq8oISRUCpy8opHDKpmY237HsGHywf1rwykwopqvBwhGDfmutb5CfgvnDrOcGTl6IOtopiQV154zvcaJ9h01l1KOhy9a2N7N8ac5yBfiO2mEPIR061yJChEqhVI",
+              "received": false
+            }
+          ],
+          "total_price": 32955,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Janessa",
+              "street": "Armstrong Streets",
+              "house": 376,
+              "flat": 7056
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T20:51:41.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949af5b1c508c5d5ef44e32",
+          "products": [
+            {
+              "_id": "6949af5b1c508c5d5ef44e42",
+              "name": "Pizza78004",
+              "amount": 285,
+              "price": 32955,
+              "manufacturer": "Sony",
+              "notes": "R81YSW6a9QNxkH6yd5EwUjJBDpLgN6Du3pqgoZnoLuVqVMONYOtUgyLx27b1KfF5jTY6hmrhRL0zpgTgDnyfrWbngYTLztKIKqS2TgCpms7LDBRGw57NjBglLgquK1qSq8oISRUCpy8opHDKpmY237HsGHywf1rwykwopqvBwhGDfmutb5CfgvnDrOcGTl6IOtopiQV154zvcaJ9h01l1KOhy9a2N7N8ac5yBfiO2mEPIR061yJChEqhVI",
+              "received": false
+            }
+          ],
+          "total_price": 32955,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Janessa",
+              "street": "Armstrong Streets",
+              "house": 376,
+              "flat": 7056
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T20:51:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949af5b1c508c5d5ef44e32",
+          "products": [
+            {
+              "_id": "6949af5b1c508c5d5ef44e42",
+              "name": "Pizza78004",
+              "amount": 285,
+              "price": 32955,
+              "manufacturer": "Sony",
+              "notes": "R81YSW6a9QNxkH6yd5EwUjJBDpLgN6Du3pqgoZnoLuVqVMONYOtUgyLx27b1KfF5jTY6hmrhRL0zpgTgDnyfrWbngYTLztKIKqS2TgCpms7LDBRGw57NjBglLgquK1qSq8oISRUCpy8opHDKpmY237HsGHywf1rwykwopqvBwhGDfmutb5CfgvnDrOcGTl6IOtopiQV154zvcaJ9h01l1KOhy9a2N7N8ac5yBfiO2mEPIR061yJChEqhVI",
+              "received": false
+            }
+          ],
+          "total_price": 32955,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:51:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

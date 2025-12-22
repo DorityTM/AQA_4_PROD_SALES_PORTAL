@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:52:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3722",
+    "etag": "W/\"e8a-TciMAGCFyJp022hB8VxopnLZ/wY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949af7a1c508c5d5ef45c0a",
+      "status": "In Process",
+      "customer": {
+        "_id": "6949af791c508c5d5ef45bba",
+        "email": "Adrianna.Leuschke72@gmail.com",
+        "name": "Ayla Schaden",
+        "country": "Great Britain",
+        "city": "East Montyworth",
+        "street": "Sabryna Avenue 7",
+        "house": 124,
+        "flat": 6991,
+        "phone": "+155606464764389",
+        "createdOn": "2025-12-22T20:52:09.000Z",
+        "notes": "WR0dOKnhxSlvqC7TdtYB60zMC5dP65"
+      },
+      "products": [
+        {
+          "_id": "6949af791c508c5d5ef45bda",
+          "name": "Chicken55776",
+          "amount": 399,
+          "price": 18847,
+          "manufacturer": "Google",
+          "notes": "QjmWOPC0YO7jQUQl6AiaS9HtgbMkGIM2NhwEoeSPO31TibCNivPM5UJTeaJPc84SHW8rQ2BN3s3vOfaeI7B5Ze72qUEygNPKTtqBOq0YJ9U3z2k7dkpA0uNrNps1jitBEqXm5HjIjpvT9ULp9UrWUnbVgDtO5O4urBMrSeMUdQ0xS5Z8gVq2nuG0zc3mdxVftyKF6CRttTxYMaJj2CLbwzs1xbPhX3b72GifsnRCSK4pjyrFnqxSBz2jNp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Hilpertside",
+          "street": "Greenholt Springs",
+          "house": 353,
+          "flat": 6525
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 18847,
+      "createdOn": "2025-12-22T20:52:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6949af791c508c5d5ef45bba",
+          "products": [
+            {
+              "_id": "6949af791c508c5d5ef45bda",
+              "name": "Chicken55776",
+              "amount": 399,
+              "price": 18847,
+              "manufacturer": "Google",
+              "notes": "QjmWOPC0YO7jQUQl6AiaS9HtgbMkGIM2NhwEoeSPO31TibCNivPM5UJTeaJPc84SHW8rQ2BN3s3vOfaeI7B5Ze72qUEygNPKTtqBOq0YJ9U3z2k7dkpA0uNrNps1jitBEqXm5HjIjpvT9ULp9UrWUnbVgDtO5O4urBMrSeMUdQ0xS5Z8gVq2nuG0zc3mdxVftyKF6CRttTxYMaJj2CLbwzs1xbPhX3b72GifsnRCSK4pjyrFnqxSBz2jNp",
+              "received": false
+            }
+          ],
+          "total_price": 18847,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Hilpertside",
+              "street": "Greenholt Springs",
+              "house": 353,
+              "flat": 6525
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T20:52:11.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949af791c508c5d5ef45bba",
+          "products": [
+            {
+              "_id": "6949af791c508c5d5ef45bda",
+              "name": "Chicken55776",
+              "amount": 399,
+              "price": 18847,
+              "manufacturer": "Google",
+              "notes": "QjmWOPC0YO7jQUQl6AiaS9HtgbMkGIM2NhwEoeSPO31TibCNivPM5UJTeaJPc84SHW8rQ2BN3s3vOfaeI7B5Ze72qUEygNPKTtqBOq0YJ9U3z2k7dkpA0uNrNps1jitBEqXm5HjIjpvT9ULp9UrWUnbVgDtO5O4urBMrSeMUdQ0xS5Z8gVq2nuG0zc3mdxVftyKF6CRttTxYMaJj2CLbwzs1xbPhX3b72GifsnRCSK4pjyrFnqxSBz2jNp",
+              "received": false
+            }
+          ],
+          "total_price": 18847,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Hilpertside",
+              "street": "Greenholt Springs",
+              "house": 353,
+              "flat": 6525
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T20:52:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949af791c508c5d5ef45bba",
+          "products": [
+            {
+              "_id": "6949af791c508c5d5ef45bda",
+              "name": "Chicken55776",
+              "amount": 399,
+              "price": 18847,
+              "manufacturer": "Google",
+              "notes": "QjmWOPC0YO7jQUQl6AiaS9HtgbMkGIM2NhwEoeSPO31TibCNivPM5UJTeaJPc84SHW8rQ2BN3s3vOfaeI7B5Ze72qUEygNPKTtqBOq0YJ9U3z2k7dkpA0uNrNps1jitBEqXm5HjIjpvT9ULp9UrWUnbVgDtO5O4urBMrSeMUdQ0xS5Z8gVq2nuG0zc3mdxVftyKF6CRttTxYMaJj2CLbwzs1xbPhX3b72GifsnRCSK4pjyrFnqxSBz2jNp",
+              "received": false
+            }
+          ],
+          "total_price": 18847,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:52:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

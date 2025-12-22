@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 20:52:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4593",
+    "etag": "W/\"11f1-FzPZQ80WfrimdhXNuQRfWh1kSCA\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949af8d1c508c5d5ef46559",
+      "status": "Received",
+      "customer": {
+        "_id": "6949af8c1c508c5d5ef46475",
+        "email": "Madeline80@yahoo.com",
+        "name": "Macey Corkery",
+        "country": "Belarus",
+        "city": "Port Freda",
+        "street": "Maple Avenue 73",
+        "house": 444,
+        "flat": 8401,
+        "phone": "+093741307903827",
+        "createdOn": "2025-12-22T20:52:28.000Z",
+        "notes": "WGJNpQNNfcKqtkWixx60f4SlvTFMV5"
+      },
+      "products": [
+        {
+          "_id": "6949af8d1c508c5d5ef46538",
+          "name": "Chair3283",
+          "amount": 321,
+          "price": 28645,
+          "manufacturer": "Amazon",
+          "notes": "BjiE0Pd8IXRT0JALbZsI57THXOgcyBMgU5tvTZ5OShzFW1EC2lyfeyvbtcaTkvGQ631qWcPkHmELHvlsUZAAaybwm7WiyyCQxI75aGHKARwHf8zDziTZ5idjhcLhrzAg63L4AGPpwXZuaCeLFZ9YxsMs1XNBYjXauBrWz3COlxpJgD9PhVbSz5Ts2LAtNq0zt2Xlx9CVmX1FKU09nFwxYlH08CnmRkdEPslVlEuSD5ZPTwQS3QeTdfEbYY",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Port Regan",
+          "street": "Grant Street",
+          "house": 790,
+          "flat": 4397
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 28645,
+      "createdOn": "2025-12-22T20:52:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6949af8c1c508c5d5ef46475",
+          "products": [
+            {
+              "_id": "6949af8d1c508c5d5ef46538",
+              "name": "Chair3283",
+              "amount": 321,
+              "price": 28645,
+              "manufacturer": "Amazon",
+              "notes": "BjiE0Pd8IXRT0JALbZsI57THXOgcyBMgU5tvTZ5OShzFW1EC2lyfeyvbtcaTkvGQ631qWcPkHmELHvlsUZAAaybwm7WiyyCQxI75aGHKARwHf8zDziTZ5idjhcLhrzAg63L4AGPpwXZuaCeLFZ9YxsMs1XNBYjXauBrWz3COlxpJgD9PhVbSz5Ts2LAtNq0zt2Xlx9CVmX1FKU09nFwxYlH08CnmRkdEPslVlEuSD5ZPTwQS3QeTdfEbYY",
+              "received": true
+            }
+          ],
+          "total_price": 28645,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Port Regan",
+              "street": "Grant Street",
+              "house": 790,
+              "flat": 4397
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T20:52:32.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6949af8c1c508c5d5ef46475",
+          "products": [
+            {
+              "_id": "6949af8d1c508c5d5ef46538",
+              "name": "Chair3283",
+              "amount": 321,
+              "price": 28645,
+              "manufacturer": "Amazon",
+              "notes": "BjiE0Pd8IXRT0JALbZsI57THXOgcyBMgU5tvTZ5OShzFW1EC2lyfeyvbtcaTkvGQ631qWcPkHmELHvlsUZAAaybwm7WiyyCQxI75aGHKARwHf8zDziTZ5idjhcLhrzAg63L4AGPpwXZuaCeLFZ9YxsMs1XNBYjXauBrWz3COlxpJgD9PhVbSz5Ts2LAtNq0zt2Xlx9CVmX1FKU09nFwxYlH08CnmRkdEPslVlEuSD5ZPTwQS3QeTdfEbYY",
+              "received": false
+            }
+          ],
+          "total_price": 28645,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Port Regan",
+              "street": "Grant Street",
+              "house": 790,
+              "flat": 4397
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T20:52:30.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949af8c1c508c5d5ef46475",
+          "products": [
+            {
+              "_id": "6949af8d1c508c5d5ef46538",
+              "name": "Chair3283",
+              "amount": 321,
+              "price": 28645,
+              "manufacturer": "Amazon",
+              "notes": "BjiE0Pd8IXRT0JALbZsI57THXOgcyBMgU5tvTZ5OShzFW1EC2lyfeyvbtcaTkvGQ631qWcPkHmELHvlsUZAAaybwm7WiyyCQxI75aGHKARwHf8zDziTZ5idjhcLhrzAg63L4AGPpwXZuaCeLFZ9YxsMs1XNBYjXauBrWz3COlxpJgD9PhVbSz5Ts2LAtNq0zt2Xlx9CVmX1FKU09nFwxYlH08CnmRkdEPslVlEuSD5ZPTwQS3QeTdfEbYY",
+              "received": false
+            }
+          ],
+          "total_price": 28645,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Port Regan",
+              "street": "Grant Street",
+              "house": 790,
+              "flat": 4397
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T20:52:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949af8c1c508c5d5ef46475",
+          "products": [
+            {
+              "_id": "6949af8d1c508c5d5ef46538",
+              "name": "Chair3283",
+              "amount": 321,
+              "price": 28645,
+              "manufacturer": "Amazon",
+              "notes": "BjiE0Pd8IXRT0JALbZsI57THXOgcyBMgU5tvTZ5OShzFW1EC2lyfeyvbtcaTkvGQ631qWcPkHmELHvlsUZAAaybwm7WiyyCQxI75aGHKARwHf8zDziTZ5idjhcLhrzAg63L4AGPpwXZuaCeLFZ9YxsMs1XNBYjXauBrWz3COlxpJgD9PhVbSz5Ts2LAtNq0zt2Xlx9CVmX1FKU09nFwxYlH08CnmRkdEPslVlEuSD5ZPTwQS3QeTdfEbYY",
+              "received": false
+            }
+          ],
+          "total_price": 28645,
+          "delivery": null,
+          "changedOn": "2025-12-22T20:52:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
