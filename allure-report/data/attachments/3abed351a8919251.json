@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 12:01:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3684",
+    "etag": "W/\"e64-bK7pNl7R42spj6Gp3WMlfM+QoOg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694933321c508c5d5ef39b8c",
+      "status": "In Process",
+      "customer": {
+        "_id": "694933311c508c5d5ef39b47",
+        "email": "Alvina27@hotmail.com",
+        "name": "Shawna Jacobi",
+        "country": "USA",
+        "city": "Birdiebury",
+        "street": "Arlie Dale 80",
+        "house": 857,
+        "flat": 6467,
+        "phone": "+656880597603458",
+        "createdOn": "2025-12-22T12:01:53.000Z",
+        "notes": "5AFDt3EWE8Yf5bqxTa1UYPEdo0iJdO"
+      },
+      "products": [
+        {
+          "_id": "694933311c508c5d5ef39b5e",
+          "name": "Tuna32644",
+          "amount": 769,
+          "price": 82235,
+          "manufacturer": "Google",
+          "notes": "hbCoiz1ZpUppRqUHPEPtrnPwiMJ0THOJA2LNOzMFlmX8lvrbT4IOUfkAPHFWLCseGrp2FfmpqAVCNd5lsZzBjVe09aLeedOCw8mmJAPIYZ0wmP6CY0L7ZXVr6UZmlPN4rQhMwtPkJPR24YTmKQuSOS8UjBvQgXjF8qNKBdzkJlJn4nFANrwAfv8opatvGz6C1fq5BbXcUTcvQX2WucBka70Y9Q1iW9vmxiXiOGwLJWX294FMQtqvqV1IiN",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Blacksburg",
+          "street": "Marquardt Islands",
+          "house": 548,
+          "flat": 8222
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 82235,
+      "createdOn": "2025-12-22T12:01:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694933311c508c5d5ef39b47",
+          "products": [
+            {
+              "_id": "694933311c508c5d5ef39b5e",
+              "name": "Tuna32644",
+              "amount": 769,
+              "price": 82235,
+              "manufacturer": "Google",
+              "notes": "hbCoiz1ZpUppRqUHPEPtrnPwiMJ0THOJA2LNOzMFlmX8lvrbT4IOUfkAPHFWLCseGrp2FfmpqAVCNd5lsZzBjVe09aLeedOCw8mmJAPIYZ0wmP6CY0L7ZXVr6UZmlPN4rQhMwtPkJPR24YTmKQuSOS8UjBvQgXjF8qNKBdzkJlJn4nFANrwAfv8opatvGz6C1fq5BbXcUTcvQX2WucBka70Y9Q1iW9vmxiXiOGwLJWX294FMQtqvqV1IiN",
+              "received": false
+            }
+          ],
+          "total_price": 82235,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Blacksburg",
+              "street": "Marquardt Islands",
+              "house": 548,
+              "flat": 8222
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T12:01:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694933311c508c5d5ef39b47",
+          "products": [
+            {
+              "_id": "694933311c508c5d5ef39b5e",
+              "name": "Tuna32644",
+              "amount": 769,
+              "price": 82235,
+              "manufacturer": "Google",
+              "notes": "hbCoiz1ZpUppRqUHPEPtrnPwiMJ0THOJA2LNOzMFlmX8lvrbT4IOUfkAPHFWLCseGrp2FfmpqAVCNd5lsZzBjVe09aLeedOCw8mmJAPIYZ0wmP6CY0L7ZXVr6UZmlPN4rQhMwtPkJPR24YTmKQuSOS8UjBvQgXjF8qNKBdzkJlJn4nFANrwAfv8opatvGz6C1fq5BbXcUTcvQX2WucBka70Y9Q1iW9vmxiXiOGwLJWX294FMQtqvqV1IiN",
+              "received": false
+            }
+          ],
+          "total_price": 82235,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Blacksburg",
+              "street": "Marquardt Islands",
+              "house": 548,
+              "flat": 8222
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T12:01:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694933311c508c5d5ef39b47",
+          "products": [
+            {
+              "_id": "694933311c508c5d5ef39b5e",
+              "name": "Tuna32644",
+              "amount": 769,
+              "price": 82235,
+              "manufacturer": "Google",
+              "notes": "hbCoiz1ZpUppRqUHPEPtrnPwiMJ0THOJA2LNOzMFlmX8lvrbT4IOUfkAPHFWLCseGrp2FfmpqAVCNd5lsZzBjVe09aLeedOCw8mmJAPIYZ0wmP6CY0L7ZXVr6UZmlPN4rQhMwtPkJPR24YTmKQuSOS8UjBvQgXjF8qNKBdzkJlJn4nFANrwAfv8opatvGz6C1fq5BbXcUTcvQX2WucBka70Y9Q1iW9vmxiXiOGwLJWX294FMQtqvqV1IiN",
+              "received": false
+            }
+          ],
+          "total_price": 82235,
+          "delivery": null,
+          "changedOn": "2025-12-22T12:01:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

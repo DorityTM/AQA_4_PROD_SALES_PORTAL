@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Mon, 22 Dec 2025 12:02:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3914",
+    "etag": "W/\"f4a-4+A03VaZOoc7eQ4W6CBLldgBp8M\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6949335a1c508c5d5ef3ad61",
+      "status": "Draft",
+      "customer": {
+        "_id": "6949335a1c508c5d5ef3ad08",
+        "email": "Alanna_Jaskolski78@hotmail.com",
+        "name": "Genoveva Jenkins",
+        "country": "Russia",
+        "city": "Felicitaburgh",
+        "street": "Pouros Lock 54",
+        "house": 764,
+        "flat": 6525,
+        "phone": "+038607798657987",
+        "createdOn": "2025-12-22T12:02:34.000Z",
+        "notes": "KPwFiQ5cUFp2xAEYYDYFLgJUCWdoaa"
+      },
+      "products": [
+        {
+          "_id": "6949335a1c508c5d5ef3ad1a",
+          "name": "Pizza20078",
+          "amount": 422,
+          "price": 55775,
+          "manufacturer": "Google",
+          "notes": "vR2R4bKHyTiMPNLRgmkTdDpR9ucblK0fS29eLYAmGLzQdbUtqylZ7gYnWoY4XnJd1JP5oTOZs0xWhzekFssMSILEynaOJpYKaTN62T0uGxL4WW4fnTWx1SdtRJBJfz60kIcYlScGF0bg3lZb2sO5EahD08sXGVyjjmPqr6ETu1qtlfqv43EM1RweheDrwQNxgqgxOElgWDf7azd4E5H97yPXPOyMYozyZdFdx46eObJvkPLl9KxTzuhoSY",
+          "received": false
+        },
+        {
+          "_id": "6949335a1c508c5d5ef3ad2d",
+          "name": "Soap32723",
+          "amount": 207,
+          "price": 41847,
+          "manufacturer": "Samsung",
+          "notes": "GP7riXWINURFZpIUhhnrOnYazYNfpluJp9hkHUsWKysLUP8zoJtOmKolUb9PLEm9oghZzCRt8jge07Npq1WHgQeGMlq93JixxwSvueAuelOTdg3oorLeG6lp1QS0JAXTmjE5DOhwv87CNAl35S9LOcIeWmFZYSaYG5u1PgnxysVQLbrZAjGYbYYS9m4dp79zYNKdOJ6TkWgAtlGWl7iCFXql87guCD5eRIeJ9E4djw23nTGsFQnuegKnXI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Micheal",
+          "street": "Sheldon Landing",
+          "house": 736,
+          "flat": 8889
+        },
+        "finalDate": "2025-12-29T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97622,
+      "createdOn": "2025-12-22T12:02:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6949335a1c508c5d5ef3ad08",
+          "products": [
+            {
+              "_id": "6949335a1c508c5d5ef3ad1a",
+              "name": "Pizza20078",
+              "amount": 422,
+              "price": 55775,
+              "manufacturer": "Google",
+              "notes": "vR2R4bKHyTiMPNLRgmkTdDpR9ucblK0fS29eLYAmGLzQdbUtqylZ7gYnWoY4XnJd1JP5oTOZs0xWhzekFssMSILEynaOJpYKaTN62T0uGxL4WW4fnTWx1SdtRJBJfz60kIcYlScGF0bg3lZb2sO5EahD08sXGVyjjmPqr6ETu1qtlfqv43EM1RweheDrwQNxgqgxOElgWDf7azd4E5H97yPXPOyMYozyZdFdx46eObJvkPLl9KxTzuhoSY",
+              "received": false
+            },
+            {
+              "_id": "6949335a1c508c5d5ef3ad2d",
+              "name": "Soap32723",
+              "amount": 207,
+              "price": 41847,
+              "manufacturer": "Samsung",
+              "notes": "GP7riXWINURFZpIUhhnrOnYazYNfpluJp9hkHUsWKysLUP8zoJtOmKolUb9PLEm9oghZzCRt8jge07Npq1WHgQeGMlq93JixxwSvueAuelOTdg3oorLeG6lp1QS0JAXTmjE5DOhwv87CNAl35S9LOcIeWmFZYSaYG5u1PgnxysVQLbrZAjGYbYYS9m4dp79zYNKdOJ6TkWgAtlGWl7iCFXql87guCD5eRIeJ9E4djw23nTGsFQnuegKnXI",
+              "received": false
+            }
+          ],
+          "total_price": 97622,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Micheal",
+              "street": "Sheldon Landing",
+              "house": 736,
+              "flat": 8889
+            },
+            "finalDate": "2025-12-29T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-22T12:02:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6949335a1c508c5d5ef3ad08",
+          "products": [
+            {
+              "_id": "6949335a1c508c5d5ef3ad1a",
+              "name": "Pizza20078",
+              "amount": 422,
+              "price": 55775,
+              "manufacturer": "Google",
+              "notes": "vR2R4bKHyTiMPNLRgmkTdDpR9ucblK0fS29eLYAmGLzQdbUtqylZ7gYnWoY4XnJd1JP5oTOZs0xWhzekFssMSILEynaOJpYKaTN62T0uGxL4WW4fnTWx1SdtRJBJfz60kIcYlScGF0bg3lZb2sO5EahD08sXGVyjjmPqr6ETu1qtlfqv43EM1RweheDrwQNxgqgxOElgWDf7azd4E5H97yPXPOyMYozyZdFdx46eObJvkPLl9KxTzuhoSY",
+              "received": false
+            },
+            {
+              "_id": "6949335a1c508c5d5ef3ad2d",
+              "name": "Soap32723",
+              "amount": 207,
+              "price": 41847,
+              "manufacturer": "Samsung",
+              "notes": "GP7riXWINURFZpIUhhnrOnYazYNfpluJp9hkHUsWKysLUP8zoJtOmKolUb9PLEm9oghZzCRt8jge07Npq1WHgQeGMlq93JixxwSvueAuelOTdg3oorLeG6lp1QS0JAXTmjE5DOhwv87CNAl35S9LOcIeWmFZYSaYG5u1PgnxysVQLbrZAjGYbYYS9m4dp79zYNKdOJ6TkWgAtlGWl7iCFXql87guCD5eRIeJ9E4djw23nTGsFQnuegKnXI",
+              "received": false
+            }
+          ],
+          "total_price": 97622,
+          "delivery": null,
+          "changedOn": "2025-12-22T12:02:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
