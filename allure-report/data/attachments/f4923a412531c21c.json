@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:27:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2759",
+    "etag": "W/\"ac7-h+IhxMoSkRDH6U4AHdfq1hsPDdA\"",
+    "keep-alive": "timeout=5, max=37",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b095c1c508c5d5ef8c276",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b095c1c508c5d5ef8c23c",
+        "email": "Constance_Howe57@gmail.com",
+        "name": "Mireya Schulist",
+        "country": "Ukraine",
+        "city": "Carmichael",
+        "street": "Orn Shores 14",
+        "house": 761,
+        "flat": 8670,
+        "phone": "+122506480811134",
+        "createdOn": "2025-12-23T21:27:56.000Z",
+        "notes": "Aps1tONQFKhedpIWPRmcCsKRCdSeKy"
+      },
+      "products": [
+        {
+          "_id": "694b095c1c508c5d5ef8c256",
+          "name": "Chips58317",
+          "amount": 218,
+          "price": 44619,
+          "manufacturer": "Microsoft",
+          "notes": "XJIP86PZ6QnRJnXP11iXN4qTS0t9gyRW0MmjAT74gXmZptCiIKSugk03APO5PUddMY639XMhxZM4gJpMyWHeoljYdYwbOpnCsPbHdDYywFmlZ1jHfSjcs7RQArcVpVC0a15GyrtnLkE2mHz78e6FFOfv3dnL2Hx6ii1WAXTq7TB6KNNwca6CuNQdNThUvz2rZv6NeGRKOMBFGoRXlkrdldXhpTcg0SAlmdhZrCLyk8O9mx6wSzwovD6ouF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Talon",
+          "street": "Woodlands Avenue",
+          "house": 789,
+          "flat": 6361
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 44619,
+      "createdOn": "2025-12-23T21:27:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b095c1c508c5d5ef8c23c",
+          "products": [
+            {
+              "_id": "694b095c1c508c5d5ef8c256",
+              "name": "Chips58317",
+              "amount": 218,
+              "price": 44619,
+              "manufacturer": "Microsoft",
+              "notes": "XJIP86PZ6QnRJnXP11iXN4qTS0t9gyRW0MmjAT74gXmZptCiIKSugk03APO5PUddMY639XMhxZM4gJpMyWHeoljYdYwbOpnCsPbHdDYywFmlZ1jHfSjcs7RQArcVpVC0a15GyrtnLkE2mHz78e6FFOfv3dnL2Hx6ii1WAXTq7TB6KNNwca6CuNQdNThUvz2rZv6NeGRKOMBFGoRXlkrdldXhpTcg0SAlmdhZrCLyk8O9mx6wSzwovD6ouF",
+              "received": false
+            }
+          ],
+          "total_price": 44619,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Talon",
+              "street": "Woodlands Avenue",
+              "house": 789,
+              "flat": 6361
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:27:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b095c1c508c5d5ef8c23c",
+          "products": [
+            {
+              "_id": "694b095c1c508c5d5ef8c256",
+              "name": "Chips58317",
+              "amount": 218,
+              "price": 44619,
+              "manufacturer": "Microsoft",
+              "notes": "XJIP86PZ6QnRJnXP11iXN4qTS0t9gyRW0MmjAT74gXmZptCiIKSugk03APO5PUddMY639XMhxZM4gJpMyWHeoljYdYwbOpnCsPbHdDYywFmlZ1jHfSjcs7RQArcVpVC0a15GyrtnLkE2mHz78e6FFOfv3dnL2Hx6ii1WAXTq7TB6KNNwca6CuNQdNThUvz2rZv6NeGRKOMBFGoRXlkrdldXhpTcg0SAlmdhZrCLyk8O9mx6wSzwovD6ouF",
+              "received": false
+            }
+          ],
+          "total_price": 44619,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:27:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

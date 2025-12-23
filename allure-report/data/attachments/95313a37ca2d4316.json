@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:28:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2755",
+    "etag": "W/\"ac3-JuTuHgYw65RmDIlrqC4V26jHfvg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b098d1c508c5d5ef8df6c",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b098c1c508c5d5ef8df24",
+        "email": "Angelina.Kulas@gmail.com",
+        "name": "Brisa Windler",
+        "country": "Russia",
+        "city": "New Iliana",
+        "street": "Chapel Close 58",
+        "house": 741,
+        "flat": 2636,
+        "phone": "+970697348117787",
+        "createdOn": "2025-12-23T21:28:44.000Z",
+        "notes": "W5XUIx5CnraZiBWZNS3d6cJbvJ7coS"
+      },
+      "products": [
+        {
+          "_id": "694b098c1c508c5d5ef8df41",
+          "name": "Tuna51365",
+          "amount": 253,
+          "price": 56701,
+          "manufacturer": "Microsoft",
+          "notes": "MaiDMA93KRQ2aYsc5xIYAFunycvA7XfcMY1jDilbkk322Bm4A6yreDa2rQnPOInJSzVtg4CMsWJsiEdqkeaoE43NxfBuHxUryVIBs9PziDG6NJ33uoiJtbQq52d0Q1LuDYQvSQCKGTsIzcqBAZacIHZqKS4TVCoJUJSeLSlysrGzBF3DSc9JxL2Kjmu5be7TwxzIpP6kNQ4OzSpJ7MZOsubtFZSrkluQezXBpepkHmfmwxh44dj8BSgaF3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Ceasarmouth",
+          "street": "Sonia Plains",
+          "house": 956,
+          "flat": 3608
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56701,
+      "createdOn": "2025-12-23T21:28:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b098c1c508c5d5ef8df24",
+          "products": [
+            {
+              "_id": "694b098c1c508c5d5ef8df41",
+              "name": "Tuna51365",
+              "amount": 253,
+              "price": 56701,
+              "manufacturer": "Microsoft",
+              "notes": "MaiDMA93KRQ2aYsc5xIYAFunycvA7XfcMY1jDilbkk322Bm4A6yreDa2rQnPOInJSzVtg4CMsWJsiEdqkeaoE43NxfBuHxUryVIBs9PziDG6NJ33uoiJtbQq52d0Q1LuDYQvSQCKGTsIzcqBAZacIHZqKS4TVCoJUJSeLSlysrGzBF3DSc9JxL2Kjmu5be7TwxzIpP6kNQ4OzSpJ7MZOsubtFZSrkluQezXBpepkHmfmwxh44dj8BSgaF3",
+              "received": false
+            }
+          ],
+          "total_price": 56701,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Ceasarmouth",
+              "street": "Sonia Plains",
+              "house": 956,
+              "flat": 3608
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:28:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b098c1c508c5d5ef8df24",
+          "products": [
+            {
+              "_id": "694b098c1c508c5d5ef8df41",
+              "name": "Tuna51365",
+              "amount": 253,
+              "price": 56701,
+              "manufacturer": "Microsoft",
+              "notes": "MaiDMA93KRQ2aYsc5xIYAFunycvA7XfcMY1jDilbkk322Bm4A6yreDa2rQnPOInJSzVtg4CMsWJsiEdqkeaoE43NxfBuHxUryVIBs9PziDG6NJ33uoiJtbQq52d0Q1LuDYQvSQCKGTsIzcqBAZacIHZqKS4TVCoJUJSeLSlysrGzBF3DSc9JxL2Kjmu5be7TwxzIpP6kNQ4OzSpJ7MZOsubtFZSrkluQezXBpepkHmfmwxh44dj8BSgaF3",
+              "received": false
+            }
+          ],
+          "total_price": 56701,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:28:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

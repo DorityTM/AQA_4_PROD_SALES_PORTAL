@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:28:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2751",
+    "etag": "W/\"abf-enasxHW1bblvquOIlZu+fJvn1uw\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b09851c508c5d5ef8dad2",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b09841c508c5d5ef8da9a",
+        "email": "Columbus_Kulas@gmail.com",
+        "name": "Hudson Larkin",
+        "country": "Russia",
+        "city": "West Serenaborough",
+        "street": "Lebsack Pass 92",
+        "house": 921,
+        "flat": 1644,
+        "phone": "+752566780755544",
+        "createdOn": "2025-12-23T21:28:36.000Z",
+        "notes": "27SHeuQL3q7vsx7EF1StFmDAupcN8a"
+      },
+      "products": [
+        {
+          "_id": "694b09841c508c5d5ef8daac",
+          "name": "Pants18500",
+          "amount": 863,
+          "price": 32604,
+          "manufacturer": "Xiaomi",
+          "notes": "VPLUIPg56GaM8RtYZ4A3oZdESuE6ql65M92qNG0FKn7SWme4fC2CAGW11B1T2RiH06JF7bUiDlP2ziv9joffSwPb8QCV0FoLKq6lz0hOgAElyD36mGaGBSW2qf3NfrGG20egIsNlEECMf42kOaESmQVxdXUwTJQK5f83qWawHBJy93ohrmS2Iseo6pj8PhS3ds2jCHE80NUZsoczBc7SYp3FD4NMzo9Aqwaz6DOdSy0CgEw0jKu6HuayeO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Baileystad",
+          "street": "Alvis Club",
+          "house": 343,
+          "flat": 6052
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 32604,
+      "createdOn": "2025-12-23T21:28:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b09841c508c5d5ef8da9a",
+          "products": [
+            {
+              "_id": "694b09841c508c5d5ef8daac",
+              "name": "Pants18500",
+              "amount": 863,
+              "price": 32604,
+              "manufacturer": "Xiaomi",
+              "notes": "VPLUIPg56GaM8RtYZ4A3oZdESuE6ql65M92qNG0FKn7SWme4fC2CAGW11B1T2RiH06JF7bUiDlP2ziv9joffSwPb8QCV0FoLKq6lz0hOgAElyD36mGaGBSW2qf3NfrGG20egIsNlEECMf42kOaESmQVxdXUwTJQK5f83qWawHBJy93ohrmS2Iseo6pj8PhS3ds2jCHE80NUZsoczBc7SYp3FD4NMzo9Aqwaz6DOdSy0CgEw0jKu6HuayeO",
+              "received": false
+            }
+          ],
+          "total_price": 32604,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Baileystad",
+              "street": "Alvis Club",
+              "house": 343,
+              "flat": 6052
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:28:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b09841c508c5d5ef8da9a",
+          "products": [
+            {
+              "_id": "694b09841c508c5d5ef8daac",
+              "name": "Pants18500",
+              "amount": 863,
+              "price": 32604,
+              "manufacturer": "Xiaomi",
+              "notes": "VPLUIPg56GaM8RtYZ4A3oZdESuE6ql65M92qNG0FKn7SWme4fC2CAGW11B1T2RiH06JF7bUiDlP2ziv9joffSwPb8QCV0FoLKq6lz0hOgAElyD36mGaGBSW2qf3NfrGG20egIsNlEECMf42kOaESmQVxdXUwTJQK5f83qWawHBJy93ohrmS2Iseo6pj8PhS3ds2jCHE80NUZsoczBc7SYp3FD4NMzo9Aqwaz6DOdSy0CgEw0jKu6HuayeO",
+              "received": false
+            }
+          ],
+          "total_price": 32604,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:28:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

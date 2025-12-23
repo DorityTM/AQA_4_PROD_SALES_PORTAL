@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:27:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4595",
+    "etag": "W/\"11f3-6gNgJhKM2SDFhkLWGjQiRgAsZ90\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b092f1c508c5d5ef8a718",
+      "status": "Received",
+      "customer": {
+        "_id": "694b092a1c508c5d5ef8a461",
+        "email": "Aditya.Kessler4@yahoo.com",
+        "name": "Verla Zieme",
+        "country": "Great Britain",
+        "city": "East Coralieworth",
+        "street": "Mekhi Overpass 35",
+        "house": 272,
+        "flat": 5175,
+        "phone": "+685350911123328",
+        "createdOn": "2025-12-23T21:27:06.000Z",
+        "notes": "3wLGg3YzQ5BQ3g02S1Wn91HeQ4cTTU"
+      },
+      "products": [
+        {
+          "_id": "694b092b1c508c5d5ef8a49a",
+          "name": "Car74434",
+          "amount": 36,
+          "price": 3675,
+          "manufacturer": "Google",
+          "notes": "Sj96GAbcDjy5gRld269YLOfchYKEcVHaVtzWR9jLLdDqNZE3OLyomjw9XhDo0ThzlIGM0WUli9XRcnAsNlBGh2Jgk6Jila8aQbIQAUv03NDCKTPmpHlg7l1hMFJNQ6CWNX9snPYz7vqhRXgDQAXiljfUB4nzPJc1JtCH6QfAUJFMSc9WHVGGOK5vXWFqZ6O3iAodDb5wZl9FDfUSiSFZMpnqVmofoLqiI6H1eDAEr1YFcsFEg1Erwq2k3w",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Heaneyworth",
+          "street": "Eric Valleys",
+          "house": 891,
+          "flat": 1809
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3675,
+      "createdOn": "2025-12-23T21:27:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694b092a1c508c5d5ef8a461",
+          "products": [
+            {
+              "_id": "694b092b1c508c5d5ef8a49a",
+              "name": "Car74434",
+              "amount": 36,
+              "price": 3675,
+              "manufacturer": "Google",
+              "notes": "Sj96GAbcDjy5gRld269YLOfchYKEcVHaVtzWR9jLLdDqNZE3OLyomjw9XhDo0ThzlIGM0WUli9XRcnAsNlBGh2Jgk6Jila8aQbIQAUv03NDCKTPmpHlg7l1hMFJNQ6CWNX9snPYz7vqhRXgDQAXiljfUB4nzPJc1JtCH6QfAUJFMSc9WHVGGOK5vXWFqZ6O3iAodDb5wZl9FDfUSiSFZMpnqVmofoLqiI6H1eDAEr1YFcsFEg1Erwq2k3w",
+              "received": true
+            }
+          ],
+          "total_price": 3675,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Heaneyworth",
+              "street": "Eric Valleys",
+              "house": 891,
+              "flat": 1809
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:27:13.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694b092a1c508c5d5ef8a461",
+          "products": [
+            {
+              "_id": "694b092b1c508c5d5ef8a49a",
+              "name": "Car74434",
+              "amount": 36,
+              "price": 3675,
+              "manufacturer": "Google",
+              "notes": "Sj96GAbcDjy5gRld269YLOfchYKEcVHaVtzWR9jLLdDqNZE3OLyomjw9XhDo0ThzlIGM0WUli9XRcnAsNlBGh2Jgk6Jila8aQbIQAUv03NDCKTPmpHlg7l1hMFJNQ6CWNX9snPYz7vqhRXgDQAXiljfUB4nzPJc1JtCH6QfAUJFMSc9WHVGGOK5vXWFqZ6O3iAodDb5wZl9FDfUSiSFZMpnqVmofoLqiI6H1eDAEr1YFcsFEg1Erwq2k3w",
+              "received": false
+            }
+          ],
+          "total_price": 3675,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Heaneyworth",
+              "street": "Eric Valleys",
+              "house": 891,
+              "flat": 1809
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:27:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b092a1c508c5d5ef8a461",
+          "products": [
+            {
+              "_id": "694b092b1c508c5d5ef8a49a",
+              "name": "Car74434",
+              "amount": 36,
+              "price": 3675,
+              "manufacturer": "Google",
+              "notes": "Sj96GAbcDjy5gRld269YLOfchYKEcVHaVtzWR9jLLdDqNZE3OLyomjw9XhDo0ThzlIGM0WUli9XRcnAsNlBGh2Jgk6Jila8aQbIQAUv03NDCKTPmpHlg7l1hMFJNQ6CWNX9snPYz7vqhRXgDQAXiljfUB4nzPJc1JtCH6QfAUJFMSc9WHVGGOK5vXWFqZ6O3iAodDb5wZl9FDfUSiSFZMpnqVmofoLqiI6H1eDAEr1YFcsFEg1Erwq2k3w",
+              "received": false
+            }
+          ],
+          "total_price": 3675,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Heaneyworth",
+              "street": "Eric Valleys",
+              "house": 891,
+              "flat": 1809
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:27:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b092a1c508c5d5ef8a461",
+          "products": [
+            {
+              "_id": "694b092b1c508c5d5ef8a49a",
+              "name": "Car74434",
+              "amount": 36,
+              "price": 3675,
+              "manufacturer": "Google",
+              "notes": "Sj96GAbcDjy5gRld269YLOfchYKEcVHaVtzWR9jLLdDqNZE3OLyomjw9XhDo0ThzlIGM0WUli9XRcnAsNlBGh2Jgk6Jila8aQbIQAUv03NDCKTPmpHlg7l1hMFJNQ6CWNX9snPYz7vqhRXgDQAXiljfUB4nzPJc1JtCH6QfAUJFMSc9WHVGGOK5vXWFqZ6O3iAodDb5wZl9FDfUSiSFZMpnqVmofoLqiI6H1eDAEr1YFcsFEg1Erwq2k3w",
+              "received": false
+            }
+          ],
+          "total_price": 3675,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:27:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

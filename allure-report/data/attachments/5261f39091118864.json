@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:27:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-+C/GZ8E7woFSv4fvaQfFpp8KZIU\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b093d1c508c5d5ef8b055",
+      "status": "In Process",
+      "customer": {
+        "_id": "694b093b1c508c5d5ef8af7a",
+        "email": "Margret_Steuber31@hotmail.com",
+        "name": "Keegan Sawayn",
+        "country": "Great Britain",
+        "city": "Port Miles",
+        "street": "Hickory Street 62",
+        "house": 557,
+        "flat": 9507,
+        "phone": "+917505890858207",
+        "createdOn": "2025-12-23T21:27:23.000Z",
+        "notes": "oNTuRntTQKw8CQz4SJwoV4Q873Gnut"
+      },
+      "products": [
+        {
+          "_id": "694b093b1c508c5d5ef8af96",
+          "name": "Bike14399",
+          "amount": 517,
+          "price": 71318,
+          "manufacturer": "Xiaomi",
+          "notes": "KIET6uSuaWfJKfONWgPpixBevIT3UoJvJj8W2CQtQMp6gFY8x47XGJiMrP5kiPxGabMWvHoNnZguenWjZCbOqwb0COUmEn20OjT1KSmNVqNJiPXj8uvg1w2PfdyfFnedtyMSNk85ZnRY3YEjsIcWKNGPaCNb1HnWquAAiuxhlVitrgBTbTJl7UTWV4Gn7XX7wFJ3V3lqi1l8XMcS7IoaB81hRTrFOzxtKnm2L2WG6La3NIQhKh5JGc1Afx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Laishafort",
+          "street": "Kathryne Alley",
+          "house": 240,
+          "flat": 7405
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 71318,
+      "createdOn": "2025-12-23T21:27:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694b093b1c508c5d5ef8af7a",
+          "products": [
+            {
+              "_id": "694b093b1c508c5d5ef8af96",
+              "name": "Bike14399",
+              "amount": 517,
+              "price": 71318,
+              "manufacturer": "Xiaomi",
+              "notes": "KIET6uSuaWfJKfONWgPpixBevIT3UoJvJj8W2CQtQMp6gFY8x47XGJiMrP5kiPxGabMWvHoNnZguenWjZCbOqwb0COUmEn20OjT1KSmNVqNJiPXj8uvg1w2PfdyfFnedtyMSNk85ZnRY3YEjsIcWKNGPaCNb1HnWquAAiuxhlVitrgBTbTJl7UTWV4Gn7XX7wFJ3V3lqi1l8XMcS7IoaB81hRTrFOzxtKnm2L2WG6La3NIQhKh5JGc1Afx",
+              "received": false
+            }
+          ],
+          "total_price": 71318,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Laishafort",
+              "street": "Kathryne Alley",
+              "house": 240,
+              "flat": 7405
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:27:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b093b1c508c5d5ef8af7a",
+          "products": [
+            {
+              "_id": "694b093b1c508c5d5ef8af96",
+              "name": "Bike14399",
+              "amount": 517,
+              "price": 71318,
+              "manufacturer": "Xiaomi",
+              "notes": "KIET6uSuaWfJKfONWgPpixBevIT3UoJvJj8W2CQtQMp6gFY8x47XGJiMrP5kiPxGabMWvHoNnZguenWjZCbOqwb0COUmEn20OjT1KSmNVqNJiPXj8uvg1w2PfdyfFnedtyMSNk85ZnRY3YEjsIcWKNGPaCNb1HnWquAAiuxhlVitrgBTbTJl7UTWV4Gn7XX7wFJ3V3lqi1l8XMcS7IoaB81hRTrFOzxtKnm2L2WG6La3NIQhKh5JGc1Afx",
+              "received": false
+            }
+          ],
+          "total_price": 71318,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Laishafort",
+              "street": "Kathryne Alley",
+              "house": 240,
+              "flat": 7405
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:27:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b093b1c508c5d5ef8af7a",
+          "products": [
+            {
+              "_id": "694b093b1c508c5d5ef8af96",
+              "name": "Bike14399",
+              "amount": 517,
+              "price": 71318,
+              "manufacturer": "Xiaomi",
+              "notes": "KIET6uSuaWfJKfONWgPpixBevIT3UoJvJj8W2CQtQMp6gFY8x47XGJiMrP5kiPxGabMWvHoNnZguenWjZCbOqwb0COUmEn20OjT1KSmNVqNJiPXj8uvg1w2PfdyfFnedtyMSNk85ZnRY3YEjsIcWKNGPaCNb1HnWquAAiuxhlVitrgBTbTJl7UTWV4Gn7XX7wFJ3V3lqi1l8XMcS7IoaB81hRTrFOzxtKnm2L2WG6La3NIQhKh5JGc1Afx",
+              "received": false
+            }
+          ],
+          "total_price": 71318,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:27:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
