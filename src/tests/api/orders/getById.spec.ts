@@ -33,8 +33,8 @@ test.describe("[API] [Sales Portal] [Orders] [Get By Id]", () => {
           // Assert
           validateResponse(response, {
             status: testCase.expectedStatus,
-            ...(typeof testCase.isSuccess !== "undefined" && { IsSuccess: testCase.isSuccess }),
-            ...(typeof testCase.expectedErrorMessage !== "undefined" && { ErrorMessage: testCase.expectedErrorMessage }),
+            IsSuccess: testCase.isSuccess,
+            ErrorMessage: testCase.expectedErrorMessage,
             schema: getOrderSchema,
           });
 
@@ -56,9 +56,9 @@ test.describe("[API] [Sales Portal] [Orders] [Get By Id]", () => {
           );
 
           validateResponse(response, {
-            status: testCase.expectedStatus ?? STATUS_CODES.NOT_FOUND,
-            ...(typeof testCase.isSuccess !== "undefined" && { IsSuccess: testCase.isSuccess }),
-            ...(typeof testCase.expectedErrorMessage !== "undefined" && { ErrorMessage: testCase.expectedErrorMessage }),
+            status: testCase.expectedStatus,
+            IsSuccess: testCase.isSuccess,
+            ErrorMessage: testCase.expectedErrorMessage,
           });
         },
       );

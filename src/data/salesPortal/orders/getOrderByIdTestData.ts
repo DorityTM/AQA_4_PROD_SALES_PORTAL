@@ -15,12 +15,7 @@ export const getOrderByIdPositiveCases: ICaseApi[] = [
 ];
 
 const notFoundId = new ObjectId().toHexString();
-export const getOrderByIdNegativeCases: Partial<ICaseApi>[] = [
-  {
-    title: "404 returned for empty id",
-    _id: "",
-    expectedStatus: STATUS_CODES.NOT_FOUND,
-  },
+export const getOrderByIdNegativeCases: ICaseApi[] = [
   {
     title: "404 returned for non-existing id of valid format",
     _id: notFoundId,

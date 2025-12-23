@@ -36,5 +36,5 @@ export interface ICaseApi extends ICase {
   _id?: string;
   expectedStatus: STATUS_CODES;
   expectedErrorMessage: string | null;
-  isSuccess?: boolean;
+  isSuccess: boolean;
 }
