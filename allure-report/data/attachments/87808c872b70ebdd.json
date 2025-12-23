@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:25:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2741",
+    "etag": "W/\"ab5-Er7XUcEBZE52ZAi2yAFljqUq+xQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b08bc1c508c5d5ef85962",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b08b91c508c5d5ef856fd",
+        "email": "Paolo9@yahoo.com",
+        "name": "Afton Heller",
+        "country": "USA",
+        "city": "West Fleta",
+        "street": "New Street 95",
+        "house": 625,
+        "flat": 3150,
+        "phone": "+771729738222043",
+        "createdOn": "2025-12-23T21:25:13.000Z",
+        "notes": "giE0qFqMgSSMSlRk6tLmvrFYHv8ON6"
+      },
+      "products": [
+        {
+          "_id": "694b08bc1c508c5d5ef85943",
+          "name": "Chips90820",
+          "amount": 436,
+          "price": 81070,
+          "manufacturer": "Sony",
+          "notes": "buRgguejdjsU3KIO1WypX8Z1sP66ziNdnwFdbN2OMWgBuCiJIKTMVvFCGA9XyYdJxM9GOy4ioe90E5ziqYfdcQxgNIP9QzRDA43ZCAVCssbok5Q6EKXufqUby358rDbxKhtBxwBKB8cNngz0QKxLAnvTxAkbdyu3JjY9KkvmNW92SqydHN1r4SwzrOPHAfwMDESYuaTDVStAr1IjBKRbg2Q3AQqD71hsaLABlbjjJ2Uc9RkDJWFGhtuI5y",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Glendale",
+          "street": "N Broad Street",
+          "house": 513,
+          "flat": 9735
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 81070,
+      "createdOn": "2025-12-23T21:25:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b08b91c508c5d5ef856fd",
+          "products": [
+            {
+              "_id": "694b08bc1c508c5d5ef85943",
+              "name": "Chips90820",
+              "amount": 436,
+              "price": 81070,
+              "manufacturer": "Sony",
+              "notes": "buRgguejdjsU3KIO1WypX8Z1sP66ziNdnwFdbN2OMWgBuCiJIKTMVvFCGA9XyYdJxM9GOy4ioe90E5ziqYfdcQxgNIP9QzRDA43ZCAVCssbok5Q6EKXufqUby358rDbxKhtBxwBKB8cNngz0QKxLAnvTxAkbdyu3JjY9KkvmNW92SqydHN1r4SwzrOPHAfwMDESYuaTDVStAr1IjBKRbg2Q3AQqD71hsaLABlbjjJ2Uc9RkDJWFGhtuI5y",
+              "received": false
+            }
+          ],
+          "total_price": 81070,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Glendale",
+              "street": "N Broad Street",
+              "house": 513,
+              "flat": 9735
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:25:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b08b91c508c5d5ef856fd",
+          "products": [
+            {
+              "_id": "694b08bc1c508c5d5ef85943",
+              "name": "Chips90820",
+              "amount": 436,
+              "price": 81070,
+              "manufacturer": "Sony",
+              "notes": "buRgguejdjsU3KIO1WypX8Z1sP66ziNdnwFdbN2OMWgBuCiJIKTMVvFCGA9XyYdJxM9GOy4ioe90E5ziqYfdcQxgNIP9QzRDA43ZCAVCssbok5Q6EKXufqUby358rDbxKhtBxwBKB8cNngz0QKxLAnvTxAkbdyu3JjY9KkvmNW92SqydHN1r4SwzrOPHAfwMDESYuaTDVStAr1IjBKRbg2Q3AQqD71hsaLABlbjjJ2Uc9RkDJWFGhtuI5y",
+              "received": false
+            }
+          ],
+          "total_price": 81070,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:25:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:23:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3674",
+    "etag": "W/\"e5a-7EMLuKWV/KtBMUhhqqYvErysnDg\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b08581c508c5d5ef81a0d",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694b08561c508c5d5ef81851",
+        "email": "Lorenza_Harris17@gmail.com",
+        "name": "Benedict Balistreri",
+        "country": "Belarus",
+        "city": "Port Keshawnborough",
+        "street": "Roman Way 61",
+        "house": 725,
+        "flat": 8688,
+        "phone": "+501493223726699",
+        "createdOn": "2025-12-23T21:23:34.000Z",
+        "notes": "LzSr0rXCCHrvLROO4bOCBmWjH3LaLF"
+      },
+      "products": [
+        {
+          "_id": "694b08561c508c5d5ef81874",
+          "name": "Car85874",
+          "amount": 255,
+          "price": 91529,
+          "manufacturer": "Tesla",
+          "notes": "2bngsmJJ9g0g7Ryt9cHFZEHsKPoWbMfW6lc00ib9TOTlN1LfthBEjwsKZocW1dlWyESi9ySZ2ZY0ItcICTtnMvJVEA0qLy4GDSijRX3hoyx81i4iGjpBSimZMUJVAZSFSieRAt8kVWbs6L7mEU0RsLgDUKMLMgJmp9xTgttm4QXvOmiCIKAUZkIPbWs76o1JB02q8RdIuVWGpZEPR7JrGdqGWTopiSGho9sKCVECCJV0W9XETCXnw7EBcX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Wesley Chapel",
+          "street": "1st Avenue",
+          "house": 960,
+          "flat": 8276
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 91529,
+      "createdOn": "2025-12-23T21:23:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694b08561c508c5d5ef81851",
+          "products": [
+            {
+              "_id": "694b08561c508c5d5ef81874",
+              "name": "Car85874",
+              "amount": 255,
+              "price": 91529,
+              "manufacturer": "Tesla",
+              "notes": "2bngsmJJ9g0g7Ryt9cHFZEHsKPoWbMfW6lc00ib9TOTlN1LfthBEjwsKZocW1dlWyESi9ySZ2ZY0ItcICTtnMvJVEA0qLy4GDSijRX3hoyx81i4iGjpBSimZMUJVAZSFSieRAt8kVWbs6L7mEU0RsLgDUKMLMgJmp9xTgttm4QXvOmiCIKAUZkIPbWs76o1JB02q8RdIuVWGpZEPR7JrGdqGWTopiSGho9sKCVECCJV0W9XETCXnw7EBcX",
+              "received": false
+            }
+          ],
+          "total_price": 91529,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Wesley Chapel",
+              "street": "1st Avenue",
+              "house": 960,
+              "flat": 8276
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:23:44.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b08561c508c5d5ef81851",
+          "products": [
+            {
+              "_id": "694b08561c508c5d5ef81874",
+              "name": "Car85874",
+              "amount": 255,
+              "price": 91529,
+              "manufacturer": "Tesla",
+              "notes": "2bngsmJJ9g0g7Ryt9cHFZEHsKPoWbMfW6lc00ib9TOTlN1LfthBEjwsKZocW1dlWyESi9ySZ2ZY0ItcICTtnMvJVEA0qLy4GDSijRX3hoyx81i4iGjpBSimZMUJVAZSFSieRAt8kVWbs6L7mEU0RsLgDUKMLMgJmp9xTgttm4QXvOmiCIKAUZkIPbWs76o1JB02q8RdIuVWGpZEPR7JrGdqGWTopiSGho9sKCVECCJV0W9XETCXnw7EBcX",
+              "received": false
+            }
+          ],
+          "total_price": 91529,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Wesley Chapel",
+              "street": "1st Avenue",
+              "house": 960,
+              "flat": 8276
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:23:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b08561c508c5d5ef81851",
+          "products": [
+            {
+              "_id": "694b08561c508c5d5ef81874",
+              "name": "Car85874",
+              "amount": 255,
+              "price": 91529,
+              "manufacturer": "Tesla",
+              "notes": "2bngsmJJ9g0g7Ryt9cHFZEHsKPoWbMfW6lc00ib9TOTlN1LfthBEjwsKZocW1dlWyESi9ySZ2ZY0ItcICTtnMvJVEA0qLy4GDSijRX3hoyx81i4iGjpBSimZMUJVAZSFSieRAt8kVWbs6L7mEU0RsLgDUKMLMgJmp9xTgttm4QXvOmiCIKAUZkIPbWs76o1JB02q8RdIuVWGpZEPR7JrGdqGWTopiSGho9sKCVECCJV0W9XETCXnw7EBcX",
+              "received": false
+            }
+          ],
+          "total_price": 91529,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:23:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

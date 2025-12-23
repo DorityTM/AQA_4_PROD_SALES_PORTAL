@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:24:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2758",
+    "etag": "W/\"ac6-6OZJHu8w6HqwGnRBz32iDkFv4VY\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b08981c508c5d5ef84214",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b08981c508c5d5ef841e0",
+        "email": "Maximo.Harber@gmail.com",
+        "name": "Jazmyn Williamson",
+        "country": "Belarus",
+        "city": "Port Candidatown",
+        "street": "Heathcote Bridge 78",
+        "house": 167,
+        "flat": 6526,
+        "phone": "+370639494945072",
+        "createdOn": "2025-12-23T21:24:40.000Z",
+        "notes": "bmLogATMemqW7bZGYk6WDn2AbUlACG"
+      },
+      "products": [
+        {
+          "_id": "694b08981c508c5d5ef84207",
+          "name": "Shirt4917",
+          "amount": 159,
+          "price": 39103,
+          "manufacturer": "Amazon",
+          "notes": "pau0Ql51yaXnw42nBdu5w5kBbRpUQuhR4trYAt86fhJapKCYLaU4aNCMyzP2uqZPrUHzf1Vk2fSOgLoXdIlZ9CxZnleIWITILFhVqzxo1GdCWMji594R1jgl2xYlWpOKZS3Pm6f7ve3TRnT0uww5fypzsReEtCQNWRsSaWX8qGTbCSS5NfTrVkK9MksTzFkfvYrZoYLEws3gSWdSI2KoQy1xu7A5qUyVHTi9n1evs45jCAA1OohXKVgea6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Schenectady",
+          "street": "13th Street",
+          "house": 995,
+          "flat": 629
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 39103,
+      "createdOn": "2025-12-23T21:24:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b08981c508c5d5ef841e0",
+          "products": [
+            {
+              "_id": "694b08981c508c5d5ef84207",
+              "name": "Shirt4917",
+              "amount": 159,
+              "price": 39103,
+              "manufacturer": "Amazon",
+              "notes": "pau0Ql51yaXnw42nBdu5w5kBbRpUQuhR4trYAt86fhJapKCYLaU4aNCMyzP2uqZPrUHzf1Vk2fSOgLoXdIlZ9CxZnleIWITILFhVqzxo1GdCWMji594R1jgl2xYlWpOKZS3Pm6f7ve3TRnT0uww5fypzsReEtCQNWRsSaWX8qGTbCSS5NfTrVkK9MksTzFkfvYrZoYLEws3gSWdSI2KoQy1xu7A5qUyVHTi9n1evs45jCAA1OohXKVgea6",
+              "received": false
+            }
+          ],
+          "total_price": 39103,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Schenectady",
+              "street": "13th Street",
+              "house": 995,
+              "flat": 629
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:24:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b08981c508c5d5ef841e0",
+          "products": [
+            {
+              "_id": "694b08981c508c5d5ef84207",
+              "name": "Shirt4917",
+              "amount": 159,
+              "price": 39103,
+              "manufacturer": "Amazon",
+              "notes": "pau0Ql51yaXnw42nBdu5w5kBbRpUQuhR4trYAt86fhJapKCYLaU4aNCMyzP2uqZPrUHzf1Vk2fSOgLoXdIlZ9CxZnleIWITILFhVqzxo1GdCWMji594R1jgl2xYlWpOKZS3Pm6f7ve3TRnT0uww5fypzsReEtCQNWRsSaWX8qGTbCSS5NfTrVkK9MksTzFkfvYrZoYLEws3gSWdSI2KoQy1xu7A5qUyVHTi9n1evs45jCAA1OohXKVgea6",
+              "received": false
+            }
+          ],
+          "total_price": 39103,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:24:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:23:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4614",
+    "etag": "W/\"1206-GSP2kiKeF0+zFEbdRAfnbz66yYY\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b08371c508c5d5ef8053a",
+      "status": "Received",
+      "customer": {
+        "_id": "694b08361c508c5d5ef80472",
+        "email": "Jace.Gleason96@yahoo.com",
+        "name": "Princess Strosin",
+        "country": "Canada",
+        "city": "Mishawaka",
+        "street": "11th Street 93",
+        "house": 246,
+        "flat": 6003,
+        "phone": "+405267828772558",
+        "createdOn": "2025-12-23T21:23:02.000Z",
+        "notes": "BertECZ1nZIwX2g4K08z52cNLoCUnk"
+      },
+      "products": [
+        {
+          "_id": "694b08371c508c5d5ef80508",
+          "name": "Gloves88423",
+          "amount": 287,
+          "price": 68284,
+          "manufacturer": "Microsoft",
+          "notes": "UNrMXoabarFqjsea5IEsTInBOWhOVQv7wslZcuBLxwTGQcY6WLeEH1WrvwMyIgAigj6le7oYzPh4Y0AOAMBeF6jmAGAt51xyL1rL5B329V9UIx9uNEUkEsRPV3Ov4nfIzB8qkSimmxTOWp7seLQrhJATllVg4gE38YXAwpmoheHE2dAgyaVnKLlpXnqFgN2NCXKsACee6D0GrDjoSrJS4CsGClrDRniLc8lLtQ7Cq65yHcYeqvrz0lomuP",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "East Melyna",
+          "street": "Lemke Burg",
+          "house": 846,
+          "flat": 6556
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 68284,
+      "createdOn": "2025-12-23T21:23:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694b08361c508c5d5ef80472",
+          "products": [
+            {
+              "_id": "694b08371c508c5d5ef80508",
+              "name": "Gloves88423",
+              "amount": 287,
+              "price": 68284,
+              "manufacturer": "Microsoft",
+              "notes": "UNrMXoabarFqjsea5IEsTInBOWhOVQv7wslZcuBLxwTGQcY6WLeEH1WrvwMyIgAigj6le7oYzPh4Y0AOAMBeF6jmAGAt51xyL1rL5B329V9UIx9uNEUkEsRPV3Ov4nfIzB8qkSimmxTOWp7seLQrhJATllVg4gE38YXAwpmoheHE2dAgyaVnKLlpXnqFgN2NCXKsACee6D0GrDjoSrJS4CsGClrDRniLc8lLtQ7Cq65yHcYeqvrz0lomuP",
+              "received": true
+            }
+          ],
+          "total_price": 68284,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Melyna",
+              "street": "Lemke Burg",
+              "house": 846,
+              "flat": 6556
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:23:09.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694b08361c508c5d5ef80472",
+          "products": [
+            {
+              "_id": "694b08371c508c5d5ef80508",
+              "name": "Gloves88423",
+              "amount": 287,
+              "price": 68284,
+              "manufacturer": "Microsoft",
+              "notes": "UNrMXoabarFqjsea5IEsTInBOWhOVQv7wslZcuBLxwTGQcY6WLeEH1WrvwMyIgAigj6le7oYzPh4Y0AOAMBeF6jmAGAt51xyL1rL5B329V9UIx9uNEUkEsRPV3Ov4nfIzB8qkSimmxTOWp7seLQrhJATllVg4gE38YXAwpmoheHE2dAgyaVnKLlpXnqFgN2NCXKsACee6D0GrDjoSrJS4CsGClrDRniLc8lLtQ7Cq65yHcYeqvrz0lomuP",
+              "received": false
+            }
+          ],
+          "total_price": 68284,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Melyna",
+              "street": "Lemke Burg",
+              "house": 846,
+              "flat": 6556
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:23:07.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b08361c508c5d5ef80472",
+          "products": [
+            {
+              "_id": "694b08371c508c5d5ef80508",
+              "name": "Gloves88423",
+              "amount": 287,
+              "price": 68284,
+              "manufacturer": "Microsoft",
+              "notes": "UNrMXoabarFqjsea5IEsTInBOWhOVQv7wslZcuBLxwTGQcY6WLeEH1WrvwMyIgAigj6le7oYzPh4Y0AOAMBeF6jmAGAt51xyL1rL5B329V9UIx9uNEUkEsRPV3Ov4nfIzB8qkSimmxTOWp7seLQrhJATllVg4gE38YXAwpmoheHE2dAgyaVnKLlpXnqFgN2NCXKsACee6D0GrDjoSrJS4CsGClrDRniLc8lLtQ7Cq65yHcYeqvrz0lomuP",
+              "received": false
+            }
+          ],
+          "total_price": 68284,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Melyna",
+              "street": "Lemke Burg",
+              "house": 846,
+              "flat": 6556
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:23:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b08361c508c5d5ef80472",
+          "products": [
+            {
+              "_id": "694b08371c508c5d5ef80508",
+              "name": "Gloves88423",
+              "amount": 287,
+              "price": 68284,
+              "manufacturer": "Microsoft",
+              "notes": "UNrMXoabarFqjsea5IEsTInBOWhOVQv7wslZcuBLxwTGQcY6WLeEH1WrvwMyIgAigj6le7oYzPh4Y0AOAMBeF6jmAGAt51xyL1rL5B329V9UIx9uNEUkEsRPV3Ov4nfIzB8qkSimmxTOWp7seLQrhJATllVg4gE38YXAwpmoheHE2dAgyaVnKLlpXnqFgN2NCXKsACee6D0GrDjoSrJS4CsGClrDRniLc8lLtQ7Cq65yHcYeqvrz0lomuP",
+              "received": false
+            }
+          ],
+          "total_price": 68284,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:23:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

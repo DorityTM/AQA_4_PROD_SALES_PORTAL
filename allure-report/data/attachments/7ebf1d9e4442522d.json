@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:23:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2774",
+    "etag": "W/\"ad6-vTx0nHLwX+7hK4KZ4YgCRw3aLXI\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b08501c508c5d5ef81505",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b084e1c508c5d5ef81345",
+        "email": "Laverna.Murphy@gmail.com",
+        "name": "Ewell Hammes",
+        "country": "France",
+        "city": "North Jasperborough",
+        "street": "Weissnat Fall 55",
+        "house": 681,
+        "flat": 8874,
+        "phone": "+150639956879715",
+        "createdOn": "2025-12-23T21:23:26.000Z",
+        "notes": "4I22Dz6VZhWKgt3BovFjdaCqgTB2Fd"
+      },
+      "products": [
+        {
+          "_id": "694b084e1c508c5d5ef8136a",
+          "name": "Cheese82551",
+          "amount": 596,
+          "price": 55923,
+          "manufacturer": "Microsoft",
+          "notes": "4QcJglAOOZ1gDcvsLOp7JqdMTeuMm9fZHP4hItI988iAjj9VlblDwb3YBgNEPvREXbDQ9HpJRkE9w0doZd0Z2W0EoQ9FHPuKPQmMUc7SpkCCqrqPOiUJiU0h7oD5UhS0wTDQ4PTYYCK1JcB4owpHiphjXSXfiOTxzvx8S1ym7a8elO8LfDEVi9yKXIn4c0la2A95GPppUSdR1akL8LtCJ1Spn5tv6Fv8GjbCjFMb6hEDTkO7Vq4IMyPWp9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Charlotte",
+          "street": "S Walnut Street",
+          "house": 218,
+          "flat": 9549
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55923,
+      "createdOn": "2025-12-23T21:23:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b084e1c508c5d5ef81345",
+          "products": [
+            {
+              "_id": "694b084e1c508c5d5ef8136a",
+              "name": "Cheese82551",
+              "amount": 596,
+              "price": 55923,
+              "manufacturer": "Microsoft",
+              "notes": "4QcJglAOOZ1gDcvsLOp7JqdMTeuMm9fZHP4hItI988iAjj9VlblDwb3YBgNEPvREXbDQ9HpJRkE9w0doZd0Z2W0EoQ9FHPuKPQmMUc7SpkCCqrqPOiUJiU0h7oD5UhS0wTDQ4PTYYCK1JcB4owpHiphjXSXfiOTxzvx8S1ym7a8elO8LfDEVi9yKXIn4c0la2A95GPppUSdR1akL8LtCJ1Spn5tv6Fv8GjbCjFMb6hEDTkO7Vq4IMyPWp9",
+              "received": false
+            }
+          ],
+          "total_price": 55923,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Charlotte",
+              "street": "S Walnut Street",
+              "house": 218,
+              "flat": 9549
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:23:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b084e1c508c5d5ef81345",
+          "products": [
+            {
+              "_id": "694b084e1c508c5d5ef8136a",
+              "name": "Cheese82551",
+              "amount": 596,
+              "price": 55923,
+              "manufacturer": "Microsoft",
+              "notes": "4QcJglAOOZ1gDcvsLOp7JqdMTeuMm9fZHP4hItI988iAjj9VlblDwb3YBgNEPvREXbDQ9HpJRkE9w0doZd0Z2W0EoQ9FHPuKPQmMUc7SpkCCqrqPOiUJiU0h7oD5UhS0wTDQ4PTYYCK1JcB4owpHiphjXSXfiOTxzvx8S1ym7a8elO8LfDEVi9yKXIn4c0la2A95GPppUSdR1akL8LtCJ1Spn5tv6Fv8GjbCjFMb6hEDTkO7Vq4IMyPWp9",
+              "received": false
+            }
+          ],
+          "total_price": 55923,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:23:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

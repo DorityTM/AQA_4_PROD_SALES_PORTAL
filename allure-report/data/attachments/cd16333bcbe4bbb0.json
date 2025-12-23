@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:22:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4605",
+    "etag": "W/\"11fd-PEqmsM+ol/CDD5+QDDY+CyPoKQE\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b08261c508c5d5ef7fae2",
+      "status": "Received",
+      "customer": {
+        "_id": "694b08221c508c5d5ef7f774",
+        "email": "Gwendolyn.Hermann@yahoo.com",
+        "name": "Santiago Pfeffer",
+        "country": "Germany",
+        "city": "Dioncester",
+        "street": "Water Lane 95",
+        "house": 874,
+        "flat": 7058,
+        "phone": "+006679343201432",
+        "createdOn": "2025-12-23T21:22:42.000Z",
+        "notes": "kJDAJYqV4TwX2qT0Yz97q9mMdWJ3WJ"
+      },
+      "products": [
+        {
+          "_id": "694b08251c508c5d5ef7f9cd",
+          "name": "Cheese46180",
+          "amount": 933,
+          "price": 91733,
+          "manufacturer": "Sony",
+          "notes": "aYqCrSruil4DaNcB6TM3T3VRfT4qB9De42eitflhM0qlXdWrK5oq0y7hU9qsO5X936MmL6HDVKIs4rJnBNjOwBv01Eh0BROwyBAN5P40q8DoIti2BvguSDv1DldjfaFtgFIZdv43nQBPaQX9lCTyidc8tGlwE1ZCMbaB079ZGbfcY9THyd5jTjGV8q6U72Sk1KwhsLK5lcE04K6xob4xSr6xAoAsc6jZZaXRrqSVFYcP1BPRVMnDFjD00R",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Kevenstad",
+          "street": "Miracle Course",
+          "house": 855,
+          "flat": 9735
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 91733,
+      "createdOn": "2025-12-23T21:22:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694b08221c508c5d5ef7f774",
+          "products": [
+            {
+              "_id": "694b08251c508c5d5ef7f9cd",
+              "name": "Cheese46180",
+              "amount": 933,
+              "price": 91733,
+              "manufacturer": "Sony",
+              "notes": "aYqCrSruil4DaNcB6TM3T3VRfT4qB9De42eitflhM0qlXdWrK5oq0y7hU9qsO5X936MmL6HDVKIs4rJnBNjOwBv01Eh0BROwyBAN5P40q8DoIti2BvguSDv1DldjfaFtgFIZdv43nQBPaQX9lCTyidc8tGlwE1ZCMbaB079ZGbfcY9THyd5jTjGV8q6U72Sk1KwhsLK5lcE04K6xob4xSr6xAoAsc6jZZaXRrqSVFYcP1BPRVMnDFjD00R",
+              "received": true
+            }
+          ],
+          "total_price": 91733,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Kevenstad",
+              "street": "Miracle Course",
+              "house": 855,
+              "flat": 9735
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:22:51.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694b08221c508c5d5ef7f774",
+          "products": [
+            {
+              "_id": "694b08251c508c5d5ef7f9cd",
+              "name": "Cheese46180",
+              "amount": 933,
+              "price": 91733,
+              "manufacturer": "Sony",
+              "notes": "aYqCrSruil4DaNcB6TM3T3VRfT4qB9De42eitflhM0qlXdWrK5oq0y7hU9qsO5X936MmL6HDVKIs4rJnBNjOwBv01Eh0BROwyBAN5P40q8DoIti2BvguSDv1DldjfaFtgFIZdv43nQBPaQX9lCTyidc8tGlwE1ZCMbaB079ZGbfcY9THyd5jTjGV8q6U72Sk1KwhsLK5lcE04K6xob4xSr6xAoAsc6jZZaXRrqSVFYcP1BPRVMnDFjD00R",
+              "received": false
+            }
+          ],
+          "total_price": 91733,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Kevenstad",
+              "street": "Miracle Course",
+              "house": 855,
+              "flat": 9735
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:22:50.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b08221c508c5d5ef7f774",
+          "products": [
+            {
+              "_id": "694b08251c508c5d5ef7f9cd",
+              "name": "Cheese46180",
+              "amount": 933,
+              "price": 91733,
+              "manufacturer": "Sony",
+              "notes": "aYqCrSruil4DaNcB6TM3T3VRfT4qB9De42eitflhM0qlXdWrK5oq0y7hU9qsO5X936MmL6HDVKIs4rJnBNjOwBv01Eh0BROwyBAN5P40q8DoIti2BvguSDv1DldjfaFtgFIZdv43nQBPaQX9lCTyidc8tGlwE1ZCMbaB079ZGbfcY9THyd5jTjGV8q6U72Sk1KwhsLK5lcE04K6xob4xSr6xAoAsc6jZZaXRrqSVFYcP1BPRVMnDFjD00R",
+              "received": false
+            }
+          ],
+          "total_price": 91733,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Kevenstad",
+              "street": "Miracle Course",
+              "house": 855,
+              "flat": 9735
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:22:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b08221c508c5d5ef7f774",
+          "products": [
+            {
+              "_id": "694b08251c508c5d5ef7f9cd",
+              "name": "Cheese46180",
+              "amount": 933,
+              "price": 91733,
+              "manufacturer": "Sony",
+              "notes": "aYqCrSruil4DaNcB6TM3T3VRfT4qB9De42eitflhM0qlXdWrK5oq0y7hU9qsO5X936MmL6HDVKIs4rJnBNjOwBv01Eh0BROwyBAN5P40q8DoIti2BvguSDv1DldjfaFtgFIZdv43nQBPaQX9lCTyidc8tGlwE1ZCMbaB079ZGbfcY9THyd5jTjGV8q6U72Sk1KwhsLK5lcE04K6xob4xSr6xAoAsc6jZZaXRrqSVFYcP1BPRVMnDFjD00R",
+              "received": false
+            }
+          ],
+          "total_price": 91733,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:22:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

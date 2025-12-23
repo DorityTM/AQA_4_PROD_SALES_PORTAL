@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:25:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3700",
+    "etag": "W/\"e74-h6iOCOQsfdQhssjlvbxHHIYKZAU\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b08ab1c508c5d5ef84e6f",
+      "status": "In Process",
+      "customer": {
+        "_id": "694b08ab1c508c5d5ef84e3a",
+        "email": "Anjali_Legros@hotmail.com",
+        "name": "Pearline Schuster",
+        "country": "Germany",
+        "city": "New Rosietown",
+        "street": "Mayert Locks 31",
+        "house": 51,
+        "flat": 6716,
+        "phone": "+348250940049816",
+        "createdOn": "2025-12-23T21:24:59.000Z",
+        "notes": "E3cjmTNTHfnXXy1ULWrG7p98fCRy74"
+      },
+      "products": [
+        {
+          "_id": "694b08ab1c508c5d5ef84e4f",
+          "name": "Shoes27741",
+          "amount": 526,
+          "price": 19411,
+          "manufacturer": "Sony",
+          "notes": "PKp0eHtBrWS2AhYAqDnrB0nwmqrNFFiGPvq303BlHJjoS2tImaEowdtGpE6Aqr2KZG1VY5xkRydZIn1neCijkvvAwX9pzs34uL5WxKgyrSx7H3QxrRrfkVMj4mCnJDH3PrtYBUp1dVup6RCUUzkqPexRWTipXt3UdV2AkVjSezEFlMVnrWm2TtPu86lR93RT2srpMXy7P97gEC8OmOlou3qcGhJEBgLsWXWJF1QMGIeRzSG4GFEz2yVtyr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Reginaldborough",
+          "street": "Lincoln Street",
+          "house": 939,
+          "flat": 9923
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 19411,
+      "createdOn": "2025-12-23T21:24:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694b08ab1c508c5d5ef84e3a",
+          "products": [
+            {
+              "_id": "694b08ab1c508c5d5ef84e4f",
+              "name": "Shoes27741",
+              "amount": 526,
+              "price": 19411,
+              "manufacturer": "Sony",
+              "notes": "PKp0eHtBrWS2AhYAqDnrB0nwmqrNFFiGPvq303BlHJjoS2tImaEowdtGpE6Aqr2KZG1VY5xkRydZIn1neCijkvvAwX9pzs34uL5WxKgyrSx7H3QxrRrfkVMj4mCnJDH3PrtYBUp1dVup6RCUUzkqPexRWTipXt3UdV2AkVjSezEFlMVnrWm2TtPu86lR93RT2srpMXy7P97gEC8OmOlou3qcGhJEBgLsWXWJF1QMGIeRzSG4GFEz2yVtyr",
+              "received": false
+            }
+          ],
+          "total_price": 19411,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Reginaldborough",
+              "street": "Lincoln Street",
+              "house": 939,
+              "flat": 9923
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:25:00.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b08ab1c508c5d5ef84e3a",
+          "products": [
+            {
+              "_id": "694b08ab1c508c5d5ef84e4f",
+              "name": "Shoes27741",
+              "amount": 526,
+              "price": 19411,
+              "manufacturer": "Sony",
+              "notes": "PKp0eHtBrWS2AhYAqDnrB0nwmqrNFFiGPvq303BlHJjoS2tImaEowdtGpE6Aqr2KZG1VY5xkRydZIn1neCijkvvAwX9pzs34uL5WxKgyrSx7H3QxrRrfkVMj4mCnJDH3PrtYBUp1dVup6RCUUzkqPexRWTipXt3UdV2AkVjSezEFlMVnrWm2TtPu86lR93RT2srpMXy7P97gEC8OmOlou3qcGhJEBgLsWXWJF1QMGIeRzSG4GFEz2yVtyr",
+              "received": false
+            }
+          ],
+          "total_price": 19411,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Reginaldborough",
+              "street": "Lincoln Street",
+              "house": 939,
+              "flat": 9923
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:25:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b08ab1c508c5d5ef84e3a",
+          "products": [
+            {
+              "_id": "694b08ab1c508c5d5ef84e4f",
+              "name": "Shoes27741",
+              "amount": 526,
+              "price": 19411,
+              "manufacturer": "Sony",
+              "notes": "PKp0eHtBrWS2AhYAqDnrB0nwmqrNFFiGPvq303BlHJjoS2tImaEowdtGpE6Aqr2KZG1VY5xkRydZIn1neCijkvvAwX9pzs34uL5WxKgyrSx7H3QxrRrfkVMj4mCnJDH3PrtYBUp1dVup6RCUUzkqPexRWTipXt3UdV2AkVjSezEFlMVnrWm2TtPu86lR93RT2srpMXy7P97gEC8OmOlou3qcGhJEBgLsWXWJF1QMGIeRzSG4GFEz2yVtyr",
+              "received": false
+            }
+          ],
+          "total_price": 19411,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:24:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
