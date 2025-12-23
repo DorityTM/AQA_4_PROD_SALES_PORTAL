@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:19:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3698",
+    "etag": "W/\"e72-VLslOKcxxQfyAL9qVwNNFeA1m8Q\"",
+    "keep-alive": "timeout=5, max=32",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b075f1c508c5d5ef77a94",
+      "status": "In Process",
+      "customer": {
+        "_id": "694b075d1c508c5d5ef779b9",
+        "email": "Heber.Leannon32@hotmail.com",
+        "name": "Ilene Stoltenberg",
+        "country": "Germany",
+        "city": "New Adelle",
+        "street": "August Pine 52",
+        "house": 345,
+        "flat": 8450,
+        "phone": "+698865929481512",
+        "createdOn": "2025-12-23T21:19:25.000Z",
+        "notes": "ywXNyT8wNpHCXsuLcC6QMQ0ywJ3acR"
+      },
+      "products": [
+        {
+          "_id": "694b075e1c508c5d5ef779eb",
+          "name": "Sausages20393",
+          "amount": 832,
+          "price": 42097,
+          "manufacturer": "Google",
+          "notes": "eFRkMm87pxPQcVJoxA5aY1nKevSwIAeYynT0u51Umxk1oyEDOhwqfn9nUT6euiFaW9RZ3o3oq55zsTvs7fFEJYx2BLyPxUM3DziISc2cmMnEpiqCCKr7y3x3WyV9x3nItebOGdayqkH77A5u4MCRS5PCKXIq4Eubf5WWUJNDJa8O8btZwyLk4DI5eRuTR9G1k3k4Q3lnMKMrtQJRlAeXAUaZaBx4Q7iJbRDGlkVbh76QLukDfPS2cz7L28",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Andrewside",
+          "street": "Kiehn Brook",
+          "house": 388,
+          "flat": 6660
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42097,
+      "createdOn": "2025-12-23T21:19:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694b075d1c508c5d5ef779b9",
+          "products": [
+            {
+              "_id": "694b075e1c508c5d5ef779eb",
+              "name": "Sausages20393",
+              "amount": 832,
+              "price": 42097,
+              "manufacturer": "Google",
+              "notes": "eFRkMm87pxPQcVJoxA5aY1nKevSwIAeYynT0u51Umxk1oyEDOhwqfn9nUT6euiFaW9RZ3o3oq55zsTvs7fFEJYx2BLyPxUM3DziISc2cmMnEpiqCCKr7y3x3WyV9x3nItebOGdayqkH77A5u4MCRS5PCKXIq4Eubf5WWUJNDJa8O8btZwyLk4DI5eRuTR9G1k3k4Q3lnMKMrtQJRlAeXAUaZaBx4Q7iJbRDGlkVbh76QLukDfPS2cz7L28",
+              "received": false
+            }
+          ],
+          "total_price": 42097,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Andrewside",
+              "street": "Kiehn Brook",
+              "house": 388,
+              "flat": 6660
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:19:32.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b075d1c508c5d5ef779b9",
+          "products": [
+            {
+              "_id": "694b075e1c508c5d5ef779eb",
+              "name": "Sausages20393",
+              "amount": 832,
+              "price": 42097,
+              "manufacturer": "Google",
+              "notes": "eFRkMm87pxPQcVJoxA5aY1nKevSwIAeYynT0u51Umxk1oyEDOhwqfn9nUT6euiFaW9RZ3o3oq55zsTvs7fFEJYx2BLyPxUM3DziISc2cmMnEpiqCCKr7y3x3WyV9x3nItebOGdayqkH77A5u4MCRS5PCKXIq4Eubf5WWUJNDJa8O8btZwyLk4DI5eRuTR9G1k3k4Q3lnMKMrtQJRlAeXAUaZaBx4Q7iJbRDGlkVbh76QLukDfPS2cz7L28",
+              "received": false
+            }
+          ],
+          "total_price": 42097,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Andrewside",
+              "street": "Kiehn Brook",
+              "house": 388,
+              "flat": 6660
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:19:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b075d1c508c5d5ef779b9",
+          "products": [
+            {
+              "_id": "694b075e1c508c5d5ef779eb",
+              "name": "Sausages20393",
+              "amount": 832,
+              "price": 42097,
+              "manufacturer": "Google",
+              "notes": "eFRkMm87pxPQcVJoxA5aY1nKevSwIAeYynT0u51Umxk1oyEDOhwqfn9nUT6euiFaW9RZ3o3oq55zsTvs7fFEJYx2BLyPxUM3DziISc2cmMnEpiqCCKr7y3x3WyV9x3nItebOGdayqkH77A5u4MCRS5PCKXIq4Eubf5WWUJNDJa8O8btZwyLk4DI5eRuTR9G1k3k4Q3lnMKMrtQJRlAeXAUaZaBx4Q7iJbRDGlkVbh76QLukDfPS2cz7L28",
+              "received": false
+            }
+          ],
+          "total_price": 42097,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:19:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

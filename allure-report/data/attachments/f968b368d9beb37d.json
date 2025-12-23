@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:19:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-cKHSHyvdR0joxoL4sCet/2RmWKM\"",
+    "keep-alive": "timeout=5, max=46",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b07421c508c5d5ef7694d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b073e1c508c5d5ef76637",
+        "email": "Caterina91@yahoo.com",
+        "name": "Hayden Conn",
+        "country": "Great Britain",
+        "city": "Johnsonville",
+        "street": "Watery Lane 89",
+        "house": 722,
+        "flat": 7389,
+        "phone": "+252548972026357",
+        "createdOn": "2025-12-23T21:18:54.000Z",
+        "notes": "nCA1Z7zBHABTkeIwbhD3Ydyrs1fjXX"
+      },
+      "products": [
+        {
+          "_id": "694b073f1c508c5d5ef7667c",
+          "name": "Car7877",
+          "amount": 870,
+          "price": 58468,
+          "manufacturer": "Tesla",
+          "notes": "4RN4GMw9ujpL3fe4Ir8jWcbWYzkdy9c3ukytEEjdgXjwTmTtokCSnkXgOUjyMO2nZpxJ6C61kb6qHysMpWfZrbShpM7nHB4gDVuQGou3NW6SrAU1ErEJQaN2vQxJc1Dvntah016GEbdalsSS7oSzh3YzJ68TOkM7qnBqxGeTPPFjk3XsukdrPkl5Yf6LbRch6nlkm0QzqCJ5nw1FNvyw8sPnl9QG5ojS8amxAIgWelXvCQqlCWobnGVJOs",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Naderburgh",
+          "street": "Rosenbaum Green",
+          "house": 992,
+          "flat": 1038
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58468,
+      "createdOn": "2025-12-23T21:18:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b073e1c508c5d5ef76637",
+          "products": [
+            {
+              "_id": "694b073f1c508c5d5ef7667c",
+              "name": "Car7877",
+              "amount": 870,
+              "price": 58468,
+              "manufacturer": "Tesla",
+              "notes": "4RN4GMw9ujpL3fe4Ir8jWcbWYzkdy9c3ukytEEjdgXjwTmTtokCSnkXgOUjyMO2nZpxJ6C61kb6qHysMpWfZrbShpM7nHB4gDVuQGou3NW6SrAU1ErEJQaN2vQxJc1Dvntah016GEbdalsSS7oSzh3YzJ68TOkM7qnBqxGeTPPFjk3XsukdrPkl5Yf6LbRch6nlkm0QzqCJ5nw1FNvyw8sPnl9QG5ojS8amxAIgWelXvCQqlCWobnGVJOs",
+              "received": false
+            }
+          ],
+          "total_price": 58468,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Naderburgh",
+              "street": "Rosenbaum Green",
+              "house": 992,
+              "flat": 1038
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:19:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b073e1c508c5d5ef76637",
+          "products": [
+            {
+              "_id": "694b073f1c508c5d5ef7667c",
+              "name": "Car7877",
+              "amount": 870,
+              "price": 58468,
+              "manufacturer": "Tesla",
+              "notes": "4RN4GMw9ujpL3fe4Ir8jWcbWYzkdy9c3ukytEEjdgXjwTmTtokCSnkXgOUjyMO2nZpxJ6C61kb6qHysMpWfZrbShpM7nHB4gDVuQGou3NW6SrAU1ErEJQaN2vQxJc1Dvntah016GEbdalsSS7oSzh3YzJ68TOkM7qnBqxGeTPPFjk3XsukdrPkl5Yf6LbRch6nlkm0QzqCJ5nw1FNvyw8sPnl9QG5ojS8amxAIgWelXvCQqlCWobnGVJOs",
+              "received": false
+            }
+          ],
+          "total_price": 58468,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:18:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

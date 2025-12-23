@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:20:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4271",
+    "etag": "W/\"10af-kyp7MfvpgMeP/4jjS9WqDtVoED8\"",
+    "keep-alive": "timeout=5, max=59",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b07af1c508c5d5ef7acfa",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b07ae1c508c5d5ef7ac48",
+        "email": "Virgil_Boehm@hotmail.com",
+        "name": "Sammie Gislason",
+        "country": "Canada",
+        "city": "Merlinside",
+        "street": "Clark Street 30",
+        "house": 388,
+        "flat": 5567,
+        "phone": "+582232081078891",
+        "createdOn": "2025-12-23T21:20:46.000Z",
+        "notes": "8eUje75cM2ZZSEZ0Wa96DMrhxO4xCd"
+      },
+      "products": [
+        {
+          "_id": "694b07ae1c508c5d5ef7ac69",
+          "name": "Fish58276",
+          "amount": 484,
+          "price": 67680,
+          "manufacturer": "Google",
+          "notes": "R7WLPW0iFJ3b056izZD2580xp7yHrQIKMelaF16nNipvO1uM4L3hkHBy6mWjITGwmv57g8bs6hQnJTrkfAjyx7qqYZhj5RFvOs3iuJxmekNxhERQlGbl53KGxC1c1pi0ekE5gTDTzbq3aMoKlY6X1uFWSvcNqSpBTFXtSq4wv9BPskUinZmLYvX1LxGTsYZyAhC7x6kuTQ7PC2Iag1LWhregFL7snmTw1zN6NsqIdQb4ZCyRSAiLc8305O",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67680,
+      "createdOn": "2025-12-23T21:20:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b07ae1c508c5d5ef7ac48",
+          "products": [
+            {
+              "_id": "694b07ae1c508c5d5ef7ac69",
+              "name": "Fish58276",
+              "amount": 484,
+              "price": 67680,
+              "manufacturer": "Google",
+              "notes": "R7WLPW0iFJ3b056izZD2580xp7yHrQIKMelaF16nNipvO1uM4L3hkHBy6mWjITGwmv57g8bs6hQnJTrkfAjyx7qqYZhj5RFvOs3iuJxmekNxhERQlGbl53KGxC1c1pi0ekE5gTDTzbq3aMoKlY6X1uFWSvcNqSpBTFXtSq4wv9BPskUinZmLYvX1LxGTsYZyAhC7x6kuTQ7PC2Iag1LWhregFL7snmTw1zN6NsqIdQb4ZCyRSAiLc8305O",
+              "received": false
+            }
+          ],
+          "total_price": 67680,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:20:52.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "694b07ae1c508c5d5ef7ac48",
+          "products": [
+            {
+              "_id": "694b07ae1c508c5d5ef7ac69",
+              "name": "Fish58276",
+              "amount": 484,
+              "price": 67680,
+              "manufacturer": "Google",
+              "notes": "R7WLPW0iFJ3b056izZD2580xp7yHrQIKMelaF16nNipvO1uM4L3hkHBy6mWjITGwmv57g8bs6hQnJTrkfAjyx7qqYZhj5RFvOs3iuJxmekNxhERQlGbl53KGxC1c1pi0ekE5gTDTzbq3aMoKlY6X1uFWSvcNqSpBTFXtSq4wv9BPskUinZmLYvX1LxGTsYZyAhC7x6kuTQ7PC2Iag1LWhregFL7snmTw1zN6NsqIdQb4ZCyRSAiLc8305O",
+              "received": false
+            }
+          ],
+          "total_price": 67680,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Madaline",
+              "street": "Jacquelyn Harbor",
+              "house": 566,
+              "flat": 1465
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:20:50.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b07ae1c508c5d5ef7ac48",
+          "products": [
+            {
+              "_id": "694b07ae1c508c5d5ef7ac69",
+              "name": "Fish58276",
+              "amount": 484,
+              "price": 67680,
+              "manufacturer": "Google",
+              "notes": "R7WLPW0iFJ3b056izZD2580xp7yHrQIKMelaF16nNipvO1uM4L3hkHBy6mWjITGwmv57g8bs6hQnJTrkfAjyx7qqYZhj5RFvOs3iuJxmekNxhERQlGbl53KGxC1c1pi0ekE5gTDTzbq3aMoKlY6X1uFWSvcNqSpBTFXtSq4wv9BPskUinZmLYvX1LxGTsYZyAhC7x6kuTQ7PC2Iag1LWhregFL7snmTw1zN6NsqIdQb4ZCyRSAiLc8305O",
+              "received": false
+            }
+          ],
+          "total_price": 67680,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Madaline",
+              "street": "Jacquelyn Harbor",
+              "house": 566,
+              "flat": 1465
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:20:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b07ae1c508c5d5ef7ac48",
+          "products": [
+            {
+              "_id": "694b07ae1c508c5d5ef7ac69",
+              "name": "Fish58276",
+              "amount": 484,
+              "price": 67680,
+              "manufacturer": "Google",
+              "notes": "R7WLPW0iFJ3b056izZD2580xp7yHrQIKMelaF16nNipvO1uM4L3hkHBy6mWjITGwmv57g8bs6hQnJTrkfAjyx7qqYZhj5RFvOs3iuJxmekNxhERQlGbl53KGxC1c1pi0ekE5gTDTzbq3aMoKlY6X1uFWSvcNqSpBTFXtSq4wv9BPskUinZmLYvX1LxGTsYZyAhC7x6kuTQ7PC2Iag1LWhregFL7snmTw1zN6NsqIdQb4ZCyRSAiLc8305O",
+              "received": false
+            }
+          ],
+          "total_price": 67680,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:20:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

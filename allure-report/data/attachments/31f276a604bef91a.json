@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:18:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3695",
+    "etag": "W/\"e6f-mZQEmaS3+rqg2I37MXi00lzxfhY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b070e1c508c5d5ef74895",
+      "status": "In Process",
+      "customer": {
+        "_id": "694b070c1c508c5d5ef747a5",
+        "email": "Hershel_Reichert@gmail.com",
+        "name": "Jayne Lindgren",
+        "country": "Belarus",
+        "city": "Rancho Cordova",
+        "street": "Arvid Island 41",
+        "house": 10,
+        "flat": 1791,
+        "phone": "+682972834852743",
+        "createdOn": "2025-12-23T21:18:04.000Z",
+        "notes": "0oPHgvWSwIiMZxSg2zxXbIYYmtNMG4"
+      },
+      "products": [
+        {
+          "_id": "694b070d1c508c5d5ef747cb",
+          "name": "Computer75180",
+          "amount": 460,
+          "price": 25829,
+          "manufacturer": "Xiaomi",
+          "notes": "jBaV5TGRzEafqttTzwBkeCxdR7VBJVUbkV2sXRJJqDviuhaFh51ufUIJJCAWIbwcuBdwlRW7yEmpBL6GXzWjNyM8NIkupWgi1Gtg1sP2BT7qnBgoW8bQ7qrGa6L84MfmXdlx68wMX8CwQQne0d7UI1lM86oV7vd12KB5Scd0VSD5hKJEXQeeQB2NY734C5I1xJ7fZZ0FoqizSaI1xKxrxv1Go10Z7xxc1eKSUwqyBOlAfvrSpZZ1PLvJ9L",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Union City",
+          "street": "Nellie Isle",
+          "house": 509,
+          "flat": 8716
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25829,
+      "createdOn": "2025-12-23T21:18:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694b070c1c508c5d5ef747a5",
+          "products": [
+            {
+              "_id": "694b070d1c508c5d5ef747cb",
+              "name": "Computer75180",
+              "amount": 460,
+              "price": 25829,
+              "manufacturer": "Xiaomi",
+              "notes": "jBaV5TGRzEafqttTzwBkeCxdR7VBJVUbkV2sXRJJqDviuhaFh51ufUIJJCAWIbwcuBdwlRW7yEmpBL6GXzWjNyM8NIkupWgi1Gtg1sP2BT7qnBgoW8bQ7qrGa6L84MfmXdlx68wMX8CwQQne0d7UI1lM86oV7vd12KB5Scd0VSD5hKJEXQeeQB2NY734C5I1xJ7fZZ0FoqizSaI1xKxrxv1Go10Z7xxc1eKSUwqyBOlAfvrSpZZ1PLvJ9L",
+              "received": false
+            }
+          ],
+          "total_price": 25829,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Union City",
+              "street": "Nellie Isle",
+              "house": 509,
+              "flat": 8716
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:18:09.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b070c1c508c5d5ef747a5",
+          "products": [
+            {
+              "_id": "694b070d1c508c5d5ef747cb",
+              "name": "Computer75180",
+              "amount": 460,
+              "price": 25829,
+              "manufacturer": "Xiaomi",
+              "notes": "jBaV5TGRzEafqttTzwBkeCxdR7VBJVUbkV2sXRJJqDviuhaFh51ufUIJJCAWIbwcuBdwlRW7yEmpBL6GXzWjNyM8NIkupWgi1Gtg1sP2BT7qnBgoW8bQ7qrGa6L84MfmXdlx68wMX8CwQQne0d7UI1lM86oV7vd12KB5Scd0VSD5hKJEXQeeQB2NY734C5I1xJ7fZZ0FoqizSaI1xKxrxv1Go10Z7xxc1eKSUwqyBOlAfvrSpZZ1PLvJ9L",
+              "received": false
+            }
+          ],
+          "total_price": 25829,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Union City",
+              "street": "Nellie Isle",
+              "house": 509,
+              "flat": 8716
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:18:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b070c1c508c5d5ef747a5",
+          "products": [
+            {
+              "_id": "694b070d1c508c5d5ef747cb",
+              "name": "Computer75180",
+              "amount": 460,
+              "price": 25829,
+              "manufacturer": "Xiaomi",
+              "notes": "jBaV5TGRzEafqttTzwBkeCxdR7VBJVUbkV2sXRJJqDviuhaFh51ufUIJJCAWIbwcuBdwlRW7yEmpBL6GXzWjNyM8NIkupWgi1Gtg1sP2BT7qnBgoW8bQ7qrGa6L84MfmXdlx68wMX8CwQQne0d7UI1lM86oV7vd12KB5Scd0VSD5hKJEXQeeQB2NY734C5I1xJ7fZZ0FoqizSaI1xKxrxv1Go10Z7xxc1eKSUwqyBOlAfvrSpZZ1PLvJ9L",
+              "received": false
+            }
+          ],
+          "total_price": 25829,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:18:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
