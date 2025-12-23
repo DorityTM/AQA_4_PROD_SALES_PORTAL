@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:35:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3670",
+    "etag": "W/\"e56-TZs5PMtFgG798AsyX7xbwXdaWLg\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b0b2c1c508c5d5ef98d41",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b0b2c1c508c5d5ef98d11",
+        "email": "Sedrick.Konopelski@hotmail.com",
+        "name": "Thelma Nader",
+        "country": "Canada",
+        "city": "Funkboro",
+        "street": "New Road 96",
+        "house": 687,
+        "flat": 3304,
+        "phone": "+173430986485624",
+        "createdOn": "2025-12-23T21:35:40.000Z",
+        "notes": "k6VKfQjLij2nIDbl1wtBqinpDGLL2H"
+      },
+      "products": [
+        {
+          "_id": "694b0b2c1c508c5d5ef98d28",
+          "name": "Pizza82998",
+          "amount": 155,
+          "price": 29312,
+          "manufacturer": "Xiaomi",
+          "notes": "A4nVHwOEaU90oAlycloOw6PPDybvd0QVquv6vZJitZTQGtQVDnrjyjunfMd6Ehw41Kvok18yNGtoUWBjPhXsGM2nYfqSUFFD4wRLpId9Lvc00gW4zTYX4hyi3bRrmn9w27Z25X56vmvZW6whl4sPfLnEUC8n8UTNdeuxziNpimcS0kitYBPjOWN5EgrVshRmVaq1MWOCZMFhgGx9nWYz221wFbGeqq4Vn6KMKMV5KINPfRUF4BjWKpdLMn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Lake Johnathon",
+          "street": "S 5th Street",
+          "house": 865,
+          "flat": 9553
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 29312,
+      "createdOn": "2025-12-23T21:35:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b0b2c1c508c5d5ef98d11",
+          "products": [
+            {
+              "_id": "694b0b2c1c508c5d5ef98d28",
+              "name": "Pizza82998",
+              "amount": 155,
+              "price": 29312,
+              "manufacturer": "Xiaomi",
+              "notes": "A4nVHwOEaU90oAlycloOw6PPDybvd0QVquv6vZJitZTQGtQVDnrjyjunfMd6Ehw41Kvok18yNGtoUWBjPhXsGM2nYfqSUFFD4wRLpId9Lvc00gW4zTYX4hyi3bRrmn9w27Z25X56vmvZW6whl4sPfLnEUC8n8UTNdeuxziNpimcS0kitYBPjOWN5EgrVshRmVaq1MWOCZMFhgGx9nWYz221wFbGeqq4Vn6KMKMV5KINPfRUF4BjWKpdLMn",
+              "received": false
+            }
+          ],
+          "total_price": 29312,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Johnathon",
+              "street": "S 5th Street",
+              "house": 865,
+              "flat": 9553
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-23T21:35:41.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b0b2c1c508c5d5ef98d11",
+          "products": [
+            {
+              "_id": "694b0b2c1c508c5d5ef98d28",
+              "name": "Pizza82998",
+              "amount": 155,
+              "price": 29312,
+              "manufacturer": "Xiaomi",
+              "notes": "A4nVHwOEaU90oAlycloOw6PPDybvd0QVquv6vZJitZTQGtQVDnrjyjunfMd6Ehw41Kvok18yNGtoUWBjPhXsGM2nYfqSUFFD4wRLpId9Lvc00gW4zTYX4hyi3bRrmn9w27Z25X56vmvZW6whl4sPfLnEUC8n8UTNdeuxziNpimcS0kitYBPjOWN5EgrVshRmVaq1MWOCZMFhgGx9nWYz221wFbGeqq4Vn6KMKMV5KINPfRUF4BjWKpdLMn",
+              "received": false
+            }
+          ],
+          "total_price": 29312,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Lonzostad",
+              "street": "Antonina Mountain",
+              "house": 787,
+              "flat": 1656
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:35:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b0b2c1c508c5d5ef98d11",
+          "products": [
+            {
+              "_id": "694b0b2c1c508c5d5ef98d28",
+              "name": "Pizza82998",
+              "amount": 155,
+              "price": 29312,
+              "manufacturer": "Xiaomi",
+              "notes": "A4nVHwOEaU90oAlycloOw6PPDybvd0QVquv6vZJitZTQGtQVDnrjyjunfMd6Ehw41Kvok18yNGtoUWBjPhXsGM2nYfqSUFFD4wRLpId9Lvc00gW4zTYX4hyi3bRrmn9w27Z25X56vmvZW6whl4sPfLnEUC8n8UTNdeuxziNpimcS0kitYBPjOWN5EgrVshRmVaq1MWOCZMFhgGx9nWYz221wFbGeqq4Vn6KMKMV5KINPfRUF4BjWKpdLMn",
+              "received": false
+            }
+          ],
+          "total_price": 29312,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:35:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:34:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1672",
+    "etag": "W/\"688-v9JVwenHjbnf97kFf2yjcyR2dXM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b0ae01c508c5d5ef95cf6",
+        "email": "Manuel_Romaguera@gmail.com",
+        "name": "Alisha Collins",
+        "country": "France",
+        "city": "Ferryburgh",
+        "street": "Alicia Isle 8",
+        "house": 277,
+        "flat": 9812,
+        "phone": "+049594500108498",
+        "createdOn": "2025-12-23T21:34:24.000Z",
+        "notes": "dYHPXi4GE4udQNyRsUEYjCfemHy3oB"
+      },
+      "products": [
+        {
+          "_id": "694b0ae01c508c5d5ef95d1e",
+          "name": "Car47431",
+          "amount": 693,
+          "price": 16021,
+          "manufacturer": "Samsung",
+          "notes": "eZGkqH4karNLw1VZ5QXsxaJXINQWMozMAvNqn1VMmpYeM22RpHRDcAbsQNvS54JXTwBCAHD7gldnABSb54IEjqhuCPrHGLsIId5kNyw3UOfIoPc7orR0W9TenBh4K5VEOgjIu5LwdhIw9LpoNxy2pcUtvQXe1RdvvZArJ2YSx47vdaPp6MvpK6dfuNUlQ4Kukprzuwv4BH17ldPODicqXAKnR2eAq7O441pyf04TKj6hVdhZWD4yiZHdVm",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 16021,
+      "createdOn": "2025-12-23T21:34:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b0ae01c508c5d5ef95cf6",
+          "products": [
+            {
+              "_id": "694b0ae01c508c5d5ef95d1e",
+              "name": "Car47431",
+              "amount": 693,
+              "price": 16021,
+              "manufacturer": "Samsung",
+              "notes": "eZGkqH4karNLw1VZ5QXsxaJXINQWMozMAvNqn1VMmpYeM22RpHRDcAbsQNvS54JXTwBCAHD7gldnABSb54IEjqhuCPrHGLsIId5kNyw3UOfIoPc7orR0W9TenBh4K5VEOgjIu5LwdhIw9LpoNxy2pcUtvQXe1RdvvZArJ2YSx47vdaPp6MvpK6dfuNUlQ4Kukprzuwv4BH17ldPODicqXAKnR2eAq7O441pyf04TKj6hVdhZWD4yiZHdVm",
+              "received": false
+            }
+          ],
+          "total_price": 16021,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:34:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b0ae21c508c5d5ef95df8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

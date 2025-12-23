@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:36:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4614",
+    "etag": "W/\"1206-9SyuJxRm0Ljzc8athVp/A4Za+EE\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b0b4c1c508c5d5ef9a1e8",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694b0b491c508c5d5ef99f60",
+        "email": "Andre.Douglas34@gmail.com",
+        "name": "Arne Schimmel",
+        "country": "Great Britain",
+        "city": "Kozeyshire",
+        "street": "Chelsey Groves 95",
+        "house": 16,
+        "flat": 5737,
+        "phone": "+365496860871000",
+        "createdOn": "2025-12-23T21:36:09.000Z",
+        "notes": "u2ykSyZCCFDbgpGSsjwiM0Epr0aFRV"
+      },
+      "products": [
+        {
+          "_id": "694b0b4b1c508c5d5ef9a10a",
+          "name": "Chicken3261",
+          "amount": 942,
+          "price": 66353,
+          "manufacturer": "Google",
+          "notes": "hpAsFd5NEM13nhfcUnHFyUyv8CIPIym6lwEIJDMRAXfGPZI2w6eqi6b1qHphv1chOqqmBlA4uifpgPkoTctuolRVmcMQb3he2iGqesEjtTcFacEdGYTtgrfbHOplWBnILGNJKCorhKo2toDK00s67lhvn8sty614iobTsKLjnA58JFxaKIMkLZIvPF0XSj95aGAdHefD4EHSurFEwTfKh6tDOAzwkQDuTPiBVTpgRuCIWQ2xlzzt6BMk1E",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Lake Raymond",
+          "street": "Bogan Street",
+          "house": 299,
+          "flat": 380
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 66353,
+      "createdOn": "2025-12-23T21:36:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694b0b491c508c5d5ef99f60",
+          "products": [
+            {
+              "_id": "694b0b4b1c508c5d5ef9a10a",
+              "name": "Chicken3261",
+              "amount": 942,
+              "price": 66353,
+              "manufacturer": "Google",
+              "notes": "hpAsFd5NEM13nhfcUnHFyUyv8CIPIym6lwEIJDMRAXfGPZI2w6eqi6b1qHphv1chOqqmBlA4uifpgPkoTctuolRVmcMQb3he2iGqesEjtTcFacEdGYTtgrfbHOplWBnILGNJKCorhKo2toDK00s67lhvn8sty614iobTsKLjnA58JFxaKIMkLZIvPF0XSj95aGAdHefD4EHSurFEwTfKh6tDOAzwkQDuTPiBVTpgRuCIWQ2xlzzt6BMk1E",
+              "received": false
+            }
+          ],
+          "total_price": 66353,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Raymond",
+              "street": "Bogan Street",
+              "house": 299,
+              "flat": 380
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:36:15.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694b0b491c508c5d5ef99f60",
+          "products": [
+            {
+              "_id": "694b0b4b1c508c5d5ef9a10a",
+              "name": "Chicken3261",
+              "amount": 942,
+              "price": 66353,
+              "manufacturer": "Google",
+              "notes": "hpAsFd5NEM13nhfcUnHFyUyv8CIPIym6lwEIJDMRAXfGPZI2w6eqi6b1qHphv1chOqqmBlA4uifpgPkoTctuolRVmcMQb3he2iGqesEjtTcFacEdGYTtgrfbHOplWBnILGNJKCorhKo2toDK00s67lhvn8sty614iobTsKLjnA58JFxaKIMkLZIvPF0XSj95aGAdHefD4EHSurFEwTfKh6tDOAzwkQDuTPiBVTpgRuCIWQ2xlzzt6BMk1E",
+              "received": false
+            }
+          ],
+          "total_price": 66353,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Raymond",
+              "street": "Bogan Street",
+              "house": 299,
+              "flat": 380
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:36:15.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b0b491c508c5d5ef99f60",
+          "products": [
+            {
+              "_id": "694b0b4b1c508c5d5ef9a10a",
+              "name": "Chicken3261",
+              "amount": 942,
+              "price": 66353,
+              "manufacturer": "Google",
+              "notes": "hpAsFd5NEM13nhfcUnHFyUyv8CIPIym6lwEIJDMRAXfGPZI2w6eqi6b1qHphv1chOqqmBlA4uifpgPkoTctuolRVmcMQb3he2iGqesEjtTcFacEdGYTtgrfbHOplWBnILGNJKCorhKo2toDK00s67lhvn8sty614iobTsKLjnA58JFxaKIMkLZIvPF0XSj95aGAdHefD4EHSurFEwTfKh6tDOAzwkQDuTPiBVTpgRuCIWQ2xlzzt6BMk1E",
+              "received": false
+            }
+          ],
+          "total_price": 66353,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Raymond",
+              "street": "Bogan Street",
+              "house": 299,
+              "flat": 380
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:36:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b0b491c508c5d5ef99f60",
+          "products": [
+            {
+              "_id": "694b0b4b1c508c5d5ef9a10a",
+              "name": "Chicken3261",
+              "amount": 942,
+              "price": 66353,
+              "manufacturer": "Google",
+              "notes": "hpAsFd5NEM13nhfcUnHFyUyv8CIPIym6lwEIJDMRAXfGPZI2w6eqi6b1qHphv1chOqqmBlA4uifpgPkoTctuolRVmcMQb3he2iGqesEjtTcFacEdGYTtgrfbHOplWBnILGNJKCorhKo2toDK00s67lhvn8sty614iobTsKLjnA58JFxaKIMkLZIvPF0XSj95aGAdHefD4EHSurFEwTfKh6tDOAzwkQDuTPiBVTpgRuCIWQ2xlzzt6BMk1E",
+              "received": false
+            }
+          ],
+          "total_price": 66353,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:36:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

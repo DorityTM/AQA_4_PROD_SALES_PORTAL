@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:34:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4597",
+    "etag": "W/\"11f5-xJ7+ldJnK4/uTvg5qyYc0C6iLxM\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b0aeb1c508c5d5ef963b6",
+      "status": "Received",
+      "customer": {
+        "_id": "694b0aea1c508c5d5ef9636f",
+        "email": "Lenore.Kohler@hotmail.com",
+        "name": "Evie Herzog",
+        "country": "Belarus",
+        "city": "Fort Kirsten",
+        "street": "Stamm Knoll 93",
+        "house": 292,
+        "flat": 9119,
+        "phone": "+778560501119792",
+        "createdOn": "2025-12-23T21:34:34.000Z",
+        "notes": "TbWxpMxbDNjFtWW7sGVbeLNpKq9TlF"
+      },
+      "products": [
+        {
+          "_id": "694b0aeb1c508c5d5ef96392",
+          "name": "Pizza18096",
+          "amount": 129,
+          "price": 90076,
+          "manufacturer": "Apple",
+          "notes": "FAdnX5VvrFEMhiVCUvwRtmOqOFOftXUnVDpSo4u0YoxyLYpfOUgKtpEG2q6o30JvGB9ip099oHQL3w2Hp2O19Js60LlU2cnU5X410bAKwpHvAQbNmMtCPE084GULX2f9oKzrTaiCiSfn1TA2WU4EXHNVk8APHcx7xG3kml2D0s9poBa37Ueg6xgTihU6Yk324gq0scLGVksDfr225oTZlKtPObKhwE0uuP8oUYpPrX6MBhrlCG3mSyMZTX",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Martineworth",
+          "street": "Hoeger Ways",
+          "house": 708,
+          "flat": 8026
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 90076,
+      "createdOn": "2025-12-23T21:34:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694b0aea1c508c5d5ef9636f",
+          "products": [
+            {
+              "_id": "694b0aeb1c508c5d5ef96392",
+              "name": "Pizza18096",
+              "amount": 129,
+              "price": 90076,
+              "manufacturer": "Apple",
+              "notes": "FAdnX5VvrFEMhiVCUvwRtmOqOFOftXUnVDpSo4u0YoxyLYpfOUgKtpEG2q6o30JvGB9ip099oHQL3w2Hp2O19Js60LlU2cnU5X410bAKwpHvAQbNmMtCPE084GULX2f9oKzrTaiCiSfn1TA2WU4EXHNVk8APHcx7xG3kml2D0s9poBa37Ueg6xgTihU6Yk324gq0scLGVksDfr225oTZlKtPObKhwE0uuP8oUYpPrX6MBhrlCG3mSyMZTX",
+              "received": true
+            }
+          ],
+          "total_price": 90076,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Martineworth",
+              "street": "Hoeger Ways",
+              "house": 708,
+              "flat": 8026
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:34:37.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694b0aea1c508c5d5ef9636f",
+          "products": [
+            {
+              "_id": "694b0aeb1c508c5d5ef96392",
+              "name": "Pizza18096",
+              "amount": 129,
+              "price": 90076,
+              "manufacturer": "Apple",
+              "notes": "FAdnX5VvrFEMhiVCUvwRtmOqOFOftXUnVDpSo4u0YoxyLYpfOUgKtpEG2q6o30JvGB9ip099oHQL3w2Hp2O19Js60LlU2cnU5X410bAKwpHvAQbNmMtCPE084GULX2f9oKzrTaiCiSfn1TA2WU4EXHNVk8APHcx7xG3kml2D0s9poBa37Ueg6xgTihU6Yk324gq0scLGVksDfr225oTZlKtPObKhwE0uuP8oUYpPrX6MBhrlCG3mSyMZTX",
+              "received": false
+            }
+          ],
+          "total_price": 90076,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Martineworth",
+              "street": "Hoeger Ways",
+              "house": 708,
+              "flat": 8026
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:34:36.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b0aea1c508c5d5ef9636f",
+          "products": [
+            {
+              "_id": "694b0aeb1c508c5d5ef96392",
+              "name": "Pizza18096",
+              "amount": 129,
+              "price": 90076,
+              "manufacturer": "Apple",
+              "notes": "FAdnX5VvrFEMhiVCUvwRtmOqOFOftXUnVDpSo4u0YoxyLYpfOUgKtpEG2q6o30JvGB9ip099oHQL3w2Hp2O19Js60LlU2cnU5X410bAKwpHvAQbNmMtCPE084GULX2f9oKzrTaiCiSfn1TA2WU4EXHNVk8APHcx7xG3kml2D0s9poBa37Ueg6xgTihU6Yk324gq0scLGVksDfr225oTZlKtPObKhwE0uuP8oUYpPrX6MBhrlCG3mSyMZTX",
+              "received": false
+            }
+          ],
+          "total_price": 90076,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Martineworth",
+              "street": "Hoeger Ways",
+              "house": 708,
+              "flat": 8026
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:34:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b0aea1c508c5d5ef9636f",
+          "products": [
+            {
+              "_id": "694b0aeb1c508c5d5ef96392",
+              "name": "Pizza18096",
+              "amount": 129,
+              "price": 90076,
+              "manufacturer": "Apple",
+              "notes": "FAdnX5VvrFEMhiVCUvwRtmOqOFOftXUnVDpSo4u0YoxyLYpfOUgKtpEG2q6o30JvGB9ip099oHQL3w2Hp2O19Js60LlU2cnU5X410bAKwpHvAQbNmMtCPE084GULX2f9oKzrTaiCiSfn1TA2WU4EXHNVk8APHcx7xG3kml2D0s9poBa37Ueg6xgTihU6Yk324gq0scLGVksDfr225oTZlKtPObKhwE0uuP8oUYpPrX6MBhrlCG3mSyMZTX",
+              "received": false
+            }
+          ],
+          "total_price": 90076,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:34:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
