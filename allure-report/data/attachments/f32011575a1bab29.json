@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:15:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1678",
+    "etag": "W/\"68e-BFJ098BejIBuZgfshUDWgC1/M78\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694b06551c508c5d5ef6fcac",
+        "email": "Annamae.Bartoletti@hotmail.com",
+        "name": "Rosalind Braun",
+        "country": "USA",
+        "city": "Collinsfield",
+        "street": "Rutherford Fort 94",
+        "house": 765,
+        "flat": 1784,
+        "phone": "+045576389140907",
+        "createdOn": "2025-12-23T21:15:01.000Z",
+        "notes": "23ZV8xkd6lZcK4NoQ1k2tx2N67L3Gs"
+      },
+      "products": [
+        {
+          "_id": "694b06561c508c5d5ef6fda5",
+          "name": "Fish16030",
+          "amount": 263,
+          "price": 74517,
+          "manufacturer": "Apple",
+          "notes": "VOKE4IhbCSIagk1KSXtOydlAjFvO0dlpD0QLrWzdoJ2LZomvDNw0KzDw3eO3G5l1d4tgyD5QopZ1e1Hsrs3UFZ5YBZlP8cYMXYAxMKzFh4w36x7G7UgHJ0hiziOBtXX92QkGHaaJ1yAF6F92cI1biPPnrmbVyWk1a8ufKEtPxlQNFDOkVJB3x3bD0A1O2YMy8sNGL8yb6oqyQsYrFScxcYwrzmWaVliS2JXvRsG6Tefu11IYylDwl6xsiL",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 74517,
+      "createdOn": "2025-12-23T21:15:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b06551c508c5d5ef6fcac",
+          "products": [
+            {
+              "_id": "694b06561c508c5d5ef6fda5",
+              "name": "Fish16030",
+              "amount": 263,
+              "price": 74517,
+              "manufacturer": "Apple",
+              "notes": "VOKE4IhbCSIagk1KSXtOydlAjFvO0dlpD0QLrWzdoJ2LZomvDNw0KzDw3eO3G5l1d4tgyD5QopZ1e1Hsrs3UFZ5YBZlP8cYMXYAxMKzFh4w36x7G7UgHJ0hiziOBtXX92QkGHaaJ1yAF6F92cI1biPPnrmbVyWk1a8ufKEtPxlQNFDOkVJB3x3bD0A1O2YMy8sNGL8yb6oqyQsYrFScxcYwrzmWaVliS2JXvRsG6Tefu11IYylDwl6xsiL",
+              "received": false
+            }
+          ],
+          "total_price": 74517,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:15:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694b06571c508c5d5ef6fdc5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

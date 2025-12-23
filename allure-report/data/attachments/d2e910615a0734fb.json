@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:14:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3685",
+    "etag": "W/\"e65-jYFJei9hZoEhzeSecjyvAecZ+dI\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b061d1c508c5d5ef6dcf9",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694b061c1c508c5d5ef6dcb1",
+        "email": "Asha_Rogahn@yahoo.com",
+        "name": "Dorian Hyatt",
+        "country": "USA",
+        "city": "Upland",
+        "street": "St Andrew s Road 67",
+        "house": 646,
+        "flat": 5441,
+        "phone": "+308612887603117",
+        "createdOn": "2025-12-23T21:14:04.000Z",
+        "notes": "nWFL4xdEFzPkFHtnTkDew6YJVgQaJj"
+      },
+      "products": [
+        {
+          "_id": "694b061c1c508c5d5ef6dcd3",
+          "name": "Pizza13675",
+          "amount": 855,
+          "price": 69458,
+          "manufacturer": "Amazon",
+          "notes": "EOaQyYitdqn5Ef58f4f0qf1JCQQdafTMNueUnAvyccAo3veFF9HhoFjDeUY4jJ8G5347COdqH44j5ctoIik554SGuN9FjQnoVNCPOVRQvmDUytW40UVGoabboxbZBB9xcdHzwv5DnY7yJxnHRfgdKiiMP5EsbBNZFbrnjpMAWOxw30Uq60xcoTx3amZNK1lPPjpVljrlbvSK9gOmYEDWUc7SxxQBBuOE7duXQCvBDuxHjfe8Ac4oBKenMf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Macejkovichaven",
+          "street": "Schaefer Greens",
+          "house": 343,
+          "flat": 1444
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 69458,
+      "createdOn": "2025-12-23T21:14:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694b061c1c508c5d5ef6dcb1",
+          "products": [
+            {
+              "_id": "694b061c1c508c5d5ef6dcd3",
+              "name": "Pizza13675",
+              "amount": 855,
+              "price": 69458,
+              "manufacturer": "Amazon",
+              "notes": "EOaQyYitdqn5Ef58f4f0qf1JCQQdafTMNueUnAvyccAo3veFF9HhoFjDeUY4jJ8G5347COdqH44j5ctoIik554SGuN9FjQnoVNCPOVRQvmDUytW40UVGoabboxbZBB9xcdHzwv5DnY7yJxnHRfgdKiiMP5EsbBNZFbrnjpMAWOxw30Uq60xcoTx3amZNK1lPPjpVljrlbvSK9gOmYEDWUc7SxxQBBuOE7duXQCvBDuxHjfe8Ac4oBKenMf",
+              "received": false
+            }
+          ],
+          "total_price": 69458,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Macejkovichaven",
+              "street": "Schaefer Greens",
+              "house": 343,
+              "flat": 1444
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:14:05.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b061c1c508c5d5ef6dcb1",
+          "products": [
+            {
+              "_id": "694b061c1c508c5d5ef6dcd3",
+              "name": "Pizza13675",
+              "amount": 855,
+              "price": 69458,
+              "manufacturer": "Amazon",
+              "notes": "EOaQyYitdqn5Ef58f4f0qf1JCQQdafTMNueUnAvyccAo3veFF9HhoFjDeUY4jJ8G5347COdqH44j5ctoIik554SGuN9FjQnoVNCPOVRQvmDUytW40UVGoabboxbZBB9xcdHzwv5DnY7yJxnHRfgdKiiMP5EsbBNZFbrnjpMAWOxw30Uq60xcoTx3amZNK1lPPjpVljrlbvSK9gOmYEDWUc7SxxQBBuOE7duXQCvBDuxHjfe8Ac4oBKenMf",
+              "received": false
+            }
+          ],
+          "total_price": 69458,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Macejkovichaven",
+              "street": "Schaefer Greens",
+              "house": 343,
+              "flat": 1444
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:14:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b061c1c508c5d5ef6dcb1",
+          "products": [
+            {
+              "_id": "694b061c1c508c5d5ef6dcd3",
+              "name": "Pizza13675",
+              "amount": 855,
+              "price": 69458,
+              "manufacturer": "Amazon",
+              "notes": "EOaQyYitdqn5Ef58f4f0qf1JCQQdafTMNueUnAvyccAo3veFF9HhoFjDeUY4jJ8G5347COdqH44j5ctoIik554SGuN9FjQnoVNCPOVRQvmDUytW40UVGoabboxbZBB9xcdHzwv5DnY7yJxnHRfgdKiiMP5EsbBNZFbrnjpMAWOxw30Uq60xcoTx3amZNK1lPPjpVljrlbvSK9gOmYEDWUc7SxxQBBuOE7duXQCvBDuxHjfe8Ac4oBKenMf",
+              "received": false
+            }
+          ],
+          "total_price": 69458,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:14:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

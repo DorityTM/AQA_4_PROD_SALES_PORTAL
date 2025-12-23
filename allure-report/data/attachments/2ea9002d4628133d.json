@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:14:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2756",
+    "etag": "W/\"ac4-Tuz6Dlqd8fe9N4TGjJSZTYFezmA\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b06201c508c5d5ef6debd",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b061f1c508c5d5ef6de52",
+        "email": "Raven.Harvey@yahoo.com",
+        "name": "Viva Glover",
+        "country": "France",
+        "city": "Ogden",
+        "street": "Turner Gardens 19",
+        "house": 829,
+        "flat": 1523,
+        "phone": "+563285764814319",
+        "createdOn": "2025-12-23T21:14:07.000Z",
+        "notes": "TCOkuod3jg5TGHE1bocJ1QuoltCq20"
+      },
+      "products": [
+        {
+          "_id": "694b06201c508c5d5ef6de6b",
+          "name": "Pants59587",
+          "amount": 285,
+          "price": 97421,
+          "manufacturer": "Xiaomi",
+          "notes": "QPXUYjjBABORAzj2pXNFKM5gPpWpdzUAmEg82OATkdsgMxYsg63B8KbZryuVRSg9KdLH7UH0fNO6e3VLDKWHTDfjTiqdt8KGClplYQQptq1vTCAHZu2kKe2OvGoCGRbsjTpQM8FP0JITeqNsDKv933E9Zk5COsyxYYi4wwNp2pvGEOAFFI3EMPGU0tiLLVZubyM2UilTsV4ZZF0qIigM5JYirK2MMezSLo3k1zFwu5h6ayD7RMEbaCbQVq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Danafurt",
+          "street": "Duke Street",
+          "house": 855,
+          "flat": 630
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97421,
+      "createdOn": "2025-12-23T21:14:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b061f1c508c5d5ef6de52",
+          "products": [
+            {
+              "_id": "694b06201c508c5d5ef6de6b",
+              "name": "Pants59587",
+              "amount": 285,
+              "price": 97421,
+              "manufacturer": "Xiaomi",
+              "notes": "QPXUYjjBABORAzj2pXNFKM5gPpWpdzUAmEg82OATkdsgMxYsg63B8KbZryuVRSg9KdLH7UH0fNO6e3VLDKWHTDfjTiqdt8KGClplYQQptq1vTCAHZu2kKe2OvGoCGRbsjTpQM8FP0JITeqNsDKv933E9Zk5COsyxYYi4wwNp2pvGEOAFFI3EMPGU0tiLLVZubyM2UilTsV4ZZF0qIigM5JYirK2MMezSLo3k1zFwu5h6ayD7RMEbaCbQVq",
+              "received": false
+            }
+          ],
+          "total_price": 97421,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Danafurt",
+              "street": "Duke Street",
+              "house": 855,
+              "flat": 630
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:14:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b061f1c508c5d5ef6de52",
+          "products": [
+            {
+              "_id": "694b06201c508c5d5ef6de6b",
+              "name": "Pants59587",
+              "amount": 285,
+              "price": 97421,
+              "manufacturer": "Xiaomi",
+              "notes": "QPXUYjjBABORAzj2pXNFKM5gPpWpdzUAmEg82OATkdsgMxYsg63B8KbZryuVRSg9KdLH7UH0fNO6e3VLDKWHTDfjTiqdt8KGClplYQQptq1vTCAHZu2kKe2OvGoCGRbsjTpQM8FP0JITeqNsDKv933E9Zk5COsyxYYi4wwNp2pvGEOAFFI3EMPGU0tiLLVZubyM2UilTsV4ZZF0qIigM5JYirK2MMezSLo3k1zFwu5h6ayD7RMEbaCbQVq",
+              "received": false
+            }
+          ],
+          "total_price": 97421,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:14:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

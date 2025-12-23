@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:14:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4617",
+    "etag": "W/\"1209-VGn7xGVJMQuoK5xjisyz/TRnYUA\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b06301c508c5d5ef6e70d",
+      "status": "Received",
+      "customer": {
+        "_id": "694b06301c508c5d5ef6e6cd",
+        "email": "Wallace.Kautzer82@hotmail.com",
+        "name": "Adam Breitenberg",
+        "country": "Great Britain",
+        "city": "Aspen Hill",
+        "street": "W Franklin Street 25",
+        "house": 712,
+        "flat": 1032,
+        "phone": "+973052639022255",
+        "createdOn": "2025-12-23T21:14:24.000Z",
+        "notes": "hEz3z8xImz5PLzKxy32X1H3s02AupT"
+      },
+      "products": [
+        {
+          "_id": "694b06301c508c5d5ef6e6f0",
+          "name": "Chicken11903",
+          "amount": 785,
+          "price": 17442,
+          "manufacturer": "Sony",
+          "notes": "jX3SbhMZZ7o8f0oEzcHUrz8p5llPUL1HlMBeX0EQx4iZ12H652B4nXRfkVS4G3WuKNJz5Yq1oLhHjWDQOvi7xlRfJTmKuoSZAwWhJ6KSmCL3MTpL6ZGlc4Xc2RjMyAco9FAN8fTMFzQIpWPMlV3HKwzmw5tpviDbSEW4EoMfY5NhPuOsfupL3D3fTpihphCtykYiDEdUHPikJXNzKeGqqqviKumYqQJBLCOt3qTnLmdX99sk21Ulp4qGcl",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Ryanland",
+          "street": "Geoffrey Loop",
+          "house": 153,
+          "flat": 2337
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17442,
+      "createdOn": "2025-12-23T21:14:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694b06301c508c5d5ef6e6cd",
+          "products": [
+            {
+              "_id": "694b06301c508c5d5ef6e6f0",
+              "name": "Chicken11903",
+              "amount": 785,
+              "price": 17442,
+              "manufacturer": "Sony",
+              "notes": "jX3SbhMZZ7o8f0oEzcHUrz8p5llPUL1HlMBeX0EQx4iZ12H652B4nXRfkVS4G3WuKNJz5Yq1oLhHjWDQOvi7xlRfJTmKuoSZAwWhJ6KSmCL3MTpL6ZGlc4Xc2RjMyAco9FAN8fTMFzQIpWPMlV3HKwzmw5tpviDbSEW4EoMfY5NhPuOsfupL3D3fTpihphCtykYiDEdUHPikJXNzKeGqqqviKumYqQJBLCOt3qTnLmdX99sk21Ulp4qGcl",
+              "received": true
+            }
+          ],
+          "total_price": 17442,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Ryanland",
+              "street": "Geoffrey Loop",
+              "house": 153,
+              "flat": 2337
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:14:26.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694b06301c508c5d5ef6e6cd",
+          "products": [
+            {
+              "_id": "694b06301c508c5d5ef6e6f0",
+              "name": "Chicken11903",
+              "amount": 785,
+              "price": 17442,
+              "manufacturer": "Sony",
+              "notes": "jX3SbhMZZ7o8f0oEzcHUrz8p5llPUL1HlMBeX0EQx4iZ12H652B4nXRfkVS4G3WuKNJz5Yq1oLhHjWDQOvi7xlRfJTmKuoSZAwWhJ6KSmCL3MTpL6ZGlc4Xc2RjMyAco9FAN8fTMFzQIpWPMlV3HKwzmw5tpviDbSEW4EoMfY5NhPuOsfupL3D3fTpihphCtykYiDEdUHPikJXNzKeGqqqviKumYqQJBLCOt3qTnLmdX99sk21Ulp4qGcl",
+              "received": false
+            }
+          ],
+          "total_price": 17442,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Ryanland",
+              "street": "Geoffrey Loop",
+              "house": 153,
+              "flat": 2337
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:14:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b06301c508c5d5ef6e6cd",
+          "products": [
+            {
+              "_id": "694b06301c508c5d5ef6e6f0",
+              "name": "Chicken11903",
+              "amount": 785,
+              "price": 17442,
+              "manufacturer": "Sony",
+              "notes": "jX3SbhMZZ7o8f0oEzcHUrz8p5llPUL1HlMBeX0EQx4iZ12H652B4nXRfkVS4G3WuKNJz5Yq1oLhHjWDQOvi7xlRfJTmKuoSZAwWhJ6KSmCL3MTpL6ZGlc4Xc2RjMyAco9FAN8fTMFzQIpWPMlV3HKwzmw5tpviDbSEW4EoMfY5NhPuOsfupL3D3fTpihphCtykYiDEdUHPikJXNzKeGqqqviKumYqQJBLCOt3qTnLmdX99sk21Ulp4qGcl",
+              "received": false
+            }
+          ],
+          "total_price": 17442,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Ryanland",
+              "street": "Geoffrey Loop",
+              "house": 153,
+              "flat": 2337
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:14:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b06301c508c5d5ef6e6cd",
+          "products": [
+            {
+              "_id": "694b06301c508c5d5ef6e6f0",
+              "name": "Chicken11903",
+              "amount": 785,
+              "price": 17442,
+              "manufacturer": "Sony",
+              "notes": "jX3SbhMZZ7o8f0oEzcHUrz8p5llPUL1HlMBeX0EQx4iZ12H652B4nXRfkVS4G3WuKNJz5Yq1oLhHjWDQOvi7xlRfJTmKuoSZAwWhJ6KSmCL3MTpL6ZGlc4Xc2RjMyAco9FAN8fTMFzQIpWPMlV3HKwzmw5tpviDbSEW4EoMfY5NhPuOsfupL3D3fTpihphCtykYiDEdUHPikJXNzKeGqqqviKumYqQJBLCOt3qTnLmdX99sk21Ulp4qGcl",
+              "received": false
+            }
+          ],
+          "total_price": 17442,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:14:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

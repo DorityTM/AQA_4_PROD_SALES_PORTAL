@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:13:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3689",
+    "etag": "W/\"e69-lawQY3VYpNR7EIq44HAF2VV3W2k\"",
+    "keep-alive": "timeout=5, max=20",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b05ee1c508c5d5ef6c69e",
+      "status": "In Process",
+      "customer": {
+        "_id": "694b05ed1c508c5d5ef6c648",
+        "email": "Mckenna.Brown@yahoo.com",
+        "name": "Eliane Rohan",
+        "country": "Belarus",
+        "city": "Ellaland",
+        "street": "Mckenna Ridges 7",
+        "house": 614,
+        "flat": 9721,
+        "phone": "+633742990991911",
+        "createdOn": "2025-12-23T21:13:17.000Z",
+        "notes": "SBwKkLoIAkCKz0PDbeaRds5rpLt97r"
+      },
+      "products": [
+        {
+          "_id": "694b05ee1c508c5d5ef6c662",
+          "name": "Chair43411",
+          "amount": 849,
+          "price": 10753,
+          "manufacturer": "Microsoft",
+          "notes": "E8SbIlV8D9pWbG6ojlwlvN1ZZLdBsaVpemJTXnvRFNJbqNm2kzXzQlyOUDAAgYGbzYqGBhuZQZXglDmztOM07zNUigqCRJVLS4XGsurZk4pTWorWJzF288uyLZyJxwXHBXir2SK5INomiZ0E2YY7DXf1ZdMbV54reZDGgVEIcfedeGxPOLkFweslXT2c9UNOt6N2osmrvUdMZRNPEFZtWNINNpP4ckRO9AGol2RIPl2XX1yesuBifsaHIJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Harrisburg",
+          "street": "Adams Street",
+          "house": 849,
+          "flat": 3145
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 10753,
+      "createdOn": "2025-12-23T21:13:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694b05ed1c508c5d5ef6c648",
+          "products": [
+            {
+              "_id": "694b05ee1c508c5d5ef6c662",
+              "name": "Chair43411",
+              "amount": 849,
+              "price": 10753,
+              "manufacturer": "Microsoft",
+              "notes": "E8SbIlV8D9pWbG6ojlwlvN1ZZLdBsaVpemJTXnvRFNJbqNm2kzXzQlyOUDAAgYGbzYqGBhuZQZXglDmztOM07zNUigqCRJVLS4XGsurZk4pTWorWJzF288uyLZyJxwXHBXir2SK5INomiZ0E2YY7DXf1ZdMbV54reZDGgVEIcfedeGxPOLkFweslXT2c9UNOt6N2osmrvUdMZRNPEFZtWNINNpP4ckRO9AGol2RIPl2XX1yesuBifsaHIJ",
+              "received": false
+            }
+          ],
+          "total_price": 10753,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Harrisburg",
+              "street": "Adams Street",
+              "house": 849,
+              "flat": 3145
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:13:19.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b05ed1c508c5d5ef6c648",
+          "products": [
+            {
+              "_id": "694b05ee1c508c5d5ef6c662",
+              "name": "Chair43411",
+              "amount": 849,
+              "price": 10753,
+              "manufacturer": "Microsoft",
+              "notes": "E8SbIlV8D9pWbG6ojlwlvN1ZZLdBsaVpemJTXnvRFNJbqNm2kzXzQlyOUDAAgYGbzYqGBhuZQZXglDmztOM07zNUigqCRJVLS4XGsurZk4pTWorWJzF288uyLZyJxwXHBXir2SK5INomiZ0E2YY7DXf1ZdMbV54reZDGgVEIcfedeGxPOLkFweslXT2c9UNOt6N2osmrvUdMZRNPEFZtWNINNpP4ckRO9AGol2RIPl2XX1yesuBifsaHIJ",
+              "received": false
+            }
+          ],
+          "total_price": 10753,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Harrisburg",
+              "street": "Adams Street",
+              "house": 849,
+              "flat": 3145
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:13:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b05ed1c508c5d5ef6c648",
+          "products": [
+            {
+              "_id": "694b05ee1c508c5d5ef6c662",
+              "name": "Chair43411",
+              "amount": 849,
+              "price": 10753,
+              "manufacturer": "Microsoft",
+              "notes": "E8SbIlV8D9pWbG6ojlwlvN1ZZLdBsaVpemJTXnvRFNJbqNm2kzXzQlyOUDAAgYGbzYqGBhuZQZXglDmztOM07zNUigqCRJVLS4XGsurZk4pTWorWJzF288uyLZyJxwXHBXir2SK5INomiZ0E2YY7DXf1ZdMbV54reZDGgVEIcfedeGxPOLkFweslXT2c9UNOt6N2osmrvUdMZRNPEFZtWNINNpP4ckRO9AGol2RIPl2XX1yesuBifsaHIJ",
+              "received": false
+            }
+          ],
+          "total_price": 10753,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:13:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
