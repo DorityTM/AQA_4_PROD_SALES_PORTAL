@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:17:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2773",
+    "etag": "W/\"ad5-ERO5YF3FLQxECKRrhBGXnm7YUq0\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b06e91c508c5d5ef734d9",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b06e61c508c5d5ef732e0",
+        "email": "Cornelius.Gibson81@yahoo.com",
+        "name": "Aidan Spencer",
+        "country": "Germany",
+        "city": "Jonesboro",
+        "street": "Kaycee Crossroad 22",
+        "house": 931,
+        "flat": 1163,
+        "phone": "+265810115395881",
+        "createdOn": "2025-12-23T21:17:26.000Z",
+        "notes": "VCMANvK3H4HIxcq9FcNbDEsAvUajWw"
+      },
+      "products": [
+        {
+          "_id": "694b06e71c508c5d5ef73379",
+          "name": "Cheese49926",
+          "amount": 694,
+          "price": 68683,
+          "manufacturer": "Apple",
+          "notes": "85ifBBrhUduIqdytpd4C5HCsqqreS0T8oEaMJAq0XXb0epIZwHelHN7cc74BmQLiDyW7rzWFLWIlRxty9l579xhAXCS5Fdxfm4jKuG8ZonboixMD3jQ4IRJdGsz6p4vOFEnxjrdwlRRf2C22REC6NkMj6fHSyhKlzFJhUhhkTnRlnvo7MzQavZ8UWOFC6VqghfhMrXjUBr8n37AmxI4cPzmgwxY55VG3C4u9OPHwPRSn3ExTV3nDOZ1AZo",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Altenwerthbury",
+          "street": "N Chestnut Street",
+          "house": 281,
+          "flat": 6338
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 68683,
+      "createdOn": "2025-12-23T21:17:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b06e61c508c5d5ef732e0",
+          "products": [
+            {
+              "_id": "694b06e71c508c5d5ef73379",
+              "name": "Cheese49926",
+              "amount": 694,
+              "price": 68683,
+              "manufacturer": "Apple",
+              "notes": "85ifBBrhUduIqdytpd4C5HCsqqreS0T8oEaMJAq0XXb0epIZwHelHN7cc74BmQLiDyW7rzWFLWIlRxty9l579xhAXCS5Fdxfm4jKuG8ZonboixMD3jQ4IRJdGsz6p4vOFEnxjrdwlRRf2C22REC6NkMj6fHSyhKlzFJhUhhkTnRlnvo7MzQavZ8UWOFC6VqghfhMrXjUBr8n37AmxI4cPzmgwxY55VG3C4u9OPHwPRSn3ExTV3nDOZ1AZo",
+              "received": false
+            }
+          ],
+          "total_price": 68683,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Altenwerthbury",
+              "street": "N Chestnut Street",
+              "house": 281,
+              "flat": 6338
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:17:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b06e61c508c5d5ef732e0",
+          "products": [
+            {
+              "_id": "694b06e71c508c5d5ef73379",
+              "name": "Cheese49926",
+              "amount": 694,
+              "price": 68683,
+              "manufacturer": "Apple",
+              "notes": "85ifBBrhUduIqdytpd4C5HCsqqreS0T8oEaMJAq0XXb0epIZwHelHN7cc74BmQLiDyW7rzWFLWIlRxty9l579xhAXCS5Fdxfm4jKuG8ZonboixMD3jQ4IRJdGsz6p4vOFEnxjrdwlRRf2C22REC6NkMj6fHSyhKlzFJhUhhkTnRlnvo7MzQavZ8UWOFC6VqghfhMrXjUBr8n37AmxI4cPzmgwxY55VG3C4u9OPHwPRSn3ExTV3nDOZ1AZo",
+              "received": false
+            }
+          ],
+          "total_price": 68683,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:17:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

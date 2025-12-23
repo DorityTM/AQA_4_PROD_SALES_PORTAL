@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:18:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2737",
+    "etag": "W/\"ab1-YOCm8hsltAo130NyBLD/hl8gJ5A\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b070b1c508c5d5ef74725",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b07091c508c5d5ef745d5",
+        "email": "Henry77@gmail.com",
+        "name": "Delmer Wiegand",
+        "country": "Great Britain",
+        "city": "Moore",
+        "street": "Heller Road 28",
+        "house": 876,
+        "flat": 1605,
+        "phone": "+177022431266650",
+        "createdOn": "2025-12-23T21:18:01.000Z",
+        "notes": "JRsmirHwnNGVxhep2NgdSWzM1ftapw"
+      },
+      "products": [
+        {
+          "_id": "694b070a1c508c5d5ef745fa",
+          "name": "Bike71019",
+          "amount": 41,
+          "price": 30208,
+          "manufacturer": "Tesla",
+          "notes": "xv6CtcDAuVckc0f6jC6c85YXwCNfm94TNeEHedY506ypy3ZnFB222zvKRzIum597Ny3GVmoJ8kwY9OKOMccOJFlMYLbf8XEI9HAYQo00IDJxEjnZkn6unl5YfQdxW7y5MDJLYfRdUnfL7AspFX9rDdBBBHVefsy9vH7NSwEzYnaXCCaYQcuUhfbROo66bYm9frfBt4uyjxsCqYvf3RMyShglsjpJ7mhsnoStg1qzwsZnrSu0wAs2U7Y4Ov",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Danaberg",
+          "street": "Bernier Rapids",
+          "house": 204,
+          "flat": 4160
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 30208,
+      "createdOn": "2025-12-23T21:18:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b07091c508c5d5ef745d5",
+          "products": [
+            {
+              "_id": "694b070a1c508c5d5ef745fa",
+              "name": "Bike71019",
+              "amount": 41,
+              "price": 30208,
+              "manufacturer": "Tesla",
+              "notes": "xv6CtcDAuVckc0f6jC6c85YXwCNfm94TNeEHedY506ypy3ZnFB222zvKRzIum597Ny3GVmoJ8kwY9OKOMccOJFlMYLbf8XEI9HAYQo00IDJxEjnZkn6unl5YfQdxW7y5MDJLYfRdUnfL7AspFX9rDdBBBHVefsy9vH7NSwEzYnaXCCaYQcuUhfbROo66bYm9frfBt4uyjxsCqYvf3RMyShglsjpJ7mhsnoStg1qzwsZnrSu0wAs2U7Y4Ov",
+              "received": false
+            }
+          ],
+          "total_price": 30208,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Danaberg",
+              "street": "Bernier Rapids",
+              "house": 204,
+              "flat": 4160
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:18:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b07091c508c5d5ef745d5",
+          "products": [
+            {
+              "_id": "694b070a1c508c5d5ef745fa",
+              "name": "Bike71019",
+              "amount": 41,
+              "price": 30208,
+              "manufacturer": "Tesla",
+              "notes": "xv6CtcDAuVckc0f6jC6c85YXwCNfm94TNeEHedY506ypy3ZnFB222zvKRzIum597Ny3GVmoJ8kwY9OKOMccOJFlMYLbf8XEI9HAYQo00IDJxEjnZkn6unl5YfQdxW7y5MDJLYfRdUnfL7AspFX9rDdBBBHVefsy9vH7NSwEzYnaXCCaYQcuUhfbROo66bYm9frfBt4uyjxsCqYvf3RMyShglsjpJ7mhsnoStg1qzwsZnrSu0wAs2U7Y4Ov",
+              "received": false
+            }
+          ],
+          "total_price": 30208,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:18:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

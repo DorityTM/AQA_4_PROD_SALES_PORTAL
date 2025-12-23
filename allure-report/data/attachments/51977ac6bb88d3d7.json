@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 21:16:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2739",
+    "etag": "W/\"ab3-IE+fkaLxFLqpMgJmePvU+cA2UH8\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b06b81c508c5d5ef71b8d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b06b71c508c5d5ef71aef",
+        "email": "Darwin33@yahoo.com",
+        "name": "Eden Weber",
+        "country": "Russia",
+        "city": "Enterprise",
+        "street": "Schimmel Ranch 53",
+        "house": 517,
+        "flat": 4249,
+        "phone": "+857269163547895",
+        "createdOn": "2025-12-23T21:16:39.000Z",
+        "notes": "x6ksC2meKMVitejM3dxZGGQDmpAW6W"
+      },
+      "products": [
+        {
+          "_id": "694b06b71c508c5d5ef71b17",
+          "name": "Pizza63930",
+          "amount": 445,
+          "price": 16153,
+          "manufacturer": "Apple",
+          "notes": "5cDYm7Z47y87nM19GIn8tdnDFU0FBuND7JEmFOuFZYZxvr7FYw6fGk60zU3NRpLwTCEOsGgIZdOgnHoblghZNIvMCNji4XCNphuV3zD3K4htezgFUXfXoPmavfndt06Zctk6O1dekz2bt8qas2xa2wxODsxRi6kh3fDabqx0dAQ08kp1bluleiF4EMGG9w7Sh87JKcvITO10B7UwUXbaK0SVHLe7oM55qQac9AmwO6AnbHFz2nPpCNRlFP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Austynland",
+          "street": "Angelica Corners",
+          "house": 900,
+          "flat": 9626
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16153,
+      "createdOn": "2025-12-23T21:16:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b06b71c508c5d5ef71aef",
+          "products": [
+            {
+              "_id": "694b06b71c508c5d5ef71b17",
+              "name": "Pizza63930",
+              "amount": 445,
+              "price": 16153,
+              "manufacturer": "Apple",
+              "notes": "5cDYm7Z47y87nM19GIn8tdnDFU0FBuND7JEmFOuFZYZxvr7FYw6fGk60zU3NRpLwTCEOsGgIZdOgnHoblghZNIvMCNji4XCNphuV3zD3K4htezgFUXfXoPmavfndt06Zctk6O1dekz2bt8qas2xa2wxODsxRi6kh3fDabqx0dAQ08kp1bluleiF4EMGG9w7Sh87JKcvITO10B7UwUXbaK0SVHLe7oM55qQac9AmwO6AnbHFz2nPpCNRlFP",
+              "received": false
+            }
+          ],
+          "total_price": 16153,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Austynland",
+              "street": "Angelica Corners",
+              "house": 900,
+              "flat": 9626
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T21:16:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b06b71c508c5d5ef71aef",
+          "products": [
+            {
+              "_id": "694b06b71c508c5d5ef71b17",
+              "name": "Pizza63930",
+              "amount": 445,
+              "price": 16153,
+              "manufacturer": "Apple",
+              "notes": "5cDYm7Z47y87nM19GIn8tdnDFU0FBuND7JEmFOuFZYZxvr7FYw6fGk60zU3NRpLwTCEOsGgIZdOgnHoblghZNIvMCNji4XCNphuV3zD3K4htezgFUXfXoPmavfndt06Zctk6O1dekz2bt8qas2xa2wxODsxRi6kh3fDabqx0dAQ08kp1bluleiF4EMGG9w7Sh87JKcvITO10B7UwUXbaK0SVHLe7oM55qQac9AmwO6AnbHFz2nPpCNRlFP",
+              "received": false
+            }
+          ],
+          "total_price": 16153,
+          "delivery": null,
+          "changedOn": "2025-12-23T21:16:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
