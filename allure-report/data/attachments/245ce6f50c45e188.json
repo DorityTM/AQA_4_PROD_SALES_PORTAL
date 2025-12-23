@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 17:39:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4624",
+    "etag": "W/\"1210-TfpWy2HpCmtNlPcFp1/8TcTutYs\"",
+    "keep-alive": "timeout=5, max=11",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ad3d61c508c5d5ef58e1e",
+      "status": "Received",
+      "customer": {
+        "_id": "694ad3d51c508c5d5ef58de6",
+        "email": "Birdie_Crona@gmail.com",
+        "name": "Sandy Pollich",
+        "country": "Canada",
+        "city": "San Tan Valley",
+        "street": "Hilll Forks 8",
+        "house": 596,
+        "flat": 5242,
+        "phone": "+110948375030485",
+        "createdOn": "2025-12-23T17:39:33.000Z",
+        "notes": "3ZKQjupE3uohlBElPnG8Mzxfhy0cPE"
+      },
+      "products": [
+        {
+          "_id": "694ad3d61c508c5d5ef58dfd",
+          "name": "Ball41035",
+          "amount": 945,
+          "price": 23205,
+          "manufacturer": "Amazon",
+          "notes": "MXJuneOUPGLt8JNkuxbTXPNNcf7k0ToKH86htmTYFdy135YGT74CG6w1vUuXaOPM64OGGBXvBsGG0ENTvs1YmXudZkyMXeh6wrvzoaI9UvPLym5uPQHPMkwiMecuzfoXvSMsaZ0hyIpso0f31wW3yNNzwZiU6gZQHgoVMvN3qNmrNQMLAUHQ4Ko9xirCR8fjLcEDwZbEkaskEyTe6LmI5sFj8l2ntmYMV1Mb6XMj1MrfmdboUKS8Rvyx19",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Fort Clarissafield",
+          "street": "Quinten Ridge",
+          "house": 94,
+          "flat": 582
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 23205,
+      "createdOn": "2025-12-23T17:39:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694ad3d51c508c5d5ef58de6",
+          "products": [
+            {
+              "_id": "694ad3d61c508c5d5ef58dfd",
+              "name": "Ball41035",
+              "amount": 945,
+              "price": 23205,
+              "manufacturer": "Amazon",
+              "notes": "MXJuneOUPGLt8JNkuxbTXPNNcf7k0ToKH86htmTYFdy135YGT74CG6w1vUuXaOPM64OGGBXvBsGG0ENTvs1YmXudZkyMXeh6wrvzoaI9UvPLym5uPQHPMkwiMecuzfoXvSMsaZ0hyIpso0f31wW3yNNzwZiU6gZQHgoVMvN3qNmrNQMLAUHQ4Ko9xirCR8fjLcEDwZbEkaskEyTe6LmI5sFj8l2ntmYMV1Mb6XMj1MrfmdboUKS8Rvyx19",
+              "received": true
+            }
+          ],
+          "total_price": 23205,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Clarissafield",
+              "street": "Quinten Ridge",
+              "house": 94,
+              "flat": 582
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T17:39:35.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694ad3d51c508c5d5ef58de6",
+          "products": [
+            {
+              "_id": "694ad3d61c508c5d5ef58dfd",
+              "name": "Ball41035",
+              "amount": 945,
+              "price": 23205,
+              "manufacturer": "Amazon",
+              "notes": "MXJuneOUPGLt8JNkuxbTXPNNcf7k0ToKH86htmTYFdy135YGT74CG6w1vUuXaOPM64OGGBXvBsGG0ENTvs1YmXudZkyMXeh6wrvzoaI9UvPLym5uPQHPMkwiMecuzfoXvSMsaZ0hyIpso0f31wW3yNNzwZiU6gZQHgoVMvN3qNmrNQMLAUHQ4Ko9xirCR8fjLcEDwZbEkaskEyTe6LmI5sFj8l2ntmYMV1Mb6XMj1MrfmdboUKS8Rvyx19",
+              "received": false
+            }
+          ],
+          "total_price": 23205,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Clarissafield",
+              "street": "Quinten Ridge",
+              "house": 94,
+              "flat": 582
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T17:39:35.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ad3d51c508c5d5ef58de6",
+          "products": [
+            {
+              "_id": "694ad3d61c508c5d5ef58dfd",
+              "name": "Ball41035",
+              "amount": 945,
+              "price": 23205,
+              "manufacturer": "Amazon",
+              "notes": "MXJuneOUPGLt8JNkuxbTXPNNcf7k0ToKH86htmTYFdy135YGT74CG6w1vUuXaOPM64OGGBXvBsGG0ENTvs1YmXudZkyMXeh6wrvzoaI9UvPLym5uPQHPMkwiMecuzfoXvSMsaZ0hyIpso0f31wW3yNNzwZiU6gZQHgoVMvN3qNmrNQMLAUHQ4Ko9xirCR8fjLcEDwZbEkaskEyTe6LmI5sFj8l2ntmYMV1Mb6XMj1MrfmdboUKS8Rvyx19",
+              "received": false
+            }
+          ],
+          "total_price": 23205,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Clarissafield",
+              "street": "Quinten Ridge",
+              "house": 94,
+              "flat": 582
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T17:39:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ad3d51c508c5d5ef58de6",
+          "products": [
+            {
+              "_id": "694ad3d61c508c5d5ef58dfd",
+              "name": "Ball41035",
+              "amount": 945,
+              "price": 23205,
+              "manufacturer": "Amazon",
+              "notes": "MXJuneOUPGLt8JNkuxbTXPNNcf7k0ToKH86htmTYFdy135YGT74CG6w1vUuXaOPM64OGGBXvBsGG0ENTvs1YmXudZkyMXeh6wrvzoaI9UvPLym5uPQHPMkwiMecuzfoXvSMsaZ0hyIpso0f31wW3yNNzwZiU6gZQHgoVMvN3qNmrNQMLAUHQ4Ko9xirCR8fjLcEDwZbEkaskEyTe6LmI5sFj8l2ntmYMV1Mb6XMj1MrfmdboUKS8Rvyx19",
+              "received": false
+            }
+          ],
+          "total_price": 23205,
+          "delivery": null,
+          "changedOn": "2025-12-23T17:39:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 17:39:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3701",
+    "etag": "W/\"e75-SsSmZmIW+OhXkeyZ6depBpRgzuw\"",
+    "keep-alive": "timeout=5, max=25",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ad3b41c508c5d5ef57fb5",
+      "status": "In Process",
+      "customer": {
+        "_id": "694ad3b31c508c5d5ef57f6a",
+        "email": "Michael_Ankunding8@hotmail.com",
+        "name": "Loraine Lang",
+        "country": "Belarus",
+        "city": "West Tracyburgh",
+        "street": "Beech Drive 58",
+        "house": 925,
+        "flat": 8369,
+        "phone": "+689232682330446",
+        "createdOn": "2025-12-23T17:38:59.000Z",
+        "notes": "Vab0nTMcophTiiNPOgXcNwbb2okaiL"
+      },
+      "products": [
+        {
+          "_id": "694ad3b31c508c5d5ef57f90",
+          "name": "Mouse22738",
+          "amount": 794,
+          "price": 66456,
+          "manufacturer": "Xiaomi",
+          "notes": "n6nmkafErI9leYsqm4raD7nuqNr5kxFFQ5svnKc5ab6iMhdbq0HaNBXzY4FvgsxLiQYYiFHg5fJRM51PuU19Urs2n6DzIcmpxr3uCIVSVKvTk5hPHJIAvAy2yzAHBWZW1uzSUz9gON7ZW69wh9PjOLpgS9rgCMnnFZhi5RvKxSZbkjp2jA94p7oelvtjWjTmpxkNmayYfog5D1i8geBRPvfUdzasjkRngjtmZSLGtVkdr70cRgjIj5UOqT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Sterling Heights",
+          "street": "3rd Street",
+          "house": 903,
+          "flat": 6862
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 66456,
+      "createdOn": "2025-12-23T17:39:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694ad3b31c508c5d5ef57f6a",
+          "products": [
+            {
+              "_id": "694ad3b31c508c5d5ef57f90",
+              "name": "Mouse22738",
+              "amount": 794,
+              "price": 66456,
+              "manufacturer": "Xiaomi",
+              "notes": "n6nmkafErI9leYsqm4raD7nuqNr5kxFFQ5svnKc5ab6iMhdbq0HaNBXzY4FvgsxLiQYYiFHg5fJRM51PuU19Urs2n6DzIcmpxr3uCIVSVKvTk5hPHJIAvAy2yzAHBWZW1uzSUz9gON7ZW69wh9PjOLpgS9rgCMnnFZhi5RvKxSZbkjp2jA94p7oelvtjWjTmpxkNmayYfog5D1i8geBRPvfUdzasjkRngjtmZSLGtVkdr70cRgjIj5UOqT",
+              "received": false
+            }
+          ],
+          "total_price": 66456,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Sterling Heights",
+              "street": "3rd Street",
+              "house": 903,
+              "flat": 6862
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T17:39:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ad3b31c508c5d5ef57f6a",
+          "products": [
+            {
+              "_id": "694ad3b31c508c5d5ef57f90",
+              "name": "Mouse22738",
+              "amount": 794,
+              "price": 66456,
+              "manufacturer": "Xiaomi",
+              "notes": "n6nmkafErI9leYsqm4raD7nuqNr5kxFFQ5svnKc5ab6iMhdbq0HaNBXzY4FvgsxLiQYYiFHg5fJRM51PuU19Urs2n6DzIcmpxr3uCIVSVKvTk5hPHJIAvAy2yzAHBWZW1uzSUz9gON7ZW69wh9PjOLpgS9rgCMnnFZhi5RvKxSZbkjp2jA94p7oelvtjWjTmpxkNmayYfog5D1i8geBRPvfUdzasjkRngjtmZSLGtVkdr70cRgjIj5UOqT",
+              "received": false
+            }
+          ],
+          "total_price": 66456,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Sterling Heights",
+              "street": "3rd Street",
+              "house": 903,
+              "flat": 6862
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T17:39:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ad3b31c508c5d5ef57f6a",
+          "products": [
+            {
+              "_id": "694ad3b31c508c5d5ef57f90",
+              "name": "Mouse22738",
+              "amount": 794,
+              "price": 66456,
+              "manufacturer": "Xiaomi",
+              "notes": "n6nmkafErI9leYsqm4raD7nuqNr5kxFFQ5svnKc5ab6iMhdbq0HaNBXzY4FvgsxLiQYYiFHg5fJRM51PuU19Urs2n6DzIcmpxr3uCIVSVKvTk5hPHJIAvAy2yzAHBWZW1uzSUz9gON7ZW69wh9PjOLpgS9rgCMnnFZhi5RvKxSZbkjp2jA94p7oelvtjWjTmpxkNmayYfog5D1i8geBRPvfUdzasjkRngjtmZSLGtVkdr70cRgjIj5UOqT",
+              "received": false
+            }
+          ],
+          "total_price": 66456,
+          "delivery": null,
+          "changedOn": "2025-12-23T17:39:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

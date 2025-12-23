@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 17:39:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2761",
+    "etag": "W/\"ac9-FHx4vBZgHwk4uEs4BJCZAp1PsNI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ad3e81c508c5d5ef596e0",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ad3e71c508c5d5ef5968e",
+        "email": "Derick.Kirlin-Kautzer@hotmail.com",
+        "name": "Ardella Windler",
+        "country": "USA",
+        "city": "West Ubaldo",
+        "street": "Lawrence Street 34",
+        "house": 327,
+        "flat": 960,
+        "phone": "+802816007547810",
+        "createdOn": "2025-12-23T17:39:51.000Z",
+        "notes": "cRdkexCFFXSqYOaR7DjjOzAiL3Z14s"
+      },
+      "products": [
+        {
+          "_id": "694ad3e81c508c5d5ef596ab",
+          "name": "Gloves34516",
+          "amount": 863,
+          "price": 24020,
+          "manufacturer": "Amazon",
+          "notes": "S3ccwA13u7hy3sHKLB0olCr5S0zrpIKfdJoP6jYZ5aV0D9FJMlsrgBDbQrtdRLz8p0OG5ccLylI23j2EqmZclFWqcHo5e8YHZT6bY1nPw7PYNlsoLapgErIQq6DoJn8RsaRHHBwSyzzi8UG0isIXKZp2ci7pVuZy4no75pKF6m1H1C4DCUUKTMqBhxYZtJowEsyjYz0ZANY6fH9XNMgLMDxywdtieziYtw8DlzwxPrn3J8b7fYFKxnoGjU",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "East Citlalli",
+          "street": "Waterloo Road",
+          "house": 14,
+          "flat": 7015
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 24020,
+      "createdOn": "2025-12-23T17:39:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ad3e71c508c5d5ef5968e",
+          "products": [
+            {
+              "_id": "694ad3e81c508c5d5ef596ab",
+              "name": "Gloves34516",
+              "amount": 863,
+              "price": 24020,
+              "manufacturer": "Amazon",
+              "notes": "S3ccwA13u7hy3sHKLB0olCr5S0zrpIKfdJoP6jYZ5aV0D9FJMlsrgBDbQrtdRLz8p0OG5ccLylI23j2EqmZclFWqcHo5e8YHZT6bY1nPw7PYNlsoLapgErIQq6DoJn8RsaRHHBwSyzzi8UG0isIXKZp2ci7pVuZy4no75pKF6m1H1C4DCUUKTMqBhxYZtJowEsyjYz0ZANY6fH9XNMgLMDxywdtieziYtw8DlzwxPrn3J8b7fYFKxnoGjU",
+              "received": false
+            }
+          ],
+          "total_price": 24020,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "East Citlalli",
+              "street": "Waterloo Road",
+              "house": 14,
+              "flat": 7015
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T17:39:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ad3e71c508c5d5ef5968e",
+          "products": [
+            {
+              "_id": "694ad3e81c508c5d5ef596ab",
+              "name": "Gloves34516",
+              "amount": 863,
+              "price": 24020,
+              "manufacturer": "Amazon",
+              "notes": "S3ccwA13u7hy3sHKLB0olCr5S0zrpIKfdJoP6jYZ5aV0D9FJMlsrgBDbQrtdRLz8p0OG5ccLylI23j2EqmZclFWqcHo5e8YHZT6bY1nPw7PYNlsoLapgErIQq6DoJn8RsaRHHBwSyzzi8UG0isIXKZp2ci7pVuZy4no75pKF6m1H1C4DCUUKTMqBhxYZtJowEsyjYz0ZANY6fH9XNMgLMDxywdtieziYtw8DlzwxPrn3J8b7fYFKxnoGjU",
+              "received": false
+            }
+          ],
+          "total_price": 24020,
+          "delivery": null,
+          "changedOn": "2025-12-23T17:39:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
