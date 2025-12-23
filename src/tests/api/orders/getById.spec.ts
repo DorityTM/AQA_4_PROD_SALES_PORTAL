@@ -6,7 +6,6 @@ import {
 import { getOrderSchema } from "data/schemas/orders/get.schema";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { TAGS } from "data/tags";
-import { STATUS_CODES } from "data/statusCodes";
 
 
 test.describe("[API] [Sales Portal] [Orders] [Get By Id]", () => {
