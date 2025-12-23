@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 20:07:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3679",
+    "etag": "W/\"e5f-w+O1SY09Mi6EeKl79gOS8dqOPiA\"",
+    "keep-alive": "timeout=5, max=24",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694af6721c508c5d5ef6605b",
+      "status": "In Process",
+      "customer": {
+        "_id": "694af6721c508c5d5ef6601e",
+        "email": "Reta76@gmail.com",
+        "name": "Fanny Christiansen",
+        "country": "Germany",
+        "city": "Veronaside",
+        "street": "Sporer Parkway 18",
+        "house": 43,
+        "flat": 1918,
+        "phone": "+637735028050375",
+        "createdOn": "2025-12-23T20:07:14.000Z",
+        "notes": "ixnMMvfei16Zf7dzSZpeD1OkaNApI7"
+      },
+      "products": [
+        {
+          "_id": "694af6721c508c5d5ef6603a",
+          "name": "Chair90996",
+          "amount": 429,
+          "price": 77880,
+          "manufacturer": "Samsung",
+          "notes": "ojqccWz9RGLTDZydmda5BdHKMFzqmvm6iZIzec9WVKZojKHNahjKnUMmqDc9WtuOr2AcTu79F61bm3EvB0iyeZVPCYei207nf7kU8kfIgqFotNyLxmeJP9nOj603jvNzCBaxYdYmfBMGVEVe0OJYHlSR2denPAFN9saYIBuowqTg5Zqm39rqFeQi2j0fglo9TzEDga2TyxfXjLhxuNbWLbbFSk51CSFqkZHkBFKODRqiCUnnIbhxw9iH4N",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Lynwood",
+          "street": "Nikolaus Ferry",
+          "house": 845,
+          "flat": 2825
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 77880,
+      "createdOn": "2025-12-23T20:07:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694af6721c508c5d5ef6601e",
+          "products": [
+            {
+              "_id": "694af6721c508c5d5ef6603a",
+              "name": "Chair90996",
+              "amount": 429,
+              "price": 77880,
+              "manufacturer": "Samsung",
+              "notes": "ojqccWz9RGLTDZydmda5BdHKMFzqmvm6iZIzec9WVKZojKHNahjKnUMmqDc9WtuOr2AcTu79F61bm3EvB0iyeZVPCYei207nf7kU8kfIgqFotNyLxmeJP9nOj603jvNzCBaxYdYmfBMGVEVe0OJYHlSR2denPAFN9saYIBuowqTg5Zqm39rqFeQi2j0fglo9TzEDga2TyxfXjLhxuNbWLbbFSk51CSFqkZHkBFKODRqiCUnnIbhxw9iH4N",
+              "received": false
+            }
+          ],
+          "total_price": 77880,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lynwood",
+              "street": "Nikolaus Ferry",
+              "house": 845,
+              "flat": 2825
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T20:07:15.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694af6721c508c5d5ef6601e",
+          "products": [
+            {
+              "_id": "694af6721c508c5d5ef6603a",
+              "name": "Chair90996",
+              "amount": 429,
+              "price": 77880,
+              "manufacturer": "Samsung",
+              "notes": "ojqccWz9RGLTDZydmda5BdHKMFzqmvm6iZIzec9WVKZojKHNahjKnUMmqDc9WtuOr2AcTu79F61bm3EvB0iyeZVPCYei207nf7kU8kfIgqFotNyLxmeJP9nOj603jvNzCBaxYdYmfBMGVEVe0OJYHlSR2denPAFN9saYIBuowqTg5Zqm39rqFeQi2j0fglo9TzEDga2TyxfXjLhxuNbWLbbFSk51CSFqkZHkBFKODRqiCUnnIbhxw9iH4N",
+              "received": false
+            }
+          ],
+          "total_price": 77880,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lynwood",
+              "street": "Nikolaus Ferry",
+              "house": 845,
+              "flat": 2825
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T20:07:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694af6721c508c5d5ef6601e",
+          "products": [
+            {
+              "_id": "694af6721c508c5d5ef6603a",
+              "name": "Chair90996",
+              "amount": 429,
+              "price": 77880,
+              "manufacturer": "Samsung",
+              "notes": "ojqccWz9RGLTDZydmda5BdHKMFzqmvm6iZIzec9WVKZojKHNahjKnUMmqDc9WtuOr2AcTu79F61bm3EvB0iyeZVPCYei207nf7kU8kfIgqFotNyLxmeJP9nOj603jvNzCBaxYdYmfBMGVEVe0OJYHlSR2denPAFN9saYIBuowqTg5Zqm39rqFeQi2j0fglo9TzEDga2TyxfXjLhxuNbWLbbFSk51CSFqkZHkBFKODRqiCUnnIbhxw9iH4N",
+              "received": false
+            }
+          ],
+          "total_price": 77880,
+          "delivery": null,
+          "changedOn": "2025-12-23T20:07:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

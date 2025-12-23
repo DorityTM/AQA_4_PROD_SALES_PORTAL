@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 20:07:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5217",
+    "etag": "W/\"1461-zcOhtb/cjlcQpCbDTM13T5HZvhY\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694af6641c508c5d5ef65a86",
+      "status": "In Process",
+      "customer": {
+        "_id": "694af6631c508c5d5ef65a1a",
+        "email": "Milton.Kunze81@hotmail.com",
+        "name": "Ted Ebert",
+        "country": "Germany",
+        "city": "Fort Reannaview",
+        "street": "Richmond Road 76",
+        "house": 651,
+        "flat": 1382,
+        "phone": "+753575669385865",
+        "createdOn": "2025-12-23T20:06:59.000Z",
+        "notes": "8xlhUabH7uqdOqLMpF5o5axIFdRKI0"
+      },
+      "products": [
+        {
+          "_id": "694af6641c508c5d5ef65a43",
+          "name": "Chair49572",
+          "amount": 819,
+          "price": 96362,
+          "manufacturer": "Sony",
+          "notes": "KMGg6XtZ7VSKV6pOLlBuhd43qaNSY3RczM5XAzqAlc2Z1YC5RdgCIv1IWqNLw0l7yzeilHFi0ntaazmbeDnP05MLKsZieyXacLWNFnaFylgxJiaowojQiqI1S0Ieg3In6ITU5MIdjwX6l49SOnvcmMRLLbj3NapKo4ILQShZO2jjReEiMz8AuRVYzxoCGiUWvNNPZm2JI4aW3WoCpScz35pr63QAk57BgfaAbDTDDkni1wPHHfjLZp3DZJ",
+          "received": false
+        },
+        {
+          "_id": "694af6641c508c5d5ef65a62",
+          "name": "Sausages10329",
+          "amount": 551,
+          "price": 93768,
+          "manufacturer": "Sony",
+          "notes": "5ZswWf6Yz1L0o01SqO1JLn62ipE7xEAJDcazRfg6Afc8WW1wYBze8DTB22tVlTCbFGmFlRYuFJMCnvLyT2nDVBM9wYFmmcufq61kdcWJne0YXUzqxw2XbwWFJ7pbmuTs5WtUXzanqjcSqdJ9W0a0wXyO35hCCnavh8hJnAVIrI2Vl61bQxQlW0yUcGAYT1QH8lXtKMcmkhwaeeoQlHfSE0TXsV01tKVVcBy6nVmw3FiGxF6GBavyYtYRee",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "South Vaughn",
+          "street": "Crona Key",
+          "house": 168,
+          "flat": 6329
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 190130,
+      "createdOn": "2025-12-23T20:07:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694af6631c508c5d5ef65a1a",
+          "products": [
+            {
+              "_id": "694af6641c508c5d5ef65a43",
+              "name": "Chair49572",
+              "amount": 819,
+              "price": 96362,
+              "manufacturer": "Sony",
+              "notes": "KMGg6XtZ7VSKV6pOLlBuhd43qaNSY3RczM5XAzqAlc2Z1YC5RdgCIv1IWqNLw0l7yzeilHFi0ntaazmbeDnP05MLKsZieyXacLWNFnaFylgxJiaowojQiqI1S0Ieg3In6ITU5MIdjwX6l49SOnvcmMRLLbj3NapKo4ILQShZO2jjReEiMz8AuRVYzxoCGiUWvNNPZm2JI4aW3WoCpScz35pr63QAk57BgfaAbDTDDkni1wPHHfjLZp3DZJ",
+              "received": false
+            },
+            {
+              "_id": "694af6641c508c5d5ef65a62",
+              "name": "Sausages10329",
+              "amount": 551,
+              "price": 93768,
+              "manufacturer": "Sony",
+              "notes": "5ZswWf6Yz1L0o01SqO1JLn62ipE7xEAJDcazRfg6Afc8WW1wYBze8DTB22tVlTCbFGmFlRYuFJMCnvLyT2nDVBM9wYFmmcufq61kdcWJne0YXUzqxw2XbwWFJ7pbmuTs5WtUXzanqjcSqdJ9W0a0wXyO35hCCnavh8hJnAVIrI2Vl61bQxQlW0yUcGAYT1QH8lXtKMcmkhwaeeoQlHfSE0TXsV01tKVVcBy6nVmw3FiGxF6GBavyYtYRee",
+              "received": false
+            }
+          ],
+          "total_price": 190130,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "South Vaughn",
+              "street": "Crona Key",
+              "house": 168,
+              "flat": 6329
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T20:07:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694af6631c508c5d5ef65a1a",
+          "products": [
+            {
+              "_id": "694af6641c508c5d5ef65a43",
+              "name": "Chair49572",
+              "amount": 819,
+              "price": 96362,
+              "manufacturer": "Sony",
+              "notes": "KMGg6XtZ7VSKV6pOLlBuhd43qaNSY3RczM5XAzqAlc2Z1YC5RdgCIv1IWqNLw0l7yzeilHFi0ntaazmbeDnP05MLKsZieyXacLWNFnaFylgxJiaowojQiqI1S0Ieg3In6ITU5MIdjwX6l49SOnvcmMRLLbj3NapKo4ILQShZO2jjReEiMz8AuRVYzxoCGiUWvNNPZm2JI4aW3WoCpScz35pr63QAk57BgfaAbDTDDkni1wPHHfjLZp3DZJ",
+              "received": false
+            },
+            {
+              "_id": "694af6641c508c5d5ef65a62",
+              "name": "Sausages10329",
+              "amount": 551,
+              "price": 93768,
+              "manufacturer": "Sony",
+              "notes": "5ZswWf6Yz1L0o01SqO1JLn62ipE7xEAJDcazRfg6Afc8WW1wYBze8DTB22tVlTCbFGmFlRYuFJMCnvLyT2nDVBM9wYFmmcufq61kdcWJne0YXUzqxw2XbwWFJ7pbmuTs5WtUXzanqjcSqdJ9W0a0wXyO35hCCnavh8hJnAVIrI2Vl61bQxQlW0yUcGAYT1QH8lXtKMcmkhwaeeoQlHfSE0TXsV01tKVVcBy6nVmw3FiGxF6GBavyYtYRee",
+              "received": false
+            }
+          ],
+          "total_price": 190130,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "South Vaughn",
+              "street": "Crona Key",
+              "house": 168,
+              "flat": 6329
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T20:07:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694af6631c508c5d5ef65a1a",
+          "products": [
+            {
+              "_id": "694af6641c508c5d5ef65a43",
+              "name": "Chair49572",
+              "amount": 819,
+              "price": 96362,
+              "manufacturer": "Sony",
+              "notes": "KMGg6XtZ7VSKV6pOLlBuhd43qaNSY3RczM5XAzqAlc2Z1YC5RdgCIv1IWqNLw0l7yzeilHFi0ntaazmbeDnP05MLKsZieyXacLWNFnaFylgxJiaowojQiqI1S0Ieg3In6ITU5MIdjwX6l49SOnvcmMRLLbj3NapKo4ILQShZO2jjReEiMz8AuRVYzxoCGiUWvNNPZm2JI4aW3WoCpScz35pr63QAk57BgfaAbDTDDkni1wPHHfjLZp3DZJ",
+              "received": false
+            },
+            {
+              "_id": "694af6641c508c5d5ef65a62",
+              "name": "Sausages10329",
+              "amount": 551,
+              "price": 93768,
+              "manufacturer": "Sony",
+              "notes": "5ZswWf6Yz1L0o01SqO1JLn62ipE7xEAJDcazRfg6Afc8WW1wYBze8DTB22tVlTCbFGmFlRYuFJMCnvLyT2nDVBM9wYFmmcufq61kdcWJne0YXUzqxw2XbwWFJ7pbmuTs5WtUXzanqjcSqdJ9W0a0wXyO35hCCnavh8hJnAVIrI2Vl61bQxQlW0yUcGAYT1QH8lXtKMcmkhwaeeoQlHfSE0TXsV01tKVVcBy6nVmw3FiGxF6GBavyYtYRee",
+              "received": false
+            }
+          ],
+          "total_price": 190130,
+          "delivery": null,
+          "changedOn": "2025-12-23T20:07:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

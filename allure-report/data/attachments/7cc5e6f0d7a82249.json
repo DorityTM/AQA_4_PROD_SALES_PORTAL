@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 23 Dec 2025 20:07:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4605",
+    "etag": "W/\"11fd-SRwXpBcFlyZGXhFGf2FSDxlZcMw\"",
+    "keep-alive": "timeout=5, max=11",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694af6781c508c5d5ef662eb",
+      "status": "Received",
+      "customer": {
+        "_id": "694af6781c508c5d5ef662ba",
+        "email": "Shana_Rodriguez91@yahoo.com",
+        "name": "Alessandro Lubowitz",
+        "country": "Canada",
+        "city": "South Fanny",
+        "street": "Ondricka Motorway 1",
+        "house": 824,
+        "flat": 3543,
+        "phone": "+876844431590475",
+        "createdOn": "2025-12-23T20:07:20.000Z",
+        "notes": "RP3NzIBqzME1RUWSWrzPFsxr8EpnT1"
+      },
+      "products": [
+        {
+          "_id": "694af6781c508c5d5ef662d0",
+          "name": "Shirt5902",
+          "amount": 997,
+          "price": 39360,
+          "manufacturer": "Tesla",
+          "notes": "acS47vpHzyV2Zwd6fq7rRklv8HNDiiVedx5c5cbgzhl7tydsb4MW3agIFYTDDgFx0VeUTUJOK3V0dFxMHJQJ4OkCERabOiRs9izraUNKo2umpOr1mTfPa3qf6nCQQDD4MbjvEWoq3YWp716O85IYhFIILUa7TCstPOYiX09NbFcDKRZZjKHm26IYVS3qxCP4a7XZgJO1lRutLUhjPphemvIIJDfjNtDKQnUIZ8hG3COdrov2AwTMlgL4Ox",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Schoenfield",
+          "street": "Effertz Route",
+          "house": 542,
+          "flat": 100
+        },
+        "finalDate": "2025-12-30T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 39360,
+      "createdOn": "2025-12-23T20:07:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694af6781c508c5d5ef662ba",
+          "products": [
+            {
+              "_id": "694af6781c508c5d5ef662d0",
+              "name": "Shirt5902",
+              "amount": 997,
+              "price": 39360,
+              "manufacturer": "Tesla",
+              "notes": "acS47vpHzyV2Zwd6fq7rRklv8HNDiiVedx5c5cbgzhl7tydsb4MW3agIFYTDDgFx0VeUTUJOK3V0dFxMHJQJ4OkCERabOiRs9izraUNKo2umpOr1mTfPa3qf6nCQQDD4MbjvEWoq3YWp716O85IYhFIILUa7TCstPOYiX09NbFcDKRZZjKHm26IYVS3qxCP4a7XZgJO1lRutLUhjPphemvIIJDfjNtDKQnUIZ8hG3COdrov2AwTMlgL4Ox",
+              "received": true
+            }
+          ],
+          "total_price": 39360,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Schoenfield",
+              "street": "Effertz Route",
+              "house": 542,
+              "flat": 100
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T20:07:21.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694af6781c508c5d5ef662ba",
+          "products": [
+            {
+              "_id": "694af6781c508c5d5ef662d0",
+              "name": "Shirt5902",
+              "amount": 997,
+              "price": 39360,
+              "manufacturer": "Tesla",
+              "notes": "acS47vpHzyV2Zwd6fq7rRklv8HNDiiVedx5c5cbgzhl7tydsb4MW3agIFYTDDgFx0VeUTUJOK3V0dFxMHJQJ4OkCERabOiRs9izraUNKo2umpOr1mTfPa3qf6nCQQDD4MbjvEWoq3YWp716O85IYhFIILUa7TCstPOYiX09NbFcDKRZZjKHm26IYVS3qxCP4a7XZgJO1lRutLUhjPphemvIIJDfjNtDKQnUIZ8hG3COdrov2AwTMlgL4Ox",
+              "received": false
+            }
+          ],
+          "total_price": 39360,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Schoenfield",
+              "street": "Effertz Route",
+              "house": 542,
+              "flat": 100
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T20:07:21.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694af6781c508c5d5ef662ba",
+          "products": [
+            {
+              "_id": "694af6781c508c5d5ef662d0",
+              "name": "Shirt5902",
+              "amount": 997,
+              "price": 39360,
+              "manufacturer": "Tesla",
+              "notes": "acS47vpHzyV2Zwd6fq7rRklv8HNDiiVedx5c5cbgzhl7tydsb4MW3agIFYTDDgFx0VeUTUJOK3V0dFxMHJQJ4OkCERabOiRs9izraUNKo2umpOr1mTfPa3qf6nCQQDD4MbjvEWoq3YWp716O85IYhFIILUa7TCstPOYiX09NbFcDKRZZjKHm26IYVS3qxCP4a7XZgJO1lRutLUhjPphemvIIJDfjNtDKQnUIZ8hG3COdrov2AwTMlgL4Ox",
+              "received": false
+            }
+          ],
+          "total_price": 39360,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Schoenfield",
+              "street": "Effertz Route",
+              "house": 542,
+              "flat": 100
+            },
+            "finalDate": "2025-12-30T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-23T20:07:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694af6781c508c5d5ef662ba",
+          "products": [
+            {
+              "_id": "694af6781c508c5d5ef662d0",
+              "name": "Shirt5902",
+              "amount": 997,
+              "price": 39360,
+              "manufacturer": "Tesla",
+              "notes": "acS47vpHzyV2Zwd6fq7rRklv8HNDiiVedx5c5cbgzhl7tydsb4MW3agIFYTDDgFx0VeUTUJOK3V0dFxMHJQJ4OkCERabOiRs9izraUNKo2umpOr1mTfPa3qf6nCQQDD4MbjvEWoq3YWp716O85IYhFIILUa7TCstPOYiX09NbFcDKRZZjKHm26IYVS3qxCP4a7XZgJO1lRutLUhjPphemvIIJDfjNtDKQnUIZ8hG3COdrov2AwTMlgL4Ox",
+              "received": false
+            }
+          ],
+          "total_price": 39360,
+          "delivery": null,
+          "changedOn": "2025-12-23T20:07:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
