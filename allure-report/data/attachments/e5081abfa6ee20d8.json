@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 07:30:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2760",
+    "etag": "W/\"ac8-agimhokEkqHo0Y8sLaJIb/mHSP4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b96891c508c5d5efba5c8",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b96881c508c5d5efba59d",
+        "email": "Soledad.Douglas@gmail.com",
+        "name": "Ophelia Fay",
+        "country": "Belarus",
+        "city": "Coltshire",
+        "street": "Jamey Parkway 26",
+        "house": 273,
+        "flat": 4458,
+        "phone": "+939629216588846",
+        "createdOn": "2025-12-24T07:30:16.000Z",
+        "notes": "GNqj0VIvrvzqLymi3uctMGb39fJk2A"
+      },
+      "products": [
+        {
+          "_id": "694b96881c508c5d5efba5a8",
+          "name": "Fish58849",
+          "amount": 866,
+          "price": 78410,
+          "manufacturer": "Amazon",
+          "notes": "V445x6QJ3dD9wggBkvZNRELORKJUUSZpYQXjcNMFS6vjy2B01oXHLieXeCuOjXBTJPmZtAEtyIkM640eajdpzJaaequa67OGVgSZhsfRlxHmROYZX2aA769e4JRC9WfkGlrEMJJI3c5KFgvzNv8GXwu7a4hDLp6ixCqQYfk7dof6KLMHeeFTu4EqvmXf8baNypg9EPjUz331j2eqH2yQELCQeaJO4V7rmq0TfrhomPfDYoxcLAzwbnPB0s",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Hoffman Estates",
+          "street": "Division Street",
+          "house": 245,
+          "flat": 372
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 78410,
+      "createdOn": "2025-12-24T07:30:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b96881c508c5d5efba59d",
+          "products": [
+            {
+              "_id": "694b96881c508c5d5efba5a8",
+              "name": "Fish58849",
+              "amount": 866,
+              "price": 78410,
+              "manufacturer": "Amazon",
+              "notes": "V445x6QJ3dD9wggBkvZNRELORKJUUSZpYQXjcNMFS6vjy2B01oXHLieXeCuOjXBTJPmZtAEtyIkM640eajdpzJaaequa67OGVgSZhsfRlxHmROYZX2aA769e4JRC9WfkGlrEMJJI3c5KFgvzNv8GXwu7a4hDLp6ixCqQYfk7dof6KLMHeeFTu4EqvmXf8baNypg9EPjUz331j2eqH2yQELCQeaJO4V7rmq0TfrhomPfDYoxcLAzwbnPB0s",
+              "received": false
+            }
+          ],
+          "total_price": 78410,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Hoffman Estates",
+              "street": "Division Street",
+              "house": 245,
+              "flat": 372
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T07:30:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b96881c508c5d5efba59d",
+          "products": [
+            {
+              "_id": "694b96881c508c5d5efba5a8",
+              "name": "Fish58849",
+              "amount": 866,
+              "price": 78410,
+              "manufacturer": "Amazon",
+              "notes": "V445x6QJ3dD9wggBkvZNRELORKJUUSZpYQXjcNMFS6vjy2B01oXHLieXeCuOjXBTJPmZtAEtyIkM640eajdpzJaaequa67OGVgSZhsfRlxHmROYZX2aA769e4JRC9WfkGlrEMJJI3c5KFgvzNv8GXwu7a4hDLp6ixCqQYfk7dof6KLMHeeFTu4EqvmXf8baNypg9EPjUz331j2eqH2yQELCQeaJO4V7rmq0TfrhomPfDYoxcLAzwbnPB0s",
+              "received": false
+            }
+          ],
+          "total_price": 78410,
+          "delivery": null,
+          "changedOn": "2025-12-24T07:30:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

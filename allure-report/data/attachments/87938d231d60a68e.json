@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 07:29:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3675",
+    "etag": "W/\"e5b-MwR6dDdwMfK3hw/kd4P3Ze8j4kc\"",
+    "keep-alive": "timeout=5, max=12",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b966a1c508c5d5efb9121",
+      "status": "In Process",
+      "customer": {
+        "_id": "694b966a1c508c5d5efb90e5",
+        "email": "Yadira.Reichert61@hotmail.com",
+        "name": "Jerome Sporer",
+        "country": "Great Britain",
+        "city": "East Lennastad",
+        "street": "Lexie Stravenue 74",
+        "house": 376,
+        "flat": 7800,
+        "phone": "+849976622325704",
+        "createdOn": "2025-12-24T07:29:46.000Z",
+        "notes": "lBkbC53ibTP6ENJ7GQ0gWBzDADXdkr"
+      },
+      "products": [
+        {
+          "_id": "694b966a1c508c5d5efb90f7",
+          "name": "Chips28424",
+          "amount": 35,
+          "price": 14565,
+          "manufacturer": "Tesla",
+          "notes": "9ncMyjXk8mgP036oXegkJpTmX6QmO2SaNYUqNDsoTKBBu0rsRgnTyKyBTdoqNMMctqYFGkUubRknKpiuvsBQ5uDmZghL5L1z8Kr6EnxYHT9oEOOOz0P4hg7EfeGPuQnjhiRYp2Y37hpyrDnnuVZ4mcpSA9rNKCEW6ehQmB1E6ENUKuAyjIAlXoFig9owRWCfdoUka4TvQSJTXojzSMHAMCATOx31WgBlpCcLslMB7Y6K5TV7lZTmeG4bXK",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Berwyn",
+          "street": "Hope Alley",
+          "house": 620,
+          "flat": 7822
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 14565,
+      "createdOn": "2025-12-24T07:29:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694b966a1c508c5d5efb90e5",
+          "products": [
+            {
+              "_id": "694b966a1c508c5d5efb90f7",
+              "name": "Chips28424",
+              "amount": 35,
+              "price": 14565,
+              "manufacturer": "Tesla",
+              "notes": "9ncMyjXk8mgP036oXegkJpTmX6QmO2SaNYUqNDsoTKBBu0rsRgnTyKyBTdoqNMMctqYFGkUubRknKpiuvsBQ5uDmZghL5L1z8Kr6EnxYHT9oEOOOz0P4hg7EfeGPuQnjhiRYp2Y37hpyrDnnuVZ4mcpSA9rNKCEW6ehQmB1E6ENUKuAyjIAlXoFig9owRWCfdoUka4TvQSJTXojzSMHAMCATOx31WgBlpCcLslMB7Y6K5TV7lZTmeG4bXK",
+              "received": false
+            }
+          ],
+          "total_price": 14565,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Berwyn",
+              "street": "Hope Alley",
+              "house": 620,
+              "flat": 7822
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T07:29:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b966a1c508c5d5efb90e5",
+          "products": [
+            {
+              "_id": "694b966a1c508c5d5efb90f7",
+              "name": "Chips28424",
+              "amount": 35,
+              "price": 14565,
+              "manufacturer": "Tesla",
+              "notes": "9ncMyjXk8mgP036oXegkJpTmX6QmO2SaNYUqNDsoTKBBu0rsRgnTyKyBTdoqNMMctqYFGkUubRknKpiuvsBQ5uDmZghL5L1z8Kr6EnxYHT9oEOOOz0P4hg7EfeGPuQnjhiRYp2Y37hpyrDnnuVZ4mcpSA9rNKCEW6ehQmB1E6ENUKuAyjIAlXoFig9owRWCfdoUka4TvQSJTXojzSMHAMCATOx31WgBlpCcLslMB7Y6K5TV7lZTmeG4bXK",
+              "received": false
+            }
+          ],
+          "total_price": 14565,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Berwyn",
+              "street": "Hope Alley",
+              "house": 620,
+              "flat": 7822
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T07:29:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b966a1c508c5d5efb90e5",
+          "products": [
+            {
+              "_id": "694b966a1c508c5d5efb90f7",
+              "name": "Chips28424",
+              "amount": 35,
+              "price": 14565,
+              "manufacturer": "Tesla",
+              "notes": "9ncMyjXk8mgP036oXegkJpTmX6QmO2SaNYUqNDsoTKBBu0rsRgnTyKyBTdoqNMMctqYFGkUubRknKpiuvsBQ5uDmZghL5L1z8Kr6EnxYHT9oEOOOz0P4hg7EfeGPuQnjhiRYp2Y37hpyrDnnuVZ4mcpSA9rNKCEW6ehQmB1E6ENUKuAyjIAlXoFig9owRWCfdoUka4TvQSJTXojzSMHAMCATOx31WgBlpCcLslMB7Y6K5TV7lZTmeG4bXK",
+              "received": false
+            }
+          ],
+          "total_price": 14565,
+          "delivery": null,
+          "changedOn": "2025-12-24T07:29:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

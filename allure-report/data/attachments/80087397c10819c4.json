@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 07:30:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3724",
+    "etag": "W/\"e8c-HpV5MgsmnOGL/nIX9hcpNQfM86k\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b96921c508c5d5efbac28",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694b96901c508c5d5efbaaf2",
+        "email": "Alyson.Christiansen@yahoo.com",
+        "name": "Brock Dare",
+        "country": "Great Britain",
+        "city": "North Gunnar",
+        "street": "Birch Avenue 60",
+        "house": 53,
+        "flat": 3268,
+        "phone": "+220087365298877",
+        "createdOn": "2025-12-24T07:30:24.000Z",
+        "notes": "q0jytTiD5uxYxukc7V3Y8Ximl0Hmrm"
+      },
+      "products": [
+        {
+          "_id": "694b96921c508c5d5efbac03",
+          "name": "Sausages51056",
+          "amount": 150,
+          "price": 17545,
+          "manufacturer": "Sony",
+          "notes": "x9Y78LiG0o8JLW18gyA5Pk47j2mgs2f9GIbRoXBDTUoM83VEYvT22ttWxhp4Hx7MtoAGdGgQwk16F8DDFcwPc7QLY0q75SOS76vbSGS3YJ0tpm8eSqxfR1euERPnaCxRuBkxf1u3KgeD9k5XZfYrxsQdYgyobMPfzT29YyvnG46frbR9X2F47ddMPh8yCQurmJkh0Q6KS2MBuwUntT71emXNViNSyyUqR6vwhXm1yBsYX1TnnGu32nVOZh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "East Carlosport",
+          "street": "Schaefer Overpass",
+          "house": 42,
+          "flat": 249
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17545,
+      "createdOn": "2025-12-24T07:30:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694b96901c508c5d5efbaaf2",
+          "products": [
+            {
+              "_id": "694b96921c508c5d5efbac03",
+              "name": "Sausages51056",
+              "amount": 150,
+              "price": 17545,
+              "manufacturer": "Sony",
+              "notes": "x9Y78LiG0o8JLW18gyA5Pk47j2mgs2f9GIbRoXBDTUoM83VEYvT22ttWxhp4Hx7MtoAGdGgQwk16F8DDFcwPc7QLY0q75SOS76vbSGS3YJ0tpm8eSqxfR1euERPnaCxRuBkxf1u3KgeD9k5XZfYrxsQdYgyobMPfzT29YyvnG46frbR9X2F47ddMPh8yCQurmJkh0Q6KS2MBuwUntT71emXNViNSyyUqR6vwhXm1yBsYX1TnnGu32nVOZh",
+              "received": false
+            }
+          ],
+          "total_price": 17545,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "East Carlosport",
+              "street": "Schaefer Overpass",
+              "house": 42,
+              "flat": 249
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T07:30:27.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b96901c508c5d5efbaaf2",
+          "products": [
+            {
+              "_id": "694b96921c508c5d5efbac03",
+              "name": "Sausages51056",
+              "amount": 150,
+              "price": 17545,
+              "manufacturer": "Sony",
+              "notes": "x9Y78LiG0o8JLW18gyA5Pk47j2mgs2f9GIbRoXBDTUoM83VEYvT22ttWxhp4Hx7MtoAGdGgQwk16F8DDFcwPc7QLY0q75SOS76vbSGS3YJ0tpm8eSqxfR1euERPnaCxRuBkxf1u3KgeD9k5XZfYrxsQdYgyobMPfzT29YyvnG46frbR9X2F47ddMPh8yCQurmJkh0Q6KS2MBuwUntT71emXNViNSyyUqR6vwhXm1yBsYX1TnnGu32nVOZh",
+              "received": false
+            }
+          ],
+          "total_price": 17545,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "East Carlosport",
+              "street": "Schaefer Overpass",
+              "house": 42,
+              "flat": 249
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T07:30:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b96901c508c5d5efbaaf2",
+          "products": [
+            {
+              "_id": "694b96921c508c5d5efbac03",
+              "name": "Sausages51056",
+              "amount": 150,
+              "price": 17545,
+              "manufacturer": "Sony",
+              "notes": "x9Y78LiG0o8JLW18gyA5Pk47j2mgs2f9GIbRoXBDTUoM83VEYvT22ttWxhp4Hx7MtoAGdGgQwk16F8DDFcwPc7QLY0q75SOS76vbSGS3YJ0tpm8eSqxfR1euERPnaCxRuBkxf1u3KgeD9k5XZfYrxsQdYgyobMPfzT29YyvnG46frbR9X2F47ddMPh8yCQurmJkh0Q6KS2MBuwUntT71emXNViNSyyUqR6vwhXm1yBsYX1TnnGu32nVOZh",
+              "received": false
+            }
+          ],
+          "total_price": 17545,
+          "delivery": null,
+          "changedOn": "2025-12-24T07:30:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

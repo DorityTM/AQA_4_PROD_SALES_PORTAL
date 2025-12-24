@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 07:28:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4585",
+    "etag": "W/\"11e9-Z5xQwdCTaxYEN1a+jAAcorE+EPE\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b96381c508c5d5efb7134",
+      "status": "Received",
+      "customer": {
+        "_id": "694b96361c508c5d5efb6f0f",
+        "email": "Mortimer.Hauck@hotmail.com",
+        "name": "Remington Sanford",
+        "country": "Ukraine",
+        "city": "Rohanland",
+        "street": "Aubree Unions 25",
+        "house": 183,
+        "flat": 1054,
+        "phone": "+729973512921721",
+        "createdOn": "2025-12-24T07:28:54.000Z",
+        "notes": "G9tyFYKoJ6J1Jjy0vxyrMA38Xz4Ljs"
+      },
+      "products": [
+        {
+          "_id": "694b96361c508c5d5efb701c",
+          "name": "Hat22717",
+          "amount": 674,
+          "price": 94129,
+          "manufacturer": "Tesla",
+          "notes": "z1K5I1aF4Mjn5BGISQx9fUYraVCAak4IMMmRfZh2aqCnzr7Mxr29umLZ1ANxn9AAIJbeP0NKW8Zn4PfrjChEa376CJWeQbKdKIKnwZlAu4y1A5j4r7s7Ir8szEoM1BpMLVrosPPQWvnsx2YuAg7CPHDxg1gFUxVXz5IH1lVab8bMstwKM5eBhShOiJwbGnL4QdwpJUDDjXHUlB3vILHtmEkkvAYNkXkhhqA1zKEqv8ay7eYEaqYQMfPT1r",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Missoula",
+          "street": "Tristin Port",
+          "house": 560,
+          "flat": 2965
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 94129,
+      "createdOn": "2025-12-24T07:28:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694b96361c508c5d5efb6f0f",
+          "products": [
+            {
+              "_id": "694b96361c508c5d5efb701c",
+              "name": "Hat22717",
+              "amount": 674,
+              "price": 94129,
+              "manufacturer": "Tesla",
+              "notes": "z1K5I1aF4Mjn5BGISQx9fUYraVCAak4IMMmRfZh2aqCnzr7Mxr29umLZ1ANxn9AAIJbeP0NKW8Zn4PfrjChEa376CJWeQbKdKIKnwZlAu4y1A5j4r7s7Ir8szEoM1BpMLVrosPPQWvnsx2YuAg7CPHDxg1gFUxVXz5IH1lVab8bMstwKM5eBhShOiJwbGnL4QdwpJUDDjXHUlB3vILHtmEkkvAYNkXkhhqA1zKEqv8ay7eYEaqYQMfPT1r",
+              "received": true
+            }
+          ],
+          "total_price": 94129,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Missoula",
+              "street": "Tristin Port",
+              "house": 560,
+              "flat": 2965
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T07:28:59.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694b96361c508c5d5efb6f0f",
+          "products": [
+            {
+              "_id": "694b96361c508c5d5efb701c",
+              "name": "Hat22717",
+              "amount": 674,
+              "price": 94129,
+              "manufacturer": "Tesla",
+              "notes": "z1K5I1aF4Mjn5BGISQx9fUYraVCAak4IMMmRfZh2aqCnzr7Mxr29umLZ1ANxn9AAIJbeP0NKW8Zn4PfrjChEa376CJWeQbKdKIKnwZlAu4y1A5j4r7s7Ir8szEoM1BpMLVrosPPQWvnsx2YuAg7CPHDxg1gFUxVXz5IH1lVab8bMstwKM5eBhShOiJwbGnL4QdwpJUDDjXHUlB3vILHtmEkkvAYNkXkhhqA1zKEqv8ay7eYEaqYQMfPT1r",
+              "received": false
+            }
+          ],
+          "total_price": 94129,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Missoula",
+              "street": "Tristin Port",
+              "house": 560,
+              "flat": 2965
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T07:28:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b96361c508c5d5efb6f0f",
+          "products": [
+            {
+              "_id": "694b96361c508c5d5efb701c",
+              "name": "Hat22717",
+              "amount": 674,
+              "price": 94129,
+              "manufacturer": "Tesla",
+              "notes": "z1K5I1aF4Mjn5BGISQx9fUYraVCAak4IMMmRfZh2aqCnzr7Mxr29umLZ1ANxn9AAIJbeP0NKW8Zn4PfrjChEa376CJWeQbKdKIKnwZlAu4y1A5j4r7s7Ir8szEoM1BpMLVrosPPQWvnsx2YuAg7CPHDxg1gFUxVXz5IH1lVab8bMstwKM5eBhShOiJwbGnL4QdwpJUDDjXHUlB3vILHtmEkkvAYNkXkhhqA1zKEqv8ay7eYEaqYQMfPT1r",
+              "received": false
+            }
+          ],
+          "total_price": 94129,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Missoula",
+              "street": "Tristin Port",
+              "house": 560,
+              "flat": 2965
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T07:28:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b96361c508c5d5efb6f0f",
+          "products": [
+            {
+              "_id": "694b96361c508c5d5efb701c",
+              "name": "Hat22717",
+              "amount": 674,
+              "price": 94129,
+              "manufacturer": "Tesla",
+              "notes": "z1K5I1aF4Mjn5BGISQx9fUYraVCAak4IMMmRfZh2aqCnzr7Mxr29umLZ1ANxn9AAIJbeP0NKW8Zn4PfrjChEa376CJWeQbKdKIKnwZlAu4y1A5j4r7s7Ir8szEoM1BpMLVrosPPQWvnsx2YuAg7CPHDxg1gFUxVXz5IH1lVab8bMstwKM5eBhShOiJwbGnL4QdwpJUDDjXHUlB3vILHtmEkkvAYNkXkhhqA1zKEqv8ay7eYEaqYQMfPT1r",
+              "received": false
+            }
+          ],
+          "total_price": 94129,
+          "delivery": null,
+          "changedOn": "2025-12-24T07:28:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

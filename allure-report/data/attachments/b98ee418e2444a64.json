@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 07:29:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2761",
+    "etag": "W/\"ac9-H4swlLlPT3917luRA+/bXd2PwWg\"",
+    "keep-alive": "timeout=5, max=36",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b965a1c508c5d5efb86c7",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b96581c508c5d5efb859d",
+        "email": "Norberto_Vandervort@gmail.com",
+        "name": "Brendon Orn",
+        "country": "Canada",
+        "city": "Port Kingcester",
+        "street": "New Street 33",
+        "house": 989,
+        "flat": 1507,
+        "phone": "+788066889438751",
+        "createdOn": "2025-12-24T07:29:28.000Z",
+        "notes": "Tgw7UaDPLi6cXaR5paH9eek34PQHUG"
+      },
+      "products": [
+        {
+          "_id": "694b96591c508c5d5efb86a4",
+          "name": "Pants55697",
+          "amount": 520,
+          "price": 3828,
+          "manufacturer": "Xiaomi",
+          "notes": "UIrEuo5837HmelNsHYcjXJbNcy34Ta2Y5xKhPuzhM6fiRu0WwioGLFaKZGLLzTuMxGofxmoahFrtYFGxDJl2oZJh9GdFmh8bW8wzR7a2ge9LffrrBX18tlGfer1HUg3dWnk0JUK7E6iiWyMdmoFV18kezi3aidHt6ocix7bRPXL9fYGl07Iwi8hFv04wF3FNiBeEushMUA7VlHaBs2XfMxr223iDcwPHzAVf02FNKd7im5k05YfSgdFPP8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Rockyland",
+          "street": "Solon Passage",
+          "house": 573,
+          "flat": 5792
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3828,
+      "createdOn": "2025-12-24T07:29:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b96581c508c5d5efb859d",
+          "products": [
+            {
+              "_id": "694b96591c508c5d5efb86a4",
+              "name": "Pants55697",
+              "amount": 520,
+              "price": 3828,
+              "manufacturer": "Xiaomi",
+              "notes": "UIrEuo5837HmelNsHYcjXJbNcy34Ta2Y5xKhPuzhM6fiRu0WwioGLFaKZGLLzTuMxGofxmoahFrtYFGxDJl2oZJh9GdFmh8bW8wzR7a2ge9LffrrBX18tlGfer1HUg3dWnk0JUK7E6iiWyMdmoFV18kezi3aidHt6ocix7bRPXL9fYGl07Iwi8hFv04wF3FNiBeEushMUA7VlHaBs2XfMxr223iDcwPHzAVf02FNKd7im5k05YfSgdFPP8",
+              "received": false
+            }
+          ],
+          "total_price": 3828,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Rockyland",
+              "street": "Solon Passage",
+              "house": 573,
+              "flat": 5792
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T07:29:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b96581c508c5d5efb859d",
+          "products": [
+            {
+              "_id": "694b96591c508c5d5efb86a4",
+              "name": "Pants55697",
+              "amount": 520,
+              "price": 3828,
+              "manufacturer": "Xiaomi",
+              "notes": "UIrEuo5837HmelNsHYcjXJbNcy34Ta2Y5xKhPuzhM6fiRu0WwioGLFaKZGLLzTuMxGofxmoahFrtYFGxDJl2oZJh9GdFmh8bW8wzR7a2ge9LffrrBX18tlGfer1HUg3dWnk0JUK7E6iiWyMdmoFV18kezi3aidHt6ocix7bRPXL9fYGl07Iwi8hFv04wF3FNiBeEushMUA7VlHaBs2XfMxr223iDcwPHzAVf02FNKd7im5k05YfSgdFPP8",
+              "received": false
+            }
+          ],
+          "total_price": 3828,
+          "delivery": null,
+          "changedOn": "2025-12-24T07:29:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

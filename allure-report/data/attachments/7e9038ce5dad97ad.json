@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 07:30:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2765",
+    "etag": "W/\"acd-69Zll+edLOLhgTQMH3Hzpj44+UE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694b96891c508c5d5efba5bf",
+      "status": "Draft",
+      "customer": {
+        "_id": "694b96861c508c5d5efba48a",
+        "email": "Abe_Balistreri98@gmail.com",
+        "name": "Pierre Flatley",
+        "country": "Ukraine",
+        "city": "Berwyn",
+        "street": "W Broadway Street 97",
+        "house": 387,
+        "flat": 1735,
+        "phone": "+176626067207737",
+        "createdOn": "2025-12-24T07:30:14.000Z",
+        "notes": "98G7QgGztsKP539c6P8aqxZ7nY7swP"
+      },
+      "products": [
+        {
+          "_id": "694b96881c508c5d5efba5a1",
+          "name": "Towels1346",
+          "amount": 916,
+          "price": 85392,
+          "manufacturer": "Apple",
+          "notes": "qOTjzEzQkXFcQI6ZQceUlUdGERUtHU7oOQzrtyzKWTxi0xuD3Z1DHCHParaAxGVQN2WHKpAUNFTrFYBq0JqSuqXVKi8FG23QwS0UUcEcm0K7OGUITzphPdYJ2CNdmvwEXYoWmEvaEb4KdHpPepDNVUt9qhJT3oMH0fh4FCZDyOQa1dGfkAVYRpoWa8fgdnZjG5pqvlQQ5oV49zeCgfTK7xaJG7ZTK4xa5zB9L2fdsoW1WroquM4zJxb26d",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Christiansenhaven",
+          "street": "Russel Shoals",
+          "house": 951,
+          "flat": 3953
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 85392,
+      "createdOn": "2025-12-24T07:30:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694b96861c508c5d5efba48a",
+          "products": [
+            {
+              "_id": "694b96881c508c5d5efba5a1",
+              "name": "Towels1346",
+              "amount": 916,
+              "price": 85392,
+              "manufacturer": "Apple",
+              "notes": "qOTjzEzQkXFcQI6ZQceUlUdGERUtHU7oOQzrtyzKWTxi0xuD3Z1DHCHParaAxGVQN2WHKpAUNFTrFYBq0JqSuqXVKi8FG23QwS0UUcEcm0K7OGUITzphPdYJ2CNdmvwEXYoWmEvaEb4KdHpPepDNVUt9qhJT3oMH0fh4FCZDyOQa1dGfkAVYRpoWa8fgdnZjG5pqvlQQ5oV49zeCgfTK7xaJG7ZTK4xa5zB9L2fdsoW1WroquM4zJxb26d",
+              "received": false
+            }
+          ],
+          "total_price": 85392,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Christiansenhaven",
+              "street": "Russel Shoals",
+              "house": 951,
+              "flat": 3953
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T07:30:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694b96861c508c5d5efba48a",
+          "products": [
+            {
+              "_id": "694b96881c508c5d5efba5a1",
+              "name": "Towels1346",
+              "amount": 916,
+              "price": 85392,
+              "manufacturer": "Apple",
+              "notes": "qOTjzEzQkXFcQI6ZQceUlUdGERUtHU7oOQzrtyzKWTxi0xuD3Z1DHCHParaAxGVQN2WHKpAUNFTrFYBq0JqSuqXVKi8FG23QwS0UUcEcm0K7OGUITzphPdYJ2CNdmvwEXYoWmEvaEb4KdHpPepDNVUt9qhJT3oMH0fh4FCZDyOQa1dGfkAVYRpoWa8fgdnZjG5pqvlQQ5oV49zeCgfTK7xaJG7ZTK4xa5zB9L2fdsoW1WroquM4zJxb26d",
+              "received": false
+            }
+          ],
+          "total_price": 85392,
+          "delivery": null,
+          "changedOn": "2025-12-24T07:30:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
