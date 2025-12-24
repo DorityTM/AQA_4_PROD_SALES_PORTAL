@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:29:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3669",
+    "etag": "W/\"e55-X0riLV8JoYot+GZg3rXbXoZVzTg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c14cb1c508c5d5efe82a3",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694c14c91c508c5d5efe811b",
+        "email": "Rhianna_Schowalter@hotmail.com",
+        "name": "Oral Heaney",
+        "country": "Belarus",
+        "city": "Mayerstad",
+        "street": "Carter Canyon 60",
+        "house": 621,
+        "flat": 4560,
+        "phone": "+112109323360289",
+        "createdOn": "2025-12-24T16:28:57.000Z",
+        "notes": "EKZP2iRVW6mLUBNIf8oHEGYFz1RgpQ"
+      },
+      "products": [
+        {
+          "_id": "694c14c91c508c5d5efe8132",
+          "name": "Ball46644",
+          "amount": 911,
+          "price": 55784,
+          "manufacturer": "Xiaomi",
+          "notes": "QzKZ8q5Oh2NdXsgrJ6D1Grc1rgLxQtZwoMQ07xPqEwmLGg1yXdu97XHTGdFt7tUcTnQVa5ZqXIXT2uh9OydSovrYreeKT2eiS2YG45k92SLelxOoSdM3RTAknesxvytfQLLyweBeHUI4elDjlYVgE4cau0hxackSTcpuLaQMIQv6TGrKAud5TpuHbNrC0Ihc8ixcNF30iBfxYThb677TwKRRbIaubftsehReA4z6VG320za8cdCX7ibLdh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Fayetteville",
+          "street": "Sigrid Wall",
+          "house": 687,
+          "flat": 4000
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55784,
+      "createdOn": "2025-12-24T16:28:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694c14c91c508c5d5efe811b",
+          "products": [
+            {
+              "_id": "694c14c91c508c5d5efe8132",
+              "name": "Ball46644",
+              "amount": 911,
+              "price": 55784,
+              "manufacturer": "Xiaomi",
+              "notes": "QzKZ8q5Oh2NdXsgrJ6D1Grc1rgLxQtZwoMQ07xPqEwmLGg1yXdu97XHTGdFt7tUcTnQVa5ZqXIXT2uh9OydSovrYreeKT2eiS2YG45k92SLelxOoSdM3RTAknesxvytfQLLyweBeHUI4elDjlYVgE4cau0hxackSTcpuLaQMIQv6TGrKAud5TpuHbNrC0Ihc8ixcNF30iBfxYThb677TwKRRbIaubftsehReA4z6VG320za8cdCX7ibLdh",
+              "received": false
+            }
+          ],
+          "total_price": 55784,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fayetteville",
+              "street": "Sigrid Wall",
+              "house": 687,
+              "flat": 4000
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:29:00.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c14c91c508c5d5efe811b",
+          "products": [
+            {
+              "_id": "694c14c91c508c5d5efe8132",
+              "name": "Ball46644",
+              "amount": 911,
+              "price": 55784,
+              "manufacturer": "Xiaomi",
+              "notes": "QzKZ8q5Oh2NdXsgrJ6D1Grc1rgLxQtZwoMQ07xPqEwmLGg1yXdu97XHTGdFt7tUcTnQVa5ZqXIXT2uh9OydSovrYreeKT2eiS2YG45k92SLelxOoSdM3RTAknesxvytfQLLyweBeHUI4elDjlYVgE4cau0hxackSTcpuLaQMIQv6TGrKAud5TpuHbNrC0Ihc8ixcNF30iBfxYThb677TwKRRbIaubftsehReA4z6VG320za8cdCX7ibLdh",
+              "received": false
+            }
+          ],
+          "total_price": 55784,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fayetteville",
+              "street": "Sigrid Wall",
+              "house": 687,
+              "flat": 4000
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:28:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c14c91c508c5d5efe811b",
+          "products": [
+            {
+              "_id": "694c14c91c508c5d5efe8132",
+              "name": "Ball46644",
+              "amount": 911,
+              "price": 55784,
+              "manufacturer": "Xiaomi",
+              "notes": "QzKZ8q5Oh2NdXsgrJ6D1Grc1rgLxQtZwoMQ07xPqEwmLGg1yXdu97XHTGdFt7tUcTnQVa5ZqXIXT2uh9OydSovrYreeKT2eiS2YG45k92SLelxOoSdM3RTAknesxvytfQLLyweBeHUI4elDjlYVgE4cau0hxackSTcpuLaQMIQv6TGrKAud5TpuHbNrC0Ihc8ixcNF30iBfxYThb677TwKRRbIaubftsehReA4z6VG320za8cdCX7ibLdh",
+              "received": false
+            }
+          ],
+          "total_price": 55784,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:28:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

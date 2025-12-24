@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:27:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2756",
+    "etag": "W/\"ac4-dCIWxTcNuVGJtgYBjcXFC/R7stE\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c14731c508c5d5efe46d0",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c14711c508c5d5efe455d",
+        "email": "Delpha_Kautzer34@hotmail.com",
+        "name": "Macie Herman",
+        "country": "France",
+        "city": "Miltonmouth",
+        "street": "Herzog Ports 17",
+        "house": 126,
+        "flat": 5095,
+        "phone": "+941617472310621",
+        "createdOn": "2025-12-24T16:27:29.000Z",
+        "notes": "4WMeOz7khp15xWi648BqisHvly4zjA"
+      },
+      "products": [
+        {
+          "_id": "694c14711c508c5d5efe4579",
+          "name": "Pizza7936",
+          "amount": 730,
+          "price": 12355,
+          "manufacturer": "Xiaomi",
+          "notes": "dwoRiWqLhHzt6I4oCuFhlrQMxG6E4qxxDzxAsfqFjlSJfN63IUS8wXinh0fNF3X3MI896sZZfIpWJObOy6g2x8RccOOQNJMadC0k1iuIs08BIUsckHRmE3sC9yzC99gttopUCjXfNdfMdFfcX4phkQunHFtTrtOSLAbVZM0ws872c4k6R8vlnwcnWDwmKepA3MN808c1ZCOFgb0SbR7alHkhceyhMRw2f1yvAXreeCbzVBSI4mLe7hI12T",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Delilahburgh",
+          "street": "Kreiger Walks",
+          "house": 529,
+          "flat": 1471
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 12355,
+      "createdOn": "2025-12-24T16:27:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c14711c508c5d5efe455d",
+          "products": [
+            {
+              "_id": "694c14711c508c5d5efe4579",
+              "name": "Pizza7936",
+              "amount": 730,
+              "price": 12355,
+              "manufacturer": "Xiaomi",
+              "notes": "dwoRiWqLhHzt6I4oCuFhlrQMxG6E4qxxDzxAsfqFjlSJfN63IUS8wXinh0fNF3X3MI896sZZfIpWJObOy6g2x8RccOOQNJMadC0k1iuIs08BIUsckHRmE3sC9yzC99gttopUCjXfNdfMdFfcX4phkQunHFtTrtOSLAbVZM0ws872c4k6R8vlnwcnWDwmKepA3MN808c1ZCOFgb0SbR7alHkhceyhMRw2f1yvAXreeCbzVBSI4mLe7hI12T",
+              "received": false
+            }
+          ],
+          "total_price": 12355,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Delilahburgh",
+              "street": "Kreiger Walks",
+              "house": 529,
+              "flat": 1471
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:27:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c14711c508c5d5efe455d",
+          "products": [
+            {
+              "_id": "694c14711c508c5d5efe4579",
+              "name": "Pizza7936",
+              "amount": 730,
+              "price": 12355,
+              "manufacturer": "Xiaomi",
+              "notes": "dwoRiWqLhHzt6I4oCuFhlrQMxG6E4qxxDzxAsfqFjlSJfN63IUS8wXinh0fNF3X3MI896sZZfIpWJObOy6g2x8RccOOQNJMadC0k1iuIs08BIUsckHRmE3sC9yzC99gttopUCjXfNdfMdFfcX4phkQunHFtTrtOSLAbVZM0ws872c4k6R8vlnwcnWDwmKepA3MN808c1ZCOFgb0SbR7alHkhceyhMRw2f1yvAXreeCbzVBSI4mLe7hI12T",
+              "received": false
+            }
+          ],
+          "total_price": 12355,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:27:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

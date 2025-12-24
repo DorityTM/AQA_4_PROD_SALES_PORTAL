@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:29:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3680",
+    "etag": "W/\"e60-OcvVFDAt3uVfhOvCbl61QTu9e2g\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c14f01c508c5d5efe9bfb",
+      "status": "In Process",
+      "customer": {
+        "_id": "694c14f01c508c5d5efe9bc8",
+        "email": "Elisa_Kub@hotmail.com",
+        "name": "Walker Hickle",
+        "country": "USA",
+        "city": "Aminashire",
+        "street": "Tromp Oval 30",
+        "house": 197,
+        "flat": 4986,
+        "phone": "+758166747073351",
+        "createdOn": "2025-12-24T16:29:36.000Z",
+        "notes": "yKO9qcqk1Halx5P4wZSrZtsXE2DhFM"
+      },
+      "products": [
+        {
+          "_id": "694c14f01c508c5d5efe9bdc",
+          "name": "Chair59268",
+          "amount": 579,
+          "price": 78364,
+          "manufacturer": "Microsoft",
+          "notes": "rJoRVVlNtxVlJGCvcgThD46gUTc9M3XTX7ot9ppHbGXxlZ3q8jO878YkZ6BZ0uLgr199rRMFH609Xh4PKHidxeKddBOFPJE8HyrTaBM3Co0fxXHgrFP2smqDxzpmCxwMShclPQNN1UKg1YUQe08QkA5zzQozg3zC7gCXlULMUoZRZLaaV42kd2jUnFc0bsF5dsczWH1YApLaxbLX59tcBgoD1V2j0BouCa5cYq0lB2X5J1yXM8mVZ8sdoN",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Braunton",
+          "street": "W Jackson Street",
+          "house": 969,
+          "flat": 1521
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 78364,
+      "createdOn": "2025-12-24T16:29:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694c14f01c508c5d5efe9bc8",
+          "products": [
+            {
+              "_id": "694c14f01c508c5d5efe9bdc",
+              "name": "Chair59268",
+              "amount": 579,
+              "price": 78364,
+              "manufacturer": "Microsoft",
+              "notes": "rJoRVVlNtxVlJGCvcgThD46gUTc9M3XTX7ot9ppHbGXxlZ3q8jO878YkZ6BZ0uLgr199rRMFH609Xh4PKHidxeKddBOFPJE8HyrTaBM3Co0fxXHgrFP2smqDxzpmCxwMShclPQNN1UKg1YUQe08QkA5zzQozg3zC7gCXlULMUoZRZLaaV42kd2jUnFc0bsF5dsczWH1YApLaxbLX59tcBgoD1V2j0BouCa5cYq0lB2X5J1yXM8mVZ8sdoN",
+              "received": false
+            }
+          ],
+          "total_price": 78364,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Braunton",
+              "street": "W Jackson Street",
+              "house": 969,
+              "flat": 1521
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:29:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c14f01c508c5d5efe9bc8",
+          "products": [
+            {
+              "_id": "694c14f01c508c5d5efe9bdc",
+              "name": "Chair59268",
+              "amount": 579,
+              "price": 78364,
+              "manufacturer": "Microsoft",
+              "notes": "rJoRVVlNtxVlJGCvcgThD46gUTc9M3XTX7ot9ppHbGXxlZ3q8jO878YkZ6BZ0uLgr199rRMFH609Xh4PKHidxeKddBOFPJE8HyrTaBM3Co0fxXHgrFP2smqDxzpmCxwMShclPQNN1UKg1YUQe08QkA5zzQozg3zC7gCXlULMUoZRZLaaV42kd2jUnFc0bsF5dsczWH1YApLaxbLX59tcBgoD1V2j0BouCa5cYq0lB2X5J1yXM8mVZ8sdoN",
+              "received": false
+            }
+          ],
+          "total_price": 78364,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Braunton",
+              "street": "W Jackson Street",
+              "house": 969,
+              "flat": 1521
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:29:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c14f01c508c5d5efe9bc8",
+          "products": [
+            {
+              "_id": "694c14f01c508c5d5efe9bdc",
+              "name": "Chair59268",
+              "amount": 579,
+              "price": 78364,
+              "manufacturer": "Microsoft",
+              "notes": "rJoRVVlNtxVlJGCvcgThD46gUTc9M3XTX7ot9ppHbGXxlZ3q8jO878YkZ6BZ0uLgr199rRMFH609Xh4PKHidxeKddBOFPJE8HyrTaBM3Co0fxXHgrFP2smqDxzpmCxwMShclPQNN1UKg1YUQe08QkA5zzQozg3zC7gCXlULMUoZRZLaaV42kd2jUnFc0bsF5dsczWH1YApLaxbLX59tcBgoD1V2j0BouCa5cYq0lB2X5J1yXM8mVZ8sdoN",
+              "received": false
+            }
+          ],
+          "total_price": 78364,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:29:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

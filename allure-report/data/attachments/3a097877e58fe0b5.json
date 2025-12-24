@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:28:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1775",
+    "etag": "W/\"6ef-qTwLIMxxYBsuygkXAkWWflvxRXE\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c14911c508c5d5efe5a8f",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c148f1c508c5d5efe5928",
+        "email": "Anne.Lind@yahoo.com",
+        "name": "Erik Kirlin",
+        "country": "France",
+        "city": "Atlanta",
+        "street": "Swift Corners 59",
+        "house": 297,
+        "flat": 7150,
+        "phone": "+378513737758942",
+        "createdOn": "2025-12-24T16:27:59.000Z",
+        "notes": "quEFO3ok5Gxe1PDa52bWZ5C3r6e5hM"
+      },
+      "products": [
+        {
+          "_id": "694c14901c508c5d5efe5947",
+          "name": "Towels58326",
+          "amount": 692,
+          "price": 26779,
+          "manufacturer": "Google",
+          "notes": "9l5NNBja90iR8sSNjbbA1gVOkBcVWbCKZ3O0KHSGPweffxvSG7QZKXbqgDwDzeywoyeByxdk4z7fe4PeH0JbSCAKLv572XerKbH0YTVPUrTdoZRc48aQ3WhnJkR7BK5lGTgcjJDczRE28mOGuii5vyTc5zOc7eU2VqfQzY6PVa6jAI5lBW5p8wEvA8qR5EMX7KvyYdNvRKK28cKbS3TuxecWs22xQ09BTRymK7mb68cPF1caxvcSuYZypE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 26779,
+      "createdOn": "2025-12-24T16:28:01.000Z",
+      "comments": [
+        {
+          "text": "Please check < invalid tag",
+          "createdOn": "2025-12-24T16:28:05.000Z",
+          "_id": "694c14951c508c5d5efe5d81"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c148f1c508c5d5efe5928",
+          "products": [
+            {
+              "_id": "694c14901c508c5d5efe5947",
+              "name": "Towels58326",
+              "amount": 692,
+              "price": 26779,
+              "manufacturer": "Google",
+              "notes": "9l5NNBja90iR8sSNjbbA1gVOkBcVWbCKZ3O0KHSGPweffxvSG7QZKXbqgDwDzeywoyeByxdk4z7fe4PeH0JbSCAKLv572XerKbH0YTVPUrTdoZRc48aQ3WhnJkR7BK5lGTgcjJDczRE28mOGuii5vyTc5zOc7eU2VqfQzY6PVa6jAI5lBW5p8wEvA8qR5EMX7KvyYdNvRKK28cKbS3TuxecWs22xQ09BTRymK7mb68cPF1caxvcSuYZypE",
+              "received": false
+            }
+          ],
+          "total_price": 26779,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:28:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:27:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3696",
+    "etag": "W/\"e70-IRk99/lezQUuYq8dgWN9hS7S5Gw\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c145f1c508c5d5efe39bb",
+      "status": "In Process",
+      "customer": {
+        "_id": "694c145e1c508c5d5efe3956",
+        "email": "Jedidiah_Paucek@hotmail.com",
+        "name": "Charlie Harris",
+        "country": "France",
+        "city": "South Maximushaven",
+        "street": "Murazik Burgs 62",
+        "house": 522,
+        "flat": 2975,
+        "phone": "+413635005058205",
+        "createdOn": "2025-12-24T16:27:10.000Z",
+        "notes": "g2fef3O92iN6pLN6EbgFBo0MrJErPT"
+      },
+      "products": [
+        {
+          "_id": "694c145f1c508c5d5efe3989",
+          "name": "Chicken19397",
+          "amount": 623,
+          "price": 49619,
+          "manufacturer": "Apple",
+          "notes": "2NpPb5h9ZF3PL2OemHCl17ySvJf46Er6hTEfwDNlsfkfR6oYdR8I36lNDloArw1o8FiwXv6KG4YZD05W5MplUcvPdKmo5hir6zobWNdbJJLswqnQAptlwTxxC51XbdHmUSMzqZP8uHjgJTGfHY2lQknj5nSCTbeYRHmlKLXZ0l04D1rM1nwykqA7gj1glnjzaQEfxKQdRFCPFcIRnoC90qu7xL2vUG7AQzeONfmyeQlPtQyOE99fRC6OG0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Buffalo",
+          "street": "Hickory Street",
+          "house": 559,
+          "flat": 8761
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 49619,
+      "createdOn": "2025-12-24T16:27:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694c145e1c508c5d5efe3956",
+          "products": [
+            {
+              "_id": "694c145f1c508c5d5efe3989",
+              "name": "Chicken19397",
+              "amount": 623,
+              "price": 49619,
+              "manufacturer": "Apple",
+              "notes": "2NpPb5h9ZF3PL2OemHCl17ySvJf46Er6hTEfwDNlsfkfR6oYdR8I36lNDloArw1o8FiwXv6KG4YZD05W5MplUcvPdKmo5hir6zobWNdbJJLswqnQAptlwTxxC51XbdHmUSMzqZP8uHjgJTGfHY2lQknj5nSCTbeYRHmlKLXZ0l04D1rM1nwykqA7gj1glnjzaQEfxKQdRFCPFcIRnoC90qu7xL2vUG7AQzeONfmyeQlPtQyOE99fRC6OG0",
+              "received": false
+            }
+          ],
+          "total_price": 49619,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Buffalo",
+              "street": "Hickory Street",
+              "house": 559,
+              "flat": 8761
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:27:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c145e1c508c5d5efe3956",
+          "products": [
+            {
+              "_id": "694c145f1c508c5d5efe3989",
+              "name": "Chicken19397",
+              "amount": 623,
+              "price": 49619,
+              "manufacturer": "Apple",
+              "notes": "2NpPb5h9ZF3PL2OemHCl17ySvJf46Er6hTEfwDNlsfkfR6oYdR8I36lNDloArw1o8FiwXv6KG4YZD05W5MplUcvPdKmo5hir6zobWNdbJJLswqnQAptlwTxxC51XbdHmUSMzqZP8uHjgJTGfHY2lQknj5nSCTbeYRHmlKLXZ0l04D1rM1nwykqA7gj1glnjzaQEfxKQdRFCPFcIRnoC90qu7xL2vUG7AQzeONfmyeQlPtQyOE99fRC6OG0",
+              "received": false
+            }
+          ],
+          "total_price": 49619,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Buffalo",
+              "street": "Hickory Street",
+              "house": 559,
+              "flat": 8761
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:27:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c145e1c508c5d5efe3956",
+          "products": [
+            {
+              "_id": "694c145f1c508c5d5efe3989",
+              "name": "Chicken19397",
+              "amount": 623,
+              "price": 49619,
+              "manufacturer": "Apple",
+              "notes": "2NpPb5h9ZF3PL2OemHCl17ySvJf46Er6hTEfwDNlsfkfR6oYdR8I36lNDloArw1o8FiwXv6KG4YZD05W5MplUcvPdKmo5hir6zobWNdbJJLswqnQAptlwTxxC51XbdHmUSMzqZP8uHjgJTGfHY2lQknj5nSCTbeYRHmlKLXZ0l04D1rM1nwykqA7gj1glnjzaQEfxKQdRFCPFcIRnoC90qu7xL2vUG7AQzeONfmyeQlPtQyOE99fRC6OG0",
+              "received": false
+            }
+          ],
+          "total_price": 49619,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:27:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

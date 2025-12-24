@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:29:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-x1R28umeP5r+Np2Ts0OUFynKqcI\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c14e11c508c5d5efe9188",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c14df1c508c5d5efe9020",
+        "email": "Vincenzo_Kirlin@hotmail.com",
+        "name": "Edmund Greenfelder Hayes",
+        "country": "Germany",
+        "city": "New Jarontown",
+        "street": "Orlo Club 82",
+        "house": 615,
+        "flat": 5820,
+        "phone": "+988672739214064",
+        "createdOn": "2025-12-24T16:29:19.000Z",
+        "notes": "Yxn6eMKJPz18oLy4SHtfZ28QJLRO08"
+      },
+      "products": [
+        {
+          "_id": "694c14e11c508c5d5efe9179",
+          "name": "Soap10583",
+          "amount": 763,
+          "price": 58664,
+          "manufacturer": "Amazon",
+          "notes": "F9wBRhuG3qjt3wFCF0GeTmQBFdzucsU9hz98ANGwnq7HfsntgiPMbg8H5AE4Np7fEdN3QN3bRIUB8vAjLuD62ePgjdPi24eIeTviqXKaDC13mOn1BfI0EKlQNoohMcU12hRehoKLIjQttFPmDhHQtvO8ojhyNlSQexIFQ0w2xKVzMuhcsBI2qfILfG9RcEpo3gddlifq5KmYrFiVp8jo8bdwfwsHGC3YjghbFrAkV1ArF2PBjZNCkCGkhT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Tristonville",
+          "street": "N 3rd Street",
+          "house": 854,
+          "flat": 3841
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58664,
+      "createdOn": "2025-12-24T16:29:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c14df1c508c5d5efe9020",
+          "products": [
+            {
+              "_id": "694c14e11c508c5d5efe9179",
+              "name": "Soap10583",
+              "amount": 763,
+              "price": 58664,
+              "manufacturer": "Amazon",
+              "notes": "F9wBRhuG3qjt3wFCF0GeTmQBFdzucsU9hz98ANGwnq7HfsntgiPMbg8H5AE4Np7fEdN3QN3bRIUB8vAjLuD62ePgjdPi24eIeTviqXKaDC13mOn1BfI0EKlQNoohMcU12hRehoKLIjQttFPmDhHQtvO8ojhyNlSQexIFQ0w2xKVzMuhcsBI2qfILfG9RcEpo3gddlifq5KmYrFiVp8jo8bdwfwsHGC3YjghbFrAkV1ArF2PBjZNCkCGkhT",
+              "received": false
+            }
+          ],
+          "total_price": 58664,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Tristonville",
+              "street": "N 3rd Street",
+              "house": 854,
+              "flat": 3841
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:29:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c14df1c508c5d5efe9020",
+          "products": [
+            {
+              "_id": "694c14e11c508c5d5efe9179",
+              "name": "Soap10583",
+              "amount": 763,
+              "price": 58664,
+              "manufacturer": "Amazon",
+              "notes": "F9wBRhuG3qjt3wFCF0GeTmQBFdzucsU9hz98ANGwnq7HfsntgiPMbg8H5AE4Np7fEdN3QN3bRIUB8vAjLuD62ePgjdPi24eIeTviqXKaDC13mOn1BfI0EKlQNoohMcU12hRehoKLIjQttFPmDhHQtvO8ojhyNlSQexIFQ0w2xKVzMuhcsBI2qfILfG9RcEpo3gddlifq5KmYrFiVp8jo8bdwfwsHGC3YjghbFrAkV1ArF2PBjZNCkCGkhT",
+              "received": false
+            }
+          ],
+          "total_price": 58664,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:29:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:27:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3702",
+    "etag": "W/\"e76-4NH9S3uQJjqG7/5AusoW3K9+OGo\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c14661c508c5d5efe3e27",
+      "status": "In Process",
+      "customer": {
+        "_id": "694c14641c508c5d5efe3cc1",
+        "email": "Bertha71@yahoo.com",
+        "name": "Noemie Moen",
+        "country": "France",
+        "city": "West Madge",
+        "street": "S Central Avenue 3",
+        "house": 603,
+        "flat": 3360,
+        "phone": "+041543760087372",
+        "createdOn": "2025-12-24T16:27:16.000Z",
+        "notes": "IDugUcC3kdB8rUXNNTjmwdWW3zELc5"
+      },
+      "products": [
+        {
+          "_id": "694c14641c508c5d5efe3ce0",
+          "name": "Chicken6111",
+          "amount": 765,
+          "price": 30417,
+          "manufacturer": "Microsoft",
+          "notes": "6QQq7o2vu65umiGZN2cwWVUDf2NObwQv3Eki1vxCbUf7zmfs9ifBif8Z9p7W2DKVOwioiBoxtibWtdnChe0JRb2DBP9cVD1iMAFiMMfQWYJUgDI0ekkPYfx3LL93zCbAAQ2OyI8LsQERnQcvBawREz0EfTpA56MprQiRK23sNLZjnT4Pdnf1w5H4x9GMfqOfAxeg7aup3HwaZWwkSuDwILyh8TxMUw5gn5QqtsjP56WRjSsPnIrXnDEJhk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "South Bellland",
+          "street": "Marilyne Dam",
+          "house": 106,
+          "flat": 3279
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 30417,
+      "createdOn": "2025-12-24T16:27:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694c14641c508c5d5efe3cc1",
+          "products": [
+            {
+              "_id": "694c14641c508c5d5efe3ce0",
+              "name": "Chicken6111",
+              "amount": 765,
+              "price": 30417,
+              "manufacturer": "Microsoft",
+              "notes": "6QQq7o2vu65umiGZN2cwWVUDf2NObwQv3Eki1vxCbUf7zmfs9ifBif8Z9p7W2DKVOwioiBoxtibWtdnChe0JRb2DBP9cVD1iMAFiMMfQWYJUgDI0ekkPYfx3LL93zCbAAQ2OyI8LsQERnQcvBawREz0EfTpA56MprQiRK23sNLZjnT4Pdnf1w5H4x9GMfqOfAxeg7aup3HwaZWwkSuDwILyh8TxMUw5gn5QqtsjP56WRjSsPnIrXnDEJhk",
+              "received": false
+            }
+          ],
+          "total_price": 30417,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Bellland",
+              "street": "Marilyne Dam",
+              "house": 106,
+              "flat": 3279
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:27:20.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c14641c508c5d5efe3cc1",
+          "products": [
+            {
+              "_id": "694c14641c508c5d5efe3ce0",
+              "name": "Chicken6111",
+              "amount": 765,
+              "price": 30417,
+              "manufacturer": "Microsoft",
+              "notes": "6QQq7o2vu65umiGZN2cwWVUDf2NObwQv3Eki1vxCbUf7zmfs9ifBif8Z9p7W2DKVOwioiBoxtibWtdnChe0JRb2DBP9cVD1iMAFiMMfQWYJUgDI0ekkPYfx3LL93zCbAAQ2OyI8LsQERnQcvBawREz0EfTpA56MprQiRK23sNLZjnT4Pdnf1w5H4x9GMfqOfAxeg7aup3HwaZWwkSuDwILyh8TxMUw5gn5QqtsjP56WRjSsPnIrXnDEJhk",
+              "received": false
+            }
+          ],
+          "total_price": 30417,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Bellland",
+              "street": "Marilyne Dam",
+              "house": 106,
+              "flat": 3279
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:27:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c14641c508c5d5efe3cc1",
+          "products": [
+            {
+              "_id": "694c14641c508c5d5efe3ce0",
+              "name": "Chicken6111",
+              "amount": 765,
+              "price": 30417,
+              "manufacturer": "Microsoft",
+              "notes": "6QQq7o2vu65umiGZN2cwWVUDf2NObwQv3Eki1vxCbUf7zmfs9ifBif8Z9p7W2DKVOwioiBoxtibWtdnChe0JRb2DBP9cVD1iMAFiMMfQWYJUgDI0ekkPYfx3LL93zCbAAQ2OyI8LsQERnQcvBawREz0EfTpA56MprQiRK23sNLZjnT4Pdnf1w5H4x9GMfqOfAxeg7aup3HwaZWwkSuDwILyh8TxMUw5gn5QqtsjP56WRjSsPnIrXnDEJhk",
+              "received": false
+            }
+          ],
+          "total_price": 30417,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:27:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
