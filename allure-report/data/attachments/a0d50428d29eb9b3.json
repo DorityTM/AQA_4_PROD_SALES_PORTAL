@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:36:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3682",
+    "etag": "W/\"e62-Eit2NAJbwvB7jjzh6ozR2HUOCA0\"",
+    "keep-alive": "timeout=5, max=12",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c16a51c508c5d5eff9214",
+      "status": "In Process",
+      "customer": {
+        "_id": "694c16a41c508c5d5eff91c4",
+        "email": "Francis.Zemlak@gmail.com",
+        "name": "Archibald Huels",
+        "country": "Russia",
+        "city": "Wisozkfort",
+        "street": "Padberg Route 3",
+        "house": 104,
+        "flat": 5248,
+        "phone": "+296341030616274",
+        "createdOn": "2025-12-24T16:36:52.000Z",
+        "notes": "TZo9ATZgaJBdK8CIYHKDu8Qykv3wtW"
+      },
+      "products": [
+        {
+          "_id": "694c16a51c508c5d5eff91f1",
+          "name": "Pants45962",
+          "amount": 477,
+          "price": 49679,
+          "manufacturer": "Samsung",
+          "notes": "fnDBe2YW1iPX2iyjXp0ezjyXrvOh7pq0FrqTYKjSI8DPb8FIBcNJzlQKcG83TXIGMSpK1S902vyJyzMHzfkh72q8yMof4d27nfgmou49zZed3VgJPGK6IVF1PIcZpapth6MLMqtRBJlGt8CWmszNunyeeTxihmXDVLhCsMOHCxOociOLmhtvZ7IwLD0bdedSHX6rUE5AR4Au0OLzRvQVVDiApueYUUd4xpR6NI2qVBHYvaQwBerw6t7bVF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Mobile",
+          "street": "Ruecker Passage",
+          "house": 513,
+          "flat": 8698
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 49679,
+      "createdOn": "2025-12-24T16:36:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694c16a41c508c5d5eff91c4",
+          "products": [
+            {
+              "_id": "694c16a51c508c5d5eff91f1",
+              "name": "Pants45962",
+              "amount": 477,
+              "price": 49679,
+              "manufacturer": "Samsung",
+              "notes": "fnDBe2YW1iPX2iyjXp0ezjyXrvOh7pq0FrqTYKjSI8DPb8FIBcNJzlQKcG83TXIGMSpK1S902vyJyzMHzfkh72q8yMof4d27nfgmou49zZed3VgJPGK6IVF1PIcZpapth6MLMqtRBJlGt8CWmszNunyeeTxihmXDVLhCsMOHCxOociOLmhtvZ7IwLD0bdedSHX6rUE5AR4Au0OLzRvQVVDiApueYUUd4xpR6NI2qVBHYvaQwBerw6t7bVF",
+              "received": false
+            }
+          ],
+          "total_price": 49679,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Mobile",
+              "street": "Ruecker Passage",
+              "house": 513,
+              "flat": 8698
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:36:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c16a41c508c5d5eff91c4",
+          "products": [
+            {
+              "_id": "694c16a51c508c5d5eff91f1",
+              "name": "Pants45962",
+              "amount": 477,
+              "price": 49679,
+              "manufacturer": "Samsung",
+              "notes": "fnDBe2YW1iPX2iyjXp0ezjyXrvOh7pq0FrqTYKjSI8DPb8FIBcNJzlQKcG83TXIGMSpK1S902vyJyzMHzfkh72q8yMof4d27nfgmou49zZed3VgJPGK6IVF1PIcZpapth6MLMqtRBJlGt8CWmszNunyeeTxihmXDVLhCsMOHCxOociOLmhtvZ7IwLD0bdedSHX6rUE5AR4Au0OLzRvQVVDiApueYUUd4xpR6NI2qVBHYvaQwBerw6t7bVF",
+              "received": false
+            }
+          ],
+          "total_price": 49679,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Mobile",
+              "street": "Ruecker Passage",
+              "house": 513,
+              "flat": 8698
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:36:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c16a41c508c5d5eff91c4",
+          "products": [
+            {
+              "_id": "694c16a51c508c5d5eff91f1",
+              "name": "Pants45962",
+              "amount": 477,
+              "price": 49679,
+              "manufacturer": "Samsung",
+              "notes": "fnDBe2YW1iPX2iyjXp0ezjyXrvOh7pq0FrqTYKjSI8DPb8FIBcNJzlQKcG83TXIGMSpK1S902vyJyzMHzfkh72q8yMof4d27nfgmou49zZed3VgJPGK6IVF1PIcZpapth6MLMqtRBJlGt8CWmszNunyeeTxihmXDVLhCsMOHCxOociOLmhtvZ7IwLD0bdedSHX6rUE5AR4Au0OLzRvQVVDiApueYUUd4xpR6NI2qVBHYvaQwBerw6t7bVF",
+              "received": false
+            }
+          ],
+          "total_price": 49679,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:36:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

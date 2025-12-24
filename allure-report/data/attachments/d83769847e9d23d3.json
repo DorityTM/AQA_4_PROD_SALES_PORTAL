@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:35:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2734",
+    "etag": "W/\"aae-5wn4OtKhUKx97k0I6CjouH0cblI\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c16641c508c5d5eff6757",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c16601c508c5d5eff64a0",
+        "email": "Wanda12@hotmail.com",
+        "name": "Evelyn Schroeder",
+        "country": "USA",
+        "city": "Port Jada",
+        "street": "Daija Village 12",
+        "house": 735,
+        "flat": 4274,
+        "phone": "+506854574427095",
+        "createdOn": "2025-12-24T16:35:44.000Z",
+        "notes": "JnM7iJA260KENcpa0rbygXWKlRRFpT"
+      },
+      "products": [
+        {
+          "_id": "694c16621c508c5d5eff65f9",
+          "name": "Soap24990",
+          "amount": 0,
+          "price": 78968,
+          "manufacturer": "Tesla",
+          "notes": "MDYljwFCk9zxAnzGLhAK3hw3nlcY0M3jIVyYZ6t0F57cZyBGKt6P8hpqzwdi61vSU2O8MSKk1LoffRulN30ONSK88F0pf92wqwQ95fAYKhpY6UJl9i5kalKymLSg10kBtOYp7TTCTkJvxiuNBzH92mPyEapukUhVPg86EEfS4K8b6nQfPz4Bz01fuf4BFshuxoUF6AVJ3vWFfvoKjgA3rZy53vPrtKpUw7sdaPmBpPo5Py60xvL45mJ3EP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Marilyneside",
+          "street": "Alexa Mount",
+          "house": 536,
+          "flat": 9016
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 78968,
+      "createdOn": "2025-12-24T16:35:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c16601c508c5d5eff64a0",
+          "products": [
+            {
+              "_id": "694c16621c508c5d5eff65f9",
+              "name": "Soap24990",
+              "amount": 0,
+              "price": 78968,
+              "manufacturer": "Tesla",
+              "notes": "MDYljwFCk9zxAnzGLhAK3hw3nlcY0M3jIVyYZ6t0F57cZyBGKt6P8hpqzwdi61vSU2O8MSKk1LoffRulN30ONSK88F0pf92wqwQ95fAYKhpY6UJl9i5kalKymLSg10kBtOYp7TTCTkJvxiuNBzH92mPyEapukUhVPg86EEfS4K8b6nQfPz4Bz01fuf4BFshuxoUF6AVJ3vWFfvoKjgA3rZy53vPrtKpUw7sdaPmBpPo5Py60xvL45mJ3EP",
+              "received": false
+            }
+          ],
+          "total_price": 78968,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Marilyneside",
+              "street": "Alexa Mount",
+              "house": 536,
+              "flat": 9016
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:35:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c16601c508c5d5eff64a0",
+          "products": [
+            {
+              "_id": "694c16621c508c5d5eff65f9",
+              "name": "Soap24990",
+              "amount": 0,
+              "price": 78968,
+              "manufacturer": "Tesla",
+              "notes": "MDYljwFCk9zxAnzGLhAK3hw3nlcY0M3jIVyYZ6t0F57cZyBGKt6P8hpqzwdi61vSU2O8MSKk1LoffRulN30ONSK88F0pf92wqwQ95fAYKhpY6UJl9i5kalKymLSg10kBtOYp7TTCTkJvxiuNBzH92mPyEapukUhVPg86EEfS4K8b6nQfPz4Bz01fuf4BFshuxoUF6AVJ3vWFfvoKjgA3rZy53vPrtKpUw7sdaPmBpPo5Py60xvL45mJ3EP",
+              "received": false
+            }
+          ],
+          "total_price": 78968,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:35:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

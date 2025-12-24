@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:37:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-I6VveXJloQAfP47TZ/a0SjB1w/g\"",
+    "keep-alive": "timeout=5, max=2",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c16b41c508c5d5eff9dd6",
+      "status": "Draft",
+      "customer": {
+        "_id": "694c16b41c508c5d5eff9da3",
+        "email": "Kaden2@hotmail.com",
+        "name": "Wilbert Bruen",
+        "country": "Russia",
+        "city": "Ervinchester",
+        "street": "College Avenue 78",
+        "house": 594,
+        "flat": 2819,
+        "phone": "+981046543730238",
+        "createdOn": "2025-12-24T16:37:08.000Z",
+        "notes": "N2QlrnermUGUk4j4U2EyOP2A2915BM"
+      },
+      "products": [
+        {
+          "_id": "694c16b41c508c5d5eff9dc0",
+          "name": "Tuna40441",
+          "amount": 237,
+          "price": 16236,
+          "manufacturer": "Tesla",
+          "notes": "JKdkT3NehNsWGbpQOahKY5UWbEK5AgMhxEGOPxPfm858swvtkOtKnn7T1aVV3KfaqaR2MCepd6p5jSj4k8IxPAdJZqdGpZoOHjWkKlyqPqF2aRcEskcF1WIB4HyaD5MYPgFeswDntXlzcbdFCT87vE4A5qz93wBxpJ6SPX2AKetdPHmNdq72pZS2X69TX4Kpyo3XBexYeFtuxw8jH77RUy7ZuMKGoEA9lLQjhhjdZewBW5ZCKiBM4bLLuR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "West Jordan",
+          "street": "E Front Street",
+          "house": 67,
+          "flat": 6361
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16236,
+      "createdOn": "2025-12-24T16:37:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694c16b41c508c5d5eff9da3",
+          "products": [
+            {
+              "_id": "694c16b41c508c5d5eff9dc0",
+              "name": "Tuna40441",
+              "amount": 237,
+              "price": 16236,
+              "manufacturer": "Tesla",
+              "notes": "JKdkT3NehNsWGbpQOahKY5UWbEK5AgMhxEGOPxPfm858swvtkOtKnn7T1aVV3KfaqaR2MCepd6p5jSj4k8IxPAdJZqdGpZoOHjWkKlyqPqF2aRcEskcF1WIB4HyaD5MYPgFeswDntXlzcbdFCT87vE4A5qz93wBxpJ6SPX2AKetdPHmNdq72pZS2X69TX4Kpyo3XBexYeFtuxw8jH77RUy7ZuMKGoEA9lLQjhhjdZewBW5ZCKiBM4bLLuR",
+              "received": false
+            }
+          ],
+          "total_price": 16236,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Jordan",
+              "street": "E Front Street",
+              "house": 67,
+              "flat": 6361
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:37:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c16b41c508c5d5eff9da3",
+          "products": [
+            {
+              "_id": "694c16b41c508c5d5eff9dc0",
+              "name": "Tuna40441",
+              "amount": 237,
+              "price": 16236,
+              "manufacturer": "Tesla",
+              "notes": "JKdkT3NehNsWGbpQOahKY5UWbEK5AgMhxEGOPxPfm858swvtkOtKnn7T1aVV3KfaqaR2MCepd6p5jSj4k8IxPAdJZqdGpZoOHjWkKlyqPqF2aRcEskcF1WIB4HyaD5MYPgFeswDntXlzcbdFCT87vE4A5qz93wBxpJ6SPX2AKetdPHmNdq72pZS2X69TX4Kpyo3XBexYeFtuxw8jH77RUy7ZuMKGoEA9lLQjhhjdZewBW5ZCKiBM4bLLuR",
+              "received": false
+            }
+          ],
+          "total_price": 16236,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:37:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

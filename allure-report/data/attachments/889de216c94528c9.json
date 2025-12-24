@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:37:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3676",
+    "etag": "W/\"e5c-syhVAhO69Spcd7CO3W+PEf74xgE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c16d41c508c5d5effb3f3",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694c16d11c508c5d5effb1df",
+        "email": "Eleanore.Moore@yahoo.com",
+        "name": "Adolf Torp",
+        "country": "Germany",
+        "city": "Christiantown",
+        "street": "Meadow Close 81",
+        "house": 195,
+        "flat": 1891,
+        "phone": "+365004677039508",
+        "createdOn": "2025-12-24T16:37:37.000Z",
+        "notes": "9Qycm519p5kPHxIM5eddMbp9i66OFX"
+      },
+      "products": [
+        {
+          "_id": "694c16d11c508c5d5effb271",
+          "name": "Car39598",
+          "amount": 432,
+          "price": 62088,
+          "manufacturer": "Amazon",
+          "notes": "SvHGhHWyZ5r71omKojB39XujOmbKfBRMjrxM97VhOHMUvPrCW2tAlQYwIOgKdwbbYeuG0VQJBX9d5piqJF3ZCuekMTFmu17Uet8N632fbmQZYwaafOcUFwRYc0eAHtxbK4Z9S45hK7yxnYU4b417Xb31gftLMCApyJoKEmFDoG9lxVv7uvdxcoBOumJOFRfUOpGXHKrOO6cU1tbaOJ1fJTY3GJJsfCbPhYpe4W5dI7pkJG216N49iuwfz5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "North Kariannehaven",
+          "street": "Reuben Manor",
+          "house": 471,
+          "flat": 6243
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 62088,
+      "createdOn": "2025-12-24T16:37:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694c16d11c508c5d5effb1df",
+          "products": [
+            {
+              "_id": "694c16d11c508c5d5effb271",
+              "name": "Car39598",
+              "amount": 432,
+              "price": 62088,
+              "manufacturer": "Amazon",
+              "notes": "SvHGhHWyZ5r71omKojB39XujOmbKfBRMjrxM97VhOHMUvPrCW2tAlQYwIOgKdwbbYeuG0VQJBX9d5piqJF3ZCuekMTFmu17Uet8N632fbmQZYwaafOcUFwRYc0eAHtxbK4Z9S45hK7yxnYU4b417Xb31gftLMCApyJoKEmFDoG9lxVv7uvdxcoBOumJOFRfUOpGXHKrOO6cU1tbaOJ1fJTY3GJJsfCbPhYpe4W5dI7pkJG216N49iuwfz5",
+              "received": false
+            }
+          ],
+          "total_price": 62088,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Kariannehaven",
+              "street": "Reuben Manor",
+              "house": 471,
+              "flat": 6243
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:37:40.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c16d11c508c5d5effb1df",
+          "products": [
+            {
+              "_id": "694c16d11c508c5d5effb271",
+              "name": "Car39598",
+              "amount": 432,
+              "price": 62088,
+              "manufacturer": "Amazon",
+              "notes": "SvHGhHWyZ5r71omKojB39XujOmbKfBRMjrxM97VhOHMUvPrCW2tAlQYwIOgKdwbbYeuG0VQJBX9d5piqJF3ZCuekMTFmu17Uet8N632fbmQZYwaafOcUFwRYc0eAHtxbK4Z9S45hK7yxnYU4b417Xb31gftLMCApyJoKEmFDoG9lxVv7uvdxcoBOumJOFRfUOpGXHKrOO6cU1tbaOJ1fJTY3GJJsfCbPhYpe4W5dI7pkJG216N49iuwfz5",
+              "received": false
+            }
+          ],
+          "total_price": 62088,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Kariannehaven",
+              "street": "Reuben Manor",
+              "house": 471,
+              "flat": 6243
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:37:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c16d11c508c5d5effb1df",
+          "products": [
+            {
+              "_id": "694c16d11c508c5d5effb271",
+              "name": "Car39598",
+              "amount": 432,
+              "price": 62088,
+              "manufacturer": "Amazon",
+              "notes": "SvHGhHWyZ5r71omKojB39XujOmbKfBRMjrxM97VhOHMUvPrCW2tAlQYwIOgKdwbbYeuG0VQJBX9d5piqJF3ZCuekMTFmu17Uet8N632fbmQZYwaafOcUFwRYc0eAHtxbK4Z9S45hK7yxnYU4b417Xb31gftLMCApyJoKEmFDoG9lxVv7uvdxcoBOumJOFRfUOpGXHKrOO6cU1tbaOJ1fJTY3GJJsfCbPhYpe4W5dI7pkJG216N49iuwfz5",
+              "received": false
+            }
+          ],
+          "total_price": 62088,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:37:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:37:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4616",
+    "etag": "W/\"1208-woBADBBZKEW7FEb3mcCNRDloenw\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c16e11c508c5d5effbd9e",
+      "status": "Received",
+      "customer": {
+        "_id": "694c16df1c508c5d5effbc10",
+        "email": "Allen_Grimes@hotmail.com",
+        "name": "Lorenzo Wintheiser",
+        "country": "Canada",
+        "city": "West Carroll",
+        "street": "Blind Lane 3",
+        "house": 242,
+        "flat": 5104,
+        "phone": "+341692198574024",
+        "createdOn": "2025-12-24T16:37:51.000Z",
+        "notes": "hwfYreeh29LiC7ewpSSGrXTcbxYyEs"
+      },
+      "products": [
+        {
+          "_id": "694c16df1c508c5d5effbc2c",
+          "name": "Shirt91377",
+          "amount": 776,
+          "price": 45325,
+          "manufacturer": "Tesla",
+          "notes": "7xwpbqcNqiTwkNFys5MhhLr26YfT3lBX4fOfSg3xylJ6zDn6j5124jfhRBSR1OI7VIq7C8hKhzb56cYvVBGnx1oqFL2qMoVmzBefRRTzO8tGUKkWSnBMneFOa0RHL9jrWGpDROnYTpJvuRM2X7vChTJNVtffSVF1wcmZWT867jbn7dx1pYOshgC3bKAYraiIBxm0DrtpxLgODQr8h2TZYqJ8KLdaQv4I6Kqf0Ek1vZHPeqzGGSU7Nmndck",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Skilesview",
+          "street": "Marian Cliffs",
+          "house": 89,
+          "flat": 80
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 45325,
+      "createdOn": "2025-12-24T16:37:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694c16df1c508c5d5effbc10",
+          "products": [
+            {
+              "_id": "694c16df1c508c5d5effbc2c",
+              "name": "Shirt91377",
+              "amount": 776,
+              "price": 45325,
+              "manufacturer": "Tesla",
+              "notes": "7xwpbqcNqiTwkNFys5MhhLr26YfT3lBX4fOfSg3xylJ6zDn6j5124jfhRBSR1OI7VIq7C8hKhzb56cYvVBGnx1oqFL2qMoVmzBefRRTzO8tGUKkWSnBMneFOa0RHL9jrWGpDROnYTpJvuRM2X7vChTJNVtffSVF1wcmZWT867jbn7dx1pYOshgC3bKAYraiIBxm0DrtpxLgODQr8h2TZYqJ8KLdaQv4I6Kqf0Ek1vZHPeqzGGSU7Nmndck",
+              "received": true
+            }
+          ],
+          "total_price": 45325,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Skilesview",
+              "street": "Marian Cliffs",
+              "house": 89,
+              "flat": 80
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:37:57.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694c16df1c508c5d5effbc10",
+          "products": [
+            {
+              "_id": "694c16df1c508c5d5effbc2c",
+              "name": "Shirt91377",
+              "amount": 776,
+              "price": 45325,
+              "manufacturer": "Tesla",
+              "notes": "7xwpbqcNqiTwkNFys5MhhLr26YfT3lBX4fOfSg3xylJ6zDn6j5124jfhRBSR1OI7VIq7C8hKhzb56cYvVBGnx1oqFL2qMoVmzBefRRTzO8tGUKkWSnBMneFOa0RHL9jrWGpDROnYTpJvuRM2X7vChTJNVtffSVF1wcmZWT867jbn7dx1pYOshgC3bKAYraiIBxm0DrtpxLgODQr8h2TZYqJ8KLdaQv4I6Kqf0Ek1vZHPeqzGGSU7Nmndck",
+              "received": false
+            }
+          ],
+          "total_price": 45325,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Skilesview",
+              "street": "Marian Cliffs",
+              "house": 89,
+              "flat": 80
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:37:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c16df1c508c5d5effbc10",
+          "products": [
+            {
+              "_id": "694c16df1c508c5d5effbc2c",
+              "name": "Shirt91377",
+              "amount": 776,
+              "price": 45325,
+              "manufacturer": "Tesla",
+              "notes": "7xwpbqcNqiTwkNFys5MhhLr26YfT3lBX4fOfSg3xylJ6zDn6j5124jfhRBSR1OI7VIq7C8hKhzb56cYvVBGnx1oqFL2qMoVmzBefRRTzO8tGUKkWSnBMneFOa0RHL9jrWGpDROnYTpJvuRM2X7vChTJNVtffSVF1wcmZWT867jbn7dx1pYOshgC3bKAYraiIBxm0DrtpxLgODQr8h2TZYqJ8KLdaQv4I6Kqf0Ek1vZHPeqzGGSU7Nmndck",
+              "received": false
+            }
+          ],
+          "total_price": 45325,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Skilesview",
+              "street": "Marian Cliffs",
+              "house": 89,
+              "flat": 80
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:37:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c16df1c508c5d5effbc10",
+          "products": [
+            {
+              "_id": "694c16df1c508c5d5effbc2c",
+              "name": "Shirt91377",
+              "amount": 776,
+              "price": 45325,
+              "manufacturer": "Tesla",
+              "notes": "7xwpbqcNqiTwkNFys5MhhLr26YfT3lBX4fOfSg3xylJ6zDn6j5124jfhRBSR1OI7VIq7C8hKhzb56cYvVBGnx1oqFL2qMoVmzBefRRTzO8tGUKkWSnBMneFOa0RHL9jrWGpDROnYTpJvuRM2X7vChTJNVtffSVF1wcmZWT867jbn7dx1pYOshgC3bKAYraiIBxm0DrtpxLgODQr8h2TZYqJ8KLdaQv4I6Kqf0Ek1vZHPeqzGGSU7Nmndck",
+              "received": false
+            }
+          ],
+          "total_price": 45325,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:37:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

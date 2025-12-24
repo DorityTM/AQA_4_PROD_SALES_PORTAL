@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 24 Dec 2025 16:36:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3687",
+    "etag": "W/\"e67-omAMoDd0OqijFU42FZX0da1vC+U\"",
+    "keep-alive": "timeout=5, max=13",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694c16a21c508c5d5eff9036",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694c169e1c508c5d5eff8d66",
+        "email": "Holly50@hotmail.com",
+        "name": "Lavinia Smith",
+        "country": "Belarus",
+        "city": "Fort Imelda",
+        "street": "Nova Mill 86",
+        "house": 408,
+        "flat": 9554,
+        "phone": "+306869455786814",
+        "createdOn": "2025-12-24T16:36:46.000Z",
+        "notes": "2Acrva5xdqZvtiXFhDD5kOmcPSpIoA"
+      },
+      "products": [
+        {
+          "_id": "694c169e1c508c5d5eff8d8a",
+          "name": "Computer72675",
+          "amount": 567,
+          "price": 7933,
+          "manufacturer": "Amazon",
+          "notes": "cp1obAYgHicaTi3mYgQz1Ap896QtdclQvXn14FyDLSr3AsxWskoQm5chRPDJbrPXe6sZew6q77LOYYWANHGPlYOvOCTqmHu9cRb98b2mIIkH8zPxx04WvDGu8fBLbBJg13E6JjLsW0p4qGNU0HT7WOht6KbzSFYyLnHCH2IL7m0SfCmXsOsKnziSKxATFvzeq7VpOyEt7G8i9zXP0qksI9J4lyDSlV6s1FDRWt2HFpyU05LWaIAqKjfz4x",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "North Francisco",
+          "street": "Hermiston Throughway",
+          "house": 91,
+          "flat": 119
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7933,
+      "createdOn": "2025-12-24T16:36:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694c169e1c508c5d5eff8d66",
+          "products": [
+            {
+              "_id": "694c169e1c508c5d5eff8d8a",
+              "name": "Computer72675",
+              "amount": 567,
+              "price": 7933,
+              "manufacturer": "Amazon",
+              "notes": "cp1obAYgHicaTi3mYgQz1Ap896QtdclQvXn14FyDLSr3AsxWskoQm5chRPDJbrPXe6sZew6q77LOYYWANHGPlYOvOCTqmHu9cRb98b2mIIkH8zPxx04WvDGu8fBLbBJg13E6JjLsW0p4qGNU0HT7WOht6KbzSFYyLnHCH2IL7m0SfCmXsOsKnziSKxATFvzeq7VpOyEt7G8i9zXP0qksI9J4lyDSlV6s1FDRWt2HFpyU05LWaIAqKjfz4x",
+              "received": false
+            }
+          ],
+          "total_price": 7933,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Francisco",
+              "street": "Hermiston Throughway",
+              "house": 91,
+              "flat": 119
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:36:52.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c169e1c508c5d5eff8d66",
+          "products": [
+            {
+              "_id": "694c169e1c508c5d5eff8d8a",
+              "name": "Computer72675",
+              "amount": 567,
+              "price": 7933,
+              "manufacturer": "Amazon",
+              "notes": "cp1obAYgHicaTi3mYgQz1Ap896QtdclQvXn14FyDLSr3AsxWskoQm5chRPDJbrPXe6sZew6q77LOYYWANHGPlYOvOCTqmHu9cRb98b2mIIkH8zPxx04WvDGu8fBLbBJg13E6JjLsW0p4qGNU0HT7WOht6KbzSFYyLnHCH2IL7m0SfCmXsOsKnziSKxATFvzeq7VpOyEt7G8i9zXP0qksI9J4lyDSlV6s1FDRWt2HFpyU05LWaIAqKjfz4x",
+              "received": false
+            }
+          ],
+          "total_price": 7933,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Francisco",
+              "street": "Hermiston Throughway",
+              "house": 91,
+              "flat": 119
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-24T16:36:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694c169e1c508c5d5eff8d66",
+          "products": [
+            {
+              "_id": "694c169e1c508c5d5eff8d8a",
+              "name": "Computer72675",
+              "amount": 567,
+              "price": 7933,
+              "manufacturer": "Amazon",
+              "notes": "cp1obAYgHicaTi3mYgQz1Ap896QtdclQvXn14FyDLSr3AsxWskoQm5chRPDJbrPXe6sZew6q77LOYYWANHGPlYOvOCTqmHu9cRb98b2mIIkH8zPxx04WvDGu8fBLbBJg13E6JjLsW0p4qGNU0HT7WOht6KbzSFYyLnHCH2IL7m0SfCmXsOsKnziSKxATFvzeq7VpOyEt7G8i9zXP0qksI9J4lyDSlV6s1FDRWt2HFpyU05LWaIAqKjfz4x",
+              "received": false
+            }
+          ],
+          "total_price": 7933,
+          "delivery": null,
+          "changedOn": "2025-12-24T16:36:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
