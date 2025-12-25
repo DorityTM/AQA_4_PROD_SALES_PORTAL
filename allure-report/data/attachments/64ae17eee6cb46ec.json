@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 21:51:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-KUwG9DTpIzk8D+IwJAexGHVUTVo\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db1e71c508c5d5e0eb733",
+      "status": "Draft",
+      "customer": {
+        "_id": "694db1e01c508c5d5e0eb245",
+        "email": "Cordie.Rath@yahoo.com",
+        "name": "Gage Bayer",
+        "country": "Germany",
+        "city": "East Los Angeles",
+        "street": "E 8th Street 58",
+        "house": 423,
+        "flat": 2990,
+        "phone": "+481691594223832",
+        "createdOn": "2025-12-25T21:51:28.000Z",
+        "notes": "RyEqzYa09eomdgcG73viryVEFuYmup"
+      },
+      "products": [
+        {
+          "_id": "694db1e21c508c5d5e0eb35c",
+          "name": "Bacon5444",
+          "amount": 250,
+          "price": 87445,
+          "manufacturer": "Samsung",
+          "notes": "J9TQKP6fhJZYyJv86idN64G3HJbPkh0PXP1YzRU7Y0axUbK6CYNULvJve2FH2FtjpRJhbMJa6LYgjlFChJD2P4a40kB93OOpqiqOk9QcGDkYIZuKmbDLFc71mRlrEb8ePwXg1zXHrwnB9RrRj5D4KBglPeTYhu2b4k01vGMF5RyoF7GGQRi1dmsVNvF2Z2ThnH6HS28rJc3OvL3eyAUQMKKWLd1W6iAYUMaYim3yDgtW8941sVIuyRT6yX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lake Axelfurt",
+          "street": "E 2nd Street",
+          "house": 931,
+          "flat": 6909
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 87445,
+      "createdOn": "2025-12-25T21:51:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db1e01c508c5d5e0eb245",
+          "products": [
+            {
+              "_id": "694db1e21c508c5d5e0eb35c",
+              "name": "Bacon5444",
+              "amount": 250,
+              "price": 87445,
+              "manufacturer": "Samsung",
+              "notes": "J9TQKP6fhJZYyJv86idN64G3HJbPkh0PXP1YzRU7Y0axUbK6CYNULvJve2FH2FtjpRJhbMJa6LYgjlFChJD2P4a40kB93OOpqiqOk9QcGDkYIZuKmbDLFc71mRlrEb8ePwXg1zXHrwnB9RrRj5D4KBglPeTYhu2b4k01vGMF5RyoF7GGQRi1dmsVNvF2Z2ThnH6HS28rJc3OvL3eyAUQMKKWLd1W6iAYUMaYim3yDgtW8941sVIuyRT6yX",
+              "received": false
+            }
+          ],
+          "total_price": 87445,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lake Axelfurt",
+              "street": "E 2nd Street",
+              "house": 931,
+              "flat": 6909
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:51:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db1e01c508c5d5e0eb245",
+          "products": [
+            {
+              "_id": "694db1e21c508c5d5e0eb35c",
+              "name": "Bacon5444",
+              "amount": 250,
+              "price": 87445,
+              "manufacturer": "Samsung",
+              "notes": "J9TQKP6fhJZYyJv86idN64G3HJbPkh0PXP1YzRU7Y0axUbK6CYNULvJve2FH2FtjpRJhbMJa6LYgjlFChJD2P4a40kB93OOpqiqOk9QcGDkYIZuKmbDLFc71mRlrEb8ePwXg1zXHrwnB9RrRj5D4KBglPeTYhu2b4k01vGMF5RyoF7GGQRi1dmsVNvF2Z2ThnH6HS28rJc3OvL3eyAUQMKKWLd1W6iAYUMaYim3yDgtW8941sVIuyRT6yX",
+              "received": false
+            }
+          ],
+          "total_price": 87445,
+          "delivery": null,
+          "changedOn": "2025-12-25T21:51:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

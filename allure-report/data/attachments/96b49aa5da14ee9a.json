@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 21:53:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5204",
+    "etag": "W/\"1454-PEf1pTgB9ONwV9nEMW6C4EKcZyk\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db23c1c508c5d5e0ef10e",
+      "status": "In Process",
+      "customer": {
+        "_id": "694db2341c508c5d5e0eeabe",
+        "email": "Jaylin_Konopelski46@gmail.com",
+        "name": "Hunter Hilpert",
+        "country": "Russia",
+        "city": "Freeport",
+        "street": "Maple Road 91",
+        "house": 691,
+        "flat": 9859,
+        "phone": "+191530220968595",
+        "createdOn": "2025-12-25T21:52:52.000Z",
+        "notes": "hfxJf8lPwFmk5ZeNO0pmULZTLa9QwK"
+      },
+      "products": [
+        {
+          "_id": "694db2341c508c5d5e0eead8",
+          "name": "Soap92688",
+          "amount": 258,
+          "price": 71065,
+          "manufacturer": "Tesla",
+          "notes": "ZIyO3MBuX6Rljp0GoI0nSgWjnAUXhYhJirBGsAowoEGhX2pDFpeh9qlNRazQAib2wIKgk6oIesprZr4zzMngNHOOxXDuYSDOxJq1aXMhBuyWGQnrn5PpQlOHeGRFVCHONswtW52C3qj1gM2aqWaZT19uj4dkCLMPIaIwTgsNH2kCS2D4q47rYGsmLaqU7SjSGDID4keiDrzWvPC7dCPvjHazjAx3AC7jEJYV9MFTOs8BjsaEAgUoWvShNL",
+          "received": false
+        },
+        {
+          "_id": "694db2371c508c5d5e0eed05",
+          "name": "Pizza65043",
+          "amount": 79,
+          "price": 12809,
+          "manufacturer": "Tesla",
+          "notes": "WYaOMBG6hSNoouvvLWjPW3UrH7uq9AGn37ZtaXtPUNXEbYyWbIbds4GaO5RWkZJS09RxD2DPsF89UDbWEr1aCIudnBDgHDGOhEUlzwd1jFYCRdCfI0FSq6amuwG7ZREeEftKogaT2n8YFyjHg7YcofdRjTcurfOWfAVQbEAYoSCUJPRe90p6sVyJuBnMIhmvpu4Q9z1fHsgjZ6oSXdtQq5THNEC3rDB3hEIOZabvyMM8Zi97iyNDEthJaL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Beahancester",
+          "street": "The Orchard",
+          "house": 556,
+          "flat": 7845
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 83874,
+      "createdOn": "2025-12-25T21:53:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694db2341c508c5d5e0eeabe",
+          "products": [
+            {
+              "_id": "694db2341c508c5d5e0eead8",
+              "name": "Soap92688",
+              "amount": 258,
+              "price": 71065,
+              "manufacturer": "Tesla",
+              "notes": "ZIyO3MBuX6Rljp0GoI0nSgWjnAUXhYhJirBGsAowoEGhX2pDFpeh9qlNRazQAib2wIKgk6oIesprZr4zzMngNHOOxXDuYSDOxJq1aXMhBuyWGQnrn5PpQlOHeGRFVCHONswtW52C3qj1gM2aqWaZT19uj4dkCLMPIaIwTgsNH2kCS2D4q47rYGsmLaqU7SjSGDID4keiDrzWvPC7dCPvjHazjAx3AC7jEJYV9MFTOs8BjsaEAgUoWvShNL",
+              "received": false
+            },
+            {
+              "_id": "694db2371c508c5d5e0eed05",
+              "name": "Pizza65043",
+              "amount": 79,
+              "price": 12809,
+              "manufacturer": "Tesla",
+              "notes": "WYaOMBG6hSNoouvvLWjPW3UrH7uq9AGn37ZtaXtPUNXEbYyWbIbds4GaO5RWkZJS09RxD2DPsF89UDbWEr1aCIudnBDgHDGOhEUlzwd1jFYCRdCfI0FSq6amuwG7ZREeEftKogaT2n8YFyjHg7YcofdRjTcurfOWfAVQbEAYoSCUJPRe90p6sVyJuBnMIhmvpu4Q9z1fHsgjZ6oSXdtQq5THNEC3rDB3hEIOZabvyMM8Zi97iyNDEthJaL",
+              "received": false
+            }
+          ],
+          "total_price": 83874,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Beahancester",
+              "street": "The Orchard",
+              "house": 556,
+              "flat": 7845
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:53:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db2341c508c5d5e0eeabe",
+          "products": [
+            {
+              "_id": "694db2341c508c5d5e0eead8",
+              "name": "Soap92688",
+              "amount": 258,
+              "price": 71065,
+              "manufacturer": "Tesla",
+              "notes": "ZIyO3MBuX6Rljp0GoI0nSgWjnAUXhYhJirBGsAowoEGhX2pDFpeh9qlNRazQAib2wIKgk6oIesprZr4zzMngNHOOxXDuYSDOxJq1aXMhBuyWGQnrn5PpQlOHeGRFVCHONswtW52C3qj1gM2aqWaZT19uj4dkCLMPIaIwTgsNH2kCS2D4q47rYGsmLaqU7SjSGDID4keiDrzWvPC7dCPvjHazjAx3AC7jEJYV9MFTOs8BjsaEAgUoWvShNL",
+              "received": false
+            },
+            {
+              "_id": "694db2371c508c5d5e0eed05",
+              "name": "Pizza65043",
+              "amount": 79,
+              "price": 12809,
+              "manufacturer": "Tesla",
+              "notes": "WYaOMBG6hSNoouvvLWjPW3UrH7uq9AGn37ZtaXtPUNXEbYyWbIbds4GaO5RWkZJS09RxD2DPsF89UDbWEr1aCIudnBDgHDGOhEUlzwd1jFYCRdCfI0FSq6amuwG7ZREeEftKogaT2n8YFyjHg7YcofdRjTcurfOWfAVQbEAYoSCUJPRe90p6sVyJuBnMIhmvpu4Q9z1fHsgjZ6oSXdtQq5THNEC3rDB3hEIOZabvyMM8Zi97iyNDEthJaL",
+              "received": false
+            }
+          ],
+          "total_price": 83874,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Beahancester",
+              "street": "The Orchard",
+              "house": 556,
+              "flat": 7845
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:53:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db2341c508c5d5e0eeabe",
+          "products": [
+            {
+              "_id": "694db2341c508c5d5e0eead8",
+              "name": "Soap92688",
+              "amount": 258,
+              "price": 71065,
+              "manufacturer": "Tesla",
+              "notes": "ZIyO3MBuX6Rljp0GoI0nSgWjnAUXhYhJirBGsAowoEGhX2pDFpeh9qlNRazQAib2wIKgk6oIesprZr4zzMngNHOOxXDuYSDOxJq1aXMhBuyWGQnrn5PpQlOHeGRFVCHONswtW52C3qj1gM2aqWaZT19uj4dkCLMPIaIwTgsNH2kCS2D4q47rYGsmLaqU7SjSGDID4keiDrzWvPC7dCPvjHazjAx3AC7jEJYV9MFTOs8BjsaEAgUoWvShNL",
+              "received": false
+            },
+            {
+              "_id": "694db2371c508c5d5e0eed05",
+              "name": "Pizza65043",
+              "amount": 79,
+              "price": 12809,
+              "manufacturer": "Tesla",
+              "notes": "WYaOMBG6hSNoouvvLWjPW3UrH7uq9AGn37ZtaXtPUNXEbYyWbIbds4GaO5RWkZJS09RxD2DPsF89UDbWEr1aCIudnBDgHDGOhEUlzwd1jFYCRdCfI0FSq6amuwG7ZREeEftKogaT2n8YFyjHg7YcofdRjTcurfOWfAVQbEAYoSCUJPRe90p6sVyJuBnMIhmvpu4Q9z1fHsgjZ6oSXdtQq5THNEC3rDB3hEIOZabvyMM8Zi97iyNDEthJaL",
+              "received": false
+            }
+          ],
+          "total_price": 83874,
+          "delivery": null,
+          "changedOn": "2025-12-25T21:53:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

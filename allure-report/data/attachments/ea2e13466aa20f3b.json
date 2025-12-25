@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 21:58:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5228",
+    "etag": "W/\"146c-Qj7B+RhAgtsjGAs5gHR8Y98w/7o\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db3751c508c5d5e0f93dd",
+      "status": "In Process",
+      "customer": {
+        "_id": "694db3751c508c5d5e0f93c9",
+        "email": "Duncan85@hotmail.com",
+        "name": "Arjun Hermiston",
+        "country": "USA",
+        "city": "South Leslyville",
+        "street": "Nelson Street 26",
+        "house": 642,
+        "flat": 4035,
+        "phone": "+008852804537242",
+        "createdOn": "2025-12-25T21:58:13.000Z",
+        "notes": "Pc8Ylh4ldDN7V3SAU1akbptnd6CNrS"
+      },
+      "products": [
+        {
+          "_id": "694db3751c508c5d5e0f93ce",
+          "name": "Tuna47977",
+          "amount": 250,
+          "price": 52090,
+          "manufacturer": "Tesla",
+          "notes": "Zm7VRayphC5EO8up1ZKT8OC9GGhWQDbedY76Ofu7Om4VGB11QMR0vXuRxqyom25dWv7XSpg7dbJBwJYzc1udUQOHumMplYQvUs6oEdsE6xE2BdxFMOKoMggmQBRyMxJJNmGpYTP9vXFofXtd0MI7et6iUoxo9C5dQAZjohnqzMoQnlexEz8KXGOkwglJ69fLz7h6a2fEPRWlTN7AIkEuCgGHtHo6r53eC676pUBXPrHKdAd9arIjucjfB9",
+          "received": false
+        },
+        {
+          "_id": "694db3751c508c5d5e0f93d3",
+          "name": "Cheese59112",
+          "amount": 314,
+          "price": 35360,
+          "manufacturer": "Xiaomi",
+          "notes": "9UGNxVEA8EdGF5di4H15n8y3c0cEOwE7pcq6NDm9A1SjuF62BcclEkmv94VOhXcVP8wxkhvdBjUcBaBCLfw4dAsflw23WaLIUOv9X3MM8tGmw5LEpQxeSnRz4RDez328h39UE6NOaSVN6FWc0MSwfnRFMmSncQgGKkO28Vgk3sWLdW7Zh7CcLK0ch9A74dk3n1vmDIuxaV5kF5GvPN9DdqyCgSJBxa0cQ1XS2i4EKeA1dE35fWfQw6fAiF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Lake Zackary",
+          "street": "McGlynn Garden",
+          "house": 972,
+          "flat": 1015
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 87450,
+      "createdOn": "2025-12-25T21:58:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694db3751c508c5d5e0f93c9",
+          "products": [
+            {
+              "_id": "694db3751c508c5d5e0f93ce",
+              "name": "Tuna47977",
+              "amount": 250,
+              "price": 52090,
+              "manufacturer": "Tesla",
+              "notes": "Zm7VRayphC5EO8up1ZKT8OC9GGhWQDbedY76Ofu7Om4VGB11QMR0vXuRxqyom25dWv7XSpg7dbJBwJYzc1udUQOHumMplYQvUs6oEdsE6xE2BdxFMOKoMggmQBRyMxJJNmGpYTP9vXFofXtd0MI7et6iUoxo9C5dQAZjohnqzMoQnlexEz8KXGOkwglJ69fLz7h6a2fEPRWlTN7AIkEuCgGHtHo6r53eC676pUBXPrHKdAd9arIjucjfB9",
+              "received": false
+            },
+            {
+              "_id": "694db3751c508c5d5e0f93d3",
+              "name": "Cheese59112",
+              "amount": 314,
+              "price": 35360,
+              "manufacturer": "Xiaomi",
+              "notes": "9UGNxVEA8EdGF5di4H15n8y3c0cEOwE7pcq6NDm9A1SjuF62BcclEkmv94VOhXcVP8wxkhvdBjUcBaBCLfw4dAsflw23WaLIUOv9X3MM8tGmw5LEpQxeSnRz4RDez328h39UE6NOaSVN6FWc0MSwfnRFMmSncQgGKkO28Vgk3sWLdW7Zh7CcLK0ch9A74dk3n1vmDIuxaV5kF5GvPN9DdqyCgSJBxa0cQ1XS2i4EKeA1dE35fWfQw6fAiF",
+              "received": false
+            }
+          ],
+          "total_price": 87450,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Zackary",
+              "street": "McGlynn Garden",
+              "house": 972,
+              "flat": 1015
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:58:14.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db3751c508c5d5e0f93c9",
+          "products": [
+            {
+              "_id": "694db3751c508c5d5e0f93ce",
+              "name": "Tuna47977",
+              "amount": 250,
+              "price": 52090,
+              "manufacturer": "Tesla",
+              "notes": "Zm7VRayphC5EO8up1ZKT8OC9GGhWQDbedY76Ofu7Om4VGB11QMR0vXuRxqyom25dWv7XSpg7dbJBwJYzc1udUQOHumMplYQvUs6oEdsE6xE2BdxFMOKoMggmQBRyMxJJNmGpYTP9vXFofXtd0MI7et6iUoxo9C5dQAZjohnqzMoQnlexEz8KXGOkwglJ69fLz7h6a2fEPRWlTN7AIkEuCgGHtHo6r53eC676pUBXPrHKdAd9arIjucjfB9",
+              "received": false
+            },
+            {
+              "_id": "694db3751c508c5d5e0f93d3",
+              "name": "Cheese59112",
+              "amount": 314,
+              "price": 35360,
+              "manufacturer": "Xiaomi",
+              "notes": "9UGNxVEA8EdGF5di4H15n8y3c0cEOwE7pcq6NDm9A1SjuF62BcclEkmv94VOhXcVP8wxkhvdBjUcBaBCLfw4dAsflw23WaLIUOv9X3MM8tGmw5LEpQxeSnRz4RDez328h39UE6NOaSVN6FWc0MSwfnRFMmSncQgGKkO28Vgk3sWLdW7Zh7CcLK0ch9A74dk3n1vmDIuxaV5kF5GvPN9DdqyCgSJBxa0cQ1XS2i4EKeA1dE35fWfQw6fAiF",
+              "received": false
+            }
+          ],
+          "total_price": 87450,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Zackary",
+              "street": "McGlynn Garden",
+              "house": 972,
+              "flat": 1015
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:58:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db3751c508c5d5e0f93c9",
+          "products": [
+            {
+              "_id": "694db3751c508c5d5e0f93ce",
+              "name": "Tuna47977",
+              "amount": 250,
+              "price": 52090,
+              "manufacturer": "Tesla",
+              "notes": "Zm7VRayphC5EO8up1ZKT8OC9GGhWQDbedY76Ofu7Om4VGB11QMR0vXuRxqyom25dWv7XSpg7dbJBwJYzc1udUQOHumMplYQvUs6oEdsE6xE2BdxFMOKoMggmQBRyMxJJNmGpYTP9vXFofXtd0MI7et6iUoxo9C5dQAZjohnqzMoQnlexEz8KXGOkwglJ69fLz7h6a2fEPRWlTN7AIkEuCgGHtHo6r53eC676pUBXPrHKdAd9arIjucjfB9",
+              "received": false
+            },
+            {
+              "_id": "694db3751c508c5d5e0f93d3",
+              "name": "Cheese59112",
+              "amount": 314,
+              "price": 35360,
+              "manufacturer": "Xiaomi",
+              "notes": "9UGNxVEA8EdGF5di4H15n8y3c0cEOwE7pcq6NDm9A1SjuF62BcclEkmv94VOhXcVP8wxkhvdBjUcBaBCLfw4dAsflw23WaLIUOv9X3MM8tGmw5LEpQxeSnRz4RDez328h39UE6NOaSVN6FWc0MSwfnRFMmSncQgGKkO28Vgk3sWLdW7Zh7CcLK0ch9A74dk3n1vmDIuxaV5kF5GvPN9DdqyCgSJBxa0cQ1XS2i4EKeA1dE35fWfQw6fAiF",
+              "received": false
+            }
+          ],
+          "total_price": 87450,
+          "delivery": null,
+          "changedOn": "2025-12-25T21:58:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

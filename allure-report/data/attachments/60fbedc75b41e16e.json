@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 21:51:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-wPDNEu6pALmH1YexThbQCor8j9E\"",
+    "keep-alive": "timeout=5, max=24",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db1ca1c508c5d5e0ea4af",
+      "status": "In Process",
+      "customer": {
+        "_id": "694db1c81c508c5d5e0ea3a6",
+        "email": "Osborne_Krajcik@gmail.com",
+        "name": "Dario Graham",
+        "country": "Great Britain",
+        "city": "New Gardner",
+        "street": "Langosh Unions 52",
+        "house": 154,
+        "flat": 9070,
+        "phone": "+148239936788747",
+        "createdOn": "2025-12-25T21:51:04.000Z",
+        "notes": "11flQxaTIsSF0KhKVyB0lGv46Lh5oH"
+      },
+      "products": [
+        {
+          "_id": "694db1ca1c508c5d5e0ea496",
+          "name": "Tuna92881",
+          "amount": 614,
+          "price": 33479,
+          "manufacturer": "Samsung",
+          "notes": "8aNl66nr6Ns7Cix3lDv3Dhr6z3Luqw1HYBDChBT5xWRISfStZLAatfgjd2PYKAPpcFFBwbgExuM1WsrH0JEEvzRGg5VxOCDlaQDQSTAKms9ZKAGOyV2XHIR5Nvw0ZitxjPpXIz0qOjyVQu1ftIyemUqelsnc1W7iSBWMEjwgOC9c4ilFUIu6CsL2QyrGSwsIf86f6ARMKq4iL8RvcQ4ppOZE72GeipwQcEpaHpltPbUCP6gpoV1xcQ9dxn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Wichita",
+          "street": "Mayfield Road",
+          "house": 826,
+          "flat": 2688
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33479,
+      "createdOn": "2025-12-25T21:51:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694db1c81c508c5d5e0ea3a6",
+          "products": [
+            {
+              "_id": "694db1ca1c508c5d5e0ea496",
+              "name": "Tuna92881",
+              "amount": 614,
+              "price": 33479,
+              "manufacturer": "Samsung",
+              "notes": "8aNl66nr6Ns7Cix3lDv3Dhr6z3Luqw1HYBDChBT5xWRISfStZLAatfgjd2PYKAPpcFFBwbgExuM1WsrH0JEEvzRGg5VxOCDlaQDQSTAKms9ZKAGOyV2XHIR5Nvw0ZitxjPpXIz0qOjyVQu1ftIyemUqelsnc1W7iSBWMEjwgOC9c4ilFUIu6CsL2QyrGSwsIf86f6ARMKq4iL8RvcQ4ppOZE72GeipwQcEpaHpltPbUCP6gpoV1xcQ9dxn",
+              "received": false
+            }
+          ],
+          "total_price": 33479,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Wichita",
+              "street": "Mayfield Road",
+              "house": 826,
+              "flat": 2688
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:51:07.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db1c81c508c5d5e0ea3a6",
+          "products": [
+            {
+              "_id": "694db1ca1c508c5d5e0ea496",
+              "name": "Tuna92881",
+              "amount": 614,
+              "price": 33479,
+              "manufacturer": "Samsung",
+              "notes": "8aNl66nr6Ns7Cix3lDv3Dhr6z3Luqw1HYBDChBT5xWRISfStZLAatfgjd2PYKAPpcFFBwbgExuM1WsrH0JEEvzRGg5VxOCDlaQDQSTAKms9ZKAGOyV2XHIR5Nvw0ZitxjPpXIz0qOjyVQu1ftIyemUqelsnc1W7iSBWMEjwgOC9c4ilFUIu6CsL2QyrGSwsIf86f6ARMKq4iL8RvcQ4ppOZE72GeipwQcEpaHpltPbUCP6gpoV1xcQ9dxn",
+              "received": false
+            }
+          ],
+          "total_price": 33479,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Wichita",
+              "street": "Mayfield Road",
+              "house": 826,
+              "flat": 2688
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:51:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db1c81c508c5d5e0ea3a6",
+          "products": [
+            {
+              "_id": "694db1ca1c508c5d5e0ea496",
+              "name": "Tuna92881",
+              "amount": 614,
+              "price": 33479,
+              "manufacturer": "Samsung",
+              "notes": "8aNl66nr6Ns7Cix3lDv3Dhr6z3Luqw1HYBDChBT5xWRISfStZLAatfgjd2PYKAPpcFFBwbgExuM1WsrH0JEEvzRGg5VxOCDlaQDQSTAKms9ZKAGOyV2XHIR5Nvw0ZitxjPpXIz0qOjyVQu1ftIyemUqelsnc1W7iSBWMEjwgOC9c4ilFUIu6CsL2QyrGSwsIf86f6ARMKq4iL8RvcQ4ppOZE72GeipwQcEpaHpltPbUCP6gpoV1xcQ9dxn",
+              "received": false
+            }
+          ],
+          "total_price": 33479,
+          "delivery": null,
+          "changedOn": "2025-12-25T21:51:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

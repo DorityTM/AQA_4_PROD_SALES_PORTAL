@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 21:56:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2772",
+    "etag": "W/\"ad4-ursvuxuhGCNfu4EiG11j5Xnfmls\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db3211c508c5d5e0f8177",
+      "status": "Draft",
+      "customer": {
+        "_id": "694db3211c508c5d5e0f816a",
+        "email": "Emilie5@gmail.com",
+        "name": "Malcolm Bernhard",
+        "country": "Russia",
+        "city": "Fort Stefanietown",
+        "street": "Walnut Close 62",
+        "house": 825,
+        "flat": 8801,
+        "phone": "+484370622662487",
+        "createdOn": "2025-12-25T21:56:49.000Z",
+        "notes": "Ntoxnw8wXjKvzRYWq8A26vPAkMVeFX"
+      },
+      "products": [
+        {
+          "_id": "694db3211c508c5d5e0f816f",
+          "name": "Cheese79186",
+          "amount": 899,
+          "price": 13493,
+          "manufacturer": "Microsoft",
+          "notes": "Zt0guxHonjycITh4f5Ysj7NgY7TjjnHBEMQLdrBVUOUd4oycEF8jiQwiAxDcy3c8sHTwl9vW6fsvPCJDEyWufGkmStq7k7qmiYiSdIYqPFRDggK8rAl1Jbp3mPquCHeyGIb1qwd4Aje4HoAvFGgk5ekN5BCpRVAhJDZFGNh30KsyUhcSv9IS7q6lOb2ZGSfDwpLuW4VI1lkm382rlha01sm7rKgs6ZnlIOsA533l7jnxQ6Y9x4Req6Hkec",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Annettebury",
+          "street": "E Church Street",
+          "house": 773,
+          "flat": 2563
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 13493,
+      "createdOn": "2025-12-25T21:56:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db3211c508c5d5e0f816a",
+          "products": [
+            {
+              "_id": "694db3211c508c5d5e0f816f",
+              "name": "Cheese79186",
+              "amount": 899,
+              "price": 13493,
+              "manufacturer": "Microsoft",
+              "notes": "Zt0guxHonjycITh4f5Ysj7NgY7TjjnHBEMQLdrBVUOUd4oycEF8jiQwiAxDcy3c8sHTwl9vW6fsvPCJDEyWufGkmStq7k7qmiYiSdIYqPFRDggK8rAl1Jbp3mPquCHeyGIb1qwd4Aje4HoAvFGgk5ekN5BCpRVAhJDZFGNh30KsyUhcSv9IS7q6lOb2ZGSfDwpLuW4VI1lkm382rlha01sm7rKgs6ZnlIOsA533l7jnxQ6Y9x4Req6Hkec",
+              "received": false
+            }
+          ],
+          "total_price": 13493,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Annettebury",
+              "street": "E Church Street",
+              "house": 773,
+              "flat": 2563
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:56:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db3211c508c5d5e0f816a",
+          "products": [
+            {
+              "_id": "694db3211c508c5d5e0f816f",
+              "name": "Cheese79186",
+              "amount": 899,
+              "price": 13493,
+              "manufacturer": "Microsoft",
+              "notes": "Zt0guxHonjycITh4f5Ysj7NgY7TjjnHBEMQLdrBVUOUd4oycEF8jiQwiAxDcy3c8sHTwl9vW6fsvPCJDEyWufGkmStq7k7qmiYiSdIYqPFRDggK8rAl1Jbp3mPquCHeyGIb1qwd4Aje4HoAvFGgk5ekN5BCpRVAhJDZFGNh30KsyUhcSv9IS7q6lOb2ZGSfDwpLuW4VI1lkm382rlha01sm7rKgs6ZnlIOsA533l7jnxQ6Y9x4Req6Hkec",
+              "received": false
+            }
+          ],
+          "total_price": 13493,
+          "delivery": null,
+          "changedOn": "2025-12-25T21:56:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
