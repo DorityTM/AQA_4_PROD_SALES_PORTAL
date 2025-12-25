@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:28:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-xNqgfzTD+x0wr5GncquO5Tqh77w\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d66471c508c5d5e0a9400",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d66451c508c5d5e0a9373",
+        "email": "Frieda.Cummerata@hotmail.com",
+        "name": "Trent Cummings",
+        "country": "France",
+        "city": "Hayesville",
+        "street": "Elm Close 57",
+        "house": 644,
+        "flat": 4075,
+        "phone": "+860722072784184",
+        "createdOn": "2025-12-25T16:28:53.000Z",
+        "notes": "fI3QMzKnCdLmg6fgEH2GimMTgZ1Mcj"
+      },
+      "products": [
+        {
+          "_id": "694d66461c508c5d5e0a93d8",
+          "name": "Cheese12434",
+          "amount": 736,
+          "price": 83167,
+          "manufacturer": "Google",
+          "notes": "zbEXWDzMYTwg21h46r8e5NiAEhS5tAATztnx0apbWIRdv8S8vdpLrj0Fbbq6CLUt5Aya6bEAJM5Wl4rIteVzHbnCc0SlQaUNZIpJZi7Zb1yBurGXVtG7AeOZEjZ98OFqW0fJHAMerxKOKNF51oCu4PDk50B2dEGxOymkbicZcKvUMMO2Pkt1COSqk7grK5a7tGOV5OogGtoREFiHdX0gpKjN1JteZ8JfxU2tV4En9MOA7T86gfLIDysLG2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Littelport",
+          "street": "Karine Groves",
+          "house": 989,
+          "flat": 1641
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 83167,
+      "createdOn": "2025-12-25T16:28:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d66451c508c5d5e0a9373",
+          "products": [
+            {
+              "_id": "694d66461c508c5d5e0a93d8",
+              "name": "Cheese12434",
+              "amount": 736,
+              "price": 83167,
+              "manufacturer": "Google",
+              "notes": "zbEXWDzMYTwg21h46r8e5NiAEhS5tAATztnx0apbWIRdv8S8vdpLrj0Fbbq6CLUt5Aya6bEAJM5Wl4rIteVzHbnCc0SlQaUNZIpJZi7Zb1yBurGXVtG7AeOZEjZ98OFqW0fJHAMerxKOKNF51oCu4PDk50B2dEGxOymkbicZcKvUMMO2Pkt1COSqk7grK5a7tGOV5OogGtoREFiHdX0gpKjN1JteZ8JfxU2tV4En9MOA7T86gfLIDysLG2",
+              "received": false
+            }
+          ],
+          "total_price": 83167,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Littelport",
+              "street": "Karine Groves",
+              "house": 989,
+              "flat": 1641
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:28:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d66451c508c5d5e0a9373",
+          "products": [
+            {
+              "_id": "694d66461c508c5d5e0a93d8",
+              "name": "Cheese12434",
+              "amount": 736,
+              "price": 83167,
+              "manufacturer": "Google",
+              "notes": "zbEXWDzMYTwg21h46r8e5NiAEhS5tAATztnx0apbWIRdv8S8vdpLrj0Fbbq6CLUt5Aya6bEAJM5Wl4rIteVzHbnCc0SlQaUNZIpJZi7Zb1yBurGXVtG7AeOZEjZ98OFqW0fJHAMerxKOKNF51oCu4PDk50B2dEGxOymkbicZcKvUMMO2Pkt1COSqk7grK5a7tGOV5OogGtoREFiHdX0gpKjN1JteZ8JfxU2tV4En9MOA7T86gfLIDysLG2",
+              "received": false
+            }
+          ],
+          "total_price": 83167,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:28:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

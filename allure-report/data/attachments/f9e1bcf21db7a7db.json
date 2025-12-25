@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:29:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3692",
+    "etag": "W/\"e6c-BYOqlTb1kpajg7pBExQQSeZ0W2w\"",
+    "keep-alive": "timeout=5, max=33",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d66671c508c5d5e0aa489",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694d66661c508c5d5e0aa3ed",
+        "email": "Fred_Mitchell@yahoo.com",
+        "name": "Verdie Osinski",
+        "country": "France",
+        "city": "Maxinecester",
+        "street": "E Cedar Street 77",
+        "house": 415,
+        "flat": 4332,
+        "phone": "+464055369376455",
+        "createdOn": "2025-12-25T16:29:26.000Z",
+        "notes": "6eOd3c8QpUapGtlVKUjEBkkGuwGLcV"
+      },
+      "products": [
+        {
+          "_id": "694d66661c508c5d5e0aa463",
+          "name": "Shoes66250",
+          "amount": 743,
+          "price": 15343,
+          "manufacturer": "Apple",
+          "notes": "LLJPNJ1aKNoEZEK6y38ILi4EYHjrs6XfRAvWK3QugHaBbj8DiPDvREOHW4tUZXvDo9cbpj32dkkW8eL9Z4V3HxBMSSs6fupaTWfMsNce4WX2n1teYxHw1jyVpmJE7cuqxI9DReBCBq00veAIdYGNFswSNaa56E0MIZWxYxlf3pFuQwWDKQ4qWYnN1Ak009xOXmA8TOEc6Ji8upCX0CKBolKLRmJpalSS8sKbyE7Ajy4N2HyxN7h3PmkcfE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "West Zacharyworth",
+          "street": "Claremont Road",
+          "house": 756,
+          "flat": 9403
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15343,
+      "createdOn": "2025-12-25T16:29:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694d66661c508c5d5e0aa3ed",
+          "products": [
+            {
+              "_id": "694d66661c508c5d5e0aa463",
+              "name": "Shoes66250",
+              "amount": 743,
+              "price": 15343,
+              "manufacturer": "Apple",
+              "notes": "LLJPNJ1aKNoEZEK6y38ILi4EYHjrs6XfRAvWK3QugHaBbj8DiPDvREOHW4tUZXvDo9cbpj32dkkW8eL9Z4V3HxBMSSs6fupaTWfMsNce4WX2n1teYxHw1jyVpmJE7cuqxI9DReBCBq00veAIdYGNFswSNaa56E0MIZWxYxlf3pFuQwWDKQ4qWYnN1Ak009xOXmA8TOEc6Ji8upCX0CKBolKLRmJpalSS8sKbyE7Ajy4N2HyxN7h3PmkcfE",
+              "received": false
+            }
+          ],
+          "total_price": 15343,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Zacharyworth",
+              "street": "Claremont Road",
+              "house": 756,
+              "flat": 9403
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:29:29.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d66661c508c5d5e0aa3ed",
+          "products": [
+            {
+              "_id": "694d66661c508c5d5e0aa463",
+              "name": "Shoes66250",
+              "amount": 743,
+              "price": 15343,
+              "manufacturer": "Apple",
+              "notes": "LLJPNJ1aKNoEZEK6y38ILi4EYHjrs6XfRAvWK3QugHaBbj8DiPDvREOHW4tUZXvDo9cbpj32dkkW8eL9Z4V3HxBMSSs6fupaTWfMsNce4WX2n1teYxHw1jyVpmJE7cuqxI9DReBCBq00veAIdYGNFswSNaa56E0MIZWxYxlf3pFuQwWDKQ4qWYnN1Ak009xOXmA8TOEc6Ji8upCX0CKBolKLRmJpalSS8sKbyE7Ajy4N2HyxN7h3PmkcfE",
+              "received": false
+            }
+          ],
+          "total_price": 15343,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Zacharyworth",
+              "street": "Claremont Road",
+              "house": 756,
+              "flat": 9403
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:29:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d66661c508c5d5e0aa3ed",
+          "products": [
+            {
+              "_id": "694d66661c508c5d5e0aa463",
+              "name": "Shoes66250",
+              "amount": 743,
+              "price": 15343,
+              "manufacturer": "Apple",
+              "notes": "LLJPNJ1aKNoEZEK6y38ILi4EYHjrs6XfRAvWK3QugHaBbj8DiPDvREOHW4tUZXvDo9cbpj32dkkW8eL9Z4V3HxBMSSs6fupaTWfMsNce4WX2n1teYxHw1jyVpmJE7cuqxI9DReBCBq00veAIdYGNFswSNaa56E0MIZWxYxlf3pFuQwWDKQ4qWYnN1Ak009xOXmA8TOEc6Ji8upCX0CKBolKLRmJpalSS8sKbyE7Ajy4N2HyxN7h3PmkcfE",
+              "received": false
+            }
+          ],
+          "total_price": 15343,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:29:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

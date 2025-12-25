@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:29:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2727",
+    "etag": "W/\"aa7-THwnJfxwK0f8QAEUKUKsuuKEhpo\"",
+    "keep-alive": "timeout=5, max=26",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d666c1c508c5d5e0aa735",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d666b1c508c5d5e0aa6f7",
+        "email": "Gerard53@yahoo.com",
+        "name": "Ian Koch",
+        "country": "Canada",
+        "city": "East Karlee",
+        "street": "W Oak Street 50",
+        "house": 949,
+        "flat": 3118,
+        "phone": "+864675990156109",
+        "createdOn": "2025-12-25T16:29:31.000Z",
+        "notes": "0ElibBXJjs7jcrz7szJBEutHO8iIkG"
+      },
+      "products": [
+        {
+          "_id": "694d666c1c508c5d5e0aa70e",
+          "name": "Car80602",
+          "amount": 878,
+          "price": 62055,
+          "manufacturer": "Amazon",
+          "notes": "gglBNxXoCoRwkMR3LVxOlOyE6JryNEWKG73peCdh71yC92h86m4JDk1ZxepqMYwSCwS1OO5LH5ypFhKCI5wYGq9MXFqn2L97Erm1D6UE4goYAXE9axTuXulk7JGRMzql27bUiA56pWoC7T9dbfLeSDp7l2mCjSAWF5InLO1TnZj2wOt6a9A9Z1mJpjhUer5k8NC0vkS8OdRUbEtjiK2eM86mDGpBRvafCIGOM458wg7fwwTnvdnCY4ADmE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Manteca",
+          "street": "E 11th Street",
+          "house": 620,
+          "flat": 5521
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 62055,
+      "createdOn": "2025-12-25T16:29:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d666b1c508c5d5e0aa6f7",
+          "products": [
+            {
+              "_id": "694d666c1c508c5d5e0aa70e",
+              "name": "Car80602",
+              "amount": 878,
+              "price": 62055,
+              "manufacturer": "Amazon",
+              "notes": "gglBNxXoCoRwkMR3LVxOlOyE6JryNEWKG73peCdh71yC92h86m4JDk1ZxepqMYwSCwS1OO5LH5ypFhKCI5wYGq9MXFqn2L97Erm1D6UE4goYAXE9axTuXulk7JGRMzql27bUiA56pWoC7T9dbfLeSDp7l2mCjSAWF5InLO1TnZj2wOt6a9A9Z1mJpjhUer5k8NC0vkS8OdRUbEtjiK2eM86mDGpBRvafCIGOM458wg7fwwTnvdnCY4ADmE",
+              "received": false
+            }
+          ],
+          "total_price": 62055,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Manteca",
+              "street": "E 11th Street",
+              "house": 620,
+              "flat": 5521
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:29:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d666b1c508c5d5e0aa6f7",
+          "products": [
+            {
+              "_id": "694d666c1c508c5d5e0aa70e",
+              "name": "Car80602",
+              "amount": 878,
+              "price": 62055,
+              "manufacturer": "Amazon",
+              "notes": "gglBNxXoCoRwkMR3LVxOlOyE6JryNEWKG73peCdh71yC92h86m4JDk1ZxepqMYwSCwS1OO5LH5ypFhKCI5wYGq9MXFqn2L97Erm1D6UE4goYAXE9axTuXulk7JGRMzql27bUiA56pWoC7T9dbfLeSDp7l2mCjSAWF5InLO1TnZj2wOt6a9A9Z1mJpjhUer5k8NC0vkS8OdRUbEtjiK2eM86mDGpBRvafCIGOM458wg7fwwTnvdnCY4ADmE",
+              "received": false
+            }
+          ],
+          "total_price": 62055,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:29:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

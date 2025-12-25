@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:29:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3646",
+    "etag": "W/\"e3e-+3Sz+CavqqQM3WkbPo3Iaw56aYk\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d667a1c508c5d5e0aaf12",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d66771c508c5d5e0aacf3",
+        "email": "Dominic.Greenholt@gmail.com",
+        "name": "Emily Jast",
+        "country": "Russia",
+        "city": "Lake Oscar",
+        "street": "Parker Loop 35",
+        "house": 566,
+        "flat": 9630,
+        "phone": "+140726739448393",
+        "createdOn": "2025-12-25T16:29:43.000Z",
+        "notes": "B3mzO0xNszV14M0Keh00s2A8bUzJ6p"
+      },
+      "products": [
+        {
+          "_id": "694d66781c508c5d5e0aad72",
+          "name": "Towels42129",
+          "amount": 464,
+          "price": 3678,
+          "manufacturer": "Tesla",
+          "notes": "u2aBpkLV4IFyUX21uBs9y2uevmeyIYPEGwYkYSQM2KAfArfxLzRoTKSqVfu0XtcK0W9wvq7oNbomemhfLZSlRBfb33XThe3XAcNXnSjNlHSNMRCedUyhlmYI6GGRtuggF5VQgAfiddZ5XirHRBRz6EJwNj3nQbFjwSOHxxqQouYNkZwczVnnTFxfn9eHAp77GN9hSDNbzPWt1roI0lt92Sa7NTfrdGhHQDIZXGfjHhtLgfm0YEDOQYQEFW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Lucious",
+          "street": "Church Walk",
+          "house": 538,
+          "flat": 8870
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 3678,
+      "createdOn": "2025-12-25T16:29:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d66771c508c5d5e0aacf3",
+          "products": [
+            {
+              "_id": "694d66781c508c5d5e0aad72",
+              "name": "Towels42129",
+              "amount": 464,
+              "price": 3678,
+              "manufacturer": "Tesla",
+              "notes": "u2aBpkLV4IFyUX21uBs9y2uevmeyIYPEGwYkYSQM2KAfArfxLzRoTKSqVfu0XtcK0W9wvq7oNbomemhfLZSlRBfb33XThe3XAcNXnSjNlHSNMRCedUyhlmYI6GGRtuggF5VQgAfiddZ5XirHRBRz6EJwNj3nQbFjwSOHxxqQouYNkZwczVnnTFxfn9eHAp77GN9hSDNbzPWt1roI0lt92Sa7NTfrdGhHQDIZXGfjHhtLgfm0YEDOQYQEFW",
+              "received": false
+            }
+          ],
+          "total_price": 3678,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Lucious",
+              "street": "Church Walk",
+              "house": 538,
+              "flat": 8870
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T16:29:47.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d66771c508c5d5e0aacf3",
+          "products": [
+            {
+              "_id": "694d66781c508c5d5e0aad72",
+              "name": "Towels42129",
+              "amount": 464,
+              "price": 3678,
+              "manufacturer": "Tesla",
+              "notes": "u2aBpkLV4IFyUX21uBs9y2uevmeyIYPEGwYkYSQM2KAfArfxLzRoTKSqVfu0XtcK0W9wvq7oNbomemhfLZSlRBfb33XThe3XAcNXnSjNlHSNMRCedUyhlmYI6GGRtuggF5VQgAfiddZ5XirHRBRz6EJwNj3nQbFjwSOHxxqQouYNkZwczVnnTFxfn9eHAp77GN9hSDNbzPWt1roI0lt92Sa7NTfrdGhHQDIZXGfjHhtLgfm0YEDOQYQEFW",
+              "received": false
+            }
+          ],
+          "total_price": 3678,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Ottiscester",
+              "street": "Cameron Inlet",
+              "house": 116,
+              "flat": 5411
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:29:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d66771c508c5d5e0aacf3",
+          "products": [
+            {
+              "_id": "694d66781c508c5d5e0aad72",
+              "name": "Towels42129",
+              "amount": 464,
+              "price": 3678,
+              "manufacturer": "Tesla",
+              "notes": "u2aBpkLV4IFyUX21uBs9y2uevmeyIYPEGwYkYSQM2KAfArfxLzRoTKSqVfu0XtcK0W9wvq7oNbomemhfLZSlRBfb33XThe3XAcNXnSjNlHSNMRCedUyhlmYI6GGRtuggF5VQgAfiddZ5XirHRBRz6EJwNj3nQbFjwSOHxxqQouYNkZwczVnnTFxfn9eHAp77GN9hSDNbzPWt1roI0lt92Sa7NTfrdGhHQDIZXGfjHhtLgfm0YEDOQYQEFW",
+              "received": false
+            }
+          ],
+          "total_price": 3678,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:29:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:29:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-HiSl4QPasVYWH4cRyslQ5wdxMJY\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d66851c508c5d5e0ab4b3",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d66841c508c5d5e0ab46e",
+        "email": "Quinten_Pouros@hotmail.com",
+        "name": "Nelda Gusikowski",
+        "country": "USA",
+        "city": "North Charlesbury",
+        "street": "Lily Knolls 59",
+        "house": 910,
+        "flat": 9390,
+        "phone": "+244710327509925",
+        "createdOn": "2025-12-25T16:29:56.000Z",
+        "notes": "Q7H5NpQln0Zs423xSeAumIjMKMl016"
+      },
+      "products": [
+        {
+          "_id": "694d66841c508c5d5e0ab480",
+          "name": "Mouse46136",
+          "amount": 775,
+          "price": 56977,
+          "manufacturer": "Google",
+          "notes": "Jkg0HbS9m2qCFprmeMGI5usNSnYq0R1ZvF7FULuioB0s5XAbWXM6obzNGAcAGpNCZwdy1bnSTGEdCRoRfw8LPMoRxw80edgO46Lno7fvkSKNPjGAX9XWK1pzzIYV0WJVE0lsKV46h9PEICS1kyrPsf2McIQGUV91441vPxaLwtIembHCTSLaDYHiSnfwd47meLJrkadKY6TjtgpcmNC7oUmyw3FJBMUfvdEtSOSPYaoR3byZJs1lDsNvpq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Sibylview",
+          "street": "Vince Estates",
+          "house": 64,
+          "flat": 2951
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56977,
+      "createdOn": "2025-12-25T16:29:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d66841c508c5d5e0ab46e",
+          "products": [
+            {
+              "_id": "694d66841c508c5d5e0ab480",
+              "name": "Mouse46136",
+              "amount": 775,
+              "price": 56977,
+              "manufacturer": "Google",
+              "notes": "Jkg0HbS9m2qCFprmeMGI5usNSnYq0R1ZvF7FULuioB0s5XAbWXM6obzNGAcAGpNCZwdy1bnSTGEdCRoRfw8LPMoRxw80edgO46Lno7fvkSKNPjGAX9XWK1pzzIYV0WJVE0lsKV46h9PEICS1kyrPsf2McIQGUV91441vPxaLwtIembHCTSLaDYHiSnfwd47meLJrkadKY6TjtgpcmNC7oUmyw3FJBMUfvdEtSOSPYaoR3byZJs1lDsNvpq",
+              "received": false
+            }
+          ],
+          "total_price": 56977,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Sibylview",
+              "street": "Vince Estates",
+              "house": 64,
+              "flat": 2951
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:29:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d66841c508c5d5e0ab46e",
+          "products": [
+            {
+              "_id": "694d66841c508c5d5e0ab480",
+              "name": "Mouse46136",
+              "amount": 775,
+              "price": 56977,
+              "manufacturer": "Google",
+              "notes": "Jkg0HbS9m2qCFprmeMGI5usNSnYq0R1ZvF7FULuioB0s5XAbWXM6obzNGAcAGpNCZwdy1bnSTGEdCRoRfw8LPMoRxw80edgO46Lno7fvkSKNPjGAX9XWK1pzzIYV0WJVE0lsKV46h9PEICS1kyrPsf2McIQGUV91441vPxaLwtIembHCTSLaDYHiSnfwd47meLJrkadKY6TjtgpcmNC7oUmyw3FJBMUfvdEtSOSPYaoR3byZJs1lDsNvpq",
+              "received": false
+            }
+          ],
+          "total_price": 56977,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:29:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

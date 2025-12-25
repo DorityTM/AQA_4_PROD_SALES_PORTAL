@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:30:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4634",
+    "etag": "W/\"121a-W6yAl7XTpFuGWpHkRuvXjSXpidk\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d66a01c508c5d5e0ac3e0",
+      "status": "Received",
+      "customer": {
+        "_id": "694d66a01c508c5d5e0ac3ac",
+        "email": "Kayden_Mayert@hotmail.com",
+        "name": "Jermaine Hackett",
+        "country": "Great Britain",
+        "city": "Brandon",
+        "street": "Bethany Squares 89",
+        "house": 285,
+        "flat": 1062,
+        "phone": "+584952572870031",
+        "createdOn": "2025-12-25T16:30:24.000Z",
+        "notes": "4VFB9oUqcHul2FLaG75OPU9Q9uRrdf"
+      },
+      "products": [
+        {
+          "_id": "694d66a01c508c5d5e0ac3be",
+          "name": "Towels15987",
+          "amount": 482,
+          "price": 4983,
+          "manufacturer": "Apple",
+          "notes": "c28Cl6Kii9iWxgVLuiq3nryWpcqle5ghyP6sFTOG5Xx0SVtoR7Bq5o3L6PVWvHGLf7cloW9udV5aylaVbTHhLjhVl762D5333oLZXijX81mVnTLgPm3M1dwcBzVjxxq35iEkit6n7xmZ9752avoyusX7Di7pvSmhRDIgXX0iNpoFVJPTzzNr9fdKc8j94xDg2UAxhEMqe3sXsYWNtokoKD1SMXy2MfL600gjPdEIZA7omZNk5NrWq4Orx3",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Kohlerstad",
+          "street": "Shyanne Center",
+          "house": 161,
+          "flat": 3997
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 4983,
+      "createdOn": "2025-12-25T16:30:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694d66a01c508c5d5e0ac3ac",
+          "products": [
+            {
+              "_id": "694d66a01c508c5d5e0ac3be",
+              "name": "Towels15987",
+              "amount": 482,
+              "price": 4983,
+              "manufacturer": "Apple",
+              "notes": "c28Cl6Kii9iWxgVLuiq3nryWpcqle5ghyP6sFTOG5Xx0SVtoR7Bq5o3L6PVWvHGLf7cloW9udV5aylaVbTHhLjhVl762D5333oLZXijX81mVnTLgPm3M1dwcBzVjxxq35iEkit6n7xmZ9752avoyusX7Di7pvSmhRDIgXX0iNpoFVJPTzzNr9fdKc8j94xDg2UAxhEMqe3sXsYWNtokoKD1SMXy2MfL600gjPdEIZA7omZNk5NrWq4Orx3",
+              "received": true
+            }
+          ],
+          "total_price": 4983,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kohlerstad",
+              "street": "Shyanne Center",
+              "house": 161,
+              "flat": 3997
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:30:29.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694d66a01c508c5d5e0ac3ac",
+          "products": [
+            {
+              "_id": "694d66a01c508c5d5e0ac3be",
+              "name": "Towels15987",
+              "amount": 482,
+              "price": 4983,
+              "manufacturer": "Apple",
+              "notes": "c28Cl6Kii9iWxgVLuiq3nryWpcqle5ghyP6sFTOG5Xx0SVtoR7Bq5o3L6PVWvHGLf7cloW9udV5aylaVbTHhLjhVl762D5333oLZXijX81mVnTLgPm3M1dwcBzVjxxq35iEkit6n7xmZ9752avoyusX7Di7pvSmhRDIgXX0iNpoFVJPTzzNr9fdKc8j94xDg2UAxhEMqe3sXsYWNtokoKD1SMXy2MfL600gjPdEIZA7omZNk5NrWq4Orx3",
+              "received": false
+            }
+          ],
+          "total_price": 4983,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kohlerstad",
+              "street": "Shyanne Center",
+              "house": 161,
+              "flat": 3997
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:30:28.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d66a01c508c5d5e0ac3ac",
+          "products": [
+            {
+              "_id": "694d66a01c508c5d5e0ac3be",
+              "name": "Towels15987",
+              "amount": 482,
+              "price": 4983,
+              "manufacturer": "Apple",
+              "notes": "c28Cl6Kii9iWxgVLuiq3nryWpcqle5ghyP6sFTOG5Xx0SVtoR7Bq5o3L6PVWvHGLf7cloW9udV5aylaVbTHhLjhVl762D5333oLZXijX81mVnTLgPm3M1dwcBzVjxxq35iEkit6n7xmZ9752avoyusX7Di7pvSmhRDIgXX0iNpoFVJPTzzNr9fdKc8j94xDg2UAxhEMqe3sXsYWNtokoKD1SMXy2MfL600gjPdEIZA7omZNk5NrWq4Orx3",
+              "received": false
+            }
+          ],
+          "total_price": 4983,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kohlerstad",
+              "street": "Shyanne Center",
+              "house": 161,
+              "flat": 3997
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:30:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d66a01c508c5d5e0ac3ac",
+          "products": [
+            {
+              "_id": "694d66a01c508c5d5e0ac3be",
+              "name": "Towels15987",
+              "amount": 482,
+              "price": 4983,
+              "manufacturer": "Apple",
+              "notes": "c28Cl6Kii9iWxgVLuiq3nryWpcqle5ghyP6sFTOG5Xx0SVtoR7Bq5o3L6PVWvHGLf7cloW9udV5aylaVbTHhLjhVl762D5333oLZXijX81mVnTLgPm3M1dwcBzVjxxq35iEkit6n7xmZ9752avoyusX7Di7pvSmhRDIgXX0iNpoFVJPTzzNr9fdKc8j94xDg2UAxhEMqe3sXsYWNtokoKD1SMXy2MfL600gjPdEIZA7omZNk5NrWq4Orx3",
+              "received": false
+            }
+          ],
+          "total_price": 4983,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:30:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
