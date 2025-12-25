@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:32:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6598",
+    "etag": "W/\"19c6-sMPPHfibkDUh0gogpJnO/3QecKY\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d672c1c508c5d5e0b0f62",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694d672b1c508c5d5e0b0ea7",
+        "email": "Rafael.Kuhn@hotmail.com",
+        "name": "Alessandra Sanford",
+        "country": "Germany",
+        "city": "East Judge",
+        "street": "Muller View 86",
+        "house": 802,
+        "flat": 1444,
+        "phone": "+754001735938983",
+        "createdOn": "2025-12-25T16:32:43.000Z",
+        "notes": "WBDGufqlVOTe27hWioO50A9ZIFylkg"
+      },
+      "products": [
+        {
+          "_id": "694d672b1c508c5d5e0b0ec4",
+          "name": "Computer90909",
+          "amount": 743,
+          "price": 96809,
+          "manufacturer": "Microsoft",
+          "notes": "e0JIqxitf4fhBPwZjK3WsECQSjdgMuQMFwBPmSpgiQgYzkNsYuFYunsphLUl8oPgPEmZt94OPfzY2hRrVng2UouHvL1FiJTFsf1K1h3brxnFa9oDFp8YJD1lM1si1Fp7Glx69KJmvyh4WHJPc0LDYKrDAkjgPlCXkz74gWaq9cWYT5skCECVHEZ6ngiWW34ebmSfNzC3X6Tsq2o917CpA5dHTVdsJt3W2s4TgeqXFHZnvY3MD2sPW6uQWe",
+          "received": true
+        },
+        {
+          "_id": "694d672c1c508c5d5e0b0f43",
+          "name": "Chicken66254",
+          "amount": 421,
+          "price": 48304,
+          "manufacturer": "Samsung",
+          "notes": "OyeBgwlVoFf4Zy6In10Z5uVW6Dw3Yw1BjzBEdqqDxGnSfQGKV8S2ZWSJ4e7KboTivRmvlc2TSCNceHa1vP7iGqj2mzA9GpOIf3RDGODvhpZ8ojayJv4MOmWqQwVXNhJwu5NuWae1OK1MtTLrfJtDwj29Oxswa8izLaxm6k4Gt4aDvhTEGEyJmovvh5rP3yW9qutmrvO9nPzU6mYsmEKZZFpPX5iQM6MN6pwBIDlS8opuz5dLRSywlzvhHD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "East Leonmouth",
+          "street": "Taryn Circles",
+          "house": 112,
+          "flat": 5785
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 145113,
+      "createdOn": "2025-12-25T16:32:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694d672b1c508c5d5e0b0ea7",
+          "products": [
+            {
+              "_id": "694d672b1c508c5d5e0b0ec4",
+              "name": "Computer90909",
+              "amount": 743,
+              "price": 96809,
+              "manufacturer": "Microsoft",
+              "notes": "e0JIqxitf4fhBPwZjK3WsECQSjdgMuQMFwBPmSpgiQgYzkNsYuFYunsphLUl8oPgPEmZt94OPfzY2hRrVng2UouHvL1FiJTFsf1K1h3brxnFa9oDFp8YJD1lM1si1Fp7Glx69KJmvyh4WHJPc0LDYKrDAkjgPlCXkz74gWaq9cWYT5skCECVHEZ6ngiWW34ebmSfNzC3X6Tsq2o917CpA5dHTVdsJt3W2s4TgeqXFHZnvY3MD2sPW6uQWe",
+              "received": true
+            },
+            {
+              "_id": "694d672c1c508c5d5e0b0f43",
+              "name": "Chicken66254",
+              "amount": 421,
+              "price": 48304,
+              "manufacturer": "Samsung",
+              "notes": "OyeBgwlVoFf4Zy6In10Z5uVW6Dw3Yw1BjzBEdqqDxGnSfQGKV8S2ZWSJ4e7KboTivRmvlc2TSCNceHa1vP7iGqj2mzA9GpOIf3RDGODvhpZ8ojayJv4MOmWqQwVXNhJwu5NuWae1OK1MtTLrfJtDwj29Oxswa8izLaxm6k4Gt4aDvhTEGEyJmovvh5rP3yW9qutmrvO9nPzU6mYsmEKZZFpPX5iQM6MN6pwBIDlS8opuz5dLRSywlzvhHD",
+              "received": false
+            }
+          ],
+          "total_price": 145113,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Leonmouth",
+              "street": "Taryn Circles",
+              "house": 112,
+              "flat": 5785
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:32:46.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694d672b1c508c5d5e0b0ea7",
+          "products": [
+            {
+              "_id": "694d672b1c508c5d5e0b0ec4",
+              "name": "Computer90909",
+              "amount": 743,
+              "price": 96809,
+              "manufacturer": "Microsoft",
+              "notes": "e0JIqxitf4fhBPwZjK3WsECQSjdgMuQMFwBPmSpgiQgYzkNsYuFYunsphLUl8oPgPEmZt94OPfzY2hRrVng2UouHvL1FiJTFsf1K1h3brxnFa9oDFp8YJD1lM1si1Fp7Glx69KJmvyh4WHJPc0LDYKrDAkjgPlCXkz74gWaq9cWYT5skCECVHEZ6ngiWW34ebmSfNzC3X6Tsq2o917CpA5dHTVdsJt3W2s4TgeqXFHZnvY3MD2sPW6uQWe",
+              "received": false
+            },
+            {
+              "_id": "694d672c1c508c5d5e0b0f43",
+              "name": "Chicken66254",
+              "amount": 421,
+              "price": 48304,
+              "manufacturer": "Samsung",
+              "notes": "OyeBgwlVoFf4Zy6In10Z5uVW6Dw3Yw1BjzBEdqqDxGnSfQGKV8S2ZWSJ4e7KboTivRmvlc2TSCNceHa1vP7iGqj2mzA9GpOIf3RDGODvhpZ8ojayJv4MOmWqQwVXNhJwu5NuWae1OK1MtTLrfJtDwj29Oxswa8izLaxm6k4Gt4aDvhTEGEyJmovvh5rP3yW9qutmrvO9nPzU6mYsmEKZZFpPX5iQM6MN6pwBIDlS8opuz5dLRSywlzvhHD",
+              "received": false
+            }
+          ],
+          "total_price": 145113,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Leonmouth",
+              "street": "Taryn Circles",
+              "house": 112,
+              "flat": 5785
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:32:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d672b1c508c5d5e0b0ea7",
+          "products": [
+            {
+              "_id": "694d672b1c508c5d5e0b0ec4",
+              "name": "Computer90909",
+              "amount": 743,
+              "price": 96809,
+              "manufacturer": "Microsoft",
+              "notes": "e0JIqxitf4fhBPwZjK3WsECQSjdgMuQMFwBPmSpgiQgYzkNsYuFYunsphLUl8oPgPEmZt94OPfzY2hRrVng2UouHvL1FiJTFsf1K1h3brxnFa9oDFp8YJD1lM1si1Fp7Glx69KJmvyh4WHJPc0LDYKrDAkjgPlCXkz74gWaq9cWYT5skCECVHEZ6ngiWW34ebmSfNzC3X6Tsq2o917CpA5dHTVdsJt3W2s4TgeqXFHZnvY3MD2sPW6uQWe",
+              "received": false
+            },
+            {
+              "_id": "694d672c1c508c5d5e0b0f43",
+              "name": "Chicken66254",
+              "amount": 421,
+              "price": 48304,
+              "manufacturer": "Samsung",
+              "notes": "OyeBgwlVoFf4Zy6In10Z5uVW6Dw3Yw1BjzBEdqqDxGnSfQGKV8S2ZWSJ4e7KboTivRmvlc2TSCNceHa1vP7iGqj2mzA9GpOIf3RDGODvhpZ8ojayJv4MOmWqQwVXNhJwu5NuWae1OK1MtTLrfJtDwj29Oxswa8izLaxm6k4Gt4aDvhTEGEyJmovvh5rP3yW9qutmrvO9nPzU6mYsmEKZZFpPX5iQM6MN6pwBIDlS8opuz5dLRSywlzvhHD",
+              "received": false
+            }
+          ],
+          "total_price": 145113,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Leonmouth",
+              "street": "Taryn Circles",
+              "house": 112,
+              "flat": 5785
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:32:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d672b1c508c5d5e0b0ea7",
+          "products": [
+            {
+              "_id": "694d672b1c508c5d5e0b0ec4",
+              "name": "Computer90909",
+              "amount": 743,
+              "price": 96809,
+              "manufacturer": "Microsoft",
+              "notes": "e0JIqxitf4fhBPwZjK3WsECQSjdgMuQMFwBPmSpgiQgYzkNsYuFYunsphLUl8oPgPEmZt94OPfzY2hRrVng2UouHvL1FiJTFsf1K1h3brxnFa9oDFp8YJD1lM1si1Fp7Glx69KJmvyh4WHJPc0LDYKrDAkjgPlCXkz74gWaq9cWYT5skCECVHEZ6ngiWW34ebmSfNzC3X6Tsq2o917CpA5dHTVdsJt3W2s4TgeqXFHZnvY3MD2sPW6uQWe",
+              "received": false
+            },
+            {
+              "_id": "694d672c1c508c5d5e0b0f43",
+              "name": "Chicken66254",
+              "amount": 421,
+              "price": 48304,
+              "manufacturer": "Samsung",
+              "notes": "OyeBgwlVoFf4Zy6In10Z5uVW6Dw3Yw1BjzBEdqqDxGnSfQGKV8S2ZWSJ4e7KboTivRmvlc2TSCNceHa1vP7iGqj2mzA9GpOIf3RDGODvhpZ8ojayJv4MOmWqQwVXNhJwu5NuWae1OK1MtTLrfJtDwj29Oxswa8izLaxm6k4Gt4aDvhTEGEyJmovvh5rP3yW9qutmrvO9nPzU6mYsmEKZZFpPX5iQM6MN6pwBIDlS8opuz5dLRSywlzvhHD",
+              "received": false
+            }
+          ],
+          "total_price": 145113,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:32:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

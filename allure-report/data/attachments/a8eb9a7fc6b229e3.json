@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:34:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3680",
+    "etag": "W/\"e60-bKDP6bGDTfUi4AJMsq1texgV31I\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d67901c508c5d5e0b4750",
+      "status": "In Process",
+      "customer": {
+        "_id": "694d678e1c508c5d5e0b467f",
+        "email": "Suzanne_Jenkins@hotmail.com",
+        "name": "Elfrieda Franecki",
+        "country": "Belarus",
+        "city": "Sammieville",
+        "street": "Field Close 9",
+        "house": 306,
+        "flat": 4308,
+        "phone": "+262526251764421",
+        "createdOn": "2025-12-25T16:34:22.000Z",
+        "notes": "KqGzDzYdwGp702nT5P36pPRAQ3l4c0"
+      },
+      "products": [
+        {
+          "_id": "694d678f1c508c5d5e0b4697",
+          "name": "Chicken72840",
+          "amount": 564,
+          "price": 9187,
+          "manufacturer": "Xiaomi",
+          "notes": "CjRDnepvA7b3fj4XIecwTk5A8VC00JxgjIx0RmslV1Qdu9g8MgfJPIb2OMYiQGc3ejeI7DLrm99T9o1sd4sNS2rEIdyEZRgEFnLdbDRsZvLSoSnHVrceg5ceDrZ9pQQwjHYUxq6lthBaXAoQErXzXte6GfohMTNVSPUFSnvMbTsn7pfUIDMKAwpwThfF9M9H0Iie6vLjlc5KBXl627t6oPhGojrpBPkrAIFiIMQGpoMmGrBfwD8ZZVNieL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "West Clemmie",
+          "street": "Well Lane",
+          "house": 73,
+          "flat": 776
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 9187,
+      "createdOn": "2025-12-25T16:34:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694d678e1c508c5d5e0b467f",
+          "products": [
+            {
+              "_id": "694d678f1c508c5d5e0b4697",
+              "name": "Chicken72840",
+              "amount": 564,
+              "price": 9187,
+              "manufacturer": "Xiaomi",
+              "notes": "CjRDnepvA7b3fj4XIecwTk5A8VC00JxgjIx0RmslV1Qdu9g8MgfJPIb2OMYiQGc3ejeI7DLrm99T9o1sd4sNS2rEIdyEZRgEFnLdbDRsZvLSoSnHVrceg5ceDrZ9pQQwjHYUxq6lthBaXAoQErXzXte6GfohMTNVSPUFSnvMbTsn7pfUIDMKAwpwThfF9M9H0Iie6vLjlc5KBXl627t6oPhGojrpBPkrAIFiIMQGpoMmGrBfwD8ZZVNieL",
+              "received": false
+            }
+          ],
+          "total_price": 9187,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "West Clemmie",
+              "street": "Well Lane",
+              "house": 73,
+              "flat": 776
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:34:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d678e1c508c5d5e0b467f",
+          "products": [
+            {
+              "_id": "694d678f1c508c5d5e0b4697",
+              "name": "Chicken72840",
+              "amount": 564,
+              "price": 9187,
+              "manufacturer": "Xiaomi",
+              "notes": "CjRDnepvA7b3fj4XIecwTk5A8VC00JxgjIx0RmslV1Qdu9g8MgfJPIb2OMYiQGc3ejeI7DLrm99T9o1sd4sNS2rEIdyEZRgEFnLdbDRsZvLSoSnHVrceg5ceDrZ9pQQwjHYUxq6lthBaXAoQErXzXte6GfohMTNVSPUFSnvMbTsn7pfUIDMKAwpwThfF9M9H0Iie6vLjlc5KBXl627t6oPhGojrpBPkrAIFiIMQGpoMmGrBfwD8ZZVNieL",
+              "received": false
+            }
+          ],
+          "total_price": 9187,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "West Clemmie",
+              "street": "Well Lane",
+              "house": 73,
+              "flat": 776
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:34:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d678e1c508c5d5e0b467f",
+          "products": [
+            {
+              "_id": "694d678f1c508c5d5e0b4697",
+              "name": "Chicken72840",
+              "amount": 564,
+              "price": 9187,
+              "manufacturer": "Xiaomi",
+              "notes": "CjRDnepvA7b3fj4XIecwTk5A8VC00JxgjIx0RmslV1Qdu9g8MgfJPIb2OMYiQGc3ejeI7DLrm99T9o1sd4sNS2rEIdyEZRgEFnLdbDRsZvLSoSnHVrceg5ceDrZ9pQQwjHYUxq6lthBaXAoQErXzXte6GfohMTNVSPUFSnvMbTsn7pfUIDMKAwpwThfF9M9H0Iie6vLjlc5KBXl627t6oPhGojrpBPkrAIFiIMQGpoMmGrBfwD8ZZVNieL",
+              "received": false
+            }
+          ],
+          "total_price": 9187,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:34:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

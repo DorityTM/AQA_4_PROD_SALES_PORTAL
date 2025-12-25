@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:34:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2784",
+    "etag": "W/\"ae0-lfZc5oKGV7+St76nTOmJ6lQu1qU\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d67801c508c5d5e0b3db0",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d67801c508c5d5e0b3d71",
+        "email": "Geovanni.Considine32@yahoo.com",
+        "name": "Immanuel Konopelski",
+        "country": "Germany",
+        "city": "West Rosetown",
+        "street": "Holly Close 60",
+        "house": 281,
+        "flat": 228,
+        "phone": "+695240639929879",
+        "createdOn": "2025-12-25T16:34:08.000Z",
+        "notes": "CE4f8AGZA4wcO9GvhuVI9IRYKEvu0F"
+      },
+      "products": [
+        {
+          "_id": "694d67801c508c5d5e0b3d8a",
+          "name": "Hat65022",
+          "amount": 590,
+          "price": 56755,
+          "manufacturer": "Microsoft",
+          "notes": "WunSAuywPQi7H7qC3zNmiQebZedXYsMwEIofNGMMMXmy4wDCjJnVvMW7gKul16Aa3AGGZYUtQkJmSn4NtbQWXmgH8rgrzCsb4wbh5v5FEk6TqCvL1fuGkJhQmAKejcOVPoDgvbzqXoRN2OeY9JKPDODf7NT9lIh7GNxR5kjYnbitlE8XzZUiQoxUz1JV9oXN1vOz9TxVHfhE5edhfhUikG81xL8YSbB6rDMjoYYSeo5mhCBhhIm3qfKdnj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Heathcoteworth",
+          "street": "12th Street",
+          "house": 933,
+          "flat": 1481
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56755,
+      "createdOn": "2025-12-25T16:34:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d67801c508c5d5e0b3d71",
+          "products": [
+            {
+              "_id": "694d67801c508c5d5e0b3d8a",
+              "name": "Hat65022",
+              "amount": 590,
+              "price": 56755,
+              "manufacturer": "Microsoft",
+              "notes": "WunSAuywPQi7H7qC3zNmiQebZedXYsMwEIofNGMMMXmy4wDCjJnVvMW7gKul16Aa3AGGZYUtQkJmSn4NtbQWXmgH8rgrzCsb4wbh5v5FEk6TqCvL1fuGkJhQmAKejcOVPoDgvbzqXoRN2OeY9JKPDODf7NT9lIh7GNxR5kjYnbitlE8XzZUiQoxUz1JV9oXN1vOz9TxVHfhE5edhfhUikG81xL8YSbB6rDMjoYYSeo5mhCBhhIm3qfKdnj",
+              "received": false
+            }
+          ],
+          "total_price": 56755,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Heathcoteworth",
+              "street": "12th Street",
+              "house": 933,
+              "flat": 1481
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:34:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d67801c508c5d5e0b3d71",
+          "products": [
+            {
+              "_id": "694d67801c508c5d5e0b3d8a",
+              "name": "Hat65022",
+              "amount": 590,
+              "price": 56755,
+              "manufacturer": "Microsoft",
+              "notes": "WunSAuywPQi7H7qC3zNmiQebZedXYsMwEIofNGMMMXmy4wDCjJnVvMW7gKul16Aa3AGGZYUtQkJmSn4NtbQWXmgH8rgrzCsb4wbh5v5FEk6TqCvL1fuGkJhQmAKejcOVPoDgvbzqXoRN2OeY9JKPDODf7NT9lIh7GNxR5kjYnbitlE8XzZUiQoxUz1JV9oXN1vOz9TxVHfhE5edhfhUikG81xL8YSbB6rDMjoYYSeo5mhCBhhIm3qfKdnj",
+              "received": false
+            }
+          ],
+          "total_price": 56755,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:34:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

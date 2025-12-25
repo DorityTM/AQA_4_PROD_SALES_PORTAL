@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:32:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2744",
+    "etag": "W/\"ab8-BRllO7xuMln0QXexTO2n03tw0s0\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d67361c508c5d5e0b14fd",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d67351c508c5d5e0b1490",
+        "email": "Marianne66@hotmail.com",
+        "name": "Hank Lebsack",
+        "country": "USA",
+        "city": "Erlingshire",
+        "street": "Sunny Divide 94",
+        "house": 635,
+        "flat": 2408,
+        "phone": "+026593311099835",
+        "createdOn": "2025-12-25T16:32:53.000Z",
+        "notes": "Yj3uHMooL3sQO2L9iV0XxRpf9np0PL"
+      },
+      "products": [
+        {
+          "_id": "694d67361c508c5d5e0b14b9",
+          "name": "Gloves94335",
+          "amount": 340,
+          "price": 5753,
+          "manufacturer": "Samsung",
+          "notes": "p5EaCopbpxNhmqlQxfTcuzYnLHd6s0IeuxkrVyV9IygWrikAL8FnSpjL6fCcdIfOTYxKDR3FzgGcJ2yPQjoeyzN6KY0f1UcM8iuIuosY0Ra005sXaJSmtZEmQloqQvxKvKQaWXkWNEcoWYB17sbFSnn0NymJvOpVsyqhVhYz4nCOzoX15h6HQ7wFpQ9ie9yueusZVSSwAbrTnlIxAXieZCc8T6SUseSeZURStCgCFCICsp2UTouJW60jb0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Lake Joesph",
+          "street": "Harber Glen",
+          "house": 342,
+          "flat": 6265
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 5753,
+      "createdOn": "2025-12-25T16:32:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d67351c508c5d5e0b1490",
+          "products": [
+            {
+              "_id": "694d67361c508c5d5e0b14b9",
+              "name": "Gloves94335",
+              "amount": 340,
+              "price": 5753,
+              "manufacturer": "Samsung",
+              "notes": "p5EaCopbpxNhmqlQxfTcuzYnLHd6s0IeuxkrVyV9IygWrikAL8FnSpjL6fCcdIfOTYxKDR3FzgGcJ2yPQjoeyzN6KY0f1UcM8iuIuosY0Ra005sXaJSmtZEmQloqQvxKvKQaWXkWNEcoWYB17sbFSnn0NymJvOpVsyqhVhYz4nCOzoX15h6HQ7wFpQ9ie9yueusZVSSwAbrTnlIxAXieZCc8T6SUseSeZURStCgCFCICsp2UTouJW60jb0",
+              "received": false
+            }
+          ],
+          "total_price": 5753,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Lake Joesph",
+              "street": "Harber Glen",
+              "house": 342,
+              "flat": 6265
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:32:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d67351c508c5d5e0b1490",
+          "products": [
+            {
+              "_id": "694d67361c508c5d5e0b14b9",
+              "name": "Gloves94335",
+              "amount": 340,
+              "price": 5753,
+              "manufacturer": "Samsung",
+              "notes": "p5EaCopbpxNhmqlQxfTcuzYnLHd6s0IeuxkrVyV9IygWrikAL8FnSpjL6fCcdIfOTYxKDR3FzgGcJ2yPQjoeyzN6KY0f1UcM8iuIuosY0Ra005sXaJSmtZEmQloqQvxKvKQaWXkWNEcoWYB17sbFSnn0NymJvOpVsyqhVhYz4nCOzoX15h6HQ7wFpQ9ie9yueusZVSSwAbrTnlIxAXieZCc8T6SUseSeZURStCgCFCICsp2UTouJW60jb0",
+              "received": false
+            }
+          ],
+          "total_price": 5753,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:32:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

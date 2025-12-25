@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:33:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2743",
+    "etag": "W/\"ab7-DMRJ1weMSbNj6IcvT2D7ig4khls\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d67441c508c5d5e0b1c09",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d67431c508c5d5e0b1b5a",
+        "email": "Joel44@yahoo.com",
+        "name": "Troy Bauch",
+        "country": "Germany",
+        "city": "Bedford",
+        "street": "Connelly Rapid 28",
+        "house": 120,
+        "flat": 4797,
+        "phone": "+390998349115194",
+        "createdOn": "2025-12-25T16:33:07.000Z",
+        "notes": "7GXYSPm0QUodkAQeCg1966c4Sp9xpS"
+      },
+      "products": [
+        {
+          "_id": "694d67441c508c5d5e0b1be2",
+          "name": "Table41603",
+          "amount": 718,
+          "price": 41453,
+          "manufacturer": "Tesla",
+          "notes": "SLuqCb2cWT5h2A3N1g2XqOanETXMggBD5Q2ww7XOHV5ToBXwuHqvb0bf3aQD8Cf9nsNnhf8Uq8N1VaOYVgd30UzmT8uDJx5M66289hqM24ykHpVeuTAkMUtNEcow6FHqHQ9yVOjPwrv3xeJiBqySuViuIT4edpHWCRlFRz0a4ultnEnItfHdlRqthXI8C1jgnHP11kSf0mLya2A5lkq8lv6kjFn7ZBP7BDmqgjD8fQIz9nxgASpC0rs7gV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Bergstromcester",
+          "street": "Dale Street",
+          "house": 599,
+          "flat": 1853
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 41453,
+      "createdOn": "2025-12-25T16:33:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d67431c508c5d5e0b1b5a",
+          "products": [
+            {
+              "_id": "694d67441c508c5d5e0b1be2",
+              "name": "Table41603",
+              "amount": 718,
+              "price": 41453,
+              "manufacturer": "Tesla",
+              "notes": "SLuqCb2cWT5h2A3N1g2XqOanETXMggBD5Q2ww7XOHV5ToBXwuHqvb0bf3aQD8Cf9nsNnhf8Uq8N1VaOYVgd30UzmT8uDJx5M66289hqM24ykHpVeuTAkMUtNEcow6FHqHQ9yVOjPwrv3xeJiBqySuViuIT4edpHWCRlFRz0a4ultnEnItfHdlRqthXI8C1jgnHP11kSf0mLya2A5lkq8lv6kjFn7ZBP7BDmqgjD8fQIz9nxgASpC0rs7gV",
+              "received": false
+            }
+          ],
+          "total_price": 41453,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Bergstromcester",
+              "street": "Dale Street",
+              "house": 599,
+              "flat": 1853
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:33:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d67431c508c5d5e0b1b5a",
+          "products": [
+            {
+              "_id": "694d67441c508c5d5e0b1be2",
+              "name": "Table41603",
+              "amount": 718,
+              "price": 41453,
+              "manufacturer": "Tesla",
+              "notes": "SLuqCb2cWT5h2A3N1g2XqOanETXMggBD5Q2ww7XOHV5ToBXwuHqvb0bf3aQD8Cf9nsNnhf8Uq8N1VaOYVgd30UzmT8uDJx5M66289hqM24ykHpVeuTAkMUtNEcow6FHqHQ9yVOjPwrv3xeJiBqySuViuIT4edpHWCRlFRz0a4ultnEnItfHdlRqthXI8C1jgnHP11kSf0mLya2A5lkq8lv6kjFn7ZBP7BDmqgjD8fQIz9nxgASpC0rs7gV",
+              "received": false
+            }
+          ],
+          "total_price": 41453,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:33:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

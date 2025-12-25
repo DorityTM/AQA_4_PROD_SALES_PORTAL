@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 16:33:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4606",
+    "etag": "W/\"11fe-TzBQ7Uz34YBPP2vy+pozHmHj0mQ\"",
+    "keep-alive": "timeout=5, max=9",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d675b1c508c5d5e0b283c",
+      "status": "Received",
+      "customer": {
+        "_id": "694d675a1c508c5d5e0b27e7",
+        "email": "Laurine_Hayes@yahoo.com",
+        "name": "Angeline Roob",
+        "country": "Belarus",
+        "city": "Jalynland",
+        "street": "W Market Street 52",
+        "house": 287,
+        "flat": 3623,
+        "phone": "+699787846132250",
+        "createdOn": "2025-12-25T16:33:30.000Z",
+        "notes": "vVMmASqWcTfD9wYSeDswsgdSmPNART"
+      },
+      "products": [
+        {
+          "_id": "694d675a1c508c5d5e0b280a",
+          "name": "Shirt18787",
+          "amount": 943,
+          "price": 64324,
+          "manufacturer": "Tesla",
+          "notes": "1XuJdnLx159qUWdHqZJypHslYBfE8UIxKEu4dk9Rmah7H0L7TQ6SjBMsd10EeXHKuzcOMa1Xjt7hAh1KyFX3jTPitlMrTl04WaDWPiBeuwgwJDkrke3B2QoWcG4OgSlsA2HOg821gURmQyEXfpTluf9BIWSCM35pVqVhG47WPkpEPu2v6zuyYWiHhuh1pPYcyJmIEtEFoK4wkhUn8rJip2wqzest6TSAYyEaahlumDI3Hw41VjqzTvklmE",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Fort Rogers",
+          "street": "Schaefer Light",
+          "house": 283,
+          "flat": 8299
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64324,
+      "createdOn": "2025-12-25T16:33:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694d675a1c508c5d5e0b27e7",
+          "products": [
+            {
+              "_id": "694d675a1c508c5d5e0b280a",
+              "name": "Shirt18787",
+              "amount": 943,
+              "price": 64324,
+              "manufacturer": "Tesla",
+              "notes": "1XuJdnLx159qUWdHqZJypHslYBfE8UIxKEu4dk9Rmah7H0L7TQ6SjBMsd10EeXHKuzcOMa1Xjt7hAh1KyFX3jTPitlMrTl04WaDWPiBeuwgwJDkrke3B2QoWcG4OgSlsA2HOg821gURmQyEXfpTluf9BIWSCM35pVqVhG47WPkpEPu2v6zuyYWiHhuh1pPYcyJmIEtEFoK4wkhUn8rJip2wqzest6TSAYyEaahlumDI3Hw41VjqzTvklmE",
+              "received": true
+            }
+          ],
+          "total_price": 64324,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Rogers",
+              "street": "Schaefer Light",
+              "house": 283,
+              "flat": 8299
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:33:32.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694d675a1c508c5d5e0b27e7",
+          "products": [
+            {
+              "_id": "694d675a1c508c5d5e0b280a",
+              "name": "Shirt18787",
+              "amount": 943,
+              "price": 64324,
+              "manufacturer": "Tesla",
+              "notes": "1XuJdnLx159qUWdHqZJypHslYBfE8UIxKEu4dk9Rmah7H0L7TQ6SjBMsd10EeXHKuzcOMa1Xjt7hAh1KyFX3jTPitlMrTl04WaDWPiBeuwgwJDkrke3B2QoWcG4OgSlsA2HOg821gURmQyEXfpTluf9BIWSCM35pVqVhG47WPkpEPu2v6zuyYWiHhuh1pPYcyJmIEtEFoK4wkhUn8rJip2wqzest6TSAYyEaahlumDI3Hw41VjqzTvklmE",
+              "received": false
+            }
+          ],
+          "total_price": 64324,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Rogers",
+              "street": "Schaefer Light",
+              "house": 283,
+              "flat": 8299
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:33:32.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d675a1c508c5d5e0b27e7",
+          "products": [
+            {
+              "_id": "694d675a1c508c5d5e0b280a",
+              "name": "Shirt18787",
+              "amount": 943,
+              "price": 64324,
+              "manufacturer": "Tesla",
+              "notes": "1XuJdnLx159qUWdHqZJypHslYBfE8UIxKEu4dk9Rmah7H0L7TQ6SjBMsd10EeXHKuzcOMa1Xjt7hAh1KyFX3jTPitlMrTl04WaDWPiBeuwgwJDkrke3B2QoWcG4OgSlsA2HOg821gURmQyEXfpTluf9BIWSCM35pVqVhG47WPkpEPu2v6zuyYWiHhuh1pPYcyJmIEtEFoK4wkhUn8rJip2wqzest6TSAYyEaahlumDI3Hw41VjqzTvklmE",
+              "received": false
+            }
+          ],
+          "total_price": 64324,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Rogers",
+              "street": "Schaefer Light",
+              "house": 283,
+              "flat": 8299
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T16:33:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d675a1c508c5d5e0b27e7",
+          "products": [
+            {
+              "_id": "694d675a1c508c5d5e0b280a",
+              "name": "Shirt18787",
+              "amount": 943,
+              "price": 64324,
+              "manufacturer": "Tesla",
+              "notes": "1XuJdnLx159qUWdHqZJypHslYBfE8UIxKEu4dk9Rmah7H0L7TQ6SjBMsd10EeXHKuzcOMa1Xjt7hAh1KyFX3jTPitlMrTl04WaDWPiBeuwgwJDkrke3B2QoWcG4OgSlsA2HOg821gURmQyEXfpTluf9BIWSCM35pVqVhG47WPkpEPu2v6zuyYWiHhuh1pPYcyJmIEtEFoK4wkhUn8rJip2wqzest6TSAYyEaahlumDI3Hw41VjqzTvklmE",
+              "received": false
+            }
+          ],
+          "total_price": 64324,
+          "delivery": null,
+          "changedOn": "2025-12-25T16:33:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
