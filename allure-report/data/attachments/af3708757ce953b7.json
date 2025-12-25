@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:25:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2759",
+    "etag": "W/\"ac7-jAJkEOusdTseQ3AczYE5cxyt8Mk\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db9d51c508c5d5e112f56",
+      "status": "Draft",
+      "customer": {
+        "_id": "694db9d41c508c5d5e112f10",
+        "email": "Mary.Hudson41@hotmail.com",
+        "name": "Fred Schaden",
+        "country": "Germany",
+        "city": "South Evelyn",
+        "street": "The Square 78",
+        "house": 995,
+        "flat": 6036,
+        "phone": "+001535764628773",
+        "createdOn": "2025-12-25T22:25:24.000Z",
+        "notes": "Dz6ShMMEaupTcYNCxVhPuZI4GbEUgo"
+      },
+      "products": [
+        {
+          "_id": "694db9d41c508c5d5e112f36",
+          "name": "Bike18980",
+          "amount": 778,
+          "price": 26771,
+          "manufacturer": "Google",
+          "notes": "VjpSnqAuUPsUSpJLebkf9IcYBwsIMglPbOTeE1mkeyWHbXV5NOzeGATNlrkV1thEgTeHkbiggzQ5c6z7gr8aVpUL1qYmsOmyDhUhwiYB7hMTPW5WSJQl37nuXSLaSyTKZCGUaG9Eu2FAelLKNgRFIpwMzt1iHgqwe6QbGQI40yPPgS3GCN3YXqMmS9VCjjfGj1uRLR1DDDeJfOpDgwLAwcQNwSBFuw9czhhtkRcv3vy72cTaN5sg0YCmtv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Camrynchester",
+          "street": "Schaden Overpass",
+          "house": 905,
+          "flat": 9487
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 26771,
+      "createdOn": "2025-12-25T22:25:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694db9d41c508c5d5e112f10",
+          "products": [
+            {
+              "_id": "694db9d41c508c5d5e112f36",
+              "name": "Bike18980",
+              "amount": 778,
+              "price": 26771,
+              "manufacturer": "Google",
+              "notes": "VjpSnqAuUPsUSpJLebkf9IcYBwsIMglPbOTeE1mkeyWHbXV5NOzeGATNlrkV1thEgTeHkbiggzQ5c6z7gr8aVpUL1qYmsOmyDhUhwiYB7hMTPW5WSJQl37nuXSLaSyTKZCGUaG9Eu2FAelLKNgRFIpwMzt1iHgqwe6QbGQI40yPPgS3GCN3YXqMmS9VCjjfGj1uRLR1DDDeJfOpDgwLAwcQNwSBFuw9czhhtkRcv3vy72cTaN5sg0YCmtv",
+              "received": false
+            }
+          ],
+          "total_price": 26771,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Camrynchester",
+              "street": "Schaden Overpass",
+              "house": 905,
+              "flat": 9487
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:25:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db9d41c508c5d5e112f10",
+          "products": [
+            {
+              "_id": "694db9d41c508c5d5e112f36",
+              "name": "Bike18980",
+              "amount": 778,
+              "price": 26771,
+              "manufacturer": "Google",
+              "notes": "VjpSnqAuUPsUSpJLebkf9IcYBwsIMglPbOTeE1mkeyWHbXV5NOzeGATNlrkV1thEgTeHkbiggzQ5c6z7gr8aVpUL1qYmsOmyDhUhwiYB7hMTPW5WSJQl37nuXSLaSyTKZCGUaG9Eu2FAelLKNgRFIpwMzt1iHgqwe6QbGQI40yPPgS3GCN3YXqMmS9VCjjfGj1uRLR1DDDeJfOpDgwLAwcQNwSBFuw9czhhtkRcv3vy72cTaN5sg0YCmtv",
+              "received": false
+            }
+          ],
+          "total_price": 26771,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:25:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:25:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3721",
+    "etag": "W/\"e89-/+c/IPnoUbwttnPZe/cJ3m84bHY\"",
+    "keep-alive": "timeout=5, max=24",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694db9ed1c508c5d5e113fb6",
+      "status": "In Process",
+      "customer": {
+        "_id": "694db9ec1c508c5d5e113f68",
+        "email": "Susanna_Goldner@gmail.com",
+        "name": "Roy Shields",
+        "country": "Germany",
+        "city": "Lednerstad",
+        "street": "Keely Light 52",
+        "house": 148,
+        "flat": 5901,
+        "phone": "+255740681059238",
+        "createdOn": "2025-12-25T22:25:48.000Z",
+        "notes": "Kvx6IHl72cc3UQldA0uIlnkDKgFRv5"
+      },
+      "products": [
+        {
+          "_id": "694db9ed1c508c5d5e113f8c",
+          "name": "Bacon73219",
+          "amount": 634,
+          "price": 14094,
+          "manufacturer": "Samsung",
+          "notes": "phkEJVNAREvFAMqaIslKfjT5VwFvjT0T2Rv0HU9wTvVANRLB9CdNC415DsAjngApoqccCXhJMakXJKIDQ1sm7ttr1YfytrJBWHtahL1kQEBHLqiU9j2GGYIFkRTefoadluauCm3Z4oi2iuGLtV4w7f0CgvGooYIvEqzRwfOaJbZ6bXzyO1aB3SGbXQSwozGQXRmHkmTggjyOOvPuffa36vAAqSzWjOgTpLLvjo4xd9I7AzSCUPW1mqhs0y",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "North Russelton",
+          "street": "Cartwright View",
+          "house": 4,
+          "flat": 3232
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 14094,
+      "createdOn": "2025-12-25T22:25:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694db9ec1c508c5d5e113f68",
+          "products": [
+            {
+              "_id": "694db9ed1c508c5d5e113f8c",
+              "name": "Bacon73219",
+              "amount": 634,
+              "price": 14094,
+              "manufacturer": "Samsung",
+              "notes": "phkEJVNAREvFAMqaIslKfjT5VwFvjT0T2Rv0HU9wTvVANRLB9CdNC415DsAjngApoqccCXhJMakXJKIDQ1sm7ttr1YfytrJBWHtahL1kQEBHLqiU9j2GGYIFkRTefoadluauCm3Z4oi2iuGLtV4w7f0CgvGooYIvEqzRwfOaJbZ6bXzyO1aB3SGbXQSwozGQXRmHkmTggjyOOvPuffa36vAAqSzWjOgTpLLvjo4xd9I7AzSCUPW1mqhs0y",
+              "received": false
+            }
+          ],
+          "total_price": 14094,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "North Russelton",
+              "street": "Cartwright View",
+              "house": 4,
+              "flat": 3232
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:25:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db9ec1c508c5d5e113f68",
+          "products": [
+            {
+              "_id": "694db9ed1c508c5d5e113f8c",
+              "name": "Bacon73219",
+              "amount": 634,
+              "price": 14094,
+              "manufacturer": "Samsung",
+              "notes": "phkEJVNAREvFAMqaIslKfjT5VwFvjT0T2Rv0HU9wTvVANRLB9CdNC415DsAjngApoqccCXhJMakXJKIDQ1sm7ttr1YfytrJBWHtahL1kQEBHLqiU9j2GGYIFkRTefoadluauCm3Z4oi2iuGLtV4w7f0CgvGooYIvEqzRwfOaJbZ6bXzyO1aB3SGbXQSwozGQXRmHkmTggjyOOvPuffa36vAAqSzWjOgTpLLvjo4xd9I7AzSCUPW1mqhs0y",
+              "received": false
+            }
+          ],
+          "total_price": 14094,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "North Russelton",
+              "street": "Cartwright View",
+              "house": 4,
+              "flat": 3232
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:25:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694db9ec1c508c5d5e113f68",
+          "products": [
+            {
+              "_id": "694db9ed1c508c5d5e113f8c",
+              "name": "Bacon73219",
+              "amount": 634,
+              "price": 14094,
+              "manufacturer": "Samsung",
+              "notes": "phkEJVNAREvFAMqaIslKfjT5VwFvjT0T2Rv0HU9wTvVANRLB9CdNC415DsAjngApoqccCXhJMakXJKIDQ1sm7ttr1YfytrJBWHtahL1kQEBHLqiU9j2GGYIFkRTefoadluauCm3Z4oi2iuGLtV4w7f0CgvGooYIvEqzRwfOaJbZ6bXzyO1aB3SGbXQSwozGQXRmHkmTggjyOOvPuffa36vAAqSzWjOgTpLLvjo4xd9I7AzSCUPW1mqhs0y",
+              "received": false
+            }
+          ],
+          "total_price": 14094,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:25:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

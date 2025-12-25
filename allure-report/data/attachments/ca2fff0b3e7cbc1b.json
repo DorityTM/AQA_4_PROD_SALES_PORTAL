@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:27:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3882",
+    "etag": "W/\"f2a-nc2nnjPSjBLOBClZBmJu8X/TKAw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694dba331c508c5d5e116e4a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694dba321c508c5d5e116de8",
+        "email": "Mayra.Walter@gmail.com",
+        "name": "Tom Adams",
+        "country": "USA",
+        "city": "Port Kadinside",
+        "street": "Louisa Landing 32",
+        "house": 909,
+        "flat": 1822,
+        "phone": "+046571297562269",
+        "createdOn": "2025-12-25T22:26:58.000Z",
+        "notes": "hG6Ok81Hb6nDQucwOzx8lfERvNJ0ci"
+      },
+      "products": [
+        {
+          "_id": "694dba321c508c5d5e116e07",
+          "name": "Car74239",
+          "amount": 79,
+          "price": 71275,
+          "manufacturer": "Microsoft",
+          "notes": "TtwjVjexAYvwdLjtOwUsQCEp21fymUjckTuSrCQjdUUYu4X5X067CfdwjcDW4l2ajSQGH45qT0pLJPilrl6jExlrS17iwhZ6A7fGGhK0JBWg4QgODSNl1C7TtnGKVgCPJgDPkyCwcvN2rV6rIrGBreXIQHeoQV27VNdfVahaCdgWvYq0JjDe98JQFDrPbWisBLd8euZHiaisArTaZKVTYV3PP8epgHrWU3ajjmpOcoq3ttwPJPMXOoEtRQ",
+          "received": false
+        },
+        {
+          "_id": "694dba331c508c5d5e116e26",
+          "name": "Pizza79785",
+          "amount": 567,
+          "price": 41199,
+          "manufacturer": "Tesla",
+          "notes": "bY46pzJEPwAFjncPMGWjcL6j3kGJaHNqucy6SEA2MCf9ziUQs3Myl4TimqHUfDSkJ1XtZoQuvDmgnECPInYjsKSZhyp4J0r8LufJi76K7EX0f2VeP8NnklHgQui1VRdcaf2n4K7jAPhtBy8reokqFIbc3whZgr4ndZLh3Anrs0SQsrAmDcajZdPPGBq8pwG1VM4ayJAIl2OldD8uev7h7AfY8GU51bkWoIQY2XCuVVwDRGfILxL5XNgTdp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Wisozkhaven",
+          "street": "Kingsway",
+          "house": 592,
+          "flat": 361
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 112474,
+      "createdOn": "2025-12-25T22:26:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694dba321c508c5d5e116de8",
+          "products": [
+            {
+              "_id": "694dba321c508c5d5e116e07",
+              "name": "Car74239",
+              "amount": 79,
+              "price": 71275,
+              "manufacturer": "Microsoft",
+              "notes": "TtwjVjexAYvwdLjtOwUsQCEp21fymUjckTuSrCQjdUUYu4X5X067CfdwjcDW4l2ajSQGH45qT0pLJPilrl6jExlrS17iwhZ6A7fGGhK0JBWg4QgODSNl1C7TtnGKVgCPJgDPkyCwcvN2rV6rIrGBreXIQHeoQV27VNdfVahaCdgWvYq0JjDe98JQFDrPbWisBLd8euZHiaisArTaZKVTYV3PP8epgHrWU3ajjmpOcoq3ttwPJPMXOoEtRQ",
+              "received": false
+            },
+            {
+              "_id": "694dba331c508c5d5e116e26",
+              "name": "Pizza79785",
+              "amount": 567,
+              "price": 41199,
+              "manufacturer": "Tesla",
+              "notes": "bY46pzJEPwAFjncPMGWjcL6j3kGJaHNqucy6SEA2MCf9ziUQs3Myl4TimqHUfDSkJ1XtZoQuvDmgnECPInYjsKSZhyp4J0r8LufJi76K7EX0f2VeP8NnklHgQui1VRdcaf2n4K7jAPhtBy8reokqFIbc3whZgr4ndZLh3Anrs0SQsrAmDcajZdPPGBq8pwG1VM4ayJAIl2OldD8uev7h7AfY8GU51bkWoIQY2XCuVVwDRGfILxL5XNgTdp",
+              "received": false
+            }
+          ],
+          "total_price": 112474,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Wisozkhaven",
+              "street": "Kingsway",
+              "house": 592,
+              "flat": 361
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:27:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694dba321c508c5d5e116de8",
+          "products": [
+            {
+              "_id": "694dba321c508c5d5e116e07",
+              "name": "Car74239",
+              "amount": 79,
+              "price": 71275,
+              "manufacturer": "Microsoft",
+              "notes": "TtwjVjexAYvwdLjtOwUsQCEp21fymUjckTuSrCQjdUUYu4X5X067CfdwjcDW4l2ajSQGH45qT0pLJPilrl6jExlrS17iwhZ6A7fGGhK0JBWg4QgODSNl1C7TtnGKVgCPJgDPkyCwcvN2rV6rIrGBreXIQHeoQV27VNdfVahaCdgWvYq0JjDe98JQFDrPbWisBLd8euZHiaisArTaZKVTYV3PP8epgHrWU3ajjmpOcoq3ttwPJPMXOoEtRQ",
+              "received": false
+            },
+            {
+              "_id": "694dba331c508c5d5e116e26",
+              "name": "Pizza79785",
+              "amount": 567,
+              "price": 41199,
+              "manufacturer": "Tesla",
+              "notes": "bY46pzJEPwAFjncPMGWjcL6j3kGJaHNqucy6SEA2MCf9ziUQs3Myl4TimqHUfDSkJ1XtZoQuvDmgnECPInYjsKSZhyp4J0r8LufJi76K7EX0f2VeP8NnklHgQui1VRdcaf2n4K7jAPhtBy8reokqFIbc3whZgr4ndZLh3Anrs0SQsrAmDcajZdPPGBq8pwG1VM4ayJAIl2OldD8uev7h7AfY8GU51bkWoIQY2XCuVVwDRGfILxL5XNgTdp",
+              "received": false
+            }
+          ],
+          "total_price": 112474,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:26:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

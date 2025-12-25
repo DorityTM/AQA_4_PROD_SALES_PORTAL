@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:26:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4590",
+    "etag": "W/\"11ee-Dsm0L8HdsnEPiqaCRokt+PZHl5Y\"",
+    "keep-alive": "timeout=5, max=11",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694dba031c508c5d5e114dec",
+      "status": "Received",
+      "customer": {
+        "_id": "694dba031c508c5d5e114da5",
+        "email": "Matilde65@gmail.com",
+        "name": "Ashlee Dare",
+        "country": "Belarus",
+        "city": "Mariannaburgh",
+        "street": "Morar Spring 97",
+        "house": 701,
+        "flat": 9531,
+        "phone": "+511626024116543",
+        "createdOn": "2025-12-25T22:26:11.000Z",
+        "notes": "ZC9eoSlEFp4H4hqaRNcLK0bwlMw1FX"
+      },
+      "products": [
+        {
+          "_id": "694dba031c508c5d5e114dc0",
+          "name": "Table40747",
+          "amount": 803,
+          "price": 15480,
+          "manufacturer": "Amazon",
+          "notes": "CpUmEFEqU2V1Nr7g6730ugfaET8jigsxThtcLgmcCd5vFfleqLkmljV29AL2K8z4aa6dWNDjwKgLQnqxLuRUANTaEk3wVD4oR87rQAZ9qBLUcVPJPvtQ7V0xIxGkh2V5LSqTUVFUSpHy29eXqpRU9NJAz0eZhQKm2XWMe1TwpwwwTER2QxovwAjdthsA6pxCWuLa2GtuG0AzbJZsTVrKaqj9H20bESJJYN6APT3Oa56lzuvpnpO6o5Gafi",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Romagueraworth",
+          "street": "New Lane",
+          "house": 89,
+          "flat": 4054
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15480,
+      "createdOn": "2025-12-25T22:26:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694dba031c508c5d5e114da5",
+          "products": [
+            {
+              "_id": "694dba031c508c5d5e114dc0",
+              "name": "Table40747",
+              "amount": 803,
+              "price": 15480,
+              "manufacturer": "Amazon",
+              "notes": "CpUmEFEqU2V1Nr7g6730ugfaET8jigsxThtcLgmcCd5vFfleqLkmljV29AL2K8z4aa6dWNDjwKgLQnqxLuRUANTaEk3wVD4oR87rQAZ9qBLUcVPJPvtQ7V0xIxGkh2V5LSqTUVFUSpHy29eXqpRU9NJAz0eZhQKm2XWMe1TwpwwwTER2QxovwAjdthsA6pxCWuLa2GtuG0AzbJZsTVrKaqj9H20bESJJYN6APT3Oa56lzuvpnpO6o5Gafi",
+              "received": true
+            }
+          ],
+          "total_price": 15480,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Romagueraworth",
+              "street": "New Lane",
+              "house": 89,
+              "flat": 4054
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:26:15.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694dba031c508c5d5e114da5",
+          "products": [
+            {
+              "_id": "694dba031c508c5d5e114dc0",
+              "name": "Table40747",
+              "amount": 803,
+              "price": 15480,
+              "manufacturer": "Amazon",
+              "notes": "CpUmEFEqU2V1Nr7g6730ugfaET8jigsxThtcLgmcCd5vFfleqLkmljV29AL2K8z4aa6dWNDjwKgLQnqxLuRUANTaEk3wVD4oR87rQAZ9qBLUcVPJPvtQ7V0xIxGkh2V5LSqTUVFUSpHy29eXqpRU9NJAz0eZhQKm2XWMe1TwpwwwTER2QxovwAjdthsA6pxCWuLa2GtuG0AzbJZsTVrKaqj9H20bESJJYN6APT3Oa56lzuvpnpO6o5Gafi",
+              "received": false
+            }
+          ],
+          "total_price": 15480,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Romagueraworth",
+              "street": "New Lane",
+              "house": 89,
+              "flat": 4054
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:26:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694dba031c508c5d5e114da5",
+          "products": [
+            {
+              "_id": "694dba031c508c5d5e114dc0",
+              "name": "Table40747",
+              "amount": 803,
+              "price": 15480,
+              "manufacturer": "Amazon",
+              "notes": "CpUmEFEqU2V1Nr7g6730ugfaET8jigsxThtcLgmcCd5vFfleqLkmljV29AL2K8z4aa6dWNDjwKgLQnqxLuRUANTaEk3wVD4oR87rQAZ9qBLUcVPJPvtQ7V0xIxGkh2V5LSqTUVFUSpHy29eXqpRU9NJAz0eZhQKm2XWMe1TwpwwwTER2QxovwAjdthsA6pxCWuLa2GtuG0AzbJZsTVrKaqj9H20bESJJYN6APT3Oa56lzuvpnpO6o5Gafi",
+              "received": false
+            }
+          ],
+          "total_price": 15480,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Romagueraworth",
+              "street": "New Lane",
+              "house": 89,
+              "flat": 4054
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:26:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694dba031c508c5d5e114da5",
+          "products": [
+            {
+              "_id": "694dba031c508c5d5e114dc0",
+              "name": "Table40747",
+              "amount": 803,
+              "price": 15480,
+              "manufacturer": "Amazon",
+              "notes": "CpUmEFEqU2V1Nr7g6730ugfaET8jigsxThtcLgmcCd5vFfleqLkmljV29AL2K8z4aa6dWNDjwKgLQnqxLuRUANTaEk3wVD4oR87rQAZ9qBLUcVPJPvtQ7V0xIxGkh2V5LSqTUVFUSpHy29eXqpRU9NJAz0eZhQKm2XWMe1TwpwwwTER2QxovwAjdthsA6pxCWuLa2GtuG0AzbJZsTVrKaqj9H20bESJJYN6APT3Oa56lzuvpnpO6o5Gafi",
+              "received": false
+            }
+          ],
+          "total_price": 15480,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:26:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
