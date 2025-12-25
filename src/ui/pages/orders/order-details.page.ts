@@ -1,8 +1,10 @@
 import { expect, Page } from "@playwright/test";
 import { SalesPortalPage } from "../salesPortal.page";
 import { logStep } from "utils/report/logStep.utils.js";
+import { ConfirmationModal } from "../confirmation.modal";
+import { MODAL_TEXT, NOTIFICATIONS } from "data/salesPortal/notifications";
 import { OrderDetailsHeader, OrderDetailsCustomerDetails, OrderDetailsRequestedProducts } from "./components";
-import { TIMEOUT_30_S } from "data/salesPortal/constants";
+import { TIMEOUT_50_S } from "data/salesPortal/constants";
 
 /**
  * Order Details PageObject orchestrator.
@@ -11,6 +13,11 @@ import { TIMEOUT_30_S } from "data/salesPortal/constants";
 export class OrderDetailsPage extends SalesPortalPage {
   readonly orderInfoContainer = this.page.locator("#order-info-container");
   readonly tabsContainer = this.page.locator("#order-details-tabs-section");
+  readonly processOrderButton = this.page.locator("#process-order");
+  readonly cancelOrderButton = this.page.locator("#cancel-order");
+  readonly reopenOrderButton = this.page.locator("#reopen-order");
+  readonly modalText = this.page.locator("div.modal-body.modal-body-text");
+  readonly notificationToast = this.page.locator(".toast-body");
   // Be tolerant: different FE builds may render different anchors
   readonly uniqueElement = this.page.locator(
     [
@@ -36,6 +43,12 @@ export class OrderDetailsPage extends SalesPortalPage {
     this.requestedProducts = new OrderDetailsRequestedProducts(page);
   }
 
+  // Modals
+  readonly confirmationModal = new ConfirmationModal(this.page);
+  processModal = this.confirmationModal;
+  cancelModal = this.confirmationModal;
+  reopenModal = this.confirmationModal;
+
   @logStep("OPEN ORDER DETAILS BY ROUTE")
   async openByRoute(route: string) {
     await this.open(route);
@@ -51,7 +64,7 @@ export class OrderDetailsPage extends SalesPortalPage {
 
   @logStep("WAIT FOR ORDER DETAILS PAGE TO OPEN")
   async waitForOpened() {
-    await expect(this.uniqueElement.first()).toBeVisible({ timeout: TIMEOUT_30_S });
+    await expect(this.uniqueElement.first()).toBeVisible({ timeout: TIMEOUT_50_S });
     await this.waitForSpinners();
   }
 
@@ -77,5 +90,47 @@ export class OrderDetailsPage extends SalesPortalPage {
   @logStep("SWITCH TO COMMENTS TAB")
   async openCommentsTab() {
     await this.tabs.comments.click();
+  }
+
+  async clickProcess() {
+    await this.processOrderButton.click();
+    await this.processModal.waitForOpened();
+  }
+
+  async processOrder() {
+    await this.processOrderButton.click();
+    await this.processModal.waitForOpened();
+    await expect(this.modalText).toHaveText(MODAL_TEXT.PROCESS_ORDER);
+    await this.processModal.clickConfirm();
+    await expect(this.notificationToast).toHaveText(NOTIFICATIONS.ORDER_PROCESSED);
+    await this.waitForOpened();
+  }
+
+  async clickCancel() {
+    await this.cancelOrderButton.click();
+    await this.cancelModal.waitForOpened();
+  }
+
+  async cancelOrder() {
+    await this.cancelOrderButton.click();
+    await this.cancelModal.waitForOpened();
+    await expect(this.modalText).toHaveText(MODAL_TEXT.CANCEL_ORDER);
+    await this.cancelModal.clickConfirm();
+    await expect(this.notificationToast).toHaveText(NOTIFICATIONS.ORDER_CANCELED);
+    await this.waitForOpened();
+  }
+
+  async clickReopen() {
+    await this.reopenOrderButton.click();
+    await this.reopenModal.waitForOpened();
+  }
+
+  async reopenOrder() {
+    await this.reopenOrderButton.click();
+    await this.reopenModal.waitForOpened();
+    await expect(this.modalText).toHaveText(MODAL_TEXT.REOPEN_ORDER);
+    await this.reopenModal.clickConfirm();
+    await expect(this.notificationToast).toHaveText(NOTIFICATIONS.ORDER_REOPENED);
+    await this.waitForOpened();
   }
 }
