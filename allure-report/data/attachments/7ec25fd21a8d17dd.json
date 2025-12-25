@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 19:57:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5202",
+    "etag": "W/\"1452-rC25Qxjz9Cpc7DP7H3x46C3K8lc\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d970e1c508c5d5e0cd297",
+      "status": "In Process",
+      "customer": {
+        "_id": "694d970c1c508c5d5e0cd165",
+        "email": "Macey27@hotmail.com",
+        "name": "Armando Johns",
+        "country": "USA",
+        "city": "Nicolasside",
+        "street": "Mill Street 29",
+        "house": 27,
+        "flat": 4137,
+        "phone": "+058616401958197",
+        "createdOn": "2025-12-25T19:57:00.000Z",
+        "notes": "1NtEQuC8vVshxocjaI3fpQiX8C0ETH"
+      },
+      "products": [
+        {
+          "_id": "694d970c1c508c5d5e0cd18d",
+          "name": "Chair72297",
+          "amount": 156,
+          "price": 84990,
+          "manufacturer": "Apple",
+          "notes": "yh95c1rwWb0IARTsvN4PT0HWj2HDMNYXVw0VHh69E6hZJIEcKQNrKDTHowxnELjyOylJX2QzGgFHXhhUTmFefAQbbQKKKoWUzk0WKMgFXkxlMQq2ljlpABmVKJn0WT8Dd3yjKR8i39Z39cdRoFFjepvi5KJYbblPCfFf4VJRLiOZ7klEoabEGKigYNoGIxJ2CD0eQQ4FejwJdtsEc26nU7FE93wfWPNbakXc68FqS5I6oEVRdK1gNt0Vu4",
+          "received": false
+        },
+        {
+          "_id": "694d970d1c508c5d5e0cd1b5",
+          "name": "Hat60929",
+          "amount": 480,
+          "price": 22952,
+          "manufacturer": "Sony",
+          "notes": "wArKieCyctQ7dvF3Az2Y2alJmVZNHw2lxRxqxD74ixAJhhPdDNQ7GuC3XbFYdeRZoK36doHJgzd3nUwd9P9uXsWTyjpZQhffpkdc4JWRot0PUmOEKKgsfARTZ722aBoZ5dyqplzlUV8UC4k9putrUcJ4mAV16obX8q8UpF2o8NhDFMwHQ4dJAMQefkrIr50RGtWnAReND5eBhF3QNGV6feh7HyLbM49a35ZA1PL2308ldEVsFNRH0wa4EQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Lake Madonna",
+          "street": "Dortha Valleys",
+          "house": 292,
+          "flat": 7235
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 107942,
+      "createdOn": "2025-12-25T19:57:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694d970c1c508c5d5e0cd165",
+          "products": [
+            {
+              "_id": "694d970c1c508c5d5e0cd18d",
+              "name": "Chair72297",
+              "amount": 156,
+              "price": 84990,
+              "manufacturer": "Apple",
+              "notes": "yh95c1rwWb0IARTsvN4PT0HWj2HDMNYXVw0VHh69E6hZJIEcKQNrKDTHowxnELjyOylJX2QzGgFHXhhUTmFefAQbbQKKKoWUzk0WKMgFXkxlMQq2ljlpABmVKJn0WT8Dd3yjKR8i39Z39cdRoFFjepvi5KJYbblPCfFf4VJRLiOZ7klEoabEGKigYNoGIxJ2CD0eQQ4FejwJdtsEc26nU7FE93wfWPNbakXc68FqS5I6oEVRdK1gNt0Vu4",
+              "received": false
+            },
+            {
+              "_id": "694d970d1c508c5d5e0cd1b5",
+              "name": "Hat60929",
+              "amount": 480,
+              "price": 22952,
+              "manufacturer": "Sony",
+              "notes": "wArKieCyctQ7dvF3Az2Y2alJmVZNHw2lxRxqxD74ixAJhhPdDNQ7GuC3XbFYdeRZoK36doHJgzd3nUwd9P9uXsWTyjpZQhffpkdc4JWRot0PUmOEKKgsfARTZ722aBoZ5dyqplzlUV8UC4k9putrUcJ4mAV16obX8q8UpF2o8NhDFMwHQ4dJAMQefkrIr50RGtWnAReND5eBhF3QNGV6feh7HyLbM49a35ZA1PL2308ldEVsFNRH0wa4EQ",
+              "received": false
+            }
+          ],
+          "total_price": 107942,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Madonna",
+              "street": "Dortha Valleys",
+              "house": 292,
+              "flat": 7235
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T19:57:03.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d970c1c508c5d5e0cd165",
+          "products": [
+            {
+              "_id": "694d970c1c508c5d5e0cd18d",
+              "name": "Chair72297",
+              "amount": 156,
+              "price": 84990,
+              "manufacturer": "Apple",
+              "notes": "yh95c1rwWb0IARTsvN4PT0HWj2HDMNYXVw0VHh69E6hZJIEcKQNrKDTHowxnELjyOylJX2QzGgFHXhhUTmFefAQbbQKKKoWUzk0WKMgFXkxlMQq2ljlpABmVKJn0WT8Dd3yjKR8i39Z39cdRoFFjepvi5KJYbblPCfFf4VJRLiOZ7klEoabEGKigYNoGIxJ2CD0eQQ4FejwJdtsEc26nU7FE93wfWPNbakXc68FqS5I6oEVRdK1gNt0Vu4",
+              "received": false
+            },
+            {
+              "_id": "694d970d1c508c5d5e0cd1b5",
+              "name": "Hat60929",
+              "amount": 480,
+              "price": 22952,
+              "manufacturer": "Sony",
+              "notes": "wArKieCyctQ7dvF3Az2Y2alJmVZNHw2lxRxqxD74ixAJhhPdDNQ7GuC3XbFYdeRZoK36doHJgzd3nUwd9P9uXsWTyjpZQhffpkdc4JWRot0PUmOEKKgsfARTZ722aBoZ5dyqplzlUV8UC4k9putrUcJ4mAV16obX8q8UpF2o8NhDFMwHQ4dJAMQefkrIr50RGtWnAReND5eBhF3QNGV6feh7HyLbM49a35ZA1PL2308ldEVsFNRH0wa4EQ",
+              "received": false
+            }
+          ],
+          "total_price": 107942,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Madonna",
+              "street": "Dortha Valleys",
+              "house": 292,
+              "flat": 7235
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T19:57:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d970c1c508c5d5e0cd165",
+          "products": [
+            {
+              "_id": "694d970c1c508c5d5e0cd18d",
+              "name": "Chair72297",
+              "amount": 156,
+              "price": 84990,
+              "manufacturer": "Apple",
+              "notes": "yh95c1rwWb0IARTsvN4PT0HWj2HDMNYXVw0VHh69E6hZJIEcKQNrKDTHowxnELjyOylJX2QzGgFHXhhUTmFefAQbbQKKKoWUzk0WKMgFXkxlMQq2ljlpABmVKJn0WT8Dd3yjKR8i39Z39cdRoFFjepvi5KJYbblPCfFf4VJRLiOZ7klEoabEGKigYNoGIxJ2CD0eQQ4FejwJdtsEc26nU7FE93wfWPNbakXc68FqS5I6oEVRdK1gNt0Vu4",
+              "received": false
+            },
+            {
+              "_id": "694d970d1c508c5d5e0cd1b5",
+              "name": "Hat60929",
+              "amount": 480,
+              "price": 22952,
+              "manufacturer": "Sony",
+              "notes": "wArKieCyctQ7dvF3Az2Y2alJmVZNHw2lxRxqxD74ixAJhhPdDNQ7GuC3XbFYdeRZoK36doHJgzd3nUwd9P9uXsWTyjpZQhffpkdc4JWRot0PUmOEKKgsfARTZ722aBoZ5dyqplzlUV8UC4k9putrUcJ4mAV16obX8q8UpF2o8NhDFMwHQ4dJAMQefkrIr50RGtWnAReND5eBhF3QNGV6feh7HyLbM49a35ZA1PL2308ldEVsFNRH0wa4EQ",
+              "received": false
+            }
+          ],
+          "total_price": 107942,
+          "delivery": null,
+          "changedOn": "2025-12-25T19:57:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

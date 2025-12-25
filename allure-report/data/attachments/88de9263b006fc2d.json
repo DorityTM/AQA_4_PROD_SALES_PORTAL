@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 19:57:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3691",
+    "etag": "W/\"e6b-fHU2TJNlcAexUnWXjNxgWpBNteg\"",
+    "keep-alive": "timeout=5, max=10",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d97161c508c5d5e0cd756",
+      "status": "In Process",
+      "customer": {
+        "_id": "694d97141c508c5d5e0cd5d1",
+        "email": "Leslie86@gmail.com",
+        "name": "Jensen Braun",
+        "country": "Canada",
+        "city": "Wernertown",
+        "street": "Reinger Pass 86",
+        "house": 678,
+        "flat": 9882,
+        "phone": "+880672597779567",
+        "createdOn": "2025-12-25T19:57:08.000Z",
+        "notes": "dBCpNYU3kbBtVMmA1Tm06mvZ1UtZ8A"
+      },
+      "products": [
+        {
+          "_id": "694d97151c508c5d5e0cd695",
+          "name": "Towels76961",
+          "amount": 13,
+          "price": 2064,
+          "manufacturer": "Amazon",
+          "notes": "01IaaNZpQh9QDb2RPn95aLgTmG8wGVSdFjKukBmWoEBQwTnooWLk7MCdWRAPdrGXViovImTSPN20Lu2hGkXUz7g0ZUROvc73VhWN5nBFZuhyd5lFBsz7n4XDdGwEJUPpfo7GSSSbqhcG3aX2w6J8jQIIuxPbLcJJJp5hs7VxEW2axQ7UQr0gAHAbgAG1HpN2zfh2Fzmyi6rmY3sg79WeBBzgLDIv7nKYu26vycB8lm2ZnW1Bc67grELhxV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Fort Gregoriatown",
+          "street": "Parker Rapids",
+          "house": 196,
+          "flat": 3490
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 2064,
+      "createdOn": "2025-12-25T19:57:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694d97141c508c5d5e0cd5d1",
+          "products": [
+            {
+              "_id": "694d97151c508c5d5e0cd695",
+              "name": "Towels76961",
+              "amount": 13,
+              "price": 2064,
+              "manufacturer": "Amazon",
+              "notes": "01IaaNZpQh9QDb2RPn95aLgTmG8wGVSdFjKukBmWoEBQwTnooWLk7MCdWRAPdrGXViovImTSPN20Lu2hGkXUz7g0ZUROvc73VhWN5nBFZuhyd5lFBsz7n4XDdGwEJUPpfo7GSSSbqhcG3aX2w6J8jQIIuxPbLcJJJp5hs7VxEW2axQ7UQr0gAHAbgAG1HpN2zfh2Fzmyi6rmY3sg79WeBBzgLDIv7nKYu26vycB8lm2ZnW1Bc67grELhxV",
+              "received": false
+            }
+          ],
+          "total_price": 2064,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Gregoriatown",
+              "street": "Parker Rapids",
+              "house": 196,
+              "flat": 3490
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T19:57:11.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d97141c508c5d5e0cd5d1",
+          "products": [
+            {
+              "_id": "694d97151c508c5d5e0cd695",
+              "name": "Towels76961",
+              "amount": 13,
+              "price": 2064,
+              "manufacturer": "Amazon",
+              "notes": "01IaaNZpQh9QDb2RPn95aLgTmG8wGVSdFjKukBmWoEBQwTnooWLk7MCdWRAPdrGXViovImTSPN20Lu2hGkXUz7g0ZUROvc73VhWN5nBFZuhyd5lFBsz7n4XDdGwEJUPpfo7GSSSbqhcG3aX2w6J8jQIIuxPbLcJJJp5hs7VxEW2axQ7UQr0gAHAbgAG1HpN2zfh2Fzmyi6rmY3sg79WeBBzgLDIv7nKYu26vycB8lm2ZnW1Bc67grELhxV",
+              "received": false
+            }
+          ],
+          "total_price": 2064,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Gregoriatown",
+              "street": "Parker Rapids",
+              "house": 196,
+              "flat": 3490
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T19:57:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d97141c508c5d5e0cd5d1",
+          "products": [
+            {
+              "_id": "694d97151c508c5d5e0cd695",
+              "name": "Towels76961",
+              "amount": 13,
+              "price": 2064,
+              "manufacturer": "Amazon",
+              "notes": "01IaaNZpQh9QDb2RPn95aLgTmG8wGVSdFjKukBmWoEBQwTnooWLk7MCdWRAPdrGXViovImTSPN20Lu2hGkXUz7g0ZUROvc73VhWN5nBFZuhyd5lFBsz7n4XDdGwEJUPpfo7GSSSbqhcG3aX2w6J8jQIIuxPbLcJJJp5hs7VxEW2axQ7UQr0gAHAbgAG1HpN2zfh2Fzmyi6rmY3sg79WeBBzgLDIv7nKYu26vycB8lm2ZnW1Bc67grELhxV",
+              "received": false
+            }
+          ],
+          "total_price": 2064,
+          "delivery": null,
+          "changedOn": "2025-12-25T19:57:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 19:58:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3921",
+    "etag": "W/\"f51-9Ityyihzf6m9tIrlLY9IPnCKwuo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d975c1c508c5d5e0d02c4",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d975a1c508c5d5e0d010d",
+        "email": "Deonte.Schulist@yahoo.com",
+        "name": "Jason Wintheiser",
+        "country": "Ukraine",
+        "city": "Topeka",
+        "street": "Victoria Street 8",
+        "house": 179,
+        "flat": 8370,
+        "phone": "+327225192642632",
+        "createdOn": "2025-12-25T19:58:18.000Z",
+        "notes": "sDj4yowmRPEYfmOlnSB8ogXji0jb97"
+      },
+      "products": [
+        {
+          "_id": "694d975b1c508c5d5e0d01df",
+          "name": "Chicken22860",
+          "amount": 725,
+          "price": 50957,
+          "manufacturer": "Microsoft",
+          "notes": "zeQ6ZXOpSOzUPFVP1mcL8sR8p08y3AWbNhw7iiwJAUfm3PF4VkGnX2mxw6vVGwsWX8yrW2EHDfZb7jq0TxJhzTIFvkAcZ0pl6wVKcuyQv232wb59zhnLXCj4MiC2XqcFrtk6lcQlq4y2dVCGaFq5FnSOm28QgYNtw3cX0Xe7XQXAV7QIWDGq4mLVU3IkXtWgj8BsRPgy5lYZD94BbirlMA0fJQNDghlAayAFtiNgXeNauSIgVZB1OGh4X8",
+          "received": false
+        },
+        {
+          "_id": "694d975c1c508c5d5e0d02ac",
+          "name": "Computer80131",
+          "amount": 281,
+          "price": 3868,
+          "manufacturer": "Google",
+          "notes": "vor1UHtOvd3yUaWPTvWG2Wsz0updghzXqSLSTNXsKtbTbDq1FVOeh4uX28wKfN30axbgx53X3XaHFOKwJYWl7XSeRAyQ2B3OugkyFHtbcheWAcccVijTf9ku9kqgI2XhxPqZNIHakIiabXSdOE1CZj66wuFOTEjHJvgACzfFpY6S8oCqLZLa7sRbeWYpmh3boQ0x7nuot89oWDkPo34BJkNHijxsFDHZGv4W1llSJ06DsKjqgV6QqGFI2p",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Jonesside",
+          "street": "South Street",
+          "house": 393,
+          "flat": 2562
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 54825,
+      "createdOn": "2025-12-25T19:58:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d975a1c508c5d5e0d010d",
+          "products": [
+            {
+              "_id": "694d975b1c508c5d5e0d01df",
+              "name": "Chicken22860",
+              "amount": 725,
+              "price": 50957,
+              "manufacturer": "Microsoft",
+              "notes": "zeQ6ZXOpSOzUPFVP1mcL8sR8p08y3AWbNhw7iiwJAUfm3PF4VkGnX2mxw6vVGwsWX8yrW2EHDfZb7jq0TxJhzTIFvkAcZ0pl6wVKcuyQv232wb59zhnLXCj4MiC2XqcFrtk6lcQlq4y2dVCGaFq5FnSOm28QgYNtw3cX0Xe7XQXAV7QIWDGq4mLVU3IkXtWgj8BsRPgy5lYZD94BbirlMA0fJQNDghlAayAFtiNgXeNauSIgVZB1OGh4X8",
+              "received": false
+            },
+            {
+              "_id": "694d975c1c508c5d5e0d02ac",
+              "name": "Computer80131",
+              "amount": 281,
+              "price": 3868,
+              "manufacturer": "Google",
+              "notes": "vor1UHtOvd3yUaWPTvWG2Wsz0updghzXqSLSTNXsKtbTbDq1FVOeh4uX28wKfN30axbgx53X3XaHFOKwJYWl7XSeRAyQ2B3OugkyFHtbcheWAcccVijTf9ku9kqgI2XhxPqZNIHakIiabXSdOE1CZj66wuFOTEjHJvgACzfFpY6S8oCqLZLa7sRbeWYpmh3boQ0x7nuot89oWDkPo34BJkNHijxsFDHZGv4W1llSJ06DsKjqgV6QqGFI2p",
+              "received": false
+            }
+          ],
+          "total_price": 54825,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Jonesside",
+              "street": "South Street",
+              "house": 393,
+              "flat": 2562
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T19:58:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d975a1c508c5d5e0d010d",
+          "products": [
+            {
+              "_id": "694d975b1c508c5d5e0d01df",
+              "name": "Chicken22860",
+              "amount": 725,
+              "price": 50957,
+              "manufacturer": "Microsoft",
+              "notes": "zeQ6ZXOpSOzUPFVP1mcL8sR8p08y3AWbNhw7iiwJAUfm3PF4VkGnX2mxw6vVGwsWX8yrW2EHDfZb7jq0TxJhzTIFvkAcZ0pl6wVKcuyQv232wb59zhnLXCj4MiC2XqcFrtk6lcQlq4y2dVCGaFq5FnSOm28QgYNtw3cX0Xe7XQXAV7QIWDGq4mLVU3IkXtWgj8BsRPgy5lYZD94BbirlMA0fJQNDghlAayAFtiNgXeNauSIgVZB1OGh4X8",
+              "received": false
+            },
+            {
+              "_id": "694d975c1c508c5d5e0d02ac",
+              "name": "Computer80131",
+              "amount": 281,
+              "price": 3868,
+              "manufacturer": "Google",
+              "notes": "vor1UHtOvd3yUaWPTvWG2Wsz0updghzXqSLSTNXsKtbTbDq1FVOeh4uX28wKfN30axbgx53X3XaHFOKwJYWl7XSeRAyQ2B3OugkyFHtbcheWAcccVijTf9ku9kqgI2XhxPqZNIHakIiabXSdOE1CZj66wuFOTEjHJvgACzfFpY6S8oCqLZLa7sRbeWYpmh3boQ0x7nuot89oWDkPo34BJkNHijxsFDHZGv4W1llSJ06DsKjqgV6QqGFI2p",
+              "received": false
+            }
+          ],
+          "total_price": 54825,
+          "delivery": null,
+          "changedOn": "2025-12-25T19:58:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

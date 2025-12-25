@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 19:57:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3652",
+    "etag": "W/\"e44-2a3oEjbr7fMT/YwWb2eA47USS4Y\"",
+    "keep-alive": "timeout=5, max=33",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d97321c508c5d5e0ce7e5",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694d97301c508c5d5e0ce703",
+        "email": "Audrey_Cummerata@yahoo.com",
+        "name": "Vicky Schulist",
+        "country": "Canada",
+        "city": "Fort Guillermo",
+        "street": "Zboncak Ridge 4",
+        "house": 316,
+        "flat": 2851,
+        "phone": "+571756787818987",
+        "createdOn": "2025-12-25T19:57:36.000Z",
+        "notes": "6mPAisnOQNxrgsw4xHH13zHeOEJdlQ"
+      },
+      "products": [
+        {
+          "_id": "694d97311c508c5d5e0ce722",
+          "name": "Keyboard31931",
+          "amount": 461,
+          "price": 21581,
+          "manufacturer": "Sony",
+          "notes": "ZW185e0BczP0cYAv9LaPZ1lik3Z4sres6a2SvYJCF6pOYQE8jq3YcPGc58bB2JGEVJTmQfhkJ2URF19FaDnzn2V4xqX3Cyq0zpCdebUJzshzofWGNn7tlaBXSMEoZF2uGhEo28iXv5ITOjmaLD5jSKGuBiRqEJTUxFC6b1aY8RbjYP1IsrEAwBWLxe5IzAXBp3l0SRcjMbQ8P9Q7UsAYAM6QTJKJiES9LzFTOP1KiRFHkdKIM1tdQxVcXw",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Rockwall",
+          "street": "Russ Walk",
+          "house": 632,
+          "flat": 1973
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 21581,
+      "createdOn": "2025-12-25T19:57:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694d97301c508c5d5e0ce703",
+          "products": [
+            {
+              "_id": "694d97311c508c5d5e0ce722",
+              "name": "Keyboard31931",
+              "amount": 461,
+              "price": 21581,
+              "manufacturer": "Sony",
+              "notes": "ZW185e0BczP0cYAv9LaPZ1lik3Z4sres6a2SvYJCF6pOYQE8jq3YcPGc58bB2JGEVJTmQfhkJ2URF19FaDnzn2V4xqX3Cyq0zpCdebUJzshzofWGNn7tlaBXSMEoZF2uGhEo28iXv5ITOjmaLD5jSKGuBiRqEJTUxFC6b1aY8RbjYP1IsrEAwBWLxe5IzAXBp3l0SRcjMbQ8P9Q7UsAYAM6QTJKJiES9LzFTOP1KiRFHkdKIM1tdQxVcXw",
+              "received": false
+            }
+          ],
+          "total_price": 21581,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Rockwall",
+              "street": "Russ Walk",
+              "house": 632,
+              "flat": 1973
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T19:57:41.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d97301c508c5d5e0ce703",
+          "products": [
+            {
+              "_id": "694d97311c508c5d5e0ce722",
+              "name": "Keyboard31931",
+              "amount": 461,
+              "price": 21581,
+              "manufacturer": "Sony",
+              "notes": "ZW185e0BczP0cYAv9LaPZ1lik3Z4sres6a2SvYJCF6pOYQE8jq3YcPGc58bB2JGEVJTmQfhkJ2URF19FaDnzn2V4xqX3Cyq0zpCdebUJzshzofWGNn7tlaBXSMEoZF2uGhEo28iXv5ITOjmaLD5jSKGuBiRqEJTUxFC6b1aY8RbjYP1IsrEAwBWLxe5IzAXBp3l0SRcjMbQ8P9Q7UsAYAM6QTJKJiES9LzFTOP1KiRFHkdKIM1tdQxVcXw",
+              "received": false
+            }
+          ],
+          "total_price": 21581,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Rockwall",
+              "street": "Russ Walk",
+              "house": 632,
+              "flat": 1973
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T19:57:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d97301c508c5d5e0ce703",
+          "products": [
+            {
+              "_id": "694d97311c508c5d5e0ce722",
+              "name": "Keyboard31931",
+              "amount": 461,
+              "price": 21581,
+              "manufacturer": "Sony",
+              "notes": "ZW185e0BczP0cYAv9LaPZ1lik3Z4sres6a2SvYJCF6pOYQE8jq3YcPGc58bB2JGEVJTmQfhkJ2URF19FaDnzn2V4xqX3Cyq0zpCdebUJzshzofWGNn7tlaBXSMEoZF2uGhEo28iXv5ITOjmaLD5jSKGuBiRqEJTUxFC6b1aY8RbjYP1IsrEAwBWLxe5IzAXBp3l0SRcjMbQ8P9Q7UsAYAM6QTJKJiES9LzFTOP1KiRFHkdKIM1tdQxVcXw",
+              "received": false
+            }
+          ],
+          "total_price": 21581,
+          "delivery": null,
+          "changedOn": "2025-12-25T19:57:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

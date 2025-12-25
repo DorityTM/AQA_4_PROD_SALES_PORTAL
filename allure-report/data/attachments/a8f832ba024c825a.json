@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 19:58:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3680",
+    "etag": "W/\"e60-U05hr/wVQTTXux5EemOpSEo2EHY\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d97501c508c5d5e0cfaac",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d974f1c508c5d5e0cfa6f",
+        "email": "Matt.Wolf@hotmail.com",
+        "name": "Maryam White",
+        "country": "France",
+        "city": "South Norbertocheste",
+        "street": "Bath Road 75",
+        "house": 399,
+        "flat": 2035,
+        "phone": "+180289991889628",
+        "createdOn": "2025-12-25T19:58:07.000Z",
+        "notes": "JmHKnyqqMUpUysCaxwczDIYBe7K4Kg"
+      },
+      "products": [
+        {
+          "_id": "694d974f1c508c5d5e0cfa89",
+          "name": "Keyboard23699",
+          "amount": 328,
+          "price": 17033,
+          "manufacturer": "Xiaomi",
+          "notes": "muNwREBtFPRMLHudK52xNgqxlhLjyfjD9AHX6Q1prchnBUxhmAw1KGJ5QNlEUuIvXsowcyIj5W2xrkSrcklvTVLEIxDLW2OMVt7dceerRPg9reV8gdO2X668MsY0KRqxJ9xtrPYFf3qRDM8V29v6gIMleZqd8xaFYrRqf5LqFURUiqCp2y0PJt4ZdyBROtJHGQcD0r7wz64ax9MwiRsfMDNS0KHiohe1dEBPD0hQs4iTeKcipjo0Q03yb5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Florencemouth",
+          "street": "Church Close",
+          "house": 441,
+          "flat": 4929
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 17033,
+      "createdOn": "2025-12-25T19:58:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d974f1c508c5d5e0cfa6f",
+          "products": [
+            {
+              "_id": "694d974f1c508c5d5e0cfa89",
+              "name": "Keyboard23699",
+              "amount": 328,
+              "price": 17033,
+              "manufacturer": "Xiaomi",
+              "notes": "muNwREBtFPRMLHudK52xNgqxlhLjyfjD9AHX6Q1prchnBUxhmAw1KGJ5QNlEUuIvXsowcyIj5W2xrkSrcklvTVLEIxDLW2OMVt7dceerRPg9reV8gdO2X668MsY0KRqxJ9xtrPYFf3qRDM8V29v6gIMleZqd8xaFYrRqf5LqFURUiqCp2y0PJt4ZdyBROtJHGQcD0r7wz64ax9MwiRsfMDNS0KHiohe1dEBPD0hQs4iTeKcipjo0Q03yb5",
+              "received": false
+            }
+          ],
+          "total_price": 17033,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Florencemouth",
+              "street": "Church Close",
+              "house": 441,
+              "flat": 4929
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-25T19:58:09.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d974f1c508c5d5e0cfa6f",
+          "products": [
+            {
+              "_id": "694d974f1c508c5d5e0cfa89",
+              "name": "Keyboard23699",
+              "amount": 328,
+              "price": 17033,
+              "manufacturer": "Xiaomi",
+              "notes": "muNwREBtFPRMLHudK52xNgqxlhLjyfjD9AHX6Q1prchnBUxhmAw1KGJ5QNlEUuIvXsowcyIj5W2xrkSrcklvTVLEIxDLW2OMVt7dceerRPg9reV8gdO2X668MsY0KRqxJ9xtrPYFf3qRDM8V29v6gIMleZqd8xaFYrRqf5LqFURUiqCp2y0PJt4ZdyBROtJHGQcD0r7wz64ax9MwiRsfMDNS0KHiohe1dEBPD0hQs4iTeKcipjo0Q03yb5",
+              "received": false
+            }
+          ],
+          "total_price": 17033,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Harrisburg",
+              "street": "Murray Courts",
+              "house": 324,
+              "flat": 5601
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T19:58:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d974f1c508c5d5e0cfa6f",
+          "products": [
+            {
+              "_id": "694d974f1c508c5d5e0cfa89",
+              "name": "Keyboard23699",
+              "amount": 328,
+              "price": 17033,
+              "manufacturer": "Xiaomi",
+              "notes": "muNwREBtFPRMLHudK52xNgqxlhLjyfjD9AHX6Q1prchnBUxhmAw1KGJ5QNlEUuIvXsowcyIj5W2xrkSrcklvTVLEIxDLW2OMVt7dceerRPg9reV8gdO2X668MsY0KRqxJ9xtrPYFf3qRDM8V29v6gIMleZqd8xaFYrRqf5LqFURUiqCp2y0PJt4ZdyBROtJHGQcD0r7wz64ax9MwiRsfMDNS0KHiohe1dEBPD0hQs4iTeKcipjo0Q03yb5",
+              "received": false
+            }
+          ],
+          "total_price": 17033,
+          "delivery": null,
+          "changedOn": "2025-12-25T19:58:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
