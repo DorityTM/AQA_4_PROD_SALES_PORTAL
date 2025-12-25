@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:25:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3691",
+    "etag": "W/\"e6b-7K67LCOPa4cry9/nxKP7evSLro4\"",
+    "keep-alive": "timeout=5, max=34",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d3b651c508c5d5e09171b",
+      "status": "In Process",
+      "customer": {
+        "_id": "694d3b651c508c5d5e0916d1",
+        "email": "Raul78@hotmail.com",
+        "name": "Estrella Weissnat",
+        "country": "Russia",
+        "city": "Burnicemouth",
+        "street": "Hudson Fork 53",
+        "house": 467,
+        "flat": 8512,
+        "phone": "+196774297672982",
+        "createdOn": "2025-12-25T13:25:57.000Z",
+        "notes": "JFxwTgk9AbNLezsKfokCbLDJKP2Yr3"
+      },
+      "products": [
+        {
+          "_id": "694d3b651c508c5d5e0916f6",
+          "name": "Fish87595",
+          "amount": 77,
+          "price": 83460,
+          "manufacturer": "Google",
+          "notes": "i6X1uCq9uzXptauTNOIxaNeqX3W8lyl4cLxLyjNPBsguyq4zj0vNwKG33S85im1tahI9rSfCjz1oAomCW2kJv5tIY8VdvDZqyfSGZu1gVvgLb92DIo96aMiiT0Fu1TI2OLh431mRMRog6kvQWufwQv3IfG1zAvYTqipnDOKtCy8xU2gwJngVe6sSOr5fCxMQGBPXb9fz9cWx0TwcaWqUdeBpgsotA4GLfxO5SldZrMgLbSEzMFfYju8VTu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "North Aliashire",
+          "street": "E Main Street",
+          "house": 952,
+          "flat": 8276
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 83460,
+      "createdOn": "2025-12-25T13:25:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694d3b651c508c5d5e0916d1",
+          "products": [
+            {
+              "_id": "694d3b651c508c5d5e0916f6",
+              "name": "Fish87595",
+              "amount": 77,
+              "price": 83460,
+              "manufacturer": "Google",
+              "notes": "i6X1uCq9uzXptauTNOIxaNeqX3W8lyl4cLxLyjNPBsguyq4zj0vNwKG33S85im1tahI9rSfCjz1oAomCW2kJv5tIY8VdvDZqyfSGZu1gVvgLb92DIo96aMiiT0Fu1TI2OLh431mRMRog6kvQWufwQv3IfG1zAvYTqipnDOKtCy8xU2gwJngVe6sSOr5fCxMQGBPXb9fz9cWx0TwcaWqUdeBpgsotA4GLfxO5SldZrMgLbSEzMFfYju8VTu",
+              "received": false
+            }
+          ],
+          "total_price": 83460,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "North Aliashire",
+              "street": "E Main Street",
+              "house": 952,
+              "flat": 8276
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:25:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d3b651c508c5d5e0916d1",
+          "products": [
+            {
+              "_id": "694d3b651c508c5d5e0916f6",
+              "name": "Fish87595",
+              "amount": 77,
+              "price": 83460,
+              "manufacturer": "Google",
+              "notes": "i6X1uCq9uzXptauTNOIxaNeqX3W8lyl4cLxLyjNPBsguyq4zj0vNwKG33S85im1tahI9rSfCjz1oAomCW2kJv5tIY8VdvDZqyfSGZu1gVvgLb92DIo96aMiiT0Fu1TI2OLh431mRMRog6kvQWufwQv3IfG1zAvYTqipnDOKtCy8xU2gwJngVe6sSOr5fCxMQGBPXb9fz9cWx0TwcaWqUdeBpgsotA4GLfxO5SldZrMgLbSEzMFfYju8VTu",
+              "received": false
+            }
+          ],
+          "total_price": 83460,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "North Aliashire",
+              "street": "E Main Street",
+              "house": 952,
+              "flat": 8276
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:25:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d3b651c508c5d5e0916d1",
+          "products": [
+            {
+              "_id": "694d3b651c508c5d5e0916f6",
+              "name": "Fish87595",
+              "amount": 77,
+              "price": 83460,
+              "manufacturer": "Google",
+              "notes": "i6X1uCq9uzXptauTNOIxaNeqX3W8lyl4cLxLyjNPBsguyq4zj0vNwKG33S85im1tahI9rSfCjz1oAomCW2kJv5tIY8VdvDZqyfSGZu1gVvgLb92DIo96aMiiT0Fu1TI2OLh431mRMRog6kvQWufwQv3IfG1zAvYTqipnDOKtCy8xU2gwJngVe6sSOr5fCxMQGBPXb9fz9cWx0TwcaWqUdeBpgsotA4GLfxO5SldZrMgLbSEzMFfYju8VTu",
+              "received": false
+            }
+          ],
+          "total_price": 83460,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:25:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

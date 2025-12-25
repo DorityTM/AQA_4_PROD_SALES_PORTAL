@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:25:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3924",
+    "etag": "W/\"f54-lq9my5MkQc0pOlN8z7xnxxeTcm0\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d3b611c508c5d5e09154a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d3b601c508c5d5e0914d2",
+        "email": "Loy.Ferry@gmail.com",
+        "name": "Tate Morar",
+        "country": "Great Britain",
+        "city": "New Juston",
+        "street": "Alford Walks 5",
+        "house": 42,
+        "flat": 6891,
+        "phone": "+342825074117004",
+        "createdOn": "2025-12-25T13:25:52.000Z",
+        "notes": "npeYI2il9WDXAkOHVEh9OnQZg9BzH0"
+      },
+      "products": [
+        {
+          "_id": "694d3b601c508c5d5e0914eb",
+          "name": "Towels53231",
+          "amount": 834,
+          "price": 99647,
+          "manufacturer": "Samsung",
+          "notes": "1gNh7uRAxGXqGhMYFmBWdHcA6ccEBdgTCeDBHgVMqRnozaX1AcjiFqEsxVZ66yw48Xa8Zx1x7kRgDORQqz8WnBOXx61laPvLCxSqXy7lofgjwySTnDlxXAKMXIdSa02zHlWbIvkFaZSN9Fj58CPybAYPkUX0Ti4nQxhAp5yaZaSMJHTJSeotGM4Gk8UnkDeWTFhtYLIhocZp3uXkXGYFyiduwVUFp77JyioIu56ZAwAILq9FULM1yo6ETt",
+          "received": false
+        },
+        {
+          "_id": "694d3b601c508c5d5e091519",
+          "name": "Computer37884",
+          "amount": 863,
+          "price": 59012,
+          "manufacturer": "Sony",
+          "notes": "rjWChEG3DEcmrmpdRX0MtJBa7muuNAPWEcr2ULr0DpdTkb0NLYsXVoOx4M8DiDhbFVtZa612Nf7lPngRbgSNKxWtckWIcfvKYeADA3aOwLtgVfLo1T8KZobd0KqjY8Ykd63rFs0SDtOqFNr9abfis7Ezv5U121z5bZfeVDoJd34ulxuWuxLn5kl7CnBiOyeDU13alomIvhXOLfkIujOVUNQxXVwjwVDawz1qAxsjgFRc03QXGpFljtcKSS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Kirkland",
+          "street": "Kessler Freeway",
+          "house": 707,
+          "flat": 7176
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 158659,
+      "createdOn": "2025-12-25T13:25:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d3b601c508c5d5e0914d2",
+          "products": [
+            {
+              "_id": "694d3b601c508c5d5e0914eb",
+              "name": "Towels53231",
+              "amount": 834,
+              "price": 99647,
+              "manufacturer": "Samsung",
+              "notes": "1gNh7uRAxGXqGhMYFmBWdHcA6ccEBdgTCeDBHgVMqRnozaX1AcjiFqEsxVZ66yw48Xa8Zx1x7kRgDORQqz8WnBOXx61laPvLCxSqXy7lofgjwySTnDlxXAKMXIdSa02zHlWbIvkFaZSN9Fj58CPybAYPkUX0Ti4nQxhAp5yaZaSMJHTJSeotGM4Gk8UnkDeWTFhtYLIhocZp3uXkXGYFyiduwVUFp77JyioIu56ZAwAILq9FULM1yo6ETt",
+              "received": false
+            },
+            {
+              "_id": "694d3b601c508c5d5e091519",
+              "name": "Computer37884",
+              "amount": 863,
+              "price": 59012,
+              "manufacturer": "Sony",
+              "notes": "rjWChEG3DEcmrmpdRX0MtJBa7muuNAPWEcr2ULr0DpdTkb0NLYsXVoOx4M8DiDhbFVtZa612Nf7lPngRbgSNKxWtckWIcfvKYeADA3aOwLtgVfLo1T8KZobd0KqjY8Ykd63rFs0SDtOqFNr9abfis7Ezv5U121z5bZfeVDoJd34ulxuWuxLn5kl7CnBiOyeDU13alomIvhXOLfkIujOVUNQxXVwjwVDawz1qAxsjgFRc03QXGpFljtcKSS",
+              "received": false
+            }
+          ],
+          "total_price": 158659,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Kirkland",
+              "street": "Kessler Freeway",
+              "house": 707,
+              "flat": 7176
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:25:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d3b601c508c5d5e0914d2",
+          "products": [
+            {
+              "_id": "694d3b601c508c5d5e0914eb",
+              "name": "Towels53231",
+              "amount": 834,
+              "price": 99647,
+              "manufacturer": "Samsung",
+              "notes": "1gNh7uRAxGXqGhMYFmBWdHcA6ccEBdgTCeDBHgVMqRnozaX1AcjiFqEsxVZ66yw48Xa8Zx1x7kRgDORQqz8WnBOXx61laPvLCxSqXy7lofgjwySTnDlxXAKMXIdSa02zHlWbIvkFaZSN9Fj58CPybAYPkUX0Ti4nQxhAp5yaZaSMJHTJSeotGM4Gk8UnkDeWTFhtYLIhocZp3uXkXGYFyiduwVUFp77JyioIu56ZAwAILq9FULM1yo6ETt",
+              "received": false
+            },
+            {
+              "_id": "694d3b601c508c5d5e091519",
+              "name": "Computer37884",
+              "amount": 863,
+              "price": 59012,
+              "manufacturer": "Sony",
+              "notes": "rjWChEG3DEcmrmpdRX0MtJBa7muuNAPWEcr2ULr0DpdTkb0NLYsXVoOx4M8DiDhbFVtZa612Nf7lPngRbgSNKxWtckWIcfvKYeADA3aOwLtgVfLo1T8KZobd0KqjY8Ykd63rFs0SDtOqFNr9abfis7Ezv5U121z5bZfeVDoJd34ulxuWuxLn5kl7CnBiOyeDU13alomIvhXOLfkIujOVUNQxXVwjwVDawz1qAxsjgFRc03QXGpFljtcKSS",
+              "received": false
+            }
+          ],
+          "total_price": 158659,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:25:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

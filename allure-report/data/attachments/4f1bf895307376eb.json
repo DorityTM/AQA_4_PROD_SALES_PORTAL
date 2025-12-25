@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:25:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3922",
+    "etag": "W/\"f52-vLM7BdJfbG/LW5NpK6dC+rmXIzk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d3b641c508c5d5e0916c0",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d3b641c508c5d5e091664",
+        "email": "Ayana89@hotmail.com",
+        "name": "Corbin Bartell",
+        "country": "Germany",
+        "city": "Gleasonside",
+        "street": "Nedra Mountains 2",
+        "house": 807,
+        "flat": 8219,
+        "phone": "+350329277466372",
+        "createdOn": "2025-12-25T13:25:56.000Z",
+        "notes": "7yRdE0zQDDv8LvIAIzMirDhqZenpyw"
+      },
+      "products": [
+        {
+          "_id": "694d3b641c508c5d5e091687",
+          "name": "Chair79723",
+          "amount": 340,
+          "price": 50154,
+          "manufacturer": "Microsoft",
+          "notes": "FxHmErYs7ymT9RbiUdRlvh0bWcjh6hbf1gMDqWXfJ0qKqCTWieK415jkwNrvbqjiZ6GkSoDFd8GqEAth9luZQXIZqL2VSsVB9q3b6CLpMgTJltBHz21QOQkO6HkiTxkxvpnM37Wga3AKB5xyqZSB6ZDTlkf6IAQDedLVeCk5mfRBaaPsDCRYZp9VGjb7SZsyU96WugzYKWoMTjawQ6J9HHUCYYUnRPFn1tYvFQyVI8eJeeOELkdu3nanXt",
+          "received": false
+        },
+        {
+          "_id": "694d3b641c508c5d5e09169f",
+          "name": "Pants75785",
+          "amount": 608,
+          "price": 21955,
+          "manufacturer": "Xiaomi",
+          "notes": "m0c8ijtNKSjjjmjasiapYOCw8HtPsb5tgaOKaD7bTSsivhH1ZJLV6sxfgeKf26H5PobuW6goxorpkynI9OuMEFfyZWgbHM5QNxuRx3V0ZGPtj4y08hQNdOemNTiaVoawpOBG7EhhgnFMMgJisKBYqKDhJlioFE8hVANSDYhYhULy2cbJFb2o5REz4eoZepm6R0pwClNsJ5oYAejzMwAIIKlbbEw11SI5S6RaLZ3T1j0kygnaZh4dAhyyJG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "East Stanley",
+          "street": "Meadow Lane",
+          "house": 94,
+          "flat": 8047
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72109,
+      "createdOn": "2025-12-25T13:25:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d3b641c508c5d5e091664",
+          "products": [
+            {
+              "_id": "694d3b641c508c5d5e091687",
+              "name": "Chair79723",
+              "amount": 340,
+              "price": 50154,
+              "manufacturer": "Microsoft",
+              "notes": "FxHmErYs7ymT9RbiUdRlvh0bWcjh6hbf1gMDqWXfJ0qKqCTWieK415jkwNrvbqjiZ6GkSoDFd8GqEAth9luZQXIZqL2VSsVB9q3b6CLpMgTJltBHz21QOQkO6HkiTxkxvpnM37Wga3AKB5xyqZSB6ZDTlkf6IAQDedLVeCk5mfRBaaPsDCRYZp9VGjb7SZsyU96WugzYKWoMTjawQ6J9HHUCYYUnRPFn1tYvFQyVI8eJeeOELkdu3nanXt",
+              "received": false
+            },
+            {
+              "_id": "694d3b641c508c5d5e09169f",
+              "name": "Pants75785",
+              "amount": 608,
+              "price": 21955,
+              "manufacturer": "Xiaomi",
+              "notes": "m0c8ijtNKSjjjmjasiapYOCw8HtPsb5tgaOKaD7bTSsivhH1ZJLV6sxfgeKf26H5PobuW6goxorpkynI9OuMEFfyZWgbHM5QNxuRx3V0ZGPtj4y08hQNdOemNTiaVoawpOBG7EhhgnFMMgJisKBYqKDhJlioFE8hVANSDYhYhULy2cbJFb2o5REz4eoZepm6R0pwClNsJ5oYAejzMwAIIKlbbEw11SI5S6RaLZ3T1j0kygnaZh4dAhyyJG",
+              "received": false
+            }
+          ],
+          "total_price": 72109,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "East Stanley",
+              "street": "Meadow Lane",
+              "house": 94,
+              "flat": 8047
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:25:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d3b641c508c5d5e091664",
+          "products": [
+            {
+              "_id": "694d3b641c508c5d5e091687",
+              "name": "Chair79723",
+              "amount": 340,
+              "price": 50154,
+              "manufacturer": "Microsoft",
+              "notes": "FxHmErYs7ymT9RbiUdRlvh0bWcjh6hbf1gMDqWXfJ0qKqCTWieK415jkwNrvbqjiZ6GkSoDFd8GqEAth9luZQXIZqL2VSsVB9q3b6CLpMgTJltBHz21QOQkO6HkiTxkxvpnM37Wga3AKB5xyqZSB6ZDTlkf6IAQDedLVeCk5mfRBaaPsDCRYZp9VGjb7SZsyU96WugzYKWoMTjawQ6J9HHUCYYUnRPFn1tYvFQyVI8eJeeOELkdu3nanXt",
+              "received": false
+            },
+            {
+              "_id": "694d3b641c508c5d5e09169f",
+              "name": "Pants75785",
+              "amount": 608,
+              "price": 21955,
+              "manufacturer": "Xiaomi",
+              "notes": "m0c8ijtNKSjjjmjasiapYOCw8HtPsb5tgaOKaD7bTSsivhH1ZJLV6sxfgeKf26H5PobuW6goxorpkynI9OuMEFfyZWgbHM5QNxuRx3V0ZGPtj4y08hQNdOemNTiaVoawpOBG7EhhgnFMMgJisKBYqKDhJlioFE8hVANSDYhYhULy2cbJFb2o5REz4eoZepm6R0pwClNsJ5oYAejzMwAIIKlbbEw11SI5S6RaLZ3T1j0kygnaZh4dAhyyJG",
+              "received": false
+            }
+          ],
+          "total_price": 72109,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:25:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
