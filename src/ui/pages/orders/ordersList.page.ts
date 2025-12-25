@@ -3,6 +3,7 @@ import { logStep } from "utils/report/logStep.utils.js";
 import { IOrderInTable, OrdersTableHeader } from "data/types/order.types";
 import { CreateOrderModal } from "./createOrderModal.page";
 import { ExportModal, ordersFieldNamesMapper } from "../export.modal";
+import { ORDER_STATUS } from "data/salesPortal/order-status";
 
 export class OrdersListPage extends SalesPortalPage {
   private readonly headerText = (name: OrdersTableHeader): string => {
@@ -50,13 +51,13 @@ export class OrdersListPage extends SalesPortalPage {
   readonly exportButton = this.page.locator("#export");
 
   @logStep("CLICK ADD NEW ORDER BUTTON")
-  async clickAddCustomerButton() {
+  async clickCreateOrderButton() {
     await this.createOrderButton.click();
   }
 
   @logStep("GET ORDER'S DATA BY ORDER NUMBER")
   async getOrderData(orderNumber: string): Promise<IOrderInTable> {
-    const [orderId, email, price, delivery, assignedManager, createdOn] = await this.tableRowByName(orderNumber)
+    const [orderId, email, price, delivery, status, assignedManager, createdOn] = await this.tableRowByName(orderNumber)
       .locator("td")
       .allInnerTexts();
     return {
@@ -64,6 +65,7 @@ export class OrdersListPage extends SalesPortalPage {
       email: email!,
       price: +price!.replace("$", ""),
       delivery: delivery!,
+      status: status! as ORDER_STATUS,
       assignedManager: assignedManager!,
       createdOn: createdOn!,
     };
@@ -75,12 +77,15 @@ export class OrdersListPage extends SalesPortalPage {
 
     const rows = await this.tableRow.all();
     for (const row of rows) {
-      const [orderId, email, price, delivery, assignedManager, createdOn] = await row.locator("td").allInnerTexts();
+      const [orderId, email, price, delivery, status, assignedManager, createdOn] = await row
+        .locator("td")
+        .allInnerTexts();
       data.push({
         orderId: orderId!,
         email: email!,
         price: +price!.replace("$", ""),
         delivery: delivery!,
+        status: status! as ORDER_STATUS,
         assignedManager: assignedManager!,
         createdOn: createdOn!,
       });

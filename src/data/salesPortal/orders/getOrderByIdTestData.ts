@@ -4,7 +4,6 @@ import { ObjectId } from "bson";
 import { faker } from "@faker-js/faker";
 import { ICaseApi } from "data/types/core.types";
 
-
 export const getOrderByIdPositiveCases: ICaseApi[] = [
   {
     title: "Should get order by valid id",
@@ -27,7 +26,8 @@ export const getOrderByIdNegativeCases: ICaseApi[] = [
     title: "500 returned for id of invalid format (CastError from backend)",
     _id: faker.string.alphanumeric({ length: 10 }),
     expectedStatus: STATUS_CODES.SERVER_ERROR,
-    expectedErrorMessage: "Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer",
+    expectedErrorMessage:
+      "Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer",
     isSuccess: false,
   },
 ];
