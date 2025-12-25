@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:46:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2760",
+    "etag": "W/\"ac8-mt7OUe+7lhhb16Q8KS/oor1NGv0\"",
+    "keep-alive": "timeout=5, max=30",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694dbecf1c508c5d5e1275dd",
+      "status": "Draft",
+      "customer": {
+        "_id": "694dbecd1c508c5d5e127479",
+        "email": "Jaida13@yahoo.com",
+        "name": "Jamal Hayes",
+        "country": "USA",
+        "city": "South Bertcester",
+        "street": "Mraz Avenue 34",
+        "house": 89,
+        "flat": 7969,
+        "phone": "+325395801588879",
+        "createdOn": "2025-12-25T22:46:37.000Z",
+        "notes": "kpCaQyfPEZ2prsdqZlg9oYT4wktStA"
+      },
+      "products": [
+        {
+          "_id": "694dbecd1c508c5d5e1275bc",
+          "name": "Shirt30307",
+          "amount": 271,
+          "price": 5898,
+          "manufacturer": "Microsoft",
+          "notes": "btXtdH8UW1WVdJiTBBVcani1B1MyL7IZtWWTHrLJKocKB74gbgG2pp3rbIPbrNQqMjvbFatctQWeVa72WeX4m9xlLVz1IBGjCVvHilE4dnzoHWXtUTWwbbTfCH8pHHvojjaAxQUVzf1aPqbAUDHBu8n8HBNYgksAdyKKGbFvlzaaeuH0B6uEZuLiUV6kxpmz8CkmvdasGielNSOuKmUpkP2ZTipMDvapfqTgZYH5d5LGnAZ2gi6eEfrHWO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Leif",
+          "street": "Kemmer Overpass",
+          "house": 402,
+          "flat": 8358
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 5898,
+      "createdOn": "2025-12-25T22:46:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694dbecd1c508c5d5e127479",
+          "products": [
+            {
+              "_id": "694dbecd1c508c5d5e1275bc",
+              "name": "Shirt30307",
+              "amount": 271,
+              "price": 5898,
+              "manufacturer": "Microsoft",
+              "notes": "btXtdH8UW1WVdJiTBBVcani1B1MyL7IZtWWTHrLJKocKB74gbgG2pp3rbIPbrNQqMjvbFatctQWeVa72WeX4m9xlLVz1IBGjCVvHilE4dnzoHWXtUTWwbbTfCH8pHHvojjaAxQUVzf1aPqbAUDHBu8n8HBNYgksAdyKKGbFvlzaaeuH0B6uEZuLiUV6kxpmz8CkmvdasGielNSOuKmUpkP2ZTipMDvapfqTgZYH5d5LGnAZ2gi6eEfrHWO",
+              "received": false
+            }
+          ],
+          "total_price": 5898,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Leif",
+              "street": "Kemmer Overpass",
+              "house": 402,
+              "flat": 8358
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:46:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694dbecd1c508c5d5e127479",
+          "products": [
+            {
+              "_id": "694dbecd1c508c5d5e1275bc",
+              "name": "Shirt30307",
+              "amount": 271,
+              "price": 5898,
+              "manufacturer": "Microsoft",
+              "notes": "btXtdH8UW1WVdJiTBBVcani1B1MyL7IZtWWTHrLJKocKB74gbgG2pp3rbIPbrNQqMjvbFatctQWeVa72WeX4m9xlLVz1IBGjCVvHilE4dnzoHWXtUTWwbbTfCH8pHHvojjaAxQUVzf1aPqbAUDHBu8n8HBNYgksAdyKKGbFvlzaaeuH0B6uEZuLiUV6kxpmz8CkmvdasGielNSOuKmUpkP2ZTipMDvapfqTgZYH5d5LGnAZ2gi6eEfrHWO",
+              "received": false
+            }
+          ],
+          "total_price": 5898,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:46:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

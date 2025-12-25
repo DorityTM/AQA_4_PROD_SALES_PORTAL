@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:46:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2740",
+    "etag": "W/\"ab4-+COBRUgMzev2U4836w8BLolfju0\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694dbedc1c508c5d5e127e78",
+      "status": "Draft",
+      "customer": {
+        "_id": "694dbed81c508c5d5e127be2",
+        "email": "Noemi_Olson@hotmail.com",
+        "name": "Alexis Hamill",
+        "country": "Canada",
+        "city": "Bodeview",
+        "street": "Chapel Close 91",
+        "house": 845,
+        "flat": 852,
+        "phone": "+545609839363911",
+        "createdOn": "2025-12-25T22:46:48.000Z",
+        "notes": "0VKMMDGITacpISKGBhb9LeTdYqkR0H"
+      },
+      "products": [
+        {
+          "_id": "694dbeda1c508c5d5e127d31",
+          "name": "Bacon48303",
+          "amount": 548,
+          "price": 50274,
+          "manufacturer": "Apple",
+          "notes": "kIxgGfUpX18LQRyAQ3zxzqiLDCcWfxzaODXuo1mrR0sPfLxQzMZCuUIHrp4DvmKdbUIEAPUpaL2ldl2JXxq27wIRjvJF2Ke1VAmiS0rNH2uGjbnsr4MUDaIUdapomxwhPc3k93YGmwTN3liQ8a4CrtV7LcJK8gwKtUgt8M3KN7SxAisT4qM7dekNXUDSQEBQQlXKhGdmanPZfWavCmB5uqoUagUXZYk5a4lKH23iy5P7ntU2GBzzIRQEKQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 50274,
+      "createdOn": "2025-12-25T22:46:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694dbed81c508c5d5e127be2",
+          "products": [
+            {
+              "_id": "694dbeda1c508c5d5e127d31",
+              "name": "Bacon48303",
+              "amount": 548,
+              "price": 50274,
+              "manufacturer": "Apple",
+              "notes": "kIxgGfUpX18LQRyAQ3zxzqiLDCcWfxzaODXuo1mrR0sPfLxQzMZCuUIHrp4DvmKdbUIEAPUpaL2ldl2JXxq27wIRjvJF2Ke1VAmiS0rNH2uGjbnsr4MUDaIUdapomxwhPc3k93YGmwTN3liQ8a4CrtV7LcJK8gwKtUgt8M3KN7SxAisT4qM7dekNXUDSQEBQQlXKhGdmanPZfWavCmB5uqoUagUXZYk5a4lKH23iy5P7ntU2GBzzIRQEKQ",
+              "received": false
+            }
+          ],
+          "total_price": 50274,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:46:52.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "694dbed81c508c5d5e127be2",
+          "products": [
+            {
+              "_id": "694dbeda1c508c5d5e127d31",
+              "name": "Bacon48303",
+              "amount": 548,
+              "price": 50274,
+              "manufacturer": "Apple",
+              "notes": "kIxgGfUpX18LQRyAQ3zxzqiLDCcWfxzaODXuo1mrR0sPfLxQzMZCuUIHrp4DvmKdbUIEAPUpaL2ldl2JXxq27wIRjvJF2Ke1VAmiS0rNH2uGjbnsr4MUDaIUdapomxwhPc3k93YGmwTN3liQ8a4CrtV7LcJK8gwKtUgt8M3KN7SxAisT4qM7dekNXUDSQEBQQlXKhGdmanPZfWavCmB5uqoUagUXZYk5a4lKH23iy5P7ntU2GBzzIRQEKQ",
+              "received": false
+            }
+          ],
+          "total_price": 50274,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:46:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

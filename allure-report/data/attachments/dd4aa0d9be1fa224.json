@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:47:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3660",
+    "etag": "W/\"e4c-mgzTJmxyC/PlLLjijV4+hKH48BQ\"",
+    "keep-alive": "timeout=5, max=46",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694dbf091c508c5d5e129c61",
+      "status": "In Process",
+      "customer": {
+        "_id": "694dbf071c508c5d5e129af2",
+        "email": "Lacy.Feil@yahoo.com",
+        "name": "Maymie Heidenreich",
+        "country": "USA",
+        "city": "East Austenmouth",
+        "street": "Johns Brooks 31",
+        "house": 796,
+        "flat": 8211,
+        "phone": "+549211919026376",
+        "createdOn": "2025-12-25T22:47:35.000Z",
+        "notes": "ZEKbHQkpipouMPT9CzTYT6k2X4o8d5"
+      },
+      "products": [
+        {
+          "_id": "694dbf091c508c5d5e129c3a",
+          "name": "Chair42594",
+          "amount": 80,
+          "price": 25914,
+          "manufacturer": "Xiaomi",
+          "notes": "w2nECMv85yvYtqk05uRIFy7tkA0j5EKxz4MrFdVUkEvHBlqL317or23G3lMauyIsPjhNB8o8fBybatRjQbZGm5mnVT7FTQvDoXXPHIlNw5cemlYyeqvVteswgrwIsXSjfJSS7YgmeyYMslzfWrfpRkrOpF9uEAwjL6qJlQXJd81uDHI6jjngDGciFi8KPTfu0hjtyuZIUoFf7epNrdbCCTSOBCnkQx5ZZrLxWIQBnfNSJHoIkZj7w7Bhww",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Scottsdale",
+          "street": "W Broadway",
+          "house": 676,
+          "flat": 364
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25914,
+      "createdOn": "2025-12-25T22:47:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694dbf071c508c5d5e129af2",
+          "products": [
+            {
+              "_id": "694dbf091c508c5d5e129c3a",
+              "name": "Chair42594",
+              "amount": 80,
+              "price": 25914,
+              "manufacturer": "Xiaomi",
+              "notes": "w2nECMv85yvYtqk05uRIFy7tkA0j5EKxz4MrFdVUkEvHBlqL317or23G3lMauyIsPjhNB8o8fBybatRjQbZGm5mnVT7FTQvDoXXPHIlNw5cemlYyeqvVteswgrwIsXSjfJSS7YgmeyYMslzfWrfpRkrOpF9uEAwjL6qJlQXJd81uDHI6jjngDGciFi8KPTfu0hjtyuZIUoFf7epNrdbCCTSOBCnkQx5ZZrLxWIQBnfNSJHoIkZj7w7Bhww",
+              "received": false
+            }
+          ],
+          "total_price": 25914,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Scottsdale",
+              "street": "W Broadway",
+              "house": 676,
+              "flat": 364
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:47:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694dbf071c508c5d5e129af2",
+          "products": [
+            {
+              "_id": "694dbf091c508c5d5e129c3a",
+              "name": "Chair42594",
+              "amount": 80,
+              "price": 25914,
+              "manufacturer": "Xiaomi",
+              "notes": "w2nECMv85yvYtqk05uRIFy7tkA0j5EKxz4MrFdVUkEvHBlqL317or23G3lMauyIsPjhNB8o8fBybatRjQbZGm5mnVT7FTQvDoXXPHIlNw5cemlYyeqvVteswgrwIsXSjfJSS7YgmeyYMslzfWrfpRkrOpF9uEAwjL6qJlQXJd81uDHI6jjngDGciFi8KPTfu0hjtyuZIUoFf7epNrdbCCTSOBCnkQx5ZZrLxWIQBnfNSJHoIkZj7w7Bhww",
+              "received": false
+            }
+          ],
+          "total_price": 25914,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Scottsdale",
+              "street": "W Broadway",
+              "house": 676,
+              "flat": 364
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:47:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694dbf071c508c5d5e129af2",
+          "products": [
+            {
+              "_id": "694dbf091c508c5d5e129c3a",
+              "name": "Chair42594",
+              "amount": 80,
+              "price": 25914,
+              "manufacturer": "Xiaomi",
+              "notes": "w2nECMv85yvYtqk05uRIFy7tkA0j5EKxz4MrFdVUkEvHBlqL317or23G3lMauyIsPjhNB8o8fBybatRjQbZGm5mnVT7FTQvDoXXPHIlNw5cemlYyeqvVteswgrwIsXSjfJSS7YgmeyYMslzfWrfpRkrOpF9uEAwjL6qJlQXJd81uDHI6jjngDGciFi8KPTfu0hjtyuZIUoFf7epNrdbCCTSOBCnkQx5ZZrLxWIQBnfNSJHoIkZj7w7Bhww",
+              "received": false
+            }
+          ],
+          "total_price": 25914,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:47:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

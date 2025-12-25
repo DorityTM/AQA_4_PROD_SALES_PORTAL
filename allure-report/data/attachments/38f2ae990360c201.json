@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 22:49:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4626",
+    "etag": "W/\"1212-i7eCk51ud7AL8CznLrUKq8OF2TQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694dbf821c508c5d5e12edd2",
+      "status": "Received",
+      "customer": {
+        "_id": "694dbf811c508c5d5e12ed97",
+        "email": "Kristian85@hotmail.com",
+        "name": "Kiley Stoltenberg",
+        "country": "Germany",
+        "city": "Chaunceystad",
+        "street": "Watsica Brook 97",
+        "house": 826,
+        "flat": 3096,
+        "phone": "+796556294600608",
+        "createdOn": "2025-12-25T22:49:37.000Z",
+        "notes": "DU3YfG5yXH2kcKpwp6URkixxfhBASX"
+      },
+      "products": [
+        {
+          "_id": "694dbf811c508c5d5e12edaf",
+          "name": "Mouse95877",
+          "amount": 334,
+          "price": 35419,
+          "manufacturer": "Tesla",
+          "notes": "ynYsxFpBCien1PRdIQGYbNiGQpQRU1ucKKje62hD3PKMFpKTeMs5YiI4tn0Dsx037zahCNwh3Gm1fyatpZqasAcC8xBX3Kvg5E1qaliQPfzDzTK0ndOME0hqTidICQWYxyH02zvT0kJohYq9XejK5GdLzYc06lLP9GVjGFQoWwHmeo4OTAIq5ZImc98oq48kr6XOhBlVeo2XbkFx0Lzxn4sW3s0MswDifpWqHa0gqzWUOrfhj3396YMdcz",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Hayley",
+          "street": "Hansen Loop",
+          "house": 916,
+          "flat": 8066
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 35419,
+      "createdOn": "2025-12-25T22:49:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694dbf811c508c5d5e12ed97",
+          "products": [
+            {
+              "_id": "694dbf811c508c5d5e12edaf",
+              "name": "Mouse95877",
+              "amount": 334,
+              "price": 35419,
+              "manufacturer": "Tesla",
+              "notes": "ynYsxFpBCien1PRdIQGYbNiGQpQRU1ucKKje62hD3PKMFpKTeMs5YiI4tn0Dsx037zahCNwh3Gm1fyatpZqasAcC8xBX3Kvg5E1qaliQPfzDzTK0ndOME0hqTidICQWYxyH02zvT0kJohYq9XejK5GdLzYc06lLP9GVjGFQoWwHmeo4OTAIq5ZImc98oq48kr6XOhBlVeo2XbkFx0Lzxn4sW3s0MswDifpWqHa0gqzWUOrfhj3396YMdcz",
+              "received": true
+            }
+          ],
+          "total_price": 35419,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Hayley",
+              "street": "Hansen Loop",
+              "house": 916,
+              "flat": 8066
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:49:44.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694dbf811c508c5d5e12ed97",
+          "products": [
+            {
+              "_id": "694dbf811c508c5d5e12edaf",
+              "name": "Mouse95877",
+              "amount": 334,
+              "price": 35419,
+              "manufacturer": "Tesla",
+              "notes": "ynYsxFpBCien1PRdIQGYbNiGQpQRU1ucKKje62hD3PKMFpKTeMs5YiI4tn0Dsx037zahCNwh3Gm1fyatpZqasAcC8xBX3Kvg5E1qaliQPfzDzTK0ndOME0hqTidICQWYxyH02zvT0kJohYq9XejK5GdLzYc06lLP9GVjGFQoWwHmeo4OTAIq5ZImc98oq48kr6XOhBlVeo2XbkFx0Lzxn4sW3s0MswDifpWqHa0gqzWUOrfhj3396YMdcz",
+              "received": false
+            }
+          ],
+          "total_price": 35419,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Hayley",
+              "street": "Hansen Loop",
+              "house": 916,
+              "flat": 8066
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:49:40.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694dbf811c508c5d5e12ed97",
+          "products": [
+            {
+              "_id": "694dbf811c508c5d5e12edaf",
+              "name": "Mouse95877",
+              "amount": 334,
+              "price": 35419,
+              "manufacturer": "Tesla",
+              "notes": "ynYsxFpBCien1PRdIQGYbNiGQpQRU1ucKKje62hD3PKMFpKTeMs5YiI4tn0Dsx037zahCNwh3Gm1fyatpZqasAcC8xBX3Kvg5E1qaliQPfzDzTK0ndOME0hqTidICQWYxyH02zvT0kJohYq9XejK5GdLzYc06lLP9GVjGFQoWwHmeo4OTAIq5ZImc98oq48kr6XOhBlVeo2XbkFx0Lzxn4sW3s0MswDifpWqHa0gqzWUOrfhj3396YMdcz",
+              "received": false
+            }
+          ],
+          "total_price": 35419,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Hayley",
+              "street": "Hansen Loop",
+              "house": 916,
+              "flat": 8066
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T22:49:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694dbf811c508c5d5e12ed97",
+          "products": [
+            {
+              "_id": "694dbf811c508c5d5e12edaf",
+              "name": "Mouse95877",
+              "amount": 334,
+              "price": 35419,
+              "manufacturer": "Tesla",
+              "notes": "ynYsxFpBCien1PRdIQGYbNiGQpQRU1ucKKje62hD3PKMFpKTeMs5YiI4tn0Dsx037zahCNwh3Gm1fyatpZqasAcC8xBX3Kvg5E1qaliQPfzDzTK0ndOME0hqTidICQWYxyH02zvT0kJohYq9XejK5GdLzYc06lLP9GVjGFQoWwHmeo4OTAIq5ZImc98oq48kr6XOhBlVeo2XbkFx0Lzxn4sW3s0MswDifpWqHa0gqzWUOrfhj3396YMdcz",
+              "received": false
+            }
+          ],
+          "total_price": 35419,
+          "delivery": null,
+          "changedOn": "2025-12-25T22:49:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
