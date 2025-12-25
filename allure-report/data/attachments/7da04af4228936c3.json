@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 17:21:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1775",
+    "etag": "W/\"6ef-RAyqkIqREWDd+fRqhq1t+SVDz28\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d72b51c508c5d5e0bc84b",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d72b31c508c5d5e0bc6f6",
+        "email": "Toni.Mayer@gmail.com",
+        "name": "Lucinda Frami",
+        "country": "Canada",
+        "city": "Conroe",
+        "street": "Grand Avenue 55",
+        "house": 54,
+        "flat": 2463,
+        "phone": "+224855832715877",
+        "createdOn": "2025-12-25T17:21:55.000Z",
+        "notes": "jWtP8yvPqsWp36EQhuWqT8fbEb397Y"
+      },
+      "products": [
+        {
+          "_id": "694d72b41c508c5d5e0bc79f",
+          "name": "Bacon20231",
+          "amount": 995,
+          "price": 65128,
+          "manufacturer": "Tesla",
+          "notes": "LPJZu0myTILiVsp6O2FPO5Ulnu2jS51MTzDXi6ofcS2FM2ryp8goMrXbVFvBNdihuoESsOsrVCWiHmTuOH7PO9tkYSYgtsMSrj05NxDeID0tnTquNWbxxquofsJm95Kk6GpunnLKLcfcSxm3y3PHry5jCe5l0gMANARXBoLMK0wDHo95ECyHENT5VFnHz45Ilnj08oqgOfVAb7tY3Cm8amQaWV8tWal9tqCY5ZPd1xgopqYx3bDUVB7FEF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 65128,
+      "createdOn": "2025-12-25T17:21:57.000Z",
+      "comments": [
+        {
+          "text": "Ensure > threshold before ship",
+          "createdOn": "2025-12-25T17:21:57.000Z",
+          "_id": "694d72b51c508c5d5e0bc86c"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d72b31c508c5d5e0bc6f6",
+          "products": [
+            {
+              "_id": "694d72b41c508c5d5e0bc79f",
+              "name": "Bacon20231",
+              "amount": 995,
+              "price": 65128,
+              "manufacturer": "Tesla",
+              "notes": "LPJZu0myTILiVsp6O2FPO5Ulnu2jS51MTzDXi6ofcS2FM2ryp8goMrXbVFvBNdihuoESsOsrVCWiHmTuOH7PO9tkYSYgtsMSrj05NxDeID0tnTquNWbxxquofsJm95Kk6GpunnLKLcfcSxm3y3PHry5jCe5l0gMANARXBoLMK0wDHo95ECyHENT5VFnHz45Ilnj08oqgOfVAb7tY3Cm8amQaWV8tWal9tqCY5ZPd1xgopqYx3bDUVB7FEF",
+              "received": false
+            }
+          ],
+          "total_price": 65128,
+          "delivery": null,
+          "changedOn": "2025-12-25T17:21:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

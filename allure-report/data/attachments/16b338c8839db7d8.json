@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 17:21:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6556",
+    "etag": "W/\"199c-Q6XgkDZFjT/wbpJVOhM6bxBExVU\"",
+    "keep-alive": "timeout=5, max=50",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d72981c508c5d5e0bb7e9",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694d72961c508c5d5e0bb709",
+        "email": "Carrie52@yahoo.com",
+        "name": "Nelda Bauch",
+        "country": "Russia",
+        "city": "West Babylon",
+        "street": "Park View 6",
+        "house": 702,
+        "flat": 926,
+        "phone": "+623101249086352",
+        "createdOn": "2025-12-25T17:21:26.000Z",
+        "notes": "r6L0Gqqq0O4e3RWzyZeCX1w7z9hMvb"
+      },
+      "products": [
+        {
+          "_id": "694d72971c508c5d5e0bb71e",
+          "name": "Chicken36948",
+          "amount": 88,
+          "price": 33276,
+          "manufacturer": "Google",
+          "notes": "CeLz3H9nHAFgPKjLNolW1aNmeCMBq4kBXqpzefIOHh2M403FPVc92iDTkkc1MioiDK8T7f4vsVMSTalqwiu0TjK5OOwBMSirFdkXaF4NWLn3ofIVkhZHDRRJN7TJDymXz0zFxh7W7j3tcjpLkiy1pQo2NdLEDU4x2WvQfWdxllNKczgCY07HEcoXQpl4qfjdGl6abtPVReeDwUL2x9i42P2o5bgczsqQGa81Z8YBWAYol2zcpnBUnMrlD1",
+          "received": true
+        },
+        {
+          "_id": "694d72981c508c5d5e0bb7b8",
+          "name": "Bacon783",
+          "amount": 666,
+          "price": 74524,
+          "manufacturer": "Apple",
+          "notes": "D2k0FvOKiMi2q0avXh5bftKU8aV2OaSUICAtmcaYygXICr14mvnqAb9cBXKLt46SmcfComih3WVZjFhCRMhKoN0AHW9AR73pCyhiyFf9Og17SBcnYQCtVZozCKZCCaEsoVZ7LjUf3TDW7DPLwZe5uFtN2n50JSBbICfDmpqxOtlWh0i4ePKf7FzZ081C9QoOfThUr4wV67BEe5hzEiOyV2XeC73FI56Km6VONfNTywx1d7NzHypkiOkd4U",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "North Delaneychester",
+          "street": "Yew Tree Close",
+          "house": 859,
+          "flat": 6016
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 107800,
+      "createdOn": "2025-12-25T17:21:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694d72961c508c5d5e0bb709",
+          "products": [
+            {
+              "_id": "694d72971c508c5d5e0bb71e",
+              "name": "Chicken36948",
+              "amount": 88,
+              "price": 33276,
+              "manufacturer": "Google",
+              "notes": "CeLz3H9nHAFgPKjLNolW1aNmeCMBq4kBXqpzefIOHh2M403FPVc92iDTkkc1MioiDK8T7f4vsVMSTalqwiu0TjK5OOwBMSirFdkXaF4NWLn3ofIVkhZHDRRJN7TJDymXz0zFxh7W7j3tcjpLkiy1pQo2NdLEDU4x2WvQfWdxllNKczgCY07HEcoXQpl4qfjdGl6abtPVReeDwUL2x9i42P2o5bgczsqQGa81Z8YBWAYol2zcpnBUnMrlD1",
+              "received": true
+            },
+            {
+              "_id": "694d72981c508c5d5e0bb7b8",
+              "name": "Bacon783",
+              "amount": 666,
+              "price": 74524,
+              "manufacturer": "Apple",
+              "notes": "D2k0FvOKiMi2q0avXh5bftKU8aV2OaSUICAtmcaYygXICr14mvnqAb9cBXKLt46SmcfComih3WVZjFhCRMhKoN0AHW9AR73pCyhiyFf9Og17SBcnYQCtVZozCKZCCaEsoVZ7LjUf3TDW7DPLwZe5uFtN2n50JSBbICfDmpqxOtlWh0i4ePKf7FzZ081C9QoOfThUr4wV67BEe5hzEiOyV2XeC73FI56Km6VONfNTywx1d7NzHypkiOkd4U",
+              "received": false
+            }
+          ],
+          "total_price": 107800,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Delaneychester",
+              "street": "Yew Tree Close",
+              "house": 859,
+              "flat": 6016
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T17:21:30.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694d72961c508c5d5e0bb709",
+          "products": [
+            {
+              "_id": "694d72971c508c5d5e0bb71e",
+              "name": "Chicken36948",
+              "amount": 88,
+              "price": 33276,
+              "manufacturer": "Google",
+              "notes": "CeLz3H9nHAFgPKjLNolW1aNmeCMBq4kBXqpzefIOHh2M403FPVc92iDTkkc1MioiDK8T7f4vsVMSTalqwiu0TjK5OOwBMSirFdkXaF4NWLn3ofIVkhZHDRRJN7TJDymXz0zFxh7W7j3tcjpLkiy1pQo2NdLEDU4x2WvQfWdxllNKczgCY07HEcoXQpl4qfjdGl6abtPVReeDwUL2x9i42P2o5bgczsqQGa81Z8YBWAYol2zcpnBUnMrlD1",
+              "received": false
+            },
+            {
+              "_id": "694d72981c508c5d5e0bb7b8",
+              "name": "Bacon783",
+              "amount": 666,
+              "price": 74524,
+              "manufacturer": "Apple",
+              "notes": "D2k0FvOKiMi2q0avXh5bftKU8aV2OaSUICAtmcaYygXICr14mvnqAb9cBXKLt46SmcfComih3WVZjFhCRMhKoN0AHW9AR73pCyhiyFf9Og17SBcnYQCtVZozCKZCCaEsoVZ7LjUf3TDW7DPLwZe5uFtN2n50JSBbICfDmpqxOtlWh0i4ePKf7FzZ081C9QoOfThUr4wV67BEe5hzEiOyV2XeC73FI56Km6VONfNTywx1d7NzHypkiOkd4U",
+              "received": false
+            }
+          ],
+          "total_price": 107800,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Delaneychester",
+              "street": "Yew Tree Close",
+              "house": 859,
+              "flat": 6016
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T17:21:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d72961c508c5d5e0bb709",
+          "products": [
+            {
+              "_id": "694d72971c508c5d5e0bb71e",
+              "name": "Chicken36948",
+              "amount": 88,
+              "price": 33276,
+              "manufacturer": "Google",
+              "notes": "CeLz3H9nHAFgPKjLNolW1aNmeCMBq4kBXqpzefIOHh2M403FPVc92iDTkkc1MioiDK8T7f4vsVMSTalqwiu0TjK5OOwBMSirFdkXaF4NWLn3ofIVkhZHDRRJN7TJDymXz0zFxh7W7j3tcjpLkiy1pQo2NdLEDU4x2WvQfWdxllNKczgCY07HEcoXQpl4qfjdGl6abtPVReeDwUL2x9i42P2o5bgczsqQGa81Z8YBWAYol2zcpnBUnMrlD1",
+              "received": false
+            },
+            {
+              "_id": "694d72981c508c5d5e0bb7b8",
+              "name": "Bacon783",
+              "amount": 666,
+              "price": 74524,
+              "manufacturer": "Apple",
+              "notes": "D2k0FvOKiMi2q0avXh5bftKU8aV2OaSUICAtmcaYygXICr14mvnqAb9cBXKLt46SmcfComih3WVZjFhCRMhKoN0AHW9AR73pCyhiyFf9Og17SBcnYQCtVZozCKZCCaEsoVZ7LjUf3TDW7DPLwZe5uFtN2n50JSBbICfDmpqxOtlWh0i4ePKf7FzZ081C9QoOfThUr4wV67BEe5hzEiOyV2XeC73FI56Km6VONfNTywx1d7NzHypkiOkd4U",
+              "received": false
+            }
+          ],
+          "total_price": 107800,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Delaneychester",
+              "street": "Yew Tree Close",
+              "house": 859,
+              "flat": 6016
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T17:21:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d72961c508c5d5e0bb709",
+          "products": [
+            {
+              "_id": "694d72971c508c5d5e0bb71e",
+              "name": "Chicken36948",
+              "amount": 88,
+              "price": 33276,
+              "manufacturer": "Google",
+              "notes": "CeLz3H9nHAFgPKjLNolW1aNmeCMBq4kBXqpzefIOHh2M403FPVc92iDTkkc1MioiDK8T7f4vsVMSTalqwiu0TjK5OOwBMSirFdkXaF4NWLn3ofIVkhZHDRRJN7TJDymXz0zFxh7W7j3tcjpLkiy1pQo2NdLEDU4x2WvQfWdxllNKczgCY07HEcoXQpl4qfjdGl6abtPVReeDwUL2x9i42P2o5bgczsqQGa81Z8YBWAYol2zcpnBUnMrlD1",
+              "received": false
+            },
+            {
+              "_id": "694d72981c508c5d5e0bb7b8",
+              "name": "Bacon783",
+              "amount": 666,
+              "price": 74524,
+              "manufacturer": "Apple",
+              "notes": "D2k0FvOKiMi2q0avXh5bftKU8aV2OaSUICAtmcaYygXICr14mvnqAb9cBXKLt46SmcfComih3WVZjFhCRMhKoN0AHW9AR73pCyhiyFf9Og17SBcnYQCtVZozCKZCCaEsoVZ7LjUf3TDW7DPLwZe5uFtN2n50JSBbICfDmpqxOtlWh0i4ePKf7FzZ081C9QoOfThUr4wV67BEe5hzEiOyV2XeC73FI56Km6VONfNTywx1d7NzHypkiOkd4U",
+              "received": false
+            }
+          ],
+          "total_price": 107800,
+          "delivery": null,
+          "changedOn": "2025-12-25T17:21:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

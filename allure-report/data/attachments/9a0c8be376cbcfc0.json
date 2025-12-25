@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 17:21:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6557",
+    "etag": "W/\"199d-+8paJF7OrOIQi9KMu/ELwgqlZXE\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d72951c508c5d5e0bb643",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694d72921c508c5d5e0bb459",
+        "email": "Trace_Schinner@hotmail.com",
+        "name": "Mitchel Feeney",
+        "country": "Germany",
+        "city": "Eastvale",
+        "street": "Marquis Alley 85",
+        "house": 641,
+        "flat": 8544,
+        "phone": "+847454632504035",
+        "createdOn": "2025-12-25T17:21:22.000Z",
+        "notes": "lOHCLYWAEWVJnsqHtTyDniKm9ulHaW"
+      },
+      "products": [
+        {
+          "_id": "694d72931c508c5d5e0bb487",
+          "name": "Cheese49334",
+          "amount": 225,
+          "price": 92012,
+          "manufacturer": "Tesla",
+          "notes": "1w3IuQG44TIAOx5NTK79FwCAP1mNeYTS9LJjNs5Df31wglWagGsrj2yaQXacbyXdomMZsqVaMGuviKPJgUNuY0JR69QejP4zf5rnD9IdU9RycgOtVOAJxT67A7K1vKUYofY5FlLaBEkUT1YV120adpwbhHYIs6T33RKynmXSj5qAld1eYEwiEOUxpsvlTY8AQb1LInr2mAAVvtVf1rwAbe1rowwqWlGvyBfPmFwcY3iCLbBpndUXGil2eV",
+          "received": true
+        },
+        {
+          "_id": "694d72941c508c5d5e0bb523",
+          "name": "Chicken56078",
+          "amount": 198,
+          "price": 39069,
+          "manufacturer": "Tesla",
+          "notes": "YLX4xs4pyRenvUDrcHXCe01iLoiE5whNFEoQwFfZrc9HnglYvIqlfPFWbffy5MYMvpjcZwJhh1xOTEcvJIaaHpMijjI9mvFyUhg1QN8Kg5E86jk5YuKkikx8sGGLPQc8TSyorkQpWcelVTX9KkRDU17RrGpytBVhxMWTWtagTKPf3VXXa52nPpv3U2NKdwMwrdb0iWUHfX6YISGqAxTepXeIi2tvfUawswZxjeS6LTXquGvb7NxMDVA6DY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "New Anibalchester",
+          "street": "Oma Avenue",
+          "house": 647,
+          "flat": 2924
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 131081,
+      "createdOn": "2025-12-25T17:21:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694d72921c508c5d5e0bb459",
+          "products": [
+            {
+              "_id": "694d72931c508c5d5e0bb487",
+              "name": "Cheese49334",
+              "amount": 225,
+              "price": 92012,
+              "manufacturer": "Tesla",
+              "notes": "1w3IuQG44TIAOx5NTK79FwCAP1mNeYTS9LJjNs5Df31wglWagGsrj2yaQXacbyXdomMZsqVaMGuviKPJgUNuY0JR69QejP4zf5rnD9IdU9RycgOtVOAJxT67A7K1vKUYofY5FlLaBEkUT1YV120adpwbhHYIs6T33RKynmXSj5qAld1eYEwiEOUxpsvlTY8AQb1LInr2mAAVvtVf1rwAbe1rowwqWlGvyBfPmFwcY3iCLbBpndUXGil2eV",
+              "received": true
+            },
+            {
+              "_id": "694d72941c508c5d5e0bb523",
+              "name": "Chicken56078",
+              "amount": 198,
+              "price": 39069,
+              "manufacturer": "Tesla",
+              "notes": "YLX4xs4pyRenvUDrcHXCe01iLoiE5whNFEoQwFfZrc9HnglYvIqlfPFWbffy5MYMvpjcZwJhh1xOTEcvJIaaHpMijjI9mvFyUhg1QN8Kg5E86jk5YuKkikx8sGGLPQc8TSyorkQpWcelVTX9KkRDU17RrGpytBVhxMWTWtagTKPf3VXXa52nPpv3U2NKdwMwrdb0iWUHfX6YISGqAxTepXeIi2tvfUawswZxjeS6LTXquGvb7NxMDVA6DY",
+              "received": false
+            }
+          ],
+          "total_price": 131081,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Anibalchester",
+              "street": "Oma Avenue",
+              "house": 647,
+              "flat": 2924
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T17:21:28.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694d72921c508c5d5e0bb459",
+          "products": [
+            {
+              "_id": "694d72931c508c5d5e0bb487",
+              "name": "Cheese49334",
+              "amount": 225,
+              "price": 92012,
+              "manufacturer": "Tesla",
+              "notes": "1w3IuQG44TIAOx5NTK79FwCAP1mNeYTS9LJjNs5Df31wglWagGsrj2yaQXacbyXdomMZsqVaMGuviKPJgUNuY0JR69QejP4zf5rnD9IdU9RycgOtVOAJxT67A7K1vKUYofY5FlLaBEkUT1YV120adpwbhHYIs6T33RKynmXSj5qAld1eYEwiEOUxpsvlTY8AQb1LInr2mAAVvtVf1rwAbe1rowwqWlGvyBfPmFwcY3iCLbBpndUXGil2eV",
+              "received": false
+            },
+            {
+              "_id": "694d72941c508c5d5e0bb523",
+              "name": "Chicken56078",
+              "amount": 198,
+              "price": 39069,
+              "manufacturer": "Tesla",
+              "notes": "YLX4xs4pyRenvUDrcHXCe01iLoiE5whNFEoQwFfZrc9HnglYvIqlfPFWbffy5MYMvpjcZwJhh1xOTEcvJIaaHpMijjI9mvFyUhg1QN8Kg5E86jk5YuKkikx8sGGLPQc8TSyorkQpWcelVTX9KkRDU17RrGpytBVhxMWTWtagTKPf3VXXa52nPpv3U2NKdwMwrdb0iWUHfX6YISGqAxTepXeIi2tvfUawswZxjeS6LTXquGvb7NxMDVA6DY",
+              "received": false
+            }
+          ],
+          "total_price": 131081,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Anibalchester",
+              "street": "Oma Avenue",
+              "house": 647,
+              "flat": 2924
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T17:21:28.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d72921c508c5d5e0bb459",
+          "products": [
+            {
+              "_id": "694d72931c508c5d5e0bb487",
+              "name": "Cheese49334",
+              "amount": 225,
+              "price": 92012,
+              "manufacturer": "Tesla",
+              "notes": "1w3IuQG44TIAOx5NTK79FwCAP1mNeYTS9LJjNs5Df31wglWagGsrj2yaQXacbyXdomMZsqVaMGuviKPJgUNuY0JR69QejP4zf5rnD9IdU9RycgOtVOAJxT67A7K1vKUYofY5FlLaBEkUT1YV120adpwbhHYIs6T33RKynmXSj5qAld1eYEwiEOUxpsvlTY8AQb1LInr2mAAVvtVf1rwAbe1rowwqWlGvyBfPmFwcY3iCLbBpndUXGil2eV",
+              "received": false
+            },
+            {
+              "_id": "694d72941c508c5d5e0bb523",
+              "name": "Chicken56078",
+              "amount": 198,
+              "price": 39069,
+              "manufacturer": "Tesla",
+              "notes": "YLX4xs4pyRenvUDrcHXCe01iLoiE5whNFEoQwFfZrc9HnglYvIqlfPFWbffy5MYMvpjcZwJhh1xOTEcvJIaaHpMijjI9mvFyUhg1QN8Kg5E86jk5YuKkikx8sGGLPQc8TSyorkQpWcelVTX9KkRDU17RrGpytBVhxMWTWtagTKPf3VXXa52nPpv3U2NKdwMwrdb0iWUHfX6YISGqAxTepXeIi2tvfUawswZxjeS6LTXquGvb7NxMDVA6DY",
+              "received": false
+            }
+          ],
+          "total_price": 131081,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Anibalchester",
+              "street": "Oma Avenue",
+              "house": 647,
+              "flat": 2924
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T17:21:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d72921c508c5d5e0bb459",
+          "products": [
+            {
+              "_id": "694d72931c508c5d5e0bb487",
+              "name": "Cheese49334",
+              "amount": 225,
+              "price": 92012,
+              "manufacturer": "Tesla",
+              "notes": "1w3IuQG44TIAOx5NTK79FwCAP1mNeYTS9LJjNs5Df31wglWagGsrj2yaQXacbyXdomMZsqVaMGuviKPJgUNuY0JR69QejP4zf5rnD9IdU9RycgOtVOAJxT67A7K1vKUYofY5FlLaBEkUT1YV120adpwbhHYIs6T33RKynmXSj5qAld1eYEwiEOUxpsvlTY8AQb1LInr2mAAVvtVf1rwAbe1rowwqWlGvyBfPmFwcY3iCLbBpndUXGil2eV",
+              "received": false
+            },
+            {
+              "_id": "694d72941c508c5d5e0bb523",
+              "name": "Chicken56078",
+              "amount": 198,
+              "price": 39069,
+              "manufacturer": "Tesla",
+              "notes": "YLX4xs4pyRenvUDrcHXCe01iLoiE5whNFEoQwFfZrc9HnglYvIqlfPFWbffy5MYMvpjcZwJhh1xOTEcvJIaaHpMijjI9mvFyUhg1QN8Kg5E86jk5YuKkikx8sGGLPQc8TSyorkQpWcelVTX9KkRDU17RrGpytBVhxMWTWtagTKPf3VXXa52nPpv3U2NKdwMwrdb0iWUHfX6YISGqAxTepXeIi2tvfUawswZxjeS6LTXquGvb7NxMDVA6DY",
+              "received": false
+            }
+          ],
+          "total_price": 131081,
+          "delivery": null,
+          "changedOn": "2025-12-25T17:21:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

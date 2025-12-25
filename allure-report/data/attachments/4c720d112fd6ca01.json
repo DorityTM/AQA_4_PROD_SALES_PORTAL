@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 17:22:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2728",
+    "etag": "W/\"aa8-VmFu1qkBf9HAyTxX71objfyZjgg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d72cc1c508c5d5e0bd65f",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d72cb1c508c5d5e0bd56b",
+        "email": "Aditya94@gmail.com",
+        "name": "Frankie Towne",
+        "country": "Germany",
+        "city": "Lake Maudie",
+        "street": "Stamm Hill 63",
+        "house": 540,
+        "flat": 7492,
+        "phone": "+788701149618993",
+        "createdOn": "2025-12-25T17:22:19.000Z",
+        "notes": "Sk57mP7Kl1TMzdC3VBydNkpQkyv8f9"
+      },
+      "products": [
+        {
+          "_id": "694d72cb1c508c5d5e0bd589",
+          "name": "Bike78472",
+          "amount": 22,
+          "price": 6552,
+          "manufacturer": "Apple",
+          "notes": "BUnlBbyFiQsUu15muHyEzSNhLXyp6lazKMjhrGnVxlb3kYSPsu1vdqmaMKO7Nd6TEizdshJANMCDtfggbK0WTekPCVb1iGrCPDvPfBqfrqCPSALUpMqPUuBeSfhQYdOfU6eDVwAcYlwrNCclIzRBVDJ6wrAKKmPromMW2mFcCcjtSl5R2elEF1WbMHD1j0pLFPNC4c56CloOb6qVEw0N9X3bjjT703n7QPZSPKerlHFXtjYpoMCh78cgZM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Willton",
+          "street": "Beaulah Prairie",
+          "house": 793,
+          "flat": 4177
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 6552,
+      "createdOn": "2025-12-25T17:22:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d72cb1c508c5d5e0bd56b",
+          "products": [
+            {
+              "_id": "694d72cb1c508c5d5e0bd589",
+              "name": "Bike78472",
+              "amount": 22,
+              "price": 6552,
+              "manufacturer": "Apple",
+              "notes": "BUnlBbyFiQsUu15muHyEzSNhLXyp6lazKMjhrGnVxlb3kYSPsu1vdqmaMKO7Nd6TEizdshJANMCDtfggbK0WTekPCVb1iGrCPDvPfBqfrqCPSALUpMqPUuBeSfhQYdOfU6eDVwAcYlwrNCclIzRBVDJ6wrAKKmPromMW2mFcCcjtSl5R2elEF1WbMHD1j0pLFPNC4c56CloOb6qVEw0N9X3bjjT703n7QPZSPKerlHFXtjYpoMCh78cgZM",
+              "received": false
+            }
+          ],
+          "total_price": 6552,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Willton",
+              "street": "Beaulah Prairie",
+              "house": 793,
+              "flat": 4177
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T17:22:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d72cb1c508c5d5e0bd56b",
+          "products": [
+            {
+              "_id": "694d72cb1c508c5d5e0bd589",
+              "name": "Bike78472",
+              "amount": 22,
+              "price": 6552,
+              "manufacturer": "Apple",
+              "notes": "BUnlBbyFiQsUu15muHyEzSNhLXyp6lazKMjhrGnVxlb3kYSPsu1vdqmaMKO7Nd6TEizdshJANMCDtfggbK0WTekPCVb1iGrCPDvPfBqfrqCPSALUpMqPUuBeSfhQYdOfU6eDVwAcYlwrNCclIzRBVDJ6wrAKKmPromMW2mFcCcjtSl5R2elEF1WbMHD1j0pLFPNC4c56CloOb6qVEw0N9X3bjjT703n7QPZSPKerlHFXtjYpoMCh78cgZM",
+              "received": false
+            }
+          ],
+          "total_price": 6552,
+          "delivery": null,
+          "changedOn": "2025-12-25T17:22:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

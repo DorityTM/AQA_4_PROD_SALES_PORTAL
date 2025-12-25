@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 17:21:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-IXi3JNeir4dA2NzPP/wQbJG659Y\"",
+    "keep-alive": "timeout=5, max=14",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d72b71c508c5d5e0bc93d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d72b51c508c5d5e0bc862",
+        "email": "Frederik_Goldner@gmail.com",
+        "name": "America Metz",
+        "country": "USA",
+        "city": "Davenport",
+        "street": "Bernita Parkways 20",
+        "house": 465,
+        "flat": 5554,
+        "phone": "+641622195383060",
+        "createdOn": "2025-12-25T17:21:57.000Z",
+        "notes": "9CLqcEaQeAeuStF49MshEsMAuf76FB"
+      },
+      "products": [
+        {
+          "_id": "694d72b61c508c5d5e0bc890",
+          "name": "Soap98569",
+          "amount": 700,
+          "price": 88538,
+          "manufacturer": "Apple",
+          "notes": "6CVl2pbdxVmK5ZZbOaB39VKuhgloIA7RjTsSZbjyGIEfL8a1KUMtHuuCkHJJicrgEQtDf0nFRN9FU9kkMBfBlFvdtlkWRrx28ZTYQe1bDENme6QT5y2pqki2W610bgOUo5IYUok3q57su8T8qA3A0eIfW92qPFvFlcqcOKckPR383Y92ZuzXF3bmtcj8r2G4SKOELsuVrfvhcLqCz27lS65nwS8EzjjYnYt4ufGLKEx6pgK731Ljeox8Pf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "East Polly",
+          "street": "Berge Rapid",
+          "house": 635,
+          "flat": 8323
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88538,
+      "createdOn": "2025-12-25T17:21:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d72b51c508c5d5e0bc862",
+          "products": [
+            {
+              "_id": "694d72b61c508c5d5e0bc890",
+              "name": "Soap98569",
+              "amount": 700,
+              "price": 88538,
+              "manufacturer": "Apple",
+              "notes": "6CVl2pbdxVmK5ZZbOaB39VKuhgloIA7RjTsSZbjyGIEfL8a1KUMtHuuCkHJJicrgEQtDf0nFRN9FU9kkMBfBlFvdtlkWRrx28ZTYQe1bDENme6QT5y2pqki2W610bgOUo5IYUok3q57su8T8qA3A0eIfW92qPFvFlcqcOKckPR383Y92ZuzXF3bmtcj8r2G4SKOELsuVrfvhcLqCz27lS65nwS8EzjjYnYt4ufGLKEx6pgK731Ljeox8Pf",
+              "received": false
+            }
+          ],
+          "total_price": 88538,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "East Polly",
+              "street": "Berge Rapid",
+              "house": 635,
+              "flat": 8323
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T17:21:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d72b51c508c5d5e0bc862",
+          "products": [
+            {
+              "_id": "694d72b61c508c5d5e0bc890",
+              "name": "Soap98569",
+              "amount": 700,
+              "price": 88538,
+              "manufacturer": "Apple",
+              "notes": "6CVl2pbdxVmK5ZZbOaB39VKuhgloIA7RjTsSZbjyGIEfL8a1KUMtHuuCkHJJicrgEQtDf0nFRN9FU9kkMBfBlFvdtlkWRrx28ZTYQe1bDENme6QT5y2pqki2W610bgOUo5IYUok3q57su8T8qA3A0eIfW92qPFvFlcqcOKckPR383Y92ZuzXF3bmtcj8r2G4SKOELsuVrfvhcLqCz27lS65nwS8EzjjYnYt4ufGLKEx6pgK731Ljeox8Pf",
+              "received": false
+            }
+          ],
+          "total_price": 88538,
+          "delivery": null,
+          "changedOn": "2025-12-25T17:21:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

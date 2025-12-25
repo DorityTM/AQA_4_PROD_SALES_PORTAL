@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 17:22:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-Z8bEMVm7KxGB6QjAmtWrAzr1HLo\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d72ec1c508c5d5e0bea5f",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d72eb1c508c5d5e0bea33",
+        "email": "Jeremy55@gmail.com",
+        "name": "Vernie Erdman",
+        "country": "Ukraine",
+        "city": "Kendallhaven",
+        "street": "Anastasia Plain 46",
+        "house": 980,
+        "flat": 8267,
+        "phone": "+001820137810860",
+        "createdOn": "2025-12-25T17:22:51.000Z",
+        "notes": "14g2SMrud3wBK6G0cWGfaOZhlb6esJ"
+      },
+      "products": [
+        {
+          "_id": "694d72ec1c508c5d5e0bea48",
+          "name": "Bike56854",
+          "amount": 354,
+          "price": 97952,
+          "manufacturer": "Microsoft",
+          "notes": "4zEfVWbIi8skNNxfnJTtzNnTqJtGLkt5z0QZo5ILhtaXcPwDNQjHeeS3imkCPXv55VLGvN8iovIDx5Qvvr5p31nIfcNRMSjC1v2JcFJ9YvksjtOxlKZ14DuoeCYw8AFU0axcNFE0h9SmmOjpZKfLSdt7istACigJhToDJt90r8H58TxrHrvcsDGTDP7JMe1VSHFnBtrdbH9zazoNeU1RvsLYdtVuRHD6dkwPMqpNh8Qura6pwyE1wAdEeI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "South Nelda",
+          "street": "Renner Curve",
+          "house": 58,
+          "flat": 5828
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97952,
+      "createdOn": "2025-12-25T17:22:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d72eb1c508c5d5e0bea33",
+          "products": [
+            {
+              "_id": "694d72ec1c508c5d5e0bea48",
+              "name": "Bike56854",
+              "amount": 354,
+              "price": 97952,
+              "manufacturer": "Microsoft",
+              "notes": "4zEfVWbIi8skNNxfnJTtzNnTqJtGLkt5z0QZo5ILhtaXcPwDNQjHeeS3imkCPXv55VLGvN8iovIDx5Qvvr5p31nIfcNRMSjC1v2JcFJ9YvksjtOxlKZ14DuoeCYw8AFU0axcNFE0h9SmmOjpZKfLSdt7istACigJhToDJt90r8H58TxrHrvcsDGTDP7JMe1VSHFnBtrdbH9zazoNeU1RvsLYdtVuRHD6dkwPMqpNh8Qura6pwyE1wAdEeI",
+              "received": false
+            }
+          ],
+          "total_price": 97952,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Nelda",
+              "street": "Renner Curve",
+              "house": 58,
+              "flat": 5828
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T17:22:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d72eb1c508c5d5e0bea33",
+          "products": [
+            {
+              "_id": "694d72ec1c508c5d5e0bea48",
+              "name": "Bike56854",
+              "amount": 354,
+              "price": 97952,
+              "manufacturer": "Microsoft",
+              "notes": "4zEfVWbIi8skNNxfnJTtzNnTqJtGLkt5z0QZo5ILhtaXcPwDNQjHeeS3imkCPXv55VLGvN8iovIDx5Qvvr5p31nIfcNRMSjC1v2JcFJ9YvksjtOxlKZ14DuoeCYw8AFU0axcNFE0h9SmmOjpZKfLSdt7istACigJhToDJt90r8H58TxrHrvcsDGTDP7JMe1VSHFnBtrdbH9zazoNeU1RvsLYdtVuRHD6dkwPMqpNh8Qura6pwyE1wAdEeI",
+              "received": false
+            }
+          ],
+          "total_price": 97952,
+          "delivery": null,
+          "changedOn": "2025-12-25T17:22:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
