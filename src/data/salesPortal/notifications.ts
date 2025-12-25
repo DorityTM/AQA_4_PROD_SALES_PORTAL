@@ -27,3 +27,9 @@ export enum NOTIFICATIONS_TYPES {
   NEW_ORDER = "newOrder",
   UNASSIGNED = "unassigned",
 }
+
+export enum MODAL_TEXT {
+  CANCEL_ORDER = "Are you sure you want to cancel the order?",
+  REOPEN_ORDER = "Are you sure you want to reopen the order?",
+  PROCESS_ORDER = "Are you sure you want to process the order?",
+}
