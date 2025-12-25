@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 21:17:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2766",
+    "etag": "W/\"ace-MsY+fHu1d19o2wb1uYBA142Ul1k\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694da9eb1c508c5d5e0db6f1",
+      "status": "Draft",
+      "customer": {
+        "_id": "694da9e91c508c5d5e0db5ec",
+        "email": "Demarcus44@hotmail.com",
+        "name": "Ethelyn O Conner Hansen",
+        "country": "France",
+        "city": "Port Orieboro",
+        "street": "O Reilly Crossroad 3",
+        "house": 775,
+        "flat": 7436,
+        "phone": "+397328254557063",
+        "createdOn": "2025-12-25T21:17:29.000Z",
+        "notes": "NM0i97DCXjEFjdHAwTAaiytSgbpZPf"
+      },
+      "products": [
+        {
+          "_id": "694da9ea1c508c5d5e0db6c4",
+          "name": "Shoes86023",
+          "amount": 958,
+          "price": 16575,
+          "manufacturer": "Apple",
+          "notes": "S8ajQtNXPDbmHMNX6sTyHXBE4ZYDHAueYc6TaP4KjVGhxeUxAiIVPwRaoYtjwCmstorhiHnuOSFgq287lHErG0NJFyQv2XxG5Q6sn1FGlf6MrG7jcvwamTvzgmjRcYDJnZcCFDBgudgzcNPxwiw26hbd5DNX4hTigRnDh7o8cwqlCVs26vfS3CIbp0o3cKrf2qK92tYHYtF9fVaQ6KgVC5OGhKAeoD0hYz2rjf9DqerDDwCUYHvqRNmKTA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Kennewick",
+          "street": "E Central Avenue",
+          "house": 49,
+          "flat": 5605
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16575,
+      "createdOn": "2025-12-25T21:17:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694da9e91c508c5d5e0db5ec",
+          "products": [
+            {
+              "_id": "694da9ea1c508c5d5e0db6c4",
+              "name": "Shoes86023",
+              "amount": 958,
+              "price": 16575,
+              "manufacturer": "Apple",
+              "notes": "S8ajQtNXPDbmHMNX6sTyHXBE4ZYDHAueYc6TaP4KjVGhxeUxAiIVPwRaoYtjwCmstorhiHnuOSFgq287lHErG0NJFyQv2XxG5Q6sn1FGlf6MrG7jcvwamTvzgmjRcYDJnZcCFDBgudgzcNPxwiw26hbd5DNX4hTigRnDh7o8cwqlCVs26vfS3CIbp0o3cKrf2qK92tYHYtF9fVaQ6KgVC5OGhKAeoD0hYz2rjf9DqerDDwCUYHvqRNmKTA",
+              "received": false
+            }
+          ],
+          "total_price": 16575,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Kennewick",
+              "street": "E Central Avenue",
+              "house": 49,
+              "flat": 5605
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:17:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694da9e91c508c5d5e0db5ec",
+          "products": [
+            {
+              "_id": "694da9ea1c508c5d5e0db6c4",
+              "name": "Shoes86023",
+              "amount": 958,
+              "price": 16575,
+              "manufacturer": "Apple",
+              "notes": "S8ajQtNXPDbmHMNX6sTyHXBE4ZYDHAueYc6TaP4KjVGhxeUxAiIVPwRaoYtjwCmstorhiHnuOSFgq287lHErG0NJFyQv2XxG5Q6sn1FGlf6MrG7jcvwamTvzgmjRcYDJnZcCFDBgudgzcNPxwiw26hbd5DNX4hTigRnDh7o8cwqlCVs26vfS3CIbp0o3cKrf2qK92tYHYtF9fVaQ6KgVC5OGhKAeoD0hYz2rjf9DqerDDwCUYHvqRNmKTA",
+              "received": false
+            }
+          ],
+          "total_price": 16575,
+          "delivery": null,
+          "changedOn": "2025-12-25T21:17:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

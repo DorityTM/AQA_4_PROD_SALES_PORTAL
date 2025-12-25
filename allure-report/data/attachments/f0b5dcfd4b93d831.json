@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 21:19:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3660",
+    "etag": "W/\"e4c-06eZ9tnADaoBmE6oQAxChf9xUW4\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694daa4a1c508c5d5e0df3ee",
+      "status": "In Process",
+      "customer": {
+        "_id": "694daa491c508c5d5e0df3a5",
+        "email": "Rossie_Feeney17@yahoo.com",
+        "name": "Hilton Metz",
+        "country": "Canada",
+        "city": "Enid",
+        "street": "Daryl Landing 71",
+        "house": 544,
+        "flat": 6576,
+        "phone": "+947133817272248",
+        "createdOn": "2025-12-25T21:19:05.000Z",
+        "notes": "5WYmltzavFbREr4vZVv6RGdLsh97z5"
+      },
+      "products": [
+        {
+          "_id": "694daa4a1c508c5d5e0df3c7",
+          "name": "Chips34097",
+          "amount": 395,
+          "price": 90754,
+          "manufacturer": "Tesla",
+          "notes": "csMSAkXpLo2fKffonO3AbvIU0LOBkT2HQO13YLRlMFlEf9cCqCtR3DJ5FAKODmxDrPbyYmdQolcZu29qRxCmiLAuvu3IUtMwpH7M6QcvAdGuTuqro4Z7IxFSGWnGLWG3m79Xy36fkHcUbBdxTaKjIfbakfxHVfPN9e7oNyETdlAD7HrX4ghQ8AqDDfJAQA9OJCAHNj4gL3Tj5h0rf7TtfXWsbBMCokCQzmFKwbretISox6YY64zCGVfy4F",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Bartlett",
+          "street": "Field Lane",
+          "house": 370,
+          "flat": 3922
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 90754,
+      "createdOn": "2025-12-25T21:19:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694daa491c508c5d5e0df3a5",
+          "products": [
+            {
+              "_id": "694daa4a1c508c5d5e0df3c7",
+              "name": "Chips34097",
+              "amount": 395,
+              "price": 90754,
+              "manufacturer": "Tesla",
+              "notes": "csMSAkXpLo2fKffonO3AbvIU0LOBkT2HQO13YLRlMFlEf9cCqCtR3DJ5FAKODmxDrPbyYmdQolcZu29qRxCmiLAuvu3IUtMwpH7M6QcvAdGuTuqro4Z7IxFSGWnGLWG3m79Xy36fkHcUbBdxTaKjIfbakfxHVfPN9e7oNyETdlAD7HrX4ghQ8AqDDfJAQA9OJCAHNj4gL3Tj5h0rf7TtfXWsbBMCokCQzmFKwbretISox6YY64zCGVfy4F",
+              "received": false
+            }
+          ],
+          "total_price": 90754,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Bartlett",
+              "street": "Field Lane",
+              "house": 370,
+              "flat": 3922
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:19:09.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694daa491c508c5d5e0df3a5",
+          "products": [
+            {
+              "_id": "694daa4a1c508c5d5e0df3c7",
+              "name": "Chips34097",
+              "amount": 395,
+              "price": 90754,
+              "manufacturer": "Tesla",
+              "notes": "csMSAkXpLo2fKffonO3AbvIU0LOBkT2HQO13YLRlMFlEf9cCqCtR3DJ5FAKODmxDrPbyYmdQolcZu29qRxCmiLAuvu3IUtMwpH7M6QcvAdGuTuqro4Z7IxFSGWnGLWG3m79Xy36fkHcUbBdxTaKjIfbakfxHVfPN9e7oNyETdlAD7HrX4ghQ8AqDDfJAQA9OJCAHNj4gL3Tj5h0rf7TtfXWsbBMCokCQzmFKwbretISox6YY64zCGVfy4F",
+              "received": false
+            }
+          ],
+          "total_price": 90754,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Bartlett",
+              "street": "Field Lane",
+              "house": 370,
+              "flat": 3922
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:19:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694daa491c508c5d5e0df3a5",
+          "products": [
+            {
+              "_id": "694daa4a1c508c5d5e0df3c7",
+              "name": "Chips34097",
+              "amount": 395,
+              "price": 90754,
+              "manufacturer": "Tesla",
+              "notes": "csMSAkXpLo2fKffonO3AbvIU0LOBkT2HQO13YLRlMFlEf9cCqCtR3DJ5FAKODmxDrPbyYmdQolcZu29qRxCmiLAuvu3IUtMwpH7M6QcvAdGuTuqro4Z7IxFSGWnGLWG3m79Xy36fkHcUbBdxTaKjIfbakfxHVfPN9e7oNyETdlAD7HrX4ghQ8AqDDfJAQA9OJCAHNj4gL3Tj5h0rf7TtfXWsbBMCokCQzmFKwbretISox6YY64zCGVfy4F",
+              "received": false
+            }
+          ],
+          "total_price": 90754,
+          "delivery": null,
+          "changedOn": "2025-12-25T21:19:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

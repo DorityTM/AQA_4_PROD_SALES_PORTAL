@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 21:17:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3666",
+    "etag": "W/\"e52-mTVjA3gB/s5lGIixArqX9f/0F6w\"",
+    "keep-alive": "timeout=5, max=35",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694daa001c508c5d5e0dc476",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694da9ff1c508c5d5e0dc381",
+        "email": "Vernon23@hotmail.com",
+        "name": "Leonie Waelchi",
+        "country": "Germany",
+        "city": "Jarenburgh",
+        "street": "Wilfred Parks 61",
+        "house": 636,
+        "flat": 8985,
+        "phone": "+558655661700445",
+        "createdOn": "2025-12-25T21:17:51.000Z",
+        "notes": "rs84Cw6VXGIyE2Jw9jNKeycz3BpHND"
+      },
+      "products": [
+        {
+          "_id": "694daa001c508c5d5e0dc450",
+          "name": "Soap26345",
+          "amount": 12,
+          "price": 17337,
+          "manufacturer": "Samsung",
+          "notes": "HbHneCNCvKXmOAp9aBKMFpdyNk5ITBU6OGAv9bjJP9u1teZl0PaKJWhD7hQX7M1Nskh4cq65E3zHcxZczaMuEC0RclZBo8ovr68WZ1JxjIn8caJhJmrL6vevDheK5jMp1NkQZ4DgWC0Ah6mae4H4IgmP37PAtA7HmkUk53YwCNQhr4P7F9yXBWoYjGXDRU7mTRJcjgIYUnnV6szONMs41dokK9TiVT0hwqTltKGzlYLhukaYc4CWWYgreA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "New Angeline",
+          "street": "Casey Burgs",
+          "house": 770,
+          "flat": 2848
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17337,
+      "createdOn": "2025-12-25T21:17:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694da9ff1c508c5d5e0dc381",
+          "products": [
+            {
+              "_id": "694daa001c508c5d5e0dc450",
+              "name": "Soap26345",
+              "amount": 12,
+              "price": 17337,
+              "manufacturer": "Samsung",
+              "notes": "HbHneCNCvKXmOAp9aBKMFpdyNk5ITBU6OGAv9bjJP9u1teZl0PaKJWhD7hQX7M1Nskh4cq65E3zHcxZczaMuEC0RclZBo8ovr68WZ1JxjIn8caJhJmrL6vevDheK5jMp1NkQZ4DgWC0Ah6mae4H4IgmP37PAtA7HmkUk53YwCNQhr4P7F9yXBWoYjGXDRU7mTRJcjgIYUnnV6szONMs41dokK9TiVT0hwqTltKGzlYLhukaYc4CWWYgreA",
+              "received": false
+            }
+          ],
+          "total_price": 17337,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Angeline",
+              "street": "Casey Burgs",
+              "house": 770,
+              "flat": 2848
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:17:55.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694da9ff1c508c5d5e0dc381",
+          "products": [
+            {
+              "_id": "694daa001c508c5d5e0dc450",
+              "name": "Soap26345",
+              "amount": 12,
+              "price": 17337,
+              "manufacturer": "Samsung",
+              "notes": "HbHneCNCvKXmOAp9aBKMFpdyNk5ITBU6OGAv9bjJP9u1teZl0PaKJWhD7hQX7M1Nskh4cq65E3zHcxZczaMuEC0RclZBo8ovr68WZ1JxjIn8caJhJmrL6vevDheK5jMp1NkQZ4DgWC0Ah6mae4H4IgmP37PAtA7HmkUk53YwCNQhr4P7F9yXBWoYjGXDRU7mTRJcjgIYUnnV6szONMs41dokK9TiVT0hwqTltKGzlYLhukaYc4CWWYgreA",
+              "received": false
+            }
+          ],
+          "total_price": 17337,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Angeline",
+              "street": "Casey Burgs",
+              "house": 770,
+              "flat": 2848
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:17:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694da9ff1c508c5d5e0dc381",
+          "products": [
+            {
+              "_id": "694daa001c508c5d5e0dc450",
+              "name": "Soap26345",
+              "amount": 12,
+              "price": 17337,
+              "manufacturer": "Samsung",
+              "notes": "HbHneCNCvKXmOAp9aBKMFpdyNk5ITBU6OGAv9bjJP9u1teZl0PaKJWhD7hQX7M1Nskh4cq65E3zHcxZczaMuEC0RclZBo8ovr68WZ1JxjIn8caJhJmrL6vevDheK5jMp1NkQZ4DgWC0Ah6mae4H4IgmP37PAtA7HmkUk53YwCNQhr4P7F9yXBWoYjGXDRU7mTRJcjgIYUnnV6szONMs41dokK9TiVT0hwqTltKGzlYLhukaYc4CWWYgreA",
+              "received": false
+            }
+          ],
+          "total_price": 17337,
+          "delivery": null,
+          "changedOn": "2025-12-25T21:17:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

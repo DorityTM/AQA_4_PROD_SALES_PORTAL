@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 21:17:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3900",
+    "etag": "W/\"f3c-k8HwM2zqYwXDQOrQ8yKBEmPVuC0\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694da9f41c508c5d5e0dbd10",
+      "status": "Draft",
+      "customer": {
+        "_id": "694da9f01c508c5d5e0dba59",
+        "email": "Rebekah30@hotmail.com",
+        "name": "Dalton Wiza",
+        "country": "France",
+        "city": "Rohantown",
+        "street": "Torrey Extensions 4",
+        "house": 474,
+        "flat": 9711,
+        "phone": "+973071546139849",
+        "createdOn": "2025-12-25T21:17:36.000Z",
+        "notes": "i8zRwr5QyBjnjtgR0ZwJhg8gw2uSJf"
+      },
+      "products": [
+        {
+          "_id": "694da9f11c508c5d5e0dba74",
+          "name": "Fish37621",
+          "amount": 430,
+          "price": 95149,
+          "manufacturer": "Samsung",
+          "notes": "QXE1oeAPCUV25RtYfsfkTCKtxl3IsP0EzJkjlQBsKbsMa42VOvGZdxH11734aGkqe26Hp2AQIOsXwe4RXZYG62hhJnwDNZFZMCLl2ZNdj9ypHUcjs2LA3f4ptXFga2xlQzhs3aKkv9McNO39Pb6JALgFY675GzVrimVuD6HFVGZGfzJ9hDjfrqChkuhOFsDySHjiIEltrOlQDvUipi1xydAdnHJlYsbaoC1Ut2TipV1zNIrxe9e5OF0OyJ",
+          "received": false
+        },
+        {
+          "_id": "694da9f21c508c5d5e0dbb59",
+          "name": "Tuna88319",
+          "amount": 126,
+          "price": 97977,
+          "manufacturer": "Apple",
+          "notes": "ExrHmHGjqoDPs2BJSFCG5Aeb8BdtxKrcABlCGHujsUWECMW7XXEJPdHhH4iDXhmaWn8wWXlmK2wSlWNXhe9228rYJgCFnXqkeAysyyqOIsG8C1J3FmLBDcJ4WBagCUgO2NFPAUkfnREakBpwRInk3qPFZIgqhWe9OV5nAH0VU5aFSsXysU4pIVBUO6zroKZAr5aeXpP7JOtFbt4xo2ZWpblDaw5Q7I8Tgx3ok1gGKDpUhGuaBcOYT7oS2J",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "South Mertie",
+          "street": "Orchard Road",
+          "house": 241,
+          "flat": 6264
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 193126,
+      "createdOn": "2025-12-25T21:17:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694da9f01c508c5d5e0dba59",
+          "products": [
+            {
+              "_id": "694da9f11c508c5d5e0dba74",
+              "name": "Fish37621",
+              "amount": 430,
+              "price": 95149,
+              "manufacturer": "Samsung",
+              "notes": "QXE1oeAPCUV25RtYfsfkTCKtxl3IsP0EzJkjlQBsKbsMa42VOvGZdxH11734aGkqe26Hp2AQIOsXwe4RXZYG62hhJnwDNZFZMCLl2ZNdj9ypHUcjs2LA3f4ptXFga2xlQzhs3aKkv9McNO39Pb6JALgFY675GzVrimVuD6HFVGZGfzJ9hDjfrqChkuhOFsDySHjiIEltrOlQDvUipi1xydAdnHJlYsbaoC1Ut2TipV1zNIrxe9e5OF0OyJ",
+              "received": false
+            },
+            {
+              "_id": "694da9f21c508c5d5e0dbb59",
+              "name": "Tuna88319",
+              "amount": 126,
+              "price": 97977,
+              "manufacturer": "Apple",
+              "notes": "ExrHmHGjqoDPs2BJSFCG5Aeb8BdtxKrcABlCGHujsUWECMW7XXEJPdHhH4iDXhmaWn8wWXlmK2wSlWNXhe9228rYJgCFnXqkeAysyyqOIsG8C1J3FmLBDcJ4WBagCUgO2NFPAUkfnREakBpwRInk3qPFZIgqhWe9OV5nAH0VU5aFSsXysU4pIVBUO6zroKZAr5aeXpP7JOtFbt4xo2ZWpblDaw5Q7I8Tgx3ok1gGKDpUhGuaBcOYT7oS2J",
+              "received": false
+            }
+          ],
+          "total_price": 193126,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "South Mertie",
+              "street": "Orchard Road",
+              "house": 241,
+              "flat": 6264
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T21:17:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694da9f01c508c5d5e0dba59",
+          "products": [
+            {
+              "_id": "694da9f11c508c5d5e0dba74",
+              "name": "Fish37621",
+              "amount": 430,
+              "price": 95149,
+              "manufacturer": "Samsung",
+              "notes": "QXE1oeAPCUV25RtYfsfkTCKtxl3IsP0EzJkjlQBsKbsMa42VOvGZdxH11734aGkqe26Hp2AQIOsXwe4RXZYG62hhJnwDNZFZMCLl2ZNdj9ypHUcjs2LA3f4ptXFga2xlQzhs3aKkv9McNO39Pb6JALgFY675GzVrimVuD6HFVGZGfzJ9hDjfrqChkuhOFsDySHjiIEltrOlQDvUipi1xydAdnHJlYsbaoC1Ut2TipV1zNIrxe9e5OF0OyJ",
+              "received": false
+            },
+            {
+              "_id": "694da9f21c508c5d5e0dbb59",
+              "name": "Tuna88319",
+              "amount": 126,
+              "price": 97977,
+              "manufacturer": "Apple",
+              "notes": "ExrHmHGjqoDPs2BJSFCG5Aeb8BdtxKrcABlCGHujsUWECMW7XXEJPdHhH4iDXhmaWn8wWXlmK2wSlWNXhe9228rYJgCFnXqkeAysyyqOIsG8C1J3FmLBDcJ4WBagCUgO2NFPAUkfnREakBpwRInk3qPFZIgqhWe9OV5nAH0VU5aFSsXysU4pIVBUO6zroKZAr5aeXpP7JOtFbt4xo2ZWpblDaw5Q7I8Tgx3ok1gGKDpUhGuaBcOYT7oS2J",
+              "received": false
+            }
+          ],
+          "total_price": 193126,
+          "delivery": null,
+          "changedOn": "2025-12-25T21:17:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
