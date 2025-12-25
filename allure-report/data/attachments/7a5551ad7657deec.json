@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:50:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-JzORn/Robac6M0Yacg/LvM/4asg\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d41111c508c5d5e09968c",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d41101c508c5d5e0995d1",
+        "email": "Jacques.Hilpert57@gmail.com",
+        "name": "Courtney Kessler",
+        "country": "Belarus",
+        "city": "West Noeliaton",
+        "street": "Bay Street 97",
+        "house": 500,
+        "flat": 2613,
+        "phone": "+033149354906214",
+        "createdOn": "2025-12-25T13:50:08.000Z",
+        "notes": "XeId1QDdqYcGWdQVyo2nnu7hs4cr3V"
+      },
+      "products": [
+        {
+          "_id": "694d41111c508c5d5e099632",
+          "name": "Shirt64734",
+          "amount": 338,
+          "price": 64163,
+          "manufacturer": "Microsoft",
+          "notes": "zqayWmmxThmtkNMWK5I9NEPlptWVckA9ZZZJxsJCaxvnorPweeniHGuVJZzI1wONF5tMzy1gcQydwleIJXWnhHh0JJxI8WFKViqbJsNidNd99RppGWskI9v2mDSxZkAju4FIqk6236au8XUHxtjy8qOtNGI68j5p5Xsy920lSRIcsjF9Pxz3fT3R9xzPBcS8Cw8sf4SOhzmcZTUsRT5cmKb3Jl690h0567jELnJhNe7VRJQzKkOLsx8VQT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Flower Mound",
+          "street": "Julia Meadow",
+          "house": 402,
+          "flat": 5876
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64163,
+      "createdOn": "2025-12-25T13:50:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d41101c508c5d5e0995d1",
+          "products": [
+            {
+              "_id": "694d41111c508c5d5e099632",
+              "name": "Shirt64734",
+              "amount": 338,
+              "price": 64163,
+              "manufacturer": "Microsoft",
+              "notes": "zqayWmmxThmtkNMWK5I9NEPlptWVckA9ZZZJxsJCaxvnorPweeniHGuVJZzI1wONF5tMzy1gcQydwleIJXWnhHh0JJxI8WFKViqbJsNidNd99RppGWskI9v2mDSxZkAju4FIqk6236au8XUHxtjy8qOtNGI68j5p5Xsy920lSRIcsjF9Pxz3fT3R9xzPBcS8Cw8sf4SOhzmcZTUsRT5cmKb3Jl690h0567jELnJhNe7VRJQzKkOLsx8VQT",
+              "received": false
+            }
+          ],
+          "total_price": 64163,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Flower Mound",
+              "street": "Julia Meadow",
+              "house": 402,
+              "flat": 5876
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:50:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d41101c508c5d5e0995d1",
+          "products": [
+            {
+              "_id": "694d41111c508c5d5e099632",
+              "name": "Shirt64734",
+              "amount": 338,
+              "price": 64163,
+              "manufacturer": "Microsoft",
+              "notes": "zqayWmmxThmtkNMWK5I9NEPlptWVckA9ZZZJxsJCaxvnorPweeniHGuVJZzI1wONF5tMzy1gcQydwleIJXWnhHh0JJxI8WFKViqbJsNidNd99RppGWskI9v2mDSxZkAju4FIqk6236au8XUHxtjy8qOtNGI68j5p5Xsy920lSRIcsjF9Pxz3fT3R9xzPBcS8Cw8sf4SOhzmcZTUsRT5cmKb3Jl690h0567jELnJhNe7VRJQzKkOLsx8VQT",
+              "received": false
+            }
+          ],
+          "total_price": 64163,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:50:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

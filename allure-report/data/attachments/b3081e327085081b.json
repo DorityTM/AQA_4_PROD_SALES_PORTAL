@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:50:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2751",
+    "etag": "W/\"abf-VUUQj0Ejoy0BRU+JTfYQnLPLU0I\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d41211c508c5d5e099eed",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d41211c508c5d5e099eb7",
+        "email": "Chelsey89@gmail.com",
+        "name": "Claudine Predovic",
+        "country": "Germany",
+        "city": "Lake Maximo",
+        "street": "Gottlieb Lane 55",
+        "house": 86,
+        "flat": 2437,
+        "phone": "+121984978689659",
+        "createdOn": "2025-12-25T13:50:25.000Z",
+        "notes": "xNXOrwZ5ZwY6EH42NUcUlgFPQ7iwP6"
+      },
+      "products": [
+        {
+          "_id": "694d41211c508c5d5e099eca",
+          "name": "Tuna3855",
+          "amount": 832,
+          "price": 22092,
+          "manufacturer": "Microsoft",
+          "notes": "D7LUL5VuhzIsDC6xwVwmAKafvOKwPakEIh6IL08eWh4EVgVtZq0I63JeEGLsJMw8G142mHRQYXL9uJSelMJ7XGzCSbuF25rbKCEg3VVLE1YXvyIoWot7ehupFTi9tW80MVyV3hZyky2AFbbY5TYH7f4kCRCTI3PUenRX4zoxZ9eauoKpOZ7fJRyyCvSXbvKcjYtTa5jNkgMg2UN7StGCWB4CPoCnM7MYJNn6aMADS52F4XLKG7nOyr4WG7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Mertztown",
+          "street": "Witting Union",
+          "house": 555,
+          "flat": 6079
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22092,
+      "createdOn": "2025-12-25T13:50:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d41211c508c5d5e099eb7",
+          "products": [
+            {
+              "_id": "694d41211c508c5d5e099eca",
+              "name": "Tuna3855",
+              "amount": 832,
+              "price": 22092,
+              "manufacturer": "Microsoft",
+              "notes": "D7LUL5VuhzIsDC6xwVwmAKafvOKwPakEIh6IL08eWh4EVgVtZq0I63JeEGLsJMw8G142mHRQYXL9uJSelMJ7XGzCSbuF25rbKCEg3VVLE1YXvyIoWot7ehupFTi9tW80MVyV3hZyky2AFbbY5TYH7f4kCRCTI3PUenRX4zoxZ9eauoKpOZ7fJRyyCvSXbvKcjYtTa5jNkgMg2UN7StGCWB4CPoCnM7MYJNn6aMADS52F4XLKG7nOyr4WG7",
+              "received": false
+            }
+          ],
+          "total_price": 22092,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Mertztown",
+              "street": "Witting Union",
+              "house": 555,
+              "flat": 6079
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:50:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d41211c508c5d5e099eb7",
+          "products": [
+            {
+              "_id": "694d41211c508c5d5e099eca",
+              "name": "Tuna3855",
+              "amount": 832,
+              "price": 22092,
+              "manufacturer": "Microsoft",
+              "notes": "D7LUL5VuhzIsDC6xwVwmAKafvOKwPakEIh6IL08eWh4EVgVtZq0I63JeEGLsJMw8G142mHRQYXL9uJSelMJ7XGzCSbuF25rbKCEg3VVLE1YXvyIoWot7ehupFTi9tW80MVyV3hZyky2AFbbY5TYH7f4kCRCTI3PUenRX4zoxZ9eauoKpOZ7fJRyyCvSXbvKcjYtTa5jNkgMg2UN7StGCWB4CPoCnM7MYJNn6aMADS52F4XLKG7nOyr4WG7",
+              "received": false
+            }
+          ],
+          "total_price": 22092,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:50:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

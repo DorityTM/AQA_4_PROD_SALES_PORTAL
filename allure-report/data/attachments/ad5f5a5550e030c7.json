@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:50:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2749",
+    "etag": "W/\"abd-oKn13h5XoHiqHvs2qs4/lfAZRhg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d41281c508c5d5e09a26b",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d41271c508c5d5e09a1e5",
+        "email": "Celine.Mitchell@yahoo.com",
+        "name": "Cortney Keebler",
+        "country": "Germany",
+        "city": "Metairie",
+        "street": "Northfield Road 98",
+        "house": 76,
+        "flat": 3394,
+        "phone": "+273013547103684",
+        "createdOn": "2025-12-25T13:50:31.000Z",
+        "notes": "vPvksDzefOJcxWqyZ9Ek6lyISKniaU"
+      },
+      "products": [
+        {
+          "_id": "694d41271c508c5d5e09a1fe",
+          "name": "Shirt42747",
+          "amount": 146,
+          "price": 31483,
+          "manufacturer": "Amazon",
+          "notes": "rqX04PCNzzpVAAA8MlXh98EbQK967ljAAKjlNOZFScFHVhHA3DgHJvtsUOhzsTI7acMX9yOMgkE8OQOxb6KlLZ7uVCHNbWZHzwnB0C2enKc6rivC8m0KPDJ4Js9rt019eMojSEqjX82ik6FJXgYps4XCotktmx0P6q9QQW1pfGQQUNS6RJJ8YYNeT7WjCpAOUamD7JwTg2LDxu97ekTcYGCFcc9cEzoIyRsNEnoBZTBCrQ274nt2D2ExG5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "West Magnus",
+          "street": "Wanda Isle",
+          "house": 386,
+          "flat": 1905
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 31483,
+      "createdOn": "2025-12-25T13:50:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d41271c508c5d5e09a1e5",
+          "products": [
+            {
+              "_id": "694d41271c508c5d5e09a1fe",
+              "name": "Shirt42747",
+              "amount": 146,
+              "price": 31483,
+              "manufacturer": "Amazon",
+              "notes": "rqX04PCNzzpVAAA8MlXh98EbQK967ljAAKjlNOZFScFHVhHA3DgHJvtsUOhzsTI7acMX9yOMgkE8OQOxb6KlLZ7uVCHNbWZHzwnB0C2enKc6rivC8m0KPDJ4Js9rt019eMojSEqjX82ik6FJXgYps4XCotktmx0P6q9QQW1pfGQQUNS6RJJ8YYNeT7WjCpAOUamD7JwTg2LDxu97ekTcYGCFcc9cEzoIyRsNEnoBZTBCrQ274nt2D2ExG5",
+              "received": false
+            }
+          ],
+          "total_price": 31483,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Magnus",
+              "street": "Wanda Isle",
+              "house": 386,
+              "flat": 1905
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:50:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d41271c508c5d5e09a1e5",
+          "products": [
+            {
+              "_id": "694d41271c508c5d5e09a1fe",
+              "name": "Shirt42747",
+              "amount": 146,
+              "price": 31483,
+              "manufacturer": "Amazon",
+              "notes": "rqX04PCNzzpVAAA8MlXh98EbQK967ljAAKjlNOZFScFHVhHA3DgHJvtsUOhzsTI7acMX9yOMgkE8OQOxb6KlLZ7uVCHNbWZHzwnB0C2enKc6rivC8m0KPDJ4Js9rt019eMojSEqjX82ik6FJXgYps4XCotktmx0P6q9QQW1pfGQQUNS6RJJ8YYNeT7WjCpAOUamD7JwTg2LDxu97ekTcYGCFcc9cEzoIyRsNEnoBZTBCrQ274nt2D2ExG5",
+              "received": false
+            }
+          ],
+          "total_price": 31483,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:50:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

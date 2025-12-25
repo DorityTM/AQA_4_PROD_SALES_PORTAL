@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:50:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3681",
+    "etag": "W/\"e61-zfIep2JKu1p3TRCvvK9DYsxN0oE\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d41151c508c5d5e099885",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694d41141c508c5d5e0997c2",
+        "email": "Albertha.Wolf0@yahoo.com",
+        "name": "Ned Fisher",
+        "country": "Germany",
+        "city": "Kutchside",
+        "street": "Chapel Close 82",
+        "house": 13,
+        "flat": 5949,
+        "phone": "+975051286725116",
+        "createdOn": "2025-12-25T13:50:12.000Z",
+        "notes": "1Vl9V46iybafAcQgLixb9FUGW1epQu"
+      },
+      "products": [
+        {
+          "_id": "694d41151c508c5d5e09986d",
+          "name": "Fish73522",
+          "amount": 749,
+          "price": 58350,
+          "manufacturer": "Microsoft",
+          "notes": "P1FIbx5ikGcJpbXYeLOlSobZ3uq6fApjxatKP59bbUJsuT6w5sBInema33AuFY6LZ5iRj9kaWvrYWjNBj4bnb6I07HABNQVgzIw73KcptWJI68c5tc50F3qqqgT7dOiy0GmcNBSOuyBMx0qVoykMFdqb1peDV0RTiki2IbBSr5iWAPuJ67SZMeFzo7fKZ6pHmFb5UFQlXER1lqAYR0lrrAr2kjcdAVtHyt2M8c7AAe53OAAq33BmN7ClJ3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Bernhardberg",
+          "street": "Hermann Shoal",
+          "house": 675,
+          "flat": 6679
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58350,
+      "createdOn": "2025-12-25T13:50:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694d41141c508c5d5e0997c2",
+          "products": [
+            {
+              "_id": "694d41151c508c5d5e09986d",
+              "name": "Fish73522",
+              "amount": 749,
+              "price": 58350,
+              "manufacturer": "Microsoft",
+              "notes": "P1FIbx5ikGcJpbXYeLOlSobZ3uq6fApjxatKP59bbUJsuT6w5sBInema33AuFY6LZ5iRj9kaWvrYWjNBj4bnb6I07HABNQVgzIw73KcptWJI68c5tc50F3qqqgT7dOiy0GmcNBSOuyBMx0qVoykMFdqb1peDV0RTiki2IbBSr5iWAPuJ67SZMeFzo7fKZ6pHmFb5UFQlXER1lqAYR0lrrAr2kjcdAVtHyt2M8c7AAe53OAAq33BmN7ClJ3",
+              "received": false
+            }
+          ],
+          "total_price": 58350,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Bernhardberg",
+              "street": "Hermann Shoal",
+              "house": 675,
+              "flat": 6679
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:50:15.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d41141c508c5d5e0997c2",
+          "products": [
+            {
+              "_id": "694d41151c508c5d5e09986d",
+              "name": "Fish73522",
+              "amount": 749,
+              "price": 58350,
+              "manufacturer": "Microsoft",
+              "notes": "P1FIbx5ikGcJpbXYeLOlSobZ3uq6fApjxatKP59bbUJsuT6w5sBInema33AuFY6LZ5iRj9kaWvrYWjNBj4bnb6I07HABNQVgzIw73KcptWJI68c5tc50F3qqqgT7dOiy0GmcNBSOuyBMx0qVoykMFdqb1peDV0RTiki2IbBSr5iWAPuJ67SZMeFzo7fKZ6pHmFb5UFQlXER1lqAYR0lrrAr2kjcdAVtHyt2M8c7AAe53OAAq33BmN7ClJ3",
+              "received": false
+            }
+          ],
+          "total_price": 58350,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Bernhardberg",
+              "street": "Hermann Shoal",
+              "house": 675,
+              "flat": 6679
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:50:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d41141c508c5d5e0997c2",
+          "products": [
+            {
+              "_id": "694d41151c508c5d5e09986d",
+              "name": "Fish73522",
+              "amount": 749,
+              "price": 58350,
+              "manufacturer": "Microsoft",
+              "notes": "P1FIbx5ikGcJpbXYeLOlSobZ3uq6fApjxatKP59bbUJsuT6w5sBInema33AuFY6LZ5iRj9kaWvrYWjNBj4bnb6I07HABNQVgzIw73KcptWJI68c5tc50F3qqqgT7dOiy0GmcNBSOuyBMx0qVoykMFdqb1peDV0RTiki2IbBSr5iWAPuJ67SZMeFzo7fKZ6pHmFb5UFQlXER1lqAYR0lrrAr2kjcdAVtHyt2M8c7AAe53OAAq33BmN7ClJ3",
+              "received": false
+            }
+          ],
+          "total_price": 58350,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:50:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

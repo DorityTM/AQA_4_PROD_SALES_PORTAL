@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:50:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2777",
+    "etag": "W/\"ad9-uUHj4EXzExC8WfmS1esnq61m5Mc\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d41271c508c5d5e09a206",
+      "status": "Draft",
+      "customer": {
+        "_id": "694d41251c508c5d5e09a072",
+        "email": "Kristin_Satterfield@hotmail.com",
+        "name": "Rhea Hansen",
+        "country": "Russia",
+        "city": "Dietrichstad",
+        "street": "E Bridge Street 61",
+        "house": 405,
+        "flat": 4197,
+        "phone": "+647445470483511",
+        "createdOn": "2025-12-25T13:50:29.000Z",
+        "notes": "lGSeWS4BUjSB2YnAUtB3hSAIcQasue"
+      },
+      "products": [
+        {
+          "_id": "694d41271c508c5d5e09a1e2",
+          "name": "Computer24558",
+          "amount": 566,
+          "price": 8267,
+          "manufacturer": "Microsoft",
+          "notes": "yY9aRbtfgD2NsGGpP6vFW66IochUUsjrVkzyztkGPXYCSdTrv4DOKonO7lMzuru3wS5ILds293JxbVVrqcborKPXIneB238LCoT4ahOL0gSiJ8dWUgoVHVHLFgQ7hO0Hc8HvrAnzBThYKuroj3cq59z3VLhGD8JHC2Vk5t30dPSTzx9p5mLvcEAESVuFUOJfRRacYovXYmFsV5QlBJMqMtERb4XlVmHaBOu5uywQg0JgH1jvKIFEW1BZyB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Abshireside",
+          "street": "Shanahan Locks",
+          "house": 498,
+          "flat": 7056
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 8267,
+      "createdOn": "2025-12-25T13:50:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694d41251c508c5d5e09a072",
+          "products": [
+            {
+              "_id": "694d41271c508c5d5e09a1e2",
+              "name": "Computer24558",
+              "amount": 566,
+              "price": 8267,
+              "manufacturer": "Microsoft",
+              "notes": "yY9aRbtfgD2NsGGpP6vFW66IochUUsjrVkzyztkGPXYCSdTrv4DOKonO7lMzuru3wS5ILds293JxbVVrqcborKPXIneB238LCoT4ahOL0gSiJ8dWUgoVHVHLFgQ7hO0Hc8HvrAnzBThYKuroj3cq59z3VLhGD8JHC2Vk5t30dPSTzx9p5mLvcEAESVuFUOJfRRacYovXYmFsV5QlBJMqMtERb4XlVmHaBOu5uywQg0JgH1jvKIFEW1BZyB",
+              "received": false
+            }
+          ],
+          "total_price": 8267,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Abshireside",
+              "street": "Shanahan Locks",
+              "house": 498,
+              "flat": 7056
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:50:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d41251c508c5d5e09a072",
+          "products": [
+            {
+              "_id": "694d41271c508c5d5e09a1e2",
+              "name": "Computer24558",
+              "amount": 566,
+              "price": 8267,
+              "manufacturer": "Microsoft",
+              "notes": "yY9aRbtfgD2NsGGpP6vFW66IochUUsjrVkzyztkGPXYCSdTrv4DOKonO7lMzuru3wS5ILds293JxbVVrqcborKPXIneB238LCoT4ahOL0gSiJ8dWUgoVHVHLFgQ7hO0Hc8HvrAnzBThYKuroj3cq59z3VLhGD8JHC2Vk5t30dPSTzx9p5mLvcEAESVuFUOJfRRacYovXYmFsV5QlBJMqMtERb4XlVmHaBOu5uywQg0JgH1jvKIFEW1BZyB",
+              "received": false
+            }
+          ],
+          "total_price": 8267,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:50:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

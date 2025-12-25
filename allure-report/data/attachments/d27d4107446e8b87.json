@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 25 Dec 2025 13:49:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4653",
+    "etag": "W/\"122d-Lfz4hzOnWssgxhp90mPN1kF7h1Q\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694d40d51c508c5d5e09791d",
+      "status": "Received",
+      "customer": {
+        "_id": "694d40d41c508c5d5e0978cc",
+        "email": "Mireille_Welch@yahoo.com",
+        "name": "Leatha Bergnaum",
+        "country": "France",
+        "city": "North Judsonton",
+        "street": "Main 71",
+        "house": 426,
+        "flat": 383,
+        "phone": "+099938810710813",
+        "createdOn": "2025-12-25T13:49:08.000Z",
+        "notes": "yLQO7V3oc1YGZtsmU8WCvluSD0hmr0"
+      },
+      "products": [
+        {
+          "_id": "694d40d41c508c5d5e0978ed",
+          "name": "Ball15806",
+          "amount": 831,
+          "price": 95834,
+          "manufacturer": "Microsoft",
+          "notes": "32aAzlTJpULBjxahg7eGfhsH4UYh3S1cJeQiKEpamRH5HpsPCdFMiyx8DLrkIMj5OQ7M2s4UHqupIH3LbeFmTVspZNAKxvaUAETIcG3RIWR8UyQWUjr8FXf9hyQ195wWhu1AGvukRMldr9EzK6qxPmn3UlpXJvAkntGglDFqvNNk9VFwz1I3mafp00F4M0uY87LxW3Tqlzv5tjQjtcEJ3VMlwjEQDVjOD81bOnoFObCfbpU2vfkgt5ajgA",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Lizziefield",
+          "street": "Eliza Square",
+          "house": 735,
+          "flat": 7120
+        },
+        "finalDate": "2026-01-01T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 95834,
+      "createdOn": "2025-12-25T13:49:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694d40d41c508c5d5e0978cc",
+          "products": [
+            {
+              "_id": "694d40d41c508c5d5e0978ed",
+              "name": "Ball15806",
+              "amount": 831,
+              "price": 95834,
+              "manufacturer": "Microsoft",
+              "notes": "32aAzlTJpULBjxahg7eGfhsH4UYh3S1cJeQiKEpamRH5HpsPCdFMiyx8DLrkIMj5OQ7M2s4UHqupIH3LbeFmTVspZNAKxvaUAETIcG3RIWR8UyQWUjr8FXf9hyQ195wWhu1AGvukRMldr9EzK6qxPmn3UlpXJvAkntGglDFqvNNk9VFwz1I3mafp00F4M0uY87LxW3Tqlzv5tjQjtcEJ3VMlwjEQDVjOD81bOnoFObCfbpU2vfkgt5ajgA",
+              "received": true
+            }
+          ],
+          "total_price": 95834,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Lizziefield",
+              "street": "Eliza Square",
+              "house": 735,
+              "flat": 7120
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:49:11.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694d40d41c508c5d5e0978cc",
+          "products": [
+            {
+              "_id": "694d40d41c508c5d5e0978ed",
+              "name": "Ball15806",
+              "amount": 831,
+              "price": 95834,
+              "manufacturer": "Microsoft",
+              "notes": "32aAzlTJpULBjxahg7eGfhsH4UYh3S1cJeQiKEpamRH5HpsPCdFMiyx8DLrkIMj5OQ7M2s4UHqupIH3LbeFmTVspZNAKxvaUAETIcG3RIWR8UyQWUjr8FXf9hyQ195wWhu1AGvukRMldr9EzK6qxPmn3UlpXJvAkntGglDFqvNNk9VFwz1I3mafp00F4M0uY87LxW3Tqlzv5tjQjtcEJ3VMlwjEQDVjOD81bOnoFObCfbpU2vfkgt5ajgA",
+              "received": false
+            }
+          ],
+          "total_price": 95834,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Lizziefield",
+              "street": "Eliza Square",
+              "house": 735,
+              "flat": 7120
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:49:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d40d41c508c5d5e0978cc",
+          "products": [
+            {
+              "_id": "694d40d41c508c5d5e0978ed",
+              "name": "Ball15806",
+              "amount": 831,
+              "price": 95834,
+              "manufacturer": "Microsoft",
+              "notes": "32aAzlTJpULBjxahg7eGfhsH4UYh3S1cJeQiKEpamRH5HpsPCdFMiyx8DLrkIMj5OQ7M2s4UHqupIH3LbeFmTVspZNAKxvaUAETIcG3RIWR8UyQWUjr8FXf9hyQ195wWhu1AGvukRMldr9EzK6qxPmn3UlpXJvAkntGglDFqvNNk9VFwz1I3mafp00F4M0uY87LxW3Tqlzv5tjQjtcEJ3VMlwjEQDVjOD81bOnoFObCfbpU2vfkgt5ajgA",
+              "received": false
+            }
+          ],
+          "total_price": 95834,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Lizziefield",
+              "street": "Eliza Square",
+              "house": 735,
+              "flat": 7120
+            },
+            "finalDate": "2026-01-01T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-25T13:49:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694d40d41c508c5d5e0978cc",
+          "products": [
+            {
+              "_id": "694d40d41c508c5d5e0978ed",
+              "name": "Ball15806",
+              "amount": 831,
+              "price": 95834,
+              "manufacturer": "Microsoft",
+              "notes": "32aAzlTJpULBjxahg7eGfhsH4UYh3S1cJeQiKEpamRH5HpsPCdFMiyx8DLrkIMj5OQ7M2s4UHqupIH3LbeFmTVspZNAKxvaUAETIcG3RIWR8UyQWUjr8FXf9hyQ195wWhu1AGvukRMldr9EzK6qxPmn3UlpXJvAkntGglDFqvNNk9VFwz1I3mafp00F4M0uY87LxW3Tqlzv5tjQjtcEJ3VMlwjEQDVjOD81bOnoFObCfbpU2vfkgt5ajgA",
+              "received": false
+            }
+          ],
+          "total_price": 95834,
+          "delivery": null,
+          "changedOn": "2025-12-25T13:49:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
