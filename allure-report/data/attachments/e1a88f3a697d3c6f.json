@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:26:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2738",
+    "etag": "W/\"ab2-WNimPwdG+d3Fo05rxFOFzifVcOs\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ea9281c508c5d5e1fc30a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ea9271c508c5d5e1fc2c1",
+        "email": "Israel80@yahoo.com",
+        "name": "Judy Schroeder",
+        "country": "Great Britain",
+        "city": "Cheyenne",
+        "street": "Towne Passage 59",
+        "house": 351,
+        "flat": 1532,
+        "phone": "+696281696650260",
+        "createdOn": "2025-12-26T15:26:31.000Z",
+        "notes": "AuKfducgEWXEoAU3RK5f88m87N50yT"
+      },
+      "products": [
+        {
+          "_id": "694ea9271c508c5d5e1fc2e0",
+          "name": "Ball94081",
+          "amount": 42,
+          "price": 73365,
+          "manufacturer": "Sony",
+          "notes": "zcEUs4vU6CArqU0GXHCFnO9sGQxRAin2KWWKgryQ17ZdjgPbjnnwe6ZfMr6MT4HWTx9Kpobf0y4Og1IpW6FjGuGbNitUneL7iDb3lc2r5AS4HhuGkwOMnSAZdunvTwpkVjaxs0n3V08FYagLAPxFWZ4Q7STGz8jNrJ6MXw5QzjYOoHZl2ocKsdDWX9mX1GE5F91Eg2HuMVJRSIPP0ulTK2nII9MaDwQzUVLBZa9i6WEFdlyMG2PUnfXz2x",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Hansenburgh",
+          "street": "Malinda Fall",
+          "house": 584,
+          "flat": 2191
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 73365,
+      "createdOn": "2025-12-26T15:26:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ea9271c508c5d5e1fc2c1",
+          "products": [
+            {
+              "_id": "694ea9271c508c5d5e1fc2e0",
+              "name": "Ball94081",
+              "amount": 42,
+              "price": 73365,
+              "manufacturer": "Sony",
+              "notes": "zcEUs4vU6CArqU0GXHCFnO9sGQxRAin2KWWKgryQ17ZdjgPbjnnwe6ZfMr6MT4HWTx9Kpobf0y4Og1IpW6FjGuGbNitUneL7iDb3lc2r5AS4HhuGkwOMnSAZdunvTwpkVjaxs0n3V08FYagLAPxFWZ4Q7STGz8jNrJ6MXw5QzjYOoHZl2ocKsdDWX9mX1GE5F91Eg2HuMVJRSIPP0ulTK2nII9MaDwQzUVLBZa9i6WEFdlyMG2PUnfXz2x",
+              "received": false
+            }
+          ],
+          "total_price": 73365,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Hansenburgh",
+              "street": "Malinda Fall",
+              "house": 584,
+              "flat": 2191
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:26:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ea9271c508c5d5e1fc2c1",
+          "products": [
+            {
+              "_id": "694ea9271c508c5d5e1fc2e0",
+              "name": "Ball94081",
+              "amount": 42,
+              "price": 73365,
+              "manufacturer": "Sony",
+              "notes": "zcEUs4vU6CArqU0GXHCFnO9sGQxRAin2KWWKgryQ17ZdjgPbjnnwe6ZfMr6MT4HWTx9Kpobf0y4Og1IpW6FjGuGbNitUneL7iDb3lc2r5AS4HhuGkwOMnSAZdunvTwpkVjaxs0n3V08FYagLAPxFWZ4Q7STGz8jNrJ6MXw5QzjYOoHZl2ocKsdDWX9mX1GE5F91Eg2HuMVJRSIPP0ulTK2nII9MaDwQzUVLBZa9i6WEFdlyMG2PUnfXz2x",
+              "received": false
+            }
+          ],
+          "total_price": 73365,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:26:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

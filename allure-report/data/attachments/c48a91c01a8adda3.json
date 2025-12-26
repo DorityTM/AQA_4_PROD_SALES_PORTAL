@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:21:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5231",
+    "etag": "W/\"146f-bIHg/Uw/OGdB1hDaT3qcNLZyKiQ\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ea7fd1c508c5d5e1edc3f",
+      "status": "In Process",
+      "customer": {
+        "_id": "694ea7fb1c508c5d5e1eda9a",
+        "email": "Shyanne96@hotmail.com",
+        "name": "Carlos Reichel",
+        "country": "Russia",
+        "city": "Jaskolskiview",
+        "street": "Pine Grove 31",
+        "house": 520,
+        "flat": 4349,
+        "phone": "+951914406519726",
+        "createdOn": "2025-12-26T15:21:31.000Z",
+        "notes": "dp9ss1tmLdq49EYhIKHzPjmog4e0Qn"
+      },
+      "products": [
+        {
+          "_id": "694ea7fb1c508c5d5e1edaac",
+          "name": "Computer87382",
+          "amount": 432,
+          "price": 20168,
+          "manufacturer": "Tesla",
+          "notes": "xMgrVRovDvRcTh6ik9wMvT10ZmcVCifvp6ZgV5nQhBDQRktvK0lVLAocWMGX7ezl6LBj93QVhf9PbXrADTr8rWbqLK4utGpTljZUWtcWYSj5xceWHC07LhvkwPkq04f38Koc4qjGlmIn4vrcZFJTdoaf49xPx1G2rGW9GHTpdQD46oWRWiegsZ1OaCNVz3BVzygoPd7942OX1Dgdf6CdZ8ScmzbvMHY1IBlk212pv9caukSlKqQCOcNWlM",
+          "received": false
+        },
+        {
+          "_id": "694ea7fb1c508c5d5e1edacc",
+          "name": "Mouse95830",
+          "amount": 293,
+          "price": 87788,
+          "manufacturer": "Apple",
+          "notes": "3Al6V1iynSMxvH8NzZChUqYsBMabPbZeTb2gx4gCotbmRK9EkZFzaFMHAQXuiGLg1w9mW4asg5aGUTukrHuAvICdBjCLTRP7U39gQ4kXKVap76nQxRZHMeiHoKAMxS6NB9viWEG6S3jpXGYj0d8wvKendo39oOasM13Ee7gOoHC4l1xo9WJuJeXOozXyJ6As1ddfuMQmWH2WAYWB23ID7qDTuPm5Rt1wnMmmMsSKQCWOL0ndtnwGiswL3f",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Hegmannside",
+          "street": "Kshlerin Estates",
+          "house": 4,
+          "flat": 1587
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 107956,
+      "createdOn": "2025-12-26T15:21:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694ea7fb1c508c5d5e1eda9a",
+          "products": [
+            {
+              "_id": "694ea7fb1c508c5d5e1edaac",
+              "name": "Computer87382",
+              "amount": 432,
+              "price": 20168,
+              "manufacturer": "Tesla",
+              "notes": "xMgrVRovDvRcTh6ik9wMvT10ZmcVCifvp6ZgV5nQhBDQRktvK0lVLAocWMGX7ezl6LBj93QVhf9PbXrADTr8rWbqLK4utGpTljZUWtcWYSj5xceWHC07LhvkwPkq04f38Koc4qjGlmIn4vrcZFJTdoaf49xPx1G2rGW9GHTpdQD46oWRWiegsZ1OaCNVz3BVzygoPd7942OX1Dgdf6CdZ8ScmzbvMHY1IBlk212pv9caukSlKqQCOcNWlM",
+              "received": false
+            },
+            {
+              "_id": "694ea7fb1c508c5d5e1edacc",
+              "name": "Mouse95830",
+              "amount": 293,
+              "price": 87788,
+              "manufacturer": "Apple",
+              "notes": "3Al6V1iynSMxvH8NzZChUqYsBMabPbZeTb2gx4gCotbmRK9EkZFzaFMHAQXuiGLg1w9mW4asg5aGUTukrHuAvICdBjCLTRP7U39gQ4kXKVap76nQxRZHMeiHoKAMxS6NB9viWEG6S3jpXGYj0d8wvKendo39oOasM13Ee7gOoHC4l1xo9WJuJeXOozXyJ6As1ddfuMQmWH2WAYWB23ID7qDTuPm5Rt1wnMmmMsSKQCWOL0ndtnwGiswL3f",
+              "received": false
+            }
+          ],
+          "total_price": 107956,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Hegmannside",
+              "street": "Kshlerin Estates",
+              "house": 4,
+              "flat": 1587
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:21:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ea7fb1c508c5d5e1eda9a",
+          "products": [
+            {
+              "_id": "694ea7fb1c508c5d5e1edaac",
+              "name": "Computer87382",
+              "amount": 432,
+              "price": 20168,
+              "manufacturer": "Tesla",
+              "notes": "xMgrVRovDvRcTh6ik9wMvT10ZmcVCifvp6ZgV5nQhBDQRktvK0lVLAocWMGX7ezl6LBj93QVhf9PbXrADTr8rWbqLK4utGpTljZUWtcWYSj5xceWHC07LhvkwPkq04f38Koc4qjGlmIn4vrcZFJTdoaf49xPx1G2rGW9GHTpdQD46oWRWiegsZ1OaCNVz3BVzygoPd7942OX1Dgdf6CdZ8ScmzbvMHY1IBlk212pv9caukSlKqQCOcNWlM",
+              "received": false
+            },
+            {
+              "_id": "694ea7fb1c508c5d5e1edacc",
+              "name": "Mouse95830",
+              "amount": 293,
+              "price": 87788,
+              "manufacturer": "Apple",
+              "notes": "3Al6V1iynSMxvH8NzZChUqYsBMabPbZeTb2gx4gCotbmRK9EkZFzaFMHAQXuiGLg1w9mW4asg5aGUTukrHuAvICdBjCLTRP7U39gQ4kXKVap76nQxRZHMeiHoKAMxS6NB9viWEG6S3jpXGYj0d8wvKendo39oOasM13Ee7gOoHC4l1xo9WJuJeXOozXyJ6As1ddfuMQmWH2WAYWB23ID7qDTuPm5Rt1wnMmmMsSKQCWOL0ndtnwGiswL3f",
+              "received": false
+            }
+          ],
+          "total_price": 107956,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Hegmannside",
+              "street": "Kshlerin Estates",
+              "house": 4,
+              "flat": 1587
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:21:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ea7fb1c508c5d5e1eda9a",
+          "products": [
+            {
+              "_id": "694ea7fb1c508c5d5e1edaac",
+              "name": "Computer87382",
+              "amount": 432,
+              "price": 20168,
+              "manufacturer": "Tesla",
+              "notes": "xMgrVRovDvRcTh6ik9wMvT10ZmcVCifvp6ZgV5nQhBDQRktvK0lVLAocWMGX7ezl6LBj93QVhf9PbXrADTr8rWbqLK4utGpTljZUWtcWYSj5xceWHC07LhvkwPkq04f38Koc4qjGlmIn4vrcZFJTdoaf49xPx1G2rGW9GHTpdQD46oWRWiegsZ1OaCNVz3BVzygoPd7942OX1Dgdf6CdZ8ScmzbvMHY1IBlk212pv9caukSlKqQCOcNWlM",
+              "received": false
+            },
+            {
+              "_id": "694ea7fb1c508c5d5e1edacc",
+              "name": "Mouse95830",
+              "amount": 293,
+              "price": 87788,
+              "manufacturer": "Apple",
+              "notes": "3Al6V1iynSMxvH8NzZChUqYsBMabPbZeTb2gx4gCotbmRK9EkZFzaFMHAQXuiGLg1w9mW4asg5aGUTukrHuAvICdBjCLTRP7U39gQ4kXKVap76nQxRZHMeiHoKAMxS6NB9viWEG6S3jpXGYj0d8wvKendo39oOasM13Ee7gOoHC4l1xo9WJuJeXOozXyJ6As1ddfuMQmWH2WAYWB23ID7qDTuPm5Rt1wnMmmMsSKQCWOL0ndtnwGiswL3f",
+              "received": false
+            }
+          ],
+          "total_price": 107956,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:21:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

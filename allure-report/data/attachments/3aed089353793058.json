@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:18:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4612",
+    "etag": "W/\"1204-MR6wRPZazHdm23wpTruZK1p9PqA\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ea7291c508c5d5e1e4413",
+      "status": "Received",
+      "customer": {
+        "_id": "694ea7291c508c5d5e1e43b6",
+        "email": "Lea.Littel@yahoo.com",
+        "name": "Stephany Kihn",
+        "country": "USA",
+        "city": "Lake Nicholausbury",
+        "street": "Gunnar Ramp 38",
+        "house": 732,
+        "flat": 8895,
+        "phone": "+078902354174824",
+        "createdOn": "2025-12-26T15:18:01.000Z",
+        "notes": "w7DHiXNxBw2a9rPqDSrnglk6evQm7s"
+      },
+      "products": [
+        {
+          "_id": "694ea7291c508c5d5e1e43da",
+          "name": "Pants5356",
+          "amount": 110,
+          "price": 55672,
+          "manufacturer": "Xiaomi",
+          "notes": "nC5dQ7qJKGA6Jwtu0WUcAEGK6DTu64lvw4oFJeyVcRalELg052KB5nf9sNrn0ytAYXSwXT80Rr6ajq7OPgEvMhmnHw41WjKXNcUOyOPW6dwBR9DCos0wtQLKtH1XKBs36iE1JDHLStMMNuNIpYfvV6XOKX3uDDoUiuw0lL5kMbeJ8VnMeZEFnM7hh1o5RtNTuIuj5GO9CegFv8wNt6Ha8av8bD7P7zKTPbpfpjGRkDxtf6ZvFWjaD7vJdk",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Curtisboro",
+          "street": "Jefferson Avenue",
+          "house": 641,
+          "flat": 2042
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55672,
+      "createdOn": "2025-12-26T15:18:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694ea7291c508c5d5e1e43b6",
+          "products": [
+            {
+              "_id": "694ea7291c508c5d5e1e43da",
+              "name": "Pants5356",
+              "amount": 110,
+              "price": 55672,
+              "manufacturer": "Xiaomi",
+              "notes": "nC5dQ7qJKGA6Jwtu0WUcAEGK6DTu64lvw4oFJeyVcRalELg052KB5nf9sNrn0ytAYXSwXT80Rr6ajq7OPgEvMhmnHw41WjKXNcUOyOPW6dwBR9DCos0wtQLKtH1XKBs36iE1JDHLStMMNuNIpYfvV6XOKX3uDDoUiuw0lL5kMbeJ8VnMeZEFnM7hh1o5RtNTuIuj5GO9CegFv8wNt6Ha8av8bD7P7zKTPbpfpjGRkDxtf6ZvFWjaD7vJdk",
+              "received": true
+            }
+          ],
+          "total_price": 55672,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Curtisboro",
+              "street": "Jefferson Avenue",
+              "house": 641,
+              "flat": 2042
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:18:08.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694ea7291c508c5d5e1e43b6",
+          "products": [
+            {
+              "_id": "694ea7291c508c5d5e1e43da",
+              "name": "Pants5356",
+              "amount": 110,
+              "price": 55672,
+              "manufacturer": "Xiaomi",
+              "notes": "nC5dQ7qJKGA6Jwtu0WUcAEGK6DTu64lvw4oFJeyVcRalELg052KB5nf9sNrn0ytAYXSwXT80Rr6ajq7OPgEvMhmnHw41WjKXNcUOyOPW6dwBR9DCos0wtQLKtH1XKBs36iE1JDHLStMMNuNIpYfvV6XOKX3uDDoUiuw0lL5kMbeJ8VnMeZEFnM7hh1o5RtNTuIuj5GO9CegFv8wNt6Ha8av8bD7P7zKTPbpfpjGRkDxtf6ZvFWjaD7vJdk",
+              "received": false
+            }
+          ],
+          "total_price": 55672,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Curtisboro",
+              "street": "Jefferson Avenue",
+              "house": 641,
+              "flat": 2042
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:18:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ea7291c508c5d5e1e43b6",
+          "products": [
+            {
+              "_id": "694ea7291c508c5d5e1e43da",
+              "name": "Pants5356",
+              "amount": 110,
+              "price": 55672,
+              "manufacturer": "Xiaomi",
+              "notes": "nC5dQ7qJKGA6Jwtu0WUcAEGK6DTu64lvw4oFJeyVcRalELg052KB5nf9sNrn0ytAYXSwXT80Rr6ajq7OPgEvMhmnHw41WjKXNcUOyOPW6dwBR9DCos0wtQLKtH1XKBs36iE1JDHLStMMNuNIpYfvV6XOKX3uDDoUiuw0lL5kMbeJ8VnMeZEFnM7hh1o5RtNTuIuj5GO9CegFv8wNt6Ha8av8bD7P7zKTPbpfpjGRkDxtf6ZvFWjaD7vJdk",
+              "received": false
+            }
+          ],
+          "total_price": 55672,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Curtisboro",
+              "street": "Jefferson Avenue",
+              "house": 641,
+              "flat": 2042
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:18:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ea7291c508c5d5e1e43b6",
+          "products": [
+            {
+              "_id": "694ea7291c508c5d5e1e43da",
+              "name": "Pants5356",
+              "amount": 110,
+              "price": 55672,
+              "manufacturer": "Xiaomi",
+              "notes": "nC5dQ7qJKGA6Jwtu0WUcAEGK6DTu64lvw4oFJeyVcRalELg052KB5nf9sNrn0ytAYXSwXT80Rr6ajq7OPgEvMhmnHw41WjKXNcUOyOPW6dwBR9DCos0wtQLKtH1XKBs36iE1JDHLStMMNuNIpYfvV6XOKX3uDDoUiuw0lL5kMbeJ8VnMeZEFnM7hh1o5RtNTuIuj5GO9CegFv8wNt6Ha8av8bD7P7zKTPbpfpjGRkDxtf6ZvFWjaD7vJdk",
+              "received": false
+            }
+          ],
+          "total_price": 55672,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:18:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

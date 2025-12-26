@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:20:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3655",
+    "etag": "W/\"e47-TYutX3IAwBkt08pv+KXyhtCxJg4\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ea7c51c508c5d5e1eb2d3",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694ea7bf1c508c5d5e1eae9e",
+        "email": "Liza.Wiza51@yahoo.com",
+        "name": "Arely Gottlieb",
+        "country": "Belarus",
+        "city": "Ryanchester",
+        "street": "North Street 69",
+        "house": 291,
+        "flat": 8940,
+        "phone": "+289092504179024",
+        "createdOn": "2025-12-26T15:20:31.000Z",
+        "notes": "WoPVmvCCoA5PEpwVF67mvt61yQx1Y2"
+      },
+      "products": [
+        {
+          "_id": "694ea7c51c508c5d5e1eb2c4",
+          "name": "Bike64982",
+          "amount": 923,
+          "price": 51057,
+          "manufacturer": "Microsoft",
+          "notes": "gMNU0eJv6xGPNFI6535I4YsswCcRX3VbyQjhMzS8hVbOwhpK7ArXhjDDsld06RXpujc2Xkhp7EUUa9N8NxLgRD5hVqoURZecugr5BOTiJeFCIZvnfhdENtxT9kFUAt67GzIYSUlYLo1R2nVYXeFujJ3SMh0JrJowaoM3C7nNZ68dEep2rRaahFRfeAHIscbSzO1p3b5WceR4NmFJ0sXaLNmJosWmpcV5yZDRXs5xy2reM2zk8ENCnHzfLW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Ankeny",
+          "street": "W Broadway",
+          "house": 496,
+          "flat": 7078
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51057,
+      "createdOn": "2025-12-26T15:20:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694ea7bf1c508c5d5e1eae9e",
+          "products": [
+            {
+              "_id": "694ea7c51c508c5d5e1eb2c4",
+              "name": "Bike64982",
+              "amount": 923,
+              "price": 51057,
+              "manufacturer": "Microsoft",
+              "notes": "gMNU0eJv6xGPNFI6535I4YsswCcRX3VbyQjhMzS8hVbOwhpK7ArXhjDDsld06RXpujc2Xkhp7EUUa9N8NxLgRD5hVqoURZecugr5BOTiJeFCIZvnfhdENtxT9kFUAt67GzIYSUlYLo1R2nVYXeFujJ3SMh0JrJowaoM3C7nNZ68dEep2rRaahFRfeAHIscbSzO1p3b5WceR4NmFJ0sXaLNmJosWmpcV5yZDRXs5xy2reM2zk8ENCnHzfLW",
+              "received": false
+            }
+          ],
+          "total_price": 51057,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Ankeny",
+              "street": "W Broadway",
+              "house": 496,
+              "flat": 7078
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:20:43.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ea7bf1c508c5d5e1eae9e",
+          "products": [
+            {
+              "_id": "694ea7c51c508c5d5e1eb2c4",
+              "name": "Bike64982",
+              "amount": 923,
+              "price": 51057,
+              "manufacturer": "Microsoft",
+              "notes": "gMNU0eJv6xGPNFI6535I4YsswCcRX3VbyQjhMzS8hVbOwhpK7ArXhjDDsld06RXpujc2Xkhp7EUUa9N8NxLgRD5hVqoURZecugr5BOTiJeFCIZvnfhdENtxT9kFUAt67GzIYSUlYLo1R2nVYXeFujJ3SMh0JrJowaoM3C7nNZ68dEep2rRaahFRfeAHIscbSzO1p3b5WceR4NmFJ0sXaLNmJosWmpcV5yZDRXs5xy2reM2zk8ENCnHzfLW",
+              "received": false
+            }
+          ],
+          "total_price": 51057,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Ankeny",
+              "street": "W Broadway",
+              "house": 496,
+              "flat": 7078
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:20:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ea7bf1c508c5d5e1eae9e",
+          "products": [
+            {
+              "_id": "694ea7c51c508c5d5e1eb2c4",
+              "name": "Bike64982",
+              "amount": 923,
+              "price": 51057,
+              "manufacturer": "Microsoft",
+              "notes": "gMNU0eJv6xGPNFI6535I4YsswCcRX3VbyQjhMzS8hVbOwhpK7ArXhjDDsld06RXpujc2Xkhp7EUUa9N8NxLgRD5hVqoURZecugr5BOTiJeFCIZvnfhdENtxT9kFUAt67GzIYSUlYLo1R2nVYXeFujJ3SMh0JrJowaoM3C7nNZ68dEep2rRaahFRfeAHIscbSzO1p3b5WceR4NmFJ0sXaLNmJosWmpcV5yZDRXs5xy2reM2zk8ENCnHzfLW",
+              "received": false
+            }
+          ],
+          "total_price": 51057,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:20:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
