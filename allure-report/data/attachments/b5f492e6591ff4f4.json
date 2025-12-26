@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 13:44:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6543",
+    "etag": "W/\"198f-qTAfw5EjocLvFZmz1/IAsGt03OQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e913f1c508c5d5e1a88b9",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694e913e1c508c5d5e1a8746",
+        "email": "Sarah_Gleichner@yahoo.com",
+        "name": "Antonina Armstrong",
+        "country": "Ukraine",
+        "city": "New Sterlingtown",
+        "street": "Dillon Port 78",
+        "house": 646,
+        "flat": 36,
+        "phone": "+937835095125571",
+        "createdOn": "2025-12-26T13:44:30.000Z",
+        "notes": "0Adx5Em8kJ3WoctUHVacpejfmHuFhS"
+      },
+      "products": [
+        {
+          "_id": "694e913e1c508c5d5e1a8750",
+          "name": "Fish26049",
+          "amount": 672,
+          "price": 78153,
+          "manufacturer": "Microsoft",
+          "notes": "ojdodlJbTfXelYsOU2poGhw2cbVEln6AG8Y6y8dj8C8YLfNDz87c9Y0IbAK4ydn7KZAseWiF5BoJDHvOq25FOwHZvhO1cj0vQEgManDAmgDXypX2C8wK6UvsdWX6hMZeoLb8uowKCwIF4VaLFEbPYeg33TF9332md7dXiwbYs42TAKfHZkRaCq3CDdjtcl0fcEFYlY4zcTHACrToeMqXMMhzLsQy01XqzPP5j9hIw3Ykn4VuWiZC0huKIX",
+          "received": true
+        },
+        {
+          "_id": "694e913e1c508c5d5e1a876e",
+          "name": "Gloves21827",
+          "amount": 134,
+          "price": 2079,
+          "manufacturer": "Tesla",
+          "notes": "ccomf7gHByXFp69qNsUOXlkyjOJXFwsw3Cxbd6Va3BbBNAb42PkrNjLeIQLskhYHtpYHxew8fPcy0xFEO1gUitAcZZaR0k4Q2tZtG3KbMX4SUBjIekD3kKC1jx7UksX2K6nSvqVkk8rMYY0lkVH0vWgJNZHBAEtQUNiCstrqtuFvcnAP1BEZM5YNKp1XTr7lAZPp7qtMol7nxlKCeqrD1k5XaYVBMGJvgtCl2gys2ZSfPEQKsCCfPF42PV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Dale City",
+          "street": "N Franklin Street",
+          "house": 562,
+          "flat": 5829
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80232,
+      "createdOn": "2025-12-26T13:44:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694e913e1c508c5d5e1a8746",
+          "products": [
+            {
+              "_id": "694e913e1c508c5d5e1a8750",
+              "name": "Fish26049",
+              "amount": 672,
+              "price": 78153,
+              "manufacturer": "Microsoft",
+              "notes": "ojdodlJbTfXelYsOU2poGhw2cbVEln6AG8Y6y8dj8C8YLfNDz87c9Y0IbAK4ydn7KZAseWiF5BoJDHvOq25FOwHZvhO1cj0vQEgManDAmgDXypX2C8wK6UvsdWX6hMZeoLb8uowKCwIF4VaLFEbPYeg33TF9332md7dXiwbYs42TAKfHZkRaCq3CDdjtcl0fcEFYlY4zcTHACrToeMqXMMhzLsQy01XqzPP5j9hIw3Ykn4VuWiZC0huKIX",
+              "received": true
+            },
+            {
+              "_id": "694e913e1c508c5d5e1a876e",
+              "name": "Gloves21827",
+              "amount": 134,
+              "price": 2079,
+              "manufacturer": "Tesla",
+              "notes": "ccomf7gHByXFp69qNsUOXlkyjOJXFwsw3Cxbd6Va3BbBNAb42PkrNjLeIQLskhYHtpYHxew8fPcy0xFEO1gUitAcZZaR0k4Q2tZtG3KbMX4SUBjIekD3kKC1jx7UksX2K6nSvqVkk8rMYY0lkVH0vWgJNZHBAEtQUNiCstrqtuFvcnAP1BEZM5YNKp1XTr7lAZPp7qtMol7nxlKCeqrD1k5XaYVBMGJvgtCl2gys2ZSfPEQKsCCfPF42PV",
+              "received": false
+            }
+          ],
+          "total_price": 80232,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Dale City",
+              "street": "N Franklin Street",
+              "house": 562,
+              "flat": 5829
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:44:34.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694e913e1c508c5d5e1a8746",
+          "products": [
+            {
+              "_id": "694e913e1c508c5d5e1a8750",
+              "name": "Fish26049",
+              "amount": 672,
+              "price": 78153,
+              "manufacturer": "Microsoft",
+              "notes": "ojdodlJbTfXelYsOU2poGhw2cbVEln6AG8Y6y8dj8C8YLfNDz87c9Y0IbAK4ydn7KZAseWiF5BoJDHvOq25FOwHZvhO1cj0vQEgManDAmgDXypX2C8wK6UvsdWX6hMZeoLb8uowKCwIF4VaLFEbPYeg33TF9332md7dXiwbYs42TAKfHZkRaCq3CDdjtcl0fcEFYlY4zcTHACrToeMqXMMhzLsQy01XqzPP5j9hIw3Ykn4VuWiZC0huKIX",
+              "received": false
+            },
+            {
+              "_id": "694e913e1c508c5d5e1a876e",
+              "name": "Gloves21827",
+              "amount": 134,
+              "price": 2079,
+              "manufacturer": "Tesla",
+              "notes": "ccomf7gHByXFp69qNsUOXlkyjOJXFwsw3Cxbd6Va3BbBNAb42PkrNjLeIQLskhYHtpYHxew8fPcy0xFEO1gUitAcZZaR0k4Q2tZtG3KbMX4SUBjIekD3kKC1jx7UksX2K6nSvqVkk8rMYY0lkVH0vWgJNZHBAEtQUNiCstrqtuFvcnAP1BEZM5YNKp1XTr7lAZPp7qtMol7nxlKCeqrD1k5XaYVBMGJvgtCl2gys2ZSfPEQKsCCfPF42PV",
+              "received": false
+            }
+          ],
+          "total_price": 80232,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Dale City",
+              "street": "N Franklin Street",
+              "house": 562,
+              "flat": 5829
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:44:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e913e1c508c5d5e1a8746",
+          "products": [
+            {
+              "_id": "694e913e1c508c5d5e1a8750",
+              "name": "Fish26049",
+              "amount": 672,
+              "price": 78153,
+              "manufacturer": "Microsoft",
+              "notes": "ojdodlJbTfXelYsOU2poGhw2cbVEln6AG8Y6y8dj8C8YLfNDz87c9Y0IbAK4ydn7KZAseWiF5BoJDHvOq25FOwHZvhO1cj0vQEgManDAmgDXypX2C8wK6UvsdWX6hMZeoLb8uowKCwIF4VaLFEbPYeg33TF9332md7dXiwbYs42TAKfHZkRaCq3CDdjtcl0fcEFYlY4zcTHACrToeMqXMMhzLsQy01XqzPP5j9hIw3Ykn4VuWiZC0huKIX",
+              "received": false
+            },
+            {
+              "_id": "694e913e1c508c5d5e1a876e",
+              "name": "Gloves21827",
+              "amount": 134,
+              "price": 2079,
+              "manufacturer": "Tesla",
+              "notes": "ccomf7gHByXFp69qNsUOXlkyjOJXFwsw3Cxbd6Va3BbBNAb42PkrNjLeIQLskhYHtpYHxew8fPcy0xFEO1gUitAcZZaR0k4Q2tZtG3KbMX4SUBjIekD3kKC1jx7UksX2K6nSvqVkk8rMYY0lkVH0vWgJNZHBAEtQUNiCstrqtuFvcnAP1BEZM5YNKp1XTr7lAZPp7qtMol7nxlKCeqrD1k5XaYVBMGJvgtCl2gys2ZSfPEQKsCCfPF42PV",
+              "received": false
+            }
+          ],
+          "total_price": 80232,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Dale City",
+              "street": "N Franklin Street",
+              "house": 562,
+              "flat": 5829
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:44:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e913e1c508c5d5e1a8746",
+          "products": [
+            {
+              "_id": "694e913e1c508c5d5e1a8750",
+              "name": "Fish26049",
+              "amount": 672,
+              "price": 78153,
+              "manufacturer": "Microsoft",
+              "notes": "ojdodlJbTfXelYsOU2poGhw2cbVEln6AG8Y6y8dj8C8YLfNDz87c9Y0IbAK4ydn7KZAseWiF5BoJDHvOq25FOwHZvhO1cj0vQEgManDAmgDXypX2C8wK6UvsdWX6hMZeoLb8uowKCwIF4VaLFEbPYeg33TF9332md7dXiwbYs42TAKfHZkRaCq3CDdjtcl0fcEFYlY4zcTHACrToeMqXMMhzLsQy01XqzPP5j9hIw3Ykn4VuWiZC0huKIX",
+              "received": false
+            },
+            {
+              "_id": "694e913e1c508c5d5e1a876e",
+              "name": "Gloves21827",
+              "amount": 134,
+              "price": 2079,
+              "manufacturer": "Tesla",
+              "notes": "ccomf7gHByXFp69qNsUOXlkyjOJXFwsw3Cxbd6Va3BbBNAb42PkrNjLeIQLskhYHtpYHxew8fPcy0xFEO1gUitAcZZaR0k4Q2tZtG3KbMX4SUBjIekD3kKC1jx7UksX2K6nSvqVkk8rMYY0lkVH0vWgJNZHBAEtQUNiCstrqtuFvcnAP1BEZM5YNKp1XTr7lAZPp7qtMol7nxlKCeqrD1k5XaYVBMGJvgtCl2gys2ZSfPEQKsCCfPF42PV",
+              "received": false
+            }
+          ],
+          "total_price": 80232,
+          "delivery": null,
+          "changedOn": "2025-12-26T13:44:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

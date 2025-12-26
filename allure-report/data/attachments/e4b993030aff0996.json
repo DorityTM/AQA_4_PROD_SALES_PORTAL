@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 13:43:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8130",
+    "etag": "W/\"1fc2-irmhwNpSj3QvXYUmvFo9cSyEAWo\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e91171c508c5d5e1a6ccd",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694e91141c508c5d5e1a6b52",
+        "email": "Landen.Cummerata@yahoo.com",
+        "name": "Chandler Erdman",
+        "country": "Great Britain",
+        "city": "Lake Jannieland",
+        "street": "School Street 35",
+        "house": 870,
+        "flat": 1682,
+        "phone": "+845414120245452",
+        "createdOn": "2025-12-26T13:43:48.000Z",
+        "notes": "H8ek8UMNVuA1wWu19szIppcwc4sN4Y"
+      },
+      "products": [
+        {
+          "_id": "694e91151c508c5d5e1a6c7f",
+          "name": "Shoes23027",
+          "amount": 343,
+          "price": 89774,
+          "manufacturer": "Samsung",
+          "notes": "stlRIX3U7P5ClOI4dwAp2b3YeOypZnzYlTNsmh8RkU2shmccRqXGgmsJMun3XfWDaCFtOUFLTKSQimoG1e4XaqoLSogq5yA4GeXymNzLWnGPuImDoezp2gdUpQJtQvuvN74XepVJ6muv6wiXG64hGsBF9nQEgJVxM5z9o2fqgOPZu80gBG4ffAPjYeWS1cR9LdJYYY4hUPmavai1Y8cdC3HI4IoyA59HBDs5eNg3djmpMxSFnZUey4tpYz",
+          "received": true
+        },
+        {
+          "_id": "694e91161c508c5d5e1a6ca8",
+          "name": "Hat57850",
+          "amount": 2,
+          "price": 4636,
+          "manufacturer": "Xiaomi",
+          "notes": "jrrJrw19Hz91TyR39Rdg8oPcNA8vGSFu0SXLI3m22IwgwIwUBOniEgPb4odumc6MZwubHPYzMEWGYH9oZ3cVXDoBzeqifCHrzwR3nDSj2GP9D7on5L4XLJbrqKEO6W5oEguqXQ7aUjiVDv3yxCNTPINeO70mF9VvETN7YcjDZ0SfYxiUVZMaoM5WWZMNkDv9SidyLRJX432h9ITGRvWXyjcxrC5AnVmXNYxYcxGX2WDjVCk4ufoXOwb6Om",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Kaylie",
+          "street": "Jeanie Lodge",
+          "house": 888,
+          "flat": 8596
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 94410,
+      "createdOn": "2025-12-26T13:43:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694e91141c508c5d5e1a6b52",
+          "products": [
+            {
+              "_id": "694e91151c508c5d5e1a6c7f",
+              "name": "Shoes23027",
+              "amount": 343,
+              "price": 89774,
+              "manufacturer": "Samsung",
+              "notes": "stlRIX3U7P5ClOI4dwAp2b3YeOypZnzYlTNsmh8RkU2shmccRqXGgmsJMun3XfWDaCFtOUFLTKSQimoG1e4XaqoLSogq5yA4GeXymNzLWnGPuImDoezp2gdUpQJtQvuvN74XepVJ6muv6wiXG64hGsBF9nQEgJVxM5z9o2fqgOPZu80gBG4ffAPjYeWS1cR9LdJYYY4hUPmavai1Y8cdC3HI4IoyA59HBDs5eNg3djmpMxSFnZUey4tpYz",
+              "received": true
+            },
+            {
+              "_id": "694e91161c508c5d5e1a6ca8",
+              "name": "Hat57850",
+              "amount": 2,
+              "price": 4636,
+              "manufacturer": "Xiaomi",
+              "notes": "jrrJrw19Hz91TyR39Rdg8oPcNA8vGSFu0SXLI3m22IwgwIwUBOniEgPb4odumc6MZwubHPYzMEWGYH9oZ3cVXDoBzeqifCHrzwR3nDSj2GP9D7on5L4XLJbrqKEO6W5oEguqXQ7aUjiVDv3yxCNTPINeO70mF9VvETN7YcjDZ0SfYxiUVZMaoM5WWZMNkDv9SidyLRJX432h9ITGRvWXyjcxrC5AnVmXNYxYcxGX2WDjVCk4ufoXOwb6Om",
+              "received": false
+            }
+          ],
+          "total_price": 94410,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Kaylie",
+              "street": "Jeanie Lodge",
+              "house": 888,
+              "flat": 8596
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:43:53.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "694e91141c508c5d5e1a6b52",
+          "products": [
+            {
+              "_id": "694e91151c508c5d5e1a6c7f",
+              "name": "Shoes23027",
+              "amount": 343,
+              "price": 89774,
+              "manufacturer": "Samsung",
+              "notes": "stlRIX3U7P5ClOI4dwAp2b3YeOypZnzYlTNsmh8RkU2shmccRqXGgmsJMun3XfWDaCFtOUFLTKSQimoG1e4XaqoLSogq5yA4GeXymNzLWnGPuImDoezp2gdUpQJtQvuvN74XepVJ6muv6wiXG64hGsBF9nQEgJVxM5z9o2fqgOPZu80gBG4ffAPjYeWS1cR9LdJYYY4hUPmavai1Y8cdC3HI4IoyA59HBDs5eNg3djmpMxSFnZUey4tpYz",
+              "received": true
+            },
+            {
+              "_id": "694e91161c508c5d5e1a6ca8",
+              "name": "Hat57850",
+              "amount": 2,
+              "price": 4636,
+              "manufacturer": "Xiaomi",
+              "notes": "jrrJrw19Hz91TyR39Rdg8oPcNA8vGSFu0SXLI3m22IwgwIwUBOniEgPb4odumc6MZwubHPYzMEWGYH9oZ3cVXDoBzeqifCHrzwR3nDSj2GP9D7on5L4XLJbrqKEO6W5oEguqXQ7aUjiVDv3yxCNTPINeO70mF9VvETN7YcjDZ0SfYxiUVZMaoM5WWZMNkDv9SidyLRJX432h9ITGRvWXyjcxrC5AnVmXNYxYcxGX2WDjVCk4ufoXOwb6Om",
+              "received": false
+            }
+          ],
+          "total_price": 94410,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Kaylie",
+              "street": "Jeanie Lodge",
+              "house": 888,
+              "flat": 8596
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:43:52.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694e91141c508c5d5e1a6b52",
+          "products": [
+            {
+              "_id": "694e91151c508c5d5e1a6c7f",
+              "name": "Shoes23027",
+              "amount": 343,
+              "price": 89774,
+              "manufacturer": "Samsung",
+              "notes": "stlRIX3U7P5ClOI4dwAp2b3YeOypZnzYlTNsmh8RkU2shmccRqXGgmsJMun3XfWDaCFtOUFLTKSQimoG1e4XaqoLSogq5yA4GeXymNzLWnGPuImDoezp2gdUpQJtQvuvN74XepVJ6muv6wiXG64hGsBF9nQEgJVxM5z9o2fqgOPZu80gBG4ffAPjYeWS1cR9LdJYYY4hUPmavai1Y8cdC3HI4IoyA59HBDs5eNg3djmpMxSFnZUey4tpYz",
+              "received": false
+            },
+            {
+              "_id": "694e91161c508c5d5e1a6ca8",
+              "name": "Hat57850",
+              "amount": 2,
+              "price": 4636,
+              "manufacturer": "Xiaomi",
+              "notes": "jrrJrw19Hz91TyR39Rdg8oPcNA8vGSFu0SXLI3m22IwgwIwUBOniEgPb4odumc6MZwubHPYzMEWGYH9oZ3cVXDoBzeqifCHrzwR3nDSj2GP9D7on5L4XLJbrqKEO6W5oEguqXQ7aUjiVDv3yxCNTPINeO70mF9VvETN7YcjDZ0SfYxiUVZMaoM5WWZMNkDv9SidyLRJX432h9ITGRvWXyjcxrC5AnVmXNYxYcxGX2WDjVCk4ufoXOwb6Om",
+              "received": false
+            }
+          ],
+          "total_price": 94410,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Kaylie",
+              "street": "Jeanie Lodge",
+              "house": 888,
+              "flat": 8596
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:43:51.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e91141c508c5d5e1a6b52",
+          "products": [
+            {
+              "_id": "694e91151c508c5d5e1a6c7f",
+              "name": "Shoes23027",
+              "amount": 343,
+              "price": 89774,
+              "manufacturer": "Samsung",
+              "notes": "stlRIX3U7P5ClOI4dwAp2b3YeOypZnzYlTNsmh8RkU2shmccRqXGgmsJMun3XfWDaCFtOUFLTKSQimoG1e4XaqoLSogq5yA4GeXymNzLWnGPuImDoezp2gdUpQJtQvuvN74XepVJ6muv6wiXG64hGsBF9nQEgJVxM5z9o2fqgOPZu80gBG4ffAPjYeWS1cR9LdJYYY4hUPmavai1Y8cdC3HI4IoyA59HBDs5eNg3djmpMxSFnZUey4tpYz",
+              "received": false
+            },
+            {
+              "_id": "694e91161c508c5d5e1a6ca8",
+              "name": "Hat57850",
+              "amount": 2,
+              "price": 4636,
+              "manufacturer": "Xiaomi",
+              "notes": "jrrJrw19Hz91TyR39Rdg8oPcNA8vGSFu0SXLI3m22IwgwIwUBOniEgPb4odumc6MZwubHPYzMEWGYH9oZ3cVXDoBzeqifCHrzwR3nDSj2GP9D7on5L4XLJbrqKEO6W5oEguqXQ7aUjiVDv3yxCNTPINeO70mF9VvETN7YcjDZ0SfYxiUVZMaoM5WWZMNkDv9SidyLRJX432h9ITGRvWXyjcxrC5AnVmXNYxYcxGX2WDjVCk4ufoXOwb6Om",
+              "received": false
+            }
+          ],
+          "total_price": 94410,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Kaylie",
+              "street": "Jeanie Lodge",
+              "house": 888,
+              "flat": 8596
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:43:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e91141c508c5d5e1a6b52",
+          "products": [
+            {
+              "_id": "694e91151c508c5d5e1a6c7f",
+              "name": "Shoes23027",
+              "amount": 343,
+              "price": 89774,
+              "manufacturer": "Samsung",
+              "notes": "stlRIX3U7P5ClOI4dwAp2b3YeOypZnzYlTNsmh8RkU2shmccRqXGgmsJMun3XfWDaCFtOUFLTKSQimoG1e4XaqoLSogq5yA4GeXymNzLWnGPuImDoezp2gdUpQJtQvuvN74XepVJ6muv6wiXG64hGsBF9nQEgJVxM5z9o2fqgOPZu80gBG4ffAPjYeWS1cR9LdJYYY4hUPmavai1Y8cdC3HI4IoyA59HBDs5eNg3djmpMxSFnZUey4tpYz",
+              "received": false
+            },
+            {
+              "_id": "694e91161c508c5d5e1a6ca8",
+              "name": "Hat57850",
+              "amount": 2,
+              "price": 4636,
+              "manufacturer": "Xiaomi",
+              "notes": "jrrJrw19Hz91TyR39Rdg8oPcNA8vGSFu0SXLI3m22IwgwIwUBOniEgPb4odumc6MZwubHPYzMEWGYH9oZ3cVXDoBzeqifCHrzwR3nDSj2GP9D7on5L4XLJbrqKEO6W5oEguqXQ7aUjiVDv3yxCNTPINeO70mF9VvETN7YcjDZ0SfYxiUVZMaoM5WWZMNkDv9SidyLRJX432h9ITGRvWXyjcxrC5AnVmXNYxYcxGX2WDjVCk4ufoXOwb6Om",
+              "received": false
+            }
+          ],
+          "total_price": 94410,
+          "delivery": null,
+          "changedOn": "2025-12-26T13:43:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

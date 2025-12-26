@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 13:43:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3674",
+    "etag": "W/\"e5a-Yjf2tBglNaERkKmNIXr+N//ZBK0\"",
+    "keep-alive": "timeout=5, max=46",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e90f11c508c5d5e1a548b",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e90ee1c508c5d5e1a524f",
+        "email": "Agustin86@gmail.com",
+        "name": "Clarissa Marks",
+        "country": "Canada",
+        "city": "Lawrenceport",
+        "street": "Lake Drive 44",
+        "house": 303,
+        "flat": 7907,
+        "phone": "+912040888740976",
+        "createdOn": "2025-12-26T13:43:10.000Z",
+        "notes": "4Lb7rh9j13IfOGV0292pvPeRK6n8U6"
+      },
+      "products": [
+        {
+          "_id": "694e90f01c508c5d5e1a5366",
+          "name": "Tuna26279",
+          "amount": 343,
+          "price": 57811,
+          "manufacturer": "Google",
+          "notes": "rgg1XHzhOZueV99hvhMX9x42mdBnWx3zr0HlO6t75varLSc0lXAdSMFAm4K1KrZyIOpALUWi6YJcZ0temeRELNxUEWlkksZrJ1u35iM1MKNTVwbEBYlJyoKWpOx1ooeAK42xMFVjSzzJXysjYwCifSD4pUpvwUaEtrydleWw0gtAJ8UGQJ8alnaHDZylVqQHDUgZsItCJ2SfcnwO8Uzroc6RUxhFZdLY7z7lchL9t9VkZ0v66cVgW5Ud8t",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Ferryburgh",
+          "street": "Etha Streets",
+          "house": 860,
+          "flat": 7242
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 57811,
+      "createdOn": "2025-12-26T13:43:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e90ee1c508c5d5e1a524f",
+          "products": [
+            {
+              "_id": "694e90f01c508c5d5e1a5366",
+              "name": "Tuna26279",
+              "amount": 343,
+              "price": 57811,
+              "manufacturer": "Google",
+              "notes": "rgg1XHzhOZueV99hvhMX9x42mdBnWx3zr0HlO6t75varLSc0lXAdSMFAm4K1KrZyIOpALUWi6YJcZ0temeRELNxUEWlkksZrJ1u35iM1MKNTVwbEBYlJyoKWpOx1ooeAK42xMFVjSzzJXysjYwCifSD4pUpvwUaEtrydleWw0gtAJ8UGQJ8alnaHDZylVqQHDUgZsItCJ2SfcnwO8Uzroc6RUxhFZdLY7z7lchL9t9VkZ0v66cVgW5Ud8t",
+              "received": false
+            }
+          ],
+          "total_price": 57811,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Ferryburgh",
+              "street": "Etha Streets",
+              "house": 860,
+              "flat": 7242
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:43:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e90ee1c508c5d5e1a524f",
+          "products": [
+            {
+              "_id": "694e90f01c508c5d5e1a5366",
+              "name": "Tuna26279",
+              "amount": 343,
+              "price": 57811,
+              "manufacturer": "Google",
+              "notes": "rgg1XHzhOZueV99hvhMX9x42mdBnWx3zr0HlO6t75varLSc0lXAdSMFAm4K1KrZyIOpALUWi6YJcZ0temeRELNxUEWlkksZrJ1u35iM1MKNTVwbEBYlJyoKWpOx1ooeAK42xMFVjSzzJXysjYwCifSD4pUpvwUaEtrydleWw0gtAJ8UGQJ8alnaHDZylVqQHDUgZsItCJ2SfcnwO8Uzroc6RUxhFZdLY7z7lchL9t9VkZ0v66cVgW5Ud8t",
+              "received": false
+            }
+          ],
+          "total_price": 57811,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Ferryburgh",
+              "street": "Etha Streets",
+              "house": 860,
+              "flat": 7242
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:43:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e90ee1c508c5d5e1a524f",
+          "products": [
+            {
+              "_id": "694e90f01c508c5d5e1a5366",
+              "name": "Tuna26279",
+              "amount": 343,
+              "price": 57811,
+              "manufacturer": "Google",
+              "notes": "rgg1XHzhOZueV99hvhMX9x42mdBnWx3zr0HlO6t75varLSc0lXAdSMFAm4K1KrZyIOpALUWi6YJcZ0temeRELNxUEWlkksZrJ1u35iM1MKNTVwbEBYlJyoKWpOx1ooeAK42xMFVjSzzJXysjYwCifSD4pUpvwUaEtrydleWw0gtAJ8UGQJ8alnaHDZylVqQHDUgZsItCJ2SfcnwO8Uzroc6RUxhFZdLY7z7lchL9t9VkZ0v66cVgW5Ud8t",
+              "received": false
+            }
+          ],
+          "total_price": 57811,
+          "delivery": null,
+          "changedOn": "2025-12-26T13:43:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

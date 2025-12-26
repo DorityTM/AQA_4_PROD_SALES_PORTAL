@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 13:42:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-iuSQRTyecmz9QYsfnYngBTwUsUs\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e90ca1c508c5d5e1a3ac1",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e90c71c508c5d5e1a3880",
+        "email": "Braden60@hotmail.com",
+        "name": "Annie Keeling",
+        "country": "Germany",
+        "city": "New Nicolettefield",
+        "street": "W 3rd Street 74",
+        "house": 433,
+        "flat": 6975,
+        "phone": "+035812215047229",
+        "createdOn": "2025-12-26T13:42:31.000Z",
+        "notes": "7rSIav8osOm0fSMNbbnfTmP5SXupmD"
+      },
+      "products": [
+        {
+          "_id": "694e90c71c508c5d5e1a389d",
+          "name": "Bacon61664",
+          "amount": 169,
+          "price": 97798,
+          "manufacturer": "Xiaomi",
+          "notes": "kryDPwpg16CnGNelNvbf7M0tVvbONQ2R2S4bK7hztAeM2zXiqBfo1BvOf461aQ0n1VEgt960nY8gDwmQoMLZyRuG8l3QHCqYSCZukaquavTeds7o87OSRjO3SC8MB0MiMBXFdKHAGDkqA2vnIAKA8Ou8Fe9xWxCPUjuxRt5sV34LVxOj5LwUfiILduNeuQefuFyAowaCLkZUQZFYKZApVP8tNNvvPnrau0lhhR1vGBRqx5cX1DJojnpt1b",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Rowlett",
+          "street": "E Broadway",
+          "house": 318,
+          "flat": 4602
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97798,
+      "createdOn": "2025-12-26T13:42:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e90c71c508c5d5e1a3880",
+          "products": [
+            {
+              "_id": "694e90c71c508c5d5e1a389d",
+              "name": "Bacon61664",
+              "amount": 169,
+              "price": 97798,
+              "manufacturer": "Xiaomi",
+              "notes": "kryDPwpg16CnGNelNvbf7M0tVvbONQ2R2S4bK7hztAeM2zXiqBfo1BvOf461aQ0n1VEgt960nY8gDwmQoMLZyRuG8l3QHCqYSCZukaquavTeds7o87OSRjO3SC8MB0MiMBXFdKHAGDkqA2vnIAKA8Ou8Fe9xWxCPUjuxRt5sV34LVxOj5LwUfiILduNeuQefuFyAowaCLkZUQZFYKZApVP8tNNvvPnrau0lhhR1vGBRqx5cX1DJojnpt1b",
+              "received": false
+            }
+          ],
+          "total_price": 97798,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Rowlett",
+              "street": "E Broadway",
+              "house": 318,
+              "flat": 4602
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:42:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e90c71c508c5d5e1a3880",
+          "products": [
+            {
+              "_id": "694e90c71c508c5d5e1a389d",
+              "name": "Bacon61664",
+              "amount": 169,
+              "price": 97798,
+              "manufacturer": "Xiaomi",
+              "notes": "kryDPwpg16CnGNelNvbf7M0tVvbONQ2R2S4bK7hztAeM2zXiqBfo1BvOf461aQ0n1VEgt960nY8gDwmQoMLZyRuG8l3QHCqYSCZukaquavTeds7o87OSRjO3SC8MB0MiMBXFdKHAGDkqA2vnIAKA8Ou8Fe9xWxCPUjuxRt5sV34LVxOj5LwUfiILduNeuQefuFyAowaCLkZUQZFYKZApVP8tNNvvPnrau0lhhR1vGBRqx5cX1DJojnpt1b",
+              "received": false
+            }
+          ],
+          "total_price": 97798,
+          "delivery": null,
+          "changedOn": "2025-12-26T13:42:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
