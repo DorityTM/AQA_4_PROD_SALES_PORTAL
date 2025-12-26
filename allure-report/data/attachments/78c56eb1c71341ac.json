@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 18:22:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4590",
+    "etag": "W/\"11ee-umHY9TIety3XqJZatC/ejNbyRZc\"",
+    "keep-alive": "timeout=5, max=9",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ed27c1c508c5d5e2a107d",
+      "status": "Received",
+      "customer": {
+        "_id": "694ed27a1c508c5d5e2a1033",
+        "email": "Otho_Dickinson@gmail.com",
+        "name": "Domenick Towne",
+        "country": "Ukraine",
+        "city": "Wolfberg",
+        "street": "Reva Flats 69",
+        "house": 552,
+        "flat": 3406,
+        "phone": "+611864725155882",
+        "createdOn": "2025-12-26T18:22:50.000Z",
+        "notes": "PragOMMDZgb1tBjwYxLOLpVhWn4IXm"
+      },
+      "products": [
+        {
+          "_id": "694ed27c1c508c5d5e2a1075",
+          "name": "Bacon71055",
+          "amount": 740,
+          "price": 77746,
+          "manufacturer": "Tesla",
+          "notes": "eci6JkZ9EeKkCG1dUUh80BOpSFzjP9a7bd3ljYSvUkfFTcRXEjSKr2G1QlFDqec3D7zweTU6ovXQP9SrMihMc69lV3NSmlExKS842mhDDIwAbjdLEl0cknh9Pz3f3PAxTK9wnReXufeouDHSy1KHjunU98TajI24cOg7ZP0gc7WNYTBkZAVAwAREhOQmFXYntHSJmTt34K8hw6DerbEQJYzwOSQKXzj0clbifqCESs57WSrOGwlpWtEPcI",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Kannapolis",
+          "street": "Murray Falls",
+          "house": 603,
+          "flat": 9568
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 77746,
+      "createdOn": "2025-12-26T18:22:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694ed27a1c508c5d5e2a1033",
+          "products": [
+            {
+              "_id": "694ed27c1c508c5d5e2a1075",
+              "name": "Bacon71055",
+              "amount": 740,
+              "price": 77746,
+              "manufacturer": "Tesla",
+              "notes": "eci6JkZ9EeKkCG1dUUh80BOpSFzjP9a7bd3ljYSvUkfFTcRXEjSKr2G1QlFDqec3D7zweTU6ovXQP9SrMihMc69lV3NSmlExKS842mhDDIwAbjdLEl0cknh9Pz3f3PAxTK9wnReXufeouDHSy1KHjunU98TajI24cOg7ZP0gc7WNYTBkZAVAwAREhOQmFXYntHSJmTt34K8hw6DerbEQJYzwOSQKXzj0clbifqCESs57WSrOGwlpWtEPcI",
+              "received": true
+            }
+          ],
+          "total_price": 77746,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Kannapolis",
+              "street": "Murray Falls",
+              "house": 603,
+              "flat": 9568
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:22:53.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694ed27a1c508c5d5e2a1033",
+          "products": [
+            {
+              "_id": "694ed27c1c508c5d5e2a1075",
+              "name": "Bacon71055",
+              "amount": 740,
+              "price": 77746,
+              "manufacturer": "Tesla",
+              "notes": "eci6JkZ9EeKkCG1dUUh80BOpSFzjP9a7bd3ljYSvUkfFTcRXEjSKr2G1QlFDqec3D7zweTU6ovXQP9SrMihMc69lV3NSmlExKS842mhDDIwAbjdLEl0cknh9Pz3f3PAxTK9wnReXufeouDHSy1KHjunU98TajI24cOg7ZP0gc7WNYTBkZAVAwAREhOQmFXYntHSJmTt34K8hw6DerbEQJYzwOSQKXzj0clbifqCESs57WSrOGwlpWtEPcI",
+              "received": false
+            }
+          ],
+          "total_price": 77746,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Kannapolis",
+              "street": "Murray Falls",
+              "house": 603,
+              "flat": 9568
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:22:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed27a1c508c5d5e2a1033",
+          "products": [
+            {
+              "_id": "694ed27c1c508c5d5e2a1075",
+              "name": "Bacon71055",
+              "amount": 740,
+              "price": 77746,
+              "manufacturer": "Tesla",
+              "notes": "eci6JkZ9EeKkCG1dUUh80BOpSFzjP9a7bd3ljYSvUkfFTcRXEjSKr2G1QlFDqec3D7zweTU6ovXQP9SrMihMc69lV3NSmlExKS842mhDDIwAbjdLEl0cknh9Pz3f3PAxTK9wnReXufeouDHSy1KHjunU98TajI24cOg7ZP0gc7WNYTBkZAVAwAREhOQmFXYntHSJmTt34K8hw6DerbEQJYzwOSQKXzj0clbifqCESs57WSrOGwlpWtEPcI",
+              "received": false
+            }
+          ],
+          "total_price": 77746,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Kannapolis",
+              "street": "Murray Falls",
+              "house": 603,
+              "flat": 9568
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:22:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed27a1c508c5d5e2a1033",
+          "products": [
+            {
+              "_id": "694ed27c1c508c5d5e2a1075",
+              "name": "Bacon71055",
+              "amount": 740,
+              "price": 77746,
+              "manufacturer": "Tesla",
+              "notes": "eci6JkZ9EeKkCG1dUUh80BOpSFzjP9a7bd3ljYSvUkfFTcRXEjSKr2G1QlFDqec3D7zweTU6ovXQP9SrMihMc69lV3NSmlExKS842mhDDIwAbjdLEl0cknh9Pz3f3PAxTK9wnReXufeouDHSy1KHjunU98TajI24cOg7ZP0gc7WNYTBkZAVAwAREhOQmFXYntHSJmTt34K8hw6DerbEQJYzwOSQKXzj0clbifqCESs57WSrOGwlpWtEPcI",
+              "received": false
+            }
+          ],
+          "total_price": 77746,
+          "delivery": null,
+          "changedOn": "2025-12-26T18:22:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

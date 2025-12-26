@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 18:23:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3680",
+    "etag": "W/\"e60-6u/rZ6sYA8vGCdGiHTankB/olSk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ed2a71c508c5d5e2a2764",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694ed29c1c508c5d5e2a2360",
+        "email": "Flavio41@gmail.com",
+        "name": "Zakary Labadie",
+        "country": "Canada",
+        "city": "Port Arthur",
+        "street": "Lake Street 90",
+        "house": 673,
+        "flat": 9752,
+        "phone": "+492041445208687",
+        "createdOn": "2025-12-26T18:23:24.000Z",
+        "notes": "EQra7icGi3EvK1JWEXZXXJ9P0IUxpd"
+      },
+      "products": [
+        {
+          "_id": "694ed2a41c508c5d5e2a256d",
+          "name": "Car38818",
+          "amount": 495,
+          "price": 46182,
+          "manufacturer": "Samsung",
+          "notes": "CfGxyFjjZyzULDhQPrVb3JWAEg0lvtV12RebCpX77EQ4uD8xd5GMVV0yrMKZgLAZXWHGSDneaATF4y6Cd4Y63YeS6Ho7SpzIi0mTVX7SI4grhEWc6w7QkUwst3wDbeB4MTOBcqSG8NWAb2CnZz1w9j9SFXKtBOzw1jhiNavuy8rGsFWTaHoHNRV1s673wObeE0btFPqS1Me616pPIuFmmUvYKJ0UPqhE308a6Fl0xs3xoCd7zFhiwKa5uw",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Lake Leonor",
+          "street": "Katrine Burg",
+          "house": 747,
+          "flat": 3833
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 46182,
+      "createdOn": "2025-12-26T18:23:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694ed29c1c508c5d5e2a2360",
+          "products": [
+            {
+              "_id": "694ed2a41c508c5d5e2a256d",
+              "name": "Car38818",
+              "amount": 495,
+              "price": 46182,
+              "manufacturer": "Samsung",
+              "notes": "CfGxyFjjZyzULDhQPrVb3JWAEg0lvtV12RebCpX77EQ4uD8xd5GMVV0yrMKZgLAZXWHGSDneaATF4y6Cd4Y63YeS6Ho7SpzIi0mTVX7SI4grhEWc6w7QkUwst3wDbeB4MTOBcqSG8NWAb2CnZz1w9j9SFXKtBOzw1jhiNavuy8rGsFWTaHoHNRV1s673wObeE0btFPqS1Me616pPIuFmmUvYKJ0UPqhE308a6Fl0xs3xoCd7zFhiwKa5uw",
+              "received": false
+            }
+          ],
+          "total_price": 46182,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Leonor",
+              "street": "Katrine Burg",
+              "house": 747,
+              "flat": 3833
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:23:38.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed29c1c508c5d5e2a2360",
+          "products": [
+            {
+              "_id": "694ed2a41c508c5d5e2a256d",
+              "name": "Car38818",
+              "amount": 495,
+              "price": 46182,
+              "manufacturer": "Samsung",
+              "notes": "CfGxyFjjZyzULDhQPrVb3JWAEg0lvtV12RebCpX77EQ4uD8xd5GMVV0yrMKZgLAZXWHGSDneaATF4y6Cd4Y63YeS6Ho7SpzIi0mTVX7SI4grhEWc6w7QkUwst3wDbeB4MTOBcqSG8NWAb2CnZz1w9j9SFXKtBOzw1jhiNavuy8rGsFWTaHoHNRV1s673wObeE0btFPqS1Me616pPIuFmmUvYKJ0UPqhE308a6Fl0xs3xoCd7zFhiwKa5uw",
+              "received": false
+            }
+          ],
+          "total_price": 46182,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Leonor",
+              "street": "Katrine Burg",
+              "house": 747,
+              "flat": 3833
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:23:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed29c1c508c5d5e2a2360",
+          "products": [
+            {
+              "_id": "694ed2a41c508c5d5e2a256d",
+              "name": "Car38818",
+              "amount": 495,
+              "price": 46182,
+              "manufacturer": "Samsung",
+              "notes": "CfGxyFjjZyzULDhQPrVb3JWAEg0lvtV12RebCpX77EQ4uD8xd5GMVV0yrMKZgLAZXWHGSDneaATF4y6Cd4Y63YeS6Ho7SpzIi0mTVX7SI4grhEWc6w7QkUwst3wDbeB4MTOBcqSG8NWAb2CnZz1w9j9SFXKtBOzw1jhiNavuy8rGsFWTaHoHNRV1s673wObeE0btFPqS1Me616pPIuFmmUvYKJ0UPqhE308a6Fl0xs3xoCd7zFhiwKa5uw",
+              "received": false
+            }
+          ],
+          "total_price": 46182,
+          "delivery": null,
+          "changedOn": "2025-12-26T18:23:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

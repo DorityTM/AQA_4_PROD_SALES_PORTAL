@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 18:22:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2760",
+    "etag": "W/\"ac8-W/MWlHkBvFrHS90jqiEXSp9NXhg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ed27d1c508c5d5e2a1097",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ed27a1c508c5d5e2a1038",
+        "email": "Rossie_Kshlerin@hotmail.com",
+        "name": "Patsy Boehm",
+        "country": "Belarus",
+        "city": "North Evert",
+        "street": "Atlantic Avenue 97",
+        "house": 689,
+        "flat": 6839,
+        "phone": "+249442095215195",
+        "createdOn": "2025-12-26T18:22:50.000Z",
+        "notes": "LPtR4UCZSopwFoVxGHJXdJ62IE7Uz0"
+      },
+      "products": [
+        {
+          "_id": "694ed27c1c508c5d5e2a1080",
+          "name": "Pizza90190",
+          "amount": 123,
+          "price": 47275,
+          "manufacturer": "Tesla",
+          "notes": "CeOftIhoZxG74A3WZCknP4ZnZ3VGtROsZUAMTJuFXRA4m3mQ81bRX19mz3dG7u7yO1coB6WNFDzXK2hycFhssB6AQK52VidISlpXtFv0mR2Kyz5cG5nQfT1vXjtYoqldioMv2jec5RvluxWEUR9maea5zMwC10N2yMv3c0Q5xhWJ2283ZcxVWbf9IqGieZnL1q6eWqVv1l02ZpxdqcbDVdNant0g67N8Uxf5yJvk3sWkSrfgEePKMiyGd5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "North Johnnietown",
+          "street": "Euclid Avenue",
+          "house": 662,
+          "flat": 1257
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47275,
+      "createdOn": "2025-12-26T18:22:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ed27a1c508c5d5e2a1038",
+          "products": [
+            {
+              "_id": "694ed27c1c508c5d5e2a1080",
+              "name": "Pizza90190",
+              "amount": 123,
+              "price": 47275,
+              "manufacturer": "Tesla",
+              "notes": "CeOftIhoZxG74A3WZCknP4ZnZ3VGtROsZUAMTJuFXRA4m3mQ81bRX19mz3dG7u7yO1coB6WNFDzXK2hycFhssB6AQK52VidISlpXtFv0mR2Kyz5cG5nQfT1vXjtYoqldioMv2jec5RvluxWEUR9maea5zMwC10N2yMv3c0Q5xhWJ2283ZcxVWbf9IqGieZnL1q6eWqVv1l02ZpxdqcbDVdNant0g67N8Uxf5yJvk3sWkSrfgEePKMiyGd5",
+              "received": false
+            }
+          ],
+          "total_price": 47275,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Johnnietown",
+              "street": "Euclid Avenue",
+              "house": 662,
+              "flat": 1257
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:22:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed27a1c508c5d5e2a1038",
+          "products": [
+            {
+              "_id": "694ed27c1c508c5d5e2a1080",
+              "name": "Pizza90190",
+              "amount": 123,
+              "price": 47275,
+              "manufacturer": "Tesla",
+              "notes": "CeOftIhoZxG74A3WZCknP4ZnZ3VGtROsZUAMTJuFXRA4m3mQ81bRX19mz3dG7u7yO1coB6WNFDzXK2hycFhssB6AQK52VidISlpXtFv0mR2Kyz5cG5nQfT1vXjtYoqldioMv2jec5RvluxWEUR9maea5zMwC10N2yMv3c0Q5xhWJ2283ZcxVWbf9IqGieZnL1q6eWqVv1l02ZpxdqcbDVdNant0g67N8Uxf5yJvk3sWkSrfgEePKMiyGd5",
+              "received": false
+            }
+          ],
+          "total_price": 47275,
+          "delivery": null,
+          "changedOn": "2025-12-26T18:22:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

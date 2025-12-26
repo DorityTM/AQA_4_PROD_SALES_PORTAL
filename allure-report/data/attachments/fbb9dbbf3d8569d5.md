@@ -1,0 +1,217 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Data was successfully exported
+      - button "Close" [ref=e5] [cursor=pointer]
+  - generic [ref=e7]:
+    - banner [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - img
+          - generic [ref=e11]: Sales Portal
+        - link "Home" [ref=e13] [cursor=pointer]:
+          - /url: "#/home"
+        - link "Orders" [ref=e15] [cursor=pointer]:
+          - /url: "#/orders"
+        - link "Products" [ref=e17] [cursor=pointer]:
+          - /url: "#/products"
+        - link "Customers" [ref=e19] [cursor=pointer]:
+          - /url: "#/customers"
+        - link "Managers" [ref=e21] [cursor=pointer]:
+          - /url: "#/managers"
+      - generic [ref=e23]:
+        - button " 35" [ref=e25] [cursor=pointer]:
+          - generic: 
+          - generic [ref=e26]: "35"
+        - button "" [ref=e27] [cursor=pointer]:
+          - generic: 
+        - link "User" [ref=e29] [cursor=pointer]:
+          - /url: "#/managers/undefined"
+          - strong [ref=e30]: User
+        - button "" [ref=e31] [cursor=pointer]:
+          - generic: 
+    - generic [ref=e32]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "Orders List" [level=2] [ref=e36]
+          - button "Create Order" [ref=e37] [cursor=pointer]
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - searchbox "Search" [ref=e40]
+            - button " Search" [disabled]:
+              - generic: 
+              - text: Search
+          - button " Filter" [ref=e41] [cursor=pointer]:
+            - generic: 
+            - text: Filter
+          - button "Export" [ref=e42] [cursor=pointer]
+      - generic [ref=e45]:
+        - table [ref=e47]:
+          - rowgroup [ref=e48]:
+            - row "Order Number Email Price Delivery Status Assigned Manager Created On  Actions" [ref=e49]:
+              - columnheader "Order Number" [ref=e50]:
+                - generic [ref=e52] [cursor=pointer]: Order Number
+              - columnheader "Email" [ref=e53]:
+                - generic [ref=e55] [cursor=pointer]: Email
+              - columnheader "Price" [ref=e56]:
+                - generic [ref=e58] [cursor=pointer]: Price
+              - columnheader "Delivery" [ref=e59]:
+                - generic [ref=e61] [cursor=pointer]: Delivery
+              - columnheader "Status" [ref=e62]:
+                - generic [ref=e64] [cursor=pointer]: Status
+              - columnheader "Assigned Manager" [ref=e65]:
+                - generic [ref=e67] [cursor=pointer]: Assigned Manager
+              - columnheader "Created On " [ref=e68]:
+                - generic [ref=e69]:
+                  - generic [ref=e70] [cursor=pointer]: Created On
+                  - generic [ref=e71]:
+                    - generic: 
+              - columnheader "Actions" [ref=e72]
+          - rowgroup [ref=e73]:
+            - row "694ed7071c508c5d5e2c7eb4 Winfield.Hudson@yahoo.com $26482 - Draft - 2025/12/26 18:42:15 " [ref=e74]:
+              - cell "694ed7071c508c5d5e2c7eb4" [ref=e75]
+              - cell "Winfield.Hudson@yahoo.com" [ref=e76]
+              - cell "$26482" [ref=e77]
+              - cell "-" [ref=e78]
+              - cell "Draft" [ref=e79]
+              - cell "-" [ref=e80]
+              - cell "2025/12/26 18:42:15" [ref=e81]
+              - cell "" [ref=e82]:
+                - link "" [ref=e83] [cursor=pointer]:
+                  - /url: "#/orders/694ed7071c508c5d5e2c7eb4"
+                  - generic: 
+            - row "694ed7071c508c5d5e2c7eba Jaquelin88@gmail.com $67643 - Draft - 2025/12/26 18:42:15 " [ref=e84]:
+              - cell "694ed7071c508c5d5e2c7eba" [ref=e85]
+              - cell "Jaquelin88@gmail.com" [ref=e86]
+              - cell "$67643" [ref=e87]
+              - cell "-" [ref=e88]
+              - cell "Draft" [ref=e89]
+              - cell "-" [ref=e90]
+              - cell "2025/12/26 18:42:15" [ref=e91]
+              - cell "" [ref=e92]:
+                - link "" [ref=e93] [cursor=pointer]:
+                  - /url: "#/orders/694ed7071c508c5d5e2c7eba"
+                  - generic: 
+            - row "694ed7031c508c5d5e2c7e51 Christine55@hotmail.com $13371 - Draft - 2025/12/26 18:42:11 " [ref=e94]:
+              - cell "694ed7031c508c5d5e2c7e51" [ref=e95]
+              - cell "Christine55@hotmail.com" [ref=e96]
+              - cell "$13371" [ref=e97]
+              - cell "-" [ref=e98]
+              - cell "Draft" [ref=e99]
+              - cell "-" [ref=e100]
+              - cell "2025/12/26 18:42:11" [ref=e101]
+              - cell "" [ref=e102]:
+                - link "" [ref=e103] [cursor=pointer]:
+                  - /url: "#/orders/694ed7031c508c5d5e2c7e51"
+                  - generic: 
+            - row "694ed6fb1c508c5d5e2c7782 Gerson.Jacobs2@gmail.com $72497 - Draft - 2025/12/26 18:42:03 " [ref=e104]:
+              - cell "694ed6fb1c508c5d5e2c7782" [ref=e105]
+              - cell "Gerson.Jacobs2@gmail.com" [ref=e106]
+              - cell "$72497" [ref=e107]
+              - cell "-" [ref=e108]
+              - cell "Draft" [ref=e109]
+              - cell "-" [ref=e110]
+              - cell "2025/12/26 18:42:03" [ref=e111]
+              - cell "" [ref=e112]:
+                - link "" [ref=e113] [cursor=pointer]:
+                  - /url: "#/orders/694ed6fb1c508c5d5e2c7782"
+                  - generic: 
+            - row "694ed6be1c508c5d5e2c4eaa Ike93@gmail.com $95959 - Draft - 2025/12/26 18:41:02 " [ref=e114]:
+              - cell "694ed6be1c508c5d5e2c4eaa" [ref=e115]
+              - cell "Ike93@gmail.com" [ref=e116]
+              - cell "$95959" [ref=e117]
+              - cell "-" [ref=e118]
+              - cell "Draft" [ref=e119]
+              - cell "-" [ref=e120]
+              - cell "2025/12/26 18:41:02" [ref=e121]
+              - cell "" [ref=e122]:
+                - link "" [ref=e123] [cursor=pointer]:
+                  - /url: "#/orders/694ed6be1c508c5d5e2c4eaa"
+                  - generic: 
+            - row "694ed6791c508c5d5e2c2042 Pedro77@yahoo.com $68204 - Draft - 2025/12/26 18:39:53 " [ref=e124]:
+              - cell "694ed6791c508c5d5e2c2042" [ref=e125]
+              - cell "Pedro77@yahoo.com" [ref=e126]
+              - cell "$68204" [ref=e127]
+              - cell "-" [ref=e128]
+              - cell "Draft" [ref=e129]
+              - cell "-" [ref=e130]
+              - cell "2025/12/26 18:39:53" [ref=e131]
+              - cell "" [ref=e132]:
+                - link "" [ref=e133] [cursor=pointer]:
+                  - /url: "#/orders/694ed6791c508c5d5e2c2042"
+                  - generic: 
+            - row "694ed66f1c508c5d5e2c1f97 Hollie50@hotmail.com $93010 - Draft - 2025/12/26 18:39:43 " [ref=e134]:
+              - cell "694ed66f1c508c5d5e2c1f97" [ref=e135]
+              - cell "Hollie50@hotmail.com" [ref=e136]
+              - cell "$93010" [ref=e137]
+              - cell "-" [ref=e138]
+              - cell "Draft" [ref=e139]
+              - cell "-" [ref=e140]
+              - cell "2025/12/26 18:39:43" [ref=e141]
+              - cell "" [ref=e142]:
+                - link "" [ref=e143] [cursor=pointer]:
+                  - /url: "#/orders/694ed66f1c508c5d5e2c1f97"
+                  - generic: 
+            - row "694ed6651c508c5d5e2c15c7 Matt.West33@gmail.com $17935 - Draft - 2025/12/26 18:39:33 " [ref=e144]:
+              - cell "694ed6651c508c5d5e2c15c7" [ref=e145]
+              - cell "Matt.West33@gmail.com" [ref=e146]
+              - cell "$17935" [ref=e147]
+              - cell "-" [ref=e148]
+              - cell "Draft" [ref=e149]
+              - cell "-" [ref=e150]
+              - cell "2025/12/26 18:39:33" [ref=e151]
+              - cell "" [ref=e152]:
+                - link "" [ref=e153] [cursor=pointer]:
+                  - /url: "#/orders/694ed6651c508c5d5e2c15c7"
+                  - generic: 
+            - row "694ed63f1c508c5d5e2bfbd5 Oceane_Jerde@yahoo.com $268533 - Draft - 2025/12/26 18:38:55 " [ref=e154]:
+              - cell "694ed63f1c508c5d5e2bfbd5" [ref=e155]
+              - cell "Oceane_Jerde@yahoo.com" [ref=e156]
+              - cell "$268533" [ref=e157]
+              - cell "-" [ref=e158]
+              - cell "Draft" [ref=e159]
+              - cell "-" [ref=e160]
+              - cell "2025/12/26 18:38:55" [ref=e161]
+              - cell "" [ref=e162]:
+                - link "" [ref=e163] [cursor=pointer]:
+                  - /url: "#/orders/694ed63f1c508c5d5e2bfbd5"
+                  - generic: 
+            - row "694ed6371c508c5d5e2bf5bb Nathen76@yahoo.com $42726 - Draft - 2025/12/26 18:38:47 " [ref=e164]:
+              - cell "694ed6371c508c5d5e2bf5bb" [ref=e165]
+              - cell "Nathen76@yahoo.com" [ref=e166]
+              - cell "$42726" [ref=e167]
+              - cell "-" [ref=e168]
+              - cell "Draft" [ref=e169]
+              - cell "-" [ref=e170]
+              - cell "2025/12/26 18:38:47" [ref=e171]
+              - cell "" [ref=e172]:
+                - link "" [ref=e173] [cursor=pointer]:
+                  - /url: "#/orders/694ed6371c508c5d5e2bf5bb"
+                  - generic: 
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - generic [ref=e176]: "Items on page:"
+            - combobox [ref=e177]:
+              - option "10" [selected]
+              - option "25"
+              - option "50"
+              - option "100"
+          - generic [ref=e178]:
+            - button "" [disabled]:
+              - generic: 
+            - button "1" [ref=e179] [cursor=pointer]
+            - button "2" [ref=e180] [cursor=pointer]
+            - button "3" [ref=e181] [cursor=pointer]
+            - button "4" [ref=e182] [cursor=pointer]
+            - button "5" [ref=e183] [cursor=pointer]
+            - button "6" [ref=e184] [cursor=pointer]
+            - button "7" [ref=e185] [cursor=pointer]
+            - button "8" [ref=e186] [cursor=pointer]
+            - generic [ref=e187]: ...
+            - button "35" [ref=e188] [cursor=pointer]
+            - button "" [ref=e189] [cursor=pointer]:
+              - generic: 
+```

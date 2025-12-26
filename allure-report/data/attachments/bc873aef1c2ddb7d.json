@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 18:23:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2756",
+    "etag": "W/\"ac4-XJlu3E9MD0lwx5ommLjahzIaJWQ\"",
+    "keep-alive": "timeout=5, max=2",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ed2921c508c5d5e2a1e17",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ed2901c508c5d5e2a1dcf",
+        "email": "Travis44@yahoo.com",
+        "name": "Polly Conn",
+        "country": "Great Britain",
+        "city": "South Raoul",
+        "street": "Corwin Vista 58",
+        "house": 474,
+        "flat": 8521,
+        "phone": "+664055067577960",
+        "createdOn": "2025-12-26T18:23:12.000Z",
+        "notes": "HVZepzis8yYFmXte9W5Ih0jszkI2Pt"
+      },
+      "products": [
+        {
+          "_id": "694ed2921c508c5d5e2a1e0d",
+          "name": "Chicken78323",
+          "amount": 784,
+          "price": 49250,
+          "manufacturer": "Google",
+          "notes": "U8RPUa8n7Mxzn0G1i2uRAABssudD8uRhCJYtXON8z5pr70b8vLAMaGWmDeXKLkl8XJgSmj29TdEZlzRRYEsxLqkhdehsMbeDNpDt9uyGmoj7dTChRH7E4vcFto2dW81R95PTjfjeowYkUDNS4MbBovWJijrhECYn38FRFPOSPKfsAWdpL0S87nKnjiAnJjqKDPErR4RAzUSwe01UYMnlrPfYgwsF9kzrmCAUaxmXY6HiMbNzijf9u4pGfV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Karelleland",
+          "street": "Kali Streets",
+          "house": 447,
+          "flat": 8924
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 49250,
+      "createdOn": "2025-12-26T18:23:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ed2901c508c5d5e2a1dcf",
+          "products": [
+            {
+              "_id": "694ed2921c508c5d5e2a1e0d",
+              "name": "Chicken78323",
+              "amount": 784,
+              "price": 49250,
+              "manufacturer": "Google",
+              "notes": "U8RPUa8n7Mxzn0G1i2uRAABssudD8uRhCJYtXON8z5pr70b8vLAMaGWmDeXKLkl8XJgSmj29TdEZlzRRYEsxLqkhdehsMbeDNpDt9uyGmoj7dTChRH7E4vcFto2dW81R95PTjfjeowYkUDNS4MbBovWJijrhECYn38FRFPOSPKfsAWdpL0S87nKnjiAnJjqKDPErR4RAzUSwe01UYMnlrPfYgwsF9kzrmCAUaxmXY6HiMbNzijf9u4pGfV",
+              "received": false
+            }
+          ],
+          "total_price": 49250,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Karelleland",
+              "street": "Kali Streets",
+              "house": 447,
+              "flat": 8924
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:23:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed2901c508c5d5e2a1dcf",
+          "products": [
+            {
+              "_id": "694ed2921c508c5d5e2a1e0d",
+              "name": "Chicken78323",
+              "amount": 784,
+              "price": 49250,
+              "manufacturer": "Google",
+              "notes": "U8RPUa8n7Mxzn0G1i2uRAABssudD8uRhCJYtXON8z5pr70b8vLAMaGWmDeXKLkl8XJgSmj29TdEZlzRRYEsxLqkhdehsMbeDNpDt9uyGmoj7dTChRH7E4vcFto2dW81R95PTjfjeowYkUDNS4MbBovWJijrhECYn38FRFPOSPKfsAWdpL0S87nKnjiAnJjqKDPErR4RAzUSwe01UYMnlrPfYgwsF9kzrmCAUaxmXY6HiMbNzijf9u4pGfV",
+              "received": false
+            }
+          ],
+          "total_price": 49250,
+          "delivery": null,
+          "changedOn": "2025-12-26T18:23:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

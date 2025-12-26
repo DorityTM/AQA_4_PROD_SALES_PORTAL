@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 18:43:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3891",
+    "etag": "W/\"f33-0Vmgv1fVxWqHSGaJWD7kDKAWFTk\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ed7401c508c5d5e2ca16b",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ed73b1c508c5d5e2ca0b9",
+        "email": "Lucio83@hotmail.com",
+        "name": "Brandi Kessler",
+        "country": "Germany",
+        "city": "Rohnert Park",
+        "street": "Keebler Path 97",
+        "house": 731,
+        "flat": 6031,
+        "phone": "+141021756693176",
+        "createdOn": "2025-12-26T18:43:07.000Z",
+        "notes": "B7l0i1fDTEVFykb6KEbgf6kHvt0UMV"
+      },
+      "products": [
+        {
+          "_id": "694ed73e1c508c5d5e2ca111",
+          "name": "Car31477",
+          "amount": 743,
+          "price": 45707,
+          "manufacturer": "Sony",
+          "notes": "7VsnRjz1dDnyZ7pmEoTwyIbdKHwvkKo7xjgzs8okkPHVKMgCwuD6yvOSAsUHKNkocULcuv8qd3MGk8VKB2uEK29oAmCrBN2hGgLWJ25QEQQnYQwtghDFP7B15D564Iwk2yg1jowjZ74gLBsY9RImcQK5fLzaepgADNvDtgHiqPZfMwxpk3suJfHS1wT7GNtTap0fSgyjdK2eViQEwyz7AfGeNaJ3oY2rFlSF70DzuoCzhaBrDfSQkezFKJ",
+          "received": false
+        },
+        {
+          "_id": "694ed7401c508c5d5e2ca15c",
+          "name": "Computer610",
+          "amount": 198,
+          "price": 11169,
+          "manufacturer": "Xiaomi",
+          "notes": "ISmJLzxtkupA3kSXuWdtOcqeAuinYCTwN2BpoVEs7jHpqLTHUMMDxlw0imcgYnENC4dvmmtIYt627riT7Tjju8TUdOF5rlYAG8ZA2mkyCRocFpcDL1y5T0Q1wiAF3SA43OHJffhIvefCC6npPiC2UhTaAHlQJ9aMbjqBgegTDFse6zgDeC8RYBtI3x8lBWrnI9uKhw9zpmaRtwyyV9Q0rixSr2D1SwoBNjoMjptdfI1VO2G08nYMNyAcG9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Alhambra",
+          "street": "Sycamore Avenue",
+          "house": 630,
+          "flat": 1730
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56876,
+      "createdOn": "2025-12-26T18:43:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ed73b1c508c5d5e2ca0b9",
+          "products": [
+            {
+              "_id": "694ed73e1c508c5d5e2ca111",
+              "name": "Car31477",
+              "amount": 743,
+              "price": 45707,
+              "manufacturer": "Sony",
+              "notes": "7VsnRjz1dDnyZ7pmEoTwyIbdKHwvkKo7xjgzs8okkPHVKMgCwuD6yvOSAsUHKNkocULcuv8qd3MGk8VKB2uEK29oAmCrBN2hGgLWJ25QEQQnYQwtghDFP7B15D564Iwk2yg1jowjZ74gLBsY9RImcQK5fLzaepgADNvDtgHiqPZfMwxpk3suJfHS1wT7GNtTap0fSgyjdK2eViQEwyz7AfGeNaJ3oY2rFlSF70DzuoCzhaBrDfSQkezFKJ",
+              "received": false
+            },
+            {
+              "_id": "694ed7401c508c5d5e2ca15c",
+              "name": "Computer610",
+              "amount": 198,
+              "price": 11169,
+              "manufacturer": "Xiaomi",
+              "notes": "ISmJLzxtkupA3kSXuWdtOcqeAuinYCTwN2BpoVEs7jHpqLTHUMMDxlw0imcgYnENC4dvmmtIYt627riT7Tjju8TUdOF5rlYAG8ZA2mkyCRocFpcDL1y5T0Q1wiAF3SA43OHJffhIvefCC6npPiC2UhTaAHlQJ9aMbjqBgegTDFse6zgDeC8RYBtI3x8lBWrnI9uKhw9zpmaRtwyyV9Q0rixSr2D1SwoBNjoMjptdfI1VO2G08nYMNyAcG9",
+              "received": false
+            }
+          ],
+          "total_price": 56876,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Alhambra",
+              "street": "Sycamore Avenue",
+              "house": 630,
+              "flat": 1730
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:43:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed73b1c508c5d5e2ca0b9",
+          "products": [
+            {
+              "_id": "694ed73e1c508c5d5e2ca111",
+              "name": "Car31477",
+              "amount": 743,
+              "price": 45707,
+              "manufacturer": "Sony",
+              "notes": "7VsnRjz1dDnyZ7pmEoTwyIbdKHwvkKo7xjgzs8okkPHVKMgCwuD6yvOSAsUHKNkocULcuv8qd3MGk8VKB2uEK29oAmCrBN2hGgLWJ25QEQQnYQwtghDFP7B15D564Iwk2yg1jowjZ74gLBsY9RImcQK5fLzaepgADNvDtgHiqPZfMwxpk3suJfHS1wT7GNtTap0fSgyjdK2eViQEwyz7AfGeNaJ3oY2rFlSF70DzuoCzhaBrDfSQkezFKJ",
+              "received": false
+            },
+            {
+              "_id": "694ed7401c508c5d5e2ca15c",
+              "name": "Computer610",
+              "amount": 198,
+              "price": 11169,
+              "manufacturer": "Xiaomi",
+              "notes": "ISmJLzxtkupA3kSXuWdtOcqeAuinYCTwN2BpoVEs7jHpqLTHUMMDxlw0imcgYnENC4dvmmtIYt627riT7Tjju8TUdOF5rlYAG8ZA2mkyCRocFpcDL1y5T0Q1wiAF3SA43OHJffhIvefCC6npPiC2UhTaAHlQJ9aMbjqBgegTDFse6zgDeC8RYBtI3x8lBWrnI9uKhw9zpmaRtwyyV9Q0rixSr2D1SwoBNjoMjptdfI1VO2G08nYMNyAcG9",
+              "received": false
+            }
+          ],
+          "total_price": 56876,
+          "delivery": null,
+          "changedOn": "2025-12-26T18:43:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

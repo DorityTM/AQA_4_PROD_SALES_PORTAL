@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 18:19:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8166",
+    "etag": "W/\"1fe6-a1gvRoEMttR6Nn7SiHwgBQUsUek\"",
+    "keep-alive": "timeout=5, max=50",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ed1991c508c5d5e2997e2",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694ed1951c508c5d5e2996d6",
+        "email": "Rogelio.Veum3@yahoo.com",
+        "name": "Anibal Jakubowski",
+        "country": "Belarus",
+        "city": "Matteoview",
+        "street": "Orn Dale 16",
+        "house": 132,
+        "flat": 1343,
+        "phone": "+331425268099413",
+        "createdOn": "2025-12-26T18:19:01.000Z",
+        "notes": "we3Ot92AXUqCp6ZysDf2PJZztZq4bR"
+      },
+      "products": [
+        {
+          "_id": "694ed1971c508c5d5e299713",
+          "name": "Fish64012",
+          "amount": 748,
+          "price": 50727,
+          "manufacturer": "Samsung",
+          "notes": "NAkjuKZYIVnjIWb551rBRBcKXS5C17oWpsT9sicHam6lIztP7YV60hQzIILZIARwvZH2FX4bwZMrfCS4qcLpx33vkQbpJiq8IYN8WjULT19Bt64HJeC6BVJzNywEjU01t8nuwCRL0b7mz9rGZzVwBMX4hkeN1tCaIQXtrJCQ160DAkhH4QIn8VVUuSdXfzndR5DEcOKt43ZS73Hl6qPtztGuaIInz8jlL1jsLnvGAoCcyik7Vl7DIRe5FX",
+          "received": true
+        },
+        {
+          "_id": "694ed1991c508c5d5e2997ce",
+          "name": "Bacon90311",
+          "amount": 304,
+          "price": 39082,
+          "manufacturer": "Tesla",
+          "notes": "Lq0y3hpBjKwVLHjx9mujm8szc4tcCdL8K5btBTOcYJhLWVPEjevygV06NNf0C5qEn578l9H2sYfdW5i1duNPMYYTvk4vSHBRHEdnMemQa0DC2LutIQ2mKpJnKwViT9pH8PMK8OctignkCtmDeV4RDvrdeTY75mz6cxVYwStUOIG493XrUunoi1KSG3XgMquD9faORiOWnb5e2VbhLubQOvArIsT6heZR0ZAdxEBWmrU6iAjFdzDoIfHU27",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Eden Prairie",
+          "street": "Mayfield Road",
+          "house": 591,
+          "flat": 8825
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 89809,
+      "createdOn": "2025-12-26T18:19:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694ed1951c508c5d5e2996d6",
+          "products": [
+            {
+              "_id": "694ed1971c508c5d5e299713",
+              "name": "Fish64012",
+              "amount": 748,
+              "price": 50727,
+              "manufacturer": "Samsung",
+              "notes": "NAkjuKZYIVnjIWb551rBRBcKXS5C17oWpsT9sicHam6lIztP7YV60hQzIILZIARwvZH2FX4bwZMrfCS4qcLpx33vkQbpJiq8IYN8WjULT19Bt64HJeC6BVJzNywEjU01t8nuwCRL0b7mz9rGZzVwBMX4hkeN1tCaIQXtrJCQ160DAkhH4QIn8VVUuSdXfzndR5DEcOKt43ZS73Hl6qPtztGuaIInz8jlL1jsLnvGAoCcyik7Vl7DIRe5FX",
+              "received": true
+            },
+            {
+              "_id": "694ed1991c508c5d5e2997ce",
+              "name": "Bacon90311",
+              "amount": 304,
+              "price": 39082,
+              "manufacturer": "Tesla",
+              "notes": "Lq0y3hpBjKwVLHjx9mujm8szc4tcCdL8K5btBTOcYJhLWVPEjevygV06NNf0C5qEn578l9H2sYfdW5i1duNPMYYTvk4vSHBRHEdnMemQa0DC2LutIQ2mKpJnKwViT9pH8PMK8OctignkCtmDeV4RDvrdeTY75mz6cxVYwStUOIG493XrUunoi1KSG3XgMquD9faORiOWnb5e2VbhLubQOvArIsT6heZR0ZAdxEBWmrU6iAjFdzDoIfHU27",
+              "received": false
+            }
+          ],
+          "total_price": 89809,
+          "delivery": {
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery",
+            "address": {
+              "country": "Germany",
+              "city": "Eden Prairie",
+              "street": "Mayfield Road",
+              "house": 591,
+              "flat": 8825
+            }
+          },
+          "changedOn": "2025-12-26T18:19:07.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "694ed1951c508c5d5e2996d6",
+          "products": [
+            {
+              "_id": "694ed1971c508c5d5e299713",
+              "name": "Fish64012",
+              "amount": 748,
+              "price": 50727,
+              "manufacturer": "Samsung",
+              "notes": "NAkjuKZYIVnjIWb551rBRBcKXS5C17oWpsT9sicHam6lIztP7YV60hQzIILZIARwvZH2FX4bwZMrfCS4qcLpx33vkQbpJiq8IYN8WjULT19Bt64HJeC6BVJzNywEjU01t8nuwCRL0b7mz9rGZzVwBMX4hkeN1tCaIQXtrJCQ160DAkhH4QIn8VVUuSdXfzndR5DEcOKt43ZS73Hl6qPtztGuaIInz8jlL1jsLnvGAoCcyik7Vl7DIRe5FX",
+              "received": true
+            },
+            {
+              "_id": "694ed1991c508c5d5e2997ce",
+              "name": "Bacon90311",
+              "amount": 304,
+              "price": 39082,
+              "manufacturer": "Tesla",
+              "notes": "Lq0y3hpBjKwVLHjx9mujm8szc4tcCdL8K5btBTOcYJhLWVPEjevygV06NNf0C5qEn578l9H2sYfdW5i1duNPMYYTvk4vSHBRHEdnMemQa0DC2LutIQ2mKpJnKwViT9pH8PMK8OctignkCtmDeV4RDvrdeTY75mz6cxVYwStUOIG493XrUunoi1KSG3XgMquD9faORiOWnb5e2VbhLubQOvArIsT6heZR0ZAdxEBWmrU6iAjFdzDoIfHU27",
+              "received": false
+            }
+          ],
+          "total_price": 89809,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Eden Prairie",
+              "street": "Mayfield Road",
+              "house": 591,
+              "flat": 8825
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:19:06.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694ed1951c508c5d5e2996d6",
+          "products": [
+            {
+              "_id": "694ed1971c508c5d5e299713",
+              "name": "Fish64012",
+              "amount": 748,
+              "price": 50727,
+              "manufacturer": "Samsung",
+              "notes": "NAkjuKZYIVnjIWb551rBRBcKXS5C17oWpsT9sicHam6lIztP7YV60hQzIILZIARwvZH2FX4bwZMrfCS4qcLpx33vkQbpJiq8IYN8WjULT19Bt64HJeC6BVJzNywEjU01t8nuwCRL0b7mz9rGZzVwBMX4hkeN1tCaIQXtrJCQ160DAkhH4QIn8VVUuSdXfzndR5DEcOKt43ZS73Hl6qPtztGuaIInz8jlL1jsLnvGAoCcyik7Vl7DIRe5FX",
+              "received": false
+            },
+            {
+              "_id": "694ed1991c508c5d5e2997ce",
+              "name": "Bacon90311",
+              "amount": 304,
+              "price": 39082,
+              "manufacturer": "Tesla",
+              "notes": "Lq0y3hpBjKwVLHjx9mujm8szc4tcCdL8K5btBTOcYJhLWVPEjevygV06NNf0C5qEn578l9H2sYfdW5i1duNPMYYTvk4vSHBRHEdnMemQa0DC2LutIQ2mKpJnKwViT9pH8PMK8OctignkCtmDeV4RDvrdeTY75mz6cxVYwStUOIG493XrUunoi1KSG3XgMquD9faORiOWnb5e2VbhLubQOvArIsT6heZR0ZAdxEBWmrU6iAjFdzDoIfHU27",
+              "received": false
+            }
+          ],
+          "total_price": 89809,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Eden Prairie",
+              "street": "Mayfield Road",
+              "house": 591,
+              "flat": 8825
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:19:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed1951c508c5d5e2996d6",
+          "products": [
+            {
+              "_id": "694ed1971c508c5d5e299713",
+              "name": "Fish64012",
+              "amount": 748,
+              "price": 50727,
+              "manufacturer": "Samsung",
+              "notes": "NAkjuKZYIVnjIWb551rBRBcKXS5C17oWpsT9sicHam6lIztP7YV60hQzIILZIARwvZH2FX4bwZMrfCS4qcLpx33vkQbpJiq8IYN8WjULT19Bt64HJeC6BVJzNywEjU01t8nuwCRL0b7mz9rGZzVwBMX4hkeN1tCaIQXtrJCQ160DAkhH4QIn8VVUuSdXfzndR5DEcOKt43ZS73Hl6qPtztGuaIInz8jlL1jsLnvGAoCcyik7Vl7DIRe5FX",
+              "received": false
+            },
+            {
+              "_id": "694ed1991c508c5d5e2997ce",
+              "name": "Bacon90311",
+              "amount": 304,
+              "price": 39082,
+              "manufacturer": "Tesla",
+              "notes": "Lq0y3hpBjKwVLHjx9mujm8szc4tcCdL8K5btBTOcYJhLWVPEjevygV06NNf0C5qEn578l9H2sYfdW5i1duNPMYYTvk4vSHBRHEdnMemQa0DC2LutIQ2mKpJnKwViT9pH8PMK8OctignkCtmDeV4RDvrdeTY75mz6cxVYwStUOIG493XrUunoi1KSG3XgMquD9faORiOWnb5e2VbhLubQOvArIsT6heZR0ZAdxEBWmrU6iAjFdzDoIfHU27",
+              "received": false
+            }
+          ],
+          "total_price": 89809,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Eden Prairie",
+              "street": "Mayfield Road",
+              "house": 591,
+              "flat": 8825
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:19:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed1951c508c5d5e2996d6",
+          "products": [
+            {
+              "_id": "694ed1971c508c5d5e299713",
+              "name": "Fish64012",
+              "amount": 748,
+              "price": 50727,
+              "manufacturer": "Samsung",
+              "notes": "NAkjuKZYIVnjIWb551rBRBcKXS5C17oWpsT9sicHam6lIztP7YV60hQzIILZIARwvZH2FX4bwZMrfCS4qcLpx33vkQbpJiq8IYN8WjULT19Bt64HJeC6BVJzNywEjU01t8nuwCRL0b7mz9rGZzVwBMX4hkeN1tCaIQXtrJCQ160DAkhH4QIn8VVUuSdXfzndR5DEcOKt43ZS73Hl6qPtztGuaIInz8jlL1jsLnvGAoCcyik7Vl7DIRe5FX",
+              "received": false
+            },
+            {
+              "_id": "694ed1991c508c5d5e2997ce",
+              "name": "Bacon90311",
+              "amount": 304,
+              "price": 39082,
+              "manufacturer": "Tesla",
+              "notes": "Lq0y3hpBjKwVLHjx9mujm8szc4tcCdL8K5btBTOcYJhLWVPEjevygV06NNf0C5qEn578l9H2sYfdW5i1duNPMYYTvk4vSHBRHEdnMemQa0DC2LutIQ2mKpJnKwViT9pH8PMK8OctignkCtmDeV4RDvrdeTY75mz6cxVYwStUOIG493XrUunoi1KSG3XgMquD9faORiOWnb5e2VbhLubQOvArIsT6heZR0ZAdxEBWmrU6iAjFdzDoIfHU27",
+              "received": false
+            }
+          ],
+          "total_price": 89809,
+          "delivery": null,
+          "changedOn": "2025-12-26T18:19:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

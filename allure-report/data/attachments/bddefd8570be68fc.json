@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 18:25:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4617",
+    "etag": "W/\"1209-QFHK79sOMOUE1dbThXF4fMT6zac\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ed2fb1c508c5d5e2a5366",
+      "status": "Received",
+      "customer": {
+        "_id": "694ed2f91c508c5d5e2a5305",
+        "email": "Xander.Veum@hotmail.com",
+        "name": "Walton Ratke",
+        "country": "France",
+        "city": "South Jannieboro",
+        "street": "Rhianna Mission 88",
+        "house": 14,
+        "flat": 2431,
+        "phone": "+392146769800260",
+        "createdOn": "2025-12-26T18:24:57.000Z",
+        "notes": "K4pYrXhNQjBTv9yNqopLHDWnpQE9A9"
+      },
+      "products": [
+        {
+          "_id": "694ed2fb1c508c5d5e2a5353",
+          "name": "Computer64787",
+          "amount": 728,
+          "price": 42297,
+          "manufacturer": "Tesla",
+          "notes": "vMhfYDxihDdUdNbiwpzRpXPQWg6idjcshX1SL9lw5K0fkBOvPCGCWeAaJ8SKY4jyH2fluTEqjy0IVOAkfbsYNggCcQWEudfd20CnMIoPV95qfAbiQhinMHaMe5ZEGTJrrTbgg4W3fLsCnPVnPTYeASIgx0ua9sXUzLhioJOVqf1Sky1210GrMCOUHSzseyrytkHzV5FtK0QrrV6KfkoZCiXyLFckHboWLueWJYedLiaqmUeMsjOYGPXWEz",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "San Juan",
+          "street": "Nicolas Course",
+          "house": 212,
+          "flat": 9349
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42297,
+      "createdOn": "2025-12-26T18:24:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694ed2f91c508c5d5e2a5305",
+          "products": [
+            {
+              "_id": "694ed2fb1c508c5d5e2a5353",
+              "name": "Computer64787",
+              "amount": 728,
+              "price": 42297,
+              "manufacturer": "Tesla",
+              "notes": "vMhfYDxihDdUdNbiwpzRpXPQWg6idjcshX1SL9lw5K0fkBOvPCGCWeAaJ8SKY4jyH2fluTEqjy0IVOAkfbsYNggCcQWEudfd20CnMIoPV95qfAbiQhinMHaMe5ZEGTJrrTbgg4W3fLsCnPVnPTYeASIgx0ua9sXUzLhioJOVqf1Sky1210GrMCOUHSzseyrytkHzV5FtK0QrrV6KfkoZCiXyLFckHboWLueWJYedLiaqmUeMsjOYGPXWEz",
+              "received": true
+            }
+          ],
+          "total_price": 42297,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "San Juan",
+              "street": "Nicolas Course",
+              "house": 212,
+              "flat": 9349
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:25:00.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694ed2f91c508c5d5e2a5305",
+          "products": [
+            {
+              "_id": "694ed2fb1c508c5d5e2a5353",
+              "name": "Computer64787",
+              "amount": 728,
+              "price": 42297,
+              "manufacturer": "Tesla",
+              "notes": "vMhfYDxihDdUdNbiwpzRpXPQWg6idjcshX1SL9lw5K0fkBOvPCGCWeAaJ8SKY4jyH2fluTEqjy0IVOAkfbsYNggCcQWEudfd20CnMIoPV95qfAbiQhinMHaMe5ZEGTJrrTbgg4W3fLsCnPVnPTYeASIgx0ua9sXUzLhioJOVqf1Sky1210GrMCOUHSzseyrytkHzV5FtK0QrrV6KfkoZCiXyLFckHboWLueWJYedLiaqmUeMsjOYGPXWEz",
+              "received": false
+            }
+          ],
+          "total_price": 42297,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "San Juan",
+              "street": "Nicolas Course",
+              "house": 212,
+              "flat": 9349
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:25:00.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed2f91c508c5d5e2a5305",
+          "products": [
+            {
+              "_id": "694ed2fb1c508c5d5e2a5353",
+              "name": "Computer64787",
+              "amount": 728,
+              "price": 42297,
+              "manufacturer": "Tesla",
+              "notes": "vMhfYDxihDdUdNbiwpzRpXPQWg6idjcshX1SL9lw5K0fkBOvPCGCWeAaJ8SKY4jyH2fluTEqjy0IVOAkfbsYNggCcQWEudfd20CnMIoPV95qfAbiQhinMHaMe5ZEGTJrrTbgg4W3fLsCnPVnPTYeASIgx0ua9sXUzLhioJOVqf1Sky1210GrMCOUHSzseyrytkHzV5FtK0QrrV6KfkoZCiXyLFckHboWLueWJYedLiaqmUeMsjOYGPXWEz",
+              "received": false
+            }
+          ],
+          "total_price": 42297,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "San Juan",
+              "street": "Nicolas Course",
+              "house": 212,
+              "flat": 9349
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:24:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed2f91c508c5d5e2a5305",
+          "products": [
+            {
+              "_id": "694ed2fb1c508c5d5e2a5353",
+              "name": "Computer64787",
+              "amount": 728,
+              "price": 42297,
+              "manufacturer": "Tesla",
+              "notes": "vMhfYDxihDdUdNbiwpzRpXPQWg6idjcshX1SL9lw5K0fkBOvPCGCWeAaJ8SKY4jyH2fluTEqjy0IVOAkfbsYNggCcQWEudfd20CnMIoPV95qfAbiQhinMHaMe5ZEGTJrrTbgg4W3fLsCnPVnPTYeASIgx0ua9sXUzLhioJOVqf1Sky1210GrMCOUHSzseyrytkHzV5FtK0QrrV6KfkoZCiXyLFckHboWLueWJYedLiaqmUeMsjOYGPXWEz",
+              "received": false
+            }
+          ],
+          "total_price": 42297,
+          "delivery": null,
+          "changedOn": "2025-12-26T18:24:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

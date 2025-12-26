@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 18:20:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3687",
+    "etag": "W/\"e67-IcqJBWzjeyJ+vH0J6298JFmJmwQ\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ed2001c508c5d5e29cf08",
+      "status": "In Process",
+      "customer": {
+        "_id": "694ed1fe1c508c5d5e29cea8",
+        "email": "Marietta.Barrows@hotmail.com",
+        "name": "Dimitri Wunsch",
+        "country": "Russia",
+        "city": "Cupertino",
+        "street": "Valley Road 60",
+        "house": 337,
+        "flat": 5370,
+        "phone": "+045176736208930",
+        "createdOn": "2025-12-26T18:20:46.000Z",
+        "notes": "UwUOOzQ0akwSipAQX6ESAyA1iwTHUh"
+      },
+      "products": [
+        {
+          "_id": "694ed2001c508c5d5e29ceea",
+          "name": "Chips53629",
+          "amount": 171,
+          "price": 81219,
+          "manufacturer": "Tesla",
+          "notes": "jDGWg5dQvJ71xlmmebZcofa8ARvA6yCEV0Y2QwSAKVIxbYfNS21iMsXQFSbKsn5zRsFTN8w4qmilhx65fnmgsdXx4MrtXD5X4nOIFwlNdCHhRIEGmP66Qedi9hsaUvyUqei3ksJCfytUhSpFRhp1ZJUdyHItDLa6HPKIDl0ZA6vAxolifx2Eqbwpc8lRrcBj2EhXeBOo4aJdCLkvX7S6IXyecgG5WlRx4isBbwg9wDKtPwPxM1qasqPZH0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Lockmanbury",
+          "street": "OConner Ridges",
+          "house": 640,
+          "flat": 2493
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 81219,
+      "createdOn": "2025-12-26T18:20:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694ed1fe1c508c5d5e29cea8",
+          "products": [
+            {
+              "_id": "694ed2001c508c5d5e29ceea",
+              "name": "Chips53629",
+              "amount": 171,
+              "price": 81219,
+              "manufacturer": "Tesla",
+              "notes": "jDGWg5dQvJ71xlmmebZcofa8ARvA6yCEV0Y2QwSAKVIxbYfNS21iMsXQFSbKsn5zRsFTN8w4qmilhx65fnmgsdXx4MrtXD5X4nOIFwlNdCHhRIEGmP66Qedi9hsaUvyUqei3ksJCfytUhSpFRhp1ZJUdyHItDLa6HPKIDl0ZA6vAxolifx2Eqbwpc8lRrcBj2EhXeBOo4aJdCLkvX7S6IXyecgG5WlRx4isBbwg9wDKtPwPxM1qasqPZH0",
+              "received": false
+            }
+          ],
+          "total_price": 81219,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lockmanbury",
+              "street": "OConner Ridges",
+              "house": 640,
+              "flat": 2493
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:20:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed1fe1c508c5d5e29cea8",
+          "products": [
+            {
+              "_id": "694ed2001c508c5d5e29ceea",
+              "name": "Chips53629",
+              "amount": 171,
+              "price": 81219,
+              "manufacturer": "Tesla",
+              "notes": "jDGWg5dQvJ71xlmmebZcofa8ARvA6yCEV0Y2QwSAKVIxbYfNS21iMsXQFSbKsn5zRsFTN8w4qmilhx65fnmgsdXx4MrtXD5X4nOIFwlNdCHhRIEGmP66Qedi9hsaUvyUqei3ksJCfytUhSpFRhp1ZJUdyHItDLa6HPKIDl0ZA6vAxolifx2Eqbwpc8lRrcBj2EhXeBOo4aJdCLkvX7S6IXyecgG5WlRx4isBbwg9wDKtPwPxM1qasqPZH0",
+              "received": false
+            }
+          ],
+          "total_price": 81219,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lockmanbury",
+              "street": "OConner Ridges",
+              "house": 640,
+              "flat": 2493
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T18:20:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ed1fe1c508c5d5e29cea8",
+          "products": [
+            {
+              "_id": "694ed2001c508c5d5e29ceea",
+              "name": "Chips53629",
+              "amount": 171,
+              "price": 81219,
+              "manufacturer": "Tesla",
+              "notes": "jDGWg5dQvJ71xlmmebZcofa8ARvA6yCEV0Y2QwSAKVIxbYfNS21iMsXQFSbKsn5zRsFTN8w4qmilhx65fnmgsdXx4MrtXD5X4nOIFwlNdCHhRIEGmP66Qedi9hsaUvyUqei3ksJCfytUhSpFRhp1ZJUdyHItDLa6HPKIDl0ZA6vAxolifx2Eqbwpc8lRrcBj2EhXeBOo4aJdCLkvX7S6IXyecgG5WlRx4isBbwg9wDKtPwPxM1qasqPZH0",
+              "received": false
+            }
+          ],
+          "total_price": 81219,
+          "delivery": null,
+          "changedOn": "2025-12-26T18:20:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
