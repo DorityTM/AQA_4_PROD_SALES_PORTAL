@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:56:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-kcsSafkA0BpkmJmpFBvcugdz2ao\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f128a1c508c5d5e3335b8",
+      "status": "In Process",
+      "customer": {
+        "_id": "694f12881c508c5d5e33356c",
+        "email": "Edmond_Kris@hotmail.com",
+        "name": "Jeffrey Kohler Pagac",
+        "country": "Great Britain",
+        "city": "Boyletown",
+        "street": "Desiree Falls 11",
+        "house": 341,
+        "flat": 416,
+        "phone": "+684587650791150",
+        "createdOn": "2025-12-26T22:56:08.000Z",
+        "notes": "cDZTsDUSnqMl7LcaLRORo6FXoSOoIk"
+      },
+      "products": [
+        {
+          "_id": "694f128a1c508c5d5e333591",
+          "name": "Table872",
+          "amount": 483,
+          "price": 83962,
+          "manufacturer": "Microsoft",
+          "notes": "a0IuNdL724y8THFIhe3VMBLCKqPXFHmNVNpe9bzOj9NXiHrFyRBX5bL3jR3wwjEkBJ2457vB7dWezYV6KGfTGPY0tN5q16koxnxbGPBJh91npA6i0PaTb0CV6UQd9jBJVjGwO10RgmIYDw3Gf76V64P2cnvXcvcfLuvjf64ckqTj3shrndJsAipnGCBG1WCVxJQoNyf975UScKzOUxCnemWvGmUh5u9ot5cy475FGnmqujd2xMwylpSbe7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Toyton",
+          "street": "Green Street",
+          "house": 312,
+          "flat": 7380
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 83962,
+      "createdOn": "2025-12-26T22:56:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694f12881c508c5d5e33356c",
+          "products": [
+            {
+              "_id": "694f128a1c508c5d5e333591",
+              "name": "Table872",
+              "amount": 483,
+              "price": 83962,
+              "manufacturer": "Microsoft",
+              "notes": "a0IuNdL724y8THFIhe3VMBLCKqPXFHmNVNpe9bzOj9NXiHrFyRBX5bL3jR3wwjEkBJ2457vB7dWezYV6KGfTGPY0tN5q16koxnxbGPBJh91npA6i0PaTb0CV6UQd9jBJVjGwO10RgmIYDw3Gf76V64P2cnvXcvcfLuvjf64ckqTj3shrndJsAipnGCBG1WCVxJQoNyf975UScKzOUxCnemWvGmUh5u9ot5cy475FGnmqujd2xMwylpSbe7",
+              "received": false
+            }
+          ],
+          "total_price": 83962,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Toyton",
+              "street": "Green Street",
+              "house": 312,
+              "flat": 7380
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:56:11.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f12881c508c5d5e33356c",
+          "products": [
+            {
+              "_id": "694f128a1c508c5d5e333591",
+              "name": "Table872",
+              "amount": 483,
+              "price": 83962,
+              "manufacturer": "Microsoft",
+              "notes": "a0IuNdL724y8THFIhe3VMBLCKqPXFHmNVNpe9bzOj9NXiHrFyRBX5bL3jR3wwjEkBJ2457vB7dWezYV6KGfTGPY0tN5q16koxnxbGPBJh91npA6i0PaTb0CV6UQd9jBJVjGwO10RgmIYDw3Gf76V64P2cnvXcvcfLuvjf64ckqTj3shrndJsAipnGCBG1WCVxJQoNyf975UScKzOUxCnemWvGmUh5u9ot5cy475FGnmqujd2xMwylpSbe7",
+              "received": false
+            }
+          ],
+          "total_price": 83962,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Toyton",
+              "street": "Green Street",
+              "house": 312,
+              "flat": 7380
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:56:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f12881c508c5d5e33356c",
+          "products": [
+            {
+              "_id": "694f128a1c508c5d5e333591",
+              "name": "Table872",
+              "amount": 483,
+              "price": 83962,
+              "manufacturer": "Microsoft",
+              "notes": "a0IuNdL724y8THFIhe3VMBLCKqPXFHmNVNpe9bzOj9NXiHrFyRBX5bL3jR3wwjEkBJ2457vB7dWezYV6KGfTGPY0tN5q16koxnxbGPBJh91npA6i0PaTb0CV6UQd9jBJVjGwO10RgmIYDw3Gf76V64P2cnvXcvcfLuvjf64ckqTj3shrndJsAipnGCBG1WCVxJQoNyf975UScKzOUxCnemWvGmUh5u9ot5cy475FGnmqujd2xMwylpSbe7",
+              "received": false
+            }
+          ],
+          "total_price": 83962,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:56:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

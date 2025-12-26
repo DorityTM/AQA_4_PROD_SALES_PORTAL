@@ -1,0 +1,184 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:56:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3862",
+    "etag": "W/\"f16-ZGKp2zW9u3OYQLAV8lhL63/LGS4\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f12961c508c5d5e333a88",
+      "status": "In Process",
+      "customer": {
+        "_id": "694f12931c508c5d5e333a44",
+        "email": "Gertrude28@gmail.com",
+        "name": "Lowell Willms",
+        "country": "Russia",
+        "city": "Swaniawskistead",
+        "street": "High Street 79",
+        "house": 15,
+        "flat": 8842,
+        "phone": "+078296915842921",
+        "createdOn": "2025-12-26T22:56:19.000Z",
+        "notes": "Y0WPdunPgUwDiS1zORKsDbPVSf6r0c"
+      },
+      "products": [
+        {
+          "_id": "694f12951c508c5d5e333a7a",
+          "name": "Shirt1211",
+          "amount": 13,
+          "price": 76054,
+          "manufacturer": "Samsung",
+          "notes": "yvvGtGpYYdOOCFG8rXNg1nFa0iP4xw1vAhAOteh3eJum5Dj2VjfaqXbX7Lb31CjMqcT2pgrHESKfbMlxszGO1QWgsr74Y6k86YRhdvLy15HCVJWeqB2XaGpZNQYxN8OcVeWsNoMsdbcKIrXqXowEgLWPbfh43R5Ps1zP3AAv99RC3oUAM5etCkdGPqOkgSjMDoOxNdRydMAjrGR2GNZYfuETxVAxRAvr40Wml05z904iPJNfizrRH2hSxX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Greenmouth",
+          "street": "Schultz Brooks",
+          "house": 395,
+          "flat": 761
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76054,
+      "createdOn": "2025-12-26T22:56:22.000Z",
+      "comments": [
+        {
+          "text": "Comment 1",
+          "createdOn": "2025-12-26T22:56:23.000Z",
+          "_id": "694f12971c508c5d5e333b4e"
+        },
+        {
+          "text": "Comment 2",
+          "createdOn": "2025-12-26T22:56:24.000Z",
+          "_id": "694f12981c508c5d5e333b8c"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694f12931c508c5d5e333a44",
+          "products": [
+            {
+              "_id": "694f12951c508c5d5e333a7a",
+              "name": "Shirt1211",
+              "amount": 13,
+              "price": 76054,
+              "manufacturer": "Samsung",
+              "notes": "yvvGtGpYYdOOCFG8rXNg1nFa0iP4xw1vAhAOteh3eJum5Dj2VjfaqXbX7Lb31CjMqcT2pgrHESKfbMlxszGO1QWgsr74Y6k86YRhdvLy15HCVJWeqB2XaGpZNQYxN8OcVeWsNoMsdbcKIrXqXowEgLWPbfh43R5Ps1zP3AAv99RC3oUAM5etCkdGPqOkgSjMDoOxNdRydMAjrGR2GNZYfuETxVAxRAvr40Wml05z904iPJNfizrRH2hSxX",
+              "received": false
+            }
+          ],
+          "total_price": 76054,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Greenmouth",
+              "street": "Schultz Brooks",
+              "house": 395,
+              "flat": 761
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:56:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f12931c508c5d5e333a44",
+          "products": [
+            {
+              "_id": "694f12951c508c5d5e333a7a",
+              "name": "Shirt1211",
+              "amount": 13,
+              "price": 76054,
+              "manufacturer": "Samsung",
+              "notes": "yvvGtGpYYdOOCFG8rXNg1nFa0iP4xw1vAhAOteh3eJum5Dj2VjfaqXbX7Lb31CjMqcT2pgrHESKfbMlxszGO1QWgsr74Y6k86YRhdvLy15HCVJWeqB2XaGpZNQYxN8OcVeWsNoMsdbcKIrXqXowEgLWPbfh43R5Ps1zP3AAv99RC3oUAM5etCkdGPqOkgSjMDoOxNdRydMAjrGR2GNZYfuETxVAxRAvr40Wml05z904iPJNfizrRH2hSxX",
+              "received": false
+            }
+          ],
+          "total_price": 76054,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Greenmouth",
+              "street": "Schultz Brooks",
+              "house": 395,
+              "flat": 761
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:56:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f12931c508c5d5e333a44",
+          "products": [
+            {
+              "_id": "694f12951c508c5d5e333a7a",
+              "name": "Shirt1211",
+              "amount": 13,
+              "price": 76054,
+              "manufacturer": "Samsung",
+              "notes": "yvvGtGpYYdOOCFG8rXNg1nFa0iP4xw1vAhAOteh3eJum5Dj2VjfaqXbX7Lb31CjMqcT2pgrHESKfbMlxszGO1QWgsr74Y6k86YRhdvLy15HCVJWeqB2XaGpZNQYxN8OcVeWsNoMsdbcKIrXqXowEgLWPbfh43R5Ps1zP3AAv99RC3oUAM5etCkdGPqOkgSjMDoOxNdRydMAjrGR2GNZYfuETxVAxRAvr40Wml05z904iPJNfizrRH2hSxX",
+              "received": false
+            }
+          ],
+          "total_price": 76054,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:56:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

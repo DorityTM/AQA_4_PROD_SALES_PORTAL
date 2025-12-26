@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:57:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-wL5CtzYDewImrAavlkwOUKgaFhU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f12d41c508c5d5e335842",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f12d21c508c5d5e335812",
+        "email": "Shakira.Harber@yahoo.com",
+        "name": "Leda Olson",
+        "country": "USA",
+        "city": "Sterling Heights",
+        "street": "Eleanora Ford 54",
+        "house": 19,
+        "flat": 8316,
+        "phone": "+284579034298304",
+        "createdOn": "2025-12-26T22:57:22.000Z",
+        "notes": "FGXHobVFCmgRWKDrkBpRwutMHH8dvq"
+      },
+      "products": [
+        {
+          "_id": "694f12d41c508c5d5e33583a",
+          "name": "Cheese56387",
+          "amount": 889,
+          "price": 31812,
+          "manufacturer": "Sony",
+          "notes": "SZ3ATjzfvxqGzdcIgKWQRHiTGMIeIubmSqufksPVETFaS9akR6UrdGREvqkA73Q2STU0JHIoz27DjMvmat20IhHEZKb1uS1Jw26eMmPliQSwOXsFEALGq2sWHi6zL7a938gmp6LXPOEBvf1ZHKJ5NTeIJZqnRHuT8tviB4giHEEOthAMr5bCHxHf0O8aSnXJyMZ2uT7AK0OxRsJJj9WHv3P8GlHGbJWduD1dqkk7wxPjfKjaBPovXfHubE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Albany",
+          "street": "Penelope Shores",
+          "house": 440,
+          "flat": 5676
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 31812,
+      "createdOn": "2025-12-26T22:57:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f12d21c508c5d5e335812",
+          "products": [
+            {
+              "_id": "694f12d41c508c5d5e33583a",
+              "name": "Cheese56387",
+              "amount": 889,
+              "price": 31812,
+              "manufacturer": "Sony",
+              "notes": "SZ3ATjzfvxqGzdcIgKWQRHiTGMIeIubmSqufksPVETFaS9akR6UrdGREvqkA73Q2STU0JHIoz27DjMvmat20IhHEZKb1uS1Jw26eMmPliQSwOXsFEALGq2sWHi6zL7a938gmp6LXPOEBvf1ZHKJ5NTeIJZqnRHuT8tviB4giHEEOthAMr5bCHxHf0O8aSnXJyMZ2uT7AK0OxRsJJj9WHv3P8GlHGbJWduD1dqkk7wxPjfKjaBPovXfHubE",
+              "received": false
+            }
+          ],
+          "total_price": 31812,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Albany",
+              "street": "Penelope Shores",
+              "house": 440,
+              "flat": 5676
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:57:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f12d21c508c5d5e335812",
+          "products": [
+            {
+              "_id": "694f12d41c508c5d5e33583a",
+              "name": "Cheese56387",
+              "amount": 889,
+              "price": 31812,
+              "manufacturer": "Sony",
+              "notes": "SZ3ATjzfvxqGzdcIgKWQRHiTGMIeIubmSqufksPVETFaS9akR6UrdGREvqkA73Q2STU0JHIoz27DjMvmat20IhHEZKb1uS1Jw26eMmPliQSwOXsFEALGq2sWHi6zL7a938gmp6LXPOEBvf1ZHKJ5NTeIJZqnRHuT8tviB4giHEEOthAMr5bCHxHf0O8aSnXJyMZ2uT7AK0OxRsJJj9WHv3P8GlHGbJWduD1dqkk7wxPjfKjaBPovXfHubE",
+              "received": false
+            }
+          ],
+          "total_price": 31812,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:57:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

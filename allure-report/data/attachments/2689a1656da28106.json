@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:55:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3698",
+    "etag": "W/\"e72-ap4WojP1ok7wQWplMmTn6rmiPFM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f127b1c508c5d5e332fef",
+      "status": "In Process",
+      "customer": {
+        "_id": "694f12791c508c5d5e332fbf",
+        "email": "Liam63@yahoo.com",
+        "name": "Kaci Friesen",
+        "country": "USA",
+        "city": "West Keaton",
+        "street": "Lee Street 53",
+        "house": 443,
+        "flat": 6041,
+        "phone": "+525578765012970",
+        "createdOn": "2025-12-26T22:55:53.000Z",
+        "notes": "7J8U0JMSSDdnQJmMgkdsKOdONM7HJE"
+      },
+      "products": [
+        {
+          "_id": "694f127a1c508c5d5e332fd8",
+          "name": "Mouse47009",
+          "amount": 302,
+          "price": 957,
+          "manufacturer": "Google",
+          "notes": "s6mPKHMyEANwUAQTH5bWjocI6VTk9WOxQsxdi7wxfKLqA9RAI9QCGogb1ZACoBUkf7CzRnBSTlOK7yBYViZuk9sKL5Biy09hPRp10GJZRFGSLCy3Q79MyaRhYbcTRHq22LuMmYve35GJOroPz878m4o4jsXjtcPvae8OIMrSvWMDHe9MgUMMg87ZBC7s9ChhlqtUwiqjp8l8SEuBEWVtokkBh6GcZTQK0111SdNOAIrkAMauDHivlMimcm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "New Chelseyborough",
+          "street": "Pennsylvania Avenue",
+          "house": 429,
+          "flat": 7890
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 957,
+      "createdOn": "2025-12-26T22:55:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694f12791c508c5d5e332fbf",
+          "products": [
+            {
+              "_id": "694f127a1c508c5d5e332fd8",
+              "name": "Mouse47009",
+              "amount": 302,
+              "price": 957,
+              "manufacturer": "Google",
+              "notes": "s6mPKHMyEANwUAQTH5bWjocI6VTk9WOxQsxdi7wxfKLqA9RAI9QCGogb1ZACoBUkf7CzRnBSTlOK7yBYViZuk9sKL5Biy09hPRp10GJZRFGSLCy3Q79MyaRhYbcTRHq22LuMmYve35GJOroPz878m4o4jsXjtcPvae8OIMrSvWMDHe9MgUMMg87ZBC7s9ChhlqtUwiqjp8l8SEuBEWVtokkBh6GcZTQK0111SdNOAIrkAMauDHivlMimcm",
+              "received": false
+            }
+          ],
+          "total_price": 957,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "New Chelseyborough",
+              "street": "Pennsylvania Avenue",
+              "house": 429,
+              "flat": 7890
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:55:56.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f12791c508c5d5e332fbf",
+          "products": [
+            {
+              "_id": "694f127a1c508c5d5e332fd8",
+              "name": "Mouse47009",
+              "amount": 302,
+              "price": 957,
+              "manufacturer": "Google",
+              "notes": "s6mPKHMyEANwUAQTH5bWjocI6VTk9WOxQsxdi7wxfKLqA9RAI9QCGogb1ZACoBUkf7CzRnBSTlOK7yBYViZuk9sKL5Biy09hPRp10GJZRFGSLCy3Q79MyaRhYbcTRHq22LuMmYve35GJOroPz878m4o4jsXjtcPvae8OIMrSvWMDHe9MgUMMg87ZBC7s9ChhlqtUwiqjp8l8SEuBEWVtokkBh6GcZTQK0111SdNOAIrkAMauDHivlMimcm",
+              "received": false
+            }
+          ],
+          "total_price": 957,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "New Chelseyborough",
+              "street": "Pennsylvania Avenue",
+              "house": 429,
+              "flat": 7890
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:55:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f12791c508c5d5e332fbf",
+          "products": [
+            {
+              "_id": "694f127a1c508c5d5e332fd8",
+              "name": "Mouse47009",
+              "amount": 302,
+              "price": 957,
+              "manufacturer": "Google",
+              "notes": "s6mPKHMyEANwUAQTH5bWjocI6VTk9WOxQsxdi7wxfKLqA9RAI9QCGogb1ZACoBUkf7CzRnBSTlOK7yBYViZuk9sKL5Biy09hPRp10GJZRFGSLCy3Q79MyaRhYbcTRHq22LuMmYve35GJOroPz878m4o4jsXjtcPvae8OIMrSvWMDHe9MgUMMg87ZBC7s9ChhlqtUwiqjp8l8SEuBEWVtokkBh6GcZTQK0111SdNOAIrkAMauDHivlMimcm",
+              "received": false
+            }
+          ],
+          "total_price": 957,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:55:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

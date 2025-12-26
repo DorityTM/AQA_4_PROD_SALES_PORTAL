@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:50:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3915",
+    "etag": "W/\"f4b-9nMoigjM/LhqoaDFE3qPPrYfn2k\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f112d1c508c5d5e329f6e",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f112a1c508c5d5e329ecc",
+        "email": "Rosalia.Kiehn@yahoo.com",
+        "name": "Humberto Strosin",
+        "country": "Germany",
+        "city": "Parma",
+        "street": "N College Street 17",
+        "house": 756,
+        "flat": 2323,
+        "phone": "+184236613557529",
+        "createdOn": "2025-12-26T22:50:18.000Z",
+        "notes": "WelFhhND1ddMpHjkYOuJjeOT5i7vk0"
+      },
+      "products": [
+        {
+          "_id": "694f112b1c508c5d5e329f10",
+          "name": "Chicken72994",
+          "amount": 193,
+          "price": 81674,
+          "manufacturer": "Amazon",
+          "notes": "d6of8ACleghBxUQMCJaYP7S8LaZLQwBw8eM6cnJYtNC9eYL6hjOorLpSwxZ0hOz4ERfwSbXXA2EkFQynxQ01Qrt4w4A5YHXwCZNCEKRvwiAq2Ra4UKj0BCrhWOCvxqnFTxdo0JLJBvw1JvYRa4Wfib7Q0nH8VfW2gBUurwe6dBvLJlKTRPjzgq3yEgfwyELBxXHY3Zjm87SBYQ3OEaYWDELZ2Vm8shjUp6ATQdfK8gdggbkvfGKmGjN1gY",
+          "received": false
+        },
+        {
+          "_id": "694f112c1c508c5d5e329f60",
+          "name": "Car91699",
+          "amount": 992,
+          "price": 37785,
+          "manufacturer": "Microsoft",
+          "notes": "NMcf2UMyKouCo9aUFgPsFh4K79la4nYsqDIrXAbTn8L1nFIzudk2GdNQZ77JMEA1lC6oF9updF5MNkdYdAo9Ld5fnub6JFbGfe9HgPuDRGOMhnm9al1AeREe7jzZDTJhAmGJ7QAG2D8nQLIkhNDUghH5rfyH97jYRgLIiXVO8Mz6J8ZLpj7lFL9g6hniHskaEH743VL8zspRCyCuxSrq9jQqHZRxe63pSOA3t6btAFCM6Oz1JIlG7cNVh1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "South Leda",
+          "street": "E Park Avenue",
+          "house": 30,
+          "flat": 2947
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 119459,
+      "createdOn": "2025-12-26T22:50:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f112a1c508c5d5e329ecc",
+          "products": [
+            {
+              "_id": "694f112b1c508c5d5e329f10",
+              "name": "Chicken72994",
+              "amount": 193,
+              "price": 81674,
+              "manufacturer": "Amazon",
+              "notes": "d6of8ACleghBxUQMCJaYP7S8LaZLQwBw8eM6cnJYtNC9eYL6hjOorLpSwxZ0hOz4ERfwSbXXA2EkFQynxQ01Qrt4w4A5YHXwCZNCEKRvwiAq2Ra4UKj0BCrhWOCvxqnFTxdo0JLJBvw1JvYRa4Wfib7Q0nH8VfW2gBUurwe6dBvLJlKTRPjzgq3yEgfwyELBxXHY3Zjm87SBYQ3OEaYWDELZ2Vm8shjUp6ATQdfK8gdggbkvfGKmGjN1gY",
+              "received": false
+            },
+            {
+              "_id": "694f112c1c508c5d5e329f60",
+              "name": "Car91699",
+              "amount": 992,
+              "price": 37785,
+              "manufacturer": "Microsoft",
+              "notes": "NMcf2UMyKouCo9aUFgPsFh4K79la4nYsqDIrXAbTn8L1nFIzudk2GdNQZ77JMEA1lC6oF9updF5MNkdYdAo9Ld5fnub6JFbGfe9HgPuDRGOMhnm9al1AeREe7jzZDTJhAmGJ7QAG2D8nQLIkhNDUghH5rfyH97jYRgLIiXVO8Mz6J8ZLpj7lFL9g6hniHskaEH743VL8zspRCyCuxSrq9jQqHZRxe63pSOA3t6btAFCM6Oz1JIlG7cNVh1",
+              "received": false
+            }
+          ],
+          "total_price": 119459,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "South Leda",
+              "street": "E Park Avenue",
+              "house": 30,
+              "flat": 2947
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:50:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f112a1c508c5d5e329ecc",
+          "products": [
+            {
+              "_id": "694f112b1c508c5d5e329f10",
+              "name": "Chicken72994",
+              "amount": 193,
+              "price": 81674,
+              "manufacturer": "Amazon",
+              "notes": "d6of8ACleghBxUQMCJaYP7S8LaZLQwBw8eM6cnJYtNC9eYL6hjOorLpSwxZ0hOz4ERfwSbXXA2EkFQynxQ01Qrt4w4A5YHXwCZNCEKRvwiAq2Ra4UKj0BCrhWOCvxqnFTxdo0JLJBvw1JvYRa4Wfib7Q0nH8VfW2gBUurwe6dBvLJlKTRPjzgq3yEgfwyELBxXHY3Zjm87SBYQ3OEaYWDELZ2Vm8shjUp6ATQdfK8gdggbkvfGKmGjN1gY",
+              "received": false
+            },
+            {
+              "_id": "694f112c1c508c5d5e329f60",
+              "name": "Car91699",
+              "amount": 992,
+              "price": 37785,
+              "manufacturer": "Microsoft",
+              "notes": "NMcf2UMyKouCo9aUFgPsFh4K79la4nYsqDIrXAbTn8L1nFIzudk2GdNQZ77JMEA1lC6oF9updF5MNkdYdAo9Ld5fnub6JFbGfe9HgPuDRGOMhnm9al1AeREe7jzZDTJhAmGJ7QAG2D8nQLIkhNDUghH5rfyH97jYRgLIiXVO8Mz6J8ZLpj7lFL9g6hniHskaEH743VL8zspRCyCuxSrq9jQqHZRxe63pSOA3t6btAFCM6Oz1JIlG7cNVh1",
+              "received": false
+            }
+          ],
+          "total_price": 119459,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:50:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

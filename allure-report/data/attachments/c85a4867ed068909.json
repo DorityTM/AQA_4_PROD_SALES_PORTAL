@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:52:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4629",
+    "etag": "W/\"1215-/rJSKhnX26DiD7v9jjfXuEGi+L0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f11a31c508c5d5e32d4a6",
+      "status": "Received",
+      "customer": {
+        "_id": "694f11a01c508c5d5e32d339",
+        "email": "Cleora.Johns@hotmail.com",
+        "name": "Nona Lang",
+        "country": "Canada",
+        "city": "New Tannerburgh",
+        "street": "Tremblay Path 16",
+        "house": 390,
+        "flat": 9306,
+        "phone": "+119091537867983",
+        "createdOn": "2025-12-26T22:52:16.000Z",
+        "notes": "GiCUVZSTDEBqddcvLbR0m3YFCALz4a"
+      },
+      "products": [
+        {
+          "_id": "694f11a11c508c5d5e32d3fe",
+          "name": "Salad1569",
+          "amount": 580,
+          "price": 38999,
+          "manufacturer": "Microsoft",
+          "notes": "r4rMQcNNTSc4wliqPCZYzJnZ8gU9XLT0EI2sxUa1mljiwx054VDaHShhuXZcM6oarP1aaphqBlOe3O6aALbfXgy1nQYSW9F3oyc3KJCpttuZ7tyAYf6zLDlnVtkQqS201RUtIAc5cdUHwHvidBypXcu0AlQ5tlHsM03blOwYJ7mv1tY38xqTYUZe809ndgWfBgXQr6SPJ554uDSPUByF8sfYNj5gUQo4rnhWsQhbf64H72UTkqfhnTC0h5",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Pearl City",
+          "street": "Kuhlman Junctions",
+          "house": 975,
+          "flat": 3445
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 38999,
+      "createdOn": "2025-12-26T22:52:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694f11a01c508c5d5e32d339",
+          "products": [
+            {
+              "_id": "694f11a11c508c5d5e32d3fe",
+              "name": "Salad1569",
+              "amount": 580,
+              "price": 38999,
+              "manufacturer": "Microsoft",
+              "notes": "r4rMQcNNTSc4wliqPCZYzJnZ8gU9XLT0EI2sxUa1mljiwx054VDaHShhuXZcM6oarP1aaphqBlOe3O6aALbfXgy1nQYSW9F3oyc3KJCpttuZ7tyAYf6zLDlnVtkQqS201RUtIAc5cdUHwHvidBypXcu0AlQ5tlHsM03blOwYJ7mv1tY38xqTYUZe809ndgWfBgXQr6SPJ554uDSPUByF8sfYNj5gUQo4rnhWsQhbf64H72UTkqfhnTC0h5",
+              "received": true
+            }
+          ],
+          "total_price": 38999,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Pearl City",
+              "street": "Kuhlman Junctions",
+              "house": 975,
+              "flat": 3445
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:52:20.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694f11a01c508c5d5e32d339",
+          "products": [
+            {
+              "_id": "694f11a11c508c5d5e32d3fe",
+              "name": "Salad1569",
+              "amount": 580,
+              "price": 38999,
+              "manufacturer": "Microsoft",
+              "notes": "r4rMQcNNTSc4wliqPCZYzJnZ8gU9XLT0EI2sxUa1mljiwx054VDaHShhuXZcM6oarP1aaphqBlOe3O6aALbfXgy1nQYSW9F3oyc3KJCpttuZ7tyAYf6zLDlnVtkQqS201RUtIAc5cdUHwHvidBypXcu0AlQ5tlHsM03blOwYJ7mv1tY38xqTYUZe809ndgWfBgXQr6SPJ554uDSPUByF8sfYNj5gUQo4rnhWsQhbf64H72UTkqfhnTC0h5",
+              "received": false
+            }
+          ],
+          "total_price": 38999,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Pearl City",
+              "street": "Kuhlman Junctions",
+              "house": 975,
+              "flat": 3445
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:52:20.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f11a01c508c5d5e32d339",
+          "products": [
+            {
+              "_id": "694f11a11c508c5d5e32d3fe",
+              "name": "Salad1569",
+              "amount": 580,
+              "price": 38999,
+              "manufacturer": "Microsoft",
+              "notes": "r4rMQcNNTSc4wliqPCZYzJnZ8gU9XLT0EI2sxUa1mljiwx054VDaHShhuXZcM6oarP1aaphqBlOe3O6aALbfXgy1nQYSW9F3oyc3KJCpttuZ7tyAYf6zLDlnVtkQqS201RUtIAc5cdUHwHvidBypXcu0AlQ5tlHsM03blOwYJ7mv1tY38xqTYUZe809ndgWfBgXQr6SPJ554uDSPUByF8sfYNj5gUQo4rnhWsQhbf64H72UTkqfhnTC0h5",
+              "received": false
+            }
+          ],
+          "total_price": 38999,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Pearl City",
+              "street": "Kuhlman Junctions",
+              "house": 975,
+              "flat": 3445
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:52:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f11a01c508c5d5e32d339",
+          "products": [
+            {
+              "_id": "694f11a11c508c5d5e32d3fe",
+              "name": "Salad1569",
+              "amount": 580,
+              "price": 38999,
+              "manufacturer": "Microsoft",
+              "notes": "r4rMQcNNTSc4wliqPCZYzJnZ8gU9XLT0EI2sxUa1mljiwx054VDaHShhuXZcM6oarP1aaphqBlOe3O6aALbfXgy1nQYSW9F3oyc3KJCpttuZ7tyAYf6zLDlnVtkQqS201RUtIAc5cdUHwHvidBypXcu0AlQ5tlHsM03blOwYJ7mv1tY38xqTYUZe809ndgWfBgXQr6SPJ554uDSPUByF8sfYNj5gUQo4rnhWsQhbf64H72UTkqfhnTC0h5",
+              "received": false
+            }
+          ],
+          "total_price": 38999,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:52:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

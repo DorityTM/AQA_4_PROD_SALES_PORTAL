@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:57:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3662",
+    "etag": "W/\"e4e-/8QzZGD5NQ6A3EEAuNznmElY8/0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f12de1c508c5d5e335cef",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694f12dd1c508c5d5e335c37",
+        "email": "Robert_Schuppe@hotmail.com",
+        "name": "Juston Denesik",
+        "country": "Russia",
+        "city": "Warrenborough",
+        "street": "Victoria Street 94",
+        "house": 953,
+        "flat": 8554,
+        "phone": "+101547699385856",
+        "createdOn": "2025-12-26T22:57:33.000Z",
+        "notes": "Am8tNasVCil4FCFy5xsMYQ2WrKM9Hi"
+      },
+      "products": [
+        {
+          "_id": "694f12de1c508c5d5e335ce4",
+          "name": "Chair47789",
+          "amount": 194,
+          "price": 76631,
+          "manufacturer": "Amazon",
+          "notes": "jKuHaqiYmkB253eYnHb41tA5zIf6yyOpjpgvdMaZUjwUS06CHZ4YOOIoqMN4XUjFGNXQ8B6KAvpypNMEU56Ri6RtsT0ANh7W09oTCxDpOT484QiYHkEAzbIl5sLGHBQgcxbF04otNkMCbpEm2Cu69blHVpM94LDnaPWUw59FTaHtMLPK01HXobVdU4qeSi0v4XPdHnFsENMCaxJaCJ7TDxBrCpgSDbf7f9Zs2geju31Ll2YfIkhOsrvrgM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Jovanistad",
+          "street": "Ali Walk",
+          "house": 692,
+          "flat": 5987
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76631,
+      "createdOn": "2025-12-26T22:57:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694f12dd1c508c5d5e335c37",
+          "products": [
+            {
+              "_id": "694f12de1c508c5d5e335ce4",
+              "name": "Chair47789",
+              "amount": 194,
+              "price": 76631,
+              "manufacturer": "Amazon",
+              "notes": "jKuHaqiYmkB253eYnHb41tA5zIf6yyOpjpgvdMaZUjwUS06CHZ4YOOIoqMN4XUjFGNXQ8B6KAvpypNMEU56Ri6RtsT0ANh7W09oTCxDpOT484QiYHkEAzbIl5sLGHBQgcxbF04otNkMCbpEm2Cu69blHVpM94LDnaPWUw59FTaHtMLPK01HXobVdU4qeSi0v4XPdHnFsENMCaxJaCJ7TDxBrCpgSDbf7f9Zs2geju31Ll2YfIkhOsrvrgM",
+              "received": false
+            }
+          ],
+          "total_price": 76631,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Jovanistad",
+              "street": "Ali Walk",
+              "house": 692,
+              "flat": 5987
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:57:36.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f12dd1c508c5d5e335c37",
+          "products": [
+            {
+              "_id": "694f12de1c508c5d5e335ce4",
+              "name": "Chair47789",
+              "amount": 194,
+              "price": 76631,
+              "manufacturer": "Amazon",
+              "notes": "jKuHaqiYmkB253eYnHb41tA5zIf6yyOpjpgvdMaZUjwUS06CHZ4YOOIoqMN4XUjFGNXQ8B6KAvpypNMEU56Ri6RtsT0ANh7W09oTCxDpOT484QiYHkEAzbIl5sLGHBQgcxbF04otNkMCbpEm2Cu69blHVpM94LDnaPWUw59FTaHtMLPK01HXobVdU4qeSi0v4XPdHnFsENMCaxJaCJ7TDxBrCpgSDbf7f9Zs2geju31Ll2YfIkhOsrvrgM",
+              "received": false
+            }
+          ],
+          "total_price": 76631,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Jovanistad",
+              "street": "Ali Walk",
+              "house": 692,
+              "flat": 5987
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:57:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f12dd1c508c5d5e335c37",
+          "products": [
+            {
+              "_id": "694f12de1c508c5d5e335ce4",
+              "name": "Chair47789",
+              "amount": 194,
+              "price": 76631,
+              "manufacturer": "Amazon",
+              "notes": "jKuHaqiYmkB253eYnHb41tA5zIf6yyOpjpgvdMaZUjwUS06CHZ4YOOIoqMN4XUjFGNXQ8B6KAvpypNMEU56Ri6RtsT0ANh7W09oTCxDpOT484QiYHkEAzbIl5sLGHBQgcxbF04otNkMCbpEm2Cu69blHVpM94LDnaPWUw59FTaHtMLPK01HXobVdU4qeSi0v4XPdHnFsENMCaxJaCJ7TDxBrCpgSDbf7f9Zs2geju31Ll2YfIkhOsrvrgM",
+              "received": false
+            }
+          ],
+          "total_price": 76631,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:57:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

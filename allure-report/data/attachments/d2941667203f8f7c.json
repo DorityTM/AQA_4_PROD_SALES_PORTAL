@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:51:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3666",
+    "etag": "W/\"e52-4+Pw0/z27AnR3JY0jpTKVRpz1lw\"",
+    "keep-alive": "timeout=5, max=33",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f11521c508c5d5e32aea1",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694f11501c508c5d5e32ae72",
+        "email": "Idella.Schumm89@yahoo.com",
+        "name": "Karianne Renner",
+        "country": "Canada",
+        "city": "Okunevaborough",
+        "street": "Gleichner Drives 57",
+        "house": 381,
+        "flat": 2374,
+        "phone": "+193133334006053",
+        "createdOn": "2025-12-26T22:50:56.000Z",
+        "notes": "o6p7imv25Wp5cp1ygP355jKXUZ34Kt"
+      },
+      "products": [
+        {
+          "_id": "694f11521c508c5d5e32ae99",
+          "name": "Car55808",
+          "amount": 457,
+          "price": 47267,
+          "manufacturer": "Samsung",
+          "notes": "jecCVEppEf17os8FYmU0Yp1yc4K49Y5E18WZa3roEvtm61Upvhy8vSb72MkH4OqvqrlYr7o5hvYS8TYXlzYGpqwqjKmTxPYhUXmr82BNszOB1LnDE2aio6LF8EGkjB1D7FBfwQPqx8CvLO3c4FQzcLsukp7AFJ45qI9yJr55S1taedkD3GzZM7ESVtNxuerX1qvLU864kDopOjNMiYsCiLRs7XDz5z96zxCOmu240OUOppwdECEmaxf03x",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Liam",
+          "street": "Ritchie Brooks",
+          "house": 613,
+          "flat": 7511
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47267,
+      "createdOn": "2025-12-26T22:50:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694f11501c508c5d5e32ae72",
+          "products": [
+            {
+              "_id": "694f11521c508c5d5e32ae99",
+              "name": "Car55808",
+              "amount": 457,
+              "price": 47267,
+              "manufacturer": "Samsung",
+              "notes": "jecCVEppEf17os8FYmU0Yp1yc4K49Y5E18WZa3roEvtm61Upvhy8vSb72MkH4OqvqrlYr7o5hvYS8TYXlzYGpqwqjKmTxPYhUXmr82BNszOB1LnDE2aio6LF8EGkjB1D7FBfwQPqx8CvLO3c4FQzcLsukp7AFJ45qI9yJr55S1taedkD3GzZM7ESVtNxuerX1qvLU864kDopOjNMiYsCiLRs7XDz5z96zxCOmu240OUOppwdECEmaxf03x",
+              "received": false
+            }
+          ],
+          "total_price": 47267,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Liam",
+              "street": "Ritchie Brooks",
+              "house": 613,
+              "flat": 7511
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:51:00.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f11501c508c5d5e32ae72",
+          "products": [
+            {
+              "_id": "694f11521c508c5d5e32ae99",
+              "name": "Car55808",
+              "amount": 457,
+              "price": 47267,
+              "manufacturer": "Samsung",
+              "notes": "jecCVEppEf17os8FYmU0Yp1yc4K49Y5E18WZa3roEvtm61Upvhy8vSb72MkH4OqvqrlYr7o5hvYS8TYXlzYGpqwqjKmTxPYhUXmr82BNszOB1LnDE2aio6LF8EGkjB1D7FBfwQPqx8CvLO3c4FQzcLsukp7AFJ45qI9yJr55S1taedkD3GzZM7ESVtNxuerX1qvLU864kDopOjNMiYsCiLRs7XDz5z96zxCOmu240OUOppwdECEmaxf03x",
+              "received": false
+            }
+          ],
+          "total_price": 47267,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Liam",
+              "street": "Ritchie Brooks",
+              "house": 613,
+              "flat": 7511
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:50:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f11501c508c5d5e32ae72",
+          "products": [
+            {
+              "_id": "694f11521c508c5d5e32ae99",
+              "name": "Car55808",
+              "amount": 457,
+              "price": 47267,
+              "manufacturer": "Samsung",
+              "notes": "jecCVEppEf17os8FYmU0Yp1yc4K49Y5E18WZa3roEvtm61Upvhy8vSb72MkH4OqvqrlYr7o5hvYS8TYXlzYGpqwqjKmTxPYhUXmr82BNszOB1LnDE2aio6LF8EGkjB1D7FBfwQPqx8CvLO3c4FQzcLsukp7AFJ45qI9yJr55S1taedkD3GzZM7ESVtNxuerX1qvLU864kDopOjNMiYsCiLRs7XDz5z96zxCOmu240OUOppwdECEmaxf03x",
+              "received": false
+            }
+          ],
+          "total_price": 47267,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:50:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
