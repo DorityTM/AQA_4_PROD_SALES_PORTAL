@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 19:22:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1700",
+    "etag": "W/\"6a4-I76npoU8hszNPzw2/8hGl+zRqBw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ee0681c508c5d5e2e33e2",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ee0661c508c5d5e2e33b3",
+        "email": "Lyric_Kunde43@hotmail.com",
+        "name": "Gerard Runolfsdottir",
+        "country": "France",
+        "city": "New Heavenport",
+        "street": "S Monroe Street 27",
+        "house": 836,
+        "flat": 1715,
+        "phone": "+047308063927596",
+        "createdOn": "2025-12-26T19:22:14.000Z",
+        "notes": "FjlLfFiw41XXwmfz26lF3MlqAPWJU1"
+      },
+      "products": [
+        {
+          "_id": "694ee0681c508c5d5e2e33cc",
+          "name": "Sausages79440",
+          "amount": 415,
+          "price": 99528,
+          "manufacturer": "Microsoft",
+          "notes": "L6CSTcrzGQnp7iK2uoBQBrth83Z96PSnfCm0wL6n1MJBDulNVFoYWVRXH68GZ0eTqXQHO37QWMXIxEn71B4TbXZQCpDnMfoMl8T44w1SyHiX3No6oI4seqkUhDW3ZU3xQfXbgvqjxqjTUBFe8eEriok9AiGyyuTBfpu5tkuIOYNpQxbPwkw7WWpiZEyZft6S5IY3YVHYyddZYwrM8MhjRrZ76oIYBatg5vVLaeaVRWAZh3nSk4M2CEpZjh",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 99528,
+      "createdOn": "2025-12-26T19:22:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ee0661c508c5d5e2e33b3",
+          "products": [
+            {
+              "_id": "694ee0681c508c5d5e2e33cc",
+              "name": "Sausages79440",
+              "amount": 415,
+              "price": 99528,
+              "manufacturer": "Microsoft",
+              "notes": "L6CSTcrzGQnp7iK2uoBQBrth83Z96PSnfCm0wL6n1MJBDulNVFoYWVRXH68GZ0eTqXQHO37QWMXIxEn71B4TbXZQCpDnMfoMl8T44w1SyHiX3No6oI4seqkUhDW3ZU3xQfXbgvqjxqjTUBFe8eEriok9AiGyyuTBfpu5tkuIOYNpQxbPwkw7WWpiZEyZft6S5IY3YVHYyddZYwrM8MhjRrZ76oIYBatg5vVLaeaVRWAZh3nSk4M2CEpZjh",
+              "received": false
+            }
+          ],
+          "total_price": 99528,
+          "delivery": null,
+          "changedOn": "2025-12-26T19:22:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 19:15:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-Qk+KjiqwFofeexQiZU93k5b372c\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694edebe1c508c5d5e2d4773",
+      "status": "Draft",
+      "customer": {
+        "_id": "694edebc1c508c5d5e2d4748",
+        "email": "Kieran6@hotmail.com",
+        "name": "Uriel Collier",
+        "country": "France",
+        "city": "Beattyton",
+        "street": "Durgan Camp 89",
+        "house": 914,
+        "flat": 6543,
+        "phone": "+198333084505709",
+        "createdOn": "2025-12-26T19:15:08.000Z",
+        "notes": "FmmyMh8HGUqyqVlW9ng7w7KOKLTP7D"
+      },
+      "products": [
+        {
+          "_id": "694edebe1c508c5d5e2d4761",
+          "name": "Mouse35138",
+          "amount": 692,
+          "price": 70233,
+          "manufacturer": "Microsoft",
+          "notes": "Pt6Itverhr1GjPu276gyTFUKXRn6R5RrmmU6Cva9hCzA9QZc7FF2QJUN5TddTc73CeopIKsKtZiBRYSeDKoscXTVCmCI2htReuANSK9GLCJoABfTwHIi965Ezc2HYyqkhD4bl0ZKmY0TpkOG6ofqnqDsURhFQ24CMGZyIz07AzhYfwYANptVvnrTtifCCWy27MioQGByZRdlceAuHL4dhQ9MKARFgJOS4yEoHoK37CaH9D2lNdWxNL5JNj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Handchester",
+          "street": "Lancaster Road",
+          "house": 664,
+          "flat": 7733
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 70233,
+      "createdOn": "2025-12-26T19:15:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694edebc1c508c5d5e2d4748",
+          "products": [
+            {
+              "_id": "694edebe1c508c5d5e2d4761",
+              "name": "Mouse35138",
+              "amount": 692,
+              "price": 70233,
+              "manufacturer": "Microsoft",
+              "notes": "Pt6Itverhr1GjPu276gyTFUKXRn6R5RrmmU6Cva9hCzA9QZc7FF2QJUN5TddTc73CeopIKsKtZiBRYSeDKoscXTVCmCI2htReuANSK9GLCJoABfTwHIi965Ezc2HYyqkhD4bl0ZKmY0TpkOG6ofqnqDsURhFQ24CMGZyIz07AzhYfwYANptVvnrTtifCCWy27MioQGByZRdlceAuHL4dhQ9MKARFgJOS4yEoHoK37CaH9D2lNdWxNL5JNj",
+              "received": false
+            }
+          ],
+          "total_price": 70233,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Handchester",
+              "street": "Lancaster Road",
+              "house": 664,
+              "flat": 7733
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T19:15:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694edebc1c508c5d5e2d4748",
+          "products": [
+            {
+              "_id": "694edebe1c508c5d5e2d4761",
+              "name": "Mouse35138",
+              "amount": 692,
+              "price": 70233,
+              "manufacturer": "Microsoft",
+              "notes": "Pt6Itverhr1GjPu276gyTFUKXRn6R5RrmmU6Cva9hCzA9QZc7FF2QJUN5TddTc73CeopIKsKtZiBRYSeDKoscXTVCmCI2htReuANSK9GLCJoABfTwHIi965Ezc2HYyqkhD4bl0ZKmY0TpkOG6ofqnqDsURhFQ24CMGZyIz07AzhYfwYANptVvnrTtifCCWy27MioQGByZRdlceAuHL4dhQ9MKARFgJOS4yEoHoK37CaH9D2lNdWxNL5JNj",
+              "received": false
+            }
+          ],
+          "total_price": 70233,
+          "delivery": null,
+          "changedOn": "2025-12-26T19:15:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

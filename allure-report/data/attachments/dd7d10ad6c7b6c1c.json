@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 19:17:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4646",
+    "etag": "W/\"1226-cRLjrOGR4petKc/gsm/dk6INefw\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694edf4e1c508c5d5e2d90e2",
+      "status": "Received",
+      "customer": {
+        "_id": "694edf4c1c508c5d5e2d9060",
+        "email": "Edgardo.Ankunding-Nitzsche0@gmail.com",
+        "name": "Watson Will",
+        "country": "France",
+        "city": "Port Gonzaloville",
+        "street": "Toy Parkways 64",
+        "house": 94,
+        "flat": 4290,
+        "phone": "+758583807804705",
+        "createdOn": "2025-12-26T19:17:32.000Z",
+        "notes": "nhtMLzLH47TPtI5C7B1E81npJFdbW8"
+      },
+      "products": [
+        {
+          "_id": "694edf4e1c508c5d5e2d90cb",
+          "name": "Cheese36448",
+          "amount": 693,
+          "price": 17328,
+          "manufacturer": "Microsoft",
+          "notes": "1g7aAqDg5UQ6oAKY432QtCAypwVSrUkKIrTMIRcNZDmv9BEyP45RqJxksw5gsH2yukW9zrEkWPg3WVZkkqUPLKpV71EHyFdKjNEp5B81Nqi6e0HSRcOuomgoo8eVqZPlennTl7ZcDvEXk6ywYp9Ko5zWTfty192JmKJzv97pJ28tM87iBHNnWTxkb70FEDDbtLq99bJZoawEWu1LPdJLPFbtK17RrXqMakRuA8JOQQKKFLErkgdqGM2CIE",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Framingham",
+          "street": "Chesley Throughway",
+          "house": 291,
+          "flat": 5918
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17328,
+      "createdOn": "2025-12-26T19:17:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694edf4c1c508c5d5e2d9060",
+          "products": [
+            {
+              "_id": "694edf4e1c508c5d5e2d90cb",
+              "name": "Cheese36448",
+              "amount": 693,
+              "price": 17328,
+              "manufacturer": "Microsoft",
+              "notes": "1g7aAqDg5UQ6oAKY432QtCAypwVSrUkKIrTMIRcNZDmv9BEyP45RqJxksw5gsH2yukW9zrEkWPg3WVZkkqUPLKpV71EHyFdKjNEp5B81Nqi6e0HSRcOuomgoo8eVqZPlennTl7ZcDvEXk6ywYp9Ko5zWTfty192JmKJzv97pJ28tM87iBHNnWTxkb70FEDDbtLq99bJZoawEWu1LPdJLPFbtK17RrXqMakRuA8JOQQKKFLErkgdqGM2CIE",
+              "received": true
+            }
+          ],
+          "total_price": 17328,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Framingham",
+              "street": "Chesley Throughway",
+              "house": 291,
+              "flat": 5918
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T19:17:35.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694edf4c1c508c5d5e2d9060",
+          "products": [
+            {
+              "_id": "694edf4e1c508c5d5e2d90cb",
+              "name": "Cheese36448",
+              "amount": 693,
+              "price": 17328,
+              "manufacturer": "Microsoft",
+              "notes": "1g7aAqDg5UQ6oAKY432QtCAypwVSrUkKIrTMIRcNZDmv9BEyP45RqJxksw5gsH2yukW9zrEkWPg3WVZkkqUPLKpV71EHyFdKjNEp5B81Nqi6e0HSRcOuomgoo8eVqZPlennTl7ZcDvEXk6ywYp9Ko5zWTfty192JmKJzv97pJ28tM87iBHNnWTxkb70FEDDbtLq99bJZoawEWu1LPdJLPFbtK17RrXqMakRuA8JOQQKKFLErkgdqGM2CIE",
+              "received": false
+            }
+          ],
+          "total_price": 17328,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Framingham",
+              "street": "Chesley Throughway",
+              "house": 291,
+              "flat": 5918
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T19:17:35.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694edf4c1c508c5d5e2d9060",
+          "products": [
+            {
+              "_id": "694edf4e1c508c5d5e2d90cb",
+              "name": "Cheese36448",
+              "amount": 693,
+              "price": 17328,
+              "manufacturer": "Microsoft",
+              "notes": "1g7aAqDg5UQ6oAKY432QtCAypwVSrUkKIrTMIRcNZDmv9BEyP45RqJxksw5gsH2yukW9zrEkWPg3WVZkkqUPLKpV71EHyFdKjNEp5B81Nqi6e0HSRcOuomgoo8eVqZPlennTl7ZcDvEXk6ywYp9Ko5zWTfty192JmKJzv97pJ28tM87iBHNnWTxkb70FEDDbtLq99bJZoawEWu1LPdJLPFbtK17RrXqMakRuA8JOQQKKFLErkgdqGM2CIE",
+              "received": false
+            }
+          ],
+          "total_price": 17328,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Framingham",
+              "street": "Chesley Throughway",
+              "house": 291,
+              "flat": 5918
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T19:17:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694edf4c1c508c5d5e2d9060",
+          "products": [
+            {
+              "_id": "694edf4e1c508c5d5e2d90cb",
+              "name": "Cheese36448",
+              "amount": 693,
+              "price": 17328,
+              "manufacturer": "Microsoft",
+              "notes": "1g7aAqDg5UQ6oAKY432QtCAypwVSrUkKIrTMIRcNZDmv9BEyP45RqJxksw5gsH2yukW9zrEkWPg3WVZkkqUPLKpV71EHyFdKjNEp5B81Nqi6e0HSRcOuomgoo8eVqZPlennTl7ZcDvEXk6ywYp9Ko5zWTfty192JmKJzv97pJ28tM87iBHNnWTxkb70FEDDbtLq99bJZoawEWu1LPdJLPFbtK17RrXqMakRuA8JOQQKKFLErkgdqGM2CIE",
+              "received": false
+            }
+          ],
+          "total_price": 17328,
+          "delivery": null,
+          "changedOn": "2025-12-26T19:17:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

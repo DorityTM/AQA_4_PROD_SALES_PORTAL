@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 19:13:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5201",
+    "etag": "W/\"1451-Ac72ZtbovYNczI4GUw/5tKRUk1A\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ede411c508c5d5e2d07f3",
+      "status": "In Process",
+      "customer": {
+        "_id": "694ede3c1c508c5d5e2d070b",
+        "email": "Ocie.Mayert@gmail.com",
+        "name": "Dwight Gutmann",
+        "country": "USA",
+        "city": "Eau Claire",
+        "street": "Schamberger Coves 85",
+        "house": 103,
+        "flat": 491,
+        "phone": "+581273256958886",
+        "createdOn": "2025-12-26T19:13:00.000Z",
+        "notes": "VjucLcd5pZxDbyhdfhtIdjRswa9Le0"
+      },
+      "products": [
+        {
+          "_id": "694ede3e1c508c5d5e2d0732",
+          "name": "Car38453",
+          "amount": 370,
+          "price": 73723,
+          "manufacturer": "Samsung",
+          "notes": "uHGbjr6hgP0rnmki0vrK3lewDYDbh65JEVbPZarlQFEg9Dvo51kqrG09ebwVOHBMP4AftduIUeoub1DY0dAfQCBN2SYo8HzVpnOkFqP335eHFOkJp8r1D4JAf511cicoYiCEe0AU868hovPKfkJjjaPNlEOOpuakIV3IrE9z8Zd5J3bbm5WRyidOWzgywuFIVdA1A2tjx0vfY9lG0uxiRkF2yi3TgzG3n2ZqbzUJ7h9wxKwID7p2sxvfGm",
+          "received": false
+        },
+        {
+          "_id": "694ede401c508c5d5e2d07e1",
+          "name": "Chips81563",
+          "amount": 897,
+          "price": 92775,
+          "manufacturer": "Apple",
+          "notes": "Et0uwFIGIQn5xHoEp5c1uAfGCOqghMiTawObYOtsH4n4HVbO1b9DAanejboyISzsLyHcycRSx6zfPWVokXUlK8HRZCopUOp3gGexrStMOvftU12vIU46iIuPvQXVNpptKAGXlLFWJGS7Su9i4EomHth3ljmTZi94JTDmDHsjs5ZYtoOR9YeLodKxXGHrsdKiaSrooFaXm4kYXUdJg8YZblLtQtzxKpQiShhARgQCjMad5ya6zxliEXlXZT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Kalibury",
+          "street": "Bayer Hill",
+          "house": 586,
+          "flat": 7670
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 166498,
+      "createdOn": "2025-12-26T19:13:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694ede3c1c508c5d5e2d070b",
+          "products": [
+            {
+              "_id": "694ede3e1c508c5d5e2d0732",
+              "name": "Car38453",
+              "amount": 370,
+              "price": 73723,
+              "manufacturer": "Samsung",
+              "notes": "uHGbjr6hgP0rnmki0vrK3lewDYDbh65JEVbPZarlQFEg9Dvo51kqrG09ebwVOHBMP4AftduIUeoub1DY0dAfQCBN2SYo8HzVpnOkFqP335eHFOkJp8r1D4JAf511cicoYiCEe0AU868hovPKfkJjjaPNlEOOpuakIV3IrE9z8Zd5J3bbm5WRyidOWzgywuFIVdA1A2tjx0vfY9lG0uxiRkF2yi3TgzG3n2ZqbzUJ7h9wxKwID7p2sxvfGm",
+              "received": false
+            },
+            {
+              "_id": "694ede401c508c5d5e2d07e1",
+              "name": "Chips81563",
+              "amount": 897,
+              "price": 92775,
+              "manufacturer": "Apple",
+              "notes": "Et0uwFIGIQn5xHoEp5c1uAfGCOqghMiTawObYOtsH4n4HVbO1b9DAanejboyISzsLyHcycRSx6zfPWVokXUlK8HRZCopUOp3gGexrStMOvftU12vIU46iIuPvQXVNpptKAGXlLFWJGS7Su9i4EomHth3ljmTZi94JTDmDHsjs5ZYtoOR9YeLodKxXGHrsdKiaSrooFaXm4kYXUdJg8YZblLtQtzxKpQiShhARgQCjMad5ya6zxliEXlXZT",
+              "received": false
+            }
+          ],
+          "total_price": 166498,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Kalibury",
+              "street": "Bayer Hill",
+              "house": 586,
+              "flat": 7670
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T19:13:05.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ede3c1c508c5d5e2d070b",
+          "products": [
+            {
+              "_id": "694ede3e1c508c5d5e2d0732",
+              "name": "Car38453",
+              "amount": 370,
+              "price": 73723,
+              "manufacturer": "Samsung",
+              "notes": "uHGbjr6hgP0rnmki0vrK3lewDYDbh65JEVbPZarlQFEg9Dvo51kqrG09ebwVOHBMP4AftduIUeoub1DY0dAfQCBN2SYo8HzVpnOkFqP335eHFOkJp8r1D4JAf511cicoYiCEe0AU868hovPKfkJjjaPNlEOOpuakIV3IrE9z8Zd5J3bbm5WRyidOWzgywuFIVdA1A2tjx0vfY9lG0uxiRkF2yi3TgzG3n2ZqbzUJ7h9wxKwID7p2sxvfGm",
+              "received": false
+            },
+            {
+              "_id": "694ede401c508c5d5e2d07e1",
+              "name": "Chips81563",
+              "amount": 897,
+              "price": 92775,
+              "manufacturer": "Apple",
+              "notes": "Et0uwFIGIQn5xHoEp5c1uAfGCOqghMiTawObYOtsH4n4HVbO1b9DAanejboyISzsLyHcycRSx6zfPWVokXUlK8HRZCopUOp3gGexrStMOvftU12vIU46iIuPvQXVNpptKAGXlLFWJGS7Su9i4EomHth3ljmTZi94JTDmDHsjs5ZYtoOR9YeLodKxXGHrsdKiaSrooFaXm4kYXUdJg8YZblLtQtzxKpQiShhARgQCjMad5ya6zxliEXlXZT",
+              "received": false
+            }
+          ],
+          "total_price": 166498,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Kalibury",
+              "street": "Bayer Hill",
+              "house": 586,
+              "flat": 7670
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T19:13:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ede3c1c508c5d5e2d070b",
+          "products": [
+            {
+              "_id": "694ede3e1c508c5d5e2d0732",
+              "name": "Car38453",
+              "amount": 370,
+              "price": 73723,
+              "manufacturer": "Samsung",
+              "notes": "uHGbjr6hgP0rnmki0vrK3lewDYDbh65JEVbPZarlQFEg9Dvo51kqrG09ebwVOHBMP4AftduIUeoub1DY0dAfQCBN2SYo8HzVpnOkFqP335eHFOkJp8r1D4JAf511cicoYiCEe0AU868hovPKfkJjjaPNlEOOpuakIV3IrE9z8Zd5J3bbm5WRyidOWzgywuFIVdA1A2tjx0vfY9lG0uxiRkF2yi3TgzG3n2ZqbzUJ7h9wxKwID7p2sxvfGm",
+              "received": false
+            },
+            {
+              "_id": "694ede401c508c5d5e2d07e1",
+              "name": "Chips81563",
+              "amount": 897,
+              "price": 92775,
+              "manufacturer": "Apple",
+              "notes": "Et0uwFIGIQn5xHoEp5c1uAfGCOqghMiTawObYOtsH4n4HVbO1b9DAanejboyISzsLyHcycRSx6zfPWVokXUlK8HRZCopUOp3gGexrStMOvftU12vIU46iIuPvQXVNpptKAGXlLFWJGS7Su9i4EomHth3ljmTZi94JTDmDHsjs5ZYtoOR9YeLodKxXGHrsdKiaSrooFaXm4kYXUdJg8YZblLtQtzxKpQiShhARgQCjMad5ya6zxliEXlXZT",
+              "received": false
+            }
+          ],
+          "total_price": 166498,
+          "delivery": null,
+          "changedOn": "2025-12-26T19:13:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

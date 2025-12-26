@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 19:11:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3660",
+    "etag": "W/\"e4c-Pjy9KBXi0qsnBCzu3i5pfcBHrdY\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694eddf71c508c5d5e2ce385",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694eddf41c508c5d5e2ce33c",
+        "email": "Ressie.Ebert@hotmail.com",
+        "name": "Eloy Batz",
+        "country": "Great Britain",
+        "city": "Palm Beach Gardens",
+        "street": "Rice Row 90",
+        "house": 154,
+        "flat": 8536,
+        "phone": "+976236933897960",
+        "createdOn": "2025-12-26T19:11:48.000Z",
+        "notes": "LskSNU8LgWJVrj5cBxJXvKnXUYTHVq"
+      },
+      "products": [
+        {
+          "_id": "694eddf71c508c5d5e2ce362",
+          "name": "Chair9219",
+          "amount": 798,
+          "price": 29487,
+          "manufacturer": "Sony",
+          "notes": "4kpUoCesFeby4O1Mhd6HS7Na4ApqXwfGfKo1cy6epy88MsomBSaSgkzQwvnfj6RrOM0NRFDOEDMqPaEQN5JL1F0SQjJvgaziaVjdig60NlBmioOTP4ALpEqHcrhVCJGAhowUrubN46OoWIID49r2R4ueIafQASztl27jGd7yyH4K1B5mMnt4sI83oyFL553um6iXVsqxHWr3R72kc75bVkVE4ffEd9ZgkEDDC8sNPQwTJUxqPV3Ctc8dvV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Douglasport",
+          "street": "Collins Street",
+          "house": 682,
+          "flat": 3508
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 29487,
+      "createdOn": "2025-12-26T19:11:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694eddf41c508c5d5e2ce33c",
+          "products": [
+            {
+              "_id": "694eddf71c508c5d5e2ce362",
+              "name": "Chair9219",
+              "amount": 798,
+              "price": 29487,
+              "manufacturer": "Sony",
+              "notes": "4kpUoCesFeby4O1Mhd6HS7Na4ApqXwfGfKo1cy6epy88MsomBSaSgkzQwvnfj6RrOM0NRFDOEDMqPaEQN5JL1F0SQjJvgaziaVjdig60NlBmioOTP4ALpEqHcrhVCJGAhowUrubN46OoWIID49r2R4ueIafQASztl27jGd7yyH4K1B5mMnt4sI83oyFL553um6iXVsqxHWr3R72kc75bVkVE4ffEd9ZgkEDDC8sNPQwTJUxqPV3Ctc8dvV",
+              "received": false
+            }
+          ],
+          "total_price": 29487,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Douglasport",
+              "street": "Collins Street",
+              "house": 682,
+              "flat": 3508
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T19:11:52.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eddf41c508c5d5e2ce33c",
+          "products": [
+            {
+              "_id": "694eddf71c508c5d5e2ce362",
+              "name": "Chair9219",
+              "amount": 798,
+              "price": 29487,
+              "manufacturer": "Sony",
+              "notes": "4kpUoCesFeby4O1Mhd6HS7Na4ApqXwfGfKo1cy6epy88MsomBSaSgkzQwvnfj6RrOM0NRFDOEDMqPaEQN5JL1F0SQjJvgaziaVjdig60NlBmioOTP4ALpEqHcrhVCJGAhowUrubN46OoWIID49r2R4ueIafQASztl27jGd7yyH4K1B5mMnt4sI83oyFL553um6iXVsqxHWr3R72kc75bVkVE4ffEd9ZgkEDDC8sNPQwTJUxqPV3Ctc8dvV",
+              "received": false
+            }
+          ],
+          "total_price": 29487,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Douglasport",
+              "street": "Collins Street",
+              "house": 682,
+              "flat": 3508
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T19:11:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eddf41c508c5d5e2ce33c",
+          "products": [
+            {
+              "_id": "694eddf71c508c5d5e2ce362",
+              "name": "Chair9219",
+              "amount": 798,
+              "price": 29487,
+              "manufacturer": "Sony",
+              "notes": "4kpUoCesFeby4O1Mhd6HS7Na4ApqXwfGfKo1cy6epy88MsomBSaSgkzQwvnfj6RrOM0NRFDOEDMqPaEQN5JL1F0SQjJvgaziaVjdig60NlBmioOTP4ALpEqHcrhVCJGAhowUrubN46OoWIID49r2R4ueIafQASztl27jGd7yyH4K1B5mMnt4sI83oyFL553um6iXVsqxHWr3R72kc75bVkVE4ffEd9ZgkEDDC8sNPQwTJUxqPV3Ctc8dvV",
+              "received": false
+            }
+          ],
+          "total_price": 29487,
+          "delivery": null,
+          "changedOn": "2025-12-26T19:11:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
