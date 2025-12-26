@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:26:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8152",
+    "etag": "W/\"1fd8-T9wYCW0H6q5e40Dc0xH/A4sBLqc\"",
+    "keep-alive": "timeout=5, max=23",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e7ef11c508c5d5e152211",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694e7eee1c508c5d5e1520c0",
+        "email": "Rosalyn.Becker43@gmail.com",
+        "name": "Cortez Rice",
+        "country": "Germany",
+        "city": "Port Albin",
+        "street": "Schiller Crossing 96",
+        "house": 339,
+        "flat": 5298,
+        "phone": "+035034311924285",
+        "createdOn": "2025-12-26T12:26:22.000Z",
+        "notes": "wVjFes5EZDIw9vEFAOjmh3XfQFhFw0"
+      },
+      "products": [
+        {
+          "_id": "694e7ef01c508c5d5e152157",
+          "name": "Mouse62722",
+          "amount": 228,
+          "price": 64893,
+          "manufacturer": "Apple",
+          "notes": "uKjFmmPHOEQdh5kcKO3JI7pVrKAzALP666icwWoiVS6hPIzMB5VtwMM5XWGXXSvKMvMsl4UwqfKyztT8tK36Ig26OdrkUNVr3ELJzG4uowWBsuWDVZIfkobNDU6Mx3QmDzvAZm8hBllQd0AN0xc9QJ9kmesznYONBidqXlRojWwsFQPCys9JRt7CwlamcvWVEsmH44y5Sp65iGEvMfnQ1axWB6u3TdpG2ApWkXfKgZMBtf3RkVvuvKr91O",
+          "received": true
+        },
+        {
+          "_id": "694e7ef01c508c5d5e152174",
+          "name": "Table78066",
+          "amount": 853,
+          "price": 84086,
+          "manufacturer": "Tesla",
+          "notes": "P8OyxjisqeaA30wxKCeunJqIRpZ9LosuDXCijY7PWhyd69vZenhsk7c6naFlmtRMLbOYp659qISIShhhZxeKSt2mKmGBPrK1bSQQ88FWxs9hSXDZtc3mDtxAwhQrdWEgGjgnrEx9Fpn3v7H49eNIkPGO8o3TcWg5SI23tztXeFtdZKUb0A2y5Mg7FXlA9g4Ii2wETozgoE94pAw5g40XtTAYBSc8NNjTwhTyO9EID6A5ErbaI5O8OE0bJ2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Carlsbad",
+          "street": "Yasmine Island",
+          "house": 388,
+          "flat": 7867
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 148979,
+      "createdOn": "2025-12-26T12:26:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694e7eee1c508c5d5e1520c0",
+          "products": [
+            {
+              "_id": "694e7ef01c508c5d5e152157",
+              "name": "Mouse62722",
+              "amount": 228,
+              "price": 64893,
+              "manufacturer": "Apple",
+              "notes": "uKjFmmPHOEQdh5kcKO3JI7pVrKAzALP666icwWoiVS6hPIzMB5VtwMM5XWGXXSvKMvMsl4UwqfKyztT8tK36Ig26OdrkUNVr3ELJzG4uowWBsuWDVZIfkobNDU6Mx3QmDzvAZm8hBllQd0AN0xc9QJ9kmesznYONBidqXlRojWwsFQPCys9JRt7CwlamcvWVEsmH44y5Sp65iGEvMfnQ1axWB6u3TdpG2ApWkXfKgZMBtf3RkVvuvKr91O",
+              "received": true
+            },
+            {
+              "_id": "694e7ef01c508c5d5e152174",
+              "name": "Table78066",
+              "amount": 853,
+              "price": 84086,
+              "manufacturer": "Tesla",
+              "notes": "P8OyxjisqeaA30wxKCeunJqIRpZ9LosuDXCijY7PWhyd69vZenhsk7c6naFlmtRMLbOYp659qISIShhhZxeKSt2mKmGBPrK1bSQQ88FWxs9hSXDZtc3mDtxAwhQrdWEgGjgnrEx9Fpn3v7H49eNIkPGO8o3TcWg5SI23tztXeFtdZKUb0A2y5Mg7FXlA9g4Ii2wETozgoE94pAw5g40XtTAYBSc8NNjTwhTyO9EID6A5ErbaI5O8OE0bJ2",
+              "received": false
+            }
+          ],
+          "total_price": 148979,
+          "delivery": {
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery",
+            "address": {
+              "country": "Canada",
+              "city": "Carlsbad",
+              "street": "Yasmine Island",
+              "house": 388,
+              "flat": 7867
+            }
+          },
+          "changedOn": "2025-12-26T12:26:27.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "694e7eee1c508c5d5e1520c0",
+          "products": [
+            {
+              "_id": "694e7ef01c508c5d5e152157",
+              "name": "Mouse62722",
+              "amount": 228,
+              "price": 64893,
+              "manufacturer": "Apple",
+              "notes": "uKjFmmPHOEQdh5kcKO3JI7pVrKAzALP666icwWoiVS6hPIzMB5VtwMM5XWGXXSvKMvMsl4UwqfKyztT8tK36Ig26OdrkUNVr3ELJzG4uowWBsuWDVZIfkobNDU6Mx3QmDzvAZm8hBllQd0AN0xc9QJ9kmesznYONBidqXlRojWwsFQPCys9JRt7CwlamcvWVEsmH44y5Sp65iGEvMfnQ1axWB6u3TdpG2ApWkXfKgZMBtf3RkVvuvKr91O",
+              "received": true
+            },
+            {
+              "_id": "694e7ef01c508c5d5e152174",
+              "name": "Table78066",
+              "amount": 853,
+              "price": 84086,
+              "manufacturer": "Tesla",
+              "notes": "P8OyxjisqeaA30wxKCeunJqIRpZ9LosuDXCijY7PWhyd69vZenhsk7c6naFlmtRMLbOYp659qISIShhhZxeKSt2mKmGBPrK1bSQQ88FWxs9hSXDZtc3mDtxAwhQrdWEgGjgnrEx9Fpn3v7H49eNIkPGO8o3TcWg5SI23tztXeFtdZKUb0A2y5Mg7FXlA9g4Ii2wETozgoE94pAw5g40XtTAYBSc8NNjTwhTyO9EID6A5ErbaI5O8OE0bJ2",
+              "received": false
+            }
+          ],
+          "total_price": 148979,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Carlsbad",
+              "street": "Yasmine Island",
+              "house": 388,
+              "flat": 7867
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:26:26.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694e7eee1c508c5d5e1520c0",
+          "products": [
+            {
+              "_id": "694e7ef01c508c5d5e152157",
+              "name": "Mouse62722",
+              "amount": 228,
+              "price": 64893,
+              "manufacturer": "Apple",
+              "notes": "uKjFmmPHOEQdh5kcKO3JI7pVrKAzALP666icwWoiVS6hPIzMB5VtwMM5XWGXXSvKMvMsl4UwqfKyztT8tK36Ig26OdrkUNVr3ELJzG4uowWBsuWDVZIfkobNDU6Mx3QmDzvAZm8hBllQd0AN0xc9QJ9kmesznYONBidqXlRojWwsFQPCys9JRt7CwlamcvWVEsmH44y5Sp65iGEvMfnQ1axWB6u3TdpG2ApWkXfKgZMBtf3RkVvuvKr91O",
+              "received": false
+            },
+            {
+              "_id": "694e7ef01c508c5d5e152174",
+              "name": "Table78066",
+              "amount": 853,
+              "price": 84086,
+              "manufacturer": "Tesla",
+              "notes": "P8OyxjisqeaA30wxKCeunJqIRpZ9LosuDXCijY7PWhyd69vZenhsk7c6naFlmtRMLbOYp659qISIShhhZxeKSt2mKmGBPrK1bSQQ88FWxs9hSXDZtc3mDtxAwhQrdWEgGjgnrEx9Fpn3v7H49eNIkPGO8o3TcWg5SI23tztXeFtdZKUb0A2y5Mg7FXlA9g4Ii2wETozgoE94pAw5g40XtTAYBSc8NNjTwhTyO9EID6A5ErbaI5O8OE0bJ2",
+              "received": false
+            }
+          ],
+          "total_price": 148979,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Carlsbad",
+              "street": "Yasmine Island",
+              "house": 388,
+              "flat": 7867
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:26:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7eee1c508c5d5e1520c0",
+          "products": [
+            {
+              "_id": "694e7ef01c508c5d5e152157",
+              "name": "Mouse62722",
+              "amount": 228,
+              "price": 64893,
+              "manufacturer": "Apple",
+              "notes": "uKjFmmPHOEQdh5kcKO3JI7pVrKAzALP666icwWoiVS6hPIzMB5VtwMM5XWGXXSvKMvMsl4UwqfKyztT8tK36Ig26OdrkUNVr3ELJzG4uowWBsuWDVZIfkobNDU6Mx3QmDzvAZm8hBllQd0AN0xc9QJ9kmesznYONBidqXlRojWwsFQPCys9JRt7CwlamcvWVEsmH44y5Sp65iGEvMfnQ1axWB6u3TdpG2ApWkXfKgZMBtf3RkVvuvKr91O",
+              "received": false
+            },
+            {
+              "_id": "694e7ef01c508c5d5e152174",
+              "name": "Table78066",
+              "amount": 853,
+              "price": 84086,
+              "manufacturer": "Tesla",
+              "notes": "P8OyxjisqeaA30wxKCeunJqIRpZ9LosuDXCijY7PWhyd69vZenhsk7c6naFlmtRMLbOYp659qISIShhhZxeKSt2mKmGBPrK1bSQQ88FWxs9hSXDZtc3mDtxAwhQrdWEgGjgnrEx9Fpn3v7H49eNIkPGO8o3TcWg5SI23tztXeFtdZKUb0A2y5Mg7FXlA9g4Ii2wETozgoE94pAw5g40XtTAYBSc8NNjTwhTyO9EID6A5ErbaI5O8OE0bJ2",
+              "received": false
+            }
+          ],
+          "total_price": 148979,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Carlsbad",
+              "street": "Yasmine Island",
+              "house": 388,
+              "flat": 7867
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:26:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7eee1c508c5d5e1520c0",
+          "products": [
+            {
+              "_id": "694e7ef01c508c5d5e152157",
+              "name": "Mouse62722",
+              "amount": 228,
+              "price": 64893,
+              "manufacturer": "Apple",
+              "notes": "uKjFmmPHOEQdh5kcKO3JI7pVrKAzALP666icwWoiVS6hPIzMB5VtwMM5XWGXXSvKMvMsl4UwqfKyztT8tK36Ig26OdrkUNVr3ELJzG4uowWBsuWDVZIfkobNDU6Mx3QmDzvAZm8hBllQd0AN0xc9QJ9kmesznYONBidqXlRojWwsFQPCys9JRt7CwlamcvWVEsmH44y5Sp65iGEvMfnQ1axWB6u3TdpG2ApWkXfKgZMBtf3RkVvuvKr91O",
+              "received": false
+            },
+            {
+              "_id": "694e7ef01c508c5d5e152174",
+              "name": "Table78066",
+              "amount": 853,
+              "price": 84086,
+              "manufacturer": "Tesla",
+              "notes": "P8OyxjisqeaA30wxKCeunJqIRpZ9LosuDXCijY7PWhyd69vZenhsk7c6naFlmtRMLbOYp659qISIShhhZxeKSt2mKmGBPrK1bSQQ88FWxs9hSXDZtc3mDtxAwhQrdWEgGjgnrEx9Fpn3v7H49eNIkPGO8o3TcWg5SI23tztXeFtdZKUb0A2y5Mg7FXlA9g4Ii2wETozgoE94pAw5g40XtTAYBSc8NNjTwhTyO9EID6A5ErbaI5O8OE0bJ2",
+              "received": false
+            }
+          ],
+          "total_price": 148979,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:26:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

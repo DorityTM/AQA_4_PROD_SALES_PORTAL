@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:27:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3654",
+    "etag": "W/\"e46-J6YoJnWPVf2YgIiS17ykPOYqFrI\"",
+    "keep-alive": "timeout=5, max=45",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e7f181c508c5d5e153a14",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694e7f161c508c5d5e1538d5",
+        "email": "Urban30@yahoo.com",
+        "name": "Deborah Herzog",
+        "country": "Belarus",
+        "city": "Alexieport",
+        "street": "Dickinson Square 99",
+        "house": 829,
+        "flat": 4178,
+        "phone": "+162397108662557",
+        "createdOn": "2025-12-26T12:27:02.000Z",
+        "notes": "xlBweFcTB303v5iNPyX6Ms2w5BFIIN"
+      },
+      "products": [
+        {
+          "_id": "694e7f181c508c5d5e153a09",
+          "name": "Bacon40825",
+          "amount": 973,
+          "price": 30393,
+          "manufacturer": "Apple",
+          "notes": "LFBnZ2ka0BZvJw0laQt3xoUcPuBGpMSFa3Imfj2iiZFSKTPdhuNECm6LIjMLw69aYjWuQLCfc7yWp5Ky1TpxF6owRISklTJ1Qnph9Z74nyQEUlsSDJOusSA97sGjlAOPj8cd68PnGTePo0FZ0ACEdigSK8weUiHU6jOmqIM9gRJYzxa8hgYs9r2W8ud5MkGvsi8s5i0R7uU04ZwodR24lQIJ0eBfgAyjThyEwPSeCMewd9b48DvlVirqbk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Kentonshire",
+          "street": "Davis Street",
+          "house": 486,
+          "flat": 9024
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 30393,
+      "createdOn": "2025-12-26T12:27:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694e7f161c508c5d5e1538d5",
+          "products": [
+            {
+              "_id": "694e7f181c508c5d5e153a09",
+              "name": "Bacon40825",
+              "amount": 973,
+              "price": 30393,
+              "manufacturer": "Apple",
+              "notes": "LFBnZ2ka0BZvJw0laQt3xoUcPuBGpMSFa3Imfj2iiZFSKTPdhuNECm6LIjMLw69aYjWuQLCfc7yWp5Ky1TpxF6owRISklTJ1Qnph9Z74nyQEUlsSDJOusSA97sGjlAOPj8cd68PnGTePo0FZ0ACEdigSK8weUiHU6jOmqIM9gRJYzxa8hgYs9r2W8ud5MkGvsi8s5i0R7uU04ZwodR24lQIJ0eBfgAyjThyEwPSeCMewd9b48DvlVirqbk",
+              "received": false
+            }
+          ],
+          "total_price": 30393,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kentonshire",
+              "street": "Davis Street",
+              "house": 486,
+              "flat": 9024
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:27:06.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7f161c508c5d5e1538d5",
+          "products": [
+            {
+              "_id": "694e7f181c508c5d5e153a09",
+              "name": "Bacon40825",
+              "amount": 973,
+              "price": 30393,
+              "manufacturer": "Apple",
+              "notes": "LFBnZ2ka0BZvJw0laQt3xoUcPuBGpMSFa3Imfj2iiZFSKTPdhuNECm6LIjMLw69aYjWuQLCfc7yWp5Ky1TpxF6owRISklTJ1Qnph9Z74nyQEUlsSDJOusSA97sGjlAOPj8cd68PnGTePo0FZ0ACEdigSK8weUiHU6jOmqIM9gRJYzxa8hgYs9r2W8ud5MkGvsi8s5i0R7uU04ZwodR24lQIJ0eBfgAyjThyEwPSeCMewd9b48DvlVirqbk",
+              "received": false
+            }
+          ],
+          "total_price": 30393,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kentonshire",
+              "street": "Davis Street",
+              "house": 486,
+              "flat": 9024
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:27:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7f161c508c5d5e1538d5",
+          "products": [
+            {
+              "_id": "694e7f181c508c5d5e153a09",
+              "name": "Bacon40825",
+              "amount": 973,
+              "price": 30393,
+              "manufacturer": "Apple",
+              "notes": "LFBnZ2ka0BZvJw0laQt3xoUcPuBGpMSFa3Imfj2iiZFSKTPdhuNECm6LIjMLw69aYjWuQLCfc7yWp5Ky1TpxF6owRISklTJ1Qnph9Z74nyQEUlsSDJOusSA97sGjlAOPj8cd68PnGTePo0FZ0ACEdigSK8weUiHU6jOmqIM9gRJYzxa8hgYs9r2W8ud5MkGvsi8s5i0R7uU04ZwodR24lQIJ0eBfgAyjThyEwPSeCMewd9b48DvlVirqbk",
+              "received": false
+            }
+          ],
+          "total_price": 30393,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:27:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

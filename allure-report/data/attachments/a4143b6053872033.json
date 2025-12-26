@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:25:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3701",
+    "etag": "W/\"e75-dzFq7jfJKuRlvRdzfscAcbGPqcU\"",
+    "keep-alive": "timeout=5, max=10",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e7ece1c508c5d5e150eb2",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e7ecc1c508c5d5e150d72",
+        "email": "Ernestine.Kessler94@hotmail.com",
+        "name": "Ottis Schmeler",
+        "country": "Ukraine",
+        "city": "West Covina",
+        "street": "Rubye Roads 7",
+        "house": 387,
+        "flat": 1436,
+        "phone": "+056697658788056",
+        "createdOn": "2025-12-26T12:25:48.000Z",
+        "notes": "9tQLYbfxjVSePB6ROiVV2SbI5oecFg"
+      },
+      "products": [
+        {
+          "_id": "694e7ecd1c508c5d5e150e0b",
+          "name": "Fish15244",
+          "amount": 217,
+          "price": 63328,
+          "manufacturer": "Amazon",
+          "notes": "H70sDVQCKFZntd0v88BllvKJZk24RKhe2rBevpvUImYDzCckVYq1kSmH7PoEOUnLASkOVqejpTew7RuKijA2R0GMgIrzQwHzzpCnxqtDCk1ky2iziM6GM26eR71X2EupynweF53AyGo1UqcpyyALtDUalIguY7BJqXig0ypqXtHbjBx50VsDgE3zKtrN1IaXTRpiLpUkgiwOvNWO27SQRyXybl8TpgQZhHNLy27THN2VpqVKFfQqWxNQNh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Eladiohaven",
+          "street": "Stiedemann Corner",
+          "house": 920,
+          "flat": 6963
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 63328,
+      "createdOn": "2025-12-26T12:25:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e7ecc1c508c5d5e150d72",
+          "products": [
+            {
+              "_id": "694e7ecd1c508c5d5e150e0b",
+              "name": "Fish15244",
+              "amount": 217,
+              "price": 63328,
+              "manufacturer": "Amazon",
+              "notes": "H70sDVQCKFZntd0v88BllvKJZk24RKhe2rBevpvUImYDzCckVYq1kSmH7PoEOUnLASkOVqejpTew7RuKijA2R0GMgIrzQwHzzpCnxqtDCk1ky2iziM6GM26eR71X2EupynweF53AyGo1UqcpyyALtDUalIguY7BJqXig0ypqXtHbjBx50VsDgE3zKtrN1IaXTRpiLpUkgiwOvNWO27SQRyXybl8TpgQZhHNLy27THN2VpqVKFfQqWxNQNh",
+              "received": false
+            }
+          ],
+          "total_price": 63328,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Eladiohaven",
+              "street": "Stiedemann Corner",
+              "house": 920,
+              "flat": 6963
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:25:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7ecc1c508c5d5e150d72",
+          "products": [
+            {
+              "_id": "694e7ecd1c508c5d5e150e0b",
+              "name": "Fish15244",
+              "amount": 217,
+              "price": 63328,
+              "manufacturer": "Amazon",
+              "notes": "H70sDVQCKFZntd0v88BllvKJZk24RKhe2rBevpvUImYDzCckVYq1kSmH7PoEOUnLASkOVqejpTew7RuKijA2R0GMgIrzQwHzzpCnxqtDCk1ky2iziM6GM26eR71X2EupynweF53AyGo1UqcpyyALtDUalIguY7BJqXig0ypqXtHbjBx50VsDgE3zKtrN1IaXTRpiLpUkgiwOvNWO27SQRyXybl8TpgQZhHNLy27THN2VpqVKFfQqWxNQNh",
+              "received": false
+            }
+          ],
+          "total_price": 63328,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Eladiohaven",
+              "street": "Stiedemann Corner",
+              "house": 920,
+              "flat": 6963
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:25:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7ecc1c508c5d5e150d72",
+          "products": [
+            {
+              "_id": "694e7ecd1c508c5d5e150e0b",
+              "name": "Fish15244",
+              "amount": 217,
+              "price": 63328,
+              "manufacturer": "Amazon",
+              "notes": "H70sDVQCKFZntd0v88BllvKJZk24RKhe2rBevpvUImYDzCckVYq1kSmH7PoEOUnLASkOVqejpTew7RuKijA2R0GMgIrzQwHzzpCnxqtDCk1ky2iziM6GM26eR71X2EupynweF53AyGo1UqcpyyALtDUalIguY7BJqXig0ypqXtHbjBx50VsDgE3zKtrN1IaXTRpiLpUkgiwOvNWO27SQRyXybl8TpgQZhHNLy27THN2VpqVKFfQqWxNQNh",
+              "received": false
+            }
+          ],
+          "total_price": 63328,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:25:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

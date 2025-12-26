@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:26:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-wtgsfAf9PcVznqLVNOb1hvJdSH0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e7f0c1c508c5d5e1532a3",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e7f0b1c508c5d5e1531d7",
+        "email": "Ricardo_McDermott@yahoo.com",
+        "name": "Cayla Friesen",
+        "country": "Russia",
+        "city": "Cassinfort",
+        "street": "Lynch Neck 28",
+        "house": 773,
+        "flat": 9478,
+        "phone": "+687275968506509",
+        "createdOn": "2025-12-26T12:26:51.000Z",
+        "notes": "rGPjBvM9sn42aGzf86fPWCxOp5tl0Y"
+      },
+      "products": [
+        {
+          "_id": "694e7f0b1c508c5d5e1531f0",
+          "name": "Pizza50109",
+          "amount": 770,
+          "price": 17419,
+          "manufacturer": "Samsung",
+          "notes": "PpfmGjkQyFNnsucmqFJKCuyFw2h6CuvSGTt0tK0N2xlGBvCPLOt9khTX19dtOGnoggZPSClUPbAysKZ5apv8sbPNKtQJ4diC3uTlwfRHLih1Wt6YoUSg5eHCoMYDRIx4gpsGgClKea4umy2pbbnfjTFfTjgkgjacDoqITkPHsCH6ldPS34tTLAddyOCqOROF6yobUA744KRIngJS4dHiJkJA59pYG5qURXG0oX7bml7B2yf7MAsci0NqbG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Alphonsobury",
+          "street": "Martin Bridge",
+          "house": 677,
+          "flat": 3389
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17419,
+      "createdOn": "2025-12-26T12:26:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e7f0b1c508c5d5e1531d7",
+          "products": [
+            {
+              "_id": "694e7f0b1c508c5d5e1531f0",
+              "name": "Pizza50109",
+              "amount": 770,
+              "price": 17419,
+              "manufacturer": "Samsung",
+              "notes": "PpfmGjkQyFNnsucmqFJKCuyFw2h6CuvSGTt0tK0N2xlGBvCPLOt9khTX19dtOGnoggZPSClUPbAysKZ5apv8sbPNKtQJ4diC3uTlwfRHLih1Wt6YoUSg5eHCoMYDRIx4gpsGgClKea4umy2pbbnfjTFfTjgkgjacDoqITkPHsCH6ldPS34tTLAddyOCqOROF6yobUA744KRIngJS4dHiJkJA59pYG5qURXG0oX7bml7B2yf7MAsci0NqbG",
+              "received": false
+            }
+          ],
+          "total_price": 17419,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Alphonsobury",
+              "street": "Martin Bridge",
+              "house": 677,
+              "flat": 3389
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:26:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7f0b1c508c5d5e1531d7",
+          "products": [
+            {
+              "_id": "694e7f0b1c508c5d5e1531f0",
+              "name": "Pizza50109",
+              "amount": 770,
+              "price": 17419,
+              "manufacturer": "Samsung",
+              "notes": "PpfmGjkQyFNnsucmqFJKCuyFw2h6CuvSGTt0tK0N2xlGBvCPLOt9khTX19dtOGnoggZPSClUPbAysKZ5apv8sbPNKtQJ4diC3uTlwfRHLih1Wt6YoUSg5eHCoMYDRIx4gpsGgClKea4umy2pbbnfjTFfTjgkgjacDoqITkPHsCH6ldPS34tTLAddyOCqOROF6yobUA744KRIngJS4dHiJkJA59pYG5qURXG0oX7bml7B2yf7MAsci0NqbG",
+              "received": false
+            }
+          ],
+          "total_price": 17419,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:26:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

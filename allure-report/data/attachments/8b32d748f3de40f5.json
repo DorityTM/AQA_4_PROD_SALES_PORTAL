@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:27:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-5uPqV8qsD/aWRtuQHA7n4dCRr9Y\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e7f1b1c508c5d5e153bd7",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e7f1a1c508c5d5e153b86",
+        "email": "Elisa40@hotmail.com",
+        "name": "Kelsi Barton",
+        "country": "Great Britain",
+        "city": "Reymundoton",
+        "street": "Prospect Road 72",
+        "house": 13,
+        "flat": 401,
+        "phone": "+675238011134287",
+        "createdOn": "2025-12-26T12:27:06.000Z",
+        "notes": "QIMTE1xHK1MrMG1UAEOaNZ6u7WWOwM"
+      },
+      "products": [
+        {
+          "_id": "694e7f1b1c508c5d5e153bb1",
+          "name": "Keyboard25458",
+          "amount": 136,
+          "price": 37336,
+          "manufacturer": "Amazon",
+          "notes": "RpS37Imo817QwX0Xvy7QC5sViwoiQY0wFAvm5bpM6YeFFtriOSSHa4g6mYzy3mpBxhwV4CEEdZ1gLwXC18xI9emD7vIBMd3B99jb0DpKFjDcSnJYreGQWP0dk5TUauuaACXysw9RjtOL1DoENnEmUSSrkuBQM3HgV3yPFFrE6tB9028APXTQxxMXNI0jfjaGRAHmXJ93RAYxul95BJpCNWZ7ANcGIG4NIyKrsh2Kz4Er0cJTHeETINjQec",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Madilynworth",
+          "street": "Norbert Cape",
+          "house": 217,
+          "flat": 6666
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 37336,
+      "createdOn": "2025-12-26T12:27:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e7f1a1c508c5d5e153b86",
+          "products": [
+            {
+              "_id": "694e7f1b1c508c5d5e153bb1",
+              "name": "Keyboard25458",
+              "amount": 136,
+              "price": 37336,
+              "manufacturer": "Amazon",
+              "notes": "RpS37Imo817QwX0Xvy7QC5sViwoiQY0wFAvm5bpM6YeFFtriOSSHa4g6mYzy3mpBxhwV4CEEdZ1gLwXC18xI9emD7vIBMd3B99jb0DpKFjDcSnJYreGQWP0dk5TUauuaACXysw9RjtOL1DoENnEmUSSrkuBQM3HgV3yPFFrE6tB9028APXTQxxMXNI0jfjaGRAHmXJ93RAYxul95BJpCNWZ7ANcGIG4NIyKrsh2Kz4Er0cJTHeETINjQec",
+              "received": false
+            }
+          ],
+          "total_price": 37336,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Madilynworth",
+              "street": "Norbert Cape",
+              "house": 217,
+              "flat": 6666
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:27:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7f1a1c508c5d5e153b86",
+          "products": [
+            {
+              "_id": "694e7f1b1c508c5d5e153bb1",
+              "name": "Keyboard25458",
+              "amount": 136,
+              "price": 37336,
+              "manufacturer": "Amazon",
+              "notes": "RpS37Imo817QwX0Xvy7QC5sViwoiQY0wFAvm5bpM6YeFFtriOSSHa4g6mYzy3mpBxhwV4CEEdZ1gLwXC18xI9emD7vIBMd3B99jb0DpKFjDcSnJYreGQWP0dk5TUauuaACXysw9RjtOL1DoENnEmUSSrkuBQM3HgV3yPFFrE6tB9028APXTQxxMXNI0jfjaGRAHmXJ93RAYxul95BJpCNWZ7ANcGIG4NIyKrsh2Kz4Er0cJTHeETINjQec",
+              "received": false
+            }
+          ],
+          "total_price": 37336,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:27:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
