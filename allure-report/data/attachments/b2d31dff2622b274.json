@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:38:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4632",
+    "etag": "W/\"1218-6QI+Qba0r7f8p7VSHJczAvuS0HA\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e81df1c508c5d5e16b030",
+      "status": "Received",
+      "customer": {
+        "_id": "694e81d91c508c5d5e16ac0b",
+        "email": "Clarissa.Gutkowski@gmail.com",
+        "name": "Magali Cartwright",
+        "country": "Great Britain",
+        "city": "Lawton",
+        "street": "Cow Lane 85",
+        "house": 827,
+        "flat": 2462,
+        "phone": "+261514832023079",
+        "createdOn": "2025-12-26T12:38:49.000Z",
+        "notes": "ef7Klh5ahJJNbKAFtsdRY6T4TJD1BY"
+      },
+      "products": [
+        {
+          "_id": "694e81db1c508c5d5e16acf6",
+          "name": "Towels50815",
+          "amount": 660,
+          "price": 16122,
+          "manufacturer": "Tesla",
+          "notes": "eZzOccC6f3yBwIr3xktrXReEHBPZYAYBJTXuLSBWqcp4RYskRu6W7gfuECJtDoDiYSYWTmpj2kAMOyfpiwI804hl5M8LZGdvBd6TkyIl3c2RxhK3AfBK3DpzejVNT5eLzYt6aGOS89ESxyGrn4fUV2MTMKqoUpA1ftcwb1I7hCzFrusI2YvvUxhleZUjm9UqsKI2OUNEYukxqa9ikK1omA9reNR8MIKGbogwqCEf95J2pd0EiKzPNUnANh",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Townebury",
+          "street": "Hilpert Shoal",
+          "house": 541,
+          "flat": 7674
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16122,
+      "createdOn": "2025-12-26T12:38:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694e81d91c508c5d5e16ac0b",
+          "products": [
+            {
+              "_id": "694e81db1c508c5d5e16acf6",
+              "name": "Towels50815",
+              "amount": 660,
+              "price": 16122,
+              "manufacturer": "Tesla",
+              "notes": "eZzOccC6f3yBwIr3xktrXReEHBPZYAYBJTXuLSBWqcp4RYskRu6W7gfuECJtDoDiYSYWTmpj2kAMOyfpiwI804hl5M8LZGdvBd6TkyIl3c2RxhK3AfBK3DpzejVNT5eLzYt6aGOS89ESxyGrn4fUV2MTMKqoUpA1ftcwb1I7hCzFrusI2YvvUxhleZUjm9UqsKI2OUNEYukxqa9ikK1omA9reNR8MIKGbogwqCEf95J2pd0EiKzPNUnANh",
+              "received": true
+            }
+          ],
+          "total_price": 16122,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Townebury",
+              "street": "Hilpert Shoal",
+              "house": 541,
+              "flat": 7674
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:38:57.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694e81d91c508c5d5e16ac0b",
+          "products": [
+            {
+              "_id": "694e81db1c508c5d5e16acf6",
+              "name": "Towels50815",
+              "amount": 660,
+              "price": 16122,
+              "manufacturer": "Tesla",
+              "notes": "eZzOccC6f3yBwIr3xktrXReEHBPZYAYBJTXuLSBWqcp4RYskRu6W7gfuECJtDoDiYSYWTmpj2kAMOyfpiwI804hl5M8LZGdvBd6TkyIl3c2RxhK3AfBK3DpzejVNT5eLzYt6aGOS89ESxyGrn4fUV2MTMKqoUpA1ftcwb1I7hCzFrusI2YvvUxhleZUjm9UqsKI2OUNEYukxqa9ikK1omA9reNR8MIKGbogwqCEf95J2pd0EiKzPNUnANh",
+              "received": false
+            }
+          ],
+          "total_price": 16122,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Townebury",
+              "street": "Hilpert Shoal",
+              "house": 541,
+              "flat": 7674
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:38:57.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e81d91c508c5d5e16ac0b",
+          "products": [
+            {
+              "_id": "694e81db1c508c5d5e16acf6",
+              "name": "Towels50815",
+              "amount": 660,
+              "price": 16122,
+              "manufacturer": "Tesla",
+              "notes": "eZzOccC6f3yBwIr3xktrXReEHBPZYAYBJTXuLSBWqcp4RYskRu6W7gfuECJtDoDiYSYWTmpj2kAMOyfpiwI804hl5M8LZGdvBd6TkyIl3c2RxhK3AfBK3DpzejVNT5eLzYt6aGOS89ESxyGrn4fUV2MTMKqoUpA1ftcwb1I7hCzFrusI2YvvUxhleZUjm9UqsKI2OUNEYukxqa9ikK1omA9reNR8MIKGbogwqCEf95J2pd0EiKzPNUnANh",
+              "received": false
+            }
+          ],
+          "total_price": 16122,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Townebury",
+              "street": "Hilpert Shoal",
+              "house": 541,
+              "flat": 7674
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:38:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e81d91c508c5d5e16ac0b",
+          "products": [
+            {
+              "_id": "694e81db1c508c5d5e16acf6",
+              "name": "Towels50815",
+              "amount": 660,
+              "price": 16122,
+              "manufacturer": "Tesla",
+              "notes": "eZzOccC6f3yBwIr3xktrXReEHBPZYAYBJTXuLSBWqcp4RYskRu6W7gfuECJtDoDiYSYWTmpj2kAMOyfpiwI804hl5M8LZGdvBd6TkyIl3c2RxhK3AfBK3DpzejVNT5eLzYt6aGOS89ESxyGrn4fUV2MTMKqoUpA1ftcwb1I7hCzFrusI2YvvUxhleZUjm9UqsKI2OUNEYukxqa9ikK1omA9reNR8MIKGbogwqCEf95J2pd0EiKzPNUnANh",
+              "received": false
+            }
+          ],
+          "total_price": 16122,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:38:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

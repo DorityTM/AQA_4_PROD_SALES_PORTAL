@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:35:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3670",
+    "etag": "W/\"e56-T7VpOvfGFuRTtbv7cpHva/HVQLE\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e80f01c508c5d5e1608a2",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694e80ec1c508c5d5e160409",
+        "email": "Kallie20@yahoo.com",
+        "name": "Jeffry Champlin",
+        "country": "Germany",
+        "city": "Beerbury",
+        "street": "Parker Crescent 5",
+        "house": 832,
+        "flat": 406,
+        "phone": "+475282161344727",
+        "createdOn": "2025-12-26T12:34:52.000Z",
+        "notes": "4jCo4idNyKGorxpC0NRoO7pwTkejVd"
+      },
+      "products": [
+        {
+          "_id": "694e80ee1c508c5d5e1604f3",
+          "name": "Shoes66776",
+          "amount": 365,
+          "price": 72616,
+          "manufacturer": "Microsoft",
+          "notes": "5QEg6lcPom4kVZnQQipEV4lvKM5LF0n233EJOqYt4x4Mq6cT5DXR68MSayb9brmAFjL4gCRIb3lZCby9jKJV1MrR3j1BUcu5NQBLeEz4yrPlcbIjYhqptn3pyDrzQ2e3X0VkuGIkkioMQd9k9MUWd1ndY36v6vkZsPH258bFFKxHJzoa507WIr66hhqNpQeR3Vgxl66w1ZlIZvWfhBjC7cxNF9BooXYFX1AN46OBujPts8uQUr0Vs0MBKq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Arvelworth",
+          "street": "Common Lane",
+          "house": 76,
+          "flat": 2617
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72616,
+      "createdOn": "2025-12-26T12:34:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694e80ec1c508c5d5e160409",
+          "products": [
+            {
+              "_id": "694e80ee1c508c5d5e1604f3",
+              "name": "Shoes66776",
+              "amount": 365,
+              "price": 72616,
+              "manufacturer": "Microsoft",
+              "notes": "5QEg6lcPom4kVZnQQipEV4lvKM5LF0n233EJOqYt4x4Mq6cT5DXR68MSayb9brmAFjL4gCRIb3lZCby9jKJV1MrR3j1BUcu5NQBLeEz4yrPlcbIjYhqptn3pyDrzQ2e3X0VkuGIkkioMQd9k9MUWd1ndY36v6vkZsPH258bFFKxHJzoa507WIr66hhqNpQeR3Vgxl66w1ZlIZvWfhBjC7cxNF9BooXYFX1AN46OBujPts8uQUr0Vs0MBKq",
+              "received": false
+            }
+          ],
+          "total_price": 72616,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Arvelworth",
+              "street": "Common Lane",
+              "house": 76,
+              "flat": 2617
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:35:02.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e80ec1c508c5d5e160409",
+          "products": [
+            {
+              "_id": "694e80ee1c508c5d5e1604f3",
+              "name": "Shoes66776",
+              "amount": 365,
+              "price": 72616,
+              "manufacturer": "Microsoft",
+              "notes": "5QEg6lcPom4kVZnQQipEV4lvKM5LF0n233EJOqYt4x4Mq6cT5DXR68MSayb9brmAFjL4gCRIb3lZCby9jKJV1MrR3j1BUcu5NQBLeEz4yrPlcbIjYhqptn3pyDrzQ2e3X0VkuGIkkioMQd9k9MUWd1ndY36v6vkZsPH258bFFKxHJzoa507WIr66hhqNpQeR3Vgxl66w1ZlIZvWfhBjC7cxNF9BooXYFX1AN46OBujPts8uQUr0Vs0MBKq",
+              "received": false
+            }
+          ],
+          "total_price": 72616,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Arvelworth",
+              "street": "Common Lane",
+              "house": 76,
+              "flat": 2617
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:35:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e80ec1c508c5d5e160409",
+          "products": [
+            {
+              "_id": "694e80ee1c508c5d5e1604f3",
+              "name": "Shoes66776",
+              "amount": 365,
+              "price": 72616,
+              "manufacturer": "Microsoft",
+              "notes": "5QEg6lcPom4kVZnQQipEV4lvKM5LF0n233EJOqYt4x4Mq6cT5DXR68MSayb9brmAFjL4gCRIb3lZCby9jKJV1MrR3j1BUcu5NQBLeEz4yrPlcbIjYhqptn3pyDrzQ2e3X0VkuGIkkioMQd9k9MUWd1ndY36v6vkZsPH258bFFKxHJzoa507WIr66hhqNpQeR3Vgxl66w1ZlIZvWfhBjC7cxNF9BooXYFX1AN46OBujPts8uQUr0Vs0MBKq",
+              "received": false
+            }
+          ],
+          "total_price": 72616,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:34:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:37:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1780",
+    "etag": "W/\"6f4-tBijrVYiI9EQJwl6KEsHaIpWPSc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e81701c508c5d5e1660c6",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e816d1c508c5d5e165e26",
+        "email": "Clara_Braun@yahoo.com",
+        "name": "Jerel Fahey",
+        "country": "Great Britain",
+        "city": "Millerberg",
+        "street": "Hayes Lakes 9",
+        "house": 367,
+        "flat": 4414,
+        "phone": "+534184108070951",
+        "createdOn": "2025-12-26T12:37:01.000Z",
+        "notes": "EJA84iydHOlZefm4OtEcRtBX2RSzIM"
+      },
+      "products": [
+        {
+          "_id": "694e816e1c508c5d5e165e5c",
+          "name": "Fish30837",
+          "amount": 820,
+          "price": 64586,
+          "manufacturer": "Sony",
+          "notes": "49RBmmQ8J9gMDZskfKGZYoHb096rSRRnTRyZ0JwGIEeOLJyojtNBwhlvW36mOrQcWMHpmtqwsIyFT9HfTg8qSo8iu89ZxmFwRd6BlbWkHpnjjQaG7GhKHZKMGUlJRJeeQGeCTOw7zUl3sGft4rq2abujKaFTaecrIiX3dg2pKtqGHsP8FyXCFu5iZHBSry5WIO4DcxAUSKcBa6oLcEAbARkB8aEFhzFIPmYOgHFKarZjBUuJwUoBLuKvny",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 64586,
+      "createdOn": "2025-12-26T12:37:04.000Z",
+      "comments": [
+        {
+          "text": "Ensure > threshold before ship",
+          "createdOn": "2025-12-26T12:37:06.000Z",
+          "_id": "694e81731c508c5d5e166293"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e816d1c508c5d5e165e26",
+          "products": [
+            {
+              "_id": "694e816e1c508c5d5e165e5c",
+              "name": "Fish30837",
+              "amount": 820,
+              "price": 64586,
+              "manufacturer": "Sony",
+              "notes": "49RBmmQ8J9gMDZskfKGZYoHb096rSRRnTRyZ0JwGIEeOLJyojtNBwhlvW36mOrQcWMHpmtqwsIyFT9HfTg8qSo8iu89ZxmFwRd6BlbWkHpnjjQaG7GhKHZKMGUlJRJeeQGeCTOw7zUl3sGft4rq2abujKaFTaecrIiX3dg2pKtqGHsP8FyXCFu5iZHBSry5WIO4DcxAUSKcBa6oLcEAbARkB8aEFhzFIPmYOgHFKarZjBUuJwUoBLuKvny",
+              "received": false
+            }
+          ],
+          "total_price": 64586,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:37:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
