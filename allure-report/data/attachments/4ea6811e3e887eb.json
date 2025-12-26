@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:46:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8177",
+    "etag": "W/\"1ff1-siA393iMWV2QNWPHGalvJKL1mjE\"",
+    "keep-alive": "timeout=5, max=38",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694eadc31c508c5d5e208fc5",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694eadbb1c508c5d5e208a25",
+        "email": "Alexander_Hyatt@hotmail.com",
+        "name": "Roberta Kerluke",
+        "country": "Belarus",
+        "city": "Quigleyland",
+        "street": "Jarrod Shoal 37",
+        "house": 427,
+        "flat": 9323,
+        "phone": "+581151675724686",
+        "createdOn": "2025-12-26T15:46:03.000Z",
+        "notes": "7baUI1gsi9hTprznc9grsR5BTlOZCC"
+      },
+      "products": [
+        {
+          "_id": "694eadbf1c508c5d5e208cef",
+          "name": "Shirt56877",
+          "amount": 48,
+          "price": 23550,
+          "manufacturer": "Amazon",
+          "notes": "EcUHl1F3lmDLy5aygypF7ws6aqORGmDndNixQD5xd87GrPLOwuJp2X3aETvbi7Qwd92YujWpz1gI0pDAFxYvWGDooktGki6nWspCw2xvLN4M1FLmmahEnhlrJ7ttpvLAak2EVxtPxgBODEjgn6xFceaDCFQa8eZDwWxxJMmRtURyOfbcTHFbcJTqJhtZUkuaeelVtMtwaOJ8h930jic17K0o6HsaEsfEh1DS94JfWogM2S8TItXQL8VdWi",
+          "received": true
+        },
+        {
+          "_id": "694eadc11c508c5d5e208e57",
+          "name": "Soap75344",
+          "amount": 814,
+          "price": 20187,
+          "manufacturer": "Google",
+          "notes": "pg3c7Dvj9MTS2MpFS0nPKzg5lyJP12A6C0yhL7pIyTc0pW7RSoNB0YrSrlRK6iNsiuy2z7UJ3Bvfw69G4m2k7TPUUEmenk8fMExiK8zhligARk6iE5cWCXBVVamEY70S7oW5SSOgYp8ZWhZB4oLXMOXBaPOoNG9RjiKURaR6BrCzDHUYZenIErehHFUB1TCl7dai8rFaRna5CxbXd2uZj51Fh3vaF3kCkhPwPJJW8qNM2xezIJ8BSslM9d",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Denesikworth",
+          "street": "Medhurst Freeway",
+          "house": 309,
+          "flat": 1057
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 43737,
+      "createdOn": "2025-12-26T15:46:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694eadbb1c508c5d5e208a25",
+          "products": [
+            {
+              "_id": "694eadbf1c508c5d5e208cef",
+              "name": "Shirt56877",
+              "amount": 48,
+              "price": 23550,
+              "manufacturer": "Amazon",
+              "notes": "EcUHl1F3lmDLy5aygypF7ws6aqORGmDndNixQD5xd87GrPLOwuJp2X3aETvbi7Qwd92YujWpz1gI0pDAFxYvWGDooktGki6nWspCw2xvLN4M1FLmmahEnhlrJ7ttpvLAak2EVxtPxgBODEjgn6xFceaDCFQa8eZDwWxxJMmRtURyOfbcTHFbcJTqJhtZUkuaeelVtMtwaOJ8h930jic17K0o6HsaEsfEh1DS94JfWogM2S8TItXQL8VdWi",
+              "received": true
+            },
+            {
+              "_id": "694eadc11c508c5d5e208e57",
+              "name": "Soap75344",
+              "amount": 814,
+              "price": 20187,
+              "manufacturer": "Google",
+              "notes": "pg3c7Dvj9MTS2MpFS0nPKzg5lyJP12A6C0yhL7pIyTc0pW7RSoNB0YrSrlRK6iNsiuy2z7UJ3Bvfw69G4m2k7TPUUEmenk8fMExiK8zhligARk6iE5cWCXBVVamEY70S7oW5SSOgYp8ZWhZB4oLXMOXBaPOoNG9RjiKURaR6BrCzDHUYZenIErehHFUB1TCl7dai8rFaRna5CxbXd2uZj51Fh3vaF3kCkhPwPJJW8qNM2xezIJ8BSslM9d",
+              "received": false
+            }
+          ],
+          "total_price": 43737,
+          "delivery": {
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery",
+            "address": {
+              "country": "Russia",
+              "city": "Denesikworth",
+              "street": "Medhurst Freeway",
+              "house": 309,
+              "flat": 1057
+            }
+          },
+          "changedOn": "2025-12-26T15:46:14.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "694eadbb1c508c5d5e208a25",
+          "products": [
+            {
+              "_id": "694eadbf1c508c5d5e208cef",
+              "name": "Shirt56877",
+              "amount": 48,
+              "price": 23550,
+              "manufacturer": "Amazon",
+              "notes": "EcUHl1F3lmDLy5aygypF7ws6aqORGmDndNixQD5xd87GrPLOwuJp2X3aETvbi7Qwd92YujWpz1gI0pDAFxYvWGDooktGki6nWspCw2xvLN4M1FLmmahEnhlrJ7ttpvLAak2EVxtPxgBODEjgn6xFceaDCFQa8eZDwWxxJMmRtURyOfbcTHFbcJTqJhtZUkuaeelVtMtwaOJ8h930jic17K0o6HsaEsfEh1DS94JfWogM2S8TItXQL8VdWi",
+              "received": true
+            },
+            {
+              "_id": "694eadc11c508c5d5e208e57",
+              "name": "Soap75344",
+              "amount": 814,
+              "price": 20187,
+              "manufacturer": "Google",
+              "notes": "pg3c7Dvj9MTS2MpFS0nPKzg5lyJP12A6C0yhL7pIyTc0pW7RSoNB0YrSrlRK6iNsiuy2z7UJ3Bvfw69G4m2k7TPUUEmenk8fMExiK8zhligARk6iE5cWCXBVVamEY70S7oW5SSOgYp8ZWhZB4oLXMOXBaPOoNG9RjiKURaR6BrCzDHUYZenIErehHFUB1TCl7dai8rFaRna5CxbXd2uZj51Fh3vaF3kCkhPwPJJW8qNM2xezIJ8BSslM9d",
+              "received": false
+            }
+          ],
+          "total_price": 43737,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Denesikworth",
+              "street": "Medhurst Freeway",
+              "house": 309,
+              "flat": 1057
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:46:14.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694eadbb1c508c5d5e208a25",
+          "products": [
+            {
+              "_id": "694eadbf1c508c5d5e208cef",
+              "name": "Shirt56877",
+              "amount": 48,
+              "price": 23550,
+              "manufacturer": "Amazon",
+              "notes": "EcUHl1F3lmDLy5aygypF7ws6aqORGmDndNixQD5xd87GrPLOwuJp2X3aETvbi7Qwd92YujWpz1gI0pDAFxYvWGDooktGki6nWspCw2xvLN4M1FLmmahEnhlrJ7ttpvLAak2EVxtPxgBODEjgn6xFceaDCFQa8eZDwWxxJMmRtURyOfbcTHFbcJTqJhtZUkuaeelVtMtwaOJ8h930jic17K0o6HsaEsfEh1DS94JfWogM2S8TItXQL8VdWi",
+              "received": false
+            },
+            {
+              "_id": "694eadc11c508c5d5e208e57",
+              "name": "Soap75344",
+              "amount": 814,
+              "price": 20187,
+              "manufacturer": "Google",
+              "notes": "pg3c7Dvj9MTS2MpFS0nPKzg5lyJP12A6C0yhL7pIyTc0pW7RSoNB0YrSrlRK6iNsiuy2z7UJ3Bvfw69G4m2k7TPUUEmenk8fMExiK8zhligARk6iE5cWCXBVVamEY70S7oW5SSOgYp8ZWhZB4oLXMOXBaPOoNG9RjiKURaR6BrCzDHUYZenIErehHFUB1TCl7dai8rFaRna5CxbXd2uZj51Fh3vaF3kCkhPwPJJW8qNM2xezIJ8BSslM9d",
+              "received": false
+            }
+          ],
+          "total_price": 43737,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Denesikworth",
+              "street": "Medhurst Freeway",
+              "house": 309,
+              "flat": 1057
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:46:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eadbb1c508c5d5e208a25",
+          "products": [
+            {
+              "_id": "694eadbf1c508c5d5e208cef",
+              "name": "Shirt56877",
+              "amount": 48,
+              "price": 23550,
+              "manufacturer": "Amazon",
+              "notes": "EcUHl1F3lmDLy5aygypF7ws6aqORGmDndNixQD5xd87GrPLOwuJp2X3aETvbi7Qwd92YujWpz1gI0pDAFxYvWGDooktGki6nWspCw2xvLN4M1FLmmahEnhlrJ7ttpvLAak2EVxtPxgBODEjgn6xFceaDCFQa8eZDwWxxJMmRtURyOfbcTHFbcJTqJhtZUkuaeelVtMtwaOJ8h930jic17K0o6HsaEsfEh1DS94JfWogM2S8TItXQL8VdWi",
+              "received": false
+            },
+            {
+              "_id": "694eadc11c508c5d5e208e57",
+              "name": "Soap75344",
+              "amount": 814,
+              "price": 20187,
+              "manufacturer": "Google",
+              "notes": "pg3c7Dvj9MTS2MpFS0nPKzg5lyJP12A6C0yhL7pIyTc0pW7RSoNB0YrSrlRK6iNsiuy2z7UJ3Bvfw69G4m2k7TPUUEmenk8fMExiK8zhligARk6iE5cWCXBVVamEY70S7oW5SSOgYp8ZWhZB4oLXMOXBaPOoNG9RjiKURaR6BrCzDHUYZenIErehHFUB1TCl7dai8rFaRna5CxbXd2uZj51Fh3vaF3kCkhPwPJJW8qNM2xezIJ8BSslM9d",
+              "received": false
+            }
+          ],
+          "total_price": 43737,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Denesikworth",
+              "street": "Medhurst Freeway",
+              "house": 309,
+              "flat": 1057
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:46:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eadbb1c508c5d5e208a25",
+          "products": [
+            {
+              "_id": "694eadbf1c508c5d5e208cef",
+              "name": "Shirt56877",
+              "amount": 48,
+              "price": 23550,
+              "manufacturer": "Amazon",
+              "notes": "EcUHl1F3lmDLy5aygypF7ws6aqORGmDndNixQD5xd87GrPLOwuJp2X3aETvbi7Qwd92YujWpz1gI0pDAFxYvWGDooktGki6nWspCw2xvLN4M1FLmmahEnhlrJ7ttpvLAak2EVxtPxgBODEjgn6xFceaDCFQa8eZDwWxxJMmRtURyOfbcTHFbcJTqJhtZUkuaeelVtMtwaOJ8h930jic17K0o6HsaEsfEh1DS94JfWogM2S8TItXQL8VdWi",
+              "received": false
+            },
+            {
+              "_id": "694eadc11c508c5d5e208e57",
+              "name": "Soap75344",
+              "amount": 814,
+              "price": 20187,
+              "manufacturer": "Google",
+              "notes": "pg3c7Dvj9MTS2MpFS0nPKzg5lyJP12A6C0yhL7pIyTc0pW7RSoNB0YrSrlRK6iNsiuy2z7UJ3Bvfw69G4m2k7TPUUEmenk8fMExiK8zhligARk6iE5cWCXBVVamEY70S7oW5SSOgYp8ZWhZB4oLXMOXBaPOoNG9RjiKURaR6BrCzDHUYZenIErehHFUB1TCl7dai8rFaRna5CxbXd2uZj51Fh3vaF3kCkhPwPJJW8qNM2xezIJ8BSslM9d",
+              "received": false
+            }
+          ],
+          "total_price": 43737,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:46:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

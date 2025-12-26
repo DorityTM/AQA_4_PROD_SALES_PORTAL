@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:45:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3681",
+    "etag": "W/\"e61-fKi8OfsX1Z4BCQAoz4UmfvRBRVg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ead7c1c508c5d5e205ebd",
+      "status": "In Process",
+      "customer": {
+        "_id": "694ead7c1c508c5d5e205e76",
+        "email": "Dameon.Stokes@yahoo.com",
+        "name": "Bell Walter",
+        "country": "Russia",
+        "city": "North Lurlineberg",
+        "street": "S State Street 42",
+        "house": 637,
+        "flat": 5592,
+        "phone": "+988110573151321",
+        "createdOn": "2025-12-26T15:45:00.000Z",
+        "notes": "ywgNgxYu5A6478b0dq0jXDkrcnw3LG"
+      },
+      "products": [
+        {
+          "_id": "694ead7c1c508c5d5e205e94",
+          "name": "Pants46471",
+          "amount": 980,
+          "price": 72348,
+          "manufacturer": "Apple",
+          "notes": "bGrFRbj7AHKOBxUko37OdnGDcJQXCzQVgkGVWHFGrDagc0YtiMfE2tpvERunV3r8W8B387LuImJMfpBfDOM2qCKGAdbtquzLi2DI1qUDWssdsICCgcpDFe826NQymDCO2KbV3LUmOOG8Fht1TwOdEw4i7GCYKdmtobfDlROVjpjXQVFKALbjjGH971vOSFJdTv6cExo8kOMRdJAr2vnMalbKuZwpzigFTEcW9k2a16IpSZbwFE5LkgEVPm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Purdymouth",
+          "street": "Tremblay Dam",
+          "house": 248,
+          "flat": 1298
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72348,
+      "createdOn": "2025-12-26T15:45:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694ead7c1c508c5d5e205e76",
+          "products": [
+            {
+              "_id": "694ead7c1c508c5d5e205e94",
+              "name": "Pants46471",
+              "amount": 980,
+              "price": 72348,
+              "manufacturer": "Apple",
+              "notes": "bGrFRbj7AHKOBxUko37OdnGDcJQXCzQVgkGVWHFGrDagc0YtiMfE2tpvERunV3r8W8B387LuImJMfpBfDOM2qCKGAdbtquzLi2DI1qUDWssdsICCgcpDFe826NQymDCO2KbV3LUmOOG8Fht1TwOdEw4i7GCYKdmtobfDlROVjpjXQVFKALbjjGH971vOSFJdTv6cExo8kOMRdJAr2vnMalbKuZwpzigFTEcW9k2a16IpSZbwFE5LkgEVPm",
+              "received": false
+            }
+          ],
+          "total_price": 72348,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Purdymouth",
+              "street": "Tremblay Dam",
+              "house": 248,
+              "flat": 1298
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:45:03.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ead7c1c508c5d5e205e76",
+          "products": [
+            {
+              "_id": "694ead7c1c508c5d5e205e94",
+              "name": "Pants46471",
+              "amount": 980,
+              "price": 72348,
+              "manufacturer": "Apple",
+              "notes": "bGrFRbj7AHKOBxUko37OdnGDcJQXCzQVgkGVWHFGrDagc0YtiMfE2tpvERunV3r8W8B387LuImJMfpBfDOM2qCKGAdbtquzLi2DI1qUDWssdsICCgcpDFe826NQymDCO2KbV3LUmOOG8Fht1TwOdEw4i7GCYKdmtobfDlROVjpjXQVFKALbjjGH971vOSFJdTv6cExo8kOMRdJAr2vnMalbKuZwpzigFTEcW9k2a16IpSZbwFE5LkgEVPm",
+              "received": false
+            }
+          ],
+          "total_price": 72348,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Purdymouth",
+              "street": "Tremblay Dam",
+              "house": 248,
+              "flat": 1298
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:45:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ead7c1c508c5d5e205e76",
+          "products": [
+            {
+              "_id": "694ead7c1c508c5d5e205e94",
+              "name": "Pants46471",
+              "amount": 980,
+              "price": 72348,
+              "manufacturer": "Apple",
+              "notes": "bGrFRbj7AHKOBxUko37OdnGDcJQXCzQVgkGVWHFGrDagc0YtiMfE2tpvERunV3r8W8B387LuImJMfpBfDOM2qCKGAdbtquzLi2DI1qUDWssdsICCgcpDFe826NQymDCO2KbV3LUmOOG8Fht1TwOdEw4i7GCYKdmtobfDlROVjpjXQVFKALbjjGH971vOSFJdTv6cExo8kOMRdJAr2vnMalbKuZwpzigFTEcW9k2a16IpSZbwFE5LkgEVPm",
+              "received": false
+            }
+          ],
+          "total_price": 72348,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:45:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

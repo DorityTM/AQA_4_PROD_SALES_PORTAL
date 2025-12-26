@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:46:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2770",
+    "etag": "W/\"ad2-ExDQvQs8lRZ5l4ph1+KLackyF2U\"",
+    "keep-alive": "timeout=5, max=14",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694eadd71c508c5d5e209c5d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694eadd61c508c5d5e209c10",
+        "email": "Iva.Lesch@yahoo.com",
+        "name": "Angelina Parisian",
+        "country": "Great Britain",
+        "city": "South Myrtisfurt",
+        "street": "Prohaska Extensions 35",
+        "house": 642,
+        "flat": 1670,
+        "phone": "+290329055941873",
+        "createdOn": "2025-12-26T15:46:30.000Z",
+        "notes": "cvO0Ex5qauvrL3PVtloGoPjb9ly1r5"
+      },
+      "products": [
+        {
+          "_id": "694eadd61c508c5d5e209c30",
+          "name": "Cheese40650",
+          "amount": 746,
+          "price": 3335,
+          "manufacturer": "Microsoft",
+          "notes": "QUFW8r3o2cXghf5wRnSUe0VBONRUnffHET19vC2apMML0eG8dRwzOmWu3ao91877UcesgVfhmK5u96gduwqZ8lScATOnExZsp6R1Pp5g0ukAUI3TCIUczyYiP17VaeKOwcRqwcbHjVClAlKJD5FQRz5jSor81SpOSMl5NtwNKzOMzdrpZmp4FUBOdqKDlTiBzz8Y70fihSjJPzMQnN2TOkdMEprlE8dsFW6OcmYjQql5pRVAXyoNi6neQl",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lilyanville",
+          "street": "Gail Lodge",
+          "house": 378,
+          "flat": 7435
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3335,
+      "createdOn": "2025-12-26T15:46:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694eadd61c508c5d5e209c10",
+          "products": [
+            {
+              "_id": "694eadd61c508c5d5e209c30",
+              "name": "Cheese40650",
+              "amount": 746,
+              "price": 3335,
+              "manufacturer": "Microsoft",
+              "notes": "QUFW8r3o2cXghf5wRnSUe0VBONRUnffHET19vC2apMML0eG8dRwzOmWu3ao91877UcesgVfhmK5u96gduwqZ8lScATOnExZsp6R1Pp5g0ukAUI3TCIUczyYiP17VaeKOwcRqwcbHjVClAlKJD5FQRz5jSor81SpOSMl5NtwNKzOMzdrpZmp4FUBOdqKDlTiBzz8Y70fihSjJPzMQnN2TOkdMEprlE8dsFW6OcmYjQql5pRVAXyoNi6neQl",
+              "received": false
+            }
+          ],
+          "total_price": 3335,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lilyanville",
+              "street": "Gail Lodge",
+              "house": 378,
+              "flat": 7435
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:46:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eadd61c508c5d5e209c10",
+          "products": [
+            {
+              "_id": "694eadd61c508c5d5e209c30",
+              "name": "Cheese40650",
+              "amount": 746,
+              "price": 3335,
+              "manufacturer": "Microsoft",
+              "notes": "QUFW8r3o2cXghf5wRnSUe0VBONRUnffHET19vC2apMML0eG8dRwzOmWu3ao91877UcesgVfhmK5u96gduwqZ8lScATOnExZsp6R1Pp5g0ukAUI3TCIUczyYiP17VaeKOwcRqwcbHjVClAlKJD5FQRz5jSor81SpOSMl5NtwNKzOMzdrpZmp4FUBOdqKDlTiBzz8Y70fihSjJPzMQnN2TOkdMEprlE8dsFW6OcmYjQql5pRVAXyoNi6neQl",
+              "received": false
+            }
+          ],
+          "total_price": 3335,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:46:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
