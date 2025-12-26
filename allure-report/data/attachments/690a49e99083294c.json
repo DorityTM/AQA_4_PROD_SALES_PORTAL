@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 16:51:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3718",
+    "etag": "W/\"e86-UfJvTn8his1eOPGACJ7gjaHK9pw\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ebd1b1c508c5d5e24eeac",
+      "status": "In Process",
+      "customer": {
+        "_id": "694ebd191c508c5d5e24ee21",
+        "email": "Elaina.Tremblay@hotmail.com",
+        "name": "Tiara Jacobs",
+        "country": "Belarus",
+        "city": "West Dougview",
+        "street": "Pine Street 16",
+        "house": 499,
+        "flat": 357,
+        "phone": "+486856652603623",
+        "createdOn": "2025-12-26T16:51:37.000Z",
+        "notes": "kAUAMc8K9jO1GZUanLd5sYbWrM3riW"
+      },
+      "products": [
+        {
+          "_id": "694ebd1b1c508c5d5e24ee8f",
+          "name": "Chicken22425",
+          "amount": 796,
+          "price": 14299,
+          "manufacturer": "Microsoft",
+          "notes": "C7X1fhCFZOI1r7uyzH7r1Vk8QV9DdG0q7qKgj6eypqq1Bf3PwNqazNASNbkHHkQffsAtAWk7xAHIFrAE6IzkOEiOep2jJAjtl7jFWAktLL0JwQ2mNBdH8X3qH6l1j8FsIjaaKZSMmpAud6iVlLvGVuOKXVlIHrLEYLteauFDLZJovue33n073KusIpH6evXwtwmvSJm8DujGWzXE6XnV4Gs85XS8jyZJJTsVE18Q6BYm72NUkXOX1Jv4xk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Abdulchester",
+          "street": "W Maple Street",
+          "house": 906,
+          "flat": 8368
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 14299,
+      "createdOn": "2025-12-26T16:51:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694ebd191c508c5d5e24ee21",
+          "products": [
+            {
+              "_id": "694ebd1b1c508c5d5e24ee8f",
+              "name": "Chicken22425",
+              "amount": 796,
+              "price": 14299,
+              "manufacturer": "Microsoft",
+              "notes": "C7X1fhCFZOI1r7uyzH7r1Vk8QV9DdG0q7qKgj6eypqq1Bf3PwNqazNASNbkHHkQffsAtAWk7xAHIFrAE6IzkOEiOep2jJAjtl7jFWAktLL0JwQ2mNBdH8X3qH6l1j8FsIjaaKZSMmpAud6iVlLvGVuOKXVlIHrLEYLteauFDLZJovue33n073KusIpH6evXwtwmvSJm8DujGWzXE6XnV4Gs85XS8jyZJJTsVE18Q6BYm72NUkXOX1Jv4xk",
+              "received": false
+            }
+          ],
+          "total_price": 14299,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Abdulchester",
+              "street": "W Maple Street",
+              "house": 906,
+              "flat": 8368
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T16:51:40.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ebd191c508c5d5e24ee21",
+          "products": [
+            {
+              "_id": "694ebd1b1c508c5d5e24ee8f",
+              "name": "Chicken22425",
+              "amount": 796,
+              "price": 14299,
+              "manufacturer": "Microsoft",
+              "notes": "C7X1fhCFZOI1r7uyzH7r1Vk8QV9DdG0q7qKgj6eypqq1Bf3PwNqazNASNbkHHkQffsAtAWk7xAHIFrAE6IzkOEiOep2jJAjtl7jFWAktLL0JwQ2mNBdH8X3qH6l1j8FsIjaaKZSMmpAud6iVlLvGVuOKXVlIHrLEYLteauFDLZJovue33n073KusIpH6evXwtwmvSJm8DujGWzXE6XnV4Gs85XS8jyZJJTsVE18Q6BYm72NUkXOX1Jv4xk",
+              "received": false
+            }
+          ],
+          "total_price": 14299,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Abdulchester",
+              "street": "W Maple Street",
+              "house": 906,
+              "flat": 8368
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T16:51:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ebd191c508c5d5e24ee21",
+          "products": [
+            {
+              "_id": "694ebd1b1c508c5d5e24ee8f",
+              "name": "Chicken22425",
+              "amount": 796,
+              "price": 14299,
+              "manufacturer": "Microsoft",
+              "notes": "C7X1fhCFZOI1r7uyzH7r1Vk8QV9DdG0q7qKgj6eypqq1Bf3PwNqazNASNbkHHkQffsAtAWk7xAHIFrAE6IzkOEiOep2jJAjtl7jFWAktLL0JwQ2mNBdH8X3qH6l1j8FsIjaaKZSMmpAud6iVlLvGVuOKXVlIHrLEYLteauFDLZJovue33n073KusIpH6evXwtwmvSJm8DujGWzXE6XnV4Gs85XS8jyZJJTsVE18Q6BYm72NUkXOX1Jv4xk",
+              "received": false
+            }
+          ],
+          "total_price": 14299,
+          "delivery": null,
+          "changedOn": "2025-12-26T16:51:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

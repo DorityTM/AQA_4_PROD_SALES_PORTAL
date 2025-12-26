@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 17:10:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2762",
+    "etag": "W/\"aca-sFvjQr8Q6DnI8L0jIr5Owu82a24\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ec1a21c508c5d5e274949",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ec19c1c508c5d5e274583",
+        "email": "Misael.Ward@yahoo.com",
+        "name": "Loyal Ziemann",
+        "country": "France",
+        "city": "Johnathonborough",
+        "street": "Broadway Street 15",
+        "house": 991,
+        "flat": 4263,
+        "phone": "+484486452410919",
+        "createdOn": "2025-12-26T17:10:52.000Z",
+        "notes": "kUvuLGMMCrrbtUpBcD28f0a7kyX5Ow"
+      },
+      "products": [
+        {
+          "_id": "694ec19e1c508c5d5e2745d1",
+          "name": "Hat20672",
+          "amount": 220,
+          "price": 38950,
+          "manufacturer": "Microsoft",
+          "notes": "fAvc5eSSZOEKXiqsDxkyM7LOkGRzgXgXZleqVXZDpPmGKRih9rnqsG8je6QkYI8SJONqodOoUdeVmaef2Ibabp1l0JWiSNRUk4rPRJcHozPKR7yVyyrgAUZyC6a9frD0x11u59C9bOmkZe9kWw9jhXVEOoGvCkV2cWTwYFypQznQywHT6tvdZcrPqYpz9ZaM5dvzJJInppRIaGcbgMVKdmxP9i5EQEKC6Vej8fSoVbGLYH1ovFcgzcA00g",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "New Salvador",
+          "street": "Justice Walks",
+          "house": 138,
+          "flat": 1621
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 38950,
+      "createdOn": "2025-12-26T17:10:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ec19c1c508c5d5e274583",
+          "products": [
+            {
+              "_id": "694ec19e1c508c5d5e2745d1",
+              "name": "Hat20672",
+              "amount": 220,
+              "price": 38950,
+              "manufacturer": "Microsoft",
+              "notes": "fAvc5eSSZOEKXiqsDxkyM7LOkGRzgXgXZleqVXZDpPmGKRih9rnqsG8je6QkYI8SJONqodOoUdeVmaef2Ibabp1l0JWiSNRUk4rPRJcHozPKR7yVyyrgAUZyC6a9frD0x11u59C9bOmkZe9kWw9jhXVEOoGvCkV2cWTwYFypQznQywHT6tvdZcrPqYpz9ZaM5dvzJJInppRIaGcbgMVKdmxP9i5EQEKC6Vej8fSoVbGLYH1ovFcgzcA00g",
+              "received": false
+            }
+          ],
+          "total_price": 38950,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "New Salvador",
+              "street": "Justice Walks",
+              "house": 138,
+              "flat": 1621
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T17:10:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ec19c1c508c5d5e274583",
+          "products": [
+            {
+              "_id": "694ec19e1c508c5d5e2745d1",
+              "name": "Hat20672",
+              "amount": 220,
+              "price": 38950,
+              "manufacturer": "Microsoft",
+              "notes": "fAvc5eSSZOEKXiqsDxkyM7LOkGRzgXgXZleqVXZDpPmGKRih9rnqsG8je6QkYI8SJONqodOoUdeVmaef2Ibabp1l0JWiSNRUk4rPRJcHozPKR7yVyyrgAUZyC6a9frD0x11u59C9bOmkZe9kWw9jhXVEOoGvCkV2cWTwYFypQznQywHT6tvdZcrPqYpz9ZaM5dvzJJInppRIaGcbgMVKdmxP9i5EQEKC6Vej8fSoVbGLYH1ovFcgzcA00g",
+              "received": false
+            }
+          ],
+          "total_price": 38950,
+          "delivery": null,
+          "changedOn": "2025-12-26T17:10:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

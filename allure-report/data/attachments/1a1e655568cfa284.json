@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 16:50:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-vC5uCS7/U4fQZ4SG3GkuGsBc230\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ebce01c508c5d5e24d0a5",
+      "status": "In Process",
+      "customer": {
+        "_id": "694ebcde1c508c5d5e24d064",
+        "email": "Walton42@hotmail.com",
+        "name": "Alfreda Nicolas",
+        "country": "Canada",
+        "city": "Fort Delbert",
+        "street": "Ward Estate 48",
+        "house": 672,
+        "flat": 1879,
+        "phone": "+024766741274434",
+        "createdOn": "2025-12-26T16:50:38.000Z",
+        "notes": "2eN3PMXrM5x0WtY9mbVA4jUKKX25qG"
+      },
+      "products": [
+        {
+          "_id": "694ebce01c508c5d5e24d08d",
+          "name": "Sausages483",
+          "amount": 266,
+          "price": 70536,
+          "manufacturer": "Tesla",
+          "notes": "9XHX3Zz4H1uuWGzi0mNNz2sDEMoYPI1xwGnmO8vogOYqirZRewr0toMqdR9MxmrkD5RVU9J0quxHZ89SIMYJgueL4XwSBAYNbruopJAISF1HpOr3iA89Mqr6D87cGhIqMzoFuWRm2REYV2bRish9QdtV5wmziQAKXC8krWiCA3s5ZD5SAfRiGvlGDVAUQ8NYmmX80buTzbUTO2R5NHKkguXbPe0HThYwb8agpwuOd9yLLDKFKj9DEN3Au5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Patience",
+          "street": "Broad Street",
+          "house": 863,
+          "flat": 9675
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 70536,
+      "createdOn": "2025-12-26T16:50:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694ebcde1c508c5d5e24d064",
+          "products": [
+            {
+              "_id": "694ebce01c508c5d5e24d08d",
+              "name": "Sausages483",
+              "amount": 266,
+              "price": 70536,
+              "manufacturer": "Tesla",
+              "notes": "9XHX3Zz4H1uuWGzi0mNNz2sDEMoYPI1xwGnmO8vogOYqirZRewr0toMqdR9MxmrkD5RVU9J0quxHZ89SIMYJgueL4XwSBAYNbruopJAISF1HpOr3iA89Mqr6D87cGhIqMzoFuWRm2REYV2bRish9QdtV5wmziQAKXC8krWiCA3s5ZD5SAfRiGvlGDVAUQ8NYmmX80buTzbUTO2R5NHKkguXbPe0HThYwb8agpwuOd9yLLDKFKj9DEN3Au5",
+              "received": false
+            }
+          ],
+          "total_price": 70536,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Patience",
+              "street": "Broad Street",
+              "house": 863,
+              "flat": 9675
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T16:50:41.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ebcde1c508c5d5e24d064",
+          "products": [
+            {
+              "_id": "694ebce01c508c5d5e24d08d",
+              "name": "Sausages483",
+              "amount": 266,
+              "price": 70536,
+              "manufacturer": "Tesla",
+              "notes": "9XHX3Zz4H1uuWGzi0mNNz2sDEMoYPI1xwGnmO8vogOYqirZRewr0toMqdR9MxmrkD5RVU9J0quxHZ89SIMYJgueL4XwSBAYNbruopJAISF1HpOr3iA89Mqr6D87cGhIqMzoFuWRm2REYV2bRish9QdtV5wmziQAKXC8krWiCA3s5ZD5SAfRiGvlGDVAUQ8NYmmX80buTzbUTO2R5NHKkguXbPe0HThYwb8agpwuOd9yLLDKFKj9DEN3Au5",
+              "received": false
+            }
+          ],
+          "total_price": 70536,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Patience",
+              "street": "Broad Street",
+              "house": 863,
+              "flat": 9675
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T16:50:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ebcde1c508c5d5e24d064",
+          "products": [
+            {
+              "_id": "694ebce01c508c5d5e24d08d",
+              "name": "Sausages483",
+              "amount": 266,
+              "price": 70536,
+              "manufacturer": "Tesla",
+              "notes": "9XHX3Zz4H1uuWGzi0mNNz2sDEMoYPI1xwGnmO8vogOYqirZRewr0toMqdR9MxmrkD5RVU9J0quxHZ89SIMYJgueL4XwSBAYNbruopJAISF1HpOr3iA89Mqr6D87cGhIqMzoFuWRm2REYV2bRish9QdtV5wmziQAKXC8krWiCA3s5ZD5SAfRiGvlGDVAUQ8NYmmX80buTzbUTO2R5NHKkguXbPe0HThYwb8agpwuOd9yLLDKFKj9DEN3Au5",
+              "received": false
+            }
+          ],
+          "total_price": 70536,
+          "delivery": null,
+          "changedOn": "2025-12-26T16:50:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
