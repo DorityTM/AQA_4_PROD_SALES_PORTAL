@@ -1,6 +1,10 @@
+import { apiConfig } from "config/apiConfig";
+import { NOTIFICATIONS } from "data/salesPortal/notifications";
 import { ORDER_STATUS } from "data/salesPortal/order-status";
+import { STATUS_CODES } from "data/statusCodes";
 import { TAGS } from "data/tags";
 import { ICustomerFromResponse } from "data/types/customer.types";
+import { IOrderResponse } from "data/types/order.types";
 import { IProductFromResponse } from "data/types/product.types";
 import { test, expect } from "fixtures";
 import { CreateOrderModal } from "ui/pages/orders/createOrderModal.page";
@@ -25,13 +29,12 @@ test.describe("[UI][Orders][Create Order]", async () => {
       const product = await productsApiService.create(token);
       cleanup.addProduct(product._id);
       await ordersListPage.clickCreateOrderButton();
-      await ordersListPage.createOrderModal.createOrder(customer.name, [product.name]);
+      const createdOrder = await ordersListPage.createOrderModal.createOrder(customer.name, [product.name]);
       await ordersListPage.waitForOpened();
-      const tableData = await ordersListPage.getTableData();
-      const createdOrder = tableData[0]!;
-      cleanup.addOrder(createdOrder.orderId);
-      expect(createdOrder.email).toBe(customer.email);
-      expect(createdOrder.price).toBe(product.price);
+      cleanup.addOrder(createdOrder._id);
+      await expect.soft(ordersListPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_CREATED);
+      expect(createdOrder.customer._id).toBe(customer._id);
+      expect(createdOrder.total_price).toBe(product.price);
       expect(createdOrder.status).toBe(ORDER_STATUS.DRAFT);
     },
   );
@@ -47,16 +50,15 @@ test.describe("[UI][Orders][Create Order]", async () => {
         products.push(product);
       }
       await ordersListPage.clickCreateOrderButton();
-      await ordersListPage.createOrderModal.createOrder(
+      const createdOrder = await ordersListPage.createOrderModal.createOrder(
         customer.name,
         products.map((p) => p.name),
       );
       await ordersListPage.waitForOpened();
-      const tableData = await ordersListPage.getTableData();
-      const createdOrder = tableData[0]!;
-      cleanup.addOrder(createdOrder.orderId);
-      expect(createdOrder.email).toBe(customer.email);
-      expect(createdOrder.price).toBe(products.reduce((sum: number, p) => sum + p.price, 0));
+      cleanup.addOrder(createdOrder._id);
+      await expect.soft(ordersListPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_CREATED);
+      expect(createdOrder.customer._id).toBe(customer._id);
+      expect(createdOrder.total_price).toBe(products.reduce((sum: number, p) => sum + p.price, 0));
       expect(createdOrder.status).toBe(ORDER_STATUS.DRAFT);
     },
   );
@@ -83,13 +85,17 @@ test.describe("[UI][Orders][Create Order]", async () => {
       await createOrderModal.deleteProduct(0);
       totalPrice = +(await createOrderModal.totalPrice.innerText()).replace("$", "");
       expect(totalPrice).toBe(products[1]!.price);
-      await createOrderModal.clickCreate();
+      const response = await createOrderModal.interceptResponse<IOrderResponse, unknown[]>(
+        apiConfig.endpoints.orders,
+        createOrderModal.clickCreate.bind(createOrderModal),
+      );
+      expect(response.status).toBe(STATUS_CODES.CREATED);
       await ordersListPage.waitForOpened();
-      const tableData = await ordersListPage.getTableData();
-      const createdOrder = tableData[0]!;
-      cleanup.addOrder(createdOrder.orderId);
-      expect(createdOrder.email).toBe(customer.email);
-      expect(createdOrder.price).toBe(products[1]!.price);
+      const createdOrder = response.body.Order;
+      cleanup.addOrder(createdOrder._id);
+      await expect.soft(ordersListPage.toastMessage).toContainText(NOTIFICATIONS.ORDER_CREATED);
+      expect(createdOrder.customer._id).toBe(customer._id);
+      expect(createdOrder.total_price).toBe(products[1]!.price);
       expect(createdOrder.status).toBe(ORDER_STATUS.DRAFT);
     },
   );
@@ -102,8 +108,6 @@ test.describe("[UI][Orders][Create Order]", async () => {
       `Should close modal whith ${testData.name} button`,
       { tag: [TAGS.UI, TAGS.ORDERS, TAGS.REGRESSION] },
       async ({ ordersListPage, cleanup, productsApiService, page }) => {
-        let tableData = await ordersListPage.getTableData();
-        const firstOrder = tableData[0]!;
         const createOrderModal = new CreateOrderModal(page);
         const product = await productsApiService.create(token);
         cleanup.addProduct(product._id);
@@ -114,8 +118,7 @@ test.describe("[UI][Orders][Create Order]", async () => {
         await testData.clickButton(createOrderModal);
         await createOrderModal.waitForClosed();
         await ordersListPage.waitForOpened();
-        tableData = await ordersListPage.getTableData();
-        expect(tableData[0]!.orderId).toBe(firstOrder.orderId);
+        await expect.soft(ordersListPage.toastMessage).not.toBeVisible();
       },
     );
   }

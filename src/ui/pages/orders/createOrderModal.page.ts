@@ -1,5 +1,8 @@
 import { expect } from "@playwright/test";
 import { logStep } from "utils/report/logStep.utils";
+import { IOrderFromResponse, IOrderResponse } from "data/types/order.types";
+import { apiConfig } from "config/apiConfig";
+import { STATUS_CODES } from "data/statusCodes";
 import { BaseModal } from "../base.modal";
 
 export class CreateOrderModal extends BaseModal {
@@ -53,7 +56,7 @@ export class CreateOrderModal extends BaseModal {
   }
 
   @logStep("CREATE ORDER IN CREATE ORDER MODAL")
-  async createOrder(customerName: string, products: string[]) {
+  async createOrder(customerName: string, products: string[]): Promise<IOrderFromResponse> {
     await this.waitForOpened();
     expect(products.length).toBeGreaterThanOrEqual(1);
     expect(products.length).toBeLessThanOrEqual(5);
@@ -63,7 +66,13 @@ export class CreateOrderModal extends BaseModal {
       await this.clickAddProductButton();
       await this.selectProduct(i, products[i]!);
     }
-    await this.clickCreate();
+    const response = await this.interceptResponse<IOrderResponse, unknown[]>(
+      apiConfig.endpoints.orders,
+      this.clickCreate.bind(this),
+    );
+    expect(response.status).toBe(STATUS_CODES.CREATED);
+
+    return response.body.Order;
   }
 
   @logStep("CLICK CANCEL BUTTON IN CREATE ORDER MODAL")
