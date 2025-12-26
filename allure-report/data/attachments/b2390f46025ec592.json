@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 14:14:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-Ciq6ajcgEYi47gwCZkZJ2woxuDY\"",
+    "keep-alive": "timeout=5, max=35",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e983a1c508c5d5e1bb2c6",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e983a1c508c5d5e1bb276",
+        "email": "Kendra_Berge@gmail.com",
+        "name": "Robert Shanahan",
+        "country": "Belarus",
+        "city": "Newport Beach",
+        "street": "Schiller Gardens 65",
+        "house": 797,
+        "flat": 6515,
+        "phone": "+608822563780326",
+        "createdOn": "2025-12-26T14:14:18.000Z",
+        "notes": "TtVBL1Ltpke0HCb6oQ1jmuXN7ek9G5"
+      },
+      "products": [
+        {
+          "_id": "694e983a1c508c5d5e1bb298",
+          "name": "Pants85412",
+          "amount": 931,
+          "price": 22180,
+          "manufacturer": "Amazon",
+          "notes": "rQZVU3DwmoxVD9uYJcze4nN8DALvi8EYJAygoG6qpzm9E1tzKUxPVEGNyJ9tFDwYnMPt2h7VM66z0O6B5KaBuj4tE4T4ErwPvajzedr4l7n4sEO9p2QVFCisyQtda67vsY0hjeYomakH1bih6vGGbikpfx955oT7ibMmWHbyCBTPMCmlmmVwKwBhgszOXR6UanH4b3DtT9x6DABKcxjmJcppgCxA2St7dVFzOeaoOCwl79JnsitYJUfR2P",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Arifield",
+          "street": "Monroe Street",
+          "house": 856,
+          "flat": 5984
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22180,
+      "createdOn": "2025-12-26T14:14:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e983a1c508c5d5e1bb276",
+          "products": [
+            {
+              "_id": "694e983a1c508c5d5e1bb298",
+              "name": "Pants85412",
+              "amount": 931,
+              "price": 22180,
+              "manufacturer": "Amazon",
+              "notes": "rQZVU3DwmoxVD9uYJcze4nN8DALvi8EYJAygoG6qpzm9E1tzKUxPVEGNyJ9tFDwYnMPt2h7VM66z0O6B5KaBuj4tE4T4ErwPvajzedr4l7n4sEO9p2QVFCisyQtda67vsY0hjeYomakH1bih6vGGbikpfx955oT7ibMmWHbyCBTPMCmlmmVwKwBhgszOXR6UanH4b3DtT9x6DABKcxjmJcppgCxA2St7dVFzOeaoOCwl79JnsitYJUfR2P",
+              "received": false
+            }
+          ],
+          "total_price": 22180,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Arifield",
+              "street": "Monroe Street",
+              "house": 856,
+              "flat": 5984
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T14:14:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e983a1c508c5d5e1bb276",
+          "products": [
+            {
+              "_id": "694e983a1c508c5d5e1bb298",
+              "name": "Pants85412",
+              "amount": 931,
+              "price": 22180,
+              "manufacturer": "Amazon",
+              "notes": "rQZVU3DwmoxVD9uYJcze4nN8DALvi8EYJAygoG6qpzm9E1tzKUxPVEGNyJ9tFDwYnMPt2h7VM66z0O6B5KaBuj4tE4T4ErwPvajzedr4l7n4sEO9p2QVFCisyQtda67vsY0hjeYomakH1bih6vGGbikpfx955oT7ibMmWHbyCBTPMCmlmmVwKwBhgszOXR6UanH4b3DtT9x6DABKcxjmJcppgCxA2St7dVFzOeaoOCwl79JnsitYJUfR2P",
+              "received": false
+            }
+          ],
+          "total_price": 22180,
+          "delivery": null,
+          "changedOn": "2025-12-26T14:14:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

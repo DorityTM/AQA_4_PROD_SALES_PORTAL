@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 14:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3904",
+    "etag": "W/\"f40-0kgsdM3TQJ2PSHIuwmhy9luAtkU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e987d1c508c5d5e1be23b",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e987a1c508c5d5e1bdf65",
+        "email": "Bobby_Ankunding0@yahoo.com",
+        "name": "Braden Koss",
+        "country": "Ukraine",
+        "city": "Alexastad",
+        "street": "Halvorson Parkways 44",
+        "house": 707,
+        "flat": 6643,
+        "phone": "+901159150220315",
+        "createdOn": "2025-12-26T14:15:22.000Z",
+        "notes": "DK9E4txjc2MewQGk50HjxNnBI3BwH9"
+      },
+      "products": [
+        {
+          "_id": "694e987a1c508c5d5e1bdf89",
+          "name": "Computer48614",
+          "amount": 956,
+          "price": 84029,
+          "manufacturer": "Amazon",
+          "notes": "EsXqvAd398DLmXmfwlL30ikv20HuWILDJsgBuLvYdo4o8RyqTkWNw5PHONt9L8tnlBxdiinWI4Y3EB0wrY0GJIrLf4Juv7BWuxx4RQWYzNckR1x4kQBs7XrBLHOevG537p462CzE7p4IIhLSUYctzFcjBqhq1ThvBh3XeXKJ14pV3AYuL8BPrISnGDDan2aRkaQ6PanR2jCu2yQVPj1TE17rPIne6oEnOFs2jqvIppyMYdJ1JVa1Wltb2J",
+          "received": false
+        },
+        {
+          "_id": "694e987a1c508c5d5e1bdf9f",
+          "name": "Salad19937",
+          "amount": 352,
+          "price": 91933,
+          "manufacturer": "Samsung",
+          "notes": "cug3ARJOgHC5bkZ2bWtGoqVJT8EOLfa0EHRono3M8q7juUskpXUlVwozOcPMPCyN5XTaP2xsa6YLKF0TdgKjcElsQS0YlKJLIRugMAC3Mu6YIbyDMdxzz2PM7Fwd4WseBv5iDEknE76w5x0XKRl2q1P6A2yosKVZ9ihC8tcHhiMy5NySr3OQoVzBtTj7O7IopzWwzSbW34EJIsxYHiynxdgvUq41iL25KQFJqjhzevwHcLeqMkawBjOnD2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Bergnaumstad",
+          "street": "W Main",
+          "house": 13,
+          "flat": 4325
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 175962,
+      "createdOn": "2025-12-26T14:15:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e987a1c508c5d5e1bdf65",
+          "products": [
+            {
+              "_id": "694e987a1c508c5d5e1bdf89",
+              "name": "Computer48614",
+              "amount": 956,
+              "price": 84029,
+              "manufacturer": "Amazon",
+              "notes": "EsXqvAd398DLmXmfwlL30ikv20HuWILDJsgBuLvYdo4o8RyqTkWNw5PHONt9L8tnlBxdiinWI4Y3EB0wrY0GJIrLf4Juv7BWuxx4RQWYzNckR1x4kQBs7XrBLHOevG537p462CzE7p4IIhLSUYctzFcjBqhq1ThvBh3XeXKJ14pV3AYuL8BPrISnGDDan2aRkaQ6PanR2jCu2yQVPj1TE17rPIne6oEnOFs2jqvIppyMYdJ1JVa1Wltb2J",
+              "received": false
+            },
+            {
+              "_id": "694e987a1c508c5d5e1bdf9f",
+              "name": "Salad19937",
+              "amount": 352,
+              "price": 91933,
+              "manufacturer": "Samsung",
+              "notes": "cug3ARJOgHC5bkZ2bWtGoqVJT8EOLfa0EHRono3M8q7juUskpXUlVwozOcPMPCyN5XTaP2xsa6YLKF0TdgKjcElsQS0YlKJLIRugMAC3Mu6YIbyDMdxzz2PM7Fwd4WseBv5iDEknE76w5x0XKRl2q1P6A2yosKVZ9ihC8tcHhiMy5NySr3OQoVzBtTj7O7IopzWwzSbW34EJIsxYHiynxdgvUq41iL25KQFJqjhzevwHcLeqMkawBjOnD2",
+              "received": false
+            }
+          ],
+          "total_price": 175962,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Bergnaumstad",
+              "street": "W Main",
+              "house": 13,
+              "flat": 4325
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T14:15:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e987a1c508c5d5e1bdf65",
+          "products": [
+            {
+              "_id": "694e987a1c508c5d5e1bdf89",
+              "name": "Computer48614",
+              "amount": 956,
+              "price": 84029,
+              "manufacturer": "Amazon",
+              "notes": "EsXqvAd398DLmXmfwlL30ikv20HuWILDJsgBuLvYdo4o8RyqTkWNw5PHONt9L8tnlBxdiinWI4Y3EB0wrY0GJIrLf4Juv7BWuxx4RQWYzNckR1x4kQBs7XrBLHOevG537p462CzE7p4IIhLSUYctzFcjBqhq1ThvBh3XeXKJ14pV3AYuL8BPrISnGDDan2aRkaQ6PanR2jCu2yQVPj1TE17rPIne6oEnOFs2jqvIppyMYdJ1JVa1Wltb2J",
+              "received": false
+            },
+            {
+              "_id": "694e987a1c508c5d5e1bdf9f",
+              "name": "Salad19937",
+              "amount": 352,
+              "price": 91933,
+              "manufacturer": "Samsung",
+              "notes": "cug3ARJOgHC5bkZ2bWtGoqVJT8EOLfa0EHRono3M8q7juUskpXUlVwozOcPMPCyN5XTaP2xsa6YLKF0TdgKjcElsQS0YlKJLIRugMAC3Mu6YIbyDMdxzz2PM7Fwd4WseBv5iDEknE76w5x0XKRl2q1P6A2yosKVZ9ihC8tcHhiMy5NySr3OQoVzBtTj7O7IopzWwzSbW34EJIsxYHiynxdgvUq41iL25KQFJqjhzevwHcLeqMkawBjOnD2",
+              "received": false
+            }
+          ],
+          "total_price": 175962,
+          "delivery": null,
+          "changedOn": "2025-12-26T14:15:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

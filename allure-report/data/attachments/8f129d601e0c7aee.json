@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 14:15:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3682",
+    "etag": "W/\"e62-RTOsw4l4EWI7x3AWwTlFp89qEzI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e986a1c508c5d5e1bd418",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e98621c508c5d5e1bcf11",
+        "email": "Diego.Daniel99@gmail.com",
+        "name": "Aryanna Runolfsdottir",
+        "country": "France",
+        "city": "Strackehaven",
+        "street": "Ziemann Vista 57",
+        "house": 351,
+        "flat": 7664,
+        "phone": "+065618693006394",
+        "createdOn": "2025-12-26T14:14:58.000Z",
+        "notes": "rZOhLRDGrpITkSSsa2QxljiGyeeYU1"
+      },
+      "products": [
+        {
+          "_id": "694e98651c508c5d5e1bd2c7",
+          "name": "Bacon92923",
+          "amount": 491,
+          "price": 93170,
+          "manufacturer": "Apple",
+          "notes": "gZpfRx7gffAJFaTOZWwSpyN6y8BCcYUtJjIbBmI45DyPucbXSxJtnnI6Ro7Wu51QJIEPHmLIHiw4zaqmK5ZmKfw8jw60jBdezFgx9torweHb8Q8SLRAgUv4A0CqjK8ME2sByQlqAlKydm5UexwRKKDIQ5RgBER1n6UbfXjXRlFIDV7xQ1GqneTiHWfCplDiHYJPlWWElYb3N9JbVkig7vJGFIjOkckK6kkZlBotJYXeSyRRjB7lwkXGWH2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "East Deshaun",
+          "street": "Kestrel Close",
+          "house": 455,
+          "flat": 842
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 93170,
+      "createdOn": "2025-12-26T14:15:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e98621c508c5d5e1bcf11",
+          "products": [
+            {
+              "_id": "694e98651c508c5d5e1bd2c7",
+              "name": "Bacon92923",
+              "amount": 491,
+              "price": 93170,
+              "manufacturer": "Apple",
+              "notes": "gZpfRx7gffAJFaTOZWwSpyN6y8BCcYUtJjIbBmI45DyPucbXSxJtnnI6Ro7Wu51QJIEPHmLIHiw4zaqmK5ZmKfw8jw60jBdezFgx9torweHb8Q8SLRAgUv4A0CqjK8ME2sByQlqAlKydm5UexwRKKDIQ5RgBER1n6UbfXjXRlFIDV7xQ1GqneTiHWfCplDiHYJPlWWElYb3N9JbVkig7vJGFIjOkckK6kkZlBotJYXeSyRRjB7lwkXGWH2",
+              "received": false
+            }
+          ],
+          "total_price": 93170,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Deshaun",
+              "street": "Kestrel Close",
+              "house": 455,
+              "flat": 842
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-26T14:15:07.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e98621c508c5d5e1bcf11",
+          "products": [
+            {
+              "_id": "694e98651c508c5d5e1bd2c7",
+              "name": "Bacon92923",
+              "amount": 491,
+              "price": 93170,
+              "manufacturer": "Apple",
+              "notes": "gZpfRx7gffAJFaTOZWwSpyN6y8BCcYUtJjIbBmI45DyPucbXSxJtnnI6Ro7Wu51QJIEPHmLIHiw4zaqmK5ZmKfw8jw60jBdezFgx9torweHb8Q8SLRAgUv4A0CqjK8ME2sByQlqAlKydm5UexwRKKDIQ5RgBER1n6UbfXjXRlFIDV7xQ1GqneTiHWfCplDiHYJPlWWElYb3N9JbVkig7vJGFIjOkckK6kkZlBotJYXeSyRRjB7lwkXGWH2",
+              "received": false
+            }
+          ],
+          "total_price": 93170,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Ettiebury",
+              "street": "N Pearl Street",
+              "house": 131,
+              "flat": 8421
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T14:15:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e98621c508c5d5e1bcf11",
+          "products": [
+            {
+              "_id": "694e98651c508c5d5e1bd2c7",
+              "name": "Bacon92923",
+              "amount": 491,
+              "price": 93170,
+              "manufacturer": "Apple",
+              "notes": "gZpfRx7gffAJFaTOZWwSpyN6y8BCcYUtJjIbBmI45DyPucbXSxJtnnI6Ro7Wu51QJIEPHmLIHiw4zaqmK5ZmKfw8jw60jBdezFgx9torweHb8Q8SLRAgUv4A0CqjK8ME2sByQlqAlKydm5UexwRKKDIQ5RgBER1n6UbfXjXRlFIDV7xQ1GqneTiHWfCplDiHYJPlWWElYb3N9JbVkig7vJGFIjOkckK6kkZlBotJYXeSyRRjB7lwkXGWH2",
+              "received": false
+            }
+          ],
+          "total_price": 93170,
+          "delivery": null,
+          "changedOn": "2025-12-26T14:15:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

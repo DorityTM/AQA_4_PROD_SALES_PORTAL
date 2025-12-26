@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 14:16:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4607",
+    "etag": "W/\"11ff-YaNLBgc0tvxsxzccbKKUzTM2QCw\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e98b11c508c5d5e1c06cc",
+      "status": "Received",
+      "customer": {
+        "_id": "694e98af1c508c5d5e1c0552",
+        "email": "Gisselle7@yahoo.com",
+        "name": "Fannie Hessel",
+        "country": "Canada",
+        "city": "Lockmanborough",
+        "street": "Chapel Street 93",
+        "house": 485,
+        "flat": 3184,
+        "phone": "+136727848242292",
+        "createdOn": "2025-12-26T14:16:15.000Z",
+        "notes": "ZUpnuFIcUaYzF1SaU8sE13HilkCm5T"
+      },
+      "products": [
+        {
+          "_id": "694e98b11c508c5d5e1c06a4",
+          "name": "Car41965",
+          "amount": 844,
+          "price": 22987,
+          "manufacturer": "Google",
+          "notes": "b9oWke8aScAdG6hTM13HUcpjdByoSq8CeWAoGQIkO1LpK18WNR2X1Aedeq8koEDjOvYjVdA6zeamZPdNAP05LhZNdcbp3z9bxxmaWW9FgeUIFn5lTjgwx2DDGuJ2gYnJVelax5Yi1koSA5kAC6137cIVuzlMbl5bl1tbendovBNt6DKC5AcnTveJaHExzO3Qvbd10RfoipOLD07PVnNrJAl1F28ImvYfpEkQF0wWOXBbCkwihmDeF66dJ7",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Andersonstead",
+          "street": "Sycamore Close",
+          "house": 435,
+          "flat": 6154
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22987,
+      "createdOn": "2025-12-26T14:16:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694e98af1c508c5d5e1c0552",
+          "products": [
+            {
+              "_id": "694e98b11c508c5d5e1c06a4",
+              "name": "Car41965",
+              "amount": 844,
+              "price": 22987,
+              "manufacturer": "Google",
+              "notes": "b9oWke8aScAdG6hTM13HUcpjdByoSq8CeWAoGQIkO1LpK18WNR2X1Aedeq8koEDjOvYjVdA6zeamZPdNAP05LhZNdcbp3z9bxxmaWW9FgeUIFn5lTjgwx2DDGuJ2gYnJVelax5Yi1koSA5kAC6137cIVuzlMbl5bl1tbendovBNt6DKC5AcnTveJaHExzO3Qvbd10RfoipOLD07PVnNrJAl1F28ImvYfpEkQF0wWOXBbCkwihmDeF66dJ7",
+              "received": true
+            }
+          ],
+          "total_price": 22987,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Andersonstead",
+              "street": "Sycamore Close",
+              "house": 435,
+              "flat": 6154
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T14:16:27.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694e98af1c508c5d5e1c0552",
+          "products": [
+            {
+              "_id": "694e98b11c508c5d5e1c06a4",
+              "name": "Car41965",
+              "amount": 844,
+              "price": 22987,
+              "manufacturer": "Google",
+              "notes": "b9oWke8aScAdG6hTM13HUcpjdByoSq8CeWAoGQIkO1LpK18WNR2X1Aedeq8koEDjOvYjVdA6zeamZPdNAP05LhZNdcbp3z9bxxmaWW9FgeUIFn5lTjgwx2DDGuJ2gYnJVelax5Yi1koSA5kAC6137cIVuzlMbl5bl1tbendovBNt6DKC5AcnTveJaHExzO3Qvbd10RfoipOLD07PVnNrJAl1F28ImvYfpEkQF0wWOXBbCkwihmDeF66dJ7",
+              "received": false
+            }
+          ],
+          "total_price": 22987,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Andersonstead",
+              "street": "Sycamore Close",
+              "house": 435,
+              "flat": 6154
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T14:16:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e98af1c508c5d5e1c0552",
+          "products": [
+            {
+              "_id": "694e98b11c508c5d5e1c06a4",
+              "name": "Car41965",
+              "amount": 844,
+              "price": 22987,
+              "manufacturer": "Google",
+              "notes": "b9oWke8aScAdG6hTM13HUcpjdByoSq8CeWAoGQIkO1LpK18WNR2X1Aedeq8koEDjOvYjVdA6zeamZPdNAP05LhZNdcbp3z9bxxmaWW9FgeUIFn5lTjgwx2DDGuJ2gYnJVelax5Yi1koSA5kAC6137cIVuzlMbl5bl1tbendovBNt6DKC5AcnTveJaHExzO3Qvbd10RfoipOLD07PVnNrJAl1F28ImvYfpEkQF0wWOXBbCkwihmDeF66dJ7",
+              "received": false
+            }
+          ],
+          "total_price": 22987,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Andersonstead",
+              "street": "Sycamore Close",
+              "house": 435,
+              "flat": 6154
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T14:16:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e98af1c508c5d5e1c0552",
+          "products": [
+            {
+              "_id": "694e98b11c508c5d5e1c06a4",
+              "name": "Car41965",
+              "amount": 844,
+              "price": 22987,
+              "manufacturer": "Google",
+              "notes": "b9oWke8aScAdG6hTM13HUcpjdByoSq8CeWAoGQIkO1LpK18WNR2X1Aedeq8koEDjOvYjVdA6zeamZPdNAP05LhZNdcbp3z9bxxmaWW9FgeUIFn5lTjgwx2DDGuJ2gYnJVelax5Yi1koSA5kAC6137cIVuzlMbl5bl1tbendovBNt6DKC5AcnTveJaHExzO3Qvbd10RfoipOLD07PVnNrJAl1F28ImvYfpEkQF0wWOXBbCkwihmDeF66dJ7",
+              "received": false
+            }
+          ],
+          "total_price": 22987,
+          "delivery": null,
+          "changedOn": "2025-12-26T14:16:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

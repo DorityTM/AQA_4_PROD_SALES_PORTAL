@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 14:14:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1784",
+    "etag": "W/\"6f8-QnPCx97r/JM7hhp+hasCbp9bOXk\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e984d1c508c5d5e1bbf8d",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e984c1c508c5d5e1bbf39",
+        "email": "Colin_Abernathy@hotmail.com",
+        "name": "Sandy Abbott",
+        "country": "Ukraine",
+        "city": "Bartonville",
+        "street": "White Park 30",
+        "house": 945,
+        "flat": 4346,
+        "phone": "+611527842238525",
+        "createdOn": "2025-12-26T14:14:36.000Z",
+        "notes": "AKRTN6a64bX0t19wb1SdBOFzAP5Tkg"
+      },
+      "products": [
+        {
+          "_id": "694e984c1c508c5d5e1bbf60",
+          "name": "Mouse92569",
+          "amount": 275,
+          "price": 54032,
+          "manufacturer": "Google",
+          "notes": "MAwNypZ9MnZfwAmaLTI8kiDkjnxKaY20sHgtfK8yLTjNFpm2dnvwLgdjIkT2RgK8yd5XVQLsBiin2Raw6swY6PQbcUQzDzBtIcvYR2YjDPM7PvK1UAYAtMXy42L9BhKJQaMu3sSo9TDlfu9vpmucZnVqbZyehL2k2NhNmgJNvJx0PRccW3xKwWReFTP18LSTLWV9rxo0pkd226U0yLJyxCerjqc7b4I7niS6NLHi89WnbwWw1jVp1orFa2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 54032,
+      "createdOn": "2025-12-26T14:14:37.000Z",
+      "comments": [
+        {
+          "text": "Please check < invalid tag",
+          "createdOn": "2025-12-26T14:14:40.000Z",
+          "_id": "694e98501c508c5d5e1bc17d"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e984c1c508c5d5e1bbf39",
+          "products": [
+            {
+              "_id": "694e984c1c508c5d5e1bbf60",
+              "name": "Mouse92569",
+              "amount": 275,
+              "price": 54032,
+              "manufacturer": "Google",
+              "notes": "MAwNypZ9MnZfwAmaLTI8kiDkjnxKaY20sHgtfK8yLTjNFpm2dnvwLgdjIkT2RgK8yd5XVQLsBiin2Raw6swY6PQbcUQzDzBtIcvYR2YjDPM7PvK1UAYAtMXy42L9BhKJQaMu3sSo9TDlfu9vpmucZnVqbZyehL2k2NhNmgJNvJx0PRccW3xKwWReFTP18LSTLWV9rxo0pkd226U0yLJyxCerjqc7b4I7niS6NLHi89WnbwWw1jVp1orFa2",
+              "received": false
+            }
+          ],
+          "total_price": 54032,
+          "delivery": null,
+          "changedOn": "2025-12-26T14:14:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
