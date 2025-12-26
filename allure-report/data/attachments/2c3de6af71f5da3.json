@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 21:02:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3671",
+    "etag": "W/\"e57-mS5k4tInd+qgjNL/Sk3UEWnOSxE\"",
+    "keep-alive": "timeout=5, max=29",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ef7c81c508c5d5e30bd7a",
+      "status": "In Process",
+      "customer": {
+        "_id": "694ef7c81c508c5d5e30bd45",
+        "email": "Joanne.VonRueden@yahoo.com",
+        "name": "Brett Hagenes",
+        "country": "Belarus",
+        "city": "Wildermanchester",
+        "street": "Baby Canyon 46",
+        "house": 655,
+        "flat": 6683,
+        "phone": "+381316950674828",
+        "createdOn": "2025-12-26T21:02:00.000Z",
+        "notes": "nF210zsXCMrztPU7vaRqjSacrTUKsv"
+      },
+      "products": [
+        {
+          "_id": "694ef7c81c508c5d5e30bd55",
+          "name": "Tuna69541",
+          "amount": 621,
+          "price": 66367,
+          "manufacturer": "Microsoft",
+          "notes": "42YuAz4yVkpURE8EVaOppdE0LBXWNZAhKGATdsJV5RtDqUdtW1N4oYvKDpAIj2XCr5tmFjvsUYB9NIhZinkU2cTXQwB6EIJJIZsbsq2xKLzCJ6ZxJEhwHNaavmzXwZTC4fRSfBXFq7pRDEhLFnpWVFJkiJQ8wLHKNplHat3JtBBaX3BpruZ373pUSKIdcbIVlwnWgVEGhJOfd4Dxb3Hfuinu34iCB3Wd4DmTbQYbZKHb9iuzJSedAyr3hc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Evecester",
+          "street": "Oaklands",
+          "house": 518,
+          "flat": 5147
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 66367,
+      "createdOn": "2025-12-26T21:02:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694ef7c81c508c5d5e30bd45",
+          "products": [
+            {
+              "_id": "694ef7c81c508c5d5e30bd55",
+              "name": "Tuna69541",
+              "amount": 621,
+              "price": 66367,
+              "manufacturer": "Microsoft",
+              "notes": "42YuAz4yVkpURE8EVaOppdE0LBXWNZAhKGATdsJV5RtDqUdtW1N4oYvKDpAIj2XCr5tmFjvsUYB9NIhZinkU2cTXQwB6EIJJIZsbsq2xKLzCJ6ZxJEhwHNaavmzXwZTC4fRSfBXFq7pRDEhLFnpWVFJkiJQ8wLHKNplHat3JtBBaX3BpruZ373pUSKIdcbIVlwnWgVEGhJOfd4Dxb3Hfuinu34iCB3Wd4DmTbQYbZKHb9iuzJSedAyr3hc",
+              "received": false
+            }
+          ],
+          "total_price": 66367,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Evecester",
+              "street": "Oaklands",
+              "house": 518,
+              "flat": 5147
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T21:02:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ef7c81c508c5d5e30bd45",
+          "products": [
+            {
+              "_id": "694ef7c81c508c5d5e30bd55",
+              "name": "Tuna69541",
+              "amount": 621,
+              "price": 66367,
+              "manufacturer": "Microsoft",
+              "notes": "42YuAz4yVkpURE8EVaOppdE0LBXWNZAhKGATdsJV5RtDqUdtW1N4oYvKDpAIj2XCr5tmFjvsUYB9NIhZinkU2cTXQwB6EIJJIZsbsq2xKLzCJ6ZxJEhwHNaavmzXwZTC4fRSfBXFq7pRDEhLFnpWVFJkiJQ8wLHKNplHat3JtBBaX3BpruZ373pUSKIdcbIVlwnWgVEGhJOfd4Dxb3Hfuinu34iCB3Wd4DmTbQYbZKHb9iuzJSedAyr3hc",
+              "received": false
+            }
+          ],
+          "total_price": 66367,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Evecester",
+              "street": "Oaklands",
+              "house": 518,
+              "flat": 5147
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T21:02:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ef7c81c508c5d5e30bd45",
+          "products": [
+            {
+              "_id": "694ef7c81c508c5d5e30bd55",
+              "name": "Tuna69541",
+              "amount": 621,
+              "price": 66367,
+              "manufacturer": "Microsoft",
+              "notes": "42YuAz4yVkpURE8EVaOppdE0LBXWNZAhKGATdsJV5RtDqUdtW1N4oYvKDpAIj2XCr5tmFjvsUYB9NIhZinkU2cTXQwB6EIJJIZsbsq2xKLzCJ6ZxJEhwHNaavmzXwZTC4fRSfBXFq7pRDEhLFnpWVFJkiJQ8wLHKNplHat3JtBBaX3BpruZ373pUSKIdcbIVlwnWgVEGhJOfd4Dxb3Hfuinu34iCB3Wd4DmTbQYbZKHb9iuzJSedAyr3hc",
+              "received": false
+            }
+          ],
+          "total_price": 66367,
+          "delivery": null,
+          "changedOn": "2025-12-26T21:02:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

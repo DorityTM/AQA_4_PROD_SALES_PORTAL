@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 21:02:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5230",
+    "etag": "W/\"146e-HZvpvSF2vvftO2WCMy2LlpOps/0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ef7f21c508c5d5e30cd43",
+      "status": "In Process",
+      "customer": {
+        "_id": "694ef7f11c508c5d5e30ccd6",
+        "email": "Jason12@yahoo.com",
+        "name": "Miller Bayer",
+        "country": "France",
+        "city": "Devanport",
+        "street": "Leffler Underpass 20",
+        "house": 423,
+        "flat": 9243,
+        "phone": "+647409404416442",
+        "createdOn": "2025-12-26T21:02:41.000Z",
+        "notes": "DaerTadNgjxM64yTYUuorvHcLVBOrA"
+      },
+      "products": [
+        {
+          "_id": "694ef7f11c508c5d5e30ccf3",
+          "name": "Shoes47852",
+          "amount": 101,
+          "price": 21775,
+          "manufacturer": "Tesla",
+          "notes": "7hSxei1gBANEdUqfYKsOMvTUF6PTuL8dd8cgSKh15AO8elb05cf5j2S9h2Qaqf67ZBpwJ77CD3R5gRVjU3BrlSYXGuNOYWqCgVPstqtW1rmGY6g0sVyKyrfDprhtk25rDcce8yk5B9an93Z7fZSqfhyrxWdBtKlg7XxjGgYHawMjYmCDQoa8ygCFB5Svp8pHRuMDboMV3Z7x4RpWZOZdJpxK0HJ1PGqzap0xer2uT8nvKljWd8XrRxxC2w",
+          "received": false
+        },
+        {
+          "_id": "694ef7f11c508c5d5e30cd20",
+          "name": "Shoes91057",
+          "amount": 88,
+          "price": 67533,
+          "manufacturer": "Xiaomi",
+          "notes": "8jUJtYroHluj9JUmZ9c7pDxTlwSl1dWzRLdLHHYwKkzH2ZHPBHWZvscj8A9kQFp4hCUfApb0e1BGQ8Bzj1YP8zUoAYGIWfPoYGNOnEFdgj0p2emIEySPoI2B8B5CIC3OYKj8xE4dFvqLf5RVMLvvCiG5aoajRaNr6zfHsPdyM3tDOsGuNcJlT8oyqm2sy93dCpoFFyoZOajnv3fh2oPXE0YI8eeKyzXTigBA52XNCxx13z2B8K8NU1lz3L",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Gustchester",
+          "street": "Jackson Street",
+          "house": 325,
+          "flat": 1386
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 89308,
+      "createdOn": "2025-12-26T21:02:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694ef7f11c508c5d5e30ccd6",
+          "products": [
+            {
+              "_id": "694ef7f11c508c5d5e30ccf3",
+              "name": "Shoes47852",
+              "amount": 101,
+              "price": 21775,
+              "manufacturer": "Tesla",
+              "notes": "7hSxei1gBANEdUqfYKsOMvTUF6PTuL8dd8cgSKh15AO8elb05cf5j2S9h2Qaqf67ZBpwJ77CD3R5gRVjU3BrlSYXGuNOYWqCgVPstqtW1rmGY6g0sVyKyrfDprhtk25rDcce8yk5B9an93Z7fZSqfhyrxWdBtKlg7XxjGgYHawMjYmCDQoa8ygCFB5Svp8pHRuMDboMV3Z7x4RpWZOZdJpxK0HJ1PGqzap0xer2uT8nvKljWd8XrRxxC2w",
+              "received": false
+            },
+            {
+              "_id": "694ef7f11c508c5d5e30cd20",
+              "name": "Shoes91057",
+              "amount": 88,
+              "price": 67533,
+              "manufacturer": "Xiaomi",
+              "notes": "8jUJtYroHluj9JUmZ9c7pDxTlwSl1dWzRLdLHHYwKkzH2ZHPBHWZvscj8A9kQFp4hCUfApb0e1BGQ8Bzj1YP8zUoAYGIWfPoYGNOnEFdgj0p2emIEySPoI2B8B5CIC3OYKj8xE4dFvqLf5RVMLvvCiG5aoajRaNr6zfHsPdyM3tDOsGuNcJlT8oyqm2sy93dCpoFFyoZOajnv3fh2oPXE0YI8eeKyzXTigBA52XNCxx13z2B8K8NU1lz3L",
+              "received": false
+            }
+          ],
+          "total_price": 89308,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Gustchester",
+              "street": "Jackson Street",
+              "house": 325,
+              "flat": 1386
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T21:02:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ef7f11c508c5d5e30ccd6",
+          "products": [
+            {
+              "_id": "694ef7f11c508c5d5e30ccf3",
+              "name": "Shoes47852",
+              "amount": 101,
+              "price": 21775,
+              "manufacturer": "Tesla",
+              "notes": "7hSxei1gBANEdUqfYKsOMvTUF6PTuL8dd8cgSKh15AO8elb05cf5j2S9h2Qaqf67ZBpwJ77CD3R5gRVjU3BrlSYXGuNOYWqCgVPstqtW1rmGY6g0sVyKyrfDprhtk25rDcce8yk5B9an93Z7fZSqfhyrxWdBtKlg7XxjGgYHawMjYmCDQoa8ygCFB5Svp8pHRuMDboMV3Z7x4RpWZOZdJpxK0HJ1PGqzap0xer2uT8nvKljWd8XrRxxC2w",
+              "received": false
+            },
+            {
+              "_id": "694ef7f11c508c5d5e30cd20",
+              "name": "Shoes91057",
+              "amount": 88,
+              "price": 67533,
+              "manufacturer": "Xiaomi",
+              "notes": "8jUJtYroHluj9JUmZ9c7pDxTlwSl1dWzRLdLHHYwKkzH2ZHPBHWZvscj8A9kQFp4hCUfApb0e1BGQ8Bzj1YP8zUoAYGIWfPoYGNOnEFdgj0p2emIEySPoI2B8B5CIC3OYKj8xE4dFvqLf5RVMLvvCiG5aoajRaNr6zfHsPdyM3tDOsGuNcJlT8oyqm2sy93dCpoFFyoZOajnv3fh2oPXE0YI8eeKyzXTigBA52XNCxx13z2B8K8NU1lz3L",
+              "received": false
+            }
+          ],
+          "total_price": 89308,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Gustchester",
+              "street": "Jackson Street",
+              "house": 325,
+              "flat": 1386
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T21:02:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ef7f11c508c5d5e30ccd6",
+          "products": [
+            {
+              "_id": "694ef7f11c508c5d5e30ccf3",
+              "name": "Shoes47852",
+              "amount": 101,
+              "price": 21775,
+              "manufacturer": "Tesla",
+              "notes": "7hSxei1gBANEdUqfYKsOMvTUF6PTuL8dd8cgSKh15AO8elb05cf5j2S9h2Qaqf67ZBpwJ77CD3R5gRVjU3BrlSYXGuNOYWqCgVPstqtW1rmGY6g0sVyKyrfDprhtk25rDcce8yk5B9an93Z7fZSqfhyrxWdBtKlg7XxjGgYHawMjYmCDQoa8ygCFB5Svp8pHRuMDboMV3Z7x4RpWZOZdJpxK0HJ1PGqzap0xer2uT8nvKljWd8XrRxxC2w",
+              "received": false
+            },
+            {
+              "_id": "694ef7f11c508c5d5e30cd20",
+              "name": "Shoes91057",
+              "amount": 88,
+              "price": 67533,
+              "manufacturer": "Xiaomi",
+              "notes": "8jUJtYroHluj9JUmZ9c7pDxTlwSl1dWzRLdLHHYwKkzH2ZHPBHWZvscj8A9kQFp4hCUfApb0e1BGQ8Bzj1YP8zUoAYGIWfPoYGNOnEFdgj0p2emIEySPoI2B8B5CIC3OYKj8xE4dFvqLf5RVMLvvCiG5aoajRaNr6zfHsPdyM3tDOsGuNcJlT8oyqm2sy93dCpoFFyoZOajnv3fh2oPXE0YI8eeKyzXTigBA52XNCxx13z2B8K8NU1lz3L",
+              "received": false
+            }
+          ],
+          "total_price": 89308,
+          "delivery": null,
+          "changedOn": "2025-12-26T21:02:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

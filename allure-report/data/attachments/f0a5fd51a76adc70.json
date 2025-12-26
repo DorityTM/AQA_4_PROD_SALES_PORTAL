@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 21:02:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2747",
+    "etag": "W/\"abb-/G84L/exT+mrbVTq3bR97MY/GCo\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ef8011c508c5d5e30d4b6",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ef8001c508c5d5e30d46f",
+        "email": "Kris_Wilderman51@hotmail.com",
+        "name": "Lois Hoppe",
+        "country": "Ukraine",
+        "city": "New Eleanora",
+        "street": "Becker Flat 69",
+        "house": 122,
+        "flat": 634,
+        "phone": "+567414172442757",
+        "createdOn": "2025-12-26T21:02:56.000Z",
+        "notes": "QxKSOIZ5Pxaiyvkb9dDD9c6HyZmEk7"
+      },
+      "products": [
+        {
+          "_id": "694ef8011c508c5d5e30d492",
+          "name": "Shirt58825",
+          "amount": 103,
+          "price": 3001,
+          "manufacturer": "Sony",
+          "notes": "NOJcwXti1Yeq7Le6OtZvOuTMfESh5IilJha7t7GociAM4IEcmyvhAkAummtdl2ad72w8GEgBngtDEQKsPYLGMVZtLyrqwfujir7mKWGuXtNBYwn6khFAbz7cR0x2Wzkx4w3YhmNn6Dk9B54eyXJ3aVlEX6uA6EPuZYSgbtboaijBlwNVAtlnnXgzBW42ogWqCmbEoFRtEKMgsph7oywRzr3H1lOra978dZRshiU7poBjcKX5DzI9j5G5WS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Jakubowskicester",
+          "street": "Prosacco Hills",
+          "house": 915,
+          "flat": 3664
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3001,
+      "createdOn": "2025-12-26T21:02:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ef8001c508c5d5e30d46f",
+          "products": [
+            {
+              "_id": "694ef8011c508c5d5e30d492",
+              "name": "Shirt58825",
+              "amount": 103,
+              "price": 3001,
+              "manufacturer": "Sony",
+              "notes": "NOJcwXti1Yeq7Le6OtZvOuTMfESh5IilJha7t7GociAM4IEcmyvhAkAummtdl2ad72w8GEgBngtDEQKsPYLGMVZtLyrqwfujir7mKWGuXtNBYwn6khFAbz7cR0x2Wzkx4w3YhmNn6Dk9B54eyXJ3aVlEX6uA6EPuZYSgbtboaijBlwNVAtlnnXgzBW42ogWqCmbEoFRtEKMgsph7oywRzr3H1lOra978dZRshiU7poBjcKX5DzI9j5G5WS",
+              "received": false
+            }
+          ],
+          "total_price": 3001,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Jakubowskicester",
+              "street": "Prosacco Hills",
+              "house": 915,
+              "flat": 3664
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T21:02:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ef8001c508c5d5e30d46f",
+          "products": [
+            {
+              "_id": "694ef8011c508c5d5e30d492",
+              "name": "Shirt58825",
+              "amount": 103,
+              "price": 3001,
+              "manufacturer": "Sony",
+              "notes": "NOJcwXti1Yeq7Le6OtZvOuTMfESh5IilJha7t7GociAM4IEcmyvhAkAummtdl2ad72w8GEgBngtDEQKsPYLGMVZtLyrqwfujir7mKWGuXtNBYwn6khFAbz7cR0x2Wzkx4w3YhmNn6Dk9B54eyXJ3aVlEX6uA6EPuZYSgbtboaijBlwNVAtlnnXgzBW42ogWqCmbEoFRtEKMgsph7oywRzr3H1lOra978dZRshiU7poBjcKX5DzI9j5G5WS",
+              "received": false
+            }
+          ],
+          "total_price": 3001,
+          "delivery": null,
+          "changedOn": "2025-12-26T21:02:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

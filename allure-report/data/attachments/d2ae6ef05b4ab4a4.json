@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 21:02:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4261",
+    "etag": "W/\"10a5-AVyhsIHhRQfVQ7b5IYY1HjwcO0I\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ef7f91c508c5d5e30d0bf",
+      "status": "Draft",
+      "customer": {
+        "_id": "694ef7f81c508c5d5e30d079",
+        "email": "Pete.Vandervort@yahoo.com",
+        "name": "Cornelius Strosin",
+        "country": "France",
+        "city": "Lake Jedidiah",
+        "street": "Etha Lock 94",
+        "house": 519,
+        "flat": 1928,
+        "phone": "+756355518403771",
+        "createdOn": "2025-12-26T21:02:48.000Z",
+        "notes": "ty5rs6TMcJs0QKQLsvayNgFxA4U1kd"
+      },
+      "products": [
+        {
+          "_id": "694ef7f91c508c5d5e30d0a7",
+          "name": "Salad1272",
+          "amount": 534,
+          "price": 87459,
+          "manufacturer": "Tesla",
+          "notes": "sVoQKWzkjtetvGRQPd8KeMRomxHtcbaXlnOUPKx31v0mg5SRz4IHDUWzCeIbrswcjkmttAjIJBxTpR0mEmYtTDvfzMvSUd9MjMn6djtiGKWW9Dk1HvIgYh58j4uOUA7VprhjswnL7l14Mi7Gx8ZgcyYensx4L2VXhHysgXQOTFYcy8TV8TaJVp2UasMArCUjJTfHbUJsog6xBrBOouBSENv4Drj5AEV8pN5vgDoh2Bm0SRkePijFZAAGob",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 87459,
+      "createdOn": "2025-12-26T21:02:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694ef7f81c508c5d5e30d079",
+          "products": [
+            {
+              "_id": "694ef7f91c508c5d5e30d0a7",
+              "name": "Salad1272",
+              "amount": 534,
+              "price": 87459,
+              "manufacturer": "Tesla",
+              "notes": "sVoQKWzkjtetvGRQPd8KeMRomxHtcbaXlnOUPKx31v0mg5SRz4IHDUWzCeIbrswcjkmttAjIJBxTpR0mEmYtTDvfzMvSUd9MjMn6djtiGKWW9Dk1HvIgYh58j4uOUA7VprhjswnL7l14Mi7Gx8ZgcyYensx4L2VXhHysgXQOTFYcy8TV8TaJVp2UasMArCUjJTfHbUJsog6xBrBOouBSENv4Drj5AEV8pN5vgDoh2Bm0SRkePijFZAAGob",
+              "received": false
+            }
+          ],
+          "total_price": 87459,
+          "delivery": null,
+          "changedOn": "2025-12-26T21:02:50.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "694ef7f81c508c5d5e30d079",
+          "products": [
+            {
+              "_id": "694ef7f91c508c5d5e30d0a7",
+              "name": "Salad1272",
+              "amount": 534,
+              "price": 87459,
+              "manufacturer": "Tesla",
+              "notes": "sVoQKWzkjtetvGRQPd8KeMRomxHtcbaXlnOUPKx31v0mg5SRz4IHDUWzCeIbrswcjkmttAjIJBxTpR0mEmYtTDvfzMvSUd9MjMn6djtiGKWW9Dk1HvIgYh58j4uOUA7VprhjswnL7l14Mi7Gx8ZgcyYensx4L2VXhHysgXQOTFYcy8TV8TaJVp2UasMArCUjJTfHbUJsog6xBrBOouBSENv4Drj5AEV8pN5vgDoh2Bm0SRkePijFZAAGob",
+              "received": false
+            }
+          ],
+          "total_price": 87459,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Archchester",
+              "street": "Central Street",
+              "house": 834,
+              "flat": 9375
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T21:02:50.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ef7f81c508c5d5e30d079",
+          "products": [
+            {
+              "_id": "694ef7f91c508c5d5e30d0a7",
+              "name": "Salad1272",
+              "amount": 534,
+              "price": 87459,
+              "manufacturer": "Tesla",
+              "notes": "sVoQKWzkjtetvGRQPd8KeMRomxHtcbaXlnOUPKx31v0mg5SRz4IHDUWzCeIbrswcjkmttAjIJBxTpR0mEmYtTDvfzMvSUd9MjMn6djtiGKWW9Dk1HvIgYh58j4uOUA7VprhjswnL7l14Mi7Gx8ZgcyYensx4L2VXhHysgXQOTFYcy8TV8TaJVp2UasMArCUjJTfHbUJsog6xBrBOouBSENv4Drj5AEV8pN5vgDoh2Bm0SRkePijFZAAGob",
+              "received": false
+            }
+          ],
+          "total_price": 87459,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Archchester",
+              "street": "Central Street",
+              "house": 834,
+              "flat": 9375
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T21:02:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ef7f81c508c5d5e30d079",
+          "products": [
+            {
+              "_id": "694ef7f91c508c5d5e30d0a7",
+              "name": "Salad1272",
+              "amount": 534,
+              "price": 87459,
+              "manufacturer": "Tesla",
+              "notes": "sVoQKWzkjtetvGRQPd8KeMRomxHtcbaXlnOUPKx31v0mg5SRz4IHDUWzCeIbrswcjkmttAjIJBxTpR0mEmYtTDvfzMvSUd9MjMn6djtiGKWW9Dk1HvIgYh58j4uOUA7VprhjswnL7l14Mi7Gx8ZgcyYensx4L2VXhHysgXQOTFYcy8TV8TaJVp2UasMArCUjJTfHbUJsog6xBrBOouBSENv4Drj5AEV8pN5vgDoh2Bm0SRkePijFZAAGob",
+              "received": false
+            }
+          ],
+          "total_price": 87459,
+          "delivery": null,
+          "changedOn": "2025-12-26T21:02:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

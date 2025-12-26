@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 21:01:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3670",
+    "etag": "W/\"e56-9Tsi6irVsrhAR5mSa5KpsqWrg+4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694ef7c21c508c5d5e30bb83",
+      "status": "In Process",
+      "customer": {
+        "_id": "694ef7c21c508c5d5e30bb48",
+        "email": "Christelle92@gmail.com",
+        "name": "Margaretta Sauer",
+        "country": "France",
+        "city": "South Morgan",
+        "street": "Destiney Gardens 4",
+        "house": 974,
+        "flat": 8235,
+        "phone": "+523130388741006",
+        "createdOn": "2025-12-26T21:01:54.000Z",
+        "notes": "0CV2161haBn024BOVFK0PQw2PzK5FS"
+      },
+      "products": [
+        {
+          "_id": "694ef7c21c508c5d5e30bb64",
+          "name": "Chips44320",
+          "amount": 985,
+          "price": 92832,
+          "manufacturer": "Xiaomi",
+          "notes": "ylGK59GZ9Fw7a3rVkoe9TxObIiiULXFF0n5huMcFMi6Jot1R64Y2SFKOlbfgOIHvWNdI9AYHob1IHe9qu1sAbIGrag1jX5ElZgHkS5wV7ca5hZQIbHvWFluuJRtxKaPif3RsB9aCQCBMsxRdEw5V4v8RkOJEkTilyHVGAucXSLjatT8BuZAPh2yaAz5ADTRzqeubmg3TG8loyBLZa9HV5GvSDIUU4UBsjpwPNBgjWkdAsHjxJNJx95sLJ7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Edmond",
+          "street": "Amari Fork",
+          "house": 508,
+          "flat": 1067
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92832,
+      "createdOn": "2025-12-26T21:01:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694ef7c21c508c5d5e30bb48",
+          "products": [
+            {
+              "_id": "694ef7c21c508c5d5e30bb64",
+              "name": "Chips44320",
+              "amount": 985,
+              "price": 92832,
+              "manufacturer": "Xiaomi",
+              "notes": "ylGK59GZ9Fw7a3rVkoe9TxObIiiULXFF0n5huMcFMi6Jot1R64Y2SFKOlbfgOIHvWNdI9AYHob1IHe9qu1sAbIGrag1jX5ElZgHkS5wV7ca5hZQIbHvWFluuJRtxKaPif3RsB9aCQCBMsxRdEw5V4v8RkOJEkTilyHVGAucXSLjatT8BuZAPh2yaAz5ADTRzqeubmg3TG8loyBLZa9HV5GvSDIUU4UBsjpwPNBgjWkdAsHjxJNJx95sLJ7",
+              "received": false
+            }
+          ],
+          "total_price": 92832,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Edmond",
+              "street": "Amari Fork",
+              "house": 508,
+              "flat": 1067
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T21:01:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ef7c21c508c5d5e30bb48",
+          "products": [
+            {
+              "_id": "694ef7c21c508c5d5e30bb64",
+              "name": "Chips44320",
+              "amount": 985,
+              "price": 92832,
+              "manufacturer": "Xiaomi",
+              "notes": "ylGK59GZ9Fw7a3rVkoe9TxObIiiULXFF0n5huMcFMi6Jot1R64Y2SFKOlbfgOIHvWNdI9AYHob1IHe9qu1sAbIGrag1jX5ElZgHkS5wV7ca5hZQIbHvWFluuJRtxKaPif3RsB9aCQCBMsxRdEw5V4v8RkOJEkTilyHVGAucXSLjatT8BuZAPh2yaAz5ADTRzqeubmg3TG8loyBLZa9HV5GvSDIUU4UBsjpwPNBgjWkdAsHjxJNJx95sLJ7",
+              "received": false
+            }
+          ],
+          "total_price": 92832,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Edmond",
+              "street": "Amari Fork",
+              "house": 508,
+              "flat": 1067
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T21:01:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694ef7c21c508c5d5e30bb48",
+          "products": [
+            {
+              "_id": "694ef7c21c508c5d5e30bb64",
+              "name": "Chips44320",
+              "amount": 985,
+              "price": 92832,
+              "manufacturer": "Xiaomi",
+              "notes": "ylGK59GZ9Fw7a3rVkoe9TxObIiiULXFF0n5huMcFMi6Jot1R64Y2SFKOlbfgOIHvWNdI9AYHob1IHe9qu1sAbIGrag1jX5ElZgHkS5wV7ca5hZQIbHvWFluuJRtxKaPif3RsB9aCQCBMsxRdEw5V4v8RkOJEkTilyHVGAucXSLjatT8BuZAPh2yaAz5ADTRzqeubmg3TG8loyBLZa9HV5GvSDIUU4UBsjpwPNBgjWkdAsHjxJNJx95sLJ7",
+              "received": false
+            }
+          ],
+          "total_price": 92832,
+          "delivery": null,
+          "changedOn": "2025-12-26T21:01:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
