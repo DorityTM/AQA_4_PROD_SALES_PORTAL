@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:32:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3682",
+    "etag": "W/\"e62-Aab4VJK7OqHBq2gOmU85Kn6mg78\"",
+    "keep-alive": "timeout=5, max=32",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e80731c508c5d5e15b85d",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e80721c508c5d5e15b81f",
+        "email": "Trey.OKon@yahoo.com",
+        "name": "Telly Mayert",
+        "country": "France",
+        "city": "Cristinamouth",
+        "street": "Poplar Street 10",
+        "house": 387,
+        "flat": 427,
+        "phone": "+751312813412306",
+        "createdOn": "2025-12-26T12:32:50.000Z",
+        "notes": "fNIFns5bXnrMl70HLmyWSHwYQLqX3C"
+      },
+      "products": [
+        {
+          "_id": "694e80721c508c5d5e15b836",
+          "name": "Mouse56020",
+          "amount": 306,
+          "price": 34358,
+          "manufacturer": "Amazon",
+          "notes": "Fs6Gx8CDR6WHO5uJ1uE1OTd3oGVocLYCddpHIe0GPSNKCNq5ETqxzvja6JLx3hu7LvYqCyyPtzVV2A7dT5Uziw4DPQqHEle9fwAiM0Mtv3XfaIwPnCxEoruSHgEW3HWS0i8SCv2ijhLAuUsv8nT8EFpddYxNviOBrKRyVqmxjbOZnGl3IkOcWlzgUGyaVPsl2UDFp3NuMDb40GyZZkCJYnsrb9ciNQjIdB5y7AG1Jwte4dTqL0QG207RQY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Palm Bay",
+          "street": "Lindgren Street",
+          "house": 568,
+          "flat": 4821
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 34358,
+      "createdOn": "2025-12-26T12:32:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e80721c508c5d5e15b81f",
+          "products": [
+            {
+              "_id": "694e80721c508c5d5e15b836",
+              "name": "Mouse56020",
+              "amount": 306,
+              "price": 34358,
+              "manufacturer": "Amazon",
+              "notes": "Fs6Gx8CDR6WHO5uJ1uE1OTd3oGVocLYCddpHIe0GPSNKCNq5ETqxzvja6JLx3hu7LvYqCyyPtzVV2A7dT5Uziw4DPQqHEle9fwAiM0Mtv3XfaIwPnCxEoruSHgEW3HWS0i8SCv2ijhLAuUsv8nT8EFpddYxNviOBrKRyVqmxjbOZnGl3IkOcWlzgUGyaVPsl2UDFp3NuMDb40GyZZkCJYnsrb9ciNQjIdB5y7AG1Jwte4dTqL0QG207RQY",
+              "received": false
+            }
+          ],
+          "total_price": 34358,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Palm Bay",
+              "street": "Lindgren Street",
+              "house": 568,
+              "flat": 4821
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:32:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e80721c508c5d5e15b81f",
+          "products": [
+            {
+              "_id": "694e80721c508c5d5e15b836",
+              "name": "Mouse56020",
+              "amount": 306,
+              "price": 34358,
+              "manufacturer": "Amazon",
+              "notes": "Fs6Gx8CDR6WHO5uJ1uE1OTd3oGVocLYCddpHIe0GPSNKCNq5ETqxzvja6JLx3hu7LvYqCyyPtzVV2A7dT5Uziw4DPQqHEle9fwAiM0Mtv3XfaIwPnCxEoruSHgEW3HWS0i8SCv2ijhLAuUsv8nT8EFpddYxNviOBrKRyVqmxjbOZnGl3IkOcWlzgUGyaVPsl2UDFp3NuMDb40GyZZkCJYnsrb9ciNQjIdB5y7AG1Jwte4dTqL0QG207RQY",
+              "received": false
+            }
+          ],
+          "total_price": 34358,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Palm Bay",
+              "street": "Lindgren Street",
+              "house": 568,
+              "flat": 4821
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:32:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e80721c508c5d5e15b81f",
+          "products": [
+            {
+              "_id": "694e80721c508c5d5e15b836",
+              "name": "Mouse56020",
+              "amount": 306,
+              "price": 34358,
+              "manufacturer": "Amazon",
+              "notes": "Fs6Gx8CDR6WHO5uJ1uE1OTd3oGVocLYCddpHIe0GPSNKCNq5ETqxzvja6JLx3hu7LvYqCyyPtzVV2A7dT5Uziw4DPQqHEle9fwAiM0Mtv3XfaIwPnCxEoruSHgEW3HWS0i8SCv2ijhLAuUsv8nT8EFpddYxNviOBrKRyVqmxjbOZnGl3IkOcWlzgUGyaVPsl2UDFp3NuMDb40GyZZkCJYnsrb9ciNQjIdB5y7AG1Jwte4dTqL0QG207RQY",
+              "received": false
+            }
+          ],
+          "total_price": 34358,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:32:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
