@@ -1,5 +1,4 @@
 import { expect, Locator } from "@playwright/test";
-import { OrderDetailsPage } from "../../order-details.page";
 import { ORDER_HISTORY_ACTIONS, ORDER_STATUS } from "data/salesPortal/order-status";
 import {
   HistoryEventRow,
@@ -12,8 +11,9 @@ import {
   ManagerField,
 } from "data/types/delivery.types";
 import { logStep } from "utils/report/logStep.utils";
+import { SalesPortalPage } from "ui/pages/salesPortal.page";
 
-export class OrderHistoryTab extends OrderDetailsPage {
+export class OrderHistoryTab extends SalesPortalPage {
   readonly uniqueElement = this.page.locator("h4", { hasText: "Order History" });
 
   readonly tab = this.page.locator('#history[role="tabpanel"]');

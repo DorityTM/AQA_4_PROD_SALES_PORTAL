@@ -1,23 +1,25 @@
 import { expect, Locator } from "@playwright/test";
-import { OrderDetailsPage } from "../../order-details.page";
 import { logStep } from "utils/report/logStep.utils";
+import { SalesPortalPage } from "ui/pages/salesPortal.page";
 
-export class CommentsTab extends OrderDetailsPage {
+export class CommentsTab extends SalesPortalPage {
   readonly tab = this.page.locator('#comments[role="tabpanel"]');
   readonly uniqueElement = this.tab.locator("h4", { hasText: "Comments" });
   // form
   readonly textarea = this.tab.locator("#textareaComments");
   readonly error = this.tab.locator("#error-textareaComments");
   readonly createButton = this.tab.locator("#create-comment-btn");
+  readonly deleteButtonSelector = this.tab.locator('button[name="delete-comment"][title="Delete"]');
   // cards
   readonly commentCards = this.tab.locator("div.shadow-sm.rounded.mx-3.my-3.p-3.border");
+  readonly commentText = this.commentCards.locator("p.m-0");
 
   private cardText(card: Locator) {
-    return card.locator("p.m-0");
+    return card.locator(this.commentText);
   }
 
   private deleteButton(card: Locator) {
-    return card.locator('button[name="delete-comment"][title="Delete"]');
+    return card.locator(this.deleteButtonSelector);
   }
 
   @logStep("CREATE BUTTON IS DISABLED")
@@ -42,9 +44,10 @@ export class CommentsTab extends OrderDetailsPage {
 
   @logStep("CLICK CREATE BUTTON")
   async clickCreate() {
-    await this.tab.locator("#create-comment-btn:enabled").click();
+    await this.createButton.click();
   }
 
+  //NEED TO ADD TO SERVICE
   @logStep("CREATE COMMENT")
   async createComment(text: string) {
     const before = await this.commentCards.count();
@@ -57,6 +60,7 @@ export class CommentsTab extends OrderDetailsPage {
     await this.expectCreateDisabled();
   }
 
+  //NEED TO ADD TO SERVICE
   @logStep("DELETE ALL COMMENTS")
   async deleteAllComments() {
     while (await this.commentCards.count()) {
@@ -67,9 +71,10 @@ export class CommentsTab extends OrderDetailsPage {
     }
   }
 
+  //NEED TO ADD TO SERVICE
   @logStep("DELETE ALL COMMENTS BY TEXT")
   async deleteCommentsByText(text: string) {
-    let card = this.commentCards.filter({ has: this.tab.locator("p.m-0", { hasText: text }) }).first();
+    let card = this.commentCards.filter({ has: this.commentText.filter({ hasText: text }) }).first();
     while (await card.count()) {
       const before = await this.commentCards.count();
       await this.deleteButton(card).click();

@@ -2,10 +2,10 @@ import { Locator, expect } from "@playwright/test";
 import { COUNTRY } from "data/salesPortal/country";
 import { DELIVERY_CONDITION } from "data/salesPortal/delivery-status";
 import { ScheduleDeliveryFormData } from "data/types/delivery.types";
-import { DeliveryTab } from "./delivery.tab.page";
 import { logStep } from "utils/report/logStep.utils";
+import { SalesPortalPage } from "ui/pages/salesPortal.page";
 
-export class ScheduleDeliveryPage extends DeliveryTab {
+export class ScheduleDeliveryPage extends SalesPortalPage {
   readonly uniqueElement = this.page.locator("#delivery-container h2.fw-bold");
   readonly form = this.page.locator("#delivery-container form#edit-delivery");
   readonly title = this.page.locator("#delivery-container h2.fw-bold"); // "Schedule Delivery" | "Edit Delivery"
