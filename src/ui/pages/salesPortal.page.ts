@@ -26,7 +26,6 @@ export abstract class SalesPortalPage extends BasePage {
       ? route
           .trim()
           // allow passing '/#/orders/123', '#/orders/123', or '/orders/123'
-          .replace(/^\/?#\/?/, "")
           .replace(/^\//, "")
       : "";
     const url = normalizedRoute ? SALES_PORTAL_URL + normalizedRoute : SALES_PORTAL_URL;

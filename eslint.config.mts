@@ -34,6 +34,6 @@ export default [
     }
   },
   {
-    ignores: ["**/node_modules/**", "**/dist/**", "eslint.config.mts", "lint-staged.config.js"]
+    ignores: ["**/node_modules/**", "**/dist/**", "eslint.config.mts", "lint-staged.config.js", "**/allure-results/**", "**/playwright-report/**"]
   }
 ];

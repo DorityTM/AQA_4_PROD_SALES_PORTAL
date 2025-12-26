@@ -1,10 +1,12 @@
+import { COUNTRY } from "./country";
+
 export enum DELIVERY_CONDITION {
   DELIVERY = "Delivery",
   PICKUP = "Pickup",
 }
 
 export interface IDeliveryAddress {
-  country: string;
+  country: COUNTRY;
   city: string;
   street: string;
   house: number;

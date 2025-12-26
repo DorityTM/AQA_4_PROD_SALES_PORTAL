@@ -4,6 +4,7 @@ export enum ORDER_STATUS {
   PARTIALLY_RECEIVED = "Partially Received",
   RECEIVED = "Received",
   CANCELED = "Canceled",
+  EMPTY = "-",
 }
 
 export enum ORDER_HISTORY_ACTIONS {

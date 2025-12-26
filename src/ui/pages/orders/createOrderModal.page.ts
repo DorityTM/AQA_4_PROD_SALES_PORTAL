@@ -1,8 +1,11 @@
 import { expect } from "@playwright/test";
-import { SalesPortalPage } from "../salesPortal.page";
 import { logStep } from "utils/report/logStep.utils";
+import { IOrderFromResponse, IOrderResponse } from "data/types/order.types";
+import { apiConfig } from "config/apiConfig";
+import { STATUS_CODES } from "data/statusCodes";
+import { BaseModal } from "../base.modal";
 
-export class CreateOrderModal extends SalesPortalPage {
+export class CreateOrderModal extends BaseModal {
   readonly uniqueElement = this.page.locator("#add-order-modal");
   readonly title = this.uniqueElement.getByText("Create Order");
   readonly closeButton = this.uniqueElement.locator("button.btn-close");
@@ -21,17 +24,15 @@ export class CreateOrderModal extends SalesPortalPage {
 
   @logStep("SELECT PRODUCT IN CREATE ORDER MODAL")
   async selectProduct(index: number, productName: string) {
-    const dropdown = await this.selectProductsDropdown.nth(index);
+    const dropdown = this.selectProductsDropdown.nth(index);
     await expect(dropdown).toBeVisible();
     await dropdown.selectOption(productName);
   }
 
   @logStep("CLICK ADD PRODUCT BUTTON IN CREATE ORDER MODAL")
-  async addProduct() {
+  async clickAddProductButton() {
     await expect(this.addProductButton).toBeVisible();
     await this.addProductButton.click();
-    const dropdownsCount = await this.selectProductsDropdown.count();
-    await expect(this.selectProductsDropdown).toHaveCount(dropdownsCount);
   }
 
   @logStep("DELETE PRODUCT IN CREATE ORDER MODAL")
@@ -55,16 +56,23 @@ export class CreateOrderModal extends SalesPortalPage {
   }
 
   @logStep("CREATE ORDER IN CREATE ORDER MODAL")
-  async createOrder(customerName: string, products: string[]) {
+  async createOrder(customerName: string, products: string[]): Promise<IOrderFromResponse> {
     await this.waitForOpened();
-    await this.selectCustomer(customerName);
     expect(products.length).toBeGreaterThanOrEqual(1);
+    expect(products.length).toBeLessThanOrEqual(5);
+    await this.selectCustomer(customerName);
     await this.selectProduct(0, products[0]!);
     for (let i = 1; i < products.length; i++) {
-      await this.addProduct();
+      await this.clickAddProductButton();
       await this.selectProduct(i, products[i]!);
     }
-    await this.clickCreate();
+    const response = await this.interceptResponse<IOrderResponse, unknown[]>(
+      apiConfig.endpoints.orders,
+      this.clickCreate.bind(this),
+    );
+    expect(response.status).toBe(STATUS_CODES.CREATED);
+
+    return response.body.Order;
   }
 
   @logStep("CLICK CANCEL BUTTON IN CREATE ORDER MODAL")
@@ -72,8 +80,8 @@ export class CreateOrderModal extends SalesPortalPage {
     await this.cancelButton.click();
   }
 
-  @logStep("CLOSE CREATE ORDER MODAL")
-  async close() {
+  @logStep("CLICK CLOSE BUTTON IN CREATE ORDER MODAL")
+  async clickClose() {
     await this.closeButton.click();
   }
 }

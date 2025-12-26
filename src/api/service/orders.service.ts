@@ -235,8 +235,8 @@ export class OrdersApiService {
     productsCount: number,
   ): Promise<{
     customerId: string;
-    customerName: string
-    productIds: string[]
+    customerName: string;
+    productIds: string[];
     productNames: string[];
   }> {
     const customer = await this.customersApiService.create(token);
@@ -251,6 +251,6 @@ export class OrdersApiService {
     }
     this.entitiesStore.trackProducts(productIds);
 
-    return { customerId: customer._id, productIds, customerName: customer.name, productNames};
+    return { customerId: customer._id, productIds, customerName: customer.name, productNames };
   }
 }
