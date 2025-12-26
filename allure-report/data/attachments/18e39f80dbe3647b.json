@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 13:07:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4602",
+    "etag": "W/\"11fa-GDHFfdQdNaGtiaTEK8DU3J/9G5s\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e88a01c508c5d5e1912a0",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694e889e1c508c5d5e19114e",
+        "email": "Frances_Gerhold@hotmail.com",
+        "name": "Haley Wisoky",
+        "country": "USA",
+        "city": "South Jonathon",
+        "street": "N Washington Avenue 98",
+        "house": 176,
+        "flat": 2349,
+        "phone": "+390273951466956",
+        "createdOn": "2025-12-26T13:07:42.000Z",
+        "notes": "46dJLswgaOvb6JClBjbsNa4aL8hsih"
+      },
+      "products": [
+        {
+          "_id": "694e88a01c508c5d5e191279",
+          "name": "Mouse38044",
+          "amount": 115,
+          "price": 14523,
+          "manufacturer": "Amazon",
+          "notes": "bNN5ZV8x4Nnx06K21BPhBKuWAliNCI1yNiv0WUYLrOetXLmVRPIUcLadQqZrreG1z685UWtdw7VwKVWxmhpDQzRKpB4pgTbnhd1XWEVj8PFflkI9PpqSbsEDys8F7nidB589qPmmTFUiQEXxDNImjYMQot7lh7OfwMrhAUxW81NeAbd12B0CQeM2UJl0Fb0XbiWpmOf7FxmRSGlbOcsd03WAcpBEDISnnKvtZMVqoZPfoAt8EobRp9Eipu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Gulfport",
+          "street": "Howard Centers",
+          "house": 653,
+          "flat": 7843
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 14523,
+      "createdOn": "2025-12-26T13:07:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694e889e1c508c5d5e19114e",
+          "products": [
+            {
+              "_id": "694e88a01c508c5d5e191279",
+              "name": "Mouse38044",
+              "amount": 115,
+              "price": 14523,
+              "manufacturer": "Amazon",
+              "notes": "bNN5ZV8x4Nnx06K21BPhBKuWAliNCI1yNiv0WUYLrOetXLmVRPIUcLadQqZrreG1z685UWtdw7VwKVWxmhpDQzRKpB4pgTbnhd1XWEVj8PFflkI9PpqSbsEDys8F7nidB589qPmmTFUiQEXxDNImjYMQot7lh7OfwMrhAUxW81NeAbd12B0CQeM2UJl0Fb0XbiWpmOf7FxmRSGlbOcsd03WAcpBEDISnnKvtZMVqoZPfoAt8EobRp9Eipu",
+              "received": false
+            }
+          ],
+          "total_price": 14523,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Gulfport",
+              "street": "Howard Centers",
+              "house": 653,
+              "flat": 7843
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:07:51.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694e889e1c508c5d5e19114e",
+          "products": [
+            {
+              "_id": "694e88a01c508c5d5e191279",
+              "name": "Mouse38044",
+              "amount": 115,
+              "price": 14523,
+              "manufacturer": "Amazon",
+              "notes": "bNN5ZV8x4Nnx06K21BPhBKuWAliNCI1yNiv0WUYLrOetXLmVRPIUcLadQqZrreG1z685UWtdw7VwKVWxmhpDQzRKpB4pgTbnhd1XWEVj8PFflkI9PpqSbsEDys8F7nidB589qPmmTFUiQEXxDNImjYMQot7lh7OfwMrhAUxW81NeAbd12B0CQeM2UJl0Fb0XbiWpmOf7FxmRSGlbOcsd03WAcpBEDISnnKvtZMVqoZPfoAt8EobRp9Eipu",
+              "received": false
+            }
+          ],
+          "total_price": 14523,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Gulfport",
+              "street": "Howard Centers",
+              "house": 653,
+              "flat": 7843
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:07:50.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e889e1c508c5d5e19114e",
+          "products": [
+            {
+              "_id": "694e88a01c508c5d5e191279",
+              "name": "Mouse38044",
+              "amount": 115,
+              "price": 14523,
+              "manufacturer": "Amazon",
+              "notes": "bNN5ZV8x4Nnx06K21BPhBKuWAliNCI1yNiv0WUYLrOetXLmVRPIUcLadQqZrreG1z685UWtdw7VwKVWxmhpDQzRKpB4pgTbnhd1XWEVj8PFflkI9PpqSbsEDys8F7nidB589qPmmTFUiQEXxDNImjYMQot7lh7OfwMrhAUxW81NeAbd12B0CQeM2UJl0Fb0XbiWpmOf7FxmRSGlbOcsd03WAcpBEDISnnKvtZMVqoZPfoAt8EobRp9Eipu",
+              "received": false
+            }
+          ],
+          "total_price": 14523,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Gulfport",
+              "street": "Howard Centers",
+              "house": 653,
+              "flat": 7843
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:07:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e889e1c508c5d5e19114e",
+          "products": [
+            {
+              "_id": "694e88a01c508c5d5e191279",
+              "name": "Mouse38044",
+              "amount": 115,
+              "price": 14523,
+              "manufacturer": "Amazon",
+              "notes": "bNN5ZV8x4Nnx06K21BPhBKuWAliNCI1yNiv0WUYLrOetXLmVRPIUcLadQqZrreG1z685UWtdw7VwKVWxmhpDQzRKpB4pgTbnhd1XWEVj8PFflkI9PpqSbsEDys8F7nidB589qPmmTFUiQEXxDNImjYMQot7lh7OfwMrhAUxW81NeAbd12B0CQeM2UJl0Fb0XbiWpmOf7FxmRSGlbOcsd03WAcpBEDISnnKvtZMVqoZPfoAt8EobRp9Eipu",
+              "received": false
+            }
+          ],
+          "total_price": 14523,
+          "delivery": null,
+          "changedOn": "2025-12-26T13:07:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

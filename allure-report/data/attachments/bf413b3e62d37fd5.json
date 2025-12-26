@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 13:08:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3666",
+    "etag": "W/\"e52-1oCle4MHq2IRJ5XCk2WS29tMUtU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e88b81c508c5d5e192372",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e88b61c508c5d5e192223",
+        "email": "Evert_Cronin67@gmail.com",
+        "name": "Garett Weber",
+        "country": "Russia",
+        "city": "Port Jaymeworth",
+        "street": "Russel Valleys 54",
+        "house": 40,
+        "flat": 9057,
+        "phone": "+094848430987458",
+        "createdOn": "2025-12-26T13:08:06.000Z",
+        "notes": "NIJfYPji9x34hnqb0Q9ro0mBUboTbV"
+      },
+      "products": [
+        {
+          "_id": "694e88b71c508c5d5e19233a",
+          "name": "Soap89021",
+          "amount": 941,
+          "price": 42290,
+          "manufacturer": "Sony",
+          "notes": "ZR4gPL8Q2xMXKhoqwp9i4XnqLv7EJERq1q85MPhbr9yWn2GQEoC1LALNyveekrgIN6Y0sahIHUei7vIK5qDyzQaCQXS0dz8pAuSzitYTcpPuB3vyHkeuW2RN2Yl4nRaTdXXb7FNeGtYFic6yibgPCNCfz0bbv7otXEQ5Fh31FevWdsmVh8IyDlWnty6ymhcuOj46H0DPtbmFcKSN5sdSfjGicFSXNTbaFNdxhht0PrBlIj81pYqt0j0miC",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Conroe",
+          "street": "E North Street",
+          "house": 23,
+          "flat": 9175
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42290,
+      "createdOn": "2025-12-26T13:08:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e88b61c508c5d5e192223",
+          "products": [
+            {
+              "_id": "694e88b71c508c5d5e19233a",
+              "name": "Soap89021",
+              "amount": 941,
+              "price": 42290,
+              "manufacturer": "Sony",
+              "notes": "ZR4gPL8Q2xMXKhoqwp9i4XnqLv7EJERq1q85MPhbr9yWn2GQEoC1LALNyveekrgIN6Y0sahIHUei7vIK5qDyzQaCQXS0dz8pAuSzitYTcpPuB3vyHkeuW2RN2Yl4nRaTdXXb7FNeGtYFic6yibgPCNCfz0bbv7otXEQ5Fh31FevWdsmVh8IyDlWnty6ymhcuOj46H0DPtbmFcKSN5sdSfjGicFSXNTbaFNdxhht0PrBlIj81pYqt0j0miC",
+              "received": false
+            }
+          ],
+          "total_price": 42290,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Conroe",
+              "street": "E North Street",
+              "house": 23,
+              "flat": 9175
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:08:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e88b61c508c5d5e192223",
+          "products": [
+            {
+              "_id": "694e88b71c508c5d5e19233a",
+              "name": "Soap89021",
+              "amount": 941,
+              "price": 42290,
+              "manufacturer": "Sony",
+              "notes": "ZR4gPL8Q2xMXKhoqwp9i4XnqLv7EJERq1q85MPhbr9yWn2GQEoC1LALNyveekrgIN6Y0sahIHUei7vIK5qDyzQaCQXS0dz8pAuSzitYTcpPuB3vyHkeuW2RN2Yl4nRaTdXXb7FNeGtYFic6yibgPCNCfz0bbv7otXEQ5Fh31FevWdsmVh8IyDlWnty6ymhcuOj46H0DPtbmFcKSN5sdSfjGicFSXNTbaFNdxhht0PrBlIj81pYqt0j0miC",
+              "received": false
+            }
+          ],
+          "total_price": 42290,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Conroe",
+              "street": "E North Street",
+              "house": 23,
+              "flat": 9175
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:08:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e88b61c508c5d5e192223",
+          "products": [
+            {
+              "_id": "694e88b71c508c5d5e19233a",
+              "name": "Soap89021",
+              "amount": 941,
+              "price": 42290,
+              "manufacturer": "Sony",
+              "notes": "ZR4gPL8Q2xMXKhoqwp9i4XnqLv7EJERq1q85MPhbr9yWn2GQEoC1LALNyveekrgIN6Y0sahIHUei7vIK5qDyzQaCQXS0dz8pAuSzitYTcpPuB3vyHkeuW2RN2Yl4nRaTdXXb7FNeGtYFic6yibgPCNCfz0bbv7otXEQ5Fh31FevWdsmVh8IyDlWnty6ymhcuOj46H0DPtbmFcKSN5sdSfjGicFSXNTbaFNdxhht0PrBlIj81pYqt0j0miC",
+              "received": false
+            }
+          ],
+          "total_price": 42290,
+          "delivery": null,
+          "changedOn": "2025-12-26T13:08:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

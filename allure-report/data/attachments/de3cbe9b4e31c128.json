@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 13:07:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2746",
+    "etag": "W/\"aba-Z63Jk+EBpLnIigkGUJa1dA2FJr0\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e88af1c508c5d5e191ce2",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e88ae1c508c5d5e191c96",
+        "email": "Chesley_Lowe@gmail.com",
+        "name": "Kavon Pfannerstill",
+        "country": "Germany",
+        "city": "Baumbachhaven",
+        "street": "Tyree Loop 43",
+        "house": 55,
+        "flat": 9159,
+        "phone": "+928545190048728",
+        "createdOn": "2025-12-26T13:07:58.000Z",
+        "notes": "Ug9Nhk3d0QQhyUDRKw8zTSniswskUH"
+      },
+      "products": [
+        {
+          "_id": "694e88ae1c508c5d5e191cbd",
+          "name": "Shirt90287",
+          "amount": 570,
+          "price": 20942,
+          "manufacturer": "Samsung",
+          "notes": "FdpurbVqI4ENI4p3ncc0TePRla0b1BFl5XO4N33emTeX9jx7Owe9IjQwBix3N0MA4RbSZRGvts5hNrybV9S8qCbJNmGMyHn9tzicalTVoGN74fG7tlnXxVrR9ebexk0FX7BWMmyNYmnyJJVrBN6apRVLiMiGW3II1EbxujAsHhYqJVs7JLrntBeqMo5sFJQYze6YMg4vcDPO1owpSk8r8xfSV04m2AFC6znQ7lePd0aDp3mZjuX0fe0yv5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Hamilton",
+          "street": "Post Road",
+          "house": 161,
+          "flat": 4102
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 20942,
+      "createdOn": "2025-12-26T13:07:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e88ae1c508c5d5e191c96",
+          "products": [
+            {
+              "_id": "694e88ae1c508c5d5e191cbd",
+              "name": "Shirt90287",
+              "amount": 570,
+              "price": 20942,
+              "manufacturer": "Samsung",
+              "notes": "FdpurbVqI4ENI4p3ncc0TePRla0b1BFl5XO4N33emTeX9jx7Owe9IjQwBix3N0MA4RbSZRGvts5hNrybV9S8qCbJNmGMyHn9tzicalTVoGN74fG7tlnXxVrR9ebexk0FX7BWMmyNYmnyJJVrBN6apRVLiMiGW3II1EbxujAsHhYqJVs7JLrntBeqMo5sFJQYze6YMg4vcDPO1owpSk8r8xfSV04m2AFC6znQ7lePd0aDp3mZjuX0fe0yv5",
+              "received": false
+            }
+          ],
+          "total_price": 20942,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Hamilton",
+              "street": "Post Road",
+              "house": 161,
+              "flat": 4102
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T13:07:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e88ae1c508c5d5e191c96",
+          "products": [
+            {
+              "_id": "694e88ae1c508c5d5e191cbd",
+              "name": "Shirt90287",
+              "amount": 570,
+              "price": 20942,
+              "manufacturer": "Samsung",
+              "notes": "FdpurbVqI4ENI4p3ncc0TePRla0b1BFl5XO4N33emTeX9jx7Owe9IjQwBix3N0MA4RbSZRGvts5hNrybV9S8qCbJNmGMyHn9tzicalTVoGN74fG7tlnXxVrR9ebexk0FX7BWMmyNYmnyJJVrBN6apRVLiMiGW3II1EbxujAsHhYqJVs7JLrntBeqMo5sFJQYze6YMg4vcDPO1owpSk8r8xfSV04m2AFC6znQ7lePd0aDp3mZjuX0fe0yv5",
+              "received": false
+            }
+          ],
+          "total_price": 20942,
+          "delivery": null,
+          "changedOn": "2025-12-26T13:07:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
