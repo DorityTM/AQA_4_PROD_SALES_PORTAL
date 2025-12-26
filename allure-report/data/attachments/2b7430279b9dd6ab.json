@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:52:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4622",
+    "etag": "W/\"120e-cfqn5EQN61VM5tbTLjB9/xEzuqo\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694eaf301c508c5d5e21a245",
+      "status": "Received",
+      "customer": {
+        "_id": "694eaf281c508c5d5e219c1b",
+        "email": "Chet_Funk87@gmail.com",
+        "name": "Kaya Ortiz",
+        "country": "Great Britain",
+        "city": "Lake Bufordton",
+        "street": "Woodside 5",
+        "house": 400,
+        "flat": 199,
+        "phone": "+915151596496842",
+        "createdOn": "2025-12-26T15:52:08.000Z",
+        "notes": "b8wVA61y7t8C80i62544k4KDqCqiLi"
+      },
+      "products": [
+        {
+          "_id": "694eaf2c1c508c5d5e219f26",
+          "name": "Keyboard29425",
+          "amount": 883,
+          "price": 26178,
+          "manufacturer": "Tesla",
+          "notes": "dL1Y6Da3bZwJFGs86lFv27iR4rrFJ7iszizJsEZJe2KX0FPSWrO4hIFrtvoHJ142AKZsn6QeqgASnybABrH7tk0UFR1nYCc6dkRhH0AOkiWMdVVOrZB03yRDVIGVe9OrWHpc9n9VJiZwOdZ8wiy8vIIDqkWwpaiXU5oRVDZGxWR43RbtVSYRu3s4rPWKiSH4m1QAdE8lxh4Fx71YBUdLKXT3AI2hc0MPekX9xA1XZ4APR3TUqyNo9Dltfy",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Fort Mosesstad",
+          "street": "Lancaster Road",
+          "house": 499,
+          "flat": 39
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 26178,
+      "createdOn": "2025-12-26T15:52:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694eaf281c508c5d5e219c1b",
+          "products": [
+            {
+              "_id": "694eaf2c1c508c5d5e219f26",
+              "name": "Keyboard29425",
+              "amount": 883,
+              "price": 26178,
+              "manufacturer": "Tesla",
+              "notes": "dL1Y6Da3bZwJFGs86lFv27iR4rrFJ7iszizJsEZJe2KX0FPSWrO4hIFrtvoHJ142AKZsn6QeqgASnybABrH7tk0UFR1nYCc6dkRhH0AOkiWMdVVOrZB03yRDVIGVe9OrWHpc9n9VJiZwOdZ8wiy8vIIDqkWwpaiXU5oRVDZGxWR43RbtVSYRu3s4rPWKiSH4m1QAdE8lxh4Fx71YBUdLKXT3AI2hc0MPekX9xA1XZ4APR3TUqyNo9Dltfy",
+              "received": true
+            }
+          ],
+          "total_price": 26178,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Mosesstad",
+              "street": "Lancaster Road",
+              "house": 499,
+              "flat": 39
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:52:21.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694eaf281c508c5d5e219c1b",
+          "products": [
+            {
+              "_id": "694eaf2c1c508c5d5e219f26",
+              "name": "Keyboard29425",
+              "amount": 883,
+              "price": 26178,
+              "manufacturer": "Tesla",
+              "notes": "dL1Y6Da3bZwJFGs86lFv27iR4rrFJ7iszizJsEZJe2KX0FPSWrO4hIFrtvoHJ142AKZsn6QeqgASnybABrH7tk0UFR1nYCc6dkRhH0AOkiWMdVVOrZB03yRDVIGVe9OrWHpc9n9VJiZwOdZ8wiy8vIIDqkWwpaiXU5oRVDZGxWR43RbtVSYRu3s4rPWKiSH4m1QAdE8lxh4Fx71YBUdLKXT3AI2hc0MPekX9xA1XZ4APR3TUqyNo9Dltfy",
+              "received": false
+            }
+          ],
+          "total_price": 26178,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Mosesstad",
+              "street": "Lancaster Road",
+              "house": 499,
+              "flat": 39
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:52:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eaf281c508c5d5e219c1b",
+          "products": [
+            {
+              "_id": "694eaf2c1c508c5d5e219f26",
+              "name": "Keyboard29425",
+              "amount": 883,
+              "price": 26178,
+              "manufacturer": "Tesla",
+              "notes": "dL1Y6Da3bZwJFGs86lFv27iR4rrFJ7iszizJsEZJe2KX0FPSWrO4hIFrtvoHJ142AKZsn6QeqgASnybABrH7tk0UFR1nYCc6dkRhH0AOkiWMdVVOrZB03yRDVIGVe9OrWHpc9n9VJiZwOdZ8wiy8vIIDqkWwpaiXU5oRVDZGxWR43RbtVSYRu3s4rPWKiSH4m1QAdE8lxh4Fx71YBUdLKXT3AI2hc0MPekX9xA1XZ4APR3TUqyNo9Dltfy",
+              "received": false
+            }
+          ],
+          "total_price": 26178,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Mosesstad",
+              "street": "Lancaster Road",
+              "house": 499,
+              "flat": 39
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:52:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eaf281c508c5d5e219c1b",
+          "products": [
+            {
+              "_id": "694eaf2c1c508c5d5e219f26",
+              "name": "Keyboard29425",
+              "amount": 883,
+              "price": 26178,
+              "manufacturer": "Tesla",
+              "notes": "dL1Y6Da3bZwJFGs86lFv27iR4rrFJ7iszizJsEZJe2KX0FPSWrO4hIFrtvoHJ142AKZsn6QeqgASnybABrH7tk0UFR1nYCc6dkRhH0AOkiWMdVVOrZB03yRDVIGVe9OrWHpc9n9VJiZwOdZ8wiy8vIIDqkWwpaiXU5oRVDZGxWR43RbtVSYRu3s4rPWKiSH4m1QAdE8lxh4Fx71YBUdLKXT3AI2hc0MPekX9xA1XZ4APR3TUqyNo9Dltfy",
+              "received": false
+            }
+          ],
+          "total_price": 26178,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:52:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

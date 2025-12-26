@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:53:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2750",
+    "etag": "W/\"abe-bOfPOQhcBNU9Py0f2GyD6+xGHcU\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694eaf871c508c5d5e21e570",
+      "status": "Draft",
+      "customer": {
+        "_id": "694eaf861c508c5d5e21e52e",
+        "email": "Leda_Strosin@yahoo.com",
+        "name": "Karlie Moen",
+        "country": "USA",
+        "city": "South Jerry",
+        "street": "Nightingale Close 59",
+        "house": 358,
+        "flat": 457,
+        "phone": "+640033667714090",
+        "createdOn": "2025-12-26T15:53:42.000Z",
+        "notes": "EY0ERfbB0eZoLihwEwVKq27c6cNMnM"
+      },
+      "products": [
+        {
+          "_id": "694eaf861c508c5d5e21e54e",
+          "name": "Bacon64375",
+          "amount": 766,
+          "price": 38853,
+          "manufacturer": "Samsung",
+          "notes": "zM5ybG4BYr8mwdj0wYkbN6XYqVMmpH1MDzfoW6E1BITTcWYTslYvaoPdHkOTRKwxE80ORhNvzzvP2cwfX0t5c0S7tZf2V1toHqaIwwfQxswM5rF7G9fLtjLRcAL1G61JF9yoU4mPYrnNdAQVqXEeJoK27zy13wBTm2ZYWC2wtejilMEOF34nqHAVnvtyIfsIlV6TDEYYCyghbMjhEXd1TGjhvvAZiA8d9Fh1DSbtfo6f9L0noIYyXNSWyW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Burleybury",
+          "street": "W Main Street",
+          "house": 625,
+          "flat": 2797
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 38853,
+      "createdOn": "2025-12-26T15:53:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694eaf861c508c5d5e21e52e",
+          "products": [
+            {
+              "_id": "694eaf861c508c5d5e21e54e",
+              "name": "Bacon64375",
+              "amount": 766,
+              "price": 38853,
+              "manufacturer": "Samsung",
+              "notes": "zM5ybG4BYr8mwdj0wYkbN6XYqVMmpH1MDzfoW6E1BITTcWYTslYvaoPdHkOTRKwxE80ORhNvzzvP2cwfX0t5c0S7tZf2V1toHqaIwwfQxswM5rF7G9fLtjLRcAL1G61JF9yoU4mPYrnNdAQVqXEeJoK27zy13wBTm2ZYWC2wtejilMEOF34nqHAVnvtyIfsIlV6TDEYYCyghbMjhEXd1TGjhvvAZiA8d9Fh1DSbtfo6f9L0noIYyXNSWyW",
+              "received": false
+            }
+          ],
+          "total_price": 38853,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Burleybury",
+              "street": "W Main Street",
+              "house": 625,
+              "flat": 2797
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:53:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eaf861c508c5d5e21e52e",
+          "products": [
+            {
+              "_id": "694eaf861c508c5d5e21e54e",
+              "name": "Bacon64375",
+              "amount": 766,
+              "price": 38853,
+              "manufacturer": "Samsung",
+              "notes": "zM5ybG4BYr8mwdj0wYkbN6XYqVMmpH1MDzfoW6E1BITTcWYTslYvaoPdHkOTRKwxE80ORhNvzzvP2cwfX0t5c0S7tZf2V1toHqaIwwfQxswM5rF7G9fLtjLRcAL1G61JF9yoU4mPYrnNdAQVqXEeJoK27zy13wBTm2ZYWC2wtejilMEOF34nqHAVnvtyIfsIlV6TDEYYCyghbMjhEXd1TGjhvvAZiA8d9Fh1DSbtfo6f9L0noIYyXNSWyW",
+              "received": false
+            }
+          ],
+          "total_price": 38853,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:53:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

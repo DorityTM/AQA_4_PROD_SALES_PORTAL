@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:59:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-AM3gL4c8xWHk905ZPe0TshVluQg\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694eb0fe1c508c5d5e22fff1",
+      "status": "Draft",
+      "customer": {
+        "_id": "694eb0fc1c508c5d5e22ff8c",
+        "email": "Bernard_Dach@yahoo.com",
+        "name": "Noemy Armstrong",
+        "country": "Germany",
+        "city": "New Stewartmouth",
+        "street": "Blick Ferry 18",
+        "house": 109,
+        "flat": 131,
+        "phone": "+033161452335038",
+        "createdOn": "2025-12-26T15:59:56.000Z",
+        "notes": "OvLqr0mnQAiXCz26UNAqmfwcBUb8u6"
+      },
+      "products": [
+        {
+          "_id": "694eb0fe1c508c5d5e22ffe4",
+          "name": "Hat62914",
+          "amount": 677,
+          "price": 13913,
+          "manufacturer": "Xiaomi",
+          "notes": "z7rahIZVay19vSYi6LAINU3RWBUSin0ihAwXWOtgIqRUQsirGOLiiV9M5flntO1Ha4hRqtgiISaPUAnBjCySko0IOnjuxw9kYzRelFELKN2RLQCCuDpIEpg9jyDhkdjlNJnXQyCNbIRcYrUFcf7KwItNmMfnA81DmUdsNNFGgR4A6b3ZLSh7lXT4sAV9u4eDMAnWd3s4wvfODK80E0x8ZJDq537w9MkjmaYq4Gmq0VJXNyM1nC122tayYm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Elinorhaven",
+          "street": "Barton Cape",
+          "house": 997,
+          "flat": 5058
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 13913,
+      "createdOn": "2025-12-26T15:59:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694eb0fc1c508c5d5e22ff8c",
+          "products": [
+            {
+              "_id": "694eb0fe1c508c5d5e22ffe4",
+              "name": "Hat62914",
+              "amount": 677,
+              "price": 13913,
+              "manufacturer": "Xiaomi",
+              "notes": "z7rahIZVay19vSYi6LAINU3RWBUSin0ihAwXWOtgIqRUQsirGOLiiV9M5flntO1Ha4hRqtgiISaPUAnBjCySko0IOnjuxw9kYzRelFELKN2RLQCCuDpIEpg9jyDhkdjlNJnXQyCNbIRcYrUFcf7KwItNmMfnA81DmUdsNNFGgR4A6b3ZLSh7lXT4sAV9u4eDMAnWd3s4wvfODK80E0x8ZJDq537w9MkjmaYq4Gmq0VJXNyM1nC122tayYm",
+              "received": false
+            }
+          ],
+          "total_price": 13913,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Elinorhaven",
+              "street": "Barton Cape",
+              "house": 997,
+              "flat": 5058
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:59:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eb0fc1c508c5d5e22ff8c",
+          "products": [
+            {
+              "_id": "694eb0fe1c508c5d5e22ffe4",
+              "name": "Hat62914",
+              "amount": 677,
+              "price": 13913,
+              "manufacturer": "Xiaomi",
+              "notes": "z7rahIZVay19vSYi6LAINU3RWBUSin0ihAwXWOtgIqRUQsirGOLiiV9M5flntO1Ha4hRqtgiISaPUAnBjCySko0IOnjuxw9kYzRelFELKN2RLQCCuDpIEpg9jyDhkdjlNJnXQyCNbIRcYrUFcf7KwItNmMfnA81DmUdsNNFGgR4A6b3ZLSh7lXT4sAV9u4eDMAnWd3s4wvfODK80E0x8ZJDq537w9MkjmaYq4Gmq0VJXNyM1nC122tayYm",
+              "received": false
+            }
+          ],
+          "total_price": 13913,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:59:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

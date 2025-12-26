@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 15:55:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6562",
+    "etag": "W/\"19a2-siYvKhtcnbCHJY8vF795ZXrPA5U\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694eafe91c508c5d5e22313e",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "694eafe81c508c5d5e223084",
+        "email": "Obie_Streich@hotmail.com",
+        "name": "Robbie Balistreri",
+        "country": "Ukraine",
+        "city": "South Bertachester",
+        "street": "Medhurst Fort 29",
+        "house": 865,
+        "flat": 8655,
+        "phone": "+357592482488991",
+        "createdOn": "2025-12-26T15:55:20.000Z",
+        "notes": "uy5Hym3YgG3LSBlMzaoiwJc6NsRIBu"
+      },
+      "products": [
+        {
+          "_id": "694eafe81c508c5d5e2230ac",
+          "name": "Bike82521",
+          "amount": 593,
+          "price": 24563,
+          "manufacturer": "Amazon",
+          "notes": "wzRzGmMQAoFiZh9Q7rWFrQDg2jLvX6jbFQBLIqJm1TEvvsi1I69RV0ZsnqmMBDpyzLX2pNtDNIyliRuBRpTpS9xVsElyzw6Bd3qSY7d6Hpm3l4ulvBEkjB4c95KJL6UsssmsvQrehydteynEC7GQUAvGKR49RtgVWTPmZXlSatVnBIBftyPqu2KgjiIKJq4ruNpwwAxIf6Y6i25dGrPpknKCmLs5Bd2OPSJ9A7kZHssau5COqCXEehfFMW",
+          "received": true
+        },
+        {
+          "_id": "694eafe91c508c5d5e2230f3",
+          "name": "Pizza82370",
+          "amount": 479,
+          "price": 47202,
+          "manufacturer": "Samsung",
+          "notes": "PEpdkcQXxl3sloZKTPErKoIvafWDwX8SFJQFnMC0oRKOZa6A0I0iltueaXgWrJ3qDnzRvfi2ZCaA4LmOHhId8ljqs1zbbtvVXT3uMjTGQ3LJ6Cv8G0JYleVRpWakwcJsabQTqFrKawxW2MtV7MLhYTXwHMqirFGVJS6uowS9hzNcz0YhHSBrfUTEevz7VU1EekYJd7mEyFBnuATFjYc9VzS8A86HWy68ULq1411Eo1kKGHkBud5byhcWGk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Joshuahaven",
+          "street": "Hazel Close",
+          "house": 351,
+          "flat": 340
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 71765,
+      "createdOn": "2025-12-26T15:55:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "694eafe81c508c5d5e223084",
+          "products": [
+            {
+              "_id": "694eafe81c508c5d5e2230ac",
+              "name": "Bike82521",
+              "amount": 593,
+              "price": 24563,
+              "manufacturer": "Amazon",
+              "notes": "wzRzGmMQAoFiZh9Q7rWFrQDg2jLvX6jbFQBLIqJm1TEvvsi1I69RV0ZsnqmMBDpyzLX2pNtDNIyliRuBRpTpS9xVsElyzw6Bd3qSY7d6Hpm3l4ulvBEkjB4c95KJL6UsssmsvQrehydteynEC7GQUAvGKR49RtgVWTPmZXlSatVnBIBftyPqu2KgjiIKJq4ruNpwwAxIf6Y6i25dGrPpknKCmLs5Bd2OPSJ9A7kZHssau5COqCXEehfFMW",
+              "received": true
+            },
+            {
+              "_id": "694eafe91c508c5d5e2230f3",
+              "name": "Pizza82370",
+              "amount": 479,
+              "price": 47202,
+              "manufacturer": "Samsung",
+              "notes": "PEpdkcQXxl3sloZKTPErKoIvafWDwX8SFJQFnMC0oRKOZa6A0I0iltueaXgWrJ3qDnzRvfi2ZCaA4LmOHhId8ljqs1zbbtvVXT3uMjTGQ3LJ6Cv8G0JYleVRpWakwcJsabQTqFrKawxW2MtV7MLhYTXwHMqirFGVJS6uowS9hzNcz0YhHSBrfUTEevz7VU1EekYJd7mEyFBnuATFjYc9VzS8A86HWy68ULq1411Eo1kKGHkBud5byhcWGk",
+              "received": false
+            }
+          ],
+          "total_price": 71765,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Joshuahaven",
+              "street": "Hazel Close",
+              "house": 351,
+              "flat": 340
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:55:49.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694eafe81c508c5d5e223084",
+          "products": [
+            {
+              "_id": "694eafe81c508c5d5e2230ac",
+              "name": "Bike82521",
+              "amount": 593,
+              "price": 24563,
+              "manufacturer": "Amazon",
+              "notes": "wzRzGmMQAoFiZh9Q7rWFrQDg2jLvX6jbFQBLIqJm1TEvvsi1I69RV0ZsnqmMBDpyzLX2pNtDNIyliRuBRpTpS9xVsElyzw6Bd3qSY7d6Hpm3l4ulvBEkjB4c95KJL6UsssmsvQrehydteynEC7GQUAvGKR49RtgVWTPmZXlSatVnBIBftyPqu2KgjiIKJq4ruNpwwAxIf6Y6i25dGrPpknKCmLs5Bd2OPSJ9A7kZHssau5COqCXEehfFMW",
+              "received": false
+            },
+            {
+              "_id": "694eafe91c508c5d5e2230f3",
+              "name": "Pizza82370",
+              "amount": 479,
+              "price": 47202,
+              "manufacturer": "Samsung",
+              "notes": "PEpdkcQXxl3sloZKTPErKoIvafWDwX8SFJQFnMC0oRKOZa6A0I0iltueaXgWrJ3qDnzRvfi2ZCaA4LmOHhId8ljqs1zbbtvVXT3uMjTGQ3LJ6Cv8G0JYleVRpWakwcJsabQTqFrKawxW2MtV7MLhYTXwHMqirFGVJS6uowS9hzNcz0YhHSBrfUTEevz7VU1EekYJd7mEyFBnuATFjYc9VzS8A86HWy68ULq1411Eo1kKGHkBud5byhcWGk",
+              "received": false
+            }
+          ],
+          "total_price": 71765,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Joshuahaven",
+              "street": "Hazel Close",
+              "house": 351,
+              "flat": 340
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:55:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eafe81c508c5d5e223084",
+          "products": [
+            {
+              "_id": "694eafe81c508c5d5e2230ac",
+              "name": "Bike82521",
+              "amount": 593,
+              "price": 24563,
+              "manufacturer": "Amazon",
+              "notes": "wzRzGmMQAoFiZh9Q7rWFrQDg2jLvX6jbFQBLIqJm1TEvvsi1I69RV0ZsnqmMBDpyzLX2pNtDNIyliRuBRpTpS9xVsElyzw6Bd3qSY7d6Hpm3l4ulvBEkjB4c95KJL6UsssmsvQrehydteynEC7GQUAvGKR49RtgVWTPmZXlSatVnBIBftyPqu2KgjiIKJq4ruNpwwAxIf6Y6i25dGrPpknKCmLs5Bd2OPSJ9A7kZHssau5COqCXEehfFMW",
+              "received": false
+            },
+            {
+              "_id": "694eafe91c508c5d5e2230f3",
+              "name": "Pizza82370",
+              "amount": 479,
+              "price": 47202,
+              "manufacturer": "Samsung",
+              "notes": "PEpdkcQXxl3sloZKTPErKoIvafWDwX8SFJQFnMC0oRKOZa6A0I0iltueaXgWrJ3qDnzRvfi2ZCaA4LmOHhId8ljqs1zbbtvVXT3uMjTGQ3LJ6Cv8G0JYleVRpWakwcJsabQTqFrKawxW2MtV7MLhYTXwHMqirFGVJS6uowS9hzNcz0YhHSBrfUTEevz7VU1EekYJd7mEyFBnuATFjYc9VzS8A86HWy68ULq1411Eo1kKGHkBud5byhcWGk",
+              "received": false
+            }
+          ],
+          "total_price": 71765,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Joshuahaven",
+              "street": "Hazel Close",
+              "house": 351,
+              "flat": 340
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T15:55:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eafe81c508c5d5e223084",
+          "products": [
+            {
+              "_id": "694eafe81c508c5d5e2230ac",
+              "name": "Bike82521",
+              "amount": 593,
+              "price": 24563,
+              "manufacturer": "Amazon",
+              "notes": "wzRzGmMQAoFiZh9Q7rWFrQDg2jLvX6jbFQBLIqJm1TEvvsi1I69RV0ZsnqmMBDpyzLX2pNtDNIyliRuBRpTpS9xVsElyzw6Bd3qSY7d6Hpm3l4ulvBEkjB4c95KJL6UsssmsvQrehydteynEC7GQUAvGKR49RtgVWTPmZXlSatVnBIBftyPqu2KgjiIKJq4ruNpwwAxIf6Y6i25dGrPpknKCmLs5Bd2OPSJ9A7kZHssau5COqCXEehfFMW",
+              "received": false
+            },
+            {
+              "_id": "694eafe91c508c5d5e2230f3",
+              "name": "Pizza82370",
+              "amount": 479,
+              "price": 47202,
+              "manufacturer": "Samsung",
+              "notes": "PEpdkcQXxl3sloZKTPErKoIvafWDwX8SFJQFnMC0oRKOZa6A0I0iltueaXgWrJ3qDnzRvfi2ZCaA4LmOHhId8ljqs1zbbtvVXT3uMjTGQ3LJ6Cv8G0JYleVRpWakwcJsabQTqFrKawxW2MtV7MLhYTXwHMqirFGVJS6uowS9hzNcz0YhHSBrfUTEevz7VU1EekYJd7mEyFBnuATFjYc9VzS8A86HWy68ULq1411Eo1kKGHkBud5byhcWGk",
+              "received": false
+            }
+          ],
+          "total_price": 71765,
+          "delivery": null,
+          "changedOn": "2025-12-26T15:55:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

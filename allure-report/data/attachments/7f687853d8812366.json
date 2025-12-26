@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 16:10:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-xLF9zUZI+/2e9aKTD0jzKEzvvYI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694eb3921c508c5d5e24500a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694eb3901c508c5d5e244fdd",
+        "email": "Tomas.Tillman@hotmail.com",
+        "name": "Lesly Bailey",
+        "country": "Germany",
+        "city": "East Ardella",
+        "street": "Nolan Branch 94",
+        "house": 740,
+        "flat": 6330,
+        "phone": "+475581635027700",
+        "createdOn": "2025-12-26T16:10:56.000Z",
+        "notes": "LakYgWpsf1UGSLjhJSQhdBslhzhYBu"
+      },
+      "products": [
+        {
+          "_id": "694eb3921c508c5d5e244ff6",
+          "name": "Sausages53566",
+          "amount": 884,
+          "price": 17316,
+          "manufacturer": "Sony",
+          "notes": "WsHNOILKdh4teGQ1zl7dPd7pDiMNHDt9EfXFifI6pysq8QVq7GkkvClYD8gDOojXfnBR5SjJusPFlQyOP5rUmoyWz84KTt1KypppZNz1LtkhnKu1hJFwb8OW7Ue4wOpJvQmQ2QEBMICtlaWUpOut8hhClOjYZrkzQwxbfjAp4NtTZyNbliDJEzhy0Pyl5wlzDmCcWqL5PkC5ZHKOOdMZoFRvhsVDoHi5BGwW1gWlC0dTSPhk2aJD6o5hZ2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Labadiebury",
+          "street": "5th Avenue",
+          "house": 554,
+          "flat": 6578
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17316,
+      "createdOn": "2025-12-26T16:10:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694eb3901c508c5d5e244fdd",
+          "products": [
+            {
+              "_id": "694eb3921c508c5d5e244ff6",
+              "name": "Sausages53566",
+              "amount": 884,
+              "price": 17316,
+              "manufacturer": "Sony",
+              "notes": "WsHNOILKdh4teGQ1zl7dPd7pDiMNHDt9EfXFifI6pysq8QVq7GkkvClYD8gDOojXfnBR5SjJusPFlQyOP5rUmoyWz84KTt1KypppZNz1LtkhnKu1hJFwb8OW7Ue4wOpJvQmQ2QEBMICtlaWUpOut8hhClOjYZrkzQwxbfjAp4NtTZyNbliDJEzhy0Pyl5wlzDmCcWqL5PkC5ZHKOOdMZoFRvhsVDoHi5BGwW1gWlC0dTSPhk2aJD6o5hZ2",
+              "received": false
+            }
+          ],
+          "total_price": 17316,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Labadiebury",
+              "street": "5th Avenue",
+              "house": 554,
+              "flat": 6578
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T16:10:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694eb3901c508c5d5e244fdd",
+          "products": [
+            {
+              "_id": "694eb3921c508c5d5e244ff6",
+              "name": "Sausages53566",
+              "amount": 884,
+              "price": 17316,
+              "manufacturer": "Sony",
+              "notes": "WsHNOILKdh4teGQ1zl7dPd7pDiMNHDt9EfXFifI6pysq8QVq7GkkvClYD8gDOojXfnBR5SjJusPFlQyOP5rUmoyWz84KTt1KypppZNz1LtkhnKu1hJFwb8OW7Ue4wOpJvQmQ2QEBMICtlaWUpOut8hhClOjYZrkzQwxbfjAp4NtTZyNbliDJEzhy0Pyl5wlzDmCcWqL5PkC5ZHKOOdMZoFRvhsVDoHi5BGwW1gWlC0dTSPhk2aJD6o5hZ2",
+              "received": false
+            }
+          ],
+          "total_price": 17316,
+          "delivery": null,
+          "changedOn": "2025-12-26T16:10:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

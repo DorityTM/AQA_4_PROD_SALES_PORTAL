@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 16:05:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1677",
+    "etag": "W/\"68d-Cxu+SlKK/JrY94LN9jUoYeOxMUc\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "694eb2571c508c5d5e23cd8b",
+        "email": "Savannah.Turcotte@hotmail.com",
+        "name": "Ken Hamill",
+        "country": "France",
+        "city": "Buckeye",
+        "street": "Reichert Mountain 94",
+        "house": 742,
+        "flat": 3151,
+        "phone": "+485521930091724",
+        "createdOn": "2025-12-26T16:05:43.000Z",
+        "notes": "ACLTnhF0XHEl2qXphFSHef77m95raI"
+      },
+      "products": [
+        {
+          "_id": "694eb2591c508c5d5e23cda4",
+          "name": "Salad40746",
+          "amount": 663,
+          "price": 22164,
+          "manufacturer": "Amazon",
+          "notes": "tkhCpYoVbmJlgH4ei3VAltAesUUOsGugO8dAIKG3S4KKr9QqySZ7KWTXNvF1DIFSjEcW1NlVy1TcmHCgETIqvS3Kzu9gTPqE17rNb4XJzTiDhCxcaeWLGMu8CG66tq8ZnXdxFNa7TGrTMYdaPBduC5QuQGm6RX235jXknYJBN4eVTonctv4PlfbiHP0RtRAwd7g6Bd5AQQbEqKv4eJAToiAfzxegmAvxwYQxS0YSCaX6BrPIoZjEoaHVJQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22164,
+      "createdOn": "2025-12-26T16:05:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694eb2571c508c5d5e23cd8b",
+          "products": [
+            {
+              "_id": "694eb2591c508c5d5e23cda4",
+              "name": "Salad40746",
+              "amount": 663,
+              "price": 22164,
+              "manufacturer": "Amazon",
+              "notes": "tkhCpYoVbmJlgH4ei3VAltAesUUOsGugO8dAIKG3S4KKr9QqySZ7KWTXNvF1DIFSjEcW1NlVy1TcmHCgETIqvS3Kzu9gTPqE17rNb4XJzTiDhCxcaeWLGMu8CG66tq8ZnXdxFNa7TGrTMYdaPBduC5QuQGm6RX235jXknYJBN4eVTonctv4PlfbiHP0RtRAwd7g6Bd5AQQbEqKv4eJAToiAfzxegmAvxwYQxS0YSCaX6BrPIoZjEoaHVJQ",
+              "received": false
+            }
+          ],
+          "total_price": 22164,
+          "delivery": null,
+          "changedOn": "2025-12-26T16:05:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "694eb2591c508c5d5e23cdb6"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
