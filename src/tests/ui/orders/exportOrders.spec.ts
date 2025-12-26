@@ -1,5 +1,6 @@
 import { test, expect } from "fixtures";
 import { EXPORT_ORDERS_NEGATIVE_CASES, EXPORT_ORDERS_POSITIVE_CASES } from "data/salesPortal/orders/exportOrdersDDT";
+import { TIMEOUT_120_S } from "data/salesPortal/constants";
 import { OrdersListPage } from "ui/pages/orders/ordersList.page";
 import { parseDownloadedExport } from "utils/files/exportFile.utils";
 import { TAGS } from "data/tags";
@@ -11,7 +12,9 @@ test.describe("[UI][Orders][Export]", () => {
     token = await loginApiService.loginAsAdmin();
   });
 
-  test.afterEach(async ({ ordersApiService }) => {
+  test.afterEach(async ({ ordersApiService }, testInfo) => {
+    // Playwright hook shares the test timeout (often 30s). Cleanup on prod can be slower.
+    testInfo.setTimeout(testInfo.timeout + TIMEOUT_120_S);
     if (token) await ordersApiService.fullDelete(token);
   });
 
