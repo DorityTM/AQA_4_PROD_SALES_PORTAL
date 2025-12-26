@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:04:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-kOMz4la3JPXNlvsScpJ3Ax9+x4M\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f06841c508c5d5e3107a8",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f06841c508c5d5e310742",
+        "email": "Jerome_Swift@hotmail.com",
+        "name": "Rosie Hirthe",
+        "country": "USA",
+        "city": "Fort Jeanette",
+        "street": "Nelson Street 33",
+        "house": 476,
+        "flat": 5538,
+        "phone": "+739533957542363",
+        "createdOn": "2025-12-26T22:04:52.000Z",
+        "notes": "Pkzr5AaKB7XxFuwjuldGvzQJj93UNA"
+      },
+      "products": [
+        {
+          "_id": "694f06841c508c5d5e310759",
+          "name": "Table10035",
+          "amount": 766,
+          "price": 49560,
+          "manufacturer": "Samsung",
+          "notes": "F1YtoKEsAUQuCBOTVz4gTIG9rsPRQOGgm88D6uE38TnLjYfAYOZpeoJ4lKtsz3StPxKrr6OvVraH214vgpOwbsMhoL84UfUTNZATHD5jWSjIoL1mIcfwX26i4vAyCYrPMTPEVG4ajeBOEEan7M8CWdUwzT1Zur0cNJ5jmWTdme6vFtLH5iKhIuK4n5cRAi9TSj4AtfYYgdEOlsqepQJCDUhdpWZ19CHIkGPSD87HKRHq9F5f7Ix0M1jHip",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "New Destiney",
+          "street": "Alma Street",
+          "house": 905,
+          "flat": 7147
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 49560,
+      "createdOn": "2025-12-26T22:04:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f06841c508c5d5e310742",
+          "products": [
+            {
+              "_id": "694f06841c508c5d5e310759",
+              "name": "Table10035",
+              "amount": 766,
+              "price": 49560,
+              "manufacturer": "Samsung",
+              "notes": "F1YtoKEsAUQuCBOTVz4gTIG9rsPRQOGgm88D6uE38TnLjYfAYOZpeoJ4lKtsz3StPxKrr6OvVraH214vgpOwbsMhoL84UfUTNZATHD5jWSjIoL1mIcfwX26i4vAyCYrPMTPEVG4ajeBOEEan7M8CWdUwzT1Zur0cNJ5jmWTdme6vFtLH5iKhIuK4n5cRAi9TSj4AtfYYgdEOlsqepQJCDUhdpWZ19CHIkGPSD87HKRHq9F5f7Ix0M1jHip",
+              "received": false
+            }
+          ],
+          "total_price": 49560,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Destiney",
+              "street": "Alma Street",
+              "house": 905,
+              "flat": 7147
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:04:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06841c508c5d5e310742",
+          "products": [
+            {
+              "_id": "694f06841c508c5d5e310759",
+              "name": "Table10035",
+              "amount": 766,
+              "price": 49560,
+              "manufacturer": "Samsung",
+              "notes": "F1YtoKEsAUQuCBOTVz4gTIG9rsPRQOGgm88D6uE38TnLjYfAYOZpeoJ4lKtsz3StPxKrr6OvVraH214vgpOwbsMhoL84UfUTNZATHD5jWSjIoL1mIcfwX26i4vAyCYrPMTPEVG4ajeBOEEan7M8CWdUwzT1Zur0cNJ5jmWTdme6vFtLH5iKhIuK4n5cRAi9TSj4AtfYYgdEOlsqepQJCDUhdpWZ19CHIkGPSD87HKRHq9F5f7Ix0M1jHip",
+              "received": false
+            }
+          ],
+          "total_price": 49560,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:04:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

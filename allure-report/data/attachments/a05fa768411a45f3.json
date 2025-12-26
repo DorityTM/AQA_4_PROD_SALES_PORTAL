@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:05:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3683",
+    "etag": "W/\"e63-OTKq4UPsscIYbbAT5YMq236zBQI\"",
+    "keep-alive": "timeout=5, max=44",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f06a71c508c5d5e3115a4",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694f06a71c508c5d5e311562",
+        "email": "Kody_Jones10@hotmail.com",
+        "name": "Josephine Crist",
+        "country": "Russia",
+        "city": "North Benton",
+        "street": "Katrine Squares 36",
+        "house": 50,
+        "flat": 9818,
+        "phone": "+475241640578231",
+        "createdOn": "2025-12-26T22:05:27.000Z",
+        "notes": "Tz4naL86jQqgTImcHFG61h8E3822IA"
+      },
+      "products": [
+        {
+          "_id": "694f06a71c508c5d5e31158e",
+          "name": "Computer14433",
+          "amount": 298,
+          "price": 7267,
+          "manufacturer": "Tesla",
+          "notes": "V87GgpKfGlfk7usPWpEu3DqEAOV3jZnT3RuDahCjhUjO6VqIoulCHEQG26iMOona5zGp0KkXmJSB1jQJmNDfIZ3Ic9IieITOWfQW6ee8PIw6W6TBDv4ZZarDaHwwbtihhF8S0MSWXUabXbLz8rWsfmITpmMWTzuiqygH9OgkNYoUMgU74cOZp3XvTz6PHaKw2RZL0x2rKtnzZ2kFspORylQufEuS3prTw7ftLOUPGBKCEFAOLh17VPYnIY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Dachbury",
+          "street": "Daniel Wall",
+          "house": 601,
+          "flat": 4599
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7267,
+      "createdOn": "2025-12-26T22:05:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694f06a71c508c5d5e311562",
+          "products": [
+            {
+              "_id": "694f06a71c508c5d5e31158e",
+              "name": "Computer14433",
+              "amount": 298,
+              "price": 7267,
+              "manufacturer": "Tesla",
+              "notes": "V87GgpKfGlfk7usPWpEu3DqEAOV3jZnT3RuDahCjhUjO6VqIoulCHEQG26iMOona5zGp0KkXmJSB1jQJmNDfIZ3Ic9IieITOWfQW6ee8PIw6W6TBDv4ZZarDaHwwbtihhF8S0MSWXUabXbLz8rWsfmITpmMWTzuiqygH9OgkNYoUMgU74cOZp3XvTz6PHaKw2RZL0x2rKtnzZ2kFspORylQufEuS3prTw7ftLOUPGBKCEFAOLh17VPYnIY",
+              "received": false
+            }
+          ],
+          "total_price": 7267,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Dachbury",
+              "street": "Daniel Wall",
+              "house": 601,
+              "flat": 4599
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:05:28.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06a71c508c5d5e311562",
+          "products": [
+            {
+              "_id": "694f06a71c508c5d5e31158e",
+              "name": "Computer14433",
+              "amount": 298,
+              "price": 7267,
+              "manufacturer": "Tesla",
+              "notes": "V87GgpKfGlfk7usPWpEu3DqEAOV3jZnT3RuDahCjhUjO6VqIoulCHEQG26iMOona5zGp0KkXmJSB1jQJmNDfIZ3Ic9IieITOWfQW6ee8PIw6W6TBDv4ZZarDaHwwbtihhF8S0MSWXUabXbLz8rWsfmITpmMWTzuiqygH9OgkNYoUMgU74cOZp3XvTz6PHaKw2RZL0x2rKtnzZ2kFspORylQufEuS3prTw7ftLOUPGBKCEFAOLh17VPYnIY",
+              "received": false
+            }
+          ],
+          "total_price": 7267,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Dachbury",
+              "street": "Daniel Wall",
+              "house": 601,
+              "flat": 4599
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:05:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06a71c508c5d5e311562",
+          "products": [
+            {
+              "_id": "694f06a71c508c5d5e31158e",
+              "name": "Computer14433",
+              "amount": 298,
+              "price": 7267,
+              "manufacturer": "Tesla",
+              "notes": "V87GgpKfGlfk7usPWpEu3DqEAOV3jZnT3RuDahCjhUjO6VqIoulCHEQG26iMOona5zGp0KkXmJSB1jQJmNDfIZ3Ic9IieITOWfQW6ee8PIw6W6TBDv4ZZarDaHwwbtihhF8S0MSWXUabXbLz8rWsfmITpmMWTzuiqygH9OgkNYoUMgU74cOZp3XvTz6PHaKw2RZL0x2rKtnzZ2kFspORylQufEuS3prTw7ftLOUPGBKCEFAOLh17VPYnIY",
+              "received": false
+            }
+          ],
+          "total_price": 7267,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:05:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

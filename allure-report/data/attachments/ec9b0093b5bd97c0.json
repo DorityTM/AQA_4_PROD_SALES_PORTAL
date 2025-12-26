@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:04:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3881",
+    "etag": "W/\"f29-MjEf3GxJoxq2p932Sr+lURrl1VE\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f067b1c508c5d5e3103f1",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f067a1c508c5d5e3103a5",
+        "email": "Irving_Sipes52@gmail.com",
+        "name": "Olin Kemmer",
+        "country": "Germany",
+        "city": "New Lillie",
+        "street": "Cornelius Garden 9",
+        "house": 660,
+        "flat": 477,
+        "phone": "+730397683211249",
+        "createdOn": "2025-12-26T22:04:42.000Z",
+        "notes": "mLZd0v0WaG0ctTrcniM55D6OCo2XPQ"
+      },
+      "products": [
+        {
+          "_id": "694f067a1c508c5d5e3103bd",
+          "name": "Tuna71080",
+          "amount": 4,
+          "price": 68080,
+          "manufacturer": "Sony",
+          "notes": "DZ3F3jKFULuTcyvVTROkxBotDxxzHBszM0A2f620Uq3qHiyWuMCNCdxJyOHHHiVzvsiBFnFzEbPfHdZdZyxQ50MCT5vbQvS4eQBDNHBU6av9S1KGSiYPS7G6Gco9bExh2t0kD63pwoH8Dz4Tnn1nppBHhmqnydJJaIiuqAoXDlYS5KTCUeA7SnLgoxdfqAJhOXkTHeSDNtz38MjQyatwtahu78zW5UbZG4VHzscs0sHzavw3pL1F8nzkwd",
+          "received": false
+        },
+        {
+          "_id": "694f067b1c508c5d5e3103dc",
+          "name": "Chips17049",
+          "amount": 525,
+          "price": 68941,
+          "manufacturer": "Apple",
+          "notes": "6bB6RisT847xvkVLcTaARZNY2TYmPrKwMo4cSPKQiWYVfhW8NkcMn7Jmo5r08G2Hf5tbWLNuSRkPldnyx6VmveU7e1tNMrkyMddVg9ILJZaVINBNJYIKRkXo0MLOrXmAWZIfUZDr1O88SvZQ3Y6VIzF1GnZCuivW9q9KtgWb1MjGd4mm71wC76qOeUbAFnEB6g9pNlgZ0k1jBfCgHzR2pGtN0GXgAaqP1tK3K41z6mKMDDq4WYkjHxlCvO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Havenport",
+          "street": "Church Path",
+          "house": 838,
+          "flat": 8148
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 137021,
+      "createdOn": "2025-12-26T22:04:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f067a1c508c5d5e3103a5",
+          "products": [
+            {
+              "_id": "694f067a1c508c5d5e3103bd",
+              "name": "Tuna71080",
+              "amount": 4,
+              "price": 68080,
+              "manufacturer": "Sony",
+              "notes": "DZ3F3jKFULuTcyvVTROkxBotDxxzHBszM0A2f620Uq3qHiyWuMCNCdxJyOHHHiVzvsiBFnFzEbPfHdZdZyxQ50MCT5vbQvS4eQBDNHBU6av9S1KGSiYPS7G6Gco9bExh2t0kD63pwoH8Dz4Tnn1nppBHhmqnydJJaIiuqAoXDlYS5KTCUeA7SnLgoxdfqAJhOXkTHeSDNtz38MjQyatwtahu78zW5UbZG4VHzscs0sHzavw3pL1F8nzkwd",
+              "received": false
+            },
+            {
+              "_id": "694f067b1c508c5d5e3103dc",
+              "name": "Chips17049",
+              "amount": 525,
+              "price": 68941,
+              "manufacturer": "Apple",
+              "notes": "6bB6RisT847xvkVLcTaARZNY2TYmPrKwMo4cSPKQiWYVfhW8NkcMn7Jmo5r08G2Hf5tbWLNuSRkPldnyx6VmveU7e1tNMrkyMddVg9ILJZaVINBNJYIKRkXo0MLOrXmAWZIfUZDr1O88SvZQ3Y6VIzF1GnZCuivW9q9KtgWb1MjGd4mm71wC76qOeUbAFnEB6g9pNlgZ0k1jBfCgHzR2pGtN0GXgAaqP1tK3K41z6mKMDDq4WYkjHxlCvO",
+              "received": false
+            }
+          ],
+          "total_price": 137021,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Havenport",
+              "street": "Church Path",
+              "house": 838,
+              "flat": 8148
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:04:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f067a1c508c5d5e3103a5",
+          "products": [
+            {
+              "_id": "694f067a1c508c5d5e3103bd",
+              "name": "Tuna71080",
+              "amount": 4,
+              "price": 68080,
+              "manufacturer": "Sony",
+              "notes": "DZ3F3jKFULuTcyvVTROkxBotDxxzHBszM0A2f620Uq3qHiyWuMCNCdxJyOHHHiVzvsiBFnFzEbPfHdZdZyxQ50MCT5vbQvS4eQBDNHBU6av9S1KGSiYPS7G6Gco9bExh2t0kD63pwoH8Dz4Tnn1nppBHhmqnydJJaIiuqAoXDlYS5KTCUeA7SnLgoxdfqAJhOXkTHeSDNtz38MjQyatwtahu78zW5UbZG4VHzscs0sHzavw3pL1F8nzkwd",
+              "received": false
+            },
+            {
+              "_id": "694f067b1c508c5d5e3103dc",
+              "name": "Chips17049",
+              "amount": 525,
+              "price": 68941,
+              "manufacturer": "Apple",
+              "notes": "6bB6RisT847xvkVLcTaARZNY2TYmPrKwMo4cSPKQiWYVfhW8NkcMn7Jmo5r08G2Hf5tbWLNuSRkPldnyx6VmveU7e1tNMrkyMddVg9ILJZaVINBNJYIKRkXo0MLOrXmAWZIfUZDr1O88SvZQ3Y6VIzF1GnZCuivW9q9KtgWb1MjGd4mm71wC76qOeUbAFnEB6g9pNlgZ0k1jBfCgHzR2pGtN0GXgAaqP1tK3K41z6mKMDDq4WYkjHxlCvO",
+              "received": false
+            }
+          ],
+          "total_price": 137021,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:04:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:05:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3672",
+    "etag": "W/\"e58-YmW+uVqma383ugZ/QnE0Wn4M9jg\"",
+    "keep-alive": "timeout=5, max=13",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f06a51c508c5d5e311467",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694f06a51c508c5d5e311441",
+        "email": "Neil35@hotmail.com",
+        "name": "Heath Schneider",
+        "country": "Germany",
+        "city": "Scottsdale",
+        "street": "Durward Run 3",
+        "house": 418,
+        "flat": 9263,
+        "phone": "+466277592649046",
+        "createdOn": "2025-12-26T22:05:25.000Z",
+        "notes": "5BeVwSeqklK568KI8HZBtgnZgQafXf"
+      },
+      "products": [
+        {
+          "_id": "694f06a51c508c5d5e311459",
+          "name": "Salad10546",
+          "amount": 330,
+          "price": 41646,
+          "manufacturer": "Xiaomi",
+          "notes": "5plwO4vaEZ5BphWYNBsBNJ9teR00iVyxc1bbcVKFv4n9UjgpaToxrlJbtn1QVU1oFkAtZqpZBe1VhtxPshH268AkSB5WqiwY9bF26V9iVgTlRKlSCWikEdicdAEkbqhM5aMVcXfClyPm3cHuVzYKXL3XymJxrus7L4toKyETnA2MuvVmf9xD5iLbi5JtVgfDSTFxnE7eqaXgtYVCpmJyuUPnLkKMubar59j9cj9dBiSwGPMPvlE8ypOSkn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Lake Emelieville",
+          "street": "Hamill Pine",
+          "house": 87,
+          "flat": 6890
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 41646,
+      "createdOn": "2025-12-26T22:05:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694f06a51c508c5d5e311441",
+          "products": [
+            {
+              "_id": "694f06a51c508c5d5e311459",
+              "name": "Salad10546",
+              "amount": 330,
+              "price": 41646,
+              "manufacturer": "Xiaomi",
+              "notes": "5plwO4vaEZ5BphWYNBsBNJ9teR00iVyxc1bbcVKFv4n9UjgpaToxrlJbtn1QVU1oFkAtZqpZBe1VhtxPshH268AkSB5WqiwY9bF26V9iVgTlRKlSCWikEdicdAEkbqhM5aMVcXfClyPm3cHuVzYKXL3XymJxrus7L4toKyETnA2MuvVmf9xD5iLbi5JtVgfDSTFxnE7eqaXgtYVCpmJyuUPnLkKMubar59j9cj9dBiSwGPMPvlE8ypOSkn",
+              "received": false
+            }
+          ],
+          "total_price": 41646,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Emelieville",
+              "street": "Hamill Pine",
+              "house": 87,
+              "flat": 6890
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:05:26.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06a51c508c5d5e311441",
+          "products": [
+            {
+              "_id": "694f06a51c508c5d5e311459",
+              "name": "Salad10546",
+              "amount": 330,
+              "price": 41646,
+              "manufacturer": "Xiaomi",
+              "notes": "5plwO4vaEZ5BphWYNBsBNJ9teR00iVyxc1bbcVKFv4n9UjgpaToxrlJbtn1QVU1oFkAtZqpZBe1VhtxPshH268AkSB5WqiwY9bF26V9iVgTlRKlSCWikEdicdAEkbqhM5aMVcXfClyPm3cHuVzYKXL3XymJxrus7L4toKyETnA2MuvVmf9xD5iLbi5JtVgfDSTFxnE7eqaXgtYVCpmJyuUPnLkKMubar59j9cj9dBiSwGPMPvlE8ypOSkn",
+              "received": false
+            }
+          ],
+          "total_price": 41646,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Emelieville",
+              "street": "Hamill Pine",
+              "house": 87,
+              "flat": 6890
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:05:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06a51c508c5d5e311441",
+          "products": [
+            {
+              "_id": "694f06a51c508c5d5e311459",
+              "name": "Salad10546",
+              "amount": 330,
+              "price": 41646,
+              "manufacturer": "Xiaomi",
+              "notes": "5plwO4vaEZ5BphWYNBsBNJ9teR00iVyxc1bbcVKFv4n9UjgpaToxrlJbtn1QVU1oFkAtZqpZBe1VhtxPshH268AkSB5WqiwY9bF26V9iVgTlRKlSCWikEdicdAEkbqhM5aMVcXfClyPm3cHuVzYKXL3XymJxrus7L4toKyETnA2MuvVmf9xD5iLbi5JtVgfDSTFxnE7eqaXgtYVCpmJyuUPnLkKMubar59j9cj9dBiSwGPMPvlE8ypOSkn",
+              "received": false
+            }
+          ],
+          "total_price": 41646,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:05:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

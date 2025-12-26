@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:05:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3709",
+    "etag": "W/\"e7d-7cUrqoLmW7dKhlyXniUr1ZyO1h4\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f06911c508c5d5e310c4b",
+      "status": "In Process",
+      "customer": {
+        "_id": "694f06911c508c5d5e310c09",
+        "email": "Brooks87@gmail.com",
+        "name": "Heath Stiedemann",
+        "country": "Great Britain",
+        "city": "Ratkehaven",
+        "street": "Gerhold Lock 38",
+        "house": 130,
+        "flat": 4060,
+        "phone": "+900329714445077",
+        "createdOn": "2025-12-26T22:05:05.000Z",
+        "notes": "ddjPWZLLogYlYGBG3juOSNScCcMA6o"
+      },
+      "products": [
+        {
+          "_id": "694f06911c508c5d5e310c1e",
+          "name": "Pizza79189",
+          "amount": 631,
+          "price": 32043,
+          "manufacturer": "Tesla",
+          "notes": "1XuGO5zyRCL8jLU2Ng2SVtp8HU2hd4ZC3jA4FnNtWvSMBvXyybjm0lIZYsBgWcpd74EMRObzERUNdBG3r1erLe3l4XnzaOXDjGjQDFoyhE8nmArwpceuZO2WNKMHqqvFBDWfwd2Xa3Gg7HIfgkWXHOE1rfPXZWQrBo9fyvqDzYE8gqSGHunORRFlfjnoioJHK6Tcxkw3bH07Fkntgrkq5a5LShsEEIROkKtzITDn3rbgjuPM4WdUftHVfe",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Mayerland",
+          "street": "Cummerata Forest",
+          "house": 677,
+          "flat": 7640
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 32043,
+      "createdOn": "2025-12-26T22:05:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694f06911c508c5d5e310c09",
+          "products": [
+            {
+              "_id": "694f06911c508c5d5e310c1e",
+              "name": "Pizza79189",
+              "amount": 631,
+              "price": 32043,
+              "manufacturer": "Tesla",
+              "notes": "1XuGO5zyRCL8jLU2Ng2SVtp8HU2hd4ZC3jA4FnNtWvSMBvXyybjm0lIZYsBgWcpd74EMRObzERUNdBG3r1erLe3l4XnzaOXDjGjQDFoyhE8nmArwpceuZO2WNKMHqqvFBDWfwd2Xa3Gg7HIfgkWXHOE1rfPXZWQrBo9fyvqDzYE8gqSGHunORRFlfjnoioJHK6Tcxkw3bH07Fkntgrkq5a5LShsEEIROkKtzITDn3rbgjuPM4WdUftHVfe",
+              "received": false
+            }
+          ],
+          "total_price": 32043,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Mayerland",
+              "street": "Cummerata Forest",
+              "house": 677,
+              "flat": 7640
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:05:07.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06911c508c5d5e310c09",
+          "products": [
+            {
+              "_id": "694f06911c508c5d5e310c1e",
+              "name": "Pizza79189",
+              "amount": 631,
+              "price": 32043,
+              "manufacturer": "Tesla",
+              "notes": "1XuGO5zyRCL8jLU2Ng2SVtp8HU2hd4ZC3jA4FnNtWvSMBvXyybjm0lIZYsBgWcpd74EMRObzERUNdBG3r1erLe3l4XnzaOXDjGjQDFoyhE8nmArwpceuZO2WNKMHqqvFBDWfwd2Xa3Gg7HIfgkWXHOE1rfPXZWQrBo9fyvqDzYE8gqSGHunORRFlfjnoioJHK6Tcxkw3bH07Fkntgrkq5a5LShsEEIROkKtzITDn3rbgjuPM4WdUftHVfe",
+              "received": false
+            }
+          ],
+          "total_price": 32043,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Mayerland",
+              "street": "Cummerata Forest",
+              "house": 677,
+              "flat": 7640
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:05:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06911c508c5d5e310c09",
+          "products": [
+            {
+              "_id": "694f06911c508c5d5e310c1e",
+              "name": "Pizza79189",
+              "amount": 631,
+              "price": 32043,
+              "manufacturer": "Tesla",
+              "notes": "1XuGO5zyRCL8jLU2Ng2SVtp8HU2hd4ZC3jA4FnNtWvSMBvXyybjm0lIZYsBgWcpd74EMRObzERUNdBG3r1erLe3l4XnzaOXDjGjQDFoyhE8nmArwpceuZO2WNKMHqqvFBDWfwd2Xa3Gg7HIfgkWXHOE1rfPXZWQrBo9fyvqDzYE8gqSGHunORRFlfjnoioJHK6Tcxkw3bH07Fkntgrkq5a5LShsEEIROkKtzITDn3rbgjuPM4WdUftHVfe",
+              "received": false
+            }
+          ],
+          "total_price": 32043,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:05:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

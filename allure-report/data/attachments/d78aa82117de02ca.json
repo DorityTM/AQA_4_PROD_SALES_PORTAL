@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:06:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4638",
+    "etag": "W/\"121e-0AZJHGppUO3Aa65Uk1NRXLtg2Rg\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f06d21c508c5d5e312ba3",
+      "status": "Received",
+      "customer": {
+        "_id": "694f06d11c508c5d5e312a96",
+        "email": "Kevin10@hotmail.com",
+        "name": "Lia Bode",
+        "country": "Canada",
+        "city": "Carolannecester",
+        "street": "Willow Pine 81",
+        "house": 609,
+        "flat": 9593,
+        "phone": "+964617999117419",
+        "createdOn": "2025-12-26T22:06:09.000Z",
+        "notes": "GzyLMaCSXDOROr27khlQulYM9IQxZR"
+      },
+      "products": [
+        {
+          "_id": "694f06d11c508c5d5e312aac",
+          "name": "Pizza86547",
+          "amount": 769,
+          "price": 96214,
+          "manufacturer": "Microsoft",
+          "notes": "txEj2hT3ABN4ASioI4v6KxSS9M5kx9KgdW2bTaWJ0VLOLkVAYGOrNNpbalziNoFVYonDitUsuYss8QutmXcsDUt0pPl7bQHgjyaShgYdgPpsevzBKvVeiLhzrbDb3O5ky3JmL6ljxeURfQJejSh8sU3WulByTplMcdRl94SslMc243U5brsjqLQq1P3tWTA9gBrTmqK5ag0AXtMp9EKG2faYpAjnH5K9UuzzM4AcAbUOFQIWtv1FeZ10pp",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Jessietown",
+          "street": "N Washington Avenue",
+          "house": 103,
+          "flat": 9595
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 96214,
+      "createdOn": "2025-12-26T22:06:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694f06d11c508c5d5e312a96",
+          "products": [
+            {
+              "_id": "694f06d11c508c5d5e312aac",
+              "name": "Pizza86547",
+              "amount": 769,
+              "price": 96214,
+              "manufacturer": "Microsoft",
+              "notes": "txEj2hT3ABN4ASioI4v6KxSS9M5kx9KgdW2bTaWJ0VLOLkVAYGOrNNpbalziNoFVYonDitUsuYss8QutmXcsDUt0pPl7bQHgjyaShgYdgPpsevzBKvVeiLhzrbDb3O5ky3JmL6ljxeURfQJejSh8sU3WulByTplMcdRl94SslMc243U5brsjqLQq1P3tWTA9gBrTmqK5ag0AXtMp9EKG2faYpAjnH5K9UuzzM4AcAbUOFQIWtv1FeZ10pp",
+              "received": true
+            }
+          ],
+          "total_price": 96214,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Jessietown",
+              "street": "N Washington Avenue",
+              "house": 103,
+              "flat": 9595
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:06:12.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694f06d11c508c5d5e312a96",
+          "products": [
+            {
+              "_id": "694f06d11c508c5d5e312aac",
+              "name": "Pizza86547",
+              "amount": 769,
+              "price": 96214,
+              "manufacturer": "Microsoft",
+              "notes": "txEj2hT3ABN4ASioI4v6KxSS9M5kx9KgdW2bTaWJ0VLOLkVAYGOrNNpbalziNoFVYonDitUsuYss8QutmXcsDUt0pPl7bQHgjyaShgYdgPpsevzBKvVeiLhzrbDb3O5ky3JmL6ljxeURfQJejSh8sU3WulByTplMcdRl94SslMc243U5brsjqLQq1P3tWTA9gBrTmqK5ag0AXtMp9EKG2faYpAjnH5K9UuzzM4AcAbUOFQIWtv1FeZ10pp",
+              "received": false
+            }
+          ],
+          "total_price": 96214,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Jessietown",
+              "street": "N Washington Avenue",
+              "house": 103,
+              "flat": 9595
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:06:11.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06d11c508c5d5e312a96",
+          "products": [
+            {
+              "_id": "694f06d11c508c5d5e312aac",
+              "name": "Pizza86547",
+              "amount": 769,
+              "price": 96214,
+              "manufacturer": "Microsoft",
+              "notes": "txEj2hT3ABN4ASioI4v6KxSS9M5kx9KgdW2bTaWJ0VLOLkVAYGOrNNpbalziNoFVYonDitUsuYss8QutmXcsDUt0pPl7bQHgjyaShgYdgPpsevzBKvVeiLhzrbDb3O5ky3JmL6ljxeURfQJejSh8sU3WulByTplMcdRl94SslMc243U5brsjqLQq1P3tWTA9gBrTmqK5ag0AXtMp9EKG2faYpAjnH5K9UuzzM4AcAbUOFQIWtv1FeZ10pp",
+              "received": false
+            }
+          ],
+          "total_price": 96214,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Jessietown",
+              "street": "N Washington Avenue",
+              "house": 103,
+              "flat": 9595
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:06:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06d11c508c5d5e312a96",
+          "products": [
+            {
+              "_id": "694f06d11c508c5d5e312aac",
+              "name": "Pizza86547",
+              "amount": 769,
+              "price": 96214,
+              "manufacturer": "Microsoft",
+              "notes": "txEj2hT3ABN4ASioI4v6KxSS9M5kx9KgdW2bTaWJ0VLOLkVAYGOrNNpbalziNoFVYonDitUsuYss8QutmXcsDUt0pPl7bQHgjyaShgYdgPpsevzBKvVeiLhzrbDb3O5ky3JmL6ljxeURfQJejSh8sU3WulByTplMcdRl94SslMc243U5brsjqLQq1P3tWTA9gBrTmqK5ag0AXtMp9EKG2faYpAjnH5K9UuzzM4AcAbUOFQIWtv1FeZ10pp",
+              "received": false
+            }
+          ],
+          "total_price": 96214,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:06:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

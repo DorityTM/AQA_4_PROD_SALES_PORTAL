@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:07:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2765",
+    "etag": "W/\"acd-2i0tB95IspJo2oR8cBfir8XvUSY\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f07351c508c5d5e315517",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f07341c508c5d5e3154cd",
+        "email": "Guiseppe.Rath@yahoo.com",
+        "name": "Mona Kirlin",
+        "country": "Belarus",
+        "city": "North Jackelinetown",
+        "street": "Kub Ways 42",
+        "house": 883,
+        "flat": 5981,
+        "phone": "+114163374443341",
+        "createdOn": "2025-12-26T22:07:48.000Z",
+        "notes": "c94NWq06GYPT0CIc3EvaWMiYFqMjBu"
+      },
+      "products": [
+        {
+          "_id": "694f07351c508c5d5e3154ef",
+          "name": "Sausages33060",
+          "amount": 387,
+          "price": 33881,
+          "manufacturer": "Google",
+          "notes": "QAJ8O2XwfeLRPLUCmBjnPO28IshQGsgvsOF5LDlXdQUC09RpckHPwBdXCMON4h3MygoDtqFTCPwcZlumQdo9b4nNnuKL80d0uJh3CHBbHtNiEhKgF6R7ftNyKLBSNPKtgF2hqNs5o7EjupHmgph0HAW3lWhT9BOyrOSRrTmcW1eXIxe2Y5elA7ghdyhOMaLYnCcnZNk8QAZprQtBf905rtI2IBsDuvdcp7VK7S3Qi3ebPQSgt1EHfPonyd",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Port Brodyland",
+          "street": "Church View",
+          "house": 715,
+          "flat": 5417
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33881,
+      "createdOn": "2025-12-26T22:07:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f07341c508c5d5e3154cd",
+          "products": [
+            {
+              "_id": "694f07351c508c5d5e3154ef",
+              "name": "Sausages33060",
+              "amount": 387,
+              "price": 33881,
+              "manufacturer": "Google",
+              "notes": "QAJ8O2XwfeLRPLUCmBjnPO28IshQGsgvsOF5LDlXdQUC09RpckHPwBdXCMON4h3MygoDtqFTCPwcZlumQdo9b4nNnuKL80d0uJh3CHBbHtNiEhKgF6R7ftNyKLBSNPKtgF2hqNs5o7EjupHmgph0HAW3lWhT9BOyrOSRrTmcW1eXIxe2Y5elA7ghdyhOMaLYnCcnZNk8QAZprQtBf905rtI2IBsDuvdcp7VK7S3Qi3ebPQSgt1EHfPonyd",
+              "received": false
+            }
+          ],
+          "total_price": 33881,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Brodyland",
+              "street": "Church View",
+              "house": 715,
+              "flat": 5417
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:07:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f07341c508c5d5e3154cd",
+          "products": [
+            {
+              "_id": "694f07351c508c5d5e3154ef",
+              "name": "Sausages33060",
+              "amount": 387,
+              "price": 33881,
+              "manufacturer": "Google",
+              "notes": "QAJ8O2XwfeLRPLUCmBjnPO28IshQGsgvsOF5LDlXdQUC09RpckHPwBdXCMON4h3MygoDtqFTCPwcZlumQdo9b4nNnuKL80d0uJh3CHBbHtNiEhKgF6R7ftNyKLBSNPKtgF2hqNs5o7EjupHmgph0HAW3lWhT9BOyrOSRrTmcW1eXIxe2Y5elA7ghdyhOMaLYnCcnZNk8QAZprQtBf905rtI2IBsDuvdcp7VK7S3Qi3ebPQSgt1EHfPonyd",
+              "received": false
+            }
+          ],
+          "total_price": 33881,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:07:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

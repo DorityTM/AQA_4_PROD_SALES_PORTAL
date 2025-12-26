@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:07:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2780",
+    "etag": "W/\"adc-CQYAf2vMeRjLoaB2np49ivcEBXw\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f072c1c508c5d5e31514a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694f072c1c508c5d5e315119",
+        "email": "Esther.Koelpin@yahoo.com",
+        "name": "Willie Goyette",
+        "country": "France",
+        "city": "West Kaia",
+        "street": "Elliott Center 74",
+        "house": 923,
+        "flat": 9307,
+        "phone": "+775168787880561",
+        "createdOn": "2025-12-26T22:07:40.000Z",
+        "notes": "5N6zFEthmmZHStDblLl4Ej6lMVpYrQ"
+      },
+      "products": [
+        {
+          "_id": "694f072c1c508c5d5e315132",
+          "name": "Pants41641",
+          "amount": 589,
+          "price": 42104,
+          "manufacturer": "Samsung",
+          "notes": "gxqhlwup8yOQxMCcECYOmsFl7woXRciV3EfX8vzuJHBIyXs7kyvzZIXTUC30Y2NW0lBy11pqCVZ7IBkyeEtKAT8XrkfryNIBorfEuq2o7lMBT61GbwwtDSEOGBF5lPTBa5sgcBOnOGHU3JEqevGka3LnoPaxFeFPOSmIQEGxMFK4JmVKF87j6iMClqaMglUBMUbVWfQwJsDZIHrG8PXZpKWPs81Ezt6QrZIKcoZoRboFP40H1nR5ct2swS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "North Austin",
+          "street": "Pfeffer Underpass",
+          "house": 457,
+          "flat": 9778
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42104,
+      "createdOn": "2025-12-26T22:07:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694f072c1c508c5d5e315119",
+          "products": [
+            {
+              "_id": "694f072c1c508c5d5e315132",
+              "name": "Pants41641",
+              "amount": 589,
+              "price": 42104,
+              "manufacturer": "Samsung",
+              "notes": "gxqhlwup8yOQxMCcECYOmsFl7woXRciV3EfX8vzuJHBIyXs7kyvzZIXTUC30Y2NW0lBy11pqCVZ7IBkyeEtKAT8XrkfryNIBorfEuq2o7lMBT61GbwwtDSEOGBF5lPTBa5sgcBOnOGHU3JEqevGka3LnoPaxFeFPOSmIQEGxMFK4JmVKF87j6iMClqaMglUBMUbVWfQwJsDZIHrG8PXZpKWPs81Ezt6QrZIKcoZoRboFP40H1nR5ct2swS",
+              "received": false
+            }
+          ],
+          "total_price": 42104,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "North Austin",
+              "street": "Pfeffer Underpass",
+              "house": 457,
+              "flat": 9778
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:07:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f072c1c508c5d5e315119",
+          "products": [
+            {
+              "_id": "694f072c1c508c5d5e315132",
+              "name": "Pants41641",
+              "amount": 589,
+              "price": 42104,
+              "manufacturer": "Samsung",
+              "notes": "gxqhlwup8yOQxMCcECYOmsFl7woXRciV3EfX8vzuJHBIyXs7kyvzZIXTUC30Y2NW0lBy11pqCVZ7IBkyeEtKAT8XrkfryNIBorfEuq2o7lMBT61GbwwtDSEOGBF5lPTBa5sgcBOnOGHU3JEqevGka3LnoPaxFeFPOSmIQEGxMFK4JmVKF87j6iMClqaMglUBMUbVWfQwJsDZIHrG8PXZpKWPs81Ezt6QrZIKcoZoRboFP40H1nR5ct2swS",
+              "received": false
+            }
+          ],
+          "total_price": 42104,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:07:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

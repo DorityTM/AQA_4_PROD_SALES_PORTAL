@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 22:06:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4649",
+    "etag": "W/\"1229-Tc5eWrJ6Zn6Dzs745RD2JJ7vnic\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694f06d21c508c5d5e312ba5",
+      "status": "Received",
+      "customer": {
+        "_id": "694f06d11c508c5d5e312a94",
+        "email": "Cristian_Murphy38@gmail.com",
+        "name": "Santina Kessler",
+        "country": "Canada",
+        "city": "North Mireyaport",
+        "street": "Otis Spurs 4",
+        "house": 729,
+        "flat": 4524,
+        "phone": "+343254422735048",
+        "createdOn": "2025-12-26T22:06:09.000Z",
+        "notes": "xDPefkNo10JuUafg84xHkjaWMbLS0K"
+      },
+      "products": [
+        {
+          "_id": "694f06d11c508c5d5e312aaa",
+          "name": "Car7573",
+          "amount": 876,
+          "price": 64559,
+          "manufacturer": "Microsoft",
+          "notes": "MabYUUswVOjgFZqFeSqXGsh1QhOGSOGqsNRLxwN6pocladPgGaLAHOeIBQA7hP2xgwFA68q3brya7K9PanhgQRFvUE2yZWunHG58PG7TMXgPX8n1xX5X6XsQ2Ha78VFmPijv7VGWWjmVNxqjpwVfrXtzlLaTlSR8bNL6fnryEtzLBd690KSStNPdWsuMulPfQ0VMjW9Prw4KxZwKIcjeWzQZZSbAdnouaRhaSCeBWQF8P7QGRQbdCiSrzr",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "North Dellastad",
+          "street": "Cormier Via",
+          "house": 695,
+          "flat": 9308
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64559,
+      "createdOn": "2025-12-26T22:06:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694f06d11c508c5d5e312a94",
+          "products": [
+            {
+              "_id": "694f06d11c508c5d5e312aaa",
+              "name": "Car7573",
+              "amount": 876,
+              "price": 64559,
+              "manufacturer": "Microsoft",
+              "notes": "MabYUUswVOjgFZqFeSqXGsh1QhOGSOGqsNRLxwN6pocladPgGaLAHOeIBQA7hP2xgwFA68q3brya7K9PanhgQRFvUE2yZWunHG58PG7TMXgPX8n1xX5X6XsQ2Ha78VFmPijv7VGWWjmVNxqjpwVfrXtzlLaTlSR8bNL6fnryEtzLBd690KSStNPdWsuMulPfQ0VMjW9Prw4KxZwKIcjeWzQZZSbAdnouaRhaSCeBWQF8P7QGRQbdCiSrzr",
+              "received": true
+            }
+          ],
+          "total_price": 64559,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "North Dellastad",
+              "street": "Cormier Via",
+              "house": 695,
+              "flat": 9308
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:06:12.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694f06d11c508c5d5e312a94",
+          "products": [
+            {
+              "_id": "694f06d11c508c5d5e312aaa",
+              "name": "Car7573",
+              "amount": 876,
+              "price": 64559,
+              "manufacturer": "Microsoft",
+              "notes": "MabYUUswVOjgFZqFeSqXGsh1QhOGSOGqsNRLxwN6pocladPgGaLAHOeIBQA7hP2xgwFA68q3brya7K9PanhgQRFvUE2yZWunHG58PG7TMXgPX8n1xX5X6XsQ2Ha78VFmPijv7VGWWjmVNxqjpwVfrXtzlLaTlSR8bNL6fnryEtzLBd690KSStNPdWsuMulPfQ0VMjW9Prw4KxZwKIcjeWzQZZSbAdnouaRhaSCeBWQF8P7QGRQbdCiSrzr",
+              "received": false
+            }
+          ],
+          "total_price": 64559,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "North Dellastad",
+              "street": "Cormier Via",
+              "house": 695,
+              "flat": 9308
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:06:11.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06d11c508c5d5e312a94",
+          "products": [
+            {
+              "_id": "694f06d11c508c5d5e312aaa",
+              "name": "Car7573",
+              "amount": 876,
+              "price": 64559,
+              "manufacturer": "Microsoft",
+              "notes": "MabYUUswVOjgFZqFeSqXGsh1QhOGSOGqsNRLxwN6pocladPgGaLAHOeIBQA7hP2xgwFA68q3brya7K9PanhgQRFvUE2yZWunHG58PG7TMXgPX8n1xX5X6XsQ2Ha78VFmPijv7VGWWjmVNxqjpwVfrXtzlLaTlSR8bNL6fnryEtzLBd690KSStNPdWsuMulPfQ0VMjW9Prw4KxZwKIcjeWzQZZSbAdnouaRhaSCeBWQF8P7QGRQbdCiSrzr",
+              "received": false
+            }
+          ],
+          "total_price": 64559,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "North Dellastad",
+              "street": "Cormier Via",
+              "house": 695,
+              "flat": 9308
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T22:06:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694f06d11c508c5d5e312a94",
+          "products": [
+            {
+              "_id": "694f06d11c508c5d5e312aaa",
+              "name": "Car7573",
+              "amount": 876,
+              "price": 64559,
+              "manufacturer": "Microsoft",
+              "notes": "MabYUUswVOjgFZqFeSqXGsh1QhOGSOGqsNRLxwN6pocladPgGaLAHOeIBQA7hP2xgwFA68q3brya7K9PanhgQRFvUE2yZWunHG58PG7TMXgPX8n1xX5X6XsQ2Ha78VFmPijv7VGWWjmVNxqjpwVfrXtzlLaTlSR8bNL6fnryEtzLBd690KSStNPdWsuMulPfQ0VMjW9Prw4KxZwKIcjeWzQZZSbAdnouaRhaSCeBWQF8P7QGRQbdCiSrzr",
+              "received": false
+            }
+          ],
+          "total_price": 64559,
+          "delivery": null,
+          "changedOn": "2025-12-26T22:06:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
