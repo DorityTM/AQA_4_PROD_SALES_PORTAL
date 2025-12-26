@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:18:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2755",
+    "etag": "W/\"ac3-oMCnCmqq/KqC2gQBskEKG7U5JK4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e7d161c508c5d5e14ab6b",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e7d151c508c5d5e14ab23",
+        "email": "Alice.Yundt4@hotmail.com",
+        "name": "Salvatore Franey",
+        "country": "Canada",
+        "city": "East Toney",
+        "street": "Kirlin Union 19",
+        "house": 277,
+        "flat": 7437,
+        "phone": "+095069065373209",
+        "createdOn": "2025-12-26T12:18:29.000Z",
+        "notes": "YVs644IYgZGimQklFoUCWgGHuevqh3"
+      },
+      "products": [
+        {
+          "_id": "694e7d151c508c5d5e14ab45",
+          "name": "Soap73302",
+          "amount": 727,
+          "price": 56903,
+          "manufacturer": "Google",
+          "notes": "2LywUvxPLnzeqtk4pTvf06kSWGgJQMjfKVwsETEz9S11i3VnhEX766eJ17VfrwihhdKjaWno7LkMqK6eZdbsENPFvFZrZPa20AUmC08koiNTq7hBZoTY8kvlEhFNJBQmeseCo6KpJ15KOhzpzezaQP8YJZ1JqxkWUprpPmoGQEpLAOxZlf64DelnxS6EFRmTrkKIi2hS1n8CIS4DFpPt7dHE1TyyrN0uFAEac9w19Gov9vWSY9041JrDBs",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Susannaland",
+          "street": "Woodland Close",
+          "house": 968,
+          "flat": 7908
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56903,
+      "createdOn": "2025-12-26T12:18:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e7d151c508c5d5e14ab23",
+          "products": [
+            {
+              "_id": "694e7d151c508c5d5e14ab45",
+              "name": "Soap73302",
+              "amount": 727,
+              "price": 56903,
+              "manufacturer": "Google",
+              "notes": "2LywUvxPLnzeqtk4pTvf06kSWGgJQMjfKVwsETEz9S11i3VnhEX766eJ17VfrwihhdKjaWno7LkMqK6eZdbsENPFvFZrZPa20AUmC08koiNTq7hBZoTY8kvlEhFNJBQmeseCo6KpJ15KOhzpzezaQP8YJZ1JqxkWUprpPmoGQEpLAOxZlf64DelnxS6EFRmTrkKIi2hS1n8CIS4DFpPt7dHE1TyyrN0uFAEac9w19Gov9vWSY9041JrDBs",
+              "received": false
+            }
+          ],
+          "total_price": 56903,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Susannaland",
+              "street": "Woodland Close",
+              "house": 968,
+              "flat": 7908
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:18:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7d151c508c5d5e14ab23",
+          "products": [
+            {
+              "_id": "694e7d151c508c5d5e14ab45",
+              "name": "Soap73302",
+              "amount": 727,
+              "price": 56903,
+              "manufacturer": "Google",
+              "notes": "2LywUvxPLnzeqtk4pTvf06kSWGgJQMjfKVwsETEz9S11i3VnhEX766eJ17VfrwihhdKjaWno7LkMqK6eZdbsENPFvFZrZPa20AUmC08koiNTq7hBZoTY8kvlEhFNJBQmeseCo6KpJ15KOhzpzezaQP8YJZ1JqxkWUprpPmoGQEpLAOxZlf64DelnxS6EFRmTrkKIi2hS1n8CIS4DFpPt7dHE1TyyrN0uFAEac9w19Gov9vWSY9041JrDBs",
+              "received": false
+            }
+          ],
+          "total_price": 56903,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:18:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

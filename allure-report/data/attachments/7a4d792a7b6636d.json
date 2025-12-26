@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:17:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3696",
+    "etag": "W/\"e70-M8NOugykPtsHvvGhT9dKFgtPhco\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e7cd21c508c5d5e14873e",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e7cd01c508c5d5e148636",
+        "email": "Herminia_Stamm26@gmail.com",
+        "name": "Estelle Turcotte",
+        "country": "France",
+        "city": "Lake Billcester",
+        "street": "Mill Close 10",
+        "house": 643,
+        "flat": 9309,
+        "phone": "+542032020860162",
+        "createdOn": "2025-12-26T12:17:20.000Z",
+        "notes": "0m70Ui2GzpvRCWGtNFoOjyv3Q4Mthq"
+      },
+      "products": [
+        {
+          "_id": "694e7cd11c508c5d5e14865e",
+          "name": "Table23995",
+          "amount": 49,
+          "price": 64814,
+          "manufacturer": "Samsung",
+          "notes": "utTdDniNJ4VVwhfqmElmet3rOexn91mPruTns4JOchAhwa8EXi44qA0uAHOpNzoya5u9g5O0PrTSqQ4Ftnbmj7FKcX9wSWizfNUL1ITnEK6dA4ul58HZjPOfx7gSqdjLuRcWaKDEADYbhGSEDIeOKgRHoosVdkwCirivTW96TZl4Ypm6xeUIUs6dDKkkAQk4cdA9I3mNKYfmOMZKkYEV07tlQtqhNKDDD9kSqGqlhcu8ZNQM8lQZQcG3xV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "North Jadenborough",
+          "street": "Ash Road",
+          "house": 25,
+          "flat": 8926
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64814,
+      "createdOn": "2025-12-26T12:17:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e7cd01c508c5d5e148636",
+          "products": [
+            {
+              "_id": "694e7cd11c508c5d5e14865e",
+              "name": "Table23995",
+              "amount": 49,
+              "price": 64814,
+              "manufacturer": "Samsung",
+              "notes": "utTdDniNJ4VVwhfqmElmet3rOexn91mPruTns4JOchAhwa8EXi44qA0uAHOpNzoya5u9g5O0PrTSqQ4Ftnbmj7FKcX9wSWizfNUL1ITnEK6dA4ul58HZjPOfx7gSqdjLuRcWaKDEADYbhGSEDIeOKgRHoosVdkwCirivTW96TZl4Ypm6xeUIUs6dDKkkAQk4cdA9I3mNKYfmOMZKkYEV07tlQtqhNKDDD9kSqGqlhcu8ZNQM8lQZQcG3xV",
+              "received": false
+            }
+          ],
+          "total_price": 64814,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Jadenborough",
+              "street": "Ash Road",
+              "house": 25,
+              "flat": 8926
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:17:24.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7cd01c508c5d5e148636",
+          "products": [
+            {
+              "_id": "694e7cd11c508c5d5e14865e",
+              "name": "Table23995",
+              "amount": 49,
+              "price": 64814,
+              "manufacturer": "Samsung",
+              "notes": "utTdDniNJ4VVwhfqmElmet3rOexn91mPruTns4JOchAhwa8EXi44qA0uAHOpNzoya5u9g5O0PrTSqQ4Ftnbmj7FKcX9wSWizfNUL1ITnEK6dA4ul58HZjPOfx7gSqdjLuRcWaKDEADYbhGSEDIeOKgRHoosVdkwCirivTW96TZl4Ypm6xeUIUs6dDKkkAQk4cdA9I3mNKYfmOMZKkYEV07tlQtqhNKDDD9kSqGqlhcu8ZNQM8lQZQcG3xV",
+              "received": false
+            }
+          ],
+          "total_price": 64814,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "North Jadenborough",
+              "street": "Ash Road",
+              "house": 25,
+              "flat": 8926
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:17:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7cd01c508c5d5e148636",
+          "products": [
+            {
+              "_id": "694e7cd11c508c5d5e14865e",
+              "name": "Table23995",
+              "amount": 49,
+              "price": 64814,
+              "manufacturer": "Samsung",
+              "notes": "utTdDniNJ4VVwhfqmElmet3rOexn91mPruTns4JOchAhwa8EXi44qA0uAHOpNzoya5u9g5O0PrTSqQ4Ftnbmj7FKcX9wSWizfNUL1ITnEK6dA4ul58HZjPOfx7gSqdjLuRcWaKDEADYbhGSEDIeOKgRHoosVdkwCirivTW96TZl4Ypm6xeUIUs6dDKkkAQk4cdA9I3mNKYfmOMZKkYEV07tlQtqhNKDDD9kSqGqlhcu8ZNQM8lQZQcG3xV",
+              "received": false
+            }
+          ],
+          "total_price": 64814,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:17:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

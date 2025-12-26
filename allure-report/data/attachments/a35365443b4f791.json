@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:17:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-yF1uTBCG2sgEYpgCdhQek9Ob2Ks\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e7ccf1c508c5d5e14851e",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e7cce1c508c5d5e1484c1",
+        "email": "Pat.Hand1@yahoo.com",
+        "name": "Arianna Kutch",
+        "country": "Belarus",
+        "city": "New Keagan",
+        "street": "Alta Route 71",
+        "house": 324,
+        "flat": 5193,
+        "phone": "+895784422289846",
+        "createdOn": "2025-12-26T12:17:18.000Z",
+        "notes": "aW5x86Kmv1ywqiSIAnrXiXEEc7yma6"
+      },
+      "products": [
+        {
+          "_id": "694e7cce1c508c5d5e1484ed",
+          "name": "Hat14002",
+          "amount": 214,
+          "price": 4792,
+          "manufacturer": "Microsoft",
+          "notes": "8McQ13N79KApvbJMqALfdBCujlR1IygjOEoQurebxl6rfNFOda1s1u1LPsXHEBBQXwQiGZvbcYLbb8CIoKp6lpmwHZ1lV0CWS0uBEzaZZAmjIrMLV4V4SoSg5IeBHLHnY7I1q76jpU5xxWDHrK0zf2F9a11EFktnWZ4CfzIBTwfL7CkVFE1p58xG4ImLUmo1pyA4xBsbKzZzBHlXHGLdNBy0CtJ6A8uB36wK7bQZ7XiwAGb0e5camhfwkC",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Port Maximus",
+          "street": "Rath Ford",
+          "house": 976,
+          "flat": 681
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 4792,
+      "createdOn": "2025-12-26T12:17:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e7cce1c508c5d5e1484c1",
+          "products": [
+            {
+              "_id": "694e7cce1c508c5d5e1484ed",
+              "name": "Hat14002",
+              "amount": 214,
+              "price": 4792,
+              "manufacturer": "Microsoft",
+              "notes": "8McQ13N79KApvbJMqALfdBCujlR1IygjOEoQurebxl6rfNFOda1s1u1LPsXHEBBQXwQiGZvbcYLbb8CIoKp6lpmwHZ1lV0CWS0uBEzaZZAmjIrMLV4V4SoSg5IeBHLHnY7I1q76jpU5xxWDHrK0zf2F9a11EFktnWZ4CfzIBTwfL7CkVFE1p58xG4ImLUmo1pyA4xBsbKzZzBHlXHGLdNBy0CtJ6A8uB36wK7bQZ7XiwAGb0e5camhfwkC",
+              "received": false
+            }
+          ],
+          "total_price": 4792,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Maximus",
+              "street": "Rath Ford",
+              "house": 976,
+              "flat": 681
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:17:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7cce1c508c5d5e1484c1",
+          "products": [
+            {
+              "_id": "694e7cce1c508c5d5e1484ed",
+              "name": "Hat14002",
+              "amount": 214,
+              "price": 4792,
+              "manufacturer": "Microsoft",
+              "notes": "8McQ13N79KApvbJMqALfdBCujlR1IygjOEoQurebxl6rfNFOda1s1u1LPsXHEBBQXwQiGZvbcYLbb8CIoKp6lpmwHZ1lV0CWS0uBEzaZZAmjIrMLV4V4SoSg5IeBHLHnY7I1q76jpU5xxWDHrK0zf2F9a11EFktnWZ4CfzIBTwfL7CkVFE1p58xG4ImLUmo1pyA4xBsbKzZzBHlXHGLdNBy0CtJ6A8uB36wK7bQZ7XiwAGb0e5camhfwkC",
+              "received": false
+            }
+          ],
+          "total_price": 4792,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:17:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

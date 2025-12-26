@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:18:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3714",
+    "etag": "W/\"e82-36s8g+VHBOI1VSuqsU61OJhwAPM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e7d1f1c508c5d5e14b157",
+      "status": "In Process",
+      "customer": {
+        "_id": "694e7d1d1c508c5d5e14afce",
+        "email": "Stella.Yost14@gmail.com",
+        "name": "Newton Rogahn",
+        "country": "Belarus",
+        "city": "Port Josuefort",
+        "street": "Kohler Ridges 68",
+        "house": 619,
+        "flat": 6513,
+        "phone": "+374133933071020",
+        "createdOn": "2025-12-26T12:18:37.000Z",
+        "notes": "NS68qEq71xsCt1q97KbPgwaAxmuBao"
+      },
+      "products": [
+        {
+          "_id": "694e7d1e1c508c5d5e14b144",
+          "name": "Salad28232",
+          "amount": 784,
+          "price": 51334,
+          "manufacturer": "Microsoft",
+          "notes": "8u8fkkskD8Bg3h0mHCtgAFP1UTnFnxVgsbfxi0nRd3PEmJflbRwyiEwzLEtZDhZaoUuw3RAWCqykTzMwdXRQtVjJhPKCXCdhV22lQqn5c9opRPAOXUy0HpY7HM7AiwKfyaxngmAAUD4hl89byGqfjaxBYXoybhUACW7SMFXcOiGpcvqy0gtTRhbXELEyRAWGaDju5mLREuclyAmli7YD5opmCK47bFebwSSeHuynfVNquNIfj9XDHFQs2O",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Bartolettiberg",
+          "street": "Labadie Wells",
+          "house": 953,
+          "flat": 7649
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51334,
+      "createdOn": "2025-12-26T12:18:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694e7d1d1c508c5d5e14afce",
+          "products": [
+            {
+              "_id": "694e7d1e1c508c5d5e14b144",
+              "name": "Salad28232",
+              "amount": 784,
+              "price": 51334,
+              "manufacturer": "Microsoft",
+              "notes": "8u8fkkskD8Bg3h0mHCtgAFP1UTnFnxVgsbfxi0nRd3PEmJflbRwyiEwzLEtZDhZaoUuw3RAWCqykTzMwdXRQtVjJhPKCXCdhV22lQqn5c9opRPAOXUy0HpY7HM7AiwKfyaxngmAAUD4hl89byGqfjaxBYXoybhUACW7SMFXcOiGpcvqy0gtTRhbXELEyRAWGaDju5mLREuclyAmli7YD5opmCK47bFebwSSeHuynfVNquNIfj9XDHFQs2O",
+              "received": false
+            }
+          ],
+          "total_price": 51334,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Bartolettiberg",
+              "street": "Labadie Wells",
+              "house": 953,
+              "flat": 7649
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:18:40.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7d1d1c508c5d5e14afce",
+          "products": [
+            {
+              "_id": "694e7d1e1c508c5d5e14b144",
+              "name": "Salad28232",
+              "amount": 784,
+              "price": 51334,
+              "manufacturer": "Microsoft",
+              "notes": "8u8fkkskD8Bg3h0mHCtgAFP1UTnFnxVgsbfxi0nRd3PEmJflbRwyiEwzLEtZDhZaoUuw3RAWCqykTzMwdXRQtVjJhPKCXCdhV22lQqn5c9opRPAOXUy0HpY7HM7AiwKfyaxngmAAUD4hl89byGqfjaxBYXoybhUACW7SMFXcOiGpcvqy0gtTRhbXELEyRAWGaDju5mLREuclyAmli7YD5opmCK47bFebwSSeHuynfVNquNIfj9XDHFQs2O",
+              "received": false
+            }
+          ],
+          "total_price": 51334,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Bartolettiberg",
+              "street": "Labadie Wells",
+              "house": 953,
+              "flat": 7649
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:18:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7d1d1c508c5d5e14afce",
+          "products": [
+            {
+              "_id": "694e7d1e1c508c5d5e14b144",
+              "name": "Salad28232",
+              "amount": 784,
+              "price": 51334,
+              "manufacturer": "Microsoft",
+              "notes": "8u8fkkskD8Bg3h0mHCtgAFP1UTnFnxVgsbfxi0nRd3PEmJflbRwyiEwzLEtZDhZaoUuw3RAWCqykTzMwdXRQtVjJhPKCXCdhV22lQqn5c9opRPAOXUy0HpY7HM7AiwKfyaxngmAAUD4hl89byGqfjaxBYXoybhUACW7SMFXcOiGpcvqy0gtTRhbXELEyRAWGaDju5mLREuclyAmli7YD5opmCK47bFebwSSeHuynfVNquNIfj9XDHFQs2O",
+              "received": false
+            }
+          ],
+          "total_price": 51334,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:18:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

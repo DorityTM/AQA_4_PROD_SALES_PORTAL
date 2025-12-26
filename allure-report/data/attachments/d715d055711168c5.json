@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 26 Dec 2025 12:17:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-i4MogU+fOajRqYpOEdLSdnEEjAY\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694e7ccf1c508c5d5e14851a",
+      "status": "Draft",
+      "customer": {
+        "_id": "694e7cce1c508c5d5e1484be",
+        "email": "Lucas52@gmail.com",
+        "name": "Reginald Hilpert",
+        "country": "France",
+        "city": "Sierra Vista",
+        "street": "Hettinger Mount 8",
+        "house": 835,
+        "flat": 2415,
+        "phone": "+401912574987070",
+        "createdOn": "2025-12-26T12:17:18.000Z",
+        "notes": "zMeq5mFoSJmmSISlF5eLbGDwKLRDCn"
+      },
+      "products": [
+        {
+          "_id": "694e7cce1c508c5d5e1484eb",
+          "name": "Soap20946",
+          "amount": 577,
+          "price": 48035,
+          "manufacturer": "Samsung",
+          "notes": "dZG6CyFZKUThR8TpFbwGAfaF2htLzsj50CHJ414iRiVjDDvohB3KMBwehMpvphlNxwcKlPlSFijnKHZwxswvqRTn4nIc3K7oBMRt7MvqJHFAAuqqfC16R9EOD959VCUSD9EVJN8K9ruFQFZMf9JcrwK06idzKqRL9QYpUW1sAAWJqEYYqeOFt4N8eUTl2GGvuvfHQcrkDChegKY4gdojd3es4mDvUW3KOtOeFPQsNER7FqqNqBpQZrkiFZ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Jannieside",
+          "street": "Washington Boulevard",
+          "house": 660,
+          "flat": 8918
+        },
+        "finalDate": "2026-01-02T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 48035,
+      "createdOn": "2025-12-26T12:17:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694e7cce1c508c5d5e1484be",
+          "products": [
+            {
+              "_id": "694e7cce1c508c5d5e1484eb",
+              "name": "Soap20946",
+              "amount": 577,
+              "price": 48035,
+              "manufacturer": "Samsung",
+              "notes": "dZG6CyFZKUThR8TpFbwGAfaF2htLzsj50CHJ414iRiVjDDvohB3KMBwehMpvphlNxwcKlPlSFijnKHZwxswvqRTn4nIc3K7oBMRt7MvqJHFAAuqqfC16R9EOD959VCUSD9EVJN8K9ruFQFZMf9JcrwK06idzKqRL9QYpUW1sAAWJqEYYqeOFt4N8eUTl2GGvuvfHQcrkDChegKY4gdojd3es4mDvUW3KOtOeFPQsNER7FqqNqBpQZrkiFZ",
+              "received": false
+            }
+          ],
+          "total_price": 48035,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Jannieside",
+              "street": "Washington Boulevard",
+              "house": 660,
+              "flat": 8918
+            },
+            "finalDate": "2026-01-02T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-26T12:17:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694e7cce1c508c5d5e1484be",
+          "products": [
+            {
+              "_id": "694e7cce1c508c5d5e1484eb",
+              "name": "Soap20946",
+              "amount": 577,
+              "price": 48035,
+              "manufacturer": "Samsung",
+              "notes": "dZG6CyFZKUThR8TpFbwGAfaF2htLzsj50CHJ414iRiVjDDvohB3KMBwehMpvphlNxwcKlPlSFijnKHZwxswvqRTn4nIc3K7oBMRt7MvqJHFAAuqqfC16R9EOD959VCUSD9EVJN8K9ruFQFZMf9JcrwK06idzKqRL9QYpUW1sAAWJqEYYqeOFt4N8eUTl2GGvuvfHQcrkDChegKY4gdojd3es4mDvUW3KOtOeFPQsNER7FqqNqBpQZrkiFZ",
+              "received": false
+            }
+          ],
+          "total_price": 48035,
+          "delivery": null,
+          "changedOn": "2025-12-26T12:17:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
