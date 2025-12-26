@@ -30,7 +30,7 @@ test.describe("[UI][Orders][Export]", () => {
         }
 
         const ordersList = new OrdersListPage(page);
-        await ordersList.open("orders");
+        await ordersList.open("#/orders");
         await ordersList.waitForOpened();
 
         if (testCase.sort) await ordersList.sortBy(testCase.sort.by, testCase.sort.direction);
@@ -76,7 +76,7 @@ test.describe("[UI][Orders][Export]", () => {
         await ordersApiService.createOrderAndEntities(token, 1);
 
         const ordersList = new OrdersListPage(page);
-        await ordersList.open("orders");
+        await ordersList.open("#/orders");
         await ordersList.waitForOpened();
 
         await ordersList.openExportModal();

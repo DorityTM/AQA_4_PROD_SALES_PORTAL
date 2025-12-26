@@ -26,7 +26,7 @@ export interface IPages {
   productDeleteModal: ProductDeleteModal;
   addNewCustomerPage: AddNewCustomerPage;
   customersListPage: CustomersListPage;
-  ordersListPage: OrdersListPage
+  ordersListPage: OrdersListPage;
   //ui-services
   homeUIService: HomeUIService;
   productsListUIService: ProductsListUIService;

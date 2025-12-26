@@ -44,7 +44,7 @@ export class OrderDetailsPage extends SalesPortalPage {
   @logStep("OPEN ORDER DETAILS BY ID")
   async openByOrderId(orderId: string) {
     // Site uses SPA routing: #/orders/{id}
-    const route = `orders/${orderId}`;
+    const route = `#/orders/${orderId}`;
     await this.open(route);
     await this.waitForSpinners();
   }

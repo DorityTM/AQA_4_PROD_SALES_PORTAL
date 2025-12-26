@@ -1,12 +1,8 @@
 import { test, expect } from "fixtures/api.fixture";
-import {
-  getOrderByIdPositiveCases,
-  getOrderByIdNegativeCases,
-} from "data/salesPortal/orders/getOrderByIdTestData";
+import { getOrderByIdPositiveCases, getOrderByIdNegativeCases } from "data/salesPortal/orders/getOrderByIdTestData";
 import { getOrderSchema } from "data/schemas/orders/get.schema";
 import { validateResponse } from "utils/validation/validateResponse.utils";
 import { TAGS } from "data/tags";
-
 
 test.describe("[API] [Sales Portal] [Orders] [Get By Id]", () => {
   let token = "";
@@ -45,22 +41,15 @@ test.describe("[API] [Sales Portal] [Orders] [Get By Id]", () => {
 
   test.describe("[Negative]", () => {
     for (const testCase of getOrderByIdNegativeCases) {
-      test(
-        testCase.title ?? "No title",
-        { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
-        async ({ ordersApi }) => {
-          const response = await ordersApi.getById(
-            testCase._id!,
-            token,
-          );
+      test(testCase.title ?? "No title", { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] }, async ({ ordersApi }) => {
+        const response = await ordersApi.getById(testCase._id!, token);
 
-          validateResponse(response, {
-            status: testCase.expectedStatus,
-            ...(typeof testCase.isSuccess !== "undefined" && { IsSuccess: testCase.isSuccess }),
-            ErrorMessage: testCase.expectedErrorMessage,
-          });
-        },
-      );
+        validateResponse(response, {
+          status: testCase.expectedStatus,
+          ...(typeof testCase.isSuccess !== "undefined" && { IsSuccess: testCase.isSuccess }),
+          ErrorMessage: testCase.expectedErrorMessage,
+        });
+      });
     }
   });
 });

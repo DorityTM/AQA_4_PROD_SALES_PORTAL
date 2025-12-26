@@ -1,5 +1,6 @@
 import { expect } from "@playwright/test";
 import Ajv from "ajv";
+import { log } from "utils/log.utils";
 
 export function validateJsonSchema(body: object, schema: object) {
   const ajv = new Ajv();
@@ -10,9 +11,9 @@ export function validateJsonSchema(body: object, schema: object) {
   expect.soft(isValid, `Response body should match JSON schema`).toBe(true);
 
   if (isValid) {
-    console.log("Data is valid according to the schema.");
+    log("Data is valid according to the schema.");
   } else {
-    console.log("Data is not valid according to the schema.");
+    log("Data is not valid according to the schema.");
     console.log(validate.errors);
   }
 }
