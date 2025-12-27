@@ -5,17 +5,9 @@ import { generateCustomerData } from "data/salesPortal/customers/generateCustome
 
 test.describe("CST-008/009 Delete customer", () => {
   let token: string;
-  let createdCustomerIds: string[] = [];
 
   test.beforeAll(async ({ loginApiService }) => {
     token = await loginApiService.loginAsAdmin();
-  });
-
-  test.afterEach(async ({ customersApi }) => {
-    for (const id of createdCustomerIds) {
-      await customersApi.delete(token, id);
-    }
-    createdCustomerIds = [];
   });
   test(
     "CST-008: Delete customer (Valid Id)",
@@ -23,7 +15,6 @@ test.describe("CST-008/009 Delete customer", () => {
     async ({ customersApiService, customersApi }) => {
       const created = await customersApiService.create(token, generateCustomerData());
       const id = created._id;
-      createdCustomerIds.push(id);
 
       await customersApiService.delete(token, id);
 

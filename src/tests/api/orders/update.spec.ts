@@ -13,19 +13,12 @@ test.describe("[API][Orders]", () => {
   let orderId = "";
   let orderObj: IOrderFromResponse | null = null;
 
-  test.beforeEach(async ({ loginApiService, ordersApiService }) => {
+  test.beforeEach(async ({ loginApiService, ordersApiService, cleanup }) => {
     token = await loginApiService.loginAsAdmin();
     const order = await ordersApiService.createOrderAndEntities(token, 1);
     orderId = order._id;
     orderObj = order;
-  });
-
-  test.afterEach(async ({ ordersApiService }) => {
-    if (orderId) {
-      await ordersApiService.fullDelete(token);
-      orderId = "";
-      orderObj = null;
-    }
+    cleanup.addOrder(orderId);
   });
 
   test.describe("[Update order]", () => {
@@ -60,9 +53,10 @@ test.describe("[API][Orders]", () => {
     test(
       "ORD-PUT-002: Successful update of customer in order",
       { tag: [TAGS.SMOKE, TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
-      async ({ ordersApiService, customersApiService }) => {
+      async ({ ordersApiService, customersApiService, cleanup }) => {
         const original = orderObj!;
         const newCustomer = await customersApiService.create(token);
+        cleanup.addCustomer(newCustomer._id);
 
         const productIds = productIdsOf(original);
         const updated = await ordersApiService.update(token, orderId, {
@@ -93,11 +87,12 @@ test.describe("[API][Orders]", () => {
     test(
       "ORD-PUT-004: History entry recorded when order composition changes",
       { tag: [TAGS.REGRESSION, TAGS.API, TAGS.ORDERS] },
-      async ({ ordersApiService, productsApiService }) => {
+      async ({ ordersApiService, productsApiService, cleanup }) => {
         const before = orderObj!;
         const beforeHistoryLen = before.history.length;
 
         const extraProduct = await productsApiService.create(token);
+        cleanup.addProduct(extraProduct._id);
         const productIds = [before.products[0]!._id, extraProduct._id];
 
         const after = await ordersApiService.update(token, orderId, {

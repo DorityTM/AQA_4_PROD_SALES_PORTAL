@@ -6,24 +6,15 @@ import { validateJsonSchema } from "utils/validation/validateSchema.utils";
 import { getListCustomersSchema } from "data/schemas/customers/getList.schema";
 
 test.describe("CST-003 Get customers list (Filter by Country)", () => {
-  const ids: string[] = [];
   let token = "";
 
-  test.beforeAll(async ({ loginApiService, customersApiService }) => {
+  test.beforeEach(async ({ loginApiService, customersApiService, cleanup }) => {
     token = await loginApiService.loginAsAdmin();
 
     for (const country of Object.values(COUNTRY)) {
       const customerData = generateCustomerData({ country });
       const created = await customersApiService.create(token, customerData);
-      ids.push(created._id);
-    }
-  });
-  test.afterAll(async ({ customersApiService }) => {
-    if (ids.length) {
-      for (const id of ids) {
-        await customersApiService.delete(token, id);
-      }
-      ids.length = 0;
+      cleanup.addCustomer(created._id);
     }
   });
 
