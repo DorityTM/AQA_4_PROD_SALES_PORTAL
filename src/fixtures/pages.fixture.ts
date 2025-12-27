@@ -15,6 +15,7 @@ import { AddNewCustomerUIService } from "ui/service/addNewCustomer.ui-service";
 import { CustomersListUIService } from "ui/service/customersList.ui-service";
 import { CustomersListPage } from "ui/pages/customers/customersList.page";
 import { OrdersListPage } from "ui/pages/orders/ordersList.page";
+import { OrderDetailsPage } from "ui/pages/orders/order-details.page";
 import { CommentsUIService } from "ui/service/comments.ui-service";
 
 export interface IPages {
@@ -28,6 +29,7 @@ export interface IPages {
   addNewCustomerPage: AddNewCustomerPage;
   customersListPage: CustomersListPage;
   ordersListPage: OrdersListPage;
+  orderDetailsPage: OrderDetailsPage;
   //ui-services
   homeUIService: HomeUIService;
   productsListUIService: ProductsListUIService;
@@ -66,6 +68,9 @@ export const test = base.extend<IPages>({
   },
   ordersListPage: async ({ page }, use) => {
     await use(new OrdersListPage(page));
+  },
+  orderDetailsPage: async ({ page }, use) => {
+    await use(new OrderDetailsPage(page));
   },
 
   //ui-services

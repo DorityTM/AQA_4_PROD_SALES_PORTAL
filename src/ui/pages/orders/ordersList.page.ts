@@ -45,6 +45,7 @@ export class OrdersListPage extends SalesPortalPage {
       .locator(`i.${direction === "asc" ? "bi-arrow-down" : "bi-arrow-up"}`);
 
   readonly detailsButton = (orderNumber: string) => this.tableRowByName(orderNumber).getByTitle("Details");
+  readonly reopenButton = (orderNumber: string) => this.tableRowByName(orderNumber).getByTitle("Reopen");
   readonly uniqueElement = this.createOrderButton;
   readonly searchInput = this.page.locator("#search");
   readonly searchButton = this.page.locator("#search-orders");
@@ -94,8 +95,9 @@ export class OrdersListPage extends SalesPortalPage {
   }
 
   @logStep("CLICK ACTION BUTTON ON ORDERS LIST PAGE")
-  async clickAction(orderNumber: string, button: "details") {
+  async clickAction(orderNumber: string, button: "details" | "reopen") {
     if (button === "details") await this.detailsButton(orderNumber).click();
+    if (button === "reopen") await this.reopenButton(orderNumber).click();
   }
 
   @logStep("CLICK TABLE HEADER ON ORDERS LIST PAGE")

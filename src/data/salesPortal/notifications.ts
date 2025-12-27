@@ -27,3 +27,27 @@ export enum NOTIFICATIONS_TYPES {
   NEW_ORDER = "newOrder",
   UNASSIGNED = "unassigned",
 }
+
+export type ModalCopy = {
+  title: string;
+  body: string;
+  actionButton: string;
+};
+
+export const CANCEL_ORDER_MODAL: ModalCopy = {
+  title: "Cancel Order",
+  body: "Are you sure you want to cancel the order?",
+  actionButton: "Yes, Cancel",
+};
+
+export const REOPEN_ORDER_MODAL: ModalCopy = {
+  title: "Reopen Order",
+  body: "Are you sure you want to reopen the order?",
+  actionButton: "Yes, Reopen",
+};
+
+export const PROCESS_ORDER_MODAL: ModalCopy = {
+  title: "Process Order",
+  body: "Are you sure you want to process the order?",
+  actionButton: "Yes, Process",
+};
