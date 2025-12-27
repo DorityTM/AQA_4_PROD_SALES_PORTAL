@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:17:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-LyR6dvG3DN1lOOoHS/Rx0iaQlxI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fea681c508c5d5e34bd7c",
+      "status": "In Process",
+      "customer": {
+        "_id": "694fea671c508c5d5e34bd47",
+        "email": "Muhammad.Davis-Walsh50@hotmail.com",
+        "name": "Opal Harris",
+        "country": "USA",
+        "city": "West Majorfort",
+        "street": "Johns Vista 68",
+        "house": 648,
+        "flat": 746,
+        "phone": "+374442674524569",
+        "createdOn": "2025-12-27T14:17:11.000Z",
+        "notes": "ex8tPvZhAPqBYkZNAvvsdHRqQsGslW"
+      },
+      "products": [
+        {
+          "_id": "694fea671c508c5d5e34bd63",
+          "name": "Computer12664",
+          "amount": 95,
+          "price": 45823,
+          "manufacturer": "Sony",
+          "notes": "7JBQv9gsA2Oo55kA2XpMRFP9fnCkeeh2Eb0LIJBl8ZDyV2FAukZdZLxfttjAVfFxkRQ23zpJzFjZOC09u3ehSM2LAkjNItgHMnnZpR3RKxWvpfWthL0jTDlWHadF40R3QtijNVtErZ0OEGpMKvJpgACzZa27gYxhhon7oOrx9xvcaSWstPp5Y6itGeliUsYA7cHiXxDEwZeJFvtcVFlKVcsKLXK4JU7jF3PzHeRP1WzKORfHYddpAADyq2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "West Fae",
+          "street": "Stroman Roads",
+          "house": 163,
+          "flat": 1490
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 45823,
+      "createdOn": "2025-12-27T14:17:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694fea671c508c5d5e34bd47",
+          "products": [
+            {
+              "_id": "694fea671c508c5d5e34bd63",
+              "name": "Computer12664",
+              "amount": 95,
+              "price": 45823,
+              "manufacturer": "Sony",
+              "notes": "7JBQv9gsA2Oo55kA2XpMRFP9fnCkeeh2Eb0LIJBl8ZDyV2FAukZdZLxfttjAVfFxkRQ23zpJzFjZOC09u3ehSM2LAkjNItgHMnnZpR3RKxWvpfWthL0jTDlWHadF40R3QtijNVtErZ0OEGpMKvJpgACzZa27gYxhhon7oOrx9xvcaSWstPp5Y6itGeliUsYA7cHiXxDEwZeJFvtcVFlKVcsKLXK4JU7jF3PzHeRP1WzKORfHYddpAADyq2",
+              "received": false
+            }
+          ],
+          "total_price": 45823,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Fae",
+              "street": "Stroman Roads",
+              "house": 163,
+              "flat": 1490
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea671c508c5d5e34bd47",
+          "products": [
+            {
+              "_id": "694fea671c508c5d5e34bd63",
+              "name": "Computer12664",
+              "amount": 95,
+              "price": 45823,
+              "manufacturer": "Sony",
+              "notes": "7JBQv9gsA2Oo55kA2XpMRFP9fnCkeeh2Eb0LIJBl8ZDyV2FAukZdZLxfttjAVfFxkRQ23zpJzFjZOC09u3ehSM2LAkjNItgHMnnZpR3RKxWvpfWthL0jTDlWHadF40R3QtijNVtErZ0OEGpMKvJpgACzZa27gYxhhon7oOrx9xvcaSWstPp5Y6itGeliUsYA7cHiXxDEwZeJFvtcVFlKVcsKLXK4JU7jF3PzHeRP1WzKORfHYddpAADyq2",
+              "received": false
+            }
+          ],
+          "total_price": 45823,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Fae",
+              "street": "Stroman Roads",
+              "house": 163,
+              "flat": 1490
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea671c508c5d5e34bd47",
+          "products": [
+            {
+              "_id": "694fea671c508c5d5e34bd63",
+              "name": "Computer12664",
+              "amount": 95,
+              "price": 45823,
+              "manufacturer": "Sony",
+              "notes": "7JBQv9gsA2Oo55kA2XpMRFP9fnCkeeh2Eb0LIJBl8ZDyV2FAukZdZLxfttjAVfFxkRQ23zpJzFjZOC09u3ehSM2LAkjNItgHMnnZpR3RKxWvpfWthL0jTDlWHadF40R3QtijNVtErZ0OEGpMKvJpgACzZa27gYxhhon7oOrx9xvcaSWstPp5Y6itGeliUsYA7cHiXxDEwZeJFvtcVFlKVcsKLXK4JU7jF3PzHeRP1WzKORfHYddpAADyq2",
+              "received": false
+            }
+          ],
+          "total_price": 45823,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:17:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

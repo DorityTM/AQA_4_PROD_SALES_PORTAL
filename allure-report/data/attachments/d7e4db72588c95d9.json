@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:17:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3707",
+    "etag": "W/\"e7b-gEfEONitYD9kNU9ihHbT4P+I5Zk\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fea701c508c5d5e34c141",
+      "status": "In Process",
+      "customer": {
+        "_id": "694fea701c508c5d5e34c106",
+        "email": "Kameron3@gmail.com",
+        "name": "Ethyl Rice",
+        "country": "Canada",
+        "city": "Port Earlfurt",
+        "street": "Gabrielle Cliffs 50",
+        "house": 816,
+        "flat": 8643,
+        "phone": "+237238940086542",
+        "createdOn": "2025-12-27T14:17:20.000Z",
+        "notes": "wyH7Iva02nvaxR8PLrlCTgDqIRzeFy"
+      },
+      "products": [
+        {
+          "_id": "694fea701c508c5d5e34c11b",
+          "name": "Cheese2089",
+          "amount": 897,
+          "price": 50668,
+          "manufacturer": "Microsoft",
+          "notes": "pwbYIoMDjciWohhbV3ZQhfod3LatkK2DqXIBre1tHXOWFwNmsKQZfwGCtng1rNKNNOvwxptLOdegmGjC2tzvcP9sBSrcHEWJXgH70zlEj1p2IMBDhIRtUsuyVrsuQDP5pvAgbCmx74yoBMfCrXHN7x8tjWplHuqKpuLzBg2QvMbut9KvQ1PPAahhmAQ1vbrz5RrY45mB5HbjNv73sZ6QYTWrIJeYZ3FekAjnkUgKIg0bWlzgxa97DO3FKc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Lake Theostad",
+          "street": "Stephany Field",
+          "house": 900,
+          "flat": 4777
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 50668,
+      "createdOn": "2025-12-27T14:17:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694fea701c508c5d5e34c106",
+          "products": [
+            {
+              "_id": "694fea701c508c5d5e34c11b",
+              "name": "Cheese2089",
+              "amount": 897,
+              "price": 50668,
+              "manufacturer": "Microsoft",
+              "notes": "pwbYIoMDjciWohhbV3ZQhfod3LatkK2DqXIBre1tHXOWFwNmsKQZfwGCtng1rNKNNOvwxptLOdegmGjC2tzvcP9sBSrcHEWJXgH70zlEj1p2IMBDhIRtUsuyVrsuQDP5pvAgbCmx74yoBMfCrXHN7x8tjWplHuqKpuLzBg2QvMbut9KvQ1PPAahhmAQ1vbrz5RrY45mB5HbjNv73sZ6QYTWrIJeYZ3FekAjnkUgKIg0bWlzgxa97DO3FKc",
+              "received": false
+            }
+          ],
+          "total_price": 50668,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Theostad",
+              "street": "Stephany Field",
+              "house": 900,
+              "flat": 4777
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:21.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea701c508c5d5e34c106",
+          "products": [
+            {
+              "_id": "694fea701c508c5d5e34c11b",
+              "name": "Cheese2089",
+              "amount": 897,
+              "price": 50668,
+              "manufacturer": "Microsoft",
+              "notes": "pwbYIoMDjciWohhbV3ZQhfod3LatkK2DqXIBre1tHXOWFwNmsKQZfwGCtng1rNKNNOvwxptLOdegmGjC2tzvcP9sBSrcHEWJXgH70zlEj1p2IMBDhIRtUsuyVrsuQDP5pvAgbCmx74yoBMfCrXHN7x8tjWplHuqKpuLzBg2QvMbut9KvQ1PPAahhmAQ1vbrz5RrY45mB5HbjNv73sZ6QYTWrIJeYZ3FekAjnkUgKIg0bWlzgxa97DO3FKc",
+              "received": false
+            }
+          ],
+          "total_price": 50668,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Theostad",
+              "street": "Stephany Field",
+              "house": 900,
+              "flat": 4777
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea701c508c5d5e34c106",
+          "products": [
+            {
+              "_id": "694fea701c508c5d5e34c11b",
+              "name": "Cheese2089",
+              "amount": 897,
+              "price": 50668,
+              "manufacturer": "Microsoft",
+              "notes": "pwbYIoMDjciWohhbV3ZQhfod3LatkK2DqXIBre1tHXOWFwNmsKQZfwGCtng1rNKNNOvwxptLOdegmGjC2tzvcP9sBSrcHEWJXgH70zlEj1p2IMBDhIRtUsuyVrsuQDP5pvAgbCmx74yoBMfCrXHN7x8tjWplHuqKpuLzBg2QvMbut9KvQ1PPAahhmAQ1vbrz5RrY45mB5HbjNv73sZ6QYTWrIJeYZ3FekAjnkUgKIg0bWlzgxa97DO3FKc",
+              "received": false
+            }
+          ],
+          "total_price": 50668,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:17:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

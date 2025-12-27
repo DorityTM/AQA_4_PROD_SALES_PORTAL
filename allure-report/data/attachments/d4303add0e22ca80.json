@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:17:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3684",
+    "etag": "W/\"e64-FCpUaLjguKP4rCBnItlytR65ECc\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fea711c508c5d5e34c180",
+      "status": "In Process",
+      "customer": {
+        "_id": "694fea701c508c5d5e34c12b",
+        "email": "Roberta49@gmail.com",
+        "name": "Taya Cronin",
+        "country": "Germany",
+        "city": "West Esperanza",
+        "street": "Predovic Locks 88",
+        "house": 151,
+        "flat": 1700,
+        "phone": "+086828128007653",
+        "createdOn": "2025-12-27T14:17:20.000Z",
+        "notes": "6i42AlldCe3xX7m48CHuxso6cQE0G5"
+      },
+      "products": [
+        {
+          "_id": "694fea711c508c5d5e34c14c",
+          "name": "Pizza15497",
+          "amount": 897,
+          "price": 22670,
+          "manufacturer": "Apple",
+          "notes": "YILNvoelrTg9hi50rhwGreYsNzu1aca7kFXdXogmjfCTpHcn8h3HbbC4Bnw2jwnbgotLTee8Lpn7b7jreRzQm8kSyN4dbRazG9mMyZzmIEraKDNx8X5cNVIa0SRy32jNXEgi6Ru1cI1jh7ihgIrx2GNtByi9jHXm2f6KZay6NopYhoQ1qMTqAd2JPvBt7ubhcezqqL2KZVle3KeCN0WCVYhbeu6pzJ3aF9gqisCKHNwN0qRI8q4VtcLqgw",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Lilyan",
+          "street": "Cedrick Spring",
+          "house": 97,
+          "flat": 6221
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22670,
+      "createdOn": "2025-12-27T14:17:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694fea701c508c5d5e34c12b",
+          "products": [
+            {
+              "_id": "694fea711c508c5d5e34c14c",
+              "name": "Pizza15497",
+              "amount": 897,
+              "price": 22670,
+              "manufacturer": "Apple",
+              "notes": "YILNvoelrTg9hi50rhwGreYsNzu1aca7kFXdXogmjfCTpHcn8h3HbbC4Bnw2jwnbgotLTee8Lpn7b7jreRzQm8kSyN4dbRazG9mMyZzmIEraKDNx8X5cNVIa0SRy32jNXEgi6Ru1cI1jh7ihgIrx2GNtByi9jHXm2f6KZay6NopYhoQ1qMTqAd2JPvBt7ubhcezqqL2KZVle3KeCN0WCVYhbeu6pzJ3aF9gqisCKHNwN0qRI8q4VtcLqgw",
+              "received": false
+            }
+          ],
+          "total_price": 22670,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Lilyan",
+              "street": "Cedrick Spring",
+              "house": 97,
+              "flat": 6221
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea701c508c5d5e34c12b",
+          "products": [
+            {
+              "_id": "694fea711c508c5d5e34c14c",
+              "name": "Pizza15497",
+              "amount": 897,
+              "price": 22670,
+              "manufacturer": "Apple",
+              "notes": "YILNvoelrTg9hi50rhwGreYsNzu1aca7kFXdXogmjfCTpHcn8h3HbbC4Bnw2jwnbgotLTee8Lpn7b7jreRzQm8kSyN4dbRazG9mMyZzmIEraKDNx8X5cNVIa0SRy32jNXEgi6Ru1cI1jh7ihgIrx2GNtByi9jHXm2f6KZay6NopYhoQ1qMTqAd2JPvBt7ubhcezqqL2KZVle3KeCN0WCVYhbeu6pzJ3aF9gqisCKHNwN0qRI8q4VtcLqgw",
+              "received": false
+            }
+          ],
+          "total_price": 22670,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Lilyan",
+              "street": "Cedrick Spring",
+              "house": 97,
+              "flat": 6221
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea701c508c5d5e34c12b",
+          "products": [
+            {
+              "_id": "694fea711c508c5d5e34c14c",
+              "name": "Pizza15497",
+              "amount": 897,
+              "price": 22670,
+              "manufacturer": "Apple",
+              "notes": "YILNvoelrTg9hi50rhwGreYsNzu1aca7kFXdXogmjfCTpHcn8h3HbbC4Bnw2jwnbgotLTee8Lpn7b7jreRzQm8kSyN4dbRazG9mMyZzmIEraKDNx8X5cNVIa0SRy32jNXEgi6Ru1cI1jh7ihgIrx2GNtByi9jHXm2f6KZay6NopYhoQ1qMTqAd2JPvBt7ubhcezqqL2KZVle3KeCN0WCVYhbeu6pzJ3aF9gqisCKHNwN0qRI8q4VtcLqgw",
+              "received": false
+            }
+          ],
+          "total_price": 22670,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:17:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

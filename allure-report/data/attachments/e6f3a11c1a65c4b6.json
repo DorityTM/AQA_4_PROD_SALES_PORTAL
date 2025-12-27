@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:14:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4617",
+    "etag": "W/\"1209-Os1mRm90PE8AFMBtjz1Zc3y2e7Y\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fe9b71c508c5d5e346e9e",
+      "status": "Received",
+      "customer": {
+        "_id": "694fe9b61c508c5d5e346e5e",
+        "email": "Nikolas24@hotmail.com",
+        "name": "Lon Lueilwitz",
+        "country": "Ukraine",
+        "city": "Rowland Heights",
+        "street": "Court Street 63",
+        "house": 713,
+        "flat": 3435,
+        "phone": "+021891916276551",
+        "createdOn": "2025-12-27T14:14:14.000Z",
+        "notes": "jXX4RfObYZIwAG3XrP4Jr82ht85p3v"
+      },
+      "products": [
+        {
+          "_id": "694fe9b71c508c5d5e346e6c",
+          "name": "Chair62139",
+          "amount": 325,
+          "price": 5614,
+          "manufacturer": "Apple",
+          "notes": "wYMMFpVsySKIJrJS2w0WtaAmF44jclFMdi2qiR2K6gxUo3H4TLFBHkeD6jkrav3Qfc1hdvSVaU5hCLLvIOfH4Xm9g5uN7fHgJDeIlmvBDar9co6NRAP7czLMqwxR0TEJlLjLxX7hPH4BLBFhOxfQHWICSQTXolgOQOKeAdAjBMyjtxZYioNYuRM5Q6pZYxPyoaKI9HEqH83ytGvBBpVZKNDnn3bZb0lkIYhVtTJH7rqWgKNb7ejlRfRuSp",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Port Ivahboro",
+          "street": "Spencer Crossroad",
+          "house": 215,
+          "flat": 348
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 5614,
+      "createdOn": "2025-12-27T14:14:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694fe9b61c508c5d5e346e5e",
+          "products": [
+            {
+              "_id": "694fe9b71c508c5d5e346e6c",
+              "name": "Chair62139",
+              "amount": 325,
+              "price": 5614,
+              "manufacturer": "Apple",
+              "notes": "wYMMFpVsySKIJrJS2w0WtaAmF44jclFMdi2qiR2K6gxUo3H4TLFBHkeD6jkrav3Qfc1hdvSVaU5hCLLvIOfH4Xm9g5uN7fHgJDeIlmvBDar9co6NRAP7czLMqwxR0TEJlLjLxX7hPH4BLBFhOxfQHWICSQTXolgOQOKeAdAjBMyjtxZYioNYuRM5Q6pZYxPyoaKI9HEqH83ytGvBBpVZKNDnn3bZb0lkIYhVtTJH7rqWgKNb7ejlRfRuSp",
+              "received": true
+            }
+          ],
+          "total_price": 5614,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Ivahboro",
+              "street": "Spencer Crossroad",
+              "house": 215,
+              "flat": 348
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:16.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694fe9b61c508c5d5e346e5e",
+          "products": [
+            {
+              "_id": "694fe9b71c508c5d5e346e6c",
+              "name": "Chair62139",
+              "amount": 325,
+              "price": 5614,
+              "manufacturer": "Apple",
+              "notes": "wYMMFpVsySKIJrJS2w0WtaAmF44jclFMdi2qiR2K6gxUo3H4TLFBHkeD6jkrav3Qfc1hdvSVaU5hCLLvIOfH4Xm9g5uN7fHgJDeIlmvBDar9co6NRAP7czLMqwxR0TEJlLjLxX7hPH4BLBFhOxfQHWICSQTXolgOQOKeAdAjBMyjtxZYioNYuRM5Q6pZYxPyoaKI9HEqH83ytGvBBpVZKNDnn3bZb0lkIYhVtTJH7rqWgKNb7ejlRfRuSp",
+              "received": false
+            }
+          ],
+          "total_price": 5614,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Ivahboro",
+              "street": "Spencer Crossroad",
+              "house": 215,
+              "flat": 348
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9b61c508c5d5e346e5e",
+          "products": [
+            {
+              "_id": "694fe9b71c508c5d5e346e6c",
+              "name": "Chair62139",
+              "amount": 325,
+              "price": 5614,
+              "manufacturer": "Apple",
+              "notes": "wYMMFpVsySKIJrJS2w0WtaAmF44jclFMdi2qiR2K6gxUo3H4TLFBHkeD6jkrav3Qfc1hdvSVaU5hCLLvIOfH4Xm9g5uN7fHgJDeIlmvBDar9co6NRAP7czLMqwxR0TEJlLjLxX7hPH4BLBFhOxfQHWICSQTXolgOQOKeAdAjBMyjtxZYioNYuRM5Q6pZYxPyoaKI9HEqH83ytGvBBpVZKNDnn3bZb0lkIYhVtTJH7rqWgKNb7ejlRfRuSp",
+              "received": false
+            }
+          ],
+          "total_price": 5614,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Ivahboro",
+              "street": "Spencer Crossroad",
+              "house": 215,
+              "flat": 348
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9b61c508c5d5e346e5e",
+          "products": [
+            {
+              "_id": "694fe9b71c508c5d5e346e6c",
+              "name": "Chair62139",
+              "amount": 325,
+              "price": 5614,
+              "manufacturer": "Apple",
+              "notes": "wYMMFpVsySKIJrJS2w0WtaAmF44jclFMdi2qiR2K6gxUo3H4TLFBHkeD6jkrav3Qfc1hdvSVaU5hCLLvIOfH4Xm9g5uN7fHgJDeIlmvBDar9co6NRAP7czLMqwxR0TEJlLjLxX7hPH4BLBFhOxfQHWICSQTXolgOQOKeAdAjBMyjtxZYioNYuRM5Q6pZYxPyoaKI9HEqH83ytGvBBpVZKNDnn3bZb0lkIYhVtTJH7rqWgKNb7ejlRfRuSp",
+              "received": false
+            }
+          ],
+          "total_price": 5614,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:14:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

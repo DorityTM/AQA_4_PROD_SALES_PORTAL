@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:17:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3661",
+    "etag": "W/\"e4d-BpF61LisSN3iGAoIPXGBLDM/OZQ\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fea711c508c5d5e34c17c",
+      "status": "In Process",
+      "customer": {
+        "_id": "694fea701c508c5d5e34c127",
+        "email": "Emile93@yahoo.com",
+        "name": "Timmothy Batz",
+        "country": "Belarus",
+        "city": "New Marshallland",
+        "street": "N Locust Street 72",
+        "house": 904,
+        "flat": 7984,
+        "phone": "+254867753059132",
+        "createdOn": "2025-12-27T14:17:20.000Z",
+        "notes": "mLWTFvcXkslGNJy9szIt2DGDDH32vn"
+      },
+      "products": [
+        {
+          "_id": "694fea711c508c5d5e34c148",
+          "name": "Bacon36904",
+          "amount": 56,
+          "price": 77086,
+          "manufacturer": "Sony",
+          "notes": "YYt1WhmSckuo3GlndPnSVRyEioBFZn9fp9hDfgANG1EIBzGm8RdHFmwFiRt0eKX949Q5ldvIhWDShMxSqBZ61X38hptvuyOg4hw8jV86kT3DE9EuIclFEkE8uUGjFQOQxqYsa0rNTaBXOaZopHQ3JaAqooz1m5BYz3aeiONM0zPGWii3nCfhrZV3Rhy0t7ykGTzPZ9acxEKaxaygNqEx4REeLCA3DA77BWK31cGAdwKFJNV67xOY8CcuI4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Shawnee",
+          "street": "Modesta Well",
+          "house": 490,
+          "flat": 9651
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 77086,
+      "createdOn": "2025-12-27T14:17:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694fea701c508c5d5e34c127",
+          "products": [
+            {
+              "_id": "694fea711c508c5d5e34c148",
+              "name": "Bacon36904",
+              "amount": 56,
+              "price": 77086,
+              "manufacturer": "Sony",
+              "notes": "YYt1WhmSckuo3GlndPnSVRyEioBFZn9fp9hDfgANG1EIBzGm8RdHFmwFiRt0eKX949Q5ldvIhWDShMxSqBZ61X38hptvuyOg4hw8jV86kT3DE9EuIclFEkE8uUGjFQOQxqYsa0rNTaBXOaZopHQ3JaAqooz1m5BYz3aeiONM0zPGWii3nCfhrZV3Rhy0t7ykGTzPZ9acxEKaxaygNqEx4REeLCA3DA77BWK31cGAdwKFJNV67xOY8CcuI4",
+              "received": false
+            }
+          ],
+          "total_price": 77086,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Shawnee",
+              "street": "Modesta Well",
+              "house": 490,
+              "flat": 9651
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea701c508c5d5e34c127",
+          "products": [
+            {
+              "_id": "694fea711c508c5d5e34c148",
+              "name": "Bacon36904",
+              "amount": 56,
+              "price": 77086,
+              "manufacturer": "Sony",
+              "notes": "YYt1WhmSckuo3GlndPnSVRyEioBFZn9fp9hDfgANG1EIBzGm8RdHFmwFiRt0eKX949Q5ldvIhWDShMxSqBZ61X38hptvuyOg4hw8jV86kT3DE9EuIclFEkE8uUGjFQOQxqYsa0rNTaBXOaZopHQ3JaAqooz1m5BYz3aeiONM0zPGWii3nCfhrZV3Rhy0t7ykGTzPZ9acxEKaxaygNqEx4REeLCA3DA77BWK31cGAdwKFJNV67xOY8CcuI4",
+              "received": false
+            }
+          ],
+          "total_price": 77086,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Shawnee",
+              "street": "Modesta Well",
+              "house": 490,
+              "flat": 9651
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea701c508c5d5e34c127",
+          "products": [
+            {
+              "_id": "694fea711c508c5d5e34c148",
+              "name": "Bacon36904",
+              "amount": 56,
+              "price": 77086,
+              "manufacturer": "Sony",
+              "notes": "YYt1WhmSckuo3GlndPnSVRyEioBFZn9fp9hDfgANG1EIBzGm8RdHFmwFiRt0eKX949Q5ldvIhWDShMxSqBZ61X38hptvuyOg4hw8jV86kT3DE9EuIclFEkE8uUGjFQOQxqYsa0rNTaBXOaZopHQ3JaAqooz1m5BYz3aeiONM0zPGWii3nCfhrZV3Rhy0t7ykGTzPZ9acxEKaxaygNqEx4REeLCA3DA77BWK31cGAdwKFJNV67xOY8CcuI4",
+              "received": false
+            }
+          ],
+          "total_price": 77086,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:17:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

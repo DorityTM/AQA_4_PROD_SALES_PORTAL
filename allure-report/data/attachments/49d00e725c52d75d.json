@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:14:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5270",
+    "etag": "W/\"1496-ZQhnK68J8fvjJJsG258b22HIyg8\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fe9b51c508c5d5e346db7",
+      "status": "In Process",
+      "customer": {
+        "_id": "694fe9b41c508c5d5e346d6d",
+        "email": "Augustus_Hintz@hotmail.com",
+        "name": "Elouise Reinger",
+        "country": "Russia",
+        "city": "Monahantown",
+        "street": "Vandervort Flat 15",
+        "house": 265,
+        "flat": 4126,
+        "phone": "+965883691898587",
+        "createdOn": "2025-12-27T14:14:12.000Z",
+        "notes": "dFW0qTJYmK2YXevhILntyh4kLr5JYU"
+      },
+      "products": [
+        {
+          "_id": "694fe9b41c508c5d5e346d91",
+          "name": "Chair24167",
+          "amount": 812,
+          "price": 89229,
+          "manufacturer": "Samsung",
+          "notes": "5wNWoXFOztwBfocdepENtujGoJpcSHPjMfpo3XFxRRfcyeRSxmRC7cxwEY77hxj1MagO0BmZg2bJlDOlKU7pC27vpWnRKFtw3308PDUIb5sRV5Pht37FT4hGieKTjZ1XvuCcdbhXr7g6doukhHG4skfHWEKKjF8xo6Z0vXOoL8WoFo2231FphE5tVPdtQ7jVWoXVEGAnj2NHHKLj7oVav36f0BnZGZYvBopCgeSiu47tzxEUTDyyGfGtjq",
+          "received": false
+        },
+        {
+          "_id": "694fe9b41c508c5d5e346da3",
+          "name": "Chair80589",
+          "amount": 318,
+          "price": 88637,
+          "manufacturer": "Microsoft",
+          "notes": "D5ks0jZdCVtcuhPypuHXom6gziaAULYr6x4JYY2EQKrxSM9rF7NqYF58pucvS8n2K1WEF9KIB7a9vARMeglz6pEWq4GS7cE46QsZgXAXoV13i4PFZviBhx6Hvyvs8g42m1POIxmQsqOVn4nf0IyDg2Um3yVJmsjhINvnRJ8xs77uTXR5oBhsqrvlRKl3KiBDADWfaWzcXvBZB3R7j0ajUBazC7LOtKWpaVvyFIGTFxS4Gllt2AISHdd7tD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "San Angelo",
+          "street": "Pfannerstill Springs",
+          "house": 467,
+          "flat": 2336
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 177866,
+      "createdOn": "2025-12-27T14:14:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694fe9b41c508c5d5e346d6d",
+          "products": [
+            {
+              "_id": "694fe9b41c508c5d5e346d91",
+              "name": "Chair24167",
+              "amount": 812,
+              "price": 89229,
+              "manufacturer": "Samsung",
+              "notes": "5wNWoXFOztwBfocdepENtujGoJpcSHPjMfpo3XFxRRfcyeRSxmRC7cxwEY77hxj1MagO0BmZg2bJlDOlKU7pC27vpWnRKFtw3308PDUIb5sRV5Pht37FT4hGieKTjZ1XvuCcdbhXr7g6doukhHG4skfHWEKKjF8xo6Z0vXOoL8WoFo2231FphE5tVPdtQ7jVWoXVEGAnj2NHHKLj7oVav36f0BnZGZYvBopCgeSiu47tzxEUTDyyGfGtjq",
+              "received": false
+            },
+            {
+              "_id": "694fe9b41c508c5d5e346da3",
+              "name": "Chair80589",
+              "amount": 318,
+              "price": 88637,
+              "manufacturer": "Microsoft",
+              "notes": "D5ks0jZdCVtcuhPypuHXom6gziaAULYr6x4JYY2EQKrxSM9rF7NqYF58pucvS8n2K1WEF9KIB7a9vARMeglz6pEWq4GS7cE46QsZgXAXoV13i4PFZviBhx6Hvyvs8g42m1POIxmQsqOVn4nf0IyDg2Um3yVJmsjhINvnRJ8xs77uTXR5oBhsqrvlRKl3KiBDADWfaWzcXvBZB3R7j0ajUBazC7LOtKWpaVvyFIGTFxS4Gllt2AISHdd7tD",
+              "received": false
+            }
+          ],
+          "total_price": 177866,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "San Angelo",
+              "street": "Pfannerstill Springs",
+              "house": 467,
+              "flat": 2336
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9b41c508c5d5e346d6d",
+          "products": [
+            {
+              "_id": "694fe9b41c508c5d5e346d91",
+              "name": "Chair24167",
+              "amount": 812,
+              "price": 89229,
+              "manufacturer": "Samsung",
+              "notes": "5wNWoXFOztwBfocdepENtujGoJpcSHPjMfpo3XFxRRfcyeRSxmRC7cxwEY77hxj1MagO0BmZg2bJlDOlKU7pC27vpWnRKFtw3308PDUIb5sRV5Pht37FT4hGieKTjZ1XvuCcdbhXr7g6doukhHG4skfHWEKKjF8xo6Z0vXOoL8WoFo2231FphE5tVPdtQ7jVWoXVEGAnj2NHHKLj7oVav36f0BnZGZYvBopCgeSiu47tzxEUTDyyGfGtjq",
+              "received": false
+            },
+            {
+              "_id": "694fe9b41c508c5d5e346da3",
+              "name": "Chair80589",
+              "amount": 318,
+              "price": 88637,
+              "manufacturer": "Microsoft",
+              "notes": "D5ks0jZdCVtcuhPypuHXom6gziaAULYr6x4JYY2EQKrxSM9rF7NqYF58pucvS8n2K1WEF9KIB7a9vARMeglz6pEWq4GS7cE46QsZgXAXoV13i4PFZviBhx6Hvyvs8g42m1POIxmQsqOVn4nf0IyDg2Um3yVJmsjhINvnRJ8xs77uTXR5oBhsqrvlRKl3KiBDADWfaWzcXvBZB3R7j0ajUBazC7LOtKWpaVvyFIGTFxS4Gllt2AISHdd7tD",
+              "received": false
+            }
+          ],
+          "total_price": 177866,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "San Angelo",
+              "street": "Pfannerstill Springs",
+              "house": 467,
+              "flat": 2336
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9b41c508c5d5e346d6d",
+          "products": [
+            {
+              "_id": "694fe9b41c508c5d5e346d91",
+              "name": "Chair24167",
+              "amount": 812,
+              "price": 89229,
+              "manufacturer": "Samsung",
+              "notes": "5wNWoXFOztwBfocdepENtujGoJpcSHPjMfpo3XFxRRfcyeRSxmRC7cxwEY77hxj1MagO0BmZg2bJlDOlKU7pC27vpWnRKFtw3308PDUIb5sRV5Pht37FT4hGieKTjZ1XvuCcdbhXr7g6doukhHG4skfHWEKKjF8xo6Z0vXOoL8WoFo2231FphE5tVPdtQ7jVWoXVEGAnj2NHHKLj7oVav36f0BnZGZYvBopCgeSiu47tzxEUTDyyGfGtjq",
+              "received": false
+            },
+            {
+              "_id": "694fe9b41c508c5d5e346da3",
+              "name": "Chair80589",
+              "amount": 318,
+              "price": 88637,
+              "manufacturer": "Microsoft",
+              "notes": "D5ks0jZdCVtcuhPypuHXom6gziaAULYr6x4JYY2EQKrxSM9rF7NqYF58pucvS8n2K1WEF9KIB7a9vARMeglz6pEWq4GS7cE46QsZgXAXoV13i4PFZviBhx6Hvyvs8g42m1POIxmQsqOVn4nf0IyDg2Um3yVJmsjhINvnRJ8xs77uTXR5oBhsqrvlRKl3KiBDADWfaWzcXvBZB3R7j0ajUBazC7LOtKWpaVvyFIGTFxS4Gllt2AISHdd7tD",
+              "received": false
+            }
+          ],
+          "total_price": 177866,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:14:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

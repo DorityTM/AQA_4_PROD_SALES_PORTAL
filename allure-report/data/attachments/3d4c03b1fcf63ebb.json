@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:17:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3897",
+    "etag": "W/\"f39-bP9OFllyIl9oitIeZfHYpp9/EAc\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fea8a1c508c5d5e34cef1",
+      "status": "Draft",
+      "customer": {
+        "_id": "694fea891c508c5d5e34ce19",
+        "email": "Stephan.Witting5@yahoo.com",
+        "name": "Amina Schroeder",
+        "country": "Canada",
+        "city": "West Ariannastad",
+        "street": "Railroad Avenue 36",
+        "house": 647,
+        "flat": 2327,
+        "phone": "+109846235144717",
+        "createdOn": "2025-12-27T14:17:45.000Z",
+        "notes": "9LbGXTGGPIlzZlc0wnTOiVzHOd2HRt"
+      },
+      "products": [
+        {
+          "_id": "694fea891c508c5d5e34ce37",
+          "name": "Hat76817",
+          "amount": 321,
+          "price": 26187,
+          "manufacturer": "Tesla",
+          "notes": "JxHcy7B5Iymj3QNhOTnqJROCbTVVJVJCg1aJaS90L0IAv9WetdoUom0cJvqlgnQvSe8yYZPNJty9tY3zHmz2GyqSOOeLk46PHYgeYZPo2MSBp4KBdO9j4DkEjkeGzO8yASFIgiLJOknBRAeeiSGeEakEHTA6RH1Cz7i8nSmkwRPiPqv8An1jsrYPyTDAyb1BdHtL6M0tK2LzLZtS7FCKXfTJTdZf0viz0LfjwTxkHysaWpudjqqyRJ1V5p",
+          "received": false
+        },
+        {
+          "_id": "694fea8a1c508c5d5e34cecb",
+          "name": "Ball79539",
+          "amount": 504,
+          "price": 84627,
+          "manufacturer": "Xiaomi",
+          "notes": "oPSz4zihmtRDm9gEQKlwe1SDAI7ZAyGvwtySUTgsIGvqQHhrbGp5Tf1e2YgUyFz7UMVwzj0LRMWzNAbfEJtMolpFMRrxKm1lGZn8p5DwVdEJ0a8KeWjmhWOVtOhzB3qCp2S6bVmbTA0OCMDvcPQN0Mb8JrRMMQcEPERUfjcBhSEBseqF2Ntt3N2OOF6hzkA4yzsrdt89EodnWDGCadpGelzTKYsoF4OCK6w7A6kQUNkY7f56ocvsIZfvvh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lawton",
+          "street": "W Park Street",
+          "house": 966,
+          "flat": 3570
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 110814,
+      "createdOn": "2025-12-27T14:17:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694fea891c508c5d5e34ce19",
+          "products": [
+            {
+              "_id": "694fea891c508c5d5e34ce37",
+              "name": "Hat76817",
+              "amount": 321,
+              "price": 26187,
+              "manufacturer": "Tesla",
+              "notes": "JxHcy7B5Iymj3QNhOTnqJROCbTVVJVJCg1aJaS90L0IAv9WetdoUom0cJvqlgnQvSe8yYZPNJty9tY3zHmz2GyqSOOeLk46PHYgeYZPo2MSBp4KBdO9j4DkEjkeGzO8yASFIgiLJOknBRAeeiSGeEakEHTA6RH1Cz7i8nSmkwRPiPqv8An1jsrYPyTDAyb1BdHtL6M0tK2LzLZtS7FCKXfTJTdZf0viz0LfjwTxkHysaWpudjqqyRJ1V5p",
+              "received": false
+            },
+            {
+              "_id": "694fea8a1c508c5d5e34cecb",
+              "name": "Ball79539",
+              "amount": 504,
+              "price": 84627,
+              "manufacturer": "Xiaomi",
+              "notes": "oPSz4zihmtRDm9gEQKlwe1SDAI7ZAyGvwtySUTgsIGvqQHhrbGp5Tf1e2YgUyFz7UMVwzj0LRMWzNAbfEJtMolpFMRrxKm1lGZn8p5DwVdEJ0a8KeWjmhWOVtOhzB3qCp2S6bVmbTA0OCMDvcPQN0Mb8JrRMMQcEPERUfjcBhSEBseqF2Ntt3N2OOF6hzkA4yzsrdt89EodnWDGCadpGelzTKYsoF4OCK6w7A6kQUNkY7f56ocvsIZfvvh",
+              "received": false
+            }
+          ],
+          "total_price": 110814,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lawton",
+              "street": "W Park Street",
+              "house": 966,
+              "flat": 3570
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea891c508c5d5e34ce19",
+          "products": [
+            {
+              "_id": "694fea891c508c5d5e34ce37",
+              "name": "Hat76817",
+              "amount": 321,
+              "price": 26187,
+              "manufacturer": "Tesla",
+              "notes": "JxHcy7B5Iymj3QNhOTnqJROCbTVVJVJCg1aJaS90L0IAv9WetdoUom0cJvqlgnQvSe8yYZPNJty9tY3zHmz2GyqSOOeLk46PHYgeYZPo2MSBp4KBdO9j4DkEjkeGzO8yASFIgiLJOknBRAeeiSGeEakEHTA6RH1Cz7i8nSmkwRPiPqv8An1jsrYPyTDAyb1BdHtL6M0tK2LzLZtS7FCKXfTJTdZf0viz0LfjwTxkHysaWpudjqqyRJ1V5p",
+              "received": false
+            },
+            {
+              "_id": "694fea8a1c508c5d5e34cecb",
+              "name": "Ball79539",
+              "amount": 504,
+              "price": 84627,
+              "manufacturer": "Xiaomi",
+              "notes": "oPSz4zihmtRDm9gEQKlwe1SDAI7ZAyGvwtySUTgsIGvqQHhrbGp5Tf1e2YgUyFz7UMVwzj0LRMWzNAbfEJtMolpFMRrxKm1lGZn8p5DwVdEJ0a8KeWjmhWOVtOhzB3qCp2S6bVmbTA0OCMDvcPQN0Mb8JrRMMQcEPERUfjcBhSEBseqF2Ntt3N2OOF6hzkA4yzsrdt89EodnWDGCadpGelzTKYsoF4OCK6w7A6kQUNkY7f56ocvsIZfvvh",
+              "received": false
+            }
+          ],
+          "total_price": 110814,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:17:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

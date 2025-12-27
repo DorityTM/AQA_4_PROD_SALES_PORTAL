@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:14:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2741",
+    "etag": "W/\"ab5-W50+mfHbUQwWjlL7qKIlX/5zKSw\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fe9c11c508c5d5e347302",
+      "status": "Draft",
+      "customer": {
+        "_id": "694fe9c11c508c5d5e34729c",
+        "email": "Ricardo.Kunze31@yahoo.com",
+        "name": "Dan Senger",
+        "country": "Russia",
+        "city": "Hauckborough",
+        "street": "Simonis Shores 81",
+        "house": 671,
+        "flat": 8287,
+        "phone": "+770338152296941",
+        "createdOn": "2025-12-27T14:14:25.000Z",
+        "notes": "lSUghI1YJ31PO14S5OY4IAgKj7ZiDf"
+      },
+      "products": [
+        {
+          "_id": "694fe9c11c508c5d5e3472cb",
+          "name": "Chair7211",
+          "amount": 59,
+          "price": 79763,
+          "manufacturer": "Amazon",
+          "notes": "oGiVL8eeBo2wsurCQwey2bSC2xfjqtotyrUhiTKDvlQ8ebxvpHxXvpJySsNCQZrNtkTB4RNO2Dz5Zf4svH0Ikp0L3MYslXJ5Gygex4HAIQpcZmGqXgP4IOaswAUyCXAi5HM5NojZbf09eKkyFihQFM1sdjzlg2GkPv7b01jQBE10XwbVLNuBIn8qddxQOrj2PTdW5GRn5GDejW5Yu8N0p3700emA6F2bW7vhyfmZdkpJOrxNiHPVlmDbmd",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Terryboro",
+          "street": "Roxane Keys",
+          "house": 590,
+          "flat": 5265
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79763,
+      "createdOn": "2025-12-27T14:14:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694fe9c11c508c5d5e34729c",
+          "products": [
+            {
+              "_id": "694fe9c11c508c5d5e3472cb",
+              "name": "Chair7211",
+              "amount": 59,
+              "price": 79763,
+              "manufacturer": "Amazon",
+              "notes": "oGiVL8eeBo2wsurCQwey2bSC2xfjqtotyrUhiTKDvlQ8ebxvpHxXvpJySsNCQZrNtkTB4RNO2Dz5Zf4svH0Ikp0L3MYslXJ5Gygex4HAIQpcZmGqXgP4IOaswAUyCXAi5HM5NojZbf09eKkyFihQFM1sdjzlg2GkPv7b01jQBE10XwbVLNuBIn8qddxQOrj2PTdW5GRn5GDejW5Yu8N0p3700emA6F2bW7vhyfmZdkpJOrxNiHPVlmDbmd",
+              "received": false
+            }
+          ],
+          "total_price": 79763,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Terryboro",
+              "street": "Roxane Keys",
+              "house": 590,
+              "flat": 5265
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9c11c508c5d5e34729c",
+          "products": [
+            {
+              "_id": "694fe9c11c508c5d5e3472cb",
+              "name": "Chair7211",
+              "amount": 59,
+              "price": 79763,
+              "manufacturer": "Amazon",
+              "notes": "oGiVL8eeBo2wsurCQwey2bSC2xfjqtotyrUhiTKDvlQ8ebxvpHxXvpJySsNCQZrNtkTB4RNO2Dz5Zf4svH0Ikp0L3MYslXJ5Gygex4HAIQpcZmGqXgP4IOaswAUyCXAi5HM5NojZbf09eKkyFihQFM1sdjzlg2GkPv7b01jQBE10XwbVLNuBIn8qddxQOrj2PTdW5GRn5GDejW5Yu8N0p3700emA6F2bW7vhyfmZdkpJOrxNiHPVlmDbmd",
+              "received": false
+            }
+          ],
+          "total_price": 79763,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:14:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

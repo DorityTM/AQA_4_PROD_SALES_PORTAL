@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:14:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3665",
+    "etag": "W/\"e51-Ognm1aoBSoVNJrF7pGNbTxDKtw4\"",
+    "keep-alive": "timeout=5, max=44",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fe9dc1c508c5d5e347eba",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694fe9dc1c508c5d5e347e42",
+        "email": "Brannon.Rippin82@hotmail.com",
+        "name": "Freeman Quitzon",
+        "country": "Germany",
+        "city": "Toneystead",
+        "street": "Oak Drive 11",
+        "house": 902,
+        "flat": 1001,
+        "phone": "+244209479197013",
+        "createdOn": "2025-12-27T14:14:52.000Z",
+        "notes": "ADpVC3NQYFrDe6VjFL65k1WGIV5dQo"
+      },
+      "products": [
+        {
+          "_id": "694fe9dc1c508c5d5e347e5a",
+          "name": "Table75535",
+          "amount": 30,
+          "price": 37537,
+          "manufacturer": "Google",
+          "notes": "iTNZ0RBchppEuqfpBmd7TpvQ2W8zFsuQuDYNaRTNsyZ5YwP2TAfDCWnrrcbxdQw5zod4U6Bu6QywIiAh23vxBBsAjeJHuIVeTdQkcKE3EaFI2BMX9fKq786BJIurRXbTtrGJLbGjhWZyGUJbfZrrfxEUPl7wsfJ6APjIgXg4hxmExMi0aeuZtBOKGCIrdJ4h97kKw1DkS37lwq3gPZuJGGbXi5FSUtIdjdsikrtXq5h3Msaq9VALMXYRSH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Rhiannonfurt",
+          "street": "The Croft",
+          "house": 565,
+          "flat": 6286
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 37537,
+      "createdOn": "2025-12-27T14:14:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694fe9dc1c508c5d5e347e42",
+          "products": [
+            {
+              "_id": "694fe9dc1c508c5d5e347e5a",
+              "name": "Table75535",
+              "amount": 30,
+              "price": 37537,
+              "manufacturer": "Google",
+              "notes": "iTNZ0RBchppEuqfpBmd7TpvQ2W8zFsuQuDYNaRTNsyZ5YwP2TAfDCWnrrcbxdQw5zod4U6Bu6QywIiAh23vxBBsAjeJHuIVeTdQkcKE3EaFI2BMX9fKq786BJIurRXbTtrGJLbGjhWZyGUJbfZrrfxEUPl7wsfJ6APjIgXg4hxmExMi0aeuZtBOKGCIrdJ4h97kKw1DkS37lwq3gPZuJGGbXi5FSUtIdjdsikrtXq5h3Msaq9VALMXYRSH",
+              "received": false
+            }
+          ],
+          "total_price": 37537,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Rhiannonfurt",
+              "street": "The Croft",
+              "house": 565,
+              "flat": 6286
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:53.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9dc1c508c5d5e347e42",
+          "products": [
+            {
+              "_id": "694fe9dc1c508c5d5e347e5a",
+              "name": "Table75535",
+              "amount": 30,
+              "price": 37537,
+              "manufacturer": "Google",
+              "notes": "iTNZ0RBchppEuqfpBmd7TpvQ2W8zFsuQuDYNaRTNsyZ5YwP2TAfDCWnrrcbxdQw5zod4U6Bu6QywIiAh23vxBBsAjeJHuIVeTdQkcKE3EaFI2BMX9fKq786BJIurRXbTtrGJLbGjhWZyGUJbfZrrfxEUPl7wsfJ6APjIgXg4hxmExMi0aeuZtBOKGCIrdJ4h97kKw1DkS37lwq3gPZuJGGbXi5FSUtIdjdsikrtXq5h3Msaq9VALMXYRSH",
+              "received": false
+            }
+          ],
+          "total_price": 37537,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Rhiannonfurt",
+              "street": "The Croft",
+              "house": 565,
+              "flat": 6286
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9dc1c508c5d5e347e42",
+          "products": [
+            {
+              "_id": "694fe9dc1c508c5d5e347e5a",
+              "name": "Table75535",
+              "amount": 30,
+              "price": 37537,
+              "manufacturer": "Google",
+              "notes": "iTNZ0RBchppEuqfpBmd7TpvQ2W8zFsuQuDYNaRTNsyZ5YwP2TAfDCWnrrcbxdQw5zod4U6Bu6QywIiAh23vxBBsAjeJHuIVeTdQkcKE3EaFI2BMX9fKq786BJIurRXbTtrGJLbGjhWZyGUJbfZrrfxEUPl7wsfJ6APjIgXg4hxmExMi0aeuZtBOKGCIrdJ4h97kKw1DkS37lwq3gPZuJGGbXi5FSUtIdjdsikrtXq5h3Msaq9VALMXYRSH",
+              "received": false
+            }
+          ],
+          "total_price": 37537,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:14:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

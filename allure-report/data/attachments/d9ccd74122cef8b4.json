@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:14:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3684",
+    "etag": "W/\"e64-dPIHyKCyYIP0ffvgJazvG68151A\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fe9cc1c508c5d5e34779f",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694fe9cb1c508c5d5e347771",
+        "email": "Kathleen.Rath85@gmail.com",
+        "name": "Adaline Herman",
+        "country": "USA",
+        "city": "Ramiroworth",
+        "street": "Washington Avenue 41",
+        "house": 546,
+        "flat": 1455,
+        "phone": "+244385437103910",
+        "createdOn": "2025-12-27T14:14:35.000Z",
+        "notes": "hvw0tBKxXmgb1kqeCpCcXjPeX5bLZ6"
+      },
+      "products": [
+        {
+          "_id": "694fe9cc1c508c5d5e34778b",
+          "name": "Towels68247",
+          "amount": 269,
+          "price": 93771,
+          "manufacturer": "Samsung",
+          "notes": "v3KHURWdDNCffRn80hNoFwt2xe2KE8BTNLxbvxFMGbKADff8rbXkj11ICsGMHOCYL5newCAJwWsqH4XDWycI4PkcUmGr7gXLU1tAzRJ4F7rdAXnVQvkH2WzBLNFldwl12iZxhhVmQeMdeyleQDUHgLDlS7RMeJaezwvBWM98oZht386bD4FsWz9ggAGwO4PvqNRqWD7orLlzjsD4xQS00eyeO9nrbHimVyBtxPTvCxIxH5XbupxKOwSEX5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Feeneyborough",
+          "street": "Pearl Street",
+          "house": 54,
+          "flat": 9216
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 93771,
+      "createdOn": "2025-12-27T14:14:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694fe9cb1c508c5d5e347771",
+          "products": [
+            {
+              "_id": "694fe9cc1c508c5d5e34778b",
+              "name": "Towels68247",
+              "amount": 269,
+              "price": 93771,
+              "manufacturer": "Samsung",
+              "notes": "v3KHURWdDNCffRn80hNoFwt2xe2KE8BTNLxbvxFMGbKADff8rbXkj11ICsGMHOCYL5newCAJwWsqH4XDWycI4PkcUmGr7gXLU1tAzRJ4F7rdAXnVQvkH2WzBLNFldwl12iZxhhVmQeMdeyleQDUHgLDlS7RMeJaezwvBWM98oZht386bD4FsWz9ggAGwO4PvqNRqWD7orLlzjsD4xQS00eyeO9nrbHimVyBtxPTvCxIxH5XbupxKOwSEX5",
+              "received": false
+            }
+          ],
+          "total_price": 93771,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Feeneyborough",
+              "street": "Pearl Street",
+              "house": 54,
+              "flat": 9216
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:37.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9cb1c508c5d5e347771",
+          "products": [
+            {
+              "_id": "694fe9cc1c508c5d5e34778b",
+              "name": "Towels68247",
+              "amount": 269,
+              "price": 93771,
+              "manufacturer": "Samsung",
+              "notes": "v3KHURWdDNCffRn80hNoFwt2xe2KE8BTNLxbvxFMGbKADff8rbXkj11ICsGMHOCYL5newCAJwWsqH4XDWycI4PkcUmGr7gXLU1tAzRJ4F7rdAXnVQvkH2WzBLNFldwl12iZxhhVmQeMdeyleQDUHgLDlS7RMeJaezwvBWM98oZht386bD4FsWz9ggAGwO4PvqNRqWD7orLlzjsD4xQS00eyeO9nrbHimVyBtxPTvCxIxH5XbupxKOwSEX5",
+              "received": false
+            }
+          ],
+          "total_price": 93771,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Feeneyborough",
+              "street": "Pearl Street",
+              "house": 54,
+              "flat": 9216
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9cb1c508c5d5e347771",
+          "products": [
+            {
+              "_id": "694fe9cc1c508c5d5e34778b",
+              "name": "Towels68247",
+              "amount": 269,
+              "price": 93771,
+              "manufacturer": "Samsung",
+              "notes": "v3KHURWdDNCffRn80hNoFwt2xe2KE8BTNLxbvxFMGbKADff8rbXkj11ICsGMHOCYL5newCAJwWsqH4XDWycI4PkcUmGr7gXLU1tAzRJ4F7rdAXnVQvkH2WzBLNFldwl12iZxhhVmQeMdeyleQDUHgLDlS7RMeJaezwvBWM98oZht386bD4FsWz9ggAGwO4PvqNRqWD7orLlzjsD4xQS00eyeO9nrbHimVyBtxPTvCxIxH5XbupxKOwSEX5",
+              "received": false
+            }
+          ],
+          "total_price": 93771,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:14:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

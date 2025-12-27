@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:17:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3704",
+    "etag": "W/\"e78-jf9ZJ+A7v+9P6m5Bku4szCSpBBc\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fea781c508c5d5e34c4a0",
+      "status": "In Process",
+      "customer": {
+        "_id": "694fea771c508c5d5e34c463",
+        "email": "Lorenz_Keebler30@gmail.com",
+        "name": "Zita Schuppe",
+        "country": "Ukraine",
+        "city": "Rylanville",
+        "street": "Newton Parks 38",
+        "house": 749,
+        "flat": 4826,
+        "phone": "+241652520298786",
+        "createdOn": "2025-12-27T14:17:27.000Z",
+        "notes": "WIYJYOle0naPdTAr9zm7Kd4S8nsBz0"
+      },
+      "products": [
+        {
+          "_id": "694fea781c508c5d5e34c47d",
+          "name": "Keyboard57225",
+          "amount": 706,
+          "price": 67181,
+          "manufacturer": "Apple",
+          "notes": "QXDpEn9ceBdsYf4e9oFomOrTFbkl6CXYaarxV2T3FIGUAIst5ptR6RN4RZ3NQeat53LY0vt8sclJK1LpSq7vK4yN5KokmYwvVtlSF4qOAx16qrWEq09fzpWcJrSWay7hoz7wHC2GMrAFFG1b1Y2aOo1xFnSNZ3FJwzu0zIKQ4pDVv2yNryRoe3NcDsoG1POcoJWACoyE8z89bgslTJPWJu0Ne2eiV9HAQ4wnGM4MZO4pEIRXqcqz8kAzmC",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Brannonbury",
+          "street": "Naomi Burgs",
+          "house": 175,
+          "flat": 38
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 67181,
+      "createdOn": "2025-12-27T14:17:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694fea771c508c5d5e34c463",
+          "products": [
+            {
+              "_id": "694fea781c508c5d5e34c47d",
+              "name": "Keyboard57225",
+              "amount": 706,
+              "price": 67181,
+              "manufacturer": "Apple",
+              "notes": "QXDpEn9ceBdsYf4e9oFomOrTFbkl6CXYaarxV2T3FIGUAIst5ptR6RN4RZ3NQeat53LY0vt8sclJK1LpSq7vK4yN5KokmYwvVtlSF4qOAx16qrWEq09fzpWcJrSWay7hoz7wHC2GMrAFFG1b1Y2aOo1xFnSNZ3FJwzu0zIKQ4pDVv2yNryRoe3NcDsoG1POcoJWACoyE8z89bgslTJPWJu0Ne2eiV9HAQ4wnGM4MZO4pEIRXqcqz8kAzmC",
+              "received": false
+            }
+          ],
+          "total_price": 67181,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Brannonbury",
+              "street": "Naomi Burgs",
+              "house": 175,
+              "flat": 38
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea771c508c5d5e34c463",
+          "products": [
+            {
+              "_id": "694fea781c508c5d5e34c47d",
+              "name": "Keyboard57225",
+              "amount": 706,
+              "price": 67181,
+              "manufacturer": "Apple",
+              "notes": "QXDpEn9ceBdsYf4e9oFomOrTFbkl6CXYaarxV2T3FIGUAIst5ptR6RN4RZ3NQeat53LY0vt8sclJK1LpSq7vK4yN5KokmYwvVtlSF4qOAx16qrWEq09fzpWcJrSWay7hoz7wHC2GMrAFFG1b1Y2aOo1xFnSNZ3FJwzu0zIKQ4pDVv2yNryRoe3NcDsoG1POcoJWACoyE8z89bgslTJPWJu0Ne2eiV9HAQ4wnGM4MZO4pEIRXqcqz8kAzmC",
+              "received": false
+            }
+          ],
+          "total_price": 67181,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Brannonbury",
+              "street": "Naomi Burgs",
+              "house": 175,
+              "flat": 38
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:17:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea771c508c5d5e34c463",
+          "products": [
+            {
+              "_id": "694fea781c508c5d5e34c47d",
+              "name": "Keyboard57225",
+              "amount": 706,
+              "price": 67181,
+              "manufacturer": "Apple",
+              "notes": "QXDpEn9ceBdsYf4e9oFomOrTFbkl6CXYaarxV2T3FIGUAIst5ptR6RN4RZ3NQeat53LY0vt8sclJK1LpSq7vK4yN5KokmYwvVtlSF4qOAx16qrWEq09fzpWcJrSWay7hoz7wHC2GMrAFFG1b1Y2aOo1xFnSNZ3FJwzu0zIKQ4pDVv2yNryRoe3NcDsoG1POcoJWACoyE8z89bgslTJPWJu0Ne2eiV9HAQ4wnGM4MZO4pEIRXqcqz8kAzmC",
+              "received": false
+            }
+          ],
+          "total_price": 67181,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:17:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

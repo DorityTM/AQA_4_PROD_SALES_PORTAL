@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:14:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5216",
+    "etag": "W/\"1460-VCqWUDpF1geB72anAwZE3H2niPE\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fe9bd1c508c5d5e34714f",
+      "status": "In Process",
+      "customer": {
+        "_id": "694fe9bc1c508c5d5e3470f5",
+        "email": "Kiel.Smith34@gmail.com",
+        "name": "Desiree White",
+        "country": "Canada",
+        "city": "Lake Suzanneberg",
+        "street": "Roxane Union 63",
+        "house": 426,
+        "flat": 3890,
+        "phone": "+462747346416905",
+        "createdOn": "2025-12-27T14:14:20.000Z",
+        "notes": "TlR4PLfQtiEaggjX2YIElgK5uK6Dx7"
+      },
+      "products": [
+        {
+          "_id": "694fe9bc1c508c5d5e34710f",
+          "name": "Fish30342",
+          "amount": 664,
+          "price": 58426,
+          "manufacturer": "Tesla",
+          "notes": "pGK0LqLEu9Gft9Fp6i0wMusjgfDEN4rw8mJIO8zayS0a3dR2UbRJJ4WpD655Smzz4OBFGQw1qpnFEAYxErSXIXzrQb0KSL4980TTOyG4sJzqcACtnipdYljf2wdFEIG3DPQKB2nEdX0kUM2mnOk9R7l6bHBSK1pYnt3igASjxgTzR58DtBxFpBxCJeOeZQCXciYSgqmaIBCYietUSBSOqxS4G14Qn7lP4Qep3YhADdfS67rClmJ9rJ7vn8",
+          "received": false
+        },
+        {
+          "_id": "694fe9bd1c508c5d5e34712c",
+          "name": "Pizza85315",
+          "amount": 458,
+          "price": 88591,
+          "manufacturer": "Samsung",
+          "notes": "sKWfGN6J9Y5U1MOH2oGzUiaync9Mo9wlozl3b6soxTCQctcGCy6lwlgvtXs3oJfjq19cAduxEi1luSuWFNioXGLALzpXn1jlTyLKUCQNtr7OhB43NRAuggXXWlg2YEIzAk9xJbmAs1jW4zDotstDIEjdbpWHrFMVaxENnJUFnuRyeW1CpweMDeNfEfySGP4qXHGfZ9gbPGPKgAJsnaABvPhcYGiDYPQeNGAenGPJEuYRiSJXYXgD1X4RVo",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Margeville",
+          "street": "Ronaldo Rue",
+          "house": 216,
+          "flat": 728
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 147017,
+      "createdOn": "2025-12-27T14:14:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694fe9bc1c508c5d5e3470f5",
+          "products": [
+            {
+              "_id": "694fe9bc1c508c5d5e34710f",
+              "name": "Fish30342",
+              "amount": 664,
+              "price": 58426,
+              "manufacturer": "Tesla",
+              "notes": "pGK0LqLEu9Gft9Fp6i0wMusjgfDEN4rw8mJIO8zayS0a3dR2UbRJJ4WpD655Smzz4OBFGQw1qpnFEAYxErSXIXzrQb0KSL4980TTOyG4sJzqcACtnipdYljf2wdFEIG3DPQKB2nEdX0kUM2mnOk9R7l6bHBSK1pYnt3igASjxgTzR58DtBxFpBxCJeOeZQCXciYSgqmaIBCYietUSBSOqxS4G14Qn7lP4Qep3YhADdfS67rClmJ9rJ7vn8",
+              "received": false
+            },
+            {
+              "_id": "694fe9bd1c508c5d5e34712c",
+              "name": "Pizza85315",
+              "amount": 458,
+              "price": 88591,
+              "manufacturer": "Samsung",
+              "notes": "sKWfGN6J9Y5U1MOH2oGzUiaync9Mo9wlozl3b6soxTCQctcGCy6lwlgvtXs3oJfjq19cAduxEi1luSuWFNioXGLALzpXn1jlTyLKUCQNtr7OhB43NRAuggXXWlg2YEIzAk9xJbmAs1jW4zDotstDIEjdbpWHrFMVaxENnJUFnuRyeW1CpweMDeNfEfySGP4qXHGfZ9gbPGPKgAJsnaABvPhcYGiDYPQeNGAenGPJEuYRiSJXYXgD1X4RVo",
+              "received": false
+            }
+          ],
+          "total_price": 147017,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Margeville",
+              "street": "Ronaldo Rue",
+              "house": 216,
+              "flat": 728
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9bc1c508c5d5e3470f5",
+          "products": [
+            {
+              "_id": "694fe9bc1c508c5d5e34710f",
+              "name": "Fish30342",
+              "amount": 664,
+              "price": 58426,
+              "manufacturer": "Tesla",
+              "notes": "pGK0LqLEu9Gft9Fp6i0wMusjgfDEN4rw8mJIO8zayS0a3dR2UbRJJ4WpD655Smzz4OBFGQw1qpnFEAYxErSXIXzrQb0KSL4980TTOyG4sJzqcACtnipdYljf2wdFEIG3DPQKB2nEdX0kUM2mnOk9R7l6bHBSK1pYnt3igASjxgTzR58DtBxFpBxCJeOeZQCXciYSgqmaIBCYietUSBSOqxS4G14Qn7lP4Qep3YhADdfS67rClmJ9rJ7vn8",
+              "received": false
+            },
+            {
+              "_id": "694fe9bd1c508c5d5e34712c",
+              "name": "Pizza85315",
+              "amount": 458,
+              "price": 88591,
+              "manufacturer": "Samsung",
+              "notes": "sKWfGN6J9Y5U1MOH2oGzUiaync9Mo9wlozl3b6soxTCQctcGCy6lwlgvtXs3oJfjq19cAduxEi1luSuWFNioXGLALzpXn1jlTyLKUCQNtr7OhB43NRAuggXXWlg2YEIzAk9xJbmAs1jW4zDotstDIEjdbpWHrFMVaxENnJUFnuRyeW1CpweMDeNfEfySGP4qXHGfZ9gbPGPKgAJsnaABvPhcYGiDYPQeNGAenGPJEuYRiSJXYXgD1X4RVo",
+              "received": false
+            }
+          ],
+          "total_price": 147017,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Margeville",
+              "street": "Ronaldo Rue",
+              "house": 216,
+              "flat": 728
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9bc1c508c5d5e3470f5",
+          "products": [
+            {
+              "_id": "694fe9bc1c508c5d5e34710f",
+              "name": "Fish30342",
+              "amount": 664,
+              "price": 58426,
+              "manufacturer": "Tesla",
+              "notes": "pGK0LqLEu9Gft9Fp6i0wMusjgfDEN4rw8mJIO8zayS0a3dR2UbRJJ4WpD655Smzz4OBFGQw1qpnFEAYxErSXIXzrQb0KSL4980TTOyG4sJzqcACtnipdYljf2wdFEIG3DPQKB2nEdX0kUM2mnOk9R7l6bHBSK1pYnt3igASjxgTzR58DtBxFpBxCJeOeZQCXciYSgqmaIBCYietUSBSOqxS4G14Qn7lP4Qep3YhADdfS67rClmJ9rJ7vn8",
+              "received": false
+            },
+            {
+              "_id": "694fe9bd1c508c5d5e34712c",
+              "name": "Pizza85315",
+              "amount": 458,
+              "price": 88591,
+              "manufacturer": "Samsung",
+              "notes": "sKWfGN6J9Y5U1MOH2oGzUiaync9Mo9wlozl3b6soxTCQctcGCy6lwlgvtXs3oJfjq19cAduxEi1luSuWFNioXGLALzpXn1jlTyLKUCQNtr7OhB43NRAuggXXWlg2YEIzAk9xJbmAs1jW4zDotstDIEjdbpWHrFMVaxENnJUFnuRyeW1CpweMDeNfEfySGP4qXHGfZ9gbPGPKgAJsnaABvPhcYGiDYPQeNGAenGPJEuYRiSJXYXgD1X4RVo",
+              "received": false
+            }
+          ],
+          "total_price": 147017,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:14:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

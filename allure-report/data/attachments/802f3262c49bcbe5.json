@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4584",
+    "etag": "W/\"11e8-8gjBZEMjBPDGVg+Fh7A2dcToDTE\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fea081c508c5d5e34947c",
+      "status": "Received",
+      "customer": {
+        "_id": "694fea071c508c5d5e3493d6",
+        "email": "Orval_Hauck@hotmail.com",
+        "name": "Verna O Reilly",
+        "country": "Canada",
+        "city": "Oro Valley",
+        "street": "Victoria Road 72",
+        "house": 883,
+        "flat": 5322,
+        "phone": "+220683443548753",
+        "createdOn": "2025-12-27T14:15:35.000Z",
+        "notes": "MQqfj2W2OIfiDw1OT415t4qdbEK8xB"
+      },
+      "products": [
+        {
+          "_id": "694fea081c508c5d5e34946c",
+          "name": "Table93588",
+          "amount": 541,
+          "price": 80195,
+          "manufacturer": "Sony",
+          "notes": "yVRbbReUJOmWqLf32VSu4QMjuIiJ2ZBXQQPRgDLANizyrOnuPaxgsURvCu7MwL2aXHuhkJQlaEuCL4KcdqgIQRTct1PMjs1pAestabp5S1TiQ4Pr9zYMj5MHBcEdpsqrai2KgH9fZBNPhZrX9P1JufnFV3x8yT9VcAWbGmhYLCEdNOEKkxViVbtHAXxz3HsQzgEo0FSBU4irQrEIyr3nVbPD91UzVLqiO71sMGOHLYSnoWA8O078fHkrcn",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "South Brandonton",
+          "street": "The Rise",
+          "house": 142,
+          "flat": 8913
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80195,
+      "createdOn": "2025-12-27T14:15:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694fea071c508c5d5e3493d6",
+          "products": [
+            {
+              "_id": "694fea081c508c5d5e34946c",
+              "name": "Table93588",
+              "amount": 541,
+              "price": 80195,
+              "manufacturer": "Sony",
+              "notes": "yVRbbReUJOmWqLf32VSu4QMjuIiJ2ZBXQQPRgDLANizyrOnuPaxgsURvCu7MwL2aXHuhkJQlaEuCL4KcdqgIQRTct1PMjs1pAestabp5S1TiQ4Pr9zYMj5MHBcEdpsqrai2KgH9fZBNPhZrX9P1JufnFV3x8yT9VcAWbGmhYLCEdNOEKkxViVbtHAXxz3HsQzgEo0FSBU4irQrEIyr3nVbPD91UzVLqiO71sMGOHLYSnoWA8O078fHkrcn",
+              "received": true
+            }
+          ],
+          "total_price": 80195,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Brandonton",
+              "street": "The Rise",
+              "house": 142,
+              "flat": 8913
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:15:37.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694fea071c508c5d5e3493d6",
+          "products": [
+            {
+              "_id": "694fea081c508c5d5e34946c",
+              "name": "Table93588",
+              "amount": 541,
+              "price": 80195,
+              "manufacturer": "Sony",
+              "notes": "yVRbbReUJOmWqLf32VSu4QMjuIiJ2ZBXQQPRgDLANizyrOnuPaxgsURvCu7MwL2aXHuhkJQlaEuCL4KcdqgIQRTct1PMjs1pAestabp5S1TiQ4Pr9zYMj5MHBcEdpsqrai2KgH9fZBNPhZrX9P1JufnFV3x8yT9VcAWbGmhYLCEdNOEKkxViVbtHAXxz3HsQzgEo0FSBU4irQrEIyr3nVbPD91UzVLqiO71sMGOHLYSnoWA8O078fHkrcn",
+              "received": false
+            }
+          ],
+          "total_price": 80195,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Brandonton",
+              "street": "The Rise",
+              "house": 142,
+              "flat": 8913
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:15:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea071c508c5d5e3493d6",
+          "products": [
+            {
+              "_id": "694fea081c508c5d5e34946c",
+              "name": "Table93588",
+              "amount": 541,
+              "price": 80195,
+              "manufacturer": "Sony",
+              "notes": "yVRbbReUJOmWqLf32VSu4QMjuIiJ2ZBXQQPRgDLANizyrOnuPaxgsURvCu7MwL2aXHuhkJQlaEuCL4KcdqgIQRTct1PMjs1pAestabp5S1TiQ4Pr9zYMj5MHBcEdpsqrai2KgH9fZBNPhZrX9P1JufnFV3x8yT9VcAWbGmhYLCEdNOEKkxViVbtHAXxz3HsQzgEo0FSBU4irQrEIyr3nVbPD91UzVLqiO71sMGOHLYSnoWA8O078fHkrcn",
+              "received": false
+            }
+          ],
+          "total_price": 80195,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Brandonton",
+              "street": "The Rise",
+              "house": 142,
+              "flat": 8913
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:15:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea071c508c5d5e3493d6",
+          "products": [
+            {
+              "_id": "694fea081c508c5d5e34946c",
+              "name": "Table93588",
+              "amount": 541,
+              "price": 80195,
+              "manufacturer": "Sony",
+              "notes": "yVRbbReUJOmWqLf32VSu4QMjuIiJ2ZBXQQPRgDLANizyrOnuPaxgsURvCu7MwL2aXHuhkJQlaEuCL4KcdqgIQRTct1PMjs1pAestabp5S1TiQ4Pr9zYMj5MHBcEdpsqrai2KgH9fZBNPhZrX9P1JufnFV3x8yT9VcAWbGmhYLCEdNOEKkxViVbtHAXxz3HsQzgEo0FSBU4irQrEIyr3nVbPD91UzVLqiO71sMGOHLYSnoWA8O078fHkrcn",
+              "received": false
+            }
+          ],
+          "total_price": 80195,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:15:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

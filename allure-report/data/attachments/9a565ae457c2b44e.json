@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:14:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2737",
+    "etag": "W/\"ab1-qoS+7nblFFJSGQh0bzJZzSQ24TI\"",
+    "keep-alive": "timeout=5, max=36",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fe9d21c508c5d5e347a4e",
+      "status": "Draft",
+      "customer": {
+        "_id": "694fe9d21c508c5d5e347a0c",
+        "email": "Ken.Johnson@gmail.com",
+        "name": "Loren Schroeder",
+        "country": "USA",
+        "city": "Visalia",
+        "street": "2nd Street 12",
+        "house": 99,
+        "flat": 9128,
+        "phone": "+926056958572065",
+        "createdOn": "2025-12-27T14:14:42.000Z",
+        "notes": "g5nVgaT4dZ12QiUn1aVYiIH1NLQz7F"
+      },
+      "products": [
+        {
+          "_id": "694fe9d21c508c5d5e347a36",
+          "name": "Tuna92079",
+          "amount": 148,
+          "price": 61872,
+          "manufacturer": "Samsung",
+          "notes": "kWE4R1JXUWiboTZUI9PZNxxWS01o0kQHtpQMBiRDlBBjtZ5Y5dKQAgi336N6iTIcaLyyn1qehX1bwHHCilM86AzxnxdxFtDBrHwFn31yOXlUafqweKHansAGeu5s52wyEfPYEMk9tsLrJGgVmgqzF1B9pqoULRRCkKh8c4uEGYbF4WZLKudgD5wGtbH7cA4d6UWsKygL5FBp5lDDCl1Q1WITV8SoQ09fnoLpE48kSW43ofqEJGsGIStSNb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Amparostead",
+          "street": "Nader Neck",
+          "house": 157,
+          "flat": 9194
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 61872,
+      "createdOn": "2025-12-27T14:14:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694fe9d21c508c5d5e347a0c",
+          "products": [
+            {
+              "_id": "694fe9d21c508c5d5e347a36",
+              "name": "Tuna92079",
+              "amount": 148,
+              "price": 61872,
+              "manufacturer": "Samsung",
+              "notes": "kWE4R1JXUWiboTZUI9PZNxxWS01o0kQHtpQMBiRDlBBjtZ5Y5dKQAgi336N6iTIcaLyyn1qehX1bwHHCilM86AzxnxdxFtDBrHwFn31yOXlUafqweKHansAGeu5s52wyEfPYEMk9tsLrJGgVmgqzF1B9pqoULRRCkKh8c4uEGYbF4WZLKudgD5wGtbH7cA4d6UWsKygL5FBp5lDDCl1Q1WITV8SoQ09fnoLpE48kSW43ofqEJGsGIStSNb",
+              "received": false
+            }
+          ],
+          "total_price": 61872,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Amparostead",
+              "street": "Nader Neck",
+              "house": 157,
+              "flat": 9194
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:14:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fe9d21c508c5d5e347a0c",
+          "products": [
+            {
+              "_id": "694fe9d21c508c5d5e347a36",
+              "name": "Tuna92079",
+              "amount": 148,
+              "price": 61872,
+              "manufacturer": "Samsung",
+              "notes": "kWE4R1JXUWiboTZUI9PZNxxWS01o0kQHtpQMBiRDlBBjtZ5Y5dKQAgi336N6iTIcaLyyn1qehX1bwHHCilM86AzxnxdxFtDBrHwFn31yOXlUafqweKHansAGeu5s52wyEfPYEMk9tsLrJGgVmgqzF1B9pqoULRRCkKh8c4uEGYbF4WZLKudgD5wGtbH7cA4d6UWsKygL5FBp5lDDCl1Q1WITV8SoQ09fnoLpE48kSW43ofqEJGsGIStSNb",
+              "received": false
+            }
+          ],
+          "total_price": 61872,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:14:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

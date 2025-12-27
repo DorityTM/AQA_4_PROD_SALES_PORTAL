@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 14:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4590",
+    "etag": "W/\"11ee-q+mJLgClAm3yGBZAbO/pvxNx7Po\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fea081c508c5d5e34949f",
+      "status": "Received",
+      "customer": {
+        "_id": "694fea081c508c5d5e349463",
+        "email": "Lacy34@yahoo.com",
+        "name": "Rita Boyle",
+        "country": "USA",
+        "city": "West Conniebury",
+        "street": "Raoul Bridge 13",
+        "house": 69,
+        "flat": 6055,
+        "phone": "+489366680621140",
+        "createdOn": "2025-12-27T14:15:36.000Z",
+        "notes": "0etpkvPMtaoK6cF39cFR3xZSN4bR5X"
+      },
+      "products": [
+        {
+          "_id": "694fea081c508c5d5e349482",
+          "name": "Tuna12958",
+          "amount": 300,
+          "price": 19179,
+          "manufacturer": "Google",
+          "notes": "f1n5qtlQmDjCSrKct8tqq0o2fUUvkey7dATVq81qpeJGrkeRBFtacjegQQl1BKWmg3RJN77ECzIK4Zp2JDSF7EF2TqDqL6QpkSVRLLjruzXQG8fij7DtZJaH24Q4q6Iw8CIT53Pddkk9rfs7Ko8JyYJPNQJlH86bLvsCl3WG6Ep9BAkbgZPCKiYFzgGlDEmb28tJfsHGeUIXAGE1ypBAh5V38bEulUDODP2Rtzawhwkm37XcGlFQdXhbyX",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Kattiefield",
+          "street": "Miller Union",
+          "house": 124,
+          "flat": 9517
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 19179,
+      "createdOn": "2025-12-27T14:15:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694fea081c508c5d5e349463",
+          "products": [
+            {
+              "_id": "694fea081c508c5d5e349482",
+              "name": "Tuna12958",
+              "amount": 300,
+              "price": 19179,
+              "manufacturer": "Google",
+              "notes": "f1n5qtlQmDjCSrKct8tqq0o2fUUvkey7dATVq81qpeJGrkeRBFtacjegQQl1BKWmg3RJN77ECzIK4Zp2JDSF7EF2TqDqL6QpkSVRLLjruzXQG8fij7DtZJaH24Q4q6Iw8CIT53Pddkk9rfs7Ko8JyYJPNQJlH86bLvsCl3WG6Ep9BAkbgZPCKiYFzgGlDEmb28tJfsHGeUIXAGE1ypBAh5V38bEulUDODP2Rtzawhwkm37XcGlFQdXhbyX",
+              "received": true
+            }
+          ],
+          "total_price": 19179,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Kattiefield",
+              "street": "Miller Union",
+              "house": 124,
+              "flat": 9517
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:15:37.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694fea081c508c5d5e349463",
+          "products": [
+            {
+              "_id": "694fea081c508c5d5e349482",
+              "name": "Tuna12958",
+              "amount": 300,
+              "price": 19179,
+              "manufacturer": "Google",
+              "notes": "f1n5qtlQmDjCSrKct8tqq0o2fUUvkey7dATVq81qpeJGrkeRBFtacjegQQl1BKWmg3RJN77ECzIK4Zp2JDSF7EF2TqDqL6QpkSVRLLjruzXQG8fij7DtZJaH24Q4q6Iw8CIT53Pddkk9rfs7Ko8JyYJPNQJlH86bLvsCl3WG6Ep9BAkbgZPCKiYFzgGlDEmb28tJfsHGeUIXAGE1ypBAh5V38bEulUDODP2Rtzawhwkm37XcGlFQdXhbyX",
+              "received": false
+            }
+          ],
+          "total_price": 19179,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Kattiefield",
+              "street": "Miller Union",
+              "house": 124,
+              "flat": 9517
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:15:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea081c508c5d5e349463",
+          "products": [
+            {
+              "_id": "694fea081c508c5d5e349482",
+              "name": "Tuna12958",
+              "amount": 300,
+              "price": 19179,
+              "manufacturer": "Google",
+              "notes": "f1n5qtlQmDjCSrKct8tqq0o2fUUvkey7dATVq81qpeJGrkeRBFtacjegQQl1BKWmg3RJN77ECzIK4Zp2JDSF7EF2TqDqL6QpkSVRLLjruzXQG8fij7DtZJaH24Q4q6Iw8CIT53Pddkk9rfs7Ko8JyYJPNQJlH86bLvsCl3WG6Ep9BAkbgZPCKiYFzgGlDEmb28tJfsHGeUIXAGE1ypBAh5V38bEulUDODP2Rtzawhwkm37XcGlFQdXhbyX",
+              "received": false
+            }
+          ],
+          "total_price": 19179,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Kattiefield",
+              "street": "Miller Union",
+              "house": 124,
+              "flat": 9517
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T14:15:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fea081c508c5d5e349463",
+          "products": [
+            {
+              "_id": "694fea081c508c5d5e349482",
+              "name": "Tuna12958",
+              "amount": 300,
+              "price": 19179,
+              "manufacturer": "Google",
+              "notes": "f1n5qtlQmDjCSrKct8tqq0o2fUUvkey7dATVq81qpeJGrkeRBFtacjegQQl1BKWmg3RJN77ECzIK4Zp2JDSF7EF2TqDqL6QpkSVRLLjruzXQG8fij7DtZJaH24Q4q6Iw8CIT53Pddkk9rfs7Ko8JyYJPNQJlH86bLvsCl3WG6Ep9BAkbgZPCKiYFzgGlDEmb28tJfsHGeUIXAGE1ypBAh5V38bEulUDODP2Rtzawhwkm37XcGlFQdXhbyX",
+              "received": false
+            }
+          ],
+          "total_price": 19179,
+          "delivery": null,
+          "changedOn": "2025-12-27T14:15:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
