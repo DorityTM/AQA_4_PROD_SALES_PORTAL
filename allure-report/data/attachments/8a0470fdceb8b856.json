@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:01:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3680",
+    "etag": "W/\"e60-j/yY208aRToDgMEgA8kUXqE0zpI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695057271c508c5d5e366ef5",
+      "status": "In Process",
+      "customer": {
+        "_id": "695057261c508c5d5e366eca",
+        "email": "Dianna_Orn91@yahoo.com",
+        "name": "Myles Monahan",
+        "country": "USA",
+        "city": "South Sophiachester",
+        "street": "Doris Estate 84",
+        "house": 811,
+        "flat": 1209,
+        "phone": "+523985466287659",
+        "createdOn": "2025-12-27T22:01:10.000Z",
+        "notes": "5crnSkem6mJ3NSDHnk4GBIaal0z64s"
+      },
+      "products": [
+        {
+          "_id": "695057271c508c5d5e366ee5",
+          "name": "Cheese45854",
+          "amount": 829,
+          "price": 91760,
+          "manufacturer": "Apple",
+          "notes": "STtcoIb6eAzP90eJPFQqsh3A0dQtAd4tlRYfOOezItO0ygWEuXWRBzaGD6L0qfV4pQOfOEM8ksjSqVPHs9FINEDH3j0WRzXMoaahZFK7QwOE9ORbr27RGBISUwRF1qbYDh66Utyq3oDrj4OVe5WLKlFSKmrsLLtorrLuWUtBbq5UeX2uT2sevCbb1aVWwg7nER4MfPWMnApiQjXfmdDh1tXqGrBBfb2MCJgURdCqTpSyIwBAtEPqoOFKuh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Nadiamouth",
+          "street": "Hahn Summit",
+          "house": 83,
+          "flat": 7433
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 91760,
+      "createdOn": "2025-12-27T22:01:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695057261c508c5d5e366eca",
+          "products": [
+            {
+              "_id": "695057271c508c5d5e366ee5",
+              "name": "Cheese45854",
+              "amount": 829,
+              "price": 91760,
+              "manufacturer": "Apple",
+              "notes": "STtcoIb6eAzP90eJPFQqsh3A0dQtAd4tlRYfOOezItO0ygWEuXWRBzaGD6L0qfV4pQOfOEM8ksjSqVPHs9FINEDH3j0WRzXMoaahZFK7QwOE9ORbr27RGBISUwRF1qbYDh66Utyq3oDrj4OVe5WLKlFSKmrsLLtorrLuWUtBbq5UeX2uT2sevCbb1aVWwg7nER4MfPWMnApiQjXfmdDh1tXqGrBBfb2MCJgURdCqTpSyIwBAtEPqoOFKuh",
+              "received": false
+            }
+          ],
+          "total_price": 91760,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Nadiamouth",
+              "street": "Hahn Summit",
+              "house": 83,
+              "flat": 7433
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:01:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695057261c508c5d5e366eca",
+          "products": [
+            {
+              "_id": "695057271c508c5d5e366ee5",
+              "name": "Cheese45854",
+              "amount": 829,
+              "price": 91760,
+              "manufacturer": "Apple",
+              "notes": "STtcoIb6eAzP90eJPFQqsh3A0dQtAd4tlRYfOOezItO0ygWEuXWRBzaGD6L0qfV4pQOfOEM8ksjSqVPHs9FINEDH3j0WRzXMoaahZFK7QwOE9ORbr27RGBISUwRF1qbYDh66Utyq3oDrj4OVe5WLKlFSKmrsLLtorrLuWUtBbq5UeX2uT2sevCbb1aVWwg7nER4MfPWMnApiQjXfmdDh1tXqGrBBfb2MCJgURdCqTpSyIwBAtEPqoOFKuh",
+              "received": false
+            }
+          ],
+          "total_price": 91760,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Nadiamouth",
+              "street": "Hahn Summit",
+              "house": 83,
+              "flat": 7433
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:01:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695057261c508c5d5e366eca",
+          "products": [
+            {
+              "_id": "695057271c508c5d5e366ee5",
+              "name": "Cheese45854",
+              "amount": 829,
+              "price": 91760,
+              "manufacturer": "Apple",
+              "notes": "STtcoIb6eAzP90eJPFQqsh3A0dQtAd4tlRYfOOezItO0ygWEuXWRBzaGD6L0qfV4pQOfOEM8ksjSqVPHs9FINEDH3j0WRzXMoaahZFK7QwOE9ORbr27RGBISUwRF1qbYDh66Utyq3oDrj4OVe5WLKlFSKmrsLLtorrLuWUtBbq5UeX2uT2sevCbb1aVWwg7nER4MfPWMnApiQjXfmdDh1tXqGrBBfb2MCJgURdCqTpSyIwBAtEPqoOFKuh",
+              "received": false
+            }
+          ],
+          "total_price": 91760,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:01:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 21:59:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2751",
+    "etag": "W/\"abf-6LUaSKzEY7q/IK1ekpD3nzYQJ+8\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695056cb1c508c5d5e364b9f",
+      "status": "Draft",
+      "customer": {
+        "_id": "695056c91c508c5d5e364a65",
+        "email": "Kiana.Raynor@gmail.com",
+        "name": "Maurine Grady",
+        "country": "Canada",
+        "city": "Anchorage",
+        "street": "Rex Shoals 43",
+        "house": 464,
+        "flat": 6447,
+        "phone": "+285137552706109",
+        "createdOn": "2025-12-27T21:59:37.000Z",
+        "notes": "7zAmqfKYcam8NsPQvncyQgXNT720Vn"
+      },
+      "products": [
+        {
+          "_id": "695056cb1c508c5d5e364b37",
+          "name": "Fish79763",
+          "amount": 349,
+          "price": 87658,
+          "manufacturer": "Xiaomi",
+          "notes": "JvlgVAgFZ0HEuAA9GUCeWrPzhfwpCvsJtn25nbalZyh5KOgtDbOgwUCDctK9DkM0Wmc56Za8UJVbnod5STJlARLW5124PpdR0MnMtPrQvngOKJrKANoOcM5dSZ4yk7gEUvhdgk1JmsFZD4P9aE2kW45dTg30AGzxC12CEBKhFhtGy9MSFHrEKfXyDmRUcMDtCLc0CD7mxL08KlrKIkEuC2OavuxscQhuMclByj79q0UVBBVHrfg8YUIrX7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Krajcikchester",
+          "street": "Walter Bypass",
+          "house": 870,
+          "flat": 2402
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 87658,
+      "createdOn": "2025-12-27T21:59:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695056c91c508c5d5e364a65",
+          "products": [
+            {
+              "_id": "695056cb1c508c5d5e364b37",
+              "name": "Fish79763",
+              "amount": 349,
+              "price": 87658,
+              "manufacturer": "Xiaomi",
+              "notes": "JvlgVAgFZ0HEuAA9GUCeWrPzhfwpCvsJtn25nbalZyh5KOgtDbOgwUCDctK9DkM0Wmc56Za8UJVbnod5STJlARLW5124PpdR0MnMtPrQvngOKJrKANoOcM5dSZ4yk7gEUvhdgk1JmsFZD4P9aE2kW45dTg30AGzxC12CEBKhFhtGy9MSFHrEKfXyDmRUcMDtCLc0CD7mxL08KlrKIkEuC2OavuxscQhuMclByj79q0UVBBVHrfg8YUIrX7",
+              "received": false
+            }
+          ],
+          "total_price": 87658,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Krajcikchester",
+              "street": "Walter Bypass",
+              "house": 870,
+              "flat": 2402
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T21:59:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695056c91c508c5d5e364a65",
+          "products": [
+            {
+              "_id": "695056cb1c508c5d5e364b37",
+              "name": "Fish79763",
+              "amount": 349,
+              "price": 87658,
+              "manufacturer": "Xiaomi",
+              "notes": "JvlgVAgFZ0HEuAA9GUCeWrPzhfwpCvsJtn25nbalZyh5KOgtDbOgwUCDctK9DkM0Wmc56Za8UJVbnod5STJlARLW5124PpdR0MnMtPrQvngOKJrKANoOcM5dSZ4yk7gEUvhdgk1JmsFZD4P9aE2kW45dTg30AGzxC12CEBKhFhtGy9MSFHrEKfXyDmRUcMDtCLc0CD7mxL08KlrKIkEuC2OavuxscQhuMclByj79q0UVBBVHrfg8YUIrX7",
+              "received": false
+            }
+          ],
+          "total_price": 87658,
+          "delivery": null,
+          "changedOn": "2025-12-27T21:59:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

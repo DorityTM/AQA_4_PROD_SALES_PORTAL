@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:02:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3671",
+    "etag": "W/\"e57-J636O0pwzgjkQYsK3v58uBLfm58\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695057611c508c5d5e36886b",
+      "status": "In Process",
+      "customer": {
+        "_id": "6950575d1c508c5d5e3685c9",
+        "email": "Clyde.Grady@hotmail.com",
+        "name": "Raven Kshlerin",
+        "country": "Russia",
+        "city": "North Idella",
+        "street": "Leila Mews 10",
+        "house": 406,
+        "flat": 9573,
+        "phone": "+327771989184656",
+        "createdOn": "2025-12-27T22:02:05.000Z",
+        "notes": "Da1eLtL8qipBbRpmdi1UQaG8IGs8jR"
+      },
+      "products": [
+        {
+          "_id": "6950575e1c508c5d5e368842",
+          "name": "Fish63861",
+          "amount": 145,
+          "price": 80919,
+          "manufacturer": "Apple",
+          "notes": "T5ryZxuHDseCGXV1aw7OiLCw5bzk5dBVDq2Izs9yP7QrHKatJMIYzvYgDSScIoos1QtexWFAvEq645b9poZvR5w7GoTObER2UEutTo9qbhkQkUVLlBZcGYJO6kEA1BMWlzhhfbwOP8qCbKHBykInK0bP0LRA3KWFtr4cnXOFTN2phCCoJmBe4ykcwP0fqyCtSC0tekOYwMrORhI4U6TG6CWYLaM97OdPFdErBiHmFhgVjci5Fn7woorhAL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Reingerview",
+          "street": "Jimmy Views",
+          "house": 302,
+          "flat": 8022
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80919,
+      "createdOn": "2025-12-27T22:02:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6950575d1c508c5d5e3685c9",
+          "products": [
+            {
+              "_id": "6950575e1c508c5d5e368842",
+              "name": "Fish63861",
+              "amount": 145,
+              "price": 80919,
+              "manufacturer": "Apple",
+              "notes": "T5ryZxuHDseCGXV1aw7OiLCw5bzk5dBVDq2Izs9yP7QrHKatJMIYzvYgDSScIoos1QtexWFAvEq645b9poZvR5w7GoTObER2UEutTo9qbhkQkUVLlBZcGYJO6kEA1BMWlzhhfbwOP8qCbKHBykInK0bP0LRA3KWFtr4cnXOFTN2phCCoJmBe4ykcwP0fqyCtSC0tekOYwMrORhI4U6TG6CWYLaM97OdPFdErBiHmFhgVjci5Fn7woorhAL",
+              "received": false
+            }
+          ],
+          "total_price": 80919,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Reingerview",
+              "street": "Jimmy Views",
+              "house": 302,
+              "flat": 8022
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:02:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6950575d1c508c5d5e3685c9",
+          "products": [
+            {
+              "_id": "6950575e1c508c5d5e368842",
+              "name": "Fish63861",
+              "amount": 145,
+              "price": 80919,
+              "manufacturer": "Apple",
+              "notes": "T5ryZxuHDseCGXV1aw7OiLCw5bzk5dBVDq2Izs9yP7QrHKatJMIYzvYgDSScIoos1QtexWFAvEq645b9poZvR5w7GoTObER2UEutTo9qbhkQkUVLlBZcGYJO6kEA1BMWlzhhfbwOP8qCbKHBykInK0bP0LRA3KWFtr4cnXOFTN2phCCoJmBe4ykcwP0fqyCtSC0tekOYwMrORhI4U6TG6CWYLaM97OdPFdErBiHmFhgVjci5Fn7woorhAL",
+              "received": false
+            }
+          ],
+          "total_price": 80919,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Reingerview",
+              "street": "Jimmy Views",
+              "house": 302,
+              "flat": 8022
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:02:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6950575d1c508c5d5e3685c9",
+          "products": [
+            {
+              "_id": "6950575e1c508c5d5e368842",
+              "name": "Fish63861",
+              "amount": 145,
+              "price": 80919,
+              "manufacturer": "Apple",
+              "notes": "T5ryZxuHDseCGXV1aw7OiLCw5bzk5dBVDq2Izs9yP7QrHKatJMIYzvYgDSScIoos1QtexWFAvEq645b9poZvR5w7GoTObER2UEutTo9qbhkQkUVLlBZcGYJO6kEA1BMWlzhhfbwOP8qCbKHBykInK0bP0LRA3KWFtr4cnXOFTN2phCCoJmBe4ykcwP0fqyCtSC0tekOYwMrORhI4U6TG6CWYLaM97OdPFdErBiHmFhgVjci5Fn7woorhAL",
+              "received": false
+            }
+          ],
+          "total_price": 80919,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:02:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

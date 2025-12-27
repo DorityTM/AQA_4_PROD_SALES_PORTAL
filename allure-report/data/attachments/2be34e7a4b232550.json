@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:00:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4616",
+    "etag": "W/\"1208-CFbqMT0fsD2QIM0vGecRFNZG0lo\"",
+    "keep-alive": "timeout=5, max=11",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695057021c508c5d5e36601d",
+      "status": "Received",
+      "customer": {
+        "_id": "695057001c508c5d5e365fd5",
+        "email": "Vernice57@hotmail.com",
+        "name": "Torrey Johns",
+        "country": "France",
+        "city": "Des Moines",
+        "street": "Hermiston Light 29",
+        "house": 483,
+        "flat": 6854,
+        "phone": "+402575583463982",
+        "createdOn": "2025-12-27T22:00:32.000Z",
+        "notes": "zthcX5rBs4w51MyScOcFf04Yas0iBG"
+      },
+      "products": [
+        {
+          "_id": "695057011c508c5d5e36600c",
+          "name": "Bike77763",
+          "amount": 376,
+          "price": 79539,
+          "manufacturer": "Samsung",
+          "notes": "wZx77xDwQTng3nP4EmX7DIRgTddFpmMWPu9UODCZ4Eo3aBIU2v9g9CXVCTbHAPvKUzBVX6UysDkPBgNJnj53Pv63xXAYhSli74Zk8v1gzqtaznuMhwm1wdfbV5ALQOKX3ieszVhHOI27dOZygN9dYJ3hHjXV08S6oZM2KeRvoioBpQ0fl0ojcf17hn6PAAp3LgwLKTuLJlOIKjdW3hlmKSbE9S5ppz65re19nFLCf90wEvkVxPuVPLs4ox",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "New Loriworth",
+          "street": "Parker Divide",
+          "house": 922,
+          "flat": 5870
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79539,
+      "createdOn": "2025-12-27T22:00:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695057001c508c5d5e365fd5",
+          "products": [
+            {
+              "_id": "695057011c508c5d5e36600c",
+              "name": "Bike77763",
+              "amount": 376,
+              "price": 79539,
+              "manufacturer": "Samsung",
+              "notes": "wZx77xDwQTng3nP4EmX7DIRgTddFpmMWPu9UODCZ4Eo3aBIU2v9g9CXVCTbHAPvKUzBVX6UysDkPBgNJnj53Pv63xXAYhSli74Zk8v1gzqtaznuMhwm1wdfbV5ALQOKX3ieszVhHOI27dOZygN9dYJ3hHjXV08S6oZM2KeRvoioBpQ0fl0ojcf17hn6PAAp3LgwLKTuLJlOIKjdW3hlmKSbE9S5ppz65re19nFLCf90wEvkVxPuVPLs4ox",
+              "received": true
+            }
+          ],
+          "total_price": 79539,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "New Loriworth",
+              "street": "Parker Divide",
+              "house": 922,
+              "flat": 5870
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:00:35.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695057001c508c5d5e365fd5",
+          "products": [
+            {
+              "_id": "695057011c508c5d5e36600c",
+              "name": "Bike77763",
+              "amount": 376,
+              "price": 79539,
+              "manufacturer": "Samsung",
+              "notes": "wZx77xDwQTng3nP4EmX7DIRgTddFpmMWPu9UODCZ4Eo3aBIU2v9g9CXVCTbHAPvKUzBVX6UysDkPBgNJnj53Pv63xXAYhSli74Zk8v1gzqtaznuMhwm1wdfbV5ALQOKX3ieszVhHOI27dOZygN9dYJ3hHjXV08S6oZM2KeRvoioBpQ0fl0ojcf17hn6PAAp3LgwLKTuLJlOIKjdW3hlmKSbE9S5ppz65re19nFLCf90wEvkVxPuVPLs4ox",
+              "received": false
+            }
+          ],
+          "total_price": 79539,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "New Loriworth",
+              "street": "Parker Divide",
+              "house": 922,
+              "flat": 5870
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:00:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695057001c508c5d5e365fd5",
+          "products": [
+            {
+              "_id": "695057011c508c5d5e36600c",
+              "name": "Bike77763",
+              "amount": 376,
+              "price": 79539,
+              "manufacturer": "Samsung",
+              "notes": "wZx77xDwQTng3nP4EmX7DIRgTddFpmMWPu9UODCZ4Eo3aBIU2v9g9CXVCTbHAPvKUzBVX6UysDkPBgNJnj53Pv63xXAYhSli74Zk8v1gzqtaznuMhwm1wdfbV5ALQOKX3ieszVhHOI27dOZygN9dYJ3hHjXV08S6oZM2KeRvoioBpQ0fl0ojcf17hn6PAAp3LgwLKTuLJlOIKjdW3hlmKSbE9S5ppz65re19nFLCf90wEvkVxPuVPLs4ox",
+              "received": false
+            }
+          ],
+          "total_price": 79539,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "New Loriworth",
+              "street": "Parker Divide",
+              "house": 922,
+              "flat": 5870
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:00:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695057001c508c5d5e365fd5",
+          "products": [
+            {
+              "_id": "695057011c508c5d5e36600c",
+              "name": "Bike77763",
+              "amount": 376,
+              "price": 79539,
+              "manufacturer": "Samsung",
+              "notes": "wZx77xDwQTng3nP4EmX7DIRgTddFpmMWPu9UODCZ4Eo3aBIU2v9g9CXVCTbHAPvKUzBVX6UysDkPBgNJnj53Pv63xXAYhSli74Zk8v1gzqtaznuMhwm1wdfbV5ALQOKX3ieszVhHOI27dOZygN9dYJ3hHjXV08S6oZM2KeRvoioBpQ0fl0ojcf17hn6PAAp3LgwLKTuLJlOIKjdW3hlmKSbE9S5ppz65re19nFLCf90wEvkVxPuVPLs4ox",
+              "received": false
+            }
+          ],
+          "total_price": 79539,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:00:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

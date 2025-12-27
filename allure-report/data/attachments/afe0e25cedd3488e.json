@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:00:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-V++D0dWywCTTqfb/tZe0gkM/Us4\"",
+    "keep-alive": "timeout=5, max=24",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695056e31c508c5d5e3654de",
+      "status": "In Process",
+      "customer": {
+        "_id": "695056e11c508c5d5e3653ea",
+        "email": "Jody_Nader26@gmail.com",
+        "name": "Maynard Considine",
+        "country": "Canada",
+        "city": "Port Dedric",
+        "street": "Mann Manors 80",
+        "house": 251,
+        "flat": 7452,
+        "phone": "+761917226306126",
+        "createdOn": "2025-12-27T22:00:01.000Z",
+        "notes": "s4xlIrabQtxyXpBTYLgoVaYK9GcolW"
+      },
+      "products": [
+        {
+          "_id": "695056e31c508c5d5e36546f",
+          "name": "Tuna6993",
+          "amount": 726,
+          "price": 21372,
+          "manufacturer": "Apple",
+          "notes": "gZ7xNikmQc88EFJxaZaNDyYgP9zp5OutdI2KSHIm1kMIPUCcwiByAjxDsFx8w2D9tzd8wcrFlhxcyDDcIJ9cNOqWcallaO85mtSu3SNOYrAHuwOkNS0faYQJ1w63O4hJcqcGoYnRv1INZc195AVWpfYfXgeplbq4axlzYlnlpCUnaBOnENGNlUYA6zqSVkRz2vHFswebDvcVtrEp5Yn5DhY3ED13d82z3cN7AC19j8eD5TQJzIpPsRUZyj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "South Margaret",
+          "street": "Destany Shores",
+          "house": 244,
+          "flat": 5628
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 21372,
+      "createdOn": "2025-12-27T22:00:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695056e11c508c5d5e3653ea",
+          "products": [
+            {
+              "_id": "695056e31c508c5d5e36546f",
+              "name": "Tuna6993",
+              "amount": 726,
+              "price": 21372,
+              "manufacturer": "Apple",
+              "notes": "gZ7xNikmQc88EFJxaZaNDyYgP9zp5OutdI2KSHIm1kMIPUCcwiByAjxDsFx8w2D9tzd8wcrFlhxcyDDcIJ9cNOqWcallaO85mtSu3SNOYrAHuwOkNS0faYQJ1w63O4hJcqcGoYnRv1INZc195AVWpfYfXgeplbq4axlzYlnlpCUnaBOnENGNlUYA6zqSVkRz2vHFswebDvcVtrEp5Yn5DhY3ED13d82z3cN7AC19j8eD5TQJzIpPsRUZyj",
+              "received": false
+            }
+          ],
+          "total_price": 21372,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "South Margaret",
+              "street": "Destany Shores",
+              "house": 244,
+              "flat": 5628
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:00:05.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695056e11c508c5d5e3653ea",
+          "products": [
+            {
+              "_id": "695056e31c508c5d5e36546f",
+              "name": "Tuna6993",
+              "amount": 726,
+              "price": 21372,
+              "manufacturer": "Apple",
+              "notes": "gZ7xNikmQc88EFJxaZaNDyYgP9zp5OutdI2KSHIm1kMIPUCcwiByAjxDsFx8w2D9tzd8wcrFlhxcyDDcIJ9cNOqWcallaO85mtSu3SNOYrAHuwOkNS0faYQJ1w63O4hJcqcGoYnRv1INZc195AVWpfYfXgeplbq4axlzYlnlpCUnaBOnENGNlUYA6zqSVkRz2vHFswebDvcVtrEp5Yn5DhY3ED13d82z3cN7AC19j8eD5TQJzIpPsRUZyj",
+              "received": false
+            }
+          ],
+          "total_price": 21372,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "South Margaret",
+              "street": "Destany Shores",
+              "house": 244,
+              "flat": 5628
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:00:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695056e11c508c5d5e3653ea",
+          "products": [
+            {
+              "_id": "695056e31c508c5d5e36546f",
+              "name": "Tuna6993",
+              "amount": 726,
+              "price": 21372,
+              "manufacturer": "Apple",
+              "notes": "gZ7xNikmQc88EFJxaZaNDyYgP9zp5OutdI2KSHIm1kMIPUCcwiByAjxDsFx8w2D9tzd8wcrFlhxcyDDcIJ9cNOqWcallaO85mtSu3SNOYrAHuwOkNS0faYQJ1w63O4hJcqcGoYnRv1INZc195AVWpfYfXgeplbq4axlzYlnlpCUnaBOnENGNlUYA6zqSVkRz2vHFswebDvcVtrEp5Yn5DhY3ED13d82z3cN7AC19j8eD5TQJzIpPsRUZyj",
+              "received": false
+            }
+          ],
+          "total_price": 21372,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:00:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

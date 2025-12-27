@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:01:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4614",
+    "etag": "W/\"1206-/9+VS8j4qM2luRlG3hiMmiFy0MI\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695057491c508c5d5e367c4f",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695057481c508c5d5e367c11",
+        "email": "Danial_Bins@gmail.com",
+        "name": "Jaren Abbott",
+        "country": "Ukraine",
+        "city": "Lake Hilma",
+        "street": "Emerald Knolls 27",
+        "house": 882,
+        "flat": 1578,
+        "phone": "+108031442470881",
+        "createdOn": "2025-12-27T22:01:44.000Z",
+        "notes": "bIsVwQuitT5GucWzNyNl40hGaEVobs"
+      },
+      "products": [
+        {
+          "_id": "695057491c508c5d5e367c3b",
+          "name": "Salad73293",
+          "amount": 367,
+          "price": 33989,
+          "manufacturer": "Microsoft",
+          "notes": "yVnvNBkAl5bzCXon56cDFSSOTfgDneploYF8EhFC9aLCyV9a3xRaP06J2sYODXPPKMSAaSVsbMVaiJN4hPOc1HgiflVancSEfcJy2gSYwwhhBERLf504Oga5xFfnRrluJPoedJSc1MJnr76OwqosWlYIBHbdHKEx2HAVf1Y7trFnGwFtg1PqD8R1RlTRfpxZWOtDDn0maDePiqnOyJVJaRP2duE7g28HaQJrcyTxtzflljwNf5qzr3Vnv8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Littelchester",
+          "street": "Sasha Motorway",
+          "house": 424,
+          "flat": 9113
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33989,
+      "createdOn": "2025-12-27T22:01:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695057481c508c5d5e367c11",
+          "products": [
+            {
+              "_id": "695057491c508c5d5e367c3b",
+              "name": "Salad73293",
+              "amount": 367,
+              "price": 33989,
+              "manufacturer": "Microsoft",
+              "notes": "yVnvNBkAl5bzCXon56cDFSSOTfgDneploYF8EhFC9aLCyV9a3xRaP06J2sYODXPPKMSAaSVsbMVaiJN4hPOc1HgiflVancSEfcJy2gSYwwhhBERLf504Oga5xFfnRrluJPoedJSc1MJnr76OwqosWlYIBHbdHKEx2HAVf1Y7trFnGwFtg1PqD8R1RlTRfpxZWOtDDn0maDePiqnOyJVJaRP2duE7g28HaQJrcyTxtzflljwNf5qzr3Vnv8",
+              "received": false
+            }
+          ],
+          "total_price": 33989,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Littelchester",
+              "street": "Sasha Motorway",
+              "house": 424,
+              "flat": 9113
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:01:47.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695057481c508c5d5e367c11",
+          "products": [
+            {
+              "_id": "695057491c508c5d5e367c3b",
+              "name": "Salad73293",
+              "amount": 367,
+              "price": 33989,
+              "manufacturer": "Microsoft",
+              "notes": "yVnvNBkAl5bzCXon56cDFSSOTfgDneploYF8EhFC9aLCyV9a3xRaP06J2sYODXPPKMSAaSVsbMVaiJN4hPOc1HgiflVancSEfcJy2gSYwwhhBERLf504Oga5xFfnRrluJPoedJSc1MJnr76OwqosWlYIBHbdHKEx2HAVf1Y7trFnGwFtg1PqD8R1RlTRfpxZWOtDDn0maDePiqnOyJVJaRP2duE7g28HaQJrcyTxtzflljwNf5qzr3Vnv8",
+              "received": false
+            }
+          ],
+          "total_price": 33989,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Littelchester",
+              "street": "Sasha Motorway",
+              "house": 424,
+              "flat": 9113
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:01:46.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695057481c508c5d5e367c11",
+          "products": [
+            {
+              "_id": "695057491c508c5d5e367c3b",
+              "name": "Salad73293",
+              "amount": 367,
+              "price": 33989,
+              "manufacturer": "Microsoft",
+              "notes": "yVnvNBkAl5bzCXon56cDFSSOTfgDneploYF8EhFC9aLCyV9a3xRaP06J2sYODXPPKMSAaSVsbMVaiJN4hPOc1HgiflVancSEfcJy2gSYwwhhBERLf504Oga5xFfnRrluJPoedJSc1MJnr76OwqosWlYIBHbdHKEx2HAVf1Y7trFnGwFtg1PqD8R1RlTRfpxZWOtDDn0maDePiqnOyJVJaRP2duE7g28HaQJrcyTxtzflljwNf5qzr3Vnv8",
+              "received": false
+            }
+          ],
+          "total_price": 33989,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Littelchester",
+              "street": "Sasha Motorway",
+              "house": 424,
+              "flat": 9113
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:01:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695057481c508c5d5e367c11",
+          "products": [
+            {
+              "_id": "695057491c508c5d5e367c3b",
+              "name": "Salad73293",
+              "amount": 367,
+              "price": 33989,
+              "manufacturer": "Microsoft",
+              "notes": "yVnvNBkAl5bzCXon56cDFSSOTfgDneploYF8EhFC9aLCyV9a3xRaP06J2sYODXPPKMSAaSVsbMVaiJN4hPOc1HgiflVancSEfcJy2gSYwwhhBERLf504Oga5xFfnRrluJPoedJSc1MJnr76OwqosWlYIBHbdHKEx2HAVf1Y7trFnGwFtg1PqD8R1RlTRfpxZWOtDDn0maDePiqnOyJVJaRP2duE7g28HaQJrcyTxtzflljwNf5qzr3Vnv8",
+              "received": false
+            }
+          ],
+          "total_price": 33989,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:01:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

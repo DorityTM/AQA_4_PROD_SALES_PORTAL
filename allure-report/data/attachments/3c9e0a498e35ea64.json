@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 22:00:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2743",
+    "etag": "W/\"ab7-cbJHRr4fbWbwe1F6/OlTKYhFU3w\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695057181c508c5d5e366970",
+      "status": "Draft",
+      "customer": {
+        "_id": "695057161c508c5d5e36693d",
+        "email": "Patience_Haley@hotmail.com",
+        "name": "Grady Gerhold",
+        "country": "Ukraine",
+        "city": "Buffalo Grove",
+        "street": "Ferry Road 58",
+        "house": 24,
+        "flat": 5830,
+        "phone": "+978308776248155",
+        "createdOn": "2025-12-27T22:00:54.000Z",
+        "notes": "6NnKJUEHr2cIEqD9BHsCv5ONa6Zc6y"
+      },
+      "products": [
+        {
+          "_id": "695057171c508c5d5e366968",
+          "name": "Bacon7672",
+          "amount": 906,
+          "price": 88774,
+          "manufacturer": "Google",
+          "notes": "2xcEPDy21ZmdNgqAXdDSc3YisAGFMATjwQOjCCDcWj7NpRtOi9DiuTAh9YlcAhreIEgNtfNeiU8K6JOpQO5HszhFIwxaB3Ntum0vO9Z7RKbLW74frHoUmLGhF5AsPhAl38JPzYr0bmVzyh00LycYXPm7ckFmOlceUBkjujm50gss6LT4EGRBC6f9CdXmdnAjWcKG6nyoYZCGlhHpMxDQf6fFLE66RbQ3XT3J68OIikTdhUNohQ7IU3AA6T",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Jeromeboro",
+          "street": "Sauer Loop",
+          "house": 199,
+          "flat": 3523
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88774,
+      "createdOn": "2025-12-27T22:00:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695057161c508c5d5e36693d",
+          "products": [
+            {
+              "_id": "695057171c508c5d5e366968",
+              "name": "Bacon7672",
+              "amount": 906,
+              "price": 88774,
+              "manufacturer": "Google",
+              "notes": "2xcEPDy21ZmdNgqAXdDSc3YisAGFMATjwQOjCCDcWj7NpRtOi9DiuTAh9YlcAhreIEgNtfNeiU8K6JOpQO5HszhFIwxaB3Ntum0vO9Z7RKbLW74frHoUmLGhF5AsPhAl38JPzYr0bmVzyh00LycYXPm7ckFmOlceUBkjujm50gss6LT4EGRBC6f9CdXmdnAjWcKG6nyoYZCGlhHpMxDQf6fFLE66RbQ3XT3J68OIikTdhUNohQ7IU3AA6T",
+              "received": false
+            }
+          ],
+          "total_price": 88774,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Jeromeboro",
+              "street": "Sauer Loop",
+              "house": 199,
+              "flat": 3523
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T22:00:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695057161c508c5d5e36693d",
+          "products": [
+            {
+              "_id": "695057171c508c5d5e366968",
+              "name": "Bacon7672",
+              "amount": 906,
+              "price": 88774,
+              "manufacturer": "Google",
+              "notes": "2xcEPDy21ZmdNgqAXdDSc3YisAGFMATjwQOjCCDcWj7NpRtOi9DiuTAh9YlcAhreIEgNtfNeiU8K6JOpQO5HszhFIwxaB3Ntum0vO9Z7RKbLW74frHoUmLGhF5AsPhAl38JPzYr0bmVzyh00LycYXPm7ckFmOlceUBkjujm50gss6LT4EGRBC6f9CdXmdnAjWcKG6nyoYZCGlhHpMxDQf6fFLE66RbQ3XT3J68OIikTdhUNohQ7IU3AA6T",
+              "received": false
+            }
+          ],
+          "total_price": 88774,
+          "delivery": null,
+          "changedOn": "2025-12-27T22:00:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
