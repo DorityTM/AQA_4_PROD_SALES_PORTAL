@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 11:30:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2752",
+    "etag": "W/\"ac0-VsttqeJ1NqKSNxfXdNROLXLvyJk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fc3691c508c5d5e346454",
+      "status": "Draft",
+      "customer": {
+        "_id": "694fc3691c508c5d5e346407",
+        "email": "Dudley_Haag@yahoo.com",
+        "name": "Name Wiegand",
+        "country": "Germany",
+        "city": "Knoxville",
+        "street": "N Maple Street 84",
+        "house": 219,
+        "flat": 1923,
+        "phone": "+288067717922684",
+        "createdOn": "2025-12-27T11:30:49.000Z",
+        "notes": "XpaEFaBWfhqofgUz0O7MSyczHqDjmO"
+      },
+      "products": [
+        {
+          "_id": "694fc3691c508c5d5e34642e",
+          "name": "Mouse96595",
+          "amount": 437,
+          "price": 91846,
+          "manufacturer": "Samsung",
+          "notes": "bXsKzLsPdaUXKScPbu6cftAJZkf1H4aXilvvE4x1YGPvae2vRzClSelJawQbvdMM0VHufIa2Z2F1mTsc0jNi79NBygCjv5XBMncE2gGr3afCqHzLblzYS0LR5JFUlliBrOXFAmifCEPaG5wxq0lkn6EMcw3WifwZc3STPog9DRxhqMXg6kvfjhcbGFjLiPq6OgtsueneIILlUJVd3ZN2kzTZTMbL12bMJWToC7Vmmg4FpMspuuyftMtFPn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "New Daphnee",
+          "street": "Dietrich Pine",
+          "house": 530,
+          "flat": 1118
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 91846,
+      "createdOn": "2025-12-27T11:30:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694fc3691c508c5d5e346407",
+          "products": [
+            {
+              "_id": "694fc3691c508c5d5e34642e",
+              "name": "Mouse96595",
+              "amount": 437,
+              "price": 91846,
+              "manufacturer": "Samsung",
+              "notes": "bXsKzLsPdaUXKScPbu6cftAJZkf1H4aXilvvE4x1YGPvae2vRzClSelJawQbvdMM0VHufIa2Z2F1mTsc0jNi79NBygCjv5XBMncE2gGr3afCqHzLblzYS0LR5JFUlliBrOXFAmifCEPaG5wxq0lkn6EMcw3WifwZc3STPog9DRxhqMXg6kvfjhcbGFjLiPq6OgtsueneIILlUJVd3ZN2kzTZTMbL12bMJWToC7Vmmg4FpMspuuyftMtFPn",
+              "received": false
+            }
+          ],
+          "total_price": 91846,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "New Daphnee",
+              "street": "Dietrich Pine",
+              "house": 530,
+              "flat": 1118
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:30:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fc3691c508c5d5e346407",
+          "products": [
+            {
+              "_id": "694fc3691c508c5d5e34642e",
+              "name": "Mouse96595",
+              "amount": 437,
+              "price": 91846,
+              "manufacturer": "Samsung",
+              "notes": "bXsKzLsPdaUXKScPbu6cftAJZkf1H4aXilvvE4x1YGPvae2vRzClSelJawQbvdMM0VHufIa2Z2F1mTsc0jNi79NBygCjv5XBMncE2gGr3afCqHzLblzYS0LR5JFUlliBrOXFAmifCEPaG5wxq0lkn6EMcw3WifwZc3STPog9DRxhqMXg6kvfjhcbGFjLiPq6OgtsueneIILlUJVd3ZN2kzTZTMbL12bMJWToC7Vmmg4FpMspuuyftMtFPn",
+              "received": false
+            }
+          ],
+          "total_price": 91846,
+          "delivery": null,
+          "changedOn": "2025-12-27T11:30:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 11:28:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2755",
+    "etag": "W/\"ac3-ETZVli9CLG6Z2/Ku3HEAlxxvBFA\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fc2f61c508c5d5e3439bb",
+      "status": "Draft",
+      "customer": {
+        "_id": "694fc2f51c508c5d5e343979",
+        "email": "Bridget.Corwin30@gmail.com",
+        "name": "Tyra Gibson",
+        "country": "France",
+        "city": "New Weldonport",
+        "street": "Roberto Extension 91",
+        "house": 734,
+        "flat": 1118,
+        "phone": "+003853941606088",
+        "createdOn": "2025-12-27T11:28:53.000Z",
+        "notes": "dzFlOUxU2yZbyhg4tiB1Uc8CvVZjGc"
+      },
+      "products": [
+        {
+          "_id": "694fc2f61c508c5d5e34399a",
+          "name": "Bike89722",
+          "amount": 908,
+          "price": 28384,
+          "manufacturer": "Google",
+          "notes": "LI1j203VtkvrlfMIIl6hryMSqHGhHBxGvYxQrFYaMFucpfgMdD4tMr0Wlc94yFLQMjPRYPTbe8J7cNkYrnxbcH7vH2FoNU9wbG64XYaPKVvDRpu1HObKmMj0o6ApGryStI748S9bNIZ4tGJ5Y58iBw6lmlYwiNvLmIHuvRZyZ2icILga255i00KeNiw8RjtYA1974dU7tucafJJ0lK00aZjNnUvFNTulbYsPzi1y3bLAOLnW29AJZGlIgx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Aurelietown",
+          "street": "Walnut Close",
+          "house": 617,
+          "flat": 3606
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 28384,
+      "createdOn": "2025-12-27T11:28:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "694fc2f51c508c5d5e343979",
+          "products": [
+            {
+              "_id": "694fc2f61c508c5d5e34399a",
+              "name": "Bike89722",
+              "amount": 908,
+              "price": 28384,
+              "manufacturer": "Google",
+              "notes": "LI1j203VtkvrlfMIIl6hryMSqHGhHBxGvYxQrFYaMFucpfgMdD4tMr0Wlc94yFLQMjPRYPTbe8J7cNkYrnxbcH7vH2FoNU9wbG64XYaPKVvDRpu1HObKmMj0o6ApGryStI748S9bNIZ4tGJ5Y58iBw6lmlYwiNvLmIHuvRZyZ2icILga255i00KeNiw8RjtYA1974dU7tucafJJ0lK00aZjNnUvFNTulbYsPzi1y3bLAOLnW29AJZGlIgx",
+              "received": false
+            }
+          ],
+          "total_price": 28384,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Aurelietown",
+              "street": "Walnut Close",
+              "house": 617,
+              "flat": 3606
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:28:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fc2f51c508c5d5e343979",
+          "products": [
+            {
+              "_id": "694fc2f61c508c5d5e34399a",
+              "name": "Bike89722",
+              "amount": 908,
+              "price": 28384,
+              "manufacturer": "Google",
+              "notes": "LI1j203VtkvrlfMIIl6hryMSqHGhHBxGvYxQrFYaMFucpfgMdD4tMr0Wlc94yFLQMjPRYPTbe8J7cNkYrnxbcH7vH2FoNU9wbG64XYaPKVvDRpu1HObKmMj0o6ApGryStI748S9bNIZ4tGJ5Y58iBw6lmlYwiNvLmIHuvRZyZ2icILga255i00KeNiw8RjtYA1974dU7tucafJJ0lK00aZjNnUvFNTulbYsPzi1y3bLAOLnW29AJZGlIgx",
+              "received": false
+            }
+          ],
+          "total_price": 28384,
+          "delivery": null,
+          "changedOn": "2025-12-27T11:28:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

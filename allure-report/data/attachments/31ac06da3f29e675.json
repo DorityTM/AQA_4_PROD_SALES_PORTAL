@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 11:28:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3736",
+    "etag": "W/\"e98-yv6XzBPZ2nTu2NQ3TTQgYov6Az0\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fc2f31c508c5d5e34387b",
+      "status": "In Process",
+      "customer": {
+        "_id": "694fc2f31c508c5d5e343840",
+        "email": "Ramiro23@hotmail.com",
+        "name": "Tobin Prosacco",
+        "country": "Great Britain",
+        "city": "Lake Alverachester",
+        "street": "W Broadway Avenue 95",
+        "house": 616,
+        "flat": 7592,
+        "phone": "+626106963887242",
+        "createdOn": "2025-12-27T11:28:51.000Z",
+        "notes": "GAuNbjHYgWxzs5hsreX3AnRTOeq5cE"
+      },
+      "products": [
+        {
+          "_id": "694fc2f31c508c5d5e343859",
+          "name": "Towels43372",
+          "amount": 817,
+          "price": 28859,
+          "manufacturer": "Microsoft",
+          "notes": "8qKlDCUtWRNys32515802xertOPQlDqaVoyJLCHnerCcs5k1O1xRBMaoM6cuucumCxj2GhTmnd5PrJJZIJocadeMGIsiFj9WjlcvGyKBB03DYil2WJP9kuEMQPh8f52T1hhQup7hcfMF9nX3yNtwWzxNGLQpMbgyFZ096bZMjmb06VopQNn5pnvI2Hm22DhRvj4xAmKTpP8kr9LgPOqy9oEURvRyUYaTHmo3gC5pFl92eAzaSwXK7qjCZS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "North Elverabury",
+          "street": "Rolfson Wells",
+          "house": 736,
+          "flat": 4164
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 28859,
+      "createdOn": "2025-12-27T11:28:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694fc2f31c508c5d5e343840",
+          "products": [
+            {
+              "_id": "694fc2f31c508c5d5e343859",
+              "name": "Towels43372",
+              "amount": 817,
+              "price": 28859,
+              "manufacturer": "Microsoft",
+              "notes": "8qKlDCUtWRNys32515802xertOPQlDqaVoyJLCHnerCcs5k1O1xRBMaoM6cuucumCxj2GhTmnd5PrJJZIJocadeMGIsiFj9WjlcvGyKBB03DYil2WJP9kuEMQPh8f52T1hhQup7hcfMF9nX3yNtwWzxNGLQpMbgyFZ096bZMjmb06VopQNn5pnvI2Hm22DhRvj4xAmKTpP8kr9LgPOqy9oEURvRyUYaTHmo3gC5pFl92eAzaSwXK7qjCZS",
+              "received": false
+            }
+          ],
+          "total_price": 28859,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "North Elverabury",
+              "street": "Rolfson Wells",
+              "house": 736,
+              "flat": 4164
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:28:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fc2f31c508c5d5e343840",
+          "products": [
+            {
+              "_id": "694fc2f31c508c5d5e343859",
+              "name": "Towels43372",
+              "amount": 817,
+              "price": 28859,
+              "manufacturer": "Microsoft",
+              "notes": "8qKlDCUtWRNys32515802xertOPQlDqaVoyJLCHnerCcs5k1O1xRBMaoM6cuucumCxj2GhTmnd5PrJJZIJocadeMGIsiFj9WjlcvGyKBB03DYil2WJP9kuEMQPh8f52T1hhQup7hcfMF9nX3yNtwWzxNGLQpMbgyFZ096bZMjmb06VopQNn5pnvI2Hm22DhRvj4xAmKTpP8kr9LgPOqy9oEURvRyUYaTHmo3gC5pFl92eAzaSwXK7qjCZS",
+              "received": false
+            }
+          ],
+          "total_price": 28859,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "North Elverabury",
+              "street": "Rolfson Wells",
+              "house": 736,
+              "flat": 4164
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:28:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fc2f31c508c5d5e343840",
+          "products": [
+            {
+              "_id": "694fc2f31c508c5d5e343859",
+              "name": "Towels43372",
+              "amount": 817,
+              "price": 28859,
+              "manufacturer": "Microsoft",
+              "notes": "8qKlDCUtWRNys32515802xertOPQlDqaVoyJLCHnerCcs5k1O1xRBMaoM6cuucumCxj2GhTmnd5PrJJZIJocadeMGIsiFj9WjlcvGyKBB03DYil2WJP9kuEMQPh8f52T1hhQup7hcfMF9nX3yNtwWzxNGLQpMbgyFZ096bZMjmb06VopQNn5pnvI2Hm22DhRvj4xAmKTpP8kr9LgPOqy9oEURvRyUYaTHmo3gC5pFl92eAzaSwXK7qjCZS",
+              "received": false
+            }
+          ],
+          "total_price": 28859,
+          "delivery": null,
+          "changedOn": "2025-12-27T11:28:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

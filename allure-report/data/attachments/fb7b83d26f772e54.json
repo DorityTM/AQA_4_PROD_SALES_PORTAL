@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 11:28:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3663",
+    "etag": "W/\"e4f-UZg1wesz88zdYWHCXfDUTNUnbw4\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fc2f51c508c5d5e343922",
+      "status": "In Process",
+      "customer": {
+        "_id": "694fc2f41c508c5d5e3438dc",
+        "email": "Amie.Stokes@gmail.com",
+        "name": "Cory Effertz",
+        "country": "France",
+        "city": "Cristbury",
+        "street": "Hill Road 59",
+        "house": 480,
+        "flat": 2214,
+        "phone": "+726030492691692",
+        "createdOn": "2025-12-27T11:28:52.000Z",
+        "notes": "NneDRryQh6CwPrMXVgIOYncAP3vwru"
+      },
+      "products": [
+        {
+          "_id": "694fc2f51c508c5d5e343910",
+          "name": "Bike97028",
+          "amount": 226,
+          "price": 221,
+          "manufacturer": "Amazon",
+          "notes": "gpRVoxtw9MjppG0irKye4UwlQ5y8g7TtVHLYu7wAZKCDhCoYDbEsIWSPUSQhE1dwqKueE1mWi9ypa0PWLoc9XGOsoKRabV5Y3ZWajypB3rfFnSEQl9QqGrSHhImdAU3C6OuczU0ydSGukuBPo9CWisQzBzkC9aTzx3h8h3r51KDlzbxwXekFzrkDSlTGOE5C2xjX7vp7LWbwvPEoTqiacq5LWB35T5rraQ038FP1qRondh5ctieo6Ufcf9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Milestown",
+          "street": "Lucas Keys",
+          "house": 734,
+          "flat": 7957
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 221,
+      "createdOn": "2025-12-27T11:28:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "694fc2f41c508c5d5e3438dc",
+          "products": [
+            {
+              "_id": "694fc2f51c508c5d5e343910",
+              "name": "Bike97028",
+              "amount": 226,
+              "price": 221,
+              "manufacturer": "Amazon",
+              "notes": "gpRVoxtw9MjppG0irKye4UwlQ5y8g7TtVHLYu7wAZKCDhCoYDbEsIWSPUSQhE1dwqKueE1mWi9ypa0PWLoc9XGOsoKRabV5Y3ZWajypB3rfFnSEQl9QqGrSHhImdAU3C6OuczU0ydSGukuBPo9CWisQzBzkC9aTzx3h8h3r51KDlzbxwXekFzrkDSlTGOE5C2xjX7vp7LWbwvPEoTqiacq5LWB35T5rraQ038FP1qRondh5ctieo6Ufcf9",
+              "received": false
+            }
+          ],
+          "total_price": 221,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Milestown",
+              "street": "Lucas Keys",
+              "house": 734,
+              "flat": 7957
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:28:54.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fc2f41c508c5d5e3438dc",
+          "products": [
+            {
+              "_id": "694fc2f51c508c5d5e343910",
+              "name": "Bike97028",
+              "amount": 226,
+              "price": 221,
+              "manufacturer": "Amazon",
+              "notes": "gpRVoxtw9MjppG0irKye4UwlQ5y8g7TtVHLYu7wAZKCDhCoYDbEsIWSPUSQhE1dwqKueE1mWi9ypa0PWLoc9XGOsoKRabV5Y3ZWajypB3rfFnSEQl9QqGrSHhImdAU3C6OuczU0ydSGukuBPo9CWisQzBzkC9aTzx3h8h3r51KDlzbxwXekFzrkDSlTGOE5C2xjX7vp7LWbwvPEoTqiacq5LWB35T5rraQ038FP1qRondh5ctieo6Ufcf9",
+              "received": false
+            }
+          ],
+          "total_price": 221,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Milestown",
+              "street": "Lucas Keys",
+              "house": 734,
+              "flat": 7957
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:28:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fc2f41c508c5d5e3438dc",
+          "products": [
+            {
+              "_id": "694fc2f51c508c5d5e343910",
+              "name": "Bike97028",
+              "amount": 226,
+              "price": 221,
+              "manufacturer": "Amazon",
+              "notes": "gpRVoxtw9MjppG0irKye4UwlQ5y8g7TtVHLYu7wAZKCDhCoYDbEsIWSPUSQhE1dwqKueE1mWi9ypa0PWLoc9XGOsoKRabV5Y3ZWajypB3rfFnSEQl9QqGrSHhImdAU3C6OuczU0ydSGukuBPo9CWisQzBzkC9aTzx3h8h3r51KDlzbxwXekFzrkDSlTGOE5C2xjX7vp7LWbwvPEoTqiacq5LWB35T5rraQ038FP1qRondh5ctieo6Ufcf9",
+              "received": false
+            }
+          ],
+          "total_price": 221,
+          "delivery": null,
+          "changedOn": "2025-12-27T11:28:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

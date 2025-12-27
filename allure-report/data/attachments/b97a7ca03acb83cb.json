@@ -1,0 +1,212 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 11:28:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4655",
+    "etag": "W/\"122f-hXAdtD+eGB2t6A3MMqmtIJoAs2E\"",
+    "connection": "close"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fc2db1c508c5d5e342d2b",
+      "status": "Received",
+      "customer": {
+        "_id": "694fc2db1c508c5d5e342d02",
+        "email": "Delbert.DuBuque@hotmail.com",
+        "name": "Lea Wiza",
+        "country": "Great Britain",
+        "city": "South Andrew",
+        "street": "Cherry Close 91",
+        "house": 931,
+        "flat": 1964,
+        "phone": "+800709345812801",
+        "createdOn": "2025-12-27T11:28:27.000Z",
+        "notes": "8qLvhoXI2rNgvJj6Tbl0wOMsxHmQGi"
+      },
+      "products": [
+        {
+          "_id": "694fc2db1c508c5d5e342d19",
+          "name": "Sausages21373",
+          "amount": 485,
+          "price": 50643,
+          "manufacturer": "Amazon",
+          "notes": "4dSWfvApvsiHwQ7dRLIXD2fe7B6d2MQWKWgjhMTAbItYGF9T3qCrE58p2YUbzQRq9V75mS861xWeXUG4gt9LbjyubZzZOmPjCw3gNrOb6Ah7Hmmw5YeemZbho1v3jxI6GCubvayOkhaddvq19j7BnKJY8Cj6eFGRxHRlS7VOB4foTydqmf9tnsxSvqhK09GtdNG9bJdl5z6gFX42F67E7TBZqAehls0TqSQywThvxuHWTzT9q6bROEgWp0",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Lupeboro",
+          "street": "Wintheiser Rapids",
+          "house": 518,
+          "flat": 5943
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 50643,
+      "createdOn": "2025-12-27T11:28:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "694fc2db1c508c5d5e342d02",
+          "products": [
+            {
+              "_id": "694fc2db1c508c5d5e342d19",
+              "name": "Sausages21373",
+              "amount": 485,
+              "price": 50643,
+              "manufacturer": "Amazon",
+              "notes": "4dSWfvApvsiHwQ7dRLIXD2fe7B6d2MQWKWgjhMTAbItYGF9T3qCrE58p2YUbzQRq9V75mS861xWeXUG4gt9LbjyubZzZOmPjCw3gNrOb6Ah7Hmmw5YeemZbho1v3jxI6GCubvayOkhaddvq19j7BnKJY8Cj6eFGRxHRlS7VOB4foTydqmf9tnsxSvqhK09GtdNG9bJdl5z6gFX42F67E7TBZqAehls0TqSQywThvxuHWTzT9q6bROEgWp0",
+              "received": true
+            }
+          ],
+          "total_price": 50643,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Lupeboro",
+              "street": "Wintheiser Rapids",
+              "house": 518,
+              "flat": 5943
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:28:28.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "694fc2db1c508c5d5e342d02",
+          "products": [
+            {
+              "_id": "694fc2db1c508c5d5e342d19",
+              "name": "Sausages21373",
+              "amount": 485,
+              "price": 50643,
+              "manufacturer": "Amazon",
+              "notes": "4dSWfvApvsiHwQ7dRLIXD2fe7B6d2MQWKWgjhMTAbItYGF9T3qCrE58p2YUbzQRq9V75mS861xWeXUG4gt9LbjyubZzZOmPjCw3gNrOb6Ah7Hmmw5YeemZbho1v3jxI6GCubvayOkhaddvq19j7BnKJY8Cj6eFGRxHRlS7VOB4foTydqmf9tnsxSvqhK09GtdNG9bJdl5z6gFX42F67E7TBZqAehls0TqSQywThvxuHWTzT9q6bROEgWp0",
+              "received": false
+            }
+          ],
+          "total_price": 50643,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Lupeboro",
+              "street": "Wintheiser Rapids",
+              "house": 518,
+              "flat": 5943
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:28:28.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fc2db1c508c5d5e342d02",
+          "products": [
+            {
+              "_id": "694fc2db1c508c5d5e342d19",
+              "name": "Sausages21373",
+              "amount": 485,
+              "price": 50643,
+              "manufacturer": "Amazon",
+              "notes": "4dSWfvApvsiHwQ7dRLIXD2fe7B6d2MQWKWgjhMTAbItYGF9T3qCrE58p2YUbzQRq9V75mS861xWeXUG4gt9LbjyubZzZOmPjCw3gNrOb6Ah7Hmmw5YeemZbho1v3jxI6GCubvayOkhaddvq19j7BnKJY8Cj6eFGRxHRlS7VOB4foTydqmf9tnsxSvqhK09GtdNG9bJdl5z6gFX42F67E7TBZqAehls0TqSQywThvxuHWTzT9q6bROEgWp0",
+              "received": false
+            }
+          ],
+          "total_price": 50643,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Lupeboro",
+              "street": "Wintheiser Rapids",
+              "house": 518,
+              "flat": 5943
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:28:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fc2db1c508c5d5e342d02",
+          "products": [
+            {
+              "_id": "694fc2db1c508c5d5e342d19",
+              "name": "Sausages21373",
+              "amount": 485,
+              "price": 50643,
+              "manufacturer": "Amazon",
+              "notes": "4dSWfvApvsiHwQ7dRLIXD2fe7B6d2MQWKWgjhMTAbItYGF9T3qCrE58p2YUbzQRq9V75mS861xWeXUG4gt9LbjyubZzZOmPjCw3gNrOb6Ah7Hmmw5YeemZbho1v3jxI6GCubvayOkhaddvq19j7BnKJY8Cj6eFGRxHRlS7VOB4foTydqmf9tnsxSvqhK09GtdNG9bJdl5z6gFX42F67E7TBZqAehls0TqSQywThvxuHWTzT9q6bROEgWp0",
+              "received": false
+            }
+          ],
+          "total_price": 50643,
+          "delivery": null,
+          "changedOn": "2025-12-27T11:28:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 27 Dec 2025 11:30:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3673",
+    "etag": "W/\"e59-6cyBJmS3JcAbWZQ3hBPsMtRW6SE\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "694fc3691c508c5d5e34643c",
+      "status": "Canceled",
+      "customer": {
+        "_id": "694fc3691c508c5d5e3463ee",
+        "email": "Elliott.Paucek@hotmail.com",
+        "name": "Carlo Franey",
+        "country": "Belarus",
+        "city": "Runteshire",
+        "street": "Mraz Groves 68",
+        "house": 450,
+        "flat": 6140,
+        "phone": "+876798885368256",
+        "createdOn": "2025-12-27T11:30:49.000Z",
+        "notes": "M0LF6iwF1eFdctCNruRlh3LvLM8EZZ"
+      },
+      "products": [
+        {
+          "_id": "694fc3691c508c5d5e346420",
+          "name": "Hat21251",
+          "amount": 525,
+          "price": 87001,
+          "manufacturer": "Amazon",
+          "notes": "VtOt3f3rtwiYw6K0le9qQdUx2h1R6UguiMwoa4cfntBcWpD9SXyGNJdy51KXUTdlvJHQg58pnt4HAYqvTdFDSrw9sejzNTzOUZKyCRR0S0ZYgzRW894Yiq9GrMTC7X2jte6a9zTp2OE4TBZ7aUGcWCRxTmoRhnWYTpAMpioQPGISXP7cEpoX7yUMOzAFEXcfBCmkv27o3lF8oyt26o11y4RoJmgWY6COaHfSZV1B3YheQnW6YLatrAi9qq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "San Angelo",
+          "street": "Pagac Keys",
+          "house": 402,
+          "flat": 7696
+        },
+        "finalDate": "2026-01-03T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 87001,
+      "createdOn": "2025-12-27T11:30:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "694fc3691c508c5d5e3463ee",
+          "products": [
+            {
+              "_id": "694fc3691c508c5d5e346420",
+              "name": "Hat21251",
+              "amount": 525,
+              "price": 87001,
+              "manufacturer": "Amazon",
+              "notes": "VtOt3f3rtwiYw6K0le9qQdUx2h1R6UguiMwoa4cfntBcWpD9SXyGNJdy51KXUTdlvJHQg58pnt4HAYqvTdFDSrw9sejzNTzOUZKyCRR0S0ZYgzRW894Yiq9GrMTC7X2jte6a9zTp2OE4TBZ7aUGcWCRxTmoRhnWYTpAMpioQPGISXP7cEpoX7yUMOzAFEXcfBCmkv27o3lF8oyt26o11y4RoJmgWY6COaHfSZV1B3YheQnW6YLatrAi9qq",
+              "received": false
+            }
+          ],
+          "total_price": 87001,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "San Angelo",
+              "street": "Pagac Keys",
+              "house": 402,
+              "flat": 7696
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:30:50.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fc3691c508c5d5e3463ee",
+          "products": [
+            {
+              "_id": "694fc3691c508c5d5e346420",
+              "name": "Hat21251",
+              "amount": 525,
+              "price": 87001,
+              "manufacturer": "Amazon",
+              "notes": "VtOt3f3rtwiYw6K0le9qQdUx2h1R6UguiMwoa4cfntBcWpD9SXyGNJdy51KXUTdlvJHQg58pnt4HAYqvTdFDSrw9sejzNTzOUZKyCRR0S0ZYgzRW894Yiq9GrMTC7X2jte6a9zTp2OE4TBZ7aUGcWCRxTmoRhnWYTpAMpioQPGISXP7cEpoX7yUMOzAFEXcfBCmkv27o3lF8oyt26o11y4RoJmgWY6COaHfSZV1B3YheQnW6YLatrAi9qq",
+              "received": false
+            }
+          ],
+          "total_price": 87001,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "San Angelo",
+              "street": "Pagac Keys",
+              "house": 402,
+              "flat": 7696
+            },
+            "finalDate": "2026-01-03T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-27T11:30:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "694fc3691c508c5d5e3463ee",
+          "products": [
+            {
+              "_id": "694fc3691c508c5d5e346420",
+              "name": "Hat21251",
+              "amount": 525,
+              "price": 87001,
+              "manufacturer": "Amazon",
+              "notes": "VtOt3f3rtwiYw6K0le9qQdUx2h1R6UguiMwoa4cfntBcWpD9SXyGNJdy51KXUTdlvJHQg58pnt4HAYqvTdFDSrw9sejzNTzOUZKyCRR0S0ZYgzRW894Yiq9GrMTC7X2jte6a9zTp2OE4TBZ7aUGcWCRxTmoRhnWYTpAMpioQPGISXP7cEpoX7yUMOzAFEXcfBCmkv27o3lF8oyt26o11y4RoJmgWY6COaHfSZV1B3YheQnW6YLatrAi9qq",
+              "received": false
+            }
+          ],
+          "total_price": 87001,
+          "delivery": null,
+          "changedOn": "2025-12-27T11:30:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
