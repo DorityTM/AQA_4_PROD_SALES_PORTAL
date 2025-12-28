@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:38:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6525",
+    "etag": "W/\"197d-1HtkFbewny+wWiF0HtjPh9n5l1g\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695132c91c508c5d5e396b47",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "695132c71c508c5d5e396a4c",
+        "email": "John8@gmail.com",
+        "name": "Sherman Schultz",
+        "country": "Russia",
+        "city": "Riverton",
+        "street": "Murphy Circle 17",
+        "house": 880,
+        "flat": 5776,
+        "phone": "+342685909791371",
+        "createdOn": "2025-12-28T13:38:15.000Z",
+        "notes": "Bzu0KKrQ9cHQKJ3KLnkhLhvskI2EhA"
+      },
+      "products": [
+        {
+          "_id": "695132c81c508c5d5e396ab3",
+          "name": "Bacon91182",
+          "amount": 704,
+          "price": 36278,
+          "manufacturer": "Tesla",
+          "notes": "YPJvYX1UiO7iItpL1YbrdhhIvQJGmRXkU3hMDgK9PCTXYM3pyAtfJKMwIkFUK7C0XGbbNbnaEkMvvhJZt4v2FWOFJUspIRNfY9JBDkvRw9RmmI1Yz1t07CCswvdOEIQdh0FlFDjUSZTZbuF0CNUZjBbGDKIfTidyCkMKR5J63w5XLUdOGMgz45UEbtBlPvs0kEeMELG4OhvqYkjeNZncCij9fRkzKZbgcxLflN52xTswUoBiB8enEbHVfW",
+          "received": true
+        },
+        {
+          "_id": "695132c91c508c5d5e396b24",
+          "name": "Sausages11765",
+          "amount": 696,
+          "price": 47582,
+          "manufacturer": "Tesla",
+          "notes": "E0HoLbViXW1cXP3olqvJvPLJY5JEMVKQO0PoX4GIP9lyzR2OZ6ZPuUtOjzxAiVHODzfDBUyZWs7KHuhMuHusasecGCKSir5ejDNp1a52mJHIU9r5KHSDjQA46s5VmPD6OqrYqSGhYcH3BEMaekqCPSTlBsZW3asMtA3EebkJZWLogd2xwb0E2mgVfSuYKys6lYngne3K4BCWBlh0xilTRcfvznXy6uuKzhsDfeJwpJ38iqbfQXa709n3f1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Veumfurt",
+          "street": "Tromp Trafficway",
+          "house": 50,
+          "flat": 1624
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 83860,
+      "createdOn": "2025-12-28T13:38:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "695132c71c508c5d5e396a4c",
+          "products": [
+            {
+              "_id": "695132c81c508c5d5e396ab3",
+              "name": "Bacon91182",
+              "amount": 704,
+              "price": 36278,
+              "manufacturer": "Tesla",
+              "notes": "YPJvYX1UiO7iItpL1YbrdhhIvQJGmRXkU3hMDgK9PCTXYM3pyAtfJKMwIkFUK7C0XGbbNbnaEkMvvhJZt4v2FWOFJUspIRNfY9JBDkvRw9RmmI1Yz1t07CCswvdOEIQdh0FlFDjUSZTZbuF0CNUZjBbGDKIfTidyCkMKR5J63w5XLUdOGMgz45UEbtBlPvs0kEeMELG4OhvqYkjeNZncCij9fRkzKZbgcxLflN52xTswUoBiB8enEbHVfW",
+              "received": true
+            },
+            {
+              "_id": "695132c91c508c5d5e396b24",
+              "name": "Sausages11765",
+              "amount": 696,
+              "price": 47582,
+              "manufacturer": "Tesla",
+              "notes": "E0HoLbViXW1cXP3olqvJvPLJY5JEMVKQO0PoX4GIP9lyzR2OZ6ZPuUtOjzxAiVHODzfDBUyZWs7KHuhMuHusasecGCKSir5ejDNp1a52mJHIU9r5KHSDjQA46s5VmPD6OqrYqSGhYcH3BEMaekqCPSTlBsZW3asMtA3EebkJZWLogd2xwb0E2mgVfSuYKys6lYngne3K4BCWBlh0xilTRcfvznXy6uuKzhsDfeJwpJ38iqbfQXa709n3f1",
+              "received": false
+            }
+          ],
+          "total_price": 83860,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Veumfurt",
+              "street": "Tromp Trafficway",
+              "house": 50,
+              "flat": 1624
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:38:19.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695132c71c508c5d5e396a4c",
+          "products": [
+            {
+              "_id": "695132c81c508c5d5e396ab3",
+              "name": "Bacon91182",
+              "amount": 704,
+              "price": 36278,
+              "manufacturer": "Tesla",
+              "notes": "YPJvYX1UiO7iItpL1YbrdhhIvQJGmRXkU3hMDgK9PCTXYM3pyAtfJKMwIkFUK7C0XGbbNbnaEkMvvhJZt4v2FWOFJUspIRNfY9JBDkvRw9RmmI1Yz1t07CCswvdOEIQdh0FlFDjUSZTZbuF0CNUZjBbGDKIfTidyCkMKR5J63w5XLUdOGMgz45UEbtBlPvs0kEeMELG4OhvqYkjeNZncCij9fRkzKZbgcxLflN52xTswUoBiB8enEbHVfW",
+              "received": false
+            },
+            {
+              "_id": "695132c91c508c5d5e396b24",
+              "name": "Sausages11765",
+              "amount": 696,
+              "price": 47582,
+              "manufacturer": "Tesla",
+              "notes": "E0HoLbViXW1cXP3olqvJvPLJY5JEMVKQO0PoX4GIP9lyzR2OZ6ZPuUtOjzxAiVHODzfDBUyZWs7KHuhMuHusasecGCKSir5ejDNp1a52mJHIU9r5KHSDjQA46s5VmPD6OqrYqSGhYcH3BEMaekqCPSTlBsZW3asMtA3EebkJZWLogd2xwb0E2mgVfSuYKys6lYngne3K4BCWBlh0xilTRcfvznXy6uuKzhsDfeJwpJ38iqbfQXa709n3f1",
+              "received": false
+            }
+          ],
+          "total_price": 83860,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Veumfurt",
+              "street": "Tromp Trafficway",
+              "house": 50,
+              "flat": 1624
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:38:18.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695132c71c508c5d5e396a4c",
+          "products": [
+            {
+              "_id": "695132c81c508c5d5e396ab3",
+              "name": "Bacon91182",
+              "amount": 704,
+              "price": 36278,
+              "manufacturer": "Tesla",
+              "notes": "YPJvYX1UiO7iItpL1YbrdhhIvQJGmRXkU3hMDgK9PCTXYM3pyAtfJKMwIkFUK7C0XGbbNbnaEkMvvhJZt4v2FWOFJUspIRNfY9JBDkvRw9RmmI1Yz1t07CCswvdOEIQdh0FlFDjUSZTZbuF0CNUZjBbGDKIfTidyCkMKR5J63w5XLUdOGMgz45UEbtBlPvs0kEeMELG4OhvqYkjeNZncCij9fRkzKZbgcxLflN52xTswUoBiB8enEbHVfW",
+              "received": false
+            },
+            {
+              "_id": "695132c91c508c5d5e396b24",
+              "name": "Sausages11765",
+              "amount": 696,
+              "price": 47582,
+              "manufacturer": "Tesla",
+              "notes": "E0HoLbViXW1cXP3olqvJvPLJY5JEMVKQO0PoX4GIP9lyzR2OZ6ZPuUtOjzxAiVHODzfDBUyZWs7KHuhMuHusasecGCKSir5ejDNp1a52mJHIU9r5KHSDjQA46s5VmPD6OqrYqSGhYcH3BEMaekqCPSTlBsZW3asMtA3EebkJZWLogd2xwb0E2mgVfSuYKys6lYngne3K4BCWBlh0xilTRcfvznXy6uuKzhsDfeJwpJ38iqbfQXa709n3f1",
+              "received": false
+            }
+          ],
+          "total_price": 83860,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Veumfurt",
+              "street": "Tromp Trafficway",
+              "house": 50,
+              "flat": 1624
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:38:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695132c71c508c5d5e396a4c",
+          "products": [
+            {
+              "_id": "695132c81c508c5d5e396ab3",
+              "name": "Bacon91182",
+              "amount": 704,
+              "price": 36278,
+              "manufacturer": "Tesla",
+              "notes": "YPJvYX1UiO7iItpL1YbrdhhIvQJGmRXkU3hMDgK9PCTXYM3pyAtfJKMwIkFUK7C0XGbbNbnaEkMvvhJZt4v2FWOFJUspIRNfY9JBDkvRw9RmmI1Yz1t07CCswvdOEIQdh0FlFDjUSZTZbuF0CNUZjBbGDKIfTidyCkMKR5J63w5XLUdOGMgz45UEbtBlPvs0kEeMELG4OhvqYkjeNZncCij9fRkzKZbgcxLflN52xTswUoBiB8enEbHVfW",
+              "received": false
+            },
+            {
+              "_id": "695132c91c508c5d5e396b24",
+              "name": "Sausages11765",
+              "amount": 696,
+              "price": 47582,
+              "manufacturer": "Tesla",
+              "notes": "E0HoLbViXW1cXP3olqvJvPLJY5JEMVKQO0PoX4GIP9lyzR2OZ6ZPuUtOjzxAiVHODzfDBUyZWs7KHuhMuHusasecGCKSir5ejDNp1a52mJHIU9r5KHSDjQA46s5VmPD6OqrYqSGhYcH3BEMaekqCPSTlBsZW3asMtA3EebkJZWLogd2xwb0E2mgVfSuYKys6lYngne3K4BCWBlh0xilTRcfvznXy6uuKzhsDfeJwpJ38iqbfQXa709n3f1",
+              "received": false
+            }
+          ],
+          "total_price": 83860,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:38:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

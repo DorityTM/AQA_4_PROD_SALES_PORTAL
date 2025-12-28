@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:37:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-vyUzGxegw+NKUOFAIjHDiwnThps\"",
+    "keep-alive": "timeout=5, max=56",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695132921c508c5d5e3952d9",
+      "status": "In Process",
+      "customer": {
+        "_id": "695132911c508c5d5e39526d",
+        "email": "Alize.King@hotmail.com",
+        "name": "Thad Cremin",
+        "country": "Ukraine",
+        "city": "East Wyatt",
+        "street": "W Maple Street 80",
+        "house": 606,
+        "flat": 8995,
+        "phone": "+150112295385991",
+        "createdOn": "2025-12-28T13:37:21.000Z",
+        "notes": "kjbgwTNQkEOShoxwayrg4dyeiESbcc"
+      },
+      "products": [
+        {
+          "_id": "695132921c508c5d5e3952b7",
+          "name": "Bike90845",
+          "amount": 209,
+          "price": 47802,
+          "manufacturer": "Xiaomi",
+          "notes": "BqdKFBVU3WWV5Tqs3zSBH43oq6wjQxTGsOrNK5DaQm9u4sIrrdeYPlXPBb8mn91YsI0iZEEpaHU3gf5EI7bwPSghj2y9V38B1JaiQqVKSA32kHHpaAmxelrVvbIWA3KjJK7BSdHzjHaJp88sI9b1XqwkLv09ElfFrvCRUmMxeYtkVhB0liZ7dINUhUChVdS5JViywHy46fCoyByreSnIRNSJz7tDB1jySwMHwPxQ5wFhWqXt18Mm0xGMLD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Roma",
+          "street": "Lodge Lane",
+          "house": 320,
+          "flat": 5889
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47802,
+      "createdOn": "2025-12-28T13:37:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695132911c508c5d5e39526d",
+          "products": [
+            {
+              "_id": "695132921c508c5d5e3952b7",
+              "name": "Bike90845",
+              "amount": 209,
+              "price": 47802,
+              "manufacturer": "Xiaomi",
+              "notes": "BqdKFBVU3WWV5Tqs3zSBH43oq6wjQxTGsOrNK5DaQm9u4sIrrdeYPlXPBb8mn91YsI0iZEEpaHU3gf5EI7bwPSghj2y9V38B1JaiQqVKSA32kHHpaAmxelrVvbIWA3KjJK7BSdHzjHaJp88sI9b1XqwkLv09ElfFrvCRUmMxeYtkVhB0liZ7dINUhUChVdS5JViywHy46fCoyByreSnIRNSJz7tDB1jySwMHwPxQ5wFhWqXt18Mm0xGMLD",
+              "received": false
+            }
+          ],
+          "total_price": 47802,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Roma",
+              "street": "Lodge Lane",
+              "house": 320,
+              "flat": 5889
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:37:23.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695132911c508c5d5e39526d",
+          "products": [
+            {
+              "_id": "695132921c508c5d5e3952b7",
+              "name": "Bike90845",
+              "amount": 209,
+              "price": 47802,
+              "manufacturer": "Xiaomi",
+              "notes": "BqdKFBVU3WWV5Tqs3zSBH43oq6wjQxTGsOrNK5DaQm9u4sIrrdeYPlXPBb8mn91YsI0iZEEpaHU3gf5EI7bwPSghj2y9V38B1JaiQqVKSA32kHHpaAmxelrVvbIWA3KjJK7BSdHzjHaJp88sI9b1XqwkLv09ElfFrvCRUmMxeYtkVhB0liZ7dINUhUChVdS5JViywHy46fCoyByreSnIRNSJz7tDB1jySwMHwPxQ5wFhWqXt18Mm0xGMLD",
+              "received": false
+            }
+          ],
+          "total_price": 47802,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Roma",
+              "street": "Lodge Lane",
+              "house": 320,
+              "flat": 5889
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:37:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695132911c508c5d5e39526d",
+          "products": [
+            {
+              "_id": "695132921c508c5d5e3952b7",
+              "name": "Bike90845",
+              "amount": 209,
+              "price": 47802,
+              "manufacturer": "Xiaomi",
+              "notes": "BqdKFBVU3WWV5Tqs3zSBH43oq6wjQxTGsOrNK5DaQm9u4sIrrdeYPlXPBb8mn91YsI0iZEEpaHU3gf5EI7bwPSghj2y9V38B1JaiQqVKSA32kHHpaAmxelrVvbIWA3KjJK7BSdHzjHaJp88sI9b1XqwkLv09ElfFrvCRUmMxeYtkVhB0liZ7dINUhUChVdS5JViywHy46fCoyByreSnIRNSJz7tDB1jySwMHwPxQ5wFhWqXt18Mm0xGMLD",
+              "received": false
+            }
+          ],
+          "total_price": 47802,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:37:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

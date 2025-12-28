@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:37:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-fStrFrhcnOZ7ED1GTsaWokij4/w\"",
+    "keep-alive": "timeout=5, max=65",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951328b1c508c5d5e394f86",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951328a1c508c5d5e394f47",
+        "email": "Freddie_Torphy@hotmail.com",
+        "name": "Raphaelle Koss",
+        "country": "USA",
+        "city": "North Marjorymouth",
+        "street": "Patrick Pike 92",
+        "house": 622,
+        "flat": 92,
+        "phone": "+083226457375166",
+        "createdOn": "2025-12-28T13:37:14.000Z",
+        "notes": "yqJ5IzridWgAfjNvUYZfPYS85g0mEc"
+      },
+      "products": [
+        {
+          "_id": "6951328b1c508c5d5e394f76",
+          "name": "Soap64650",
+          "amount": 658,
+          "price": 51004,
+          "manufacturer": "Samsung",
+          "notes": "HplQe44Uqak3RNECb2EqWK9QMOmLoFh8xVunDbpN6WyV3LcSzMXDHcxomM9AUCUeVDPUeza7Bsc2sqhmqN8gog3TlOhOYlhCSY3btIV8BLVBKQUk7x175vfF4tZPnEOqeGaYt4KDCK9ng9ktDxLnM5sHaPnGIAVdNn97Xso8aWojiDmAPah0n91mopyli2cLCWSZA0GQ44NEbsFKRxKKGq4nXgwadZPm0s6FzGhERZKCdozi3Y1kk48XMg",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Dearborn",
+          "street": "N Locust Street",
+          "house": 813,
+          "flat": 6569
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51004,
+      "createdOn": "2025-12-28T13:37:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951328a1c508c5d5e394f47",
+          "products": [
+            {
+              "_id": "6951328b1c508c5d5e394f76",
+              "name": "Soap64650",
+              "amount": 658,
+              "price": 51004,
+              "manufacturer": "Samsung",
+              "notes": "HplQe44Uqak3RNECb2EqWK9QMOmLoFh8xVunDbpN6WyV3LcSzMXDHcxomM9AUCUeVDPUeza7Bsc2sqhmqN8gog3TlOhOYlhCSY3btIV8BLVBKQUk7x175vfF4tZPnEOqeGaYt4KDCK9ng9ktDxLnM5sHaPnGIAVdNn97Xso8aWojiDmAPah0n91mopyli2cLCWSZA0GQ44NEbsFKRxKKGq4nXgwadZPm0s6FzGhERZKCdozi3Y1kk48XMg",
+              "received": false
+            }
+          ],
+          "total_price": 51004,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Dearborn",
+              "street": "N Locust Street",
+              "house": 813,
+              "flat": 6569
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:37:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951328a1c508c5d5e394f47",
+          "products": [
+            {
+              "_id": "6951328b1c508c5d5e394f76",
+              "name": "Soap64650",
+              "amount": 658,
+              "price": 51004,
+              "manufacturer": "Samsung",
+              "notes": "HplQe44Uqak3RNECb2EqWK9QMOmLoFh8xVunDbpN6WyV3LcSzMXDHcxomM9AUCUeVDPUeza7Bsc2sqhmqN8gog3TlOhOYlhCSY3btIV8BLVBKQUk7x175vfF4tZPnEOqeGaYt4KDCK9ng9ktDxLnM5sHaPnGIAVdNn97Xso8aWojiDmAPah0n91mopyli2cLCWSZA0GQ44NEbsFKRxKKGq4nXgwadZPm0s6FzGhERZKCdozi3Y1kk48XMg",
+              "received": false
+            }
+          ],
+          "total_price": 51004,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:37:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

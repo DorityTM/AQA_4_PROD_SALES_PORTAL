@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:37:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-TTyBgZDbITDChxEDeNYyY+V7Glc\"",
+    "keep-alive": "timeout=5, max=35",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695132a31c508c5d5e395a40",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695132a11c508c5d5e3959ec",
+        "email": "Federico_Bartell6@hotmail.com",
+        "name": "Penelope Armstrong",
+        "country": "France",
+        "city": "Quigleyview",
+        "street": "Alexandrea Locks 31",
+        "house": 720,
+        "flat": 1168,
+        "phone": "+303754658713111",
+        "createdOn": "2025-12-28T13:37:37.000Z",
+        "notes": "oe57prTYahgIV4zcvnpkBFG8dJwT5S"
+      },
+      "products": [
+        {
+          "_id": "695132a21c508c5d5e395a23",
+          "name": "Mouse31793",
+          "amount": 727,
+          "price": 64834,
+          "manufacturer": "Samsung",
+          "notes": "k32SbK5VGeXUUYfXchy4TzjUlcxB0T6IroebPFJB8iZuXjKDp3K1SoIuIAf7lNCRJ8CaEg8geqN4ue3Rbu27xWNpPYZ9ooIMGRP5ukr5StZIM6nmWV1Vp542MjcnxzSGLndztDNTv5OiACNPr7a3Jadj7nIlbUTGISJMvTUZhGn4c8397Xbgx1stLVyd3wMeqodrlRQ10najYpdhAjAqbGH9p1cpWw0K7Z2vTBxMwTInrUbzHdZ36ngfxL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Felixborough",
+          "street": "Reilly Walk",
+          "house": 614,
+          "flat": 4798
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64834,
+      "createdOn": "2025-12-28T13:37:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695132a11c508c5d5e3959ec",
+          "products": [
+            {
+              "_id": "695132a21c508c5d5e395a23",
+              "name": "Mouse31793",
+              "amount": 727,
+              "price": 64834,
+              "manufacturer": "Samsung",
+              "notes": "k32SbK5VGeXUUYfXchy4TzjUlcxB0T6IroebPFJB8iZuXjKDp3K1SoIuIAf7lNCRJ8CaEg8geqN4ue3Rbu27xWNpPYZ9ooIMGRP5ukr5StZIM6nmWV1Vp542MjcnxzSGLndztDNTv5OiACNPr7a3Jadj7nIlbUTGISJMvTUZhGn4c8397Xbgx1stLVyd3wMeqodrlRQ10najYpdhAjAqbGH9p1cpWw0K7Z2vTBxMwTInrUbzHdZ36ngfxL",
+              "received": false
+            }
+          ],
+          "total_price": 64834,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Felixborough",
+              "street": "Reilly Walk",
+              "house": 614,
+              "flat": 4798
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:37:39.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695132a11c508c5d5e3959ec",
+          "products": [
+            {
+              "_id": "695132a21c508c5d5e395a23",
+              "name": "Mouse31793",
+              "amount": 727,
+              "price": 64834,
+              "manufacturer": "Samsung",
+              "notes": "k32SbK5VGeXUUYfXchy4TzjUlcxB0T6IroebPFJB8iZuXjKDp3K1SoIuIAf7lNCRJ8CaEg8geqN4ue3Rbu27xWNpPYZ9ooIMGRP5ukr5StZIM6nmWV1Vp542MjcnxzSGLndztDNTv5OiACNPr7a3Jadj7nIlbUTGISJMvTUZhGn4c8397Xbgx1stLVyd3wMeqodrlRQ10najYpdhAjAqbGH9p1cpWw0K7Z2vTBxMwTInrUbzHdZ36ngfxL",
+              "received": false
+            }
+          ],
+          "total_price": 64834,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Felixborough",
+              "street": "Reilly Walk",
+              "house": 614,
+              "flat": 4798
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:37:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695132a11c508c5d5e3959ec",
+          "products": [
+            {
+              "_id": "695132a21c508c5d5e395a23",
+              "name": "Mouse31793",
+              "amount": 727,
+              "price": 64834,
+              "manufacturer": "Samsung",
+              "notes": "k32SbK5VGeXUUYfXchy4TzjUlcxB0T6IroebPFJB8iZuXjKDp3K1SoIuIAf7lNCRJ8CaEg8geqN4ue3Rbu27xWNpPYZ9ooIMGRP5ukr5StZIM6nmWV1Vp542MjcnxzSGLndztDNTv5OiACNPr7a3Jadj7nIlbUTGISJMvTUZhGn4c8397Xbgx1stLVyd3wMeqodrlRQ10najYpdhAjAqbGH9p1cpWw0K7Z2vTBxMwTInrUbzHdZ36ngfxL",
+              "received": false
+            }
+          ],
+          "total_price": 64834,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:37:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

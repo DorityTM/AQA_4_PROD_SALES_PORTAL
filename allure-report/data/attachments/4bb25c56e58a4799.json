@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:37:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-/QAvrmNRvjdox6y8vRqcV22QDj4\"",
+    "keep-alive": "timeout=5, max=34",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951329d1c508c5d5e395795",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951329c1c508c5d5e39573a",
+        "email": "Theron_Walter@hotmail.com",
+        "name": "Esteban Kautzer",
+        "country": "France",
+        "city": "New Nella",
+        "street": "White Shores 69",
+        "house": 767,
+        "flat": 135,
+        "phone": "+371067751495093",
+        "createdOn": "2025-12-28T13:37:32.000Z",
+        "notes": "ZjE2AlTYCl62pXU9QV0rNBG3VpATzP"
+      },
+      "products": [
+        {
+          "_id": "6951329d1c508c5d5e395776",
+          "name": "Fish68789",
+          "amount": 899,
+          "price": 57120,
+          "manufacturer": "Sony",
+          "notes": "iBrio5ONDPxfpiWY9YWvPX5p4AMQOxUM1fBeWIQzQLjHoMjfFhUH6GNcHoRAECdPJK68ylHjSFaeoZl7VnJkzfs9nQzvAIitSsjv7rELo4HsHRUrsMSYrlpiTxKW2Ld5nONhv5k6k97RU8aTfmmkAP5e71iAmP1AOe937EAAZj6wBEFvpaARCCRkCCDBV0ecGsYT7GWH3itLUoHUG28wRFyR7aBHnXAPyzt7mGWuBSijbOkp4Izh3ZIFuw",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Port Octavia",
+          "street": "Mante Expressway",
+          "house": 580,
+          "flat": 4705
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 57120,
+      "createdOn": "2025-12-28T13:37:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951329c1c508c5d5e39573a",
+          "products": [
+            {
+              "_id": "6951329d1c508c5d5e395776",
+              "name": "Fish68789",
+              "amount": 899,
+              "price": 57120,
+              "manufacturer": "Sony",
+              "notes": "iBrio5ONDPxfpiWY9YWvPX5p4AMQOxUM1fBeWIQzQLjHoMjfFhUH6GNcHoRAECdPJK68ylHjSFaeoZl7VnJkzfs9nQzvAIitSsjv7rELo4HsHRUrsMSYrlpiTxKW2Ld5nONhv5k6k97RU8aTfmmkAP5e71iAmP1AOe937EAAZj6wBEFvpaARCCRkCCDBV0ecGsYT7GWH3itLUoHUG28wRFyR7aBHnXAPyzt7mGWuBSijbOkp4Izh3ZIFuw",
+              "received": false
+            }
+          ],
+          "total_price": 57120,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Octavia",
+              "street": "Mante Expressway",
+              "house": 580,
+              "flat": 4705
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:37:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951329c1c508c5d5e39573a",
+          "products": [
+            {
+              "_id": "6951329d1c508c5d5e395776",
+              "name": "Fish68789",
+              "amount": 899,
+              "price": 57120,
+              "manufacturer": "Sony",
+              "notes": "iBrio5ONDPxfpiWY9YWvPX5p4AMQOxUM1fBeWIQzQLjHoMjfFhUH6GNcHoRAECdPJK68ylHjSFaeoZl7VnJkzfs9nQzvAIitSsjv7rELo4HsHRUrsMSYrlpiTxKW2Ld5nONhv5k6k97RU8aTfmmkAP5e71iAmP1AOe937EAAZj6wBEFvpaARCCRkCCDBV0ecGsYT7GWH3itLUoHUG28wRFyR7aBHnXAPyzt7mGWuBSijbOkp4Izh3ZIFuw",
+              "received": false
+            }
+          ],
+          "total_price": 57120,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Octavia",
+              "street": "Mante Expressway",
+              "house": 580,
+              "flat": 4705
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:37:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951329c1c508c5d5e39573a",
+          "products": [
+            {
+              "_id": "6951329d1c508c5d5e395776",
+              "name": "Fish68789",
+              "amount": 899,
+              "price": 57120,
+              "manufacturer": "Sony",
+              "notes": "iBrio5ONDPxfpiWY9YWvPX5p4AMQOxUM1fBeWIQzQLjHoMjfFhUH6GNcHoRAECdPJK68ylHjSFaeoZl7VnJkzfs9nQzvAIitSsjv7rELo4HsHRUrsMSYrlpiTxKW2Ld5nONhv5k6k97RU8aTfmmkAP5e71iAmP1AOe937EAAZj6wBEFvpaARCCRkCCDBV0ecGsYT7GWH3itLUoHUG28wRFyR7aBHnXAPyzt7mGWuBSijbOkp4Izh3ZIFuw",
+              "received": false
+            }
+          ],
+          "total_price": 57120,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:37:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
