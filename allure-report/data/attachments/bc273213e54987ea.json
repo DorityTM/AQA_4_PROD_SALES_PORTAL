@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:21:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3727",
+    "etag": "W/\"e8f-/RaRMq6iioxFndXG6K/M8/SVh9Y\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ad761c508c5d5e45a27b",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951ad721c508c5d5e45a0ed",
+        "email": "Sadye_Langworth21@hotmail.com",
+        "name": "Paige Schneider",
+        "country": "Germany",
+        "city": "Andersonboro",
+        "street": "Franklin Road 82",
+        "house": 524,
+        "flat": 2092,
+        "phone": "+043741425728381",
+        "createdOn": "2025-12-28T22:21:38.000Z",
+        "notes": "zp2elT4xF39p5DqbSAGxyJO9OLXDo5"
+      },
+      "products": [
+        {
+          "_id": "6951ad761c508c5d5e45a256",
+          "name": "Gloves52557",
+          "amount": 208,
+          "price": 16323,
+          "manufacturer": "Microsoft",
+          "notes": "rAmZ4vWYCRcddzzaIhobPYOjiXzvSTqJZnD2nhNEitsreho4Fw64G4uae8lOCdGG698Hj2vJJkD23H8zusPqgEVKNKabbuEOarMWjxXh5z9n8ZBFAqFLv9vgKaikNI8nQWyzDNRfLCAoVayQEqV6kNd2TahlMRAlmViIOLz1btvIj5KsjCgUDOii7EQdYWSgPUTcmBmE8gQxtl8AQ33H1yD3eVsLC4Per0D8HTkWNLczWVsV11MJjr94vy",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Port Ulises",
+          "street": "Simonis Throughway",
+          "house": 492,
+          "flat": 5321
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16323,
+      "createdOn": "2025-12-28T22:21:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951ad721c508c5d5e45a0ed",
+          "products": [
+            {
+              "_id": "6951ad761c508c5d5e45a256",
+              "name": "Gloves52557",
+              "amount": 208,
+              "price": 16323,
+              "manufacturer": "Microsoft",
+              "notes": "rAmZ4vWYCRcddzzaIhobPYOjiXzvSTqJZnD2nhNEitsreho4Fw64G4uae8lOCdGG698Hj2vJJkD23H8zusPqgEVKNKabbuEOarMWjxXh5z9n8ZBFAqFLv9vgKaikNI8nQWyzDNRfLCAoVayQEqV6kNd2TahlMRAlmViIOLz1btvIj5KsjCgUDOii7EQdYWSgPUTcmBmE8gQxtl8AQ33H1yD3eVsLC4Per0D8HTkWNLczWVsV11MJjr94vy",
+              "received": false
+            }
+          ],
+          "total_price": 16323,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Ulises",
+              "street": "Simonis Throughway",
+              "house": 492,
+              "flat": 5321
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:21:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ad721c508c5d5e45a0ed",
+          "products": [
+            {
+              "_id": "6951ad761c508c5d5e45a256",
+              "name": "Gloves52557",
+              "amount": 208,
+              "price": 16323,
+              "manufacturer": "Microsoft",
+              "notes": "rAmZ4vWYCRcddzzaIhobPYOjiXzvSTqJZnD2nhNEitsreho4Fw64G4uae8lOCdGG698Hj2vJJkD23H8zusPqgEVKNKabbuEOarMWjxXh5z9n8ZBFAqFLv9vgKaikNI8nQWyzDNRfLCAoVayQEqV6kNd2TahlMRAlmViIOLz1btvIj5KsjCgUDOii7EQdYWSgPUTcmBmE8gQxtl8AQ33H1yD3eVsLC4Per0D8HTkWNLczWVsV11MJjr94vy",
+              "received": false
+            }
+          ],
+          "total_price": 16323,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Ulises",
+              "street": "Simonis Throughway",
+              "house": 492,
+              "flat": 5321
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:21:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ad721c508c5d5e45a0ed",
+          "products": [
+            {
+              "_id": "6951ad761c508c5d5e45a256",
+              "name": "Gloves52557",
+              "amount": 208,
+              "price": 16323,
+              "manufacturer": "Microsoft",
+              "notes": "rAmZ4vWYCRcddzzaIhobPYOjiXzvSTqJZnD2nhNEitsreho4Fw64G4uae8lOCdGG698Hj2vJJkD23H8zusPqgEVKNKabbuEOarMWjxXh5z9n8ZBFAqFLv9vgKaikNI8nQWyzDNRfLCAoVayQEqV6kNd2TahlMRAlmViIOLz1btvIj5KsjCgUDOii7EQdYWSgPUTcmBmE8gQxtl8AQ33H1yD3eVsLC4Per0D8HTkWNLczWVsV11MJjr94vy",
+              "received": false
+            }
+          ],
+          "total_price": 16323,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:21:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

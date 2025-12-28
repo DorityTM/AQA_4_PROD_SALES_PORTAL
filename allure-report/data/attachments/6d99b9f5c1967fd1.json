@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:15:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2737",
+    "etag": "W/\"ab1-Lb/eRnmM4Z0E3GdmFYUuuYUPEDU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ac161c508c5d5e4501d0",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ac131c508c5d5e45006c",
+        "email": "Lilla_Swift85@yahoo.com",
+        "name": "Marge Kuhic",
+        "country": "Ukraine",
+        "city": "Marksboro",
+        "street": "Maribel Crescent 58",
+        "house": 894,
+        "flat": 7518,
+        "phone": "+707167871661714",
+        "createdOn": "2025-12-28T22:15:47.000Z",
+        "notes": "f7m3Ma8Q16Hk7Hp7zEGzpqwIj876vM"
+      },
+      "products": [
+        {
+          "_id": "6951ac151c508c5d5e4501a1",
+          "name": "Bacon8393",
+          "amount": 658,
+          "price": 45657,
+          "manufacturer": "Sony",
+          "notes": "KCOiG4SEytqhtYZ3CIdIUzn85nK6rE5DRQIjNK7l7IqA0SNCPao9duvYr9rtNFNZhmsLOHg6zOL45BsJ5Eb7tnQU9cL6dizNktMktskRZViES9byRBAwrqVM8YLKPsYNmKkjPRd8eRIbtX5bjobU2EH7wrOMflDrM6HQGDfTverPUTx1qMZ3ojEKR6jGQjuKQqTJFt0zRL9Dhnc0ZJMdSH8plnidGJg96zLL03frMIOeJpYOr5iw7O3fzq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Vicentefort",
+          "street": "Carey Pike",
+          "house": 743,
+          "flat": 6704
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 45657,
+      "createdOn": "2025-12-28T22:15:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ac131c508c5d5e45006c",
+          "products": [
+            {
+              "_id": "6951ac151c508c5d5e4501a1",
+              "name": "Bacon8393",
+              "amount": 658,
+              "price": 45657,
+              "manufacturer": "Sony",
+              "notes": "KCOiG4SEytqhtYZ3CIdIUzn85nK6rE5DRQIjNK7l7IqA0SNCPao9duvYr9rtNFNZhmsLOHg6zOL45BsJ5Eb7tnQU9cL6dizNktMktskRZViES9byRBAwrqVM8YLKPsYNmKkjPRd8eRIbtX5bjobU2EH7wrOMflDrM6HQGDfTverPUTx1qMZ3ojEKR6jGQjuKQqTJFt0zRL9Dhnc0ZJMdSH8plnidGJg96zLL03frMIOeJpYOr5iw7O3fzq",
+              "received": false
+            }
+          ],
+          "total_price": 45657,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Vicentefort",
+              "street": "Carey Pike",
+              "house": 743,
+              "flat": 6704
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:15:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ac131c508c5d5e45006c",
+          "products": [
+            {
+              "_id": "6951ac151c508c5d5e4501a1",
+              "name": "Bacon8393",
+              "amount": 658,
+              "price": 45657,
+              "manufacturer": "Sony",
+              "notes": "KCOiG4SEytqhtYZ3CIdIUzn85nK6rE5DRQIjNK7l7IqA0SNCPao9duvYr9rtNFNZhmsLOHg6zOL45BsJ5Eb7tnQU9cL6dizNktMktskRZViES9byRBAwrqVM8YLKPsYNmKkjPRd8eRIbtX5bjobU2EH7wrOMflDrM6HQGDfTverPUTx1qMZ3ojEKR6jGQjuKQqTJFt0zRL9Dhnc0ZJMdSH8plnidGJg96zLL03frMIOeJpYOr5iw7O3fzq",
+              "received": false
+            }
+          ],
+          "total_price": 45657,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:15:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

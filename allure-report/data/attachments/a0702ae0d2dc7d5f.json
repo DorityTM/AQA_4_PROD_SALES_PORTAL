@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:12:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5241",
+    "etag": "W/\"1479-6fvj+/GYL0D0CcHgFnX6hQ8iSzI\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ab401c508c5d5e44acea",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951ab3a1c508c5d5e44aac2",
+        "email": "Sonya_Schumm68@yahoo.com",
+        "name": "Selena Rempel",
+        "country": "Russia",
+        "city": "North Giovannabury",
+        "street": "Waterside 67",
+        "house": 526,
+        "flat": 7747,
+        "phone": "+099214442559735",
+        "createdOn": "2025-12-28T22:12:10.000Z",
+        "notes": "JDLtUAHY6jgTUh86nT0TKpkkFmWSCn"
+      },
+      "products": [
+        {
+          "_id": "6951ab3d1c508c5d5e44ab5e",
+          "name": "Chicken60397",
+          "amount": 735,
+          "price": 97384,
+          "manufacturer": "Samsung",
+          "notes": "LV721B0XAdRjUesmmDipXfiFRHzg9ZN5Z893TNw5nsvjB24hjdWUHgKeS9w7RwhZkrdIMlfQszJnPB1A2ter3Wenv8FTXcvyvqtbbjxtcEd1pu2ZWf3pUkBDA0pq7MP8o2OQcQqMqtsMdGI4lW3rUDwPLXOoqO6YvSyEggFDT1sMAkNzEoECDPVWDRPgoe68jJJKFRi9qEuJ53Onghkl7Kh2nmwhKVwnniJoWHSqcLppmKPm5ZIyRZwG7r",
+          "received": false
+        },
+        {
+          "_id": "6951ab401c508c5d5e44ac9e",
+          "name": "Chicken11023",
+          "amount": 383,
+          "price": 78353,
+          "manufacturer": "Amazon",
+          "notes": "2Erol5LrC1WUtU9Zn5mugvdgtSoxH3inR76KhnHD8zS8a8VuqHWW0V1brdcdNSMcUPRPLVaTeAYlK45sw9RWZzGgG2dxsZQAKTNd1KS8sLJQ4OSz8enBy2qMdode0jG1lFBpxbBXprE95YgKmzGN9ufJ0O38nTGYCgAT6Fwze8na0kHDs1kgK6D1Xkm8FL0yzGXGExrYTAz1MAUpMlRgtlmZGBn78UEerDOnlbRGAY0wgxzKW6VTEqrIqa",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Fort Tre",
+          "street": "Selena Valley",
+          "house": 547,
+          "flat": 2354
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 175737,
+      "createdOn": "2025-12-28T22:12:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951ab3a1c508c5d5e44aac2",
+          "products": [
+            {
+              "_id": "6951ab3d1c508c5d5e44ab5e",
+              "name": "Chicken60397",
+              "amount": 735,
+              "price": 97384,
+              "manufacturer": "Samsung",
+              "notes": "LV721B0XAdRjUesmmDipXfiFRHzg9ZN5Z893TNw5nsvjB24hjdWUHgKeS9w7RwhZkrdIMlfQszJnPB1A2ter3Wenv8FTXcvyvqtbbjxtcEd1pu2ZWf3pUkBDA0pq7MP8o2OQcQqMqtsMdGI4lW3rUDwPLXOoqO6YvSyEggFDT1sMAkNzEoECDPVWDRPgoe68jJJKFRi9qEuJ53Onghkl7Kh2nmwhKVwnniJoWHSqcLppmKPm5ZIyRZwG7r",
+              "received": false
+            },
+            {
+              "_id": "6951ab401c508c5d5e44ac9e",
+              "name": "Chicken11023",
+              "amount": 383,
+              "price": 78353,
+              "manufacturer": "Amazon",
+              "notes": "2Erol5LrC1WUtU9Zn5mugvdgtSoxH3inR76KhnHD8zS8a8VuqHWW0V1brdcdNSMcUPRPLVaTeAYlK45sw9RWZzGgG2dxsZQAKTNd1KS8sLJQ4OSz8enBy2qMdode0jG1lFBpxbBXprE95YgKmzGN9ufJ0O38nTGYCgAT6Fwze8na0kHDs1kgK6D1Xkm8FL0yzGXGExrYTAz1MAUpMlRgtlmZGBn78UEerDOnlbRGAY0wgxzKW6VTEqrIqa",
+              "received": false
+            }
+          ],
+          "total_price": 175737,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Tre",
+              "street": "Selena Valley",
+              "house": 547,
+              "flat": 2354
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:12:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab3a1c508c5d5e44aac2",
+          "products": [
+            {
+              "_id": "6951ab3d1c508c5d5e44ab5e",
+              "name": "Chicken60397",
+              "amount": 735,
+              "price": 97384,
+              "manufacturer": "Samsung",
+              "notes": "LV721B0XAdRjUesmmDipXfiFRHzg9ZN5Z893TNw5nsvjB24hjdWUHgKeS9w7RwhZkrdIMlfQszJnPB1A2ter3Wenv8FTXcvyvqtbbjxtcEd1pu2ZWf3pUkBDA0pq7MP8o2OQcQqMqtsMdGI4lW3rUDwPLXOoqO6YvSyEggFDT1sMAkNzEoECDPVWDRPgoe68jJJKFRi9qEuJ53Onghkl7Kh2nmwhKVwnniJoWHSqcLppmKPm5ZIyRZwG7r",
+              "received": false
+            },
+            {
+              "_id": "6951ab401c508c5d5e44ac9e",
+              "name": "Chicken11023",
+              "amount": 383,
+              "price": 78353,
+              "manufacturer": "Amazon",
+              "notes": "2Erol5LrC1WUtU9Zn5mugvdgtSoxH3inR76KhnHD8zS8a8VuqHWW0V1brdcdNSMcUPRPLVaTeAYlK45sw9RWZzGgG2dxsZQAKTNd1KS8sLJQ4OSz8enBy2qMdode0jG1lFBpxbBXprE95YgKmzGN9ufJ0O38nTGYCgAT6Fwze8na0kHDs1kgK6D1Xkm8FL0yzGXGExrYTAz1MAUpMlRgtlmZGBn78UEerDOnlbRGAY0wgxzKW6VTEqrIqa",
+              "received": false
+            }
+          ],
+          "total_price": 175737,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Tre",
+              "street": "Selena Valley",
+              "house": 547,
+              "flat": 2354
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:12:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab3a1c508c5d5e44aac2",
+          "products": [
+            {
+              "_id": "6951ab3d1c508c5d5e44ab5e",
+              "name": "Chicken60397",
+              "amount": 735,
+              "price": 97384,
+              "manufacturer": "Samsung",
+              "notes": "LV721B0XAdRjUesmmDipXfiFRHzg9ZN5Z893TNw5nsvjB24hjdWUHgKeS9w7RwhZkrdIMlfQszJnPB1A2ter3Wenv8FTXcvyvqtbbjxtcEd1pu2ZWf3pUkBDA0pq7MP8o2OQcQqMqtsMdGI4lW3rUDwPLXOoqO6YvSyEggFDT1sMAkNzEoECDPVWDRPgoe68jJJKFRi9qEuJ53Onghkl7Kh2nmwhKVwnniJoWHSqcLppmKPm5ZIyRZwG7r",
+              "received": false
+            },
+            {
+              "_id": "6951ab401c508c5d5e44ac9e",
+              "name": "Chicken11023",
+              "amount": 383,
+              "price": 78353,
+              "manufacturer": "Amazon",
+              "notes": "2Erol5LrC1WUtU9Zn5mugvdgtSoxH3inR76KhnHD8zS8a8VuqHWW0V1brdcdNSMcUPRPLVaTeAYlK45sw9RWZzGgG2dxsZQAKTNd1KS8sLJQ4OSz8enBy2qMdode0jG1lFBpxbBXprE95YgKmzGN9ufJ0O38nTGYCgAT6Fwze8na0kHDs1kgK6D1Xkm8FL0yzGXGExrYTAz1MAUpMlRgtlmZGBn78UEerDOnlbRGAY0wgxzKW6VTEqrIqa",
+              "received": false
+            }
+          ],
+          "total_price": 175737,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:12:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

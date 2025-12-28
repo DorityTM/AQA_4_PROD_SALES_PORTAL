@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:25:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-Lj9ka+kA2hHD8hJtfIry9XTnFkk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ae461c508c5d5e45dd40",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ae441c508c5d5e45dc9b",
+        "email": "Pearl.Carter@gmail.com",
+        "name": "Yazmin Schimmel",
+        "country": "Russia",
+        "city": "East Annabel",
+        "street": "The Coppice 4",
+        "house": 575,
+        "flat": 6599,
+        "phone": "+707185645403820",
+        "createdOn": "2025-12-28T22:25:08.000Z",
+        "notes": "qo70JYiwwaf59KGZkDZAxKaw7Ts8qs"
+      },
+      "products": [
+        {
+          "_id": "6951ae461c508c5d5e45dd2a",
+          "name": "Shirt49393",
+          "amount": 735,
+          "price": 25791,
+          "manufacturer": "Sony",
+          "notes": "Lv6VkHm1N7XcbXvBevs5AxfBLGaxS2wRRjlodvXUuxXhUBoxPzvGkisUEoSk702yDQwVP28LieOi2UjeQRWZ1imURQP7c871rNfCfOiVgbZWjH4ZT4yrQ4STaH8FRVgeOMu7P7Prahr0izqAsCiW2unwaTbRLfnXKgaDvSrr9PDqmYRfDDnrPB5n8D6CNpXKdowXnKBCEX35rjYRWmxFnnleU26HAgCmOY1bId5JmxpAWnzbwuR6YJ0Qyp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Lake Eleanora",
+          "street": "W Jefferson Street",
+          "house": 377,
+          "flat": 7254
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25791,
+      "createdOn": "2025-12-28T22:25:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ae441c508c5d5e45dc9b",
+          "products": [
+            {
+              "_id": "6951ae461c508c5d5e45dd2a",
+              "name": "Shirt49393",
+              "amount": 735,
+              "price": 25791,
+              "manufacturer": "Sony",
+              "notes": "Lv6VkHm1N7XcbXvBevs5AxfBLGaxS2wRRjlodvXUuxXhUBoxPzvGkisUEoSk702yDQwVP28LieOi2UjeQRWZ1imURQP7c871rNfCfOiVgbZWjH4ZT4yrQ4STaH8FRVgeOMu7P7Prahr0izqAsCiW2unwaTbRLfnXKgaDvSrr9PDqmYRfDDnrPB5n8D6CNpXKdowXnKBCEX35rjYRWmxFnnleU26HAgCmOY1bId5JmxpAWnzbwuR6YJ0Qyp",
+              "received": false
+            }
+          ],
+          "total_price": 25791,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lake Eleanora",
+              "street": "W Jefferson Street",
+              "house": 377,
+              "flat": 7254
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:25:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ae441c508c5d5e45dc9b",
+          "products": [
+            {
+              "_id": "6951ae461c508c5d5e45dd2a",
+              "name": "Shirt49393",
+              "amount": 735,
+              "price": 25791,
+              "manufacturer": "Sony",
+              "notes": "Lv6VkHm1N7XcbXvBevs5AxfBLGaxS2wRRjlodvXUuxXhUBoxPzvGkisUEoSk702yDQwVP28LieOi2UjeQRWZ1imURQP7c871rNfCfOiVgbZWjH4ZT4yrQ4STaH8FRVgeOMu7P7Prahr0izqAsCiW2unwaTbRLfnXKgaDvSrr9PDqmYRfDDnrPB5n8D6CNpXKdowXnKBCEX35rjYRWmxFnnleU26HAgCmOY1bId5JmxpAWnzbwuR6YJ0Qyp",
+              "received": false
+            }
+          ],
+          "total_price": 25791,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:25:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

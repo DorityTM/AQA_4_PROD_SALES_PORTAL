@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:24:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4619",
+    "etag": "W/\"120b-//hwcy7H1+xtDKa2aQ99MQheaHY\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ae2d1c508c5d5e45d431",
+      "status": "Received",
+      "customer": {
+        "_id": "6951ae2a1c508c5d5e45d364",
+        "email": "Ressie82@hotmail.com",
+        "name": "Keeley Terry",
+        "country": "Germany",
+        "city": "Carterburgh",
+        "street": "Berge Flats 99",
+        "house": 363,
+        "flat": 791,
+        "phone": "+630826684892085",
+        "createdOn": "2025-12-28T22:24:42.000Z",
+        "notes": "x3Fg03paFfDJadHTvyz6L0dXSAzOGC"
+      },
+      "products": [
+        {
+          "_id": "6951ae2c1c508c5d5e45d413",
+          "name": "Tuna37415",
+          "amount": 640,
+          "price": 60345,
+          "manufacturer": "Amazon",
+          "notes": "KiEgBxhVqQ7G30gY3DBcem0lBkHq1UiRxnSW3S7Gv7a17H23BrWlcMD6GpE0ggQQQw3Pjw42ScMbZtggHZNSHBs85mhjpdYu7m9LcZYVZ7c93O8Vw9034F6xh24d0hqDjOdlnDaZt3atkSoAKj0CEEchA7ntFqhQVMFtDEgM1d7fPFBJI0cqRQbTHi7Xqd1aoey2gslPzD40w0IEWEbBmAaxyA7albsRavqlq3Yc47ekbfCOUpHuzx8jGX",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Fort Agnesworth",
+          "street": "Marvin Motorway",
+          "house": 506,
+          "flat": 2684
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 60345,
+      "createdOn": "2025-12-28T22:24:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6951ae2a1c508c5d5e45d364",
+          "products": [
+            {
+              "_id": "6951ae2c1c508c5d5e45d413",
+              "name": "Tuna37415",
+              "amount": 640,
+              "price": 60345,
+              "manufacturer": "Amazon",
+              "notes": "KiEgBxhVqQ7G30gY3DBcem0lBkHq1UiRxnSW3S7Gv7a17H23BrWlcMD6GpE0ggQQQw3Pjw42ScMbZtggHZNSHBs85mhjpdYu7m9LcZYVZ7c93O8Vw9034F6xh24d0hqDjOdlnDaZt3atkSoAKj0CEEchA7ntFqhQVMFtDEgM1d7fPFBJI0cqRQbTHi7Xqd1aoey2gslPzD40w0IEWEbBmAaxyA7albsRavqlq3Yc47ekbfCOUpHuzx8jGX",
+              "received": true
+            }
+          ],
+          "total_price": 60345,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Agnesworth",
+              "street": "Marvin Motorway",
+              "house": 506,
+              "flat": 2684
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:24:46.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6951ae2a1c508c5d5e45d364",
+          "products": [
+            {
+              "_id": "6951ae2c1c508c5d5e45d413",
+              "name": "Tuna37415",
+              "amount": 640,
+              "price": 60345,
+              "manufacturer": "Amazon",
+              "notes": "KiEgBxhVqQ7G30gY3DBcem0lBkHq1UiRxnSW3S7Gv7a17H23BrWlcMD6GpE0ggQQQw3Pjw42ScMbZtggHZNSHBs85mhjpdYu7m9LcZYVZ7c93O8Vw9034F6xh24d0hqDjOdlnDaZt3atkSoAKj0CEEchA7ntFqhQVMFtDEgM1d7fPFBJI0cqRQbTHi7Xqd1aoey2gslPzD40w0IEWEbBmAaxyA7albsRavqlq3Yc47ekbfCOUpHuzx8jGX",
+              "received": false
+            }
+          ],
+          "total_price": 60345,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Agnesworth",
+              "street": "Marvin Motorway",
+              "house": 506,
+              "flat": 2684
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:24:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ae2a1c508c5d5e45d364",
+          "products": [
+            {
+              "_id": "6951ae2c1c508c5d5e45d413",
+              "name": "Tuna37415",
+              "amount": 640,
+              "price": 60345,
+              "manufacturer": "Amazon",
+              "notes": "KiEgBxhVqQ7G30gY3DBcem0lBkHq1UiRxnSW3S7Gv7a17H23BrWlcMD6GpE0ggQQQw3Pjw42ScMbZtggHZNSHBs85mhjpdYu7m9LcZYVZ7c93O8Vw9034F6xh24d0hqDjOdlnDaZt3atkSoAKj0CEEchA7ntFqhQVMFtDEgM1d7fPFBJI0cqRQbTHi7Xqd1aoey2gslPzD40w0IEWEbBmAaxyA7albsRavqlq3Yc47ekbfCOUpHuzx8jGX",
+              "received": false
+            }
+          ],
+          "total_price": 60345,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Agnesworth",
+              "street": "Marvin Motorway",
+              "house": 506,
+              "flat": 2684
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:24:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ae2a1c508c5d5e45d364",
+          "products": [
+            {
+              "_id": "6951ae2c1c508c5d5e45d413",
+              "name": "Tuna37415",
+              "amount": 640,
+              "price": 60345,
+              "manufacturer": "Amazon",
+              "notes": "KiEgBxhVqQ7G30gY3DBcem0lBkHq1UiRxnSW3S7Gv7a17H23BrWlcMD6GpE0ggQQQw3Pjw42ScMbZtggHZNSHBs85mhjpdYu7m9LcZYVZ7c93O8Vw9034F6xh24d0hqDjOdlnDaZt3atkSoAKj0CEEchA7ntFqhQVMFtDEgM1d7fPFBJI0cqRQbTHi7Xqd1aoey2gslPzD40w0IEWEbBmAaxyA7albsRavqlq3Yc47ekbfCOUpHuzx8jGX",
+              "received": false
+            }
+          ],
+          "total_price": 60345,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:24:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

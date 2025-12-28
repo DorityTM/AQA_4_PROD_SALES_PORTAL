@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:22:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3669",
+    "etag": "W/\"e55-tLu8zassR7JSvoAtts0VPCOr5hs\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ad8d1c508c5d5e45abf8",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951ad8a1c508c5d5e45aa82",
+        "email": "Korbin_Heidenreich73@gmail.com",
+        "name": "Edmond Shanahan",
+        "country": "Ukraine",
+        "city": "Racine",
+        "street": "Edgardo Pine 8",
+        "house": 813,
+        "flat": 3550,
+        "phone": "+394082785749055",
+        "createdOn": "2025-12-28T22:22:02.000Z",
+        "notes": "Rm3s9099pwvefcyVfFu1NXBReY7iCF"
+      },
+      "products": [
+        {
+          "_id": "6951ad8d1c508c5d5e45abe8",
+          "name": "Ball1105",
+          "amount": 982,
+          "price": 34783,
+          "manufacturer": "Amazon",
+          "notes": "UyqpR2UYqJssC4xyfkhHLPwEhUZOGROh6VEyc7murYeRLEHMOAC6QY8fc6p74ebNEkYnjYLheWToPoiFFO7Jf74iBCR1nDb4r7J4pviDvbwKTqQ6zgNIDTWn0YCvSgcTXucdtEJtEu9wo7SmCj7WsQh2RlPqjxtgUokbGyUp2ftjWb2BkC2IUebc4qQfQp7i2eILN52IZ72sDyGCgAzrWzQlSi4dMyVF2qC5Ugi58o5RzyzT9CkB2Imiqe",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Pollichborough",
+          "street": "Blind Lane",
+          "house": 236,
+          "flat": 277
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 34783,
+      "createdOn": "2025-12-28T22:22:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951ad8a1c508c5d5e45aa82",
+          "products": [
+            {
+              "_id": "6951ad8d1c508c5d5e45abe8",
+              "name": "Ball1105",
+              "amount": 982,
+              "price": 34783,
+              "manufacturer": "Amazon",
+              "notes": "UyqpR2UYqJssC4xyfkhHLPwEhUZOGROh6VEyc7murYeRLEHMOAC6QY8fc6p74ebNEkYnjYLheWToPoiFFO7Jf74iBCR1nDb4r7J4pviDvbwKTqQ6zgNIDTWn0YCvSgcTXucdtEJtEu9wo7SmCj7WsQh2RlPqjxtgUokbGyUp2ftjWb2BkC2IUebc4qQfQp7i2eILN52IZ72sDyGCgAzrWzQlSi4dMyVF2qC5Ugi58o5RzyzT9CkB2Imiqe",
+              "received": false
+            }
+          ],
+          "total_price": 34783,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Pollichborough",
+              "street": "Blind Lane",
+              "house": 236,
+              "flat": 277
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:22:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ad8a1c508c5d5e45aa82",
+          "products": [
+            {
+              "_id": "6951ad8d1c508c5d5e45abe8",
+              "name": "Ball1105",
+              "amount": 982,
+              "price": 34783,
+              "manufacturer": "Amazon",
+              "notes": "UyqpR2UYqJssC4xyfkhHLPwEhUZOGROh6VEyc7murYeRLEHMOAC6QY8fc6p74ebNEkYnjYLheWToPoiFFO7Jf74iBCR1nDb4r7J4pviDvbwKTqQ6zgNIDTWn0YCvSgcTXucdtEJtEu9wo7SmCj7WsQh2RlPqjxtgUokbGyUp2ftjWb2BkC2IUebc4qQfQp7i2eILN52IZ72sDyGCgAzrWzQlSi4dMyVF2qC5Ugi58o5RzyzT9CkB2Imiqe",
+              "received": false
+            }
+          ],
+          "total_price": 34783,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Pollichborough",
+              "street": "Blind Lane",
+              "house": 236,
+              "flat": 277
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:22:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ad8a1c508c5d5e45aa82",
+          "products": [
+            {
+              "_id": "6951ad8d1c508c5d5e45abe8",
+              "name": "Ball1105",
+              "amount": 982,
+              "price": 34783,
+              "manufacturer": "Amazon",
+              "notes": "UyqpR2UYqJssC4xyfkhHLPwEhUZOGROh6VEyc7murYeRLEHMOAC6QY8fc6p74ebNEkYnjYLheWToPoiFFO7Jf74iBCR1nDb4r7J4pviDvbwKTqQ6zgNIDTWn0YCvSgcTXucdtEJtEu9wo7SmCj7WsQh2RlPqjxtgUokbGyUp2ftjWb2BkC2IUebc4qQfQp7i2eILN52IZ72sDyGCgAzrWzQlSi4dMyVF2qC5Ugi58o5RzyzT9CkB2Imiqe",
+              "received": false
+            }
+          ],
+          "total_price": 34783,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:22:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:13:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5501",
+    "etag": "W/\"157d-b7a5wEr7r8uS2SCx08K8ypAewuI\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ab971c508c5d5e44d2bd",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ab951c508c5d5e44d17f",
+        "email": "Marlene74@hotmail.com",
+        "name": "Bethany Powlowski",
+        "country": "Russia",
+        "city": "Haagburgh",
+        "street": "Morar Streets 34",
+        "house": 223,
+        "flat": 9149,
+        "phone": "+038297870704988",
+        "createdOn": "2025-12-28T22:13:41.000Z",
+        "notes": "jUHBkPplmzXTmDZqJXQT7gKufDKSgn"
+      },
+      "products": [
+        {
+          "_id": "6951ab971c508c5d5e44d2a8",
+          "name": "Pizza49834",
+          "amount": 875,
+          "price": 19967,
+          "manufacturer": "Microsoft",
+          "notes": "EcIOl3M7hNLHkDr9Co7zZn9IyQKciXKp92HYulsMlRHFPMnCaG4ULKX1TMVXZdCC66gMzkVRSaFkePSwYzysoul3C0Vr5F46TZ8ufKRD4CMGR96UuNrtiQMPT9k52pLxeKNCLcYZ1k25tvDGyUFBRurO2Ha1J4ett8AQbvYMssvY64eWayoOHGiPb1m33ma77BddBLhLWE9AGHBf02Rc1o6Y8RPxDUDgr3i1KbdyjXLY2xbm3wm6y2Algr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "A",
+          "street": "5th Avenue",
+          "house": 1,
+          "flat": 101
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 19967,
+      "createdOn": "2025-12-28T22:13:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ab951c508c5d5e44d17f",
+          "products": [
+            {
+              "_id": "6951ab971c508c5d5e44d2a8",
+              "name": "Pizza49834",
+              "amount": 875,
+              "price": 19967,
+              "manufacturer": "Microsoft",
+              "notes": "EcIOl3M7hNLHkDr9Co7zZn9IyQKciXKp92HYulsMlRHFPMnCaG4ULKX1TMVXZdCC66gMzkVRSaFkePSwYzysoul3C0Vr5F46TZ8ufKRD4CMGR96UuNrtiQMPT9k52pLxeKNCLcYZ1k25tvDGyUFBRurO2Ha1J4ett8AQbvYMssvY64eWayoOHGiPb1m33ma77BddBLhLWE9AGHBf02Rc1o6Y8RPxDUDgr3i1KbdyjXLY2xbm3wm6y2Algr",
+              "received": false
+            }
+          ],
+          "total_price": 19967,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "A",
+              "street": "5th Avenue",
+              "house": 1,
+              "flat": 101
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:13:47.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab951c508c5d5e44d17f",
+          "products": [
+            {
+              "_id": "6951ab971c508c5d5e44d2a8",
+              "name": "Pizza49834",
+              "amount": 875,
+              "price": 19967,
+              "manufacturer": "Microsoft",
+              "notes": "EcIOl3M7hNLHkDr9Co7zZn9IyQKciXKp92HYulsMlRHFPMnCaG4ULKX1TMVXZdCC66gMzkVRSaFkePSwYzysoul3C0Vr5F46TZ8ufKRD4CMGR96UuNrtiQMPT9k52pLxeKNCLcYZ1k25tvDGyUFBRurO2Ha1J4ett8AQbvYMssvY64eWayoOHGiPb1m33ma77BddBLhLWE9AGHBf02Rc1o6Y8RPxDUDgr3i1KbdyjXLY2xbm3wm6y2Algr",
+              "received": false
+            }
+          ],
+          "total_price": 19967,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Zachery",
+              "street": "Joshua Club",
+              "house": 256,
+              "flat": 2264
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:13:45.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab951c508c5d5e44d17f",
+          "products": [
+            {
+              "_id": "6951ab971c508c5d5e44d2a8",
+              "name": "Pizza49834",
+              "amount": 875,
+              "price": 19967,
+              "manufacturer": "Microsoft",
+              "notes": "EcIOl3M7hNLHkDr9Co7zZn9IyQKciXKp92HYulsMlRHFPMnCaG4ULKX1TMVXZdCC66gMzkVRSaFkePSwYzysoul3C0Vr5F46TZ8ufKRD4CMGR96UuNrtiQMPT9k52pLxeKNCLcYZ1k25tvDGyUFBRurO2Ha1J4ett8AQbvYMssvY64eWayoOHGiPb1m33ma77BddBLhLWE9AGHBf02Rc1o6Y8RPxDUDgr3i1KbdyjXLY2xbm3wm6y2Algr",
+              "received": false
+            }
+          ],
+          "total_price": 19967,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Jaycee",
+              "street": "Vicarage Lane",
+              "house": 95,
+              "flat": 9710
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T22:13:44.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab951c508c5d5e44d17f",
+          "products": [
+            {
+              "_id": "6951ab971c508c5d5e44d2a8",
+              "name": "Pizza49834",
+              "amount": 875,
+              "price": 19967,
+              "manufacturer": "Microsoft",
+              "notes": "EcIOl3M7hNLHkDr9Co7zZn9IyQKciXKp92HYulsMlRHFPMnCaG4ULKX1TMVXZdCC66gMzkVRSaFkePSwYzysoul3C0Vr5F46TZ8ufKRD4CMGR96UuNrtiQMPT9k52pLxeKNCLcYZ1k25tvDGyUFBRurO2Ha1J4ett8AQbvYMssvY64eWayoOHGiPb1m33ma77BddBLhLWE9AGHBf02Rc1o6Y8RPxDUDgr3i1KbdyjXLY2xbm3wm6y2Algr",
+              "received": false
+            }
+          ],
+          "total_price": 19967,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Aleen",
+              "street": "Zieme Islands",
+              "house": 845,
+              "flat": 8763
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:13:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab951c508c5d5e44d17f",
+          "products": [
+            {
+              "_id": "6951ab971c508c5d5e44d2a8",
+              "name": "Pizza49834",
+              "amount": 875,
+              "price": 19967,
+              "manufacturer": "Microsoft",
+              "notes": "EcIOl3M7hNLHkDr9Co7zZn9IyQKciXKp92HYulsMlRHFPMnCaG4ULKX1TMVXZdCC66gMzkVRSaFkePSwYzysoul3C0Vr5F46TZ8ufKRD4CMGR96UuNrtiQMPT9k52pLxeKNCLcYZ1k25tvDGyUFBRurO2Ha1J4ett8AQbvYMssvY64eWayoOHGiPb1m33ma77BddBLhLWE9AGHBf02Rc1o6Y8RPxDUDgr3i1KbdyjXLY2xbm3wm6y2Algr",
+              "received": false
+            }
+          ],
+          "total_price": 19967,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:13:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

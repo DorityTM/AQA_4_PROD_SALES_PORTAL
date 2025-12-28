@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:12:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3683",
+    "etag": "W/\"e63-rygE5QUYKU7Vqmrm9gWhMXM2Gig\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ab5e1c508c5d5e44ba6e",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951ab5c1c508c5d5e44b961",
+        "email": "Forest74@gmail.com",
+        "name": "Fredy Blanda",
+        "country": "Great Britain",
+        "city": "Port Brodymouth",
+        "street": "N Monroe Street 90",
+        "house": 611,
+        "flat": 7596,
+        "phone": "+802975202232029",
+        "createdOn": "2025-12-28T22:12:44.000Z",
+        "notes": "xE1uVoNinCism9LpAKmujb3yL97tRT"
+      },
+      "products": [
+        {
+          "_id": "6951ab5e1c508c5d5e44ba59",
+          "name": "Keyboard73622",
+          "amount": 170,
+          "price": 61608,
+          "manufacturer": "Apple",
+          "notes": "2JA6XtCNRoxWLq8peT1V4Op3e0c6rvaTeP8PwRZmSYpmdPpjmhEpD9YkVWW3CMukmV2uNeX7UbxrkdWywW64oB0z56mP8m8Hq7s1S0XN9L4FYjEQShMzAtqL4mk2hykYCQsHlYXOa4hjQYga4hH5a41wja4KNeuWIm9bc3y2iTiUaIRou5yHth75rGgXTm7hqD1lE7C6WgHFleySXz7oImGcAGim13Ic1uLUmrKhJfDv6NrcreRrpqhWhF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lakewood",
+          "street": "Brandt Dam",
+          "house": 639,
+          "flat": 9772
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 61608,
+      "createdOn": "2025-12-28T22:12:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951ab5c1c508c5d5e44b961",
+          "products": [
+            {
+              "_id": "6951ab5e1c508c5d5e44ba59",
+              "name": "Keyboard73622",
+              "amount": 170,
+              "price": 61608,
+              "manufacturer": "Apple",
+              "notes": "2JA6XtCNRoxWLq8peT1V4Op3e0c6rvaTeP8PwRZmSYpmdPpjmhEpD9YkVWW3CMukmV2uNeX7UbxrkdWywW64oB0z56mP8m8Hq7s1S0XN9L4FYjEQShMzAtqL4mk2hykYCQsHlYXOa4hjQYga4hH5a41wja4KNeuWIm9bc3y2iTiUaIRou5yHth75rGgXTm7hqD1lE7C6WgHFleySXz7oImGcAGim13Ic1uLUmrKhJfDv6NrcreRrpqhWhF",
+              "received": false
+            }
+          ],
+          "total_price": 61608,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lakewood",
+              "street": "Brandt Dam",
+              "house": 639,
+              "flat": 9772
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:12:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab5c1c508c5d5e44b961",
+          "products": [
+            {
+              "_id": "6951ab5e1c508c5d5e44ba59",
+              "name": "Keyboard73622",
+              "amount": 170,
+              "price": 61608,
+              "manufacturer": "Apple",
+              "notes": "2JA6XtCNRoxWLq8peT1V4Op3e0c6rvaTeP8PwRZmSYpmdPpjmhEpD9YkVWW3CMukmV2uNeX7UbxrkdWywW64oB0z56mP8m8Hq7s1S0XN9L4FYjEQShMzAtqL4mk2hykYCQsHlYXOa4hjQYga4hH5a41wja4KNeuWIm9bc3y2iTiUaIRou5yHth75rGgXTm7hqD1lE7C6WgHFleySXz7oImGcAGim13Ic1uLUmrKhJfDv6NrcreRrpqhWhF",
+              "received": false
+            }
+          ],
+          "total_price": 61608,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lakewood",
+              "street": "Brandt Dam",
+              "house": 639,
+              "flat": 9772
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:12:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab5c1c508c5d5e44b961",
+          "products": [
+            {
+              "_id": "6951ab5e1c508c5d5e44ba59",
+              "name": "Keyboard73622",
+              "amount": 170,
+              "price": 61608,
+              "manufacturer": "Apple",
+              "notes": "2JA6XtCNRoxWLq8peT1V4Op3e0c6rvaTeP8PwRZmSYpmdPpjmhEpD9YkVWW3CMukmV2uNeX7UbxrkdWywW64oB0z56mP8m8Hq7s1S0XN9L4FYjEQShMzAtqL4mk2hykYCQsHlYXOa4hjQYga4hH5a41wja4KNeuWIm9bc3y2iTiUaIRou5yHth75rGgXTm7hqD1lE7C6WgHFleySXz7oImGcAGim13Ic1uLUmrKhJfDv6NrcreRrpqhWhF",
+              "received": false
+            }
+          ],
+          "total_price": 61608,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:12:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

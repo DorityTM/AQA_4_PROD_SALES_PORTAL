@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:24:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2766",
+    "etag": "W/\"ace-Xt3qeZfmRICHtNKIzLube0tEmBU\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ae341c508c5d5e45d651",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951ae2f1c508c5d5e45d571",
+        "email": "Aiyana.Lowe14@hotmail.com",
+        "name": "Jeffry Miller",
+        "country": "France",
+        "city": "Lindgrenton",
+        "street": "Julia Drive 18",
+        "house": 214,
+        "flat": 4200,
+        "phone": "+091870172745758",
+        "createdOn": "2025-12-28T22:24:47.000Z",
+        "notes": "ZeF8jUAAPZp3mVEAxHsE79SD4Fktcr"
+      },
+      "products": [
+        {
+          "_id": "6951ae311c508c5d5e45d61d",
+          "name": "Sausages14767",
+          "amount": 333,
+          "price": 98860,
+          "manufacturer": "Apple",
+          "notes": "M94MVJ2ogJe9mLnSMmXrDPIqQhFeMQAwlgLKOcZy35ox0ny4Md0024xWZLluG4xXMoI1R8PmlTEMsHLDkDnQqjLR3n3EeqHjJHTHEJGZVqXnT3pC67og3uEowpwXS1mDe3NdOO9b0nZXncsZtPoPfAvpg7Kye1z7EzypFce2M8bcdEXlF5GyORqjfobf7ODZ08uToQtAtpDisXPIDgGf5egc0F1lXukEvxEbmOPRhl3hFJjapuWqqRDM2Y",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "South Bessieton",
+          "street": "Windsor Close",
+          "house": 127,
+          "flat": 7844
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98860,
+      "createdOn": "2025-12-28T22:24:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951ae2f1c508c5d5e45d571",
+          "products": [
+            {
+              "_id": "6951ae311c508c5d5e45d61d",
+              "name": "Sausages14767",
+              "amount": 333,
+              "price": 98860,
+              "manufacturer": "Apple",
+              "notes": "M94MVJ2ogJe9mLnSMmXrDPIqQhFeMQAwlgLKOcZy35ox0ny4Md0024xWZLluG4xXMoI1R8PmlTEMsHLDkDnQqjLR3n3EeqHjJHTHEJGZVqXnT3pC67og3uEowpwXS1mDe3NdOO9b0nZXncsZtPoPfAvpg7Kye1z7EzypFce2M8bcdEXlF5GyORqjfobf7ODZ08uToQtAtpDisXPIDgGf5egc0F1lXukEvxEbmOPRhl3hFJjapuWqqRDM2Y",
+              "received": false
+            }
+          ],
+          "total_price": 98860,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Bessieton",
+              "street": "Windsor Close",
+              "house": 127,
+              "flat": 7844
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:24:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ae2f1c508c5d5e45d571",
+          "products": [
+            {
+              "_id": "6951ae311c508c5d5e45d61d",
+              "name": "Sausages14767",
+              "amount": 333,
+              "price": 98860,
+              "manufacturer": "Apple",
+              "notes": "M94MVJ2ogJe9mLnSMmXrDPIqQhFeMQAwlgLKOcZy35ox0ny4Md0024xWZLluG4xXMoI1R8PmlTEMsHLDkDnQqjLR3n3EeqHjJHTHEJGZVqXnT3pC67og3uEowpwXS1mDe3NdOO9b0nZXncsZtPoPfAvpg7Kye1z7EzypFce2M8bcdEXlF5GyORqjfobf7ODZ08uToQtAtpDisXPIDgGf5egc0F1lXukEvxEbmOPRhl3hFJjapuWqqRDM2Y",
+              "received": false
+            }
+          ],
+          "total_price": 98860,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:24:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
