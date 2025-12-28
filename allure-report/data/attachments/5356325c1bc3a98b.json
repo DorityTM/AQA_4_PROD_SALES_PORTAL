@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:11:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4629",
+    "etag": "W/\"1215-3lRjo4Yt43jB5hS3etOthUMLo7M\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ab1d1c508c5d5e449d2e",
+      "status": "Received",
+      "customer": {
+        "_id": "6951ab1a1c508c5d5e449bfd",
+        "email": "Greyson.Keebler@gmail.com",
+        "name": "Lillian Miller",
+        "country": "Canada",
+        "city": "Jersey City",
+        "street": "Marsh Lane 42",
+        "house": 649,
+        "flat": 1461,
+        "phone": "+328858601700777",
+        "createdOn": "2025-12-28T22:11:38.000Z",
+        "notes": "FttPqijlLcqTo5JGYfxLe3GNdpU6o9"
+      },
+      "products": [
+        {
+          "_id": "6951ab1d1c508c5d5e449d18",
+          "name": "Fish65122",
+          "amount": 29,
+          "price": 70650,
+          "manufacturer": "Samsung",
+          "notes": "t6rmy4uIbsFrpi20Sss8hEGrvNpPKrUchclxeXxMRi4kxZg0EAyFAwvUyJp7x8RM8enDpYiUGEswZdwucuOGcRg9b3ovIK2krmeHveK958NdxMgsGxXQNINGRfwbp8u4aq6sLgcEBs1UqhCrt4WWOhfhs4BoQ0aGj3gFh9ePVcQe2VPk9TPM9DuEoXLBbykccumkuM4ViGn4txnQWJQv73zyNO06lckajxBsAuDmFlK4CeU7rUStlhE5Ty",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Shyanneburgh",
+          "street": "Monroe Street",
+          "house": 604,
+          "flat": 1107
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 70650,
+      "createdOn": "2025-12-28T22:11:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6951ab1a1c508c5d5e449bfd",
+          "products": [
+            {
+              "_id": "6951ab1d1c508c5d5e449d18",
+              "name": "Fish65122",
+              "amount": 29,
+              "price": 70650,
+              "manufacturer": "Samsung",
+              "notes": "t6rmy4uIbsFrpi20Sss8hEGrvNpPKrUchclxeXxMRi4kxZg0EAyFAwvUyJp7x8RM8enDpYiUGEswZdwucuOGcRg9b3ovIK2krmeHveK958NdxMgsGxXQNINGRfwbp8u4aq6sLgcEBs1UqhCrt4WWOhfhs4BoQ0aGj3gFh9ePVcQe2VPk9TPM9DuEoXLBbykccumkuM4ViGn4txnQWJQv73zyNO06lckajxBsAuDmFlK4CeU7rUStlhE5Ty",
+              "received": true
+            }
+          ],
+          "total_price": 70650,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Shyanneburgh",
+              "street": "Monroe Street",
+              "house": 604,
+              "flat": 1107
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:11:44.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6951ab1a1c508c5d5e449bfd",
+          "products": [
+            {
+              "_id": "6951ab1d1c508c5d5e449d18",
+              "name": "Fish65122",
+              "amount": 29,
+              "price": 70650,
+              "manufacturer": "Samsung",
+              "notes": "t6rmy4uIbsFrpi20Sss8hEGrvNpPKrUchclxeXxMRi4kxZg0EAyFAwvUyJp7x8RM8enDpYiUGEswZdwucuOGcRg9b3ovIK2krmeHveK958NdxMgsGxXQNINGRfwbp8u4aq6sLgcEBs1UqhCrt4WWOhfhs4BoQ0aGj3gFh9ePVcQe2VPk9TPM9DuEoXLBbykccumkuM4ViGn4txnQWJQv73zyNO06lckajxBsAuDmFlK4CeU7rUStlhE5Ty",
+              "received": false
+            }
+          ],
+          "total_price": 70650,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Shyanneburgh",
+              "street": "Monroe Street",
+              "house": 604,
+              "flat": 1107
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:11:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab1a1c508c5d5e449bfd",
+          "products": [
+            {
+              "_id": "6951ab1d1c508c5d5e449d18",
+              "name": "Fish65122",
+              "amount": 29,
+              "price": 70650,
+              "manufacturer": "Samsung",
+              "notes": "t6rmy4uIbsFrpi20Sss8hEGrvNpPKrUchclxeXxMRi4kxZg0EAyFAwvUyJp7x8RM8enDpYiUGEswZdwucuOGcRg9b3ovIK2krmeHveK958NdxMgsGxXQNINGRfwbp8u4aq6sLgcEBs1UqhCrt4WWOhfhs4BoQ0aGj3gFh9ePVcQe2VPk9TPM9DuEoXLBbykccumkuM4ViGn4txnQWJQv73zyNO06lckajxBsAuDmFlK4CeU7rUStlhE5Ty",
+              "received": false
+            }
+          ],
+          "total_price": 70650,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Shyanneburgh",
+              "street": "Monroe Street",
+              "house": 604,
+              "flat": 1107
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:11:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab1a1c508c5d5e449bfd",
+          "products": [
+            {
+              "_id": "6951ab1d1c508c5d5e449d18",
+              "name": "Fish65122",
+              "amount": 29,
+              "price": 70650,
+              "manufacturer": "Samsung",
+              "notes": "t6rmy4uIbsFrpi20Sss8hEGrvNpPKrUchclxeXxMRi4kxZg0EAyFAwvUyJp7x8RM8enDpYiUGEswZdwucuOGcRg9b3ovIK2krmeHveK958NdxMgsGxXQNINGRfwbp8u4aq6sLgcEBs1UqhCrt4WWOhfhs4BoQ0aGj3gFh9ePVcQe2VPk9TPM9DuEoXLBbykccumkuM4ViGn4txnQWJQv73zyNO06lckajxBsAuDmFlK4CeU7rUStlhE5Ty",
+              "received": false
+            }
+          ],
+          "total_price": 70650,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:11:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

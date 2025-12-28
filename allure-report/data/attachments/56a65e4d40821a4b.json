@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:46:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3670",
+    "etag": "W/\"e56-vS8t42YXDtWpkiID0gjNtOLJeqE\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a52a1c508c5d5e4136dd",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951a51f1c508c5d5e413007",
+        "email": "Brett43@yahoo.com",
+        "name": "Emmet Klein",
+        "country": "Russia",
+        "city": "Pourosburgh",
+        "street": "Swaniawski Streets 92",
+        "house": 616,
+        "flat": 9758,
+        "phone": "+762670042875579",
+        "createdOn": "2025-12-28T21:46:07.000Z",
+        "notes": "MaZkDlXPjr44tizeauTuWD6knQlxDG"
+      },
+      "products": [
+        {
+          "_id": "6951a52a1c508c5d5e4136b1",
+          "name": "Shoes85579",
+          "amount": 537,
+          "price": 78461,
+          "manufacturer": "Apple",
+          "notes": "ZKCmeSzpQRVkpP4TXsQhWuq1XI5MyWLH0wPHTjlr9NedEkTcBrhDP3xwfQqWjrK8ms7iPbxJhuP4uzP3KphISYuE4oY1EnEuhAhOFtEHLZxrjQp7fBhrmtaeD59qgXcrQS5IulvcmZD5uCfrnwfmSZn5r34eWNZuRuig5MSgedCf4ohTTW6OkpLIySEOti349SCB0gCI3tyhYaOlTe7j8gAW2IB5mElA1bgVLnDsN03Vv8QeaaVOV6fwya",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Robelport",
+          "street": "E 6th Street",
+          "house": 670,
+          "flat": 4704
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 78461,
+      "createdOn": "2025-12-28T21:46:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951a51f1c508c5d5e413007",
+          "products": [
+            {
+              "_id": "6951a52a1c508c5d5e4136b1",
+              "name": "Shoes85579",
+              "amount": 537,
+              "price": 78461,
+              "manufacturer": "Apple",
+              "notes": "ZKCmeSzpQRVkpP4TXsQhWuq1XI5MyWLH0wPHTjlr9NedEkTcBrhDP3xwfQqWjrK8ms7iPbxJhuP4uzP3KphISYuE4oY1EnEuhAhOFtEHLZxrjQp7fBhrmtaeD59qgXcrQS5IulvcmZD5uCfrnwfmSZn5r34eWNZuRuig5MSgedCf4ohTTW6OkpLIySEOti349SCB0gCI3tyhYaOlTe7j8gAW2IB5mElA1bgVLnDsN03Vv8QeaaVOV6fwya",
+              "received": false
+            }
+          ],
+          "total_price": 78461,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Robelport",
+              "street": "E 6th Street",
+              "house": 670,
+              "flat": 4704
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:46:19.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a51f1c508c5d5e413007",
+          "products": [
+            {
+              "_id": "6951a52a1c508c5d5e4136b1",
+              "name": "Shoes85579",
+              "amount": 537,
+              "price": 78461,
+              "manufacturer": "Apple",
+              "notes": "ZKCmeSzpQRVkpP4TXsQhWuq1XI5MyWLH0wPHTjlr9NedEkTcBrhDP3xwfQqWjrK8ms7iPbxJhuP4uzP3KphISYuE4oY1EnEuhAhOFtEHLZxrjQp7fBhrmtaeD59qgXcrQS5IulvcmZD5uCfrnwfmSZn5r34eWNZuRuig5MSgedCf4ohTTW6OkpLIySEOti349SCB0gCI3tyhYaOlTe7j8gAW2IB5mElA1bgVLnDsN03Vv8QeaaVOV6fwya",
+              "received": false
+            }
+          ],
+          "total_price": 78461,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Robelport",
+              "street": "E 6th Street",
+              "house": 670,
+              "flat": 4704
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:46:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a51f1c508c5d5e413007",
+          "products": [
+            {
+              "_id": "6951a52a1c508c5d5e4136b1",
+              "name": "Shoes85579",
+              "amount": 537,
+              "price": 78461,
+              "manufacturer": "Apple",
+              "notes": "ZKCmeSzpQRVkpP4TXsQhWuq1XI5MyWLH0wPHTjlr9NedEkTcBrhDP3xwfQqWjrK8ms7iPbxJhuP4uzP3KphISYuE4oY1EnEuhAhOFtEHLZxrjQp7fBhrmtaeD59qgXcrQS5IulvcmZD5uCfrnwfmSZn5r34eWNZuRuig5MSgedCf4ohTTW6OkpLIySEOti349SCB0gCI3tyhYaOlTe7j8gAW2IB5mElA1bgVLnDsN03Vv8QeaaVOV6fwya",
+              "received": false
+            }
+          ],
+          "total_price": 78461,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:46:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

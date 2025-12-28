@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:10:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4613",
+    "etag": "W/\"1205-ACYh6q8QcwQ+NuMCIpIulxUF21c\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951aaeb1c508c5d5e44871b",
+      "status": "Received",
+      "customer": {
+        "_id": "6951aae81c508c5d5e44863b",
+        "email": "Jane.Mann@yahoo.com",
+        "name": "Frieda Bernhard",
+        "country": "Canada",
+        "city": "Carolina",
+        "street": "Cristobal Vista 17",
+        "house": 616,
+        "flat": 2361,
+        "phone": "+956543285824814",
+        "createdOn": "2025-12-28T22:10:48.000Z",
+        "notes": "E1vY6504tlm08BLo6eLSQzaqHhy0Q3"
+      },
+      "products": [
+        {
+          "_id": "6951aaeb1c508c5d5e448713",
+          "name": "Chicken26564",
+          "amount": 422,
+          "price": 86581,
+          "manufacturer": "Google",
+          "notes": "qTRHgSl3e9PX0RX3RWhOD2IGmD2Fnc2pGtYIVto8gKKLYpLEJsknTldJAddWQDqlTSGAvkvrV2YyPXP3SsFkavMfostk5ABc6Fvpfb933C2AEfqpOBwyWl27h6SHekAqMmT2Uxj7vOIxwtJl4j52vYupuDQKYiAFrrW6yyRXFVXBnfB9tbIjoZK7rb7FvTJLq42Tql8IAWRIqcKljgoLcTErPdhlxJKTRMLSOP7qmbA71W3xWWFKliR68c",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Karinestead",
+          "street": "OReilly Fork",
+          "house": 982,
+          "flat": 4676
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 86581,
+      "createdOn": "2025-12-28T22:10:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6951aae81c508c5d5e44863b",
+          "products": [
+            {
+              "_id": "6951aaeb1c508c5d5e448713",
+              "name": "Chicken26564",
+              "amount": 422,
+              "price": 86581,
+              "manufacturer": "Google",
+              "notes": "qTRHgSl3e9PX0RX3RWhOD2IGmD2Fnc2pGtYIVto8gKKLYpLEJsknTldJAddWQDqlTSGAvkvrV2YyPXP3SsFkavMfostk5ABc6Fvpfb933C2AEfqpOBwyWl27h6SHekAqMmT2Uxj7vOIxwtJl4j52vYupuDQKYiAFrrW6yyRXFVXBnfB9tbIjoZK7rb7FvTJLq42Tql8IAWRIqcKljgoLcTErPdhlxJKTRMLSOP7qmbA71W3xWWFKliR68c",
+              "received": true
+            }
+          ],
+          "total_price": 86581,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Karinestead",
+              "street": "OReilly Fork",
+              "house": 982,
+              "flat": 4676
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:10:52.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6951aae81c508c5d5e44863b",
+          "products": [
+            {
+              "_id": "6951aaeb1c508c5d5e448713",
+              "name": "Chicken26564",
+              "amount": 422,
+              "price": 86581,
+              "manufacturer": "Google",
+              "notes": "qTRHgSl3e9PX0RX3RWhOD2IGmD2Fnc2pGtYIVto8gKKLYpLEJsknTldJAddWQDqlTSGAvkvrV2YyPXP3SsFkavMfostk5ABc6Fvpfb933C2AEfqpOBwyWl27h6SHekAqMmT2Uxj7vOIxwtJl4j52vYupuDQKYiAFrrW6yyRXFVXBnfB9tbIjoZK7rb7FvTJLq42Tql8IAWRIqcKljgoLcTErPdhlxJKTRMLSOP7qmbA71W3xWWFKliR68c",
+              "received": false
+            }
+          ],
+          "total_price": 86581,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Karinestead",
+              "street": "OReilly Fork",
+              "house": 982,
+              "flat": 4676
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:10:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aae81c508c5d5e44863b",
+          "products": [
+            {
+              "_id": "6951aaeb1c508c5d5e448713",
+              "name": "Chicken26564",
+              "amount": 422,
+              "price": 86581,
+              "manufacturer": "Google",
+              "notes": "qTRHgSl3e9PX0RX3RWhOD2IGmD2Fnc2pGtYIVto8gKKLYpLEJsknTldJAddWQDqlTSGAvkvrV2YyPXP3SsFkavMfostk5ABc6Fvpfb933C2AEfqpOBwyWl27h6SHekAqMmT2Uxj7vOIxwtJl4j52vYupuDQKYiAFrrW6yyRXFVXBnfB9tbIjoZK7rb7FvTJLq42Tql8IAWRIqcKljgoLcTErPdhlxJKTRMLSOP7qmbA71W3xWWFKliR68c",
+              "received": false
+            }
+          ],
+          "total_price": 86581,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Karinestead",
+              "street": "OReilly Fork",
+              "house": 982,
+              "flat": 4676
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:10:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aae81c508c5d5e44863b",
+          "products": [
+            {
+              "_id": "6951aaeb1c508c5d5e448713",
+              "name": "Chicken26564",
+              "amount": 422,
+              "price": 86581,
+              "manufacturer": "Google",
+              "notes": "qTRHgSl3e9PX0RX3RWhOD2IGmD2Fnc2pGtYIVto8gKKLYpLEJsknTldJAddWQDqlTSGAvkvrV2YyPXP3SsFkavMfostk5ABc6Fvpfb933C2AEfqpOBwyWl27h6SHekAqMmT2Uxj7vOIxwtJl4j52vYupuDQKYiAFrrW6yyRXFVXBnfB9tbIjoZK7rb7FvTJLq42Tql8IAWRIqcKljgoLcTErPdhlxJKTRMLSOP7qmbA71W3xWWFKliR68c",
+              "received": false
+            }
+          ],
+          "total_price": 86581,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:10:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

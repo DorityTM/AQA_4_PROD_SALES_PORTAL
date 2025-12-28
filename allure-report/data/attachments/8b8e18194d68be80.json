@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:07:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2716",
+    "etag": "W/\"a9c-ciiq1bXiWImdXZ0EC07P96FdGS8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951aa221c508c5d5e4432d0",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951aa1e1c508c5d5e44302a",
+        "email": "Holden8@gmail.com",
+        "name": "Gus Lebsack",
+        "country": "Belarus",
+        "city": "Vista",
+        "street": "Corene Ranch 90",
+        "house": 580,
+        "flat": 7198,
+        "phone": "+837252365994502",
+        "createdOn": "2025-12-28T22:07:26.000Z",
+        "notes": "qipkyEobuLuIrlqeC2FwzYCzyNo5qS"
+      },
+      "products": [
+        {
+          "_id": "6951aa211c508c5d5e443285",
+          "name": "Car24458",
+          "amount": 670,
+          "price": 11453,
+          "manufacturer": "Xiaomi",
+          "notes": "fpXiVjAcSlHWtWCuYZUwI3mrQtlCvUiAnJ9ZapQExn18o4q8N9yZGYrk74WUEWfasek4RaD3JxLbj9uHCjcCXnyN26xNqtmy4R6FMIdynXheCHwQXh4dXnaLVlxAvn0N8H46EcyCEX50Z1AWA1kCCHYGVx8H3OEcwbheOcNb9sWma1Kp0KeqAmBudUPDZxMZorgArrN4oFzLNkONLDeiXLE3O2M5ZVFBsNoIFcn3cZYBVTOiWHx0B9rM8V",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Ponce",
+          "street": "Chyna Inlet",
+          "house": 14,
+          "flat": 1677
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 11453,
+      "createdOn": "2025-12-28T22:07:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951aa1e1c508c5d5e44302a",
+          "products": [
+            {
+              "_id": "6951aa211c508c5d5e443285",
+              "name": "Car24458",
+              "amount": 670,
+              "price": 11453,
+              "manufacturer": "Xiaomi",
+              "notes": "fpXiVjAcSlHWtWCuYZUwI3mrQtlCvUiAnJ9ZapQExn18o4q8N9yZGYrk74WUEWfasek4RaD3JxLbj9uHCjcCXnyN26xNqtmy4R6FMIdynXheCHwQXh4dXnaLVlxAvn0N8H46EcyCEX50Z1AWA1kCCHYGVx8H3OEcwbheOcNb9sWma1Kp0KeqAmBudUPDZxMZorgArrN4oFzLNkONLDeiXLE3O2M5ZVFBsNoIFcn3cZYBVTOiWHx0B9rM8V",
+              "received": false
+            }
+          ],
+          "total_price": 11453,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Ponce",
+              "street": "Chyna Inlet",
+              "house": 14,
+              "flat": 1677
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:07:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aa1e1c508c5d5e44302a",
+          "products": [
+            {
+              "_id": "6951aa211c508c5d5e443285",
+              "name": "Car24458",
+              "amount": 670,
+              "price": 11453,
+              "manufacturer": "Xiaomi",
+              "notes": "fpXiVjAcSlHWtWCuYZUwI3mrQtlCvUiAnJ9ZapQExn18o4q8N9yZGYrk74WUEWfasek4RaD3JxLbj9uHCjcCXnyN26xNqtmy4R6FMIdynXheCHwQXh4dXnaLVlxAvn0N8H46EcyCEX50Z1AWA1kCCHYGVx8H3OEcwbheOcNb9sWma1Kp0KeqAmBudUPDZxMZorgArrN4oFzLNkONLDeiXLE3O2M5ZVFBsNoIFcn3cZYBVTOiWHx0B9rM8V",
+              "received": false
+            }
+          ],
+          "total_price": 11453,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:07:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

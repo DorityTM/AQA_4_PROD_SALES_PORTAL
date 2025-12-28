@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:43:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2726",
+    "etag": "W/\"aa6-bKHMF/oXYpmTlWjuegYoPzr/CCo\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a49e1c508c5d5e40e97a",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951a49b1c508c5d5e40e824",
+        "email": "Johanna24@gmail.com",
+        "name": "Grady Schaefer",
+        "country": "Ukraine",
+        "city": "Ebertcester",
+        "street": "Keebler Spring 55",
+        "house": 2,
+        "flat": 3871,
+        "phone": "+308238331804662",
+        "createdOn": "2025-12-28T21:43:55.000Z",
+        "notes": "c0dhJ8MPD8M6Fbft8rBFHsLut1NPn9"
+      },
+      "products": [
+        {
+          "_id": "6951a49d1c508c5d5e40e95e",
+          "name": "Fish73323",
+          "amount": 334,
+          "price": 84356,
+          "manufacturer": "Google",
+          "notes": "x3iBtK389N4wzlQxGblkcGcDcsKeO7NBAakCayGSTkeZaCp8BQSUH5jhMkxv0pfFUyt8rHDp6NjLRsXOwkveOLeQ5Yau5VP1863cDdHu8EhiAHhIbgqIeqqsAdVWUoBNfOxDBBkoJhZtTwNwTR0sarihik6905munbIjkoBQYqA5KmSQuW9LhwvHqWH2LC56Q9csbHjL7NXNNphjLnvJa3yjNpcrKURHKUvP22329NYKKzpBueTDdiOYuY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Lake Zelma",
+          "street": "Woodside",
+          "house": 20,
+          "flat": 1592
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 84356,
+      "createdOn": "2025-12-28T21:43:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951a49b1c508c5d5e40e824",
+          "products": [
+            {
+              "_id": "6951a49d1c508c5d5e40e95e",
+              "name": "Fish73323",
+              "amount": 334,
+              "price": 84356,
+              "manufacturer": "Google",
+              "notes": "x3iBtK389N4wzlQxGblkcGcDcsKeO7NBAakCayGSTkeZaCp8BQSUH5jhMkxv0pfFUyt8rHDp6NjLRsXOwkveOLeQ5Yau5VP1863cDdHu8EhiAHhIbgqIeqqsAdVWUoBNfOxDBBkoJhZtTwNwTR0sarihik6905munbIjkoBQYqA5KmSQuW9LhwvHqWH2LC56Q9csbHjL7NXNNphjLnvJa3yjNpcrKURHKUvP22329NYKKzpBueTDdiOYuY",
+              "received": false
+            }
+          ],
+          "total_price": 84356,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lake Zelma",
+              "street": "Woodside",
+              "house": 20,
+              "flat": 1592
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:43:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a49b1c508c5d5e40e824",
+          "products": [
+            {
+              "_id": "6951a49d1c508c5d5e40e95e",
+              "name": "Fish73323",
+              "amount": 334,
+              "price": 84356,
+              "manufacturer": "Google",
+              "notes": "x3iBtK389N4wzlQxGblkcGcDcsKeO7NBAakCayGSTkeZaCp8BQSUH5jhMkxv0pfFUyt8rHDp6NjLRsXOwkveOLeQ5Yau5VP1863cDdHu8EhiAHhIbgqIeqqsAdVWUoBNfOxDBBkoJhZtTwNwTR0sarihik6905munbIjkoBQYqA5KmSQuW9LhwvHqWH2LC56Q9csbHjL7NXNNphjLnvJa3yjNpcrKURHKUvP22329NYKKzpBueTDdiOYuY",
+              "received": false
+            }
+          ],
+          "total_price": 84356,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:43:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

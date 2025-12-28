@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:11:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4613",
+    "etag": "W/\"1205-DdhNkeNBL6dc+bxhPkWg6EmZXtE\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951aafa1c508c5d5e448e43",
+      "status": "Received",
+      "customer": {
+        "_id": "6951aaf71c508c5d5e448c55",
+        "email": "Hayley_Ratke@gmail.com",
+        "name": "Haylie Boyer",
+        "country": "Great Britain",
+        "city": "Mireyamouth",
+        "street": "Poplar Road 72",
+        "house": 935,
+        "flat": 7447,
+        "phone": "+844869793816768",
+        "createdOn": "2025-12-28T22:11:03.000Z",
+        "notes": "Wy52INvmwS0JQTWYJFjlg8w0eEdsrW"
+      },
+      "products": [
+        {
+          "_id": "6951aafa1c508c5d5e448de3",
+          "name": "Pizza17552",
+          "amount": 208,
+          "price": 95758,
+          "manufacturer": "Google",
+          "notes": "D7j3gjLehZCKSwopMWkdwme9Wr5P6DFTmNU6XDoHc5xU5Rh0ALMcZH6EFQhX72ypcSIQoOhPgI4X6tjNDVWizZ8VY6i1DGYrXjPW25rFX8N7CWM32irdXz89NBD8lhI9yXKnOrZX6hTIMPKUNbvuYl38KEPXnGAHRQKLCLUDKx8R8Z2TGPlmpgHb7NV9s5b6LRPh74bbs2fiSyrR4uOjXxB5KhKp2vAPJZHrtkZH2d18p2oB7GrEcFmZd4",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Corwintown",
+          "street": "Schmitt Rapids",
+          "house": 424,
+          "flat": 4814
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 95758,
+      "createdOn": "2025-12-28T22:11:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6951aaf71c508c5d5e448c55",
+          "products": [
+            {
+              "_id": "6951aafa1c508c5d5e448de3",
+              "name": "Pizza17552",
+              "amount": 208,
+              "price": 95758,
+              "manufacturer": "Google",
+              "notes": "D7j3gjLehZCKSwopMWkdwme9Wr5P6DFTmNU6XDoHc5xU5Rh0ALMcZH6EFQhX72ypcSIQoOhPgI4X6tjNDVWizZ8VY6i1DGYrXjPW25rFX8N7CWM32irdXz89NBD8lhI9yXKnOrZX6hTIMPKUNbvuYl38KEPXnGAHRQKLCLUDKx8R8Z2TGPlmpgHb7NV9s5b6LRPh74bbs2fiSyrR4uOjXxB5KhKp2vAPJZHrtkZH2d18p2oB7GrEcFmZd4",
+              "received": true
+            }
+          ],
+          "total_price": 95758,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Corwintown",
+              "street": "Schmitt Rapids",
+              "house": 424,
+              "flat": 4814
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:11:10.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6951aaf71c508c5d5e448c55",
+          "products": [
+            {
+              "_id": "6951aafa1c508c5d5e448de3",
+              "name": "Pizza17552",
+              "amount": 208,
+              "price": 95758,
+              "manufacturer": "Google",
+              "notes": "D7j3gjLehZCKSwopMWkdwme9Wr5P6DFTmNU6XDoHc5xU5Rh0ALMcZH6EFQhX72ypcSIQoOhPgI4X6tjNDVWizZ8VY6i1DGYrXjPW25rFX8N7CWM32irdXz89NBD8lhI9yXKnOrZX6hTIMPKUNbvuYl38KEPXnGAHRQKLCLUDKx8R8Z2TGPlmpgHb7NV9s5b6LRPh74bbs2fiSyrR4uOjXxB5KhKp2vAPJZHrtkZH2d18p2oB7GrEcFmZd4",
+              "received": false
+            }
+          ],
+          "total_price": 95758,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Corwintown",
+              "street": "Schmitt Rapids",
+              "house": 424,
+              "flat": 4814
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:11:09.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aaf71c508c5d5e448c55",
+          "products": [
+            {
+              "_id": "6951aafa1c508c5d5e448de3",
+              "name": "Pizza17552",
+              "amount": 208,
+              "price": 95758,
+              "manufacturer": "Google",
+              "notes": "D7j3gjLehZCKSwopMWkdwme9Wr5P6DFTmNU6XDoHc5xU5Rh0ALMcZH6EFQhX72ypcSIQoOhPgI4X6tjNDVWizZ8VY6i1DGYrXjPW25rFX8N7CWM32irdXz89NBD8lhI9yXKnOrZX6hTIMPKUNbvuYl38KEPXnGAHRQKLCLUDKx8R8Z2TGPlmpgHb7NV9s5b6LRPh74bbs2fiSyrR4uOjXxB5KhKp2vAPJZHrtkZH2d18p2oB7GrEcFmZd4",
+              "received": false
+            }
+          ],
+          "total_price": 95758,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Corwintown",
+              "street": "Schmitt Rapids",
+              "house": 424,
+              "flat": 4814
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:11:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aaf71c508c5d5e448c55",
+          "products": [
+            {
+              "_id": "6951aafa1c508c5d5e448de3",
+              "name": "Pizza17552",
+              "amount": 208,
+              "price": 95758,
+              "manufacturer": "Google",
+              "notes": "D7j3gjLehZCKSwopMWkdwme9Wr5P6DFTmNU6XDoHc5xU5Rh0ALMcZH6EFQhX72ypcSIQoOhPgI4X6tjNDVWizZ8VY6i1DGYrXjPW25rFX8N7CWM32irdXz89NBD8lhI9yXKnOrZX6hTIMPKUNbvuYl38KEPXnGAHRQKLCLUDKx8R8Z2TGPlmpgHb7NV9s5b6LRPh74bbs2fiSyrR4uOjXxB5KhKp2vAPJZHrtkZH2d18p2oB7GrEcFmZd4",
+              "received": false
+            }
+          ],
+          "total_price": 95758,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:11:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:11:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3681",
+    "etag": "W/\"e61-CYbs/5olFxT6C7z94t4RHk+9hJM\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951aaf31c508c5d5e448acb",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951aaf11c508c5d5e448971",
+        "email": "Claude.Dare@gmail.com",
+        "name": "Baylee Goodwin",
+        "country": "Russia",
+        "city": "South Fiona",
+        "street": "Brook Street 42",
+        "house": 190,
+        "flat": 3736,
+        "phone": "+399550773683414",
+        "createdOn": "2025-12-28T22:10:57.000Z",
+        "notes": "5ezRFlze1MkQi99oUfz8yx1BDRlYuB"
+      },
+      "products": [
+        {
+          "_id": "6951aaf31c508c5d5e448aba",
+          "name": "Salad16884",
+          "amount": 249,
+          "price": 47663,
+          "manufacturer": "Google",
+          "notes": "wbUVS4d8zQGSP2sdHvfZbma9GR0CgVvYQqwvvLIInGHrXuG1BaxlGdjoRSp4OXCKUwuK17neNmFEMxPyJrkIBFwtJkoKJwHplW13mkmNPBHPyAnd1RUjFBNGZJHa4ZrMWn94UJzu2XvJIGUnGaZe8i9m1AT32ESLfQgG3JXAgdIWClAQHpoynmQ9LCdKlIAwz9ZTfRjz99T76nqwvc6Fdlylv71HNsLbJyGzWUVobD1I5yOOaPorRi67qL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Boynton Beach",
+          "street": "Elva Overpass",
+          "house": 542,
+          "flat": 2770
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47663,
+      "createdOn": "2025-12-28T22:10:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951aaf11c508c5d5e448971",
+          "products": [
+            {
+              "_id": "6951aaf31c508c5d5e448aba",
+              "name": "Salad16884",
+              "amount": 249,
+              "price": 47663,
+              "manufacturer": "Google",
+              "notes": "wbUVS4d8zQGSP2sdHvfZbma9GR0CgVvYQqwvvLIInGHrXuG1BaxlGdjoRSp4OXCKUwuK17neNmFEMxPyJrkIBFwtJkoKJwHplW13mkmNPBHPyAnd1RUjFBNGZJHa4ZrMWn94UJzu2XvJIGUnGaZe8i9m1AT32ESLfQgG3JXAgdIWClAQHpoynmQ9LCdKlIAwz9ZTfRjz99T76nqwvc6Fdlylv71HNsLbJyGzWUVobD1I5yOOaPorRi67qL",
+              "received": false
+            }
+          ],
+          "total_price": 47663,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Boynton Beach",
+              "street": "Elva Overpass",
+              "house": 542,
+              "flat": 2770
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:11:00.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aaf11c508c5d5e448971",
+          "products": [
+            {
+              "_id": "6951aaf31c508c5d5e448aba",
+              "name": "Salad16884",
+              "amount": 249,
+              "price": 47663,
+              "manufacturer": "Google",
+              "notes": "wbUVS4d8zQGSP2sdHvfZbma9GR0CgVvYQqwvvLIInGHrXuG1BaxlGdjoRSp4OXCKUwuK17neNmFEMxPyJrkIBFwtJkoKJwHplW13mkmNPBHPyAnd1RUjFBNGZJHa4ZrMWn94UJzu2XvJIGUnGaZe8i9m1AT32ESLfQgG3JXAgdIWClAQHpoynmQ9LCdKlIAwz9ZTfRjz99T76nqwvc6Fdlylv71HNsLbJyGzWUVobD1I5yOOaPorRi67qL",
+              "received": false
+            }
+          ],
+          "total_price": 47663,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Boynton Beach",
+              "street": "Elva Overpass",
+              "house": 542,
+              "flat": 2770
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:11:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aaf11c508c5d5e448971",
+          "products": [
+            {
+              "_id": "6951aaf31c508c5d5e448aba",
+              "name": "Salad16884",
+              "amount": 249,
+              "price": 47663,
+              "manufacturer": "Google",
+              "notes": "wbUVS4d8zQGSP2sdHvfZbma9GR0CgVvYQqwvvLIInGHrXuG1BaxlGdjoRSp4OXCKUwuK17neNmFEMxPyJrkIBFwtJkoKJwHplW13mkmNPBHPyAnd1RUjFBNGZJHa4ZrMWn94UJzu2XvJIGUnGaZe8i9m1AT32ESLfQgG3JXAgdIWClAQHpoynmQ9LCdKlIAwz9ZTfRjz99T76nqwvc6Fdlylv71HNsLbJyGzWUVobD1I5yOOaPorRi67qL",
+              "received": false
+            }
+          ],
+          "total_price": 47663,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:10:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

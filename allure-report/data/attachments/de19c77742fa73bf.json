@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:44:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2750",
+    "etag": "W/\"abe-PF0cjamIXw4oNNTI48Kxrlwa6PE\"",
+    "keep-alive": "timeout=5, max=25",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a4ad1c508c5d5e40f2e9",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951a4a81c508c5d5e40f0ea",
+        "email": "Humberto.Murray@hotmail.com",
+        "name": "Rudy Ondricka",
+        "country": "Great Britain",
+        "city": "Port Chasity",
+        "street": "Greenholt Mill 2",
+        "house": 955,
+        "flat": 2454,
+        "phone": "+673667758922769",
+        "createdOn": "2025-12-28T21:44:08.000Z",
+        "notes": "5FFKhgJmOlbwVQWd2ukhugWMikJLnS"
+      },
+      "products": [
+        {
+          "_id": "6951a4ab1c508c5d5e40f2ca",
+          "name": "Hat83110",
+          "amount": 237,
+          "price": 57417,
+          "manufacturer": "Sony",
+          "notes": "pwcFTdSNar3LiimLc0xm2ifsFPYXCPWjbFfJMhk18HtRENtUlkqyMpS7epqabxRzHksrKGCcuvgaZyVRQ9eatLSJD0ziZb738ps2cfY5wsXUHldzqgxVgmx2gv6rpqSx7ivMrEDeinGuCIKtNqS5EQAT2Qg5H0Bx2UZMCgIpolyHywse4tXo2gsA3Y4xk5lTGSoX25HsfVgw8qDZoXiMZRoNPNLeUOS2eP2ykROlfAD5gFQMG2vkZMlWZ7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Aylinland",
+          "street": "Lowe Parkways",
+          "house": 814,
+          "flat": 8703
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 57417,
+      "createdOn": "2025-12-28T21:44:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951a4a81c508c5d5e40f0ea",
+          "products": [
+            {
+              "_id": "6951a4ab1c508c5d5e40f2ca",
+              "name": "Hat83110",
+              "amount": 237,
+              "price": 57417,
+              "manufacturer": "Sony",
+              "notes": "pwcFTdSNar3LiimLc0xm2ifsFPYXCPWjbFfJMhk18HtRENtUlkqyMpS7epqabxRzHksrKGCcuvgaZyVRQ9eatLSJD0ziZb738ps2cfY5wsXUHldzqgxVgmx2gv6rpqSx7ivMrEDeinGuCIKtNqS5EQAT2Qg5H0Bx2UZMCgIpolyHywse4tXo2gsA3Y4xk5lTGSoX25HsfVgw8qDZoXiMZRoNPNLeUOS2eP2ykROlfAD5gFQMG2vkZMlWZ7",
+              "received": false
+            }
+          ],
+          "total_price": 57417,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Aylinland",
+              "street": "Lowe Parkways",
+              "house": 814,
+              "flat": 8703
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:44:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a4a81c508c5d5e40f0ea",
+          "products": [
+            {
+              "_id": "6951a4ab1c508c5d5e40f2ca",
+              "name": "Hat83110",
+              "amount": 237,
+              "price": 57417,
+              "manufacturer": "Sony",
+              "notes": "pwcFTdSNar3LiimLc0xm2ifsFPYXCPWjbFfJMhk18HtRENtUlkqyMpS7epqabxRzHksrKGCcuvgaZyVRQ9eatLSJD0ziZb738ps2cfY5wsXUHldzqgxVgmx2gv6rpqSx7ivMrEDeinGuCIKtNqS5EQAT2Qg5H0Bx2UZMCgIpolyHywse4tXo2gsA3Y4xk5lTGSoX25HsfVgw8qDZoXiMZRoNPNLeUOS2eP2ykROlfAD5gFQMG2vkZMlWZ7",
+              "received": false
+            }
+          ],
+          "total_price": 57417,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:44:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

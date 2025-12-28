@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:11:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3712",
+    "etag": "W/\"e80-UofW9Cw6mUiYVSkElnU66I1JeC4\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951ab161c508c5d5e449a9d",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951ab131c508c5d5e4499a3",
+        "email": "Felton_Tillman67@yahoo.com",
+        "name": "Sandy Dare",
+        "country": "Great Britain",
+        "city": "Johannville",
+        "street": "Lucius Crescent 36",
+        "house": 400,
+        "flat": 1474,
+        "phone": "+840237609656881",
+        "createdOn": "2025-12-28T22:11:31.000Z",
+        "notes": "QFMR88uWmoqrfFU1yEUauTi55irxlR"
+      },
+      "products": [
+        {
+          "_id": "6951ab161c508c5d5e449a4b",
+          "name": "Chicken97904",
+          "amount": 478,
+          "price": 19271,
+          "manufacturer": "Microsoft",
+          "notes": "fIxRoidMMk0rKGi54krCbGsCmHQcc2JR1CY0qU7JH3AEZ2sZMsOdqJtYOMflvX8mormNl1u4Zsb9tDQRycOoK9Se6t219tYTaWK2fuhNvAvpC1GKahBMY9oN362aFRhAMghA0ruZw2xpleL2XqNPXae0S0kPaT99IRRA5wy37ln1oxBaGt1mebwBwjgX6XVcRcLJfFaM4uWLvLxUWAiPET9td7UZCleeh57lQwzTquRp17O3XZiLibsLM4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Oleton",
+          "street": "Holly Drive",
+          "house": 346,
+          "flat": 3598
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 19271,
+      "createdOn": "2025-12-28T22:11:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951ab131c508c5d5e4499a3",
+          "products": [
+            {
+              "_id": "6951ab161c508c5d5e449a4b",
+              "name": "Chicken97904",
+              "amount": 478,
+              "price": 19271,
+              "manufacturer": "Microsoft",
+              "notes": "fIxRoidMMk0rKGi54krCbGsCmHQcc2JR1CY0qU7JH3AEZ2sZMsOdqJtYOMflvX8mormNl1u4Zsb9tDQRycOoK9Se6t219tYTaWK2fuhNvAvpC1GKahBMY9oN362aFRhAMghA0ruZw2xpleL2XqNPXae0S0kPaT99IRRA5wy37ln1oxBaGt1mebwBwjgX6XVcRcLJfFaM4uWLvLxUWAiPET9td7UZCleeh57lQwzTquRp17O3XZiLibsLM4",
+              "received": false
+            }
+          ],
+          "total_price": 19271,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Oleton",
+              "street": "Holly Drive",
+              "house": 346,
+              "flat": 3598
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:11:36.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab131c508c5d5e4499a3",
+          "products": [
+            {
+              "_id": "6951ab161c508c5d5e449a4b",
+              "name": "Chicken97904",
+              "amount": 478,
+              "price": 19271,
+              "manufacturer": "Microsoft",
+              "notes": "fIxRoidMMk0rKGi54krCbGsCmHQcc2JR1CY0qU7JH3AEZ2sZMsOdqJtYOMflvX8mormNl1u4Zsb9tDQRycOoK9Se6t219tYTaWK2fuhNvAvpC1GKahBMY9oN362aFRhAMghA0ruZw2xpleL2XqNPXae0S0kPaT99IRRA5wy37ln1oxBaGt1mebwBwjgX6XVcRcLJfFaM4uWLvLxUWAiPET9td7UZCleeh57lQwzTquRp17O3XZiLibsLM4",
+              "received": false
+            }
+          ],
+          "total_price": 19271,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Oleton",
+              "street": "Holly Drive",
+              "house": 346,
+              "flat": 3598
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:11:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951ab131c508c5d5e4499a3",
+          "products": [
+            {
+              "_id": "6951ab161c508c5d5e449a4b",
+              "name": "Chicken97904",
+              "amount": 478,
+              "price": 19271,
+              "manufacturer": "Microsoft",
+              "notes": "fIxRoidMMk0rKGi54krCbGsCmHQcc2JR1CY0qU7JH3AEZ2sZMsOdqJtYOMflvX8mormNl1u4Zsb9tDQRycOoK9Se6t219tYTaWK2fuhNvAvpC1GKahBMY9oN362aFRhAMghA0ruZw2xpleL2XqNPXae0S0kPaT99IRRA5wy37ln1oxBaGt1mebwBwjgX6XVcRcLJfFaM4uWLvLxUWAiPET9td7UZCleeh57lQwzTquRp17O3XZiLibsLM4",
+              "received": false
+            }
+          ],
+          "total_price": 19271,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:11:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

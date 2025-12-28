@@ -1,0 +1,184 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:09:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3877",
+    "etag": "W/\"f25-+WSyBk0LMO92/Xhx3DOjPOoHZNw\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951aa851c508c5d5e4464e9",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951aa821c508c5d5e44640e",
+        "email": "Deontae_Adams@hotmail.com",
+        "name": "Kristoffer Carter",
+        "country": "Russia",
+        "city": "Lake Katheryn",
+        "street": "Harris Oval 8",
+        "house": 850,
+        "flat": 2293,
+        "phone": "+033883978574541",
+        "createdOn": "2025-12-28T22:09:06.000Z",
+        "notes": "DwcjyYQnZ97H4Scc1pJJw3ybQIsxnl"
+      },
+      "products": [
+        {
+          "_id": "6951aa841c508c5d5e4464b6",
+          "name": "Car54013",
+          "amount": 723,
+          "price": 34830,
+          "manufacturer": "Amazon",
+          "notes": "edDJk61xc4AULFil3S4TnWMHwhwxREpmrb3vN8pyE5i5T8Svx8FU76k8ZQvgQrejdUEvBBW6NKcqDhD0BkkeAUTbuF1y6Rh0whJAsHkxkkIuQ92unIzGftONvI6HFsgt0ljBj37XnMLofjS6h7D40IUuI9dwSg4ntUhnFEu4DReTlgnyb7Vv13SS7EHMZzrGK588n0ceWgFgIBefd8Yobi56MfZCzQ4918QcgKcSogFmNWRIy9EZt22Oze",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Gerlachtown",
+          "street": "Park Road",
+          "house": 691,
+          "flat": 1949
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 34830,
+      "createdOn": "2025-12-28T22:09:09.000Z",
+      "comments": [
+        {
+          "text": "Comment 1",
+          "createdOn": "2025-12-28T22:09:10.000Z",
+          "_id": "6951aa861c508c5d5e4465ab"
+        },
+        {
+          "text": "Comment 2",
+          "createdOn": "2025-12-28T22:09:11.000Z",
+          "_id": "6951aa871c508c5d5e44660e"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951aa821c508c5d5e44640e",
+          "products": [
+            {
+              "_id": "6951aa841c508c5d5e4464b6",
+              "name": "Car54013",
+              "amount": 723,
+              "price": 34830,
+              "manufacturer": "Amazon",
+              "notes": "edDJk61xc4AULFil3S4TnWMHwhwxREpmrb3vN8pyE5i5T8Svx8FU76k8ZQvgQrejdUEvBBW6NKcqDhD0BkkeAUTbuF1y6Rh0whJAsHkxkkIuQ92unIzGftONvI6HFsgt0ljBj37XnMLofjS6h7D40IUuI9dwSg4ntUhnFEu4DReTlgnyb7Vv13SS7EHMZzrGK588n0ceWgFgIBefd8Yobi56MfZCzQ4918QcgKcSogFmNWRIy9EZt22Oze",
+              "received": false
+            }
+          ],
+          "total_price": 34830,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Gerlachtown",
+              "street": "Park Road",
+              "house": 691,
+              "flat": 1949
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:09:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aa821c508c5d5e44640e",
+          "products": [
+            {
+              "_id": "6951aa841c508c5d5e4464b6",
+              "name": "Car54013",
+              "amount": 723,
+              "price": 34830,
+              "manufacturer": "Amazon",
+              "notes": "edDJk61xc4AULFil3S4TnWMHwhwxREpmrb3vN8pyE5i5T8Svx8FU76k8ZQvgQrejdUEvBBW6NKcqDhD0BkkeAUTbuF1y6Rh0whJAsHkxkkIuQ92unIzGftONvI6HFsgt0ljBj37XnMLofjS6h7D40IUuI9dwSg4ntUhnFEu4DReTlgnyb7Vv13SS7EHMZzrGK588n0ceWgFgIBefd8Yobi56MfZCzQ4918QcgKcSogFmNWRIy9EZt22Oze",
+              "received": false
+            }
+          ],
+          "total_price": 34830,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Gerlachtown",
+              "street": "Park Road",
+              "house": 691,
+              "flat": 1949
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:09:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aa821c508c5d5e44640e",
+          "products": [
+            {
+              "_id": "6951aa841c508c5d5e4464b6",
+              "name": "Car54013",
+              "amount": 723,
+              "price": 34830,
+              "manufacturer": "Amazon",
+              "notes": "edDJk61xc4AULFil3S4TnWMHwhwxREpmrb3vN8pyE5i5T8Svx8FU76k8ZQvgQrejdUEvBBW6NKcqDhD0BkkeAUTbuF1y6Rh0whJAsHkxkkIuQ92unIzGftONvI6HFsgt0ljBj37XnMLofjS6h7D40IUuI9dwSg4ntUhnFEu4DReTlgnyb7Vv13SS7EHMZzrGK588n0ceWgFgIBefd8Yobi56MfZCzQ4918QcgKcSogFmNWRIy9EZt22Oze",
+              "received": false
+            }
+          ],
+          "total_price": 34830,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:09:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

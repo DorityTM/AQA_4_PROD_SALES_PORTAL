@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:10:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4618",
+    "etag": "W/\"120a-7ocNhBwkzt17PSAmvKAvcqMUbIo\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951aada1c508c5d5e448035",
+      "status": "Received",
+      "customer": {
+        "_id": "6951aad71c508c5d5e447eaf",
+        "email": "Adella_Wunsch@yahoo.com",
+        "name": "Gunner Paucek",
+        "country": "Ukraine",
+        "city": "Huntington Beach",
+        "street": "Graham Center 20",
+        "house": 226,
+        "flat": 3929,
+        "phone": "+286854364766939",
+        "createdOn": "2025-12-28T22:10:31.000Z",
+        "notes": "4GsncAqDTUHefPFpN3oVdOjqE5qqRa"
+      },
+      "products": [
+        {
+          "_id": "6951aad91c508c5d5e448025",
+          "name": "Car27694",
+          "amount": 787,
+          "price": 24835,
+          "manufacturer": "Xiaomi",
+          "notes": "9HT85Vv8JNGQLC8f4ZYoSAsV6p5bWAmZocPQWN5S0RKM5eCU0xqui6M2UzGkZSgcOqIQj33WmVguCEsR78za7nR6ggNQ2m9weCmsXaRt4tfe8lgdbqxDJB0SoD1SguqogmGWyqiKhmI4mW2nhwahzHWXVRUAS4Ni9MxBGNY9MPHdZqm4BWcqOv4dE9nV7vhQUCpgyn3Cj2wWrxkBY5Mow1lhj2su3Nxm8bZhFst9hrwmuQVTnl2Ex0Ytar",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "The Woodlands",
+          "street": "Osinski Brooks",
+          "house": 467,
+          "flat": 8369
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 24835,
+      "createdOn": "2025-12-28T22:10:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6951aad71c508c5d5e447eaf",
+          "products": [
+            {
+              "_id": "6951aad91c508c5d5e448025",
+              "name": "Car27694",
+              "amount": 787,
+              "price": 24835,
+              "manufacturer": "Xiaomi",
+              "notes": "9HT85Vv8JNGQLC8f4ZYoSAsV6p5bWAmZocPQWN5S0RKM5eCU0xqui6M2UzGkZSgcOqIQj33WmVguCEsR78za7nR6ggNQ2m9weCmsXaRt4tfe8lgdbqxDJB0SoD1SguqogmGWyqiKhmI4mW2nhwahzHWXVRUAS4Ni9MxBGNY9MPHdZqm4BWcqOv4dE9nV7vhQUCpgyn3Cj2wWrxkBY5Mow1lhj2su3Nxm8bZhFst9hrwmuQVTnl2Ex0Ytar",
+              "received": true
+            }
+          ],
+          "total_price": 24835,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "The Woodlands",
+              "street": "Osinski Brooks",
+              "house": 467,
+              "flat": 8369
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:10:35.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6951aad71c508c5d5e447eaf",
+          "products": [
+            {
+              "_id": "6951aad91c508c5d5e448025",
+              "name": "Car27694",
+              "amount": 787,
+              "price": 24835,
+              "manufacturer": "Xiaomi",
+              "notes": "9HT85Vv8JNGQLC8f4ZYoSAsV6p5bWAmZocPQWN5S0RKM5eCU0xqui6M2UzGkZSgcOqIQj33WmVguCEsR78za7nR6ggNQ2m9weCmsXaRt4tfe8lgdbqxDJB0SoD1SguqogmGWyqiKhmI4mW2nhwahzHWXVRUAS4Ni9MxBGNY9MPHdZqm4BWcqOv4dE9nV7vhQUCpgyn3Cj2wWrxkBY5Mow1lhj2su3Nxm8bZhFst9hrwmuQVTnl2Ex0Ytar",
+              "received": false
+            }
+          ],
+          "total_price": 24835,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "The Woodlands",
+              "street": "Osinski Brooks",
+              "house": 467,
+              "flat": 8369
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:10:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aad71c508c5d5e447eaf",
+          "products": [
+            {
+              "_id": "6951aad91c508c5d5e448025",
+              "name": "Car27694",
+              "amount": 787,
+              "price": 24835,
+              "manufacturer": "Xiaomi",
+              "notes": "9HT85Vv8JNGQLC8f4ZYoSAsV6p5bWAmZocPQWN5S0RKM5eCU0xqui6M2UzGkZSgcOqIQj33WmVguCEsR78za7nR6ggNQ2m9weCmsXaRt4tfe8lgdbqxDJB0SoD1SguqogmGWyqiKhmI4mW2nhwahzHWXVRUAS4Ni9MxBGNY9MPHdZqm4BWcqOv4dE9nV7vhQUCpgyn3Cj2wWrxkBY5Mow1lhj2su3Nxm8bZhFst9hrwmuQVTnl2Ex0Ytar",
+              "received": false
+            }
+          ],
+          "total_price": 24835,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "The Woodlands",
+              "street": "Osinski Brooks",
+              "house": 467,
+              "flat": 8369
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:10:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951aad71c508c5d5e447eaf",
+          "products": [
+            {
+              "_id": "6951aad91c508c5d5e448025",
+              "name": "Car27694",
+              "amount": 787,
+              "price": 24835,
+              "manufacturer": "Xiaomi",
+              "notes": "9HT85Vv8JNGQLC8f4ZYoSAsV6p5bWAmZocPQWN5S0RKM5eCU0xqui6M2UzGkZSgcOqIQj33WmVguCEsR78za7nR6ggNQ2m9weCmsXaRt4tfe8lgdbqxDJB0SoD1SguqogmGWyqiKhmI4mW2nhwahzHWXVRUAS4Ni9MxBGNY9MPHdZqm4BWcqOv4dE9nV7vhQUCpgyn3Cj2wWrxkBY5Mow1lhj2su3Nxm8bZhFst9hrwmuQVTnl2Ex0Ytar",
+              "received": false
+            }
+          ],
+          "total_price": 24835,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:10:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

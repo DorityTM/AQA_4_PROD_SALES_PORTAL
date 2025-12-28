@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:57:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1678",
+    "etag": "W/\"68e-qPDpllKgZJUZiOAA+C/bHpmeeAI\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6951a7a81c508c5d5e42cae2",
+        "email": "Brayan_McLaughlin@gmail.com",
+        "name": "Kurt Hirthe",
+        "country": "France",
+        "city": "Ginomouth",
+        "street": "Henry Street 2",
+        "house": 523,
+        "flat": 4189,
+        "phone": "+874291289784444",
+        "createdOn": "2025-12-28T21:56:56.000Z",
+        "notes": "3KsuVPjNxINhpGsytrVFGApd1tTlUE"
+      },
+      "products": [
+        {
+          "_id": "6951a7ac1c508c5d5e42d0b8",
+          "name": "Sausages45028",
+          "amount": 666,
+          "price": 36305,
+          "manufacturer": "Amazon",
+          "notes": "GP3S31PCmscxjOO3eaeHr51y28eg9n0WsikiNC3rdqgAnsKtgH3S6zUNeAT4Gi3KK9sFJ9gUk2twYvolThJB8BL5WGO16OiQqd40CmVObVzLuGkRgwmWZOq9exyf5TCUdMCQQcBSQCUZzBZacV2axonFxNuFwPceHtru5Zs7Zh8blVu7rZ7Qo763TVpgjjNQ9rB6DhGdZIVTv3eDOyJmKbFQxGGLbRokhrJHAH7X6Sy99J1LDcA77lQOv2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 36305,
+      "createdOn": "2025-12-28T21:57:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951a7a81c508c5d5e42cae2",
+          "products": [
+            {
+              "_id": "6951a7ac1c508c5d5e42d0b8",
+              "name": "Sausages45028",
+              "amount": 666,
+              "price": 36305,
+              "manufacturer": "Amazon",
+              "notes": "GP3S31PCmscxjOO3eaeHr51y28eg9n0WsikiNC3rdqgAnsKtgH3S6zUNeAT4Gi3KK9sFJ9gUk2twYvolThJB8BL5WGO16OiQqd40CmVObVzLuGkRgwmWZOq9exyf5TCUdMCQQcBSQCUZzBZacV2axonFxNuFwPceHtru5Zs7Zh8blVu7rZ7Qo763TVpgjjNQ9rB6DhGdZIVTv3eDOyJmKbFQxGGLbRokhrJHAH7X6Sy99J1LDcA77lQOv2",
+              "received": false
+            }
+          ],
+          "total_price": 36305,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:57:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6951a7cd1c508c5d5e42dff8"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
