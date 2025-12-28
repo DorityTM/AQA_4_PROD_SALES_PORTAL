@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 12:59:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5239",
+    "etag": "W/\"1477-A1ot2lC7Go7jm5vckcB/8jk05Ow\"",
+    "keep-alive": "timeout=5, max=53",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695129cc1c508c5d5e38ed6e",
+      "status": "In Process",
+      "customer": {
+        "_id": "695129cb1c508c5d5e38ed01",
+        "email": "Rodrick28@hotmail.com",
+        "name": "Maci Langosh",
+        "country": "Great Britain",
+        "city": "Corvallis",
+        "street": "N Center Street 74",
+        "house": 10,
+        "flat": 2500,
+        "phone": "+043859412442251",
+        "createdOn": "2025-12-28T12:59:55.000Z",
+        "notes": "5y9Bf8mNlYvi1EHWDtC8zCIdFAayBb"
+      },
+      "products": [
+        {
+          "_id": "695129cb1c508c5d5e38ed1e",
+          "name": "Cheese18248",
+          "amount": 999,
+          "price": 16074,
+          "manufacturer": "Microsoft",
+          "notes": "4o2Y730rxyhsIHdRrOHKQ2a86gibWdU9LN5evRwEJuimQfuEEd3keOddKjXfPDfLikGGUyODMSwhyWdGMrj6vdSPSwOW46RNfS9fxJU9XYrsvdfql334UvkRjI5md2GoPX9xIAtE1Oi0CnPdKC3wbXgo2QgTFt7lvRZScc0Tr6oyv9464aAekuANa4SvLBeH9vR4iO57ZwCFgSE1ldNIGqcA24XXdtd4AFr07LllAtSlQ3KDGNlwCN9fmi",
+          "received": false
+        },
+        {
+          "_id": "695129cc1c508c5d5e38ed47",
+          "name": "Tuna9641",
+          "amount": 618,
+          "price": 56285,
+          "manufacturer": "Microsoft",
+          "notes": "jvzli3aSjhCgXpiILmMTgm1UwRK8Ok5JkOtnlNhsN0z5bZTrj4DiOVwdYGwnZOUPnxjF2Ud0DkM2HiA1R1wkpq2sfqd44FQpNwdsDZQtWOb1pHRKo7VAsJVsKJcVSiRA3HaVEerDiYUYpQO2NQTM8sanoVSLJPNV2SKDodVC7urjQ9YzPylHjmCg1wfzB3yzwc7wE9JQuMPiwTi8eqzN56w3OA3imbq24VrCEsmXrnlZQ3WGEJQFMsGLJT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Lake Otto",
+          "street": "Lorenzo Route",
+          "house": 142,
+          "flat": 7752
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72359,
+      "createdOn": "2025-12-28T12:59:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695129cb1c508c5d5e38ed01",
+          "products": [
+            {
+              "_id": "695129cb1c508c5d5e38ed1e",
+              "name": "Cheese18248",
+              "amount": 999,
+              "price": 16074,
+              "manufacturer": "Microsoft",
+              "notes": "4o2Y730rxyhsIHdRrOHKQ2a86gibWdU9LN5evRwEJuimQfuEEd3keOddKjXfPDfLikGGUyODMSwhyWdGMrj6vdSPSwOW46RNfS9fxJU9XYrsvdfql334UvkRjI5md2GoPX9xIAtE1Oi0CnPdKC3wbXgo2QgTFt7lvRZScc0Tr6oyv9464aAekuANa4SvLBeH9vR4iO57ZwCFgSE1ldNIGqcA24XXdtd4AFr07LllAtSlQ3KDGNlwCN9fmi",
+              "received": false
+            },
+            {
+              "_id": "695129cc1c508c5d5e38ed47",
+              "name": "Tuna9641",
+              "amount": 618,
+              "price": 56285,
+              "manufacturer": "Microsoft",
+              "notes": "jvzli3aSjhCgXpiILmMTgm1UwRK8Ok5JkOtnlNhsN0z5bZTrj4DiOVwdYGwnZOUPnxjF2Ud0DkM2HiA1R1wkpq2sfqd44FQpNwdsDZQtWOb1pHRKo7VAsJVsKJcVSiRA3HaVEerDiYUYpQO2NQTM8sanoVSLJPNV2SKDodVC7urjQ9YzPylHjmCg1wfzB3yzwc7wE9JQuMPiwTi8eqzN56w3OA3imbq24VrCEsmXrnlZQ3WGEJQFMsGLJT",
+              "received": false
+            }
+          ],
+          "total_price": 72359,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Otto",
+              "street": "Lorenzo Route",
+              "house": 142,
+              "flat": 7752
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T12:59:57.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129cb1c508c5d5e38ed01",
+          "products": [
+            {
+              "_id": "695129cb1c508c5d5e38ed1e",
+              "name": "Cheese18248",
+              "amount": 999,
+              "price": 16074,
+              "manufacturer": "Microsoft",
+              "notes": "4o2Y730rxyhsIHdRrOHKQ2a86gibWdU9LN5evRwEJuimQfuEEd3keOddKjXfPDfLikGGUyODMSwhyWdGMrj6vdSPSwOW46RNfS9fxJU9XYrsvdfql334UvkRjI5md2GoPX9xIAtE1Oi0CnPdKC3wbXgo2QgTFt7lvRZScc0Tr6oyv9464aAekuANa4SvLBeH9vR4iO57ZwCFgSE1ldNIGqcA24XXdtd4AFr07LllAtSlQ3KDGNlwCN9fmi",
+              "received": false
+            },
+            {
+              "_id": "695129cc1c508c5d5e38ed47",
+              "name": "Tuna9641",
+              "amount": 618,
+              "price": 56285,
+              "manufacturer": "Microsoft",
+              "notes": "jvzli3aSjhCgXpiILmMTgm1UwRK8Ok5JkOtnlNhsN0z5bZTrj4DiOVwdYGwnZOUPnxjF2Ud0DkM2HiA1R1wkpq2sfqd44FQpNwdsDZQtWOb1pHRKo7VAsJVsKJcVSiRA3HaVEerDiYUYpQO2NQTM8sanoVSLJPNV2SKDodVC7urjQ9YzPylHjmCg1wfzB3yzwc7wE9JQuMPiwTi8eqzN56w3OA3imbq24VrCEsmXrnlZQ3WGEJQFMsGLJT",
+              "received": false
+            }
+          ],
+          "total_price": 72359,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Otto",
+              "street": "Lorenzo Route",
+              "house": 142,
+              "flat": 7752
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T12:59:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129cb1c508c5d5e38ed01",
+          "products": [
+            {
+              "_id": "695129cb1c508c5d5e38ed1e",
+              "name": "Cheese18248",
+              "amount": 999,
+              "price": 16074,
+              "manufacturer": "Microsoft",
+              "notes": "4o2Y730rxyhsIHdRrOHKQ2a86gibWdU9LN5evRwEJuimQfuEEd3keOddKjXfPDfLikGGUyODMSwhyWdGMrj6vdSPSwOW46RNfS9fxJU9XYrsvdfql334UvkRjI5md2GoPX9xIAtE1Oi0CnPdKC3wbXgo2QgTFt7lvRZScc0Tr6oyv9464aAekuANa4SvLBeH9vR4iO57ZwCFgSE1ldNIGqcA24XXdtd4AFr07LllAtSlQ3KDGNlwCN9fmi",
+              "received": false
+            },
+            {
+              "_id": "695129cc1c508c5d5e38ed47",
+              "name": "Tuna9641",
+              "amount": 618,
+              "price": 56285,
+              "manufacturer": "Microsoft",
+              "notes": "jvzli3aSjhCgXpiILmMTgm1UwRK8Ok5JkOtnlNhsN0z5bZTrj4DiOVwdYGwnZOUPnxjF2Ud0DkM2HiA1R1wkpq2sfqd44FQpNwdsDZQtWOb1pHRKo7VAsJVsKJcVSiRA3HaVEerDiYUYpQO2NQTM8sanoVSLJPNV2SKDodVC7urjQ9YzPylHjmCg1wfzB3yzwc7wE9JQuMPiwTi8eqzN56w3OA3imbq24VrCEsmXrnlZQ3WGEJQFMsGLJT",
+              "received": false
+            }
+          ],
+          "total_price": 72359,
+          "delivery": null,
+          "changedOn": "2025-12-28T12:59:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

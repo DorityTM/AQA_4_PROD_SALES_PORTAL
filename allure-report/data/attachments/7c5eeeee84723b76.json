@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 12:59:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4583",
+    "etag": "W/\"11e7-QiKnggQKehaBKjZ6K0l/ed06vCY\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695129c61c508c5d5e38eb05",
+      "status": "Received",
+      "customer": {
+        "_id": "695129c51c508c5d5e38eac4",
+        "email": "Halle82@gmail.com",
+        "name": "Major Waelchi",
+        "country": "France",
+        "city": "Vonborough",
+        "street": "Billy View 24",
+        "house": 298,
+        "flat": 7139,
+        "phone": "+883008034398585",
+        "createdOn": "2025-12-28T12:59:49.000Z",
+        "notes": "Xd0BIi7rEo3Zw0eADBWGJLsiAzK0Zg"
+      },
+      "products": [
+        {
+          "_id": "695129c61c508c5d5e38eaec",
+          "name": "Sausages49650",
+          "amount": 375,
+          "price": 10891,
+          "manufacturer": "Amazon",
+          "notes": "o8jTDgeB6AoTrGZTkpFRIQj0JR4oDO7rpQnn6wpceZFG1rRr4Ids3g8fThjJD7dC2yGWDqJjpp1IpCnESVQ5wRqNj2mjvGcgrdDXQ0glJZjxqd1ropZ7Zery6JcjlHCOJPglKCxQSRoqRgp7lBuEkj022sU2ycrXwa80KUPgdjUcFg3zb8TtWlf6vCubdtIzGjlFSqI6CojXYADvsl4j65zz6wTAfVjRouat3ANWvubQod723pmirKDkg6",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Pagacton",
+          "street": "Olen Dam",
+          "house": 104,
+          "flat": 1832
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 10891,
+      "createdOn": "2025-12-28T12:59:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695129c51c508c5d5e38eac4",
+          "products": [
+            {
+              "_id": "695129c61c508c5d5e38eaec",
+              "name": "Sausages49650",
+              "amount": 375,
+              "price": 10891,
+              "manufacturer": "Amazon",
+              "notes": "o8jTDgeB6AoTrGZTkpFRIQj0JR4oDO7rpQnn6wpceZFG1rRr4Ids3g8fThjJD7dC2yGWDqJjpp1IpCnESVQ5wRqNj2mjvGcgrdDXQ0glJZjxqd1ropZ7Zery6JcjlHCOJPglKCxQSRoqRgp7lBuEkj022sU2ycrXwa80KUPgdjUcFg3zb8TtWlf6vCubdtIzGjlFSqI6CojXYADvsl4j65zz6wTAfVjRouat3ANWvubQod723pmirKDkg6",
+              "received": true
+            }
+          ],
+          "total_price": 10891,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Pagacton",
+              "street": "Olen Dam",
+              "house": 104,
+              "flat": 1832
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T12:59:52.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695129c51c508c5d5e38eac4",
+          "products": [
+            {
+              "_id": "695129c61c508c5d5e38eaec",
+              "name": "Sausages49650",
+              "amount": 375,
+              "price": 10891,
+              "manufacturer": "Amazon",
+              "notes": "o8jTDgeB6AoTrGZTkpFRIQj0JR4oDO7rpQnn6wpceZFG1rRr4Ids3g8fThjJD7dC2yGWDqJjpp1IpCnESVQ5wRqNj2mjvGcgrdDXQ0glJZjxqd1ropZ7Zery6JcjlHCOJPglKCxQSRoqRgp7lBuEkj022sU2ycrXwa80KUPgdjUcFg3zb8TtWlf6vCubdtIzGjlFSqI6CojXYADvsl4j65zz6wTAfVjRouat3ANWvubQod723pmirKDkg6",
+              "received": false
+            }
+          ],
+          "total_price": 10891,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Pagacton",
+              "street": "Olen Dam",
+              "house": 104,
+              "flat": 1832
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T12:59:51.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129c51c508c5d5e38eac4",
+          "products": [
+            {
+              "_id": "695129c61c508c5d5e38eaec",
+              "name": "Sausages49650",
+              "amount": 375,
+              "price": 10891,
+              "manufacturer": "Amazon",
+              "notes": "o8jTDgeB6AoTrGZTkpFRIQj0JR4oDO7rpQnn6wpceZFG1rRr4Ids3g8fThjJD7dC2yGWDqJjpp1IpCnESVQ5wRqNj2mjvGcgrdDXQ0glJZjxqd1ropZ7Zery6JcjlHCOJPglKCxQSRoqRgp7lBuEkj022sU2ycrXwa80KUPgdjUcFg3zb8TtWlf6vCubdtIzGjlFSqI6CojXYADvsl4j65zz6wTAfVjRouat3ANWvubQod723pmirKDkg6",
+              "received": false
+            }
+          ],
+          "total_price": 10891,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Pagacton",
+              "street": "Olen Dam",
+              "house": 104,
+              "flat": 1832
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T12:59:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129c51c508c5d5e38eac4",
+          "products": [
+            {
+              "_id": "695129c61c508c5d5e38eaec",
+              "name": "Sausages49650",
+              "amount": 375,
+              "price": 10891,
+              "manufacturer": "Amazon",
+              "notes": "o8jTDgeB6AoTrGZTkpFRIQj0JR4oDO7rpQnn6wpceZFG1rRr4Ids3g8fThjJD7dC2yGWDqJjpp1IpCnESVQ5wRqNj2mjvGcgrdDXQ0glJZjxqd1ropZ7Zery6JcjlHCOJPglKCxQSRoqRgp7lBuEkj022sU2ycrXwa80KUPgdjUcFg3zb8TtWlf6vCubdtIzGjlFSqI6CojXYADvsl4j65zz6wTAfVjRouat3ANWvubQod723pmirKDkg6",
+              "received": false
+            }
+          ],
+          "total_price": 10891,
+          "delivery": null,
+          "changedOn": "2025-12-28T12:59:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

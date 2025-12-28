@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:00:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2741",
+    "etag": "W/\"ab5-2sRow8OHJ0TNsHjlYZM2bPr0OFw\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695129fb1c508c5d5e3901d8",
+      "status": "Draft",
+      "customer": {
+        "_id": "695129fa1c508c5d5e39019d",
+        "email": "Wyman_Conroy-Hansen4@yahoo.com",
+        "name": "Coby Rowe",
+        "country": "USA",
+        "city": "Lake Devonte",
+        "street": "Garden Street 75",
+        "house": 470,
+        "flat": 453,
+        "phone": "+370987607057825",
+        "createdOn": "2025-12-28T13:00:42.000Z",
+        "notes": "qdVS6uhV3fWggt6nd15lFlLqFh5Him"
+      },
+      "products": [
+        {
+          "_id": "695129fa1c508c5d5e3901c6",
+          "name": "Bike35991",
+          "amount": 884,
+          "price": 66594,
+          "manufacturer": "Sony",
+          "notes": "BVfOMjMz4fFG58Jh8USzYQslwoqghiUSE1vqxMJRpJfTBAR1aKtSRxOIDHLjNWdIPyWUk4Kfvs4DeukhbAtUP89wUWPm7XFSz4AWIfRBfohemYW6pkRsBB7yEu0owyREl0nQA8vrR7nNCaVXCxkUWvSqeJteU6ldwkhkR78uivwl3WQA1FaEMe3Iv63zwZXTZZh7Erp2eM4saqEDc626AGg16HbkiKuk0fpA16c1nkTd0YCrr2JE9IkJ1w",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Jupiter",
+          "street": "Reva Road",
+          "house": 506,
+          "flat": 5061
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 66594,
+      "createdOn": "2025-12-28T13:00:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695129fa1c508c5d5e39019d",
+          "products": [
+            {
+              "_id": "695129fa1c508c5d5e3901c6",
+              "name": "Bike35991",
+              "amount": 884,
+              "price": 66594,
+              "manufacturer": "Sony",
+              "notes": "BVfOMjMz4fFG58Jh8USzYQslwoqghiUSE1vqxMJRpJfTBAR1aKtSRxOIDHLjNWdIPyWUk4Kfvs4DeukhbAtUP89wUWPm7XFSz4AWIfRBfohemYW6pkRsBB7yEu0owyREl0nQA8vrR7nNCaVXCxkUWvSqeJteU6ldwkhkR78uivwl3WQA1FaEMe3Iv63zwZXTZZh7Erp2eM4saqEDc626AGg16HbkiKuk0fpA16c1nkTd0YCrr2JE9IkJ1w",
+              "received": false
+            }
+          ],
+          "total_price": 66594,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Jupiter",
+              "street": "Reva Road",
+              "house": 506,
+              "flat": 5061
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:00:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129fa1c508c5d5e39019d",
+          "products": [
+            {
+              "_id": "695129fa1c508c5d5e3901c6",
+              "name": "Bike35991",
+              "amount": 884,
+              "price": 66594,
+              "manufacturer": "Sony",
+              "notes": "BVfOMjMz4fFG58Jh8USzYQslwoqghiUSE1vqxMJRpJfTBAR1aKtSRxOIDHLjNWdIPyWUk4Kfvs4DeukhbAtUP89wUWPm7XFSz4AWIfRBfohemYW6pkRsBB7yEu0owyREl0nQA8vrR7nNCaVXCxkUWvSqeJteU6ldwkhkR78uivwl3WQA1FaEMe3Iv63zwZXTZZh7Erp2eM4saqEDc626AGg16HbkiKuk0fpA16c1nkTd0YCrr2JE9IkJ1w",
+              "received": false
+            }
+          ],
+          "total_price": 66594,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:00:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

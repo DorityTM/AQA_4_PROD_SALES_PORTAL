@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:00:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4255",
+    "etag": "W/\"109f-3Ib8ZwRWWJMGN0VJqXfMlEtwhoE\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695129f41c508c5d5e38fe79",
+      "status": "Draft",
+      "customer": {
+        "_id": "695129f31c508c5d5e38fe25",
+        "email": "Selmer13@hotmail.com",
+        "name": "Leone Adams",
+        "country": "France",
+        "city": "Trevafurt",
+        "street": "Georgette Burg 40",
+        "house": 30,
+        "flat": 4378,
+        "phone": "+290976387280841",
+        "createdOn": "2025-12-28T13:00:35.000Z",
+        "notes": "uJQKWmlxvxwEa1mKzcvUlJRGv3NoAM"
+      },
+      "products": [
+        {
+          "_id": "695129f31c508c5d5e38fe67",
+          "name": "Bike47439",
+          "amount": 200,
+          "price": 35538,
+          "manufacturer": "Google",
+          "notes": "mopSabACxRddjWicOqjsbp5cjuUQ8xSZi5EjjMWHUQmhRUKxnHppdBjllgzmj5G8mmJ1zVXAfPwvOjwe2PT8UTglcLMF18QLv7MLQn9E7IKnr0rBWOgct8ZO1cQ6HwE38RyGaLRzjzLo7styAEGuT7BpoE0aib5zc3R88vYarvYz6jZowfJ6SV2dtGVohuou7hyvARFhwHCIo7FXeHMWhM6CaI11FxppjXUEBm7rCuQmIFLj679gmb0QWx",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35538,
+      "createdOn": "2025-12-28T13:00:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695129f31c508c5d5e38fe25",
+          "products": [
+            {
+              "_id": "695129f31c508c5d5e38fe67",
+              "name": "Bike47439",
+              "amount": 200,
+              "price": 35538,
+              "manufacturer": "Google",
+              "notes": "mopSabACxRddjWicOqjsbp5cjuUQ8xSZi5EjjMWHUQmhRUKxnHppdBjllgzmj5G8mmJ1zVXAfPwvOjwe2PT8UTglcLMF18QLv7MLQn9E7IKnr0rBWOgct8ZO1cQ6HwE38RyGaLRzjzLo7styAEGuT7BpoE0aib5zc3R88vYarvYz6jZowfJ6SV2dtGVohuou7hyvARFhwHCIo7FXeHMWhM6CaI11FxppjXUEBm7rCuQmIFLj679gmb0QWx",
+              "received": false
+            }
+          ],
+          "total_price": 35538,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:00:37.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "695129f31c508c5d5e38fe25",
+          "products": [
+            {
+              "_id": "695129f31c508c5d5e38fe67",
+              "name": "Bike47439",
+              "amount": 200,
+              "price": 35538,
+              "manufacturer": "Google",
+              "notes": "mopSabACxRddjWicOqjsbp5cjuUQ8xSZi5EjjMWHUQmhRUKxnHppdBjllgzmj5G8mmJ1zVXAfPwvOjwe2PT8UTglcLMF18QLv7MLQn9E7IKnr0rBWOgct8ZO1cQ6HwE38RyGaLRzjzLo7styAEGuT7BpoE0aib5zc3R88vYarvYz6jZowfJ6SV2dtGVohuou7hyvARFhwHCIo7FXeHMWhM6CaI11FxppjXUEBm7rCuQmIFLj679gmb0QWx",
+              "received": false
+            }
+          ],
+          "total_price": 35538,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Everetteside",
+              "street": "Monroe Street",
+              "house": 291,
+              "flat": 3425
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:00:36.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129f31c508c5d5e38fe25",
+          "products": [
+            {
+              "_id": "695129f31c508c5d5e38fe67",
+              "name": "Bike47439",
+              "amount": 200,
+              "price": 35538,
+              "manufacturer": "Google",
+              "notes": "mopSabACxRddjWicOqjsbp5cjuUQ8xSZi5EjjMWHUQmhRUKxnHppdBjllgzmj5G8mmJ1zVXAfPwvOjwe2PT8UTglcLMF18QLv7MLQn9E7IKnr0rBWOgct8ZO1cQ6HwE38RyGaLRzjzLo7styAEGuT7BpoE0aib5zc3R88vYarvYz6jZowfJ6SV2dtGVohuou7hyvARFhwHCIo7FXeHMWhM6CaI11FxppjXUEBm7rCuQmIFLj679gmb0QWx",
+              "received": false
+            }
+          ],
+          "total_price": 35538,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Everetteside",
+              "street": "Monroe Street",
+              "house": 291,
+              "flat": 3425
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:00:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129f31c508c5d5e38fe25",
+          "products": [
+            {
+              "_id": "695129f31c508c5d5e38fe67",
+              "name": "Bike47439",
+              "amount": 200,
+              "price": 35538,
+              "manufacturer": "Google",
+              "notes": "mopSabACxRddjWicOqjsbp5cjuUQ8xSZi5EjjMWHUQmhRUKxnHppdBjllgzmj5G8mmJ1zVXAfPwvOjwe2PT8UTglcLMF18QLv7MLQn9E7IKnr0rBWOgct8ZO1cQ6HwE38RyGaLRzjzLo7styAEGuT7BpoE0aib5zc3R88vYarvYz6jZowfJ6SV2dtGVohuou7hyvARFhwHCIo7FXeHMWhM6CaI11FxppjXUEBm7rCuQmIFLj679gmb0QWx",
+              "received": false
+            }
+          ],
+          "total_price": 35538,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:00:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

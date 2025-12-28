@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:02:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2760",
+    "etag": "W/\"ac8-42jIESTt6T27EiEMOtAj+RyJ1bg\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69512a701c508c5d5e3929c1",
+      "status": "Draft",
+      "customer": {
+        "_id": "69512a6f1c508c5d5e392981",
+        "email": "Fausto59@yahoo.com",
+        "name": "Russell Padberg",
+        "country": "Russia",
+        "city": "South Daltonland",
+        "street": "W High Street 23",
+        "house": 303,
+        "flat": 6808,
+        "phone": "+676801363498585",
+        "createdOn": "2025-12-28T13:02:39.000Z",
+        "notes": "cYgzFEBQOV0u8OPB8c3jkX4quMYpZo"
+      },
+      "products": [
+        {
+          "_id": "69512a701c508c5d5e39299c",
+          "name": "Bike52594",
+          "amount": 224,
+          "price": 43499,
+          "manufacturer": "Samsung",
+          "notes": "pCk9wnqripy4HPEcNnRQz5oGPYGGjCrZOmJ0JkjCoEic2v9SFuNdOMrsYZU4YvbvPBOq5C7QywnNa75BOjnom1oCmCVJB4h42hbhU5HmUuFkoRWGYF0Qt1twXm1A1XeOOBOaVx8wHifkXmrboN9A3GZsy8FeEYdLoM82owan4qNlSFPuYTuSvAC6hslxvENfKQpUQVObfF9DyalwoelwIq6Kdbbjhio6W2G9txua20AQjrEDY6Dj8cxPTP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Santa Clarita",
+          "street": "Albertha Bridge",
+          "house": 255,
+          "flat": 856
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 43499,
+      "createdOn": "2025-12-28T13:02:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69512a6f1c508c5d5e392981",
+          "products": [
+            {
+              "_id": "69512a701c508c5d5e39299c",
+              "name": "Bike52594",
+              "amount": 224,
+              "price": 43499,
+              "manufacturer": "Samsung",
+              "notes": "pCk9wnqripy4HPEcNnRQz5oGPYGGjCrZOmJ0JkjCoEic2v9SFuNdOMrsYZU4YvbvPBOq5C7QywnNa75BOjnom1oCmCVJB4h42hbhU5HmUuFkoRWGYF0Qt1twXm1A1XeOOBOaVx8wHifkXmrboN9A3GZsy8FeEYdLoM82owan4qNlSFPuYTuSvAC6hslxvENfKQpUQVObfF9DyalwoelwIq6Kdbbjhio6W2G9txua20AQjrEDY6Dj8cxPTP",
+              "received": false
+            }
+          ],
+          "total_price": 43499,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Santa Clarita",
+              "street": "Albertha Bridge",
+              "house": 255,
+              "flat": 856
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:02:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69512a6f1c508c5d5e392981",
+          "products": [
+            {
+              "_id": "69512a701c508c5d5e39299c",
+              "name": "Bike52594",
+              "amount": 224,
+              "price": 43499,
+              "manufacturer": "Samsung",
+              "notes": "pCk9wnqripy4HPEcNnRQz5oGPYGGjCrZOmJ0JkjCoEic2v9SFuNdOMrsYZU4YvbvPBOq5C7QywnNa75BOjnom1oCmCVJB4h42hbhU5HmUuFkoRWGYF0Qt1twXm1A1XeOOBOaVx8wHifkXmrboN9A3GZsy8FeEYdLoM82owan4qNlSFPuYTuSvAC6hslxvENfKQpUQVObfF9DyalwoelwIq6Kdbbjhio6W2G9txua20AQjrEDY6Dj8cxPTP",
+              "received": false
+            }
+          ],
+          "total_price": 43499,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:02:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

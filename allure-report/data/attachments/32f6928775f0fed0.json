@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 12:59:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2745",
+    "etag": "W/\"ab9-mEu1ZWN9PcYpPImGd+fh/zLOs8o\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695129cd1c508c5d5e38eda8",
+      "status": "Draft",
+      "customer": {
+        "_id": "695129cc1c508c5d5e38ed58",
+        "email": "Marge.Purdy23@yahoo.com",
+        "name": "Reese Kuhic",
+        "country": "France",
+        "city": "Imeldabury",
+        "street": "Gleason Lane 47",
+        "house": 8,
+        "flat": 6007,
+        "phone": "+227821770678152",
+        "createdOn": "2025-12-28T12:59:56.000Z",
+        "notes": "xKqiG5nZzrefW2ZYVlqZLZVBsoOR4Q"
+      },
+      "products": [
+        {
+          "_id": "695129cc1c508c5d5e38ed7f",
+          "name": "Chips39853",
+          "amount": 983,
+          "price": 92991,
+          "manufacturer": "Samsung",
+          "notes": "9NNFzcx5qWf6almhqEJrgB3jq2LMd8rafdA92TDyrlbMyLEvl71wUADAxRKmkkytWT0pduWjELP2yNo9sgXX0J9KiPkmn9lvCqcdj80Uq2SDSlaGPnQbBUrWRSVa4kJsg382fdG41A9UkIEAxjZ0LTzBZJJkgpPYk35JPFJHnK2GsYWfrxQ8NTNts5hRHVC6XvTPAPHWCQm36NYYITUUzhnLPf7B6ayDDBgQI1jtNVcEbyNg07BXqDEemv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Rochelle",
+          "street": "Senger Garden",
+          "house": 169,
+          "flat": 1632
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92991,
+      "createdOn": "2025-12-28T12:59:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695129cc1c508c5d5e38ed58",
+          "products": [
+            {
+              "_id": "695129cc1c508c5d5e38ed7f",
+              "name": "Chips39853",
+              "amount": 983,
+              "price": 92991,
+              "manufacturer": "Samsung",
+              "notes": "9NNFzcx5qWf6almhqEJrgB3jq2LMd8rafdA92TDyrlbMyLEvl71wUADAxRKmkkytWT0pduWjELP2yNo9sgXX0J9KiPkmn9lvCqcdj80Uq2SDSlaGPnQbBUrWRSVa4kJsg382fdG41A9UkIEAxjZ0LTzBZJJkgpPYk35JPFJHnK2GsYWfrxQ8NTNts5hRHVC6XvTPAPHWCQm36NYYITUUzhnLPf7B6ayDDBgQI1jtNVcEbyNg07BXqDEemv",
+              "received": false
+            }
+          ],
+          "total_price": 92991,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Rochelle",
+              "street": "Senger Garden",
+              "house": 169,
+              "flat": 1632
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T12:59:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129cc1c508c5d5e38ed58",
+          "products": [
+            {
+              "_id": "695129cc1c508c5d5e38ed7f",
+              "name": "Chips39853",
+              "amount": 983,
+              "price": 92991,
+              "manufacturer": "Samsung",
+              "notes": "9NNFzcx5qWf6almhqEJrgB3jq2LMd8rafdA92TDyrlbMyLEvl71wUADAxRKmkkytWT0pduWjELP2yNo9sgXX0J9KiPkmn9lvCqcdj80Uq2SDSlaGPnQbBUrWRSVa4kJsg382fdG41A9UkIEAxjZ0LTzBZJJkgpPYk35JPFJHnK2GsYWfrxQ8NTNts5hRHVC6XvTPAPHWCQm36NYYITUUzhnLPf7B6ayDDBgQI1jtNVcEbyNg07BXqDEemv",
+              "received": false
+            }
+          ],
+          "total_price": 92991,
+          "delivery": null,
+          "changedOn": "2025-12-28T12:59:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

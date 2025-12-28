@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 12:59:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3705",
+    "etag": "W/\"e79-Fw0A2+k9GrxRl/Dsh3puEGNtnJc\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695129bf1c508c5d5e38e7c6",
+      "status": "In Process",
+      "customer": {
+        "_id": "695129be1c508c5d5e38e782",
+        "email": "Violet.Bailey61@gmail.com",
+        "name": "Hobart Blick",
+        "country": "Germany",
+        "city": "South Gate",
+        "street": "Powlowski Haven 8",
+        "house": 109,
+        "flat": 1532,
+        "phone": "+887677945835282",
+        "createdOn": "2025-12-28T12:59:42.000Z",
+        "notes": "chmO3x5KXf0t0OiF0MPJsriZCLKCmq"
+      },
+      "products": [
+        {
+          "_id": "695129be1c508c5d5e38e7a9",
+          "name": "Gloves18841",
+          "amount": 278,
+          "price": 38410,
+          "manufacturer": "Samsung",
+          "notes": "wdN8v5UPlrYeoCxQL0RjKhZEqLu3Nj5qGpPdZAIQ4uOMxzEDtnMcXFqoOILSVaXfo6ISwY8rmRr3E47a2b9lUCybZzU1UTvwCkygIZBsNOPGxtNrfxddBT9y58QlsGBHNSHJZW6xo0o2mCTHzh8J1ECg1clgxf0qQ9PLZEDAWws9YAfBelBmL1IRSMPOx6vZp0RmHsJIBA52RxWLhTI0dJeY2emdhYzstfL3O26znXHEky11EyzSnVgLU6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Bashirianbury",
+          "street": "Schmidt Ferry",
+          "house": 238,
+          "flat": 8498
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 38410,
+      "createdOn": "2025-12-28T12:59:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695129be1c508c5d5e38e782",
+          "products": [
+            {
+              "_id": "695129be1c508c5d5e38e7a9",
+              "name": "Gloves18841",
+              "amount": 278,
+              "price": 38410,
+              "manufacturer": "Samsung",
+              "notes": "wdN8v5UPlrYeoCxQL0RjKhZEqLu3Nj5qGpPdZAIQ4uOMxzEDtnMcXFqoOILSVaXfo6ISwY8rmRr3E47a2b9lUCybZzU1UTvwCkygIZBsNOPGxtNrfxddBT9y58QlsGBHNSHJZW6xo0o2mCTHzh8J1ECg1clgxf0qQ9PLZEDAWws9YAfBelBmL1IRSMPOx6vZp0RmHsJIBA52RxWLhTI0dJeY2emdhYzstfL3O26znXHEky11EyzSnVgLU6",
+              "received": false
+            }
+          ],
+          "total_price": 38410,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Bashirianbury",
+              "street": "Schmidt Ferry",
+              "house": 238,
+              "flat": 8498
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T12:59:44.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129be1c508c5d5e38e782",
+          "products": [
+            {
+              "_id": "695129be1c508c5d5e38e7a9",
+              "name": "Gloves18841",
+              "amount": 278,
+              "price": 38410,
+              "manufacturer": "Samsung",
+              "notes": "wdN8v5UPlrYeoCxQL0RjKhZEqLu3Nj5qGpPdZAIQ4uOMxzEDtnMcXFqoOILSVaXfo6ISwY8rmRr3E47a2b9lUCybZzU1UTvwCkygIZBsNOPGxtNrfxddBT9y58QlsGBHNSHJZW6xo0o2mCTHzh8J1ECg1clgxf0qQ9PLZEDAWws9YAfBelBmL1IRSMPOx6vZp0RmHsJIBA52RxWLhTI0dJeY2emdhYzstfL3O26znXHEky11EyzSnVgLU6",
+              "received": false
+            }
+          ],
+          "total_price": 38410,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Bashirianbury",
+              "street": "Schmidt Ferry",
+              "house": 238,
+              "flat": 8498
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T12:59:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129be1c508c5d5e38e782",
+          "products": [
+            {
+              "_id": "695129be1c508c5d5e38e7a9",
+              "name": "Gloves18841",
+              "amount": 278,
+              "price": 38410,
+              "manufacturer": "Samsung",
+              "notes": "wdN8v5UPlrYeoCxQL0RjKhZEqLu3Nj5qGpPdZAIQ4uOMxzEDtnMcXFqoOILSVaXfo6ISwY8rmRr3E47a2b9lUCybZzU1UTvwCkygIZBsNOPGxtNrfxddBT9y58QlsGBHNSHJZW6xo0o2mCTHzh8J1ECg1clgxf0qQ9PLZEDAWws9YAfBelBmL1IRSMPOx6vZp0RmHsJIBA52RxWLhTI0dJeY2emdhYzstfL3O26znXHEky11EyzSnVgLU6",
+              "received": false
+            }
+          ],
+          "total_price": 38410,
+          "delivery": null,
+          "changedOn": "2025-12-28T12:59:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:03:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2766",
+    "etag": "W/\"ace-+FlaOwLBmFZ+Qse3fSenEgtcinU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69512aa71c508c5d5e394174",
+      "status": "Draft",
+      "customer": {
+        "_id": "69512aa71c508c5d5e39415c",
+        "email": "Raquel.Abshire@yahoo.com",
+        "name": "Verda Prohaska",
+        "country": "Russia",
+        "city": "North Nealboro",
+        "street": "E Washington Avenue 73",
+        "house": 816,
+        "flat": 9486,
+        "phone": "+625675862140966",
+        "createdOn": "2025-12-28T13:03:35.000Z",
+        "notes": "94Qqc6M0Me8zVOWHYLvmDMxcHZ0yLf"
+      },
+      "products": [
+        {
+          "_id": "69512aa71c508c5d5e39416c",
+          "name": "Keyboard91400",
+          "amount": 585,
+          "price": 96238,
+          "manufacturer": "Google",
+          "notes": "9A8qyhWQzPqIIHE1yry0Ozrv18yIfk71DmRBnvRVVfk5W5xxujHYhJ8VcoZTT8730vYSrHtJPtQLleVm6r2N0EQcC830Ob5F26ZEu3Fn5qTKiZjvD9VMDokpwvmuY8ILANvy2f7xJsHhZggFZM9t2KGwadN6UArZ96H7ptK5lNcSHqiREuKt94CfbiPWKDpdO0gmrdkoYiCTzs49aJjTuA7DkFQBE5egpuBMDi07xPN3Y92WJrjh2bV7Oc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "East Etha",
+          "street": "Meadow Drive",
+          "house": 561,
+          "flat": 1433
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 96238,
+      "createdOn": "2025-12-28T13:03:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69512aa71c508c5d5e39415c",
+          "products": [
+            {
+              "_id": "69512aa71c508c5d5e39416c",
+              "name": "Keyboard91400",
+              "amount": 585,
+              "price": 96238,
+              "manufacturer": "Google",
+              "notes": "9A8qyhWQzPqIIHE1yry0Ozrv18yIfk71DmRBnvRVVfk5W5xxujHYhJ8VcoZTT8730vYSrHtJPtQLleVm6r2N0EQcC830Ob5F26ZEu3Fn5qTKiZjvD9VMDokpwvmuY8ILANvy2f7xJsHhZggFZM9t2KGwadN6UArZ96H7ptK5lNcSHqiREuKt94CfbiPWKDpdO0gmrdkoYiCTzs49aJjTuA7DkFQBE5egpuBMDi07xPN3Y92WJrjh2bV7Oc",
+              "received": false
+            }
+          ],
+          "total_price": 96238,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Etha",
+              "street": "Meadow Drive",
+              "house": 561,
+              "flat": 1433
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:03:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69512aa71c508c5d5e39415c",
+          "products": [
+            {
+              "_id": "69512aa71c508c5d5e39416c",
+              "name": "Keyboard91400",
+              "amount": 585,
+              "price": 96238,
+              "manufacturer": "Google",
+              "notes": "9A8qyhWQzPqIIHE1yry0Ozrv18yIfk71DmRBnvRVVfk5W5xxujHYhJ8VcoZTT8730vYSrHtJPtQLleVm6r2N0EQcC830Ob5F26ZEu3Fn5qTKiZjvD9VMDokpwvmuY8ILANvy2f7xJsHhZggFZM9t2KGwadN6UArZ96H7ptK5lNcSHqiREuKt94CfbiPWKDpdO0gmrdkoYiCTzs49aJjTuA7DkFQBE5egpuBMDi07xPN3Y92WJrjh2bV7Oc",
+              "received": false
+            }
+          ],
+          "total_price": 96238,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:03:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

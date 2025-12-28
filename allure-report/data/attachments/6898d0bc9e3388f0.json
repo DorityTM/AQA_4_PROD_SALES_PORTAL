@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:00:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-ltNieZWjt8y/3INz09aS89wKKmI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695129eb1c508c5d5e38fa94",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695129eb1c508c5d5e38fa58",
+        "email": "Kristin.Schuster@gmail.com",
+        "name": "Murphy Abernathy",
+        "country": "Belarus",
+        "city": "New Emma",
+        "street": "Stehr Meadows 9",
+        "house": 827,
+        "flat": 6172,
+        "phone": "+611586307857041",
+        "createdOn": "2025-12-28T13:00:27.000Z",
+        "notes": "ae1FiX8M6ezDvWRcyPllN0aIeEyJ4x"
+      },
+      "products": [
+        {
+          "_id": "695129eb1c508c5d5e38fa7e",
+          "name": "Hat94627",
+          "amount": 806,
+          "price": 80835,
+          "manufacturer": "Apple",
+          "notes": "eBFR1UjV5ujvhKhWAyscDMUoIcbC6GTqre3Myu7wTW5JEKwJL7FndPGnrq5YcSU0598h1pNZbj2MJZcM4cvE7u0cawhqLkiZbG8I29yn8n6UqT9lzeCQPzYGps557ypeU6bjhS9yNi9kQkjOo1u1HkrhXCdnlVHQhLO6Gce7IGMYEJQaUEOIyZNuyvae8sBmiswf8y9paxekZOdaTXNhq98682DFOUyjgrEOtJ0PRc9mnNmsOEnGCAkMjY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Grimesborough",
+          "street": "Smitham Mills",
+          "house": 636,
+          "flat": 5496
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80835,
+      "createdOn": "2025-12-28T13:00:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695129eb1c508c5d5e38fa58",
+          "products": [
+            {
+              "_id": "695129eb1c508c5d5e38fa7e",
+              "name": "Hat94627",
+              "amount": 806,
+              "price": 80835,
+              "manufacturer": "Apple",
+              "notes": "eBFR1UjV5ujvhKhWAyscDMUoIcbC6GTqre3Myu7wTW5JEKwJL7FndPGnrq5YcSU0598h1pNZbj2MJZcM4cvE7u0cawhqLkiZbG8I29yn8n6UqT9lzeCQPzYGps557ypeU6bjhS9yNi9kQkjOo1u1HkrhXCdnlVHQhLO6Gce7IGMYEJQaUEOIyZNuyvae8sBmiswf8y9paxekZOdaTXNhq98682DFOUyjgrEOtJ0PRc9mnNmsOEnGCAkMjY",
+              "received": false
+            }
+          ],
+          "total_price": 80835,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Grimesborough",
+              "street": "Smitham Mills",
+              "house": 636,
+              "flat": 5496
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:00:28.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129eb1c508c5d5e38fa58",
+          "products": [
+            {
+              "_id": "695129eb1c508c5d5e38fa7e",
+              "name": "Hat94627",
+              "amount": 806,
+              "price": 80835,
+              "manufacturer": "Apple",
+              "notes": "eBFR1UjV5ujvhKhWAyscDMUoIcbC6GTqre3Myu7wTW5JEKwJL7FndPGnrq5YcSU0598h1pNZbj2MJZcM4cvE7u0cawhqLkiZbG8I29yn8n6UqT9lzeCQPzYGps557ypeU6bjhS9yNi9kQkjOo1u1HkrhXCdnlVHQhLO6Gce7IGMYEJQaUEOIyZNuyvae8sBmiswf8y9paxekZOdaTXNhq98682DFOUyjgrEOtJ0PRc9mnNmsOEnGCAkMjY",
+              "received": false
+            }
+          ],
+          "total_price": 80835,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Grimesborough",
+              "street": "Smitham Mills",
+              "house": 636,
+              "flat": 5496
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:00:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129eb1c508c5d5e38fa58",
+          "products": [
+            {
+              "_id": "695129eb1c508c5d5e38fa7e",
+              "name": "Hat94627",
+              "amount": 806,
+              "price": 80835,
+              "manufacturer": "Apple",
+              "notes": "eBFR1UjV5ujvhKhWAyscDMUoIcbC6GTqre3Myu7wTW5JEKwJL7FndPGnrq5YcSU0598h1pNZbj2MJZcM4cvE7u0cawhqLkiZbG8I29yn8n6UqT9lzeCQPzYGps557ypeU6bjhS9yNi9kQkjOo1u1HkrhXCdnlVHQhLO6Gce7IGMYEJQaUEOIyZNuyvae8sBmiswf8y9paxekZOdaTXNhq98682DFOUyjgrEOtJ0PRc9mnNmsOEnGCAkMjY",
+              "received": false
+            }
+          ],
+          "total_price": 80835,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:00:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:03:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3705",
+    "etag": "W/\"e79-K4bzcWuAQ3GohC2D044OAuRwKZI\"",
+    "keep-alive": "timeout=5, max=65",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69512a861c508c5d5e3932fc",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69512a851c508c5d5e3932c3",
+        "email": "Lamont_Cruickshank@hotmail.com",
+        "name": "Lyric Beatty",
+        "country": "Great Britain",
+        "city": "Robertsside",
+        "street": "Price Cove 29",
+        "house": 526,
+        "flat": 5747,
+        "phone": "+891587274063396",
+        "createdOn": "2025-12-28T13:03:01.000Z",
+        "notes": "0XA3xuQuHVLgoOZ87CBZ4ShhYAmhaj"
+      },
+      "products": [
+        {
+          "_id": "69512a861c508c5d5e3932ea",
+          "name": "Gloves9954",
+          "amount": 290,
+          "price": 88357,
+          "manufacturer": "Tesla",
+          "notes": "GpmbAaZ9H3fbMf6D434myothaXRNT1ouh99cD1y8ktEIim7An71bw3QwFLcLsYiyB9ZYksn5lCGqRIvgcSnuiefWd61DCaetDZaF4EjDWlvBjOxr810TGfxAoOhBaFE9cXrfULZupePM9AZjXEYmWo8bOGohaNNenaJxNRfyOVU8gTCPrYjlWzNtsPjgnAcy6dSn7vWwvbQtxCKtlcDQ2Ev4rLDHill0nr73kBPcFg6TkowLvFEy5DRTVM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Danikafield",
+          "street": "MacGyver Branch",
+          "house": 247,
+          "flat": 2474
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88357,
+      "createdOn": "2025-12-28T13:03:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69512a851c508c5d5e3932c3",
+          "products": [
+            {
+              "_id": "69512a861c508c5d5e3932ea",
+              "name": "Gloves9954",
+              "amount": 290,
+              "price": 88357,
+              "manufacturer": "Tesla",
+              "notes": "GpmbAaZ9H3fbMf6D434myothaXRNT1ouh99cD1y8ktEIim7An71bw3QwFLcLsYiyB9ZYksn5lCGqRIvgcSnuiefWd61DCaetDZaF4EjDWlvBjOxr810TGfxAoOhBaFE9cXrfULZupePM9AZjXEYmWo8bOGohaNNenaJxNRfyOVU8gTCPrYjlWzNtsPjgnAcy6dSn7vWwvbQtxCKtlcDQ2Ev4rLDHill0nr73kBPcFg6TkowLvFEy5DRTVM",
+              "received": false
+            }
+          ],
+          "total_price": 88357,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Danikafield",
+              "street": "MacGyver Branch",
+              "house": 247,
+              "flat": 2474
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:03:03.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69512a851c508c5d5e3932c3",
+          "products": [
+            {
+              "_id": "69512a861c508c5d5e3932ea",
+              "name": "Gloves9954",
+              "amount": 290,
+              "price": 88357,
+              "manufacturer": "Tesla",
+              "notes": "GpmbAaZ9H3fbMf6D434myothaXRNT1ouh99cD1y8ktEIim7An71bw3QwFLcLsYiyB9ZYksn5lCGqRIvgcSnuiefWd61DCaetDZaF4EjDWlvBjOxr810TGfxAoOhBaFE9cXrfULZupePM9AZjXEYmWo8bOGohaNNenaJxNRfyOVU8gTCPrYjlWzNtsPjgnAcy6dSn7vWwvbQtxCKtlcDQ2Ev4rLDHill0nr73kBPcFg6TkowLvFEy5DRTVM",
+              "received": false
+            }
+          ],
+          "total_price": 88357,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Danikafield",
+              "street": "MacGyver Branch",
+              "house": 247,
+              "flat": 2474
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:03:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69512a851c508c5d5e3932c3",
+          "products": [
+            {
+              "_id": "69512a861c508c5d5e3932ea",
+              "name": "Gloves9954",
+              "amount": 290,
+              "price": 88357,
+              "manufacturer": "Tesla",
+              "notes": "GpmbAaZ9H3fbMf6D434myothaXRNT1ouh99cD1y8ktEIim7An71bw3QwFLcLsYiyB9ZYksn5lCGqRIvgcSnuiefWd61DCaetDZaF4EjDWlvBjOxr810TGfxAoOhBaFE9cXrfULZupePM9AZjXEYmWo8bOGohaNNenaJxNRfyOVU8gTCPrYjlWzNtsPjgnAcy6dSn7vWwvbQtxCKtlcDQ2Ev4rLDHill0nr73kBPcFg6TkowLvFEy5DRTVM",
+              "received": false
+            }
+          ],
+          "total_price": 88357,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:03:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

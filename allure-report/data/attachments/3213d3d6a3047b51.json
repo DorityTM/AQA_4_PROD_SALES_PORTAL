@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 12:59:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2752",
+    "etag": "W/\"ac0-4WCOuj1/DvQ7/QtJjUdhRThjR1s\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695129ba1c508c5d5e38e5c0",
+      "status": "Draft",
+      "customer": {
+        "_id": "695129b91c508c5d5e38e585",
+        "email": "Macie.Barrows61@yahoo.com",
+        "name": "Price Stamm",
+        "country": "Russia",
+        "city": "Milford",
+        "street": "Emmerich Center 4",
+        "house": 459,
+        "flat": 4590,
+        "phone": "+204487873262138",
+        "createdOn": "2025-12-28T12:59:37.000Z",
+        "notes": "X7yB7VUkBykEEZSvDTlmcG4JSojh5Q"
+      },
+      "products": [
+        {
+          "_id": "695129ba1c508c5d5e38e5a5",
+          "name": "Sausages84626",
+          "amount": 551,
+          "price": 87978,
+          "manufacturer": "Xiaomi",
+          "notes": "7GsgmWoFydElmEKFQWsvn5SBT87S0Gimujh1FE3zpLj7mzRDjx0k7dCp229EnHtJ8z3lTH4ctsvs5sUr4H96aefwJS8bOHWyWUjL9lECBEGmq9aWiVyS9ARjWzE36JfjOK1RoccfDeI0AcixzYZX6v6jNYSePeJ7oqwAuJlC7I1tU7TEriHncUjdmxtCG79V7M86ozZKu46ezfM77i78QWTSHZnbWoiMVVieXaoLnybaoG66Kj38MPkTqF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Torpchester",
+          "street": "Pasquale Light",
+          "house": 36,
+          "flat": 7319
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 87978,
+      "createdOn": "2025-12-28T12:59:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695129b91c508c5d5e38e585",
+          "products": [
+            {
+              "_id": "695129ba1c508c5d5e38e5a5",
+              "name": "Sausages84626",
+              "amount": 551,
+              "price": 87978,
+              "manufacturer": "Xiaomi",
+              "notes": "7GsgmWoFydElmEKFQWsvn5SBT87S0Gimujh1FE3zpLj7mzRDjx0k7dCp229EnHtJ8z3lTH4ctsvs5sUr4H96aefwJS8bOHWyWUjL9lECBEGmq9aWiVyS9ARjWzE36JfjOK1RoccfDeI0AcixzYZX6v6jNYSePeJ7oqwAuJlC7I1tU7TEriHncUjdmxtCG79V7M86ozZKu46ezfM77i78QWTSHZnbWoiMVVieXaoLnybaoG66Kj38MPkTqF",
+              "received": false
+            }
+          ],
+          "total_price": 87978,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Torpchester",
+              "street": "Pasquale Light",
+              "house": 36,
+              "flat": 7319
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T12:59:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129b91c508c5d5e38e585",
+          "products": [
+            {
+              "_id": "695129ba1c508c5d5e38e5a5",
+              "name": "Sausages84626",
+              "amount": 551,
+              "price": 87978,
+              "manufacturer": "Xiaomi",
+              "notes": "7GsgmWoFydElmEKFQWsvn5SBT87S0Gimujh1FE3zpLj7mzRDjx0k7dCp229EnHtJ8z3lTH4ctsvs5sUr4H96aefwJS8bOHWyWUjL9lECBEGmq9aWiVyS9ARjWzE36JfjOK1RoccfDeI0AcixzYZX6v6jNYSePeJ7oqwAuJlC7I1tU7TEriHncUjdmxtCG79V7M86ozZKu46ezfM77i78QWTSHZnbWoiMVVieXaoLnybaoG66Kj38MPkTqF",
+              "received": false
+            }
+          ],
+          "total_price": 87978,
+          "delivery": null,
+          "changedOn": "2025-12-28T12:59:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

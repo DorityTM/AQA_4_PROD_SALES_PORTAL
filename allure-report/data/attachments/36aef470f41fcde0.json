@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:00:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2746",
+    "etag": "W/\"aba-uahDjiknn2dx32/C5R8UWvpZIIc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695129f61c508c5d5e38ff85",
+      "status": "Draft",
+      "customer": {
+        "_id": "695129f51c508c5d5e38ff2a",
+        "email": "Trace.Donnelly@yahoo.com",
+        "name": "Kadin Rolfson Johnson",
+        "country": "USA",
+        "city": "West Daltonboro",
+        "street": "Wiza Burg 66",
+        "house": 697,
+        "flat": 3668,
+        "phone": "+446683567306163",
+        "createdOn": "2025-12-28T13:00:37.000Z",
+        "notes": "2QfBAQZsl1lNxsJA9N9UbZOe3EMsKh"
+      },
+      "products": [
+        {
+          "_id": "695129f61c508c5d5e38ff70",
+          "name": "Table65698",
+          "amount": 672,
+          "price": 4451,
+          "manufacturer": "Google",
+          "notes": "T9nRnIpxoyiGXYEARzRadWGW6TYjk72PNGfX2TfsLHfyRmrq756tnQYxUYQtDNXS2fF4z0yoQAslXouDPeXBDCz7FunQWXLpD6KBq6dqnYDkiLDFleyViJB6kiszqqTGovjOywbsGlyqm1Q6BcKjmfvggiSwvcsUGePFcZcAaLHUSiNGpam87rqIFfqneqWhbo0FWVKqIdv6dDRFaucto0CJyDy5tf5V10B9FssRe6hWUgK8hdI4ipzxtG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Funkside",
+          "street": "Hayes Throughway",
+          "house": 283,
+          "flat": 4662
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 4451,
+      "createdOn": "2025-12-28T13:00:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695129f51c508c5d5e38ff2a",
+          "products": [
+            {
+              "_id": "695129f61c508c5d5e38ff70",
+              "name": "Table65698",
+              "amount": 672,
+              "price": 4451,
+              "manufacturer": "Google",
+              "notes": "T9nRnIpxoyiGXYEARzRadWGW6TYjk72PNGfX2TfsLHfyRmrq756tnQYxUYQtDNXS2fF4z0yoQAslXouDPeXBDCz7FunQWXLpD6KBq6dqnYDkiLDFleyViJB6kiszqqTGovjOywbsGlyqm1Q6BcKjmfvggiSwvcsUGePFcZcAaLHUSiNGpam87rqIFfqneqWhbo0FWVKqIdv6dDRFaucto0CJyDy5tf5V10B9FssRe6hWUgK8hdI4ipzxtG",
+              "received": false
+            }
+          ],
+          "total_price": 4451,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Funkside",
+              "street": "Hayes Throughway",
+              "house": 283,
+              "flat": 4662
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:00:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695129f51c508c5d5e38ff2a",
+          "products": [
+            {
+              "_id": "695129f61c508c5d5e38ff70",
+              "name": "Table65698",
+              "amount": 672,
+              "price": 4451,
+              "manufacturer": "Google",
+              "notes": "T9nRnIpxoyiGXYEARzRadWGW6TYjk72PNGfX2TfsLHfyRmrq756tnQYxUYQtDNXS2fF4z0yoQAslXouDPeXBDCz7FunQWXLpD6KBq6dqnYDkiLDFleyViJB6kiszqqTGovjOywbsGlyqm1Q6BcKjmfvggiSwvcsUGePFcZcAaLHUSiNGpam87rqIFfqneqWhbo0FWVKqIdv6dDRFaucto0CJyDy5tf5V10B9FssRe6hWUgK8hdI4ipzxtG",
+              "received": false
+            }
+          ],
+          "total_price": 4451,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:00:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

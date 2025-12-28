@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:03:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3671",
+    "etag": "W/\"e57-KAaehgipGKoHfh+FZjrZn0gG4Ac\"",
+    "keep-alive": "timeout=5, max=38",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69512a891c508c5d5e39343a",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69512a881c508c5d5e39339d",
+        "email": "Mikel.Wilkinson-Schoen44@gmail.com",
+        "name": "Orin Lubowitz",
+        "country": "Russia",
+        "city": "Fort Reginald",
+        "street": "Ambrose Gateway 26",
+        "house": 470,
+        "flat": 2198,
+        "phone": "+124681878161716",
+        "createdOn": "2025-12-28T13:03:04.000Z",
+        "notes": "bHPPXaWAOUz1BEsBGh3fHW4ph1URaA"
+      },
+      "products": [
+        {
+          "_id": "69512a891c508c5d5e3933ee",
+          "name": "Pizza79434",
+          "amount": 609,
+          "price": 39757,
+          "manufacturer": "Apple",
+          "notes": "MTEk9c5c4e7mQBtTJM3Z3KwuxdZSHKCOJ4yt9LoRjZRYulW6WNQyEN84BdIzmAcsq4WyyesFUY1aowNpwcdf9G85BRjY0ii7AMSlgf7l5kriKPkCG52SRx9YNbdVCtBeRPLf4g6Hu8phrhXUPxhSTgaPSnOAxZt5uURzMteHON9BJU8pySiawHZPGbHnKJmSxuuxLsSILNfWN7DLWS9GmHX7EpJxkdwEOp9cPqPS2FKBMKX0FFtBpiK8Wp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "New Ellie",
+          "street": "Ash Street",
+          "house": 205,
+          "flat": 7512
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 39757,
+      "createdOn": "2025-12-28T13:03:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69512a881c508c5d5e39339d",
+          "products": [
+            {
+              "_id": "69512a891c508c5d5e3933ee",
+              "name": "Pizza79434",
+              "amount": 609,
+              "price": 39757,
+              "manufacturer": "Apple",
+              "notes": "MTEk9c5c4e7mQBtTJM3Z3KwuxdZSHKCOJ4yt9LoRjZRYulW6WNQyEN84BdIzmAcsq4WyyesFUY1aowNpwcdf9G85BRjY0ii7AMSlgf7l5kriKPkCG52SRx9YNbdVCtBeRPLf4g6Hu8phrhXUPxhSTgaPSnOAxZt5uURzMteHON9BJU8pySiawHZPGbHnKJmSxuuxLsSILNfWN7DLWS9GmHX7EpJxkdwEOp9cPqPS2FKBMKX0FFtBpiK8Wp",
+              "received": false
+            }
+          ],
+          "total_price": 39757,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "New Ellie",
+              "street": "Ash Street",
+              "house": 205,
+              "flat": 7512
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:03:06.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69512a881c508c5d5e39339d",
+          "products": [
+            {
+              "_id": "69512a891c508c5d5e3933ee",
+              "name": "Pizza79434",
+              "amount": 609,
+              "price": 39757,
+              "manufacturer": "Apple",
+              "notes": "MTEk9c5c4e7mQBtTJM3Z3KwuxdZSHKCOJ4yt9LoRjZRYulW6WNQyEN84BdIzmAcsq4WyyesFUY1aowNpwcdf9G85BRjY0ii7AMSlgf7l5kriKPkCG52SRx9YNbdVCtBeRPLf4g6Hu8phrhXUPxhSTgaPSnOAxZt5uURzMteHON9BJU8pySiawHZPGbHnKJmSxuuxLsSILNfWN7DLWS9GmHX7EpJxkdwEOp9cPqPS2FKBMKX0FFtBpiK8Wp",
+              "received": false
+            }
+          ],
+          "total_price": 39757,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "New Ellie",
+              "street": "Ash Street",
+              "house": 205,
+              "flat": 7512
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:03:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69512a881c508c5d5e39339d",
+          "products": [
+            {
+              "_id": "69512a891c508c5d5e3933ee",
+              "name": "Pizza79434",
+              "amount": 609,
+              "price": 39757,
+              "manufacturer": "Apple",
+              "notes": "MTEk9c5c4e7mQBtTJM3Z3KwuxdZSHKCOJ4yt9LoRjZRYulW6WNQyEN84BdIzmAcsq4WyyesFUY1aowNpwcdf9G85BRjY0ii7AMSlgf7l5kriKPkCG52SRx9YNbdVCtBeRPLf4g6Hu8phrhXUPxhSTgaPSnOAxZt5uURzMteHON9BJU8pySiawHZPGbHnKJmSxuuxLsSILNfWN7DLWS9GmHX7EpJxkdwEOp9cPqPS2FKBMKX0FFtBpiK8Wp",
+              "received": false
+            }
+          ],
+          "total_price": 39757,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:03:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

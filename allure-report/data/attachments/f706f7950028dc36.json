@@ -1,0 +1,189 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 13:02:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3971",
+    "etag": "W/\"f83-ABL0cdx/n4GApdqZ0N7Kfyg2QQ8\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69512a701c508c5d5e3929e9",
+      "status": "In Process",
+      "customer": {
+        "_id": "69512a6f1c508c5d5e392997",
+        "email": "Willard.Sporer@gmail.com",
+        "name": "Braeden Flatley",
+        "country": "USA",
+        "city": "Leonardland",
+        "street": "Stiedemann Stravenue 36",
+        "house": 171,
+        "flat": 9508,
+        "phone": "+969226448772257",
+        "createdOn": "2025-12-28T13:02:39.000Z",
+        "notes": "l7phBGn9EQZfrC7NosowyrJemRYdXN"
+      },
+      "products": [
+        {
+          "_id": "69512a701c508c5d5e3929c9",
+          "name": "Chair18803",
+          "amount": 70,
+          "price": 10694,
+          "manufacturer": "Sony",
+          "notes": "zysa4LRzz3axULIFpHHOGnmRzWkmg3upoWC2Lpy5uyH3a64VZqcX8GKVqQYo4bsXojuvxh5ONJcRTZuP86NdrwmgTUbhP2QsO2Rd5NFAUtz5RQrcLoOXZVM7TYTzUin6yiZ1iGPDqI5xL5Tg7uORWHtPLuZPO4A23Cw1PLWo32IydMYmQUJem45IGt7mJI7ToVPJqoheqIPQgUyTABTirTbEP2BHdcY4IrcVSUai1d1vjItzRPAzKpoP42",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Houston",
+          "street": "Christa Branch",
+          "house": 613,
+          "flat": 2893
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 10694,
+      "createdOn": "2025-12-28T13:02:40.000Z",
+      "comments": [
+        {
+          "text": "Comment 1",
+          "createdOn": "2025-12-28T13:02:41.000Z",
+          "_id": "69512a721c508c5d5e392a7f"
+        },
+        {
+          "text": "Comment 2",
+          "createdOn": "2025-12-28T13:02:42.000Z",
+          "_id": "69512a721c508c5d5e392ac9"
+        },
+        {
+          "text": "Comment 3",
+          "createdOn": "2025-12-28T13:02:43.000Z",
+          "_id": "69512a731c508c5d5e392af3"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69512a6f1c508c5d5e392997",
+          "products": [
+            {
+              "_id": "69512a701c508c5d5e3929c9",
+              "name": "Chair18803",
+              "amount": 70,
+              "price": 10694,
+              "manufacturer": "Sony",
+              "notes": "zysa4LRzz3axULIFpHHOGnmRzWkmg3upoWC2Lpy5uyH3a64VZqcX8GKVqQYo4bsXojuvxh5ONJcRTZuP86NdrwmgTUbhP2QsO2Rd5NFAUtz5RQrcLoOXZVM7TYTzUin6yiZ1iGPDqI5xL5Tg7uORWHtPLuZPO4A23Cw1PLWo32IydMYmQUJem45IGt7mJI7ToVPJqoheqIPQgUyTABTirTbEP2BHdcY4IrcVSUai1d1vjItzRPAzKpoP42",
+              "received": false
+            }
+          ],
+          "total_price": 10694,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Houston",
+              "street": "Christa Branch",
+              "house": 613,
+              "flat": 2893
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:02:41.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69512a6f1c508c5d5e392997",
+          "products": [
+            {
+              "_id": "69512a701c508c5d5e3929c9",
+              "name": "Chair18803",
+              "amount": 70,
+              "price": 10694,
+              "manufacturer": "Sony",
+              "notes": "zysa4LRzz3axULIFpHHOGnmRzWkmg3upoWC2Lpy5uyH3a64VZqcX8GKVqQYo4bsXojuvxh5ONJcRTZuP86NdrwmgTUbhP2QsO2Rd5NFAUtz5RQrcLoOXZVM7TYTzUin6yiZ1iGPDqI5xL5Tg7uORWHtPLuZPO4A23Cw1PLWo32IydMYmQUJem45IGt7mJI7ToVPJqoheqIPQgUyTABTirTbEP2BHdcY4IrcVSUai1d1vjItzRPAzKpoP42",
+              "received": false
+            }
+          ],
+          "total_price": 10694,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Houston",
+              "street": "Christa Branch",
+              "house": 613,
+              "flat": 2893
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T13:02:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69512a6f1c508c5d5e392997",
+          "products": [
+            {
+              "_id": "69512a701c508c5d5e3929c9",
+              "name": "Chair18803",
+              "amount": 70,
+              "price": 10694,
+              "manufacturer": "Sony",
+              "notes": "zysa4LRzz3axULIFpHHOGnmRzWkmg3upoWC2Lpy5uyH3a64VZqcX8GKVqQYo4bsXojuvxh5ONJcRTZuP86NdrwmgTUbhP2QsO2Rd5NFAUtz5RQrcLoOXZVM7TYTzUin6yiZ1iGPDqI5xL5Tg7uORWHtPLuZPO4A23Cw1PLWo32IydMYmQUJem45IGt7mJI7ToVPJqoheqIPQgUyTABTirTbEP2BHdcY4IrcVSUai1d1vjItzRPAzKpoP42",
+              "received": false
+            }
+          ],
+          "total_price": 10694,
+          "delivery": null,
+          "changedOn": "2025-12-28T13:02:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
