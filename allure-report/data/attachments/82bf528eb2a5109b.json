@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:29:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3659",
+    "etag": "W/\"e4b-vY++t+h9j3ZHMk3jXcUVmPIPUCE\"",
+    "keep-alive": "timeout=5, max=35",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695168e31c508c5d5e3a61e1",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695168e21c508c5d5e3a6184",
+        "email": "Katlyn80@gmail.com",
+        "name": "Keegan Emmerich",
+        "country": "France",
+        "city": "Rolfsonstad",
+        "street": "Tower Road 86",
+        "house": 744,
+        "flat": 8441,
+        "phone": "+900681065868311",
+        "createdOn": "2025-12-28T17:29:06.000Z",
+        "notes": "PfL6miesVmw21KHHFCyBfQnMg9huf1"
+      },
+      "products": [
+        {
+          "_id": "695168e31c508c5d5e3a61c1",
+          "name": "Table95513",
+          "amount": 446,
+          "price": 26572,
+          "manufacturer": "Apple",
+          "notes": "N8bdeizXEmYxBfOHDlA8o22iAcu3mux0rt3vIntAEOCARJA0hh26VHbEuKm4x1l9KDeyFPQ7XFS1McWUh9ZVt5yjoUn33KH4lx1zeAPcBNY7ZW6wnZnQQwedzQhXnjZcAoYxD7bR8OgLqkceMgWM5dVwzChwCOLEqITcpz4B1jboSYCoJHmVka4xFtkkJiGy9eGsVDpqNCeuyYvx5RRjUWNKA9yeTByTToNAgkW42LlM0VSlNnnvp1gLQ7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Camarillo",
+          "street": "Herman Radial",
+          "house": 931,
+          "flat": 8466
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 26572,
+      "createdOn": "2025-12-28T17:29:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695168e21c508c5d5e3a6184",
+          "products": [
+            {
+              "_id": "695168e31c508c5d5e3a61c1",
+              "name": "Table95513",
+              "amount": 446,
+              "price": 26572,
+              "manufacturer": "Apple",
+              "notes": "N8bdeizXEmYxBfOHDlA8o22iAcu3mux0rt3vIntAEOCARJA0hh26VHbEuKm4x1l9KDeyFPQ7XFS1McWUh9ZVt5yjoUn33KH4lx1zeAPcBNY7ZW6wnZnQQwedzQhXnjZcAoYxD7bR8OgLqkceMgWM5dVwzChwCOLEqITcpz4B1jboSYCoJHmVka4xFtkkJiGy9eGsVDpqNCeuyYvx5RRjUWNKA9yeTByTToNAgkW42LlM0VSlNnnvp1gLQ7",
+              "received": false
+            }
+          ],
+          "total_price": 26572,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Camarillo",
+              "street": "Herman Radial",
+              "house": 931,
+              "flat": 8466
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:29:08.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695168e21c508c5d5e3a6184",
+          "products": [
+            {
+              "_id": "695168e31c508c5d5e3a61c1",
+              "name": "Table95513",
+              "amount": 446,
+              "price": 26572,
+              "manufacturer": "Apple",
+              "notes": "N8bdeizXEmYxBfOHDlA8o22iAcu3mux0rt3vIntAEOCARJA0hh26VHbEuKm4x1l9KDeyFPQ7XFS1McWUh9ZVt5yjoUn33KH4lx1zeAPcBNY7ZW6wnZnQQwedzQhXnjZcAoYxD7bR8OgLqkceMgWM5dVwzChwCOLEqITcpz4B1jboSYCoJHmVka4xFtkkJiGy9eGsVDpqNCeuyYvx5RRjUWNKA9yeTByTToNAgkW42LlM0VSlNnnvp1gLQ7",
+              "received": false
+            }
+          ],
+          "total_price": 26572,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Camarillo",
+              "street": "Herman Radial",
+              "house": 931,
+              "flat": 8466
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:29:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695168e21c508c5d5e3a6184",
+          "products": [
+            {
+              "_id": "695168e31c508c5d5e3a61c1",
+              "name": "Table95513",
+              "amount": 446,
+              "price": 26572,
+              "manufacturer": "Apple",
+              "notes": "N8bdeizXEmYxBfOHDlA8o22iAcu3mux0rt3vIntAEOCARJA0hh26VHbEuKm4x1l9KDeyFPQ7XFS1McWUh9ZVt5yjoUn33KH4lx1zeAPcBNY7ZW6wnZnQQwedzQhXnjZcAoYxD7bR8OgLqkceMgWM5dVwzChwCOLEqITcpz4B1jboSYCoJHmVka4xFtkkJiGy9eGsVDpqNCeuyYvx5RRjUWNKA9yeTByTToNAgkW42LlM0VSlNnnvp1gLQ7",
+              "received": false
+            }
+          ],
+          "total_price": 26572,
+          "delivery": null,
+          "changedOn": "2025-12-28T17:29:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

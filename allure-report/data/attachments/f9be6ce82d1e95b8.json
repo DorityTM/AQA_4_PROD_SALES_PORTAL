@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:32:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2772",
+    "etag": "W/\"ad4-VByA0Kqm4jtnahgY1iQinzkeLQY\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695169b81c508c5d5e3abfd3",
+      "status": "Draft",
+      "customer": {
+        "_id": "695169b71c508c5d5e3abf9a",
+        "email": "Baron_McCullough@gmail.com",
+        "name": "Chandler Halvorson",
+        "country": "Canada",
+        "city": "East Murl",
+        "street": "Bryon Ranch 28",
+        "house": 780,
+        "flat": 6041,
+        "phone": "+349786570270244",
+        "createdOn": "2025-12-28T17:32:39.000Z",
+        "notes": "rOuEEG43vMjPLJK2VidVrWYZg7byL5"
+      },
+      "products": [
+        {
+          "_id": "695169b81c508c5d5e3abfc1",
+          "name": "Shirt31355",
+          "amount": 37,
+          "price": 5231,
+          "manufacturer": "Tesla",
+          "notes": "ROD2rN2w8XQj5RpZxslXq3jsCdsfgKOrRxatxg4BP1qLk9TIEzOVPGwUY7Fzd66oc3cjPPkdYdzq9Qm1lscxY7mZQOZO94LvXOXZ0RTV8ng7wOpj1W2IVxBEYclTYFXQKT3bstdyI60T1mzvszmqUd5HrsfCjpshD4lkIQRTB8HYJGEU22SOoS9O0O83jyFBF5PKc7zLyhuOFC8PWHW2QwDxTjXD32OurJYwjIig2KrNLToD2zhYTNHbgj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Bonita Springs",
+          "street": "W Chestnut Street",
+          "house": 497,
+          "flat": 9740
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 5231,
+      "createdOn": "2025-12-28T17:32:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695169b71c508c5d5e3abf9a",
+          "products": [
+            {
+              "_id": "695169b81c508c5d5e3abfc1",
+              "name": "Shirt31355",
+              "amount": 37,
+              "price": 5231,
+              "manufacturer": "Tesla",
+              "notes": "ROD2rN2w8XQj5RpZxslXq3jsCdsfgKOrRxatxg4BP1qLk9TIEzOVPGwUY7Fzd66oc3cjPPkdYdzq9Qm1lscxY7mZQOZO94LvXOXZ0RTV8ng7wOpj1W2IVxBEYclTYFXQKT3bstdyI60T1mzvszmqUd5HrsfCjpshD4lkIQRTB8HYJGEU22SOoS9O0O83jyFBF5PKc7zLyhuOFC8PWHW2QwDxTjXD32OurJYwjIig2KrNLToD2zhYTNHbgj",
+              "received": false
+            }
+          ],
+          "total_price": 5231,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Bonita Springs",
+              "street": "W Chestnut Street",
+              "house": 497,
+              "flat": 9740
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:32:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695169b71c508c5d5e3abf9a",
+          "products": [
+            {
+              "_id": "695169b81c508c5d5e3abfc1",
+              "name": "Shirt31355",
+              "amount": 37,
+              "price": 5231,
+              "manufacturer": "Tesla",
+              "notes": "ROD2rN2w8XQj5RpZxslXq3jsCdsfgKOrRxatxg4BP1qLk9TIEzOVPGwUY7Fzd66oc3cjPPkdYdzq9Qm1lscxY7mZQOZO94LvXOXZ0RTV8ng7wOpj1W2IVxBEYclTYFXQKT3bstdyI60T1mzvszmqUd5HrsfCjpshD4lkIQRTB8HYJGEU22SOoS9O0O83jyFBF5PKc7zLyhuOFC8PWHW2QwDxTjXD32OurJYwjIig2KrNLToD2zhYTNHbgj",
+              "received": false
+            }
+          ],
+          "total_price": 5231,
+          "delivery": null,
+          "changedOn": "2025-12-28T17:32:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

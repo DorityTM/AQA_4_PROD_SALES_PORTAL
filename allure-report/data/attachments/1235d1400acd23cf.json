@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:30:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3688",
+    "etag": "W/\"e68-OkRvzp+JXwpxslckVYXDC8mF3+U\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695169271c508c5d5e3a83a7",
+      "status": "In Process",
+      "customer": {
+        "_id": "695169241c508c5d5e3a8132",
+        "email": "Zola_Hettinger@hotmail.com",
+        "name": "Eduardo Vandervort",
+        "country": "Russia",
+        "city": "North Erichaven",
+        "street": "Taya Coves 86",
+        "house": 105,
+        "flat": 9891,
+        "phone": "+074979818089483",
+        "createdOn": "2025-12-28T17:30:12.000Z",
+        "notes": "91XKUFqLWYuyIgVrpulUUHoNwmKwIi"
+      },
+      "products": [
+        {
+          "_id": "695169261c508c5d5e3a838d",
+          "name": "Cheese8172",
+          "amount": 87,
+          "price": 73730,
+          "manufacturer": "Xiaomi",
+          "notes": "EG4WDwkb0bbhT8neIs9LvGVKqLd4XISFT1FSXN3dBlXeC90qXqzqKXOBDYgMxC1NB7ST23DvuPZDGKrsnlGj2EKhQUJVQEpanGxqnZrK9ahxctHGmPCBq8ymiO4JeKDLyXe19D7b4LNtODvMuso3O1V79nPVKtTCkKMfCD31boojb5IcclB7Hl57pPXXHlZy7putzOv9BP3u2FZt9VpFqjTH8DlUKTkjeQFKQuShDRUfMQi1TaFpxLaWVC",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Shanaside",
+          "street": "Farrell Brook",
+          "house": 101,
+          "flat": 6469
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 73730,
+      "createdOn": "2025-12-28T17:30:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695169241c508c5d5e3a8132",
+          "products": [
+            {
+              "_id": "695169261c508c5d5e3a838d",
+              "name": "Cheese8172",
+              "amount": 87,
+              "price": 73730,
+              "manufacturer": "Xiaomi",
+              "notes": "EG4WDwkb0bbhT8neIs9LvGVKqLd4XISFT1FSXN3dBlXeC90qXqzqKXOBDYgMxC1NB7ST23DvuPZDGKrsnlGj2EKhQUJVQEpanGxqnZrK9ahxctHGmPCBq8ymiO4JeKDLyXe19D7b4LNtODvMuso3O1V79nPVKtTCkKMfCD31boojb5IcclB7Hl57pPXXHlZy7putzOv9BP3u2FZt9VpFqjTH8DlUKTkjeQFKQuShDRUfMQi1TaFpxLaWVC",
+              "received": false
+            }
+          ],
+          "total_price": 73730,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Shanaside",
+              "street": "Farrell Brook",
+              "house": 101,
+              "flat": 6469
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:30:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695169241c508c5d5e3a8132",
+          "products": [
+            {
+              "_id": "695169261c508c5d5e3a838d",
+              "name": "Cheese8172",
+              "amount": 87,
+              "price": 73730,
+              "manufacturer": "Xiaomi",
+              "notes": "EG4WDwkb0bbhT8neIs9LvGVKqLd4XISFT1FSXN3dBlXeC90qXqzqKXOBDYgMxC1NB7ST23DvuPZDGKrsnlGj2EKhQUJVQEpanGxqnZrK9ahxctHGmPCBq8ymiO4JeKDLyXe19D7b4LNtODvMuso3O1V79nPVKtTCkKMfCD31boojb5IcclB7Hl57pPXXHlZy7putzOv9BP3u2FZt9VpFqjTH8DlUKTkjeQFKQuShDRUfMQi1TaFpxLaWVC",
+              "received": false
+            }
+          ],
+          "total_price": 73730,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Shanaside",
+              "street": "Farrell Brook",
+              "house": 101,
+              "flat": 6469
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:30:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695169241c508c5d5e3a8132",
+          "products": [
+            {
+              "_id": "695169261c508c5d5e3a838d",
+              "name": "Cheese8172",
+              "amount": 87,
+              "price": 73730,
+              "manufacturer": "Xiaomi",
+              "notes": "EG4WDwkb0bbhT8neIs9LvGVKqLd4XISFT1FSXN3dBlXeC90qXqzqKXOBDYgMxC1NB7ST23DvuPZDGKrsnlGj2EKhQUJVQEpanGxqnZrK9ahxctHGmPCBq8ymiO4JeKDLyXe19D7b4LNtODvMuso3O1V79nPVKtTCkKMfCD31boojb5IcclB7Hl57pPXXHlZy7putzOv9BP3u2FZt9VpFqjTH8DlUKTkjeQFKQuShDRUfMQi1TaFpxLaWVC",
+              "received": false
+            }
+          ],
+          "total_price": 73730,
+          "delivery": null,
+          "changedOn": "2025-12-28T17:30:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

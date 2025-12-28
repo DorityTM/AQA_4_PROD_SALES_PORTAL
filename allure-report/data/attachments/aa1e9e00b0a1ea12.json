@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:32:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2760",
+    "etag": "W/\"ac8-LgnwdtwSsacxb6Lz8XVAW5JOdw4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695169b81c508c5d5e3abfda",
+      "status": "Draft",
+      "customer": {
+        "_id": "695169b71c508c5d5e3abf9e",
+        "email": "Malcolm.Jerde@hotmail.com",
+        "name": "Moshe Mills",
+        "country": "Great Britain",
+        "city": "Zeldaborough",
+        "street": "Windler Rapids 9",
+        "house": 19,
+        "flat": 8574,
+        "phone": "+688365647416974",
+        "createdOn": "2025-12-28T17:32:39.000Z",
+        "notes": "KH4HpLipGt6EDwoJcezQTwR1USY83y"
+      },
+      "products": [
+        {
+          "_id": "695169b81c508c5d5e3abfc8",
+          "name": "Fish2738",
+          "amount": 827,
+          "price": 25651,
+          "manufacturer": "Tesla",
+          "notes": "BrF81gofL8us5FOC3jFEGpxnMcDfNoTGGjsoBIqixQRHha75xphvz4PHrnC9UmPwo0wcXBLdqXrmMcAp4JO3AmbOQQFUIx2KGS2W9VGOSgm5wQ4XiL1WkRDRaVH9Xa5A9dcxtrlfVZe6WLU0lrKtjTSWKKIbPu1pNiKbCdfKXUvHqgwrj8pzrDnY1GZlEGnpHVD9CeM6CqZ2bQkxBvv5tiIDvA9xqVHdFAchlXvF2Ad2vQO3uKydqNLahP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Karinaberg",
+          "street": "E 7th Street",
+          "house": 688,
+          "flat": 3913
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25651,
+      "createdOn": "2025-12-28T17:32:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695169b71c508c5d5e3abf9e",
+          "products": [
+            {
+              "_id": "695169b81c508c5d5e3abfc8",
+              "name": "Fish2738",
+              "amount": 827,
+              "price": 25651,
+              "manufacturer": "Tesla",
+              "notes": "BrF81gofL8us5FOC3jFEGpxnMcDfNoTGGjsoBIqixQRHha75xphvz4PHrnC9UmPwo0wcXBLdqXrmMcAp4JO3AmbOQQFUIx2KGS2W9VGOSgm5wQ4XiL1WkRDRaVH9Xa5A9dcxtrlfVZe6WLU0lrKtjTSWKKIbPu1pNiKbCdfKXUvHqgwrj8pzrDnY1GZlEGnpHVD9CeM6CqZ2bQkxBvv5tiIDvA9xqVHdFAchlXvF2Ad2vQO3uKydqNLahP",
+              "received": false
+            }
+          ],
+          "total_price": 25651,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Karinaberg",
+              "street": "E 7th Street",
+              "house": 688,
+              "flat": 3913
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:32:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695169b71c508c5d5e3abf9e",
+          "products": [
+            {
+              "_id": "695169b81c508c5d5e3abfc8",
+              "name": "Fish2738",
+              "amount": 827,
+              "price": 25651,
+              "manufacturer": "Tesla",
+              "notes": "BrF81gofL8us5FOC3jFEGpxnMcDfNoTGGjsoBIqixQRHha75xphvz4PHrnC9UmPwo0wcXBLdqXrmMcAp4JO3AmbOQQFUIx2KGS2W9VGOSgm5wQ4XiL1WkRDRaVH9Xa5A9dcxtrlfVZe6WLU0lrKtjTSWKKIbPu1pNiKbCdfKXUvHqgwrj8pzrDnY1GZlEGnpHVD9CeM6CqZ2bQkxBvv5tiIDvA9xqVHdFAchlXvF2Ad2vQO3uKydqNLahP",
+              "received": false
+            }
+          ],
+          "total_price": 25651,
+          "delivery": null,
+          "changedOn": "2025-12-28T17:32:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

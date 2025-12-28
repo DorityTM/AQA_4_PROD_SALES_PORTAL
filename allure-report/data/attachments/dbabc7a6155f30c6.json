@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:28:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5239",
+    "etag": "W/\"1477-YpfxmSP/yAPEGMi94h1+f3tP2A0\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695168c41c508c5d5e3a530b",
+      "status": "In Process",
+      "customer": {
+        "_id": "695168c31c508c5d5e3a52a0",
+        "email": "Kelley15@gmail.com",
+        "name": "Dimitri Johnson",
+        "country": "Germany",
+        "city": "Hilariohaven",
+        "street": "Raleigh Rapid 87",
+        "house": 138,
+        "flat": 2933,
+        "phone": "+032261399225749",
+        "createdOn": "2025-12-28T17:28:35.000Z",
+        "notes": "JKNAYuoKnKYQmkod6VaNmvHbRhCD9z"
+      },
+      "products": [
+        {
+          "_id": "695168c31c508c5d5e3a52d5",
+          "name": "Mouse8922",
+          "amount": 252,
+          "price": 70831,
+          "manufacturer": "Apple",
+          "notes": "NWtgDIzS5jAgcCOQR8YkpnVeGdngXwk57VDj3yeRyVnE4uXzVPhJ5JFgl3THtZNVqnCOhypop35v3ytQ3SJh8tDVM9TABmEFQNgFGTk2gyYCNwxpyR59P8otE6TbdQGqgu1ocjsSXGKcy3FGUOLj32mDqanJ1KyLtoWScrOThtaxblFf3QUcvkxsYwcttmjYgxZOaLITcC4ce9Xzt0fEOaHHpThN0jbNRJKUURQJtFb1378otSb2Xd3Ref",
+          "received": false
+        },
+        {
+          "_id": "695168c41c508c5d5e3a52fc",
+          "name": "Gloves63352",
+          "amount": 311,
+          "price": 40549,
+          "manufacturer": "Google",
+          "notes": "eREvtnU7qux9HBlhJL5TA6ITuQI2RB1Boa7ZRdnnEv47hLuxt1SwESkZweMb1aVFnYshLl8EpAnT9s2kM41BkDu1tReinay86O7RdHSBLcSrsYppns5wivvU1m4xW7k8uWdy7QRZkWdNS8lMdSYP8LvMGaNkcS5QFPRCACMoT2v38CffXPus03d1cOHpsF7PzsNwFMH1oj7g0rqKme5i70PYi7Os0Vysi2l7gBKI2Wh6IiXwuFdJ9X2QNL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Oliver",
+          "street": "N 4th Street",
+          "house": 790,
+          "flat": 7278
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 111380,
+      "createdOn": "2025-12-28T17:28:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695168c31c508c5d5e3a52a0",
+          "products": [
+            {
+              "_id": "695168c31c508c5d5e3a52d5",
+              "name": "Mouse8922",
+              "amount": 252,
+              "price": 70831,
+              "manufacturer": "Apple",
+              "notes": "NWtgDIzS5jAgcCOQR8YkpnVeGdngXwk57VDj3yeRyVnE4uXzVPhJ5JFgl3THtZNVqnCOhypop35v3ytQ3SJh8tDVM9TABmEFQNgFGTk2gyYCNwxpyR59P8otE6TbdQGqgu1ocjsSXGKcy3FGUOLj32mDqanJ1KyLtoWScrOThtaxblFf3QUcvkxsYwcttmjYgxZOaLITcC4ce9Xzt0fEOaHHpThN0jbNRJKUURQJtFb1378otSb2Xd3Ref",
+              "received": false
+            },
+            {
+              "_id": "695168c41c508c5d5e3a52fc",
+              "name": "Gloves63352",
+              "amount": 311,
+              "price": 40549,
+              "manufacturer": "Google",
+              "notes": "eREvtnU7qux9HBlhJL5TA6ITuQI2RB1Boa7ZRdnnEv47hLuxt1SwESkZweMb1aVFnYshLl8EpAnT9s2kM41BkDu1tReinay86O7RdHSBLcSrsYppns5wivvU1m4xW7k8uWdy7QRZkWdNS8lMdSYP8LvMGaNkcS5QFPRCACMoT2v38CffXPus03d1cOHpsF7PzsNwFMH1oj7g0rqKme5i70PYi7Os0Vysi2l7gBKI2Wh6IiXwuFdJ9X2QNL",
+              "received": false
+            }
+          ],
+          "total_price": 111380,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Oliver",
+              "street": "N 4th Street",
+              "house": 790,
+              "flat": 7278
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:28:38.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695168c31c508c5d5e3a52a0",
+          "products": [
+            {
+              "_id": "695168c31c508c5d5e3a52d5",
+              "name": "Mouse8922",
+              "amount": 252,
+              "price": 70831,
+              "manufacturer": "Apple",
+              "notes": "NWtgDIzS5jAgcCOQR8YkpnVeGdngXwk57VDj3yeRyVnE4uXzVPhJ5JFgl3THtZNVqnCOhypop35v3ytQ3SJh8tDVM9TABmEFQNgFGTk2gyYCNwxpyR59P8otE6TbdQGqgu1ocjsSXGKcy3FGUOLj32mDqanJ1KyLtoWScrOThtaxblFf3QUcvkxsYwcttmjYgxZOaLITcC4ce9Xzt0fEOaHHpThN0jbNRJKUURQJtFb1378otSb2Xd3Ref",
+              "received": false
+            },
+            {
+              "_id": "695168c41c508c5d5e3a52fc",
+              "name": "Gloves63352",
+              "amount": 311,
+              "price": 40549,
+              "manufacturer": "Google",
+              "notes": "eREvtnU7qux9HBlhJL5TA6ITuQI2RB1Boa7ZRdnnEv47hLuxt1SwESkZweMb1aVFnYshLl8EpAnT9s2kM41BkDu1tReinay86O7RdHSBLcSrsYppns5wivvU1m4xW7k8uWdy7QRZkWdNS8lMdSYP8LvMGaNkcS5QFPRCACMoT2v38CffXPus03d1cOHpsF7PzsNwFMH1oj7g0rqKme5i70PYi7Os0Vysi2l7gBKI2Wh6IiXwuFdJ9X2QNL",
+              "received": false
+            }
+          ],
+          "total_price": 111380,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Oliver",
+              "street": "N 4th Street",
+              "house": 790,
+              "flat": 7278
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:28:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695168c31c508c5d5e3a52a0",
+          "products": [
+            {
+              "_id": "695168c31c508c5d5e3a52d5",
+              "name": "Mouse8922",
+              "amount": 252,
+              "price": 70831,
+              "manufacturer": "Apple",
+              "notes": "NWtgDIzS5jAgcCOQR8YkpnVeGdngXwk57VDj3yeRyVnE4uXzVPhJ5JFgl3THtZNVqnCOhypop35v3ytQ3SJh8tDVM9TABmEFQNgFGTk2gyYCNwxpyR59P8otE6TbdQGqgu1ocjsSXGKcy3FGUOLj32mDqanJ1KyLtoWScrOThtaxblFf3QUcvkxsYwcttmjYgxZOaLITcC4ce9Xzt0fEOaHHpThN0jbNRJKUURQJtFb1378otSb2Xd3Ref",
+              "received": false
+            },
+            {
+              "_id": "695168c41c508c5d5e3a52fc",
+              "name": "Gloves63352",
+              "amount": 311,
+              "price": 40549,
+              "manufacturer": "Google",
+              "notes": "eREvtnU7qux9HBlhJL5TA6ITuQI2RB1Boa7ZRdnnEv47hLuxt1SwESkZweMb1aVFnYshLl8EpAnT9s2kM41BkDu1tReinay86O7RdHSBLcSrsYppns5wivvU1m4xW7k8uWdy7QRZkWdNS8lMdSYP8LvMGaNkcS5QFPRCACMoT2v38CffXPus03d1cOHpsF7PzsNwFMH1oj7g0rqKme5i70PYi7Os0Vysi2l7gBKI2Wh6IiXwuFdJ9X2QNL",
+              "received": false
+            }
+          ],
+          "total_price": 111380,
+          "delivery": null,
+          "changedOn": "2025-12-28T17:28:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:29:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-4g9UbUEUQdwq5+aMuh6l3HpD4DI\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951690a1c508c5d5e3a7454",
+      "status": "Draft",
+      "customer": {
+        "_id": "695169091c508c5d5e3a73af",
+        "email": "Jasmin.Mraz35@yahoo.com",
+        "name": "Noe Rolfson",
+        "country": "France",
+        "city": "North Rosafort",
+        "street": "Maiya Valley 49",
+        "house": 964,
+        "flat": 5427,
+        "phone": "+273333473883852",
+        "createdOn": "2025-12-28T17:29:45.000Z",
+        "notes": "3MkjvWwAMgNLsoZbB0q8sF2cqQnCBl"
+      },
+      "products": [
+        {
+          "_id": "695169091c508c5d5e3a73df",
+          "name": "Bike10640",
+          "amount": 189,
+          "price": 53724,
+          "manufacturer": "Amazon",
+          "notes": "wzZLrKbVaYKu097BqarkMp59sxV3bsaglPPoVu69ZkTFRNJ2J5TJ1kRyMjaaNW13er8PWu16mc7SGdvkKsE442lELH5p9xkTUkPXWkrdpyXkv2zA1XNMvC92JOEon5uwPQWj3UYy4GBZThp5QVFMVjSHaf4apcuF0haECTx4SomCZozWFFagmuGghc3RWc27iHbxtPzII2n5w6ItMELwfXOhCd54l1IqC688cVgcFXqthah1CiARnmCWTi",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Corkeryborough",
+          "street": "Goldner Mount",
+          "house": 635,
+          "flat": 6999
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53724,
+      "createdOn": "2025-12-28T17:29:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695169091c508c5d5e3a73af",
+          "products": [
+            {
+              "_id": "695169091c508c5d5e3a73df",
+              "name": "Bike10640",
+              "amount": 189,
+              "price": 53724,
+              "manufacturer": "Amazon",
+              "notes": "wzZLrKbVaYKu097BqarkMp59sxV3bsaglPPoVu69ZkTFRNJ2J5TJ1kRyMjaaNW13er8PWu16mc7SGdvkKsE442lELH5p9xkTUkPXWkrdpyXkv2zA1XNMvC92JOEon5uwPQWj3UYy4GBZThp5QVFMVjSHaf4apcuF0haECTx4SomCZozWFFagmuGghc3RWc27iHbxtPzII2n5w6ItMELwfXOhCd54l1IqC688cVgcFXqthah1CiARnmCWTi",
+              "received": false
+            }
+          ],
+          "total_price": 53724,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Corkeryborough",
+              "street": "Goldner Mount",
+              "house": 635,
+              "flat": 6999
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:29:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695169091c508c5d5e3a73af",
+          "products": [
+            {
+              "_id": "695169091c508c5d5e3a73df",
+              "name": "Bike10640",
+              "amount": 189,
+              "price": 53724,
+              "manufacturer": "Amazon",
+              "notes": "wzZLrKbVaYKu097BqarkMp59sxV3bsaglPPoVu69ZkTFRNJ2J5TJ1kRyMjaaNW13er8PWu16mc7SGdvkKsE442lELH5p9xkTUkPXWkrdpyXkv2zA1XNMvC92JOEon5uwPQWj3UYy4GBZThp5QVFMVjSHaf4apcuF0haECTx4SomCZozWFFagmuGghc3RWc27iHbxtPzII2n5w6ItMELwfXOhCd54l1IqC688cVgcFXqthah1CiARnmCWTi",
+              "received": false
+            }
+          ],
+          "total_price": 53724,
+          "delivery": null,
+          "changedOn": "2025-12-28T17:29:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

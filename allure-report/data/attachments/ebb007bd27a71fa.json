@@ -1,0 +1,253 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:29:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5486",
+    "etag": "W/\"156e-tkeBZGLh5N1KtpgHS6Fv2Q3/Tqs\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695168fb1c508c5d5e3a6d50",
+      "status": "Draft",
+      "customer": {
+        "_id": "695168f81c508c5d5e3a6b6f",
+        "email": "Laurianne.Bergstrom50@gmail.com",
+        "name": "Aimee Lueilwitz",
+        "country": "Belarus",
+        "city": "San Luis Obispo",
+        "street": "Kuvalis Heights 48",
+        "house": 331,
+        "flat": 4095,
+        "phone": "+838363045642284",
+        "createdOn": "2025-12-28T17:29:28.000Z",
+        "notes": "hclL8OusAtY8ceJEFqjrsxIg3gcrrr"
+      },
+      "products": [
+        {
+          "_id": "695168f91c508c5d5e3a6bdf",
+          "name": "Hat64750",
+          "amount": 100,
+          "price": 47672,
+          "manufacturer": "Amazon",
+          "notes": "g2Wk4ajXPPfkxfJCfLt3sBVJB0LBmeYjxSBJG9fk83hgQaIKb2OnuPRAkzR1mIR8zir1d2v8gpF6ViAcP0d8fW1bgdUFmS4jXaEE7Yx3z0RQLYF7eOAZQry6ox9mCjRPLy3DXnrjqtk5sfp1cjRZRpFwdalqMdz0eLRypYH741eX5qrrxpQNedMu0a8KHsBpGYUVgSHir98H3sPxJTeVoetwyLvhZzgmh3yZvmOoTsX5YzoY1Ygtnb6aw3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "A",
+          "street": "5th Avenue",
+          "house": 1,
+          "flat": 101
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47672,
+      "createdOn": "2025-12-28T17:29:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695168f81c508c5d5e3a6b6f",
+          "products": [
+            {
+              "_id": "695168f91c508c5d5e3a6bdf",
+              "name": "Hat64750",
+              "amount": 100,
+              "price": 47672,
+              "manufacturer": "Amazon",
+              "notes": "g2Wk4ajXPPfkxfJCfLt3sBVJB0LBmeYjxSBJG9fk83hgQaIKb2OnuPRAkzR1mIR8zir1d2v8gpF6ViAcP0d8fW1bgdUFmS4jXaEE7Yx3z0RQLYF7eOAZQry6ox9mCjRPLy3DXnrjqtk5sfp1cjRZRpFwdalqMdz0eLRypYH741eX5qrrxpQNedMu0a8KHsBpGYUVgSHir98H3sPxJTeVoetwyLvhZzgmh3yZvmOoTsX5YzoY1Ygtnb6aw3",
+              "received": false
+            }
+          ],
+          "total_price": 47672,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "A",
+              "street": "5th Avenue",
+              "house": 1,
+              "flat": 101
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:29:33.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695168f81c508c5d5e3a6b6f",
+          "products": [
+            {
+              "_id": "695168f91c508c5d5e3a6bdf",
+              "name": "Hat64750",
+              "amount": 100,
+              "price": 47672,
+              "manufacturer": "Amazon",
+              "notes": "g2Wk4ajXPPfkxfJCfLt3sBVJB0LBmeYjxSBJG9fk83hgQaIKb2OnuPRAkzR1mIR8zir1d2v8gpF6ViAcP0d8fW1bgdUFmS4jXaEE7Yx3z0RQLYF7eOAZQry6ox9mCjRPLy3DXnrjqtk5sfp1cjRZRpFwdalqMdz0eLRypYH741eX5qrrxpQNedMu0a8KHsBpGYUVgSHir98H3sPxJTeVoetwyLvhZzgmh3yZvmOoTsX5YzoY1Ygtnb6aw3",
+              "received": false
+            }
+          ],
+          "total_price": 47672,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Maximilliaburgh",
+              "street": "Ramiro Highway",
+              "house": 8,
+              "flat": 6788
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:29:32.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695168f81c508c5d5e3a6b6f",
+          "products": [
+            {
+              "_id": "695168f91c508c5d5e3a6bdf",
+              "name": "Hat64750",
+              "amount": 100,
+              "price": 47672,
+              "manufacturer": "Amazon",
+              "notes": "g2Wk4ajXPPfkxfJCfLt3sBVJB0LBmeYjxSBJG9fk83hgQaIKb2OnuPRAkzR1mIR8zir1d2v8gpF6ViAcP0d8fW1bgdUFmS4jXaEE7Yx3z0RQLYF7eOAZQry6ox9mCjRPLy3DXnrjqtk5sfp1cjRZRpFwdalqMdz0eLRypYH741eX5qrrxpQNedMu0a8KHsBpGYUVgSHir98H3sPxJTeVoetwyLvhZzgmh3yZvmOoTsX5YzoY1Ygtnb6aw3",
+              "received": false
+            }
+          ],
+          "total_price": 47672,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Soledadchester",
+              "street": "Mathilde Locks",
+              "house": 36,
+              "flat": 2754
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T17:29:32.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695168f81c508c5d5e3a6b6f",
+          "products": [
+            {
+              "_id": "695168f91c508c5d5e3a6bdf",
+              "name": "Hat64750",
+              "amount": 100,
+              "price": 47672,
+              "manufacturer": "Amazon",
+              "notes": "g2Wk4ajXPPfkxfJCfLt3sBVJB0LBmeYjxSBJG9fk83hgQaIKb2OnuPRAkzR1mIR8zir1d2v8gpF6ViAcP0d8fW1bgdUFmS4jXaEE7Yx3z0RQLYF7eOAZQry6ox9mCjRPLy3DXnrjqtk5sfp1cjRZRpFwdalqMdz0eLRypYH741eX5qrrxpQNedMu0a8KHsBpGYUVgSHir98H3sPxJTeVoetwyLvhZzgmh3yZvmOoTsX5YzoY1Ygtnb6aw3",
+              "received": false
+            }
+          ],
+          "total_price": 47672,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Kennith",
+              "street": "Lind Pines",
+              "house": 912,
+              "flat": 7699
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:29:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695168f81c508c5d5e3a6b6f",
+          "products": [
+            {
+              "_id": "695168f91c508c5d5e3a6bdf",
+              "name": "Hat64750",
+              "amount": 100,
+              "price": 47672,
+              "manufacturer": "Amazon",
+              "notes": "g2Wk4ajXPPfkxfJCfLt3sBVJB0LBmeYjxSBJG9fk83hgQaIKb2OnuPRAkzR1mIR8zir1d2v8gpF6ViAcP0d8fW1bgdUFmS4jXaEE7Yx3z0RQLYF7eOAZQry6ox9mCjRPLy3DXnrjqtk5sfp1cjRZRpFwdalqMdz0eLRypYH741eX5qrrxpQNedMu0a8KHsBpGYUVgSHir98H3sPxJTeVoetwyLvhZzgmh3yZvmOoTsX5YzoY1Ygtnb6aw3",
+              "received": false
+            }
+          ],
+          "total_price": 47672,
+          "delivery": null,
+          "changedOn": "2025-12-28T17:29:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

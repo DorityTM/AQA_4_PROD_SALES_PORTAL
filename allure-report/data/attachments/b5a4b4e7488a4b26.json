@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 17:30:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4590",
+    "etag": "W/\"11ee-lvHitNWnCcqFX9bWm9xmUoMI/Dg\"",
+    "keep-alive": "timeout=5, max=53",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951691a1c508c5d5e3a7d36",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695169181c508c5d5e3a7ba7",
+        "email": "Jennie.Reinger66@hotmail.com",
+        "name": "Beth Hackett",
+        "country": "France",
+        "city": "Goodyear",
+        "street": "Cole Falls 72",
+        "house": 327,
+        "flat": 2763,
+        "phone": "+290948671071545",
+        "createdOn": "2025-12-28T17:30:00.000Z",
+        "notes": "fu1UAi2zPifAsraK6LE3gohcC4vTdv"
+      },
+      "products": [
+        {
+          "_id": "6951691a1c508c5d5e3a7d24",
+          "name": "Fish94885",
+          "amount": 370,
+          "price": 42667,
+          "manufacturer": "Amazon",
+          "notes": "DtZ2JQ46weasSrIdawzB90ZZ1nS65JLQGN5MEI6LikEWtarekqmGqYy2nxZSJ5r0qsC9uftxL5i7tIQ7LKdAVK9aLRKBL39P9qoIfKMClYCRmplCich0v4g9AJRhbGEHHACj0SwTMnEDxKQ7hriTx9JUL1dVabuiLXEKD1DaOdtZgtj0dfIJ5fOkkEr0IXmatbGsCgRfTxl5l920DVH6cr50wJFwFq2p9duY9jiY1wf1gdYceW0BMf2lqf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Hartford",
+          "street": "Goodwin Terrace",
+          "house": 656,
+          "flat": 5513
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42667,
+      "createdOn": "2025-12-28T17:30:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695169181c508c5d5e3a7ba7",
+          "products": [
+            {
+              "_id": "6951691a1c508c5d5e3a7d24",
+              "name": "Fish94885",
+              "amount": 370,
+              "price": 42667,
+              "manufacturer": "Amazon",
+              "notes": "DtZ2JQ46weasSrIdawzB90ZZ1nS65JLQGN5MEI6LikEWtarekqmGqYy2nxZSJ5r0qsC9uftxL5i7tIQ7LKdAVK9aLRKBL39P9qoIfKMClYCRmplCich0v4g9AJRhbGEHHACj0SwTMnEDxKQ7hriTx9JUL1dVabuiLXEKD1DaOdtZgtj0dfIJ5fOkkEr0IXmatbGsCgRfTxl5l920DVH6cr50wJFwFq2p9duY9jiY1wf1gdYceW0BMf2lqf",
+              "received": false
+            }
+          ],
+          "total_price": 42667,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Hartford",
+              "street": "Goodwin Terrace",
+              "house": 656,
+              "flat": 5513
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:30:04.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695169181c508c5d5e3a7ba7",
+          "products": [
+            {
+              "_id": "6951691a1c508c5d5e3a7d24",
+              "name": "Fish94885",
+              "amount": 370,
+              "price": 42667,
+              "manufacturer": "Amazon",
+              "notes": "DtZ2JQ46weasSrIdawzB90ZZ1nS65JLQGN5MEI6LikEWtarekqmGqYy2nxZSJ5r0qsC9uftxL5i7tIQ7LKdAVK9aLRKBL39P9qoIfKMClYCRmplCich0v4g9AJRhbGEHHACj0SwTMnEDxKQ7hriTx9JUL1dVabuiLXEKD1DaOdtZgtj0dfIJ5fOkkEr0IXmatbGsCgRfTxl5l920DVH6cr50wJFwFq2p9duY9jiY1wf1gdYceW0BMf2lqf",
+              "received": false
+            }
+          ],
+          "total_price": 42667,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Hartford",
+              "street": "Goodwin Terrace",
+              "house": 656,
+              "flat": 5513
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:30:03.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695169181c508c5d5e3a7ba7",
+          "products": [
+            {
+              "_id": "6951691a1c508c5d5e3a7d24",
+              "name": "Fish94885",
+              "amount": 370,
+              "price": 42667,
+              "manufacturer": "Amazon",
+              "notes": "DtZ2JQ46weasSrIdawzB90ZZ1nS65JLQGN5MEI6LikEWtarekqmGqYy2nxZSJ5r0qsC9uftxL5i7tIQ7LKdAVK9aLRKBL39P9qoIfKMClYCRmplCich0v4g9AJRhbGEHHACj0SwTMnEDxKQ7hriTx9JUL1dVabuiLXEKD1DaOdtZgtj0dfIJ5fOkkEr0IXmatbGsCgRfTxl5l920DVH6cr50wJFwFq2p9duY9jiY1wf1gdYceW0BMf2lqf",
+              "received": false
+            }
+          ],
+          "total_price": 42667,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Hartford",
+              "street": "Goodwin Terrace",
+              "house": 656,
+              "flat": 5513
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T17:30:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695169181c508c5d5e3a7ba7",
+          "products": [
+            {
+              "_id": "6951691a1c508c5d5e3a7d24",
+              "name": "Fish94885",
+              "amount": 370,
+              "price": 42667,
+              "manufacturer": "Amazon",
+              "notes": "DtZ2JQ46weasSrIdawzB90ZZ1nS65JLQGN5MEI6LikEWtarekqmGqYy2nxZSJ5r0qsC9uftxL5i7tIQ7LKdAVK9aLRKBL39P9qoIfKMClYCRmplCich0v4g9AJRhbGEHHACj0SwTMnEDxKQ7hriTx9JUL1dVabuiLXEKD1DaOdtZgtj0dfIJ5fOkkEr0IXmatbGsCgRfTxl5l920DVH6cr50wJFwFq2p9duY9jiY1wf1gdYceW0BMf2lqf",
+              "received": false
+            }
+          ],
+          "total_price": 42667,
+          "delivery": null,
+          "changedOn": "2025-12-28T17:30:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
