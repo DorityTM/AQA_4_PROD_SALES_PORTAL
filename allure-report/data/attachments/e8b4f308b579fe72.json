@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:14:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3665",
+    "etag": "W/\"e51-V3Z71//9HqwQNKnQtbq7daFUk9A\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695173671c508c5d5e3b4c61",
+      "status": "Draft",
+      "customer": {
+        "_id": "695173651c508c5d5e3b4ba9",
+        "email": "Johanna19@hotmail.com",
+        "name": "Frances Wunsch",
+        "country": "Ukraine",
+        "city": "Kubville",
+        "street": "Rosalinda Lane 31",
+        "house": 872,
+        "flat": 7993,
+        "phone": "+164207831955586",
+        "createdOn": "2025-12-28T18:13:57.000Z",
+        "notes": "sN0msfMDSxJNyXW9izOBQIzYwSBGUj"
+      },
+      "products": [
+        {
+          "_id": "695173661c508c5d5e3b4bd2",
+          "name": "Ball60133",
+          "amount": 298,
+          "price": 95587,
+          "manufacturer": "Tesla",
+          "notes": "zzY851qBUULF2qSNc23SuYCrkwg0QX8HwyRoFZGIZOLOz7J4VyOoqBpfGujMPGClQa0QVVFYCK8KobgfhfjnxMsieMYasKMeSPwaJo0up7v6W1SrXz79CAn3etbpxUfciE372pq6ljgB6nrHYlSEelqHbrXEfq7TourFjIAzrwPqS6nINxk7XMfmA3V8rRjXBwALRATHkivtKIYtCn0H3qoh3KpL2uc21HB95aMaBD3PWwmrz7wIVQHOQJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Lake Hiram",
+          "street": "Beatty Center",
+          "house": 100,
+          "flat": 7598
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 95587,
+      "createdOn": "2025-12-28T18:13:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695173651c508c5d5e3b4ba9",
+          "products": [
+            {
+              "_id": "695173661c508c5d5e3b4bd2",
+              "name": "Ball60133",
+              "amount": 298,
+              "price": 95587,
+              "manufacturer": "Tesla",
+              "notes": "zzY851qBUULF2qSNc23SuYCrkwg0QX8HwyRoFZGIZOLOz7J4VyOoqBpfGujMPGClQa0QVVFYCK8KobgfhfjnxMsieMYasKMeSPwaJo0up7v6W1SrXz79CAn3etbpxUfciE372pq6ljgB6nrHYlSEelqHbrXEfq7TourFjIAzrwPqS6nINxk7XMfmA3V8rRjXBwALRATHkivtKIYtCn0H3qoh3KpL2uc21HB95aMaBD3PWwmrz7wIVQHOQJ",
+              "received": false
+            }
+          ],
+          "total_price": 95587,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Hiram",
+              "street": "Beatty Center",
+              "house": 100,
+              "flat": 7598
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-28T18:14:00.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695173651c508c5d5e3b4ba9",
+          "products": [
+            {
+              "_id": "695173661c508c5d5e3b4bd2",
+              "name": "Ball60133",
+              "amount": 298,
+              "price": 95587,
+              "manufacturer": "Tesla",
+              "notes": "zzY851qBUULF2qSNc23SuYCrkwg0QX8HwyRoFZGIZOLOz7J4VyOoqBpfGujMPGClQa0QVVFYCK8KobgfhfjnxMsieMYasKMeSPwaJo0up7v6W1SrXz79CAn3etbpxUfciE372pq6ljgB6nrHYlSEelqHbrXEfq7TourFjIAzrwPqS6nINxk7XMfmA3V8rRjXBwALRATHkivtKIYtCn0H3qoh3KpL2uc21HB95aMaBD3PWwmrz7wIVQHOQJ",
+              "received": false
+            }
+          ],
+          "total_price": 95587,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Stammburgh",
+              "street": "Spring Street",
+              "house": 654,
+              "flat": 6369
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:13:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695173651c508c5d5e3b4ba9",
+          "products": [
+            {
+              "_id": "695173661c508c5d5e3b4bd2",
+              "name": "Ball60133",
+              "amount": 298,
+              "price": 95587,
+              "manufacturer": "Tesla",
+              "notes": "zzY851qBUULF2qSNc23SuYCrkwg0QX8HwyRoFZGIZOLOz7J4VyOoqBpfGujMPGClQa0QVVFYCK8KobgfhfjnxMsieMYasKMeSPwaJo0up7v6W1SrXz79CAn3etbpxUfciE372pq6ljgB6nrHYlSEelqHbrXEfq7TourFjIAzrwPqS6nINxk7XMfmA3V8rRjXBwALRATHkivtKIYtCn0H3qoh3KpL2uc21HB95aMaBD3PWwmrz7wIVQHOQJ",
+              "received": false
+            }
+          ],
+          "total_price": 95587,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:13:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

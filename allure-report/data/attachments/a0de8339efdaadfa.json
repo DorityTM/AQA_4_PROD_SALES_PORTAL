@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:14:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3926",
+    "etag": "W/\"f56-nlzQCZGOpQbvF6FirYX7fUMaiFM\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695173811c508c5d5e3b5793",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951737f1c508c5d5e3b572c",
+        "email": "Gaston.Carroll32@yahoo.com",
+        "name": "Mabelle Collier",
+        "country": "Germany",
+        "city": "Maggioberg",
+        "street": "The Drive 89",
+        "house": 457,
+        "flat": 2971,
+        "phone": "+729476653770019",
+        "createdOn": "2025-12-28T18:14:23.000Z",
+        "notes": "ZhMObTFRXrQocJCgOSCpaOPPJhWm9G"
+      },
+      "products": [
+        {
+          "_id": "695173801c508c5d5e3b575a",
+          "name": "Pizza39789",
+          "amount": 202,
+          "price": 85642,
+          "manufacturer": "Amazon",
+          "notes": "J9miP83oPOOEGsgFXDtfn4ZceoHKNtVgOp8k4RVMyZptPSe9PYxa1QgglPVzRofAtFXpteXsCSqVbHb24Q1r4rjfThENa8FgIt9VMq3fGUzpqXLsxn8N91fMV8ZxVjONr07A46qCE8GOUbpSRkMqkU4DDq83GoUa6hioadsAC9m4KroKhu3NK9Gec9e2Anp6N1CEBJymd2ZjN2tpSXKsAqpuj0ApFG9pLtZZxYnyeuPqs1Wh0CVbgC4me1",
+          "received": false
+        },
+        {
+          "_id": "695173811c508c5d5e3b5778",
+          "name": "Mouse80846",
+          "amount": 127,
+          "price": 42797,
+          "manufacturer": "Google",
+          "notes": "Yq5oGLHwhxRQnomfDqDXxRMN761gLXecCmgLAjsfieHjfc3vFwGVkP8FYt86oLahz0WcdBs0FlqrAvSBnlbE0viH07dTK2dvPVBqfYwlk1QGw1QrIYKCkztVs7Qp42CXcoz2YzBXouEdkubwOlKL3HxDYkQyhEIAZZmEARKZY1YmDtPH01SZMeeIcdNKfFzuBZHnXS1dsoVuRbNvpwv7hnG2jZlQJmsfxMlXOW5kBzDJwuNfMIq0Fv2kA0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Amaliashire",
+          "street": "Murray Extension",
+          "house": 579,
+          "flat": 7173
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 128439,
+      "createdOn": "2025-12-28T18:14:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951737f1c508c5d5e3b572c",
+          "products": [
+            {
+              "_id": "695173801c508c5d5e3b575a",
+              "name": "Pizza39789",
+              "amount": 202,
+              "price": 85642,
+              "manufacturer": "Amazon",
+              "notes": "J9miP83oPOOEGsgFXDtfn4ZceoHKNtVgOp8k4RVMyZptPSe9PYxa1QgglPVzRofAtFXpteXsCSqVbHb24Q1r4rjfThENa8FgIt9VMq3fGUzpqXLsxn8N91fMV8ZxVjONr07A46qCE8GOUbpSRkMqkU4DDq83GoUa6hioadsAC9m4KroKhu3NK9Gec9e2Anp6N1CEBJymd2ZjN2tpSXKsAqpuj0ApFG9pLtZZxYnyeuPqs1Wh0CVbgC4me1",
+              "received": false
+            },
+            {
+              "_id": "695173811c508c5d5e3b5778",
+              "name": "Mouse80846",
+              "amount": 127,
+              "price": 42797,
+              "manufacturer": "Google",
+              "notes": "Yq5oGLHwhxRQnomfDqDXxRMN761gLXecCmgLAjsfieHjfc3vFwGVkP8FYt86oLahz0WcdBs0FlqrAvSBnlbE0viH07dTK2dvPVBqfYwlk1QGw1QrIYKCkztVs7Qp42CXcoz2YzBXouEdkubwOlKL3HxDYkQyhEIAZZmEARKZY1YmDtPH01SZMeeIcdNKfFzuBZHnXS1dsoVuRbNvpwv7hnG2jZlQJmsfxMlXOW5kBzDJwuNfMIq0Fv2kA0",
+              "received": false
+            }
+          ],
+          "total_price": 128439,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Amaliashire",
+              "street": "Murray Extension",
+              "house": 579,
+              "flat": 7173
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:14:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951737f1c508c5d5e3b572c",
+          "products": [
+            {
+              "_id": "695173801c508c5d5e3b575a",
+              "name": "Pizza39789",
+              "amount": 202,
+              "price": 85642,
+              "manufacturer": "Amazon",
+              "notes": "J9miP83oPOOEGsgFXDtfn4ZceoHKNtVgOp8k4RVMyZptPSe9PYxa1QgglPVzRofAtFXpteXsCSqVbHb24Q1r4rjfThENa8FgIt9VMq3fGUzpqXLsxn8N91fMV8ZxVjONr07A46qCE8GOUbpSRkMqkU4DDq83GoUa6hioadsAC9m4KroKhu3NK9Gec9e2Anp6N1CEBJymd2ZjN2tpSXKsAqpuj0ApFG9pLtZZxYnyeuPqs1Wh0CVbgC4me1",
+              "received": false
+            },
+            {
+              "_id": "695173811c508c5d5e3b5778",
+              "name": "Mouse80846",
+              "amount": 127,
+              "price": 42797,
+              "manufacturer": "Google",
+              "notes": "Yq5oGLHwhxRQnomfDqDXxRMN761gLXecCmgLAjsfieHjfc3vFwGVkP8FYt86oLahz0WcdBs0FlqrAvSBnlbE0viH07dTK2dvPVBqfYwlk1QGw1QrIYKCkztVs7Qp42CXcoz2YzBXouEdkubwOlKL3HxDYkQyhEIAZZmEARKZY1YmDtPH01SZMeeIcdNKfFzuBZHnXS1dsoVuRbNvpwv7hnG2jZlQJmsfxMlXOW5kBzDJwuNfMIq0Fv2kA0",
+              "received": false
+            }
+          ],
+          "total_price": 128439,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:14:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

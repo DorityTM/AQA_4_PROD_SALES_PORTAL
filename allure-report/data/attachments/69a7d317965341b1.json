@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:20:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-Ws+g6o3hUOLEyL4v7UFJPk7cUz8\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695174d61c508c5d5e3bf29d",
+      "status": "Draft",
+      "customer": {
+        "_id": "695174d51c508c5d5e3bf23a",
+        "email": "Tod.Bergnaum@gmail.com",
+        "name": "Margret Ledner",
+        "country": "Canada",
+        "city": "Ornland",
+        "street": "Chyna Roads 9",
+        "house": 280,
+        "flat": 7303,
+        "phone": "+565157125629082",
+        "createdOn": "2025-12-28T18:20:05.000Z",
+        "notes": "Snx36kha1PhQlCciIqG98lOJJF5KvY"
+      },
+      "products": [
+        {
+          "_id": "695174d61c508c5d5e3bf28d",
+          "name": "Bacon36140",
+          "amount": 482,
+          "price": 77802,
+          "manufacturer": "Samsung",
+          "notes": "CkiWuJLitDuwRph0ywgA3sNok45hLQOxSKinNKf3q5IRTndxAHud6sRUMWouEPTYwxzo6c8U4v51y77mezR2gAtPPVzN1oCnrwgX54Qp1dYWglbJECgZT5dtrNDSUnxbQ03YHaZ8DhRAlYbRbgroaCvxgxm8y6pfysimNoqsWbBgMDUsFhdmRJ6ysdAUFi2i2qC3zKk3ZNIwHpNITiIt7MWNc4gJTb85sChnRuygVNjvIOXxDfIecCmcoh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Katarina",
+          "street": "Highfield Avenue",
+          "house": 486,
+          "flat": 313
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 77802,
+      "createdOn": "2025-12-28T18:20:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695174d51c508c5d5e3bf23a",
+          "products": [
+            {
+              "_id": "695174d61c508c5d5e3bf28d",
+              "name": "Bacon36140",
+              "amount": 482,
+              "price": 77802,
+              "manufacturer": "Samsung",
+              "notes": "CkiWuJLitDuwRph0ywgA3sNok45hLQOxSKinNKf3q5IRTndxAHud6sRUMWouEPTYwxzo6c8U4v51y77mezR2gAtPPVzN1oCnrwgX54Qp1dYWglbJECgZT5dtrNDSUnxbQ03YHaZ8DhRAlYbRbgroaCvxgxm8y6pfysimNoqsWbBgMDUsFhdmRJ6ysdAUFi2i2qC3zKk3ZNIwHpNITiIt7MWNc4gJTb85sChnRuygVNjvIOXxDfIecCmcoh",
+              "received": false
+            }
+          ],
+          "total_price": 77802,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Katarina",
+              "street": "Highfield Avenue",
+              "house": 486,
+              "flat": 313
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:20:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695174d51c508c5d5e3bf23a",
+          "products": [
+            {
+              "_id": "695174d61c508c5d5e3bf28d",
+              "name": "Bacon36140",
+              "amount": 482,
+              "price": 77802,
+              "manufacturer": "Samsung",
+              "notes": "CkiWuJLitDuwRph0ywgA3sNok45hLQOxSKinNKf3q5IRTndxAHud6sRUMWouEPTYwxzo6c8U4v51y77mezR2gAtPPVzN1oCnrwgX54Qp1dYWglbJECgZT5dtrNDSUnxbQ03YHaZ8DhRAlYbRbgroaCvxgxm8y6pfysimNoqsWbBgMDUsFhdmRJ6ysdAUFi2i2qC3zKk3ZNIwHpNITiIt7MWNc4gJTb85sChnRuygVNjvIOXxDfIecCmcoh",
+              "received": false
+            }
+          ],
+          "total_price": 77802,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:20:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

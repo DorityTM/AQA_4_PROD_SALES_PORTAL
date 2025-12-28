@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:13:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3702",
+    "etag": "W/\"e76-flkl0cs3KMTYzRHprXtN7+Yzt4w\"",
+    "keep-alive": "timeout=5, max=46",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695173351c508c5d5e3b34c2",
+      "status": "In Process",
+      "customer": {
+        "_id": "695173341c508c5d5e3b33fc",
+        "email": "Alexandre_OReilly12@yahoo.com",
+        "name": "Adolphus Streich",
+        "country": "Canada",
+        "city": "Lake Nayeli",
+        "street": "The Dell 55",
+        "house": 992,
+        "flat": 1067,
+        "phone": "+871959065763928",
+        "createdOn": "2025-12-28T18:13:08.000Z",
+        "notes": "I3ezqq3ZMtOLw6yAr0JETD4XTj7QjU"
+      },
+      "products": [
+        {
+          "_id": "695173351c508c5d5e3b349f",
+          "name": "Pizza33000",
+          "amount": 137,
+          "price": 27312,
+          "manufacturer": "Microsoft",
+          "notes": "DjoltnpEtBVVvrwCZDmD06EQa9UpUq903foNdGThilaUvhvUfz04JqHKQjBCNd3QKImHGIDG3D4UiHbX9CnVC0NboZkMkbAPLGY1lfIcvs6WOhfYHTo89U7irgID95d2esaiV5swfv8FVBrS9iDMulDfPF2fGm9fTjDo7HYCJvj8k99RbnQBVHX8dxCwiswmb7Mmj0I00yO7Lb4kevQj2tUIWTTPuWwOYsxlQiarUizYDShuiDMiKyO6WG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Xanderport",
+          "street": "E 10th Street",
+          "house": 391,
+          "flat": 5448
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 27312,
+      "createdOn": "2025-12-28T18:13:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695173341c508c5d5e3b33fc",
+          "products": [
+            {
+              "_id": "695173351c508c5d5e3b349f",
+              "name": "Pizza33000",
+              "amount": 137,
+              "price": 27312,
+              "manufacturer": "Microsoft",
+              "notes": "DjoltnpEtBVVvrwCZDmD06EQa9UpUq903foNdGThilaUvhvUfz04JqHKQjBCNd3QKImHGIDG3D4UiHbX9CnVC0NboZkMkbAPLGY1lfIcvs6WOhfYHTo89U7irgID95d2esaiV5swfv8FVBrS9iDMulDfPF2fGm9fTjDo7HYCJvj8k99RbnQBVHX8dxCwiswmb7Mmj0I00yO7Lb4kevQj2tUIWTTPuWwOYsxlQiarUizYDShuiDMiKyO6WG",
+              "received": false
+            }
+          ],
+          "total_price": 27312,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Xanderport",
+              "street": "E 10th Street",
+              "house": 391,
+              "flat": 5448
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:13:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695173341c508c5d5e3b33fc",
+          "products": [
+            {
+              "_id": "695173351c508c5d5e3b349f",
+              "name": "Pizza33000",
+              "amount": 137,
+              "price": 27312,
+              "manufacturer": "Microsoft",
+              "notes": "DjoltnpEtBVVvrwCZDmD06EQa9UpUq903foNdGThilaUvhvUfz04JqHKQjBCNd3QKImHGIDG3D4UiHbX9CnVC0NboZkMkbAPLGY1lfIcvs6WOhfYHTo89U7irgID95d2esaiV5swfv8FVBrS9iDMulDfPF2fGm9fTjDo7HYCJvj8k99RbnQBVHX8dxCwiswmb7Mmj0I00yO7Lb4kevQj2tUIWTTPuWwOYsxlQiarUizYDShuiDMiKyO6WG",
+              "received": false
+            }
+          ],
+          "total_price": 27312,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Xanderport",
+              "street": "E 10th Street",
+              "house": 391,
+              "flat": 5448
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:13:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695173341c508c5d5e3b33fc",
+          "products": [
+            {
+              "_id": "695173351c508c5d5e3b349f",
+              "name": "Pizza33000",
+              "amount": 137,
+              "price": 27312,
+              "manufacturer": "Microsoft",
+              "notes": "DjoltnpEtBVVvrwCZDmD06EQa9UpUq903foNdGThilaUvhvUfz04JqHKQjBCNd3QKImHGIDG3D4UiHbX9CnVC0NboZkMkbAPLGY1lfIcvs6WOhfYHTo89U7irgID95d2esaiV5swfv8FVBrS9iDMulDfPF2fGm9fTjDo7HYCJvj8k99RbnQBVHX8dxCwiswmb7Mmj0I00yO7Lb4kevQj2tUIWTTPuWwOYsxlQiarUizYDShuiDMiKyO6WG",
+              "received": false
+            }
+          ],
+          "total_price": 27312,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:13:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

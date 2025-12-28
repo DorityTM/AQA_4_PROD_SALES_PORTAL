@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:14:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4606",
+    "etag": "W/\"11fe-3ri3KAbd85UiwoLarSbkX5ke32Y\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951739c1c508c5d5e3b6530",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6951739b1c508c5d5e3b6486",
+        "email": "Vernon73@gmail.com",
+        "name": "Damian Murray",
+        "country": "Germany",
+        "city": "East Glenna",
+        "street": "King Plain 28",
+        "house": 427,
+        "flat": 3951,
+        "phone": "+251213724602663",
+        "createdOn": "2025-12-28T18:14:51.000Z",
+        "notes": "tAzWRLZ9y5j6CZ8YPAzDTbl8u9J982"
+      },
+      "products": [
+        {
+          "_id": "6951739c1c508c5d5e3b6498",
+          "name": "Pants52841",
+          "amount": 185,
+          "price": 40887,
+          "manufacturer": "Amazon",
+          "notes": "h65K7GsNuePGW97bE4ImJ8OqInzjKRb4LxqPvLsDsn872WKObCMrJhHChwtc5OvE4UkK9m3CsuiqacfhwUeMtVt7NiboIkgyJy6hf5yRDfggNP9A39rBjYUX4ojuwdpLCZD6PSh1MMfvPSwAVEnl0f1pU8eWz9PxPOuETKL85PF0rCm0j3VRplMf1I1caZQMP7i0tSsBFRbZd8NQNBmrUiPUWt8KF6lh2lJIrd1JBySLNUWmiiEOZefpiD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Gutmannbury",
+          "street": "E Central Avenue",
+          "house": 362,
+          "flat": 3414
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 40887,
+      "createdOn": "2025-12-28T18:14:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6951739b1c508c5d5e3b6486",
+          "products": [
+            {
+              "_id": "6951739c1c508c5d5e3b6498",
+              "name": "Pants52841",
+              "amount": 185,
+              "price": 40887,
+              "manufacturer": "Amazon",
+              "notes": "h65K7GsNuePGW97bE4ImJ8OqInzjKRb4LxqPvLsDsn872WKObCMrJhHChwtc5OvE4UkK9m3CsuiqacfhwUeMtVt7NiboIkgyJy6hf5yRDfggNP9A39rBjYUX4ojuwdpLCZD6PSh1MMfvPSwAVEnl0f1pU8eWz9PxPOuETKL85PF0rCm0j3VRplMf1I1caZQMP7i0tSsBFRbZd8NQNBmrUiPUWt8KF6lh2lJIrd1JBySLNUWmiiEOZefpiD",
+              "received": false
+            }
+          ],
+          "total_price": 40887,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Gutmannbury",
+              "street": "E Central Avenue",
+              "house": 362,
+              "flat": 3414
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:14:53.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6951739b1c508c5d5e3b6486",
+          "products": [
+            {
+              "_id": "6951739c1c508c5d5e3b6498",
+              "name": "Pants52841",
+              "amount": 185,
+              "price": 40887,
+              "manufacturer": "Amazon",
+              "notes": "h65K7GsNuePGW97bE4ImJ8OqInzjKRb4LxqPvLsDsn872WKObCMrJhHChwtc5OvE4UkK9m3CsuiqacfhwUeMtVt7NiboIkgyJy6hf5yRDfggNP9A39rBjYUX4ojuwdpLCZD6PSh1MMfvPSwAVEnl0f1pU8eWz9PxPOuETKL85PF0rCm0j3VRplMf1I1caZQMP7i0tSsBFRbZd8NQNBmrUiPUWt8KF6lh2lJIrd1JBySLNUWmiiEOZefpiD",
+              "received": false
+            }
+          ],
+          "total_price": 40887,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Gutmannbury",
+              "street": "E Central Avenue",
+              "house": 362,
+              "flat": 3414
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:14:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951739b1c508c5d5e3b6486",
+          "products": [
+            {
+              "_id": "6951739c1c508c5d5e3b6498",
+              "name": "Pants52841",
+              "amount": 185,
+              "price": 40887,
+              "manufacturer": "Amazon",
+              "notes": "h65K7GsNuePGW97bE4ImJ8OqInzjKRb4LxqPvLsDsn872WKObCMrJhHChwtc5OvE4UkK9m3CsuiqacfhwUeMtVt7NiboIkgyJy6hf5yRDfggNP9A39rBjYUX4ojuwdpLCZD6PSh1MMfvPSwAVEnl0f1pU8eWz9PxPOuETKL85PF0rCm0j3VRplMf1I1caZQMP7i0tSsBFRbZd8NQNBmrUiPUWt8KF6lh2lJIrd1JBySLNUWmiiEOZefpiD",
+              "received": false
+            }
+          ],
+          "total_price": 40887,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Gutmannbury",
+              "street": "E Central Avenue",
+              "house": 362,
+              "flat": 3414
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:14:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951739b1c508c5d5e3b6486",
+          "products": [
+            {
+              "_id": "6951739c1c508c5d5e3b6498",
+              "name": "Pants52841",
+              "amount": 185,
+              "price": 40887,
+              "manufacturer": "Amazon",
+              "notes": "h65K7GsNuePGW97bE4ImJ8OqInzjKRb4LxqPvLsDsn872WKObCMrJhHChwtc5OvE4UkK9m3CsuiqacfhwUeMtVt7NiboIkgyJy6hf5yRDfggNP9A39rBjYUX4ojuwdpLCZD6PSh1MMfvPSwAVEnl0f1pU8eWz9PxPOuETKL85PF0rCm0j3VRplMf1I1caZQMP7i0tSsBFRbZd8NQNBmrUiPUWt8KF6lh2lJIrd1JBySLNUWmiiEOZefpiD",
+              "received": false
+            }
+          ],
+          "total_price": 40887,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:14:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

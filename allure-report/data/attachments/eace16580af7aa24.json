@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:14:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5198",
+    "etag": "W/\"144e-JZi0q4czMbgmtPRo1cWFo6F+05M\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695173901c508c5d5e3b5e95",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951738e1c508c5d5e3b5e30",
+        "email": "Owen3@yahoo.com",
+        "name": "Abdul Frami",
+        "country": "Russia",
+        "city": "Daphneefield",
+        "street": "St Mary s Road 18",
+        "house": 457,
+        "flat": 2285,
+        "phone": "+396586033338236",
+        "createdOn": "2025-12-28T18:14:38.000Z",
+        "notes": "JF2KGK6l80IR8wvoFLKde5p0aWliLN"
+      },
+      "products": [
+        {
+          "_id": "6951738e1c508c5d5e3b5e5d",
+          "name": "Bacon15769",
+          "amount": 186,
+          "price": 44128,
+          "manufacturer": "Sony",
+          "notes": "aOSBMjsvDeFlm3IwKvt1iLnEeOOBh4ppTTuAWJ9rs3aN7I2MwtgwPTOqlv4mD8GTKptBvMkc0TytY8IUGep9vIwIayyHf4Om0LKCK97f1tyNplSDXWcFpiFapGXUHzcRWrkrEHDiA6QWPDZ6U2KEwj9zR1JdPmyYnzoUjziorbVdpbO1rIRb4lZADFb3yPHMSJcsDDnmbjFb0EMUJ4Vb3d2ZTYLwWbPXcbh83JsCCOfA9lVk3ZHpmWA3qC",
+          "received": false
+        },
+        {
+          "_id": "6951738f1c508c5d5e3b5e77",
+          "name": "Ball52525",
+          "amount": 752,
+          "price": 74205,
+          "manufacturer": "Samsung",
+          "notes": "d0NgFEEA53yhcJzhVqM63wsHAEYpSJKyeymrGdrWCgNsjwysmImZ5UChnsb4QnKOpoHyXHInE0BVcekzvVx9A3Ug0zq2MUFVYnqzE1T3VzGeNAGWNIbzE3RRlOjDY2g3zl0Dnw90vQ5hWl8mfS01RFL8E2oeA1v3tOImGdxxcFAquIzUexZY0BHc6XE34p6UOodWvC6pb89rwBfMqHD7RyOoeYnwYDWmIxiAyfuuvNN6NnoKw15l76HFxO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Lennieside",
+          "street": "Junius Harbor",
+          "house": 500,
+          "flat": 1305
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 118333,
+      "createdOn": "2025-12-28T18:14:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951738e1c508c5d5e3b5e30",
+          "products": [
+            {
+              "_id": "6951738e1c508c5d5e3b5e5d",
+              "name": "Bacon15769",
+              "amount": 186,
+              "price": 44128,
+              "manufacturer": "Sony",
+              "notes": "aOSBMjsvDeFlm3IwKvt1iLnEeOOBh4ppTTuAWJ9rs3aN7I2MwtgwPTOqlv4mD8GTKptBvMkc0TytY8IUGep9vIwIayyHf4Om0LKCK97f1tyNplSDXWcFpiFapGXUHzcRWrkrEHDiA6QWPDZ6U2KEwj9zR1JdPmyYnzoUjziorbVdpbO1rIRb4lZADFb3yPHMSJcsDDnmbjFb0EMUJ4Vb3d2ZTYLwWbPXcbh83JsCCOfA9lVk3ZHpmWA3qC",
+              "received": false
+            },
+            {
+              "_id": "6951738f1c508c5d5e3b5e77",
+              "name": "Ball52525",
+              "amount": 752,
+              "price": 74205,
+              "manufacturer": "Samsung",
+              "notes": "d0NgFEEA53yhcJzhVqM63wsHAEYpSJKyeymrGdrWCgNsjwysmImZ5UChnsb4QnKOpoHyXHInE0BVcekzvVx9A3Ug0zq2MUFVYnqzE1T3VzGeNAGWNIbzE3RRlOjDY2g3zl0Dnw90vQ5hWl8mfS01RFL8E2oeA1v3tOImGdxxcFAquIzUexZY0BHc6XE34p6UOodWvC6pb89rwBfMqHD7RyOoeYnwYDWmIxiAyfuuvNN6NnoKw15l76HFxO",
+              "received": false
+            }
+          ],
+          "total_price": 118333,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lennieside",
+              "street": "Junius Harbor",
+              "house": 500,
+              "flat": 1305
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:14:41.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951738e1c508c5d5e3b5e30",
+          "products": [
+            {
+              "_id": "6951738e1c508c5d5e3b5e5d",
+              "name": "Bacon15769",
+              "amount": 186,
+              "price": 44128,
+              "manufacturer": "Sony",
+              "notes": "aOSBMjsvDeFlm3IwKvt1iLnEeOOBh4ppTTuAWJ9rs3aN7I2MwtgwPTOqlv4mD8GTKptBvMkc0TytY8IUGep9vIwIayyHf4Om0LKCK97f1tyNplSDXWcFpiFapGXUHzcRWrkrEHDiA6QWPDZ6U2KEwj9zR1JdPmyYnzoUjziorbVdpbO1rIRb4lZADFb3yPHMSJcsDDnmbjFb0EMUJ4Vb3d2ZTYLwWbPXcbh83JsCCOfA9lVk3ZHpmWA3qC",
+              "received": false
+            },
+            {
+              "_id": "6951738f1c508c5d5e3b5e77",
+              "name": "Ball52525",
+              "amount": 752,
+              "price": 74205,
+              "manufacturer": "Samsung",
+              "notes": "d0NgFEEA53yhcJzhVqM63wsHAEYpSJKyeymrGdrWCgNsjwysmImZ5UChnsb4QnKOpoHyXHInE0BVcekzvVx9A3Ug0zq2MUFVYnqzE1T3VzGeNAGWNIbzE3RRlOjDY2g3zl0Dnw90vQ5hWl8mfS01RFL8E2oeA1v3tOImGdxxcFAquIzUexZY0BHc6XE34p6UOodWvC6pb89rwBfMqHD7RyOoeYnwYDWmIxiAyfuuvNN6NnoKw15l76HFxO",
+              "received": false
+            }
+          ],
+          "total_price": 118333,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Lennieside",
+              "street": "Junius Harbor",
+              "house": 500,
+              "flat": 1305
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:14:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951738e1c508c5d5e3b5e30",
+          "products": [
+            {
+              "_id": "6951738e1c508c5d5e3b5e5d",
+              "name": "Bacon15769",
+              "amount": 186,
+              "price": 44128,
+              "manufacturer": "Sony",
+              "notes": "aOSBMjsvDeFlm3IwKvt1iLnEeOOBh4ppTTuAWJ9rs3aN7I2MwtgwPTOqlv4mD8GTKptBvMkc0TytY8IUGep9vIwIayyHf4Om0LKCK97f1tyNplSDXWcFpiFapGXUHzcRWrkrEHDiA6QWPDZ6U2KEwj9zR1JdPmyYnzoUjziorbVdpbO1rIRb4lZADFb3yPHMSJcsDDnmbjFb0EMUJ4Vb3d2ZTYLwWbPXcbh83JsCCOfA9lVk3ZHpmWA3qC",
+              "received": false
+            },
+            {
+              "_id": "6951738f1c508c5d5e3b5e77",
+              "name": "Ball52525",
+              "amount": 752,
+              "price": 74205,
+              "manufacturer": "Samsung",
+              "notes": "d0NgFEEA53yhcJzhVqM63wsHAEYpSJKyeymrGdrWCgNsjwysmImZ5UChnsb4QnKOpoHyXHInE0BVcekzvVx9A3Ug0zq2MUFVYnqzE1T3VzGeNAGWNIbzE3RRlOjDY2g3zl0Dnw90vQ5hWl8mfS01RFL8E2oeA1v3tOImGdxxcFAquIzUexZY0BHc6XE34p6UOodWvC6pb89rwBfMqHD7RyOoeYnwYDWmIxiAyfuuvNN6NnoKw15l76HFxO",
+              "received": false
+            }
+          ],
+          "total_price": 118333,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:14:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

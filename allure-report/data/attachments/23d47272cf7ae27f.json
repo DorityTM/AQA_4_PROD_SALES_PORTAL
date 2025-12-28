@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:14:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3718",
+    "etag": "W/\"e86-XNyfPZPG/Mxjtewa8RrDqpdeo5g\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695173851c508c5d5e3b58ef",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695173831c508c5d5e3b589a",
+        "email": "Vivianne_Bogisich@gmail.com",
+        "name": "Arturo Hackett",
+        "country": "Great Britain",
+        "city": "Balistrerichester",
+        "street": "Manuela Harbor 70",
+        "house": 199,
+        "flat": 6078,
+        "phone": "+036142774488595",
+        "createdOn": "2025-12-28T18:14:27.000Z",
+        "notes": "TnXdqIu47WbOxAhUDOZhoRJLJBkFIl"
+      },
+      "products": [
+        {
+          "_id": "695173841c508c5d5e3b58d5",
+          "name": "Shirt48652",
+          "amount": 173,
+          "price": 93749,
+          "manufacturer": "Google",
+          "notes": "T6BOAOtvLNBcpUYbZ5cm15WIHN5AzfvP5UBYHukXPc6UE3WyedKEd5ckD8BP54vaZLMiWJqAhs3adfOfFKN1l6uK6JEvvhiudhQbZE1R3h1iA6w9pcDlj4hT0dOiJDchjVuQp3xI36k1FO32vi00Ad6nEAsXy2b4JNc8ZS2xYpadCLSF3smnL5anQugYTciNr0BplZN1yxSJkPeMoDiigRwPJkfhOnVKnVA1uZA65s21C72yLUMmoond3q",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Port Jeffry",
+          "street": "Barry Junctions",
+          "house": 290,
+          "flat": 3511
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 93749,
+      "createdOn": "2025-12-28T18:14:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695173831c508c5d5e3b589a",
+          "products": [
+            {
+              "_id": "695173841c508c5d5e3b58d5",
+              "name": "Shirt48652",
+              "amount": 173,
+              "price": 93749,
+              "manufacturer": "Google",
+              "notes": "T6BOAOtvLNBcpUYbZ5cm15WIHN5AzfvP5UBYHukXPc6UE3WyedKEd5ckD8BP54vaZLMiWJqAhs3adfOfFKN1l6uK6JEvvhiudhQbZE1R3h1iA6w9pcDlj4hT0dOiJDchjVuQp3xI36k1FO32vi00Ad6nEAsXy2b4JNc8ZS2xYpadCLSF3smnL5anQugYTciNr0BplZN1yxSJkPeMoDiigRwPJkfhOnVKnVA1uZA65s21C72yLUMmoond3q",
+              "received": false
+            }
+          ],
+          "total_price": 93749,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Jeffry",
+              "street": "Barry Junctions",
+              "house": 290,
+              "flat": 3511
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:14:29.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695173831c508c5d5e3b589a",
+          "products": [
+            {
+              "_id": "695173841c508c5d5e3b58d5",
+              "name": "Shirt48652",
+              "amount": 173,
+              "price": 93749,
+              "manufacturer": "Google",
+              "notes": "T6BOAOtvLNBcpUYbZ5cm15WIHN5AzfvP5UBYHukXPc6UE3WyedKEd5ckD8BP54vaZLMiWJqAhs3adfOfFKN1l6uK6JEvvhiudhQbZE1R3h1iA6w9pcDlj4hT0dOiJDchjVuQp3xI36k1FO32vi00Ad6nEAsXy2b4JNc8ZS2xYpadCLSF3smnL5anQugYTciNr0BplZN1yxSJkPeMoDiigRwPJkfhOnVKnVA1uZA65s21C72yLUMmoond3q",
+              "received": false
+            }
+          ],
+          "total_price": 93749,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Jeffry",
+              "street": "Barry Junctions",
+              "house": 290,
+              "flat": 3511
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:14:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695173831c508c5d5e3b589a",
+          "products": [
+            {
+              "_id": "695173841c508c5d5e3b58d5",
+              "name": "Shirt48652",
+              "amount": 173,
+              "price": 93749,
+              "manufacturer": "Google",
+              "notes": "T6BOAOtvLNBcpUYbZ5cm15WIHN5AzfvP5UBYHukXPc6UE3WyedKEd5ckD8BP54vaZLMiWJqAhs3adfOfFKN1l6uK6JEvvhiudhQbZE1R3h1iA6w9pcDlj4hT0dOiJDchjVuQp3xI36k1FO32vi00Ad6nEAsXy2b4JNc8ZS2xYpadCLSF3smnL5anQugYTciNr0BplZN1yxSJkPeMoDiigRwPJkfhOnVKnVA1uZA65s21C72yLUMmoond3q",
+              "received": false
+            }
+          ],
+          "total_price": 93749,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:14:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

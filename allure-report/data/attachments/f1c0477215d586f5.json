@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:12:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3678",
+    "etag": "W/\"e5e-WPfuKQw4QRlFzxdexepltJANCAQ\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695173221c508c5d5e3b2b7b",
+      "status": "In Process",
+      "customer": {
+        "_id": "695173211c508c5d5e3b2b57",
+        "email": "Mary_Stamm@hotmail.com",
+        "name": "Bradly Luettgen",
+        "country": "France",
+        "city": "Port Mayraland",
+        "street": "Veum Causeway 42",
+        "house": 560,
+        "flat": 4285,
+        "phone": "+363000822777563",
+        "createdOn": "2025-12-28T18:12:49.000Z",
+        "notes": "fwEGUsw7vaIzu4sAeE4tsavOX3Y1E7"
+      },
+      "products": [
+        {
+          "_id": "695173221c508c5d5e3b2b71",
+          "name": "Hat47699",
+          "amount": 41,
+          "price": 12494,
+          "manufacturer": "Amazon",
+          "notes": "igjFOx9x7rVhOoucDbBHqf6sFDeUzU2Zo7DPxyPHleJIn02aVZFQd2zZLDKr0HyqrQfGEUdSxJda4BYx26MDtIQCDBjdLFXUyClfXrAhhM7wVXsLmi1RsFL0olFqhliE0tg4YzyGC4Kd8yBBG2FTj6aK0uz4jV5LJsPgRnknBzFlQrQPIJ8EAFf68q1ntjqfylv1Jg3yfjsTvrfz8ZnRlAjF0xdx0ufjwuIyjdGbPWYM5z2zG9TViDNZWf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Carliton",
+          "street": "Cheyenne Passage",
+          "house": 108,
+          "flat": 4039
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 12494,
+      "createdOn": "2025-12-28T18:12:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695173211c508c5d5e3b2b57",
+          "products": [
+            {
+              "_id": "695173221c508c5d5e3b2b71",
+              "name": "Hat47699",
+              "amount": 41,
+              "price": 12494,
+              "manufacturer": "Amazon",
+              "notes": "igjFOx9x7rVhOoucDbBHqf6sFDeUzU2Zo7DPxyPHleJIn02aVZFQd2zZLDKr0HyqrQfGEUdSxJda4BYx26MDtIQCDBjdLFXUyClfXrAhhM7wVXsLmi1RsFL0olFqhliE0tg4YzyGC4Kd8yBBG2FTj6aK0uz4jV5LJsPgRnknBzFlQrQPIJ8EAFf68q1ntjqfylv1Jg3yfjsTvrfz8ZnRlAjF0xdx0ufjwuIyjdGbPWYM5z2zG9TViDNZWf",
+              "received": false
+            }
+          ],
+          "total_price": 12494,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Carliton",
+              "street": "Cheyenne Passage",
+              "house": 108,
+              "flat": 4039
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:12:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695173211c508c5d5e3b2b57",
+          "products": [
+            {
+              "_id": "695173221c508c5d5e3b2b71",
+              "name": "Hat47699",
+              "amount": 41,
+              "price": 12494,
+              "manufacturer": "Amazon",
+              "notes": "igjFOx9x7rVhOoucDbBHqf6sFDeUzU2Zo7DPxyPHleJIn02aVZFQd2zZLDKr0HyqrQfGEUdSxJda4BYx26MDtIQCDBjdLFXUyClfXrAhhM7wVXsLmi1RsFL0olFqhliE0tg4YzyGC4Kd8yBBG2FTj6aK0uz4jV5LJsPgRnknBzFlQrQPIJ8EAFf68q1ntjqfylv1Jg3yfjsTvrfz8ZnRlAjF0xdx0ufjwuIyjdGbPWYM5z2zG9TViDNZWf",
+              "received": false
+            }
+          ],
+          "total_price": 12494,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Carliton",
+              "street": "Cheyenne Passage",
+              "house": 108,
+              "flat": 4039
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:12:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695173211c508c5d5e3b2b57",
+          "products": [
+            {
+              "_id": "695173221c508c5d5e3b2b71",
+              "name": "Hat47699",
+              "amount": 41,
+              "price": 12494,
+              "manufacturer": "Amazon",
+              "notes": "igjFOx9x7rVhOoucDbBHqf6sFDeUzU2Zo7DPxyPHleJIn02aVZFQd2zZLDKr0HyqrQfGEUdSxJda4BYx26MDtIQCDBjdLFXUyClfXrAhhM7wVXsLmi1RsFL0olFqhliE0tg4YzyGC4Kd8yBBG2FTj6aK0uz4jV5LJsPgRnknBzFlQrQPIJ8EAFf68q1ntjqfylv1Jg3yfjsTvrfz8ZnRlAjF0xdx0ufjwuIyjdGbPWYM5z2zG9TViDNZWf",
+              "received": false
+            }
+          ],
+          "total_price": 12494,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:12:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

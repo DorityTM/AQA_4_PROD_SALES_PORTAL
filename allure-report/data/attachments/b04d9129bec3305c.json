@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 18:19:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4610",
+    "etag": "W/\"1202-IHMi9cOQI6jS8QtiY7th3ZF6VSo\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695174aa1c508c5d5e3bdbac",
+      "status": "Received",
+      "customer": {
+        "_id": "695174a51c508c5d5e3bd84d",
+        "email": "Elvis91@yahoo.com",
+        "name": "Charley Braun",
+        "country": "Canada",
+        "city": "Letitiaview",
+        "street": "Velma Plains 80",
+        "house": 763,
+        "flat": 4073,
+        "phone": "+315528346855113",
+        "createdOn": "2025-12-28T18:19:17.000Z",
+        "notes": "OzAXihSCYhIwe4MpuAqe8DMXCYUZIc"
+      },
+      "products": [
+        {
+          "_id": "695174aa1c508c5d5e3bdb96",
+          "name": "Computer17727",
+          "amount": 317,
+          "price": 76779,
+          "manufacturer": "Amazon",
+          "notes": "a0N16WGJMX1rLyf0nmKnA7WkRNAaGMrFQ1Z2YLMEOZJUS8SKQRFMQndknPkSEGZLLTefWoWmqKzkNFbwM2EmKEu3aaycRffWZDlsrm2IVT1MR0sYVBrbzyOGq4jYzScheXRtl9cHHawuv6ZmP4fw7dmBSIIkLZvN1nboTyjNVRuArxfQPMl9hMMlmvDeL50LU313RWa8JMdzhideAAwla1P6kV76u9kFK6nXLipWFezbIeubtjFU5jh9dz",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "New Orenton",
+          "street": "S East Street",
+          "house": 982,
+          "flat": 378
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76779,
+      "createdOn": "2025-12-28T18:19:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695174a51c508c5d5e3bd84d",
+          "products": [
+            {
+              "_id": "695174aa1c508c5d5e3bdb96",
+              "name": "Computer17727",
+              "amount": 317,
+              "price": 76779,
+              "manufacturer": "Amazon",
+              "notes": "a0N16WGJMX1rLyf0nmKnA7WkRNAaGMrFQ1Z2YLMEOZJUS8SKQRFMQndknPkSEGZLLTefWoWmqKzkNFbwM2EmKEu3aaycRffWZDlsrm2IVT1MR0sYVBrbzyOGq4jYzScheXRtl9cHHawuv6ZmP4fw7dmBSIIkLZvN1nboTyjNVRuArxfQPMl9hMMlmvDeL50LU313RWa8JMdzhideAAwla1P6kV76u9kFK6nXLipWFezbIeubtjFU5jh9dz",
+              "received": true
+            }
+          ],
+          "total_price": 76779,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Orenton",
+              "street": "S East Street",
+              "house": 982,
+              "flat": 378
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:19:23.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695174a51c508c5d5e3bd84d",
+          "products": [
+            {
+              "_id": "695174aa1c508c5d5e3bdb96",
+              "name": "Computer17727",
+              "amount": 317,
+              "price": 76779,
+              "manufacturer": "Amazon",
+              "notes": "a0N16WGJMX1rLyf0nmKnA7WkRNAaGMrFQ1Z2YLMEOZJUS8SKQRFMQndknPkSEGZLLTefWoWmqKzkNFbwM2EmKEu3aaycRffWZDlsrm2IVT1MR0sYVBrbzyOGq4jYzScheXRtl9cHHawuv6ZmP4fw7dmBSIIkLZvN1nboTyjNVRuArxfQPMl9hMMlmvDeL50LU313RWa8JMdzhideAAwla1P6kV76u9kFK6nXLipWFezbIeubtjFU5jh9dz",
+              "received": false
+            }
+          ],
+          "total_price": 76779,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Orenton",
+              "street": "S East Street",
+              "house": 982,
+              "flat": 378
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:19:23.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695174a51c508c5d5e3bd84d",
+          "products": [
+            {
+              "_id": "695174aa1c508c5d5e3bdb96",
+              "name": "Computer17727",
+              "amount": 317,
+              "price": 76779,
+              "manufacturer": "Amazon",
+              "notes": "a0N16WGJMX1rLyf0nmKnA7WkRNAaGMrFQ1Z2YLMEOZJUS8SKQRFMQndknPkSEGZLLTefWoWmqKzkNFbwM2EmKEu3aaycRffWZDlsrm2IVT1MR0sYVBrbzyOGq4jYzScheXRtl9cHHawuv6ZmP4fw7dmBSIIkLZvN1nboTyjNVRuArxfQPMl9hMMlmvDeL50LU313RWa8JMdzhideAAwla1P6kV76u9kFK6nXLipWFezbIeubtjFU5jh9dz",
+              "received": false
+            }
+          ],
+          "total_price": 76779,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Orenton",
+              "street": "S East Street",
+              "house": 982,
+              "flat": 378
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T18:19:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695174a51c508c5d5e3bd84d",
+          "products": [
+            {
+              "_id": "695174aa1c508c5d5e3bdb96",
+              "name": "Computer17727",
+              "amount": 317,
+              "price": 76779,
+              "manufacturer": "Amazon",
+              "notes": "a0N16WGJMX1rLyf0nmKnA7WkRNAaGMrFQ1Z2YLMEOZJUS8SKQRFMQndknPkSEGZLLTefWoWmqKzkNFbwM2EmKEu3aaycRffWZDlsrm2IVT1MR0sYVBrbzyOGq4jYzScheXRtl9cHHawuv6ZmP4fw7dmBSIIkLZvN1nboTyjNVRuArxfQPMl9hMMlmvDeL50LU313RWa8JMdzhideAAwla1P6kV76u9kFK6nXLipWFezbIeubtjFU5jh9dz",
+              "received": false
+            }
+          ],
+          "total_price": 76779,
+          "delivery": null,
+          "changedOn": "2025-12-28T18:19:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
