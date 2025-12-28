@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:50:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3692",
+    "etag": "W/\"e6c-3s9iBTH71BMHWDSNMbHVHr9nDHg\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a6171c508c5d5e41d40e",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951a60f1c508c5d5e41ce82",
+        "email": "Jaylon_Monahan@gmail.com",
+        "name": "Edythe Murray",
+        "country": "Canada",
+        "city": "Kristopherberg",
+        "street": "Ritchie Plain 15",
+        "house": 525,
+        "flat": 9859,
+        "phone": "+747397114981011",
+        "createdOn": "2025-12-28T21:50:07.000Z",
+        "notes": "YEUKfPhoCpKHV6QT8dzEsiadiFkxWf"
+      },
+      "products": [
+        {
+          "_id": "6951a6111c508c5d5e41cf35",
+          "name": "Pizza18328",
+          "amount": 187,
+          "price": 48432,
+          "manufacturer": "Apple",
+          "notes": "S6C2vmZlyNUM0aZR82qmAKHrnro7FabO2V7dt8VnwBA0epmrE9hlGwG4sqvp86UxrIAmD6dZ2wkQTHVG3K3llLpMlpiqDmNlKRnc1dDdjin1cxjoSel0qNX4GQYwokIgOBrGN3rDO7b1BTLO8wmljAJJodUbJ87xPlOkngaqo9b5vcB8m2Nsuz6MUJ2uG8VAkzcsLL45jAWFSU4upSiuTEet5pgbkTmSEZWZcPqKUysFl4o0zbpdpJ1yCa",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Lake Issac",
+          "street": "Jameson Viaduct",
+          "house": 538,
+          "flat": 6885
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 48432,
+      "createdOn": "2025-12-28T21:50:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951a60f1c508c5d5e41ce82",
+          "products": [
+            {
+              "_id": "6951a6111c508c5d5e41cf35",
+              "name": "Pizza18328",
+              "amount": 187,
+              "price": 48432,
+              "manufacturer": "Apple",
+              "notes": "S6C2vmZlyNUM0aZR82qmAKHrnro7FabO2V7dt8VnwBA0epmrE9hlGwG4sqvp86UxrIAmD6dZ2wkQTHVG3K3llLpMlpiqDmNlKRnc1dDdjin1cxjoSel0qNX4GQYwokIgOBrGN3rDO7b1BTLO8wmljAJJodUbJ87xPlOkngaqo9b5vcB8m2Nsuz6MUJ2uG8VAkzcsLL45jAWFSU4upSiuTEet5pgbkTmSEZWZcPqKUysFl4o0zbpdpJ1yCa",
+              "received": false
+            }
+          ],
+          "total_price": 48432,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Issac",
+              "street": "Jameson Viaduct",
+              "house": 538,
+              "flat": 6885
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:50:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a60f1c508c5d5e41ce82",
+          "products": [
+            {
+              "_id": "6951a6111c508c5d5e41cf35",
+              "name": "Pizza18328",
+              "amount": 187,
+              "price": 48432,
+              "manufacturer": "Apple",
+              "notes": "S6C2vmZlyNUM0aZR82qmAKHrnro7FabO2V7dt8VnwBA0epmrE9hlGwG4sqvp86UxrIAmD6dZ2wkQTHVG3K3llLpMlpiqDmNlKRnc1dDdjin1cxjoSel0qNX4GQYwokIgOBrGN3rDO7b1BTLO8wmljAJJodUbJ87xPlOkngaqo9b5vcB8m2Nsuz6MUJ2uG8VAkzcsLL45jAWFSU4upSiuTEet5pgbkTmSEZWZcPqKUysFl4o0zbpdpJ1yCa",
+              "received": false
+            }
+          ],
+          "total_price": 48432,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Issac",
+              "street": "Jameson Viaduct",
+              "house": 538,
+              "flat": 6885
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:50:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a60f1c508c5d5e41ce82",
+          "products": [
+            {
+              "_id": "6951a6111c508c5d5e41cf35",
+              "name": "Pizza18328",
+              "amount": 187,
+              "price": 48432,
+              "manufacturer": "Apple",
+              "notes": "S6C2vmZlyNUM0aZR82qmAKHrnro7FabO2V7dt8VnwBA0epmrE9hlGwG4sqvp86UxrIAmD6dZ2wkQTHVG3K3llLpMlpiqDmNlKRnc1dDdjin1cxjoSel0qNX4GQYwokIgOBrGN3rDO7b1BTLO8wmljAJJodUbJ87xPlOkngaqo9b5vcB8m2Nsuz6MUJ2uG8VAkzcsLL45jAWFSU4upSiuTEet5pgbkTmSEZWZcPqKUysFl4o0zbpdpJ1yCa",
+              "received": false
+            }
+          ],
+          "total_price": 48432,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:50:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

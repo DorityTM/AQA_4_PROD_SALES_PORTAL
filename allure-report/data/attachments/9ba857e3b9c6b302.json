@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:45:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3711",
+    "etag": "W/\"e7f-1t7T6PYaJycjsAHxNHEpgw8FpTA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a50b1c508c5d5e4123bb",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951a5081c508c5d5e4122e3",
+        "email": "Gretchen77@hotmail.com",
+        "name": "Neha Trantow",
+        "country": "Great Britain",
+        "city": "Lyricton",
+        "street": "Bernard Parkways 53",
+        "house": 301,
+        "flat": 3478,
+        "phone": "+599633166957107",
+        "createdOn": "2025-12-28T21:45:44.000Z",
+        "notes": "RGQY3lRMIuG9JesqsDY620kP7ZTCwu"
+      },
+      "products": [
+        {
+          "_id": "6951a50b1c508c5d5e412379",
+          "name": "Bike77307",
+          "amount": 613,
+          "price": 93749,
+          "manufacturer": "Amazon",
+          "notes": "uHCkvCs8eB7uhDjU2aTWSEfiJSJEQHzLx1zGmEl00lrsNcNAKOhHAAqKDvT7t7Ubgx1sNMw6TjlaMwyzvv3iKL7szFP0971UY2RufctoJxhfHdjISjpNRdDcSFI3vkKViYc0BcKwiCCfXLaz5kUT4XS7e5WqNlQ7Ev7IKCtfGCHCRFieBiWrFUozJVXLRrAHbpwuRnFUX2QBg28BRmaUv0w8oOBw3Ele8oNqnLgATecBVh71BI3lOM0mPL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "South Easter",
+          "street": "Ziemann Square",
+          "house": 796,
+          "flat": 809
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 93749,
+      "createdOn": "2025-12-28T21:45:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951a5081c508c5d5e4122e3",
+          "products": [
+            {
+              "_id": "6951a50b1c508c5d5e412379",
+              "name": "Bike77307",
+              "amount": 613,
+              "price": 93749,
+              "manufacturer": "Amazon",
+              "notes": "uHCkvCs8eB7uhDjU2aTWSEfiJSJEQHzLx1zGmEl00lrsNcNAKOhHAAqKDvT7t7Ubgx1sNMw6TjlaMwyzvv3iKL7szFP0971UY2RufctoJxhfHdjISjpNRdDcSFI3vkKViYc0BcKwiCCfXLaz5kUT4XS7e5WqNlQ7Ev7IKCtfGCHCRFieBiWrFUozJVXLRrAHbpwuRnFUX2QBg28BRmaUv0w8oOBw3Ele8oNqnLgATecBVh71BI3lOM0mPL",
+              "received": false
+            }
+          ],
+          "total_price": 93749,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Easter",
+              "street": "Ziemann Square",
+              "house": 796,
+              "flat": 809
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:45:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a5081c508c5d5e4122e3",
+          "products": [
+            {
+              "_id": "6951a50b1c508c5d5e412379",
+              "name": "Bike77307",
+              "amount": 613,
+              "price": 93749,
+              "manufacturer": "Amazon",
+              "notes": "uHCkvCs8eB7uhDjU2aTWSEfiJSJEQHzLx1zGmEl00lrsNcNAKOhHAAqKDvT7t7Ubgx1sNMw6TjlaMwyzvv3iKL7szFP0971UY2RufctoJxhfHdjISjpNRdDcSFI3vkKViYc0BcKwiCCfXLaz5kUT4XS7e5WqNlQ7Ev7IKCtfGCHCRFieBiWrFUozJVXLRrAHbpwuRnFUX2QBg28BRmaUv0w8oOBw3Ele8oNqnLgATecBVh71BI3lOM0mPL",
+              "received": false
+            }
+          ],
+          "total_price": 93749,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Easter",
+              "street": "Ziemann Square",
+              "house": 796,
+              "flat": 809
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:45:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a5081c508c5d5e4122e3",
+          "products": [
+            {
+              "_id": "6951a50b1c508c5d5e412379",
+              "name": "Bike77307",
+              "amount": 613,
+              "price": 93749,
+              "manufacturer": "Amazon",
+              "notes": "uHCkvCs8eB7uhDjU2aTWSEfiJSJEQHzLx1zGmEl00lrsNcNAKOhHAAqKDvT7t7Ubgx1sNMw6TjlaMwyzvv3iKL7szFP0971UY2RufctoJxhfHdjISjpNRdDcSFI3vkKViYc0BcKwiCCfXLaz5kUT4XS7e5WqNlQ7Ev7IKCtfGCHCRFieBiWrFUozJVXLRrAHbpwuRnFUX2QBg28BRmaUv0w8oOBw3Ele8oNqnLgATecBVh71BI3lOM0mPL",
+              "received": false
+            }
+          ],
+          "total_price": 93749,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:45:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

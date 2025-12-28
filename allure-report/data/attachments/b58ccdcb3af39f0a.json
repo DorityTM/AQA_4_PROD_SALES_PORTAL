@@ -1,0 +1,184 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:48:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3872",
+    "etag": "W/\"f20-01jRwMDHn5er03ywa4HxMNQhht0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a59c1c508c5d5e41808d",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951a58f1c508c5d5e4178cc",
+        "email": "Darwin_Wunsch@hotmail.com",
+        "name": "Nolan Schneider",
+        "country": "Russia",
+        "city": "East Gudrun",
+        "street": "Walker Lock 20",
+        "house": 208,
+        "flat": 1569,
+        "phone": "+343773235337734",
+        "createdOn": "2025-12-28T21:47:59.000Z",
+        "notes": "bQOjhpYflDKICsr6OQHhtvYxKCZBM9"
+      },
+      "products": [
+        {
+          "_id": "6951a59c1c508c5d5e418050",
+          "name": "Salad71631",
+          "amount": 760,
+          "price": 38593,
+          "manufacturer": "Tesla",
+          "notes": "wGbu6ByZdFV0rgtmDpjGpmYh4C5TlIKPRe026TiLg80bJNFY9Umid3ImybyX7foDNWmSDUOEBfDEGEuPOOUQK2nehLQNRNyxEUS8NxdOWlwA9lZKxJMNLI0XSyMmwrubWyinniCdWmgdfymRXuh98hxllvgO6iIn45uUqnWwytloUprzwz1vtlKSdKW9wEze8dhRDdpX0XDdWdICOPeLyAlxOewrNGhi8Vsjub9voy4sClL9kAf8gVbzZh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Jaimeshire",
+          "street": "Dominique Crescent",
+          "house": 227,
+          "flat": 9560
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 38593,
+      "createdOn": "2025-12-28T21:48:12.000Z",
+      "comments": [
+        {
+          "text": "First",
+          "createdOn": "2025-12-28T21:48:17.000Z",
+          "_id": "6951a5a11c508c5d5e4184aa"
+        },
+        {
+          "text": "Last",
+          "createdOn": "2025-12-28T21:48:19.000Z",
+          "_id": "6951a5a41c508c5d5e418630"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951a58f1c508c5d5e4178cc",
+          "products": [
+            {
+              "_id": "6951a59c1c508c5d5e418050",
+              "name": "Salad71631",
+              "amount": 760,
+              "price": 38593,
+              "manufacturer": "Tesla",
+              "notes": "wGbu6ByZdFV0rgtmDpjGpmYh4C5TlIKPRe026TiLg80bJNFY9Umid3ImybyX7foDNWmSDUOEBfDEGEuPOOUQK2nehLQNRNyxEUS8NxdOWlwA9lZKxJMNLI0XSyMmwrubWyinniCdWmgdfymRXuh98hxllvgO6iIn45uUqnWwytloUprzwz1vtlKSdKW9wEze8dhRDdpX0XDdWdICOPeLyAlxOewrNGhi8Vsjub9voy4sClL9kAf8gVbzZh",
+              "received": false
+            }
+          ],
+          "total_price": 38593,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Jaimeshire",
+              "street": "Dominique Crescent",
+              "house": 227,
+              "flat": 9560
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:48:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a58f1c508c5d5e4178cc",
+          "products": [
+            {
+              "_id": "6951a59c1c508c5d5e418050",
+              "name": "Salad71631",
+              "amount": 760,
+              "price": 38593,
+              "manufacturer": "Tesla",
+              "notes": "wGbu6ByZdFV0rgtmDpjGpmYh4C5TlIKPRe026TiLg80bJNFY9Umid3ImybyX7foDNWmSDUOEBfDEGEuPOOUQK2nehLQNRNyxEUS8NxdOWlwA9lZKxJMNLI0XSyMmwrubWyinniCdWmgdfymRXuh98hxllvgO6iIn45uUqnWwytloUprzwz1vtlKSdKW9wEze8dhRDdpX0XDdWdICOPeLyAlxOewrNGhi8Vsjub9voy4sClL9kAf8gVbzZh",
+              "received": false
+            }
+          ],
+          "total_price": 38593,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Jaimeshire",
+              "street": "Dominique Crescent",
+              "house": 227,
+              "flat": 9560
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:48:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a58f1c508c5d5e4178cc",
+          "products": [
+            {
+              "_id": "6951a59c1c508c5d5e418050",
+              "name": "Salad71631",
+              "amount": 760,
+              "price": 38593,
+              "manufacturer": "Tesla",
+              "notes": "wGbu6ByZdFV0rgtmDpjGpmYh4C5TlIKPRe026TiLg80bJNFY9Umid3ImybyX7foDNWmSDUOEBfDEGEuPOOUQK2nehLQNRNyxEUS8NxdOWlwA9lZKxJMNLI0XSyMmwrubWyinniCdWmgdfymRXuh98hxllvgO6iIn45uUqnWwytloUprzwz1vtlKSdKW9wEze8dhRDdpX0XDdWdICOPeLyAlxOewrNGhi8Vsjub9voy4sClL9kAf8gVbzZh",
+              "received": false
+            }
+          ],
+          "total_price": 38593,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:48:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:38:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2744",
+    "etag": "W/\"ab8-9lY5SBUbdMeaq6DbYNmrocel2Eo\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a35a1c508c5d5e4043f6",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951a3581c508c5d5e4042d2",
+        "email": "Dulce71@gmail.com",
+        "name": "Michael Zboncak",
+        "country": "Canada",
+        "city": "Fountainebleau",
+        "street": "N Water Street 8",
+        "house": 818,
+        "flat": 3637,
+        "phone": "+012478604442355",
+        "createdOn": "2025-12-28T21:38:32.000Z",
+        "notes": "XFGGHuYMcQNEcS1dNv7Nb78DN5eQ6F"
+      },
+      "products": [
+        {
+          "_id": "6951a35a1c508c5d5e404319",
+          "name": "Tuna8960",
+          "amount": 210,
+          "price": 72657,
+          "manufacturer": "Samsung",
+          "notes": "2T3YYDGwUBjiOTraUs1abRJFHiMbIdeALzHu4HsiNzVC8xdh09Fl3X7pQozLkuxyGtTCKqVn9bhqNAvCuqrWTOHJqfUA21Rno3P2m2ZPLwxBVXduHU7tie00dtxX69i0HfIRPFPPNsjnruJ1GORRv63DX56cG4yAwOxf5A07BtVHTvNAUucEnD8Y3PZ1Z3F4XzZ2LdtwpaTMsY6iuyxGgH1oAudTSUqaKsi5DwOrKec1gcZEG6ygSabajm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "West Anibal",
+          "street": "Priory Road",
+          "house": 173,
+          "flat": 669
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72657,
+      "createdOn": "2025-12-28T21:38:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951a3581c508c5d5e4042d2",
+          "products": [
+            {
+              "_id": "6951a35a1c508c5d5e404319",
+              "name": "Tuna8960",
+              "amount": 210,
+              "price": 72657,
+              "manufacturer": "Samsung",
+              "notes": "2T3YYDGwUBjiOTraUs1abRJFHiMbIdeALzHu4HsiNzVC8xdh09Fl3X7pQozLkuxyGtTCKqVn9bhqNAvCuqrWTOHJqfUA21Rno3P2m2ZPLwxBVXduHU7tie00dtxX69i0HfIRPFPPNsjnruJ1GORRv63DX56cG4yAwOxf5A07BtVHTvNAUucEnD8Y3PZ1Z3F4XzZ2LdtwpaTMsY6iuyxGgH1oAudTSUqaKsi5DwOrKec1gcZEG6ygSabajm",
+              "received": false
+            }
+          ],
+          "total_price": 72657,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "West Anibal",
+              "street": "Priory Road",
+              "house": 173,
+              "flat": 669
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:38:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a3581c508c5d5e4042d2",
+          "products": [
+            {
+              "_id": "6951a35a1c508c5d5e404319",
+              "name": "Tuna8960",
+              "amount": 210,
+              "price": 72657,
+              "manufacturer": "Samsung",
+              "notes": "2T3YYDGwUBjiOTraUs1abRJFHiMbIdeALzHu4HsiNzVC8xdh09Fl3X7pQozLkuxyGtTCKqVn9bhqNAvCuqrWTOHJqfUA21Rno3P2m2ZPLwxBVXduHU7tie00dtxX69i0HfIRPFPPNsjnruJ1GORRv63DX56cG4yAwOxf5A07BtVHTvNAUucEnD8Y3PZ1Z3F4XzZ2LdtwpaTMsY6iuyxGgH1oAudTSUqaKsi5DwOrKec1gcZEG6ygSabajm",
+              "received": false
+            }
+          ],
+          "total_price": 72657,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:38:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

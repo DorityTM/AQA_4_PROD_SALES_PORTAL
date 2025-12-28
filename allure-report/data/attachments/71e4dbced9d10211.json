@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:37:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3925",
+    "etag": "W/\"f55-kwKWolspL9uFiCSarE/B1gMRQ0c\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a32c1c508c5d5e402fce",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951a3271c508c5d5e402ea9",
+        "email": "Ardith_Schuster40@gmail.com",
+        "name": "Willard Runolfsdottir",
+        "country": "Great Britain",
+        "city": "Schowalterhaven",
+        "street": "West Lane 75",
+        "house": 263,
+        "flat": 2772,
+        "phone": "+312330800214099",
+        "createdOn": "2025-12-28T21:37:43.000Z",
+        "notes": "jxx6AQNWlzniD2iZvXiWybb52Iez5G"
+      },
+      "products": [
+        {
+          "_id": "6951a3291c508c5d5e402ece",
+          "name": "Cheese64792",
+          "amount": 229,
+          "price": 28610,
+          "manufacturer": "Amazon",
+          "notes": "Ft8alygfJrVWcFtRPuephHSMXTVXW7iSIUL8Vh0bA78fojO25adRPVE1TzrwBcnTxsguPzBNOkXvKtHPCl0u6xsXPCfCFiizn3vXB0AIjgs1QX6UUezI4awYKlHU3N0R6eT9069eLCtJO57JjiZssIYzdjEPitWlmwkmlsQRhUAfeMV5bGCv2CGZ1vFd7UhaZji8WjnXV6eEWaSei1NFCH6EWdnaoFx0dKAUcayN2zdHTR9pxtwZ2qGdb7",
+          "received": false
+        },
+        {
+          "_id": "6951a32c1c508c5d5e402fb8",
+          "name": "Hat86363",
+          "amount": 544,
+          "price": 3271,
+          "manufacturer": "Xiaomi",
+          "notes": "CE0EiYVIDUpMEsNnf4uI92JbZEMCqwdbuYTV8YqVs0TkJLkGMXqWHUNhJzgh4eq1VfsDViwMqzOiJUQ6qvmOSxnoLW7JZHTwBRQ1P3Z7PZ1dQNLZMDj8RcxP73llJd6ZCqO6FSkC0KckenfFDqOfCKIREHTJAF5RqBzqjiwRqAhWpfwUnJ2XT9W2nnnzoQFaqkziGbsGtoj6yjwifMS3uwtM6nTgRpnYZP0DjQIl81iFIt7EcOIKydXr2G",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "West Lucindaview",
+          "street": "Treutel Lane",
+          "house": 863,
+          "flat": 5104
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 31881,
+      "createdOn": "2025-12-28T21:37:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951a3271c508c5d5e402ea9",
+          "products": [
+            {
+              "_id": "6951a3291c508c5d5e402ece",
+              "name": "Cheese64792",
+              "amount": 229,
+              "price": 28610,
+              "manufacturer": "Amazon",
+              "notes": "Ft8alygfJrVWcFtRPuephHSMXTVXW7iSIUL8Vh0bA78fojO25adRPVE1TzrwBcnTxsguPzBNOkXvKtHPCl0u6xsXPCfCFiizn3vXB0AIjgs1QX6UUezI4awYKlHU3N0R6eT9069eLCtJO57JjiZssIYzdjEPitWlmwkmlsQRhUAfeMV5bGCv2CGZ1vFd7UhaZji8WjnXV6eEWaSei1NFCH6EWdnaoFx0dKAUcayN2zdHTR9pxtwZ2qGdb7",
+              "received": false
+            },
+            {
+              "_id": "6951a32c1c508c5d5e402fb8",
+              "name": "Hat86363",
+              "amount": 544,
+              "price": 3271,
+              "manufacturer": "Xiaomi",
+              "notes": "CE0EiYVIDUpMEsNnf4uI92JbZEMCqwdbuYTV8YqVs0TkJLkGMXqWHUNhJzgh4eq1VfsDViwMqzOiJUQ6qvmOSxnoLW7JZHTwBRQ1P3Z7PZ1dQNLZMDj8RcxP73llJd6ZCqO6FSkC0KckenfFDqOfCKIREHTJAF5RqBzqjiwRqAhWpfwUnJ2XT9W2nnnzoQFaqkziGbsGtoj6yjwifMS3uwtM6nTgRpnYZP0DjQIl81iFIt7EcOIKydXr2G",
+              "received": false
+            }
+          ],
+          "total_price": 31881,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Lucindaview",
+              "street": "Treutel Lane",
+              "house": 863,
+              "flat": 5104
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:37:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a3271c508c5d5e402ea9",
+          "products": [
+            {
+              "_id": "6951a3291c508c5d5e402ece",
+              "name": "Cheese64792",
+              "amount": 229,
+              "price": 28610,
+              "manufacturer": "Amazon",
+              "notes": "Ft8alygfJrVWcFtRPuephHSMXTVXW7iSIUL8Vh0bA78fojO25adRPVE1TzrwBcnTxsguPzBNOkXvKtHPCl0u6xsXPCfCFiizn3vXB0AIjgs1QX6UUezI4awYKlHU3N0R6eT9069eLCtJO57JjiZssIYzdjEPitWlmwkmlsQRhUAfeMV5bGCv2CGZ1vFd7UhaZji8WjnXV6eEWaSei1NFCH6EWdnaoFx0dKAUcayN2zdHTR9pxtwZ2qGdb7",
+              "received": false
+            },
+            {
+              "_id": "6951a32c1c508c5d5e402fb8",
+              "name": "Hat86363",
+              "amount": 544,
+              "price": 3271,
+              "manufacturer": "Xiaomi",
+              "notes": "CE0EiYVIDUpMEsNnf4uI92JbZEMCqwdbuYTV8YqVs0TkJLkGMXqWHUNhJzgh4eq1VfsDViwMqzOiJUQ6qvmOSxnoLW7JZHTwBRQ1P3Z7PZ1dQNLZMDj8RcxP73llJd6ZCqO6FSkC0KckenfFDqOfCKIREHTJAF5RqBzqjiwRqAhWpfwUnJ2XT9W2nnnzoQFaqkziGbsGtoj6yjwifMS3uwtM6nTgRpnYZP0DjQIl81iFIt7EcOIKydXr2G",
+              "received": false
+            }
+          ],
+          "total_price": 31881,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:37:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

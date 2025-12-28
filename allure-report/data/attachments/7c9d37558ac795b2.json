@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:39:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4612",
+    "etag": "W/\"1204-371G9MXR7rDPDdVGRUG5c3xlWHo\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a3801c508c5d5e405502",
+      "status": "Received",
+      "customer": {
+        "_id": "6951a37d1c508c5d5e4053d6",
+        "email": "Ricardo.OKon-Gleason@gmail.com",
+        "name": "Aracely Schoen",
+        "country": "Germany",
+        "city": "Lake Vladimir",
+        "street": "Katelynn Tunnel 27",
+        "house": 998,
+        "flat": 8274,
+        "phone": "+675975580331463",
+        "createdOn": "2025-12-28T21:39:09.000Z",
+        "notes": "p2WnZsLw2Z8KkzsM3K9YcLgYkPbYDe"
+      },
+      "products": [
+        {
+          "_id": "6951a37f1c508c5d5e4054ea",
+          "name": "Bike84434",
+          "amount": 846,
+          "price": 61283,
+          "manufacturer": "Sony",
+          "notes": "bKMrkMAXcOG2mlK0SKQXsBd67XBuanwYny5NB5Tlm8ql27MRa2DOPpdTWv92fwxOERBDnDAPt6Qrv0gxIYm8w6zRrJ5bGzjqxxbUFE3Hkx4RcXVmvXTzMnFXlMFIc0ZD1eToM0DdMKpu0cO1rBtMLqfW2aBBgsMl3eEa8OBqqqrKcmAzPQGV6zh1dHLW5w8iZvpZyYaTXOCfyD2XCw9N4VKMnk751LfhLMETE8bwr83vEXAYelBztWAXuf",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Rodriguezland",
+          "street": "Brakus Branch",
+          "house": 277,
+          "flat": 5345
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 61283,
+      "createdOn": "2025-12-28T21:39:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6951a37d1c508c5d5e4053d6",
+          "products": [
+            {
+              "_id": "6951a37f1c508c5d5e4054ea",
+              "name": "Bike84434",
+              "amount": 846,
+              "price": 61283,
+              "manufacturer": "Sony",
+              "notes": "bKMrkMAXcOG2mlK0SKQXsBd67XBuanwYny5NB5Tlm8ql27MRa2DOPpdTWv92fwxOERBDnDAPt6Qrv0gxIYm8w6zRrJ5bGzjqxxbUFE3Hkx4RcXVmvXTzMnFXlMFIc0ZD1eToM0DdMKpu0cO1rBtMLqfW2aBBgsMl3eEa8OBqqqrKcmAzPQGV6zh1dHLW5w8iZvpZyYaTXOCfyD2XCw9N4VKMnk751LfhLMETE8bwr83vEXAYelBztWAXuf",
+              "received": true
+            }
+          ],
+          "total_price": 61283,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Rodriguezland",
+              "street": "Brakus Branch",
+              "house": 277,
+              "flat": 5345
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:39:14.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6951a37d1c508c5d5e4053d6",
+          "products": [
+            {
+              "_id": "6951a37f1c508c5d5e4054ea",
+              "name": "Bike84434",
+              "amount": 846,
+              "price": 61283,
+              "manufacturer": "Sony",
+              "notes": "bKMrkMAXcOG2mlK0SKQXsBd67XBuanwYny5NB5Tlm8ql27MRa2DOPpdTWv92fwxOERBDnDAPt6Qrv0gxIYm8w6zRrJ5bGzjqxxbUFE3Hkx4RcXVmvXTzMnFXlMFIc0ZD1eToM0DdMKpu0cO1rBtMLqfW2aBBgsMl3eEa8OBqqqrKcmAzPQGV6zh1dHLW5w8iZvpZyYaTXOCfyD2XCw9N4VKMnk751LfhLMETE8bwr83vEXAYelBztWAXuf",
+              "received": false
+            }
+          ],
+          "total_price": 61283,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Rodriguezland",
+              "street": "Brakus Branch",
+              "house": 277,
+              "flat": 5345
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:39:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a37d1c508c5d5e4053d6",
+          "products": [
+            {
+              "_id": "6951a37f1c508c5d5e4054ea",
+              "name": "Bike84434",
+              "amount": 846,
+              "price": 61283,
+              "manufacturer": "Sony",
+              "notes": "bKMrkMAXcOG2mlK0SKQXsBd67XBuanwYny5NB5Tlm8ql27MRa2DOPpdTWv92fwxOERBDnDAPt6Qrv0gxIYm8w6zRrJ5bGzjqxxbUFE3Hkx4RcXVmvXTzMnFXlMFIc0ZD1eToM0DdMKpu0cO1rBtMLqfW2aBBgsMl3eEa8OBqqqrKcmAzPQGV6zh1dHLW5w8iZvpZyYaTXOCfyD2XCw9N4VKMnk751LfhLMETE8bwr83vEXAYelBztWAXuf",
+              "received": false
+            }
+          ],
+          "total_price": 61283,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Rodriguezland",
+              "street": "Brakus Branch",
+              "house": 277,
+              "flat": 5345
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:39:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a37d1c508c5d5e4053d6",
+          "products": [
+            {
+              "_id": "6951a37f1c508c5d5e4054ea",
+              "name": "Bike84434",
+              "amount": 846,
+              "price": 61283,
+              "manufacturer": "Sony",
+              "notes": "bKMrkMAXcOG2mlK0SKQXsBd67XBuanwYny5NB5Tlm8ql27MRa2DOPpdTWv92fwxOERBDnDAPt6Qrv0gxIYm8w6zRrJ5bGzjqxxbUFE3Hkx4RcXVmvXTzMnFXlMFIc0ZD1eToM0DdMKpu0cO1rBtMLqfW2aBBgsMl3eEa8OBqqqrKcmAzPQGV6zh1dHLW5w8iZvpZyYaTXOCfyD2XCw9N4VKMnk751LfhLMETE8bwr83vEXAYelBztWAXuf",
+              "received": false
+            }
+          ],
+          "total_price": 61283,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:39:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

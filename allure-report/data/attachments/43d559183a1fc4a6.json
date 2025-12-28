@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:52:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-ZfkMNdpC6JPFE3EIPgsDB3MmHjg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a6a51c508c5d5e422f56",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951a69d1c508c5d5e422959",
+        "email": "Lorna_Schmeler13@hotmail.com",
+        "name": "Tito Howe",
+        "country": "USA",
+        "city": "Kirkland",
+        "street": "Franklin Avenue 25",
+        "house": 247,
+        "flat": 9541,
+        "phone": "+786627669000940",
+        "createdOn": "2025-12-28T21:52:29.000Z",
+        "notes": "X80gxj6FdBg9DCpblODEaNKgc9JQWR"
+      },
+      "products": [
+        {
+          "_id": "6951a6a01c508c5d5e422e12",
+          "name": "Fish46528",
+          "amount": 879,
+          "price": 37542,
+          "manufacturer": "Microsoft",
+          "notes": "AiQZLNhAxIyyZZKM3FeDo23aOoXB4Udg0a0YKDKz3kglHZ7IaeE44gVnDM0EScUftbwImpjTERTul8a8ribvpzlaT2fTTXtGnC7BGqIKFuj3vgZqDJlijFhSuHhmNIvrORTHzOehl7YCqzkhDkfZ9tx40JLONbQ72DPE9ZbP6Y7qfdJBO0iw5VfHhT6PayRL21kGEG7K76elIBpkR2b8P9Ojz10nCWoiM2vKXiXMTwpq79J6qkDBDflntl",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Jannieworth",
+          "street": "Chapel Road",
+          "house": 897,
+          "flat": 8787
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 37542,
+      "createdOn": "2025-12-28T21:52:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951a69d1c508c5d5e422959",
+          "products": [
+            {
+              "_id": "6951a6a01c508c5d5e422e12",
+              "name": "Fish46528",
+              "amount": 879,
+              "price": 37542,
+              "manufacturer": "Microsoft",
+              "notes": "AiQZLNhAxIyyZZKM3FeDo23aOoXB4Udg0a0YKDKz3kglHZ7IaeE44gVnDM0EScUftbwImpjTERTul8a8ribvpzlaT2fTTXtGnC7BGqIKFuj3vgZqDJlijFhSuHhmNIvrORTHzOehl7YCqzkhDkfZ9tx40JLONbQ72DPE9ZbP6Y7qfdJBO0iw5VfHhT6PayRL21kGEG7K76elIBpkR2b8P9Ojz10nCWoiM2vKXiXMTwpq79J6qkDBDflntl",
+              "received": false
+            }
+          ],
+          "total_price": 37542,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Jannieworth",
+              "street": "Chapel Road",
+              "house": 897,
+              "flat": 8787
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:52:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a69d1c508c5d5e422959",
+          "products": [
+            {
+              "_id": "6951a6a01c508c5d5e422e12",
+              "name": "Fish46528",
+              "amount": 879,
+              "price": 37542,
+              "manufacturer": "Microsoft",
+              "notes": "AiQZLNhAxIyyZZKM3FeDo23aOoXB4Udg0a0YKDKz3kglHZ7IaeE44gVnDM0EScUftbwImpjTERTul8a8ribvpzlaT2fTTXtGnC7BGqIKFuj3vgZqDJlijFhSuHhmNIvrORTHzOehl7YCqzkhDkfZ9tx40JLONbQ72DPE9ZbP6Y7qfdJBO0iw5VfHhT6PayRL21kGEG7K76elIBpkR2b8P9Ojz10nCWoiM2vKXiXMTwpq79J6qkDBDflntl",
+              "received": false
+            }
+          ],
+          "total_price": 37542,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:52:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

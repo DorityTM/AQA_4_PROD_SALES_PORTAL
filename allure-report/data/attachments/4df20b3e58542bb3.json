@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:00:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3663",
+    "etag": "W/\"e4f-xtd1Z+umLAbDjcDks7Z0nAl25PQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a8691c508c5d5e433d56",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6951a8661c508c5d5e433ca1",
+        "email": "Jose_Nienow82@yahoo.com",
+        "name": "Lilyan Goyette",
+        "country": "Canada",
+        "city": "Jaidaville",
+        "street": "Titus Parkways 58",
+        "house": 848,
+        "flat": 539,
+        "phone": "+061615119515192",
+        "createdOn": "2025-12-28T22:00:06.000Z",
+        "notes": "QThInjKztUibgiEVuW39Ve7XS5yhfU"
+      },
+      "products": [
+        {
+          "_id": "6951a8681c508c5d5e433d38",
+          "name": "Hat91047",
+          "amount": 727,
+          "price": 20164,
+          "manufacturer": "Tesla",
+          "notes": "HwekRYNWQM4q7aLMS5cIwMr9z0cRn9lmbvHY4Z810e6OK7sQ88pcN0iOhu03sKtMM2ri3BGeV4gyRIYU8nn0ktZ9CowzlpXTq0y0LhHvRwp2djw9ThzGIMIs3uihACweY4gpJQzumfnmtzsG0zh8z6ymTSEiwWe0kXPwMeBJjkKzM7lJJ07rVo5kj6Sti9TnFhFxaZOavCEMLtacOFJbdunVX1a2X9ohEXaHtoJB1ab7ws8SxAbaluMK8h",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Bartonport",
+          "street": "Florencio Falls",
+          "house": 242,
+          "flat": 6942
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 20164,
+      "createdOn": "2025-12-28T22:00:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6951a8661c508c5d5e433ca1",
+          "products": [
+            {
+              "_id": "6951a8681c508c5d5e433d38",
+              "name": "Hat91047",
+              "amount": 727,
+              "price": 20164,
+              "manufacturer": "Tesla",
+              "notes": "HwekRYNWQM4q7aLMS5cIwMr9z0cRn9lmbvHY4Z810e6OK7sQ88pcN0iOhu03sKtMM2ri3BGeV4gyRIYU8nn0ktZ9CowzlpXTq0y0LhHvRwp2djw9ThzGIMIs3uihACweY4gpJQzumfnmtzsG0zh8z6ymTSEiwWe0kXPwMeBJjkKzM7lJJ07rVo5kj6Sti9TnFhFxaZOavCEMLtacOFJbdunVX1a2X9ohEXaHtoJB1ab7ws8SxAbaluMK8h",
+              "received": false
+            }
+          ],
+          "total_price": 20164,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Bartonport",
+              "street": "Florencio Falls",
+              "house": 242,
+              "flat": 6942
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:00:10.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a8661c508c5d5e433ca1",
+          "products": [
+            {
+              "_id": "6951a8681c508c5d5e433d38",
+              "name": "Hat91047",
+              "amount": 727,
+              "price": 20164,
+              "manufacturer": "Tesla",
+              "notes": "HwekRYNWQM4q7aLMS5cIwMr9z0cRn9lmbvHY4Z810e6OK7sQ88pcN0iOhu03sKtMM2ri3BGeV4gyRIYU8nn0ktZ9CowzlpXTq0y0LhHvRwp2djw9ThzGIMIs3uihACweY4gpJQzumfnmtzsG0zh8z6ymTSEiwWe0kXPwMeBJjkKzM7lJJ07rVo5kj6Sti9TnFhFxaZOavCEMLtacOFJbdunVX1a2X9ohEXaHtoJB1ab7ws8SxAbaluMK8h",
+              "received": false
+            }
+          ],
+          "total_price": 20164,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Bartonport",
+              "street": "Florencio Falls",
+              "house": 242,
+              "flat": 6942
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:00:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a8661c508c5d5e433ca1",
+          "products": [
+            {
+              "_id": "6951a8681c508c5d5e433d38",
+              "name": "Hat91047",
+              "amount": 727,
+              "price": 20164,
+              "manufacturer": "Tesla",
+              "notes": "HwekRYNWQM4q7aLMS5cIwMr9z0cRn9lmbvHY4Z810e6OK7sQ88pcN0iOhu03sKtMM2ri3BGeV4gyRIYU8nn0ktZ9CowzlpXTq0y0LhHvRwp2djw9ThzGIMIs3uihACweY4gpJQzumfnmtzsG0zh8z6ymTSEiwWe0kXPwMeBJjkKzM7lJJ07rVo5kj6Sti9TnFhFxaZOavCEMLtacOFJbdunVX1a2X9ohEXaHtoJB1ab7ws8SxAbaluMK8h",
+              "received": false
+            }
+          ],
+          "total_price": 20164,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:00:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

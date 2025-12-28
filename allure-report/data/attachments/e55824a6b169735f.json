@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 22:00:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3921",
+    "etag": "W/\"f51-PHDE6HLJRemE7TodlipQItjIhVY\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a8641c508c5d5e433bf8",
+      "status": "Draft",
+      "customer": {
+        "_id": "6951a8591c508c5d5e433580",
+        "email": "Jesse.Ankunding26@gmail.com",
+        "name": "Susanna Thompson",
+        "country": "USA",
+        "city": "Ortizville",
+        "street": "Oberbrunner Glens 64",
+        "house": 250,
+        "flat": 8709,
+        "phone": "+109507267180991",
+        "createdOn": "2025-12-28T21:59:53.000Z",
+        "notes": "AwG4g83XwArT2uF9k5KgrMbtIhn3qE"
+      },
+      "products": [
+        {
+          "_id": "6951a85c1c508c5d5e4336da",
+          "name": "Sausages90029",
+          "amount": 374,
+          "price": 88843,
+          "manufacturer": "Samsung",
+          "notes": "R1yj2k7quULzqY3Rg0cyreLbwXPPyOgzFulvjBkL6MqxvsKhY7dv9RzEfHObtth0BivBT970zLixZLfQ1IQNRrqPqejQWjDR56o8GhdzHmxzkX6i4hpQ4aaQTvkU4YJh2cm6S082j88gRtG0wPbCMYPUF05tKsl8Xr4jG2j8Y7YUjZm85Q5suNUYyyZeViRdBh0qdJS7SVRukFuC2js21YLiEpohs0U9iT0IfkA1YJSpYYohmhs4hqYrap",
+          "received": false
+        },
+        {
+          "_id": "6951a8621c508c5d5e433bd3",
+          "name": "Shirt18137",
+          "amount": 444,
+          "price": 66691,
+          "manufacturer": "Samsung",
+          "notes": "feTwqI589exALwjwsrr0ywdjpy9osq6O1zleeyiq4BqTBuJWfqBgOw1gq71gyn4MjqzltRJpGwjr5rMdmz5efUrLLIwHnqH5AWAsjyqfh0hgE3R7uAgf49YNaNki2b4ycRPGMUAHu19q2lJ2cZSeh6WIt17LzYTM07KCTXE1RwDThXOaWMhrmAPvMUTUevDQyIqnq4eZlPLZcQg60FnKy3vsgBHxiLBE4JagcfoNmpYTRGPTIsLJ3HTOBY",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Biloxi",
+          "street": "Camren Gardens",
+          "house": 657,
+          "flat": 7727
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 155534,
+      "createdOn": "2025-12-28T22:00:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6951a8591c508c5d5e433580",
+          "products": [
+            {
+              "_id": "6951a85c1c508c5d5e4336da",
+              "name": "Sausages90029",
+              "amount": 374,
+              "price": 88843,
+              "manufacturer": "Samsung",
+              "notes": "R1yj2k7quULzqY3Rg0cyreLbwXPPyOgzFulvjBkL6MqxvsKhY7dv9RzEfHObtth0BivBT970zLixZLfQ1IQNRrqPqejQWjDR56o8GhdzHmxzkX6i4hpQ4aaQTvkU4YJh2cm6S082j88gRtG0wPbCMYPUF05tKsl8Xr4jG2j8Y7YUjZm85Q5suNUYyyZeViRdBh0qdJS7SVRukFuC2js21YLiEpohs0U9iT0IfkA1YJSpYYohmhs4hqYrap",
+              "received": false
+            },
+            {
+              "_id": "6951a8621c508c5d5e433bd3",
+              "name": "Shirt18137",
+              "amount": 444,
+              "price": 66691,
+              "manufacturer": "Samsung",
+              "notes": "feTwqI589exALwjwsrr0ywdjpy9osq6O1zleeyiq4BqTBuJWfqBgOw1gq71gyn4MjqzltRJpGwjr5rMdmz5efUrLLIwHnqH5AWAsjyqfh0hgE3R7uAgf49YNaNki2b4ycRPGMUAHu19q2lJ2cZSeh6WIt17LzYTM07KCTXE1RwDThXOaWMhrmAPvMUTUevDQyIqnq4eZlPLZcQg60FnKy3vsgBHxiLBE4JagcfoNmpYTRGPTIsLJ3HTOBY",
+              "received": false
+            }
+          ],
+          "total_price": 155534,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Biloxi",
+              "street": "Camren Gardens",
+              "house": 657,
+              "flat": 7727
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T22:00:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a8591c508c5d5e433580",
+          "products": [
+            {
+              "_id": "6951a85c1c508c5d5e4336da",
+              "name": "Sausages90029",
+              "amount": 374,
+              "price": 88843,
+              "manufacturer": "Samsung",
+              "notes": "R1yj2k7quULzqY3Rg0cyreLbwXPPyOgzFulvjBkL6MqxvsKhY7dv9RzEfHObtth0BivBT970zLixZLfQ1IQNRrqPqejQWjDR56o8GhdzHmxzkX6i4hpQ4aaQTvkU4YJh2cm6S082j88gRtG0wPbCMYPUF05tKsl8Xr4jG2j8Y7YUjZm85Q5suNUYyyZeViRdBh0qdJS7SVRukFuC2js21YLiEpohs0U9iT0IfkA1YJSpYYohmhs4hqYrap",
+              "received": false
+            },
+            {
+              "_id": "6951a8621c508c5d5e433bd3",
+              "name": "Shirt18137",
+              "amount": 444,
+              "price": 66691,
+              "manufacturer": "Samsung",
+              "notes": "feTwqI589exALwjwsrr0ywdjpy9osq6O1zleeyiq4BqTBuJWfqBgOw1gq71gyn4MjqzltRJpGwjr5rMdmz5efUrLLIwHnqH5AWAsjyqfh0hgE3R7uAgf49YNaNki2b4ycRPGMUAHu19q2lJ2cZSeh6WIt17LzYTM07KCTXE1RwDThXOaWMhrmAPvMUTUevDQyIqnq4eZlPLZcQg60FnKy3vsgBHxiLBE4JagcfoNmpYTRGPTIsLJ3HTOBY",
+              "received": false
+            }
+          ],
+          "total_price": 155534,
+          "delivery": null,
+          "changedOn": "2025-12-28T22:00:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

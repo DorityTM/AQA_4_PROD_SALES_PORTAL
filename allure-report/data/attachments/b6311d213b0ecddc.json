@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 28 Dec 2025 21:46:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3682",
+    "etag": "W/\"e62-5e1A8SbEgEft+kKaJ/3he8W7aXs\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6951a5331c508c5d5e413b8c",
+      "status": "In Process",
+      "customer": {
+        "_id": "6951a52d1c508c5d5e4137b9",
+        "email": "Stella.Hodkiewicz@hotmail.com",
+        "name": "Everett Larkin",
+        "country": "Canada",
+        "city": "Port Velda",
+        "street": "S Front Street 19",
+        "house": 410,
+        "flat": 8450,
+        "phone": "+732285895815283",
+        "createdOn": "2025-12-28T21:46:21.000Z",
+        "notes": "S5XYkkPe2Pl7r3ufRQvOq6A3MhiSw0"
+      },
+      "products": [
+        {
+          "_id": "6951a52f1c508c5d5e413a58",
+          "name": "Soap6366",
+          "amount": 618,
+          "price": 87050,
+          "manufacturer": "Xiaomi",
+          "notes": "W932MgQGONiP2HNlxa8CvwZ8VVIN1lP4j7poKSiSlxFcxh2W0ncl73Hpyea6inCrB3mzsqbTP5JrMarX2MhJy0gBeyEm1qFfj8PJs6ss51kMljf3oFbsGCB7XYvgg7Wz4cCsU9PkFPY0rAi6BFR9leecSjlncy2Cil1VtKnnbBYQxXVmtcoxXJ55VU4x7fiE5WrZpOcnmNa4RiosqqDccmsgEI2yN5APpQYaSgXM9FmzeJfueb6ycxsZ5i",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "North Kaylie",
+          "street": "Bridge Road",
+          "house": 607,
+          "flat": 7700
+        },
+        "finalDate": "2026-01-04T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 87050,
+      "createdOn": "2025-12-28T21:46:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6951a52d1c508c5d5e4137b9",
+          "products": [
+            {
+              "_id": "6951a52f1c508c5d5e413a58",
+              "name": "Soap6366",
+              "amount": 618,
+              "price": 87050,
+              "manufacturer": "Xiaomi",
+              "notes": "W932MgQGONiP2HNlxa8CvwZ8VVIN1lP4j7poKSiSlxFcxh2W0ncl73Hpyea6inCrB3mzsqbTP5JrMarX2MhJy0gBeyEm1qFfj8PJs6ss51kMljf3oFbsGCB7XYvgg7Wz4cCsU9PkFPY0rAi6BFR9leecSjlncy2Cil1VtKnnbBYQxXVmtcoxXJ55VU4x7fiE5WrZpOcnmNa4RiosqqDccmsgEI2yN5APpQYaSgXM9FmzeJfueb6ycxsZ5i",
+              "received": false
+            }
+          ],
+          "total_price": 87050,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "North Kaylie",
+              "street": "Bridge Road",
+              "house": 607,
+              "flat": 7700
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:46:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a52d1c508c5d5e4137b9",
+          "products": [
+            {
+              "_id": "6951a52f1c508c5d5e413a58",
+              "name": "Soap6366",
+              "amount": 618,
+              "price": 87050,
+              "manufacturer": "Xiaomi",
+              "notes": "W932MgQGONiP2HNlxa8CvwZ8VVIN1lP4j7poKSiSlxFcxh2W0ncl73Hpyea6inCrB3mzsqbTP5JrMarX2MhJy0gBeyEm1qFfj8PJs6ss51kMljf3oFbsGCB7XYvgg7Wz4cCsU9PkFPY0rAi6BFR9leecSjlncy2Cil1VtKnnbBYQxXVmtcoxXJ55VU4x7fiE5WrZpOcnmNa4RiosqqDccmsgEI2yN5APpQYaSgXM9FmzeJfueb6ycxsZ5i",
+              "received": false
+            }
+          ],
+          "total_price": 87050,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "North Kaylie",
+              "street": "Bridge Road",
+              "house": 607,
+              "flat": 7700
+            },
+            "finalDate": "2026-01-04T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-28T21:46:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6951a52d1c508c5d5e4137b9",
+          "products": [
+            {
+              "_id": "6951a52f1c508c5d5e413a58",
+              "name": "Soap6366",
+              "amount": 618,
+              "price": 87050,
+              "manufacturer": "Xiaomi",
+              "notes": "W932MgQGONiP2HNlxa8CvwZ8VVIN1lP4j7poKSiSlxFcxh2W0ncl73Hpyea6inCrB3mzsqbTP5JrMarX2MhJy0gBeyEm1qFfj8PJs6ss51kMljf3oFbsGCB7XYvgg7Wz4cCsU9PkFPY0rAi6BFR9leecSjlncy2Cil1VtKnnbBYQxXVmtcoxXJ55VU4x7fiE5WrZpOcnmNa4RiosqqDccmsgEI2yN5APpQYaSgXM9FmzeJfueb6ycxsZ5i",
+              "received": false
+            }
+          ],
+          "total_price": 87050,
+          "delivery": null,
+          "changedOn": "2025-12-28T21:46:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
