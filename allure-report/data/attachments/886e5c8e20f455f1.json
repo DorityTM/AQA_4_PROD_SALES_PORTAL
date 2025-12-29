@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:22:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2762",
+    "etag": "W/\"aca-cadsxWe9dGAxdlFnoaO9XzXjdwg\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695280951c508c5d5e4761f2",
+      "status": "Draft",
+      "customer": {
+        "_id": "695280941c508c5d5e47615a",
+        "email": "Dulce55@gmail.com",
+        "name": "Mable Konopelski",
+        "country": "France",
+        "city": "North Monafurt",
+        "street": "Hilpert Expressway 31",
+        "house": 543,
+        "flat": 9389,
+        "phone": "+022895118511738",
+        "createdOn": "2025-12-29T13:22:28.000Z",
+        "notes": "xR5ywzboS0dvpkHfwA8zVKgYpvWxNn"
+      },
+      "products": [
+        {
+          "_id": "695280951c508c5d5e4761d3",
+          "name": "Fish40554",
+          "amount": 546,
+          "price": 55445,
+          "manufacturer": "Sony",
+          "notes": "JVpzXzkNMLe5rgZumEIFl3gwBflfb41zKTl4SN5YssCoSfyiHzwI4GJhlZiUcizmebJEn4kbVPeAviesG09TkqjcjeWN0ZRHCQSp8rtgfTAEdq6LPvCD63V1x5FZzmjvN6zUKB7Dh4ayJYmH2VcP2WHTTidrB80ggm3hF0tWTFv6qTYMJNtgpScmslfbhL8AYvTXKahkhpdnquEtA6aOJJ1tKlUZ5OqpgqJq80ptuTJLtd4Z6bAx3BQPgU",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Hermanncester",
+          "street": "Johnnie Extensions",
+          "house": 599,
+          "flat": 5888
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55445,
+      "createdOn": "2025-12-29T13:22:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695280941c508c5d5e47615a",
+          "products": [
+            {
+              "_id": "695280951c508c5d5e4761d3",
+              "name": "Fish40554",
+              "amount": 546,
+              "price": 55445,
+              "manufacturer": "Sony",
+              "notes": "JVpzXzkNMLe5rgZumEIFl3gwBflfb41zKTl4SN5YssCoSfyiHzwI4GJhlZiUcizmebJEn4kbVPeAviesG09TkqjcjeWN0ZRHCQSp8rtgfTAEdq6LPvCD63V1x5FZzmjvN6zUKB7Dh4ayJYmH2VcP2WHTTidrB80ggm3hF0tWTFv6qTYMJNtgpScmslfbhL8AYvTXKahkhpdnquEtA6aOJJ1tKlUZ5OqpgqJq80ptuTJLtd4Z6bAx3BQPgU",
+              "received": false
+            }
+          ],
+          "total_price": 55445,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Hermanncester",
+              "street": "Johnnie Extensions",
+              "house": 599,
+              "flat": 5888
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:22:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695280941c508c5d5e47615a",
+          "products": [
+            {
+              "_id": "695280951c508c5d5e4761d3",
+              "name": "Fish40554",
+              "amount": 546,
+              "price": 55445,
+              "manufacturer": "Sony",
+              "notes": "JVpzXzkNMLe5rgZumEIFl3gwBflfb41zKTl4SN5YssCoSfyiHzwI4GJhlZiUcizmebJEn4kbVPeAviesG09TkqjcjeWN0ZRHCQSp8rtgfTAEdq6LPvCD63V1x5FZzmjvN6zUKB7Dh4ayJYmH2VcP2WHTTidrB80ggm3hF0tWTFv6qTYMJNtgpScmslfbhL8AYvTXKahkhpdnquEtA6aOJJ1tKlUZ5OqpgqJq80ptuTJLtd4Z6bAx3BQPgU",
+              "received": false
+            }
+          ],
+          "total_price": 55445,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:22:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

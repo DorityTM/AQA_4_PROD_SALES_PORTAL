@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:22:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3681",
+    "etag": "W/\"e61-+QoMbTBNes2WC5wzgZGtOvBzXuw\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695280881c508c5d5e475b8f",
+      "status": "In Process",
+      "customer": {
+        "_id": "695280871c508c5d5e475b52",
+        "email": "Randy55@hotmail.com",
+        "name": "Esther Doyle",
+        "country": "Ukraine",
+        "city": "Millsworth",
+        "street": "Justen Common 6",
+        "house": 652,
+        "flat": 2006,
+        "phone": "+986899560128398",
+        "createdOn": "2025-12-29T13:22:15.000Z",
+        "notes": "C10YSxvjCNS425mtA9l6MHWG1akNAu"
+      },
+      "products": [
+        {
+          "_id": "695280881c508c5d5e475b72",
+          "name": "Chair85459",
+          "amount": 345,
+          "price": 88589,
+          "manufacturer": "Samsung",
+          "notes": "TcsU10qltDzIETjtTgA0qzYg01oqa2JoR4nYfKJfgxctoe5v03qLJ3njZxyzdP8jhIVsbVhUBUWhOHNK5ngqbky4R6O2gti3gDV8ND5Ygad5U2XudCteZmiYJrSvTtRQCzd0gVhGn2ZiKTz50AML4BGLpZlmFxTxYLrPANNBr2dj7yhubYbmFXxKrEnoBDaIHWS6FwzjvGEcHsV29QGu8J6MpTIiBh72BRxJneVyjMP840DCjaHBnV1pCz",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Hilpertborough",
+          "street": "Oren Dale",
+          "house": 397,
+          "flat": 3049
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88589,
+      "createdOn": "2025-12-29T13:22:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695280871c508c5d5e475b52",
+          "products": [
+            {
+              "_id": "695280881c508c5d5e475b72",
+              "name": "Chair85459",
+              "amount": 345,
+              "price": 88589,
+              "manufacturer": "Samsung",
+              "notes": "TcsU10qltDzIETjtTgA0qzYg01oqa2JoR4nYfKJfgxctoe5v03qLJ3njZxyzdP8jhIVsbVhUBUWhOHNK5ngqbky4R6O2gti3gDV8ND5Ygad5U2XudCteZmiYJrSvTtRQCzd0gVhGn2ZiKTz50AML4BGLpZlmFxTxYLrPANNBr2dj7yhubYbmFXxKrEnoBDaIHWS6FwzjvGEcHsV29QGu8J6MpTIiBh72BRxJneVyjMP840DCjaHBnV1pCz",
+              "received": false
+            }
+          ],
+          "total_price": 88589,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Hilpertborough",
+              "street": "Oren Dale",
+              "house": 397,
+              "flat": 3049
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:22:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695280871c508c5d5e475b52",
+          "products": [
+            {
+              "_id": "695280881c508c5d5e475b72",
+              "name": "Chair85459",
+              "amount": 345,
+              "price": 88589,
+              "manufacturer": "Samsung",
+              "notes": "TcsU10qltDzIETjtTgA0qzYg01oqa2JoR4nYfKJfgxctoe5v03qLJ3njZxyzdP8jhIVsbVhUBUWhOHNK5ngqbky4R6O2gti3gDV8ND5Ygad5U2XudCteZmiYJrSvTtRQCzd0gVhGn2ZiKTz50AML4BGLpZlmFxTxYLrPANNBr2dj7yhubYbmFXxKrEnoBDaIHWS6FwzjvGEcHsV29QGu8J6MpTIiBh72BRxJneVyjMP840DCjaHBnV1pCz",
+              "received": false
+            }
+          ],
+          "total_price": 88589,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Hilpertborough",
+              "street": "Oren Dale",
+              "house": 397,
+              "flat": 3049
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:22:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695280871c508c5d5e475b52",
+          "products": [
+            {
+              "_id": "695280881c508c5d5e475b72",
+              "name": "Chair85459",
+              "amount": 345,
+              "price": 88589,
+              "manufacturer": "Samsung",
+              "notes": "TcsU10qltDzIETjtTgA0qzYg01oqa2JoR4nYfKJfgxctoe5v03qLJ3njZxyzdP8jhIVsbVhUBUWhOHNK5ngqbky4R6O2gti3gDV8ND5Ygad5U2XudCteZmiYJrSvTtRQCzd0gVhGn2ZiKTz50AML4BGLpZlmFxTxYLrPANNBr2dj7yhubYbmFXxKrEnoBDaIHWS6FwzjvGEcHsV29QGu8J6MpTIiBh72BRxJneVyjMP840DCjaHBnV1pCz",
+              "received": false
+            }
+          ],
+          "total_price": 88589,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:22:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:17:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2764",
+    "etag": "W/\"acc-8HQle+Mo+c01enR6CSBqisLVS/c\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527f5b1c508c5d5e46e59b",
+      "status": "Draft",
+      "customer": {
+        "_id": "69527f5a1c508c5d5e46e51c",
+        "email": "Gregory_Kerluke@yahoo.com",
+        "name": "Earline Cole",
+        "country": "Germany",
+        "city": "Pollichtown",
+        "street": "W Broadway Avenue 19",
+        "house": 956,
+        "flat": 2103,
+        "phone": "+871685703724382",
+        "createdOn": "2025-12-29T13:17:14.000Z",
+        "notes": "WO3ZoJJgXuHXxoW6NwUFrwWrykUAOe"
+      },
+      "products": [
+        {
+          "_id": "69527f5b1c508c5d5e46e570",
+          "name": "Mouse23338",
+          "amount": 36,
+          "price": 98716,
+          "manufacturer": "Samsung",
+          "notes": "pkTV3KEs7t6oxc8L61FDhB606qQqqZpZPafmxz7UINOg8si2WilK5dZzLcKefrE2s5ZSY1DrsgwVkmUJkFCGalI6eJZjdq1A5CW3QjHaPLznT170c8RL4YY441Oan9HIQqON93YVmvzFxBZ0cv9iOn79mgqUvFqijnSgoNzctxNBMnJPQpJQbfaAm9XOMSEd1bNo3nrBYnLR2gTZkS14D22th9Hg6Za3opTUHcSp74PUxGDavEkCz49KP9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "New Braxtonfort",
+          "street": "Viva Centers",
+          "house": 461,
+          "flat": 9800
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98716,
+      "createdOn": "2025-12-29T13:17:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69527f5a1c508c5d5e46e51c",
+          "products": [
+            {
+              "_id": "69527f5b1c508c5d5e46e570",
+              "name": "Mouse23338",
+              "amount": 36,
+              "price": 98716,
+              "manufacturer": "Samsung",
+              "notes": "pkTV3KEs7t6oxc8L61FDhB606qQqqZpZPafmxz7UINOg8si2WilK5dZzLcKefrE2s5ZSY1DrsgwVkmUJkFCGalI6eJZjdq1A5CW3QjHaPLznT170c8RL4YY441Oan9HIQqON93YVmvzFxBZ0cv9iOn79mgqUvFqijnSgoNzctxNBMnJPQpJQbfaAm9XOMSEd1bNo3nrBYnLR2gTZkS14D22th9Hg6Za3opTUHcSp74PUxGDavEkCz49KP9",
+              "received": false
+            }
+          ],
+          "total_price": 98716,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "New Braxtonfort",
+              "street": "Viva Centers",
+              "house": 461,
+              "flat": 9800
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:17:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527f5a1c508c5d5e46e51c",
+          "products": [
+            {
+              "_id": "69527f5b1c508c5d5e46e570",
+              "name": "Mouse23338",
+              "amount": 36,
+              "price": 98716,
+              "manufacturer": "Samsung",
+              "notes": "pkTV3KEs7t6oxc8L61FDhB606qQqqZpZPafmxz7UINOg8si2WilK5dZzLcKefrE2s5ZSY1DrsgwVkmUJkFCGalI6eJZjdq1A5CW3QjHaPLznT170c8RL4YY441Oan9HIQqON93YVmvzFxBZ0cv9iOn79mgqUvFqijnSgoNzctxNBMnJPQpJQbfaAm9XOMSEd1bNo3nrBYnLR2gTZkS14D22th9Hg6Za3opTUHcSp74PUxGDavEkCz49KP9",
+              "received": false
+            }
+          ],
+          "total_price": 98716,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:17:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

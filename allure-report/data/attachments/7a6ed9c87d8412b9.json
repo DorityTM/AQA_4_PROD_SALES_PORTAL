@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:18:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4599",
+    "etag": "W/\"11f7-xugSvJyh328j5YkJoaxlk3SEw6I\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527fbd1c508c5d5e4710c5",
+      "status": "Received",
+      "customer": {
+        "_id": "69527fbc1c508c5d5e471088",
+        "email": "Loy71@yahoo.com",
+        "name": "Ashly Ruecker",
+        "country": "Ukraine",
+        "city": "Alfordfort",
+        "street": "Ernser Rue 14",
+        "house": 413,
+        "flat": 9785,
+        "phone": "+784935422264742",
+        "createdOn": "2025-12-29T13:18:52.000Z",
+        "notes": "RynopEaAl4UqgipZSZtMjg9tSEIfkI"
+      },
+      "products": [
+        {
+          "_id": "69527fbd1c508c5d5e4710aa",
+          "name": "Car9606",
+          "amount": 389,
+          "price": 38444,
+          "manufacturer": "Tesla",
+          "notes": "SH1cRye1TbcHstAwG2NxBSA79gJbDq97x5fy4Otzo5YbXRFyrlQKDNCTPnkVMGfNt1b3BDn2v9EfGpPHTVT7sSCr3xScGEpAESiRN2L2Dos7PmcOF728zINo69WbdCPHiqVuySYTn1cfMhiCpZwKTFEkK90v3GZ3TDiqmVhhGPB9aBg21UEg6OxrfxcMDhYM8wEpY8jY968KjiQs9FX3bDXyNRLZ0XX8G0A5aMLFpsZOJ6LF0WEylBq27N",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Port Harmonyside",
+          "street": "Sycamore Avenue",
+          "house": 72,
+          "flat": 2919
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 38444,
+      "createdOn": "2025-12-29T13:18:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69527fbc1c508c5d5e471088",
+          "products": [
+            {
+              "_id": "69527fbd1c508c5d5e4710aa",
+              "name": "Car9606",
+              "amount": 389,
+              "price": 38444,
+              "manufacturer": "Tesla",
+              "notes": "SH1cRye1TbcHstAwG2NxBSA79gJbDq97x5fy4Otzo5YbXRFyrlQKDNCTPnkVMGfNt1b3BDn2v9EfGpPHTVT7sSCr3xScGEpAESiRN2L2Dos7PmcOF728zINo69WbdCPHiqVuySYTn1cfMhiCpZwKTFEkK90v3GZ3TDiqmVhhGPB9aBg21UEg6OxrfxcMDhYM8wEpY8jY968KjiQs9FX3bDXyNRLZ0XX8G0A5aMLFpsZOJ6LF0WEylBq27N",
+              "received": true
+            }
+          ],
+          "total_price": 38444,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Harmonyside",
+              "street": "Sycamore Avenue",
+              "house": 72,
+              "flat": 2919
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:18:54.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69527fbc1c508c5d5e471088",
+          "products": [
+            {
+              "_id": "69527fbd1c508c5d5e4710aa",
+              "name": "Car9606",
+              "amount": 389,
+              "price": 38444,
+              "manufacturer": "Tesla",
+              "notes": "SH1cRye1TbcHstAwG2NxBSA79gJbDq97x5fy4Otzo5YbXRFyrlQKDNCTPnkVMGfNt1b3BDn2v9EfGpPHTVT7sSCr3xScGEpAESiRN2L2Dos7PmcOF728zINo69WbdCPHiqVuySYTn1cfMhiCpZwKTFEkK90v3GZ3TDiqmVhhGPB9aBg21UEg6OxrfxcMDhYM8wEpY8jY968KjiQs9FX3bDXyNRLZ0XX8G0A5aMLFpsZOJ6LF0WEylBq27N",
+              "received": false
+            }
+          ],
+          "total_price": 38444,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Harmonyside",
+              "street": "Sycamore Avenue",
+              "house": 72,
+              "flat": 2919
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:18:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527fbc1c508c5d5e471088",
+          "products": [
+            {
+              "_id": "69527fbd1c508c5d5e4710aa",
+              "name": "Car9606",
+              "amount": 389,
+              "price": 38444,
+              "manufacturer": "Tesla",
+              "notes": "SH1cRye1TbcHstAwG2NxBSA79gJbDq97x5fy4Otzo5YbXRFyrlQKDNCTPnkVMGfNt1b3BDn2v9EfGpPHTVT7sSCr3xScGEpAESiRN2L2Dos7PmcOF728zINo69WbdCPHiqVuySYTn1cfMhiCpZwKTFEkK90v3GZ3TDiqmVhhGPB9aBg21UEg6OxrfxcMDhYM8wEpY8jY968KjiQs9FX3bDXyNRLZ0XX8G0A5aMLFpsZOJ6LF0WEylBq27N",
+              "received": false
+            }
+          ],
+          "total_price": 38444,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Harmonyside",
+              "street": "Sycamore Avenue",
+              "house": 72,
+              "flat": 2919
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:18:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527fbc1c508c5d5e471088",
+          "products": [
+            {
+              "_id": "69527fbd1c508c5d5e4710aa",
+              "name": "Car9606",
+              "amount": 389,
+              "price": 38444,
+              "manufacturer": "Tesla",
+              "notes": "SH1cRye1TbcHstAwG2NxBSA79gJbDq97x5fy4Otzo5YbXRFyrlQKDNCTPnkVMGfNt1b3BDn2v9EfGpPHTVT7sSCr3xScGEpAESiRN2L2Dos7PmcOF728zINo69WbdCPHiqVuySYTn1cfMhiCpZwKTFEkK90v3GZ3TDiqmVhhGPB9aBg21UEg6OxrfxcMDhYM8wEpY8jY968KjiQs9FX3bDXyNRLZ0XX8G0A5aMLFpsZOJ6LF0WEylBq27N",
+              "received": false
+            }
+          ],
+          "total_price": 38444,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:18:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:21:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2764",
+    "etag": "W/\"acc-ZEr9+/8qcgN4Jj5IlsZhQyL86e0\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695280541c508c5d5e474a4d",
+      "status": "Draft",
+      "customer": {
+        "_id": "695280531c508c5d5e4749fc",
+        "email": "Rachel.Stanton84@yahoo.com",
+        "name": "Tierra Larkin",
+        "country": "Ukraine",
+        "city": "North Axelfield",
+        "street": "High Street 43",
+        "house": 351,
+        "flat": 9174,
+        "phone": "+538146756214231",
+        "createdOn": "2025-12-29T13:21:23.000Z",
+        "notes": "5EA0hgcGCAMbC0GenS9ZSOh1SWCrFq"
+      },
+      "products": [
+        {
+          "_id": "695280541c508c5d5e474a2f",
+          "name": "Fish1978",
+          "amount": 214,
+          "price": 3999,
+          "manufacturer": "Sony",
+          "notes": "fTspAW3qDS2pDFzuiqShDxAZ0TIfPVjxueXoNyCaHHOhPBtLfLtmbyE3K5vbpX6kRGj8Ntj4HuhANu8nRLyHDMwHjh5NLL4oCtqUy1JE6KPem0J0Fo63Lf94g5RXivPYFt632roA3eitmcWGKeyBWxiQcFbdPhjgirRpnZBL0nkcjSionjIrEI0r3Du2vNuJeoV0SV2aN9VWHzUP2dy5R72KDT3MaxCyEPpjFoBU6YL8xM7ba0LsA0BSjk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "East Eribertoborough",
+          "street": "Schaefer Turnpike",
+          "house": 472,
+          "flat": 570
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3999,
+      "createdOn": "2025-12-29T13:21:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695280531c508c5d5e4749fc",
+          "products": [
+            {
+              "_id": "695280541c508c5d5e474a2f",
+              "name": "Fish1978",
+              "amount": 214,
+              "price": 3999,
+              "manufacturer": "Sony",
+              "notes": "fTspAW3qDS2pDFzuiqShDxAZ0TIfPVjxueXoNyCaHHOhPBtLfLtmbyE3K5vbpX6kRGj8Ntj4HuhANu8nRLyHDMwHjh5NLL4oCtqUy1JE6KPem0J0Fo63Lf94g5RXivPYFt632roA3eitmcWGKeyBWxiQcFbdPhjgirRpnZBL0nkcjSionjIrEI0r3Du2vNuJeoV0SV2aN9VWHzUP2dy5R72KDT3MaxCyEPpjFoBU6YL8xM7ba0LsA0BSjk",
+              "received": false
+            }
+          ],
+          "total_price": 3999,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Eribertoborough",
+              "street": "Schaefer Turnpike",
+              "house": 472,
+              "flat": 570
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:21:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695280531c508c5d5e4749fc",
+          "products": [
+            {
+              "_id": "695280541c508c5d5e474a2f",
+              "name": "Fish1978",
+              "amount": 214,
+              "price": 3999,
+              "manufacturer": "Sony",
+              "notes": "fTspAW3qDS2pDFzuiqShDxAZ0TIfPVjxueXoNyCaHHOhPBtLfLtmbyE3K5vbpX6kRGj8Ntj4HuhANu8nRLyHDMwHjh5NLL4oCtqUy1JE6KPem0J0Fo63Lf94g5RXivPYFt632roA3eitmcWGKeyBWxiQcFbdPhjgirRpnZBL0nkcjSionjIrEI0r3Du2vNuJeoV0SV2aN9VWHzUP2dy5R72KDT3MaxCyEPpjFoBU6YL8xM7ba0LsA0BSjk",
+              "received": false
+            }
+          ],
+          "total_price": 3999,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:21:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:18:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2749",
+    "etag": "W/\"abd-RWKD/V1H8CRc/7PfSHBQN6W+bGI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527fbd1c508c5d5e4710b3",
+      "status": "Draft",
+      "customer": {
+        "_id": "69527fbc1c508c5d5e47107c",
+        "email": "Emilia64@gmail.com",
+        "name": "Okey Bergstrom",
+        "country": "Canada",
+        "city": "Fort Lucious",
+        "street": "Lesch Views 45",
+        "house": 604,
+        "flat": 3716,
+        "phone": "+003708700896773",
+        "createdOn": "2025-12-29T13:18:52.000Z",
+        "notes": "hRtyXPtG7gIGlfT13poXUpefV8eh0t"
+      },
+      "products": [
+        {
+          "_id": "69527fbc1c508c5d5e47109f",
+          "name": "Bacon92149",
+          "amount": 671,
+          "price": 12039,
+          "manufacturer": "Amazon",
+          "notes": "UXuctW4U6p2ORuGaLhY0MAqdTKNLzXxf0jBzmrbF5qSuXUZnmckBzMbNIzPSlg2hpDioO31gtnWMRxpyaJ6x4gQvgWR9563OrwcUQao5dPh2gc0k2SmId8TPE1lRjdKIErsmi7uHBz52OKy4R3PIgj1pRUfb6laaEuXiUlUxHhtxICC4XojynfInYb1HSPI4EZ1vHdH14kYfalePyxYh5AuYWV1d1kC522bcLG1HxQJssg52H5VhVW6e5j",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Augustusburgh",
+          "street": "Beatty Field",
+          "house": 120,
+          "flat": 3400
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 12039,
+      "createdOn": "2025-12-29T13:18:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69527fbc1c508c5d5e47107c",
+          "products": [
+            {
+              "_id": "69527fbc1c508c5d5e47109f",
+              "name": "Bacon92149",
+              "amount": 671,
+              "price": 12039,
+              "manufacturer": "Amazon",
+              "notes": "UXuctW4U6p2ORuGaLhY0MAqdTKNLzXxf0jBzmrbF5qSuXUZnmckBzMbNIzPSlg2hpDioO31gtnWMRxpyaJ6x4gQvgWR9563OrwcUQao5dPh2gc0k2SmId8TPE1lRjdKIErsmi7uHBz52OKy4R3PIgj1pRUfb6laaEuXiUlUxHhtxICC4XojynfInYb1HSPI4EZ1vHdH14kYfalePyxYh5AuYWV1d1kC522bcLG1HxQJssg52H5VhVW6e5j",
+              "received": false
+            }
+          ],
+          "total_price": 12039,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Augustusburgh",
+              "street": "Beatty Field",
+              "house": 120,
+              "flat": 3400
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:18:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527fbc1c508c5d5e47107c",
+          "products": [
+            {
+              "_id": "69527fbc1c508c5d5e47109f",
+              "name": "Bacon92149",
+              "amount": 671,
+              "price": 12039,
+              "manufacturer": "Amazon",
+              "notes": "UXuctW4U6p2ORuGaLhY0MAqdTKNLzXxf0jBzmrbF5qSuXUZnmckBzMbNIzPSlg2hpDioO31gtnWMRxpyaJ6x4gQvgWR9563OrwcUQao5dPh2gc0k2SmId8TPE1lRjdKIErsmi7uHBz52OKy4R3PIgj1pRUfb6laaEuXiUlUxHhtxICC4XojynfInYb1HSPI4EZ1vHdH14kYfalePyxYh5AuYWV1d1kC522bcLG1HxQJssg52H5VhVW6e5j",
+              "received": false
+            }
+          ],
+          "total_price": 12039,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:18:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

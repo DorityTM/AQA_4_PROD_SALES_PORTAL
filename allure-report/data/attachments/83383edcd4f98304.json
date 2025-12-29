@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:17:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4601",
+    "etag": "W/\"11f9-RPZjfFYAraf5Yx9j6nwSAGLKlS0\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527f5d1c508c5d5e46e624",
+      "status": "Received",
+      "customer": {
+        "_id": "69527f5c1c508c5d5e46e5c9",
+        "email": "Barney.Feil51@yahoo.com",
+        "name": "Cristopher Kreiger",
+        "country": "Canada",
+        "city": "Port Sonyafield",
+        "street": "Dana Village 75",
+        "house": 655,
+        "flat": 9665,
+        "phone": "+455007662703836",
+        "createdOn": "2025-12-29T13:17:16.000Z",
+        "notes": "VQg1bkLwjGZt8wrLYBiczyPBP3OBX6"
+      },
+      "products": [
+        {
+          "_id": "69527f5c1c508c5d5e46e5f9",
+          "name": "Pants57314",
+          "amount": 257,
+          "price": 32825,
+          "manufacturer": "Apple",
+          "notes": "aCUEsZlIvIGmJbAGmwmZyW7TRUdaGScmW76yypyuhpoOdBM8VUFdz0WBZn2OhH8203TL5B2Gp0zkDXVdHagkBkncT20NQ2CjFvwqyVfyYtm1BKJEbV8JKkso5Im1Yz12Bqv1WHL3wIcK5lloOQFK0mZipTuXQqaKPj5iZhvfG5x4q3NFjp3XHfhpAmyiGoRgH7zmiRuZLtPmzth3NRBbmARnoLCoiY56PrjNLnGL3sar0lrLm8Bkb0L1Ov",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Mrazburgh",
+          "street": "Twila Turnpike",
+          "house": 6,
+          "flat": 5277
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 32825,
+      "createdOn": "2025-12-29T13:17:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69527f5c1c508c5d5e46e5c9",
+          "products": [
+            {
+              "_id": "69527f5c1c508c5d5e46e5f9",
+              "name": "Pants57314",
+              "amount": 257,
+              "price": 32825,
+              "manufacturer": "Apple",
+              "notes": "aCUEsZlIvIGmJbAGmwmZyW7TRUdaGScmW76yypyuhpoOdBM8VUFdz0WBZn2OhH8203TL5B2Gp0zkDXVdHagkBkncT20NQ2CjFvwqyVfyYtm1BKJEbV8JKkso5Im1Yz12Bqv1WHL3wIcK5lloOQFK0mZipTuXQqaKPj5iZhvfG5x4q3NFjp3XHfhpAmyiGoRgH7zmiRuZLtPmzth3NRBbmARnoLCoiY56PrjNLnGL3sar0lrLm8Bkb0L1Ov",
+              "received": true
+            }
+          ],
+          "total_price": 32825,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Mrazburgh",
+              "street": "Twila Turnpike",
+              "house": 6,
+              "flat": 5277
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:17:18.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69527f5c1c508c5d5e46e5c9",
+          "products": [
+            {
+              "_id": "69527f5c1c508c5d5e46e5f9",
+              "name": "Pants57314",
+              "amount": 257,
+              "price": 32825,
+              "manufacturer": "Apple",
+              "notes": "aCUEsZlIvIGmJbAGmwmZyW7TRUdaGScmW76yypyuhpoOdBM8VUFdz0WBZn2OhH8203TL5B2Gp0zkDXVdHagkBkncT20NQ2CjFvwqyVfyYtm1BKJEbV8JKkso5Im1Yz12Bqv1WHL3wIcK5lloOQFK0mZipTuXQqaKPj5iZhvfG5x4q3NFjp3XHfhpAmyiGoRgH7zmiRuZLtPmzth3NRBbmARnoLCoiY56PrjNLnGL3sar0lrLm8Bkb0L1Ov",
+              "received": false
+            }
+          ],
+          "total_price": 32825,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Mrazburgh",
+              "street": "Twila Turnpike",
+              "house": 6,
+              "flat": 5277
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:17:18.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527f5c1c508c5d5e46e5c9",
+          "products": [
+            {
+              "_id": "69527f5c1c508c5d5e46e5f9",
+              "name": "Pants57314",
+              "amount": 257,
+              "price": 32825,
+              "manufacturer": "Apple",
+              "notes": "aCUEsZlIvIGmJbAGmwmZyW7TRUdaGScmW76yypyuhpoOdBM8VUFdz0WBZn2OhH8203TL5B2Gp0zkDXVdHagkBkncT20NQ2CjFvwqyVfyYtm1BKJEbV8JKkso5Im1Yz12Bqv1WHL3wIcK5lloOQFK0mZipTuXQqaKPj5iZhvfG5x4q3NFjp3XHfhpAmyiGoRgH7zmiRuZLtPmzth3NRBbmARnoLCoiY56PrjNLnGL3sar0lrLm8Bkb0L1Ov",
+              "received": false
+            }
+          ],
+          "total_price": 32825,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Mrazburgh",
+              "street": "Twila Turnpike",
+              "house": 6,
+              "flat": 5277
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:17:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527f5c1c508c5d5e46e5c9",
+          "products": [
+            {
+              "_id": "69527f5c1c508c5d5e46e5f9",
+              "name": "Pants57314",
+              "amount": 257,
+              "price": 32825,
+              "manufacturer": "Apple",
+              "notes": "aCUEsZlIvIGmJbAGmwmZyW7TRUdaGScmW76yypyuhpoOdBM8VUFdz0WBZn2OhH8203TL5B2Gp0zkDXVdHagkBkncT20NQ2CjFvwqyVfyYtm1BKJEbV8JKkso5Im1Yz12Bqv1WHL3wIcK5lloOQFK0mZipTuXQqaKPj5iZhvfG5x4q3NFjp3XHfhpAmyiGoRgH7zmiRuZLtPmzth3NRBbmARnoLCoiY56PrjNLnGL3sar0lrLm8Bkb0L1Ov",
+              "received": false
+            }
+          ],
+          "total_price": 32825,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:17:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

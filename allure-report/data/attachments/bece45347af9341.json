@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:22:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2721",
+    "etag": "W/\"aa1-QrioRZt9ONOr9EOcJ5HwGZvj5nI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695280961c508c5d5e476222",
+      "status": "Draft",
+      "customer": {
+        "_id": "695280951c508c5d5e4761d1",
+        "email": "Cruz3@gmail.com",
+        "name": "David Bins",
+        "country": "Canada",
+        "city": "New Clement",
+        "street": "N Main 97",
+        "house": 780,
+        "flat": 5024,
+        "phone": "+703198225972282",
+        "createdOn": "2025-12-29T13:22:29.000Z",
+        "notes": "tijOgXWsCujLjpwLDNJGMAWGL6lrI8"
+      },
+      "products": [
+        {
+          "_id": "695280951c508c5d5e47620c",
+          "name": "Hat10696",
+          "amount": 468,
+          "price": 87256,
+          "manufacturer": "Tesla",
+          "notes": "FGx9DK34PriSsxq8jjjMXkgWtThes9c9Umz9j9byB6HBSr4ZaAMh3gfCB6qduPRA3LUWBj9AJBF3RJazSyEKYY3wXOZ6c7FxG5m4u26mes2S84YByvLKwYVdWi4XroJmOoQ4oz8hWrfeFPxvIbsuZCwCjhmE32CDpszs0t0E8w6F9NzDrFgOvsCFktbty2WPC75tRz9t8a7Y0HBOMmaa0OOmaOvZR5uz97ssuTgCQng59CQa7cN5YvCJp3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Janickview",
+          "street": "Carole Point",
+          "house": 96,
+          "flat": 7519
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 87256,
+      "createdOn": "2025-12-29T13:22:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695280951c508c5d5e4761d1",
+          "products": [
+            {
+              "_id": "695280951c508c5d5e47620c",
+              "name": "Hat10696",
+              "amount": 468,
+              "price": 87256,
+              "manufacturer": "Tesla",
+              "notes": "FGx9DK34PriSsxq8jjjMXkgWtThes9c9Umz9j9byB6HBSr4ZaAMh3gfCB6qduPRA3LUWBj9AJBF3RJazSyEKYY3wXOZ6c7FxG5m4u26mes2S84YByvLKwYVdWi4XroJmOoQ4oz8hWrfeFPxvIbsuZCwCjhmE32CDpszs0t0E8w6F9NzDrFgOvsCFktbty2WPC75tRz9t8a7Y0HBOMmaa0OOmaOvZR5uz97ssuTgCQng59CQa7cN5YvCJp3",
+              "received": false
+            }
+          ],
+          "total_price": 87256,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Janickview",
+              "street": "Carole Point",
+              "house": 96,
+              "flat": 7519
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:22:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695280951c508c5d5e4761d1",
+          "products": [
+            {
+              "_id": "695280951c508c5d5e47620c",
+              "name": "Hat10696",
+              "amount": 468,
+              "price": 87256,
+              "manufacturer": "Tesla",
+              "notes": "FGx9DK34PriSsxq8jjjMXkgWtThes9c9Umz9j9byB6HBSr4ZaAMh3gfCB6qduPRA3LUWBj9AJBF3RJazSyEKYY3wXOZ6c7FxG5m4u26mes2S84YByvLKwYVdWi4XroJmOoQ4oz8hWrfeFPxvIbsuZCwCjhmE32CDpszs0t0E8w6F9NzDrFgOvsCFktbty2WPC75tRz9t8a7Y0HBOMmaa0OOmaOvZR5uz97ssuTgCQng59CQa7cN5YvCJp3",
+              "received": false
+            }
+          ],
+          "total_price": 87256,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:22:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:22:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3678",
+    "etag": "W/\"e5e-JVKEZWY66bly68SZUHzU2Vz5gvc\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952809c1c508c5d5e4765f7",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695280991c508c5d5e47641a",
+        "email": "Tracy58@hotmail.com",
+        "name": "Magdalen Stokes",
+        "country": "Canada",
+        "city": "Fort Walkerview",
+        "street": "Cronin Lodge 65",
+        "house": 930,
+        "flat": 452,
+        "phone": "+523965963903823",
+        "createdOn": "2025-12-29T13:22:33.000Z",
+        "notes": "rIEqH0nhToPf21Xg1tbR28feFRzD3m"
+      },
+      "products": [
+        {
+          "_id": "6952809c1c508c5d5e4765e2",
+          "name": "Pants87739",
+          "amount": 802,
+          "price": 92378,
+          "manufacturer": "Amazon",
+          "notes": "UXC5ZPYkbT9tTw0374ILCLcm3ta2GvEOwxNjwWz0PhIRpdceIVBYXltjScztBcgBEtwvPs8xpxi2RuoEhMYII19ePTKWna2Vkx8NO6bmt2CrCIEPSnmbiPScVZ30RTLop7UlK4Add4Hbee1kfsZSCm5pVswcoahMzHg26gMJCbosAJ8c9SVx7MakVSx1Kp7SAr534HONW6Ra7cFywqZxgqDTAAR0AMZRn39OvQO3hCXfYOlbYU5xYfF7FE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Tuscaloosa",
+          "street": "Waelchi Parkways",
+          "house": 673,
+          "flat": 7065
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92378,
+      "createdOn": "2025-12-29T13:22:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695280991c508c5d5e47641a",
+          "products": [
+            {
+              "_id": "6952809c1c508c5d5e4765e2",
+              "name": "Pants87739",
+              "amount": 802,
+              "price": 92378,
+              "manufacturer": "Amazon",
+              "notes": "UXC5ZPYkbT9tTw0374ILCLcm3ta2GvEOwxNjwWz0PhIRpdceIVBYXltjScztBcgBEtwvPs8xpxi2RuoEhMYII19ePTKWna2Vkx8NO6bmt2CrCIEPSnmbiPScVZ30RTLop7UlK4Add4Hbee1kfsZSCm5pVswcoahMzHg26gMJCbosAJ8c9SVx7MakVSx1Kp7SAr534HONW6Ra7cFywqZxgqDTAAR0AMZRn39OvQO3hCXfYOlbYU5xYfF7FE",
+              "received": false
+            }
+          ],
+          "total_price": 92378,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Tuscaloosa",
+              "street": "Waelchi Parkways",
+              "house": 673,
+              "flat": 7065
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:22:37.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695280991c508c5d5e47641a",
+          "products": [
+            {
+              "_id": "6952809c1c508c5d5e4765e2",
+              "name": "Pants87739",
+              "amount": 802,
+              "price": 92378,
+              "manufacturer": "Amazon",
+              "notes": "UXC5ZPYkbT9tTw0374ILCLcm3ta2GvEOwxNjwWz0PhIRpdceIVBYXltjScztBcgBEtwvPs8xpxi2RuoEhMYII19ePTKWna2Vkx8NO6bmt2CrCIEPSnmbiPScVZ30RTLop7UlK4Add4Hbee1kfsZSCm5pVswcoahMzHg26gMJCbosAJ8c9SVx7MakVSx1Kp7SAr534HONW6Ra7cFywqZxgqDTAAR0AMZRn39OvQO3hCXfYOlbYU5xYfF7FE",
+              "received": false
+            }
+          ],
+          "total_price": 92378,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Tuscaloosa",
+              "street": "Waelchi Parkways",
+              "house": 673,
+              "flat": 7065
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:22:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695280991c508c5d5e47641a",
+          "products": [
+            {
+              "_id": "6952809c1c508c5d5e4765e2",
+              "name": "Pants87739",
+              "amount": 802,
+              "price": 92378,
+              "manufacturer": "Amazon",
+              "notes": "UXC5ZPYkbT9tTw0374ILCLcm3ta2GvEOwxNjwWz0PhIRpdceIVBYXltjScztBcgBEtwvPs8xpxi2RuoEhMYII19ePTKWna2Vkx8NO6bmt2CrCIEPSnmbiPScVZ30RTLop7UlK4Add4Hbee1kfsZSCm5pVswcoahMzHg26gMJCbosAJ8c9SVx7MakVSx1Kp7SAr534HONW6Ra7cFywqZxgqDTAAR0AMZRn39OvQO3hCXfYOlbYU5xYfF7FE",
+              "received": false
+            }
+          ],
+          "total_price": 92378,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:22:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
