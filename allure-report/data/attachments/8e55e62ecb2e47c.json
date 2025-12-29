@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 17:11:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2761",
+    "etag": "W/\"ac9-KSHpazLc9awGEdJjPuqBVg/GJ74\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952b64d1c508c5d5e4a135d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952b64b1c508c5d5e4a131e",
+        "email": "Caitlyn.Boyer31@gmail.com",
+        "name": "Anabel Ward",
+        "country": "Great Britain",
+        "city": "Fort Oswaldcester",
+        "street": "Torp Cove 25",
+        "house": 348,
+        "flat": 353,
+        "phone": "+008007925250237",
+        "createdOn": "2025-12-29T17:11:39.000Z",
+        "notes": "Sdk1JN4lHBzQCiRlZqZcgFCKZ5kRXW"
+      },
+      "products": [
+        {
+          "_id": "6952b64c1c508c5d5e4a134f",
+          "name": "Salad99479",
+          "amount": 161,
+          "price": 42744,
+          "manufacturer": "Tesla",
+          "notes": "a4SyEoqt3Qj4tlupxzzrtfU5MMkcEAspxOWYREN31o7MQg4vzuTMjnPAptuog0catnOjv8MpRx2hUxqkM8hGXY6i5Br61J8ZMtWPgpdVHniy6XKXUtmePXfHPhxjaFpGuhescCJEprFs9j54DQFZ9AAdQ1QkhoAH6NzDVtqsi5gF6BVb8sZPI6KAGi9H7rZALC2Q5EFkckvAmpOKcGZTBsDcUf9YyliJRt2Hgx7vzxueMZMqhqVf4HIOgz",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Dublin",
+          "street": "Germaine Ramp",
+          "house": 598,
+          "flat": 5034
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42744,
+      "createdOn": "2025-12-29T17:11:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952b64b1c508c5d5e4a131e",
+          "products": [
+            {
+              "_id": "6952b64c1c508c5d5e4a134f",
+              "name": "Salad99479",
+              "amount": 161,
+              "price": 42744,
+              "manufacturer": "Tesla",
+              "notes": "a4SyEoqt3Qj4tlupxzzrtfU5MMkcEAspxOWYREN31o7MQg4vzuTMjnPAptuog0catnOjv8MpRx2hUxqkM8hGXY6i5Br61J8ZMtWPgpdVHniy6XKXUtmePXfHPhxjaFpGuhescCJEprFs9j54DQFZ9AAdQ1QkhoAH6NzDVtqsi5gF6BVb8sZPI6KAGi9H7rZALC2Q5EFkckvAmpOKcGZTBsDcUf9YyliJRt2Hgx7vzxueMZMqhqVf4HIOgz",
+              "received": false
+            }
+          ],
+          "total_price": 42744,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Dublin",
+              "street": "Germaine Ramp",
+              "house": 598,
+              "flat": 5034
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:11:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b64b1c508c5d5e4a131e",
+          "products": [
+            {
+              "_id": "6952b64c1c508c5d5e4a134f",
+              "name": "Salad99479",
+              "amount": 161,
+              "price": 42744,
+              "manufacturer": "Tesla",
+              "notes": "a4SyEoqt3Qj4tlupxzzrtfU5MMkcEAspxOWYREN31o7MQg4vzuTMjnPAptuog0catnOjv8MpRx2hUxqkM8hGXY6i5Br61J8ZMtWPgpdVHniy6XKXUtmePXfHPhxjaFpGuhescCJEprFs9j54DQFZ9AAdQ1QkhoAH6NzDVtqsi5gF6BVb8sZPI6KAGi9H7rZALC2Q5EFkckvAmpOKcGZTBsDcUf9YyliJRt2Hgx7vzxueMZMqhqVf4HIOgz",
+              "received": false
+            }
+          ],
+          "total_price": 42744,
+          "delivery": null,
+          "changedOn": "2025-12-29T17:11:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

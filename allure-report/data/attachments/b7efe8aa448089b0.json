@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 17:12:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4652",
+    "etag": "W/\"122c-7aSlQzCcYClclSmpXeVG5LJsT24\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952b6751c508c5d5e4a2a08",
+      "status": "Received",
+      "customer": {
+        "_id": "6952b6731c508c5d5e4a29bd",
+        "email": "Keira72@gmail.com",
+        "name": "Anita Schulist",
+        "country": "Germany",
+        "city": "Lake Reganshire",
+        "street": "Akeem Camp 67",
+        "house": 746,
+        "flat": 4034,
+        "phone": "+259230618741347",
+        "createdOn": "2025-12-29T17:12:19.000Z",
+        "notes": "TSspDrcPM4g1d8vI8eJiv3wvExepWE"
+      },
+      "products": [
+        {
+          "_id": "6952b6741c508c5d5e4a29f3",
+          "name": "Gloves66284",
+          "amount": 510,
+          "price": 62644,
+          "manufacturer": "Google",
+          "notes": "44McHnsk3aytefAc7QwUg5upINHbtCPmrCpMXATicxsAP0D8CJaidGEvAuVfcC8dtoeGuc3A497DohYqarRdDjHceG5E3froYgq64j3zRh7bURPBlSnz4X8wBqGZvsH2xQ2fyfKBHetfuCYXFbUXuhfq91JQZ2eJutD1zLhRQjxvgPiicdBrDZUrgLCSkltNnkFGMSj8CjH5qelRQGEMfcUnrvUkpYk7QLkc4S6HQ8dOlYOrRrEPRj8h2j",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Tessietown",
+          "street": "The Woodlands",
+          "house": 101,
+          "flat": 8173
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 62644,
+      "createdOn": "2025-12-29T17:12:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6952b6731c508c5d5e4a29bd",
+          "products": [
+            {
+              "_id": "6952b6741c508c5d5e4a29f3",
+              "name": "Gloves66284",
+              "amount": 510,
+              "price": 62644,
+              "manufacturer": "Google",
+              "notes": "44McHnsk3aytefAc7QwUg5upINHbtCPmrCpMXATicxsAP0D8CJaidGEvAuVfcC8dtoeGuc3A497DohYqarRdDjHceG5E3froYgq64j3zRh7bURPBlSnz4X8wBqGZvsH2xQ2fyfKBHetfuCYXFbUXuhfq91JQZ2eJutD1zLhRQjxvgPiicdBrDZUrgLCSkltNnkFGMSj8CjH5qelRQGEMfcUnrvUkpYk7QLkc4S6HQ8dOlYOrRrEPRj8h2j",
+              "received": true
+            }
+          ],
+          "total_price": 62644,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Tessietown",
+              "street": "The Woodlands",
+              "house": 101,
+              "flat": 8173
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:12:22.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6952b6731c508c5d5e4a29bd",
+          "products": [
+            {
+              "_id": "6952b6741c508c5d5e4a29f3",
+              "name": "Gloves66284",
+              "amount": 510,
+              "price": 62644,
+              "manufacturer": "Google",
+              "notes": "44McHnsk3aytefAc7QwUg5upINHbtCPmrCpMXATicxsAP0D8CJaidGEvAuVfcC8dtoeGuc3A497DohYqarRdDjHceG5E3froYgq64j3zRh7bURPBlSnz4X8wBqGZvsH2xQ2fyfKBHetfuCYXFbUXuhfq91JQZ2eJutD1zLhRQjxvgPiicdBrDZUrgLCSkltNnkFGMSj8CjH5qelRQGEMfcUnrvUkpYk7QLkc4S6HQ8dOlYOrRrEPRj8h2j",
+              "received": false
+            }
+          ],
+          "total_price": 62644,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Tessietown",
+              "street": "The Woodlands",
+              "house": 101,
+              "flat": 8173
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:12:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b6731c508c5d5e4a29bd",
+          "products": [
+            {
+              "_id": "6952b6741c508c5d5e4a29f3",
+              "name": "Gloves66284",
+              "amount": 510,
+              "price": 62644,
+              "manufacturer": "Google",
+              "notes": "44McHnsk3aytefAc7QwUg5upINHbtCPmrCpMXATicxsAP0D8CJaidGEvAuVfcC8dtoeGuc3A497DohYqarRdDjHceG5E3froYgq64j3zRh7bURPBlSnz4X8wBqGZvsH2xQ2fyfKBHetfuCYXFbUXuhfq91JQZ2eJutD1zLhRQjxvgPiicdBrDZUrgLCSkltNnkFGMSj8CjH5qelRQGEMfcUnrvUkpYk7QLkc4S6HQ8dOlYOrRrEPRj8h2j",
+              "received": false
+            }
+          ],
+          "total_price": 62644,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Tessietown",
+              "street": "The Woodlands",
+              "house": 101,
+              "flat": 8173
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:12:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b6731c508c5d5e4a29bd",
+          "products": [
+            {
+              "_id": "6952b6741c508c5d5e4a29f3",
+              "name": "Gloves66284",
+              "amount": 510,
+              "price": 62644,
+              "manufacturer": "Google",
+              "notes": "44McHnsk3aytefAc7QwUg5upINHbtCPmrCpMXATicxsAP0D8CJaidGEvAuVfcC8dtoeGuc3A497DohYqarRdDjHceG5E3froYgq64j3zRh7bURPBlSnz4X8wBqGZvsH2xQ2fyfKBHetfuCYXFbUXuhfq91JQZ2eJutD1zLhRQjxvgPiicdBrDZUrgLCSkltNnkFGMSj8CjH5qelRQGEMfcUnrvUkpYk7QLkc4S6HQ8dOlYOrRrEPRj8h2j",
+              "received": false
+            }
+          ],
+          "total_price": 62644,
+          "delivery": null,
+          "changedOn": "2025-12-29T17:12:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

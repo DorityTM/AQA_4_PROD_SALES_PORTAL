@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 17:12:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2762",
+    "etag": "W/\"aca-MCUgGVElxM+G2e2a+LKvno+u+6c\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952b6711c508c5d5e4a290d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952b6701c508c5d5e4a28d1",
+        "email": "Austin_Macejkovic@gmail.com",
+        "name": "Nikki Schneider",
+        "country": "France",
+        "city": "San Antonio",
+        "street": "Ursula Estate 59",
+        "house": 461,
+        "flat": 8607,
+        "phone": "+945376723427620",
+        "createdOn": "2025-12-29T17:12:16.000Z",
+        "notes": "llmEGXC5QlHABsN0lAS0cTzYBs1uuI"
+      },
+      "products": [
+        {
+          "_id": "6952b6711c508c5d5e4a28e8",
+          "name": "Ball17559",
+          "amount": 227,
+          "price": 39997,
+          "manufacturer": "Apple",
+          "notes": "3wHhDiA3MQpCbZ1uCDrCu3vDeVRtpVjJZkMGq4XJQ91kOFCJuMkf6hGeDapsoKvb3rSfjVhDiUHjEAgJWeasuAmRFfi8N4bcjnE5lTL3iMRmzcABnwaDjXpoISwAZflv8Tf9zl4OLlzDxSjQMTRF2jaQ892cT56FyvldQXrhPlnfNqKlxdlkyQzLBbJey6uo8hZlhK4QZKNd09Ch0hMtGDlR4uK1dqM06OcJ9vhsaE1OEdt5ylqb41WrTJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "South Armandoport",
+          "street": "Newton Road",
+          "house": 702,
+          "flat": 6962
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 39997,
+      "createdOn": "2025-12-29T17:12:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952b6701c508c5d5e4a28d1",
+          "products": [
+            {
+              "_id": "6952b6711c508c5d5e4a28e8",
+              "name": "Ball17559",
+              "amount": 227,
+              "price": 39997,
+              "manufacturer": "Apple",
+              "notes": "3wHhDiA3MQpCbZ1uCDrCu3vDeVRtpVjJZkMGq4XJQ91kOFCJuMkf6hGeDapsoKvb3rSfjVhDiUHjEAgJWeasuAmRFfi8N4bcjnE5lTL3iMRmzcABnwaDjXpoISwAZflv8Tf9zl4OLlzDxSjQMTRF2jaQ892cT56FyvldQXrhPlnfNqKlxdlkyQzLBbJey6uo8hZlhK4QZKNd09Ch0hMtGDlR4uK1dqM06OcJ9vhsaE1OEdt5ylqb41WrTJ",
+              "received": false
+            }
+          ],
+          "total_price": 39997,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "South Armandoport",
+              "street": "Newton Road",
+              "house": 702,
+              "flat": 6962
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:12:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b6701c508c5d5e4a28d1",
+          "products": [
+            {
+              "_id": "6952b6711c508c5d5e4a28e8",
+              "name": "Ball17559",
+              "amount": 227,
+              "price": 39997,
+              "manufacturer": "Apple",
+              "notes": "3wHhDiA3MQpCbZ1uCDrCu3vDeVRtpVjJZkMGq4XJQ91kOFCJuMkf6hGeDapsoKvb3rSfjVhDiUHjEAgJWeasuAmRFfi8N4bcjnE5lTL3iMRmzcABnwaDjXpoISwAZflv8Tf9zl4OLlzDxSjQMTRF2jaQ892cT56FyvldQXrhPlnfNqKlxdlkyQzLBbJey6uo8hZlhK4QZKNd09Ch0hMtGDlR4uK1dqM06OcJ9vhsaE1OEdt5ylqb41WrTJ",
+              "received": false
+            }
+          ],
+          "total_price": 39997,
+          "delivery": null,
+          "changedOn": "2025-12-29T17:12:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

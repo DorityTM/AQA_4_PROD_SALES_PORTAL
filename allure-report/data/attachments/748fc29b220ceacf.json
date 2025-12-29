@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 17:10:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3776",
+    "etag": "W/\"ec0-15p8WFqSGVvGuJi76TRNFBzkOTM\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952b6181c508c5d5e49f7a1",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952b6171c508c5d5e49f76b",
+        "email": "Tobin.Swift80@yahoo.com",
+        "name": "Ressie Waelchi",
+        "country": "Great Britain",
+        "city": "Jeffersonville",
+        "street": "S Maple Street 1",
+        "house": 523,
+        "flat": 7493,
+        "phone": "+823880428317398",
+        "createdOn": "2025-12-29T17:10:47.000Z",
+        "notes": "4QFCBbSpuY4SVnYA3k3m6kCFj6Gr7M"
+      },
+      "products": [
+        {
+          "_id": "6952b6181c508c5d5e49f78b",
+          "name": "Chips57951",
+          "amount": 50,
+          "price": 55474,
+          "manufacturer": "Xiaomi",
+          "notes": "ZgPtfnieT7fS7Pg6z2uhD959SoyJVjMVxuK138K09lgvIMArHETnkfN5DtMrjzH71K1flqnRVuwILFdfOcCo6eXSofoN3NP1gqma18xztVIIVUUMoklGLAJnlF9sTh1dw7uo5w4TGPsY7fLF7VH9yMJfHbbY51ERhalZWFFunvFr7mGDpY34MFasIlaRPbq0ZAiCwuDtgQ8paKjBnZJUUznGwAWdxVuen7mpYzxqgArqMPeATmojbBl08H",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Bednarfort",
+          "street": "Wayne Union",
+          "house": 402,
+          "flat": 8750
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55474,
+      "createdOn": "2025-12-29T17:10:48.000Z",
+      "comments": [
+        {
+          "text": "Comment 1",
+          "createdOn": "2025-12-29T17:10:49.000Z",
+          "_id": "6952b6191c508c5d5e49f808"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952b6171c508c5d5e49f76b",
+          "products": [
+            {
+              "_id": "6952b6181c508c5d5e49f78b",
+              "name": "Chips57951",
+              "amount": 50,
+              "price": 55474,
+              "manufacturer": "Xiaomi",
+              "notes": "ZgPtfnieT7fS7Pg6z2uhD959SoyJVjMVxuK138K09lgvIMArHETnkfN5DtMrjzH71K1flqnRVuwILFdfOcCo6eXSofoN3NP1gqma18xztVIIVUUMoklGLAJnlF9sTh1dw7uo5w4TGPsY7fLF7VH9yMJfHbbY51ERhalZWFFunvFr7mGDpY34MFasIlaRPbq0ZAiCwuDtgQ8paKjBnZJUUznGwAWdxVuen7mpYzxqgArqMPeATmojbBl08H",
+              "received": false
+            }
+          ],
+          "total_price": 55474,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Bednarfort",
+              "street": "Wayne Union",
+              "house": 402,
+              "flat": 8750
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:10:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b6171c508c5d5e49f76b",
+          "products": [
+            {
+              "_id": "6952b6181c508c5d5e49f78b",
+              "name": "Chips57951",
+              "amount": 50,
+              "price": 55474,
+              "manufacturer": "Xiaomi",
+              "notes": "ZgPtfnieT7fS7Pg6z2uhD959SoyJVjMVxuK138K09lgvIMArHETnkfN5DtMrjzH71K1flqnRVuwILFdfOcCo6eXSofoN3NP1gqma18xztVIIVUUMoklGLAJnlF9sTh1dw7uo5w4TGPsY7fLF7VH9yMJfHbbY51ERhalZWFFunvFr7mGDpY34MFasIlaRPbq0ZAiCwuDtgQ8paKjBnZJUUznGwAWdxVuen7mpYzxqgArqMPeATmojbBl08H",
+              "received": false
+            }
+          ],
+          "total_price": 55474,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Bednarfort",
+              "street": "Wayne Union",
+              "house": 402,
+              "flat": 8750
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:10:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b6171c508c5d5e49f76b",
+          "products": [
+            {
+              "_id": "6952b6181c508c5d5e49f78b",
+              "name": "Chips57951",
+              "amount": 50,
+              "price": 55474,
+              "manufacturer": "Xiaomi",
+              "notes": "ZgPtfnieT7fS7Pg6z2uhD959SoyJVjMVxuK138K09lgvIMArHETnkfN5DtMrjzH71K1flqnRVuwILFdfOcCo6eXSofoN3NP1gqma18xztVIIVUUMoklGLAJnlF9sTh1dw7uo5w4TGPsY7fLF7VH9yMJfHbbY51ERhalZWFFunvFr7mGDpY34MFasIlaRPbq0ZAiCwuDtgQ8paKjBnZJUUznGwAWdxVuen7mpYzxqgArqMPeATmojbBl08H",
+              "received": false
+            }
+          ],
+          "total_price": 55474,
+          "delivery": null,
+          "changedOn": "2025-12-29T17:10:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 17:12:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3900",
+    "etag": "W/\"f3c-lbXuU1cDo/PlyxFdhz7JPK8OKzs\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952b6711c508c5d5e4a2904",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952b66f1c508c5d5e4a28b0",
+        "email": "Alicia17@hotmail.com",
+        "name": "Janie Stroman",
+        "country": "Canada",
+        "city": "Ferminburgh",
+        "street": "Thompson Pine 98",
+        "house": 330,
+        "flat": 415,
+        "phone": "+931824696727132",
+        "createdOn": "2025-12-29T17:12:15.000Z",
+        "notes": "pGC9pT8hJKyuT2JQklj7LdQ6yjSyXJ"
+      },
+      "products": [
+        {
+          "_id": "6952b6701c508c5d5e4a28cf",
+          "name": "Gloves12761",
+          "amount": 399,
+          "price": 14115,
+          "manufacturer": "Samsung",
+          "notes": "t5Wf6xzQ0ZnP0GGlvQsMrdQ97Dl9ahm6U8RM9cjiPmcyTzUr0cRQLO1FFfk3uXJ5jtqzskkdSCUQ3hcXFQvDnC3ZluqKffaBz03wbL6cuPzBXsTJFusa1qrMRIC7zLqSk8gPTH4NxbsV8uht5qRXQZQVX3I5q1bHQghAICuD2nsfubzt3NRsHG76tMWhQtQT2wVr9VbKkqA5JO0ANinOTfRMV6x21HtNIRmz4Cj7qsw8i5KBJuN9pHskSG",
+          "received": false
+        },
+        {
+          "_id": "6952b6711c508c5d5e4a28e2",
+          "name": "Fish39216",
+          "amount": 985,
+          "price": 34771,
+          "manufacturer": "Samsung",
+          "notes": "CW4FWw5oNbn4BXBS4EsorddbB9MsUEnQNgVE7sqpElrU2xEw5fNFvmw14lxAGc7alGcVt69Xd0QEt0KjAzueNb4AE3FiOP2UINVTntpXqRiXT7xxeTYXsUcXZYetuwAy2Lsv7s6KWPltcfrEiMF6Wu8wPthlIT5iNYnKLF5GfwtT5JUyONTJHKIy8FEbD75NtN3PxxQggssu3aDrmdYjd0JW94nhZ50DhaUp5Gf5tlKE8HA1EjJou7qEBy",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Independence",
+          "street": "S 1st Street",
+          "house": 863,
+          "flat": 2963
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 48886,
+      "createdOn": "2025-12-29T17:12:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952b66f1c508c5d5e4a28b0",
+          "products": [
+            {
+              "_id": "6952b6701c508c5d5e4a28cf",
+              "name": "Gloves12761",
+              "amount": 399,
+              "price": 14115,
+              "manufacturer": "Samsung",
+              "notes": "t5Wf6xzQ0ZnP0GGlvQsMrdQ97Dl9ahm6U8RM9cjiPmcyTzUr0cRQLO1FFfk3uXJ5jtqzskkdSCUQ3hcXFQvDnC3ZluqKffaBz03wbL6cuPzBXsTJFusa1qrMRIC7zLqSk8gPTH4NxbsV8uht5qRXQZQVX3I5q1bHQghAICuD2nsfubzt3NRsHG76tMWhQtQT2wVr9VbKkqA5JO0ANinOTfRMV6x21HtNIRmz4Cj7qsw8i5KBJuN9pHskSG",
+              "received": false
+            },
+            {
+              "_id": "6952b6711c508c5d5e4a28e2",
+              "name": "Fish39216",
+              "amount": 985,
+              "price": 34771,
+              "manufacturer": "Samsung",
+              "notes": "CW4FWw5oNbn4BXBS4EsorddbB9MsUEnQNgVE7sqpElrU2xEw5fNFvmw14lxAGc7alGcVt69Xd0QEt0KjAzueNb4AE3FiOP2UINVTntpXqRiXT7xxeTYXsUcXZYetuwAy2Lsv7s6KWPltcfrEiMF6Wu8wPthlIT5iNYnKLF5GfwtT5JUyONTJHKIy8FEbD75NtN3PxxQggssu3aDrmdYjd0JW94nhZ50DhaUp5Gf5tlKE8HA1EjJou7qEBy",
+              "received": false
+            }
+          ],
+          "total_price": 48886,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Independence",
+              "street": "S 1st Street",
+              "house": 863,
+              "flat": 2963
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:12:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b66f1c508c5d5e4a28b0",
+          "products": [
+            {
+              "_id": "6952b6701c508c5d5e4a28cf",
+              "name": "Gloves12761",
+              "amount": 399,
+              "price": 14115,
+              "manufacturer": "Samsung",
+              "notes": "t5Wf6xzQ0ZnP0GGlvQsMrdQ97Dl9ahm6U8RM9cjiPmcyTzUr0cRQLO1FFfk3uXJ5jtqzskkdSCUQ3hcXFQvDnC3ZluqKffaBz03wbL6cuPzBXsTJFusa1qrMRIC7zLqSk8gPTH4NxbsV8uht5qRXQZQVX3I5q1bHQghAICuD2nsfubzt3NRsHG76tMWhQtQT2wVr9VbKkqA5JO0ANinOTfRMV6x21HtNIRmz4Cj7qsw8i5KBJuN9pHskSG",
+              "received": false
+            },
+            {
+              "_id": "6952b6711c508c5d5e4a28e2",
+              "name": "Fish39216",
+              "amount": 985,
+              "price": 34771,
+              "manufacturer": "Samsung",
+              "notes": "CW4FWw5oNbn4BXBS4EsorddbB9MsUEnQNgVE7sqpElrU2xEw5fNFvmw14lxAGc7alGcVt69Xd0QEt0KjAzueNb4AE3FiOP2UINVTntpXqRiXT7xxeTYXsUcXZYetuwAy2Lsv7s6KWPltcfrEiMF6Wu8wPthlIT5iNYnKLF5GfwtT5JUyONTJHKIy8FEbD75NtN3PxxQggssu3aDrmdYjd0JW94nhZ50DhaUp5Gf5tlKE8HA1EjJou7qEBy",
+              "received": false
+            }
+          ],
+          "total_price": 48886,
+          "delivery": null,
+          "changedOn": "2025-12-29T17:12:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

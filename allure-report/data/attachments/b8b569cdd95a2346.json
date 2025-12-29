@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 17:13:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3675",
+    "etag": "W/\"e5b-j6MpfIFLc1VUAe23Afz5AhMlQgU\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952b6a01c508c5d5e4a41ef",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952b69e1c508c5d5e4a4187",
+        "email": "Rebekah.Nienow64@gmail.com",
+        "name": "Willie Schoen",
+        "country": "Canada",
+        "city": "Orenport",
+        "street": "Maple Avenue 73",
+        "house": 553,
+        "flat": 2861,
+        "phone": "+551286074286135",
+        "createdOn": "2025-12-29T17:13:02.000Z",
+        "notes": "0EmmB74seKla1CZHxGPHhpsMmwn0SE"
+      },
+      "products": [
+        {
+          "_id": "6952b69f1c508c5d5e4a41cf",
+          "name": "Gloves29721",
+          "amount": 288,
+          "price": 5308,
+          "manufacturer": "Amazon",
+          "notes": "FnarrXgDX7WzOrBSqbsIV6UH0OYhfjTbXUCWrMykwFDgL2XFBAyUV8K7GjicQaH6gxfcNT41R0cqlwtp6t81psp5GVibKFLWHUCWBoJcAYiv5lHjQ7i0JiN0CJ6s8q9sdT7XhGIYYgTQj9096NF1jsFrQYsxJ2YUCA0RfSmcYleYYat7jcOUP3or8HlAnNifHonEz7f1WA40dKgBzQpbiL755fT4HevI0k9xHdGJaF9cOE4s8JPGkj1QlK",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lamarbury",
+          "street": "Rectory Lane",
+          "house": 361,
+          "flat": 6413
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 5308,
+      "createdOn": "2025-12-29T17:13:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952b69e1c508c5d5e4a4187",
+          "products": [
+            {
+              "_id": "6952b69f1c508c5d5e4a41cf",
+              "name": "Gloves29721",
+              "amount": 288,
+              "price": 5308,
+              "manufacturer": "Amazon",
+              "notes": "FnarrXgDX7WzOrBSqbsIV6UH0OYhfjTbXUCWrMykwFDgL2XFBAyUV8K7GjicQaH6gxfcNT41R0cqlwtp6t81psp5GVibKFLWHUCWBoJcAYiv5lHjQ7i0JiN0CJ6s8q9sdT7XhGIYYgTQj9096NF1jsFrQYsxJ2YUCA0RfSmcYleYYat7jcOUP3or8HlAnNifHonEz7f1WA40dKgBzQpbiL755fT4HevI0k9xHdGJaF9cOE4s8JPGkj1QlK",
+              "received": false
+            }
+          ],
+          "total_price": 5308,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lamarbury",
+              "street": "Rectory Lane",
+              "house": 361,
+              "flat": 6413
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:13:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b69e1c508c5d5e4a4187",
+          "products": [
+            {
+              "_id": "6952b69f1c508c5d5e4a41cf",
+              "name": "Gloves29721",
+              "amount": 288,
+              "price": 5308,
+              "manufacturer": "Amazon",
+              "notes": "FnarrXgDX7WzOrBSqbsIV6UH0OYhfjTbXUCWrMykwFDgL2XFBAyUV8K7GjicQaH6gxfcNT41R0cqlwtp6t81psp5GVibKFLWHUCWBoJcAYiv5lHjQ7i0JiN0CJ6s8q9sdT7XhGIYYgTQj9096NF1jsFrQYsxJ2YUCA0RfSmcYleYYat7jcOUP3or8HlAnNifHonEz7f1WA40dKgBzQpbiL755fT4HevI0k9xHdGJaF9cOE4s8JPGkj1QlK",
+              "received": false
+            }
+          ],
+          "total_price": 5308,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lamarbury",
+              "street": "Rectory Lane",
+              "house": 361,
+              "flat": 6413
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:13:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b69e1c508c5d5e4a4187",
+          "products": [
+            {
+              "_id": "6952b69f1c508c5d5e4a41cf",
+              "name": "Gloves29721",
+              "amount": 288,
+              "price": 5308,
+              "manufacturer": "Amazon",
+              "notes": "FnarrXgDX7WzOrBSqbsIV6UH0OYhfjTbXUCWrMykwFDgL2XFBAyUV8K7GjicQaH6gxfcNT41R0cqlwtp6t81psp5GVibKFLWHUCWBoJcAYiv5lHjQ7i0JiN0CJ6s8q9sdT7XhGIYYgTQj9096NF1jsFrQYsxJ2YUCA0RfSmcYleYYat7jcOUP3or8HlAnNifHonEz7f1WA40dKgBzQpbiL755fT4HevI0k9xHdGJaF9cOE4s8JPGkj1QlK",
+              "received": false
+            }
+          ],
+          "total_price": 5308,
+          "delivery": null,
+          "changedOn": "2025-12-29T17:13:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

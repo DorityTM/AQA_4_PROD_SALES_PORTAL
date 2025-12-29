@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 17:12:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3644",
+    "etag": "W/\"e3c-bd15AbpUUeQTbDGNGLdc+u/Bwj4\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952b6751c508c5d5e4a2a17",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952b6741c508c5d5e4a29ca",
+        "email": "Johnnie60@gmail.com",
+        "name": "Lesley Rohan",
+        "country": "Russia",
+        "city": "South Elva",
+        "street": "Cedar Grove 45",
+        "house": 703,
+        "flat": 6386,
+        "phone": "+158106271851091",
+        "createdOn": "2025-12-29T17:12:20.000Z",
+        "notes": "8dYqBX3KmpwFkreXwj5uxVUfCPrV7i"
+      },
+      "products": [
+        {
+          "_id": "6952b6751c508c5d5e4a2a02",
+          "name": "Gloves1186",
+          "amount": 544,
+          "price": 88570,
+          "manufacturer": "Tesla",
+          "notes": "uPXAjBKt7JyYJTjcsGueHW5jIpApAYlJ6kQEmY8OQiF6prCTRFbf4MSATfvJysfwar1Nn9eRh44gMqj9x6K5mRx52LEsGHyQgQdJWsJz9rc9jjlGalBgUqf2XlsJHrfbdP5BWINXJ2lthVdSiCHYeUe3r8KO0BUGQW4C9rmCl9CE3R0hw6MSZQAacwqJbB53k1gzUmqtSfP3cvlRTw27DqqSJuV86zPXt0vVnEE3x8artlFB4gTpyksh9b",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Potomac",
+          "street": "Beach Road",
+          "house": 468,
+          "flat": 9716
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88570,
+      "createdOn": "2025-12-29T17:12:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952b6741c508c5d5e4a29ca",
+          "products": [
+            {
+              "_id": "6952b6751c508c5d5e4a2a02",
+              "name": "Gloves1186",
+              "amount": 544,
+              "price": 88570,
+              "manufacturer": "Tesla",
+              "notes": "uPXAjBKt7JyYJTjcsGueHW5jIpApAYlJ6kQEmY8OQiF6prCTRFbf4MSATfvJysfwar1Nn9eRh44gMqj9x6K5mRx52LEsGHyQgQdJWsJz9rc9jjlGalBgUqf2XlsJHrfbdP5BWINXJ2lthVdSiCHYeUe3r8KO0BUGQW4C9rmCl9CE3R0hw6MSZQAacwqJbB53k1gzUmqtSfP3cvlRTw27DqqSJuV86zPXt0vVnEE3x8artlFB4gTpyksh9b",
+              "received": false
+            }
+          ],
+          "total_price": 88570,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Potomac",
+              "street": "Beach Road",
+              "house": 468,
+              "flat": 9716
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:12:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b6741c508c5d5e4a29ca",
+          "products": [
+            {
+              "_id": "6952b6751c508c5d5e4a2a02",
+              "name": "Gloves1186",
+              "amount": 544,
+              "price": 88570,
+              "manufacturer": "Tesla",
+              "notes": "uPXAjBKt7JyYJTjcsGueHW5jIpApAYlJ6kQEmY8OQiF6prCTRFbf4MSATfvJysfwar1Nn9eRh44gMqj9x6K5mRx52LEsGHyQgQdJWsJz9rc9jjlGalBgUqf2XlsJHrfbdP5BWINXJ2lthVdSiCHYeUe3r8KO0BUGQW4C9rmCl9CE3R0hw6MSZQAacwqJbB53k1gzUmqtSfP3cvlRTw27DqqSJuV86zPXt0vVnEE3x8artlFB4gTpyksh9b",
+              "received": false
+            }
+          ],
+          "total_price": 88570,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Potomac",
+              "street": "Beach Road",
+              "house": 468,
+              "flat": 9716
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:12:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b6741c508c5d5e4a29ca",
+          "products": [
+            {
+              "_id": "6952b6751c508c5d5e4a2a02",
+              "name": "Gloves1186",
+              "amount": 544,
+              "price": 88570,
+              "manufacturer": "Tesla",
+              "notes": "uPXAjBKt7JyYJTjcsGueHW5jIpApAYlJ6kQEmY8OQiF6prCTRFbf4MSATfvJysfwar1Nn9eRh44gMqj9x6K5mRx52LEsGHyQgQdJWsJz9rc9jjlGalBgUqf2XlsJHrfbdP5BWINXJ2lthVdSiCHYeUe3r8KO0BUGQW4C9rmCl9CE3R0hw6MSZQAacwqJbB53k1gzUmqtSfP3cvlRTw27DqqSJuV86zPXt0vVnEE3x8artlFB4gTpyksh9b",
+              "received": false
+            }
+          ],
+          "total_price": 88570,
+          "delivery": null,
+          "changedOn": "2025-12-29T17:12:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

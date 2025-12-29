@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 17:11:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3704",
+    "etag": "W/\"e78-ae8oe03ierq8Bk/4uAfk/mstXIo\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952b6461c508c5d5e4a10b4",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952b6441c508c5d5e4a0f58",
+        "email": "Toby.Kuhlman@hotmail.com",
+        "name": "Mertie Lockman",
+        "country": "Belarus",
+        "city": "Dickinsontown",
+        "street": "Stiedemann Throughway 62",
+        "house": 193,
+        "flat": 5569,
+        "phone": "+273261546191569",
+        "createdOn": "2025-12-29T17:11:32.000Z",
+        "notes": "bNLAOZn125gY8z3RU84nlVvBjIIoI6"
+      },
+      "products": [
+        {
+          "_id": "6952b6451c508c5d5e4a1094",
+          "name": "Keyboard25089",
+          "amount": 52,
+          "price": 26586,
+          "manufacturer": "Google",
+          "notes": "YGJBTq6ekptENP0bAYFn0yj8k8NECEnsMnPvzDcxrvWNH1OlOkp2f46iUuxvForHah72SbertJsSfPGUQr3Jw2Z7DnouclzUSp5sc7IxDaPZevtNcSgRkwiByppJJaM1RMoZr1ioTcETQwMGLmnKNRTukHwWuPQ2udu9lcHxVHF0irhPjYLQPcHm7ZFdnDScbV9pW9kKoff84jLAUs3vaMSmKxxY87JX8tt5DLiJjZp9V73z7dzcuaM1M6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Mikayla",
+          "street": "Aubrey Flats",
+          "house": 34,
+          "flat": 935
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 26586,
+      "createdOn": "2025-12-29T17:11:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952b6441c508c5d5e4a0f58",
+          "products": [
+            {
+              "_id": "6952b6451c508c5d5e4a1094",
+              "name": "Keyboard25089",
+              "amount": 52,
+              "price": 26586,
+              "manufacturer": "Google",
+              "notes": "YGJBTq6ekptENP0bAYFn0yj8k8NECEnsMnPvzDcxrvWNH1OlOkp2f46iUuxvForHah72SbertJsSfPGUQr3Jw2Z7DnouclzUSp5sc7IxDaPZevtNcSgRkwiByppJJaM1RMoZr1ioTcETQwMGLmnKNRTukHwWuPQ2udu9lcHxVHF0irhPjYLQPcHm7ZFdnDScbV9pW9kKoff84jLAUs3vaMSmKxxY87JX8tt5DLiJjZp9V73z7dzcuaM1M6",
+              "received": false
+            }
+          ],
+          "total_price": 26586,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Mikayla",
+              "street": "Aubrey Flats",
+              "house": 34,
+              "flat": 935
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:11:35.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b6441c508c5d5e4a0f58",
+          "products": [
+            {
+              "_id": "6952b6451c508c5d5e4a1094",
+              "name": "Keyboard25089",
+              "amount": 52,
+              "price": 26586,
+              "manufacturer": "Google",
+              "notes": "YGJBTq6ekptENP0bAYFn0yj8k8NECEnsMnPvzDcxrvWNH1OlOkp2f46iUuxvForHah72SbertJsSfPGUQr3Jw2Z7DnouclzUSp5sc7IxDaPZevtNcSgRkwiByppJJaM1RMoZr1ioTcETQwMGLmnKNRTukHwWuPQ2udu9lcHxVHF0irhPjYLQPcHm7ZFdnDScbV9pW9kKoff84jLAUs3vaMSmKxxY87JX8tt5DLiJjZp9V73z7dzcuaM1M6",
+              "received": false
+            }
+          ],
+          "total_price": 26586,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Mikayla",
+              "street": "Aubrey Flats",
+              "house": 34,
+              "flat": 935
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T17:11:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952b6441c508c5d5e4a0f58",
+          "products": [
+            {
+              "_id": "6952b6451c508c5d5e4a1094",
+              "name": "Keyboard25089",
+              "amount": 52,
+              "price": 26586,
+              "manufacturer": "Google",
+              "notes": "YGJBTq6ekptENP0bAYFn0yj8k8NECEnsMnPvzDcxrvWNH1OlOkp2f46iUuxvForHah72SbertJsSfPGUQr3Jw2Z7DnouclzUSp5sc7IxDaPZevtNcSgRkwiByppJJaM1RMoZr1ioTcETQwMGLmnKNRTukHwWuPQ2udu9lcHxVHF0irhPjYLQPcHm7ZFdnDScbV9pW9kKoff84jLAUs3vaMSmKxxY87JX8tt5DLiJjZp9V73z7dzcuaM1M6",
+              "received": false
+            }
+          ],
+          "total_price": 26586,
+          "delivery": null,
+          "changedOn": "2025-12-29T17:11:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
