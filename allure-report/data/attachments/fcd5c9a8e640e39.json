@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 15:48:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3681",
+    "etag": "W/\"e61-U6kphfV/xyjcaW0UjV/LCg0hhTA\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952a2af1c508c5d5e485d26",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952a2ad1c508c5d5e485c0f",
+        "email": "Rickie_Purdy38@yahoo.com",
+        "name": "Dejon Heller",
+        "country": "France",
+        "city": "West Clint",
+        "street": "Shanahan Creek 64",
+        "house": 225,
+        "flat": 4112,
+        "phone": "+292497111113560",
+        "createdOn": "2025-12-29T15:47:57.000Z",
+        "notes": "gmGXnBV9Ie4sfr5mNjFcVn00EZ1BOT"
+      },
+      "products": [
+        {
+          "_id": "6952a2ae1c508c5d5e485ca6",
+          "name": "Table16279",
+          "amount": 462,
+          "price": 86144,
+          "manufacturer": "Sony",
+          "notes": "ABkDTD3Dgu8yCom8kk6wzNSS4G4uEGOeJrAdEnwsI5d5jlOKCtDt3nAcw7vHOVdWkIwbXOoidY2yzPh4Mgxjf38bQsieM0fS8tk4F0udUAXKuUQd56z46zj1raNFgZ4T5sWvZjKLdsCypKEVU4I3PAuVMl1rw5nsE8nIv9wzueKJk9qKH0cp0t64uuVKoG44WfTAnJZcEBFit2vLfYKKE6AdOTILrKjcg6UiAYgjeheVtSpHztK8o0pVV9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lake Johnathan",
+          "street": "Park Street",
+          "house": 353,
+          "flat": 4744
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 86144,
+      "createdOn": "2025-12-29T15:47:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952a2ad1c508c5d5e485c0f",
+          "products": [
+            {
+              "_id": "6952a2ae1c508c5d5e485ca6",
+              "name": "Table16279",
+              "amount": 462,
+              "price": 86144,
+              "manufacturer": "Sony",
+              "notes": "ABkDTD3Dgu8yCom8kk6wzNSS4G4uEGOeJrAdEnwsI5d5jlOKCtDt3nAcw7vHOVdWkIwbXOoidY2yzPh4Mgxjf38bQsieM0fS8tk4F0udUAXKuUQd56z46zj1raNFgZ4T5sWvZjKLdsCypKEVU4I3PAuVMl1rw5nsE8nIv9wzueKJk9qKH0cp0t64uuVKoG44WfTAnJZcEBFit2vLfYKKE6AdOTILrKjcg6UiAYgjeheVtSpHztK8o0pVV9",
+              "received": false
+            }
+          ],
+          "total_price": 86144,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lake Johnathan",
+              "street": "Park Street",
+              "house": 353,
+              "flat": 4744
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:48:00.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a2ad1c508c5d5e485c0f",
+          "products": [
+            {
+              "_id": "6952a2ae1c508c5d5e485ca6",
+              "name": "Table16279",
+              "amount": 462,
+              "price": 86144,
+              "manufacturer": "Sony",
+              "notes": "ABkDTD3Dgu8yCom8kk6wzNSS4G4uEGOeJrAdEnwsI5d5jlOKCtDt3nAcw7vHOVdWkIwbXOoidY2yzPh4Mgxjf38bQsieM0fS8tk4F0udUAXKuUQd56z46zj1raNFgZ4T5sWvZjKLdsCypKEVU4I3PAuVMl1rw5nsE8nIv9wzueKJk9qKH0cp0t64uuVKoG44WfTAnJZcEBFit2vLfYKKE6AdOTILrKjcg6UiAYgjeheVtSpHztK8o0pVV9",
+              "received": false
+            }
+          ],
+          "total_price": 86144,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lake Johnathan",
+              "street": "Park Street",
+              "house": 353,
+              "flat": 4744
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:47:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a2ad1c508c5d5e485c0f",
+          "products": [
+            {
+              "_id": "6952a2ae1c508c5d5e485ca6",
+              "name": "Table16279",
+              "amount": 462,
+              "price": 86144,
+              "manufacturer": "Sony",
+              "notes": "ABkDTD3Dgu8yCom8kk6wzNSS4G4uEGOeJrAdEnwsI5d5jlOKCtDt3nAcw7vHOVdWkIwbXOoidY2yzPh4Mgxjf38bQsieM0fS8tk4F0udUAXKuUQd56z46zj1raNFgZ4T5sWvZjKLdsCypKEVU4I3PAuVMl1rw5nsE8nIv9wzueKJk9qKH0cp0t64uuVKoG44WfTAnJZcEBFit2vLfYKKE6AdOTILrKjcg6UiAYgjeheVtSpHztK8o0pVV9",
+              "received": false
+            }
+          ],
+          "total_price": 86144,
+          "delivery": null,
+          "changedOn": "2025-12-29T15:47:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

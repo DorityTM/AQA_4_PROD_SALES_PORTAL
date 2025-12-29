@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 15:50:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3699",
+    "etag": "W/\"e73-8fRoEgNirs9aAEp7SKCvTQiRHYc\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952a3271c508c5d5e489521",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952a3261c508c5d5e4894d2",
+        "email": "Mable_Schiller55@yahoo.com",
+        "name": "Elijah Konopelski",
+        "country": "USA",
+        "city": "Baileybury",
+        "street": "Marlborough Road 56",
+        "house": 397,
+        "flat": 4628,
+        "phone": "+115608486692587",
+        "createdOn": "2025-12-29T15:49:58.000Z",
+        "notes": "LnJxeBQ36GpViBSyVoxO63NkizdRAm"
+      },
+      "products": [
+        {
+          "_id": "6952a3271c508c5d5e489504",
+          "name": "Pizza3853",
+          "amount": 332,
+          "price": 69720,
+          "manufacturer": "Apple",
+          "notes": "8IrPhkn3LuiO2Ig6t606hwohqa3PukNSBX8J4G0pG4MIDQFESJZDWvaYxQw8ohAJ1BT3WhSObs3Y5SAl5YWvzdpk8KqM1gwtw2WBJ2DzT1KDqS2HStP0727FmhzuHUo6TZq1o53feEzYyZOuaEnkqG15tNy1rh3Zf7bIBc0TTC4lMQLuBCy70lZCjCPMdjAk0kjrVIPMxTrIIoKAEzhRfAuKa6stxcZOPIuLZo33MSkGKVvKnB03cd2f89",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Moriahton",
+          "street": "St Georges Road",
+          "house": 537,
+          "flat": 724
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 69720,
+      "createdOn": "2025-12-29T15:49:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952a3261c508c5d5e4894d2",
+          "products": [
+            {
+              "_id": "6952a3271c508c5d5e489504",
+              "name": "Pizza3853",
+              "amount": 332,
+              "price": 69720,
+              "manufacturer": "Apple",
+              "notes": "8IrPhkn3LuiO2Ig6t606hwohqa3PukNSBX8J4G0pG4MIDQFESJZDWvaYxQw8ohAJ1BT3WhSObs3Y5SAl5YWvzdpk8KqM1gwtw2WBJ2DzT1KDqS2HStP0727FmhzuHUo6TZq1o53feEzYyZOuaEnkqG15tNy1rh3Zf7bIBc0TTC4lMQLuBCy70lZCjCPMdjAk0kjrVIPMxTrIIoKAEzhRfAuKa6stxcZOPIuLZo33MSkGKVvKnB03cd2f89",
+              "received": false
+            }
+          ],
+          "total_price": 69720,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Moriahton",
+              "street": "St Georges Road",
+              "house": 537,
+              "flat": 724
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:50:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a3261c508c5d5e4894d2",
+          "products": [
+            {
+              "_id": "6952a3271c508c5d5e489504",
+              "name": "Pizza3853",
+              "amount": 332,
+              "price": 69720,
+              "manufacturer": "Apple",
+              "notes": "8IrPhkn3LuiO2Ig6t606hwohqa3PukNSBX8J4G0pG4MIDQFESJZDWvaYxQw8ohAJ1BT3WhSObs3Y5SAl5YWvzdpk8KqM1gwtw2WBJ2DzT1KDqS2HStP0727FmhzuHUo6TZq1o53feEzYyZOuaEnkqG15tNy1rh3Zf7bIBc0TTC4lMQLuBCy70lZCjCPMdjAk0kjrVIPMxTrIIoKAEzhRfAuKa6stxcZOPIuLZo33MSkGKVvKnB03cd2f89",
+              "received": false
+            }
+          ],
+          "total_price": 69720,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Moriahton",
+              "street": "St Georges Road",
+              "house": 537,
+              "flat": 724
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:50:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a3261c508c5d5e4894d2",
+          "products": [
+            {
+              "_id": "6952a3271c508c5d5e489504",
+              "name": "Pizza3853",
+              "amount": 332,
+              "price": 69720,
+              "manufacturer": "Apple",
+              "notes": "8IrPhkn3LuiO2Ig6t606hwohqa3PukNSBX8J4G0pG4MIDQFESJZDWvaYxQw8ohAJ1BT3WhSObs3Y5SAl5YWvzdpk8KqM1gwtw2WBJ2DzT1KDqS2HStP0727FmhzuHUo6TZq1o53feEzYyZOuaEnkqG15tNy1rh3Zf7bIBc0TTC4lMQLuBCy70lZCjCPMdjAk0kjrVIPMxTrIIoKAEzhRfAuKa6stxcZOPIuLZo33MSkGKVvKnB03cd2f89",
+              "received": false
+            }
+          ],
+          "total_price": 69720,
+          "delivery": null,
+          "changedOn": "2025-12-29T15:49:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

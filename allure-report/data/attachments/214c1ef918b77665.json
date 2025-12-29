@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 15:54:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2755",
+    "etag": "W/\"ac3-j15HKVzDUedoAKpQbD8zydmommU\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952a43a1c508c5d5e49157a",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952a4321c508c5d5e491263",
+        "email": "Heidi.Lindgren@hotmail.com",
+        "name": "Brando Schiller",
+        "country": "France",
+        "city": "Haagberg",
+        "street": "N Park Street 57",
+        "house": 798,
+        "flat": 877,
+        "phone": "+179908246317689",
+        "createdOn": "2025-12-29T15:54:26.000Z",
+        "notes": "qRREelcyPDlGLM0f6ibQcrjgAZaLpM"
+      },
+      "products": [
+        {
+          "_id": "6952a43a1c508c5d5e491563",
+          "name": "Tuna28861",
+          "amount": 921,
+          "price": 28426,
+          "manufacturer": "Apple",
+          "notes": "9ScGA3oZv7Q4ZpE2GIgUmP8zOuzlSG1vnwkjGGclKf9eAfNYFUi5HXZdeFpQNRFUA33lyRQzHvlqmrVL0hiXM2VEJxhv63BMd3MekgV3V4QoEWrFNF8y2TOVkFlskk9wwoC7hYeKc9ga9aFS8q0b3RQLqcNhYJ7VtwULh4hS3tuhVjGlZglANWkrKYCdqYGOakScLrxUAOKV8nsGD3D3hXtBDOTyKtgncH5oLTfidZX0ymERXdRFdVIKIi",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Yvettefield",
+          "street": "Rowan Close",
+          "house": 163,
+          "flat": 5358
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 28426,
+      "createdOn": "2025-12-29T15:54:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952a4321c508c5d5e491263",
+          "products": [
+            {
+              "_id": "6952a43a1c508c5d5e491563",
+              "name": "Tuna28861",
+              "amount": 921,
+              "price": 28426,
+              "manufacturer": "Apple",
+              "notes": "9ScGA3oZv7Q4ZpE2GIgUmP8zOuzlSG1vnwkjGGclKf9eAfNYFUi5HXZdeFpQNRFUA33lyRQzHvlqmrVL0hiXM2VEJxhv63BMd3MekgV3V4QoEWrFNF8y2TOVkFlskk9wwoC7hYeKc9ga9aFS8q0b3RQLqcNhYJ7VtwULh4hS3tuhVjGlZglANWkrKYCdqYGOakScLrxUAOKV8nsGD3D3hXtBDOTyKtgncH5oLTfidZX0ymERXdRFdVIKIi",
+              "received": false
+            }
+          ],
+          "total_price": 28426,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Yvettefield",
+              "street": "Rowan Close",
+              "house": 163,
+              "flat": 5358
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:54:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a4321c508c5d5e491263",
+          "products": [
+            {
+              "_id": "6952a43a1c508c5d5e491563",
+              "name": "Tuna28861",
+              "amount": 921,
+              "price": 28426,
+              "manufacturer": "Apple",
+              "notes": "9ScGA3oZv7Q4ZpE2GIgUmP8zOuzlSG1vnwkjGGclKf9eAfNYFUi5HXZdeFpQNRFUA33lyRQzHvlqmrVL0hiXM2VEJxhv63BMd3MekgV3V4QoEWrFNF8y2TOVkFlskk9wwoC7hYeKc9ga9aFS8q0b3RQLqcNhYJ7VtwULh4hS3tuhVjGlZglANWkrKYCdqYGOakScLrxUAOKV8nsGD3D3hXtBDOTyKtgncH5oLTfidZX0ymERXdRFdVIKIi",
+              "received": false
+            }
+          ],
+          "total_price": 28426,
+          "delivery": null,
+          "changedOn": "2025-12-29T15:54:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

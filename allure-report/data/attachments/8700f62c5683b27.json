@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 15:48:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2751",
+    "etag": "W/\"abf-ajparQg7zz/h1tIpOZ2smuKPMIE\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952a2b81c508c5d5e48613c",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952a2b71c508c5d5e4860d6",
+        "email": "Lane_Keeling39@hotmail.com",
+        "name": "Amely Wolf",
+        "country": "Germany",
+        "city": "West Karinabury",
+        "street": "16th Street 85",
+        "house": 540,
+        "flat": 1517,
+        "phone": "+690578922170643",
+        "createdOn": "2025-12-29T15:48:07.000Z",
+        "notes": "d6u8pGC8aAIsSVd45xTkEONPX9yOrz"
+      },
+      "products": [
+        {
+          "_id": "6952a2b81c508c5d5e486127",
+          "name": "Table30940",
+          "amount": 449,
+          "price": 41830,
+          "manufacturer": "Amazon",
+          "notes": "PfGhhmEyLV9vg4hLGyxAcLlQTol9cfUA2lwkxsqEtacSxvyw2T78vP977CJ2ewqQrwnqjiJjDLvp8wyXr5xen5Nbr8VGB1KPI718v4PnCgFFP6ot6galgMDMslV6brb4wad4ZGN6yYc0F0okeagNnKwsTxx1650a1OxdReBClQgnQ9f5of1nDhYTJKzFYqjkIk1OnxjeIQAYqtHgjWTusHhusG0RQ0pz3Cit1YJhUEbmDJsTqhPUPLhwlg",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Jamalshire",
+          "street": "Eliane Field",
+          "house": 20,
+          "flat": 3610
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 41830,
+      "createdOn": "2025-12-29T15:48:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952a2b71c508c5d5e4860d6",
+          "products": [
+            {
+              "_id": "6952a2b81c508c5d5e486127",
+              "name": "Table30940",
+              "amount": 449,
+              "price": 41830,
+              "manufacturer": "Amazon",
+              "notes": "PfGhhmEyLV9vg4hLGyxAcLlQTol9cfUA2lwkxsqEtacSxvyw2T78vP977CJ2ewqQrwnqjiJjDLvp8wyXr5xen5Nbr8VGB1KPI718v4PnCgFFP6ot6galgMDMslV6brb4wad4ZGN6yYc0F0okeagNnKwsTxx1650a1OxdReBClQgnQ9f5of1nDhYTJKzFYqjkIk1OnxjeIQAYqtHgjWTusHhusG0RQ0pz3Cit1YJhUEbmDJsTqhPUPLhwlg",
+              "received": false
+            }
+          ],
+          "total_price": 41830,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Jamalshire",
+              "street": "Eliane Field",
+              "house": 20,
+              "flat": 3610
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:48:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a2b71c508c5d5e4860d6",
+          "products": [
+            {
+              "_id": "6952a2b81c508c5d5e486127",
+              "name": "Table30940",
+              "amount": 449,
+              "price": 41830,
+              "manufacturer": "Amazon",
+              "notes": "PfGhhmEyLV9vg4hLGyxAcLlQTol9cfUA2lwkxsqEtacSxvyw2T78vP977CJ2ewqQrwnqjiJjDLvp8wyXr5xen5Nbr8VGB1KPI718v4PnCgFFP6ot6galgMDMslV6brb4wad4ZGN6yYc0F0okeagNnKwsTxx1650a1OxdReBClQgnQ9f5of1nDhYTJKzFYqjkIk1OnxjeIQAYqtHgjWTusHhusG0RQ0pz3Cit1YJhUEbmDJsTqhPUPLhwlg",
+              "received": false
+            }
+          ],
+          "total_price": 41830,
+          "delivery": null,
+          "changedOn": "2025-12-29T15:48:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

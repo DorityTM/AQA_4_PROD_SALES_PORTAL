@@ -1,0 +1,227 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 15:49:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5518",
+    "etag": "W/\"158e-veiFD+4kFTwrmD9GjKmSCrLXD8M\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952a3041c508c5d5e488477",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952a3021c508c5d5e48842b",
+        "email": "Jaron_Mertz@hotmail.com",
+        "name": "Mariana Kirlin",
+        "country": "France",
+        "city": "Jamesonworth",
+        "street": "E 1st Street 74",
+        "house": 402,
+        "flat": 8941,
+        "phone": "+902877733545084",
+        "createdOn": "2025-12-29T15:49:22.000Z",
+        "notes": "1nOH3RM0DGsJdSffZ46S6KJjH8cra8"
+      },
+      "products": [
+        {
+          "_id": "6952a3031c508c5d5e48844d",
+          "name": "Fish51371",
+          "amount": 193,
+          "price": 62119,
+          "manufacturer": "Xiaomi",
+          "notes": "1wOPoheChJrv55fJerL6AxZa5ruEduy6hBGLBPScqaH23fEgGdD7RsyAAxdeEKsZ3K9ZQV4mn6AX5yKNUV7dtQGu3xfBUavgThxGEZP71OH1OGmsCCSbwqXFRK6h7GTqPIT1P16Vc0U9zGKErkk02mUAloDlamzl9oGGmZLDiEHoNMcDY1HcJb64LNp4ierA5MEYuKpBzeWoDyRhVOPbsGjK1qRFHOw2FfqGjz2SvxYkNMOD1dXwvutMBF",
+          "received": false
+        },
+        {
+          "_id": "6952a3041c508c5d5e48846b",
+          "name": "Cheese10924",
+          "amount": 723,
+          "price": 10732,
+          "manufacturer": "Sony",
+          "notes": "Pk3horH2O9VWdsUXezbpkiPmQZ1QjtNxmYvrD79DjlCX6oye1zHcisexnff3KEsOVHIeLjLTuc9FDQEp72uZtVlN1H5gz0bR969ULEtq99JG3LxIJXqcLRpuXPT58pMzmIdShQeZVVkx36YjL1hOHdP7UZfeRNyyYKCaxFpp3YADu4W5V2byUKyRebdPdF9gWlZMnjKL6XzlraxEmmCYFH5ELaSrSA0VMPCErGNei7bsgQtvKB0jnYrvLB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Michelstad",
+          "street": "Ziemann Divide",
+          "house": 822,
+          "flat": 2306
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72851,
+      "createdOn": "2025-12-29T15:49:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952a3021c508c5d5e48842b",
+          "products": [
+            {
+              "_id": "6952a3031c508c5d5e48844d",
+              "name": "Fish51371",
+              "amount": 193,
+              "price": 62119,
+              "manufacturer": "Xiaomi",
+              "notes": "1wOPoheChJrv55fJerL6AxZa5ruEduy6hBGLBPScqaH23fEgGdD7RsyAAxdeEKsZ3K9ZQV4mn6AX5yKNUV7dtQGu3xfBUavgThxGEZP71OH1OGmsCCSbwqXFRK6h7GTqPIT1P16Vc0U9zGKErkk02mUAloDlamzl9oGGmZLDiEHoNMcDY1HcJb64LNp4ierA5MEYuKpBzeWoDyRhVOPbsGjK1qRFHOw2FfqGjz2SvxYkNMOD1dXwvutMBF",
+              "received": false
+            },
+            {
+              "_id": "6952a3041c508c5d5e48846b",
+              "name": "Cheese10924",
+              "amount": 723,
+              "price": 10732,
+              "manufacturer": "Sony",
+              "notes": "Pk3horH2O9VWdsUXezbpkiPmQZ1QjtNxmYvrD79DjlCX6oye1zHcisexnff3KEsOVHIeLjLTuc9FDQEp72uZtVlN1H5gz0bR969ULEtq99JG3LxIJXqcLRpuXPT58pMzmIdShQeZVVkx36YjL1hOHdP7UZfeRNyyYKCaxFpp3YADu4W5V2byUKyRebdPdF9gWlZMnjKL6XzlraxEmmCYFH5ELaSrSA0VMPCErGNei7bsgQtvKB0jnYrvLB",
+              "received": false
+            }
+          ],
+          "total_price": 72851,
+          "delivery": {
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery",
+            "address": {
+              "country": "Belarus",
+              "city": "Michelstad",
+              "street": "Ziemann Divide",
+              "house": 822,
+              "flat": 2306
+            }
+          },
+          "changedOn": "2025-12-29T15:49:25.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a3021c508c5d5e48842b",
+          "products": [
+            {
+              "_id": "6952a3031c508c5d5e48844d",
+              "name": "Fish51371",
+              "amount": 193,
+              "price": 62119,
+              "manufacturer": "Xiaomi",
+              "notes": "1wOPoheChJrv55fJerL6AxZa5ruEduy6hBGLBPScqaH23fEgGdD7RsyAAxdeEKsZ3K9ZQV4mn6AX5yKNUV7dtQGu3xfBUavgThxGEZP71OH1OGmsCCSbwqXFRK6h7GTqPIT1P16Vc0U9zGKErkk02mUAloDlamzl9oGGmZLDiEHoNMcDY1HcJb64LNp4ierA5MEYuKpBzeWoDyRhVOPbsGjK1qRFHOw2FfqGjz2SvxYkNMOD1dXwvutMBF",
+              "received": false
+            },
+            {
+              "_id": "6952a3041c508c5d5e48846b",
+              "name": "Cheese10924",
+              "amount": 723,
+              "price": 10732,
+              "manufacturer": "Sony",
+              "notes": "Pk3horH2O9VWdsUXezbpkiPmQZ1QjtNxmYvrD79DjlCX6oye1zHcisexnff3KEsOVHIeLjLTuc9FDQEp72uZtVlN1H5gz0bR969ULEtq99JG3LxIJXqcLRpuXPT58pMzmIdShQeZVVkx36YjL1hOHdP7UZfeRNyyYKCaxFpp3YADu4W5V2byUKyRebdPdF9gWlZMnjKL6XzlraxEmmCYFH5ELaSrSA0VMPCErGNei7bsgQtvKB0jnYrvLB",
+              "received": false
+            }
+          ],
+          "total_price": 72851,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Michelstad",
+              "street": "Ziemann Divide",
+              "house": 822,
+              "flat": 2306
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:49:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a3021c508c5d5e48842b",
+          "products": [
+            {
+              "_id": "6952a3031c508c5d5e48844d",
+              "name": "Fish51371",
+              "amount": 193,
+              "price": 62119,
+              "manufacturer": "Xiaomi",
+              "notes": "1wOPoheChJrv55fJerL6AxZa5ruEduy6hBGLBPScqaH23fEgGdD7RsyAAxdeEKsZ3K9ZQV4mn6AX5yKNUV7dtQGu3xfBUavgThxGEZP71OH1OGmsCCSbwqXFRK6h7GTqPIT1P16Vc0U9zGKErkk02mUAloDlamzl9oGGmZLDiEHoNMcDY1HcJb64LNp4ierA5MEYuKpBzeWoDyRhVOPbsGjK1qRFHOw2FfqGjz2SvxYkNMOD1dXwvutMBF",
+              "received": false
+            },
+            {
+              "_id": "6952a3041c508c5d5e48846b",
+              "name": "Cheese10924",
+              "amount": 723,
+              "price": 10732,
+              "manufacturer": "Sony",
+              "notes": "Pk3horH2O9VWdsUXezbpkiPmQZ1QjtNxmYvrD79DjlCX6oye1zHcisexnff3KEsOVHIeLjLTuc9FDQEp72uZtVlN1H5gz0bR969ULEtq99JG3LxIJXqcLRpuXPT58pMzmIdShQeZVVkx36YjL1hOHdP7UZfeRNyyYKCaxFpp3YADu4W5V2byUKyRebdPdF9gWlZMnjKL6XzlraxEmmCYFH5ELaSrSA0VMPCErGNei7bsgQtvKB0jnYrvLB",
+              "received": false
+            }
+          ],
+          "total_price": 72851,
+          "delivery": null,
+          "changedOn": "2025-12-29T15:49:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 15:54:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3707",
+    "etag": "W/\"e7b-GZHjx1t57AC02/desMAiAOef2Ug\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952a4221c508c5d5e490791",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952a4201c508c5d5e49073d",
+        "email": "Dallin_Little@gmail.com",
+        "name": "Mohammad Shanahan",
+        "country": "Great Britain",
+        "city": "Fort Sandraport",
+        "street": "Millie Forest 67",
+        "house": 111,
+        "flat": 5775,
+        "phone": "+846582138288771",
+        "createdOn": "2025-12-29T15:54:08.000Z",
+        "notes": "X57qLrGohPVS3QWPuCp8HFS7Q0W1Md"
+      },
+      "products": [
+        {
+          "_id": "6952a4211c508c5d5e49077b",
+          "name": "Chair13970",
+          "amount": 459,
+          "price": 18804,
+          "manufacturer": "Amazon",
+          "notes": "5ZMqQx8r4X5lmOxEKHqKZNv9RkQ27hvn28TPzoOf8ZE07GevjyQJs9wEghblHOD5QS9gUn3C22CfbjveoAMCaXobiSGXozJOXgoreOndJHeT8N8r8cYIzenMj4MwlqLY0tiE6CPOJRxLVbDV4OTfvGyN22MyICTXf572JleqWrAIWNDPmo26Jadslv75RkeQ3zYmALwXOFad1uyJvaWa0pUgoPd8rgDDEJL3mSYAchwGTnPIYDTL2kB90E",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "West Colleenview",
+          "street": "South View",
+          "house": 569,
+          "flat": 2263
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 18804,
+      "createdOn": "2025-12-29T15:54:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952a4201c508c5d5e49073d",
+          "products": [
+            {
+              "_id": "6952a4211c508c5d5e49077b",
+              "name": "Chair13970",
+              "amount": 459,
+              "price": 18804,
+              "manufacturer": "Amazon",
+              "notes": "5ZMqQx8r4X5lmOxEKHqKZNv9RkQ27hvn28TPzoOf8ZE07GevjyQJs9wEghblHOD5QS9gUn3C22CfbjveoAMCaXobiSGXozJOXgoreOndJHeT8N8r8cYIzenMj4MwlqLY0tiE6CPOJRxLVbDV4OTfvGyN22MyICTXf572JleqWrAIWNDPmo26Jadslv75RkeQ3zYmALwXOFad1uyJvaWa0pUgoPd8rgDDEJL3mSYAchwGTnPIYDTL2kB90E",
+              "received": false
+            }
+          ],
+          "total_price": 18804,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Colleenview",
+              "street": "South View",
+              "house": 569,
+              "flat": 2263
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:54:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a4201c508c5d5e49073d",
+          "products": [
+            {
+              "_id": "6952a4211c508c5d5e49077b",
+              "name": "Chair13970",
+              "amount": 459,
+              "price": 18804,
+              "manufacturer": "Amazon",
+              "notes": "5ZMqQx8r4X5lmOxEKHqKZNv9RkQ27hvn28TPzoOf8ZE07GevjyQJs9wEghblHOD5QS9gUn3C22CfbjveoAMCaXobiSGXozJOXgoreOndJHeT8N8r8cYIzenMj4MwlqLY0tiE6CPOJRxLVbDV4OTfvGyN22MyICTXf572JleqWrAIWNDPmo26Jadslv75RkeQ3zYmALwXOFad1uyJvaWa0pUgoPd8rgDDEJL3mSYAchwGTnPIYDTL2kB90E",
+              "received": false
+            }
+          ],
+          "total_price": 18804,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Colleenview",
+              "street": "South View",
+              "house": 569,
+              "flat": 2263
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:54:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a4201c508c5d5e49073d",
+          "products": [
+            {
+              "_id": "6952a4211c508c5d5e49077b",
+              "name": "Chair13970",
+              "amount": 459,
+              "price": 18804,
+              "manufacturer": "Amazon",
+              "notes": "5ZMqQx8r4X5lmOxEKHqKZNv9RkQ27hvn28TPzoOf8ZE07GevjyQJs9wEghblHOD5QS9gUn3C22CfbjveoAMCaXobiSGXozJOXgoreOndJHeT8N8r8cYIzenMj4MwlqLY0tiE6CPOJRxLVbDV4OTfvGyN22MyICTXf572JleqWrAIWNDPmo26Jadslv75RkeQ3zYmALwXOFad1uyJvaWa0pUgoPd8rgDDEJL3mSYAchwGTnPIYDTL2kB90E",
+              "received": false
+            }
+          ],
+          "total_price": 18804,
+          "delivery": null,
+          "changedOn": "2025-12-29T15:54:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

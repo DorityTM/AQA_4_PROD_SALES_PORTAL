@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 15:53:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3658",
+    "etag": "W/\"e4a-QWXgtB1k57zkpN4od+33jf5xLG4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952a3e31c508c5d5e48ea2f",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952a3e21c508c5d5e48e9db",
+        "email": "Amina51@gmail.com",
+        "name": "Amari Wolf",
+        "country": "Germany",
+        "city": "Feestbury",
+        "street": "Kestrel Close 56",
+        "house": 718,
+        "flat": 2787,
+        "phone": "+321925630827795",
+        "createdOn": "2025-12-29T15:53:06.000Z",
+        "notes": "EMO5S03uEMfftCljGMpofCPv4YBBIJ"
+      },
+      "products": [
+        {
+          "_id": "6952a3e31c508c5d5e48e9fe",
+          "name": "Fish99446",
+          "amount": 689,
+          "price": 55301,
+          "manufacturer": "Samsung",
+          "notes": "skejB8RDjAiZhPVE4m4mD7jJRh3GBjRH6thjkkuREWZ1JBgj0KQ5BKScNKCTs5aL9SaeBhXjqGLCh3noL8Ae3UreKmSKgIiTsuBFqS9Kxcpsdl3XZYqHy6kMmJUX5c6m7Nl1qv2mAN7tl71IxjktNUv8x4H4L3XqIeeUi5DY0e1ocD44u25nPXZz1DT7hFU2DEfYGrVo3e0AG25O4OTy5GRZoyaNkFM0aeWaQ2fo6m2KSj6GABbmcOTMjd",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Canton",
+          "street": "Angelina Bridge",
+          "house": 902,
+          "flat": 1647
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55301,
+      "createdOn": "2025-12-29T15:53:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952a3e21c508c5d5e48e9db",
+          "products": [
+            {
+              "_id": "6952a3e31c508c5d5e48e9fe",
+              "name": "Fish99446",
+              "amount": 689,
+              "price": 55301,
+              "manufacturer": "Samsung",
+              "notes": "skejB8RDjAiZhPVE4m4mD7jJRh3GBjRH6thjkkuREWZ1JBgj0KQ5BKScNKCTs5aL9SaeBhXjqGLCh3noL8Ae3UreKmSKgIiTsuBFqS9Kxcpsdl3XZYqHy6kMmJUX5c6m7Nl1qv2mAN7tl71IxjktNUv8x4H4L3XqIeeUi5DY0e1ocD44u25nPXZz1DT7hFU2DEfYGrVo3e0AG25O4OTy5GRZoyaNkFM0aeWaQ2fo6m2KSj6GABbmcOTMjd",
+              "received": false
+            }
+          ],
+          "total_price": 55301,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Canton",
+              "street": "Angelina Bridge",
+              "house": 902,
+              "flat": 1647
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:53:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a3e21c508c5d5e48e9db",
+          "products": [
+            {
+              "_id": "6952a3e31c508c5d5e48e9fe",
+              "name": "Fish99446",
+              "amount": 689,
+              "price": 55301,
+              "manufacturer": "Samsung",
+              "notes": "skejB8RDjAiZhPVE4m4mD7jJRh3GBjRH6thjkkuREWZ1JBgj0KQ5BKScNKCTs5aL9SaeBhXjqGLCh3noL8Ae3UreKmSKgIiTsuBFqS9Kxcpsdl3XZYqHy6kMmJUX5c6m7Nl1qv2mAN7tl71IxjktNUv8x4H4L3XqIeeUi5DY0e1ocD44u25nPXZz1DT7hFU2DEfYGrVo3e0AG25O4OTy5GRZoyaNkFM0aeWaQ2fo6m2KSj6GABbmcOTMjd",
+              "received": false
+            }
+          ],
+          "total_price": 55301,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Canton",
+              "street": "Angelina Bridge",
+              "house": 902,
+              "flat": 1647
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:53:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a3e21c508c5d5e48e9db",
+          "products": [
+            {
+              "_id": "6952a3e31c508c5d5e48e9fe",
+              "name": "Fish99446",
+              "amount": 689,
+              "price": 55301,
+              "manufacturer": "Samsung",
+              "notes": "skejB8RDjAiZhPVE4m4mD7jJRh3GBjRH6thjkkuREWZ1JBgj0KQ5BKScNKCTs5aL9SaeBhXjqGLCh3noL8Ae3UreKmSKgIiTsuBFqS9Kxcpsdl3XZYqHy6kMmJUX5c6m7Nl1qv2mAN7tl71IxjktNUv8x4H4L3XqIeeUi5DY0e1ocD44u25nPXZz1DT7hFU2DEfYGrVo3e0AG25O4OTy5GRZoyaNkFM0aeWaQ2fo6m2KSj6GABbmcOTMjd",
+              "received": false
+            }
+          ],
+          "total_price": 55301,
+          "delivery": null,
+          "changedOn": "2025-12-29T15:53:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

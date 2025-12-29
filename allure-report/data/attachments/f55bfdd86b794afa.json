@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 15:50:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2758",
+    "etag": "W/\"ac6-iCSt5nysFns/IkeLHR4W1lf15Hc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952a3271c508c5d5e48950c",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952a3261c508c5d5e4894c7",
+        "email": "Nyah.West5@yahoo.com",
+        "name": "Grace Hintz",
+        "country": "Belarus",
+        "city": "Lockmanport",
+        "street": "S State Street 89",
+        "house": 142,
+        "flat": 7418,
+        "phone": "+155137930233295",
+        "createdOn": "2025-12-29T15:49:58.000Z",
+        "notes": "FDaYUOk6bEjyvO2AIgmhPygTPotVjh"
+      },
+      "products": [
+        {
+          "_id": "6952a3271c508c5d5e4894fa",
+          "name": "Computer45774",
+          "amount": 635,
+          "price": 36725,
+          "manufacturer": "Sony",
+          "notes": "gmvjYtgCRHJBocKigyY8hBYqt8sbzUWlXYhnsrkMWqSG0KCIe4P58aDCHsDG39UFv6L5kribjvvwy94SNZq5VwZRWJWufJp6YFWaT3ELQ7UTLf3RqSKcfG3FWaJPc4A2xUYM3o8HDVYl5pZUaGsTmhbRcvTNpeVNlPIZ7mg85DsxNHznNNLGl9BFOnjfk4ca7FsDqn3ng9SSrkpgN4WXJm4mf1YLMrs7nqur9RasNtUxELYWADFyQFZIde",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Kesslercester",
+          "street": "N Pearl Street",
+          "house": 606,
+          "flat": 3803
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 36725,
+      "createdOn": "2025-12-29T15:49:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952a3261c508c5d5e4894c7",
+          "products": [
+            {
+              "_id": "6952a3271c508c5d5e4894fa",
+              "name": "Computer45774",
+              "amount": 635,
+              "price": 36725,
+              "manufacturer": "Sony",
+              "notes": "gmvjYtgCRHJBocKigyY8hBYqt8sbzUWlXYhnsrkMWqSG0KCIe4P58aDCHsDG39UFv6L5kribjvvwy94SNZq5VwZRWJWufJp6YFWaT3ELQ7UTLf3RqSKcfG3FWaJPc4A2xUYM3o8HDVYl5pZUaGsTmhbRcvTNpeVNlPIZ7mg85DsxNHznNNLGl9BFOnjfk4ca7FsDqn3ng9SSrkpgN4WXJm4mf1YLMrs7nqur9RasNtUxELYWADFyQFZIde",
+              "received": false
+            }
+          ],
+          "total_price": 36725,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Kesslercester",
+              "street": "N Pearl Street",
+              "house": 606,
+              "flat": 3803
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T15:49:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952a3261c508c5d5e4894c7",
+          "products": [
+            {
+              "_id": "6952a3271c508c5d5e4894fa",
+              "name": "Computer45774",
+              "amount": 635,
+              "price": 36725,
+              "manufacturer": "Sony",
+              "notes": "gmvjYtgCRHJBocKigyY8hBYqt8sbzUWlXYhnsrkMWqSG0KCIe4P58aDCHsDG39UFv6L5kribjvvwy94SNZq5VwZRWJWufJp6YFWaT3ELQ7UTLf3RqSKcfG3FWaJPc4A2xUYM3o8HDVYl5pZUaGsTmhbRcvTNpeVNlPIZ7mg85DsxNHznNNLGl9BFOnjfk4ca7FsDqn3ng9SSrkpgN4WXJm4mf1YLMrs7nqur9RasNtUxELYWADFyQFZIde",
+              "received": false
+            }
+          ],
+          "total_price": 36725,
+          "delivery": null,
+          "changedOn": "2025-12-29T15:49:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
