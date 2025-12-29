@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:00:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3718",
+    "etag": "W/\"e86-A3ADnF/vBSFrXED1LCVgsW+eQOs\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527b771c508c5d5e469375",
+      "status": "In Process",
+      "customer": {
+        "_id": "69527b761c508c5d5e469316",
+        "email": "Marques.Abbott@yahoo.com",
+        "name": "Krystal Dooley",
+        "country": "Belarus",
+        "city": "New Monserrat",
+        "street": "Hickory Street 66",
+        "house": 507,
+        "flat": 3875,
+        "phone": "+697398312734390",
+        "createdOn": "2025-12-29T13:00:38.000Z",
+        "notes": "UunZ1qY6gNSAAuPI8BMI0h2IALCF21"
+      },
+      "products": [
+        {
+          "_id": "69527b771c508c5d5e469364",
+          "name": "Shoes38441",
+          "amount": 60,
+          "price": 89862,
+          "manufacturer": "Microsoft",
+          "notes": "KlF6QhZSqSEyj0kFDiBcqmyElLmCNXjfP3j8g9bYfeuVUgDmjToSAZrctdwm2pXFcKGp1JKvfp3KwRj7hYlO8FwofEm3yDa6bdqZUx3C0ODbG4Ig324niwfBSjF1OsxA8iRixwweYowkVS7ABRwdEdNUb1oQMkfSS84Dnm3mtREE1cTXT8fa15upW0CJrbDBTpJD3UhUKfzOZ0S1jDHrX9ascRjjFiH0Ug96oQgINTAlL941QhzYdcMr2b",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Stewartboro",
+          "street": "Christiana Gateway",
+          "house": 851,
+          "flat": 5839
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 89862,
+      "createdOn": "2025-12-29T13:00:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69527b761c508c5d5e469316",
+          "products": [
+            {
+              "_id": "69527b771c508c5d5e469364",
+              "name": "Shoes38441",
+              "amount": 60,
+              "price": 89862,
+              "manufacturer": "Microsoft",
+              "notes": "KlF6QhZSqSEyj0kFDiBcqmyElLmCNXjfP3j8g9bYfeuVUgDmjToSAZrctdwm2pXFcKGp1JKvfp3KwRj7hYlO8FwofEm3yDa6bdqZUx3C0ODbG4Ig324niwfBSjF1OsxA8iRixwweYowkVS7ABRwdEdNUb1oQMkfSS84Dnm3mtREE1cTXT8fa15upW0CJrbDBTpJD3UhUKfzOZ0S1jDHrX9ascRjjFiH0Ug96oQgINTAlL941QhzYdcMr2b",
+              "received": false
+            }
+          ],
+          "total_price": 89862,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Stewartboro",
+              "street": "Christiana Gateway",
+              "house": 851,
+              "flat": 5839
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:00:40.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527b761c508c5d5e469316",
+          "products": [
+            {
+              "_id": "69527b771c508c5d5e469364",
+              "name": "Shoes38441",
+              "amount": 60,
+              "price": 89862,
+              "manufacturer": "Microsoft",
+              "notes": "KlF6QhZSqSEyj0kFDiBcqmyElLmCNXjfP3j8g9bYfeuVUgDmjToSAZrctdwm2pXFcKGp1JKvfp3KwRj7hYlO8FwofEm3yDa6bdqZUx3C0ODbG4Ig324niwfBSjF1OsxA8iRixwweYowkVS7ABRwdEdNUb1oQMkfSS84Dnm3mtREE1cTXT8fa15upW0CJrbDBTpJD3UhUKfzOZ0S1jDHrX9ascRjjFiH0Ug96oQgINTAlL941QhzYdcMr2b",
+              "received": false
+            }
+          ],
+          "total_price": 89862,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Stewartboro",
+              "street": "Christiana Gateway",
+              "house": 851,
+              "flat": 5839
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:00:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527b761c508c5d5e469316",
+          "products": [
+            {
+              "_id": "69527b771c508c5d5e469364",
+              "name": "Shoes38441",
+              "amount": 60,
+              "price": 89862,
+              "manufacturer": "Microsoft",
+              "notes": "KlF6QhZSqSEyj0kFDiBcqmyElLmCNXjfP3j8g9bYfeuVUgDmjToSAZrctdwm2pXFcKGp1JKvfp3KwRj7hYlO8FwofEm3yDa6bdqZUx3C0ODbG4Ig324niwfBSjF1OsxA8iRixwweYowkVS7ABRwdEdNUb1oQMkfSS84Dnm3mtREE1cTXT8fa15upW0CJrbDBTpJD3UhUKfzOZ0S1jDHrX9ascRjjFiH0Ug96oQgINTAlL941QhzYdcMr2b",
+              "received": false
+            }
+          ],
+          "total_price": 89862,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:00:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

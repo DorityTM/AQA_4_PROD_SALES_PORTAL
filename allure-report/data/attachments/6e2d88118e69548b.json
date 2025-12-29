@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:02:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3710",
+    "etag": "W/\"e7e-IWtnU3qidyJ0hgjh38Oai82pyEc\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527bf01c508c5d5e46c0f1",
+      "status": "In Process",
+      "customer": {
+        "_id": "69527bef1c508c5d5e46c0bb",
+        "email": "Kenny_Halvorson@yahoo.com",
+        "name": "Barbara Emmerich",
+        "country": "Belarus",
+        "city": "Stoltenbergfort",
+        "street": "Blaise Extension 48",
+        "house": 951,
+        "flat": 3994,
+        "phone": "+100442999904767",
+        "createdOn": "2025-12-29T13:02:39.000Z",
+        "notes": "VKGTuL7PoqW8sgAKhLoCMkylW4VQOg"
+      },
+      "products": [
+        {
+          "_id": "69527bf01c508c5d5e46c0d4",
+          "name": "Keyboard35290",
+          "amount": 595,
+          "price": 35938,
+          "manufacturer": "Apple",
+          "notes": "lZI17sTwl9f5rJ7kLAndANyzKb4iMtGn2vLk4VnVub1d5w7sidO5DhM7X8XsS6f1dvK64RK7hQkDwVJvrPdiID6UlUjAM33JDb79B9Cj0AaNQVYG7S8ZT93vHOHvUQGg0o5xzlPwMqSuehKyZ5ehrBXrfOKWgYULnEUsyM1pyraJFmyRZFnrQjuHhQsPgWb3kRmx0OA4EOhHZucn8oqbVLBBJrw5nvb6pfqp4jNM5LMPSNBjFUwLvS1py9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Walshworth",
+          "street": "Alexander Fall",
+          "house": 265,
+          "flat": 6822
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 35938,
+      "createdOn": "2025-12-29T13:02:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69527bef1c508c5d5e46c0bb",
+          "products": [
+            {
+              "_id": "69527bf01c508c5d5e46c0d4",
+              "name": "Keyboard35290",
+              "amount": 595,
+              "price": 35938,
+              "manufacturer": "Apple",
+              "notes": "lZI17sTwl9f5rJ7kLAndANyzKb4iMtGn2vLk4VnVub1d5w7sidO5DhM7X8XsS6f1dvK64RK7hQkDwVJvrPdiID6UlUjAM33JDb79B9Cj0AaNQVYG7S8ZT93vHOHvUQGg0o5xzlPwMqSuehKyZ5ehrBXrfOKWgYULnEUsyM1pyraJFmyRZFnrQjuHhQsPgWb3kRmx0OA4EOhHZucn8oqbVLBBJrw5nvb6pfqp4jNM5LMPSNBjFUwLvS1py9",
+              "received": false
+            }
+          ],
+          "total_price": 35938,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Walshworth",
+              "street": "Alexander Fall",
+              "house": 265,
+              "flat": 6822
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:02:41.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527bef1c508c5d5e46c0bb",
+          "products": [
+            {
+              "_id": "69527bf01c508c5d5e46c0d4",
+              "name": "Keyboard35290",
+              "amount": 595,
+              "price": 35938,
+              "manufacturer": "Apple",
+              "notes": "lZI17sTwl9f5rJ7kLAndANyzKb4iMtGn2vLk4VnVub1d5w7sidO5DhM7X8XsS6f1dvK64RK7hQkDwVJvrPdiID6UlUjAM33JDb79B9Cj0AaNQVYG7S8ZT93vHOHvUQGg0o5xzlPwMqSuehKyZ5ehrBXrfOKWgYULnEUsyM1pyraJFmyRZFnrQjuHhQsPgWb3kRmx0OA4EOhHZucn8oqbVLBBJrw5nvb6pfqp4jNM5LMPSNBjFUwLvS1py9",
+              "received": false
+            }
+          ],
+          "total_price": 35938,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Walshworth",
+              "street": "Alexander Fall",
+              "house": 265,
+              "flat": 6822
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:02:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527bef1c508c5d5e46c0bb",
+          "products": [
+            {
+              "_id": "69527bf01c508c5d5e46c0d4",
+              "name": "Keyboard35290",
+              "amount": 595,
+              "price": 35938,
+              "manufacturer": "Apple",
+              "notes": "lZI17sTwl9f5rJ7kLAndANyzKb4iMtGn2vLk4VnVub1d5w7sidO5DhM7X8XsS6f1dvK64RK7hQkDwVJvrPdiID6UlUjAM33JDb79B9Cj0AaNQVYG7S8ZT93vHOHvUQGg0o5xzlPwMqSuehKyZ5ehrBXrfOKWgYULnEUsyM1pyraJFmyRZFnrQjuHhQsPgWb3kRmx0OA4EOhHZucn8oqbVLBBJrw5nvb6pfqp4jNM5LMPSNBjFUwLvS1py9",
+              "received": false
+            }
+          ],
+          "total_price": 35938,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:02:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

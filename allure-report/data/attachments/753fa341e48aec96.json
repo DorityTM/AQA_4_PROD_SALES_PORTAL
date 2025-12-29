@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:02:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2745",
+    "etag": "W/\"ab9-kZEalNmmBZZ6KA1IaljDVC1W6U0\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527bf11c508c5d5e46c153",
+      "status": "Draft",
+      "customer": {
+        "_id": "69527bf01c508c5d5e46c0ce",
+        "email": "Jerome46@yahoo.com",
+        "name": "Odell Brakus",
+        "country": "Belarus",
+        "city": "Cierrashire",
+        "street": "S 7th Street 86",
+        "house": 17,
+        "flat": 2984,
+        "phone": "+948189401372302",
+        "createdOn": "2025-12-29T13:02:40.000Z",
+        "notes": "maxbnLGu7f9gmtW50Z2fWXck9E45X7"
+      },
+      "products": [
+        {
+          "_id": "69527bf11c508c5d5e46c127",
+          "name": "Computer30148",
+          "amount": 17,
+          "price": 97138,
+          "manufacturer": "Sony",
+          "notes": "y2gU49zn21JUMAZgLGWkyu10HZ2pFDIsmizAdtEdaAZyOLstPJaIiJnFlLVJC6MHAvQNYukKYhpFouMbcYQ6gWYzz2dVUqQDVEjpTvn03wxuoB6r1siIod79MDtcQr6SrELkATJLsDLiT0CTPrGYbAGQN3KeFLJJX3H1b38kG76cCkXkhi4x7mVRHmc1i2JhljhivCGEej8nfi0cOjyIrLONY4rCU3NQZbeXhmV0FkLYZs2StJEDbNvrcL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Rosemarie",
+          "street": "Cartwright Land",
+          "house": 380,
+          "flat": 261
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97138,
+      "createdOn": "2025-12-29T13:02:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69527bf01c508c5d5e46c0ce",
+          "products": [
+            {
+              "_id": "69527bf11c508c5d5e46c127",
+              "name": "Computer30148",
+              "amount": 17,
+              "price": 97138,
+              "manufacturer": "Sony",
+              "notes": "y2gU49zn21JUMAZgLGWkyu10HZ2pFDIsmizAdtEdaAZyOLstPJaIiJnFlLVJC6MHAvQNYukKYhpFouMbcYQ6gWYzz2dVUqQDVEjpTvn03wxuoB6r1siIod79MDtcQr6SrELkATJLsDLiT0CTPrGYbAGQN3KeFLJJX3H1b38kG76cCkXkhi4x7mVRHmc1i2JhljhivCGEej8nfi0cOjyIrLONY4rCU3NQZbeXhmV0FkLYZs2StJEDbNvrcL",
+              "received": false
+            }
+          ],
+          "total_price": 97138,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Rosemarie",
+              "street": "Cartwright Land",
+              "house": 380,
+              "flat": 261
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:02:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527bf01c508c5d5e46c0ce",
+          "products": [
+            {
+              "_id": "69527bf11c508c5d5e46c127",
+              "name": "Computer30148",
+              "amount": 17,
+              "price": 97138,
+              "manufacturer": "Sony",
+              "notes": "y2gU49zn21JUMAZgLGWkyu10HZ2pFDIsmizAdtEdaAZyOLstPJaIiJnFlLVJC6MHAvQNYukKYhpFouMbcYQ6gWYzz2dVUqQDVEjpTvn03wxuoB6r1siIod79MDtcQr6SrELkATJLsDLiT0CTPrGYbAGQN3KeFLJJX3H1b38kG76cCkXkhi4x7mVRHmc1i2JhljhivCGEej8nfi0cOjyIrLONY4rCU3NQZbeXhmV0FkLYZs2StJEDbNvrcL",
+              "received": false
+            }
+          ],
+          "total_price": 97138,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:02:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:02:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3682",
+    "etag": "W/\"e62-EZWApu8ZPUVlu6R83TB7Xp6dImw\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527bf81c508c5d5e46c3c4",
+      "status": "In Process",
+      "customer": {
+        "_id": "69527bf71c508c5d5e46c38e",
+        "email": "Prince.Bradtke@yahoo.com",
+        "name": "Jayson Collier",
+        "country": "Ukraine",
+        "city": "Fort Sageworth",
+        "street": "Stanley Street 88",
+        "house": 274,
+        "flat": 631,
+        "phone": "+207296213150082",
+        "createdOn": "2025-12-29T13:02:47.000Z",
+        "notes": "2A8DN6dJ61CFIodKyxXX2PZH67Cnyb"
+      },
+      "products": [
+        {
+          "_id": "69527bf81c508c5d5e46c3b3",
+          "name": "Soap66314",
+          "amount": 729,
+          "price": 5465,
+          "manufacturer": "Tesla",
+          "notes": "mCYdJxJxUfMnlkZ2fYw1XWLPgHTTaJsev7ReJltFaOxW77OhK2YrJaaS85iBZouUmWBDafD5PAm7FJSFiLt7S1GpcXrnX6q8cub30wrZFky9YSj3hQoVWnTuZFQXh7bpCalWfElw5g9pgYRIxJv92PYarlklDu6d5JvNSVpktt88w9inS4EdiEzJy8ojsbZNx1BVWcfVY6l36RZ7dpBTY1wsk0qsArc5gp7mkEfhkOOGXDXbU7svGbEuPV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Davisbury",
+          "street": "OConnell Landing",
+          "house": 750,
+          "flat": 8986
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 5465,
+      "createdOn": "2025-12-29T13:02:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69527bf71c508c5d5e46c38e",
+          "products": [
+            {
+              "_id": "69527bf81c508c5d5e46c3b3",
+              "name": "Soap66314",
+              "amount": 729,
+              "price": 5465,
+              "manufacturer": "Tesla",
+              "notes": "mCYdJxJxUfMnlkZ2fYw1XWLPgHTTaJsev7ReJltFaOxW77OhK2YrJaaS85iBZouUmWBDafD5PAm7FJSFiLt7S1GpcXrnX6q8cub30wrZFky9YSj3hQoVWnTuZFQXh7bpCalWfElw5g9pgYRIxJv92PYarlklDu6d5JvNSVpktt88w9inS4EdiEzJy8ojsbZNx1BVWcfVY6l36RZ7dpBTY1wsk0qsArc5gp7mkEfhkOOGXDXbU7svGbEuPV",
+              "received": false
+            }
+          ],
+          "total_price": 5465,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Davisbury",
+              "street": "OConnell Landing",
+              "house": 750,
+              "flat": 8986
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:02:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527bf71c508c5d5e46c38e",
+          "products": [
+            {
+              "_id": "69527bf81c508c5d5e46c3b3",
+              "name": "Soap66314",
+              "amount": 729,
+              "price": 5465,
+              "manufacturer": "Tesla",
+              "notes": "mCYdJxJxUfMnlkZ2fYw1XWLPgHTTaJsev7ReJltFaOxW77OhK2YrJaaS85iBZouUmWBDafD5PAm7FJSFiLt7S1GpcXrnX6q8cub30wrZFky9YSj3hQoVWnTuZFQXh7bpCalWfElw5g9pgYRIxJv92PYarlklDu6d5JvNSVpktt88w9inS4EdiEzJy8ojsbZNx1BVWcfVY6l36RZ7dpBTY1wsk0qsArc5gp7mkEfhkOOGXDXbU7svGbEuPV",
+              "received": false
+            }
+          ],
+          "total_price": 5465,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Davisbury",
+              "street": "OConnell Landing",
+              "house": 750,
+              "flat": 8986
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:02:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527bf71c508c5d5e46c38e",
+          "products": [
+            {
+              "_id": "69527bf81c508c5d5e46c3b3",
+              "name": "Soap66314",
+              "amount": 729,
+              "price": 5465,
+              "manufacturer": "Tesla",
+              "notes": "mCYdJxJxUfMnlkZ2fYw1XWLPgHTTaJsev7ReJltFaOxW77OhK2YrJaaS85iBZouUmWBDafD5PAm7FJSFiLt7S1GpcXrnX6q8cub30wrZFky9YSj3hQoVWnTuZFQXh7bpCalWfElw5g9pgYRIxJv92PYarlklDu6d5JvNSVpktt88w9inS4EdiEzJy8ojsbZNx1BVWcfVY6l36RZ7dpBTY1wsk0qsArc5gp7mkEfhkOOGXDXbU7svGbEuPV",
+              "received": false
+            }
+          ],
+          "total_price": 5465,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:02:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

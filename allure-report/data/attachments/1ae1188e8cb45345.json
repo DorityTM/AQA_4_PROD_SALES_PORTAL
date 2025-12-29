@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 12:59:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4613",
+    "etag": "W/\"1205-gZomw4E6kFwp3nsuZsQEMQv1SeI\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527b351c508c5d5e4678fe",
+      "status": "Received",
+      "customer": {
+        "_id": "69527b331c508c5d5e46788b",
+        "email": "Joy97@yahoo.com",
+        "name": "Rhett Ziemann",
+        "country": "Germany",
+        "city": "Green Bay",
+        "street": "Matilda Turnpike 34",
+        "house": 267,
+        "flat": 1792,
+        "phone": "+446897373185503",
+        "createdOn": "2025-12-29T12:59:31.000Z",
+        "notes": "2vdpNsj2ojYeTW1xuqZ9QDBfMrRzA5"
+      },
+      "products": [
+        {
+          "_id": "69527b341c508c5d5e4678e1",
+          "name": "Bike48351",
+          "amount": 503,
+          "price": 1807,
+          "manufacturer": "Xiaomi",
+          "notes": "iJ4iADQ0Vrlu0BpoapXlEBvfWkCy0O4UkqiiaStqC0mVcl1ZD7SkStuddFExfOPUcGDSzirGC8ZV68CEepCYzxlvxv4SXIUK6eYut8su2bUK1jAnqTuvGQxgCUpiHZbAfF0wzbmV7INulL4nLDySexR2ePfMV6fq9RZsWBuDFYbmdV8thAzN183KMqaKDLwVQgoMhQYd0LXBLvp8uwfmCZOWg847jIoQ6vvY4oPG5fu39ZmHNDgRviDLDj",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Pinellas Park",
+          "street": "Jessy Curve",
+          "house": 943,
+          "flat": 4988
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 1807,
+      "createdOn": "2025-12-29T12:59:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69527b331c508c5d5e46788b",
+          "products": [
+            {
+              "_id": "69527b341c508c5d5e4678e1",
+              "name": "Bike48351",
+              "amount": 503,
+              "price": 1807,
+              "manufacturer": "Xiaomi",
+              "notes": "iJ4iADQ0Vrlu0BpoapXlEBvfWkCy0O4UkqiiaStqC0mVcl1ZD7SkStuddFExfOPUcGDSzirGC8ZV68CEepCYzxlvxv4SXIUK6eYut8su2bUK1jAnqTuvGQxgCUpiHZbAfF0wzbmV7INulL4nLDySexR2ePfMV6fq9RZsWBuDFYbmdV8thAzN183KMqaKDLwVQgoMhQYd0LXBLvp8uwfmCZOWg847jIoQ6vvY4oPG5fu39ZmHNDgRviDLDj",
+              "received": true
+            }
+          ],
+          "total_price": 1807,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Pinellas Park",
+              "street": "Jessy Curve",
+              "house": 943,
+              "flat": 4988
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T12:59:34.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69527b331c508c5d5e46788b",
+          "products": [
+            {
+              "_id": "69527b341c508c5d5e4678e1",
+              "name": "Bike48351",
+              "amount": 503,
+              "price": 1807,
+              "manufacturer": "Xiaomi",
+              "notes": "iJ4iADQ0Vrlu0BpoapXlEBvfWkCy0O4UkqiiaStqC0mVcl1ZD7SkStuddFExfOPUcGDSzirGC8ZV68CEepCYzxlvxv4SXIUK6eYut8su2bUK1jAnqTuvGQxgCUpiHZbAfF0wzbmV7INulL4nLDySexR2ePfMV6fq9RZsWBuDFYbmdV8thAzN183KMqaKDLwVQgoMhQYd0LXBLvp8uwfmCZOWg847jIoQ6vvY4oPG5fu39ZmHNDgRviDLDj",
+              "received": false
+            }
+          ],
+          "total_price": 1807,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Pinellas Park",
+              "street": "Jessy Curve",
+              "house": 943,
+              "flat": 4988
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T12:59:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527b331c508c5d5e46788b",
+          "products": [
+            {
+              "_id": "69527b341c508c5d5e4678e1",
+              "name": "Bike48351",
+              "amount": 503,
+              "price": 1807,
+              "manufacturer": "Xiaomi",
+              "notes": "iJ4iADQ0Vrlu0BpoapXlEBvfWkCy0O4UkqiiaStqC0mVcl1ZD7SkStuddFExfOPUcGDSzirGC8ZV68CEepCYzxlvxv4SXIUK6eYut8su2bUK1jAnqTuvGQxgCUpiHZbAfF0wzbmV7INulL4nLDySexR2ePfMV6fq9RZsWBuDFYbmdV8thAzN183KMqaKDLwVQgoMhQYd0LXBLvp8uwfmCZOWg847jIoQ6vvY4oPG5fu39ZmHNDgRviDLDj",
+              "received": false
+            }
+          ],
+          "total_price": 1807,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Pinellas Park",
+              "street": "Jessy Curve",
+              "house": 943,
+              "flat": 4988
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T12:59:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527b331c508c5d5e46788b",
+          "products": [
+            {
+              "_id": "69527b341c508c5d5e4678e1",
+              "name": "Bike48351",
+              "amount": 503,
+              "price": 1807,
+              "manufacturer": "Xiaomi",
+              "notes": "iJ4iADQ0Vrlu0BpoapXlEBvfWkCy0O4UkqiiaStqC0mVcl1ZD7SkStuddFExfOPUcGDSzirGC8ZV68CEepCYzxlvxv4SXIUK6eYut8su2bUK1jAnqTuvGQxgCUpiHZbAfF0wzbmV7INulL4nLDySexR2ePfMV6fq9RZsWBuDFYbmdV8thAzN183KMqaKDLwVQgoMhQYd0LXBLvp8uwfmCZOWg847jIoQ6vvY4oPG5fu39ZmHNDgRviDLDj",
+              "received": false
+            }
+          ],
+          "total_price": 1807,
+          "delivery": null,
+          "changedOn": "2025-12-29T12:59:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

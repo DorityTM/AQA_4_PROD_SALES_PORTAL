@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:03:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3638",
+    "etag": "W/\"e36-yA3CDFoZRkxSvRmUPlDMA44ye/0\"",
+    "keep-alive": "timeout=5, max=37",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527c131c508c5d5e46ce50",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69527c131c508c5d5e46ce03",
+        "email": "Shaun.Luettgen80@gmail.com",
+        "name": "Alvena Hegmann",
+        "country": "France",
+        "city": "Anselton",
+        "street": "Goodwin Inlet 19",
+        "house": 870,
+        "flat": 3888,
+        "phone": "+030872458153509",
+        "createdOn": "2025-12-29T13:03:15.000Z",
+        "notes": "k22H80JKvEBkgh89iPMoay7Cmv56UF"
+      },
+      "products": [
+        {
+          "_id": "69527c131c508c5d5e46ce2f",
+          "name": "Tuna42410",
+          "amount": 649,
+          "price": 35754,
+          "manufacturer": "Apple",
+          "notes": "pxxstnudAPR5CGEgzax6CZy7ddJ5xoXupKU2QBLNyrpRSGDAKKmE4JCoMVGTKeIS1aouGFIb7UTH7nkxXuBlnSwHrOxHD1ewwNcPqsAzojF2sxWKOkV9FGjpRmZaPRgD30JARAp8GFE4XpmPWfqDSFfUFahJKZyJMWuRLbC36a6OdP391i3wMaujE28V064FSLVuyRq8coFBTlHish7Vegrm6B3tUKo0gWtLDHyCOgGgeShx6LYLLkM6Dx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Freeport",
+          "street": "Mill Close",
+          "house": 683,
+          "flat": 9111
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 35754,
+      "createdOn": "2025-12-29T13:03:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69527c131c508c5d5e46ce03",
+          "products": [
+            {
+              "_id": "69527c131c508c5d5e46ce2f",
+              "name": "Tuna42410",
+              "amount": 649,
+              "price": 35754,
+              "manufacturer": "Apple",
+              "notes": "pxxstnudAPR5CGEgzax6CZy7ddJ5xoXupKU2QBLNyrpRSGDAKKmE4JCoMVGTKeIS1aouGFIb7UTH7nkxXuBlnSwHrOxHD1ewwNcPqsAzojF2sxWKOkV9FGjpRmZaPRgD30JARAp8GFE4XpmPWfqDSFfUFahJKZyJMWuRLbC36a6OdP391i3wMaujE28V064FSLVuyRq8coFBTlHish7Vegrm6B3tUKo0gWtLDHyCOgGgeShx6LYLLkM6Dx",
+              "received": false
+            }
+          ],
+          "total_price": 35754,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Freeport",
+              "street": "Mill Close",
+              "house": 683,
+              "flat": 9111
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:03:16.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527c131c508c5d5e46ce03",
+          "products": [
+            {
+              "_id": "69527c131c508c5d5e46ce2f",
+              "name": "Tuna42410",
+              "amount": 649,
+              "price": 35754,
+              "manufacturer": "Apple",
+              "notes": "pxxstnudAPR5CGEgzax6CZy7ddJ5xoXupKU2QBLNyrpRSGDAKKmE4JCoMVGTKeIS1aouGFIb7UTH7nkxXuBlnSwHrOxHD1ewwNcPqsAzojF2sxWKOkV9FGjpRmZaPRgD30JARAp8GFE4XpmPWfqDSFfUFahJKZyJMWuRLbC36a6OdP391i3wMaujE28V064FSLVuyRq8coFBTlHish7Vegrm6B3tUKo0gWtLDHyCOgGgeShx6LYLLkM6Dx",
+              "received": false
+            }
+          ],
+          "total_price": 35754,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Freeport",
+              "street": "Mill Close",
+              "house": 683,
+              "flat": 9111
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:03:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527c131c508c5d5e46ce03",
+          "products": [
+            {
+              "_id": "69527c131c508c5d5e46ce2f",
+              "name": "Tuna42410",
+              "amount": 649,
+              "price": 35754,
+              "manufacturer": "Apple",
+              "notes": "pxxstnudAPR5CGEgzax6CZy7ddJ5xoXupKU2QBLNyrpRSGDAKKmE4JCoMVGTKeIS1aouGFIb7UTH7nkxXuBlnSwHrOxHD1ewwNcPqsAzojF2sxWKOkV9FGjpRmZaPRgD30JARAp8GFE4XpmPWfqDSFfUFahJKZyJMWuRLbC36a6OdP391i3wMaujE28V064FSLVuyRq8coFBTlHish7Vegrm6B3tUKo0gWtLDHyCOgGgeShx6LYLLkM6Dx",
+              "received": false
+            }
+          ],
+          "total_price": 35754,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:03:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

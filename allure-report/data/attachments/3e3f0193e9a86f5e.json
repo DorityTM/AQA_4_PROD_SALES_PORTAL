@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 13:00:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2744",
+    "etag": "W/\"ab8-PkIuhSw0hpEsKHcy6akeA/Os328\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527b5f1c508c5d5e4689a9",
+      "status": "Draft",
+      "customer": {
+        "_id": "69527b5e1c508c5d5e468975",
+        "email": "Skye28@yahoo.com",
+        "name": "Alexandra Becker Watsica",
+        "country": "Belarus",
+        "city": "Bakersfield",
+        "street": "N Main 59",
+        "house": 62,
+        "flat": 349,
+        "phone": "+248620508117331",
+        "createdOn": "2025-12-29T13:00:14.000Z",
+        "notes": "ugB7JlpjCcfM7g8sV6H6DZLyN8C1lX"
+      },
+      "products": [
+        {
+          "_id": "69527b5f1c508c5d5e46898e",
+          "name": "Towels43607",
+          "amount": 125,
+          "price": 55899,
+          "manufacturer": "Apple",
+          "notes": "lGtPhR1txFRfom4ceQHM5Bf9NdI5ZbtQ2JLiQZ4qhnLSwkAd8uArhCIWP2pmX46rtSjXuRoC6hdQ1BZTGFuAf0ZP2StwIgQNsImBZussen6YoiPPRyl0hpZF8M3ixTSfQqAesCjc72Not29IRoLqTy76miTfE1pdBSpLHyky0ixKeiO2n4uJ1BDPeNeiCdxrFGhp6tP7CEVqBwiZbQw05yw9IvByWOA02eLbCGqSMsi6u7Gy4pvGFd7Cql",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Fort Jarrod",
+          "street": "Grove Lane",
+          "house": 642,
+          "flat": 4070
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55899,
+      "createdOn": "2025-12-29T13:00:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69527b5e1c508c5d5e468975",
+          "products": [
+            {
+              "_id": "69527b5f1c508c5d5e46898e",
+              "name": "Towels43607",
+              "amount": 125,
+              "price": 55899,
+              "manufacturer": "Apple",
+              "notes": "lGtPhR1txFRfom4ceQHM5Bf9NdI5ZbtQ2JLiQZ4qhnLSwkAd8uArhCIWP2pmX46rtSjXuRoC6hdQ1BZTGFuAf0ZP2StwIgQNsImBZussen6YoiPPRyl0hpZF8M3ixTSfQqAesCjc72Not29IRoLqTy76miTfE1pdBSpLHyky0ixKeiO2n4uJ1BDPeNeiCdxrFGhp6tP7CEVqBwiZbQw05yw9IvByWOA02eLbCGqSMsi6u7Gy4pvGFd7Cql",
+              "received": false
+            }
+          ],
+          "total_price": 55899,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Jarrod",
+              "street": "Grove Lane",
+              "house": 642,
+              "flat": 4070
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T13:00:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527b5e1c508c5d5e468975",
+          "products": [
+            {
+              "_id": "69527b5f1c508c5d5e46898e",
+              "name": "Towels43607",
+              "amount": 125,
+              "price": 55899,
+              "manufacturer": "Apple",
+              "notes": "lGtPhR1txFRfom4ceQHM5Bf9NdI5ZbtQ2JLiQZ4qhnLSwkAd8uArhCIWP2pmX46rtSjXuRoC6hdQ1BZTGFuAf0ZP2StwIgQNsImBZussen6YoiPPRyl0hpZF8M3ixTSfQqAesCjc72Not29IRoLqTy76miTfE1pdBSpLHyky0ixKeiO2n4uJ1BDPeNeiCdxrFGhp6tP7CEVqBwiZbQw05yw9IvByWOA02eLbCGqSMsi6u7Gy4pvGFd7Cql",
+              "received": false
+            }
+          ],
+          "total_price": 55899,
+          "delivery": null,
+          "changedOn": "2025-12-29T13:00:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

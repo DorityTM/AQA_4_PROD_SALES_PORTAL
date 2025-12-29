@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 12:59:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2747",
+    "etag": "W/\"abb-yn+XHMsdi/2NBThyH4uE5k9rGzE\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69527b401c508c5d5e467d7d",
+      "status": "Draft",
+      "customer": {
+        "_id": "69527b3f1c508c5d5e467d1e",
+        "email": "Allie65@yahoo.com",
+        "name": "Francis Greenholt",
+        "country": "Great Britain",
+        "city": "Emardshire",
+        "street": "Bergnaum Lodge 34",
+        "house": 650,
+        "flat": 1470,
+        "phone": "+294900978237847",
+        "createdOn": "2025-12-29T12:59:43.000Z",
+        "notes": "migFZIlpcAFSfsQBYpiSzF2ORmObdy"
+      },
+      "products": [
+        {
+          "_id": "69527b401c508c5d5e467d69",
+          "name": "Pizza38586",
+          "amount": 660,
+          "price": 56292,
+          "manufacturer": "Google",
+          "notes": "zwHxf8MYKOaDkq8WcMuyZxWggM28WIuatG9HvXAnEkiLPw4rUSPob6RglQtTgFHIlBhcbe6mWknY57PilmL75zpWc1Tc9IwsmyPFkdiHUeClRyD9YoTDDIU8PlkoWuI9sx6SQMu0cSJeNRj3lvujiEfr804lAttZQHsIOKxT7A5diXDnTdQrz6lVcAjeR8Zyz1SMcUANSXxCAe0Rlhb9zWjTe1mYBLhzGZULCXpeECTxkSOTtGsvxyTvKR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Lake Mylene",
+          "street": "The Dell",
+          "house": 694,
+          "flat": 5646
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56292,
+      "createdOn": "2025-12-29T12:59:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69527b3f1c508c5d5e467d1e",
+          "products": [
+            {
+              "_id": "69527b401c508c5d5e467d69",
+              "name": "Pizza38586",
+              "amount": 660,
+              "price": 56292,
+              "manufacturer": "Google",
+              "notes": "zwHxf8MYKOaDkq8WcMuyZxWggM28WIuatG9HvXAnEkiLPw4rUSPob6RglQtTgFHIlBhcbe6mWknY57PilmL75zpWc1Tc9IwsmyPFkdiHUeClRyD9YoTDDIU8PlkoWuI9sx6SQMu0cSJeNRj3lvujiEfr804lAttZQHsIOKxT7A5diXDnTdQrz6lVcAjeR8Zyz1SMcUANSXxCAe0Rlhb9zWjTe1mYBLhzGZULCXpeECTxkSOTtGsvxyTvKR",
+              "received": false
+            }
+          ],
+          "total_price": 56292,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lake Mylene",
+              "street": "The Dell",
+              "house": 694,
+              "flat": 5646
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T12:59:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69527b3f1c508c5d5e467d1e",
+          "products": [
+            {
+              "_id": "69527b401c508c5d5e467d69",
+              "name": "Pizza38586",
+              "amount": 660,
+              "price": 56292,
+              "manufacturer": "Google",
+              "notes": "zwHxf8MYKOaDkq8WcMuyZxWggM28WIuatG9HvXAnEkiLPw4rUSPob6RglQtTgFHIlBhcbe6mWknY57PilmL75zpWc1Tc9IwsmyPFkdiHUeClRyD9YoTDDIU8PlkoWuI9sx6SQMu0cSJeNRj3lvujiEfr804lAttZQHsIOKxT7A5diXDnTdQrz6lVcAjeR8Zyz1SMcUANSXxCAe0Rlhb9zWjTe1mYBLhzGZULCXpeECTxkSOTtGsvxyTvKR",
+              "received": false
+            }
+          ],
+          "total_price": 56292,
+          "delivery": null,
+          "changedOn": "2025-12-29T12:59:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
