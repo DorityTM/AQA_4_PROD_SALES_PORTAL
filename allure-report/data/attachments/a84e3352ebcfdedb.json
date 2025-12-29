@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:29:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3688",
+    "etag": "W/\"e68-7yIvcsS+P9jflwJtKLDr1LGbChY\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952905c1c508c5d5e4818e9",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6952905b1c508c5d5e48189c",
+        "email": "Dejah_Heller1@gmail.com",
+        "name": "Kristofer Olson",
+        "country": "Germany",
+        "city": "Port Annabelland",
+        "street": "W Broad Street 54",
+        "house": 234,
+        "flat": 9662,
+        "phone": "+849488855444601",
+        "createdOn": "2025-12-29T14:29:47.000Z",
+        "notes": "usiZQXq8tfjNiDhDqb98PjM8DM5Fcc"
+      },
+      "products": [
+        {
+          "_id": "6952905c1c508c5d5e4818d8",
+          "name": "Pants97340",
+          "amount": 264,
+          "price": 3325,
+          "manufacturer": "Google",
+          "notes": "QDYZlaouCfueVnNjxgMya6yPIL9sNkkKSeNRZ0dNrtU129b2MbZ3ZkA21DMEKCU3MzPI2CWZTbtZAph97szGdpE9lucc8821sAsqWe3R0msPPmD8aSzyNj1YI7Kh9uJM8rvkALfmQJchOqO8OD0Fcb8Smxi3n7hXEvdhPlaVCYF8REcR9gnJGfqQUEKNUEJAOua31UaEsWYVe5nT9WyTFY94yI271xiUw28eZShxA0cMaGrxA02HKJ7aCW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Emiliebury",
+          "street": "Beth Parkway",
+          "house": 211,
+          "flat": 9261
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3325,
+      "createdOn": "2025-12-29T14:29:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6952905b1c508c5d5e48189c",
+          "products": [
+            {
+              "_id": "6952905c1c508c5d5e4818d8",
+              "name": "Pants97340",
+              "amount": 264,
+              "price": 3325,
+              "manufacturer": "Google",
+              "notes": "QDYZlaouCfueVnNjxgMya6yPIL9sNkkKSeNRZ0dNrtU129b2MbZ3ZkA21DMEKCU3MzPI2CWZTbtZAph97szGdpE9lucc8821sAsqWe3R0msPPmD8aSzyNj1YI7Kh9uJM8rvkALfmQJchOqO8OD0Fcb8Smxi3n7hXEvdhPlaVCYF8REcR9gnJGfqQUEKNUEJAOua31UaEsWYVe5nT9WyTFY94yI271xiUw28eZShxA0cMaGrxA02HKJ7aCW",
+              "received": false
+            }
+          ],
+          "total_price": 3325,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Emiliebury",
+              "street": "Beth Parkway",
+              "house": 211,
+              "flat": 9261
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:29:49.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952905b1c508c5d5e48189c",
+          "products": [
+            {
+              "_id": "6952905c1c508c5d5e4818d8",
+              "name": "Pants97340",
+              "amount": 264,
+              "price": 3325,
+              "manufacturer": "Google",
+              "notes": "QDYZlaouCfueVnNjxgMya6yPIL9sNkkKSeNRZ0dNrtU129b2MbZ3ZkA21DMEKCU3MzPI2CWZTbtZAph97szGdpE9lucc8821sAsqWe3R0msPPmD8aSzyNj1YI7Kh9uJM8rvkALfmQJchOqO8OD0Fcb8Smxi3n7hXEvdhPlaVCYF8REcR9gnJGfqQUEKNUEJAOua31UaEsWYVe5nT9WyTFY94yI271xiUw28eZShxA0cMaGrxA02HKJ7aCW",
+              "received": false
+            }
+          ],
+          "total_price": 3325,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Emiliebury",
+              "street": "Beth Parkway",
+              "house": 211,
+              "flat": 9261
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:29:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952905b1c508c5d5e48189c",
+          "products": [
+            {
+              "_id": "6952905c1c508c5d5e4818d8",
+              "name": "Pants97340",
+              "amount": 264,
+              "price": 3325,
+              "manufacturer": "Google",
+              "notes": "QDYZlaouCfueVnNjxgMya6yPIL9sNkkKSeNRZ0dNrtU129b2MbZ3ZkA21DMEKCU3MzPI2CWZTbtZAph97szGdpE9lucc8821sAsqWe3R0msPPmD8aSzyNj1YI7Kh9uJM8rvkALfmQJchOqO8OD0Fcb8Smxi3n7hXEvdhPlaVCYF8REcR9gnJGfqQUEKNUEJAOua31UaEsWYVe5nT9WyTFY94yI271xiUw28eZShxA0cMaGrxA02HKJ7aCW",
+              "received": false
+            }
+          ],
+          "total_price": 3325,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:29:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:24:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4650",
+    "etag": "W/\"122a-3DhRUbTfR0YhAYGdrEDEfjWOdto\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69528f191c508c5d5e4787c4",
+      "status": "Received",
+      "customer": {
+        "_id": "69528f181c508c5d5e47875d",
+        "email": "Agnes.Gibson-Denesik@yahoo.com",
+        "name": "Enrique Ullrich",
+        "country": "Canada",
+        "city": "Ephraimworth",
+        "street": "Rau Glen 83",
+        "house": 697,
+        "flat": 3293,
+        "phone": "+130955090120848",
+        "createdOn": "2025-12-29T14:24:24.000Z",
+        "notes": "iW3boKmxohFIwgDADfYUyiwhxoZQyO"
+      },
+      "products": [
+        {
+          "_id": "69528f191c508c5d5e4787a8",
+          "name": "Computer70351",
+          "amount": 590,
+          "price": 69816,
+          "manufacturer": "Amazon",
+          "notes": "Omsh8iIiVwsFCLyKb40qXayjPtoy9IrjCQ0f3rmVDFwFpg1POEZcZQR4P1QHBBweEG50kbZTW82GQ8xaAaRGn1AEJa6ObIokwyt99kkYuotdQFVJPRtnCxbDViUwQtRbH4g7PthaZk8uk78LmtX65I4BOqy5Xa6fTXF3lObivtFvkg3xtFwUiL8z6o2D7MaTW862s1i2POknCahQYfTVwv0UY367nXZcBlREKKXFVnctJ86URAvxp6c735",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Fort Milescester",
+          "street": "Market Street",
+          "house": 768,
+          "flat": 8171
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 69816,
+      "createdOn": "2025-12-29T14:24:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69528f181c508c5d5e47875d",
+          "products": [
+            {
+              "_id": "69528f191c508c5d5e4787a8",
+              "name": "Computer70351",
+              "amount": 590,
+              "price": 69816,
+              "manufacturer": "Amazon",
+              "notes": "Omsh8iIiVwsFCLyKb40qXayjPtoy9IrjCQ0f3rmVDFwFpg1POEZcZQR4P1QHBBweEG50kbZTW82GQ8xaAaRGn1AEJa6ObIokwyt99kkYuotdQFVJPRtnCxbDViUwQtRbH4g7PthaZk8uk78LmtX65I4BOqy5Xa6fTXF3lObivtFvkg3xtFwUiL8z6o2D7MaTW862s1i2POknCahQYfTVwv0UY367nXZcBlREKKXFVnctJ86URAvxp6c735",
+              "received": true
+            }
+          ],
+          "total_price": 69816,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Milescester",
+              "street": "Market Street",
+              "house": 768,
+              "flat": 8171
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:24:26.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69528f181c508c5d5e47875d",
+          "products": [
+            {
+              "_id": "69528f191c508c5d5e4787a8",
+              "name": "Computer70351",
+              "amount": 590,
+              "price": 69816,
+              "manufacturer": "Amazon",
+              "notes": "Omsh8iIiVwsFCLyKb40qXayjPtoy9IrjCQ0f3rmVDFwFpg1POEZcZQR4P1QHBBweEG50kbZTW82GQ8xaAaRGn1AEJa6ObIokwyt99kkYuotdQFVJPRtnCxbDViUwQtRbH4g7PthaZk8uk78LmtX65I4BOqy5Xa6fTXF3lObivtFvkg3xtFwUiL8z6o2D7MaTW862s1i2POknCahQYfTVwv0UY367nXZcBlREKKXFVnctJ86URAvxp6c735",
+              "received": false
+            }
+          ],
+          "total_price": 69816,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Milescester",
+              "street": "Market Street",
+              "house": 768,
+              "flat": 8171
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:24:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f181c508c5d5e47875d",
+          "products": [
+            {
+              "_id": "69528f191c508c5d5e4787a8",
+              "name": "Computer70351",
+              "amount": 590,
+              "price": 69816,
+              "manufacturer": "Amazon",
+              "notes": "Omsh8iIiVwsFCLyKb40qXayjPtoy9IrjCQ0f3rmVDFwFpg1POEZcZQR4P1QHBBweEG50kbZTW82GQ8xaAaRGn1AEJa6ObIokwyt99kkYuotdQFVJPRtnCxbDViUwQtRbH4g7PthaZk8uk78LmtX65I4BOqy5Xa6fTXF3lObivtFvkg3xtFwUiL8z6o2D7MaTW862s1i2POknCahQYfTVwv0UY367nXZcBlREKKXFVnctJ86URAvxp6c735",
+              "received": false
+            }
+          ],
+          "total_price": 69816,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Fort Milescester",
+              "street": "Market Street",
+              "house": 768,
+              "flat": 8171
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:24:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f181c508c5d5e47875d",
+          "products": [
+            {
+              "_id": "69528f191c508c5d5e4787a8",
+              "name": "Computer70351",
+              "amount": 590,
+              "price": 69816,
+              "manufacturer": "Amazon",
+              "notes": "Omsh8iIiVwsFCLyKb40qXayjPtoy9IrjCQ0f3rmVDFwFpg1POEZcZQR4P1QHBBweEG50kbZTW82GQ8xaAaRGn1AEJa6ObIokwyt99kkYuotdQFVJPRtnCxbDViUwQtRbH4g7PthaZk8uk78LmtX65I4BOqy5Xa6fTXF3lObivtFvkg3xtFwUiL8z6o2D7MaTW862s1i2POknCahQYfTVwv0UY367nXZcBlREKKXFVnctJ86URAvxp6c735",
+              "received": false
+            }
+          ],
+          "total_price": 69816,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:24:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

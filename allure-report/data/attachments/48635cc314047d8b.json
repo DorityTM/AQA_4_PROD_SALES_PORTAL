@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:29:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4616",
+    "etag": "W/\"1208-qJTiY06ymF+lIZP3ldqidTT3nkU\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695290561c508c5d5e4816a1",
+      "status": "Received",
+      "customer": {
+        "_id": "695290551c508c5d5e48165b",
+        "email": "Madonna.Stoltenberg@hotmail.com",
+        "name": "Wilber DuBuque",
+        "country": "Ukraine",
+        "city": "Eugene",
+        "street": "Park Drive 34",
+        "house": 417,
+        "flat": 7548,
+        "phone": "+380388231641334",
+        "createdOn": "2025-12-29T14:29:41.000Z",
+        "notes": "9A61WBICVwzBEHmVgUAfhN3SfJQBnv"
+      },
+      "products": [
+        {
+          "_id": "695290561c508c5d5e48168e",
+          "name": "Keyboard13298",
+          "amount": 702,
+          "price": 82887,
+          "manufacturer": "Samsung",
+          "notes": "DhWmuT7zBQtEqE12gREx7FINx2g5ysuSalaUlr8iahknAlNSzoWZHUEXoHl5LAEaUbkPkb5oJWhv77FnIhrPqBAjJ6gmsK4zP34qc1OWF3HOXSrdgzaROh7K1fnd8wtaLAz0OFoo2Kr49ysJjmFkMi9J45LvXR6eWnqhvxCz08LUH6AQllZLb3vuGOUvpfk8FFxPG3nU7sanTqnZRwnweoYLIbqjITPawgMsGvjqe6BJ0qC1qgWCcLkjxm",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Jaylin",
+          "street": "Elda Pike",
+          "house": 417,
+          "flat": 8392
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 82887,
+      "createdOn": "2025-12-29T14:29:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695290551c508c5d5e48165b",
+          "products": [
+            {
+              "_id": "695290561c508c5d5e48168e",
+              "name": "Keyboard13298",
+              "amount": 702,
+              "price": 82887,
+              "manufacturer": "Samsung",
+              "notes": "DhWmuT7zBQtEqE12gREx7FINx2g5ysuSalaUlr8iahknAlNSzoWZHUEXoHl5LAEaUbkPkb5oJWhv77FnIhrPqBAjJ6gmsK4zP34qc1OWF3HOXSrdgzaROh7K1fnd8wtaLAz0OFoo2Kr49ysJjmFkMi9J45LvXR6eWnqhvxCz08LUH6AQllZLb3vuGOUvpfk8FFxPG3nU7sanTqnZRwnweoYLIbqjITPawgMsGvjqe6BJ0qC1qgWCcLkjxm",
+              "received": true
+            }
+          ],
+          "total_price": 82887,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Jaylin",
+              "street": "Elda Pike",
+              "house": 417,
+              "flat": 8392
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:29:43.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695290551c508c5d5e48165b",
+          "products": [
+            {
+              "_id": "695290561c508c5d5e48168e",
+              "name": "Keyboard13298",
+              "amount": 702,
+              "price": 82887,
+              "manufacturer": "Samsung",
+              "notes": "DhWmuT7zBQtEqE12gREx7FINx2g5ysuSalaUlr8iahknAlNSzoWZHUEXoHl5LAEaUbkPkb5oJWhv77FnIhrPqBAjJ6gmsK4zP34qc1OWF3HOXSrdgzaROh7K1fnd8wtaLAz0OFoo2Kr49ysJjmFkMi9J45LvXR6eWnqhvxCz08LUH6AQllZLb3vuGOUvpfk8FFxPG3nU7sanTqnZRwnweoYLIbqjITPawgMsGvjqe6BJ0qC1qgWCcLkjxm",
+              "received": false
+            }
+          ],
+          "total_price": 82887,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Jaylin",
+              "street": "Elda Pike",
+              "house": 417,
+              "flat": 8392
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:29:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695290551c508c5d5e48165b",
+          "products": [
+            {
+              "_id": "695290561c508c5d5e48168e",
+              "name": "Keyboard13298",
+              "amount": 702,
+              "price": 82887,
+              "manufacturer": "Samsung",
+              "notes": "DhWmuT7zBQtEqE12gREx7FINx2g5ysuSalaUlr8iahknAlNSzoWZHUEXoHl5LAEaUbkPkb5oJWhv77FnIhrPqBAjJ6gmsK4zP34qc1OWF3HOXSrdgzaROh7K1fnd8wtaLAz0OFoo2Kr49ysJjmFkMi9J45LvXR6eWnqhvxCz08LUH6AQllZLb3vuGOUvpfk8FFxPG3nU7sanTqnZRwnweoYLIbqjITPawgMsGvjqe6BJ0qC1qgWCcLkjxm",
+              "received": false
+            }
+          ],
+          "total_price": 82887,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Jaylin",
+              "street": "Elda Pike",
+              "house": 417,
+              "flat": 8392
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:29:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695290551c508c5d5e48165b",
+          "products": [
+            {
+              "_id": "695290561c508c5d5e48168e",
+              "name": "Keyboard13298",
+              "amount": 702,
+              "price": 82887,
+              "manufacturer": "Samsung",
+              "notes": "DhWmuT7zBQtEqE12gREx7FINx2g5ysuSalaUlr8iahknAlNSzoWZHUEXoHl5LAEaUbkPkb5oJWhv77FnIhrPqBAjJ6gmsK4zP34qc1OWF3HOXSrdgzaROh7K1fnd8wtaLAz0OFoo2Kr49ysJjmFkMi9J45LvXR6eWnqhvxCz08LUH6AQllZLb3vuGOUvpfk8FFxPG3nU7sanTqnZRwnweoYLIbqjITPawgMsGvjqe6BJ0qC1qgWCcLkjxm",
+              "received": false
+            }
+          ],
+          "total_price": 82887,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:29:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

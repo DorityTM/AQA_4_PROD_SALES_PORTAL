@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:25:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6592",
+    "etag": "W/\"19c0-ghqhSt2X5g7+qppnnEtVXhxgdh0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69528f531c508c5d5e47a23c",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "69528f521c508c5d5e47a1c7",
+        "email": "Leanne.Hintz14@yahoo.com",
+        "name": "Marcus Miller",
+        "country": "Russia",
+        "city": "Sporerstad",
+        "street": "Gerda Circles 65",
+        "house": 197,
+        "flat": 3531,
+        "phone": "+043500253320513",
+        "createdOn": "2025-12-29T14:25:22.000Z",
+        "notes": "CB4aBnXDx42S0Hs0LtawC3UuYgw2p8"
+      },
+      "products": [
+        {
+          "_id": "69528f521c508c5d5e47a1dd",
+          "name": "Chips31285",
+          "amount": 905,
+          "price": 75848,
+          "manufacturer": "Xiaomi",
+          "notes": "faTyrFRArEwTF8hmbZ9dJU1drKTNMA3YDwuj4RBMOUfxJJvr1b1j4lVQnCaj3hIiSGsYOpxEuwsXNynt0d4zRs7It94XRE66dGU6GpbZYhR4HHlb5gHYqBFjbuD4GyCuVFoaWSHu02XM6FM6XGkDUb8TtaiXVJZiOrJsFEUirM1MidayC3bsGt6L3yy33bm0aaoO3REaVDAahrnRElsJSu2hNhxONBvunvGuYCeSY40lLfQpKsB3Nah7iU",
+          "received": true
+        },
+        {
+          "_id": "69528f531c508c5d5e47a220",
+          "name": "Sausages51987",
+          "amount": 329,
+          "price": 70122,
+          "manufacturer": "Microsoft",
+          "notes": "9P0Gq40QUBYd8z1O4MrAp1tCyLIJj2rS29yFtKOLkdV0397kvsFOwx3MO50ouggijCsCe4r5NMsosTc12KZZfX4mHMD3GdY3BGPNyUwSPqoPebcrTsWT5EMDcNpCTyZaHV85AMfSri7dygZwkrYWgUnjyPTQ05kvu6BwDdzbQnyuhsduGCe34mrbn19hbg0cEnLdsx6YpVDUMMtqsLzni4lvLqW3MpPzHmNXBjXwtcqPdgbaQ4oJ6WqgtD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Huntington Beach",
+          "street": "W Center Street",
+          "house": 64,
+          "flat": 2683
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 145970,
+      "createdOn": "2025-12-29T14:25:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "69528f521c508c5d5e47a1c7",
+          "products": [
+            {
+              "_id": "69528f521c508c5d5e47a1dd",
+              "name": "Chips31285",
+              "amount": 905,
+              "price": 75848,
+              "manufacturer": "Xiaomi",
+              "notes": "faTyrFRArEwTF8hmbZ9dJU1drKTNMA3YDwuj4RBMOUfxJJvr1b1j4lVQnCaj3hIiSGsYOpxEuwsXNynt0d4zRs7It94XRE66dGU6GpbZYhR4HHlb5gHYqBFjbuD4GyCuVFoaWSHu02XM6FM6XGkDUb8TtaiXVJZiOrJsFEUirM1MidayC3bsGt6L3yy33bm0aaoO3REaVDAahrnRElsJSu2hNhxONBvunvGuYCeSY40lLfQpKsB3Nah7iU",
+              "received": true
+            },
+            {
+              "_id": "69528f531c508c5d5e47a220",
+              "name": "Sausages51987",
+              "amount": 329,
+              "price": 70122,
+              "manufacturer": "Microsoft",
+              "notes": "9P0Gq40QUBYd8z1O4MrAp1tCyLIJj2rS29yFtKOLkdV0397kvsFOwx3MO50ouggijCsCe4r5NMsosTc12KZZfX4mHMD3GdY3BGPNyUwSPqoPebcrTsWT5EMDcNpCTyZaHV85AMfSri7dygZwkrYWgUnjyPTQ05kvu6BwDdzbQnyuhsduGCe34mrbn19hbg0cEnLdsx6YpVDUMMtqsLzni4lvLqW3MpPzHmNXBjXwtcqPdgbaQ4oJ6WqgtD",
+              "received": false
+            }
+          ],
+          "total_price": 145970,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Huntington Beach",
+              "street": "W Center Street",
+              "house": 64,
+              "flat": 2683
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:25:25.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69528f521c508c5d5e47a1c7",
+          "products": [
+            {
+              "_id": "69528f521c508c5d5e47a1dd",
+              "name": "Chips31285",
+              "amount": 905,
+              "price": 75848,
+              "manufacturer": "Xiaomi",
+              "notes": "faTyrFRArEwTF8hmbZ9dJU1drKTNMA3YDwuj4RBMOUfxJJvr1b1j4lVQnCaj3hIiSGsYOpxEuwsXNynt0d4zRs7It94XRE66dGU6GpbZYhR4HHlb5gHYqBFjbuD4GyCuVFoaWSHu02XM6FM6XGkDUb8TtaiXVJZiOrJsFEUirM1MidayC3bsGt6L3yy33bm0aaoO3REaVDAahrnRElsJSu2hNhxONBvunvGuYCeSY40lLfQpKsB3Nah7iU",
+              "received": false
+            },
+            {
+              "_id": "69528f531c508c5d5e47a220",
+              "name": "Sausages51987",
+              "amount": 329,
+              "price": 70122,
+              "manufacturer": "Microsoft",
+              "notes": "9P0Gq40QUBYd8z1O4MrAp1tCyLIJj2rS29yFtKOLkdV0397kvsFOwx3MO50ouggijCsCe4r5NMsosTc12KZZfX4mHMD3GdY3BGPNyUwSPqoPebcrTsWT5EMDcNpCTyZaHV85AMfSri7dygZwkrYWgUnjyPTQ05kvu6BwDdzbQnyuhsduGCe34mrbn19hbg0cEnLdsx6YpVDUMMtqsLzni4lvLqW3MpPzHmNXBjXwtcqPdgbaQ4oJ6WqgtD",
+              "received": false
+            }
+          ],
+          "total_price": 145970,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Huntington Beach",
+              "street": "W Center Street",
+              "house": 64,
+              "flat": 2683
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:25:24.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f521c508c5d5e47a1c7",
+          "products": [
+            {
+              "_id": "69528f521c508c5d5e47a1dd",
+              "name": "Chips31285",
+              "amount": 905,
+              "price": 75848,
+              "manufacturer": "Xiaomi",
+              "notes": "faTyrFRArEwTF8hmbZ9dJU1drKTNMA3YDwuj4RBMOUfxJJvr1b1j4lVQnCaj3hIiSGsYOpxEuwsXNynt0d4zRs7It94XRE66dGU6GpbZYhR4HHlb5gHYqBFjbuD4GyCuVFoaWSHu02XM6FM6XGkDUb8TtaiXVJZiOrJsFEUirM1MidayC3bsGt6L3yy33bm0aaoO3REaVDAahrnRElsJSu2hNhxONBvunvGuYCeSY40lLfQpKsB3Nah7iU",
+              "received": false
+            },
+            {
+              "_id": "69528f531c508c5d5e47a220",
+              "name": "Sausages51987",
+              "amount": 329,
+              "price": 70122,
+              "manufacturer": "Microsoft",
+              "notes": "9P0Gq40QUBYd8z1O4MrAp1tCyLIJj2rS29yFtKOLkdV0397kvsFOwx3MO50ouggijCsCe4r5NMsosTc12KZZfX4mHMD3GdY3BGPNyUwSPqoPebcrTsWT5EMDcNpCTyZaHV85AMfSri7dygZwkrYWgUnjyPTQ05kvu6BwDdzbQnyuhsduGCe34mrbn19hbg0cEnLdsx6YpVDUMMtqsLzni4lvLqW3MpPzHmNXBjXwtcqPdgbaQ4oJ6WqgtD",
+              "received": false
+            }
+          ],
+          "total_price": 145970,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Huntington Beach",
+              "street": "W Center Street",
+              "house": 64,
+              "flat": 2683
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:25:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f521c508c5d5e47a1c7",
+          "products": [
+            {
+              "_id": "69528f521c508c5d5e47a1dd",
+              "name": "Chips31285",
+              "amount": 905,
+              "price": 75848,
+              "manufacturer": "Xiaomi",
+              "notes": "faTyrFRArEwTF8hmbZ9dJU1drKTNMA3YDwuj4RBMOUfxJJvr1b1j4lVQnCaj3hIiSGsYOpxEuwsXNynt0d4zRs7It94XRE66dGU6GpbZYhR4HHlb5gHYqBFjbuD4GyCuVFoaWSHu02XM6FM6XGkDUb8TtaiXVJZiOrJsFEUirM1MidayC3bsGt6L3yy33bm0aaoO3REaVDAahrnRElsJSu2hNhxONBvunvGuYCeSY40lLfQpKsB3Nah7iU",
+              "received": false
+            },
+            {
+              "_id": "69528f531c508c5d5e47a220",
+              "name": "Sausages51987",
+              "amount": 329,
+              "price": 70122,
+              "manufacturer": "Microsoft",
+              "notes": "9P0Gq40QUBYd8z1O4MrAp1tCyLIJj2rS29yFtKOLkdV0397kvsFOwx3MO50ouggijCsCe4r5NMsosTc12KZZfX4mHMD3GdY3BGPNyUwSPqoPebcrTsWT5EMDcNpCTyZaHV85AMfSri7dygZwkrYWgUnjyPTQ05kvu6BwDdzbQnyuhsduGCe34mrbn19hbg0cEnLdsx6YpVDUMMtqsLzni4lvLqW3MpPzHmNXBjXwtcqPdgbaQ4oJ6WqgtD",
+              "received": false
+            }
+          ],
+          "total_price": 145970,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:25:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

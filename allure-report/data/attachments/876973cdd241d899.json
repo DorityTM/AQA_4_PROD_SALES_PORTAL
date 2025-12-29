@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:24:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3724",
+    "etag": "W/\"e8c-JigiBfYkK481mMILz9B49RzwiUg\"",
+    "keep-alive": "timeout=5, max=24",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69528f2a1c508c5d5e478f89",
+      "status": "In Process",
+      "customer": {
+        "_id": "69528f291c508c5d5e478efd",
+        "email": "Javier33@hotmail.com",
+        "name": "Jameson Murazik",
+        "country": "Great Britain",
+        "city": "South Clemmieworth",
+        "street": "Marcus Divide 35",
+        "house": 487,
+        "flat": 6532,
+        "phone": "+954611431943777",
+        "createdOn": "2025-12-29T14:24:41.000Z",
+        "notes": "cNhWet5iN8mZIfDaL92uFu5hUjjrMQ"
+      },
+      "products": [
+        {
+          "_id": "69528f2a1c508c5d5e478f74",
+          "name": "Cheese91841",
+          "amount": 960,
+          "price": 92360,
+          "manufacturer": "Microsoft",
+          "notes": "GJAZkmaGCot2PBw9heRhQBsQWSsUdCYq56Y4GE97h6My26a0sm4kSL9WysYCfBCEXiVHKmk8iYSUxc0XsVORxpE3ydjRt0jTyNSb0dWM1kvOnh8IIbjI032WduRLzcS3XMDpYsm08ZiHdtiFP0BSZEpB7GkNk29GXcaqbCiPgM59iHK46jghwlSaMnv2SRzJFfCvH3LTv2rhZNWkc0bgPKkowaHQKvjy9DBm4QhOCKgJMq5ywUwfnLCYDi",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "North Georgette",
+          "street": "Ramon Glens",
+          "house": 529,
+          "flat": 1976
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92360,
+      "createdOn": "2025-12-29T14:24:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69528f291c508c5d5e478efd",
+          "products": [
+            {
+              "_id": "69528f2a1c508c5d5e478f74",
+              "name": "Cheese91841",
+              "amount": 960,
+              "price": 92360,
+              "manufacturer": "Microsoft",
+              "notes": "GJAZkmaGCot2PBw9heRhQBsQWSsUdCYq56Y4GE97h6My26a0sm4kSL9WysYCfBCEXiVHKmk8iYSUxc0XsVORxpE3ydjRt0jTyNSb0dWM1kvOnh8IIbjI032WduRLzcS3XMDpYsm08ZiHdtiFP0BSZEpB7GkNk29GXcaqbCiPgM59iHK46jghwlSaMnv2SRzJFfCvH3LTv2rhZNWkc0bgPKkowaHQKvjy9DBm4QhOCKgJMq5ywUwfnLCYDi",
+              "received": false
+            }
+          ],
+          "total_price": 92360,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "North Georgette",
+              "street": "Ramon Glens",
+              "house": 529,
+              "flat": 1976
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:24:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f291c508c5d5e478efd",
+          "products": [
+            {
+              "_id": "69528f2a1c508c5d5e478f74",
+              "name": "Cheese91841",
+              "amount": 960,
+              "price": 92360,
+              "manufacturer": "Microsoft",
+              "notes": "GJAZkmaGCot2PBw9heRhQBsQWSsUdCYq56Y4GE97h6My26a0sm4kSL9WysYCfBCEXiVHKmk8iYSUxc0XsVORxpE3ydjRt0jTyNSb0dWM1kvOnh8IIbjI032WduRLzcS3XMDpYsm08ZiHdtiFP0BSZEpB7GkNk29GXcaqbCiPgM59iHK46jghwlSaMnv2SRzJFfCvH3LTv2rhZNWkc0bgPKkowaHQKvjy9DBm4QhOCKgJMq5ywUwfnLCYDi",
+              "received": false
+            }
+          ],
+          "total_price": 92360,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "North Georgette",
+              "street": "Ramon Glens",
+              "house": 529,
+              "flat": 1976
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:24:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f291c508c5d5e478efd",
+          "products": [
+            {
+              "_id": "69528f2a1c508c5d5e478f74",
+              "name": "Cheese91841",
+              "amount": 960,
+              "price": 92360,
+              "manufacturer": "Microsoft",
+              "notes": "GJAZkmaGCot2PBw9heRhQBsQWSsUdCYq56Y4GE97h6My26a0sm4kSL9WysYCfBCEXiVHKmk8iYSUxc0XsVORxpE3ydjRt0jTyNSb0dWM1kvOnh8IIbjI032WduRLzcS3XMDpYsm08ZiHdtiFP0BSZEpB7GkNk29GXcaqbCiPgM59iHK46jghwlSaMnv2SRzJFfCvH3LTv2rhZNWkc0bgPKkowaHQKvjy9DBm4QhOCKgJMq5ywUwfnLCYDi",
+              "received": false
+            }
+          ],
+          "total_price": 92360,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:24:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

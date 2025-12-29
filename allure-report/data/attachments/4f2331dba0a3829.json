@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:30:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4589",
+    "etag": "W/\"11ed-tdHkFJq3qQ51lq4A8NrAlI00tTA\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952907f1c508c5d5e482ba4",
+      "status": "Received",
+      "customer": {
+        "_id": "6952907e1c508c5d5e482b38",
+        "email": "Trey.Windler@yahoo.com",
+        "name": "Antoinette Konopelski",
+        "country": "France",
+        "city": "East Garett",
+        "street": "Rohan Pine 29",
+        "house": 563,
+        "flat": 493,
+        "phone": "+907313686832869",
+        "createdOn": "2025-12-29T14:30:22.000Z",
+        "notes": "Uch4zK1vvB1WjN7GxEsHWsOlfi8l7Z"
+      },
+      "products": [
+        {
+          "_id": "6952907f1c508c5d5e482b6e",
+          "name": "Tuna52459",
+          "amount": 823,
+          "price": 6961,
+          "manufacturer": "Apple",
+          "notes": "HRsnllUinHA7K48ryarz05MZNa8NmC3pVN9MbVP5eGGPxneySHlv7I20M50xBLj9I6uJ8gjgcPzFNWBLJOcikxkDNszthS48DHTpoDw201MICdeRcRXgLXryWiBqL84cCCsgrS6owBPMyEPTblyXyojOzKKzZcpKRYqwPZ7MLcM8a5vSMvYiOzAfcIe2Jfz2qY75dNoSnd3kUPrsw3JwdaMoEU6szn4Jn44WqhmxuZE4LC5d1mlnG5SVZs",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Michelefield",
+          "street": "Wisoky Rapid",
+          "house": 850,
+          "flat": 3721
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 6961,
+      "createdOn": "2025-12-29T14:30:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6952907e1c508c5d5e482b38",
+          "products": [
+            {
+              "_id": "6952907f1c508c5d5e482b6e",
+              "name": "Tuna52459",
+              "amount": 823,
+              "price": 6961,
+              "manufacturer": "Apple",
+              "notes": "HRsnllUinHA7K48ryarz05MZNa8NmC3pVN9MbVP5eGGPxneySHlv7I20M50xBLj9I6uJ8gjgcPzFNWBLJOcikxkDNszthS48DHTpoDw201MICdeRcRXgLXryWiBqL84cCCsgrS6owBPMyEPTblyXyojOzKKzZcpKRYqwPZ7MLcM8a5vSMvYiOzAfcIe2Jfz2qY75dNoSnd3kUPrsw3JwdaMoEU6szn4Jn44WqhmxuZE4LC5d1mlnG5SVZs",
+              "received": true
+            }
+          ],
+          "total_price": 6961,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Michelefield",
+              "street": "Wisoky Rapid",
+              "house": 850,
+              "flat": 3721
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:30:24.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6952907e1c508c5d5e482b38",
+          "products": [
+            {
+              "_id": "6952907f1c508c5d5e482b6e",
+              "name": "Tuna52459",
+              "amount": 823,
+              "price": 6961,
+              "manufacturer": "Apple",
+              "notes": "HRsnllUinHA7K48ryarz05MZNa8NmC3pVN9MbVP5eGGPxneySHlv7I20M50xBLj9I6uJ8gjgcPzFNWBLJOcikxkDNszthS48DHTpoDw201MICdeRcRXgLXryWiBqL84cCCsgrS6owBPMyEPTblyXyojOzKKzZcpKRYqwPZ7MLcM8a5vSMvYiOzAfcIe2Jfz2qY75dNoSnd3kUPrsw3JwdaMoEU6szn4Jn44WqhmxuZE4LC5d1mlnG5SVZs",
+              "received": false
+            }
+          ],
+          "total_price": 6961,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Michelefield",
+              "street": "Wisoky Rapid",
+              "house": 850,
+              "flat": 3721
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:30:23.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952907e1c508c5d5e482b38",
+          "products": [
+            {
+              "_id": "6952907f1c508c5d5e482b6e",
+              "name": "Tuna52459",
+              "amount": 823,
+              "price": 6961,
+              "manufacturer": "Apple",
+              "notes": "HRsnllUinHA7K48ryarz05MZNa8NmC3pVN9MbVP5eGGPxneySHlv7I20M50xBLj9I6uJ8gjgcPzFNWBLJOcikxkDNszthS48DHTpoDw201MICdeRcRXgLXryWiBqL84cCCsgrS6owBPMyEPTblyXyojOzKKzZcpKRYqwPZ7MLcM8a5vSMvYiOzAfcIe2Jfz2qY75dNoSnd3kUPrsw3JwdaMoEU6szn4Jn44WqhmxuZE4LC5d1mlnG5SVZs",
+              "received": false
+            }
+          ],
+          "total_price": 6961,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Michelefield",
+              "street": "Wisoky Rapid",
+              "house": 850,
+              "flat": 3721
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:30:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952907e1c508c5d5e482b38",
+          "products": [
+            {
+              "_id": "6952907f1c508c5d5e482b6e",
+              "name": "Tuna52459",
+              "amount": 823,
+              "price": 6961,
+              "manufacturer": "Apple",
+              "notes": "HRsnllUinHA7K48ryarz05MZNa8NmC3pVN9MbVP5eGGPxneySHlv7I20M50xBLj9I6uJ8gjgcPzFNWBLJOcikxkDNszthS48DHTpoDw201MICdeRcRXgLXryWiBqL84cCCsgrS6owBPMyEPTblyXyojOzKKzZcpKRYqwPZ7MLcM8a5vSMvYiOzAfcIe2Jfz2qY75dNoSnd3kUPrsw3JwdaMoEU6szn4Jn44WqhmxuZE4LC5d1mlnG5SVZs",
+              "received": false
+            }
+          ],
+          "total_price": 6961,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:30:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

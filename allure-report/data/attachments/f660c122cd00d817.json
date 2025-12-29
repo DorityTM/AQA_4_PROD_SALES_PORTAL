@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:24:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6508",
+    "etag": "W/\"196c-OAZSJS/sEiEgz8U7xp0lWWsrBwU\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69528f191c508c5d5e4787a3",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "69528f161c508c5d5e478697",
+        "email": "Kristian_Luettgen@gmail.com",
+        "name": "Roxanne Kovacek",
+        "country": "Germany",
+        "city": "Stratford",
+        "street": "Chester Road 66",
+        "house": 772,
+        "flat": 2589,
+        "phone": "+037565808389058",
+        "createdOn": "2025-12-29T14:24:22.000Z",
+        "notes": "IUHh67jRz9gKLDcTVw0goPddiFY1aB"
+      },
+      "products": [
+        {
+          "_id": "69528f181c508c5d5e478733",
+          "name": "Car99770",
+          "amount": 307,
+          "price": 80578,
+          "manufacturer": "Tesla",
+          "notes": "7IwUj2KZVvZepjVcCHE8bIbUbnCquHEgRQHyMb6QlNt7n4xGVVL4GAYD4GFyn4ENmWjDPU2TcjFB2XRn8EaFckk4T7iEWW97Z6QkRm95Jzd7Cm0XmWJ5gnBASVKLEiBfWeHoG8YBxTOk6GD5eZtdZR7lVKiDtlgkArG98BcrYE9VwS86HmAox0V2zzXsp3cU2aAflbdXwNhPeKcypmB81Kpf7En4o7koCoW5F4pwjaaLEedWUsJuj8r5jU",
+          "received": true
+        },
+        {
+          "_id": "69528f181c508c5d5e478789",
+          "name": "Soap19711",
+          "amount": 751,
+          "price": 65154,
+          "manufacturer": "Sony",
+          "notes": "CtYNodY42Yswi5WQei0eZNeIoZqmMIffggVoYGh9BLdjlOIolZKn4a2Hun6al0nu3JYSLpF3iKYydy73uvUQ3jLQ1K58NjiZN0HVlJ99DBTp084qc9xAZqUUm5DYPTzfsY69q4GNObzxBcLZI4KB3B2jk9TOEVRKGdE6cDhmIaMqawnHQAvyX2fHHIyzhzurK47b580eqtTUsp5DmqbYxgABpsUZZOeLJ5IVKBlBSntPyxGe7uv3eh9Nd3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Newellside",
+          "street": "Marcelle Ways",
+          "house": 771,
+          "flat": 9903
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 145732,
+      "createdOn": "2025-12-29T14:24:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "69528f161c508c5d5e478697",
+          "products": [
+            {
+              "_id": "69528f181c508c5d5e478733",
+              "name": "Car99770",
+              "amount": 307,
+              "price": 80578,
+              "manufacturer": "Tesla",
+              "notes": "7IwUj2KZVvZepjVcCHE8bIbUbnCquHEgRQHyMb6QlNt7n4xGVVL4GAYD4GFyn4ENmWjDPU2TcjFB2XRn8EaFckk4T7iEWW97Z6QkRm95Jzd7Cm0XmWJ5gnBASVKLEiBfWeHoG8YBxTOk6GD5eZtdZR7lVKiDtlgkArG98BcrYE9VwS86HmAox0V2zzXsp3cU2aAflbdXwNhPeKcypmB81Kpf7En4o7koCoW5F4pwjaaLEedWUsJuj8r5jU",
+              "received": true
+            },
+            {
+              "_id": "69528f181c508c5d5e478789",
+              "name": "Soap19711",
+              "amount": 751,
+              "price": 65154,
+              "manufacturer": "Sony",
+              "notes": "CtYNodY42Yswi5WQei0eZNeIoZqmMIffggVoYGh9BLdjlOIolZKn4a2Hun6al0nu3JYSLpF3iKYydy73uvUQ3jLQ1K58NjiZN0HVlJ99DBTp084qc9xAZqUUm5DYPTzfsY69q4GNObzxBcLZI4KB3B2jk9TOEVRKGdE6cDhmIaMqawnHQAvyX2fHHIyzhzurK47b580eqtTUsp5DmqbYxgABpsUZZOeLJ5IVKBlBSntPyxGe7uv3eh9Nd3",
+              "received": false
+            }
+          ],
+          "total_price": 145732,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Newellside",
+              "street": "Marcelle Ways",
+              "house": 771,
+              "flat": 9903
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:24:26.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69528f161c508c5d5e478697",
+          "products": [
+            {
+              "_id": "69528f181c508c5d5e478733",
+              "name": "Car99770",
+              "amount": 307,
+              "price": 80578,
+              "manufacturer": "Tesla",
+              "notes": "7IwUj2KZVvZepjVcCHE8bIbUbnCquHEgRQHyMb6QlNt7n4xGVVL4GAYD4GFyn4ENmWjDPU2TcjFB2XRn8EaFckk4T7iEWW97Z6QkRm95Jzd7Cm0XmWJ5gnBASVKLEiBfWeHoG8YBxTOk6GD5eZtdZR7lVKiDtlgkArG98BcrYE9VwS86HmAox0V2zzXsp3cU2aAflbdXwNhPeKcypmB81Kpf7En4o7koCoW5F4pwjaaLEedWUsJuj8r5jU",
+              "received": false
+            },
+            {
+              "_id": "69528f181c508c5d5e478789",
+              "name": "Soap19711",
+              "amount": 751,
+              "price": 65154,
+              "manufacturer": "Sony",
+              "notes": "CtYNodY42Yswi5WQei0eZNeIoZqmMIffggVoYGh9BLdjlOIolZKn4a2Hun6al0nu3JYSLpF3iKYydy73uvUQ3jLQ1K58NjiZN0HVlJ99DBTp084qc9xAZqUUm5DYPTzfsY69q4GNObzxBcLZI4KB3B2jk9TOEVRKGdE6cDhmIaMqawnHQAvyX2fHHIyzhzurK47b580eqtTUsp5DmqbYxgABpsUZZOeLJ5IVKBlBSntPyxGe7uv3eh9Nd3",
+              "received": false
+            }
+          ],
+          "total_price": 145732,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Newellside",
+              "street": "Marcelle Ways",
+              "house": 771,
+              "flat": 9903
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:24:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f161c508c5d5e478697",
+          "products": [
+            {
+              "_id": "69528f181c508c5d5e478733",
+              "name": "Car99770",
+              "amount": 307,
+              "price": 80578,
+              "manufacturer": "Tesla",
+              "notes": "7IwUj2KZVvZepjVcCHE8bIbUbnCquHEgRQHyMb6QlNt7n4xGVVL4GAYD4GFyn4ENmWjDPU2TcjFB2XRn8EaFckk4T7iEWW97Z6QkRm95Jzd7Cm0XmWJ5gnBASVKLEiBfWeHoG8YBxTOk6GD5eZtdZR7lVKiDtlgkArG98BcrYE9VwS86HmAox0V2zzXsp3cU2aAflbdXwNhPeKcypmB81Kpf7En4o7koCoW5F4pwjaaLEedWUsJuj8r5jU",
+              "received": false
+            },
+            {
+              "_id": "69528f181c508c5d5e478789",
+              "name": "Soap19711",
+              "amount": 751,
+              "price": 65154,
+              "manufacturer": "Sony",
+              "notes": "CtYNodY42Yswi5WQei0eZNeIoZqmMIffggVoYGh9BLdjlOIolZKn4a2Hun6al0nu3JYSLpF3iKYydy73uvUQ3jLQ1K58NjiZN0HVlJ99DBTp084qc9xAZqUUm5DYPTzfsY69q4GNObzxBcLZI4KB3B2jk9TOEVRKGdE6cDhmIaMqawnHQAvyX2fHHIyzhzurK47b580eqtTUsp5DmqbYxgABpsUZZOeLJ5IVKBlBSntPyxGe7uv3eh9Nd3",
+              "received": false
+            }
+          ],
+          "total_price": 145732,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Newellside",
+              "street": "Marcelle Ways",
+              "house": 771,
+              "flat": 9903
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:24:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f161c508c5d5e478697",
+          "products": [
+            {
+              "_id": "69528f181c508c5d5e478733",
+              "name": "Car99770",
+              "amount": 307,
+              "price": 80578,
+              "manufacturer": "Tesla",
+              "notes": "7IwUj2KZVvZepjVcCHE8bIbUbnCquHEgRQHyMb6QlNt7n4xGVVL4GAYD4GFyn4ENmWjDPU2TcjFB2XRn8EaFckk4T7iEWW97Z6QkRm95Jzd7Cm0XmWJ5gnBASVKLEiBfWeHoG8YBxTOk6GD5eZtdZR7lVKiDtlgkArG98BcrYE9VwS86HmAox0V2zzXsp3cU2aAflbdXwNhPeKcypmB81Kpf7En4o7koCoW5F4pwjaaLEedWUsJuj8r5jU",
+              "received": false
+            },
+            {
+              "_id": "69528f181c508c5d5e478789",
+              "name": "Soap19711",
+              "amount": 751,
+              "price": 65154,
+              "manufacturer": "Sony",
+              "notes": "CtYNodY42Yswi5WQei0eZNeIoZqmMIffggVoYGh9BLdjlOIolZKn4a2Hun6al0nu3JYSLpF3iKYydy73uvUQ3jLQ1K58NjiZN0HVlJ99DBTp084qc9xAZqUUm5DYPTzfsY69q4GNObzxBcLZI4KB3B2jk9TOEVRKGdE6cDhmIaMqawnHQAvyX2fHHIyzhzurK47b580eqtTUsp5DmqbYxgABpsUZZOeLJ5IVKBlBSntPyxGe7uv3eh9Nd3",
+              "received": false
+            }
+          ],
+          "total_price": 145732,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:24:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:26:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2749",
+    "etag": "W/\"abd-/7mtf22p1VHQoq7z3Bl6Uyom7FU\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69528f911c508c5d5e47c008",
+      "status": "Draft",
+      "customer": {
+        "_id": "69528f901c508c5d5e47bf76",
+        "email": "Giles_Von@gmail.com",
+        "name": "Dagmar Bartell",
+        "country": "Ukraine",
+        "city": "New Maddison",
+        "street": "Princess Street 7",
+        "house": 750,
+        "flat": 8155,
+        "phone": "+198917224704549",
+        "createdOn": "2025-12-29T14:26:24.000Z",
+        "notes": "7GKpnFWDZGqbZUS3lG3ncgVJ7aHdrb"
+      },
+      "products": [
+        {
+          "_id": "69528f911c508c5d5e47bff4",
+          "name": "Salad5597",
+          "amount": 90,
+          "price": 71526,
+          "manufacturer": "Apple",
+          "notes": "FYxkS9wM5bHKSN7dCYu5Y2MiMqFGHmm06mFIT8yNwueDLO1xkXcpiqixVTxrxX2EEwxVqGa4AWhAjFIGa3tlTuEYiJJvwXBswDXno2IjOMzNgpkzEUuXvL0uLvW9eUJzCdh9tzA8xmV12DycHtaBEMGcVFa8h5xrvv3lC1NjTQwsMsA7ijC5fSoVDE0p6xWKdacOWqbYYd6QjDKt3baayYdP1C7erlXhZm3UIpe6HdOUMV0yfnk70oiGYu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Leilanibury",
+          "street": "Lew Street",
+          "house": 307,
+          "flat": 1697
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 71526,
+      "createdOn": "2025-12-29T14:26:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69528f901c508c5d5e47bf76",
+          "products": [
+            {
+              "_id": "69528f911c508c5d5e47bff4",
+              "name": "Salad5597",
+              "amount": 90,
+              "price": 71526,
+              "manufacturer": "Apple",
+              "notes": "FYxkS9wM5bHKSN7dCYu5Y2MiMqFGHmm06mFIT8yNwueDLO1xkXcpiqixVTxrxX2EEwxVqGa4AWhAjFIGa3tlTuEYiJJvwXBswDXno2IjOMzNgpkzEUuXvL0uLvW9eUJzCdh9tzA8xmV12DycHtaBEMGcVFa8h5xrvv3lC1NjTQwsMsA7ijC5fSoVDE0p6xWKdacOWqbYYd6QjDKt3baayYdP1C7erlXhZm3UIpe6HdOUMV0yfnk70oiGYu",
+              "received": false
+            }
+          ],
+          "total_price": 71526,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Leilanibury",
+              "street": "Lew Street",
+              "house": 307,
+              "flat": 1697
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:26:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f901c508c5d5e47bf76",
+          "products": [
+            {
+              "_id": "69528f911c508c5d5e47bff4",
+              "name": "Salad5597",
+              "amount": 90,
+              "price": 71526,
+              "manufacturer": "Apple",
+              "notes": "FYxkS9wM5bHKSN7dCYu5Y2MiMqFGHmm06mFIT8yNwueDLO1xkXcpiqixVTxrxX2EEwxVqGa4AWhAjFIGa3tlTuEYiJJvwXBswDXno2IjOMzNgpkzEUuXvL0uLvW9eUJzCdh9tzA8xmV12DycHtaBEMGcVFa8h5xrvv3lC1NjTQwsMsA7ijC5fSoVDE0p6xWKdacOWqbYYd6QjDKt3baayYdP1C7erlXhZm3UIpe6HdOUMV0yfnk70oiGYu",
+              "received": false
+            }
+          ],
+          "total_price": 71526,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:26:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

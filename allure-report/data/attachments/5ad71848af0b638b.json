@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:26:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4617",
+    "etag": "W/\"1209-2+ZBfZCLU6RV84bFs79aoGJ69Ts\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69528f9a1c508c5d5e47c517",
+      "status": "Received",
+      "customer": {
+        "_id": "69528f971c508c5d5e47c2f7",
+        "email": "Kathryne25@yahoo.com",
+        "name": "Jordi Kuphal",
+        "country": "Germany",
+        "city": "National City",
+        "street": "Marquardt Crossing 51",
+        "house": 242,
+        "flat": 4249,
+        "phone": "+161494421447975",
+        "createdOn": "2025-12-29T14:26:31.000Z",
+        "notes": "XoTY4jWM8mOPlaVIFXNOnkqpWvbxa9"
+      },
+      "products": [
+        {
+          "_id": "69528f991c508c5d5e47c505",
+          "name": "Pizza48777",
+          "amount": 290,
+          "price": 47528,
+          "manufacturer": "Tesla",
+          "notes": "HUH9Bp6VT73NvSxP1YQqncmBGE9gEOn5H2qSRvviBVgITxh2b06EoJUDx3fulkggxtKNXfCZA2N8Foa4vpHZfjeTrk3CT25ZYbeTf1wVx0KanaKA9aHnYp4A6K5ESOXTyhi1tcMzIZxece7wE8OQXPk4qEJplf9SpCAguYttYFytVqdRBEdvDpSgO8jTrYJedIx8vFJArsfD8HKQaKWUPPawyYswUgSSpYVdHErc75JjNvgIXyVjtUqD7b",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Karli",
+          "street": "Sonny Haven",
+          "house": 144,
+          "flat": 4828
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47528,
+      "createdOn": "2025-12-29T14:26:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69528f971c508c5d5e47c2f7",
+          "products": [
+            {
+              "_id": "69528f991c508c5d5e47c505",
+              "name": "Pizza48777",
+              "amount": 290,
+              "price": 47528,
+              "manufacturer": "Tesla",
+              "notes": "HUH9Bp6VT73NvSxP1YQqncmBGE9gEOn5H2qSRvviBVgITxh2b06EoJUDx3fulkggxtKNXfCZA2N8Foa4vpHZfjeTrk3CT25ZYbeTf1wVx0KanaKA9aHnYp4A6K5ESOXTyhi1tcMzIZxece7wE8OQXPk4qEJplf9SpCAguYttYFytVqdRBEdvDpSgO8jTrYJedIx8vFJArsfD8HKQaKWUPPawyYswUgSSpYVdHErc75JjNvgIXyVjtUqD7b",
+              "received": true
+            }
+          ],
+          "total_price": 47528,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Karli",
+              "street": "Sonny Haven",
+              "house": 144,
+              "flat": 4828
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:26:35.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69528f971c508c5d5e47c2f7",
+          "products": [
+            {
+              "_id": "69528f991c508c5d5e47c505",
+              "name": "Pizza48777",
+              "amount": 290,
+              "price": 47528,
+              "manufacturer": "Tesla",
+              "notes": "HUH9Bp6VT73NvSxP1YQqncmBGE9gEOn5H2qSRvviBVgITxh2b06EoJUDx3fulkggxtKNXfCZA2N8Foa4vpHZfjeTrk3CT25ZYbeTf1wVx0KanaKA9aHnYp4A6K5ESOXTyhi1tcMzIZxece7wE8OQXPk4qEJplf9SpCAguYttYFytVqdRBEdvDpSgO8jTrYJedIx8vFJArsfD8HKQaKWUPPawyYswUgSSpYVdHErc75JjNvgIXyVjtUqD7b",
+              "received": false
+            }
+          ],
+          "total_price": 47528,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Karli",
+              "street": "Sonny Haven",
+              "house": 144,
+              "flat": 4828
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:26:35.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f971c508c5d5e47c2f7",
+          "products": [
+            {
+              "_id": "69528f991c508c5d5e47c505",
+              "name": "Pizza48777",
+              "amount": 290,
+              "price": 47528,
+              "manufacturer": "Tesla",
+              "notes": "HUH9Bp6VT73NvSxP1YQqncmBGE9gEOn5H2qSRvviBVgITxh2b06EoJUDx3fulkggxtKNXfCZA2N8Foa4vpHZfjeTrk3CT25ZYbeTf1wVx0KanaKA9aHnYp4A6K5ESOXTyhi1tcMzIZxece7wE8OQXPk4qEJplf9SpCAguYttYFytVqdRBEdvDpSgO8jTrYJedIx8vFJArsfD8HKQaKWUPPawyYswUgSSpYVdHErc75JjNvgIXyVjtUqD7b",
+              "received": false
+            }
+          ],
+          "total_price": 47528,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Karli",
+              "street": "Sonny Haven",
+              "house": 144,
+              "flat": 4828
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:26:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f971c508c5d5e47c2f7",
+          "products": [
+            {
+              "_id": "69528f991c508c5d5e47c505",
+              "name": "Pizza48777",
+              "amount": 290,
+              "price": 47528,
+              "manufacturer": "Tesla",
+              "notes": "HUH9Bp6VT73NvSxP1YQqncmBGE9gEOn5H2qSRvviBVgITxh2b06EoJUDx3fulkggxtKNXfCZA2N8Foa4vpHZfjeTrk3CT25ZYbeTf1wVx0KanaKA9aHnYp4A6K5ESOXTyhi1tcMzIZxece7wE8OQXPk4qEJplf9SpCAguYttYFytVqdRBEdvDpSgO8jTrYJedIx8vFJArsfD8HKQaKWUPPawyYswUgSSpYVdHErc75JjNvgIXyVjtUqD7b",
+              "received": false
+            }
+          ],
+          "total_price": 47528,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:26:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

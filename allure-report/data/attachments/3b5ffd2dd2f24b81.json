@@ -1,0 +1,184 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:29:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3911",
+    "etag": "W/\"f47-R9OeJyWEPexfxcK7k4Kd/b53bDo\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695290371c508c5d5e48073a",
+      "status": "In Process",
+      "customer": {
+        "_id": "695290361c508c5d5e4806e4",
+        "email": "Juvenal96@hotmail.com",
+        "name": "Gustave Hartmann",
+        "country": "USA",
+        "city": "New Willie",
+        "street": "Karen Manor 49",
+        "house": 194,
+        "flat": 9309,
+        "phone": "+109721675513951",
+        "createdOn": "2025-12-29T14:29:10.000Z",
+        "notes": "C6WhqzpI2ygnAIOoXvWG6bJD8wUh1d"
+      },
+      "products": [
+        {
+          "_id": "695290371c508c5d5e480719",
+          "name": "Sausages32795",
+          "amount": 538,
+          "price": 79973,
+          "manufacturer": "Google",
+          "notes": "IGfuqC4DWAJQyQn2KXjwwifYy9kwHvLfFFuQhHPjWHWjP0ie2L9wGaOv8B9beRSyCHjTZEdtB2n97ZsuFTYrJtxTPm8GruuFyxWXy6buZ2MU6HPeDcNLNQIlV5knGTj1xufAlPVbww2v9ZqVlamwOLRXvkqUqkIeVzQ8owCdprtAdP0dxzrmIftNBtnbHtc86s3NivNC4ug89Vip3US8kzYDTQ8xE32zbioT8UXAJyflpf8d5kT9N39Yku",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "East Adellberg",
+          "street": "Gleichner Ranch",
+          "house": 45,
+          "flat": 5689
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79973,
+      "createdOn": "2025-12-29T14:29:11.000Z",
+      "comments": [
+        {
+          "text": "Comment 1",
+          "createdOn": "2025-12-29T14:29:13.000Z",
+          "_id": "695290391c508c5d5e48083e"
+        },
+        {
+          "text": "Comment 2",
+          "createdOn": "2025-12-29T14:29:14.000Z",
+          "_id": "6952903a1c508c5d5e48086f"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695290361c508c5d5e4806e4",
+          "products": [
+            {
+              "_id": "695290371c508c5d5e480719",
+              "name": "Sausages32795",
+              "amount": 538,
+              "price": 79973,
+              "manufacturer": "Google",
+              "notes": "IGfuqC4DWAJQyQn2KXjwwifYy9kwHvLfFFuQhHPjWHWjP0ie2L9wGaOv8B9beRSyCHjTZEdtB2n97ZsuFTYrJtxTPm8GruuFyxWXy6buZ2MU6HPeDcNLNQIlV5knGTj1xufAlPVbww2v9ZqVlamwOLRXvkqUqkIeVzQ8owCdprtAdP0dxzrmIftNBtnbHtc86s3NivNC4ug89Vip3US8kzYDTQ8xE32zbioT8UXAJyflpf8d5kT9N39Yku",
+              "received": false
+            }
+          ],
+          "total_price": 79973,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "East Adellberg",
+              "street": "Gleichner Ranch",
+              "house": 45,
+              "flat": 5689
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:29:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695290361c508c5d5e4806e4",
+          "products": [
+            {
+              "_id": "695290371c508c5d5e480719",
+              "name": "Sausages32795",
+              "amount": 538,
+              "price": 79973,
+              "manufacturer": "Google",
+              "notes": "IGfuqC4DWAJQyQn2KXjwwifYy9kwHvLfFFuQhHPjWHWjP0ie2L9wGaOv8B9beRSyCHjTZEdtB2n97ZsuFTYrJtxTPm8GruuFyxWXy6buZ2MU6HPeDcNLNQIlV5knGTj1xufAlPVbww2v9ZqVlamwOLRXvkqUqkIeVzQ8owCdprtAdP0dxzrmIftNBtnbHtc86s3NivNC4ug89Vip3US8kzYDTQ8xE32zbioT8UXAJyflpf8d5kT9N39Yku",
+              "received": false
+            }
+          ],
+          "total_price": 79973,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "East Adellberg",
+              "street": "Gleichner Ranch",
+              "house": 45,
+              "flat": 5689
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:29:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695290361c508c5d5e4806e4",
+          "products": [
+            {
+              "_id": "695290371c508c5d5e480719",
+              "name": "Sausages32795",
+              "amount": 538,
+              "price": 79973,
+              "manufacturer": "Google",
+              "notes": "IGfuqC4DWAJQyQn2KXjwwifYy9kwHvLfFFuQhHPjWHWjP0ie2L9wGaOv8B9beRSyCHjTZEdtB2n97ZsuFTYrJtxTPm8GruuFyxWXy6buZ2MU6HPeDcNLNQIlV5knGTj1xufAlPVbww2v9ZqVlamwOLRXvkqUqkIeVzQ8owCdprtAdP0dxzrmIftNBtnbHtc86s3NivNC4ug89Vip3US8kzYDTQ8xE32zbioT8UXAJyflpf8d5kT9N39Yku",
+              "received": false
+            }
+          ],
+          "total_price": 79973,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:29:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

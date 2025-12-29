@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:29:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3712",
+    "etag": "W/\"e80-K84KJiCXiyoyYeJaHIK0Elm3tE8\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952905f1c508c5d5e481a9c",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6952905d1c508c5d5e481910",
+        "email": "Olga.Huels-Wolf@gmail.com",
+        "name": "Ferne DuBuque",
+        "country": "Canada",
+        "city": "Wiegandfurt",
+        "street": "Kamryn Pines 13",
+        "house": 817,
+        "flat": 6817,
+        "phone": "+192261546200784",
+        "createdOn": "2025-12-29T14:29:49.000Z",
+        "notes": "uURpOrzA3LwnDzM6oY8rWP3qEiRN9L"
+      },
+      "products": [
+        {
+          "_id": "6952905e1c508c5d5e4819cc",
+          "name": "Shoes29044",
+          "amount": 318,
+          "price": 98511,
+          "manufacturer": "Microsoft",
+          "notes": "ssXRDzkjNAiN9FpAhhvs8aHaNP1jBkwFi4WXsc6sLouGyZBkb4t8tWZ3P4M6EkUhrFEAtoccxFAaodwp8b86wNGePnGigtVb5pI85bZ0nanAQ6wsJCVVUzlEJe7nMarXC1SnuLlxQU3P3BQOe99paV3BUK1EmTg35V3GeUphdHrzk7WKad5maAytfB7u19KZdScmrblrWIO4CcDkhIGUbCFVFFlIpXTeU7cKr08oLyY81v3Y4fniiXK8d9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Goldnerhaven",
+          "street": "Kovacek Shoals",
+          "house": 404,
+          "flat": 2992
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98511,
+      "createdOn": "2025-12-29T14:29:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6952905d1c508c5d5e481910",
+          "products": [
+            {
+              "_id": "6952905e1c508c5d5e4819cc",
+              "name": "Shoes29044",
+              "amount": 318,
+              "price": 98511,
+              "manufacturer": "Microsoft",
+              "notes": "ssXRDzkjNAiN9FpAhhvs8aHaNP1jBkwFi4WXsc6sLouGyZBkb4t8tWZ3P4M6EkUhrFEAtoccxFAaodwp8b86wNGePnGigtVb5pI85bZ0nanAQ6wsJCVVUzlEJe7nMarXC1SnuLlxQU3P3BQOe99paV3BUK1EmTg35V3GeUphdHrzk7WKad5maAytfB7u19KZdScmrblrWIO4CcDkhIGUbCFVFFlIpXTeU7cKr08oLyY81v3Y4fniiXK8d9",
+              "received": false
+            }
+          ],
+          "total_price": 98511,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Goldnerhaven",
+              "street": "Kovacek Shoals",
+              "house": 404,
+              "flat": 2992
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:29:52.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952905d1c508c5d5e481910",
+          "products": [
+            {
+              "_id": "6952905e1c508c5d5e4819cc",
+              "name": "Shoes29044",
+              "amount": 318,
+              "price": 98511,
+              "manufacturer": "Microsoft",
+              "notes": "ssXRDzkjNAiN9FpAhhvs8aHaNP1jBkwFi4WXsc6sLouGyZBkb4t8tWZ3P4M6EkUhrFEAtoccxFAaodwp8b86wNGePnGigtVb5pI85bZ0nanAQ6wsJCVVUzlEJe7nMarXC1SnuLlxQU3P3BQOe99paV3BUK1EmTg35V3GeUphdHrzk7WKad5maAytfB7u19KZdScmrblrWIO4CcDkhIGUbCFVFFlIpXTeU7cKr08oLyY81v3Y4fniiXK8d9",
+              "received": false
+            }
+          ],
+          "total_price": 98511,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Goldnerhaven",
+              "street": "Kovacek Shoals",
+              "house": 404,
+              "flat": 2992
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:29:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952905d1c508c5d5e481910",
+          "products": [
+            {
+              "_id": "6952905e1c508c5d5e4819cc",
+              "name": "Shoes29044",
+              "amount": 318,
+              "price": 98511,
+              "manufacturer": "Microsoft",
+              "notes": "ssXRDzkjNAiN9FpAhhvs8aHaNP1jBkwFi4WXsc6sLouGyZBkb4t8tWZ3P4M6EkUhrFEAtoccxFAaodwp8b86wNGePnGigtVb5pI85bZ0nanAQ6wsJCVVUzlEJe7nMarXC1SnuLlxQU3P3BQOe99paV3BUK1EmTg35V3GeUphdHrzk7WKad5maAytfB7u19KZdScmrblrWIO4CcDkhIGUbCFVFFlIpXTeU7cKr08oLyY81v3Y4fniiXK8d9",
+              "received": false
+            }
+          ],
+          "total_price": 98511,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:29:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

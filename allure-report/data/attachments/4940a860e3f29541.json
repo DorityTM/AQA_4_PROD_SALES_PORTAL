@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 14:26:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3662",
+    "etag": "W/\"e4e-zmpu6DOS1e7nHW3qRpGyifU5RVk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69528f8b1c508c5d5e47bd83",
+      "status": "In Process",
+      "customer": {
+        "_id": "69528f881c508c5d5e47baed",
+        "email": "Dane.Cormier@hotmail.com",
+        "name": "Macie Durgan",
+        "country": "Great Britain",
+        "city": "Mayaguez",
+        "street": "Windermere Road 98",
+        "house": 640,
+        "flat": 9096,
+        "phone": "+000742060251118",
+        "createdOn": "2025-12-29T14:26:16.000Z",
+        "notes": "BT8YLTIyzLQWxnYMozKIp0MtV7fKnq"
+      },
+      "products": [
+        {
+          "_id": "69528f891c508c5d5e47bb75",
+          "name": "Hat82745",
+          "amount": 730,
+          "price": 99085,
+          "manufacturer": "Tesla",
+          "notes": "4MYyHkdOyS2yykOMP9LDYvQv0zW478OuJCZQZgBKRFzB3E4yd6B8jdmVQNCSk8CkpmV0idMhuDl4MqH9vpFKG0oChIoqzCqLFwl7qdbJz28UY0XkFnPafyuYgh0rOS6Bv6eyo1Kq91I7yWPwgNnyJdMk9YcTmzEP0SjqkpXzwXknzeQnojju4ubqFhANXBjjDgT2KodGZozZxGGoHJJatZa5fZ4VnMlu1q8x788zw149JKzE5ReD3hpXvu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "St George",
+          "street": "N Broadway",
+          "house": 565,
+          "flat": 16
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99085,
+      "createdOn": "2025-12-29T14:26:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69528f881c508c5d5e47baed",
+          "products": [
+            {
+              "_id": "69528f891c508c5d5e47bb75",
+              "name": "Hat82745",
+              "amount": 730,
+              "price": 99085,
+              "manufacturer": "Tesla",
+              "notes": "4MYyHkdOyS2yykOMP9LDYvQv0zW478OuJCZQZgBKRFzB3E4yd6B8jdmVQNCSk8CkpmV0idMhuDl4MqH9vpFKG0oChIoqzCqLFwl7qdbJz28UY0XkFnPafyuYgh0rOS6Bv6eyo1Kq91I7yWPwgNnyJdMk9YcTmzEP0SjqkpXzwXknzeQnojju4ubqFhANXBjjDgT2KodGZozZxGGoHJJatZa5fZ4VnMlu1q8x788zw149JKzE5ReD3hpXvu",
+              "received": false
+            }
+          ],
+          "total_price": 99085,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "St George",
+              "street": "N Broadway",
+              "house": 565,
+              "flat": 16
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:26:20.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f881c508c5d5e47baed",
+          "products": [
+            {
+              "_id": "69528f891c508c5d5e47bb75",
+              "name": "Hat82745",
+              "amount": 730,
+              "price": 99085,
+              "manufacturer": "Tesla",
+              "notes": "4MYyHkdOyS2yykOMP9LDYvQv0zW478OuJCZQZgBKRFzB3E4yd6B8jdmVQNCSk8CkpmV0idMhuDl4MqH9vpFKG0oChIoqzCqLFwl7qdbJz28UY0XkFnPafyuYgh0rOS6Bv6eyo1Kq91I7yWPwgNnyJdMk9YcTmzEP0SjqkpXzwXknzeQnojju4ubqFhANXBjjDgT2KodGZozZxGGoHJJatZa5fZ4VnMlu1q8x788zw149JKzE5ReD3hpXvu",
+              "received": false
+            }
+          ],
+          "total_price": 99085,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "St George",
+              "street": "N Broadway",
+              "house": 565,
+              "flat": 16
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T14:26:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69528f881c508c5d5e47baed",
+          "products": [
+            {
+              "_id": "69528f891c508c5d5e47bb75",
+              "name": "Hat82745",
+              "amount": 730,
+              "price": 99085,
+              "manufacturer": "Tesla",
+              "notes": "4MYyHkdOyS2yykOMP9LDYvQv0zW478OuJCZQZgBKRFzB3E4yd6B8jdmVQNCSk8CkpmV0idMhuDl4MqH9vpFKG0oChIoqzCqLFwl7qdbJz28UY0XkFnPafyuYgh0rOS6Bv6eyo1Kq91I7yWPwgNnyJdMk9YcTmzEP0SjqkpXzwXknzeQnojju4ubqFhANXBjjDgT2KodGZozZxGGoHJJatZa5fZ4VnMlu1q8x788zw149JKzE5ReD3hpXvu",
+              "received": false
+            }
+          ],
+          "total_price": 99085,
+          "delivery": null,
+          "changedOn": "2025-12-29T14:26:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
