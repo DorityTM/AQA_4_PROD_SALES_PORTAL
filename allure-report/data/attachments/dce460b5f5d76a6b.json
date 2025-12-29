@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:05:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2758",
+    "etag": "W/\"ac6-lmDFl+pHBwI13lOTGkji3eNrgZg\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fb181c508c5d5e4cf8bf",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952fb171c508c5d5e4cf88e",
+        "email": "Dejon57@hotmail.com",
+        "name": "Vilma Adams",
+        "country": "Germany",
+        "city": "Harbershire",
+        "street": "Welch Spur 83",
+        "house": 259,
+        "flat": 1830,
+        "phone": "+436058306045534",
+        "createdOn": "2025-12-29T22:05:11.000Z",
+        "notes": "V636kqIibMgofWbfvPRXn8flcLDq70"
+      },
+      "products": [
+        {
+          "_id": "6952fb181c508c5d5e4cf8b0",
+          "name": "Table1546",
+          "amount": 841,
+          "price": 53014,
+          "manufacturer": "Samsung",
+          "notes": "umt5ICN5oQVNbCd3cVY7dTVZ72tssaABMqzDNEUVABcBCdvA1NrgqrYHpdM0DvoolyF67D8fVSbsjf5NIqdi7oLJnjwYnfYRklqHp9r07NByDsEXB1SLaav8FTHJcm7TnrbneYJoXwHGGV68ZnGUUCvHDjYslPxhhT8Cxzw4OWTdNKE1aRseFkDETnqET23UA0hRVFyIX5pT25w6tMO4Pmti2XTYtbTrxbvNW2oQ5Q3BaQQlxb0LIlXcrx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "West Kenport",
+          "street": "Fatima Forge",
+          "house": 489,
+          "flat": 8529
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53014,
+      "createdOn": "2025-12-29T22:05:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952fb171c508c5d5e4cf88e",
+          "products": [
+            {
+              "_id": "6952fb181c508c5d5e4cf8b0",
+              "name": "Table1546",
+              "amount": 841,
+              "price": 53014,
+              "manufacturer": "Samsung",
+              "notes": "umt5ICN5oQVNbCd3cVY7dTVZ72tssaABMqzDNEUVABcBCdvA1NrgqrYHpdM0DvoolyF67D8fVSbsjf5NIqdi7oLJnjwYnfYRklqHp9r07NByDsEXB1SLaav8FTHJcm7TnrbneYJoXwHGGV68ZnGUUCvHDjYslPxhhT8Cxzw4OWTdNKE1aRseFkDETnqET23UA0hRVFyIX5pT25w6tMO4Pmti2XTYtbTrxbvNW2oQ5Q3BaQQlxb0LIlXcrx",
+              "received": false
+            }
+          ],
+          "total_price": 53014,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Kenport",
+              "street": "Fatima Forge",
+              "house": 489,
+              "flat": 8529
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:05:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fb171c508c5d5e4cf88e",
+          "products": [
+            {
+              "_id": "6952fb181c508c5d5e4cf8b0",
+              "name": "Table1546",
+              "amount": 841,
+              "price": 53014,
+              "manufacturer": "Samsung",
+              "notes": "umt5ICN5oQVNbCd3cVY7dTVZ72tssaABMqzDNEUVABcBCdvA1NrgqrYHpdM0DvoolyF67D8fVSbsjf5NIqdi7oLJnjwYnfYRklqHp9r07NByDsEXB1SLaav8FTHJcm7TnrbneYJoXwHGGV68ZnGUUCvHDjYslPxhhT8Cxzw4OWTdNKE1aRseFkDETnqET23UA0hRVFyIX5pT25w6tMO4Pmti2XTYtbTrxbvNW2oQ5Q3BaQQlxb0LIlXcrx",
+              "received": false
+            }
+          ],
+          "total_price": 53014,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:05:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

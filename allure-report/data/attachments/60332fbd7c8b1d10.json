@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:14:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3655",
+    "etag": "W/\"e47-hPmhudDX67Ydewn4tAtiCnt4/ws\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fd531c508c5d5e4e1986",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952fd521c508c5d5e4e1902",
+        "email": "Tamia.Lemke@yahoo.com",
+        "name": "Elvis VonRueden",
+        "country": "Russia",
+        "city": "Ratkeboro",
+        "street": "Koepp Course 1",
+        "house": 584,
+        "flat": 4038,
+        "phone": "+243316306943054",
+        "createdOn": "2025-12-29T22:14:42.000Z",
+        "notes": "ISFkEwvTNXoiiK8QdqOxnPD53nJszG"
+      },
+      "products": [
+        {
+          "_id": "6952fd531c508c5d5e4e196a",
+          "name": "Shirt48982",
+          "amount": 359,
+          "price": 51672,
+          "manufacturer": "Google",
+          "notes": "cbpd5SnFwdWhoMFxgDhOxV16KwmJNz32fOuZHNCE7YKsZbStc5ViPXEWEDomi71Qs428bmODVzI4Zj8mzN7MTn6vCLKA4VVfB4CnHT0TcDaPrVfpmiU5vOkayk7VGbPedxDShaRcv27f7HdoFVBhh39ZyBr0T31QfrDpNo6wx8DhJ4JQEFNncxxzVKDEXrq0xsLwBdWiOQzyWY0CMMP4orn0z7KNlhKXxFwA7mYk2ucBMBmfL89JLePgvO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Eagan",
+          "street": "Tia Fields",
+          "house": 844,
+          "flat": 1168
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51672,
+      "createdOn": "2025-12-29T22:14:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952fd521c508c5d5e4e1902",
+          "products": [
+            {
+              "_id": "6952fd531c508c5d5e4e196a",
+              "name": "Shirt48982",
+              "amount": 359,
+              "price": 51672,
+              "manufacturer": "Google",
+              "notes": "cbpd5SnFwdWhoMFxgDhOxV16KwmJNz32fOuZHNCE7YKsZbStc5ViPXEWEDomi71Qs428bmODVzI4Zj8mzN7MTn6vCLKA4VVfB4CnHT0TcDaPrVfpmiU5vOkayk7VGbPedxDShaRcv27f7HdoFVBhh39ZyBr0T31QfrDpNo6wx8DhJ4JQEFNncxxzVKDEXrq0xsLwBdWiOQzyWY0CMMP4orn0z7KNlhKXxFwA7mYk2ucBMBmfL89JLePgvO",
+              "received": false
+            }
+          ],
+          "total_price": 51672,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Eagan",
+              "street": "Tia Fields",
+              "house": 844,
+              "flat": 1168
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:14:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fd521c508c5d5e4e1902",
+          "products": [
+            {
+              "_id": "6952fd531c508c5d5e4e196a",
+              "name": "Shirt48982",
+              "amount": 359,
+              "price": 51672,
+              "manufacturer": "Google",
+              "notes": "cbpd5SnFwdWhoMFxgDhOxV16KwmJNz32fOuZHNCE7YKsZbStc5ViPXEWEDomi71Qs428bmODVzI4Zj8mzN7MTn6vCLKA4VVfB4CnHT0TcDaPrVfpmiU5vOkayk7VGbPedxDShaRcv27f7HdoFVBhh39ZyBr0T31QfrDpNo6wx8DhJ4JQEFNncxxzVKDEXrq0xsLwBdWiOQzyWY0CMMP4orn0z7KNlhKXxFwA7mYk2ucBMBmfL89JLePgvO",
+              "received": false
+            }
+          ],
+          "total_price": 51672,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Eagan",
+              "street": "Tia Fields",
+              "house": 844,
+              "flat": 1168
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:14:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fd521c508c5d5e4e1902",
+          "products": [
+            {
+              "_id": "6952fd531c508c5d5e4e196a",
+              "name": "Shirt48982",
+              "amount": 359,
+              "price": 51672,
+              "manufacturer": "Google",
+              "notes": "cbpd5SnFwdWhoMFxgDhOxV16KwmJNz32fOuZHNCE7YKsZbStc5ViPXEWEDomi71Qs428bmODVzI4Zj8mzN7MTn6vCLKA4VVfB4CnHT0TcDaPrVfpmiU5vOkayk7VGbPedxDShaRcv27f7HdoFVBhh39ZyBr0T31QfrDpNo6wx8DhJ4JQEFNncxxzVKDEXrq0xsLwBdWiOQzyWY0CMMP4orn0z7KNlhKXxFwA7mYk2ucBMBmfL89JLePgvO",
+              "received": false
+            }
+          ],
+          "total_price": 51672,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:14:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

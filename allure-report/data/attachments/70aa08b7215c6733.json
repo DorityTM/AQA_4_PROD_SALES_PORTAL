@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:14:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-oNEZ4+Jj7bJl1/gpWDF0gNb/Gis\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fd361c508c5d5e4e0aaa",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952fd331c508c5d5e4e08ac",
+        "email": "Guy_Kerluke@yahoo.com",
+        "name": "April Rau",
+        "country": "France",
+        "city": "Fort Terrancefurt",
+        "street": "Mireille Manors 46",
+        "house": 904,
+        "flat": 3341,
+        "phone": "+278399918355461",
+        "createdOn": "2025-12-29T22:14:11.000Z",
+        "notes": "MY9vAiQAYODQInXqAh3rMLstOP6dOx"
+      },
+      "products": [
+        {
+          "_id": "6952fd341c508c5d5e4e0a92",
+          "name": "Bike14256",
+          "amount": 247,
+          "price": 1508,
+          "manufacturer": "Apple",
+          "notes": "ZPIS7cgUUaHbHh9lQ9W2lbYDJ55qFNczUVsK1QgoXCaGj2zqqjfZrm86Z4bjYEJsG9uBYuwu16kDkaHfqBjglp188033gD84iUsfUlUw3xngFvHkybL5J1PWXcv6fyjjL5SJlhdmexJA87ecOIBG4PXGeipb7H3gRmhCJqbNIHk2RMDHzO4ErqTftiko83nUJgvG5TqZdxA30WRdcsNLxD00diW6Bc5f6BqtIcuGVKUYmMcB0wXM6sCSho",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Hintzborough",
+          "street": "Borer Court",
+          "house": 800,
+          "flat": 2904
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 1508,
+      "createdOn": "2025-12-29T22:14:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952fd331c508c5d5e4e08ac",
+          "products": [
+            {
+              "_id": "6952fd341c508c5d5e4e0a92",
+              "name": "Bike14256",
+              "amount": 247,
+              "price": 1508,
+              "manufacturer": "Apple",
+              "notes": "ZPIS7cgUUaHbHh9lQ9W2lbYDJ55qFNczUVsK1QgoXCaGj2zqqjfZrm86Z4bjYEJsG9uBYuwu16kDkaHfqBjglp188033gD84iUsfUlUw3xngFvHkybL5J1PWXcv6fyjjL5SJlhdmexJA87ecOIBG4PXGeipb7H3gRmhCJqbNIHk2RMDHzO4ErqTftiko83nUJgvG5TqZdxA30WRdcsNLxD00diW6Bc5f6BqtIcuGVKUYmMcB0wXM6sCSho",
+              "received": false
+            }
+          ],
+          "total_price": 1508,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Hintzborough",
+              "street": "Borer Court",
+              "house": 800,
+              "flat": 2904
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:14:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fd331c508c5d5e4e08ac",
+          "products": [
+            {
+              "_id": "6952fd341c508c5d5e4e0a92",
+              "name": "Bike14256",
+              "amount": 247,
+              "price": 1508,
+              "manufacturer": "Apple",
+              "notes": "ZPIS7cgUUaHbHh9lQ9W2lbYDJ55qFNczUVsK1QgoXCaGj2zqqjfZrm86Z4bjYEJsG9uBYuwu16kDkaHfqBjglp188033gD84iUsfUlUw3xngFvHkybL5J1PWXcv6fyjjL5SJlhdmexJA87ecOIBG4PXGeipb7H3gRmhCJqbNIHk2RMDHzO4ErqTftiko83nUJgvG5TqZdxA30WRdcsNLxD00diW6Bc5f6BqtIcuGVKUYmMcB0wXM6sCSho",
+              "received": false
+            }
+          ],
+          "total_price": 1508,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:14:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

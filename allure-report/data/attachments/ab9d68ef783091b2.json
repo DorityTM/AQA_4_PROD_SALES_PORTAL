@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:13:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3926",
+    "etag": "W/\"f56-2cjtDcvbW0wXzRJ7R6zOBsswQHc\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fd171c508c5d5e4df87b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952fd141c508c5d5e4df759",
+        "email": "Tillman.Gibson-Goodwin72@hotmail.com",
+        "name": "Oran Jacobs",
+        "country": "France",
+        "city": "South Wallace",
+        "street": "Vine Street 62",
+        "house": 958,
+        "flat": 7510,
+        "phone": "+311486951914362",
+        "createdOn": "2025-12-29T22:13:40.000Z",
+        "notes": "MfhppkIzjRpLn5SyirBEEaZI7Hnqez"
+      },
+      "products": [
+        {
+          "_id": "6952fd151c508c5d5e4df7e7",
+          "name": "Pants48293",
+          "amount": 561,
+          "price": 91718,
+          "manufacturer": "Apple",
+          "notes": "KLjGp22cabicefMHAsJXJzgzubRRx09Z3vIFJv2RPAzLs9F081nXCqbE4pV2HnzklGCE8DmF6u7ESCr9VFf3X7jCKachJCTJuM7VAjgGxfO09Ap5vZ5UUmFpO7Ec7W80mM4IMPlaCqmgW4TgPVbI2sPxn83BKsEXNQXhIo8aivtES28EV7Gv5mKvUmAUS53IbYtFxdjcnby3GOJvYBRrEYwxDgZGKoPSK0vpOhnSYYmB0bgrsi4RN37UVC",
+          "received": false
+        },
+        {
+          "_id": "6952fd161c508c5d5e4df85b",
+          "name": "Chicken91070",
+          "amount": 435,
+          "price": 17834,
+          "manufacturer": "Microsoft",
+          "notes": "WxK7Syl4vHinQ4FDwDl4WZEoD2OPe1Uqiuh6RbCDJOgSFO1DKkRioHvjqIFov0ag1UbmRYMsgb7ToMlZt8D7j5ZJlrykh8c04ZlBwVcKxeoRdJWGjD8RCN5tr9I3bEyhU0kPA2lXzxAQ1MJd0jyvtyoVdSCflQshFnILiT85jpCAd2g9XD7z92ObbA6vVfTJdYqj83DNwR1cpiOEq2LuAIjA2wML8tw8BcSCUoxcB0V171ekdVisHCsRss",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Keira",
+          "street": "Kilback Rue",
+          "house": 992,
+          "flat": 1109
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 109552,
+      "createdOn": "2025-12-29T22:13:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952fd141c508c5d5e4df759",
+          "products": [
+            {
+              "_id": "6952fd151c508c5d5e4df7e7",
+              "name": "Pants48293",
+              "amount": 561,
+              "price": 91718,
+              "manufacturer": "Apple",
+              "notes": "KLjGp22cabicefMHAsJXJzgzubRRx09Z3vIFJv2RPAzLs9F081nXCqbE4pV2HnzklGCE8DmF6u7ESCr9VFf3X7jCKachJCTJuM7VAjgGxfO09Ap5vZ5UUmFpO7Ec7W80mM4IMPlaCqmgW4TgPVbI2sPxn83BKsEXNQXhIo8aivtES28EV7Gv5mKvUmAUS53IbYtFxdjcnby3GOJvYBRrEYwxDgZGKoPSK0vpOhnSYYmB0bgrsi4RN37UVC",
+              "received": false
+            },
+            {
+              "_id": "6952fd161c508c5d5e4df85b",
+              "name": "Chicken91070",
+              "amount": 435,
+              "price": 17834,
+              "manufacturer": "Microsoft",
+              "notes": "WxK7Syl4vHinQ4FDwDl4WZEoD2OPe1Uqiuh6RbCDJOgSFO1DKkRioHvjqIFov0ag1UbmRYMsgb7ToMlZt8D7j5ZJlrykh8c04ZlBwVcKxeoRdJWGjD8RCN5tr9I3bEyhU0kPA2lXzxAQ1MJd0jyvtyoVdSCflQshFnILiT85jpCAd2g9XD7z92ObbA6vVfTJdYqj83DNwR1cpiOEq2LuAIjA2wML8tw8BcSCUoxcB0V171ekdVisHCsRss",
+              "received": false
+            }
+          ],
+          "total_price": 109552,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Keira",
+              "street": "Kilback Rue",
+              "house": 992,
+              "flat": 1109
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:13:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fd141c508c5d5e4df759",
+          "products": [
+            {
+              "_id": "6952fd151c508c5d5e4df7e7",
+              "name": "Pants48293",
+              "amount": 561,
+              "price": 91718,
+              "manufacturer": "Apple",
+              "notes": "KLjGp22cabicefMHAsJXJzgzubRRx09Z3vIFJv2RPAzLs9F081nXCqbE4pV2HnzklGCE8DmF6u7ESCr9VFf3X7jCKachJCTJuM7VAjgGxfO09Ap5vZ5UUmFpO7Ec7W80mM4IMPlaCqmgW4TgPVbI2sPxn83BKsEXNQXhIo8aivtES28EV7Gv5mKvUmAUS53IbYtFxdjcnby3GOJvYBRrEYwxDgZGKoPSK0vpOhnSYYmB0bgrsi4RN37UVC",
+              "received": false
+            },
+            {
+              "_id": "6952fd161c508c5d5e4df85b",
+              "name": "Chicken91070",
+              "amount": 435,
+              "price": 17834,
+              "manufacturer": "Microsoft",
+              "notes": "WxK7Syl4vHinQ4FDwDl4WZEoD2OPe1Uqiuh6RbCDJOgSFO1DKkRioHvjqIFov0ag1UbmRYMsgb7ToMlZt8D7j5ZJlrykh8c04ZlBwVcKxeoRdJWGjD8RCN5tr9I3bEyhU0kPA2lXzxAQ1MJd0jyvtyoVdSCflQshFnILiT85jpCAd2g9XD7z92ObbA6vVfTJdYqj83DNwR1cpiOEq2LuAIjA2wML8tw8BcSCUoxcB0V171ekdVisHCsRss",
+              "received": false
+            }
+          ],
+          "total_price": 109552,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:13:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

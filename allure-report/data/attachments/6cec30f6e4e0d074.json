@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:13:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3700",
+    "etag": "W/\"e74-AV5Kj9X/+NkAfpqHyW8JM/8j0cA\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fd061c508c5d5e4df077",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952fd001c508c5d5e4dec87",
+        "email": "Miller.Dooley26@gmail.com",
+        "name": "Stella Watsica",
+        "country": "France",
+        "city": "Lake Ivy",
+        "street": "Carter Estate 64",
+        "house": 605,
+        "flat": 403,
+        "phone": "+596438323740274",
+        "createdOn": "2025-12-29T22:13:20.000Z",
+        "notes": "93afB7QCCKNLY9jPrz1PClnCre1s2U"
+      },
+      "products": [
+        {
+          "_id": "6952fd051c508c5d5e4df055",
+          "name": "Mouse64262",
+          "amount": 285,
+          "price": 24931,
+          "manufacturer": "Microsoft",
+          "notes": "NyfJ4mlJo0uGfxoOOCUxYRnpL2JM7mgmzcpNg0RVogPYXvYVm7ITYFqHuJSOzj3oUoJGbMjkATDIsNyZLwmjNztqdhH8RZd9kN0tbvqrmuxJA2rdcX1OTlhZ9dtE9wOjSwQDGP6ZnZdDMVwAe0LsJ6mCRXVQB9Hmu5SA2vVsGXOH0dWBQJGU5tK4T34QjSIipcYPeDNF5ImuUbDBMKOLt0glWR9oJA3DAkCPoApFmyQdxtfH4e8I3Fh6m2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Lake Ebbaland",
+          "street": "Jabari Square",
+          "house": 566,
+          "flat": 867
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 24931,
+      "createdOn": "2025-12-29T22:13:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952fd001c508c5d5e4dec87",
+          "products": [
+            {
+              "_id": "6952fd051c508c5d5e4df055",
+              "name": "Mouse64262",
+              "amount": 285,
+              "price": 24931,
+              "manufacturer": "Microsoft",
+              "notes": "NyfJ4mlJo0uGfxoOOCUxYRnpL2JM7mgmzcpNg0RVogPYXvYVm7ITYFqHuJSOzj3oUoJGbMjkATDIsNyZLwmjNztqdhH8RZd9kN0tbvqrmuxJA2rdcX1OTlhZ9dtE9wOjSwQDGP6ZnZdDMVwAe0LsJ6mCRXVQB9Hmu5SA2vVsGXOH0dWBQJGU5tK4T34QjSIipcYPeDNF5ImuUbDBMKOLt0glWR9oJA3DAkCPoApFmyQdxtfH4e8I3Fh6m2",
+              "received": false
+            }
+          ],
+          "total_price": 24931,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Ebbaland",
+              "street": "Jabari Square",
+              "house": 566,
+              "flat": 867
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:13:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fd001c508c5d5e4dec87",
+          "products": [
+            {
+              "_id": "6952fd051c508c5d5e4df055",
+              "name": "Mouse64262",
+              "amount": 285,
+              "price": 24931,
+              "manufacturer": "Microsoft",
+              "notes": "NyfJ4mlJo0uGfxoOOCUxYRnpL2JM7mgmzcpNg0RVogPYXvYVm7ITYFqHuJSOzj3oUoJGbMjkATDIsNyZLwmjNztqdhH8RZd9kN0tbvqrmuxJA2rdcX1OTlhZ9dtE9wOjSwQDGP6ZnZdDMVwAe0LsJ6mCRXVQB9Hmu5SA2vVsGXOH0dWBQJGU5tK4T34QjSIipcYPeDNF5ImuUbDBMKOLt0glWR9oJA3DAkCPoApFmyQdxtfH4e8I3Fh6m2",
+              "received": false
+            }
+          ],
+          "total_price": 24931,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lake Ebbaland",
+              "street": "Jabari Square",
+              "house": 566,
+              "flat": 867
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:13:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fd001c508c5d5e4dec87",
+          "products": [
+            {
+              "_id": "6952fd051c508c5d5e4df055",
+              "name": "Mouse64262",
+              "amount": 285,
+              "price": 24931,
+              "manufacturer": "Microsoft",
+              "notes": "NyfJ4mlJo0uGfxoOOCUxYRnpL2JM7mgmzcpNg0RVogPYXvYVm7ITYFqHuJSOzj3oUoJGbMjkATDIsNyZLwmjNztqdhH8RZd9kN0tbvqrmuxJA2rdcX1OTlhZ9dtE9wOjSwQDGP6ZnZdDMVwAe0LsJ6mCRXVQB9Hmu5SA2vVsGXOH0dWBQJGU5tK4T34QjSIipcYPeDNF5ImuUbDBMKOLt0glWR9oJA3DAkCPoApFmyQdxtfH4e8I3Fh6m2",
+              "received": false
+            }
+          ],
+          "total_price": 24931,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:13:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:02:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4617",
+    "etag": "W/\"1209-ZDaJrmFMJ8cxtSX9CY7tTsYh4N8\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fa5d1c508c5d5e4c9bba",
+      "status": "Received",
+      "customer": {
+        "_id": "6952fa5a1c508c5d5e4c99eb",
+        "email": "Toy.Tillman81@hotmail.com",
+        "name": "Monte Hyatt",
+        "country": "Belarus",
+        "city": "Port Olaborough",
+        "street": "The Oval 37",
+        "house": 235,
+        "flat": 9828,
+        "phone": "+709758831888208",
+        "createdOn": "2025-12-29T22:02:02.000Z",
+        "notes": "RyP4eJsMhp8Eb8WPlNChDIaGCjCJgX"
+      },
+      "products": [
+        {
+          "_id": "6952fa5b1c508c5d5e4c9a11",
+          "name": "Computer47629",
+          "amount": 77,
+          "price": 27964,
+          "manufacturer": "Samsung",
+          "notes": "YJETS8z3MEt04e1jOkQjGvu60c8lOrHIs6efkUNr2CuYUHJT0h3iC0yC9zgKFv0M9JK3Pg7xulyhFZW4YJzF9mzRIdb6JWW2PASXYSeDrW35wkdb6HezgxiElApXknf4tPEIUEUDL1BEXz5Ggbum60g9nKSxS9KGKQelXaV6vI0ttAdU6pWqv2ojCUtiWOipy40hlfCP0MRQnDjtfOUVcl8Z3lruLD8s3yMVJSJ0fxSi1OCI0nOknpGNYC",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Abilene",
+          "street": "Mercedes Manors",
+          "house": 639,
+          "flat": 8083
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 27964,
+      "createdOn": "2025-12-29T22:02:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6952fa5a1c508c5d5e4c99eb",
+          "products": [
+            {
+              "_id": "6952fa5b1c508c5d5e4c9a11",
+              "name": "Computer47629",
+              "amount": 77,
+              "price": 27964,
+              "manufacturer": "Samsung",
+              "notes": "YJETS8z3MEt04e1jOkQjGvu60c8lOrHIs6efkUNr2CuYUHJT0h3iC0yC9zgKFv0M9JK3Pg7xulyhFZW4YJzF9mzRIdb6JWW2PASXYSeDrW35wkdb6HezgxiElApXknf4tPEIUEUDL1BEXz5Ggbum60g9nKSxS9KGKQelXaV6vI0ttAdU6pWqv2ojCUtiWOipy40hlfCP0MRQnDjtfOUVcl8Z3lruLD8s3yMVJSJ0fxSi1OCI0nOknpGNYC",
+              "received": true
+            }
+          ],
+          "total_price": 27964,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Abilene",
+              "street": "Mercedes Manors",
+              "house": 639,
+              "flat": 8083
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:02:07.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6952fa5a1c508c5d5e4c99eb",
+          "products": [
+            {
+              "_id": "6952fa5b1c508c5d5e4c9a11",
+              "name": "Computer47629",
+              "amount": 77,
+              "price": 27964,
+              "manufacturer": "Samsung",
+              "notes": "YJETS8z3MEt04e1jOkQjGvu60c8lOrHIs6efkUNr2CuYUHJT0h3iC0yC9zgKFv0M9JK3Pg7xulyhFZW4YJzF9mzRIdb6JWW2PASXYSeDrW35wkdb6HezgxiElApXknf4tPEIUEUDL1BEXz5Ggbum60g9nKSxS9KGKQelXaV6vI0ttAdU6pWqv2ojCUtiWOipy40hlfCP0MRQnDjtfOUVcl8Z3lruLD8s3yMVJSJ0fxSi1OCI0nOknpGNYC",
+              "received": false
+            }
+          ],
+          "total_price": 27964,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Abilene",
+              "street": "Mercedes Manors",
+              "house": 639,
+              "flat": 8083
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:02:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fa5a1c508c5d5e4c99eb",
+          "products": [
+            {
+              "_id": "6952fa5b1c508c5d5e4c9a11",
+              "name": "Computer47629",
+              "amount": 77,
+              "price": 27964,
+              "manufacturer": "Samsung",
+              "notes": "YJETS8z3MEt04e1jOkQjGvu60c8lOrHIs6efkUNr2CuYUHJT0h3iC0yC9zgKFv0M9JK3Pg7xulyhFZW4YJzF9mzRIdb6JWW2PASXYSeDrW35wkdb6HezgxiElApXknf4tPEIUEUDL1BEXz5Ggbum60g9nKSxS9KGKQelXaV6vI0ttAdU6pWqv2ojCUtiWOipy40hlfCP0MRQnDjtfOUVcl8Z3lruLD8s3yMVJSJ0fxSi1OCI0nOknpGNYC",
+              "received": false
+            }
+          ],
+          "total_price": 27964,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Abilene",
+              "street": "Mercedes Manors",
+              "house": 639,
+              "flat": 8083
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:02:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fa5a1c508c5d5e4c99eb",
+          "products": [
+            {
+              "_id": "6952fa5b1c508c5d5e4c9a11",
+              "name": "Computer47629",
+              "amount": 77,
+              "price": 27964,
+              "manufacturer": "Samsung",
+              "notes": "YJETS8z3MEt04e1jOkQjGvu60c8lOrHIs6efkUNr2CuYUHJT0h3iC0yC9zgKFv0M9JK3Pg7xulyhFZW4YJzF9mzRIdb6JWW2PASXYSeDrW35wkdb6HezgxiElApXknf4tPEIUEUDL1BEXz5Ggbum60g9nKSxS9KGKQelXaV6vI0ttAdU6pWqv2ojCUtiWOipy40hlfCP0MRQnDjtfOUVcl8Z3lruLD8s3yMVJSJ0fxSi1OCI0nOknpGNYC",
+              "received": false
+            }
+          ],
+          "total_price": 27964,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:02:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

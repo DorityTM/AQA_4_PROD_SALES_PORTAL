@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:05:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3697",
+    "etag": "W/\"e71-b4TioN7DWmYVXCQb3Wkf2S/ERfU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fb201c508c5d5e4cfd40",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952fb1e1c508c5d5e4cfd02",
+        "email": "Glennie.Klein@yahoo.com",
+        "name": "Melyssa Torphy",
+        "country": "Germany",
+        "city": "Destinistead",
+        "street": "Jackson Avenue 92",
+        "house": 371,
+        "flat": 1366,
+        "phone": "+182085001407638",
+        "createdOn": "2025-12-29T22:05:18.000Z",
+        "notes": "4znSlEqIxGt54f1If4kcaGAbP4a3b7"
+      },
+      "products": [
+        {
+          "_id": "6952fb201c508c5d5e4cfd34",
+          "name": "Pants43922",
+          "amount": 531,
+          "price": 4810,
+          "manufacturer": "Xiaomi",
+          "notes": "FJimh04O5sSdnrPhHIARWo71RxDayWs1T5eAIPPUs45LbqxjgSnxzAxeQw3gvgSem08BawzaJ6PGZKjwqURROGSquSYQrM5j60qwcIbtze1yzYyLiJE2Jj2l3fywAgUbnq0mjrNfqyH2E4YpcoH5RKD5R6rGjt5QZtvuHIcxOk4NW9UwuEc7iWoZjMIIH6cHXN3jZBHWmKHcnVOvhaN2MW6xhgANSGTnVA9VgFMN5aOUpvsS14s7C0q5zJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Torphyborough",
+          "street": "Koch Pike",
+          "house": 959,
+          "flat": 1180
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 4810,
+      "createdOn": "2025-12-29T22:05:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952fb1e1c508c5d5e4cfd02",
+          "products": [
+            {
+              "_id": "6952fb201c508c5d5e4cfd34",
+              "name": "Pants43922",
+              "amount": 531,
+              "price": 4810,
+              "manufacturer": "Xiaomi",
+              "notes": "FJimh04O5sSdnrPhHIARWo71RxDayWs1T5eAIPPUs45LbqxjgSnxzAxeQw3gvgSem08BawzaJ6PGZKjwqURROGSquSYQrM5j60qwcIbtze1yzYyLiJE2Jj2l3fywAgUbnq0mjrNfqyH2E4YpcoH5RKD5R6rGjt5QZtvuHIcxOk4NW9UwuEc7iWoZjMIIH6cHXN3jZBHWmKHcnVOvhaN2MW6xhgANSGTnVA9VgFMN5aOUpvsS14s7C0q5zJ",
+              "received": false
+            }
+          ],
+          "total_price": 4810,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Torphyborough",
+              "street": "Koch Pike",
+              "house": 959,
+              "flat": 1180
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:05:21.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fb1e1c508c5d5e4cfd02",
+          "products": [
+            {
+              "_id": "6952fb201c508c5d5e4cfd34",
+              "name": "Pants43922",
+              "amount": 531,
+              "price": 4810,
+              "manufacturer": "Xiaomi",
+              "notes": "FJimh04O5sSdnrPhHIARWo71RxDayWs1T5eAIPPUs45LbqxjgSnxzAxeQw3gvgSem08BawzaJ6PGZKjwqURROGSquSYQrM5j60qwcIbtze1yzYyLiJE2Jj2l3fywAgUbnq0mjrNfqyH2E4YpcoH5RKD5R6rGjt5QZtvuHIcxOk4NW9UwuEc7iWoZjMIIH6cHXN3jZBHWmKHcnVOvhaN2MW6xhgANSGTnVA9VgFMN5aOUpvsS14s7C0q5zJ",
+              "received": false
+            }
+          ],
+          "total_price": 4810,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Torphyborough",
+              "street": "Koch Pike",
+              "house": 959,
+              "flat": 1180
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:05:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fb1e1c508c5d5e4cfd02",
+          "products": [
+            {
+              "_id": "6952fb201c508c5d5e4cfd34",
+              "name": "Pants43922",
+              "amount": 531,
+              "price": 4810,
+              "manufacturer": "Xiaomi",
+              "notes": "FJimh04O5sSdnrPhHIARWo71RxDayWs1T5eAIPPUs45LbqxjgSnxzAxeQw3gvgSem08BawzaJ6PGZKjwqURROGSquSYQrM5j60qwcIbtze1yzYyLiJE2Jj2l3fywAgUbnq0mjrNfqyH2E4YpcoH5RKD5R6rGjt5QZtvuHIcxOk4NW9UwuEc7iWoZjMIIH6cHXN3jZBHWmKHcnVOvhaN2MW6xhgANSGTnVA9VgFMN5aOUpvsS14s7C0q5zJ",
+              "received": false
+            }
+          ],
+          "total_price": 4810,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:05:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:03:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4582",
+    "etag": "W/\"11e6-apkhXWCL0tWN2vaDeqwOu0qBkpo\"",
+    "keep-alive": "timeout=5, max=11",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fabe1c508c5d5e4ccb64",
+      "status": "Received",
+      "customer": {
+        "_id": "6952fabd1c508c5d5e4cca55",
+        "email": "Tevin.Walsh@yahoo.com",
+        "name": "Ulices Runte",
+        "country": "Germany",
+        "city": "West Tiffanyshire",
+        "street": "Tina Shoal 74",
+        "house": 140,
+        "flat": 3831,
+        "phone": "+524001233496293",
+        "createdOn": "2025-12-29T22:03:41.000Z",
+        "notes": "oySXaBL3Ni4hf7mUKAZAU3EZ8IIv48"
+      },
+      "products": [
+        {
+          "_id": "6952fabe1c508c5d5e4ccb54",
+          "name": "Fish62368",
+          "amount": 101,
+          "price": 61043,
+          "manufacturer": "Xiaomi",
+          "notes": "4wtTYAkKA3iHEGMAv70ygia9kBiTCHymrkfQD1olTHnc1riVlUVmm85wmidsvWi8dihigX8tvbXfW2tarUaNjl9NAcTdGnAKsGQIXoPyudIcbONLPIDaq2xIpHqGanE40x8zVb3wvbqwImeA6P469sk5Dg7Sg5ReilalHhy1MgA6m0ySgi9t3cSQ1fvhRKJRRCGvetNs0tDJXfSwBUIjNApdq0TaLEfW9v2apulEkA5KjLcpUVXFp3A6cV",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Paucekside",
+          "street": "Gus Alley",
+          "house": 505,
+          "flat": 9561
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 61043,
+      "createdOn": "2025-12-29T22:03:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6952fabd1c508c5d5e4cca55",
+          "products": [
+            {
+              "_id": "6952fabe1c508c5d5e4ccb54",
+              "name": "Fish62368",
+              "amount": 101,
+              "price": 61043,
+              "manufacturer": "Xiaomi",
+              "notes": "4wtTYAkKA3iHEGMAv70ygia9kBiTCHymrkfQD1olTHnc1riVlUVmm85wmidsvWi8dihigX8tvbXfW2tarUaNjl9NAcTdGnAKsGQIXoPyudIcbONLPIDaq2xIpHqGanE40x8zVb3wvbqwImeA6P469sk5Dg7Sg5ReilalHhy1MgA6m0ySgi9t3cSQ1fvhRKJRRCGvetNs0tDJXfSwBUIjNApdq0TaLEfW9v2apulEkA5KjLcpUVXFp3A6cV",
+              "received": true
+            }
+          ],
+          "total_price": 61043,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Paucekside",
+              "street": "Gus Alley",
+              "house": 505,
+              "flat": 9561
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:03:43.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6952fabd1c508c5d5e4cca55",
+          "products": [
+            {
+              "_id": "6952fabe1c508c5d5e4ccb54",
+              "name": "Fish62368",
+              "amount": 101,
+              "price": 61043,
+              "manufacturer": "Xiaomi",
+              "notes": "4wtTYAkKA3iHEGMAv70ygia9kBiTCHymrkfQD1olTHnc1riVlUVmm85wmidsvWi8dihigX8tvbXfW2tarUaNjl9NAcTdGnAKsGQIXoPyudIcbONLPIDaq2xIpHqGanE40x8zVb3wvbqwImeA6P469sk5Dg7Sg5ReilalHhy1MgA6m0ySgi9t3cSQ1fvhRKJRRCGvetNs0tDJXfSwBUIjNApdq0TaLEfW9v2apulEkA5KjLcpUVXFp3A6cV",
+              "received": false
+            }
+          ],
+          "total_price": 61043,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Paucekside",
+              "street": "Gus Alley",
+              "house": 505,
+              "flat": 9561
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:03:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fabd1c508c5d5e4cca55",
+          "products": [
+            {
+              "_id": "6952fabe1c508c5d5e4ccb54",
+              "name": "Fish62368",
+              "amount": 101,
+              "price": 61043,
+              "manufacturer": "Xiaomi",
+              "notes": "4wtTYAkKA3iHEGMAv70ygia9kBiTCHymrkfQD1olTHnc1riVlUVmm85wmidsvWi8dihigX8tvbXfW2tarUaNjl9NAcTdGnAKsGQIXoPyudIcbONLPIDaq2xIpHqGanE40x8zVb3wvbqwImeA6P469sk5Dg7Sg5ReilalHhy1MgA6m0ySgi9t3cSQ1fvhRKJRRCGvetNs0tDJXfSwBUIjNApdq0TaLEfW9v2apulEkA5KjLcpUVXFp3A6cV",
+              "received": false
+            }
+          ],
+          "total_price": 61043,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Paucekside",
+              "street": "Gus Alley",
+              "house": 505,
+              "flat": 9561
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:03:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fabd1c508c5d5e4cca55",
+          "products": [
+            {
+              "_id": "6952fabe1c508c5d5e4ccb54",
+              "name": "Fish62368",
+              "amount": 101,
+              "price": 61043,
+              "manufacturer": "Xiaomi",
+              "notes": "4wtTYAkKA3iHEGMAv70ygia9kBiTCHymrkfQD1olTHnc1riVlUVmm85wmidsvWi8dihigX8tvbXfW2tarUaNjl9NAcTdGnAKsGQIXoPyudIcbONLPIDaq2xIpHqGanE40x8zVb3wvbqwImeA6P469sk5Dg7Sg5ReilalHhy1MgA6m0ySgi9t3cSQ1fvhRKJRRCGvetNs0tDJXfSwBUIjNApdq0TaLEfW9v2apulEkA5KjLcpUVXFp3A6cV",
+              "received": false
+            }
+          ],
+          "total_price": 61043,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:03:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

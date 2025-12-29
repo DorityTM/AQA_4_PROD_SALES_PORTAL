@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:11:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4616",
+    "etag": "W/\"1208-auEgvxjq+PAeIgPl6cRh77QdPJQ\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fc9d1c508c5d5e4db1e3",
+      "status": "Received",
+      "customer": {
+        "_id": "6952fc9b1c508c5d5e4db1a8",
+        "email": "Charlene50@yahoo.com",
+        "name": "Kane Collier",
+        "country": "Belarus",
+        "city": "Laurettacester",
+        "street": "Old Military Road 47",
+        "house": 882,
+        "flat": 3412,
+        "phone": "+584227192509837",
+        "createdOn": "2025-12-29T22:11:39.000Z",
+        "notes": "cWoMbgPBayfKI8AlT4bxK6kTK3xyI0"
+      },
+      "products": [
+        {
+          "_id": "6952fc9d1c508c5d5e4db1cd",
+          "name": "Towels6239",
+          "amount": 387,
+          "price": 1486,
+          "manufacturer": "Xiaomi",
+          "notes": "GZnp4pIOd6WfJXcF2ZWUbsmL2YJ764w3tivjL5gEdbLUpBSnT23wkqeGb9pJpBEy1rqILyJ5q88xEx5jTkgGypvHuw5SScWAqXy9HSxNNTUPFbQQYmUI57H1PjhfoMHy4GzOrpUBnzeQjeg98VsED8s2Er6EIeI8XwpFVL5UHGhAhqI6g8T3RKbVMVouDgtelpHMd2o4ZPXkhocLrzAj7CnwL6G8020lbedZ1EeAVEbcOaEGzeLSSxDpDc",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "North Madilyn",
+          "street": "Luettgen Inlet",
+          "house": 148,
+          "flat": 9824
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 1486,
+      "createdOn": "2025-12-29T22:11:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6952fc9b1c508c5d5e4db1a8",
+          "products": [
+            {
+              "_id": "6952fc9d1c508c5d5e4db1cd",
+              "name": "Towels6239",
+              "amount": 387,
+              "price": 1486,
+              "manufacturer": "Xiaomi",
+              "notes": "GZnp4pIOd6WfJXcF2ZWUbsmL2YJ764w3tivjL5gEdbLUpBSnT23wkqeGb9pJpBEy1rqILyJ5q88xEx5jTkgGypvHuw5SScWAqXy9HSxNNTUPFbQQYmUI57H1PjhfoMHy4GzOrpUBnzeQjeg98VsED8s2Er6EIeI8XwpFVL5UHGhAhqI6g8T3RKbVMVouDgtelpHMd2o4ZPXkhocLrzAj7CnwL6G8020lbedZ1EeAVEbcOaEGzeLSSxDpDc",
+              "received": true
+            }
+          ],
+          "total_price": 1486,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "North Madilyn",
+              "street": "Luettgen Inlet",
+              "house": 148,
+              "flat": 9824
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:11:42.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6952fc9b1c508c5d5e4db1a8",
+          "products": [
+            {
+              "_id": "6952fc9d1c508c5d5e4db1cd",
+              "name": "Towels6239",
+              "amount": 387,
+              "price": 1486,
+              "manufacturer": "Xiaomi",
+              "notes": "GZnp4pIOd6WfJXcF2ZWUbsmL2YJ764w3tivjL5gEdbLUpBSnT23wkqeGb9pJpBEy1rqILyJ5q88xEx5jTkgGypvHuw5SScWAqXy9HSxNNTUPFbQQYmUI57H1PjhfoMHy4GzOrpUBnzeQjeg98VsED8s2Er6EIeI8XwpFVL5UHGhAhqI6g8T3RKbVMVouDgtelpHMd2o4ZPXkhocLrzAj7CnwL6G8020lbedZ1EeAVEbcOaEGzeLSSxDpDc",
+              "received": false
+            }
+          ],
+          "total_price": 1486,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "North Madilyn",
+              "street": "Luettgen Inlet",
+              "house": 148,
+              "flat": 9824
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:11:42.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fc9b1c508c5d5e4db1a8",
+          "products": [
+            {
+              "_id": "6952fc9d1c508c5d5e4db1cd",
+              "name": "Towels6239",
+              "amount": 387,
+              "price": 1486,
+              "manufacturer": "Xiaomi",
+              "notes": "GZnp4pIOd6WfJXcF2ZWUbsmL2YJ764w3tivjL5gEdbLUpBSnT23wkqeGb9pJpBEy1rqILyJ5q88xEx5jTkgGypvHuw5SScWAqXy9HSxNNTUPFbQQYmUI57H1PjhfoMHy4GzOrpUBnzeQjeg98VsED8s2Er6EIeI8XwpFVL5UHGhAhqI6g8T3RKbVMVouDgtelpHMd2o4ZPXkhocLrzAj7CnwL6G8020lbedZ1EeAVEbcOaEGzeLSSxDpDc",
+              "received": false
+            }
+          ],
+          "total_price": 1486,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "North Madilyn",
+              "street": "Luettgen Inlet",
+              "house": 148,
+              "flat": 9824
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:11:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fc9b1c508c5d5e4db1a8",
+          "products": [
+            {
+              "_id": "6952fc9d1c508c5d5e4db1cd",
+              "name": "Towels6239",
+              "amount": 387,
+              "price": 1486,
+              "manufacturer": "Xiaomi",
+              "notes": "GZnp4pIOd6WfJXcF2ZWUbsmL2YJ764w3tivjL5gEdbLUpBSnT23wkqeGb9pJpBEy1rqILyJ5q88xEx5jTkgGypvHuw5SScWAqXy9HSxNNTUPFbQQYmUI57H1PjhfoMHy4GzOrpUBnzeQjeg98VsED8s2Er6EIeI8XwpFVL5UHGhAhqI6g8T3RKbVMVouDgtelpHMd2o4ZPXkhocLrzAj7CnwL6G8020lbedZ1EeAVEbcOaEGzeLSSxDpDc",
+              "received": false
+            }
+          ],
+          "total_price": 1486,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:11:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

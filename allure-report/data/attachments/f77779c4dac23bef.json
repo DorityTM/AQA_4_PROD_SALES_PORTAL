@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:10:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2728",
+    "etag": "W/\"aa8-FkBdfvK9hKivL6Hm+O67S7hro7s\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fc531c508c5d5e4d8a82",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952fc511c508c5d5e4d8a11",
+        "email": "Delmer94@yahoo.com",
+        "name": "Jarrell Hamill",
+        "country": "USA",
+        "city": "Smithamland",
+        "street": "Ricky Forks 27",
+        "house": 736,
+        "flat": 5346,
+        "phone": "+743424558715313",
+        "createdOn": "2025-12-29T22:10:25.000Z",
+        "notes": "JQcA8uYY1PK23dbi0c49HyOY8qibpH"
+      },
+      "products": [
+        {
+          "_id": "6952fc531c508c5d5e4d8a5b",
+          "name": "Hat23553",
+          "amount": 456,
+          "price": 79959,
+          "manufacturer": "Tesla",
+          "notes": "rfBPatJFDVhA7hGP2G4ueyn9QCVKccBZifYWAGcGpkBoJ2vOFdL6W4SoPUFDgS2g2lcO6d7wJfYQrnVvCVdKPT2LzZTvVKau6bl5YbYxMgq6fYpUohiwDeSRQSKNTiNi6jx3M6Wh136owmJYcGwJYElsWlsE3uyd1LDZM4x985aBYMNQQhDMBloTt7dQLEtyPNqDcMBPr88lahvDi4pR9FdIMpP3AkcOmX01klIOVr92zB5x9UvIleBdsi",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Farmington",
+          "street": "Schultz Lane",
+          "house": 321,
+          "flat": 310
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79959,
+      "createdOn": "2025-12-29T22:10:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952fc511c508c5d5e4d8a11",
+          "products": [
+            {
+              "_id": "6952fc531c508c5d5e4d8a5b",
+              "name": "Hat23553",
+              "amount": 456,
+              "price": 79959,
+              "manufacturer": "Tesla",
+              "notes": "rfBPatJFDVhA7hGP2G4ueyn9QCVKccBZifYWAGcGpkBoJ2vOFdL6W4SoPUFDgS2g2lcO6d7wJfYQrnVvCVdKPT2LzZTvVKau6bl5YbYxMgq6fYpUohiwDeSRQSKNTiNi6jx3M6Wh136owmJYcGwJYElsWlsE3uyd1LDZM4x985aBYMNQQhDMBloTt7dQLEtyPNqDcMBPr88lahvDi4pR9FdIMpP3AkcOmX01klIOVr92zB5x9UvIleBdsi",
+              "received": false
+            }
+          ],
+          "total_price": 79959,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Farmington",
+              "street": "Schultz Lane",
+              "house": 321,
+              "flat": 310
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:10:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fc511c508c5d5e4d8a11",
+          "products": [
+            {
+              "_id": "6952fc531c508c5d5e4d8a5b",
+              "name": "Hat23553",
+              "amount": 456,
+              "price": 79959,
+              "manufacturer": "Tesla",
+              "notes": "rfBPatJFDVhA7hGP2G4ueyn9QCVKccBZifYWAGcGpkBoJ2vOFdL6W4SoPUFDgS2g2lcO6d7wJfYQrnVvCVdKPT2LzZTvVKau6bl5YbYxMgq6fYpUohiwDeSRQSKNTiNi6jx3M6Wh136owmJYcGwJYElsWlsE3uyd1LDZM4x985aBYMNQQhDMBloTt7dQLEtyPNqDcMBPr88lahvDi4pR9FdIMpP3AkcOmX01klIOVr92zB5x9UvIleBdsi",
+              "received": false
+            }
+          ],
+          "total_price": 79959,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:10:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

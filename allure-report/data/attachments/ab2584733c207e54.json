@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:13:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4591",
+    "etag": "W/\"11ef-Xu11o7WEat+r1oBbgSPQNt8hA6Q\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fcfd1c508c5d5e4dec14",
+      "status": "Received",
+      "customer": {
+        "_id": "6952fcf61c508c5d5e4de700",
+        "email": "Delphine_Schuster@gmail.com",
+        "name": "Tyrell Rippin",
+        "country": "Ukraine",
+        "city": "Port Ahmedberg",
+        "street": "Dark Lane 30",
+        "house": 210,
+        "flat": 6558,
+        "phone": "+991841132591915",
+        "createdOn": "2025-12-29T22:13:10.000Z",
+        "notes": "kpbtpnm4CRdL75bgu68BnQm5JuMSPU"
+      },
+      "products": [
+        {
+          "_id": "6952fcfd1c508c5d5e4dec03",
+          "name": "Hat55994",
+          "amount": 763,
+          "price": 81662,
+          "manufacturer": "Tesla",
+          "notes": "tXUr2sFz3MY8mAewsi77mwFKW8arR4uHjOMxk6yLR3B3BQ6NoZpvdx43vwGUcpr8kxgkMr183CwiBN7d48PaWl4oa0mVII7cLFoVjQD9q6MdRlSQm4eNNhOBcuARx6ricl86JJoThufQOzpQE7RiQIDxtPpkX1MA3iefbLynjG7n6tWPZefpnnn1sJ6K8Va8zvF9eYvLWCJXXl88lIbJMKIiIICWzlr0DfmRWhW1nR37Scdzoiy1zdUAZU",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Hudson",
+          "street": "Main Street",
+          "house": 499,
+          "flat": 3429
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 81662,
+      "createdOn": "2025-12-29T22:13:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6952fcf61c508c5d5e4de700",
+          "products": [
+            {
+              "_id": "6952fcfd1c508c5d5e4dec03",
+              "name": "Hat55994",
+              "amount": 763,
+              "price": 81662,
+              "manufacturer": "Tesla",
+              "notes": "tXUr2sFz3MY8mAewsi77mwFKW8arR4uHjOMxk6yLR3B3BQ6NoZpvdx43vwGUcpr8kxgkMr183CwiBN7d48PaWl4oa0mVII7cLFoVjQD9q6MdRlSQm4eNNhOBcuARx6ricl86JJoThufQOzpQE7RiQIDxtPpkX1MA3iefbLynjG7n6tWPZefpnnn1sJ6K8Va8zvF9eYvLWCJXXl88lIbJMKIiIICWzlr0DfmRWhW1nR37Scdzoiy1zdUAZU",
+              "received": true
+            }
+          ],
+          "total_price": 81662,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Hudson",
+              "street": "Main Street",
+              "house": 499,
+              "flat": 3429
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:13:19.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6952fcf61c508c5d5e4de700",
+          "products": [
+            {
+              "_id": "6952fcfd1c508c5d5e4dec03",
+              "name": "Hat55994",
+              "amount": 763,
+              "price": 81662,
+              "manufacturer": "Tesla",
+              "notes": "tXUr2sFz3MY8mAewsi77mwFKW8arR4uHjOMxk6yLR3B3BQ6NoZpvdx43vwGUcpr8kxgkMr183CwiBN7d48PaWl4oa0mVII7cLFoVjQD9q6MdRlSQm4eNNhOBcuARx6ricl86JJoThufQOzpQE7RiQIDxtPpkX1MA3iefbLynjG7n6tWPZefpnnn1sJ6K8Va8zvF9eYvLWCJXXl88lIbJMKIiIICWzlr0DfmRWhW1nR37Scdzoiy1zdUAZU",
+              "received": false
+            }
+          ],
+          "total_price": 81662,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Hudson",
+              "street": "Main Street",
+              "house": 499,
+              "flat": 3429
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:13:18.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fcf61c508c5d5e4de700",
+          "products": [
+            {
+              "_id": "6952fcfd1c508c5d5e4dec03",
+              "name": "Hat55994",
+              "amount": 763,
+              "price": 81662,
+              "manufacturer": "Tesla",
+              "notes": "tXUr2sFz3MY8mAewsi77mwFKW8arR4uHjOMxk6yLR3B3BQ6NoZpvdx43vwGUcpr8kxgkMr183CwiBN7d48PaWl4oa0mVII7cLFoVjQD9q6MdRlSQm4eNNhOBcuARx6ricl86JJoThufQOzpQE7RiQIDxtPpkX1MA3iefbLynjG7n6tWPZefpnnn1sJ6K8Va8zvF9eYvLWCJXXl88lIbJMKIiIICWzlr0DfmRWhW1nR37Scdzoiy1zdUAZU",
+              "received": false
+            }
+          ],
+          "total_price": 81662,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Hudson",
+              "street": "Main Street",
+              "house": 499,
+              "flat": 3429
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:13:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fcf61c508c5d5e4de700",
+          "products": [
+            {
+              "_id": "6952fcfd1c508c5d5e4dec03",
+              "name": "Hat55994",
+              "amount": 763,
+              "price": 81662,
+              "manufacturer": "Tesla",
+              "notes": "tXUr2sFz3MY8mAewsi77mwFKW8arR4uHjOMxk6yLR3B3BQ6NoZpvdx43vwGUcpr8kxgkMr183CwiBN7d48PaWl4oa0mVII7cLFoVjQD9q6MdRlSQm4eNNhOBcuARx6ricl86JJoThufQOzpQE7RiQIDxtPpkX1MA3iefbLynjG7n6tWPZefpnnn1sJ6K8Va8zvF9eYvLWCJXXl88lIbJMKIiIICWzlr0DfmRWhW1nR37Scdzoiy1zdUAZU",
+              "received": false
+            }
+          ],
+          "total_price": 81662,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:13:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 22:02:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3668",
+    "etag": "W/\"e54-kN6Na0udg2EoTiH3NPAm1dzJ5TM\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952fa921c508c5d5e4cb5ba",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6952fa901c508c5d5e4cb577",
+        "email": "Crawford_Nicolas47@gmail.com",
+        "name": "Mabel Zboncak",
+        "country": "Russia",
+        "city": "Elliottport",
+        "street": "E Washington Avenue 80",
+        "house": 562,
+        "flat": 4742,
+        "phone": "+097260083473565",
+        "createdOn": "2025-12-29T22:02:56.000Z",
+        "notes": "xRhmiFvvUqGtuLaTd2AYMg03ZA0lRM"
+      },
+      "products": [
+        {
+          "_id": "6952fa911c508c5d5e4cb5a5",
+          "name": "Car25428",
+          "amount": 882,
+          "price": 28639,
+          "manufacturer": "Tesla",
+          "notes": "OiWWuzUWwsAZUzzsRR8xExFajR102yk4MU8ahgmZhwpBPEx87ZuLGfb3NUmBYSj4B1cyV8PHwgswnZZt0h7Kbva9ACribpDCrDlJyPRIhMbr8C4uBSfU2YnpBvrg6IGrW9Fk7JifbN4ZpKZ6yfeal7sE516dcy3AuwyDpOcIe0oQz6pAAXzi3jpytx7YLcnuybQ4Ye2VQBQ2pgZNyfrVkl3kCHyyOw4yaaw8ox3FyDLGc04KhcZnO6ezFq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Cronamouth",
+          "street": "W Grand Avenue",
+          "house": 739,
+          "flat": 158
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 28639,
+      "createdOn": "2025-12-29T22:02:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6952fa901c508c5d5e4cb577",
+          "products": [
+            {
+              "_id": "6952fa911c508c5d5e4cb5a5",
+              "name": "Car25428",
+              "amount": 882,
+              "price": 28639,
+              "manufacturer": "Tesla",
+              "notes": "OiWWuzUWwsAZUzzsRR8xExFajR102yk4MU8ahgmZhwpBPEx87ZuLGfb3NUmBYSj4B1cyV8PHwgswnZZt0h7Kbva9ACribpDCrDlJyPRIhMbr8C4uBSfU2YnpBvrg6IGrW9Fk7JifbN4ZpKZ6yfeal7sE516dcy3AuwyDpOcIe0oQz6pAAXzi3jpytx7YLcnuybQ4Ye2VQBQ2pgZNyfrVkl3kCHyyOw4yaaw8ox3FyDLGc04KhcZnO6ezFq",
+              "received": false
+            }
+          ],
+          "total_price": 28639,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Cronamouth",
+              "street": "W Grand Avenue",
+              "house": 739,
+              "flat": 158
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:02:58.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fa901c508c5d5e4cb577",
+          "products": [
+            {
+              "_id": "6952fa911c508c5d5e4cb5a5",
+              "name": "Car25428",
+              "amount": 882,
+              "price": 28639,
+              "manufacturer": "Tesla",
+              "notes": "OiWWuzUWwsAZUzzsRR8xExFajR102yk4MU8ahgmZhwpBPEx87ZuLGfb3NUmBYSj4B1cyV8PHwgswnZZt0h7Kbva9ACribpDCrDlJyPRIhMbr8C4uBSfU2YnpBvrg6IGrW9Fk7JifbN4ZpKZ6yfeal7sE516dcy3AuwyDpOcIe0oQz6pAAXzi3jpytx7YLcnuybQ4Ye2VQBQ2pgZNyfrVkl3kCHyyOw4yaaw8ox3FyDLGc04KhcZnO6ezFq",
+              "received": false
+            }
+          ],
+          "total_price": 28639,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Cronamouth",
+              "street": "W Grand Avenue",
+              "house": 739,
+              "flat": 158
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T22:02:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952fa901c508c5d5e4cb577",
+          "products": [
+            {
+              "_id": "6952fa911c508c5d5e4cb5a5",
+              "name": "Car25428",
+              "amount": 882,
+              "price": 28639,
+              "manufacturer": "Tesla",
+              "notes": "OiWWuzUWwsAZUzzsRR8xExFajR102yk4MU8ahgmZhwpBPEx87ZuLGfb3NUmBYSj4B1cyV8PHwgswnZZt0h7Kbva9ACribpDCrDlJyPRIhMbr8C4uBSfU2YnpBvrg6IGrW9Fk7JifbN4ZpKZ6yfeal7sE516dcy3AuwyDpOcIe0oQz6pAAXzi3jpytx7YLcnuybQ4Ye2VQBQ2pgZNyfrVkl3kCHyyOw4yaaw8ox3FyDLGc04KhcZnO6ezFq",
+              "received": false
+            }
+          ],
+          "total_price": 28639,
+          "delivery": null,
+          "changedOn": "2025-12-29T22:02:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
