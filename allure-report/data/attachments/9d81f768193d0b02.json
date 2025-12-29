@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:45:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-GSFEbacOGzxsHem09yoQaLnaHTU\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952f6771c508c5d5e4be10d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952f6761c508c5d5e4be0d3",
+        "email": "Leonie25@hotmail.com",
+        "name": "Misael Jacobi",
+        "country": "Ukraine",
+        "city": "Lemkeberg",
+        "street": "Bath Road 19",
+        "house": 10,
+        "flat": 6581,
+        "phone": "+017746228363065",
+        "createdOn": "2025-12-29T21:45:26.000Z",
+        "notes": "j8rL3AVn3CBGc70cXHDdRmIa8P6mJf"
+      },
+      "products": [
+        {
+          "_id": "6952f6771c508c5d5e4be102",
+          "name": "Tuna63538",
+          "amount": 629,
+          "price": 40424,
+          "manufacturer": "Samsung",
+          "notes": "F5Iz7NSssTIrmTDub0WAV8sOAHModJswZKOcGjEs8c2e2D8zMbC5A5xTZYYWfxQMuWs7SJNs2seVvzpxgOqAdWiN30loE7702hLCte5vr1qObjzqxhxafegZ0LL09U2VNcDMKxj6OzaaG7P8EoJgtphDOd1eV1k7XxnpU4YQ77VGg8JsxRSksYUOMX1VM2UbABq408Rv5O63CuesQNQDlMHhzzBZm9NkoRSjh3Djj8582R310URsGmlma1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "South Cali",
+          "street": "Pennsylvania Avenue",
+          "house": 927,
+          "flat": 9456
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 40424,
+      "createdOn": "2025-12-29T21:45:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952f6761c508c5d5e4be0d3",
+          "products": [
+            {
+              "_id": "6952f6771c508c5d5e4be102",
+              "name": "Tuna63538",
+              "amount": 629,
+              "price": 40424,
+              "manufacturer": "Samsung",
+              "notes": "F5Iz7NSssTIrmTDub0WAV8sOAHModJswZKOcGjEs8c2e2D8zMbC5A5xTZYYWfxQMuWs7SJNs2seVvzpxgOqAdWiN30loE7702hLCte5vr1qObjzqxhxafegZ0LL09U2VNcDMKxj6OzaaG7P8EoJgtphDOd1eV1k7XxnpU4YQ77VGg8JsxRSksYUOMX1VM2UbABq408Rv5O63CuesQNQDlMHhzzBZm9NkoRSjh3Djj8582R310URsGmlma1",
+              "received": false
+            }
+          ],
+          "total_price": 40424,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Cali",
+              "street": "Pennsylvania Avenue",
+              "house": 927,
+              "flat": 9456
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:45:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f6761c508c5d5e4be0d3",
+          "products": [
+            {
+              "_id": "6952f6771c508c5d5e4be102",
+              "name": "Tuna63538",
+              "amount": 629,
+              "price": 40424,
+              "manufacturer": "Samsung",
+              "notes": "F5Iz7NSssTIrmTDub0WAV8sOAHModJswZKOcGjEs8c2e2D8zMbC5A5xTZYYWfxQMuWs7SJNs2seVvzpxgOqAdWiN30loE7702hLCte5vr1qObjzqxhxafegZ0LL09U2VNcDMKxj6OzaaG7P8EoJgtphDOd1eV1k7XxnpU4YQ77VGg8JsxRSksYUOMX1VM2UbABq408Rv5O63CuesQNQDlMHhzzBZm9NkoRSjh3Djj8582R310URsGmlma1",
+              "received": false
+            }
+          ],
+          "total_price": 40424,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:45:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

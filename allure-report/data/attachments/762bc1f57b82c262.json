@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:45:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3698",
+    "etag": "W/\"e72-L/KsNpJXzuvVAqxDMkQcYpQzJOc\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952f67e1c508c5d5e4be410",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952f67c1c508c5d5e4be3ef",
+        "email": "King.Rosenbaum@hotmail.com",
+        "name": "Sidney Fisher",
+        "country": "Belarus",
+        "city": "Pflugerville",
+        "street": "Cali Canyon 18",
+        "house": 590,
+        "flat": 3258,
+        "phone": "+858508312053098",
+        "createdOn": "2025-12-29T21:45:32.000Z",
+        "notes": "f0YNOAf8uyGZ4B5ptQl2XhgXYixOoj"
+      },
+      "products": [
+        {
+          "_id": "6952f67d1c508c5d5e4be408",
+          "name": "Shoes93630",
+          "amount": 894,
+          "price": 33897,
+          "manufacturer": "Microsoft",
+          "notes": "hsMdMEaud5CXle3eIKV0Bwqb1xiq3LKboX4SXiW3c9F1XukRVJaCzhzBViwqu9Ic0Xok10d58X7lHhgq1Xgc2CY0QF4y29Hjpg7oDmHVjLjBAaBg0p10bJdb0cJTarWrMAegFDREp7GjvydU1JU3BU4ivjnpjblEzXXuYOQo242Rki6jWAoFoAuDqZSapzjlH0cgNUBjILNsOIETUYbg7fk2uqzoBaTrkweUfjYZTlsLjNcpmNOGGH2O6C",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Waukegan",
+          "street": "Estrella Center",
+          "house": 954,
+          "flat": 9266
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33897,
+      "createdOn": "2025-12-29T21:45:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952f67c1c508c5d5e4be3ef",
+          "products": [
+            {
+              "_id": "6952f67d1c508c5d5e4be408",
+              "name": "Shoes93630",
+              "amount": 894,
+              "price": 33897,
+              "manufacturer": "Microsoft",
+              "notes": "hsMdMEaud5CXle3eIKV0Bwqb1xiq3LKboX4SXiW3c9F1XukRVJaCzhzBViwqu9Ic0Xok10d58X7lHhgq1Xgc2CY0QF4y29Hjpg7oDmHVjLjBAaBg0p10bJdb0cJTarWrMAegFDREp7GjvydU1JU3BU4ivjnpjblEzXXuYOQo242Rki6jWAoFoAuDqZSapzjlH0cgNUBjILNsOIETUYbg7fk2uqzoBaTrkweUfjYZTlsLjNcpmNOGGH2O6C",
+              "received": false
+            }
+          ],
+          "total_price": 33897,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Waukegan",
+              "street": "Estrella Center",
+              "house": 954,
+              "flat": 9266
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:45:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f67c1c508c5d5e4be3ef",
+          "products": [
+            {
+              "_id": "6952f67d1c508c5d5e4be408",
+              "name": "Shoes93630",
+              "amount": 894,
+              "price": 33897,
+              "manufacturer": "Microsoft",
+              "notes": "hsMdMEaud5CXle3eIKV0Bwqb1xiq3LKboX4SXiW3c9F1XukRVJaCzhzBViwqu9Ic0Xok10d58X7lHhgq1Xgc2CY0QF4y29Hjpg7oDmHVjLjBAaBg0p10bJdb0cJTarWrMAegFDREp7GjvydU1JU3BU4ivjnpjblEzXXuYOQo242Rki6jWAoFoAuDqZSapzjlH0cgNUBjILNsOIETUYbg7fk2uqzoBaTrkweUfjYZTlsLjNcpmNOGGH2O6C",
+              "received": false
+            }
+          ],
+          "total_price": 33897,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Waukegan",
+              "street": "Estrella Center",
+              "house": 954,
+              "flat": 9266
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:45:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f67c1c508c5d5e4be3ef",
+          "products": [
+            {
+              "_id": "6952f67d1c508c5d5e4be408",
+              "name": "Shoes93630",
+              "amount": 894,
+              "price": 33897,
+              "manufacturer": "Microsoft",
+              "notes": "hsMdMEaud5CXle3eIKV0Bwqb1xiq3LKboX4SXiW3c9F1XukRVJaCzhzBViwqu9Ic0Xok10d58X7lHhgq1Xgc2CY0QF4y29Hjpg7oDmHVjLjBAaBg0p10bJdb0cJTarWrMAegFDREp7GjvydU1JU3BU4ivjnpjblEzXXuYOQo242Rki6jWAoFoAuDqZSapzjlH0cgNUBjILNsOIETUYbg7fk2uqzoBaTrkweUfjYZTlsLjNcpmNOGGH2O6C",
+              "received": false
+            }
+          ],
+          "total_price": 33897,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:45:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

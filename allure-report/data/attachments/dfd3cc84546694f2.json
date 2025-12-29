@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:39:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4579",
+    "etag": "W/\"11e3-/3I2AYoN+qiaaYbzqzxs6+POOEQ\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952f4f01c508c5d5e4b1c8a",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952f4ef1c508c5d5e4b1c4f",
+        "email": "Kelsi.Daniel@gmail.com",
+        "name": "Jacklyn Erdman",
+        "country": "USA",
+        "city": "Lake Clintfort",
+        "street": "Kling Brooks 52",
+        "house": 936,
+        "flat": 1730,
+        "phone": "+715420036094812",
+        "createdOn": "2025-12-29T21:38:55.000Z",
+        "notes": "fErlQHxjgVzVe8UUZbhNspT0xgL7Yi"
+      },
+      "products": [
+        {
+          "_id": "6952f4f01c508c5d5e4b1c7f",
+          "name": "Sausages5821",
+          "amount": 551,
+          "price": 79295,
+          "manufacturer": "Apple",
+          "notes": "3fMGbuDo26o4QFoguaxl5aoOXPbqUY6LumwxG4QZL7yNdUiQIGpWKaoID4fO5i5TrhRipQMLLmhDNwHpivrxR1rHAWICpqflKlE2E15eNenKhs6iYLTik7GHxeAxkadquvgmDgBa7OWbburuWDZQe4CRCLUPwN0pNOkU0TsaPryOmDzxCfw7exfR9ZUEQmUqiqcRwcxQd0qmDVGv50NhovIpZ3gxwv8h5SvWAKQT77WvDe4AkD0wz7nq7l",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "East Earline",
+          "street": "2nd Avenue",
+          "house": 49,
+          "flat": 2587
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79295,
+      "createdOn": "2025-12-29T21:38:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952f4ef1c508c5d5e4b1c4f",
+          "products": [
+            {
+              "_id": "6952f4f01c508c5d5e4b1c7f",
+              "name": "Sausages5821",
+              "amount": 551,
+              "price": 79295,
+              "manufacturer": "Apple",
+              "notes": "3fMGbuDo26o4QFoguaxl5aoOXPbqUY6LumwxG4QZL7yNdUiQIGpWKaoID4fO5i5TrhRipQMLLmhDNwHpivrxR1rHAWICpqflKlE2E15eNenKhs6iYLTik7GHxeAxkadquvgmDgBa7OWbburuWDZQe4CRCLUPwN0pNOkU0TsaPryOmDzxCfw7exfR9ZUEQmUqiqcRwcxQd0qmDVGv50NhovIpZ3gxwv8h5SvWAKQT77WvDe4AkD0wz7nq7l",
+              "received": false
+            }
+          ],
+          "total_price": 79295,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Earline",
+              "street": "2nd Avenue",
+              "house": 49,
+              "flat": 2587
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:39:02.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f4ef1c508c5d5e4b1c4f",
+          "products": [
+            {
+              "_id": "6952f4f01c508c5d5e4b1c7f",
+              "name": "Sausages5821",
+              "amount": 551,
+              "price": 79295,
+              "manufacturer": "Apple",
+              "notes": "3fMGbuDo26o4QFoguaxl5aoOXPbqUY6LumwxG4QZL7yNdUiQIGpWKaoID4fO5i5TrhRipQMLLmhDNwHpivrxR1rHAWICpqflKlE2E15eNenKhs6iYLTik7GHxeAxkadquvgmDgBa7OWbburuWDZQe4CRCLUPwN0pNOkU0TsaPryOmDzxCfw7exfR9ZUEQmUqiqcRwcxQd0qmDVGv50NhovIpZ3gxwv8h5SvWAKQT77WvDe4AkD0wz7nq7l",
+              "received": false
+            }
+          ],
+          "total_price": 79295,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "South Nedstad",
+              "street": "Nelle Rest",
+              "house": 461,
+              "flat": 9473
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2025-12-29T21:38:57.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f4ef1c508c5d5e4b1c4f",
+          "products": [
+            {
+              "_id": "6952f4f01c508c5d5e4b1c7f",
+              "name": "Sausages5821",
+              "amount": 551,
+              "price": 79295,
+              "manufacturer": "Apple",
+              "notes": "3fMGbuDo26o4QFoguaxl5aoOXPbqUY6LumwxG4QZL7yNdUiQIGpWKaoID4fO5i5TrhRipQMLLmhDNwHpivrxR1rHAWICpqflKlE2E15eNenKhs6iYLTik7GHxeAxkadquvgmDgBa7OWbburuWDZQe4CRCLUPwN0pNOkU0TsaPryOmDzxCfw7exfR9ZUEQmUqiqcRwcxQd0qmDVGv50NhovIpZ3gxwv8h5SvWAKQT77WvDe4AkD0wz7nq7l",
+              "received": false
+            }
+          ],
+          "total_price": 79295,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Effertzfield",
+              "street": "S Elm Street",
+              "house": 271,
+              "flat": 5782
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:38:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f4ef1c508c5d5e4b1c4f",
+          "products": [
+            {
+              "_id": "6952f4f01c508c5d5e4b1c7f",
+              "name": "Sausages5821",
+              "amount": 551,
+              "price": 79295,
+              "manufacturer": "Apple",
+              "notes": "3fMGbuDo26o4QFoguaxl5aoOXPbqUY6LumwxG4QZL7yNdUiQIGpWKaoID4fO5i5TrhRipQMLLmhDNwHpivrxR1rHAWICpqflKlE2E15eNenKhs6iYLTik7GHxeAxkadquvgmDgBa7OWbburuWDZQe4CRCLUPwN0pNOkU0TsaPryOmDzxCfw7exfR9ZUEQmUqiqcRwcxQd0qmDVGv50NhovIpZ3gxwv8h5SvWAKQT77WvDe4AkD0wz7nq7l",
+              "received": false
+            }
+          ],
+          "total_price": 79295,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:38:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

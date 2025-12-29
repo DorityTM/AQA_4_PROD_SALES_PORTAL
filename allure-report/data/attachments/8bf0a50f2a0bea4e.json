@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:47:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2752",
+    "etag": "W/\"ac0-eEjSVzSvNuxPoa8WV+mhfBEIN/c\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952f6dc1c508c5d5e4c1930",
+      "status": "Draft",
+      "customer": {
+        "_id": "6952f6da1c508c5d5e4c18aa",
+        "email": "Tatyana_Bashirian@gmail.com",
+        "name": "Tabitha Willms",
+        "country": "Ukraine",
+        "city": "McDermottboro",
+        "street": "Norma Fords 45",
+        "house": 591,
+        "flat": 142,
+        "phone": "+430681756781569",
+        "createdOn": "2025-12-29T21:47:06.000Z",
+        "notes": "oWPEV0X2pYYnmptTejryKn1nIWvO0l"
+      },
+      "products": [
+        {
+          "_id": "6952f6dc1c508c5d5e4c191e",
+          "name": "Sausages34300",
+          "amount": 813,
+          "price": 33934,
+          "manufacturer": "Amazon",
+          "notes": "toMTxIMXy6ejqtU7zfEs6V1Ju7dQ43DAuqKFkkfgQPa2yneuP2Lz5YhRugBO9r8w4k6SomJQtoJLHxmCZsZjG4Gi61OcT5QXvsCmaacLgRyL622QeqAsdJ2luE2iM4MluUzmVCKuG7zdAH44B9eZdJG31jc3VEhVyPQNtnIPvgIHGkZSUxmQgJdeReMfy0Z7naUtPwg4JOMSAKs6BWZvtjn2ejnOCI6Dzk8FO1P8F6IHXYoU3EaR4L8LsP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Samstad",
+          "street": "4th Street",
+          "house": 947,
+          "flat": 8866
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33934,
+      "createdOn": "2025-12-29T21:47:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6952f6da1c508c5d5e4c18aa",
+          "products": [
+            {
+              "_id": "6952f6dc1c508c5d5e4c191e",
+              "name": "Sausages34300",
+              "amount": 813,
+              "price": 33934,
+              "manufacturer": "Amazon",
+              "notes": "toMTxIMXy6ejqtU7zfEs6V1Ju7dQ43DAuqKFkkfgQPa2yneuP2Lz5YhRugBO9r8w4k6SomJQtoJLHxmCZsZjG4Gi61OcT5QXvsCmaacLgRyL622QeqAsdJ2luE2iM4MluUzmVCKuG7zdAH44B9eZdJG31jc3VEhVyPQNtnIPvgIHGkZSUxmQgJdeReMfy0Z7naUtPwg4JOMSAKs6BWZvtjn2ejnOCI6Dzk8FO1P8F6IHXYoU3EaR4L8LsP",
+              "received": false
+            }
+          ],
+          "total_price": 33934,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Samstad",
+              "street": "4th Street",
+              "house": 947,
+              "flat": 8866
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:47:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f6da1c508c5d5e4c18aa",
+          "products": [
+            {
+              "_id": "6952f6dc1c508c5d5e4c191e",
+              "name": "Sausages34300",
+              "amount": 813,
+              "price": 33934,
+              "manufacturer": "Amazon",
+              "notes": "toMTxIMXy6ejqtU7zfEs6V1Ju7dQ43DAuqKFkkfgQPa2yneuP2Lz5YhRugBO9r8w4k6SomJQtoJLHxmCZsZjG4Gi61OcT5QXvsCmaacLgRyL622QeqAsdJ2luE2iM4MluUzmVCKuG7zdAH44B9eZdJG31jc3VEhVyPQNtnIPvgIHGkZSUxmQgJdeReMfy0Z7naUtPwg4JOMSAKs6BWZvtjn2ejnOCI6Dzk8FO1P8F6IHXYoU3EaR4L8LsP",
+              "received": false
+            }
+          ],
+          "total_price": 33934,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:47:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

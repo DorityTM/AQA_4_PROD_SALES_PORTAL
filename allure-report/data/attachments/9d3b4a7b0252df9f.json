@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:45:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4591",
+    "etag": "W/\"11ef-e+vLRqsP7dq48kr1IgDP3ENAxwI\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952f67e1c508c5d5e4be44d",
+      "status": "Received",
+      "customer": {
+        "_id": "6952f67d1c508c5d5e4be3fa",
+        "email": "Claud_McGlynn@gmail.com",
+        "name": "Nels Fahey",
+        "country": "USA",
+        "city": "South Jeffery",
+        "street": "Pfeffer Haven 88",
+        "house": 518,
+        "flat": 4570,
+        "phone": "+309448830590336",
+        "createdOn": "2025-12-29T21:45:33.000Z",
+        "notes": "3Btbipx7Av7e3M9qWBWeO5mnEwLWqP"
+      },
+      "products": [
+        {
+          "_id": "6952f67e1c508c5d5e4be426",
+          "name": "Hat47969",
+          "amount": 215,
+          "price": 27219,
+          "manufacturer": "Tesla",
+          "notes": "Y17eah3PK5SZs7HQSYSKkGJxUpB9yzCcbK2n0VilukHZTAoMCBTthptAPKPBDdsSGkBQDdhiD0JpMTBt3RE0FvePyU30jjB03DvjrzIc7qoie3UMK2I97FAInamJaeEzijZM6DPAvDKZaVJdSEZNf65TNqkzz4tkUdYnddQtcawBhsHLLtdNu72h3QhAhXE5pkZL1UnukwRtNtlmGv7C2UHPwUaYYIcGSRp5LVEPI8ICgIryb3n8RzMcqM",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Wilkinsonview",
+          "street": "Keebler Cove",
+          "house": 852,
+          "flat": 4585
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 27219,
+      "createdOn": "2025-12-29T21:45:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6952f67d1c508c5d5e4be3fa",
+          "products": [
+            {
+              "_id": "6952f67e1c508c5d5e4be426",
+              "name": "Hat47969",
+              "amount": 215,
+              "price": 27219,
+              "manufacturer": "Tesla",
+              "notes": "Y17eah3PK5SZs7HQSYSKkGJxUpB9yzCcbK2n0VilukHZTAoMCBTthptAPKPBDdsSGkBQDdhiD0JpMTBt3RE0FvePyU30jjB03DvjrzIc7qoie3UMK2I97FAInamJaeEzijZM6DPAvDKZaVJdSEZNf65TNqkzz4tkUdYnddQtcawBhsHLLtdNu72h3QhAhXE5pkZL1UnukwRtNtlmGv7C2UHPwUaYYIcGSRp5LVEPI8ICgIryb3n8RzMcqM",
+              "received": true
+            }
+          ],
+          "total_price": 27219,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Wilkinsonview",
+              "street": "Keebler Cove",
+              "house": 852,
+              "flat": 4585
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:45:35.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6952f67d1c508c5d5e4be3fa",
+          "products": [
+            {
+              "_id": "6952f67e1c508c5d5e4be426",
+              "name": "Hat47969",
+              "amount": 215,
+              "price": 27219,
+              "manufacturer": "Tesla",
+              "notes": "Y17eah3PK5SZs7HQSYSKkGJxUpB9yzCcbK2n0VilukHZTAoMCBTthptAPKPBDdsSGkBQDdhiD0JpMTBt3RE0FvePyU30jjB03DvjrzIc7qoie3UMK2I97FAInamJaeEzijZM6DPAvDKZaVJdSEZNf65TNqkzz4tkUdYnddQtcawBhsHLLtdNu72h3QhAhXE5pkZL1UnukwRtNtlmGv7C2UHPwUaYYIcGSRp5LVEPI8ICgIryb3n8RzMcqM",
+              "received": false
+            }
+          ],
+          "total_price": 27219,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Wilkinsonview",
+              "street": "Keebler Cove",
+              "house": 852,
+              "flat": 4585
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:45:35.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f67d1c508c5d5e4be3fa",
+          "products": [
+            {
+              "_id": "6952f67e1c508c5d5e4be426",
+              "name": "Hat47969",
+              "amount": 215,
+              "price": 27219,
+              "manufacturer": "Tesla",
+              "notes": "Y17eah3PK5SZs7HQSYSKkGJxUpB9yzCcbK2n0VilukHZTAoMCBTthptAPKPBDdsSGkBQDdhiD0JpMTBt3RE0FvePyU30jjB03DvjrzIc7qoie3UMK2I97FAInamJaeEzijZM6DPAvDKZaVJdSEZNf65TNqkzz4tkUdYnddQtcawBhsHLLtdNu72h3QhAhXE5pkZL1UnukwRtNtlmGv7C2UHPwUaYYIcGSRp5LVEPI8ICgIryb3n8RzMcqM",
+              "received": false
+            }
+          ],
+          "total_price": 27219,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Wilkinsonview",
+              "street": "Keebler Cove",
+              "house": 852,
+              "flat": 4585
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:45:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f67d1c508c5d5e4be3fa",
+          "products": [
+            {
+              "_id": "6952f67e1c508c5d5e4be426",
+              "name": "Hat47969",
+              "amount": 215,
+              "price": 27219,
+              "manufacturer": "Tesla",
+              "notes": "Y17eah3PK5SZs7HQSYSKkGJxUpB9yzCcbK2n0VilukHZTAoMCBTthptAPKPBDdsSGkBQDdhiD0JpMTBt3RE0FvePyU30jjB03DvjrzIc7qoie3UMK2I97FAInamJaeEzijZM6DPAvDKZaVJdSEZNf65TNqkzz4tkUdYnddQtcawBhsHLLtdNu72h3QhAhXE5pkZL1UnukwRtNtlmGv7C2UHPwUaYYIcGSRp5LVEPI8ICgIryb3n8RzMcqM",
+              "received": false
+            }
+          ],
+          "total_price": 27219,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:45:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

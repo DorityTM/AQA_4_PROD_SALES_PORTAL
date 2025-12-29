@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:46:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5218",
+    "etag": "W/\"1462-dK7wbT7nzLncR4Vq11BGgh5RFL8\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952f6a61c508c5d5e4bfc6f",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952f6a31c508c5d5e4bfb76",
+        "email": "Amos.Lowe63@gmail.com",
+        "name": "Lew Wiegand",
+        "country": "Belarus",
+        "city": "Krajcikside",
+        "street": "Miller Junction 45",
+        "house": 509,
+        "flat": 2301,
+        "phone": "+226774136549644",
+        "createdOn": "2025-12-29T21:46:11.000Z",
+        "notes": "YwWMzNBl3QaoNfPyWOYm3uzQgmpNpO"
+      },
+      "products": [
+        {
+          "_id": "6952f6a41c508c5d5e4bfb7e",
+          "name": "Keyboard83600",
+          "amount": 63,
+          "price": 10623,
+          "manufacturer": "Sony",
+          "notes": "JK0MvJhQIguwejNrLvQWQggBoB5YEO49Pdr1dwXn37bdpYYsVUA4xjumXCWTVFtCxG3LgrqhsBLJzJgsLXIRIewxnJ4hnq5ObjEq7ls0XrVulDnz1ZKYVPE1Wtyd7p2y1lAtKorIn9b0yo45Htw5bOoJTjsDyAFLRo2QzDqZ9k55c1rRTnHV0HEveSTyka2PaN8Ynym8gd8g09TIAB0pj24O11qEnRALQb5mOGX2wANELivYMGFukeKHRx",
+          "received": false
+        },
+        {
+          "_id": "6952f6a51c508c5d5e4bfc5c",
+          "name": "Pizza90965",
+          "amount": 431,
+          "price": 43706,
+          "manufacturer": "Xiaomi",
+          "notes": "6RABVMAqFfSBJgk0Tnh4wv1I4YwenAh9QeGQy5eGCNx77f0ncN9ci6OW9FYAUxdpAZOSni8WXgLhD41q66bbkuFsNFDBfs44Y23GMFq9GHZ63t5bvo4NPoCWM4WHRbhBSlurpbF0vUMEL2SkbnaPA3iybkfCUlC46OjhsfvxMbx0RMrm5hP33msdq6XaQ74IrIHK565hZJJT7UDR2i9tr8JQ6fHQfQMBS56plyJDBp9zb5S97dVXcW96P7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Kesslerboro",
+          "street": "Maggio Drive",
+          "house": 902,
+          "flat": 5846
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 54329,
+      "createdOn": "2025-12-29T21:46:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952f6a31c508c5d5e4bfb76",
+          "products": [
+            {
+              "_id": "6952f6a41c508c5d5e4bfb7e",
+              "name": "Keyboard83600",
+              "amount": 63,
+              "price": 10623,
+              "manufacturer": "Sony",
+              "notes": "JK0MvJhQIguwejNrLvQWQggBoB5YEO49Pdr1dwXn37bdpYYsVUA4xjumXCWTVFtCxG3LgrqhsBLJzJgsLXIRIewxnJ4hnq5ObjEq7ls0XrVulDnz1ZKYVPE1Wtyd7p2y1lAtKorIn9b0yo45Htw5bOoJTjsDyAFLRo2QzDqZ9k55c1rRTnHV0HEveSTyka2PaN8Ynym8gd8g09TIAB0pj24O11qEnRALQb5mOGX2wANELivYMGFukeKHRx",
+              "received": false
+            },
+            {
+              "_id": "6952f6a51c508c5d5e4bfc5c",
+              "name": "Pizza90965",
+              "amount": 431,
+              "price": 43706,
+              "manufacturer": "Xiaomi",
+              "notes": "6RABVMAqFfSBJgk0Tnh4wv1I4YwenAh9QeGQy5eGCNx77f0ncN9ci6OW9FYAUxdpAZOSni8WXgLhD41q66bbkuFsNFDBfs44Y23GMFq9GHZ63t5bvo4NPoCWM4WHRbhBSlurpbF0vUMEL2SkbnaPA3iybkfCUlC46OjhsfvxMbx0RMrm5hP33msdq6XaQ74IrIHK565hZJJT7UDR2i9tr8JQ6fHQfQMBS56plyJDBp9zb5S97dVXcW96P7",
+              "received": false
+            }
+          ],
+          "total_price": 54329,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Kesslerboro",
+              "street": "Maggio Drive",
+              "house": 902,
+              "flat": 5846
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:46:15.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f6a31c508c5d5e4bfb76",
+          "products": [
+            {
+              "_id": "6952f6a41c508c5d5e4bfb7e",
+              "name": "Keyboard83600",
+              "amount": 63,
+              "price": 10623,
+              "manufacturer": "Sony",
+              "notes": "JK0MvJhQIguwejNrLvQWQggBoB5YEO49Pdr1dwXn37bdpYYsVUA4xjumXCWTVFtCxG3LgrqhsBLJzJgsLXIRIewxnJ4hnq5ObjEq7ls0XrVulDnz1ZKYVPE1Wtyd7p2y1lAtKorIn9b0yo45Htw5bOoJTjsDyAFLRo2QzDqZ9k55c1rRTnHV0HEveSTyka2PaN8Ynym8gd8g09TIAB0pj24O11qEnRALQb5mOGX2wANELivYMGFukeKHRx",
+              "received": false
+            },
+            {
+              "_id": "6952f6a51c508c5d5e4bfc5c",
+              "name": "Pizza90965",
+              "amount": 431,
+              "price": 43706,
+              "manufacturer": "Xiaomi",
+              "notes": "6RABVMAqFfSBJgk0Tnh4wv1I4YwenAh9QeGQy5eGCNx77f0ncN9ci6OW9FYAUxdpAZOSni8WXgLhD41q66bbkuFsNFDBfs44Y23GMFq9GHZ63t5bvo4NPoCWM4WHRbhBSlurpbF0vUMEL2SkbnaPA3iybkfCUlC46OjhsfvxMbx0RMrm5hP33msdq6XaQ74IrIHK565hZJJT7UDR2i9tr8JQ6fHQfQMBS56plyJDBp9zb5S97dVXcW96P7",
+              "received": false
+            }
+          ],
+          "total_price": 54329,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Kesslerboro",
+              "street": "Maggio Drive",
+              "house": 902,
+              "flat": 5846
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:46:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f6a31c508c5d5e4bfb76",
+          "products": [
+            {
+              "_id": "6952f6a41c508c5d5e4bfb7e",
+              "name": "Keyboard83600",
+              "amount": 63,
+              "price": 10623,
+              "manufacturer": "Sony",
+              "notes": "JK0MvJhQIguwejNrLvQWQggBoB5YEO49Pdr1dwXn37bdpYYsVUA4xjumXCWTVFtCxG3LgrqhsBLJzJgsLXIRIewxnJ4hnq5ObjEq7ls0XrVulDnz1ZKYVPE1Wtyd7p2y1lAtKorIn9b0yo45Htw5bOoJTjsDyAFLRo2QzDqZ9k55c1rRTnHV0HEveSTyka2PaN8Ynym8gd8g09TIAB0pj24O11qEnRALQb5mOGX2wANELivYMGFukeKHRx",
+              "received": false
+            },
+            {
+              "_id": "6952f6a51c508c5d5e4bfc5c",
+              "name": "Pizza90965",
+              "amount": 431,
+              "price": 43706,
+              "manufacturer": "Xiaomi",
+              "notes": "6RABVMAqFfSBJgk0Tnh4wv1I4YwenAh9QeGQy5eGCNx77f0ncN9ci6OW9FYAUxdpAZOSni8WXgLhD41q66bbkuFsNFDBfs44Y23GMFq9GHZ63t5bvo4NPoCWM4WHRbhBSlurpbF0vUMEL2SkbnaPA3iybkfCUlC46OjhsfvxMbx0RMrm5hP33msdq6XaQ74IrIHK565hZJJT7UDR2i9tr8JQ6fHQfQMBS56plyJDBp9zb5S97dVXcW96P7",
+              "received": false
+            }
+          ],
+          "total_price": 54329,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:46:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

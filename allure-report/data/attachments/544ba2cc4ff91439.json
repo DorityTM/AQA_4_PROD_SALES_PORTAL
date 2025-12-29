@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:37:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4597",
+    "etag": "W/\"11f5-cZySTvLwjXoudMzVgUQLcDlrUCo\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952f4a61c508c5d5e4af8cf",
+      "status": "Received",
+      "customer": {
+        "_id": "6952f4a41c508c5d5e4af77c",
+        "email": "Emelia.Dare@yahoo.com",
+        "name": "Savion Thiel Gerlach",
+        "country": "France",
+        "city": "Lednerfort",
+        "street": "Oak Lane 88",
+        "house": 951,
+        "flat": 4608,
+        "phone": "+244723606722032",
+        "createdOn": "2025-12-29T21:37:40.000Z",
+        "notes": "WRcS3FEpa90ZtIbsyuryIcwDj2pEBE"
+      },
+      "products": [
+        {
+          "_id": "6952f4a51c508c5d5e4af781",
+          "name": "Chair90689",
+          "amount": 804,
+          "price": 59369,
+          "manufacturer": "Amazon",
+          "notes": "hKWPcn8LRClgk19zt6mNqHEosCwGT4T22T8WS1NyfHOFKBDvA7dRCQNJ29bK3M4jigJppy39AfRBZGWjLZJVPe7jbdrXg4KFkzDi3DmucqxteaTkBUNZol2Wt9DUX6LfXKdHj9uJhAYDbZhXSVtA8X1KiZD7zbQuT6FacoXGWNR27kjSw3St8xIzu7BbxTCFPbfy5GH5HCaC0PT5QwR7OVDY7G5AxCNXLBMlFv5MOBYvhkNOj3BsEGRma2",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "North Natborough",
+          "street": "Lew Ports",
+          "house": 507,
+          "flat": 5167
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 59369,
+      "createdOn": "2025-12-29T21:37:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6952f4a41c508c5d5e4af77c",
+          "products": [
+            {
+              "_id": "6952f4a51c508c5d5e4af781",
+              "name": "Chair90689",
+              "amount": 804,
+              "price": 59369,
+              "manufacturer": "Amazon",
+              "notes": "hKWPcn8LRClgk19zt6mNqHEosCwGT4T22T8WS1NyfHOFKBDvA7dRCQNJ29bK3M4jigJppy39AfRBZGWjLZJVPe7jbdrXg4KFkzDi3DmucqxteaTkBUNZol2Wt9DUX6LfXKdHj9uJhAYDbZhXSVtA8X1KiZD7zbQuT6FacoXGWNR27kjSw3St8xIzu7BbxTCFPbfy5GH5HCaC0PT5QwR7OVDY7G5AxCNXLBMlFv5MOBYvhkNOj3BsEGRma2",
+              "received": true
+            }
+          ],
+          "total_price": 59369,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Natborough",
+              "street": "Lew Ports",
+              "house": 507,
+              "flat": 5167
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:37:45.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6952f4a41c508c5d5e4af77c",
+          "products": [
+            {
+              "_id": "6952f4a51c508c5d5e4af781",
+              "name": "Chair90689",
+              "amount": 804,
+              "price": 59369,
+              "manufacturer": "Amazon",
+              "notes": "hKWPcn8LRClgk19zt6mNqHEosCwGT4T22T8WS1NyfHOFKBDvA7dRCQNJ29bK3M4jigJppy39AfRBZGWjLZJVPe7jbdrXg4KFkzDi3DmucqxteaTkBUNZol2Wt9DUX6LfXKdHj9uJhAYDbZhXSVtA8X1KiZD7zbQuT6FacoXGWNR27kjSw3St8xIzu7BbxTCFPbfy5GH5HCaC0PT5QwR7OVDY7G5AxCNXLBMlFv5MOBYvhkNOj3BsEGRma2",
+              "received": false
+            }
+          ],
+          "total_price": 59369,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Natborough",
+              "street": "Lew Ports",
+              "house": 507,
+              "flat": 5167
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:37:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f4a41c508c5d5e4af77c",
+          "products": [
+            {
+              "_id": "6952f4a51c508c5d5e4af781",
+              "name": "Chair90689",
+              "amount": 804,
+              "price": 59369,
+              "manufacturer": "Amazon",
+              "notes": "hKWPcn8LRClgk19zt6mNqHEosCwGT4T22T8WS1NyfHOFKBDvA7dRCQNJ29bK3M4jigJppy39AfRBZGWjLZJVPe7jbdrXg4KFkzDi3DmucqxteaTkBUNZol2Wt9DUX6LfXKdHj9uJhAYDbZhXSVtA8X1KiZD7zbQuT6FacoXGWNR27kjSw3St8xIzu7BbxTCFPbfy5GH5HCaC0PT5QwR7OVDY7G5AxCNXLBMlFv5MOBYvhkNOj3BsEGRma2",
+              "received": false
+            }
+          ],
+          "total_price": 59369,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Natborough",
+              "street": "Lew Ports",
+              "house": 507,
+              "flat": 5167
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:37:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f4a41c508c5d5e4af77c",
+          "products": [
+            {
+              "_id": "6952f4a51c508c5d5e4af781",
+              "name": "Chair90689",
+              "amount": 804,
+              "price": 59369,
+              "manufacturer": "Amazon",
+              "notes": "hKWPcn8LRClgk19zt6mNqHEosCwGT4T22T8WS1NyfHOFKBDvA7dRCQNJ29bK3M4jigJppy39AfRBZGWjLZJVPe7jbdrXg4KFkzDi3DmucqxteaTkBUNZol2Wt9DUX6LfXKdHj9uJhAYDbZhXSVtA8X1KiZD7zbQuT6FacoXGWNR27kjSw3St8xIzu7BbxTCFPbfy5GH5HCaC0PT5QwR7OVDY7G5AxCNXLBMlFv5MOBYvhkNOj3BsEGRma2",
+              "received": false
+            }
+          ],
+          "total_price": 59369,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:37:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

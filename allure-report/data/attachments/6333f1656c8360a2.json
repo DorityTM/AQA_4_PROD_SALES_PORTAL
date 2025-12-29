@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:40:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4661",
+    "etag": "W/\"1235-4faQBizVMcsBsvCDYFW2tgfSY1w\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952f5431c508c5d5e4b47a2",
+      "status": "Received",
+      "customer": {
+        "_id": "6952f5411c508c5d5e4b475e",
+        "email": "Braulio_Hackett59@hotmail.com",
+        "name": "Sylvia Hansen",
+        "country": "Ukraine",
+        "city": "Amarillo",
+        "street": "Coronation Avenue 33",
+        "house": 619,
+        "flat": 2535,
+        "phone": "+533010473940061",
+        "createdOn": "2025-12-29T21:40:17.000Z",
+        "notes": "OLMGNiezIXcPCoazPPrZa2eHTU3PKN"
+      },
+      "products": [
+        {
+          "_id": "6952f5421c508c5d5e4b478a",
+          "name": "Mouse98088",
+          "amount": 248,
+          "price": 16667,
+          "manufacturer": "Microsoft",
+          "notes": "alnNUYKq76gQbflnE72gI9Fxcu2lifnvE5OoJppemRNkUDRHfGiFJlzh6J7yOyLZvFKtnxEyf3pqgvLxqX7sdhnx7yylJ9OgXtl9BNnAujouyEMpox1bXFuec8jNEyDqv88V0YBeMyiIXwvyfcIMnkqHVr3Ttcp0r2MzoMZLyl4jkfncjgxbU6Gi7uIiFq6f0C5jY3IuSkx86LcDtS7potdRxWnR6YnV8CVUC9sGqtqvbLRyZVPKIsB17t",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Alexander",
+          "street": "Chapel Street",
+          "house": 8,
+          "flat": 8705
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16667,
+      "createdOn": "2025-12-29T21:40:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6952f5411c508c5d5e4b475e",
+          "products": [
+            {
+              "_id": "6952f5421c508c5d5e4b478a",
+              "name": "Mouse98088",
+              "amount": 248,
+              "price": 16667,
+              "manufacturer": "Microsoft",
+              "notes": "alnNUYKq76gQbflnE72gI9Fxcu2lifnvE5OoJppemRNkUDRHfGiFJlzh6J7yOyLZvFKtnxEyf3pqgvLxqX7sdhnx7yylJ9OgXtl9BNnAujouyEMpox1bXFuec8jNEyDqv88V0YBeMyiIXwvyfcIMnkqHVr3Ttcp0r2MzoMZLyl4jkfncjgxbU6Gi7uIiFq6f0C5jY3IuSkx86LcDtS7potdRxWnR6YnV8CVUC9sGqtqvbLRyZVPKIsB17t",
+              "received": true
+            }
+          ],
+          "total_price": 16667,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Alexander",
+              "street": "Chapel Street",
+              "house": 8,
+              "flat": 8705
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:40:20.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6952f5411c508c5d5e4b475e",
+          "products": [
+            {
+              "_id": "6952f5421c508c5d5e4b478a",
+              "name": "Mouse98088",
+              "amount": 248,
+              "price": 16667,
+              "manufacturer": "Microsoft",
+              "notes": "alnNUYKq76gQbflnE72gI9Fxcu2lifnvE5OoJppemRNkUDRHfGiFJlzh6J7yOyLZvFKtnxEyf3pqgvLxqX7sdhnx7yylJ9OgXtl9BNnAujouyEMpox1bXFuec8jNEyDqv88V0YBeMyiIXwvyfcIMnkqHVr3Ttcp0r2MzoMZLyl4jkfncjgxbU6Gi7uIiFq6f0C5jY3IuSkx86LcDtS7potdRxWnR6YnV8CVUC9sGqtqvbLRyZVPKIsB17t",
+              "received": false
+            }
+          ],
+          "total_price": 16667,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Alexander",
+              "street": "Chapel Street",
+              "house": 8,
+              "flat": 8705
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:40:19.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f5411c508c5d5e4b475e",
+          "products": [
+            {
+              "_id": "6952f5421c508c5d5e4b478a",
+              "name": "Mouse98088",
+              "amount": 248,
+              "price": 16667,
+              "manufacturer": "Microsoft",
+              "notes": "alnNUYKq76gQbflnE72gI9Fxcu2lifnvE5OoJppemRNkUDRHfGiFJlzh6J7yOyLZvFKtnxEyf3pqgvLxqX7sdhnx7yylJ9OgXtl9BNnAujouyEMpox1bXFuec8jNEyDqv88V0YBeMyiIXwvyfcIMnkqHVr3Ttcp0r2MzoMZLyl4jkfncjgxbU6Gi7uIiFq6f0C5jY3IuSkx86LcDtS7potdRxWnR6YnV8CVUC9sGqtqvbLRyZVPKIsB17t",
+              "received": false
+            }
+          ],
+          "total_price": 16667,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Alexander",
+              "street": "Chapel Street",
+              "house": 8,
+              "flat": 8705
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:40:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f5411c508c5d5e4b475e",
+          "products": [
+            {
+              "_id": "6952f5421c508c5d5e4b478a",
+              "name": "Mouse98088",
+              "amount": 248,
+              "price": 16667,
+              "manufacturer": "Microsoft",
+              "notes": "alnNUYKq76gQbflnE72gI9Fxcu2lifnvE5OoJppemRNkUDRHfGiFJlzh6J7yOyLZvFKtnxEyf3pqgvLxqX7sdhnx7yylJ9OgXtl9BNnAujouyEMpox1bXFuec8jNEyDqv88V0YBeMyiIXwvyfcIMnkqHVr3Ttcp0r2MzoMZLyl4jkfncjgxbU6Gi7uIiFq6f0C5jY3IuSkx86LcDtS7potdRxWnR6YnV8CVUC9sGqtqvbLRyZVPKIsB17t",
+              "received": false
+            }
+          ],
+          "total_price": 16667,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:40:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

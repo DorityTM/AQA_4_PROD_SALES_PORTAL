@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:37:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5226",
+    "etag": "W/\"146a-wnLYiDuodORLjTuzTE3i8k3yPkk\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952f4ab1c508c5d5e4afad3",
+      "status": "In Process",
+      "customer": {
+        "_id": "6952f4a91c508c5d5e4afa30",
+        "email": "Marilou.Murazik@hotmail.com",
+        "name": "Kariane Dickinson",
+        "country": "France",
+        "city": "New Brianside",
+        "street": "Sanford Walk 93",
+        "house": 379,
+        "flat": 5836,
+        "phone": "+886366653652044",
+        "createdOn": "2025-12-29T21:37:45.000Z",
+        "notes": "cld6YuBB87BqwA8V7cIadoRlbFeUD2"
+      },
+      "products": [
+        {
+          "_id": "6952f4aa1c508c5d5e4afa61",
+          "name": "Bacon34214",
+          "amount": 844,
+          "price": 29905,
+          "manufacturer": "Sony",
+          "notes": "penZ8FFsHEERY9tdusL2AlXHjYPSyyr7eXVNEPwC2rhNifhEiysiBbdWZcP3SCQvhPGpIq1wvedOdOBUvKtvef2Sb4spQuIqD2H7xJLybpmlIs8hLVWtsqcRzLrUO72ALdleo5H700ul9YrFVlwsO1BopI19uh1GLZK8LYYlEOb1H6DMbOiCZsIaTMN4QdERWflyFSJIKIM5cAO6mYAR9pzx3YpHh3Idro68mFs51NQHD9DqCIoDWbRMfY",
+          "received": false
+        },
+        {
+          "_id": "6952f4ab1c508c5d5e4afaad",
+          "name": "Towels74962",
+          "amount": 138,
+          "price": 31730,
+          "manufacturer": "Tesla",
+          "notes": "Gc7mXf8Al2mXBeKGQBzWpXdJYymvjPRr9w56EsNULpoCK6q1wSuh5D2thT1aTHyxBm0RGQeuIHXvPGTD3vkFgDogsY89qh12VC6edybyfHfBRq8gLEBUNFrpCrowILfMjguJlERHXa6G8EN97lpYZy9fEcoBEZq8xbyWlrfyWH2aUmQsnVrjA6TW7cpx72sNHn8G4RWjcZwmnUZiyX59vIF93k8rXmLwr2oMeTsmmmWiUydS4EpquYlrG4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Gabrielside",
+          "street": "Rolfson Trail",
+          "house": 991,
+          "flat": 7701
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 61635,
+      "createdOn": "2025-12-29T21:37:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6952f4a91c508c5d5e4afa30",
+          "products": [
+            {
+              "_id": "6952f4aa1c508c5d5e4afa61",
+              "name": "Bacon34214",
+              "amount": 844,
+              "price": 29905,
+              "manufacturer": "Sony",
+              "notes": "penZ8FFsHEERY9tdusL2AlXHjYPSyyr7eXVNEPwC2rhNifhEiysiBbdWZcP3SCQvhPGpIq1wvedOdOBUvKtvef2Sb4spQuIqD2H7xJLybpmlIs8hLVWtsqcRzLrUO72ALdleo5H700ul9YrFVlwsO1BopI19uh1GLZK8LYYlEOb1H6DMbOiCZsIaTMN4QdERWflyFSJIKIM5cAO6mYAR9pzx3YpHh3Idro68mFs51NQHD9DqCIoDWbRMfY",
+              "received": false
+            },
+            {
+              "_id": "6952f4ab1c508c5d5e4afaad",
+              "name": "Towels74962",
+              "amount": 138,
+              "price": 31730,
+              "manufacturer": "Tesla",
+              "notes": "Gc7mXf8Al2mXBeKGQBzWpXdJYymvjPRr9w56EsNULpoCK6q1wSuh5D2thT1aTHyxBm0RGQeuIHXvPGTD3vkFgDogsY89qh12VC6edybyfHfBRq8gLEBUNFrpCrowILfMjguJlERHXa6G8EN97lpYZy9fEcoBEZq8xbyWlrfyWH2aUmQsnVrjA6TW7cpx72sNHn8G4RWjcZwmnUZiyX59vIF93k8rXmLwr2oMeTsmmmWiUydS4EpquYlrG4",
+              "received": false
+            }
+          ],
+          "total_price": 61635,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Gabrielside",
+              "street": "Rolfson Trail",
+              "house": 991,
+              "flat": 7701
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:37:48.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f4a91c508c5d5e4afa30",
+          "products": [
+            {
+              "_id": "6952f4aa1c508c5d5e4afa61",
+              "name": "Bacon34214",
+              "amount": 844,
+              "price": 29905,
+              "manufacturer": "Sony",
+              "notes": "penZ8FFsHEERY9tdusL2AlXHjYPSyyr7eXVNEPwC2rhNifhEiysiBbdWZcP3SCQvhPGpIq1wvedOdOBUvKtvef2Sb4spQuIqD2H7xJLybpmlIs8hLVWtsqcRzLrUO72ALdleo5H700ul9YrFVlwsO1BopI19uh1GLZK8LYYlEOb1H6DMbOiCZsIaTMN4QdERWflyFSJIKIM5cAO6mYAR9pzx3YpHh3Idro68mFs51NQHD9DqCIoDWbRMfY",
+              "received": false
+            },
+            {
+              "_id": "6952f4ab1c508c5d5e4afaad",
+              "name": "Towels74962",
+              "amount": 138,
+              "price": 31730,
+              "manufacturer": "Tesla",
+              "notes": "Gc7mXf8Al2mXBeKGQBzWpXdJYymvjPRr9w56EsNULpoCK6q1wSuh5D2thT1aTHyxBm0RGQeuIHXvPGTD3vkFgDogsY89qh12VC6edybyfHfBRq8gLEBUNFrpCrowILfMjguJlERHXa6G8EN97lpYZy9fEcoBEZq8xbyWlrfyWH2aUmQsnVrjA6TW7cpx72sNHn8G4RWjcZwmnUZiyX59vIF93k8rXmLwr2oMeTsmmmWiUydS4EpquYlrG4",
+              "received": false
+            }
+          ],
+          "total_price": 61635,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Gabrielside",
+              "street": "Rolfson Trail",
+              "house": 991,
+              "flat": 7701
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:37:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f4a91c508c5d5e4afa30",
+          "products": [
+            {
+              "_id": "6952f4aa1c508c5d5e4afa61",
+              "name": "Bacon34214",
+              "amount": 844,
+              "price": 29905,
+              "manufacturer": "Sony",
+              "notes": "penZ8FFsHEERY9tdusL2AlXHjYPSyyr7eXVNEPwC2rhNifhEiysiBbdWZcP3SCQvhPGpIq1wvedOdOBUvKtvef2Sb4spQuIqD2H7xJLybpmlIs8hLVWtsqcRzLrUO72ALdleo5H700ul9YrFVlwsO1BopI19uh1GLZK8LYYlEOb1H6DMbOiCZsIaTMN4QdERWflyFSJIKIM5cAO6mYAR9pzx3YpHh3Idro68mFs51NQHD9DqCIoDWbRMfY",
+              "received": false
+            },
+            {
+              "_id": "6952f4ab1c508c5d5e4afaad",
+              "name": "Towels74962",
+              "amount": 138,
+              "price": 31730,
+              "manufacturer": "Tesla",
+              "notes": "Gc7mXf8Al2mXBeKGQBzWpXdJYymvjPRr9w56EsNULpoCK6q1wSuh5D2thT1aTHyxBm0RGQeuIHXvPGTD3vkFgDogsY89qh12VC6edybyfHfBRq8gLEBUNFrpCrowILfMjguJlERHXa6G8EN97lpYZy9fEcoBEZq8xbyWlrfyWH2aUmQsnVrjA6TW7cpx72sNHn8G4RWjcZwmnUZiyX59vIF93k8rXmLwr2oMeTsmmmWiUydS4EpquYlrG4",
+              "received": false
+            }
+          ],
+          "total_price": 61635,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:37:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

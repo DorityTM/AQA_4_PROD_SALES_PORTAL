@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Mon, 29 Dec 2025 21:37:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4597",
+    "etag": "W/\"11f5-ww6VD4WGbsXL+zdMuH11XwOuais\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6952f4911c508c5d5e4aee6e",
+      "status": "Received",
+      "customer": {
+        "_id": "6952f48e1c508c5d5e4aecec",
+        "email": "Shany_Daugherty@hotmail.com",
+        "name": "Brenna Kunde",
+        "country": "USA",
+        "city": "Kozeyside",
+        "street": "Lakin Green 5",
+        "house": 656,
+        "flat": 2075,
+        "phone": "+608409534134441",
+        "createdOn": "2025-12-29T21:37:18.000Z",
+        "notes": "IrfCbX64XPHZBnpQhOZYBDodDwomYA"
+      },
+      "products": [
+        {
+          "_id": "6952f48f1c508c5d5e4aee4b",
+          "name": "Keyboard47955",
+          "amount": 304,
+          "price": 3579,
+          "manufacturer": "Apple",
+          "notes": "7us1kr4lYmbPZFKJ2QkXVNlnaE8nqTVsUfAJt4DSxXuEvH1vckCvZY6eSobZppcIQ2jjjhG7NrJmoVVoJ4l1DurBxoldPUPJxd5EtPRifGB6L5f9sd9Gr3OE1qXEI5DxfgExO3SQ2OYg8OUZvtKu6rXn4ctwiosqVgXbrviMZWQtHqX8dTUoU3G3kllWhWVpVsAjbkY6gE1uii1abhLZG9gGCDkDJxAZUNXMhRj1vCmALddYQABevFuyUH",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Deborah",
+          "street": "McCullough Fork",
+          "house": 591,
+          "flat": 6100
+        },
+        "finalDate": "2026-01-05T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3579,
+      "createdOn": "2025-12-29T21:37:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6952f48e1c508c5d5e4aecec",
+          "products": [
+            {
+              "_id": "6952f48f1c508c5d5e4aee4b",
+              "name": "Keyboard47955",
+              "amount": 304,
+              "price": 3579,
+              "manufacturer": "Apple",
+              "notes": "7us1kr4lYmbPZFKJ2QkXVNlnaE8nqTVsUfAJt4DSxXuEvH1vckCvZY6eSobZppcIQ2jjjhG7NrJmoVVoJ4l1DurBxoldPUPJxd5EtPRifGB6L5f9sd9Gr3OE1qXEI5DxfgExO3SQ2OYg8OUZvtKu6rXn4ctwiosqVgXbrviMZWQtHqX8dTUoU3G3kllWhWVpVsAjbkY6gE1uii1abhLZG9gGCDkDJxAZUNXMhRj1vCmALddYQABevFuyUH",
+              "received": true
+            }
+          ],
+          "total_price": 3579,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Deborah",
+              "street": "McCullough Fork",
+              "house": 591,
+              "flat": 6100
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:37:23.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6952f48e1c508c5d5e4aecec",
+          "products": [
+            {
+              "_id": "6952f48f1c508c5d5e4aee4b",
+              "name": "Keyboard47955",
+              "amount": 304,
+              "price": 3579,
+              "manufacturer": "Apple",
+              "notes": "7us1kr4lYmbPZFKJ2QkXVNlnaE8nqTVsUfAJt4DSxXuEvH1vckCvZY6eSobZppcIQ2jjjhG7NrJmoVVoJ4l1DurBxoldPUPJxd5EtPRifGB6L5f9sd9Gr3OE1qXEI5DxfgExO3SQ2OYg8OUZvtKu6rXn4ctwiosqVgXbrviMZWQtHqX8dTUoU3G3kllWhWVpVsAjbkY6gE1uii1abhLZG9gGCDkDJxAZUNXMhRj1vCmALddYQABevFuyUH",
+              "received": false
+            }
+          ],
+          "total_price": 3579,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Deborah",
+              "street": "McCullough Fork",
+              "house": 591,
+              "flat": 6100
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:37:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f48e1c508c5d5e4aecec",
+          "products": [
+            {
+              "_id": "6952f48f1c508c5d5e4aee4b",
+              "name": "Keyboard47955",
+              "amount": 304,
+              "price": 3579,
+              "manufacturer": "Apple",
+              "notes": "7us1kr4lYmbPZFKJ2QkXVNlnaE8nqTVsUfAJt4DSxXuEvH1vckCvZY6eSobZppcIQ2jjjhG7NrJmoVVoJ4l1DurBxoldPUPJxd5EtPRifGB6L5f9sd9Gr3OE1qXEI5DxfgExO3SQ2OYg8OUZvtKu6rXn4ctwiosqVgXbrviMZWQtHqX8dTUoU3G3kllWhWVpVsAjbkY6gE1uii1abhLZG9gGCDkDJxAZUNXMhRj1vCmALddYQABevFuyUH",
+              "received": false
+            }
+          ],
+          "total_price": 3579,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Deborah",
+              "street": "McCullough Fork",
+              "house": 591,
+              "flat": 6100
+            },
+            "finalDate": "2026-01-05T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-29T21:37:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6952f48e1c508c5d5e4aecec",
+          "products": [
+            {
+              "_id": "6952f48f1c508c5d5e4aee4b",
+              "name": "Keyboard47955",
+              "amount": 304,
+              "price": 3579,
+              "manufacturer": "Apple",
+              "notes": "7us1kr4lYmbPZFKJ2QkXVNlnaE8nqTVsUfAJt4DSxXuEvH1vckCvZY6eSobZppcIQ2jjjhG7NrJmoVVoJ4l1DurBxoldPUPJxd5EtPRifGB6L5f9sd9Gr3OE1qXEI5DxfgExO3SQ2OYg8OUZvtKu6rXn4ctwiosqVgXbrviMZWQtHqX8dTUoU3G3kllWhWVpVsAjbkY6gE1uii1abhLZG9gGCDkDJxAZUNXMhRj1vCmALddYQABevFuyUH",
+              "received": false
+            }
+          ],
+          "total_price": 3579,
+          "delivery": null,
+          "changedOn": "2025-12-29T21:37:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
