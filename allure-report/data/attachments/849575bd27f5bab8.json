@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:15:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2765",
+    "etag": "W/\"acd-oS170iZjP92aVZeSndhw/9VBECU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953d06e1c508c5d5e5468c1",
+      "status": "Draft",
+      "customer": {
+        "_id": "6953d06d1c508c5d5e546895",
+        "email": "Clemmie61@gmail.com",
+        "name": "Clarabelle Mraz",
+        "country": "France",
+        "city": "North Athenaworth",
+        "street": "Ridge Road 51",
+        "house": 623,
+        "flat": 8702,
+        "phone": "+480732305539633",
+        "createdOn": "2025-12-30T13:15:25.000Z",
+        "notes": "c1va5BUCC4OAigCNbmkNaLU2hG6Zp6"
+      },
+      "products": [
+        {
+          "_id": "6953d06d1c508c5d5e5468ae",
+          "name": "Computer78869",
+          "amount": 558,
+          "price": 76240,
+          "manufacturer": "Samsung",
+          "notes": "L78Vi2PWyzg5CtuSbdbBya2SiWLXHMF7r67K1wQ2IJecN8OyIwSQydTPRebXADpgh8aWJQB805SUj9QzOhMa0OKTtfFavNY2Tk9J6wLHuDv7xXXrffrCPvXPwGBcwHmEo8JqEXF0yetl0C9XifATDP5d43GjHux1bQAhAu3IFIhG4IL0Aes58MdymqIy29V8leH2Lfi97zJYQOUXuANd6DbLngaI6CFse233fF4Vbst3yqBWNsUoM5E2QO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Schillerboro",
+          "street": "Obie Mountain",
+          "house": 52,
+          "flat": 5527
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76240,
+      "createdOn": "2025-12-30T13:15:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6953d06d1c508c5d5e546895",
+          "products": [
+            {
+              "_id": "6953d06d1c508c5d5e5468ae",
+              "name": "Computer78869",
+              "amount": 558,
+              "price": 76240,
+              "manufacturer": "Samsung",
+              "notes": "L78Vi2PWyzg5CtuSbdbBya2SiWLXHMF7r67K1wQ2IJecN8OyIwSQydTPRebXADpgh8aWJQB805SUj9QzOhMa0OKTtfFavNY2Tk9J6wLHuDv7xXXrffrCPvXPwGBcwHmEo8JqEXF0yetl0C9XifATDP5d43GjHux1bQAhAu3IFIhG4IL0Aes58MdymqIy29V8leH2Lfi97zJYQOUXuANd6DbLngaI6CFse233fF4Vbst3yqBWNsUoM5E2QO",
+              "received": false
+            }
+          ],
+          "total_price": 76240,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Schillerboro",
+              "street": "Obie Mountain",
+              "house": 52,
+              "flat": 5527
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:15:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953d06d1c508c5d5e546895",
+          "products": [
+            {
+              "_id": "6953d06d1c508c5d5e5468ae",
+              "name": "Computer78869",
+              "amount": 558,
+              "price": 76240,
+              "manufacturer": "Samsung",
+              "notes": "L78Vi2PWyzg5CtuSbdbBya2SiWLXHMF7r67K1wQ2IJecN8OyIwSQydTPRebXADpgh8aWJQB805SUj9QzOhMa0OKTtfFavNY2Tk9J6wLHuDv7xXXrffrCPvXPwGBcwHmEo8JqEXF0yetl0C9XifATDP5d43GjHux1bQAhAu3IFIhG4IL0Aes58MdymqIy29V8leH2Lfi97zJYQOUXuANd6DbLngaI6CFse233fF4Vbst3yqBWNsUoM5E2QO",
+              "received": false
+            }
+          ],
+          "total_price": 76240,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:15:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

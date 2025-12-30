@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:12:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3912",
+    "etag": "W/\"f48-4d65y74kfWdH8RSBSyqCNgxi77M\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953cfc71c508c5d5e542b42",
+      "status": "Draft",
+      "customer": {
+        "_id": "6953cfc61c508c5d5e542ad5",
+        "email": "Carmelo.Kuhn12@yahoo.com",
+        "name": "Kirsten Ward",
+        "country": "Russia",
+        "city": "Rosenbaumview",
+        "street": "Hyman Way 5",
+        "house": 449,
+        "flat": 8593,
+        "phone": "+865085277131612",
+        "createdOn": "2025-12-30T13:12:38.000Z",
+        "notes": "firrN55OCAPMEXqau7tfkYS0Vd9Tii"
+      },
+      "products": [
+        {
+          "_id": "6953cfc71c508c5d5e542b02",
+          "name": "Tuna28891",
+          "amount": 895,
+          "price": 41072,
+          "manufacturer": "Samsung",
+          "notes": "CSnCqIRXZySRkGgcPW5AC6Z9Cu7HnL8Q2CtnZp0STmk8Dr4X9VMfHFFaaejqBKZDJ7PpqZ9TTpCXKz9GznC2zTwxRXYeoOkUJZ585l3fq7nHzZJ7lL3HNb2iDiN08LX4uDPtv6msCm9lMbUokbUTNv2wGWFPQ0Yj8TJFaUpKpubz0tO8nPGN6DhIVm4cd2SnJklJ9gSOpZk103Gj2whSPvC0WGXa8E0sntm47nXuHdeFohiVpBdOw7F6AK",
+          "received": false
+        },
+        {
+          "_id": "6953cfc71c508c5d5e542b1f",
+          "name": "Cheese23591",
+          "amount": 462,
+          "price": 11947,
+          "manufacturer": "Amazon",
+          "notes": "5ny7GlOvyXzpla3Q9iTRoBWGFAJy9GKlF57ooPSVpmNJHTNlUn1lKF4vxx65sT24VNLcqnqh1rnPfT8gceeNeYjP1QZdhzfkhG34Pqg1COeAtQgMz0qmEB2MRzfPbyam6WYxGo87xLwvV1l28RTbcS6JPABIvPO5aFOsYGrfhGxgn2nG7AKzKeGpiqenbbOQAaqEwWlp0cXAAUiyCbkXiJcdI0ZMaSJ6LvoQhDQcf709dBOc0DijW0DAFV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "South Giovannahaven",
+          "street": "Jettie Union",
+          "house": 897,
+          "flat": 1630
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53019,
+      "createdOn": "2025-12-30T13:12:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6953cfc61c508c5d5e542ad5",
+          "products": [
+            {
+              "_id": "6953cfc71c508c5d5e542b02",
+              "name": "Tuna28891",
+              "amount": 895,
+              "price": 41072,
+              "manufacturer": "Samsung",
+              "notes": "CSnCqIRXZySRkGgcPW5AC6Z9Cu7HnL8Q2CtnZp0STmk8Dr4X9VMfHFFaaejqBKZDJ7PpqZ9TTpCXKz9GznC2zTwxRXYeoOkUJZ585l3fq7nHzZJ7lL3HNb2iDiN08LX4uDPtv6msCm9lMbUokbUTNv2wGWFPQ0Yj8TJFaUpKpubz0tO8nPGN6DhIVm4cd2SnJklJ9gSOpZk103Gj2whSPvC0WGXa8E0sntm47nXuHdeFohiVpBdOw7F6AK",
+              "received": false
+            },
+            {
+              "_id": "6953cfc71c508c5d5e542b1f",
+              "name": "Cheese23591",
+              "amount": 462,
+              "price": 11947,
+              "manufacturer": "Amazon",
+              "notes": "5ny7GlOvyXzpla3Q9iTRoBWGFAJy9GKlF57ooPSVpmNJHTNlUn1lKF4vxx65sT24VNLcqnqh1rnPfT8gceeNeYjP1QZdhzfkhG34Pqg1COeAtQgMz0qmEB2MRzfPbyam6WYxGo87xLwvV1l28RTbcS6JPABIvPO5aFOsYGrfhGxgn2nG7AKzKeGpiqenbbOQAaqEwWlp0cXAAUiyCbkXiJcdI0ZMaSJ6LvoQhDQcf709dBOc0DijW0DAFV",
+              "received": false
+            }
+          ],
+          "total_price": 53019,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Giovannahaven",
+              "street": "Jettie Union",
+              "house": 897,
+              "flat": 1630
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfc61c508c5d5e542ad5",
+          "products": [
+            {
+              "_id": "6953cfc71c508c5d5e542b02",
+              "name": "Tuna28891",
+              "amount": 895,
+              "price": 41072,
+              "manufacturer": "Samsung",
+              "notes": "CSnCqIRXZySRkGgcPW5AC6Z9Cu7HnL8Q2CtnZp0STmk8Dr4X9VMfHFFaaejqBKZDJ7PpqZ9TTpCXKz9GznC2zTwxRXYeoOkUJZ585l3fq7nHzZJ7lL3HNb2iDiN08LX4uDPtv6msCm9lMbUokbUTNv2wGWFPQ0Yj8TJFaUpKpubz0tO8nPGN6DhIVm4cd2SnJklJ9gSOpZk103Gj2whSPvC0WGXa8E0sntm47nXuHdeFohiVpBdOw7F6AK",
+              "received": false
+            },
+            {
+              "_id": "6953cfc71c508c5d5e542b1f",
+              "name": "Cheese23591",
+              "amount": 462,
+              "price": 11947,
+              "manufacturer": "Amazon",
+              "notes": "5ny7GlOvyXzpla3Q9iTRoBWGFAJy9GKlF57ooPSVpmNJHTNlUn1lKF4vxx65sT24VNLcqnqh1rnPfT8gceeNeYjP1QZdhzfkhG34Pqg1COeAtQgMz0qmEB2MRzfPbyam6WYxGo87xLwvV1l28RTbcS6JPABIvPO5aFOsYGrfhGxgn2nG7AKzKeGpiqenbbOQAaqEwWlp0cXAAUiyCbkXiJcdI0ZMaSJ6LvoQhDQcf709dBOc0DijW0DAFV",
+              "received": false
+            }
+          ],
+          "total_price": 53019,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:12:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

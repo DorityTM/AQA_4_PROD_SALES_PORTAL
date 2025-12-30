@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:12:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3904",
+    "etag": "W/\"f40-nUAKp/ypA629bqcZbeAmncKSsl8\"",
+    "keep-alive": "timeout=5, max=78",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953cfc61c508c5d5e542a9a",
+      "status": "Draft",
+      "customer": {
+        "_id": "6953cfc51c508c5d5e542a5d",
+        "email": "Graham.Goldner30@gmail.com",
+        "name": "Stacey Okuneva",
+        "country": "Ukraine",
+        "city": "Corvallis",
+        "street": "Jonathan Lane 72",
+        "house": 997,
+        "flat": 8374,
+        "phone": "+212982624708866",
+        "createdOn": "2025-12-30T13:12:37.000Z",
+        "notes": "FuShQDsBoqdJbK5StPwKHq58tgCERJ"
+      },
+      "products": [
+        {
+          "_id": "6953cfc61c508c5d5e542a71",
+          "name": "Shoes44928",
+          "amount": 142,
+          "price": 85419,
+          "manufacturer": "Samsung",
+          "notes": "YnMq1v0qchLaUnEHAarlGU4Kh5BaYx5W1QNWCNMwNp4wZECfpFqHRTxlDTET7b3nTjK3IkbvGrd9ZoETbfHoVdXwomCJT0oHSc3HABbUf9ruQad7sHLz44R1BHJH1XaPr11td5p4dNPWB1EIcDRaVFHtMNw1a78xAM447A2sPcRrWz04yWGjfdnnUC3N7bETjJp3SpWWqi89HHTQuVN9EivtnZs24GPIZf33WZMERFl6icXLSfsuCfWKMv",
+          "received": false
+        },
+        {
+          "_id": "6953cfc61c508c5d5e542a86",
+          "name": "Mouse57298",
+          "amount": 929,
+          "price": 57135,
+          "manufacturer": "Samsung",
+          "notes": "Ea1RLQ1wwx8io5HdrbtMkuXvdca6MaDtrYbgVCvecRtuCO1qNuk26N2j4ii1lLJ8IGVTTYwiNjyTAS8ECWpuJ2JelLggsDQQMZA1JO1NaMPjHRVKro0QVbYLXXeNtrZRawMr9tc6DJa0giAnHA2PiRjLZDcTivnLEfoHNc1SEXYBnKubroT5zcSngh6P8IFWvjJH2PAzOrb4yLKjMgwee7b2qMAdYlACHe6sTYGfvI3agUr56dCquMYEfm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Doraville",
+          "street": "Arlo Pass",
+          "house": 916,
+          "flat": 4751
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 142554,
+      "createdOn": "2025-12-30T13:12:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6953cfc51c508c5d5e542a5d",
+          "products": [
+            {
+              "_id": "6953cfc61c508c5d5e542a71",
+              "name": "Shoes44928",
+              "amount": 142,
+              "price": 85419,
+              "manufacturer": "Samsung",
+              "notes": "YnMq1v0qchLaUnEHAarlGU4Kh5BaYx5W1QNWCNMwNp4wZECfpFqHRTxlDTET7b3nTjK3IkbvGrd9ZoETbfHoVdXwomCJT0oHSc3HABbUf9ruQad7sHLz44R1BHJH1XaPr11td5p4dNPWB1EIcDRaVFHtMNw1a78xAM447A2sPcRrWz04yWGjfdnnUC3N7bETjJp3SpWWqi89HHTQuVN9EivtnZs24GPIZf33WZMERFl6icXLSfsuCfWKMv",
+              "received": false
+            },
+            {
+              "_id": "6953cfc61c508c5d5e542a86",
+              "name": "Mouse57298",
+              "amount": 929,
+              "price": 57135,
+              "manufacturer": "Samsung",
+              "notes": "Ea1RLQ1wwx8io5HdrbtMkuXvdca6MaDtrYbgVCvecRtuCO1qNuk26N2j4ii1lLJ8IGVTTYwiNjyTAS8ECWpuJ2JelLggsDQQMZA1JO1NaMPjHRVKro0QVbYLXXeNtrZRawMr9tc6DJa0giAnHA2PiRjLZDcTivnLEfoHNc1SEXYBnKubroT5zcSngh6P8IFWvjJH2PAzOrb4yLKjMgwee7b2qMAdYlACHe6sTYGfvI3agUr56dCquMYEfm",
+              "received": false
+            }
+          ],
+          "total_price": 142554,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Doraville",
+              "street": "Arlo Pass",
+              "house": 916,
+              "flat": 4751
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfc51c508c5d5e542a5d",
+          "products": [
+            {
+              "_id": "6953cfc61c508c5d5e542a71",
+              "name": "Shoes44928",
+              "amount": 142,
+              "price": 85419,
+              "manufacturer": "Samsung",
+              "notes": "YnMq1v0qchLaUnEHAarlGU4Kh5BaYx5W1QNWCNMwNp4wZECfpFqHRTxlDTET7b3nTjK3IkbvGrd9ZoETbfHoVdXwomCJT0oHSc3HABbUf9ruQad7sHLz44R1BHJH1XaPr11td5p4dNPWB1EIcDRaVFHtMNw1a78xAM447A2sPcRrWz04yWGjfdnnUC3N7bETjJp3SpWWqi89HHTQuVN9EivtnZs24GPIZf33WZMERFl6icXLSfsuCfWKMv",
+              "received": false
+            },
+            {
+              "_id": "6953cfc61c508c5d5e542a86",
+              "name": "Mouse57298",
+              "amount": 929,
+              "price": 57135,
+              "manufacturer": "Samsung",
+              "notes": "Ea1RLQ1wwx8io5HdrbtMkuXvdca6MaDtrYbgVCvecRtuCO1qNuk26N2j4ii1lLJ8IGVTTYwiNjyTAS8ECWpuJ2JelLggsDQQMZA1JO1NaMPjHRVKro0QVbYLXXeNtrZRawMr9tc6DJa0giAnHA2PiRjLZDcTivnLEfoHNc1SEXYBnKubroT5zcSngh6P8IFWvjJH2PAzOrb4yLKjMgwee7b2qMAdYlACHe6sTYGfvI3agUr56dCquMYEfm",
+              "received": false
+            }
+          ],
+          "total_price": 142554,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:12:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

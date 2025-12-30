@@ -1,0 +1,184 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:15:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3867",
+    "etag": "W/\"f1b-AK1enk57k1uaXQxJHAcHuJdESZo\"",
+    "keep-alive": "timeout=5, max=58",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953d05a1c508c5d5e545fad",
+      "status": "In Process",
+      "customer": {
+        "_id": "6953d0591c508c5d5e545f65",
+        "email": "Halle.Runolfsdottir@hotmail.com",
+        "name": "Waino Quigley",
+        "country": "USA",
+        "city": "Towneview",
+        "street": "Araceli Meadows 67",
+        "house": 177,
+        "flat": 3330,
+        "phone": "+016144654789899",
+        "createdOn": "2025-12-30T13:15:05.000Z",
+        "notes": "xSpe2Pv1V7iTiPdGQ0oVge9i2nKd7E"
+      },
+      "products": [
+        {
+          "_id": "6953d05a1c508c5d5e545f8c",
+          "name": "Sausages27660",
+          "amount": 708,
+          "price": 3799,
+          "manufacturer": "Apple",
+          "notes": "PLJNALwUZWDrU0kTMtMeGjmUe8wQuoENMZ5wSMmkiZ0UMdUpGDVN7pGM9P1aLSyJainhswJckvhGjwRroylQY6mye65q8lDvWBSUxxcpi49foPFj0vtaDOOGbZ1Ovk4A9JjprbZyQhYvEXtxjvqkU1806Vbv31RrXvVFQcWK7Gi1wgDdP0sfaxswLcyP0hCBKYg6esA2rfegfWMS2HxbeNNW7nzLOysmmELgkxzfCPAoFEZCDzPTtHDd6f",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Maraberg",
+          "street": "Ignacio Mills",
+          "house": 349,
+          "flat": 389
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3799,
+      "createdOn": "2025-12-30T13:15:06.000Z",
+      "comments": [
+        {
+          "text": "Comment 1",
+          "createdOn": "2025-12-30T13:15:07.000Z",
+          "_id": "6953d05b1c508c5d5e546025"
+        },
+        {
+          "text": "Comment 2",
+          "createdOn": "2025-12-30T13:15:07.000Z",
+          "_id": "6953d05b1c508c5d5e546054"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6953d0591c508c5d5e545f65",
+          "products": [
+            {
+              "_id": "6953d05a1c508c5d5e545f8c",
+              "name": "Sausages27660",
+              "amount": 708,
+              "price": 3799,
+              "manufacturer": "Apple",
+              "notes": "PLJNALwUZWDrU0kTMtMeGjmUe8wQuoENMZ5wSMmkiZ0UMdUpGDVN7pGM9P1aLSyJainhswJckvhGjwRroylQY6mye65q8lDvWBSUxxcpi49foPFj0vtaDOOGbZ1Ovk4A9JjprbZyQhYvEXtxjvqkU1806Vbv31RrXvVFQcWK7Gi1wgDdP0sfaxswLcyP0hCBKYg6esA2rfegfWMS2HxbeNNW7nzLOysmmELgkxzfCPAoFEZCDzPTtHDd6f",
+              "received": false
+            }
+          ],
+          "total_price": 3799,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Maraberg",
+              "street": "Ignacio Mills",
+              "house": 349,
+              "flat": 389
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:15:07.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953d0591c508c5d5e545f65",
+          "products": [
+            {
+              "_id": "6953d05a1c508c5d5e545f8c",
+              "name": "Sausages27660",
+              "amount": 708,
+              "price": 3799,
+              "manufacturer": "Apple",
+              "notes": "PLJNALwUZWDrU0kTMtMeGjmUe8wQuoENMZ5wSMmkiZ0UMdUpGDVN7pGM9P1aLSyJainhswJckvhGjwRroylQY6mye65q8lDvWBSUxxcpi49foPFj0vtaDOOGbZ1Ovk4A9JjprbZyQhYvEXtxjvqkU1806Vbv31RrXvVFQcWK7Gi1wgDdP0sfaxswLcyP0hCBKYg6esA2rfegfWMS2HxbeNNW7nzLOysmmELgkxzfCPAoFEZCDzPTtHDd6f",
+              "received": false
+            }
+          ],
+          "total_price": 3799,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Maraberg",
+              "street": "Ignacio Mills",
+              "house": 349,
+              "flat": 389
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:15:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953d0591c508c5d5e545f65",
+          "products": [
+            {
+              "_id": "6953d05a1c508c5d5e545f8c",
+              "name": "Sausages27660",
+              "amount": 708,
+              "price": 3799,
+              "manufacturer": "Apple",
+              "notes": "PLJNALwUZWDrU0kTMtMeGjmUe8wQuoENMZ5wSMmkiZ0UMdUpGDVN7pGM9P1aLSyJainhswJckvhGjwRroylQY6mye65q8lDvWBSUxxcpi49foPFj0vtaDOOGbZ1Ovk4A9JjprbZyQhYvEXtxjvqkU1806Vbv31RrXvVFQcWK7Gi1wgDdP0sfaxswLcyP0hCBKYg6esA2rfegfWMS2HxbeNNW7nzLOysmmELgkxzfCPAoFEZCDzPTtHDd6f",
+              "received": false
+            }
+          ],
+          "total_price": 3799,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:15:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

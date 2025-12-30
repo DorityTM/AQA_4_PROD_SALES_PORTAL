@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:15:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2744",
+    "etag": "W/\"ab8-aMau/qpMpZvzmizn3M7Apof3V+8\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953d0731c508c5d5e546a9b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6953d0721c508c5d5e546a58",
+        "email": "Jodie.Spinka@gmail.com",
+        "name": "Myrtis Toy",
+        "country": "France",
+        "city": "Frederikberg",
+        "street": "Jerel Centers 65",
+        "house": 10,
+        "flat": 2356,
+        "phone": "+963774628845279",
+        "createdOn": "2025-12-30T13:15:30.000Z",
+        "notes": "GSyPlFJVx6hmmSVk4CdH6vtome9VXd"
+      },
+      "products": [
+        {
+          "_id": "6953d0731c508c5d5e546a89",
+          "name": "Pizza99788",
+          "amount": 550,
+          "price": 41137,
+          "manufacturer": "Sony",
+          "notes": "DS3v4OgREOKErGho6l6Du9IBGBDDcLplsapvF414sLjrDjX4YVlnL6pvb04zuCDwkuHrR2XPH8wQsi2zGNSoDenyrs20FJTvgqhxAISvnfcuzsDTy9z4Z9f8xlabTif5hISjP3rwjarpcuCOPM6d7oTHblrhnn6hBhWkCDYPU282hN5qkdkuqXLXdfiOuiRAAYyBEylhwPupPuXs6C0mVmREQjGYE0UV6jsa8KC0S93LKu6wsXbaaAK7fx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Ziemeville",
+          "street": "Sycamore Avenue",
+          "house": 678,
+          "flat": 7012
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 41137,
+      "createdOn": "2025-12-30T13:15:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6953d0721c508c5d5e546a58",
+          "products": [
+            {
+              "_id": "6953d0731c508c5d5e546a89",
+              "name": "Pizza99788",
+              "amount": 550,
+              "price": 41137,
+              "manufacturer": "Sony",
+              "notes": "DS3v4OgREOKErGho6l6Du9IBGBDDcLplsapvF414sLjrDjX4YVlnL6pvb04zuCDwkuHrR2XPH8wQsi2zGNSoDenyrs20FJTvgqhxAISvnfcuzsDTy9z4Z9f8xlabTif5hISjP3rwjarpcuCOPM6d7oTHblrhnn6hBhWkCDYPU282hN5qkdkuqXLXdfiOuiRAAYyBEylhwPupPuXs6C0mVmREQjGYE0UV6jsa8KC0S93LKu6wsXbaaAK7fx",
+              "received": false
+            }
+          ],
+          "total_price": 41137,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Ziemeville",
+              "street": "Sycamore Avenue",
+              "house": 678,
+              "flat": 7012
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:15:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953d0721c508c5d5e546a58",
+          "products": [
+            {
+              "_id": "6953d0731c508c5d5e546a89",
+              "name": "Pizza99788",
+              "amount": 550,
+              "price": 41137,
+              "manufacturer": "Sony",
+              "notes": "DS3v4OgREOKErGho6l6Du9IBGBDDcLplsapvF414sLjrDjX4YVlnL6pvb04zuCDwkuHrR2XPH8wQsi2zGNSoDenyrs20FJTvgqhxAISvnfcuzsDTy9z4Z9f8xlabTif5hISjP3rwjarpcuCOPM6d7oTHblrhnn6hBhWkCDYPU282hN5qkdkuqXLXdfiOuiRAAYyBEylhwPupPuXs6C0mVmREQjGYE0UV6jsa8KC0S93LKu6wsXbaaAK7fx",
+              "received": false
+            }
+          ],
+          "total_price": 41137,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:15:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

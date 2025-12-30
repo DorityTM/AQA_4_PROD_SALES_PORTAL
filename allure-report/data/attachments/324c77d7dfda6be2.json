@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:12:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8221",
+    "etag": "W/\"201d-bJVzDyI1mSDimm4cI3asVmEIG+M\"",
+    "keep-alive": "timeout=5, max=38",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953cfad1c508c5d5e541fa0",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6953cfad1c508c5d5e541f62",
+        "email": "Mandy.Ondricka99@hotmail.com",
+        "name": "Raven Kunde",
+        "country": "France",
+        "city": "Sawaynville",
+        "street": "Bauch Knoll 70",
+        "house": 627,
+        "flat": 4668,
+        "phone": "+532582182691377",
+        "createdOn": "2025-12-30T13:12:13.000Z",
+        "notes": "z0KVvXSFeWJoiwR4YqN4bAs8eoB5Ro"
+      },
+      "products": [
+        {
+          "_id": "6953cfad1c508c5d5e541f75",
+          "name": "Bacon60505",
+          "amount": 667,
+          "price": 41942,
+          "manufacturer": "Amazon",
+          "notes": "RFDRCz3sqOXAwRQclOpt1MIvbcL1WKNCLkZG7gqlJaqeT0drxQFf6UloCJK7D7stspTx1n1BcfOCcHNXpHlFV186fSdQoSnGiC2jIfWho379xHBp5m35fAu6PyvqJYZgSOnrqodEvTiiDzOGugANj2dLGXGrV4DLimOAxQLTFBhi6GLm4fDqw2BDsKJOqW45uQblAGEuKwa83SZCbx9q3kF2OZn73MpwM3qDajao5MfRyKkOxmjS5jfDbC",
+          "received": true
+        },
+        {
+          "_id": "6953cfad1c508c5d5e541f87",
+          "name": "Keyboard78390",
+          "amount": 303,
+          "price": 59102,
+          "manufacturer": "Microsoft",
+          "notes": "2jUjgLogNEJ9wTNUb37YikYrpXyr3rezKYs0eWTzVpJa7Z7Ibqcfi0eRNrHu7gSDBLTa1WtZW9mpIWgywZGXuOviA9cuOBAh1s8Ync44ccppBsCUZRjGhucSwfUzTpd1TOr9VKWJLAeOAuB0LBjeoENrGqtxO4JsiIB3KQd4iFDfRMXVizzMvFB7Q2ti6ZhBD5d6wxm91kOUXUrWteW4hmoKU1vsDpsiF8yrYNfMJZS1zFsbtO5zsslun8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Hoytcester",
+          "street": "Mill Street",
+          "house": 884,
+          "flat": 1964
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 101044,
+      "createdOn": "2025-12-30T13:12:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6953cfad1c508c5d5e541f62",
+          "products": [
+            {
+              "_id": "6953cfad1c508c5d5e541f75",
+              "name": "Bacon60505",
+              "amount": 667,
+              "price": 41942,
+              "manufacturer": "Amazon",
+              "notes": "RFDRCz3sqOXAwRQclOpt1MIvbcL1WKNCLkZG7gqlJaqeT0drxQFf6UloCJK7D7stspTx1n1BcfOCcHNXpHlFV186fSdQoSnGiC2jIfWho379xHBp5m35fAu6PyvqJYZgSOnrqodEvTiiDzOGugANj2dLGXGrV4DLimOAxQLTFBhi6GLm4fDqw2BDsKJOqW45uQblAGEuKwa83SZCbx9q3kF2OZn73MpwM3qDajao5MfRyKkOxmjS5jfDbC",
+              "received": true
+            },
+            {
+              "_id": "6953cfad1c508c5d5e541f87",
+              "name": "Keyboard78390",
+              "amount": 303,
+              "price": 59102,
+              "manufacturer": "Microsoft",
+              "notes": "2jUjgLogNEJ9wTNUb37YikYrpXyr3rezKYs0eWTzVpJa7Z7Ibqcfi0eRNrHu7gSDBLTa1WtZW9mpIWgywZGXuOviA9cuOBAh1s8Ync44ccppBsCUZRjGhucSwfUzTpd1TOr9VKWJLAeOAuB0LBjeoENrGqtxO4JsiIB3KQd4iFDfRMXVizzMvFB7Q2ti6ZhBD5d6wxm91kOUXUrWteW4hmoKU1vsDpsiF8yrYNfMJZS1zFsbtO5zsslun8",
+              "received": false
+            }
+          ],
+          "total_price": 101044,
+          "delivery": {
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery",
+            "address": {
+              "country": "Belarus",
+              "city": "East Hoytcester",
+              "street": "Mill Street",
+              "house": 884,
+              "flat": 1964
+            }
+          },
+          "changedOn": "2025-12-30T13:12:16.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "6953cfad1c508c5d5e541f62",
+          "products": [
+            {
+              "_id": "6953cfad1c508c5d5e541f75",
+              "name": "Bacon60505",
+              "amount": 667,
+              "price": 41942,
+              "manufacturer": "Amazon",
+              "notes": "RFDRCz3sqOXAwRQclOpt1MIvbcL1WKNCLkZG7gqlJaqeT0drxQFf6UloCJK7D7stspTx1n1BcfOCcHNXpHlFV186fSdQoSnGiC2jIfWho379xHBp5m35fAu6PyvqJYZgSOnrqodEvTiiDzOGugANj2dLGXGrV4DLimOAxQLTFBhi6GLm4fDqw2BDsKJOqW45uQblAGEuKwa83SZCbx9q3kF2OZn73MpwM3qDajao5MfRyKkOxmjS5jfDbC",
+              "received": true
+            },
+            {
+              "_id": "6953cfad1c508c5d5e541f87",
+              "name": "Keyboard78390",
+              "amount": 303,
+              "price": 59102,
+              "manufacturer": "Microsoft",
+              "notes": "2jUjgLogNEJ9wTNUb37YikYrpXyr3rezKYs0eWTzVpJa7Z7Ibqcfi0eRNrHu7gSDBLTa1WtZW9mpIWgywZGXuOviA9cuOBAh1s8Ync44ccppBsCUZRjGhucSwfUzTpd1TOr9VKWJLAeOAuB0LBjeoENrGqtxO4JsiIB3KQd4iFDfRMXVizzMvFB7Q2ti6ZhBD5d6wxm91kOUXUrWteW4hmoKU1vsDpsiF8yrYNfMJZS1zFsbtO5zsslun8",
+              "received": false
+            }
+          ],
+          "total_price": 101044,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Hoytcester",
+              "street": "Mill Street",
+              "house": 884,
+              "flat": 1964
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:15.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6953cfad1c508c5d5e541f62",
+          "products": [
+            {
+              "_id": "6953cfad1c508c5d5e541f75",
+              "name": "Bacon60505",
+              "amount": 667,
+              "price": 41942,
+              "manufacturer": "Amazon",
+              "notes": "RFDRCz3sqOXAwRQclOpt1MIvbcL1WKNCLkZG7gqlJaqeT0drxQFf6UloCJK7D7stspTx1n1BcfOCcHNXpHlFV186fSdQoSnGiC2jIfWho379xHBp5m35fAu6PyvqJYZgSOnrqodEvTiiDzOGugANj2dLGXGrV4DLimOAxQLTFBhi6GLm4fDqw2BDsKJOqW45uQblAGEuKwa83SZCbx9q3kF2OZn73MpwM3qDajao5MfRyKkOxmjS5jfDbC",
+              "received": false
+            },
+            {
+              "_id": "6953cfad1c508c5d5e541f87",
+              "name": "Keyboard78390",
+              "amount": 303,
+              "price": 59102,
+              "manufacturer": "Microsoft",
+              "notes": "2jUjgLogNEJ9wTNUb37YikYrpXyr3rezKYs0eWTzVpJa7Z7Ibqcfi0eRNrHu7gSDBLTa1WtZW9mpIWgywZGXuOviA9cuOBAh1s8Ync44ccppBsCUZRjGhucSwfUzTpd1TOr9VKWJLAeOAuB0LBjeoENrGqtxO4JsiIB3KQd4iFDfRMXVizzMvFB7Q2ti6ZhBD5d6wxm91kOUXUrWteW4hmoKU1vsDpsiF8yrYNfMJZS1zFsbtO5zsslun8",
+              "received": false
+            }
+          ],
+          "total_price": 101044,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Hoytcester",
+              "street": "Mill Street",
+              "house": 884,
+              "flat": 1964
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:14.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfad1c508c5d5e541f62",
+          "products": [
+            {
+              "_id": "6953cfad1c508c5d5e541f75",
+              "name": "Bacon60505",
+              "amount": 667,
+              "price": 41942,
+              "manufacturer": "Amazon",
+              "notes": "RFDRCz3sqOXAwRQclOpt1MIvbcL1WKNCLkZG7gqlJaqeT0drxQFf6UloCJK7D7stspTx1n1BcfOCcHNXpHlFV186fSdQoSnGiC2jIfWho379xHBp5m35fAu6PyvqJYZgSOnrqodEvTiiDzOGugANj2dLGXGrV4DLimOAxQLTFBhi6GLm4fDqw2BDsKJOqW45uQblAGEuKwa83SZCbx9q3kF2OZn73MpwM3qDajao5MfRyKkOxmjS5jfDbC",
+              "received": false
+            },
+            {
+              "_id": "6953cfad1c508c5d5e541f87",
+              "name": "Keyboard78390",
+              "amount": 303,
+              "price": 59102,
+              "manufacturer": "Microsoft",
+              "notes": "2jUjgLogNEJ9wTNUb37YikYrpXyr3rezKYs0eWTzVpJa7Z7Ibqcfi0eRNrHu7gSDBLTa1WtZW9mpIWgywZGXuOviA9cuOBAh1s8Ync44ccppBsCUZRjGhucSwfUzTpd1TOr9VKWJLAeOAuB0LBjeoENrGqtxO4JsiIB3KQd4iFDfRMXVizzMvFB7Q2ti6ZhBD5d6wxm91kOUXUrWteW4hmoKU1vsDpsiF8yrYNfMJZS1zFsbtO5zsslun8",
+              "received": false
+            }
+          ],
+          "total_price": 101044,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Hoytcester",
+              "street": "Mill Street",
+              "house": 884,
+              "flat": 1964
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfad1c508c5d5e541f62",
+          "products": [
+            {
+              "_id": "6953cfad1c508c5d5e541f75",
+              "name": "Bacon60505",
+              "amount": 667,
+              "price": 41942,
+              "manufacturer": "Amazon",
+              "notes": "RFDRCz3sqOXAwRQclOpt1MIvbcL1WKNCLkZG7gqlJaqeT0drxQFf6UloCJK7D7stspTx1n1BcfOCcHNXpHlFV186fSdQoSnGiC2jIfWho379xHBp5m35fAu6PyvqJYZgSOnrqodEvTiiDzOGugANj2dLGXGrV4DLimOAxQLTFBhi6GLm4fDqw2BDsKJOqW45uQblAGEuKwa83SZCbx9q3kF2OZn73MpwM3qDajao5MfRyKkOxmjS5jfDbC",
+              "received": false
+            },
+            {
+              "_id": "6953cfad1c508c5d5e541f87",
+              "name": "Keyboard78390",
+              "amount": 303,
+              "price": 59102,
+              "manufacturer": "Microsoft",
+              "notes": "2jUjgLogNEJ9wTNUb37YikYrpXyr3rezKYs0eWTzVpJa7Z7Ibqcfi0eRNrHu7gSDBLTa1WtZW9mpIWgywZGXuOviA9cuOBAh1s8Ync44ccppBsCUZRjGhucSwfUzTpd1TOr9VKWJLAeOAuB0LBjeoENrGqtxO4JsiIB3KQd4iFDfRMXVizzMvFB7Q2ti6ZhBD5d6wxm91kOUXUrWteW4hmoKU1vsDpsiF8yrYNfMJZS1zFsbtO5zsslun8",
+              "received": false
+            }
+          ],
+          "total_price": 101044,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:12:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:15:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3701",
+    "etag": "W/\"e75-EhZAQBIiunt6ImH42GAagnd2qtU\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953d0591c508c5d5e545f6c",
+      "status": "In Process",
+      "customer": {
+        "_id": "6953d0591c508c5d5e545f4c",
+        "email": "Clay.Feil@hotmail.com",
+        "name": "Candido Harvey",
+        "country": "Great Britain",
+        "city": "Goldnerstad",
+        "street": "The Square 58",
+        "house": 264,
+        "flat": 9673,
+        "phone": "+946582145069697",
+        "createdOn": "2025-12-30T13:15:05.000Z",
+        "notes": "SB7VpIb03KP9vUA0JYMbejaRTW6pnw"
+      },
+      "products": [
+        {
+          "_id": "6953d0591c508c5d5e545f55",
+          "name": "Chair33980",
+          "amount": 619,
+          "price": 98000,
+          "manufacturer": "Microsoft",
+          "notes": "UVs1y0DXWk4FsAi3UZgXgGes9mWBMsVWV7BbLLg85VkDFOAepb2cZkCSt6qciJmxvjx9dnLUXoxCUwc0ehTAW4Azbn6R3s7OKqf94M7aBKtUE1c4e8IR2eD8uNS2yLJpQL3CIhHJd7vY8o7Uvcp9GKU7D1hAHEi1AE2Yy3XgMT1BrCgO2lzmONYRnSDKeqE1LUhuBlXvR7Izj07WIsDISt31BnAccs5HT425Mh7ZSihzSKJgNFpqn2iVvA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Stellaberg",
+          "street": "Camila Highway",
+          "house": 541,
+          "flat": 8717
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98000,
+      "createdOn": "2025-12-30T13:15:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6953d0591c508c5d5e545f4c",
+          "products": [
+            {
+              "_id": "6953d0591c508c5d5e545f55",
+              "name": "Chair33980",
+              "amount": 619,
+              "price": 98000,
+              "manufacturer": "Microsoft",
+              "notes": "UVs1y0DXWk4FsAi3UZgXgGes9mWBMsVWV7BbLLg85VkDFOAepb2cZkCSt6qciJmxvjx9dnLUXoxCUwc0ehTAW4Azbn6R3s7OKqf94M7aBKtUE1c4e8IR2eD8uNS2yLJpQL3CIhHJd7vY8o7Uvcp9GKU7D1hAHEi1AE2Yy3XgMT1BrCgO2lzmONYRnSDKeqE1LUhuBlXvR7Izj07WIsDISt31BnAccs5HT425Mh7ZSihzSKJgNFpqn2iVvA",
+              "received": false
+            }
+          ],
+          "total_price": 98000,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Stellaberg",
+              "street": "Camila Highway",
+              "house": 541,
+              "flat": 8717
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:15:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953d0591c508c5d5e545f4c",
+          "products": [
+            {
+              "_id": "6953d0591c508c5d5e545f55",
+              "name": "Chair33980",
+              "amount": 619,
+              "price": 98000,
+              "manufacturer": "Microsoft",
+              "notes": "UVs1y0DXWk4FsAi3UZgXgGes9mWBMsVWV7BbLLg85VkDFOAepb2cZkCSt6qciJmxvjx9dnLUXoxCUwc0ehTAW4Azbn6R3s7OKqf94M7aBKtUE1c4e8IR2eD8uNS2yLJpQL3CIhHJd7vY8o7Uvcp9GKU7D1hAHEi1AE2Yy3XgMT1BrCgO2lzmONYRnSDKeqE1LUhuBlXvR7Izj07WIsDISt31BnAccs5HT425Mh7ZSihzSKJgNFpqn2iVvA",
+              "received": false
+            }
+          ],
+          "total_price": 98000,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Stellaberg",
+              "street": "Camila Highway",
+              "house": 541,
+              "flat": 8717
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:15:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953d0591c508c5d5e545f4c",
+          "products": [
+            {
+              "_id": "6953d0591c508c5d5e545f55",
+              "name": "Chair33980",
+              "amount": 619,
+              "price": 98000,
+              "manufacturer": "Microsoft",
+              "notes": "UVs1y0DXWk4FsAi3UZgXgGes9mWBMsVWV7BbLLg85VkDFOAepb2cZkCSt6qciJmxvjx9dnLUXoxCUwc0ehTAW4Azbn6R3s7OKqf94M7aBKtUE1c4e8IR2eD8uNS2yLJpQL3CIhHJd7vY8o7Uvcp9GKU7D1hAHEi1AE2Yy3XgMT1BrCgO2lzmONYRnSDKeqE1LUhuBlXvR7Izj07WIsDISt31BnAccs5HT425Mh7ZSihzSKJgNFpqn2iVvA",
+              "received": false
+            }
+          ],
+          "total_price": 98000,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:15:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

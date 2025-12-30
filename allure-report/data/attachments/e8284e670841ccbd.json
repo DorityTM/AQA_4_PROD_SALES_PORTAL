@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:12:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3660",
+    "etag": "W/\"e4c-K9T3AqXNImsdDrzbMyVAx3d+D0Y\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953cfa81c508c5d5e541d4b",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6953cfa71c508c5d5e541d0b",
+        "email": "Aliza_Strosin@gmail.com",
+        "name": "Cyrus Jones",
+        "country": "USA",
+        "city": "West Juwanfurt",
+        "street": "Tower Road 49",
+        "house": 483,
+        "flat": 7665,
+        "phone": "+149173499411390",
+        "createdOn": "2025-12-30T13:12:07.000Z",
+        "notes": "nEGb6ZLIJQHJvOP3yd2oemLCeLUHDG"
+      },
+      "products": [
+        {
+          "_id": "6953cfa71c508c5d5e541d2c",
+          "name": "Car36600",
+          "amount": 259,
+          "price": 45424,
+          "manufacturer": "Samsung",
+          "notes": "4QUR323pYAwjtbZS1qNX12yqJHW0tOn1EAQ8jqlJyOy08GK8LyyREMVK17UEgbU5epRbClKSWuqLe9ieYrvAfyd9cec44kSvKE0GT27h33DfSlmj1CBkOgjGvFLloTs2FgfbF741gkjQk2o9CNaaLRbVLEQz6LEPdUBApGQ374H2ygGcUUpJryaUZoHOExTd2LfhSolMdv7hbiwvXGaXMEsVDFNN1QrKuo5pSy8L2rbhgxuEPyIB9kPz6n",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Eliza",
+          "street": "Alda Meadows",
+          "house": 513,
+          "flat": 4665
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 45424,
+      "createdOn": "2025-12-30T13:12:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6953cfa71c508c5d5e541d0b",
+          "products": [
+            {
+              "_id": "6953cfa71c508c5d5e541d2c",
+              "name": "Car36600",
+              "amount": 259,
+              "price": 45424,
+              "manufacturer": "Samsung",
+              "notes": "4QUR323pYAwjtbZS1qNX12yqJHW0tOn1EAQ8jqlJyOy08GK8LyyREMVK17UEgbU5epRbClKSWuqLe9ieYrvAfyd9cec44kSvKE0GT27h33DfSlmj1CBkOgjGvFLloTs2FgfbF741gkjQk2o9CNaaLRbVLEQz6LEPdUBApGQ374H2ygGcUUpJryaUZoHOExTd2LfhSolMdv7hbiwvXGaXMEsVDFNN1QrKuo5pSy8L2rbhgxuEPyIB9kPz6n",
+              "received": false
+            }
+          ],
+          "total_price": 45424,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Eliza",
+              "street": "Alda Meadows",
+              "house": 513,
+              "flat": 4665
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:09.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfa71c508c5d5e541d0b",
+          "products": [
+            {
+              "_id": "6953cfa71c508c5d5e541d2c",
+              "name": "Car36600",
+              "amount": 259,
+              "price": 45424,
+              "manufacturer": "Samsung",
+              "notes": "4QUR323pYAwjtbZS1qNX12yqJHW0tOn1EAQ8jqlJyOy08GK8LyyREMVK17UEgbU5epRbClKSWuqLe9ieYrvAfyd9cec44kSvKE0GT27h33DfSlmj1CBkOgjGvFLloTs2FgfbF741gkjQk2o9CNaaLRbVLEQz6LEPdUBApGQ374H2ygGcUUpJryaUZoHOExTd2LfhSolMdv7hbiwvXGaXMEsVDFNN1QrKuo5pSy8L2rbhgxuEPyIB9kPz6n",
+              "received": false
+            }
+          ],
+          "total_price": 45424,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Eliza",
+              "street": "Alda Meadows",
+              "house": 513,
+              "flat": 4665
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfa71c508c5d5e541d0b",
+          "products": [
+            {
+              "_id": "6953cfa71c508c5d5e541d2c",
+              "name": "Car36600",
+              "amount": 259,
+              "price": 45424,
+              "manufacturer": "Samsung",
+              "notes": "4QUR323pYAwjtbZS1qNX12yqJHW0tOn1EAQ8jqlJyOy08GK8LyyREMVK17UEgbU5epRbClKSWuqLe9ieYrvAfyd9cec44kSvKE0GT27h33DfSlmj1CBkOgjGvFLloTs2FgfbF741gkjQk2o9CNaaLRbVLEQz6LEPdUBApGQ374H2ygGcUUpJryaUZoHOExTd2LfhSolMdv7hbiwvXGaXMEsVDFNN1QrKuo5pSy8L2rbhgxuEPyIB9kPz6n",
+              "received": false
+            }
+          ],
+          "total_price": 45424,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:12:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

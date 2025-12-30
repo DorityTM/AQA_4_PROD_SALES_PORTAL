@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:12:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4250",
+    "etag": "W/\"109a-6gFtZLjkPr+6uddb/N4zNNqpgSg\"",
+    "keep-alive": "timeout=5, max=70",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953cfd71c508c5d5e543188",
+      "status": "Draft",
+      "customer": {
+        "_id": "6953cfd61c508c5d5e543162",
+        "email": "Esteban64@hotmail.com",
+        "name": "Aileen Armstrong",
+        "country": "Great Britain",
+        "city": "East Joy",
+        "street": "Ebert Cliffs 37",
+        "house": 604,
+        "flat": 6322,
+        "phone": "+655966850702644",
+        "createdOn": "2025-12-30T13:12:54.000Z",
+        "notes": "tYZDBthmc6m6L65bA5XRLS0ZW47Ilt"
+      },
+      "products": [
+        {
+          "_id": "6953cfd71c508c5d5e54317a",
+          "name": "Hat87915",
+          "amount": 213,
+          "price": 50229,
+          "manufacturer": "Tesla",
+          "notes": "0MCZmC8P1QMK6kOWvNyNXvlS1Mco8pehDtIJFDj1OH7CZeMVNANf0eFf9MbvcOhIsmv2OfEfgiodPCkZu0H16PCXfyPjLplDjJ8AqCDxRRirjstWprMP11d5Z05gBShblpNHQYIM7T44KenDaotgeyKhSEBUZkztDWGu92JfAP4R8PdANnPA3Zv7PkEP97AhvenWICGGyV8weVLTYrxSsJm4LBm7GDBhJIQIMIZft43JcluK0pIXMK9G1N",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 50229,
+      "createdOn": "2025-12-30T13:12:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6953cfd61c508c5d5e543162",
+          "products": [
+            {
+              "_id": "6953cfd71c508c5d5e54317a",
+              "name": "Hat87915",
+              "amount": 213,
+              "price": 50229,
+              "manufacturer": "Tesla",
+              "notes": "0MCZmC8P1QMK6kOWvNyNXvlS1Mco8pehDtIJFDj1OH7CZeMVNANf0eFf9MbvcOhIsmv2OfEfgiodPCkZu0H16PCXfyPjLplDjJ8AqCDxRRirjstWprMP11d5Z05gBShblpNHQYIM7T44KenDaotgeyKhSEBUZkztDWGu92JfAP4R8PdANnPA3Zv7PkEP97AhvenWICGGyV8weVLTYrxSsJm4LBm7GDBhJIQIMIZft43JcluK0pIXMK9G1N",
+              "received": false
+            }
+          ],
+          "total_price": 50229,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:12:56.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "6953cfd61c508c5d5e543162",
+          "products": [
+            {
+              "_id": "6953cfd71c508c5d5e54317a",
+              "name": "Hat87915",
+              "amount": 213,
+              "price": 50229,
+              "manufacturer": "Tesla",
+              "notes": "0MCZmC8P1QMK6kOWvNyNXvlS1Mco8pehDtIJFDj1OH7CZeMVNANf0eFf9MbvcOhIsmv2OfEfgiodPCkZu0H16PCXfyPjLplDjJ8AqCDxRRirjstWprMP11d5Z05gBShblpNHQYIM7T44KenDaotgeyKhSEBUZkztDWGu92JfAP4R8PdANnPA3Zv7PkEP97AhvenWICGGyV8weVLTYrxSsJm4LBm7GDBhJIQIMIZft43JcluK0pIXMK9G1N",
+              "received": false
+            }
+          ],
+          "total_price": 50229,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Framingham",
+              "street": "Donnell Mews",
+              "house": 699,
+              "flat": 1293
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:56.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfd61c508c5d5e543162",
+          "products": [
+            {
+              "_id": "6953cfd71c508c5d5e54317a",
+              "name": "Hat87915",
+              "amount": 213,
+              "price": 50229,
+              "manufacturer": "Tesla",
+              "notes": "0MCZmC8P1QMK6kOWvNyNXvlS1Mco8pehDtIJFDj1OH7CZeMVNANf0eFf9MbvcOhIsmv2OfEfgiodPCkZu0H16PCXfyPjLplDjJ8AqCDxRRirjstWprMP11d5Z05gBShblpNHQYIM7T44KenDaotgeyKhSEBUZkztDWGu92JfAP4R8PdANnPA3Zv7PkEP97AhvenWICGGyV8weVLTYrxSsJm4LBm7GDBhJIQIMIZft43JcluK0pIXMK9G1N",
+              "received": false
+            }
+          ],
+          "total_price": 50229,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Framingham",
+              "street": "Donnell Mews",
+              "house": 699,
+              "flat": 1293
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfd61c508c5d5e543162",
+          "products": [
+            {
+              "_id": "6953cfd71c508c5d5e54317a",
+              "name": "Hat87915",
+              "amount": 213,
+              "price": 50229,
+              "manufacturer": "Tesla",
+              "notes": "0MCZmC8P1QMK6kOWvNyNXvlS1Mco8pehDtIJFDj1OH7CZeMVNANf0eFf9MbvcOhIsmv2OfEfgiodPCkZu0H16PCXfyPjLplDjJ8AqCDxRRirjstWprMP11d5Z05gBShblpNHQYIM7T44KenDaotgeyKhSEBUZkztDWGu92JfAP4R8PdANnPA3Zv7PkEP97AhvenWICGGyV8weVLTYrxSsJm4LBm7GDBhJIQIMIZft43JcluK0pIXMK9G1N",
+              "received": false
+            }
+          ],
+          "total_price": 50229,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:12:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

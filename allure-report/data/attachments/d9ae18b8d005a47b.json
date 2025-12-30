@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:13:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3729",
+    "etag": "W/\"e91-oPuH6Ok+Py9MG0r7PNGgWQiofFc\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953cfde1c508c5d5e5434f6",
+      "status": "In Process",
+      "customer": {
+        "_id": "6953cfdd1c508c5d5e5434d8",
+        "email": "Blanche_MacGyver@yahoo.com",
+        "name": "Edwardo Carter",
+        "country": "Russia",
+        "city": "West Frederikworth",
+        "street": "Breitenberg Mountain 68",
+        "house": 291,
+        "flat": 6787,
+        "phone": "+287323981246344",
+        "createdOn": "2025-12-30T13:13:01.000Z",
+        "notes": "40AsUASUPQNu1tjIaW1F7DLvJlAZAR"
+      },
+      "products": [
+        {
+          "_id": "6953cfde1c508c5d5e5434e8",
+          "name": "Towels36140",
+          "amount": 862,
+          "price": 52681,
+          "manufacturer": "Microsoft",
+          "notes": "VQU8Fd8EbyZknq7uVFpYg6IdbM662Zrjqj5w061bAj2j6Em7mZxcZZNa6ciOyxF5FmBRweN4NDdP174P64ewlc9T7hhaxzFY1SMdachbXxT7VpUXCp94Y3GPjCRoaXAyzgFyaQ6oElJ8o0qtx41gekyG8o0bPLBBLdJEoV34bdNEgDkpsDs9vL5O6MMMg8gmBN6Gyg9WFDjJtCGMBtEpH1QPrzMoEOks9pKrZAUSsFXFFzQax9auIUTMvB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Fort Mossieland",
+          "street": "Koelpin Pass",
+          "house": 982,
+          "flat": 9287
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 52681,
+      "createdOn": "2025-12-30T13:13:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6953cfdd1c508c5d5e5434d8",
+          "products": [
+            {
+              "_id": "6953cfde1c508c5d5e5434e8",
+              "name": "Towels36140",
+              "amount": 862,
+              "price": 52681,
+              "manufacturer": "Microsoft",
+              "notes": "VQU8Fd8EbyZknq7uVFpYg6IdbM662Zrjqj5w061bAj2j6Em7mZxcZZNa6ciOyxF5FmBRweN4NDdP174P64ewlc9T7hhaxzFY1SMdachbXxT7VpUXCp94Y3GPjCRoaXAyzgFyaQ6oElJ8o0qtx41gekyG8o0bPLBBLdJEoV34bdNEgDkpsDs9vL5O6MMMg8gmBN6Gyg9WFDjJtCGMBtEpH1QPrzMoEOks9pKrZAUSsFXFFzQax9auIUTMvB",
+              "received": false
+            }
+          ],
+          "total_price": 52681,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Mossieland",
+              "street": "Koelpin Pass",
+              "house": 982,
+              "flat": 9287
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:13:03.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfdd1c508c5d5e5434d8",
+          "products": [
+            {
+              "_id": "6953cfde1c508c5d5e5434e8",
+              "name": "Towels36140",
+              "amount": 862,
+              "price": 52681,
+              "manufacturer": "Microsoft",
+              "notes": "VQU8Fd8EbyZknq7uVFpYg6IdbM662Zrjqj5w061bAj2j6Em7mZxcZZNa6ciOyxF5FmBRweN4NDdP174P64ewlc9T7hhaxzFY1SMdachbXxT7VpUXCp94Y3GPjCRoaXAyzgFyaQ6oElJ8o0qtx41gekyG8o0bPLBBLdJEoV34bdNEgDkpsDs9vL5O6MMMg8gmBN6Gyg9WFDjJtCGMBtEpH1QPrzMoEOks9pKrZAUSsFXFFzQax9auIUTMvB",
+              "received": false
+            }
+          ],
+          "total_price": 52681,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Mossieland",
+              "street": "Koelpin Pass",
+              "house": 982,
+              "flat": 9287
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:13:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfdd1c508c5d5e5434d8",
+          "products": [
+            {
+              "_id": "6953cfde1c508c5d5e5434e8",
+              "name": "Towels36140",
+              "amount": 862,
+              "price": 52681,
+              "manufacturer": "Microsoft",
+              "notes": "VQU8Fd8EbyZknq7uVFpYg6IdbM662Zrjqj5w061bAj2j6Em7mZxcZZNa6ciOyxF5FmBRweN4NDdP174P64ewlc9T7hhaxzFY1SMdachbXxT7VpUXCp94Y3GPjCRoaXAyzgFyaQ6oElJ8o0qtx41gekyG8o0bPLBBLdJEoV34bdNEgDkpsDs9vL5O6MMMg8gmBN6Gyg9WFDjJtCGMBtEpH1QPrzMoEOks9pKrZAUSsFXFFzQax9auIUTMvB",
+              "received": false
+            }
+          ],
+          "total_price": 52681,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:13:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

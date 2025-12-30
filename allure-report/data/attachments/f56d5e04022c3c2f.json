@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:15:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4596",
+    "etag": "W/\"11f4-hx1nCio2zxHPw8AJMpvh+p6T2yg\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953d0711c508c5d5e5469fa",
+      "status": "Received",
+      "customer": {
+        "_id": "6953d0711c508c5d5e5469c9",
+        "email": "Phyllis.Denesik67@hotmail.com",
+        "name": "Raphaelle Ebert",
+        "country": "USA",
+        "city": "Fort Carmine",
+        "street": "Windsor Close 57",
+        "house": 903,
+        "flat": 8746,
+        "phone": "+880129937151343",
+        "createdOn": "2025-12-30T13:15:29.000Z",
+        "notes": "GcVKZ0w2E2uKosy3TUU5IGiiilPwhq"
+      },
+      "products": [
+        {
+          "_id": "6953d0711c508c5d5e5469e6",
+          "name": "Chips60334",
+          "amount": 609,
+          "price": 80253,
+          "manufacturer": "Xiaomi",
+          "notes": "4Liz18SThUiWXUju2UUaZF9CsowOEj1WboiBGHCpgKHB7HteWJjVVxtmEaVvna1rwozqhVudwZdDCwRtN7WG82wceDvjsq3sL8DHbT4BFoejuKKQl7oD9WzLFxdmUZb2GTWQlDnD7ljwSVavtYgHXvR67jMh2Os4pyax82yK3U4JYTarRMiFby6M82JGNhze4XdkAII8lbldF1F2tiq09XtPfP1no49xyZKjC9GJRWlQ30jngasQkRUhq0",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Brownsville",
+          "street": "Vella Circle",
+          "house": 384,
+          "flat": 8256
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80253,
+      "createdOn": "2025-12-30T13:15:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6953d0711c508c5d5e5469c9",
+          "products": [
+            {
+              "_id": "6953d0711c508c5d5e5469e6",
+              "name": "Chips60334",
+              "amount": 609,
+              "price": 80253,
+              "manufacturer": "Xiaomi",
+              "notes": "4Liz18SThUiWXUju2UUaZF9CsowOEj1WboiBGHCpgKHB7HteWJjVVxtmEaVvna1rwozqhVudwZdDCwRtN7WG82wceDvjsq3sL8DHbT4BFoejuKKQl7oD9WzLFxdmUZb2GTWQlDnD7ljwSVavtYgHXvR67jMh2Os4pyax82yK3U4JYTarRMiFby6M82JGNhze4XdkAII8lbldF1F2tiq09XtPfP1no49xyZKjC9GJRWlQ30jngasQkRUhq0",
+              "received": true
+            }
+          ],
+          "total_price": 80253,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Brownsville",
+              "street": "Vella Circle",
+              "house": 384,
+              "flat": 8256
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:15:30.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6953d0711c508c5d5e5469c9",
+          "products": [
+            {
+              "_id": "6953d0711c508c5d5e5469e6",
+              "name": "Chips60334",
+              "amount": 609,
+              "price": 80253,
+              "manufacturer": "Xiaomi",
+              "notes": "4Liz18SThUiWXUju2UUaZF9CsowOEj1WboiBGHCpgKHB7HteWJjVVxtmEaVvna1rwozqhVudwZdDCwRtN7WG82wceDvjsq3sL8DHbT4BFoejuKKQl7oD9WzLFxdmUZb2GTWQlDnD7ljwSVavtYgHXvR67jMh2Os4pyax82yK3U4JYTarRMiFby6M82JGNhze4XdkAII8lbldF1F2tiq09XtPfP1no49xyZKjC9GJRWlQ30jngasQkRUhq0",
+              "received": false
+            }
+          ],
+          "total_price": 80253,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Brownsville",
+              "street": "Vella Circle",
+              "house": 384,
+              "flat": 8256
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:15:30.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953d0711c508c5d5e5469c9",
+          "products": [
+            {
+              "_id": "6953d0711c508c5d5e5469e6",
+              "name": "Chips60334",
+              "amount": 609,
+              "price": 80253,
+              "manufacturer": "Xiaomi",
+              "notes": "4Liz18SThUiWXUju2UUaZF9CsowOEj1WboiBGHCpgKHB7HteWJjVVxtmEaVvna1rwozqhVudwZdDCwRtN7WG82wceDvjsq3sL8DHbT4BFoejuKKQl7oD9WzLFxdmUZb2GTWQlDnD7ljwSVavtYgHXvR67jMh2Os4pyax82yK3U4JYTarRMiFby6M82JGNhze4XdkAII8lbldF1F2tiq09XtPfP1no49xyZKjC9GJRWlQ30jngasQkRUhq0",
+              "received": false
+            }
+          ],
+          "total_price": 80253,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Brownsville",
+              "street": "Vella Circle",
+              "house": 384,
+              "flat": 8256
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:15:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953d0711c508c5d5e5469c9",
+          "products": [
+            {
+              "_id": "6953d0711c508c5d5e5469e6",
+              "name": "Chips60334",
+              "amount": 609,
+              "price": 80253,
+              "manufacturer": "Xiaomi",
+              "notes": "4Liz18SThUiWXUju2UUaZF9CsowOEj1WboiBGHCpgKHB7HteWJjVVxtmEaVvna1rwozqhVudwZdDCwRtN7WG82wceDvjsq3sL8DHbT4BFoejuKKQl7oD9WzLFxdmUZb2GTWQlDnD7ljwSVavtYgHXvR67jMh2Os4pyax82yK3U4JYTarRMiFby6M82JGNhze4XdkAII8lbldF1F2tiq09XtPfP1no49xyZKjC9GJRWlQ30jngasQkRUhq0",
+              "received": false
+            }
+          ],
+          "total_price": 80253,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:15:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

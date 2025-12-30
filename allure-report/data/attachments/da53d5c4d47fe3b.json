@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 13:12:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3683",
+    "etag": "W/\"e63-5NPh61k0iF76W7QGnyYdG8fArxY\"",
+    "keep-alive": "timeout=5, max=34",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6953cfac1c508c5d5e541f2a",
+      "status": "In Process",
+      "customer": {
+        "_id": "6953cfac1c508c5d5e541eee",
+        "email": "Janie.Mayer@yahoo.com",
+        "name": "Elmira Strosin",
+        "country": "France",
+        "city": "Cassinside",
+        "street": "W Bridge Street 11",
+        "house": 822,
+        "flat": 2794,
+        "phone": "+273209950597250",
+        "createdOn": "2025-12-30T13:12:12.000Z",
+        "notes": "UvSH2kIEeWILFTKRFeQxkKzIms3LyF"
+      },
+      "products": [
+        {
+          "_id": "6953cfac1c508c5d5e541f04",
+          "name": "Bacon21802",
+          "amount": 118,
+          "price": 10602,
+          "manufacturer": "Amazon",
+          "notes": "GnZLKYuDaH8Mik8in7zUYXfmYZFSw039tmjkEBlamQZQzFab5oVvwHkm3EAkv9heofy2I6ROkzVLC1Lx9JxeEIQKOGthotppC8Q0OUsLf5cs7lOjC7JqzgF9uzj3Mcs36rIQFk3hyHf5WOJD57tvueIEBphcvfDSrFI0ABgk3vCVnwpAQLg9ZjRdPDoDqU72skm3gRJdwmvnyElyLkiZiorcF5TFROBzNUeIqunC4I8l4lwNVJo2cAObBU",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "New Missouri",
+          "street": "Walsh Loaf",
+          "house": 274,
+          "flat": 7517
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 10602,
+      "createdOn": "2025-12-30T13:12:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6953cfac1c508c5d5e541eee",
+          "products": [
+            {
+              "_id": "6953cfac1c508c5d5e541f04",
+              "name": "Bacon21802",
+              "amount": 118,
+              "price": 10602,
+              "manufacturer": "Amazon",
+              "notes": "GnZLKYuDaH8Mik8in7zUYXfmYZFSw039tmjkEBlamQZQzFab5oVvwHkm3EAkv9heofy2I6ROkzVLC1Lx9JxeEIQKOGthotppC8Q0OUsLf5cs7lOjC7JqzgF9uzj3Mcs36rIQFk3hyHf5WOJD57tvueIEBphcvfDSrFI0ABgk3vCVnwpAQLg9ZjRdPDoDqU72skm3gRJdwmvnyElyLkiZiorcF5TFROBzNUeIqunC4I8l4lwNVJo2cAObBU",
+              "received": false
+            }
+          ],
+          "total_price": 10602,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Missouri",
+              "street": "Walsh Loaf",
+              "house": 274,
+              "flat": 7517
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfac1c508c5d5e541eee",
+          "products": [
+            {
+              "_id": "6953cfac1c508c5d5e541f04",
+              "name": "Bacon21802",
+              "amount": 118,
+              "price": 10602,
+              "manufacturer": "Amazon",
+              "notes": "GnZLKYuDaH8Mik8in7zUYXfmYZFSw039tmjkEBlamQZQzFab5oVvwHkm3EAkv9heofy2I6ROkzVLC1Lx9JxeEIQKOGthotppC8Q0OUsLf5cs7lOjC7JqzgF9uzj3Mcs36rIQFk3hyHf5WOJD57tvueIEBphcvfDSrFI0ABgk3vCVnwpAQLg9ZjRdPDoDqU72skm3gRJdwmvnyElyLkiZiorcF5TFROBzNUeIqunC4I8l4lwNVJo2cAObBU",
+              "received": false
+            }
+          ],
+          "total_price": 10602,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Missouri",
+              "street": "Walsh Loaf",
+              "house": 274,
+              "flat": 7517
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T13:12:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6953cfac1c508c5d5e541eee",
+          "products": [
+            {
+              "_id": "6953cfac1c508c5d5e541f04",
+              "name": "Bacon21802",
+              "amount": 118,
+              "price": 10602,
+              "manufacturer": "Amazon",
+              "notes": "GnZLKYuDaH8Mik8in7zUYXfmYZFSw039tmjkEBlamQZQzFab5oVvwHkm3EAkv9heofy2I6ROkzVLC1Lx9JxeEIQKOGthotppC8Q0OUsLf5cs7lOjC7JqzgF9uzj3Mcs36rIQFk3hyHf5WOJD57tvueIEBphcvfDSrFI0ABgk3vCVnwpAQLg9ZjRdPDoDqU72skm3gRJdwmvnyElyLkiZiorcF5TFROBzNUeIqunC4I8l4lwNVJo2cAObBU",
+              "received": false
+            }
+          ],
+          "total_price": 10602,
+          "delivery": null,
+          "changedOn": "2025-12-30T13:12:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
