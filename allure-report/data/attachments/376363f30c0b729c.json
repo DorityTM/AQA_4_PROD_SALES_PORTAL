@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:58:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2768",
+    "etag": "W/\"ad0-6HaO4W6/uUSyh1d8WPIDePJ21zQ\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543cfa1c508c5d5e57743e",
+      "status": "Draft",
+      "customer": {
+        "_id": "69543cf91c508c5d5e577405",
+        "email": "Patience.Fahey13@yahoo.com",
+        "name": "Jada Hodkiewicz",
+        "country": "Great Britain",
+        "city": "Alvinafort",
+        "street": "Delta Place 20",
+        "house": 743,
+        "flat": 612,
+        "phone": "+498029593195943",
+        "createdOn": "2025-12-30T20:58:33.000Z",
+        "notes": "i9qeaNX70DQfH2ZYoE8qzRkdUJHqIj"
+      },
+      "products": [
+        {
+          "_id": "69543cfa1c508c5d5e57741d",
+          "name": "Bacon59074",
+          "amount": 184,
+          "price": 60297,
+          "manufacturer": "Xiaomi",
+          "notes": "wNo5IP83Xn3T8aCO2pCK4dsWsa3ajeKbzV1AoCZ7FAJCg3TiPt1Tfvz6QNoS22wnG0Sr8IOlJN7w8ucbj4TceGCUhoqauLqMCwvH0CFUmVEDEgi0OKsa3DsfByMMUVNG8E4Gek06J2wY41qUOVmBMl07ifz8B8crBmdw8oLtAOMdiZSPcmVUOxBICGFC5Ct6xsF9nGBiqTq8oqejj8wgPE7jJ0MLK7tsu67JouUTgIYweAPtapJ6Djym9p",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lake Cesarstead",
+          "street": "Cherry Street",
+          "house": 166,
+          "flat": 9889
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 60297,
+      "createdOn": "2025-12-30T20:58:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69543cf91c508c5d5e577405",
+          "products": [
+            {
+              "_id": "69543cfa1c508c5d5e57741d",
+              "name": "Bacon59074",
+              "amount": 184,
+              "price": 60297,
+              "manufacturer": "Xiaomi",
+              "notes": "wNo5IP83Xn3T8aCO2pCK4dsWsa3ajeKbzV1AoCZ7FAJCg3TiPt1Tfvz6QNoS22wnG0Sr8IOlJN7w8ucbj4TceGCUhoqauLqMCwvH0CFUmVEDEgi0OKsa3DsfByMMUVNG8E4Gek06J2wY41qUOVmBMl07ifz8B8crBmdw8oLtAOMdiZSPcmVUOxBICGFC5Ct6xsF9nGBiqTq8oqejj8wgPE7jJ0MLK7tsu67JouUTgIYweAPtapJ6Djym9p",
+              "received": false
+            }
+          ],
+          "total_price": 60297,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lake Cesarstead",
+              "street": "Cherry Street",
+              "house": 166,
+              "flat": 9889
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:58:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543cf91c508c5d5e577405",
+          "products": [
+            {
+              "_id": "69543cfa1c508c5d5e57741d",
+              "name": "Bacon59074",
+              "amount": 184,
+              "price": 60297,
+              "manufacturer": "Xiaomi",
+              "notes": "wNo5IP83Xn3T8aCO2pCK4dsWsa3ajeKbzV1AoCZ7FAJCg3TiPt1Tfvz6QNoS22wnG0Sr8IOlJN7w8ucbj4TceGCUhoqauLqMCwvH0CFUmVEDEgi0OKsa3DsfByMMUVNG8E4Gek06J2wY41qUOVmBMl07ifz8B8crBmdw8oLtAOMdiZSPcmVUOxBICGFC5Ct6xsF9nGBiqTq8oqejj8wgPE7jJ0MLK7tsu67JouUTgIYweAPtapJ6Djym9p",
+              "received": false
+            }
+          ],
+          "total_price": 60297,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:58:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

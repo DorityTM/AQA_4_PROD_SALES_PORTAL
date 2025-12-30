@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:53:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2749",
+    "etag": "W/\"abd-9G4YFthW5yZXJ0ClqcOzxjBnvdE\"",
+    "keep-alive": "timeout=5, max=36",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543bde1c508c5d5e56e7b7",
+      "status": "Draft",
+      "customer": {
+        "_id": "69543bdd1c508c5d5e56e765",
+        "email": "Katrina_Roberts@gmail.com",
+        "name": "Sigurd Kilback",
+        "country": "Germany",
+        "city": "Sioux Falls",
+        "street": "Hoyt River 53",
+        "house": 170,
+        "flat": 4737,
+        "phone": "+352151166757212",
+        "createdOn": "2025-12-30T20:53:49.000Z",
+        "notes": "FH6b9uWGbmSPZUGEFEsae4481hIjYA"
+      },
+      "products": [
+        {
+          "_id": "69543bde1c508c5d5e56e79c",
+          "name": "Soap75230",
+          "amount": 302,
+          "price": 47525,
+          "manufacturer": "Samsung",
+          "notes": "oQUMUSxGxZPtHFdcEZujvkfhd6NAqoa4hrznFaBcNZxwZ9VytTohgwu1oy67agSLj5vjBqXkxi7UDSq7PshSfyukXJXOjs9y8gz1BqKAvuiHlVDZNKKhy4Z8K8h7uqfpRlzmH75Qy5hb8PhP0ZMQ7yh9TRPZaYqL7Iz4bLBTIsNGyJD7G8rGbZPM3mmsuFZ1cP1gp3l9TTfGBqm0TbMawKCbwcE6tUtkAt2UYqgF5J9mBIKsMHUeQ0wa5l",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Westminster",
+          "street": "Maggio Landing",
+          "house": 875,
+          "flat": 9556
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47525,
+      "createdOn": "2025-12-30T20:53:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69543bdd1c508c5d5e56e765",
+          "products": [
+            {
+              "_id": "69543bde1c508c5d5e56e79c",
+              "name": "Soap75230",
+              "amount": 302,
+              "price": 47525,
+              "manufacturer": "Samsung",
+              "notes": "oQUMUSxGxZPtHFdcEZujvkfhd6NAqoa4hrznFaBcNZxwZ9VytTohgwu1oy67agSLj5vjBqXkxi7UDSq7PshSfyukXJXOjs9y8gz1BqKAvuiHlVDZNKKhy4Z8K8h7uqfpRlzmH75Qy5hb8PhP0ZMQ7yh9TRPZaYqL7Iz4bLBTIsNGyJD7G8rGbZPM3mmsuFZ1cP1gp3l9TTfGBqm0TbMawKCbwcE6tUtkAt2UYqgF5J9mBIKsMHUeQ0wa5l",
+              "received": false
+            }
+          ],
+          "total_price": 47525,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Westminster",
+              "street": "Maggio Landing",
+              "house": 875,
+              "flat": 9556
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:53:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543bdd1c508c5d5e56e765",
+          "products": [
+            {
+              "_id": "69543bde1c508c5d5e56e79c",
+              "name": "Soap75230",
+              "amount": 302,
+              "price": 47525,
+              "manufacturer": "Samsung",
+              "notes": "oQUMUSxGxZPtHFdcEZujvkfhd6NAqoa4hrznFaBcNZxwZ9VytTohgwu1oy67agSLj5vjBqXkxi7UDSq7PshSfyukXJXOjs9y8gz1BqKAvuiHlVDZNKKhy4Z8K8h7uqfpRlzmH75Qy5hb8PhP0ZMQ7yh9TRPZaYqL7Iz4bLBTIsNGyJD7G8rGbZPM3mmsuFZ1cP1gp3l9TTfGBqm0TbMawKCbwcE6tUtkAt2UYqgF5J9mBIKsMHUeQ0wa5l",
+              "received": false
+            }
+          ],
+          "total_price": 47525,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:53:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:54:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1790",
+    "etag": "W/\"6fe-w5jDvMHV+uf6fUYeRLeS1gdEV84\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543bf41c508c5d5e56f2f5",
+      "status": "Draft",
+      "customer": {
+        "_id": "69543bf31c508c5d5e56f24c",
+        "email": "Abelardo60@hotmail.com",
+        "name": "Addison Dietrich",
+        "country": "Russia",
+        "city": "Fort Claudie",
+        "street": "George Street 81",
+        "house": 290,
+        "flat": 1155,
+        "phone": "+382582663707756",
+        "createdOn": "2025-12-30T20:54:11.000Z",
+        "notes": "iUtZMPSlgJkZQd9C17p4GoLokYgV6w"
+      },
+      "products": [
+        {
+          "_id": "69543bf41c508c5d5e56f2e8",
+          "name": "Chair30968",
+          "amount": 670,
+          "price": 67114,
+          "manufacturer": "Xiaomi",
+          "notes": "taxGH941E8cpBiS8ZBflpilbW9g58DcSdMWqyFFRprO6AAk0F7wR0K96t1UZdOGgoBl2dzquzwhK677J9uBpxSd5D868AhZvWUsK44SI8TDnJrEULOlvzAK4rk3j6PrLdRZC583jrcODwGltZ1FEcc3esDDAyIFRH9IEMXqfKdHkq6HNiFBmMko2XgzUEyhBOcBeJDGsTzQzPzCw8K9Y18g8zqIQBTt5TKikNFJpt4xgPGdxX8FJtTsDKn",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 67114,
+      "createdOn": "2025-12-30T20:54:12.000Z",
+      "comments": [
+        {
+          "text": "Ensure > threshold before ship",
+          "createdOn": "2025-12-30T20:54:13.000Z",
+          "_id": "69543bf51c508c5d5e56f305"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69543bf31c508c5d5e56f24c",
+          "products": [
+            {
+              "_id": "69543bf41c508c5d5e56f2e8",
+              "name": "Chair30968",
+              "amount": 670,
+              "price": 67114,
+              "manufacturer": "Xiaomi",
+              "notes": "taxGH941E8cpBiS8ZBflpilbW9g58DcSdMWqyFFRprO6AAk0F7wR0K96t1UZdOGgoBl2dzquzwhK677J9uBpxSd5D868AhZvWUsK44SI8TDnJrEULOlvzAK4rk3j6PrLdRZC583jrcODwGltZ1FEcc3esDDAyIFRH9IEMXqfKdHkq6HNiFBmMko2XgzUEyhBOcBeJDGsTzQzPzCw8K9Y18g8zqIQBTt5TKikNFJpt4xgPGdxX8FJtTsDKn",
+              "received": false
+            }
+          ],
+          "total_price": 67114,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:54:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

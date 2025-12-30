@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:53:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3676",
+    "etag": "W/\"e5c-Vr+yy4dZIccWnr0CqumnF45itWE\"",
+    "keep-alive": "timeout=5, max=27",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543bd81c508c5d5e56e471",
+      "status": "In Process",
+      "customer": {
+        "_id": "69543bd71c508c5d5e56e448",
+        "email": "Linwood.Wisoky@hotmail.com",
+        "name": "Dina Rohan",
+        "country": "France",
+        "city": "West Yolanda",
+        "street": "Harrison Avenue 15",
+        "house": 724,
+        "flat": 9222,
+        "phone": "+286783945547474",
+        "createdOn": "2025-12-30T20:53:43.000Z",
+        "notes": "ENbFFlHDWHynI3rOtMQu2xHEhZvfyg"
+      },
+      "products": [
+        {
+          "_id": "69543bd71c508c5d5e56e460",
+          "name": "Pizza38939",
+          "amount": 239,
+          "price": 93512,
+          "manufacturer": "Apple",
+          "notes": "6Goa3ZuKgDf0f6Yhi4G8gMBq0ZMzdDPlOtGNf4DwKDYMGhn6OZ8lEnO3eqaBEbTG8CuLjSsoZwk2UjCgHvjtYvjPG802WMqnlfvygvQE01VbAxVMeLqTIKA36hTzWFL6WTHo6z6MZQKcxElJWe4lqGfFl93uAEmYkhCPAvNXhcqkNK4KDbwdQ7wQTgyGrrRlCCIIjeg1PAgxAc6rVUu1921Tq4v8uSd43dfAaZ8E8JDqRpxX1NVkzSJHfr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Riceberg",
+          "street": "Locust Street",
+          "house": 629,
+          "flat": 4611
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 93512,
+      "createdOn": "2025-12-30T20:53:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69543bd71c508c5d5e56e448",
+          "products": [
+            {
+              "_id": "69543bd71c508c5d5e56e460",
+              "name": "Pizza38939",
+              "amount": 239,
+              "price": 93512,
+              "manufacturer": "Apple",
+              "notes": "6Goa3ZuKgDf0f6Yhi4G8gMBq0ZMzdDPlOtGNf4DwKDYMGhn6OZ8lEnO3eqaBEbTG8CuLjSsoZwk2UjCgHvjtYvjPG802WMqnlfvygvQE01VbAxVMeLqTIKA36hTzWFL6WTHo6z6MZQKcxElJWe4lqGfFl93uAEmYkhCPAvNXhcqkNK4KDbwdQ7wQTgyGrrRlCCIIjeg1PAgxAc6rVUu1921Tq4v8uSd43dfAaZ8E8JDqRpxX1NVkzSJHfr",
+              "received": false
+            }
+          ],
+          "total_price": 93512,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Riceberg",
+              "street": "Locust Street",
+              "house": 629,
+              "flat": 4611
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:53:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543bd71c508c5d5e56e448",
+          "products": [
+            {
+              "_id": "69543bd71c508c5d5e56e460",
+              "name": "Pizza38939",
+              "amount": 239,
+              "price": 93512,
+              "manufacturer": "Apple",
+              "notes": "6Goa3ZuKgDf0f6Yhi4G8gMBq0ZMzdDPlOtGNf4DwKDYMGhn6OZ8lEnO3eqaBEbTG8CuLjSsoZwk2UjCgHvjtYvjPG802WMqnlfvygvQE01VbAxVMeLqTIKA36hTzWFL6WTHo6z6MZQKcxElJWe4lqGfFl93uAEmYkhCPAvNXhcqkNK4KDbwdQ7wQTgyGrrRlCCIIjeg1PAgxAc6rVUu1921Tq4v8uSd43dfAaZ8E8JDqRpxX1NVkzSJHfr",
+              "received": false
+            }
+          ],
+          "total_price": 93512,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Riceberg",
+              "street": "Locust Street",
+              "house": 629,
+              "flat": 4611
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:53:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543bd71c508c5d5e56e448",
+          "products": [
+            {
+              "_id": "69543bd71c508c5d5e56e460",
+              "name": "Pizza38939",
+              "amount": 239,
+              "price": 93512,
+              "manufacturer": "Apple",
+              "notes": "6Goa3ZuKgDf0f6Yhi4G8gMBq0ZMzdDPlOtGNf4DwKDYMGhn6OZ8lEnO3eqaBEbTG8CuLjSsoZwk2UjCgHvjtYvjPG802WMqnlfvygvQE01VbAxVMeLqTIKA36hTzWFL6WTHo6z6MZQKcxElJWe4lqGfFl93uAEmYkhCPAvNXhcqkNK4KDbwdQ7wQTgyGrrRlCCIIjeg1PAgxAc6rVUu1921Tq4v8uSd43dfAaZ8E8JDqRpxX1NVkzSJHfr",
+              "received": false
+            }
+          ],
+          "total_price": 93512,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:53:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

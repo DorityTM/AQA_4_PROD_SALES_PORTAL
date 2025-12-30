@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:53:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3683",
+    "etag": "W/\"e63-MN7C1VH95KK+QhnOlgyYtlQScWk\"",
+    "keep-alive": "timeout=5, max=44",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543be21c508c5d5e56e972",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69543be11c508c5d5e56e932",
+        "email": "Clotilde_Dickens20@yahoo.com",
+        "name": "Thurman Grimes",
+        "country": "Canada",
+        "city": "Encinitas",
+        "street": "Railroad Avenue 78",
+        "house": 808,
+        "flat": 7733,
+        "phone": "+535310647238642",
+        "createdOn": "2025-12-30T20:53:53.000Z",
+        "notes": "DGwbQKTSpr8mOvA26QC4ceVPN2YdkO"
+      },
+      "products": [
+        {
+          "_id": "69543be11c508c5d5e56e95c",
+          "name": "Chicken70530",
+          "amount": 354,
+          "price": 91056,
+          "manufacturer": "Xiaomi",
+          "notes": "IIJDFQ37tkHXe3culLsXW0WxiwFiffDjPZ0HVAsG0O0yucCfnbEyp19AJvtU29tBvlskdMq2TuSrmURaJmocEueK0g0f3gPacEJlJ1SufVIbw21lleY8ygPe3KVuJkgdH0GXqe7SfBQNSEaOaoenD9Hy78XJCB5W3h9pQjgcZpGmidQTrauOoQX1msRmYNjZyeIVoPrVolhNxWq4127u2LxTdonp6XDiTVGGoU4m9rlL3V5ZdxTogOttwu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "State College",
+          "street": "Ward Roads",
+          "house": 234,
+          "flat": 508
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 91056,
+      "createdOn": "2025-12-30T20:53:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69543be11c508c5d5e56e932",
+          "products": [
+            {
+              "_id": "69543be11c508c5d5e56e95c",
+              "name": "Chicken70530",
+              "amount": 354,
+              "price": 91056,
+              "manufacturer": "Xiaomi",
+              "notes": "IIJDFQ37tkHXe3culLsXW0WxiwFiffDjPZ0HVAsG0O0yucCfnbEyp19AJvtU29tBvlskdMq2TuSrmURaJmocEueK0g0f3gPacEJlJ1SufVIbw21lleY8ygPe3KVuJkgdH0GXqe7SfBQNSEaOaoenD9Hy78XJCB5W3h9pQjgcZpGmidQTrauOoQX1msRmYNjZyeIVoPrVolhNxWq4127u2LxTdonp6XDiTVGGoU4m9rlL3V5ZdxTogOttwu",
+              "received": false
+            }
+          ],
+          "total_price": 91056,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "State College",
+              "street": "Ward Roads",
+              "house": 234,
+              "flat": 508
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:53:55.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543be11c508c5d5e56e932",
+          "products": [
+            {
+              "_id": "69543be11c508c5d5e56e95c",
+              "name": "Chicken70530",
+              "amount": 354,
+              "price": 91056,
+              "manufacturer": "Xiaomi",
+              "notes": "IIJDFQ37tkHXe3culLsXW0WxiwFiffDjPZ0HVAsG0O0yucCfnbEyp19AJvtU29tBvlskdMq2TuSrmURaJmocEueK0g0f3gPacEJlJ1SufVIbw21lleY8ygPe3KVuJkgdH0GXqe7SfBQNSEaOaoenD9Hy78XJCB5W3h9pQjgcZpGmidQTrauOoQX1msRmYNjZyeIVoPrVolhNxWq4127u2LxTdonp6XDiTVGGoU4m9rlL3V5ZdxTogOttwu",
+              "received": false
+            }
+          ],
+          "total_price": 91056,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "State College",
+              "street": "Ward Roads",
+              "house": 234,
+              "flat": 508
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:53:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543be11c508c5d5e56e932",
+          "products": [
+            {
+              "_id": "69543be11c508c5d5e56e95c",
+              "name": "Chicken70530",
+              "amount": 354,
+              "price": 91056,
+              "manufacturer": "Xiaomi",
+              "notes": "IIJDFQ37tkHXe3culLsXW0WxiwFiffDjPZ0HVAsG0O0yucCfnbEyp19AJvtU29tBvlskdMq2TuSrmURaJmocEueK0g0f3gPacEJlJ1SufVIbw21lleY8ygPe3KVuJkgdH0GXqe7SfBQNSEaOaoenD9Hy78XJCB5W3h9pQjgcZpGmidQTrauOoQX1msRmYNjZyeIVoPrVolhNxWq4127u2LxTdonp6XDiTVGGoU4m9rlL3V5ZdxTogOttwu",
+              "received": false
+            }
+          ],
+          "total_price": 91056,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:53:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

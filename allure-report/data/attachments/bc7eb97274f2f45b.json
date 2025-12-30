@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:53:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-46WW0ErsqsGUSewrWxhZdzOYda4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543bb91c508c5d5e56d5c4",
+      "status": "Draft",
+      "customer": {
+        "_id": "69543bb81c508c5d5e56d525",
+        "email": "Giovani_Hegmann@yahoo.com",
+        "name": "Eldridge Heathcote",
+        "country": "France",
+        "city": "Dixiecester",
+        "street": "Volkman Orchard 32",
+        "house": 240,
+        "flat": 8935,
+        "phone": "+133383489250640",
+        "createdOn": "2025-12-30T20:53:12.000Z",
+        "notes": "X9q3sdYtw8JdNYmq02lZBoxIYvrdIv"
+      },
+      "products": [
+        {
+          "_id": "69543bb91c508c5d5e56d5ab",
+          "name": "Ball33268",
+          "amount": 961,
+          "price": 69143,
+          "manufacturer": "Samsung",
+          "notes": "TwpVacigyrmR317Xj3kusIpkwdVOYZswohzDRoAmfp8LdfCWQqkClC9aghH2Pk6jiiMIDr5MS7mdQgRvGOMs1RkQUSHwo4EBsQL8ZTZcnlihHr4Ar8KWS4w9GKPOl7J3qTJfahxHTQtNWSFlw7ZRazId2RhjkQ9zbJ94p8Mhjf0lJXzmW81D5znJchpyNMJNliSoY2vxSR7THV2agY40NTcANF1KT07p9WVuDzt8P38Xj4GVZxSjWrowlQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Estellburgh",
+          "street": "New Street",
+          "house": 411,
+          "flat": 4575
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 69143,
+      "createdOn": "2025-12-30T20:53:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69543bb81c508c5d5e56d525",
+          "products": [
+            {
+              "_id": "69543bb91c508c5d5e56d5ab",
+              "name": "Ball33268",
+              "amount": 961,
+              "price": 69143,
+              "manufacturer": "Samsung",
+              "notes": "TwpVacigyrmR317Xj3kusIpkwdVOYZswohzDRoAmfp8LdfCWQqkClC9aghH2Pk6jiiMIDr5MS7mdQgRvGOMs1RkQUSHwo4EBsQL8ZTZcnlihHr4Ar8KWS4w9GKPOl7J3qTJfahxHTQtNWSFlw7ZRazId2RhjkQ9zbJ94p8Mhjf0lJXzmW81D5znJchpyNMJNliSoY2vxSR7THV2agY40NTcANF1KT07p9WVuDzt8P38Xj4GVZxSjWrowlQ",
+              "received": false
+            }
+          ],
+          "total_price": 69143,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Estellburgh",
+              "street": "New Street",
+              "house": 411,
+              "flat": 4575
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:53:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543bb81c508c5d5e56d525",
+          "products": [
+            {
+              "_id": "69543bb91c508c5d5e56d5ab",
+              "name": "Ball33268",
+              "amount": 961,
+              "price": 69143,
+              "manufacturer": "Samsung",
+              "notes": "TwpVacigyrmR317Xj3kusIpkwdVOYZswohzDRoAmfp8LdfCWQqkClC9aghH2Pk6jiiMIDr5MS7mdQgRvGOMs1RkQUSHwo4EBsQL8ZTZcnlihHr4Ar8KWS4w9GKPOl7J3qTJfahxHTQtNWSFlw7ZRazId2RhjkQ9zbJ94p8Mhjf0lJXzmW81D5znJchpyNMJNliSoY2vxSR7THV2agY40NTcANF1KT07p9WVuDzt8P38Xj4GVZxSjWrowlQ",
+              "received": false
+            }
+          ],
+          "total_price": 69143,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:53:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

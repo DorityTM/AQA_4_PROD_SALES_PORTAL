@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:53:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3703",
+    "etag": "W/\"e77-OUDgqXIXW7pL3LfuU06a0h6Akhc\"",
+    "keep-alive": "timeout=5, max=51",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543bd01c508c5d5e56e0b7",
+      "status": "In Process",
+      "customer": {
+        "_id": "69543bcf1c508c5d5e56e082",
+        "email": "Dessie.Dibbert-Reinger@hotmail.com",
+        "name": "Annie Hamill",
+        "country": "Canada",
+        "city": "Greenfeldercester",
+        "street": "Crona Valley 20",
+        "house": 262,
+        "flat": 6090,
+        "phone": "+153443409092807",
+        "createdOn": "2025-12-30T20:53:35.000Z",
+        "notes": "0NH5cW0kTJKD03Hx9JLkth2LG4QMcp"
+      },
+      "products": [
+        {
+          "_id": "69543bd01c508c5d5e56e0a1",
+          "name": "Mouse50064",
+          "amount": 596,
+          "price": 97438,
+          "manufacturer": "Tesla",
+          "notes": "SRWJ2hfcvVDMY7gY0WHgDNHHhTw9RQAiHdzLQQOdiI4FIHBB1FKbGT4kCBb4cWjzj2TunZjos6gS0MR3Tw360cQEdDlID7fRRrZhoptDYCIoK3G2BT9HjEi0YVfOTGxKU4trHYjQVqGhOr9eb9dSDrlDgnZs6mWMdWAyNWl7yWaP2DvsMVShxnhTjzMi9Yyb5GvcTQ3cUbHfidYkeOmlDFg2rDomUeJwrGetr5exFW7tXzhmON5Kw86r0b",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "New Holly",
+          "street": "N Harrison Street",
+          "house": 226,
+          "flat": 445
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97438,
+      "createdOn": "2025-12-30T20:53:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69543bcf1c508c5d5e56e082",
+          "products": [
+            {
+              "_id": "69543bd01c508c5d5e56e0a1",
+              "name": "Mouse50064",
+              "amount": 596,
+              "price": 97438,
+              "manufacturer": "Tesla",
+              "notes": "SRWJ2hfcvVDMY7gY0WHgDNHHhTw9RQAiHdzLQQOdiI4FIHBB1FKbGT4kCBb4cWjzj2TunZjos6gS0MR3Tw360cQEdDlID7fRRrZhoptDYCIoK3G2BT9HjEi0YVfOTGxKU4trHYjQVqGhOr9eb9dSDrlDgnZs6mWMdWAyNWl7yWaP2DvsMVShxnhTjzMi9Yyb5GvcTQ3cUbHfidYkeOmlDFg2rDomUeJwrGetr5exFW7tXzhmON5Kw86r0b",
+              "received": false
+            }
+          ],
+          "total_price": 97438,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "New Holly",
+              "street": "N Harrison Street",
+              "house": 226,
+              "flat": 445
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:53:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543bcf1c508c5d5e56e082",
+          "products": [
+            {
+              "_id": "69543bd01c508c5d5e56e0a1",
+              "name": "Mouse50064",
+              "amount": 596,
+              "price": 97438,
+              "manufacturer": "Tesla",
+              "notes": "SRWJ2hfcvVDMY7gY0WHgDNHHhTw9RQAiHdzLQQOdiI4FIHBB1FKbGT4kCBb4cWjzj2TunZjos6gS0MR3Tw360cQEdDlID7fRRrZhoptDYCIoK3G2BT9HjEi0YVfOTGxKU4trHYjQVqGhOr9eb9dSDrlDgnZs6mWMdWAyNWl7yWaP2DvsMVShxnhTjzMi9Yyb5GvcTQ3cUbHfidYkeOmlDFg2rDomUeJwrGetr5exFW7tXzhmON5Kw86r0b",
+              "received": false
+            }
+          ],
+          "total_price": 97438,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "New Holly",
+              "street": "N Harrison Street",
+              "house": 226,
+              "flat": 445
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:53:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543bcf1c508c5d5e56e082",
+          "products": [
+            {
+              "_id": "69543bd01c508c5d5e56e0a1",
+              "name": "Mouse50064",
+              "amount": 596,
+              "price": 97438,
+              "manufacturer": "Tesla",
+              "notes": "SRWJ2hfcvVDMY7gY0WHgDNHHhTw9RQAiHdzLQQOdiI4FIHBB1FKbGT4kCBb4cWjzj2TunZjos6gS0MR3Tw360cQEdDlID7fRRrZhoptDYCIoK3G2BT9HjEi0YVfOTGxKU4trHYjQVqGhOr9eb9dSDrlDgnZs6mWMdWAyNWl7yWaP2DvsMVShxnhTjzMi9Yyb5GvcTQ3cUbHfidYkeOmlDFg2rDomUeJwrGetr5exFW7tXzhmON5Kw86r0b",
+              "received": false
+            }
+          ],
+          "total_price": 97438,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:53:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

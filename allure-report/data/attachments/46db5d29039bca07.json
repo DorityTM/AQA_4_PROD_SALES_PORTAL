@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:55:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2771",
+    "etag": "W/\"ad3-9jhdSxomOMHszmBQ2dnIksalEhQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543c261c508c5d5e570d91",
+      "status": "Draft",
+      "customer": {
+        "_id": "69543c251c508c5d5e570d3b",
+        "email": "Percy.Mann@yahoo.com",
+        "name": "Marjorie Blick",
+        "country": "Ukraine",
+        "city": "East Orange",
+        "street": "Hadley Meadow 45",
+        "house": 848,
+        "flat": 4888,
+        "phone": "+672853025835119",
+        "createdOn": "2025-12-30T20:55:01.000Z",
+        "notes": "DBI7fYn9zTvzjnvwgwQGHBNf8wCaRh"
+      },
+      "products": [
+        {
+          "_id": "69543c261c508c5d5e570d78",
+          "name": "Chair53328",
+          "amount": 943,
+          "price": 35494,
+          "manufacturer": "Xiaomi",
+          "notes": "SdscddeFlZ3IcBhj4f5yFnMWznuCGiB50KLxDNpYyfPYIebRjsdvma7PX8NvwoS9hxj4PZln4D1WbqJImhKlkPoHxNTRuzBsQ7fnNKP91shVOXJ6WDu8bLPnXrnDAQlnSUVFiQK3ONJt97BpQYKDVsVYv89zNKfwMzAMsUaQkyUIek8vpEaHyocTNm3gieeryR7CAqKGGZxLXXF1LeHkuCy9AIQLDaYIID9xrJrzE3yYwP9vnKtI6UPzqM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Federal Way",
+          "street": "Buckridge Cliffs",
+          "house": 566,
+          "flat": 2776
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 35494,
+      "createdOn": "2025-12-30T20:55:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69543c251c508c5d5e570d3b",
+          "products": [
+            {
+              "_id": "69543c261c508c5d5e570d78",
+              "name": "Chair53328",
+              "amount": 943,
+              "price": 35494,
+              "manufacturer": "Xiaomi",
+              "notes": "SdscddeFlZ3IcBhj4f5yFnMWznuCGiB50KLxDNpYyfPYIebRjsdvma7PX8NvwoS9hxj4PZln4D1WbqJImhKlkPoHxNTRuzBsQ7fnNKP91shVOXJ6WDu8bLPnXrnDAQlnSUVFiQK3ONJt97BpQYKDVsVYv89zNKfwMzAMsUaQkyUIek8vpEaHyocTNm3gieeryR7CAqKGGZxLXXF1LeHkuCy9AIQLDaYIID9xrJrzE3yYwP9vnKtI6UPzqM",
+              "received": false
+            }
+          ],
+          "total_price": 35494,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Federal Way",
+              "street": "Buckridge Cliffs",
+              "house": 566,
+              "flat": 2776
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:55:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543c251c508c5d5e570d3b",
+          "products": [
+            {
+              "_id": "69543c261c508c5d5e570d78",
+              "name": "Chair53328",
+              "amount": 943,
+              "price": 35494,
+              "manufacturer": "Xiaomi",
+              "notes": "SdscddeFlZ3IcBhj4f5yFnMWznuCGiB50KLxDNpYyfPYIebRjsdvma7PX8NvwoS9hxj4PZln4D1WbqJImhKlkPoHxNTRuzBsQ7fnNKP91shVOXJ6WDu8bLPnXrnDAQlnSUVFiQK3ONJt97BpQYKDVsVYv89zNKfwMzAMsUaQkyUIek8vpEaHyocTNm3gieeryR7CAqKGGZxLXXF1LeHkuCy9AIQLDaYIID9xrJrzE3yYwP9vnKtI6UPzqM",
+              "received": false
+            }
+          ],
+          "total_price": 35494,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:55:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

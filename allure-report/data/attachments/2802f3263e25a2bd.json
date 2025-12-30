@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:58:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3728",
+    "etag": "W/\"e90-QJXsbis9h4j/A5YhqD4zeBmBJMU\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543d011c508c5d5e5778b9",
+      "status": "In Process",
+      "customer": {
+        "_id": "69543d001c508c5d5e5777ec",
+        "email": "Izabella_Nicolas48@gmail.com",
+        "name": "Gerardo Kemmer",
+        "country": "Russia",
+        "city": "East Trevorfort",
+        "street": "Myrtle Road 69",
+        "house": 486,
+        "flat": 7029,
+        "phone": "+449572639516156",
+        "createdOn": "2025-12-30T20:58:40.000Z",
+        "notes": "VWFfXCvjREtPv6gpE5QOiuxBAQqBXf"
+      },
+      "products": [
+        {
+          "_id": "69543d011c508c5d5e577823",
+          "name": "Sausages15827",
+          "amount": 990,
+          "price": 52550,
+          "manufacturer": "Samsung",
+          "notes": "zE4q7uW33Q4SVrDFPVWbtaOE2pGdIMzugQwu1qBuRIS32XrU5Slf8K9x36dQoLECcHqYIiPJnTbleWc4ZS1blg84vycvBebeiNyPeDCTzmNZtkxOCZqt3rXdNUVJKg5XfGCiaFz4jkyFRey0PrnvMqUcBdZsna9UIEOV0B9lz55sHWWJk8B16pSQAJlty72GTj8DYTo5SaSqFhPzRAi8aiL3azuRTKS5fGpqFzONl6nmp0a1OpZYKQ22n8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Dellaview",
+          "street": "N Bridge Street",
+          "house": 661,
+          "flat": 7759
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 52550,
+      "createdOn": "2025-12-30T20:58:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69543d001c508c5d5e5777ec",
+          "products": [
+            {
+              "_id": "69543d011c508c5d5e577823",
+              "name": "Sausages15827",
+              "amount": 990,
+              "price": 52550,
+              "manufacturer": "Samsung",
+              "notes": "zE4q7uW33Q4SVrDFPVWbtaOE2pGdIMzugQwu1qBuRIS32XrU5Slf8K9x36dQoLECcHqYIiPJnTbleWc4ZS1blg84vycvBebeiNyPeDCTzmNZtkxOCZqt3rXdNUVJKg5XfGCiaFz4jkyFRey0PrnvMqUcBdZsna9UIEOV0B9lz55sHWWJk8B16pSQAJlty72GTj8DYTo5SaSqFhPzRAi8aiL3azuRTKS5fGpqFzONl6nmp0a1OpZYKQ22n8",
+              "received": false
+            }
+          ],
+          "total_price": 52550,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Dellaview",
+              "street": "N Bridge Street",
+              "house": 661,
+              "flat": 7759
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:58:42.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543d001c508c5d5e5777ec",
+          "products": [
+            {
+              "_id": "69543d011c508c5d5e577823",
+              "name": "Sausages15827",
+              "amount": 990,
+              "price": 52550,
+              "manufacturer": "Samsung",
+              "notes": "zE4q7uW33Q4SVrDFPVWbtaOE2pGdIMzugQwu1qBuRIS32XrU5Slf8K9x36dQoLECcHqYIiPJnTbleWc4ZS1blg84vycvBebeiNyPeDCTzmNZtkxOCZqt3rXdNUVJKg5XfGCiaFz4jkyFRey0PrnvMqUcBdZsna9UIEOV0B9lz55sHWWJk8B16pSQAJlty72GTj8DYTo5SaSqFhPzRAi8aiL3azuRTKS5fGpqFzONl6nmp0a1OpZYKQ22n8",
+              "received": false
+            }
+          ],
+          "total_price": 52550,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Dellaview",
+              "street": "N Bridge Street",
+              "house": 661,
+              "flat": 7759
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:58:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543d001c508c5d5e5777ec",
+          "products": [
+            {
+              "_id": "69543d011c508c5d5e577823",
+              "name": "Sausages15827",
+              "amount": 990,
+              "price": 52550,
+              "manufacturer": "Samsung",
+              "notes": "zE4q7uW33Q4SVrDFPVWbtaOE2pGdIMzugQwu1qBuRIS32XrU5Slf8K9x36dQoLECcHqYIiPJnTbleWc4ZS1blg84vycvBebeiNyPeDCTzmNZtkxOCZqt3rXdNUVJKg5XfGCiaFz4jkyFRey0PrnvMqUcBdZsna9UIEOV0B9lz55sHWWJk8B16pSQAJlty72GTj8DYTo5SaSqFhPzRAi8aiL3azuRTKS5fGpqFzONl6nmp0a1OpZYKQ22n8",
+              "received": false
+            }
+          ],
+          "total_price": 52550,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:58:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

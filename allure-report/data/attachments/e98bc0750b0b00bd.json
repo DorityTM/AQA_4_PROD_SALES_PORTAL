@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:55:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2775",
+    "etag": "W/\"ad7-4lJ+MbGwFdfSGtA23tNWVFnTq2g\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543c381c508c5d5e5717b6",
+      "status": "Draft",
+      "customer": {
+        "_id": "69543c371c508c5d5e571786",
+        "email": "Jordy.Borer@yahoo.com",
+        "name": "Chance Konopelski",
+        "country": "Ukraine",
+        "city": "Considineland",
+        "street": "Teresa Light 19",
+        "house": 238,
+        "flat": 3587,
+        "phone": "+627933575652158",
+        "createdOn": "2025-12-30T20:55:19.000Z",
+        "notes": "65Sp2wvJK2LznthSO4t3tKRdBax4Vg"
+      },
+      "products": [
+        {
+          "_id": "69543c381c508c5d5e57179d",
+          "name": "Sausages82500",
+          "amount": 794,
+          "price": 58314,
+          "manufacturer": "Amazon",
+          "notes": "WZ176WAtR0Eq3xI8bztj6FWO6pKkpXDvK1GEgTTippvHJeEFougqpm2u8n1vzVE5n1NztcGgjsR471eihNk2kwRam9VwkhbjdJjy4r9fhwD7pMtlxbTQJw3rCRaphoNuc8VX26W7TpwCsBpY1N6qm2ODJV8hvaXt2irp12yrcAyOcbAY9xmXNkUJGWbSJssD58eHuCtdGaonjcDYItqNcfa6uDX1fRckqxzeL4tdoQ93cDDuYOL8I0DW0c",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Myrtiechester",
+          "street": "Emmerich Street",
+          "house": 506,
+          "flat": 9244
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58314,
+      "createdOn": "2025-12-30T20:55:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69543c371c508c5d5e571786",
+          "products": [
+            {
+              "_id": "69543c381c508c5d5e57179d",
+              "name": "Sausages82500",
+              "amount": 794,
+              "price": 58314,
+              "manufacturer": "Amazon",
+              "notes": "WZ176WAtR0Eq3xI8bztj6FWO6pKkpXDvK1GEgTTippvHJeEFougqpm2u8n1vzVE5n1NztcGgjsR471eihNk2kwRam9VwkhbjdJjy4r9fhwD7pMtlxbTQJw3rCRaphoNuc8VX26W7TpwCsBpY1N6qm2ODJV8hvaXt2irp12yrcAyOcbAY9xmXNkUJGWbSJssD58eHuCtdGaonjcDYItqNcfa6uDX1fRckqxzeL4tdoQ93cDDuYOL8I0DW0c",
+              "received": false
+            }
+          ],
+          "total_price": 58314,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Myrtiechester",
+              "street": "Emmerich Street",
+              "house": 506,
+              "flat": 9244
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:55:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543c371c508c5d5e571786",
+          "products": [
+            {
+              "_id": "69543c381c508c5d5e57179d",
+              "name": "Sausages82500",
+              "amount": 794,
+              "price": 58314,
+              "manufacturer": "Amazon",
+              "notes": "WZ176WAtR0Eq3xI8bztj6FWO6pKkpXDvK1GEgTTippvHJeEFougqpm2u8n1vzVE5n1NztcGgjsR471eihNk2kwRam9VwkhbjdJjy4r9fhwD7pMtlxbTQJw3rCRaphoNuc8VX26W7TpwCsBpY1N6qm2ODJV8hvaXt2irp12yrcAyOcbAY9xmXNkUJGWbSJssD58eHuCtdGaonjcDYItqNcfa6uDX1fRckqxzeL4tdoQ93cDDuYOL8I0DW0c",
+              "received": false
+            }
+          ],
+          "total_price": 58314,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:55:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

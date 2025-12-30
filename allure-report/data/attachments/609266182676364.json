@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 20:53:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-HC24G0e+S+x6PAryyrkDLF/cWWI\"",
+    "keep-alive": "timeout=5, max=49",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69543bcb1c508c5d5e56ddab",
+      "status": "In Process",
+      "customer": {
+        "_id": "69543bca1c508c5d5e56dd4c",
+        "email": "Vivienne37@hotmail.com",
+        "name": "Robin Kiehn",
+        "country": "France",
+        "city": "Pflugerville",
+        "street": "Skye Land 12",
+        "house": 667,
+        "flat": 415,
+        "phone": "+047550783122295",
+        "createdOn": "2025-12-30T20:53:30.000Z",
+        "notes": "ZYxkNdPhhGuh2oFwf1iRHXWvIhcDJS"
+      },
+      "products": [
+        {
+          "_id": "69543bca1c508c5d5e56dd8a",
+          "name": "Computer27728",
+          "amount": 925,
+          "price": 99680,
+          "manufacturer": "Sony",
+          "notes": "VNl7ztvVZ1BTOtOLSICjHRHtJGY885j14pDxWan2Bi5xJby1VsUGjyBIBU6nJ0fsOkoZaJ0ihGD5vWnDVNV3XnGrp0OHvE2rFG9EaqEBQOXp3sd1RGXefm3RJiCrybTK7alcKObKQhCS5IuvSi4QFcMt5pjdEO4ozobisCUWBq8KXABoGS52BSxhA1GZq9VIr7hnLFZ20SMrdSm2bfnT18FxNfmhAMqVFc1PdgWPdoICQfZCtH0IjG1Odk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "West Brittany",
+          "street": "Warren Crest",
+          "house": 20,
+          "flat": 2621
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99680,
+      "createdOn": "2025-12-30T20:53:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69543bca1c508c5d5e56dd4c",
+          "products": [
+            {
+              "_id": "69543bca1c508c5d5e56dd8a",
+              "name": "Computer27728",
+              "amount": 925,
+              "price": 99680,
+              "manufacturer": "Sony",
+              "notes": "VNl7ztvVZ1BTOtOLSICjHRHtJGY885j14pDxWan2Bi5xJby1VsUGjyBIBU6nJ0fsOkoZaJ0ihGD5vWnDVNV3XnGrp0OHvE2rFG9EaqEBQOXp3sd1RGXefm3RJiCrybTK7alcKObKQhCS5IuvSi4QFcMt5pjdEO4ozobisCUWBq8KXABoGS52BSxhA1GZq9VIr7hnLFZ20SMrdSm2bfnT18FxNfmhAMqVFc1PdgWPdoICQfZCtH0IjG1Odk",
+              "received": false
+            }
+          ],
+          "total_price": 99680,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "West Brittany",
+              "street": "Warren Crest",
+              "house": 20,
+              "flat": 2621
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:53:32.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543bca1c508c5d5e56dd4c",
+          "products": [
+            {
+              "_id": "69543bca1c508c5d5e56dd8a",
+              "name": "Computer27728",
+              "amount": 925,
+              "price": 99680,
+              "manufacturer": "Sony",
+              "notes": "VNl7ztvVZ1BTOtOLSICjHRHtJGY885j14pDxWan2Bi5xJby1VsUGjyBIBU6nJ0fsOkoZaJ0ihGD5vWnDVNV3XnGrp0OHvE2rFG9EaqEBQOXp3sd1RGXefm3RJiCrybTK7alcKObKQhCS5IuvSi4QFcMt5pjdEO4ozobisCUWBq8KXABoGS52BSxhA1GZq9VIr7hnLFZ20SMrdSm2bfnT18FxNfmhAMqVFc1PdgWPdoICQfZCtH0IjG1Odk",
+              "received": false
+            }
+          ],
+          "total_price": 99680,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "West Brittany",
+              "street": "Warren Crest",
+              "house": 20,
+              "flat": 2621
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T20:53:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69543bca1c508c5d5e56dd4c",
+          "products": [
+            {
+              "_id": "69543bca1c508c5d5e56dd8a",
+              "name": "Computer27728",
+              "amount": 925,
+              "price": 99680,
+              "manufacturer": "Sony",
+              "notes": "VNl7ztvVZ1BTOtOLSICjHRHtJGY885j14pDxWan2Bi5xJby1VsUGjyBIBU6nJ0fsOkoZaJ0ihGD5vWnDVNV3XnGrp0OHvE2rFG9EaqEBQOXp3sd1RGXefm3RJiCrybTK7alcKObKQhCS5IuvSi4QFcMt5pjdEO4ozobisCUWBq8KXABoGS52BSxhA1GZq9VIr7hnLFZ20SMrdSm2bfnT18FxNfmhAMqVFc1PdgWPdoICQfZCtH0IjG1Odk",
+              "received": false
+            }
+          ],
+          "total_price": 99680,
+          "delivery": null,
+          "changedOn": "2025-12-30T20:53:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
