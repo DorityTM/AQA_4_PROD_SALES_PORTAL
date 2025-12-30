@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:42:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3703",
+    "etag": "W/\"e77-FPi0hti1Ok+4VRoFHAYWIQaP8GU\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695390651c508c5d5e5256c0",
+      "status": "In Process",
+      "customer": {
+        "_id": "695390621c508c5d5e525673",
+        "email": "Aliya_Gerlach@gmail.com",
+        "name": "Aaron Rosenbaum",
+        "country": "USA",
+        "city": "Orvillefurt",
+        "street": "Jailyn Heights 82",
+        "house": 114,
+        "flat": 3297,
+        "phone": "+417782400213872",
+        "createdOn": "2025-12-30T08:42:10.000Z",
+        "notes": "zG9dpNwCgL1fTYuK5Ba1mse0LDDowQ"
+      },
+      "products": [
+        {
+          "_id": "695390641c508c5d5e5256b8",
+          "name": "Sausages9854",
+          "amount": 724,
+          "price": 60250,
+          "manufacturer": "Xiaomi",
+          "notes": "0B49bakTbwAbZHOKAH7aya86O9XrlMnudYa3HlynlaV2ztjo3BCRnrKpqfALmxrZAXz3S7PurvTTBzbQqqJlRHXbFzJixxKSpCjdqXBPIUqxtQDdN23rHL1PUg1LeKAYt1mKPEXGp74cgrTsgJiA8J5h2GY0elQyvEp1vAuiAyZcuVsfFJAj0CMS94JVUGjI84eikY4pSbixLXCYsys0cMISK9UL6Kf8niWElxzc22uUehJ76WFLrmtkhh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Jaydaport",
+          "street": "Bridge Street",
+          "house": 68,
+          "flat": 1844
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 60250,
+      "createdOn": "2025-12-30T08:42:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695390621c508c5d5e525673",
+          "products": [
+            {
+              "_id": "695390641c508c5d5e5256b8",
+              "name": "Sausages9854",
+              "amount": 724,
+              "price": 60250,
+              "manufacturer": "Xiaomi",
+              "notes": "0B49bakTbwAbZHOKAH7aya86O9XrlMnudYa3HlynlaV2ztjo3BCRnrKpqfALmxrZAXz3S7PurvTTBzbQqqJlRHXbFzJixxKSpCjdqXBPIUqxtQDdN23rHL1PUg1LeKAYt1mKPEXGp74cgrTsgJiA8J5h2GY0elQyvEp1vAuiAyZcuVsfFJAj0CMS94JVUGjI84eikY4pSbixLXCYsys0cMISK9UL6Kf8niWElxzc22uUehJ76WFLrmtkhh",
+              "received": false
+            }
+          ],
+          "total_price": 60250,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Jaydaport",
+              "street": "Bridge Street",
+              "house": 68,
+              "flat": 1844
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:42:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695390621c508c5d5e525673",
+          "products": [
+            {
+              "_id": "695390641c508c5d5e5256b8",
+              "name": "Sausages9854",
+              "amount": 724,
+              "price": 60250,
+              "manufacturer": "Xiaomi",
+              "notes": "0B49bakTbwAbZHOKAH7aya86O9XrlMnudYa3HlynlaV2ztjo3BCRnrKpqfALmxrZAXz3S7PurvTTBzbQqqJlRHXbFzJixxKSpCjdqXBPIUqxtQDdN23rHL1PUg1LeKAYt1mKPEXGp74cgrTsgJiA8J5h2GY0elQyvEp1vAuiAyZcuVsfFJAj0CMS94JVUGjI84eikY4pSbixLXCYsys0cMISK9UL6Kf8niWElxzc22uUehJ76WFLrmtkhh",
+              "received": false
+            }
+          ],
+          "total_price": 60250,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Jaydaport",
+              "street": "Bridge Street",
+              "house": 68,
+              "flat": 1844
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:42:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695390621c508c5d5e525673",
+          "products": [
+            {
+              "_id": "695390641c508c5d5e5256b8",
+              "name": "Sausages9854",
+              "amount": 724,
+              "price": 60250,
+              "manufacturer": "Xiaomi",
+              "notes": "0B49bakTbwAbZHOKAH7aya86O9XrlMnudYa3HlynlaV2ztjo3BCRnrKpqfALmxrZAXz3S7PurvTTBzbQqqJlRHXbFzJixxKSpCjdqXBPIUqxtQDdN23rHL1PUg1LeKAYt1mKPEXGp74cgrTsgJiA8J5h2GY0elQyvEp1vAuiAyZcuVsfFJAj0CMS94JVUGjI84eikY4pSbixLXCYsys0cMISK9UL6Kf8niWElxzc22uUehJ76WFLrmtkhh",
+              "received": false
+            }
+          ],
+          "total_price": 60250,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:42:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

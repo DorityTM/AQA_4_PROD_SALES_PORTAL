@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:38:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4610",
+    "etag": "W/\"1202-nXGdyEX6pdhLiAy1HnOM0bEph/w\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69538f761c508c5d5e51dc86",
+      "status": "Received",
+      "customer": {
+        "_id": "69538f731c508c5d5e51db07",
+        "email": "Yvonne_VonRueden@gmail.com",
+        "name": "Josianne Kutch Anderson",
+        "country": "USA",
+        "city": "Baltimore",
+        "street": "Fourth Avenue 92",
+        "house": 211,
+        "flat": 1878,
+        "phone": "+004206126580784",
+        "createdOn": "2025-12-30T08:38:11.000Z",
+        "notes": "d56aSUD8eGncgjTNQdkWNCg6sjHzZ6"
+      },
+      "products": [
+        {
+          "_id": "69538f761c508c5d5e51dc6b",
+          "name": "Chicken35915",
+          "amount": 473,
+          "price": 7813,
+          "manufacturer": "Xiaomi",
+          "notes": "Q8neGH65NHAA3cIpXMa77n0NPlmmXG8UQpXxPpJpOcjZkeVXD2t3O9Ju2nF1XMWwJj4cIbMYiMHno4RDbVxYVODPWfYOhmVdfEkh92PyopHR7jwercG64ESITJRTVY56eK5sqqPgBo9elWV7vnaDfrMummgWeGMirJsUIQZPG1BkxLXlmp5TFYg5Z7S7EgmfD8lV67zIV5f3tMyc3WG9Gzb3Iy2ag5dnLBdzrmLqCTHIX0fD5D8zMfgnUr",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Nathanaelton",
+          "street": "3rd Avenue",
+          "house": 876,
+          "flat": 6734
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7813,
+      "createdOn": "2025-12-30T08:38:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69538f731c508c5d5e51db07",
+          "products": [
+            {
+              "_id": "69538f761c508c5d5e51dc6b",
+              "name": "Chicken35915",
+              "amount": 473,
+              "price": 7813,
+              "manufacturer": "Xiaomi",
+              "notes": "Q8neGH65NHAA3cIpXMa77n0NPlmmXG8UQpXxPpJpOcjZkeVXD2t3O9Ju2nF1XMWwJj4cIbMYiMHno4RDbVxYVODPWfYOhmVdfEkh92PyopHR7jwercG64ESITJRTVY56eK5sqqPgBo9elWV7vnaDfrMummgWeGMirJsUIQZPG1BkxLXlmp5TFYg5Z7S7EgmfD8lV67zIV5f3tMyc3WG9Gzb3Iy2ag5dnLBdzrmLqCTHIX0fD5D8zMfgnUr",
+              "received": true
+            }
+          ],
+          "total_price": 7813,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Nathanaelton",
+              "street": "3rd Avenue",
+              "house": 876,
+              "flat": 6734
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:38:16.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69538f731c508c5d5e51db07",
+          "products": [
+            {
+              "_id": "69538f761c508c5d5e51dc6b",
+              "name": "Chicken35915",
+              "amount": 473,
+              "price": 7813,
+              "manufacturer": "Xiaomi",
+              "notes": "Q8neGH65NHAA3cIpXMa77n0NPlmmXG8UQpXxPpJpOcjZkeVXD2t3O9Ju2nF1XMWwJj4cIbMYiMHno4RDbVxYVODPWfYOhmVdfEkh92PyopHR7jwercG64ESITJRTVY56eK5sqqPgBo9elWV7vnaDfrMummgWeGMirJsUIQZPG1BkxLXlmp5TFYg5Z7S7EgmfD8lV67zIV5f3tMyc3WG9Gzb3Iy2ag5dnLBdzrmLqCTHIX0fD5D8zMfgnUr",
+              "received": false
+            }
+          ],
+          "total_price": 7813,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Nathanaelton",
+              "street": "3rd Avenue",
+              "house": 876,
+              "flat": 6734
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:38:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538f731c508c5d5e51db07",
+          "products": [
+            {
+              "_id": "69538f761c508c5d5e51dc6b",
+              "name": "Chicken35915",
+              "amount": 473,
+              "price": 7813,
+              "manufacturer": "Xiaomi",
+              "notes": "Q8neGH65NHAA3cIpXMa77n0NPlmmXG8UQpXxPpJpOcjZkeVXD2t3O9Ju2nF1XMWwJj4cIbMYiMHno4RDbVxYVODPWfYOhmVdfEkh92PyopHR7jwercG64ESITJRTVY56eK5sqqPgBo9elWV7vnaDfrMummgWeGMirJsUIQZPG1BkxLXlmp5TFYg5Z7S7EgmfD8lV67zIV5f3tMyc3WG9Gzb3Iy2ag5dnLBdzrmLqCTHIX0fD5D8zMfgnUr",
+              "received": false
+            }
+          ],
+          "total_price": 7813,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Nathanaelton",
+              "street": "3rd Avenue",
+              "house": 876,
+              "flat": 6734
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:38:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538f731c508c5d5e51db07",
+          "products": [
+            {
+              "_id": "69538f761c508c5d5e51dc6b",
+              "name": "Chicken35915",
+              "amount": 473,
+              "price": 7813,
+              "manufacturer": "Xiaomi",
+              "notes": "Q8neGH65NHAA3cIpXMa77n0NPlmmXG8UQpXxPpJpOcjZkeVXD2t3O9Ju2nF1XMWwJj4cIbMYiMHno4RDbVxYVODPWfYOhmVdfEkh92PyopHR7jwercG64ESITJRTVY56eK5sqqPgBo9elWV7vnaDfrMummgWeGMirJsUIQZPG1BkxLXlmp5TFYg5Z7S7EgmfD8lV67zIV5f3tMyc3WG9Gzb3Iy2ag5dnLBdzrmLqCTHIX0fD5D8zMfgnUr",
+              "received": false
+            }
+          ],
+          "total_price": 7813,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:38:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

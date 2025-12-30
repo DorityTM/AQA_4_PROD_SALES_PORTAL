@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:43:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-8Vjx+Ie6ndixpOBdRolrrQpJ0AA\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695390a41c508c5d5e527876",
+      "status": "Draft",
+      "customer": {
+        "_id": "695390a11c508c5d5e527821",
+        "email": "Clara_Gerlach@yahoo.com",
+        "name": "Darby Deckow",
+        "country": "Ukraine",
+        "city": "Fort Deangeloport",
+        "street": "E Broadway Street 64",
+        "house": 792,
+        "flat": 6989,
+        "phone": "+522917348832660",
+        "createdOn": "2025-12-30T08:43:13.000Z",
+        "notes": "DY83cS3TmpqstTVFGoBNaJClhdtvF7"
+      },
+      "products": [
+        {
+          "_id": "695390a41c508c5d5e52785d",
+          "name": "Chips17310",
+          "amount": 822,
+          "price": 66550,
+          "manufacturer": "Samsung",
+          "notes": "CHzmcsbWEbsQ4ykGBXerkeWIeB8APGsBEDto5Hm8aiwJONsa0VJ46jzEVs4VcEWgvkiVM9yIhL6K47x6LfDA5VqABNtCRisIsyktsHEfT05THEhEULPgX5628WKFFXGUYNNQBQ2bIobKAar3TMk3DAZhvtzQTnkkN1vHGxzM9xb8ZzYukWWJKhYmPWer5RBGEnDuUOaauWJrIwfxozvcQxlXqkFtzgqFndWA6mdJRBK6GlZBHIX18z2ou2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "La Mesa",
+          "street": "Stehr Springs",
+          "house": 337,
+          "flat": 3100
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 66550,
+      "createdOn": "2025-12-30T08:43:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695390a11c508c5d5e527821",
+          "products": [
+            {
+              "_id": "695390a41c508c5d5e52785d",
+              "name": "Chips17310",
+              "amount": 822,
+              "price": 66550,
+              "manufacturer": "Samsung",
+              "notes": "CHzmcsbWEbsQ4ykGBXerkeWIeB8APGsBEDto5Hm8aiwJONsa0VJ46jzEVs4VcEWgvkiVM9yIhL6K47x6LfDA5VqABNtCRisIsyktsHEfT05THEhEULPgX5628WKFFXGUYNNQBQ2bIobKAar3TMk3DAZhvtzQTnkkN1vHGxzM9xb8ZzYukWWJKhYmPWer5RBGEnDuUOaauWJrIwfxozvcQxlXqkFtzgqFndWA6mdJRBK6GlZBHIX18z2ou2",
+              "received": false
+            }
+          ],
+          "total_price": 66550,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "La Mesa",
+              "street": "Stehr Springs",
+              "house": 337,
+              "flat": 3100
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:43:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695390a11c508c5d5e527821",
+          "products": [
+            {
+              "_id": "695390a41c508c5d5e52785d",
+              "name": "Chips17310",
+              "amount": 822,
+              "price": 66550,
+              "manufacturer": "Samsung",
+              "notes": "CHzmcsbWEbsQ4ykGBXerkeWIeB8APGsBEDto5Hm8aiwJONsa0VJ46jzEVs4VcEWgvkiVM9yIhL6K47x6LfDA5VqABNtCRisIsyktsHEfT05THEhEULPgX5628WKFFXGUYNNQBQ2bIobKAar3TMk3DAZhvtzQTnkkN1vHGxzM9xb8ZzYukWWJKhYmPWer5RBGEnDuUOaauWJrIwfxozvcQxlXqkFtzgqFndWA6mdJRBK6GlZBHIX18z2ou2",
+              "received": false
+            }
+          ],
+          "total_price": 66550,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:43:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

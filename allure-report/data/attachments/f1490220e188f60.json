@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:22:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3910",
+    "etag": "W/\"f46-JpxJIcjgLvCq45CEr3ZzG+0fG6A\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69538bd61c508c5d5e500281",
+      "status": "Draft",
+      "customer": {
+        "_id": "69538bd11c508c5d5e5001e9",
+        "email": "Godfrey_Boehm83@yahoo.com",
+        "name": "Raven Quigley",
+        "country": "Canada",
+        "city": "Estelfurt",
+        "street": "Sycamore Drive 75",
+        "house": 482,
+        "flat": 3111,
+        "phone": "+957202204210411",
+        "createdOn": "2025-12-30T08:22:41.000Z",
+        "notes": "CDsHkDAvK5yQuwrNnDq6NgWbfEsvRY"
+      },
+      "products": [
+        {
+          "_id": "69538bd41c508c5d5e500212",
+          "name": "Pizza21758",
+          "amount": 701,
+          "price": 1878,
+          "manufacturer": "Apple",
+          "notes": "3a4kc7EZ72NYb4sWaPTS7tejNuNHfnYMiE66ddttLqNDuqC6qII58fm8025ssIV68lHR4ql8dT3XggEqYsdwqEqjKyPIqh9WozcH0bTxjKc7Eng6ONEV4SjXjx6omXABftv61cv39hZg7tH320aZ815KrDwTDTHDSZwji7Y6JBwBZFM6nOmw8COS2d00UwwZMUTgNgR2CSNNRrv13cQsqbnHpHpuwWhnrK5RvaLwgUI0gXxIvESq4Vwrdt",
+          "received": false
+        },
+        {
+          "_id": "69538bd61c508c5d5e500268",
+          "name": "Salad62930",
+          "amount": 476,
+          "price": 61459,
+          "manufacturer": "Tesla",
+          "notes": "MSdJS4hrhqGDZ58Hya4rH82g0NVhWwPKSNfDhxK2gpsmbU7ITLlm7pxJWWLeb6BQruFIyxRbeeYb4QgiIjhCzSBRWYtzu1ipqe7rxNa1KH57lZnvgce5dEzPVCqFDMuwH77YeZcgCtrqQSP5YjM2KOB8IWCfEYF7hP5MSKIlNccowDFInb2iUmy2kvthXt1DxsL2qbAscz1Mi3M38uFzRkI4m64MhtqCmCikbNkOQSqazzWws6wySNxv46",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "New Giovaniborough",
+          "street": "W 4th Avenue",
+          "house": 594,
+          "flat": 1491
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 63337,
+      "createdOn": "2025-12-30T08:22:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69538bd11c508c5d5e5001e9",
+          "products": [
+            {
+              "_id": "69538bd41c508c5d5e500212",
+              "name": "Pizza21758",
+              "amount": 701,
+              "price": 1878,
+              "manufacturer": "Apple",
+              "notes": "3a4kc7EZ72NYb4sWaPTS7tejNuNHfnYMiE66ddttLqNDuqC6qII58fm8025ssIV68lHR4ql8dT3XggEqYsdwqEqjKyPIqh9WozcH0bTxjKc7Eng6ONEV4SjXjx6omXABftv61cv39hZg7tH320aZ815KrDwTDTHDSZwji7Y6JBwBZFM6nOmw8COS2d00UwwZMUTgNgR2CSNNRrv13cQsqbnHpHpuwWhnrK5RvaLwgUI0gXxIvESq4Vwrdt",
+              "received": false
+            },
+            {
+              "_id": "69538bd61c508c5d5e500268",
+              "name": "Salad62930",
+              "amount": 476,
+              "price": 61459,
+              "manufacturer": "Tesla",
+              "notes": "MSdJS4hrhqGDZ58Hya4rH82g0NVhWwPKSNfDhxK2gpsmbU7ITLlm7pxJWWLeb6BQruFIyxRbeeYb4QgiIjhCzSBRWYtzu1ipqe7rxNa1KH57lZnvgce5dEzPVCqFDMuwH77YeZcgCtrqQSP5YjM2KOB8IWCfEYF7hP5MSKIlNccowDFInb2iUmy2kvthXt1DxsL2qbAscz1Mi3M38uFzRkI4m64MhtqCmCikbNkOQSqazzWws6wySNxv46",
+              "received": false
+            }
+          ],
+          "total_price": 63337,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "New Giovaniborough",
+              "street": "W 4th Avenue",
+              "house": 594,
+              "flat": 1491
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:22:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538bd11c508c5d5e5001e9",
+          "products": [
+            {
+              "_id": "69538bd41c508c5d5e500212",
+              "name": "Pizza21758",
+              "amount": 701,
+              "price": 1878,
+              "manufacturer": "Apple",
+              "notes": "3a4kc7EZ72NYb4sWaPTS7tejNuNHfnYMiE66ddttLqNDuqC6qII58fm8025ssIV68lHR4ql8dT3XggEqYsdwqEqjKyPIqh9WozcH0bTxjKc7Eng6ONEV4SjXjx6omXABftv61cv39hZg7tH320aZ815KrDwTDTHDSZwji7Y6JBwBZFM6nOmw8COS2d00UwwZMUTgNgR2CSNNRrv13cQsqbnHpHpuwWhnrK5RvaLwgUI0gXxIvESq4Vwrdt",
+              "received": false
+            },
+            {
+              "_id": "69538bd61c508c5d5e500268",
+              "name": "Salad62930",
+              "amount": 476,
+              "price": 61459,
+              "manufacturer": "Tesla",
+              "notes": "MSdJS4hrhqGDZ58Hya4rH82g0NVhWwPKSNfDhxK2gpsmbU7ITLlm7pxJWWLeb6BQruFIyxRbeeYb4QgiIjhCzSBRWYtzu1ipqe7rxNa1KH57lZnvgce5dEzPVCqFDMuwH77YeZcgCtrqQSP5YjM2KOB8IWCfEYF7hP5MSKIlNccowDFInb2iUmy2kvthXt1DxsL2qbAscz1Mi3M38uFzRkI4m64MhtqCmCikbNkOQSqazzWws6wySNxv46",
+              "received": false
+            }
+          ],
+          "total_price": 63337,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:22:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

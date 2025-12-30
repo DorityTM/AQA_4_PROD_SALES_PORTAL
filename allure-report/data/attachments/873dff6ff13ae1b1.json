@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:39:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4590",
+    "etag": "W/\"11ee-ZE1iszQbBRi/phJm3OINnbk72d0\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69538fbf1c508c5d5e5201f8",
+      "status": "Received",
+      "customer": {
+        "_id": "69538fbd1c508c5d5e5201c9",
+        "email": "Tevin72@gmail.com",
+        "name": "Therese Rosenbaum",
+        "country": "Canada",
+        "city": "Jeffersonville",
+        "street": "Stokes Key 42",
+        "house": 588,
+        "flat": 7490,
+        "phone": "+899615744889630",
+        "createdOn": "2025-12-30T08:39:25.000Z",
+        "notes": "CnYXLzUlWwMWqDvZjrDe1Uw23CZDcI"
+      },
+      "products": [
+        {
+          "_id": "69538fbf1c508c5d5e5201f0",
+          "name": "Bike34410",
+          "amount": 604,
+          "price": 54056,
+          "manufacturer": "Apple",
+          "notes": "4CtNFarPjcthobcZPpLPnqZZJUeoJUoRvXeqit1y85o99LV2DnwcKCAn9Mj9SzwpFXiqSURbBo0lig4x8Y2AIvvev0gFu51rolY2gzqCMzTY0g8MA3IZUaJqSNy0glYymD2V6fknWElJGxxsCp6Zo10BkBQLuH55bAxyBmMmaCbF8Dau34C0FX7c6iPcDFbPHcQIwAkOacDC9E4Cb9bwQjCnSNpJ0w3DIfoRRQEAwrJ5G1GTsNDGzBb11P",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Chadhaven",
+          "street": "Haven Mission",
+          "house": 903,
+          "flat": 3878
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 54056,
+      "createdOn": "2025-12-30T08:39:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69538fbd1c508c5d5e5201c9",
+          "products": [
+            {
+              "_id": "69538fbf1c508c5d5e5201f0",
+              "name": "Bike34410",
+              "amount": 604,
+              "price": 54056,
+              "manufacturer": "Apple",
+              "notes": "4CtNFarPjcthobcZPpLPnqZZJUeoJUoRvXeqit1y85o99LV2DnwcKCAn9Mj9SzwpFXiqSURbBo0lig4x8Y2AIvvev0gFu51rolY2gzqCMzTY0g8MA3IZUaJqSNy0glYymD2V6fknWElJGxxsCp6Zo10BkBQLuH55bAxyBmMmaCbF8Dau34C0FX7c6iPcDFbPHcQIwAkOacDC9E4Cb9bwQjCnSNpJ0w3DIfoRRQEAwrJ5G1GTsNDGzBb11P",
+              "received": true
+            }
+          ],
+          "total_price": 54056,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Chadhaven",
+              "street": "Haven Mission",
+              "house": 903,
+              "flat": 3878
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:39:28.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69538fbd1c508c5d5e5201c9",
+          "products": [
+            {
+              "_id": "69538fbf1c508c5d5e5201f0",
+              "name": "Bike34410",
+              "amount": 604,
+              "price": 54056,
+              "manufacturer": "Apple",
+              "notes": "4CtNFarPjcthobcZPpLPnqZZJUeoJUoRvXeqit1y85o99LV2DnwcKCAn9Mj9SzwpFXiqSURbBo0lig4x8Y2AIvvev0gFu51rolY2gzqCMzTY0g8MA3IZUaJqSNy0glYymD2V6fknWElJGxxsCp6Zo10BkBQLuH55bAxyBmMmaCbF8Dau34C0FX7c6iPcDFbPHcQIwAkOacDC9E4Cb9bwQjCnSNpJ0w3DIfoRRQEAwrJ5G1GTsNDGzBb11P",
+              "received": false
+            }
+          ],
+          "total_price": 54056,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Chadhaven",
+              "street": "Haven Mission",
+              "house": 903,
+              "flat": 3878
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:39:28.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538fbd1c508c5d5e5201c9",
+          "products": [
+            {
+              "_id": "69538fbf1c508c5d5e5201f0",
+              "name": "Bike34410",
+              "amount": 604,
+              "price": 54056,
+              "manufacturer": "Apple",
+              "notes": "4CtNFarPjcthobcZPpLPnqZZJUeoJUoRvXeqit1y85o99LV2DnwcKCAn9Mj9SzwpFXiqSURbBo0lig4x8Y2AIvvev0gFu51rolY2gzqCMzTY0g8MA3IZUaJqSNy0glYymD2V6fknWElJGxxsCp6Zo10BkBQLuH55bAxyBmMmaCbF8Dau34C0FX7c6iPcDFbPHcQIwAkOacDC9E4Cb9bwQjCnSNpJ0w3DIfoRRQEAwrJ5G1GTsNDGzBb11P",
+              "received": false
+            }
+          ],
+          "total_price": 54056,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Chadhaven",
+              "street": "Haven Mission",
+              "house": 903,
+              "flat": 3878
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:39:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538fbd1c508c5d5e5201c9",
+          "products": [
+            {
+              "_id": "69538fbf1c508c5d5e5201f0",
+              "name": "Bike34410",
+              "amount": 604,
+              "price": 54056,
+              "manufacturer": "Apple",
+              "notes": "4CtNFarPjcthobcZPpLPnqZZJUeoJUoRvXeqit1y85o99LV2DnwcKCAn9Mj9SzwpFXiqSURbBo0lig4x8Y2AIvvev0gFu51rolY2gzqCMzTY0g8MA3IZUaJqSNy0glYymD2V6fknWElJGxxsCp6Zo10BkBQLuH55bAxyBmMmaCbF8Dau34C0FX7c6iPcDFbPHcQIwAkOacDC9E4Cb9bwQjCnSNpJ0w3DIfoRRQEAwrJ5G1GTsNDGzBb11P",
+              "received": false
+            }
+          ],
+          "total_price": 54056,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:39:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

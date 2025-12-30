@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:24:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1704",
+    "etag": "W/\"6a8-JW3VJhebOmpZdn8tMp21UQ/pClA\"",
+    "keep-alive": "timeout=5, max=9",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69538c4a1c508c5d5e503ecc",
+        "email": "Mauricio_Emmerich@yahoo.com",
+        "name": "Gilda Gutmann",
+        "country": "Great Britain",
+        "city": "Lake Augustinecester",
+        "street": "McDermott Stravenue 53",
+        "house": 920,
+        "flat": 2401,
+        "phone": "+498462227551634",
+        "createdOn": "2025-12-30T08:24:42.000Z",
+        "notes": "jWWz8033X4zAXJgW8sZNiusbzfaaRo"
+      },
+      "products": [
+        {
+          "_id": "69538c4d1c508c5d5e503f75",
+          "name": "Chicken38092",
+          "amount": 333,
+          "price": 84657,
+          "manufacturer": "Amazon",
+          "notes": "G0TtUovJXVckCmvVrKOHjspuqODEwP8uJW2S2mFLLlnrgu75LXEEy6euzy5LfmbN0yfYjsOsNeUvmxEFIlN0AdWFhbVyQijMpV9ZLtqNBhkTkTFXJohkkaljRnIZAkvrpBhPRGOMKth1MGPeBx2sAhRncmnRe4eRQG2LNl8HA6p9INfNVFd6TyeKzWm9Mi4hGSmzsrUl8TxqNzsq8YcKNPtomTuKisaA3hBEwd3WNaaGBuFWHHlNZ1dmaa",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 84657,
+      "createdOn": "2025-12-30T08:24:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69538c4a1c508c5d5e503ecc",
+          "products": [
+            {
+              "_id": "69538c4d1c508c5d5e503f75",
+              "name": "Chicken38092",
+              "amount": 333,
+              "price": 84657,
+              "manufacturer": "Amazon",
+              "notes": "G0TtUovJXVckCmvVrKOHjspuqODEwP8uJW2S2mFLLlnrgu75LXEEy6euzy5LfmbN0yfYjsOsNeUvmxEFIlN0AdWFhbVyQijMpV9ZLtqNBhkTkTFXJohkkaljRnIZAkvrpBhPRGOMKth1MGPeBx2sAhRncmnRe4eRQG2LNl8HA6p9INfNVFd6TyeKzWm9Mi4hGSmzsrUl8TxqNzsq8YcKNPtomTuKisaA3hBEwd3WNaaGBuFWHHlNZ1dmaa",
+              "received": false
+            }
+          ],
+          "total_price": 84657,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:24:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69538c4d1c508c5d5e503f8b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:36:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2771",
+    "etag": "W/\"ad3-KGXpv6np7ZbIi5G/I7HtKDmSiv8\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69538f191c508c5d5e51ae15",
+      "status": "Draft",
+      "customer": {
+        "_id": "69538f161c508c5d5e51ad3f",
+        "email": "Alia28@yahoo.com",
+        "name": "Constantin Trantow",
+        "country": "USA",
+        "city": "Fort Karentown",
+        "street": "S Washington Avenue 44",
+        "house": 645,
+        "flat": 8620,
+        "phone": "+938209775811838",
+        "createdOn": "2025-12-30T08:36:38.000Z",
+        "notes": "jVNMGrtG7JyWrw35H9Y0YDmO19ga6Q"
+      },
+      "products": [
+        {
+          "_id": "69538f191c508c5d5e51ae0d",
+          "name": "Table97761",
+          "amount": 542,
+          "price": 51261,
+          "manufacturer": "Samsung",
+          "notes": "mbh9SybdQr7KsLgYVFrVSWUmLPTy792sgPBtfxMWaCTLWNEg5iLJSmBwc1VPD22QTxf1WjvqGYHCMvFzL6LkD7jxMQR2mCh0SgZQK788KkhRDav6is0ROR5j4yH0AufJVy7LOURX7WWcpGh045OUHRlkk7RTn0E7Un9OVEea973eQuwboFEJSZrhKROz3hBk51E0GHo2Jx55m8AUXuPP6WdoCNOBsUTOKNeyQ2enCA4ENe5DrKdKd04YOJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Huntington Park",
+          "street": "Salisbury Road",
+          "house": 314,
+          "flat": 1112
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51261,
+      "createdOn": "2025-12-30T08:36:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69538f161c508c5d5e51ad3f",
+          "products": [
+            {
+              "_id": "69538f191c508c5d5e51ae0d",
+              "name": "Table97761",
+              "amount": 542,
+              "price": 51261,
+              "manufacturer": "Samsung",
+              "notes": "mbh9SybdQr7KsLgYVFrVSWUmLPTy792sgPBtfxMWaCTLWNEg5iLJSmBwc1VPD22QTxf1WjvqGYHCMvFzL6LkD7jxMQR2mCh0SgZQK788KkhRDav6is0ROR5j4yH0AufJVy7LOURX7WWcpGh045OUHRlkk7RTn0E7Un9OVEea973eQuwboFEJSZrhKROz3hBk51E0GHo2Jx55m8AUXuPP6WdoCNOBsUTOKNeyQ2enCA4ENe5DrKdKd04YOJ",
+              "received": false
+            }
+          ],
+          "total_price": 51261,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Huntington Park",
+              "street": "Salisbury Road",
+              "house": 314,
+              "flat": 1112
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:36:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538f161c508c5d5e51ad3f",
+          "products": [
+            {
+              "_id": "69538f191c508c5d5e51ae0d",
+              "name": "Table97761",
+              "amount": 542,
+              "price": 51261,
+              "manufacturer": "Samsung",
+              "notes": "mbh9SybdQr7KsLgYVFrVSWUmLPTy792sgPBtfxMWaCTLWNEg5iLJSmBwc1VPD22QTxf1WjvqGYHCMvFzL6LkD7jxMQR2mCh0SgZQK788KkhRDav6is0ROR5j4yH0AufJVy7LOURX7WWcpGh045OUHRlkk7RTn0E7Un9OVEea973eQuwboFEJSZrhKROz3hBk51E0GHo2Jx55m8AUXuPP6WdoCNOBsUTOKNeyQ2enCA4ENe5DrKdKd04YOJ",
+              "received": false
+            }
+          ],
+          "total_price": 51261,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:36:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

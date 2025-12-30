@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:36:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-bTAzbWmVe5WJj/vwKoi2OHO2dFA\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69538f031c508c5d5e51a4b2",
+      "status": "Draft",
+      "customer": {
+        "_id": "69538eff1c508c5d5e51a2e1",
+        "email": "Geovanni.Spinka@gmail.com",
+        "name": "Felton Hoppe",
+        "country": "Ukraine",
+        "city": "South Marina",
+        "street": "Murphy Villages 35",
+        "house": 459,
+        "flat": 7594,
+        "phone": "+878940386071690",
+        "createdOn": "2025-12-30T08:36:15.000Z",
+        "notes": "6uZ0jQkuN1Kq7LIZREnXakeAFZRpRx"
+      },
+      "products": [
+        {
+          "_id": "69538f021c508c5d5e51a499",
+          "name": "Salad27161",
+          "amount": 71,
+          "price": 4991,
+          "manufacturer": "Microsoft",
+          "notes": "yxQQTX9F2LskCYpX2f8k6pjXBUY23chzqkbhVjTyyLMEMNHJcUzZ1yvDADYERlGiEhR6gp1k2ZvAZD8yVPSc6G9aInEngS4S4k8FsfGsTVNRAPPoXO1lrBunSRPZDMekebvJQKiUURjmbQZKm0py97plTVJgn4HbDzabiPnI7p2QNdADpQguiqqDkJqFj6FmH8tr5Jl9VDrYwkbuWYFy5OEyz7F3snsWdNwikQZyS76jY9tD4MF1TVa06C",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Theodoreside",
+          "street": "Parisian Fort",
+          "house": 275,
+          "flat": 2354
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 4991,
+      "createdOn": "2025-12-30T08:36:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69538eff1c508c5d5e51a2e1",
+          "products": [
+            {
+              "_id": "69538f021c508c5d5e51a499",
+              "name": "Salad27161",
+              "amount": 71,
+              "price": 4991,
+              "manufacturer": "Microsoft",
+              "notes": "yxQQTX9F2LskCYpX2f8k6pjXBUY23chzqkbhVjTyyLMEMNHJcUzZ1yvDADYERlGiEhR6gp1k2ZvAZD8yVPSc6G9aInEngS4S4k8FsfGsTVNRAPPoXO1lrBunSRPZDMekebvJQKiUURjmbQZKm0py97plTVJgn4HbDzabiPnI7p2QNdADpQguiqqDkJqFj6FmH8tr5Jl9VDrYwkbuWYFy5OEyz7F3snsWdNwikQZyS76jY9tD4MF1TVa06C",
+              "received": false
+            }
+          ],
+          "total_price": 4991,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Theodoreside",
+              "street": "Parisian Fort",
+              "house": 275,
+              "flat": 2354
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:36:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538eff1c508c5d5e51a2e1",
+          "products": [
+            {
+              "_id": "69538f021c508c5d5e51a499",
+              "name": "Salad27161",
+              "amount": 71,
+              "price": 4991,
+              "manufacturer": "Microsoft",
+              "notes": "yxQQTX9F2LskCYpX2f8k6pjXBUY23chzqkbhVjTyyLMEMNHJcUzZ1yvDADYERlGiEhR6gp1k2ZvAZD8yVPSc6G9aInEngS4S4k8FsfGsTVNRAPPoXO1lrBunSRPZDMekebvJQKiUURjmbQZKm0py97plTVJgn4HbDzabiPnI7p2QNdADpQguiqqDkJqFj6FmH8tr5Jl9VDrYwkbuWYFy5OEyz7F3snsWdNwikQZyS76jY9tD4MF1TVa06C",
+              "received": false
+            }
+          ],
+          "total_price": 4991,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:36:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:39:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3692",
+    "etag": "W/\"e6c-MCeZfVPHdi7AdhYwZe+t02FzbdA\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69538fbb1c508c5d5e520186",
+      "status": "In Process",
+      "customer": {
+        "_id": "69538fb71c508c5d5e51ffa2",
+        "email": "Brenda_Gulgowski@hotmail.com",
+        "name": "Simone Bergstrom",
+        "country": "France",
+        "city": "East Erik",
+        "street": "Howell Estate 82",
+        "house": 841,
+        "flat": 4161,
+        "phone": "+210766308330177",
+        "createdOn": "2025-12-30T08:39:19.000Z",
+        "notes": "uaNKiWB1hbjGOMQVSzWJ0TGLZYDug7"
+      },
+      "products": [
+        {
+          "_id": "69538fba1c508c5d5e520172",
+          "name": "Chair6382",
+          "amount": 93,
+          "price": 22543,
+          "manufacturer": "Apple",
+          "notes": "tahYzdjG5hKzAEazqXOswXieWBQknvzVYaIsSm6rTnOyvgohzBcAF5jVnZTID1iW94HJh2dIU6O1fs0K2uRAp2MBWhQjzzxGjaFC3a8nqm9jXLw0FnaFWw3KP7duYCLVAKckAzdM8oAqt10o9ragbixrn0WDYiNIGmjF0Qwx93fbVGDUwOZmMic7ZSJSDC5L803CtsKQQDK06EiJVToGMod5LZ6mOvgLdscKAyCrTaube8LIUBOmvy0ILt",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Pawtucket",
+          "street": "Daisy Unions",
+          "house": 866,
+          "flat": 7198
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22543,
+      "createdOn": "2025-12-30T08:39:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69538fb71c508c5d5e51ffa2",
+          "products": [
+            {
+              "_id": "69538fba1c508c5d5e520172",
+              "name": "Chair6382",
+              "amount": 93,
+              "price": 22543,
+              "manufacturer": "Apple",
+              "notes": "tahYzdjG5hKzAEazqXOswXieWBQknvzVYaIsSm6rTnOyvgohzBcAF5jVnZTID1iW94HJh2dIU6O1fs0K2uRAp2MBWhQjzzxGjaFC3a8nqm9jXLw0FnaFWw3KP7duYCLVAKckAzdM8oAqt10o9ragbixrn0WDYiNIGmjF0Qwx93fbVGDUwOZmMic7ZSJSDC5L803CtsKQQDK06EiJVToGMod5LZ6mOvgLdscKAyCrTaube8LIUBOmvy0ILt",
+              "received": false
+            }
+          ],
+          "total_price": 22543,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Pawtucket",
+              "street": "Daisy Unions",
+              "house": 866,
+              "flat": 7198
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:39:24.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538fb71c508c5d5e51ffa2",
+          "products": [
+            {
+              "_id": "69538fba1c508c5d5e520172",
+              "name": "Chair6382",
+              "amount": 93,
+              "price": 22543,
+              "manufacturer": "Apple",
+              "notes": "tahYzdjG5hKzAEazqXOswXieWBQknvzVYaIsSm6rTnOyvgohzBcAF5jVnZTID1iW94HJh2dIU6O1fs0K2uRAp2MBWhQjzzxGjaFC3a8nqm9jXLw0FnaFWw3KP7duYCLVAKckAzdM8oAqt10o9ragbixrn0WDYiNIGmjF0Qwx93fbVGDUwOZmMic7ZSJSDC5L803CtsKQQDK06EiJVToGMod5LZ6mOvgLdscKAyCrTaube8LIUBOmvy0ILt",
+              "received": false
+            }
+          ],
+          "total_price": 22543,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Pawtucket",
+              "street": "Daisy Unions",
+              "house": 866,
+              "flat": 7198
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:39:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538fb71c508c5d5e51ffa2",
+          "products": [
+            {
+              "_id": "69538fba1c508c5d5e520172",
+              "name": "Chair6382",
+              "amount": 93,
+              "price": 22543,
+              "manufacturer": "Apple",
+              "notes": "tahYzdjG5hKzAEazqXOswXieWBQknvzVYaIsSm6rTnOyvgohzBcAF5jVnZTID1iW94HJh2dIU6O1fs0K2uRAp2MBWhQjzzxGjaFC3a8nqm9jXLw0FnaFWw3KP7duYCLVAKckAzdM8oAqt10o9ragbixrn0WDYiNIGmjF0Qwx93fbVGDUwOZmMic7ZSJSDC5L803CtsKQQDK06EiJVToGMod5LZ6mOvgLdscKAyCrTaube8LIUBOmvy0ILt",
+              "received": false
+            }
+          ],
+          "total_price": 22543,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:39:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

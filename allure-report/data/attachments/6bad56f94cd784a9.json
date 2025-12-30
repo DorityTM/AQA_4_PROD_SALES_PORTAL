@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:24:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3677",
+    "etag": "W/\"e5d-O5wNYukmi1utoR5r3u06dL5LKh4\"",
+    "keep-alive": "timeout=5, max=13",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69538c561c508c5d5e50465c",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69538c501c508c5d5e5041da",
+        "email": "Sonny_Grant@gmail.com",
+        "name": "Caleb Koch",
+        "country": "Canada",
+        "city": "Handfield",
+        "street": "S Monroe Street 97",
+        "house": 276,
+        "flat": 6627,
+        "phone": "+343944325366255",
+        "createdOn": "2025-12-30T08:24:48.000Z",
+        "notes": "NLfxN2nx7hxntlOd97LESsB8MkX2Au"
+      },
+      "products": [
+        {
+          "_id": "69538c541c508c5d5e504512",
+          "name": "Cheese73427",
+          "amount": 279,
+          "price": 67382,
+          "manufacturer": "Xiaomi",
+          "notes": "U2Jf0IyzGvtqYJlkyI26RXOlvnKuLgRBRmIOA7s8piGICA4JTb26tntD531j78Ib6emxt6LZazJaSDAj9oo7knYwVbxUL44yAzlVMef0lm7VcRCFTvovaGC31THtA3xIpDn2VliRvhnl8xTuKUboiTQASfPDjJBy7MP02QP2cC7yb4xkwGX4QLuhDosJremH7CyBTGdACYP1wt2wXjMrMAvG5wLmRuRmTpAXs9ic2yQ2LKrv56ERxn0smo",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Tiffany",
+          "street": "Okuneva Center",
+          "house": 67,
+          "flat": 5608
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 67382,
+      "createdOn": "2025-12-30T08:24:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69538c501c508c5d5e5041da",
+          "products": [
+            {
+              "_id": "69538c541c508c5d5e504512",
+              "name": "Cheese73427",
+              "amount": 279,
+              "price": 67382,
+              "manufacturer": "Xiaomi",
+              "notes": "U2Jf0IyzGvtqYJlkyI26RXOlvnKuLgRBRmIOA7s8piGICA4JTb26tntD531j78Ib6emxt6LZazJaSDAj9oo7knYwVbxUL44yAzlVMef0lm7VcRCFTvovaGC31THtA3xIpDn2VliRvhnl8xTuKUboiTQASfPDjJBy7MP02QP2cC7yb4xkwGX4QLuhDosJremH7CyBTGdACYP1wt2wXjMrMAvG5wLmRuRmTpAXs9ic2yQ2LKrv56ERxn0smo",
+              "received": false
+            }
+          ],
+          "total_price": 67382,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Tiffany",
+              "street": "Okuneva Center",
+              "house": 67,
+              "flat": 5608
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:24:55.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538c501c508c5d5e5041da",
+          "products": [
+            {
+              "_id": "69538c541c508c5d5e504512",
+              "name": "Cheese73427",
+              "amount": 279,
+              "price": 67382,
+              "manufacturer": "Xiaomi",
+              "notes": "U2Jf0IyzGvtqYJlkyI26RXOlvnKuLgRBRmIOA7s8piGICA4JTb26tntD531j78Ib6emxt6LZazJaSDAj9oo7knYwVbxUL44yAzlVMef0lm7VcRCFTvovaGC31THtA3xIpDn2VliRvhnl8xTuKUboiTQASfPDjJBy7MP02QP2cC7yb4xkwGX4QLuhDosJremH7CyBTGdACYP1wt2wXjMrMAvG5wLmRuRmTpAXs9ic2yQ2LKrv56ERxn0smo",
+              "received": false
+            }
+          ],
+          "total_price": 67382,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Tiffany",
+              "street": "Okuneva Center",
+              "house": 67,
+              "flat": 5608
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:24:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538c501c508c5d5e5041da",
+          "products": [
+            {
+              "_id": "69538c541c508c5d5e504512",
+              "name": "Cheese73427",
+              "amount": 279,
+              "price": 67382,
+              "manufacturer": "Xiaomi",
+              "notes": "U2Jf0IyzGvtqYJlkyI26RXOlvnKuLgRBRmIOA7s8piGICA4JTb26tntD531j78Ib6emxt6LZazJaSDAj9oo7knYwVbxUL44yAzlVMef0lm7VcRCFTvovaGC31THtA3xIpDn2VliRvhnl8xTuKUboiTQASfPDjJBy7MP02QP2cC7yb4xkwGX4QLuhDosJremH7CyBTGdACYP1wt2wXjMrMAvG5wLmRuRmTpAXs9ic2yQ2LKrv56ERxn0smo",
+              "received": false
+            }
+          ],
+          "total_price": 67382,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:24:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

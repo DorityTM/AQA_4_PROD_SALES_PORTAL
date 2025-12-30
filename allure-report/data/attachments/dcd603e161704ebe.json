@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:40:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4599",
+    "etag": "W/\"11f7-CK52GoIcUal2VuRIkliA+MEV+DI\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69538ff91c508c5d5e522261",
+      "status": "Received",
+      "customer": {
+        "_id": "69538ff51c508c5d5e522096",
+        "email": "Neva63@hotmail.com",
+        "name": "Domenick Sauer",
+        "country": "Russia",
+        "city": "Corkeryhaven",
+        "street": "Simone Groves 54",
+        "house": 33,
+        "flat": 3078,
+        "phone": "+320496643456124",
+        "createdOn": "2025-12-30T08:40:21.000Z",
+        "notes": "lu0QqUGfsDfSwf2NwO3XH1921uw0wj"
+      },
+      "products": [
+        {
+          "_id": "69538ff71c508c5d5e5221f4",
+          "name": "Shirt32700",
+          "amount": 68,
+          "price": 85984,
+          "manufacturer": "Sony",
+          "notes": "2NKYVwoKC8MxOAYi2WOlmHZYtNkYY60fTZcgn9OP5Mo21VUA5RZqZYysWc762KXYR0HDURo9j0vMIo0OKLq26f3FvMgeuZVHsIoDjfiiDcLESgRBKZIW6DnB3A2hUNHwcyxUcugovyGFmvTAPnUACbIylN0QMAXCw7DwzWWyTmplAYGedkRzQePINDDxRxVJWjWo5O2IhUkl1xJEdDnvazRfHx1Refrlsr2yENBbFYGfycr17iCPbuy4yx",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "North Beth",
+          "street": "Barton Crossroad",
+          "house": 915,
+          "flat": 2573
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 85984,
+      "createdOn": "2025-12-30T08:40:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69538ff51c508c5d5e522096",
+          "products": [
+            {
+              "_id": "69538ff71c508c5d5e5221f4",
+              "name": "Shirt32700",
+              "amount": 68,
+              "price": 85984,
+              "manufacturer": "Sony",
+              "notes": "2NKYVwoKC8MxOAYi2WOlmHZYtNkYY60fTZcgn9OP5Mo21VUA5RZqZYysWc762KXYR0HDURo9j0vMIo0OKLq26f3FvMgeuZVHsIoDjfiiDcLESgRBKZIW6DnB3A2hUNHwcyxUcugovyGFmvTAPnUACbIylN0QMAXCw7DwzWWyTmplAYGedkRzQePINDDxRxVJWjWo5O2IhUkl1xJEdDnvazRfHx1Refrlsr2yENBbFYGfycr17iCPbuy4yx",
+              "received": true
+            }
+          ],
+          "total_price": 85984,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "North Beth",
+              "street": "Barton Crossroad",
+              "house": 915,
+              "flat": 2573
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:40:27.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69538ff51c508c5d5e522096",
+          "products": [
+            {
+              "_id": "69538ff71c508c5d5e5221f4",
+              "name": "Shirt32700",
+              "amount": 68,
+              "price": 85984,
+              "manufacturer": "Sony",
+              "notes": "2NKYVwoKC8MxOAYi2WOlmHZYtNkYY60fTZcgn9OP5Mo21VUA5RZqZYysWc762KXYR0HDURo9j0vMIo0OKLq26f3FvMgeuZVHsIoDjfiiDcLESgRBKZIW6DnB3A2hUNHwcyxUcugovyGFmvTAPnUACbIylN0QMAXCw7DwzWWyTmplAYGedkRzQePINDDxRxVJWjWo5O2IhUkl1xJEdDnvazRfHx1Refrlsr2yENBbFYGfycr17iCPbuy4yx",
+              "received": false
+            }
+          ],
+          "total_price": 85984,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "North Beth",
+              "street": "Barton Crossroad",
+              "house": 915,
+              "flat": 2573
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:40:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538ff51c508c5d5e522096",
+          "products": [
+            {
+              "_id": "69538ff71c508c5d5e5221f4",
+              "name": "Shirt32700",
+              "amount": 68,
+              "price": 85984,
+              "manufacturer": "Sony",
+              "notes": "2NKYVwoKC8MxOAYi2WOlmHZYtNkYY60fTZcgn9OP5Mo21VUA5RZqZYysWc762KXYR0HDURo9j0vMIo0OKLq26f3FvMgeuZVHsIoDjfiiDcLESgRBKZIW6DnB3A2hUNHwcyxUcugovyGFmvTAPnUACbIylN0QMAXCw7DwzWWyTmplAYGedkRzQePINDDxRxVJWjWo5O2IhUkl1xJEdDnvazRfHx1Refrlsr2yENBbFYGfycr17iCPbuy4yx",
+              "received": false
+            }
+          ],
+          "total_price": 85984,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "North Beth",
+              "street": "Barton Crossroad",
+              "house": 915,
+              "flat": 2573
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:40:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538ff51c508c5d5e522096",
+          "products": [
+            {
+              "_id": "69538ff71c508c5d5e5221f4",
+              "name": "Shirt32700",
+              "amount": 68,
+              "price": 85984,
+              "manufacturer": "Sony",
+              "notes": "2NKYVwoKC8MxOAYi2WOlmHZYtNkYY60fTZcgn9OP5Mo21VUA5RZqZYysWc762KXYR0HDURo9j0vMIo0OKLq26f3FvMgeuZVHsIoDjfiiDcLESgRBKZIW6DnB3A2hUNHwcyxUcugovyGFmvTAPnUACbIylN0QMAXCw7DwzWWyTmplAYGedkRzQePINDDxRxVJWjWo5O2IhUkl1xJEdDnvazRfHx1Refrlsr2yENBbFYGfycr17iCPbuy4yx",
+              "received": false
+            }
+          ],
+          "total_price": 85984,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:40:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

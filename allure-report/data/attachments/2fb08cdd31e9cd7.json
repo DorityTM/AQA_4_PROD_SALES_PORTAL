@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:36:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3704",
+    "etag": "W/\"e78-kEIUirv42KzmI7yTGWXOu2KbFl8\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69538f281c508c5d5e51b4d6",
+      "status": "In Process",
+      "customer": {
+        "_id": "69538f251c508c5d5e51b45f",
+        "email": "Bennie.Mosciski@hotmail.com",
+        "name": "Joseph Hintz Fadel",
+        "country": "Russia",
+        "city": "South Cortneyworth",
+        "street": "Well Lane 30",
+        "house": 829,
+        "flat": 2243,
+        "phone": "+780923260299736",
+        "createdOn": "2025-12-30T08:36:53.000Z",
+        "notes": "Dh5GsV4ElSqzoN0sd2vrmcwVq25j3J"
+      },
+      "products": [
+        {
+          "_id": "69538f271c508c5d5e51b4ce",
+          "name": "Table61814",
+          "amount": 881,
+          "price": 89298,
+          "manufacturer": "Google",
+          "notes": "0irJRnZHDGwlAdcdEkr9y3QTTj88iuyX5Qlyt979y2ccb1DzrB8a0vfWnErDsitduDr64tZlNJr3n83qGyZYOLdhJPgKi31Tn0GwWXQLOPOpPuyIicjvBwdLLQrLwNZKFjL4Vxvp3SlaVDkQuWSkzgY8xu8GWkWftRSwo4prTruAuYgKzXOXaw7fjhukOL53dHXt0lxkUwCL3A74pWhToFNnwFpMeO78eUq9CF1qaqZTebk0450Km614Fm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Waterloo",
+          "street": "Bruen Manor",
+          "house": 963,
+          "flat": 8851
+        },
+        "finalDate": "2026-01-06T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 89298,
+      "createdOn": "2025-12-30T08:36:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69538f251c508c5d5e51b45f",
+          "products": [
+            {
+              "_id": "69538f271c508c5d5e51b4ce",
+              "name": "Table61814",
+              "amount": 881,
+              "price": 89298,
+              "manufacturer": "Google",
+              "notes": "0irJRnZHDGwlAdcdEkr9y3QTTj88iuyX5Qlyt979y2ccb1DzrB8a0vfWnErDsitduDr64tZlNJr3n83qGyZYOLdhJPgKi31Tn0GwWXQLOPOpPuyIicjvBwdLLQrLwNZKFjL4Vxvp3SlaVDkQuWSkzgY8xu8GWkWftRSwo4prTruAuYgKzXOXaw7fjhukOL53dHXt0lxkUwCL3A74pWhToFNnwFpMeO78eUq9CF1qaqZTebk0450Km614Fm",
+              "received": false
+            }
+          ],
+          "total_price": 89298,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Waterloo",
+              "street": "Bruen Manor",
+              "house": 963,
+              "flat": 8851
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:36:56.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538f251c508c5d5e51b45f",
+          "products": [
+            {
+              "_id": "69538f271c508c5d5e51b4ce",
+              "name": "Table61814",
+              "amount": 881,
+              "price": 89298,
+              "manufacturer": "Google",
+              "notes": "0irJRnZHDGwlAdcdEkr9y3QTTj88iuyX5Qlyt979y2ccb1DzrB8a0vfWnErDsitduDr64tZlNJr3n83qGyZYOLdhJPgKi31Tn0GwWXQLOPOpPuyIicjvBwdLLQrLwNZKFjL4Vxvp3SlaVDkQuWSkzgY8xu8GWkWftRSwo4prTruAuYgKzXOXaw7fjhukOL53dHXt0lxkUwCL3A74pWhToFNnwFpMeO78eUq9CF1qaqZTebk0450Km614Fm",
+              "received": false
+            }
+          ],
+          "total_price": 89298,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Waterloo",
+              "street": "Bruen Manor",
+              "house": 963,
+              "flat": 8851
+            },
+            "finalDate": "2026-01-06T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-30T08:36:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69538f251c508c5d5e51b45f",
+          "products": [
+            {
+              "_id": "69538f271c508c5d5e51b4ce",
+              "name": "Table61814",
+              "amount": 881,
+              "price": 89298,
+              "manufacturer": "Google",
+              "notes": "0irJRnZHDGwlAdcdEkr9y3QTTj88iuyX5Qlyt979y2ccb1DzrB8a0vfWnErDsitduDr64tZlNJr3n83qGyZYOLdhJPgKi31Tn0GwWXQLOPOpPuyIicjvBwdLLQrLwNZKFjL4Vxvp3SlaVDkQuWSkzgY8xu8GWkWftRSwo4prTruAuYgKzXOXaw7fjhukOL53dHXt0lxkUwCL3A74pWhToFNnwFpMeO78eUq9CF1qaqZTebk0450Km614Fm",
+              "received": false
+            }
+          ],
+          "total_price": 89298,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:36:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

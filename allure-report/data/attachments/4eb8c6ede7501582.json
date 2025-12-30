@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Tue, 30 Dec 2025 08:25:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1666",
+    "etag": "W/\"682-nvubA8v4L+UmcO7rF5zFxylUAZU\"",
+    "keep-alive": "timeout=5, max=14",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69538c791c508c5d5e505a26",
+        "email": "Fred77@gmail.com",
+        "name": "Brock Schroeder",
+        "country": "Germany",
+        "city": "Jonesboro",
+        "street": "Cartwright Lock 17",
+        "house": 744,
+        "flat": 6668,
+        "phone": "+141120379780138",
+        "createdOn": "2025-12-30T08:25:29.000Z",
+        "notes": "X8JTe3hTs4JVDJcP6qm5fSVhOQk6k6"
+      },
+      "products": [
+        {
+          "_id": "69538c7c1c508c5d5e505a6a",
+          "name": "Pizza2541",
+          "amount": 816,
+          "price": 61529,
+          "manufacturer": "Tesla",
+          "notes": "uVNUWFQ9VQ8fteRQpQz6ROyEVMkKdMUjMggCGWriFdgNkYQd3RwNwO4NXdFKsIdxlVuBgLzfJUhCLNLa1IAv0XJ9IQubcqA5bwL1QsnGdDw8aIYh4SFdWySHbLnDQNso7HiSTd9aoUJVWqOq9jeMDAoiojIWWRrSVfyDn86yOBsvnn9KQZOKhj6fOUGKeUxsDONqeCbIJlGnMvSqajBBKGOlFfWBq2KpLShcWzhf8byFd8IdxgpBNCMDuC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 61529,
+      "createdOn": "2025-12-30T08:25:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69538c791c508c5d5e505a26",
+          "products": [
+            {
+              "_id": "69538c7c1c508c5d5e505a6a",
+              "name": "Pizza2541",
+              "amount": 816,
+              "price": 61529,
+              "manufacturer": "Tesla",
+              "notes": "uVNUWFQ9VQ8fteRQpQz6ROyEVMkKdMUjMggCGWriFdgNkYQd3RwNwO4NXdFKsIdxlVuBgLzfJUhCLNLa1IAv0XJ9IQubcqA5bwL1QsnGdDw8aIYh4SFdWySHbLnDQNso7HiSTd9aoUJVWqOq9jeMDAoiojIWWRrSVfyDn86yOBsvnn9KQZOKhj6fOUGKeUxsDONqeCbIJlGnMvSqajBBKGOlFfWBq2KpLShcWzhf8byFd8IdxgpBNCMDuC",
+              "received": false
+            }
+          ],
+          "total_price": 61529,
+          "delivery": null,
+          "changedOn": "2025-12-30T08:25:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69538c7c1c508c5d5e505b1b"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
