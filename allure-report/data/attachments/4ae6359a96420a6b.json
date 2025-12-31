@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 13:52:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2755",
+    "etag": "W/\"ac3-mjNH/rO0SQlCdCys0PDi2zI58Wc\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69552aab1c508c5d5e5b47c4",
+      "status": "Draft",
+      "customer": {
+        "_id": "69552aa81c508c5d5e5b461c",
+        "email": "Juston.Marvin@hotmail.com",
+        "name": "Efrain Treutel",
+        "country": "USA",
+        "city": "Port Brandynfort",
+        "street": "N Walnut Street 2",
+        "house": 537,
+        "flat": 6765,
+        "phone": "+057948351441997",
+        "createdOn": "2025-12-31T13:52:40.000Z",
+        "notes": "N38wqIAXepNCiY7aqCXfriXK0Y00ie"
+      },
+      "products": [
+        {
+          "_id": "69552aaa1c508c5d5e5b46d0",
+          "name": "Soap40349",
+          "amount": 741,
+          "price": 13410,
+          "manufacturer": "Google",
+          "notes": "XsSuMqG3wi5cxtkrjwTsX1Q1eYIeTZiXTtFfrsnTDdKDr2XJN8FJLhrIZiua56GXfHy1F3ovGaJlp5mnGS6YjGRKN9z14FWhmgbSTMKWL5bZvfB8AvViFn8F52cWxEii04dGdRZGP9jxfdqecQghSjkQI87BOcBZUY0mqnfHGs3tJBhZ3UU2N6fUg6veWsWjAqLy7c1PEnFGyrBYUaLsAd9gWdiBKQgsDBSNHZOad2qK9yMiomm1O0o5vS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Trujillo Alto",
+          "street": "Alize Glens",
+          "house": 144,
+          "flat": 720
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 13410,
+      "createdOn": "2025-12-31T13:52:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69552aa81c508c5d5e5b461c",
+          "products": [
+            {
+              "_id": "69552aaa1c508c5d5e5b46d0",
+              "name": "Soap40349",
+              "amount": 741,
+              "price": 13410,
+              "manufacturer": "Google",
+              "notes": "XsSuMqG3wi5cxtkrjwTsX1Q1eYIeTZiXTtFfrsnTDdKDr2XJN8FJLhrIZiua56GXfHy1F3ovGaJlp5mnGS6YjGRKN9z14FWhmgbSTMKWL5bZvfB8AvViFn8F52cWxEii04dGdRZGP9jxfdqecQghSjkQI87BOcBZUY0mqnfHGs3tJBhZ3UU2N6fUg6veWsWjAqLy7c1PEnFGyrBYUaLsAd9gWdiBKQgsDBSNHZOad2qK9yMiomm1O0o5vS",
+              "received": false
+            }
+          ],
+          "total_price": 13410,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Trujillo Alto",
+              "street": "Alize Glens",
+              "house": 144,
+              "flat": 720
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T13:52:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69552aa81c508c5d5e5b461c",
+          "products": [
+            {
+              "_id": "69552aaa1c508c5d5e5b46d0",
+              "name": "Soap40349",
+              "amount": 741,
+              "price": 13410,
+              "manufacturer": "Google",
+              "notes": "XsSuMqG3wi5cxtkrjwTsX1Q1eYIeTZiXTtFfrsnTDdKDr2XJN8FJLhrIZiua56GXfHy1F3ovGaJlp5mnGS6YjGRKN9z14FWhmgbSTMKWL5bZvfB8AvViFn8F52cWxEii04dGdRZGP9jxfdqecQghSjkQI87BOcBZUY0mqnfHGs3tJBhZ3UU2N6fUg6veWsWjAqLy7c1PEnFGyrBYUaLsAd9gWdiBKQgsDBSNHZOad2qK9yMiomm1O0o5vS",
+              "received": false
+            }
+          ],
+          "total_price": 13410,
+          "delivery": null,
+          "changedOn": "2025-12-31T13:52:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

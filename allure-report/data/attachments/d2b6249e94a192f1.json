@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 13:53:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2762",
+    "etag": "W/\"aca-XPcNaUdpNSwt28RioGEn4xjtUDU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69552ad01c508c5d5e5b5f51",
+      "status": "Draft",
+      "customer": {
+        "_id": "69552acc1c508c5d5e5b5c32",
+        "email": "Violet_Miller36@yahoo.com",
+        "name": "Concepcion Lang",
+        "country": "Canada",
+        "city": "Fort Shawnstead",
+        "street": "Russell Inlet 94",
+        "house": 219,
+        "flat": 997,
+        "phone": "+561732040079327",
+        "createdOn": "2025-12-31T13:53:16.000Z",
+        "notes": "A0CnENGZiplIINX1w8rDAypHJGQK0Z"
+      },
+      "products": [
+        {
+          "_id": "69552ace1c508c5d5e5b5e54",
+          "name": "Bike35756",
+          "amount": 968,
+          "price": 25540,
+          "manufacturer": "Amazon",
+          "notes": "3BiOYBjHW42JOD3APFQ2wcaA1qBXLOIscXati8jGxYQXex5A4jwRjpN0karqrQVncLvBiYdOm14DWbi8gTYuiriDV3vljlOGxq7drs4OQFbu0SrELmO6nyHUTrdsLgtGKO6EDgvZyhBB9dWuAQIT1cjNqpaLLASwXXNvWqfJxw2F12kyFe5Gi2rHYET2TdwAsq4Ff4UncE29dDrGVSisq1E8dLuwNJtNgTTgC3kp5x90vTVx7IOyXSQLoF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Kannapolis",
+          "street": "Mitchell Squares",
+          "house": 725,
+          "flat": 3377
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25540,
+      "createdOn": "2025-12-31T13:53:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69552acc1c508c5d5e5b5c32",
+          "products": [
+            {
+              "_id": "69552ace1c508c5d5e5b5e54",
+              "name": "Bike35756",
+              "amount": 968,
+              "price": 25540,
+              "manufacturer": "Amazon",
+              "notes": "3BiOYBjHW42JOD3APFQ2wcaA1qBXLOIscXati8jGxYQXex5A4jwRjpN0karqrQVncLvBiYdOm14DWbi8gTYuiriDV3vljlOGxq7drs4OQFbu0SrELmO6nyHUTrdsLgtGKO6EDgvZyhBB9dWuAQIT1cjNqpaLLASwXXNvWqfJxw2F12kyFe5Gi2rHYET2TdwAsq4Ff4UncE29dDrGVSisq1E8dLuwNJtNgTTgC3kp5x90vTVx7IOyXSQLoF",
+              "received": false
+            }
+          ],
+          "total_price": 25540,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Kannapolis",
+              "street": "Mitchell Squares",
+              "house": 725,
+              "flat": 3377
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T13:53:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69552acc1c508c5d5e5b5c32",
+          "products": [
+            {
+              "_id": "69552ace1c508c5d5e5b5e54",
+              "name": "Bike35756",
+              "amount": 968,
+              "price": 25540,
+              "manufacturer": "Amazon",
+              "notes": "3BiOYBjHW42JOD3APFQ2wcaA1qBXLOIscXati8jGxYQXex5A4jwRjpN0karqrQVncLvBiYdOm14DWbi8gTYuiriDV3vljlOGxq7drs4OQFbu0SrELmO6nyHUTrdsLgtGKO6EDgvZyhBB9dWuAQIT1cjNqpaLLASwXXNvWqfJxw2F12kyFe5Gi2rHYET2TdwAsq4Ff4UncE29dDrGVSisq1E8dLuwNJtNgTTgC3kp5x90vTVx7IOyXSQLoF",
+              "received": false
+            }
+          ],
+          "total_price": 25540,
+          "delivery": null,
+          "changedOn": "2025-12-31T13:53:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

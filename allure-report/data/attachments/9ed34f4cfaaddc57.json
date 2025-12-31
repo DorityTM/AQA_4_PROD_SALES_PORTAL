@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 13:53:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2760",
+    "etag": "W/\"ac8-6/gJR/CKNGD/Jj+Dhjdi/TEfVEQ\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69552ac81c508c5d5e5b5b58",
+      "status": "Draft",
+      "customer": {
+        "_id": "69552ac11c508c5d5e5b55d4",
+        "email": "Jannie.Robel@gmail.com",
+        "name": "Olga Beatty",
+        "country": "Canada",
+        "city": "Zboncakport",
+        "street": "Tony Rue 26",
+        "house": 194,
+        "flat": 7705,
+        "phone": "+502421170182601",
+        "createdOn": "2025-12-31T13:53:05.000Z",
+        "notes": "dbthV4CApLvNM2NUIfNiuU69jHk8sD"
+      },
+      "products": [
+        {
+          "_id": "69552ac31c508c5d5e5b5b23",
+          "name": "Fish58978",
+          "amount": 480,
+          "price": 96849,
+          "manufacturer": "Samsung",
+          "notes": "4Jad3ffflQBNnrmluXCjXf4QWQMEltX2VfFfbkOubhaARYaot48Aju0khsLP1Kot2Xd64dgG5dOBDp9T4ShjwUEFwPDve4YiKcD480skcTkmgtJvWdZutf2S62WzDvU0GzeoMPi7GZIgBGoxl79ViRMAVdgZQXchbjRshwicBJOWmNwCwE6pYALzoneeYRF4beWtoNnBqx7kPUDHR6gcxFQMzdkqVL78KySDw6SAnZu0QBF6oUdy3kfYeu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Lake Havasu City",
+          "street": "Kuvalis Terrace",
+          "house": 282,
+          "flat": 7803
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 96849,
+      "createdOn": "2025-12-31T13:53:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69552ac11c508c5d5e5b55d4",
+          "products": [
+            {
+              "_id": "69552ac31c508c5d5e5b5b23",
+              "name": "Fish58978",
+              "amount": 480,
+              "price": 96849,
+              "manufacturer": "Samsung",
+              "notes": "4Jad3ffflQBNnrmluXCjXf4QWQMEltX2VfFfbkOubhaARYaot48Aju0khsLP1Kot2Xd64dgG5dOBDp9T4ShjwUEFwPDve4YiKcD480skcTkmgtJvWdZutf2S62WzDvU0GzeoMPi7GZIgBGoxl79ViRMAVdgZQXchbjRshwicBJOWmNwCwE6pYALzoneeYRF4beWtoNnBqx7kPUDHR6gcxFQMzdkqVL78KySDw6SAnZu0QBF6oUdy3kfYeu",
+              "received": false
+            }
+          ],
+          "total_price": 96849,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Havasu City",
+              "street": "Kuvalis Terrace",
+              "house": 282,
+              "flat": 7803
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T13:53:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69552ac11c508c5d5e5b55d4",
+          "products": [
+            {
+              "_id": "69552ac31c508c5d5e5b5b23",
+              "name": "Fish58978",
+              "amount": 480,
+              "price": 96849,
+              "manufacturer": "Samsung",
+              "notes": "4Jad3ffflQBNnrmluXCjXf4QWQMEltX2VfFfbkOubhaARYaot48Aju0khsLP1Kot2Xd64dgG5dOBDp9T4ShjwUEFwPDve4YiKcD480skcTkmgtJvWdZutf2S62WzDvU0GzeoMPi7GZIgBGoxl79ViRMAVdgZQXchbjRshwicBJOWmNwCwE6pYALzoneeYRF4beWtoNnBqx7kPUDHR6gcxFQMzdkqVL78KySDw6SAnZu0QBF6oUdy3kfYeu",
+              "received": false
+            }
+          ],
+          "total_price": 96849,
+          "delivery": null,
+          "changedOn": "2025-12-31T13:53:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

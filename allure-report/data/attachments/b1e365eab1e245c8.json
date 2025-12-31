@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 13:52:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2752",
+    "etag": "W/\"ac0-8b9QiOgxSKntBjR3nEs+gNYNHgc\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69552aa61c508c5d5e5b45f8",
+      "status": "Draft",
+      "customer": {
+        "_id": "69552aa41c508c5d5e5b4563",
+        "email": "Trudie.Pollich@hotmail.com",
+        "name": "Felipe Wilkinson",
+        "country": "Germany",
+        "city": "Layton",
+        "street": "Tremblay Throughway 13",
+        "house": 277,
+        "flat": 5130,
+        "phone": "+121669587933686",
+        "createdOn": "2025-12-31T13:52:36.000Z",
+        "notes": "hML2owgSFtN4nFwzTpu0pLfKEPHuQ7"
+      },
+      "products": [
+        {
+          "_id": "69552aa61c508c5d5e5b45e7",
+          "name": "Ball18515",
+          "amount": 215,
+          "price": 33192,
+          "manufacturer": "Tesla",
+          "notes": "ssyIOb2TqGpprb6rgSBUgkZyvjZhSqHd8Bk7N2DY8aqxxZAkeUjfhz41JhjlcEfcIiWPP3DshQQlRiwSUR3FCIC0AK8VN5nIFqzdr1PQk8cNqt4vdLVhmbtrhvT1EJYa2qDx38V98HvmAlL9WfnmcJpqNAtSxo9IfOaqQ3d99UdNtTKDPtjvJs5CjYJugrMQNk4A5ndcx14Mc5UQKLhtJUKIvAzl9mjdU4pO2NqYRVR8l3JKJ5ZuCS54cP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Garfieldside",
+          "street": "Western Road",
+          "house": 223,
+          "flat": 503
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33192,
+      "createdOn": "2025-12-31T13:52:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69552aa41c508c5d5e5b4563",
+          "products": [
+            {
+              "_id": "69552aa61c508c5d5e5b45e7",
+              "name": "Ball18515",
+              "amount": 215,
+              "price": 33192,
+              "manufacturer": "Tesla",
+              "notes": "ssyIOb2TqGpprb6rgSBUgkZyvjZhSqHd8Bk7N2DY8aqxxZAkeUjfhz41JhjlcEfcIiWPP3DshQQlRiwSUR3FCIC0AK8VN5nIFqzdr1PQk8cNqt4vdLVhmbtrhvT1EJYa2qDx38V98HvmAlL9WfnmcJpqNAtSxo9IfOaqQ3d99UdNtTKDPtjvJs5CjYJugrMQNk4A5ndcx14Mc5UQKLhtJUKIvAzl9mjdU4pO2NqYRVR8l3JKJ5ZuCS54cP",
+              "received": false
+            }
+          ],
+          "total_price": 33192,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Garfieldside",
+              "street": "Western Road",
+              "house": 223,
+              "flat": 503
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T13:52:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69552aa41c508c5d5e5b4563",
+          "products": [
+            {
+              "_id": "69552aa61c508c5d5e5b45e7",
+              "name": "Ball18515",
+              "amount": 215,
+              "price": 33192,
+              "manufacturer": "Tesla",
+              "notes": "ssyIOb2TqGpprb6rgSBUgkZyvjZhSqHd8Bk7N2DY8aqxxZAkeUjfhz41JhjlcEfcIiWPP3DshQQlRiwSUR3FCIC0AK8VN5nIFqzdr1PQk8cNqt4vdLVhmbtrhvT1EJYa2qDx38V98HvmAlL9WfnmcJpqNAtSxo9IfOaqQ3d99UdNtTKDPtjvJs5CjYJugrMQNk4A5ndcx14Mc5UQKLhtJUKIvAzl9mjdU4pO2NqYRVR8l3JKJ5ZuCS54cP",
+              "received": false
+            }
+          ],
+          "total_price": 33192,
+          "delivery": null,
+          "changedOn": "2025-12-31T13:52:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

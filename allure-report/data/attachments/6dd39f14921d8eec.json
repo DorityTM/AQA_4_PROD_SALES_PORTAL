@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 13:51:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3697",
+    "etag": "W/\"e71-33Or1YYluY2ZDJZ9I6lIm1XZrg8\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69552a4a1c508c5d5e5b1af5",
+      "status": "In Process",
+      "customer": {
+        "_id": "69552a481c508c5d5e5b1a03",
+        "email": "Aylin_Konopelski@yahoo.com",
+        "name": "Nedra Haley",
+        "country": "Germany",
+        "city": "Cartwrighttown",
+        "street": "Hillside Avenue 95",
+        "house": 855,
+        "flat": 8187,
+        "phone": "+093876272422194",
+        "createdOn": "2025-12-31T13:51:04.000Z",
+        "notes": "8hLw0TXDInGxopzb0yW1GoiN5Ifu8m"
+      },
+      "products": [
+        {
+          "_id": "69552a491c508c5d5e5b1a17",
+          "name": "Hat97013",
+          "amount": 475,
+          "price": 98581,
+          "manufacturer": "Xiaomi",
+          "notes": "XLVSScOeMDgrXnSLS45P59ZOwFLLYltAZXiHjIeAz7GXqnoA0u5Y09HFLpg0vwNXFaQDOCnZdNhwfbK3M2OFhqTNmyH4dJkcIdm1vnp7eWjskgdnwN6jqBhlUfOm9dVZs3TkOo6wIiTE2iDEM41wVtuzdOGKSoTuno8G7b8bT443ukvSNRRGj1C1WMHfJIIu8arfnDkHKlXQp2cUvnJUsmxQZZjwknmq9LY0BMecFFnq2CCVlHuFa8Qzs3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Candelarioland",
+          "street": "Pfannerstill Isle",
+          "house": 268,
+          "flat": 2153
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98581,
+      "createdOn": "2025-12-31T13:51:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69552a481c508c5d5e5b1a03",
+          "products": [
+            {
+              "_id": "69552a491c508c5d5e5b1a17",
+              "name": "Hat97013",
+              "amount": 475,
+              "price": 98581,
+              "manufacturer": "Xiaomi",
+              "notes": "XLVSScOeMDgrXnSLS45P59ZOwFLLYltAZXiHjIeAz7GXqnoA0u5Y09HFLpg0vwNXFaQDOCnZdNhwfbK3M2OFhqTNmyH4dJkcIdm1vnp7eWjskgdnwN6jqBhlUfOm9dVZs3TkOo6wIiTE2iDEM41wVtuzdOGKSoTuno8G7b8bT443ukvSNRRGj1C1WMHfJIIu8arfnDkHKlXQp2cUvnJUsmxQZZjwknmq9LY0BMecFFnq2CCVlHuFa8Qzs3",
+              "received": false
+            }
+          ],
+          "total_price": 98581,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Candelarioland",
+              "street": "Pfannerstill Isle",
+              "house": 268,
+              "flat": 2153
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T13:51:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69552a481c508c5d5e5b1a03",
+          "products": [
+            {
+              "_id": "69552a491c508c5d5e5b1a17",
+              "name": "Hat97013",
+              "amount": 475,
+              "price": 98581,
+              "manufacturer": "Xiaomi",
+              "notes": "XLVSScOeMDgrXnSLS45P59ZOwFLLYltAZXiHjIeAz7GXqnoA0u5Y09HFLpg0vwNXFaQDOCnZdNhwfbK3M2OFhqTNmyH4dJkcIdm1vnp7eWjskgdnwN6jqBhlUfOm9dVZs3TkOo6wIiTE2iDEM41wVtuzdOGKSoTuno8G7b8bT443ukvSNRRGj1C1WMHfJIIu8arfnDkHKlXQp2cUvnJUsmxQZZjwknmq9LY0BMecFFnq2CCVlHuFa8Qzs3",
+              "received": false
+            }
+          ],
+          "total_price": 98581,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Candelarioland",
+              "street": "Pfannerstill Isle",
+              "house": 268,
+              "flat": 2153
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T13:51:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69552a481c508c5d5e5b1a03",
+          "products": [
+            {
+              "_id": "69552a491c508c5d5e5b1a17",
+              "name": "Hat97013",
+              "amount": 475,
+              "price": 98581,
+              "manufacturer": "Xiaomi",
+              "notes": "XLVSScOeMDgrXnSLS45P59ZOwFLLYltAZXiHjIeAz7GXqnoA0u5Y09HFLpg0vwNXFaQDOCnZdNhwfbK3M2OFhqTNmyH4dJkcIdm1vnp7eWjskgdnwN6jqBhlUfOm9dVZs3TkOo6wIiTE2iDEM41wVtuzdOGKSoTuno8G7b8bT443ukvSNRRGj1C1WMHfJIIu8arfnDkHKlXQp2cUvnJUsmxQZZjwknmq9LY0BMecFFnq2CCVlHuFa8Qzs3",
+              "received": false
+            }
+          ],
+          "total_price": 98581,
+          "delivery": null,
+          "changedOn": "2025-12-31T13:51:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
