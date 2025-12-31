@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:24:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6559",
+    "etag": "W/\"199f-9lFb9k8KV+gte1UgbIhv51u5lmk\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695540111c508c5d5e5c169e",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6955400d1c508c5d5e5c1612",
+        "email": "Michaela_Kuhlman13@yahoo.com",
+        "name": "Macie Nicolas",
+        "country": "Canada",
+        "city": "Nicoborough",
+        "street": "Reynolds Road 23",
+        "house": 859,
+        "flat": 1247,
+        "phone": "+741500605584925",
+        "createdOn": "2025-12-31T15:23:57.000Z",
+        "notes": "4zm88sDhBkfQhnAYOsrt4FJ7SKm1u9"
+      },
+      "products": [
+        {
+          "_id": "6955400f1c508c5d5e5c1637",
+          "name": "Towels61932",
+          "amount": 434,
+          "price": 98801,
+          "manufacturer": "Xiaomi",
+          "notes": "rY2CGh168kDWcjDsGGZEzglo6YlouVeLrBoTkRVhRGBLD7rqk0FwRSAAgLPpWSclzFYE53kh6jtSTRUFILjfICpNCAyRDjoPQI4XVVyBI8mpyiM7WcPNu2Bo5Hz4HceTGF4A9CCf55DqCUqBk6uJrYa6jsif7hITwwJMCgoRbL6RATUVO5SBHcbahe9Y46Rj71wefwHc9WG7zuoOavAfixFSbXPtPODIWtk1YYf97I1SGgnkMrEKX4VuMM",
+          "received": true
+        },
+        {
+          "_id": "695540111c508c5d5e5c1689",
+          "name": "Chicken34477",
+          "amount": 699,
+          "price": 30199,
+          "manufacturer": "Samsung",
+          "notes": "nFIlasN1SzJ88hzWlT0hI44DyWj0wlmnhg3jWeRQljlALXvvwa0z3HmLe9EIRyTHfG0CiGtF3TD6scZWskhEKesQ8U3rVZgwA9WEp0hzl4DUM3JvocOBihvhoIjzrnbuq9ShYy9Ybi71QQi7rpuVT1Uvqcb5eJH87jsw07g9Nx5vFSdsqCxwKVLiEt0B6H5okrNOPJ1iDmIT3PNjnJR5eoS1AXzRgRRUrGr7FQQu4UnYQhuINUA2ge0bJy",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Arvada",
+          "street": "Dandre Crossroad",
+          "house": 652,
+          "flat": 9480
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 129000,
+      "createdOn": "2025-12-31T15:24:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6955400d1c508c5d5e5c1612",
+          "products": [
+            {
+              "_id": "6955400f1c508c5d5e5c1637",
+              "name": "Towels61932",
+              "amount": 434,
+              "price": 98801,
+              "manufacturer": "Xiaomi",
+              "notes": "rY2CGh168kDWcjDsGGZEzglo6YlouVeLrBoTkRVhRGBLD7rqk0FwRSAAgLPpWSclzFYE53kh6jtSTRUFILjfICpNCAyRDjoPQI4XVVyBI8mpyiM7WcPNu2Bo5Hz4HceTGF4A9CCf55DqCUqBk6uJrYa6jsif7hITwwJMCgoRbL6RATUVO5SBHcbahe9Y46Rj71wefwHc9WG7zuoOavAfixFSbXPtPODIWtk1YYf97I1SGgnkMrEKX4VuMM",
+              "received": true
+            },
+            {
+              "_id": "695540111c508c5d5e5c1689",
+              "name": "Chicken34477",
+              "amount": 699,
+              "price": 30199,
+              "manufacturer": "Samsung",
+              "notes": "nFIlasN1SzJ88hzWlT0hI44DyWj0wlmnhg3jWeRQljlALXvvwa0z3HmLe9EIRyTHfG0CiGtF3TD6scZWskhEKesQ8U3rVZgwA9WEp0hzl4DUM3JvocOBihvhoIjzrnbuq9ShYy9Ybi71QQi7rpuVT1Uvqcb5eJH87jsw07g9Nx5vFSdsqCxwKVLiEt0B6H5okrNOPJ1iDmIT3PNjnJR5eoS1AXzRgRRUrGr7FQQu4UnYQhuINUA2ge0bJy",
+              "received": false
+            }
+          ],
+          "total_price": 129000,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Arvada",
+              "street": "Dandre Crossroad",
+              "house": 652,
+              "flat": 9480
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:24:02.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6955400d1c508c5d5e5c1612",
+          "products": [
+            {
+              "_id": "6955400f1c508c5d5e5c1637",
+              "name": "Towels61932",
+              "amount": 434,
+              "price": 98801,
+              "manufacturer": "Xiaomi",
+              "notes": "rY2CGh168kDWcjDsGGZEzglo6YlouVeLrBoTkRVhRGBLD7rqk0FwRSAAgLPpWSclzFYE53kh6jtSTRUFILjfICpNCAyRDjoPQI4XVVyBI8mpyiM7WcPNu2Bo5Hz4HceTGF4A9CCf55DqCUqBk6uJrYa6jsif7hITwwJMCgoRbL6RATUVO5SBHcbahe9Y46Rj71wefwHc9WG7zuoOavAfixFSbXPtPODIWtk1YYf97I1SGgnkMrEKX4VuMM",
+              "received": false
+            },
+            {
+              "_id": "695540111c508c5d5e5c1689",
+              "name": "Chicken34477",
+              "amount": 699,
+              "price": 30199,
+              "manufacturer": "Samsung",
+              "notes": "nFIlasN1SzJ88hzWlT0hI44DyWj0wlmnhg3jWeRQljlALXvvwa0z3HmLe9EIRyTHfG0CiGtF3TD6scZWskhEKesQ8U3rVZgwA9WEp0hzl4DUM3JvocOBihvhoIjzrnbuq9ShYy9Ybi71QQi7rpuVT1Uvqcb5eJH87jsw07g9Nx5vFSdsqCxwKVLiEt0B6H5okrNOPJ1iDmIT3PNjnJR5eoS1AXzRgRRUrGr7FQQu4UnYQhuINUA2ge0bJy",
+              "received": false
+            }
+          ],
+          "total_price": 129000,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Arvada",
+              "street": "Dandre Crossroad",
+              "house": 652,
+              "flat": 9480
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:24:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955400d1c508c5d5e5c1612",
+          "products": [
+            {
+              "_id": "6955400f1c508c5d5e5c1637",
+              "name": "Towels61932",
+              "amount": 434,
+              "price": 98801,
+              "manufacturer": "Xiaomi",
+              "notes": "rY2CGh168kDWcjDsGGZEzglo6YlouVeLrBoTkRVhRGBLD7rqk0FwRSAAgLPpWSclzFYE53kh6jtSTRUFILjfICpNCAyRDjoPQI4XVVyBI8mpyiM7WcPNu2Bo5Hz4HceTGF4A9CCf55DqCUqBk6uJrYa6jsif7hITwwJMCgoRbL6RATUVO5SBHcbahe9Y46Rj71wefwHc9WG7zuoOavAfixFSbXPtPODIWtk1YYf97I1SGgnkMrEKX4VuMM",
+              "received": false
+            },
+            {
+              "_id": "695540111c508c5d5e5c1689",
+              "name": "Chicken34477",
+              "amount": 699,
+              "price": 30199,
+              "manufacturer": "Samsung",
+              "notes": "nFIlasN1SzJ88hzWlT0hI44DyWj0wlmnhg3jWeRQljlALXvvwa0z3HmLe9EIRyTHfG0CiGtF3TD6scZWskhEKesQ8U3rVZgwA9WEp0hzl4DUM3JvocOBihvhoIjzrnbuq9ShYy9Ybi71QQi7rpuVT1Uvqcb5eJH87jsw07g9Nx5vFSdsqCxwKVLiEt0B6H5okrNOPJ1iDmIT3PNjnJR5eoS1AXzRgRRUrGr7FQQu4UnYQhuINUA2ge0bJy",
+              "received": false
+            }
+          ],
+          "total_price": 129000,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Arvada",
+              "street": "Dandre Crossroad",
+              "house": 652,
+              "flat": 9480
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:24:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955400d1c508c5d5e5c1612",
+          "products": [
+            {
+              "_id": "6955400f1c508c5d5e5c1637",
+              "name": "Towels61932",
+              "amount": 434,
+              "price": 98801,
+              "manufacturer": "Xiaomi",
+              "notes": "rY2CGh168kDWcjDsGGZEzglo6YlouVeLrBoTkRVhRGBLD7rqk0FwRSAAgLPpWSclzFYE53kh6jtSTRUFILjfICpNCAyRDjoPQI4XVVyBI8mpyiM7WcPNu2Bo5Hz4HceTGF4A9CCf55DqCUqBk6uJrYa6jsif7hITwwJMCgoRbL6RATUVO5SBHcbahe9Y46Rj71wefwHc9WG7zuoOavAfixFSbXPtPODIWtk1YYf97I1SGgnkMrEKX4VuMM",
+              "received": false
+            },
+            {
+              "_id": "695540111c508c5d5e5c1689",
+              "name": "Chicken34477",
+              "amount": 699,
+              "price": 30199,
+              "manufacturer": "Samsung",
+              "notes": "nFIlasN1SzJ88hzWlT0hI44DyWj0wlmnhg3jWeRQljlALXvvwa0z3HmLe9EIRyTHfG0CiGtF3TD6scZWskhEKesQ8U3rVZgwA9WEp0hzl4DUM3JvocOBihvhoIjzrnbuq9ShYy9Ybi71QQi7rpuVT1Uvqcb5eJH87jsw07g9Nx5vFSdsqCxwKVLiEt0B6H5okrNOPJ1iDmIT3PNjnJR5eoS1AXzRgRRUrGr7FQQu4UnYQhuINUA2ge0bJy",
+              "received": false
+            }
+          ],
+          "total_price": 129000,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:24:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:25:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8117",
+    "etag": "W/\"1fb5-62sPCMhIX9pTZhMYmGnhtIJexVs\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695540451c508c5d5e5c2c62",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "695540411c508c5d5e5c2acd",
+        "email": "Brendan.Moen86@hotmail.com",
+        "name": "Raven Konopelski",
+        "country": "Belarus",
+        "city": "Appleton",
+        "street": "Thiel Unions 83",
+        "house": 815,
+        "flat": 9846,
+        "phone": "+976157756436144",
+        "createdOn": "2025-12-31T15:24:49.000Z",
+        "notes": "AiHVZunZsCAhuFSbmxnhUzoPMzQfOI"
+      },
+      "products": [
+        {
+          "_id": "695540431c508c5d5e5c2b52",
+          "name": "Ball36234",
+          "amount": 929,
+          "price": 56407,
+          "manufacturer": "Tesla",
+          "notes": "vndVgrH2kHTC8sQ6qqWJUd6UhttececVEGudZHNwChggRXK14Y11ghThbN8AVLOWsvE7U7ttFo7MQFb72emuF9RzzMdY90SSlp0IcLpuapHJGumOryQ7F3XaV79gPdAy2qaRSyUn9vUXOgk238zhlxFKbA3VDkjaqkS7dk4j5HwoF24J3PIeCJMxpY9jcPthL25s10dxWVWaH3NXhBdoaQWJrOHMjNHySbMtMN1uZyPMfaq1NkABfXvGU8",
+          "received": true
+        },
+        {
+          "_id": "695540451c508c5d5e5c2c54",
+          "name": "Ball39581",
+          "amount": 746,
+          "price": 41391,
+          "manufacturer": "Tesla",
+          "notes": "H98wOBYwb0WEFB8Jv6jwZttWmcGmpEFk7RCJxusajlmCNPdzu9K8PQtCBRhsAfWgRoGAVBI1oIjZjjaNK2SSBoca1npS6nMJaUSXwBVtnvuMlZkaQO6N62TujgeIeXTk0Aql1iITNOdkYBvwDfZx6ws1rmlbwE4gMsvTeHQL3YxbwKydOjXlNFGpNhFd1sZLAJ6zVlLkXPkNXgbryuk571MVRqz0diz7RvGph55VXkDNFpIhnbPWG8Kceb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Howefield",
+          "street": "Camryn Estates",
+          "house": 81,
+          "flat": 4128
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97798,
+      "createdOn": "2025-12-31T15:24:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "695540411c508c5d5e5c2acd",
+          "products": [
+            {
+              "_id": "695540431c508c5d5e5c2b52",
+              "name": "Ball36234",
+              "amount": 929,
+              "price": 56407,
+              "manufacturer": "Tesla",
+              "notes": "vndVgrH2kHTC8sQ6qqWJUd6UhttececVEGudZHNwChggRXK14Y11ghThbN8AVLOWsvE7U7ttFo7MQFb72emuF9RzzMdY90SSlp0IcLpuapHJGumOryQ7F3XaV79gPdAy2qaRSyUn9vUXOgk238zhlxFKbA3VDkjaqkS7dk4j5HwoF24J3PIeCJMxpY9jcPthL25s10dxWVWaH3NXhBdoaQWJrOHMjNHySbMtMN1uZyPMfaq1NkABfXvGU8",
+              "received": true
+            },
+            {
+              "_id": "695540451c508c5d5e5c2c54",
+              "name": "Ball39581",
+              "amount": 746,
+              "price": 41391,
+              "manufacturer": "Tesla",
+              "notes": "H98wOBYwb0WEFB8Jv6jwZttWmcGmpEFk7RCJxusajlmCNPdzu9K8PQtCBRhsAfWgRoGAVBI1oIjZjjaNK2SSBoca1npS6nMJaUSXwBVtnvuMlZkaQO6N62TujgeIeXTk0Aql1iITNOdkYBvwDfZx6ws1rmlbwE4gMsvTeHQL3YxbwKydOjXlNFGpNhFd1sZLAJ6zVlLkXPkNXgbryuk571MVRqz0diz7RvGph55VXkDNFpIhnbPWG8Kceb",
+              "received": false
+            }
+          ],
+          "total_price": 97798,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Howefield",
+              "street": "Camryn Estates",
+              "house": 81,
+              "flat": 4128
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:24:58.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "695540411c508c5d5e5c2acd",
+          "products": [
+            {
+              "_id": "695540431c508c5d5e5c2b52",
+              "name": "Ball36234",
+              "amount": 929,
+              "price": 56407,
+              "manufacturer": "Tesla",
+              "notes": "vndVgrH2kHTC8sQ6qqWJUd6UhttececVEGudZHNwChggRXK14Y11ghThbN8AVLOWsvE7U7ttFo7MQFb72emuF9RzzMdY90SSlp0IcLpuapHJGumOryQ7F3XaV79gPdAy2qaRSyUn9vUXOgk238zhlxFKbA3VDkjaqkS7dk4j5HwoF24J3PIeCJMxpY9jcPthL25s10dxWVWaH3NXhBdoaQWJrOHMjNHySbMtMN1uZyPMfaq1NkABfXvGU8",
+              "received": true
+            },
+            {
+              "_id": "695540451c508c5d5e5c2c54",
+              "name": "Ball39581",
+              "amount": 746,
+              "price": 41391,
+              "manufacturer": "Tesla",
+              "notes": "H98wOBYwb0WEFB8Jv6jwZttWmcGmpEFk7RCJxusajlmCNPdzu9K8PQtCBRhsAfWgRoGAVBI1oIjZjjaNK2SSBoca1npS6nMJaUSXwBVtnvuMlZkaQO6N62TujgeIeXTk0Aql1iITNOdkYBvwDfZx6ws1rmlbwE4gMsvTeHQL3YxbwKydOjXlNFGpNhFd1sZLAJ6zVlLkXPkNXgbryuk571MVRqz0diz7RvGph55VXkDNFpIhnbPWG8Kceb",
+              "received": false
+            }
+          ],
+          "total_price": 97798,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Howefield",
+              "street": "Camryn Estates",
+              "house": 81,
+              "flat": 4128
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:24:58.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695540411c508c5d5e5c2acd",
+          "products": [
+            {
+              "_id": "695540431c508c5d5e5c2b52",
+              "name": "Ball36234",
+              "amount": 929,
+              "price": 56407,
+              "manufacturer": "Tesla",
+              "notes": "vndVgrH2kHTC8sQ6qqWJUd6UhttececVEGudZHNwChggRXK14Y11ghThbN8AVLOWsvE7U7ttFo7MQFb72emuF9RzzMdY90SSlp0IcLpuapHJGumOryQ7F3XaV79gPdAy2qaRSyUn9vUXOgk238zhlxFKbA3VDkjaqkS7dk4j5HwoF24J3PIeCJMxpY9jcPthL25s10dxWVWaH3NXhBdoaQWJrOHMjNHySbMtMN1uZyPMfaq1NkABfXvGU8",
+              "received": false
+            },
+            {
+              "_id": "695540451c508c5d5e5c2c54",
+              "name": "Ball39581",
+              "amount": 746,
+              "price": 41391,
+              "manufacturer": "Tesla",
+              "notes": "H98wOBYwb0WEFB8Jv6jwZttWmcGmpEFk7RCJxusajlmCNPdzu9K8PQtCBRhsAfWgRoGAVBI1oIjZjjaNK2SSBoca1npS6nMJaUSXwBVtnvuMlZkaQO6N62TujgeIeXTk0Aql1iITNOdkYBvwDfZx6ws1rmlbwE4gMsvTeHQL3YxbwKydOjXlNFGpNhFd1sZLAJ6zVlLkXPkNXgbryuk571MVRqz0diz7RvGph55VXkDNFpIhnbPWG8Kceb",
+              "received": false
+            }
+          ],
+          "total_price": 97798,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Howefield",
+              "street": "Camryn Estates",
+              "house": 81,
+              "flat": 4128
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:24:57.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695540411c508c5d5e5c2acd",
+          "products": [
+            {
+              "_id": "695540431c508c5d5e5c2b52",
+              "name": "Ball36234",
+              "amount": 929,
+              "price": 56407,
+              "manufacturer": "Tesla",
+              "notes": "vndVgrH2kHTC8sQ6qqWJUd6UhttececVEGudZHNwChggRXK14Y11ghThbN8AVLOWsvE7U7ttFo7MQFb72emuF9RzzMdY90SSlp0IcLpuapHJGumOryQ7F3XaV79gPdAy2qaRSyUn9vUXOgk238zhlxFKbA3VDkjaqkS7dk4j5HwoF24J3PIeCJMxpY9jcPthL25s10dxWVWaH3NXhBdoaQWJrOHMjNHySbMtMN1uZyPMfaq1NkABfXvGU8",
+              "received": false
+            },
+            {
+              "_id": "695540451c508c5d5e5c2c54",
+              "name": "Ball39581",
+              "amount": 746,
+              "price": 41391,
+              "manufacturer": "Tesla",
+              "notes": "H98wOBYwb0WEFB8Jv6jwZttWmcGmpEFk7RCJxusajlmCNPdzu9K8PQtCBRhsAfWgRoGAVBI1oIjZjjaNK2SSBoca1npS6nMJaUSXwBVtnvuMlZkaQO6N62TujgeIeXTk0Aql1iITNOdkYBvwDfZx6ws1rmlbwE4gMsvTeHQL3YxbwKydOjXlNFGpNhFd1sZLAJ6zVlLkXPkNXgbryuk571MVRqz0diz7RvGph55VXkDNFpIhnbPWG8Kceb",
+              "received": false
+            }
+          ],
+          "total_price": 97798,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Howefield",
+              "street": "Camryn Estates",
+              "house": 81,
+              "flat": 4128
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:24:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695540411c508c5d5e5c2acd",
+          "products": [
+            {
+              "_id": "695540431c508c5d5e5c2b52",
+              "name": "Ball36234",
+              "amount": 929,
+              "price": 56407,
+              "manufacturer": "Tesla",
+              "notes": "vndVgrH2kHTC8sQ6qqWJUd6UhttececVEGudZHNwChggRXK14Y11ghThbN8AVLOWsvE7U7ttFo7MQFb72emuF9RzzMdY90SSlp0IcLpuapHJGumOryQ7F3XaV79gPdAy2qaRSyUn9vUXOgk238zhlxFKbA3VDkjaqkS7dk4j5HwoF24J3PIeCJMxpY9jcPthL25s10dxWVWaH3NXhBdoaQWJrOHMjNHySbMtMN1uZyPMfaq1NkABfXvGU8",
+              "received": false
+            },
+            {
+              "_id": "695540451c508c5d5e5c2c54",
+              "name": "Ball39581",
+              "amount": 746,
+              "price": 41391,
+              "manufacturer": "Tesla",
+              "notes": "H98wOBYwb0WEFB8Jv6jwZttWmcGmpEFk7RCJxusajlmCNPdzu9K8PQtCBRhsAfWgRoGAVBI1oIjZjjaNK2SSBoca1npS6nMJaUSXwBVtnvuMlZkaQO6N62TujgeIeXTk0Aql1iITNOdkYBvwDfZx6ws1rmlbwE4gMsvTeHQL3YxbwKydOjXlNFGpNhFd1sZLAJ6zVlLkXPkNXgbryuk571MVRqz0diz7RvGph55VXkDNFpIhnbPWG8Kceb",
+              "received": false
+            }
+          ],
+          "total_price": 97798,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:24:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

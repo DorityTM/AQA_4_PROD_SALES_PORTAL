@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:25:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3659",
+    "etag": "W/\"e4b-GZSU91lzbxAIsqo/Lj4V0M44BUs\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6955405a1c508c5d5e5c3629",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695540561c508c5d5e5c35f0",
+        "email": "Roselyn.Crona@gmail.com",
+        "name": "Dax Sanford",
+        "country": "Russia",
+        "city": "East Eric",
+        "street": "Agustin Mountain 29",
+        "house": 254,
+        "flat": 9310,
+        "phone": "+601493026153451",
+        "createdOn": "2025-12-31T15:25:10.000Z",
+        "notes": "UugvaU477PIjTxxcn6tatxHqLHD6je"
+      },
+      "products": [
+        {
+          "_id": "6955405a1c508c5d5e5c3611",
+          "name": "Chips94544",
+          "amount": 282,
+          "price": 75444,
+          "manufacturer": "Xiaomi",
+          "notes": "8e5JDbZw2PIogXW46x1NiPHq9KSnO0SnKiVwgxpuZkYver9qifFatxmgOz1RkE9ru0GenypOzvJ0aD77x1be5U4VlBU5ItY9YNSXLncTlPKkVeOh7ypHLK1AnTE9fKAGv92JnhYgAZceaIXZsARfiCJ9CD4P0W7F026K5rMfZMeCwPdEIM0xaHyty1lrYXLgBk7Q7euPsRZEGSc4Ib51TRUUGEuNttipgIJS31Ilg30Z8JaMeRlnvQR4qp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Hoegertown",
+          "street": "South View",
+          "house": 505,
+          "flat": 7682
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 75444,
+      "createdOn": "2025-12-31T15:25:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695540561c508c5d5e5c35f0",
+          "products": [
+            {
+              "_id": "6955405a1c508c5d5e5c3611",
+              "name": "Chips94544",
+              "amount": 282,
+              "price": 75444,
+              "manufacturer": "Xiaomi",
+              "notes": "8e5JDbZw2PIogXW46x1NiPHq9KSnO0SnKiVwgxpuZkYver9qifFatxmgOz1RkE9ru0GenypOzvJ0aD77x1be5U4VlBU5ItY9YNSXLncTlPKkVeOh7ypHLK1AnTE9fKAGv92JnhYgAZceaIXZsARfiCJ9CD4P0W7F026K5rMfZMeCwPdEIM0xaHyty1lrYXLgBk7Q7euPsRZEGSc4Ib51TRUUGEuNttipgIJS31Ilg30Z8JaMeRlnvQR4qp",
+              "received": false
+            }
+          ],
+          "total_price": 75444,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Hoegertown",
+              "street": "South View",
+              "house": 505,
+              "flat": 7682
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:25:15.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695540561c508c5d5e5c35f0",
+          "products": [
+            {
+              "_id": "6955405a1c508c5d5e5c3611",
+              "name": "Chips94544",
+              "amount": 282,
+              "price": 75444,
+              "manufacturer": "Xiaomi",
+              "notes": "8e5JDbZw2PIogXW46x1NiPHq9KSnO0SnKiVwgxpuZkYver9qifFatxmgOz1RkE9ru0GenypOzvJ0aD77x1be5U4VlBU5ItY9YNSXLncTlPKkVeOh7ypHLK1AnTE9fKAGv92JnhYgAZceaIXZsARfiCJ9CD4P0W7F026K5rMfZMeCwPdEIM0xaHyty1lrYXLgBk7Q7euPsRZEGSc4Ib51TRUUGEuNttipgIJS31Ilg30Z8JaMeRlnvQR4qp",
+              "received": false
+            }
+          ],
+          "total_price": 75444,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Hoegertown",
+              "street": "South View",
+              "house": 505,
+              "flat": 7682
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:25:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695540561c508c5d5e5c35f0",
+          "products": [
+            {
+              "_id": "6955405a1c508c5d5e5c3611",
+              "name": "Chips94544",
+              "amount": 282,
+              "price": 75444,
+              "manufacturer": "Xiaomi",
+              "notes": "8e5JDbZw2PIogXW46x1NiPHq9KSnO0SnKiVwgxpuZkYver9qifFatxmgOz1RkE9ru0GenypOzvJ0aD77x1be5U4VlBU5ItY9YNSXLncTlPKkVeOh7ypHLK1AnTE9fKAGv92JnhYgAZceaIXZsARfiCJ9CD4P0W7F026K5rMfZMeCwPdEIM0xaHyty1lrYXLgBk7Q7euPsRZEGSc4Ib51TRUUGEuNttipgIJS31Ilg30Z8JaMeRlnvQR4qp",
+              "received": false
+            }
+          ],
+          "total_price": 75444,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:25:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

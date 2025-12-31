@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:26:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-f8vHL3oahsyl6oRyOWVavPIUl/0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695540b61c508c5d5e5c5d6b",
+      "status": "Draft",
+      "customer": {
+        "_id": "695540b41c508c5d5e5c5cc9",
+        "email": "Otho29@yahoo.com",
+        "name": "Cecilia Hermann",
+        "country": "Ukraine",
+        "city": "Camylleton",
+        "street": "Padberg Wells 16",
+        "house": 258,
+        "flat": 2113,
+        "phone": "+508036430680797",
+        "createdOn": "2025-12-31T15:26:44.000Z",
+        "notes": "DHDDdzCWVva1I1x0aTRTpfPaUqnQd3"
+      },
+      "products": [
+        {
+          "_id": "695540b61c508c5d5e5c5d57",
+          "name": "Table29373",
+          "amount": 124,
+          "price": 16402,
+          "manufacturer": "Samsung",
+          "notes": "l9PrmE06SziBKewYv4YlL4fZvDUp34z4GW2YFIBp7A3UsuSb1A6DNLMfWtVaYajEtXAlowZecS6ONZqbJbnJ6pgx6SctSOgbe4JKL8PCFBsDlIyfGxcu20CjL63la33GYNznzT8GYyRyl8JrhqFSerpn4I1OMg5ppx39DbWmDYIQ8ySsEEEWpTziYRLuTMK1DkpWTN3DWAK2hcfBCMVxqJQV74zW978yr6XFuyVOoFnPiAWhf7yRXnIr3c",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Nikolaushaven",
+          "street": "Lang Ridge",
+          "house": 116,
+          "flat": 9774
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16402,
+      "createdOn": "2025-12-31T15:26:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695540b41c508c5d5e5c5cc9",
+          "products": [
+            {
+              "_id": "695540b61c508c5d5e5c5d57",
+              "name": "Table29373",
+              "amount": 124,
+              "price": 16402,
+              "manufacturer": "Samsung",
+              "notes": "l9PrmE06SziBKewYv4YlL4fZvDUp34z4GW2YFIBp7A3UsuSb1A6DNLMfWtVaYajEtXAlowZecS6ONZqbJbnJ6pgx6SctSOgbe4JKL8PCFBsDlIyfGxcu20CjL63la33GYNznzT8GYyRyl8JrhqFSerpn4I1OMg5ppx39DbWmDYIQ8ySsEEEWpTziYRLuTMK1DkpWTN3DWAK2hcfBCMVxqJQV74zW978yr6XFuyVOoFnPiAWhf7yRXnIr3c",
+              "received": false
+            }
+          ],
+          "total_price": 16402,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Nikolaushaven",
+              "street": "Lang Ridge",
+              "house": 116,
+              "flat": 9774
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:26:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695540b41c508c5d5e5c5cc9",
+          "products": [
+            {
+              "_id": "695540b61c508c5d5e5c5d57",
+              "name": "Table29373",
+              "amount": 124,
+              "price": 16402,
+              "manufacturer": "Samsung",
+              "notes": "l9PrmE06SziBKewYv4YlL4fZvDUp34z4GW2YFIBp7A3UsuSb1A6DNLMfWtVaYajEtXAlowZecS6ONZqbJbnJ6pgx6SctSOgbe4JKL8PCFBsDlIyfGxcu20CjL63la33GYNznzT8GYyRyl8JrhqFSerpn4I1OMg5ppx39DbWmDYIQ8ySsEEEWpTziYRLuTMK1DkpWTN3DWAK2hcfBCMVxqJQV74zW978yr6XFuyVOoFnPiAWhf7yRXnIr3c",
+              "received": false
+            }
+          ],
+          "total_price": 16402,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:26:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:25:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2744",
+    "etag": "W/\"ab8-uU47ND8D9eXZ/q5QzWyviHdeBMs\"",
+    "keep-alive": "timeout=5, max=36",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695540691c508c5d5e5c3d4e",
+      "status": "Draft",
+      "customer": {
+        "_id": "695540641c508c5d5e5c3a60",
+        "email": "Aliza.Ratke@gmail.com",
+        "name": "Elna Haley",
+        "country": "Canada",
+        "city": "Alameda",
+        "street": "Lucas Place 70",
+        "house": 179,
+        "flat": 2577,
+        "phone": "+365402726072132",
+        "createdOn": "2025-12-31T15:25:24.000Z",
+        "notes": "sCQXSZSNTbECwiubezqNQbO50TlBnj"
+      },
+      "products": [
+        {
+          "_id": "695540661c508c5d5e5c3aa5",
+          "name": "Tuna52349",
+          "amount": 799,
+          "price": 98763,
+          "manufacturer": "Xiaomi",
+          "notes": "vW4L1VuM99sBh0GcNrSrpdjuXwZkzlhZsrGg21bDoai2OuPvwCcdimQWhmmVvsePmN89rLfj0yC8mnFgswrX3EXjVkjgWEHizbRqQP3pjPxgGVZgJIgyCjPI3oPv9Q7nAXH703HPr2G76o3GPRUhkFNQraWyEPKadS5at41aefpug0UaYo3tOPtEVQ1OFAebs6NqYMqERerI99z9SfWmwpAOtpSktEzOOI6YjtzmUd8kAGADhXlIhypMxl",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "North Magdalena",
+          "street": "Welch Route",
+          "house": 466,
+          "flat": 8470
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98763,
+      "createdOn": "2025-12-31T15:25:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695540641c508c5d5e5c3a60",
+          "products": [
+            {
+              "_id": "695540661c508c5d5e5c3aa5",
+              "name": "Tuna52349",
+              "amount": 799,
+              "price": 98763,
+              "manufacturer": "Xiaomi",
+              "notes": "vW4L1VuM99sBh0GcNrSrpdjuXwZkzlhZsrGg21bDoai2OuPvwCcdimQWhmmVvsePmN89rLfj0yC8mnFgswrX3EXjVkjgWEHizbRqQP3pjPxgGVZgJIgyCjPI3oPv9Q7nAXH703HPr2G76o3GPRUhkFNQraWyEPKadS5at41aefpug0UaYo3tOPtEVQ1OFAebs6NqYMqERerI99z9SfWmwpAOtpSktEzOOI6YjtzmUd8kAGADhXlIhypMxl",
+              "received": false
+            }
+          ],
+          "total_price": 98763,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "North Magdalena",
+              "street": "Welch Route",
+              "house": 466,
+              "flat": 8470
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:25:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695540641c508c5d5e5c3a60",
+          "products": [
+            {
+              "_id": "695540661c508c5d5e5c3aa5",
+              "name": "Tuna52349",
+              "amount": 799,
+              "price": 98763,
+              "manufacturer": "Xiaomi",
+              "notes": "vW4L1VuM99sBh0GcNrSrpdjuXwZkzlhZsrGg21bDoai2OuPvwCcdimQWhmmVvsePmN89rLfj0yC8mnFgswrX3EXjVkjgWEHizbRqQP3pjPxgGVZgJIgyCjPI3oPv9Q7nAXH703HPr2G76o3GPRUhkFNQraWyEPKadS5at41aefpug0UaYo3tOPtEVQ1OFAebs6NqYMqERerI99z9SfWmwpAOtpSktEzOOI6YjtzmUd8kAGADhXlIhypMxl",
+              "received": false
+            }
+          ],
+          "total_price": 98763,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:25:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

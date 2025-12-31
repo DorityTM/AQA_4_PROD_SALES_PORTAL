@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:37:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3780",
+    "etag": "W/\"ec4-JKR6W62h9R/GqeMXqrbw2s9HUXA\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695543401c508c5d5e5dd267",
+      "status": "In Process",
+      "customer": {
+        "_id": "6955433e1c508c5d5e5dd1d8",
+        "email": "Melyssa82@gmail.com",
+        "name": "Ellen Hilpert",
+        "country": "Canada",
+        "city": "Schaeferboro",
+        "street": "Brown Row 10",
+        "house": 672,
+        "flat": 3236,
+        "phone": "+341035202246387",
+        "createdOn": "2025-12-31T15:37:34.000Z",
+        "notes": "S8bD4Y6TWBhH17trAtssKgKGPzpDIe"
+      },
+      "products": [
+        {
+          "_id": "695543401c508c5d5e5dd257",
+          "name": "Pants63903",
+          "amount": 396,
+          "price": 79258,
+          "manufacturer": "Microsoft",
+          "notes": "kdcojk6P0IvHI7wJaDTYt54AhUcFdkhdSy4hh6bCtVAsjFVxOwZKRbegsEc4nbjH00lJWf4icqkYC3yIbqo26XzY96LWpxp7DNEdurphe6D5ziaslQoD8PD9lJx107Hkn98MpobCddvDTSV6Qja7BHNrRQEfABM8nar9D7bCs41C5L4JfQhyMhNfqlM4cucgElkpcZMpIzNhziocy10cNyPtgF50no5ceGheEHoB8q5ZBgoFy40iS9XbpT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Archibaldfort",
+          "street": "Nya Grove",
+          "house": 17,
+          "flat": 5305
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79258,
+      "createdOn": "2025-12-31T15:37:36.000Z",
+      "comments": [
+        {
+          "text": "Comment 1",
+          "createdOn": "2025-12-31T15:37:42.000Z",
+          "_id": "695543461c508c5d5e5dd6d9"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6955433e1c508c5d5e5dd1d8",
+          "products": [
+            {
+              "_id": "695543401c508c5d5e5dd257",
+              "name": "Pants63903",
+              "amount": 396,
+              "price": 79258,
+              "manufacturer": "Microsoft",
+              "notes": "kdcojk6P0IvHI7wJaDTYt54AhUcFdkhdSy4hh6bCtVAsjFVxOwZKRbegsEc4nbjH00lJWf4icqkYC3yIbqo26XzY96LWpxp7DNEdurphe6D5ziaslQoD8PD9lJx107Hkn98MpobCddvDTSV6Qja7BHNrRQEfABM8nar9D7bCs41C5L4JfQhyMhNfqlM4cucgElkpcZMpIzNhziocy10cNyPtgF50no5ceGheEHoB8q5ZBgoFy40iS9XbpT",
+              "received": false
+            }
+          ],
+          "total_price": 79258,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Archibaldfort",
+              "street": "Nya Grove",
+              "house": 17,
+              "flat": 5305
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:37:42.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955433e1c508c5d5e5dd1d8",
+          "products": [
+            {
+              "_id": "695543401c508c5d5e5dd257",
+              "name": "Pants63903",
+              "amount": 396,
+              "price": 79258,
+              "manufacturer": "Microsoft",
+              "notes": "kdcojk6P0IvHI7wJaDTYt54AhUcFdkhdSy4hh6bCtVAsjFVxOwZKRbegsEc4nbjH00lJWf4icqkYC3yIbqo26XzY96LWpxp7DNEdurphe6D5ziaslQoD8PD9lJx107Hkn98MpobCddvDTSV6Qja7BHNrRQEfABM8nar9D7bCs41C5L4JfQhyMhNfqlM4cucgElkpcZMpIzNhziocy10cNyPtgF50no5ceGheEHoB8q5ZBgoFy40iS9XbpT",
+              "received": false
+            }
+          ],
+          "total_price": 79258,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Archibaldfort",
+              "street": "Nya Grove",
+              "house": 17,
+              "flat": 5305
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:37:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955433e1c508c5d5e5dd1d8",
+          "products": [
+            {
+              "_id": "695543401c508c5d5e5dd257",
+              "name": "Pants63903",
+              "amount": 396,
+              "price": 79258,
+              "manufacturer": "Microsoft",
+              "notes": "kdcojk6P0IvHI7wJaDTYt54AhUcFdkhdSy4hh6bCtVAsjFVxOwZKRbegsEc4nbjH00lJWf4icqkYC3yIbqo26XzY96LWpxp7DNEdurphe6D5ziaslQoD8PD9lJx107Hkn98MpobCddvDTSV6Qja7BHNrRQEfABM8nar9D7bCs41C5L4JfQhyMhNfqlM4cucgElkpcZMpIzNhziocy10cNyPtgF50no5ceGheEHoB8q5ZBgoFy40iS9XbpT",
+              "received": false
+            }
+          ],
+          "total_price": 79258,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:37:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

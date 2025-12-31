@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:37:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3700",
+    "etag": "W/\"e74-3JY5Ekx9SKweAHA+6et5p7KHXtM\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6955433c1c508c5d5e5dd15a",
+      "status": "In Process",
+      "customer": {
+        "_id": "695543321c508c5d5e5dca02",
+        "email": "Kyleigh98@hotmail.com",
+        "name": "Marcos Schneider",
+        "country": "Russia",
+        "city": "Lake Dashawn",
+        "street": "Milton Road 54",
+        "house": 640,
+        "flat": 2368,
+        "phone": "+501267862805100",
+        "createdOn": "2025-12-31T15:37:22.000Z",
+        "notes": "rwBM2XEXwFBLlarQS8JAlfveGCUpIf"
+      },
+      "products": [
+        {
+          "_id": "695543341c508c5d5e5dcbb4",
+          "name": "Cheese44224",
+          "amount": 57,
+          "price": 20923,
+          "manufacturer": "Tesla",
+          "notes": "7D0uodS1ho630Xz5PBLnXtWp3elVhwqrRrJfD3Ekjh8SMcaosaTZBD2qcpHqEu2FW2sv0O1stEWW18h3yDGEe0eqfddVigPymvBgMizMs1MCJfYLsvygtph31iAlyBBmS2PUml0op5YnnWMJF0VUF29WtrrzYknixwfYSa9LY7piVVU5FbArSDROACD6oZua5KfUdIxUIc5d4KLe80oIM8oqrZmJxFLEgciGsRnCfw2TMG8f3J7P2VUGqy",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Port Matilda",
+          "street": "Gottlieb Stravenue",
+          "house": 806,
+          "flat": 7530
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 20923,
+      "createdOn": "2025-12-31T15:37:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695543321c508c5d5e5dca02",
+          "products": [
+            {
+              "_id": "695543341c508c5d5e5dcbb4",
+              "name": "Cheese44224",
+              "amount": 57,
+              "price": 20923,
+              "manufacturer": "Tesla",
+              "notes": "7D0uodS1ho630Xz5PBLnXtWp3elVhwqrRrJfD3Ekjh8SMcaosaTZBD2qcpHqEu2FW2sv0O1stEWW18h3yDGEe0eqfddVigPymvBgMizMs1MCJfYLsvygtph31iAlyBBmS2PUml0op5YnnWMJF0VUF29WtrrzYknixwfYSa9LY7piVVU5FbArSDROACD6oZua5KfUdIxUIc5d4KLe80oIM8oqrZmJxFLEgciGsRnCfw2TMG8f3J7P2VUGqy",
+              "received": false
+            }
+          ],
+          "total_price": 20923,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Matilda",
+              "street": "Gottlieb Stravenue",
+              "house": 806,
+              "flat": 7530
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:37:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695543321c508c5d5e5dca02",
+          "products": [
+            {
+              "_id": "695543341c508c5d5e5dcbb4",
+              "name": "Cheese44224",
+              "amount": 57,
+              "price": 20923,
+              "manufacturer": "Tesla",
+              "notes": "7D0uodS1ho630Xz5PBLnXtWp3elVhwqrRrJfD3Ekjh8SMcaosaTZBD2qcpHqEu2FW2sv0O1stEWW18h3yDGEe0eqfddVigPymvBgMizMs1MCJfYLsvygtph31iAlyBBmS2PUml0op5YnnWMJF0VUF29WtrrzYknixwfYSa9LY7piVVU5FbArSDROACD6oZua5KfUdIxUIc5d4KLe80oIM8oqrZmJxFLEgciGsRnCfw2TMG8f3J7P2VUGqy",
+              "received": false
+            }
+          ],
+          "total_price": 20923,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Matilda",
+              "street": "Gottlieb Stravenue",
+              "house": 806,
+              "flat": 7530
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:37:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695543321c508c5d5e5dca02",
+          "products": [
+            {
+              "_id": "695543341c508c5d5e5dcbb4",
+              "name": "Cheese44224",
+              "amount": 57,
+              "price": 20923,
+              "manufacturer": "Tesla",
+              "notes": "7D0uodS1ho630Xz5PBLnXtWp3elVhwqrRrJfD3Ekjh8SMcaosaTZBD2qcpHqEu2FW2sv0O1stEWW18h3yDGEe0eqfddVigPymvBgMizMs1MCJfYLsvygtph31iAlyBBmS2PUml0op5YnnWMJF0VUF29WtrrzYknixwfYSa9LY7piVVU5FbArSDROACD6oZua5KfUdIxUIc5d4KLe80oIM8oqrZmJxFLEgciGsRnCfw2TMG8f3J7P2VUGqy",
+              "received": false
+            }
+          ],
+          "total_price": 20923,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:37:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
