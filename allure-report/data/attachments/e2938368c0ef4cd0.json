@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:51:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3670",
+    "etag": "W/\"e56-ySkJEwDVRLe3EhiH/5K5FeaIBDA\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695546871c508c5d5e5fb8be",
+      "status": "In Process",
+      "customer": {
+        "_id": "695546851c508c5d5e5fb898",
+        "email": "Anita_Jacobs6@yahoo.com",
+        "name": "Gerson Tremblay",
+        "country": "Germany",
+        "city": "Trompfort",
+        "street": "Julien Corners 6",
+        "house": 993,
+        "flat": 728,
+        "phone": "+984791053891217",
+        "createdOn": "2025-12-31T15:51:33.000Z",
+        "notes": "QIO3UhIZa5I2GFNAnBoEPFdiWh4XdO"
+      },
+      "products": [
+        {
+          "_id": "695546871c508c5d5e5fb8b6",
+          "name": "Computer24149",
+          "amount": 741,
+          "price": 7769,
+          "manufacturer": "Sony",
+          "notes": "yd2y1iGjLOMjkQicbHpcAsY68OQveRvD4veazERkGK6bai2nSjHNtrn6pAyioqdtRpNePcZrkcl5KcGxlN72SjUI11YqsmSJ1auZN28nQ0KlsiVQiUprp3hm7gZOcoWbdeF16DsHLVUHZrjegpussNa9cC34BbdEMbFsfOQm8yriNjR5AnitXRrg2afgI8SzLih9w2BDRpm8gGRrddcY9kgQHBpHZXs5xdyRRuVWJcn8np42Rrsv57aGzb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Bergeboro",
+          "street": "Pine Grove",
+          "house": 775,
+          "flat": 2250
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7769,
+      "createdOn": "2025-12-31T15:51:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695546851c508c5d5e5fb898",
+          "products": [
+            {
+              "_id": "695546871c508c5d5e5fb8b6",
+              "name": "Computer24149",
+              "amount": 741,
+              "price": 7769,
+              "manufacturer": "Sony",
+              "notes": "yd2y1iGjLOMjkQicbHpcAsY68OQveRvD4veazERkGK6bai2nSjHNtrn6pAyioqdtRpNePcZrkcl5KcGxlN72SjUI11YqsmSJ1auZN28nQ0KlsiVQiUprp3hm7gZOcoWbdeF16DsHLVUHZrjegpussNa9cC34BbdEMbFsfOQm8yriNjR5AnitXRrg2afgI8SzLih9w2BDRpm8gGRrddcY9kgQHBpHZXs5xdyRRuVWJcn8np42Rrsv57aGzb",
+              "received": false
+            }
+          ],
+          "total_price": 7769,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Bergeboro",
+              "street": "Pine Grove",
+              "house": 775,
+              "flat": 2250
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:51:36.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695546851c508c5d5e5fb898",
+          "products": [
+            {
+              "_id": "695546871c508c5d5e5fb8b6",
+              "name": "Computer24149",
+              "amount": 741,
+              "price": 7769,
+              "manufacturer": "Sony",
+              "notes": "yd2y1iGjLOMjkQicbHpcAsY68OQveRvD4veazERkGK6bai2nSjHNtrn6pAyioqdtRpNePcZrkcl5KcGxlN72SjUI11YqsmSJ1auZN28nQ0KlsiVQiUprp3hm7gZOcoWbdeF16DsHLVUHZrjegpussNa9cC34BbdEMbFsfOQm8yriNjR5AnitXRrg2afgI8SzLih9w2BDRpm8gGRrddcY9kgQHBpHZXs5xdyRRuVWJcn8np42Rrsv57aGzb",
+              "received": false
+            }
+          ],
+          "total_price": 7769,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Bergeboro",
+              "street": "Pine Grove",
+              "house": 775,
+              "flat": 2250
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:51:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695546851c508c5d5e5fb898",
+          "products": [
+            {
+              "_id": "695546871c508c5d5e5fb8b6",
+              "name": "Computer24149",
+              "amount": 741,
+              "price": 7769,
+              "manufacturer": "Sony",
+              "notes": "yd2y1iGjLOMjkQicbHpcAsY68OQveRvD4veazERkGK6bai2nSjHNtrn6pAyioqdtRpNePcZrkcl5KcGxlN72SjUI11YqsmSJ1auZN28nQ0KlsiVQiUprp3hm7gZOcoWbdeF16DsHLVUHZrjegpussNa9cC34BbdEMbFsfOQm8yriNjR5AnitXRrg2afgI8SzLih9w2BDRpm8gGRrddcY9kgQHBpHZXs5xdyRRuVWJcn8np42Rrsv57aGzb",
+              "received": false
+            }
+          ],
+          "total_price": 7769,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:51:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

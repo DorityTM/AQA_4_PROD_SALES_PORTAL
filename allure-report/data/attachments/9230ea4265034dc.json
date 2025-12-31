@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:31:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3664",
+    "etag": "W/\"e50-TLWaTQ8FyoEL8Uqqhc+7YEcsYbw\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695541cd1c508c5d5e5cf5b1",
+      "status": "In Process",
+      "customer": {
+        "_id": "695541c81c508c5d5e5cf438",
+        "email": "Hanna_Ferry@gmail.com",
+        "name": "Della Wintheiser",
+        "country": "Canada",
+        "city": "Willmsburgh",
+        "street": "Cummerata Via 22",
+        "house": 832,
+        "flat": 1249,
+        "phone": "+077585453561415",
+        "createdOn": "2025-12-31T15:31:20.000Z",
+        "notes": "ZsF1TkHmlKPQW0CpoQoIZ9ZC6yPFhn"
+      },
+      "products": [
+        {
+          "_id": "695541cc1c508c5d5e5cf598",
+          "name": "Soap9436",
+          "amount": 23,
+          "price": 95774,
+          "manufacturer": "Sony",
+          "notes": "FJbEJ353Hs7IAmjRnMHcWd5oFYZxpFM2NrZDNQvnW55Zj3SYEwAkSPQPkFLkEpqi2EVXPGoCjrp2IRb37234cNbs3hZ25QsU8zdNd5A8IaIhyFxxExlf5tV8qlgE2cXleDN1ty9BF0jIAdyluNwOUHZBuP4CpcAA8raOHLHFsjvMZsZMVXNhaNPX4ZUrAWx8PuTtQ5pthRzBee2PDAM4fGqtUxSc6hKYlrLnfxPBalwpNiqNqHoHjRhnE6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Yonkers",
+          "street": "Bernhard Center",
+          "house": 435,
+          "flat": 8292
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 95774,
+      "createdOn": "2025-12-31T15:31:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695541c81c508c5d5e5cf438",
+          "products": [
+            {
+              "_id": "695541cc1c508c5d5e5cf598",
+              "name": "Soap9436",
+              "amount": 23,
+              "price": 95774,
+              "manufacturer": "Sony",
+              "notes": "FJbEJ353Hs7IAmjRnMHcWd5oFYZxpFM2NrZDNQvnW55Zj3SYEwAkSPQPkFLkEpqi2EVXPGoCjrp2IRb37234cNbs3hZ25QsU8zdNd5A8IaIhyFxxExlf5tV8qlgE2cXleDN1ty9BF0jIAdyluNwOUHZBuP4CpcAA8raOHLHFsjvMZsZMVXNhaNPX4ZUrAWx8PuTtQ5pthRzBee2PDAM4fGqtUxSc6hKYlrLnfxPBalwpNiqNqHoHjRhnE6",
+              "received": false
+            }
+          ],
+          "total_price": 95774,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Yonkers",
+              "street": "Bernhard Center",
+              "house": 435,
+              "flat": 8292
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:31:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695541c81c508c5d5e5cf438",
+          "products": [
+            {
+              "_id": "695541cc1c508c5d5e5cf598",
+              "name": "Soap9436",
+              "amount": 23,
+              "price": 95774,
+              "manufacturer": "Sony",
+              "notes": "FJbEJ353Hs7IAmjRnMHcWd5oFYZxpFM2NrZDNQvnW55Zj3SYEwAkSPQPkFLkEpqi2EVXPGoCjrp2IRb37234cNbs3hZ25QsU8zdNd5A8IaIhyFxxExlf5tV8qlgE2cXleDN1ty9BF0jIAdyluNwOUHZBuP4CpcAA8raOHLHFsjvMZsZMVXNhaNPX4ZUrAWx8PuTtQ5pthRzBee2PDAM4fGqtUxSc6hKYlrLnfxPBalwpNiqNqHoHjRhnE6",
+              "received": false
+            }
+          ],
+          "total_price": 95774,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Yonkers",
+              "street": "Bernhard Center",
+              "house": 435,
+              "flat": 8292
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:31:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695541c81c508c5d5e5cf438",
+          "products": [
+            {
+              "_id": "695541cc1c508c5d5e5cf598",
+              "name": "Soap9436",
+              "amount": 23,
+              "price": 95774,
+              "manufacturer": "Sony",
+              "notes": "FJbEJ353Hs7IAmjRnMHcWd5oFYZxpFM2NrZDNQvnW55Zj3SYEwAkSPQPkFLkEpqi2EVXPGoCjrp2IRb37234cNbs3hZ25QsU8zdNd5A8IaIhyFxxExlf5tV8qlgE2cXleDN1ty9BF0jIAdyluNwOUHZBuP4CpcAA8raOHLHFsjvMZsZMVXNhaNPX4ZUrAWx8PuTtQ5pthRzBee2PDAM4fGqtUxSc6hKYlrLnfxPBalwpNiqNqHoHjRhnE6",
+              "received": false
+            }
+          ],
+          "total_price": 95774,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:31:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

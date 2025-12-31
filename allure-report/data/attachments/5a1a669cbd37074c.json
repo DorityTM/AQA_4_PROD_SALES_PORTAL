@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:52:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2782",
+    "etag": "W/\"ade-tkbAleT9vLQzOonMgsctzIttZC8\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695546d41c508c5d5e5fe393",
+      "status": "Draft",
+      "customer": {
+        "_id": "695546d21c508c5d5e5fe1db",
+        "email": "Mike_Russel29@hotmail.com",
+        "name": "Glenna Rempel",
+        "country": "Canada",
+        "city": "North Abel",
+        "street": "Maple Drive 87",
+        "house": 156,
+        "flat": 4945,
+        "phone": "+530667448804035",
+        "createdOn": "2025-12-31T15:52:50.000Z",
+        "notes": "IKpS8pVnpljZmaZxWlGxNd03Kln4ZG"
+      },
+      "products": [
+        {
+          "_id": "695546d41c508c5d5e5fe36f",
+          "name": "Chips10598",
+          "amount": 934,
+          "price": 80297,
+          "manufacturer": "Microsoft",
+          "notes": "NDE0mrIJrHlPl8X5bFH9UTsrf74M6G27JWOH3FNiB5VAqwgttXiEXIHMLCk1bmPzSim6IlHJt3EMv29UobTVksFLT5L6x7DCZGXtGGNmTEeMpsYbofmiHfWzpJyjfBMIgoWnfZfs27LEdgWTKiQvIG6NVt1jfcjhj4W4gzayoAvSP2RYzxkb6OprkviimWa7rNw2FLWnotYvLoCHvraxEku5TCH9qyl4cCNCtsKUo3c7mPWQ4RwSmLx2AF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Laurianneland",
+          "street": "S Broadway Street",
+          "house": 5,
+          "flat": 1301
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80297,
+      "createdOn": "2025-12-31T15:52:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695546d21c508c5d5e5fe1db",
+          "products": [
+            {
+              "_id": "695546d41c508c5d5e5fe36f",
+              "name": "Chips10598",
+              "amount": 934,
+              "price": 80297,
+              "manufacturer": "Microsoft",
+              "notes": "NDE0mrIJrHlPl8X5bFH9UTsrf74M6G27JWOH3FNiB5VAqwgttXiEXIHMLCk1bmPzSim6IlHJt3EMv29UobTVksFLT5L6x7DCZGXtGGNmTEeMpsYbofmiHfWzpJyjfBMIgoWnfZfs27LEdgWTKiQvIG6NVt1jfcjhj4W4gzayoAvSP2RYzxkb6OprkviimWa7rNw2FLWnotYvLoCHvraxEku5TCH9qyl4cCNCtsKUo3c7mPWQ4RwSmLx2AF",
+              "received": false
+            }
+          ],
+          "total_price": 80297,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Laurianneland",
+              "street": "S Broadway Street",
+              "house": 5,
+              "flat": 1301
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:52:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695546d21c508c5d5e5fe1db",
+          "products": [
+            {
+              "_id": "695546d41c508c5d5e5fe36f",
+              "name": "Chips10598",
+              "amount": 934,
+              "price": 80297,
+              "manufacturer": "Microsoft",
+              "notes": "NDE0mrIJrHlPl8X5bFH9UTsrf74M6G27JWOH3FNiB5VAqwgttXiEXIHMLCk1bmPzSim6IlHJt3EMv29UobTVksFLT5L6x7DCZGXtGGNmTEeMpsYbofmiHfWzpJyjfBMIgoWnfZfs27LEdgWTKiQvIG6NVt1jfcjhj4W4gzayoAvSP2RYzxkb6OprkviimWa7rNw2FLWnotYvLoCHvraxEku5TCH9qyl4cCNCtsKUo3c7mPWQ4RwSmLx2AF",
+              "received": false
+            }
+          ],
+          "total_price": 80297,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:52:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

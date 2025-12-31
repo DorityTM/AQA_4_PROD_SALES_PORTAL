@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:56:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3707",
+    "etag": "W/\"e7b-qL6Wwxiye0PlE5n47f4WSLf+n4M\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695547991c508c5d5e60467c",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695547911c508c5d5e6040cd",
+        "email": "Cleora.VonRueden-Schaefer56@hotmail.com",
+        "name": "Willa Armstrong",
+        "country": "Great Britain",
+        "city": "Blaiseborough",
+        "street": "Leland Flat 85",
+        "house": 561,
+        "flat": 9606,
+        "phone": "+402003452498239",
+        "createdOn": "2025-12-31T15:56:01.000Z",
+        "notes": "AjZ9RnaeyDfCPXC9fTbglUNDb6pf3m"
+      },
+      "products": [
+        {
+          "_id": "695547931c508c5d5e604189",
+          "name": "Table21521",
+          "amount": 703,
+          "price": 24929,
+          "manufacturer": "Sony",
+          "notes": "7rAM8AhQ9M8WLrTHZohgJ1yvXMbM1cQZw5m8EIjz0cNZMq89vOUVfdOJupMp49RDPY1q810oCEpfobtD4jbNhfoEAfXVdmjiJum4C6XssaW4KQ7kJNmaQBwJ6JCKyeqXw0Hlwbd9fYSzK21NGi7R95Fw3CSKfX4IBXwfVBxhU7AKqYIa4uPe05L3YG0S3UZ6StRp2mwrtj07Pz1gXNjhxCsR3COOp56ZagyFzOif3qJWGVzdECD7jvUEGz",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "New Andreanetown",
+          "street": "Jackson Avenue",
+          "house": 640,
+          "flat": 2209
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 24929,
+      "createdOn": "2025-12-31T15:56:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695547911c508c5d5e6040cd",
+          "products": [
+            {
+              "_id": "695547931c508c5d5e604189",
+              "name": "Table21521",
+              "amount": 703,
+              "price": 24929,
+              "manufacturer": "Sony",
+              "notes": "7rAM8AhQ9M8WLrTHZohgJ1yvXMbM1cQZw5m8EIjz0cNZMq89vOUVfdOJupMp49RDPY1q810oCEpfobtD4jbNhfoEAfXVdmjiJum4C6XssaW4KQ7kJNmaQBwJ6JCKyeqXw0Hlwbd9fYSzK21NGi7R95Fw3CSKfX4IBXwfVBxhU7AKqYIa4uPe05L3YG0S3UZ6StRp2mwrtj07Pz1gXNjhxCsR3COOp56ZagyFzOif3qJWGVzdECD7jvUEGz",
+              "received": false
+            }
+          ],
+          "total_price": 24929,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Andreanetown",
+              "street": "Jackson Avenue",
+              "house": 640,
+              "flat": 2209
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:56:14.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695547911c508c5d5e6040cd",
+          "products": [
+            {
+              "_id": "695547931c508c5d5e604189",
+              "name": "Table21521",
+              "amount": 703,
+              "price": 24929,
+              "manufacturer": "Sony",
+              "notes": "7rAM8AhQ9M8WLrTHZohgJ1yvXMbM1cQZw5m8EIjz0cNZMq89vOUVfdOJupMp49RDPY1q810oCEpfobtD4jbNhfoEAfXVdmjiJum4C6XssaW4KQ7kJNmaQBwJ6JCKyeqXw0Hlwbd9fYSzK21NGi7R95Fw3CSKfX4IBXwfVBxhU7AKqYIa4uPe05L3YG0S3UZ6StRp2mwrtj07Pz1gXNjhxCsR3COOp56ZagyFzOif3qJWGVzdECD7jvUEGz",
+              "received": false
+            }
+          ],
+          "total_price": 24929,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Andreanetown",
+              "street": "Jackson Avenue",
+              "house": 640,
+              "flat": 2209
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:56:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695547911c508c5d5e6040cd",
+          "products": [
+            {
+              "_id": "695547931c508c5d5e604189",
+              "name": "Table21521",
+              "amount": 703,
+              "price": 24929,
+              "manufacturer": "Sony",
+              "notes": "7rAM8AhQ9M8WLrTHZohgJ1yvXMbM1cQZw5m8EIjz0cNZMq89vOUVfdOJupMp49RDPY1q810oCEpfobtD4jbNhfoEAfXVdmjiJum4C6XssaW4KQ7kJNmaQBwJ6JCKyeqXw0Hlwbd9fYSzK21NGi7R95Fw3CSKfX4IBXwfVBxhU7AKqYIa4uPe05L3YG0S3UZ6StRp2mwrtj07Pz1gXNjhxCsR3COOp56ZagyFzOif3qJWGVzdECD7jvUEGz",
+              "received": false
+            }
+          ],
+          "total_price": 24929,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:56:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

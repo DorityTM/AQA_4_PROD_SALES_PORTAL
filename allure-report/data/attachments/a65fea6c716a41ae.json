@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:30:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4620",
+    "etag": "W/\"120c-sDaIk6NloPx+lI5WKvoAsNazE1A\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695541ac1c508c5d5e5ce108",
+      "status": "Received",
+      "customer": {
+        "_id": "695541aa1c508c5d5e5ce0d0",
+        "email": "Dino.Waters@hotmail.com",
+        "name": "Vanessa Schultz",
+        "country": "Russia",
+        "city": "New Skylarborough",
+        "street": "Britney Trace 57",
+        "house": 300,
+        "flat": 8030,
+        "phone": "+027502046133690",
+        "createdOn": "2025-12-31T15:30:50.000Z",
+        "notes": "LMenOSA5yPKQeEX1lPLaCtZku8Q6vF"
+      },
+      "products": [
+        {
+          "_id": "695541ac1c508c5d5e5ce0ee",
+          "name": "Chicken15633",
+          "amount": 357,
+          "price": 58788,
+          "manufacturer": "Google",
+          "notes": "KWlNgRcVds5Wj7JFc9IjnVV02OuWfPbKJ7gg5FUL0M8b6gTlqDDSM43jIJfCbwa5fQh7AJmkOo4Wy2A7nstKT3XwtcUwVL8P1LnvXbEXECv4xzFYfhn0zc51Xvm9R6gkTA0IL0ACq7BT0ft2iMjhXHccJQuPEVwTXQYSmaR7Dg98I9mJYLvoTmBDGVoituwgqoDdOQisRt4MxCHZJw610epvIVx8FenZK00LAe8CmeH76YzsKDvSvtDdlE",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Cormierfield",
+          "street": "4th Street",
+          "house": 285,
+          "flat": 5939
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58788,
+      "createdOn": "2025-12-31T15:30:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695541aa1c508c5d5e5ce0d0",
+          "products": [
+            {
+              "_id": "695541ac1c508c5d5e5ce0ee",
+              "name": "Chicken15633",
+              "amount": 357,
+              "price": 58788,
+              "manufacturer": "Google",
+              "notes": "KWlNgRcVds5Wj7JFc9IjnVV02OuWfPbKJ7gg5FUL0M8b6gTlqDDSM43jIJfCbwa5fQh7AJmkOo4Wy2A7nstKT3XwtcUwVL8P1LnvXbEXECv4xzFYfhn0zc51Xvm9R6gkTA0IL0ACq7BT0ft2iMjhXHccJQuPEVwTXQYSmaR7Dg98I9mJYLvoTmBDGVoituwgqoDdOQisRt4MxCHZJw610epvIVx8FenZK00LAe8CmeH76YzsKDvSvtDdlE",
+              "received": true
+            }
+          ],
+          "total_price": 58788,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Cormierfield",
+              "street": "4th Street",
+              "house": 285,
+              "flat": 5939
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:30:59.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695541aa1c508c5d5e5ce0d0",
+          "products": [
+            {
+              "_id": "695541ac1c508c5d5e5ce0ee",
+              "name": "Chicken15633",
+              "amount": 357,
+              "price": 58788,
+              "manufacturer": "Google",
+              "notes": "KWlNgRcVds5Wj7JFc9IjnVV02OuWfPbKJ7gg5FUL0M8b6gTlqDDSM43jIJfCbwa5fQh7AJmkOo4Wy2A7nstKT3XwtcUwVL8P1LnvXbEXECv4xzFYfhn0zc51Xvm9R6gkTA0IL0ACq7BT0ft2iMjhXHccJQuPEVwTXQYSmaR7Dg98I9mJYLvoTmBDGVoituwgqoDdOQisRt4MxCHZJw610epvIVx8FenZK00LAe8CmeH76YzsKDvSvtDdlE",
+              "received": false
+            }
+          ],
+          "total_price": 58788,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Cormierfield",
+              "street": "4th Street",
+              "house": 285,
+              "flat": 5939
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:30:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695541aa1c508c5d5e5ce0d0",
+          "products": [
+            {
+              "_id": "695541ac1c508c5d5e5ce0ee",
+              "name": "Chicken15633",
+              "amount": 357,
+              "price": 58788,
+              "manufacturer": "Google",
+              "notes": "KWlNgRcVds5Wj7JFc9IjnVV02OuWfPbKJ7gg5FUL0M8b6gTlqDDSM43jIJfCbwa5fQh7AJmkOo4Wy2A7nstKT3XwtcUwVL8P1LnvXbEXECv4xzFYfhn0zc51Xvm9R6gkTA0IL0ACq7BT0ft2iMjhXHccJQuPEVwTXQYSmaR7Dg98I9mJYLvoTmBDGVoituwgqoDdOQisRt4MxCHZJw610epvIVx8FenZK00LAe8CmeH76YzsKDvSvtDdlE",
+              "received": false
+            }
+          ],
+          "total_price": 58788,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Cormierfield",
+              "street": "4th Street",
+              "house": 285,
+              "flat": 5939
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:30:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695541aa1c508c5d5e5ce0d0",
+          "products": [
+            {
+              "_id": "695541ac1c508c5d5e5ce0ee",
+              "name": "Chicken15633",
+              "amount": 357,
+              "price": 58788,
+              "manufacturer": "Google",
+              "notes": "KWlNgRcVds5Wj7JFc9IjnVV02OuWfPbKJ7gg5FUL0M8b6gTlqDDSM43jIJfCbwa5fQh7AJmkOo4Wy2A7nstKT3XwtcUwVL8P1LnvXbEXECv4xzFYfhn0zc51Xvm9R6gkTA0IL0ACq7BT0ft2iMjhXHccJQuPEVwTXQYSmaR7Dg98I9mJYLvoTmBDGVoituwgqoDdOQisRt4MxCHZJw610epvIVx8FenZK00LAe8CmeH76YzsKDvSvtDdlE",
+              "received": false
+            }
+          ],
+          "total_price": 58788,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:30:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

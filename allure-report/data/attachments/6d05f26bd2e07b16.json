@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:36:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4608",
+    "etag": "W/\"1200-TSTwHtMpvSLMxkOt9LdieMS4RNw\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695543121c508c5d5e5db42e",
+      "status": "Received",
+      "customer": {
+        "_id": "695543101c508c5d5e5db3f1",
+        "email": "Makayla_Romaguera22@hotmail.com",
+        "name": "Kiel Strosin",
+        "country": "Germany",
+        "city": "Voncester",
+        "street": "Deven Squares 4",
+        "house": 501,
+        "flat": 4176,
+        "phone": "+620215135455119",
+        "createdOn": "2025-12-31T15:36:48.000Z",
+        "notes": "MbTFgiKDbhqhjbCFEmUxpYFeWR2A5K"
+      },
+      "products": [
+        {
+          "_id": "695543121c508c5d5e5db426",
+          "name": "Shirt4108",
+          "amount": 56,
+          "price": 99370,
+          "manufacturer": "Apple",
+          "notes": "sfA89SxkgGYh33kgeekW5JXG34K4fRDwlxl06VciF7KpvrjFJX1nrYNyart1RUE8SYzG91zwfGF34t6RWwuUNuTc3o3K4Ab4Fd06gZtQBURRRFYU17KrIavqYOndTfTJmGT53tBoHEv0c1KYvBfO9BC6H1kIDEFhkXgqdd8xljlXP0qYoZlJDMHLfsznti7xpwnb6FigjJeSqcLNV3lbpeVUQdWmSENbg5C1UUGHTq71QaG9r2a9Jr8796",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Odessashire",
+          "street": "Bertrand Knolls",
+          "house": 802,
+          "flat": 3817
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99370,
+      "createdOn": "2025-12-31T15:36:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695543101c508c5d5e5db3f1",
+          "products": [
+            {
+              "_id": "695543121c508c5d5e5db426",
+              "name": "Shirt4108",
+              "amount": 56,
+              "price": 99370,
+              "manufacturer": "Apple",
+              "notes": "sfA89SxkgGYh33kgeekW5JXG34K4fRDwlxl06VciF7KpvrjFJX1nrYNyart1RUE8SYzG91zwfGF34t6RWwuUNuTc3o3K4Ab4Fd06gZtQBURRRFYU17KrIavqYOndTfTJmGT53tBoHEv0c1KYvBfO9BC6H1kIDEFhkXgqdd8xljlXP0qYoZlJDMHLfsznti7xpwnb6FigjJeSqcLNV3lbpeVUQdWmSENbg5C1UUGHTq71QaG9r2a9Jr8796",
+              "received": true
+            }
+          ],
+          "total_price": 99370,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Odessashire",
+              "street": "Bertrand Knolls",
+              "house": 802,
+              "flat": 3817
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:36:55.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695543101c508c5d5e5db3f1",
+          "products": [
+            {
+              "_id": "695543121c508c5d5e5db426",
+              "name": "Shirt4108",
+              "amount": 56,
+              "price": 99370,
+              "manufacturer": "Apple",
+              "notes": "sfA89SxkgGYh33kgeekW5JXG34K4fRDwlxl06VciF7KpvrjFJX1nrYNyart1RUE8SYzG91zwfGF34t6RWwuUNuTc3o3K4Ab4Fd06gZtQBURRRFYU17KrIavqYOndTfTJmGT53tBoHEv0c1KYvBfO9BC6H1kIDEFhkXgqdd8xljlXP0qYoZlJDMHLfsznti7xpwnb6FigjJeSqcLNV3lbpeVUQdWmSENbg5C1UUGHTq71QaG9r2a9Jr8796",
+              "received": false
+            }
+          ],
+          "total_price": 99370,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Odessashire",
+              "street": "Bertrand Knolls",
+              "house": 802,
+              "flat": 3817
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:36:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695543101c508c5d5e5db3f1",
+          "products": [
+            {
+              "_id": "695543121c508c5d5e5db426",
+              "name": "Shirt4108",
+              "amount": 56,
+              "price": 99370,
+              "manufacturer": "Apple",
+              "notes": "sfA89SxkgGYh33kgeekW5JXG34K4fRDwlxl06VciF7KpvrjFJX1nrYNyart1RUE8SYzG91zwfGF34t6RWwuUNuTc3o3K4Ab4Fd06gZtQBURRRFYU17KrIavqYOndTfTJmGT53tBoHEv0c1KYvBfO9BC6H1kIDEFhkXgqdd8xljlXP0qYoZlJDMHLfsznti7xpwnb6FigjJeSqcLNV3lbpeVUQdWmSENbg5C1UUGHTq71QaG9r2a9Jr8796",
+              "received": false
+            }
+          ],
+          "total_price": 99370,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Odessashire",
+              "street": "Bertrand Knolls",
+              "house": 802,
+              "flat": 3817
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:36:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695543101c508c5d5e5db3f1",
+          "products": [
+            {
+              "_id": "695543121c508c5d5e5db426",
+              "name": "Shirt4108",
+              "amount": 56,
+              "price": 99370,
+              "manufacturer": "Apple",
+              "notes": "sfA89SxkgGYh33kgeekW5JXG34K4fRDwlxl06VciF7KpvrjFJX1nrYNyart1RUE8SYzG91zwfGF34t6RWwuUNuTc3o3K4Ab4Fd06gZtQBURRRFYU17KrIavqYOndTfTJmGT53tBoHEv0c1KYvBfO9BC6H1kIDEFhkXgqdd8xljlXP0qYoZlJDMHLfsznti7xpwnb6FigjJeSqcLNV3lbpeVUQdWmSENbg5C1UUGHTq71QaG9r2a9Jr8796",
+              "received": false
+            }
+          ],
+          "total_price": 99370,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:36:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:51:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4604",
+    "etag": "W/\"11fc-U8W6OcfhkATAq0/M9VlgCqJX5xI\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695546921c508c5d5e5fbcf1",
+      "status": "Received",
+      "customer": {
+        "_id": "6955468f1c508c5d5e5fbb88",
+        "email": "Rowena_Rodriguez30@hotmail.com",
+        "name": "Joannie Willms",
+        "country": "Great Britain",
+        "city": "Lake Bertha",
+        "street": "7th Avenue 34",
+        "house": 622,
+        "flat": 4104,
+        "phone": "+080933132723074",
+        "createdOn": "2025-12-31T15:51:43.000Z",
+        "notes": "kEfawbw94d4SRLZvU7kG8pe18linN9"
+      },
+      "products": [
+        {
+          "_id": "695546921c508c5d5e5fbce5",
+          "name": "Bike86700",
+          "amount": 846,
+          "price": 49611,
+          "manufacturer": "Microsoft",
+          "notes": "MbphD8rxdcI1FF8okEICFgEYLZDMPo63dnCTlmfRfzoDCdEIaoZ8Xwum2JRNiq87M0eTSz3rmz4uAubmjedSCmRR8VeWrXwWgRTJWeecMdIhU3nc0VpJo7gX7HpjNpb1NVlzLhcQmRZf3tv8Pkiu6LZQZPz3gZIKYzYuW3NqdoLKqYwYshUioBG5550YsSazAhnN8BzWMw9LENKuQvMywPVQgfrbs4VCVrjO28TAYWsbLR8Q6FA5fzQUDB",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Madison",
+          "street": "Baby Manors",
+          "house": 363,
+          "flat": 5917
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 49611,
+      "createdOn": "2025-12-31T15:51:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6955468f1c508c5d5e5fbb88",
+          "products": [
+            {
+              "_id": "695546921c508c5d5e5fbce5",
+              "name": "Bike86700",
+              "amount": 846,
+              "price": 49611,
+              "manufacturer": "Microsoft",
+              "notes": "MbphD8rxdcI1FF8okEICFgEYLZDMPo63dnCTlmfRfzoDCdEIaoZ8Xwum2JRNiq87M0eTSz3rmz4uAubmjedSCmRR8VeWrXwWgRTJWeecMdIhU3nc0VpJo7gX7HpjNpb1NVlzLhcQmRZf3tv8Pkiu6LZQZPz3gZIKYzYuW3NqdoLKqYwYshUioBG5550YsSazAhnN8BzWMw9LENKuQvMywPVQgfrbs4VCVrjO28TAYWsbLR8Q6FA5fzQUDB",
+              "received": true
+            }
+          ],
+          "total_price": 49611,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Madison",
+              "street": "Baby Manors",
+              "house": 363,
+              "flat": 5917
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:51:47.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6955468f1c508c5d5e5fbb88",
+          "products": [
+            {
+              "_id": "695546921c508c5d5e5fbce5",
+              "name": "Bike86700",
+              "amount": 846,
+              "price": 49611,
+              "manufacturer": "Microsoft",
+              "notes": "MbphD8rxdcI1FF8okEICFgEYLZDMPo63dnCTlmfRfzoDCdEIaoZ8Xwum2JRNiq87M0eTSz3rmz4uAubmjedSCmRR8VeWrXwWgRTJWeecMdIhU3nc0VpJo7gX7HpjNpb1NVlzLhcQmRZf3tv8Pkiu6LZQZPz3gZIKYzYuW3NqdoLKqYwYshUioBG5550YsSazAhnN8BzWMw9LENKuQvMywPVQgfrbs4VCVrjO28TAYWsbLR8Q6FA5fzQUDB",
+              "received": false
+            }
+          ],
+          "total_price": 49611,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Madison",
+              "street": "Baby Manors",
+              "house": 363,
+              "flat": 5917
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:51:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955468f1c508c5d5e5fbb88",
+          "products": [
+            {
+              "_id": "695546921c508c5d5e5fbce5",
+              "name": "Bike86700",
+              "amount": 846,
+              "price": 49611,
+              "manufacturer": "Microsoft",
+              "notes": "MbphD8rxdcI1FF8okEICFgEYLZDMPo63dnCTlmfRfzoDCdEIaoZ8Xwum2JRNiq87M0eTSz3rmz4uAubmjedSCmRR8VeWrXwWgRTJWeecMdIhU3nc0VpJo7gX7HpjNpb1NVlzLhcQmRZf3tv8Pkiu6LZQZPz3gZIKYzYuW3NqdoLKqYwYshUioBG5550YsSazAhnN8BzWMw9LENKuQvMywPVQgfrbs4VCVrjO28TAYWsbLR8Q6FA5fzQUDB",
+              "received": false
+            }
+          ],
+          "total_price": 49611,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Madison",
+              "street": "Baby Manors",
+              "house": 363,
+              "flat": 5917
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:51:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6955468f1c508c5d5e5fbb88",
+          "products": [
+            {
+              "_id": "695546921c508c5d5e5fbce5",
+              "name": "Bike86700",
+              "amount": 846,
+              "price": 49611,
+              "manufacturer": "Microsoft",
+              "notes": "MbphD8rxdcI1FF8okEICFgEYLZDMPo63dnCTlmfRfzoDCdEIaoZ8Xwum2JRNiq87M0eTSz3rmz4uAubmjedSCmRR8VeWrXwWgRTJWeecMdIhU3nc0VpJo7gX7HpjNpb1NVlzLhcQmRZf3tv8Pkiu6LZQZPz3gZIKYzYuW3NqdoLKqYwYshUioBG5550YsSazAhnN8BzWMw9LENKuQvMywPVQgfrbs4VCVrjO28TAYWsbLR8Q6FA5fzQUDB",
+              "received": false
+            }
+          ],
+          "total_price": 49611,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:51:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

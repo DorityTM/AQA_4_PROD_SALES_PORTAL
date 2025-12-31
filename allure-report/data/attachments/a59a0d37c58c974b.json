@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Wed, 31 Dec 2025 15:52:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2735",
+    "etag": "W/\"aaf-SZdw04+/MYBMJaMShcbMRT02aPg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695546ca1c508c5d5e5fddd9",
+      "status": "Draft",
+      "customer": {
+        "_id": "695546c71c508c5d5e5fdda7",
+        "email": "Ayden_Brown@hotmail.com",
+        "name": "Alexandra Grady",
+        "country": "USA",
+        "city": "Haverhill",
+        "street": "Bernie Street 39",
+        "house": 903,
+        "flat": 2756,
+        "phone": "+497652873915627",
+        "createdOn": "2025-12-31T15:52:39.000Z",
+        "notes": "x1QRev8xEA5H5wsPYDglPpXmbxMhP2"
+      },
+      "products": [
+        {
+          "_id": "695546c91c508c5d5e5fddd1",
+          "name": "Pants77252",
+          "amount": 778,
+          "price": 40711,
+          "manufacturer": "Sony",
+          "notes": "SXMRKTvu7o6bxW6PmUV42pnjBIQekWEL0pLMLImjW53ulGSwnvqJsoXgk2IBPXWUbmf8X6B6PxFJ6CYE7sxjYrMgn0PUvZ6tr6HZiwzeG0F6RP79Ufk72zxooK5jwte1Hy21pJZ4X63qOtt6auumFDQIm4hFNYXqsebptybKQqARd02tcsx0xtSvHepJgsIUSdgyF1vvrH4nAx4tE2Diutyrx1hNdizYFSoVrKqkhTIcZc0n9MIB95MnQy",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Rockwall",
+          "street": "Lindgren Harbor",
+          "house": 614,
+          "flat": 4875
+        },
+        "finalDate": "2026-01-07T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 40711,
+      "createdOn": "2025-12-31T15:52:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695546c71c508c5d5e5fdda7",
+          "products": [
+            {
+              "_id": "695546c91c508c5d5e5fddd1",
+              "name": "Pants77252",
+              "amount": 778,
+              "price": 40711,
+              "manufacturer": "Sony",
+              "notes": "SXMRKTvu7o6bxW6PmUV42pnjBIQekWEL0pLMLImjW53ulGSwnvqJsoXgk2IBPXWUbmf8X6B6PxFJ6CYE7sxjYrMgn0PUvZ6tr6HZiwzeG0F6RP79Ufk72zxooK5jwte1Hy21pJZ4X63qOtt6auumFDQIm4hFNYXqsebptybKQqARd02tcsx0xtSvHepJgsIUSdgyF1vvrH4nAx4tE2Diutyrx1hNdizYFSoVrKqkhTIcZc0n9MIB95MnQy",
+              "received": false
+            }
+          ],
+          "total_price": 40711,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Rockwall",
+              "street": "Lindgren Harbor",
+              "house": 614,
+              "flat": 4875
+            },
+            "finalDate": "2026-01-07T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2025-12-31T15:52:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695546c71c508c5d5e5fdda7",
+          "products": [
+            {
+              "_id": "695546c91c508c5d5e5fddd1",
+              "name": "Pants77252",
+              "amount": 778,
+              "price": 40711,
+              "manufacturer": "Sony",
+              "notes": "SXMRKTvu7o6bxW6PmUV42pnjBIQekWEL0pLMLImjW53ulGSwnvqJsoXgk2IBPXWUbmf8X6B6PxFJ6CYE7sxjYrMgn0PUvZ6tr6HZiwzeG0F6RP79Ufk72zxooK5jwte1Hy21pJZ4X63qOtt6auumFDQIm4hFNYXqsebptybKQqARd02tcsx0xtSvHepJgsIUSdgyF1vvrH4nAx4tE2Diutyrx1hNdizYFSoVrKqkhTIcZc0n9MIB95MnQy",
+              "received": false
+            }
+          ],
+          "total_price": 40711,
+          "delivery": null,
+          "changedOn": "2025-12-31T15:52:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
