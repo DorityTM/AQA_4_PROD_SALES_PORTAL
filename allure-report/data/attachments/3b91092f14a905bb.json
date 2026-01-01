@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:59:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3700",
+    "etag": "W/\"e74-CF/mYFDeZ6H/ylFA1x2m4IgdQZw\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d2301c508c5d5e68f6d0",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6956d22e1c508c5d5e68f65a",
+        "email": "Lorna.Weimann@hotmail.com",
+        "name": "Emily Dickinson",
+        "country": "Great Britain",
+        "city": "Seanboro",
+        "street": "Delpha Island 92",
+        "house": 415,
+        "flat": 7389,
+        "phone": "+868349154252210",
+        "createdOn": "2026-01-01T19:59:42.000Z",
+        "notes": "gdG430bWB81qOVM4cGbLemyEpp43Qv"
+      },
+      "products": [
+        {
+          "_id": "6956d22f1c508c5d5e68f6a5",
+          "name": "Car50953",
+          "amount": 970,
+          "price": 79533,
+          "manufacturer": "Samsung",
+          "notes": "uaM3WMId1i6ZIbV9gwU2MaXoEGICG6bWkS3PMyrP3nj39B4WRhWynCXN7yXdrYJCJfl5nnvXp74tNWhcseHszX9r9B4gEYE4fqGLFSgSZUtrUfPalVTTELESlNTYcE5sIm8sQkbVezeFC1NwOqgxKyWKKK1fj3gkvAZeiXes8LymPtxR9STY5DLZGm4dj0gWBfJCHITPLn9UNGLiVpDof8Tlb65JsGpcw2a3JD7xE11ZdoZMaVGxECuZeT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Corkeryhaven",
+          "street": "Balmoral Road",
+          "house": 591,
+          "flat": 3710
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79533,
+      "createdOn": "2026-01-01T19:59:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6956d22e1c508c5d5e68f65a",
+          "products": [
+            {
+              "_id": "6956d22f1c508c5d5e68f6a5",
+              "name": "Car50953",
+              "amount": 970,
+              "price": 79533,
+              "manufacturer": "Samsung",
+              "notes": "uaM3WMId1i6ZIbV9gwU2MaXoEGICG6bWkS3PMyrP3nj39B4WRhWynCXN7yXdrYJCJfl5nnvXp74tNWhcseHszX9r9B4gEYE4fqGLFSgSZUtrUfPalVTTELESlNTYcE5sIm8sQkbVezeFC1NwOqgxKyWKKK1fj3gkvAZeiXes8LymPtxR9STY5DLZGm4dj0gWBfJCHITPLn9UNGLiVpDof8Tlb65JsGpcw2a3JD7xE11ZdoZMaVGxECuZeT",
+              "received": false
+            }
+          ],
+          "total_price": 79533,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Corkeryhaven",
+              "street": "Balmoral Road",
+              "house": 591,
+              "flat": 3710
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:59:58.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d22e1c508c5d5e68f65a",
+          "products": [
+            {
+              "_id": "6956d22f1c508c5d5e68f6a5",
+              "name": "Car50953",
+              "amount": 970,
+              "price": 79533,
+              "manufacturer": "Samsung",
+              "notes": "uaM3WMId1i6ZIbV9gwU2MaXoEGICG6bWkS3PMyrP3nj39B4WRhWynCXN7yXdrYJCJfl5nnvXp74tNWhcseHszX9r9B4gEYE4fqGLFSgSZUtrUfPalVTTELESlNTYcE5sIm8sQkbVezeFC1NwOqgxKyWKKK1fj3gkvAZeiXes8LymPtxR9STY5DLZGm4dj0gWBfJCHITPLn9UNGLiVpDof8Tlb65JsGpcw2a3JD7xE11ZdoZMaVGxECuZeT",
+              "received": false
+            }
+          ],
+          "total_price": 79533,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Corkeryhaven",
+              "street": "Balmoral Road",
+              "house": 591,
+              "flat": 3710
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:59:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d22e1c508c5d5e68f65a",
+          "products": [
+            {
+              "_id": "6956d22f1c508c5d5e68f6a5",
+              "name": "Car50953",
+              "amount": 970,
+              "price": 79533,
+              "manufacturer": "Samsung",
+              "notes": "uaM3WMId1i6ZIbV9gwU2MaXoEGICG6bWkS3PMyrP3nj39B4WRhWynCXN7yXdrYJCJfl5nnvXp74tNWhcseHszX9r9B4gEYE4fqGLFSgSZUtrUfPalVTTELESlNTYcE5sIm8sQkbVezeFC1NwOqgxKyWKKK1fj3gkvAZeiXes8LymPtxR9STY5DLZGm4dj0gWBfJCHITPLn9UNGLiVpDof8Tlb65JsGpcw2a3JD7xE11ZdoZMaVGxECuZeT",
+              "received": false
+            }
+          ],
+          "total_price": 79533,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:59:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

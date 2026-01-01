@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:46:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1794",
+    "etag": "W/\"702-S45TT98eDiK5m8JwwW8vgkLp9hM\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956cf111c508c5d5e66cda0",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956cf101c508c5d5e66cd0b",
+        "email": "Nelson.Blanda@hotmail.com",
+        "name": "Ella Marvin",
+        "country": "Belarus",
+        "city": "Salinas",
+        "street": "Rodrigo Orchard 42",
+        "house": 278,
+        "flat": 2470,
+        "phone": "+240865587005969",
+        "createdOn": "2026-01-01T19:46:24.000Z",
+        "notes": "9Rnziqq00xYXN9I8wd91vBaIkRwFY5"
+      },
+      "products": [
+        {
+          "_id": "6956cf111c508c5d5e66cd71",
+          "name": "Computer92338",
+          "amount": 230,
+          "price": 10689,
+          "manufacturer": "Samsung",
+          "notes": "nKxEqkg8rrEX1X2viQ6H428C2UkDDLY33SxGxtNpWB4IvdNX3TYrCF9AHoIUMeUwgn97nfyq1Q9cXqnEfIllGIXcULKTePro5oBOL8ojnU2Em8aGNMQnW2JkWgNti8stNetaTBZ3b2hOxdd9gnK1Ow7Tf94pCTP84k5K82KhepQ0I921MrpybjJROpQugtqY0KxOWTvPe2u37Bj3loB1nv7Ud7jFAxYReJpfVSYCtazsRTkjZo9taBfi6U",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 10689,
+      "createdOn": "2026-01-01T19:46:25.000Z",
+      "comments": [
+        {
+          "text": "Ensure > threshold before ship",
+          "createdOn": "2026-01-01T19:46:26.000Z",
+          "_id": "6956cf121c508c5d5e66cdc1"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956cf101c508c5d5e66cd0b",
+          "products": [
+            {
+              "_id": "6956cf111c508c5d5e66cd71",
+              "name": "Computer92338",
+              "amount": 230,
+              "price": 10689,
+              "manufacturer": "Samsung",
+              "notes": "nKxEqkg8rrEX1X2viQ6H428C2UkDDLY33SxGxtNpWB4IvdNX3TYrCF9AHoIUMeUwgn97nfyq1Q9cXqnEfIllGIXcULKTePro5oBOL8ojnU2Em8aGNMQnW2JkWgNti8stNetaTBZ3b2hOxdd9gnK1Ow7Tf94pCTP84k5K82KhepQ0I921MrpybjJROpQugtqY0KxOWTvPe2u37Bj3loB1nv7Ud7jFAxYReJpfVSYCtazsRTkjZo9taBfi6U",
+              "received": false
+            }
+          ],
+          "total_price": 10689,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:46:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

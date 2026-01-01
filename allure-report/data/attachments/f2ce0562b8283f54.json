@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:45:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5261",
+    "etag": "W/\"148d-BaYPZGvLMpFswPKj9ETeAmxAMl0\"",
+    "keep-alive": "timeout=5, max=35",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956cee71c508c5d5e66b2a5",
+      "status": "In Process",
+      "customer": {
+        "_id": "6956cee41c508c5d5e66b069",
+        "email": "Erin_Bechtelar-Lesch@hotmail.com",
+        "name": "Mariela Casper",
+        "country": "Russia",
+        "city": "South Mohammedfort",
+        "street": "State Line Road 54",
+        "house": 913,
+        "flat": 6646,
+        "phone": "+669610489010196",
+        "createdOn": "2026-01-01T19:45:40.000Z",
+        "notes": "5oVDEdCuNZuDZB77vMzUI72iMAOPKH"
+      },
+      "products": [
+        {
+          "_id": "6956cee51c508c5d5e66b10e",
+          "name": "Bike38123",
+          "amount": 355,
+          "price": 41974,
+          "manufacturer": "Xiaomi",
+          "notes": "XqPg34dFxcxcueB07qN8ja1LKeKj3yZYo9XmAyZv6aozxRCZ8Dl3HKvYKxV6iIytTWCL18lMMSbIDGskOSiApFH1X77qhiKpaynoY2ebjGfKWtDlPQkQiSexgRmrlG1AM7eUWeaKDs8dZH2aN6C786D33iT28vn99D4pRstDm9dgiaCrfxMHGmmvBbUwEaQWeFkPItuZArEB702IbiWmUe2lfczka3f1hPNTEBJUlBbuAE7MYG58MRCCAo",
+          "received": false
+        },
+        {
+          "_id": "6956cee61c508c5d5e66b15a",
+          "name": "Bacon32150",
+          "amount": 418,
+          "price": 23640,
+          "manufacturer": "Google",
+          "notes": "lHNqz1eEv3niZmeSGeX2o3gTnuLvk1ZGUCpOVWW1DkzFJQ0JzudrwcIB5XRQfcDKjnFRXz8gkEDejwT7gPTKvWAe9vrUujN4W7lMYN7uzoc4VId2DD2Pd0366dwavizUPYkUSUkJdbPqijWFvC2CQi35ipk5Y3IR4wczzaZFOtCGOfmj12HnvfRlcqmZ3Fr5m0EjrMYoyyo3F6YdFmHkgVlKhNMMuH2B15BCEagFvDypnch2ayAed4TKuc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Cydneymouth",
+          "street": "Sherwood Drive",
+          "house": 969,
+          "flat": 9110
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 65614,
+      "createdOn": "2026-01-01T19:45:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6956cee41c508c5d5e66b069",
+          "products": [
+            {
+              "_id": "6956cee51c508c5d5e66b10e",
+              "name": "Bike38123",
+              "amount": 355,
+              "price": 41974,
+              "manufacturer": "Xiaomi",
+              "notes": "XqPg34dFxcxcueB07qN8ja1LKeKj3yZYo9XmAyZv6aozxRCZ8Dl3HKvYKxV6iIytTWCL18lMMSbIDGskOSiApFH1X77qhiKpaynoY2ebjGfKWtDlPQkQiSexgRmrlG1AM7eUWeaKDs8dZH2aN6C786D33iT28vn99D4pRstDm9dgiaCrfxMHGmmvBbUwEaQWeFkPItuZArEB702IbiWmUe2lfczka3f1hPNTEBJUlBbuAE7MYG58MRCCAo",
+              "received": false
+            },
+            {
+              "_id": "6956cee61c508c5d5e66b15a",
+              "name": "Bacon32150",
+              "amount": 418,
+              "price": 23640,
+              "manufacturer": "Google",
+              "notes": "lHNqz1eEv3niZmeSGeX2o3gTnuLvk1ZGUCpOVWW1DkzFJQ0JzudrwcIB5XRQfcDKjnFRXz8gkEDejwT7gPTKvWAe9vrUujN4W7lMYN7uzoc4VId2DD2Pd0366dwavizUPYkUSUkJdbPqijWFvC2CQi35ipk5Y3IR4wczzaZFOtCGOfmj12HnvfRlcqmZ3Fr5m0EjrMYoyyo3F6YdFmHkgVlKhNMMuH2B15BCEagFvDypnch2ayAed4TKuc",
+              "received": false
+            }
+          ],
+          "total_price": 65614,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Cydneymouth",
+              "street": "Sherwood Drive",
+              "house": 969,
+              "flat": 9110
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:45:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cee41c508c5d5e66b069",
+          "products": [
+            {
+              "_id": "6956cee51c508c5d5e66b10e",
+              "name": "Bike38123",
+              "amount": 355,
+              "price": 41974,
+              "manufacturer": "Xiaomi",
+              "notes": "XqPg34dFxcxcueB07qN8ja1LKeKj3yZYo9XmAyZv6aozxRCZ8Dl3HKvYKxV6iIytTWCL18lMMSbIDGskOSiApFH1X77qhiKpaynoY2ebjGfKWtDlPQkQiSexgRmrlG1AM7eUWeaKDs8dZH2aN6C786D33iT28vn99D4pRstDm9dgiaCrfxMHGmmvBbUwEaQWeFkPItuZArEB702IbiWmUe2lfczka3f1hPNTEBJUlBbuAE7MYG58MRCCAo",
+              "received": false
+            },
+            {
+              "_id": "6956cee61c508c5d5e66b15a",
+              "name": "Bacon32150",
+              "amount": 418,
+              "price": 23640,
+              "manufacturer": "Google",
+              "notes": "lHNqz1eEv3niZmeSGeX2o3gTnuLvk1ZGUCpOVWW1DkzFJQ0JzudrwcIB5XRQfcDKjnFRXz8gkEDejwT7gPTKvWAe9vrUujN4W7lMYN7uzoc4VId2DD2Pd0366dwavizUPYkUSUkJdbPqijWFvC2CQi35ipk5Y3IR4wczzaZFOtCGOfmj12HnvfRlcqmZ3Fr5m0EjrMYoyyo3F6YdFmHkgVlKhNMMuH2B15BCEagFvDypnch2ayAed4TKuc",
+              "received": false
+            }
+          ],
+          "total_price": 65614,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Cydneymouth",
+              "street": "Sherwood Drive",
+              "house": 969,
+              "flat": 9110
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:45:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cee41c508c5d5e66b069",
+          "products": [
+            {
+              "_id": "6956cee51c508c5d5e66b10e",
+              "name": "Bike38123",
+              "amount": 355,
+              "price": 41974,
+              "manufacturer": "Xiaomi",
+              "notes": "XqPg34dFxcxcueB07qN8ja1LKeKj3yZYo9XmAyZv6aozxRCZ8Dl3HKvYKxV6iIytTWCL18lMMSbIDGskOSiApFH1X77qhiKpaynoY2ebjGfKWtDlPQkQiSexgRmrlG1AM7eUWeaKDs8dZH2aN6C786D33iT28vn99D4pRstDm9dgiaCrfxMHGmmvBbUwEaQWeFkPItuZArEB702IbiWmUe2lfczka3f1hPNTEBJUlBbuAE7MYG58MRCCAo",
+              "received": false
+            },
+            {
+              "_id": "6956cee61c508c5d5e66b15a",
+              "name": "Bacon32150",
+              "amount": 418,
+              "price": 23640,
+              "manufacturer": "Google",
+              "notes": "lHNqz1eEv3niZmeSGeX2o3gTnuLvk1ZGUCpOVWW1DkzFJQ0JzudrwcIB5XRQfcDKjnFRXz8gkEDejwT7gPTKvWAe9vrUujN4W7lMYN7uzoc4VId2DD2Pd0366dwavizUPYkUSUkJdbPqijWFvC2CQi35ipk5Y3IR4wczzaZFOtCGOfmj12HnvfRlcqmZ3Fr5m0EjrMYoyyo3F6YdFmHkgVlKhNMMuH2B15BCEagFvDypnch2ayAed4TKuc",
+              "received": false
+            }
+          ],
+          "total_price": 65614,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:45:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

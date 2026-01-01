@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:57:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3674",
+    "etag": "W/\"e5a-XmX9R/aKBuOkgTxjgoTcaNzYKPc\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d1ac1c508c5d5e689866",
+      "status": "In Process",
+      "customer": {
+        "_id": "6956d1a01c508c5d5e688e13",
+        "email": "Lindsey.Kuphal53@gmail.com",
+        "name": "Hailey Dibbert Watsica",
+        "country": "France",
+        "city": "Elenaworth",
+        "street": "The Poplars 5",
+        "house": 664,
+        "flat": 5967,
+        "phone": "+808827506208349",
+        "createdOn": "2026-01-01T19:57:20.000Z",
+        "notes": "c1mw8z9rHMPHZ9d4S557h73BARbNOd"
+      },
+      "products": [
+        {
+          "_id": "6956d1a51c508c5d5e689757",
+          "name": "Soap41723",
+          "amount": 431,
+          "price": 31261,
+          "manufacturer": "Tesla",
+          "notes": "LhAo58K81MOvwPMmWhnUgLUCLcblKnK0PYumZUOx6WQfyEFzprtPGVc8EAuz75RF8fuSjUxQFuBRZUOfICsiwotDzHlZEKIuMhY1gLqrCefj2AbFtwZjvNqAm9NBd16qzr0iYNA4z0rTANYM6RIGUva2sgeSj5wMchkmgod3JOb5WjMUGEFER3K4y8izWO2tUEV1NYiaT15LI5DNvHP6ge1eZTthX7PKjb3xJxIpx0rEc5ImjsQ0DtFRgD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Bernhard",
+          "street": "Vergie Hill",
+          "house": 742,
+          "flat": 977
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 31261,
+      "createdOn": "2026-01-01T19:57:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6956d1a01c508c5d5e688e13",
+          "products": [
+            {
+              "_id": "6956d1a51c508c5d5e689757",
+              "name": "Soap41723",
+              "amount": 431,
+              "price": 31261,
+              "manufacturer": "Tesla",
+              "notes": "LhAo58K81MOvwPMmWhnUgLUCLcblKnK0PYumZUOx6WQfyEFzprtPGVc8EAuz75RF8fuSjUxQFuBRZUOfICsiwotDzHlZEKIuMhY1gLqrCefj2AbFtwZjvNqAm9NBd16qzr0iYNA4z0rTANYM6RIGUva2sgeSj5wMchkmgod3JOb5WjMUGEFER3K4y8izWO2tUEV1NYiaT15LI5DNvHP6ge1eZTthX7PKjb3xJxIpx0rEc5ImjsQ0DtFRgD",
+              "received": false
+            }
+          ],
+          "total_price": 31261,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Bernhard",
+              "street": "Vergie Hill",
+              "house": 742,
+              "flat": 977
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:57:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1a01c508c5d5e688e13",
+          "products": [
+            {
+              "_id": "6956d1a51c508c5d5e689757",
+              "name": "Soap41723",
+              "amount": 431,
+              "price": 31261,
+              "manufacturer": "Tesla",
+              "notes": "LhAo58K81MOvwPMmWhnUgLUCLcblKnK0PYumZUOx6WQfyEFzprtPGVc8EAuz75RF8fuSjUxQFuBRZUOfICsiwotDzHlZEKIuMhY1gLqrCefj2AbFtwZjvNqAm9NBd16qzr0iYNA4z0rTANYM6RIGUva2sgeSj5wMchkmgod3JOb5WjMUGEFER3K4y8izWO2tUEV1NYiaT15LI5DNvHP6ge1eZTthX7PKjb3xJxIpx0rEc5ImjsQ0DtFRgD",
+              "received": false
+            }
+          ],
+          "total_price": 31261,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Bernhard",
+              "street": "Vergie Hill",
+              "house": 742,
+              "flat": 977
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:57:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1a01c508c5d5e688e13",
+          "products": [
+            {
+              "_id": "6956d1a51c508c5d5e689757",
+              "name": "Soap41723",
+              "amount": 431,
+              "price": 31261,
+              "manufacturer": "Tesla",
+              "notes": "LhAo58K81MOvwPMmWhnUgLUCLcblKnK0PYumZUOx6WQfyEFzprtPGVc8EAuz75RF8fuSjUxQFuBRZUOfICsiwotDzHlZEKIuMhY1gLqrCefj2AbFtwZjvNqAm9NBd16qzr0iYNA4z0rTANYM6RIGUva2sgeSj5wMchkmgod3JOb5WjMUGEFER3K4y8izWO2tUEV1NYiaT15LI5DNvHP6ge1eZTthX7PKjb3xJxIpx0rEc5ImjsQ0DtFRgD",
+              "received": false
+            }
+          ],
+          "total_price": 31261,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:57:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

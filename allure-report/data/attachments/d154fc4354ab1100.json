@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:56:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3693",
+    "etag": "W/\"e6d-jjZk+Cpo+aWOGTmCkh83cOvA050\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d16f1c508c5d5e6868d5",
+      "status": "In Process",
+      "customer": {
+        "_id": "6956d16b1c508c5d5e6865ca",
+        "email": "Michael_Wuckert-Lemke@hotmail.com",
+        "name": "Natasha Williamson",
+        "country": "Canada",
+        "city": "New Wallace",
+        "street": "Helena Ports 52",
+        "house": 85,
+        "flat": 7436,
+        "phone": "+741649787597948",
+        "createdOn": "2026-01-01T19:56:27.000Z",
+        "notes": "FuqJFAHm7BA7jgCNF8bwYekO3AjCbB"
+      },
+      "products": [
+        {
+          "_id": "6956d16e1c508c5d5e6867aa",
+          "name": "Hat13586",
+          "amount": 233,
+          "price": 90337,
+          "manufacturer": "Apple",
+          "notes": "qYVh3BH4MjbZCWctVp1KGfXLNdhETf50NQzLNX9E4pp2n9ir82Pqay1J7nTn0IaMP6rpGwy8vy5g52IrmpnI03ro2LH07oSvH4ie8MxrIBIH1yPtsNZix08hd6jSBQW7ZcE5RqyAMogxuakOP6YtTNXgZDACMW77GEDq6E8HUlBsFr8cBs0p3cqEuKJY7F8K7XZRl6bZbT3ltrIr6C0EPfXx5PdqMkHmtJKOgRH9kUqyAj12VEZun8OO9w",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "West Alfonso",
+          "street": "Cecilia Ridges",
+          "house": 734,
+          "flat": 2931
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 90337,
+      "createdOn": "2026-01-01T19:56:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6956d16b1c508c5d5e6865ca",
+          "products": [
+            {
+              "_id": "6956d16e1c508c5d5e6867aa",
+              "name": "Hat13586",
+              "amount": 233,
+              "price": 90337,
+              "manufacturer": "Apple",
+              "notes": "qYVh3BH4MjbZCWctVp1KGfXLNdhETf50NQzLNX9E4pp2n9ir82Pqay1J7nTn0IaMP6rpGwy8vy5g52IrmpnI03ro2LH07oSvH4ie8MxrIBIH1yPtsNZix08hd6jSBQW7ZcE5RqyAMogxuakOP6YtTNXgZDACMW77GEDq6E8HUlBsFr8cBs0p3cqEuKJY7F8K7XZRl6bZbT3ltrIr6C0EPfXx5PdqMkHmtJKOgRH9kUqyAj12VEZun8OO9w",
+              "received": false
+            }
+          ],
+          "total_price": 90337,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Alfonso",
+              "street": "Cecilia Ridges",
+              "house": 734,
+              "flat": 2931
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:56:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d16b1c508c5d5e6865ca",
+          "products": [
+            {
+              "_id": "6956d16e1c508c5d5e6867aa",
+              "name": "Hat13586",
+              "amount": 233,
+              "price": 90337,
+              "manufacturer": "Apple",
+              "notes": "qYVh3BH4MjbZCWctVp1KGfXLNdhETf50NQzLNX9E4pp2n9ir82Pqay1J7nTn0IaMP6rpGwy8vy5g52IrmpnI03ro2LH07oSvH4ie8MxrIBIH1yPtsNZix08hd6jSBQW7ZcE5RqyAMogxuakOP6YtTNXgZDACMW77GEDq6E8HUlBsFr8cBs0p3cqEuKJY7F8K7XZRl6bZbT3ltrIr6C0EPfXx5PdqMkHmtJKOgRH9kUqyAj12VEZun8OO9w",
+              "received": false
+            }
+          ],
+          "total_price": 90337,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Alfonso",
+              "street": "Cecilia Ridges",
+              "house": 734,
+              "flat": 2931
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:56:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d16b1c508c5d5e6865ca",
+          "products": [
+            {
+              "_id": "6956d16e1c508c5d5e6867aa",
+              "name": "Hat13586",
+              "amount": 233,
+              "price": 90337,
+              "manufacturer": "Apple",
+              "notes": "qYVh3BH4MjbZCWctVp1KGfXLNdhETf50NQzLNX9E4pp2n9ir82Pqay1J7nTn0IaMP6rpGwy8vy5g52IrmpnI03ro2LH07oSvH4ie8MxrIBIH1yPtsNZix08hd6jSBQW7ZcE5RqyAMogxuakOP6YtTNXgZDACMW77GEDq6E8HUlBsFr8cBs0p3cqEuKJY7F8K7XZRl6bZbT3ltrIr6C0EPfXx5PdqMkHmtJKOgRH9kUqyAj12VEZun8OO9w",
+              "received": false
+            }
+          ],
+          "total_price": 90337,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:56:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

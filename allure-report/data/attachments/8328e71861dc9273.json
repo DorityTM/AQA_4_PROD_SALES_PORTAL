@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:56:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3670",
+    "etag": "W/\"e56-vqzCVGJDNX5Ps8Dj/1ecplvzH7E\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d14d1c508c5d5e684f61",
+      "status": "In Process",
+      "customer": {
+        "_id": "6956d14b1c508c5d5e684eed",
+        "email": "Sammy_OConnell@hotmail.com",
+        "name": "Anabel Lowe",
+        "country": "Ukraine",
+        "city": "Andersonside",
+        "street": "Adam Harbor 81",
+        "house": 883,
+        "flat": 9321,
+        "phone": "+716475518337112",
+        "createdOn": "2026-01-01T19:55:55.000Z",
+        "notes": "5L5i44yeDcRREkGJo2T4boVYHFp4Kw"
+      },
+      "products": [
+        {
+          "_id": "6956d14c1c508c5d5e684f3f",
+          "name": "Shoes1287",
+          "amount": 672,
+          "price": 97931,
+          "manufacturer": "Tesla",
+          "notes": "hM3j8SaBa8MOvhaG02RLvXOxAJb36lgXDtz3piW0KFmSaeT3HqFhtvCofYWeGUYegrSbPi2iqx37t0HwwL9QjBAD9omxOtoSCpMsUsoRbhI8nj2AppRe7yd6KQcnzusz84X8Gnv3CmruM2OHkpTzxNHXfuo4bQdKH6UL5RXdZJDoItxoUegEBdL9BJk6dzyi6yMyo3tpQyVk9Fd1lckRNBEVGLFbL6VWWh0bvDVpCtadePJcksxByZxVp5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Bellingham",
+          "street": "The Paddock",
+          "house": 511,
+          "flat": 4679
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97931,
+      "createdOn": "2026-01-01T19:55:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6956d14b1c508c5d5e684eed",
+          "products": [
+            {
+              "_id": "6956d14c1c508c5d5e684f3f",
+              "name": "Shoes1287",
+              "amount": 672,
+              "price": 97931,
+              "manufacturer": "Tesla",
+              "notes": "hM3j8SaBa8MOvhaG02RLvXOxAJb36lgXDtz3piW0KFmSaeT3HqFhtvCofYWeGUYegrSbPi2iqx37t0HwwL9QjBAD9omxOtoSCpMsUsoRbhI8nj2AppRe7yd6KQcnzusz84X8Gnv3CmruM2OHkpTzxNHXfuo4bQdKH6UL5RXdZJDoItxoUegEBdL9BJk6dzyi6yMyo3tpQyVk9Fd1lckRNBEVGLFbL6VWWh0bvDVpCtadePJcksxByZxVp5",
+              "received": false
+            }
+          ],
+          "total_price": 97931,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Bellingham",
+              "street": "The Paddock",
+              "house": 511,
+              "flat": 4679
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:56:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d14b1c508c5d5e684eed",
+          "products": [
+            {
+              "_id": "6956d14c1c508c5d5e684f3f",
+              "name": "Shoes1287",
+              "amount": 672,
+              "price": 97931,
+              "manufacturer": "Tesla",
+              "notes": "hM3j8SaBa8MOvhaG02RLvXOxAJb36lgXDtz3piW0KFmSaeT3HqFhtvCofYWeGUYegrSbPi2iqx37t0HwwL9QjBAD9omxOtoSCpMsUsoRbhI8nj2AppRe7yd6KQcnzusz84X8Gnv3CmruM2OHkpTzxNHXfuo4bQdKH6UL5RXdZJDoItxoUegEBdL9BJk6dzyi6yMyo3tpQyVk9Fd1lckRNBEVGLFbL6VWWh0bvDVpCtadePJcksxByZxVp5",
+              "received": false
+            }
+          ],
+          "total_price": 97931,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Bellingham",
+              "street": "The Paddock",
+              "house": 511,
+              "flat": 4679
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:55:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d14b1c508c5d5e684eed",
+          "products": [
+            {
+              "_id": "6956d14c1c508c5d5e684f3f",
+              "name": "Shoes1287",
+              "amount": 672,
+              "price": 97931,
+              "manufacturer": "Tesla",
+              "notes": "hM3j8SaBa8MOvhaG02RLvXOxAJb36lgXDtz3piW0KFmSaeT3HqFhtvCofYWeGUYegrSbPi2iqx37t0HwwL9QjBAD9omxOtoSCpMsUsoRbhI8nj2AppRe7yd6KQcnzusz84X8Gnv3CmruM2OHkpTzxNHXfuo4bQdKH6UL5RXdZJDoItxoUegEBdL9BJk6dzyi6yMyo3tpQyVk9Fd1lckRNBEVGLFbL6VWWh0bvDVpCtadePJcksxByZxVp5",
+              "received": false
+            }
+          ],
+          "total_price": 97931,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:55:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

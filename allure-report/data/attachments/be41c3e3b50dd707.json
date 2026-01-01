@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:55:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3681",
+    "etag": "W/\"e61-OhXOAworA+WUbYCqZ9yGHRKxdRg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d1201c508c5d5e682e60",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6956d11f1c508c5d5e682dab",
+        "email": "Bobbie.Schuppe15@hotmail.com",
+        "name": "Curt Miller",
+        "country": "Belarus",
+        "city": "Altenwerthville",
+        "street": "Broadway Avenue 49",
+        "house": 246,
+        "flat": 3528,
+        "phone": "+967439529885692",
+        "createdOn": "2026-01-01T19:55:11.000Z",
+        "notes": "0GWV8kAyPSlHi12SB2ILXVQvkfABi3"
+      },
+      "products": [
+        {
+          "_id": "6956d1201c508c5d5e682e31",
+          "name": "Cheese23055",
+          "amount": 40,
+          "price": 823,
+          "manufacturer": "Xiaomi",
+          "notes": "gsqVB7IpxpclfNq6A7h3MN0ZoQ0AClxRH3a2Ub0fYBPinjtXaY1LL9vpkXFMoBhUZnrV0UGZQct7y5VtPtKC0HaVS8XGsydvE489tGwBxiialX7k4qyJJgC7FEIUsdW1RlJYR8aD9KoW9jEGXcP7Wbr9ud2AZSMYh21ErYALuWCnlMp3tAvjhUi4xbadLCcBnPDDL3JLU38jh93Bo1Vqksv62xqYeCLiIZbz7Lv9qfe8qYsbQEq5MCOugZ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Sporerbury",
+          "street": "Morar Unions",
+          "house": 547,
+          "flat": 5122
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 823,
+      "createdOn": "2026-01-01T19:55:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6956d11f1c508c5d5e682dab",
+          "products": [
+            {
+              "_id": "6956d1201c508c5d5e682e31",
+              "name": "Cheese23055",
+              "amount": 40,
+              "price": 823,
+              "manufacturer": "Xiaomi",
+              "notes": "gsqVB7IpxpclfNq6A7h3MN0ZoQ0AClxRH3a2Ub0fYBPinjtXaY1LL9vpkXFMoBhUZnrV0UGZQct7y5VtPtKC0HaVS8XGsydvE489tGwBxiialX7k4qyJJgC7FEIUsdW1RlJYR8aD9KoW9jEGXcP7Wbr9ud2AZSMYh21ErYALuWCnlMp3tAvjhUi4xbadLCcBnPDDL3JLU38jh93Bo1Vqksv62xqYeCLiIZbz7Lv9qfe8qYsbQEq5MCOugZ",
+              "received": false
+            }
+          ],
+          "total_price": 823,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Sporerbury",
+              "street": "Morar Unions",
+              "house": 547,
+              "flat": 5122
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:55:14.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d11f1c508c5d5e682dab",
+          "products": [
+            {
+              "_id": "6956d1201c508c5d5e682e31",
+              "name": "Cheese23055",
+              "amount": 40,
+              "price": 823,
+              "manufacturer": "Xiaomi",
+              "notes": "gsqVB7IpxpclfNq6A7h3MN0ZoQ0AClxRH3a2Ub0fYBPinjtXaY1LL9vpkXFMoBhUZnrV0UGZQct7y5VtPtKC0HaVS8XGsydvE489tGwBxiialX7k4qyJJgC7FEIUsdW1RlJYR8aD9KoW9jEGXcP7Wbr9ud2AZSMYh21ErYALuWCnlMp3tAvjhUi4xbadLCcBnPDDL3JLU38jh93Bo1Vqksv62xqYeCLiIZbz7Lv9qfe8qYsbQEq5MCOugZ",
+              "received": false
+            }
+          ],
+          "total_price": 823,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Sporerbury",
+              "street": "Morar Unions",
+              "house": 547,
+              "flat": 5122
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:55:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d11f1c508c5d5e682dab",
+          "products": [
+            {
+              "_id": "6956d1201c508c5d5e682e31",
+              "name": "Cheese23055",
+              "amount": 40,
+              "price": 823,
+              "manufacturer": "Xiaomi",
+              "notes": "gsqVB7IpxpclfNq6A7h3MN0ZoQ0AClxRH3a2Ub0fYBPinjtXaY1LL9vpkXFMoBhUZnrV0UGZQct7y5VtPtKC0HaVS8XGsydvE489tGwBxiialX7k4qyJJgC7FEIUsdW1RlJYR8aD9KoW9jEGXcP7Wbr9ud2AZSMYh21ErYALuWCnlMp3tAvjhUi4xbadLCcBnPDDL3JLU38jh93Bo1Vqksv62xqYeCLiIZbz7Lv9qfe8qYsbQEq5MCOugZ",
+              "received": false
+            }
+          ],
+          "total_price": 823,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:55:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

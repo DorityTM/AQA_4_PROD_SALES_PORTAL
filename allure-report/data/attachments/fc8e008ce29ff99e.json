@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:47:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2739",
+    "etag": "W/\"ab3-wZOuwDzWpLrQpprRJgDSqczgNRY\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956cf531c508c5d5e66f92d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956cf511c508c5d5e66f87e",
+        "email": "Murphy95@hotmail.com",
+        "name": "Edison Monahan",
+        "country": "Russia",
+        "city": "Grahamshire",
+        "street": "Nolan Cape 36",
+        "house": 258,
+        "flat": 4159,
+        "phone": "+191807789406159",
+        "createdOn": "2026-01-01T19:47:29.000Z",
+        "notes": "f2hSfHdJIjBM2XqEEXW8vU7McHxES2"
+      },
+      "products": [
+        {
+          "_id": "6956cf521c508c5d5e66f8ee",
+          "name": "Soap62624",
+          "amount": 263,
+          "price": 35594,
+          "manufacturer": "Apple",
+          "notes": "OBQhPY45oYsxh1mYLvmy2Ss74chn0Rsr6l7YruMqHiloeZf9okOow8AI72r7qnTSTndEB6csG2zdDmN3RkkIqVNTLKiWhMInTpcXaZicOfHGOr29bC4bANzVU9Lw3gmK2bxsa1SVxouqAmWjP5eHAA46Mb4yWpIPqBmBT4K4gZ1m4VK2HHG8pdkOZmXLb5vylQHIUGcKjAQjuqpOJVRT7mNlGHo2svzEY85fQNB3EKurjJsB7zqbHGbJeB",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Lisa",
+          "street": "Waterloo Road",
+          "house": 738,
+          "flat": 8908
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 35594,
+      "createdOn": "2026-01-01T19:47:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956cf511c508c5d5e66f87e",
+          "products": [
+            {
+              "_id": "6956cf521c508c5d5e66f8ee",
+              "name": "Soap62624",
+              "amount": 263,
+              "price": 35594,
+              "manufacturer": "Apple",
+              "notes": "OBQhPY45oYsxh1mYLvmy2Ss74chn0Rsr6l7YruMqHiloeZf9okOow8AI72r7qnTSTndEB6csG2zdDmN3RkkIqVNTLKiWhMInTpcXaZicOfHGOr29bC4bANzVU9Lw3gmK2bxsa1SVxouqAmWjP5eHAA46Mb4yWpIPqBmBT4K4gZ1m4VK2HHG8pdkOZmXLb5vylQHIUGcKjAQjuqpOJVRT7mNlGHo2svzEY85fQNB3EKurjJsB7zqbHGbJeB",
+              "received": false
+            }
+          ],
+          "total_price": 35594,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Lisa",
+              "street": "Waterloo Road",
+              "house": 738,
+              "flat": 8908
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:47:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cf511c508c5d5e66f87e",
+          "products": [
+            {
+              "_id": "6956cf521c508c5d5e66f8ee",
+              "name": "Soap62624",
+              "amount": 263,
+              "price": 35594,
+              "manufacturer": "Apple",
+              "notes": "OBQhPY45oYsxh1mYLvmy2Ss74chn0Rsr6l7YruMqHiloeZf9okOow8AI72r7qnTSTndEB6csG2zdDmN3RkkIqVNTLKiWhMInTpcXaZicOfHGOr29bC4bANzVU9Lw3gmK2bxsa1SVxouqAmWjP5eHAA46Mb4yWpIPqBmBT4K4gZ1m4VK2HHG8pdkOZmXLb5vylQHIUGcKjAQjuqpOJVRT7mNlGHo2svzEY85fQNB3EKurjJsB7zqbHGbJeB",
+              "received": false
+            }
+          ],
+          "total_price": 35594,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:47:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

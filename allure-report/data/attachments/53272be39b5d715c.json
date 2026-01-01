@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 20:00:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-F4DW2q1KlXIC0/msbRtJkHg27DQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d2401c508c5d5e690394",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956d2311c508c5d5e68f995",
+        "email": "Jena_Bergnaum0@yahoo.com",
+        "name": "Jerad Kunde",
+        "country": "Canada",
+        "city": "Port Glencester",
+        "street": "W Division Street 14",
+        "house": 271,
+        "flat": 1331,
+        "phone": "+051342087804870",
+        "createdOn": "2026-01-01T19:59:45.000Z",
+        "notes": "L79I97cTQtxKRnKcvAjvZAKr63CIfS"
+      },
+      "products": [
+        {
+          "_id": "6956d23e1c508c5d5e6902b0",
+          "name": "Chair47561",
+          "amount": 102,
+          "price": 16990,
+          "manufacturer": "Tesla",
+          "notes": "nUeYooZ5482mIO6W1JLz3EJbWsIFXH4BaM99hi7D3GABk8bqO3yRAZ4B0g92vI4iEdLe4x8lj43PjSOlSVcEgSAeSKM57XwVHV3H64z7cVjES9XERcbxy2w7ogILf2XaHuPezQXNan8OUc8i5r24atKzvml591B7Q6k9AU1MrZWQie4owv5gdAdFb6q7JpWZoM4CvWAQVv91anYMFPwHvP0teyjizatKm1YjFZ8qXpTyrfFJuunyWWZQPP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Raustad",
+          "street": "Harry Knoll",
+          "house": 68,
+          "flat": 4484
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16990,
+      "createdOn": "2026-01-01T20:00:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956d2311c508c5d5e68f995",
+          "products": [
+            {
+              "_id": "6956d23e1c508c5d5e6902b0",
+              "name": "Chair47561",
+              "amount": 102,
+              "price": 16990,
+              "manufacturer": "Tesla",
+              "notes": "nUeYooZ5482mIO6W1JLz3EJbWsIFXH4BaM99hi7D3GABk8bqO3yRAZ4B0g92vI4iEdLe4x8lj43PjSOlSVcEgSAeSKM57XwVHV3H64z7cVjES9XERcbxy2w7ogILf2XaHuPezQXNan8OUc8i5r24atKzvml591B7Q6k9AU1MrZWQie4owv5gdAdFb6q7JpWZoM4CvWAQVv91anYMFPwHvP0teyjizatKm1YjFZ8qXpTyrfFJuunyWWZQPP",
+              "received": false
+            }
+          ],
+          "total_price": 16990,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Raustad",
+              "street": "Harry Knoll",
+              "house": 68,
+              "flat": 4484
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T20:00:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d2311c508c5d5e68f995",
+          "products": [
+            {
+              "_id": "6956d23e1c508c5d5e6902b0",
+              "name": "Chair47561",
+              "amount": 102,
+              "price": 16990,
+              "manufacturer": "Tesla",
+              "notes": "nUeYooZ5482mIO6W1JLz3EJbWsIFXH4BaM99hi7D3GABk8bqO3yRAZ4B0g92vI4iEdLe4x8lj43PjSOlSVcEgSAeSKM57XwVHV3H64z7cVjES9XERcbxy2w7ogILf2XaHuPezQXNan8OUc8i5r24atKzvml591B7Q6k9AU1MrZWQie4owv5gdAdFb6q7JpWZoM4CvWAQVv91anYMFPwHvP0teyjizatKm1YjFZ8qXpTyrfFJuunyWWZQPP",
+              "received": false
+            }
+          ],
+          "total_price": 16990,
+          "delivery": null,
+          "changedOn": "2026-01-01T20:00:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

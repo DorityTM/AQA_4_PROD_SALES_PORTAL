@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:49:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4625",
+    "etag": "W/\"1211-3ApUZFoqQLpb+YpgXMZGoZuAuZ0\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956cfc51c508c5d5e674ba3",
+      "status": "Received",
+      "customer": {
+        "_id": "6956cfc11c508c5d5e674866",
+        "email": "Okey36@hotmail.com",
+        "name": "Hillary Hand",
+        "country": "USA",
+        "city": "South Carmella",
+        "street": "Schumm Spurs 50",
+        "house": 202,
+        "flat": 2822,
+        "phone": "+057332955068132",
+        "createdOn": "2026-01-01T19:49:21.000Z",
+        "notes": "59sAn8yI8F3NUlKsVpP8XSZE6qsTxC"
+      },
+      "products": [
+        {
+          "_id": "6956cfc21c508c5d5e6748b5",
+          "name": "Chips92198",
+          "amount": 974,
+          "price": 77829,
+          "manufacturer": "Sony",
+          "notes": "OWpSL7kEUSvFVt2DExH36kVK5SdVHPwXPPmTkBFrSADazpuCRtO8h9YuhDFlHiSruyD2k5uq10bxEE4OHH6uTydMdZbJy7CYIiG2gFperqoU87pecUpu5T4l9UBPi85R621F4CoD692208xed7QEuZqjnZ3mkrHldm4ZOdzZySICA62Fnjvbw1G9T5ySZu4hXqe1sZZiR25wq8l4AoxEeS5uqdbebePYuNsWM5nX4khwivrKbzbhxBBScG",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "South Jeanieville",
+          "street": "Alexandria Dale",
+          "house": 283,
+          "flat": 2049
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 77829,
+      "createdOn": "2026-01-01T19:49:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6956cfc11c508c5d5e674866",
+          "products": [
+            {
+              "_id": "6956cfc21c508c5d5e6748b5",
+              "name": "Chips92198",
+              "amount": 974,
+              "price": 77829,
+              "manufacturer": "Sony",
+              "notes": "OWpSL7kEUSvFVt2DExH36kVK5SdVHPwXPPmTkBFrSADazpuCRtO8h9YuhDFlHiSruyD2k5uq10bxEE4OHH6uTydMdZbJy7CYIiG2gFperqoU87pecUpu5T4l9UBPi85R621F4CoD692208xed7QEuZqjnZ3mkrHldm4ZOdzZySICA62Fnjvbw1G9T5ySZu4hXqe1sZZiR25wq8l4AoxEeS5uqdbebePYuNsWM5nX4khwivrKbzbhxBBScG",
+              "received": true
+            }
+          ],
+          "total_price": 77829,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "South Jeanieville",
+              "street": "Alexandria Dale",
+              "house": 283,
+              "flat": 2049
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:49:28.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6956cfc11c508c5d5e674866",
+          "products": [
+            {
+              "_id": "6956cfc21c508c5d5e6748b5",
+              "name": "Chips92198",
+              "amount": 974,
+              "price": 77829,
+              "manufacturer": "Sony",
+              "notes": "OWpSL7kEUSvFVt2DExH36kVK5SdVHPwXPPmTkBFrSADazpuCRtO8h9YuhDFlHiSruyD2k5uq10bxEE4OHH6uTydMdZbJy7CYIiG2gFperqoU87pecUpu5T4l9UBPi85R621F4CoD692208xed7QEuZqjnZ3mkrHldm4ZOdzZySICA62Fnjvbw1G9T5ySZu4hXqe1sZZiR25wq8l4AoxEeS5uqdbebePYuNsWM5nX4khwivrKbzbhxBBScG",
+              "received": false
+            }
+          ],
+          "total_price": 77829,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "South Jeanieville",
+              "street": "Alexandria Dale",
+              "house": 283,
+              "flat": 2049
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:49:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cfc11c508c5d5e674866",
+          "products": [
+            {
+              "_id": "6956cfc21c508c5d5e6748b5",
+              "name": "Chips92198",
+              "amount": 974,
+              "price": 77829,
+              "manufacturer": "Sony",
+              "notes": "OWpSL7kEUSvFVt2DExH36kVK5SdVHPwXPPmTkBFrSADazpuCRtO8h9YuhDFlHiSruyD2k5uq10bxEE4OHH6uTydMdZbJy7CYIiG2gFperqoU87pecUpu5T4l9UBPi85R621F4CoD692208xed7QEuZqjnZ3mkrHldm4ZOdzZySICA62Fnjvbw1G9T5ySZu4hXqe1sZZiR25wq8l4AoxEeS5uqdbebePYuNsWM5nX4khwivrKbzbhxBBScG",
+              "received": false
+            }
+          ],
+          "total_price": 77829,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "South Jeanieville",
+              "street": "Alexandria Dale",
+              "house": 283,
+              "flat": 2049
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:49:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cfc11c508c5d5e674866",
+          "products": [
+            {
+              "_id": "6956cfc21c508c5d5e6748b5",
+              "name": "Chips92198",
+              "amount": 974,
+              "price": 77829,
+              "manufacturer": "Sony",
+              "notes": "OWpSL7kEUSvFVt2DExH36kVK5SdVHPwXPPmTkBFrSADazpuCRtO8h9YuhDFlHiSruyD2k5uq10bxEE4OHH6uTydMdZbJy7CYIiG2gFperqoU87pecUpu5T4l9UBPi85R621F4CoD692208xed7QEuZqjnZ3mkrHldm4ZOdzZySICA62Fnjvbw1G9T5ySZu4hXqe1sZZiR25wq8l4AoxEeS5uqdbebePYuNsWM5nX4khwivrKbzbhxBBScG",
+              "received": false
+            }
+          ],
+          "total_price": 77829,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:49:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:45:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3722",
+    "etag": "W/\"e8a-Wxq6DpUsmX+Lwp10N7rfWlGu4r4\"",
+    "keep-alive": "timeout=5, max=52",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956cef01c508c5d5e66b81b",
+      "status": "In Process",
+      "customer": {
+        "_id": "6956ceef1c508c5d5e66b721",
+        "email": "Macy_White@hotmail.com",
+        "name": "Rhett Rempel",
+        "country": "France",
+        "city": "South Justinaport",
+        "street": "N Washington Street 33",
+        "house": 218,
+        "flat": 1383,
+        "phone": "+691990758334656",
+        "createdOn": "2026-01-01T19:45:51.000Z",
+        "notes": "tld3e8ouTgixS5y394pbQ94DuTIL7r"
+      },
+      "products": [
+        {
+          "_id": "6956cef01c508c5d5e66b775",
+          "name": "Chicken13660",
+          "amount": 713,
+          "price": 72749,
+          "manufacturer": "Google",
+          "notes": "ag9Xau7FdwGZEOcWIrfxTYO47msvt6btBhCNd9ofMX2LOMGIKDiMDSyoy87kAQRYzebwloXALHSq56cvuijYgs2Fg45rVxUgPs5fk4ch8wVPhSONDwGCcNtn4qkyDrrG28UeknEfKoY4zvk9sGRUHDjWA4VKnAiWW9jN5Na8lnwVmdOaZJX4LPJ6xiyeLHCfNtjW9ZBBoHv13zZEhf5UUIoTzHIbCEEWbP7248Ukpm9JqUtbo8gxAZe9la",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "South Jaden",
+          "street": "Jerde Summit",
+          "house": 113,
+          "flat": 2758
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72749,
+      "createdOn": "2026-01-01T19:45:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6956ceef1c508c5d5e66b721",
+          "products": [
+            {
+              "_id": "6956cef01c508c5d5e66b775",
+              "name": "Chicken13660",
+              "amount": 713,
+              "price": 72749,
+              "manufacturer": "Google",
+              "notes": "ag9Xau7FdwGZEOcWIrfxTYO47msvt6btBhCNd9ofMX2LOMGIKDiMDSyoy87kAQRYzebwloXALHSq56cvuijYgs2Fg45rVxUgPs5fk4ch8wVPhSONDwGCcNtn4qkyDrrG28UeknEfKoY4zvk9sGRUHDjWA4VKnAiWW9jN5Na8lnwVmdOaZJX4LPJ6xiyeLHCfNtjW9ZBBoHv13zZEhf5UUIoTzHIbCEEWbP7248Ukpm9JqUtbo8gxAZe9la",
+              "received": false
+            }
+          ],
+          "total_price": 72749,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Jaden",
+              "street": "Jerde Summit",
+              "house": 113,
+              "flat": 2758
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:45:56.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956ceef1c508c5d5e66b721",
+          "products": [
+            {
+              "_id": "6956cef01c508c5d5e66b775",
+              "name": "Chicken13660",
+              "amount": 713,
+              "price": 72749,
+              "manufacturer": "Google",
+              "notes": "ag9Xau7FdwGZEOcWIrfxTYO47msvt6btBhCNd9ofMX2LOMGIKDiMDSyoy87kAQRYzebwloXALHSq56cvuijYgs2Fg45rVxUgPs5fk4ch8wVPhSONDwGCcNtn4qkyDrrG28UeknEfKoY4zvk9sGRUHDjWA4VKnAiWW9jN5Na8lnwVmdOaZJX4LPJ6xiyeLHCfNtjW9ZBBoHv13zZEhf5UUIoTzHIbCEEWbP7248Ukpm9JqUtbo8gxAZe9la",
+              "received": false
+            }
+          ],
+          "total_price": 72749,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Jaden",
+              "street": "Jerde Summit",
+              "house": 113,
+              "flat": 2758
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:45:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956ceef1c508c5d5e66b721",
+          "products": [
+            {
+              "_id": "6956cef01c508c5d5e66b775",
+              "name": "Chicken13660",
+              "amount": 713,
+              "price": 72749,
+              "manufacturer": "Google",
+              "notes": "ag9Xau7FdwGZEOcWIrfxTYO47msvt6btBhCNd9ofMX2LOMGIKDiMDSyoy87kAQRYzebwloXALHSq56cvuijYgs2Fg45rVxUgPs5fk4ch8wVPhSONDwGCcNtn4qkyDrrG28UeknEfKoY4zvk9sGRUHDjWA4VKnAiWW9jN5Na8lnwVmdOaZJX4LPJ6xiyeLHCfNtjW9ZBBoHv13zZEhf5UUIoTzHIbCEEWbP7248Ukpm9JqUtbo8gxAZe9la",
+              "received": false
+            }
+          ],
+          "total_price": 72749,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:45:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:48:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4267",
+    "etag": "W/\"10ab-dDyULzeBHlfaYEdMpKagofDgbI4\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956cf8a1c508c5d5e67200a",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956cf881c508c5d5e671e2a",
+        "email": "Rita_Gulgowski@gmail.com",
+        "name": "Bailee Mohr",
+        "country": "USA",
+        "city": "Fort Wilfridburgh",
+        "street": "Borer Forge 92",
+        "house": 176,
+        "flat": 9016,
+        "phone": "+372631456604025",
+        "createdOn": "2026-01-01T19:48:24.000Z",
+        "notes": "g5XHe7vHB6s3UbhAouZeONxcT77oBf"
+      },
+      "products": [
+        {
+          "_id": "6956cf891c508c5d5e671f1c",
+          "name": "Shirt22388",
+          "amount": 114,
+          "price": 73961,
+          "manufacturer": "Google",
+          "notes": "r2ZdW43orLqDNzq2jo8HAbvLPsk9SUI7UcvJfEgGieVH052UOfxVqUIX2qmsX8iRnBJZ0XkT62GECsoMFNclO9xyo2pcEGHbCgDsCALtGEm3LvRCndc5yNIL6FV9vcrkNgdmnlnxlR05XgVQZ51UM1oxQP64u1PyKJgRszHMEUOV9I5uYjG6KYRnPClqW539tdJRliQ1kKciwgOkSaswZ3XxDLG9zQjwOu7BM7hETUSNtQDl0Uwl9JFS25",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 73961,
+      "createdOn": "2026-01-01T19:48:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956cf881c508c5d5e671e2a",
+          "products": [
+            {
+              "_id": "6956cf891c508c5d5e671f1c",
+              "name": "Shirt22388",
+              "amount": 114,
+              "price": 73961,
+              "manufacturer": "Google",
+              "notes": "r2ZdW43orLqDNzq2jo8HAbvLPsk9SUI7UcvJfEgGieVH052UOfxVqUIX2qmsX8iRnBJZ0XkT62GECsoMFNclO9xyo2pcEGHbCgDsCALtGEm3LvRCndc5yNIL6FV9vcrkNgdmnlnxlR05XgVQZ51UM1oxQP64u1PyKJgRszHMEUOV9I5uYjG6KYRnPClqW539tdJRliQ1kKciwgOkSaswZ3XxDLG9zQjwOu7BM7hETUSNtQDl0Uwl9JFS25",
+              "received": false
+            }
+          ],
+          "total_price": 73961,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:48:30.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "6956cf881c508c5d5e671e2a",
+          "products": [
+            {
+              "_id": "6956cf891c508c5d5e671f1c",
+              "name": "Shirt22388",
+              "amount": 114,
+              "price": 73961,
+              "manufacturer": "Google",
+              "notes": "r2ZdW43orLqDNzq2jo8HAbvLPsk9SUI7UcvJfEgGieVH052UOfxVqUIX2qmsX8iRnBJZ0XkT62GECsoMFNclO9xyo2pcEGHbCgDsCALtGEm3LvRCndc5yNIL6FV9vcrkNgdmnlnxlR05XgVQZ51UM1oxQP64u1PyKJgRszHMEUOV9I5uYjG6KYRnPClqW539tdJRliQ1kKciwgOkSaswZ3XxDLG9zQjwOu7BM7hETUSNtQDl0Uwl9JFS25",
+              "received": false
+            }
+          ],
+          "total_price": 73961,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Timothyport",
+              "street": "Spruce Street",
+              "house": 98,
+              "flat": 509
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:48:28.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cf881c508c5d5e671e2a",
+          "products": [
+            {
+              "_id": "6956cf891c508c5d5e671f1c",
+              "name": "Shirt22388",
+              "amount": 114,
+              "price": 73961,
+              "manufacturer": "Google",
+              "notes": "r2ZdW43orLqDNzq2jo8HAbvLPsk9SUI7UcvJfEgGieVH052UOfxVqUIX2qmsX8iRnBJZ0XkT62GECsoMFNclO9xyo2pcEGHbCgDsCALtGEm3LvRCndc5yNIL6FV9vcrkNgdmnlnxlR05XgVQZ51UM1oxQP64u1PyKJgRszHMEUOV9I5uYjG6KYRnPClqW539tdJRliQ1kKciwgOkSaswZ3XxDLG9zQjwOu7BM7hETUSNtQDl0Uwl9JFS25",
+              "received": false
+            }
+          ],
+          "total_price": 73961,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Timothyport",
+              "street": "Spruce Street",
+              "house": 98,
+              "flat": 509
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:48:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cf881c508c5d5e671e2a",
+          "products": [
+            {
+              "_id": "6956cf891c508c5d5e671f1c",
+              "name": "Shirt22388",
+              "amount": 114,
+              "price": 73961,
+              "manufacturer": "Google",
+              "notes": "r2ZdW43orLqDNzq2jo8HAbvLPsk9SUI7UcvJfEgGieVH052UOfxVqUIX2qmsX8iRnBJZ0XkT62GECsoMFNclO9xyo2pcEGHbCgDsCALtGEm3LvRCndc5yNIL6FV9vcrkNgdmnlnxlR05XgVQZ51UM1oxQP64u1PyKJgRszHMEUOV9I5uYjG6KYRnPClqW539tdJRliQ1kKciwgOkSaswZ3XxDLG9zQjwOu7BM7hETUSNtQDl0Uwl9JFS25",
+              "received": false
+            }
+          ],
+          "total_price": 73961,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:48:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

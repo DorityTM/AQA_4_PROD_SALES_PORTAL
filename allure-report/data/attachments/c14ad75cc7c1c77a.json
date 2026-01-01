@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:44:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2765",
+    "etag": "W/\"acd-hmwn4gcEXcG1zjHrtUxRGPjQ2Pw\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956cea51c508c5d5e6688ff",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956cea21c508c5d5e6686ae",
+        "email": "Julian10@gmail.com",
+        "name": "Serena Legros",
+        "country": "Canada",
+        "city": "Floriancester",
+        "street": "Murl Throughway 91",
+        "house": 469,
+        "flat": 2361,
+        "phone": "+823849553815757",
+        "createdOn": "2026-01-01T19:44:34.000Z",
+        "notes": "9spHrHWUpfNQW80GZRarAiCuhgZxiv"
+      },
+      "products": [
+        {
+          "_id": "6956cea31c508c5d5e6687d3",
+          "name": "Computer41062",
+          "amount": 951,
+          "price": 90973,
+          "manufacturer": "Tesla",
+          "notes": "UQjajKf0wHNBRgLnj9oGnoJvk5M4qbuZdYZ13tbeAeNJPMzqsNHeKP5dF4U1rgasputIq5OVhzrVg0gbGaiBqKICreCGOncUtv7O1fwf1j6Ty1F5yN6puaNFawOC0KAKcfvhPEDPOAr9cbDpFjQ8uyrSQevZeySFG5TbnNPJIgWor89yk7aqpUGO0wZHIpnaghC9bkX3Q40OnzZ3m5T8LN4vXOzTZZ6PZKg0EvWgbEhcZ787vpJXYvazbM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Rutherfordstead",
+          "street": "Schultz Fork",
+          "house": 490,
+          "flat": 6824
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 90973,
+      "createdOn": "2026-01-01T19:44:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956cea21c508c5d5e6686ae",
+          "products": [
+            {
+              "_id": "6956cea31c508c5d5e6687d3",
+              "name": "Computer41062",
+              "amount": 951,
+              "price": 90973,
+              "manufacturer": "Tesla",
+              "notes": "UQjajKf0wHNBRgLnj9oGnoJvk5M4qbuZdYZ13tbeAeNJPMzqsNHeKP5dF4U1rgasputIq5OVhzrVg0gbGaiBqKICreCGOncUtv7O1fwf1j6Ty1F5yN6puaNFawOC0KAKcfvhPEDPOAr9cbDpFjQ8uyrSQevZeySFG5TbnNPJIgWor89yk7aqpUGO0wZHIpnaghC9bkX3Q40OnzZ3m5T8LN4vXOzTZZ6PZKg0EvWgbEhcZ787vpJXYvazbM",
+              "received": false
+            }
+          ],
+          "total_price": 90973,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Rutherfordstead",
+              "street": "Schultz Fork",
+              "house": 490,
+              "flat": 6824
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:44:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cea21c508c5d5e6686ae",
+          "products": [
+            {
+              "_id": "6956cea31c508c5d5e6687d3",
+              "name": "Computer41062",
+              "amount": 951,
+              "price": 90973,
+              "manufacturer": "Tesla",
+              "notes": "UQjajKf0wHNBRgLnj9oGnoJvk5M4qbuZdYZ13tbeAeNJPMzqsNHeKP5dF4U1rgasputIq5OVhzrVg0gbGaiBqKICreCGOncUtv7O1fwf1j6Ty1F5yN6puaNFawOC0KAKcfvhPEDPOAr9cbDpFjQ8uyrSQevZeySFG5TbnNPJIgWor89yk7aqpUGO0wZHIpnaghC9bkX3Q40OnzZ3m5T8LN4vXOzTZZ6PZKg0EvWgbEhcZ787vpJXYvazbM",
+              "received": false
+            }
+          ],
+          "total_price": 90973,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:44:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

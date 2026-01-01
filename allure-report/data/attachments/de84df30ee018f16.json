@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:45:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3664",
+    "etag": "W/\"e50-dAmWHWtdHiyzTe+6FN/d1ThNKi8\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956ced91c508c5d5e66a98f",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6956ced71c508c5d5e66a87d",
+        "email": "Constantin.Hammes@gmail.com",
+        "name": "Ashton Kunze",
+        "country": "Belarus",
+        "city": "East Tyrel",
+        "street": "Aidan Hollow 92",
+        "house": 288,
+        "flat": 9498,
+        "phone": "+215698699386954",
+        "createdOn": "2026-01-01T19:45:27.000Z",
+        "notes": "qNeat0PsjEH2k2LC0zMLmzw1eUEouc"
+      },
+      "products": [
+        {
+          "_id": "6956ced81c508c5d5e66a92d",
+          "name": "Pants53624",
+          "amount": 363,
+          "price": 60766,
+          "manufacturer": "Apple",
+          "notes": "i0Tn2xpfwhRsgcGh6RPi8AC3VYpBzAEsbP5vglqSdtJtBkOd6d1pDoUQIaTStkoDfmMopR2Lwszam1fZRm7w9V7ytmWi0jSkgzasLa5bVVwd7hBu7qDDQxevQv1wFvw5P5IitlMs2lehIn6YAEDYYz95FpnNYNuGX8A4cl7qAZ7wFXdNWTU9sMqN6IZ3cmG23Rz3UT1sMcWqOcdr53ev8jlHY7Phhdsw4TygsuNAiHnqBQKLk00dwd6frM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Chanellestad",
+          "street": "Cedar Grove",
+          "house": 725,
+          "flat": 430
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 60766,
+      "createdOn": "2026-01-01T19:45:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6956ced71c508c5d5e66a87d",
+          "products": [
+            {
+              "_id": "6956ced81c508c5d5e66a92d",
+              "name": "Pants53624",
+              "amount": 363,
+              "price": 60766,
+              "manufacturer": "Apple",
+              "notes": "i0Tn2xpfwhRsgcGh6RPi8AC3VYpBzAEsbP5vglqSdtJtBkOd6d1pDoUQIaTStkoDfmMopR2Lwszam1fZRm7w9V7ytmWi0jSkgzasLa5bVVwd7hBu7qDDQxevQv1wFvw5P5IitlMs2lehIn6YAEDYYz95FpnNYNuGX8A4cl7qAZ7wFXdNWTU9sMqN6IZ3cmG23Rz3UT1sMcWqOcdr53ev8jlHY7Phhdsw4TygsuNAiHnqBQKLk00dwd6frM",
+              "received": false
+            }
+          ],
+          "total_price": 60766,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Chanellestad",
+              "street": "Cedar Grove",
+              "house": 725,
+              "flat": 430
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:45:31.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956ced71c508c5d5e66a87d",
+          "products": [
+            {
+              "_id": "6956ced81c508c5d5e66a92d",
+              "name": "Pants53624",
+              "amount": 363,
+              "price": 60766,
+              "manufacturer": "Apple",
+              "notes": "i0Tn2xpfwhRsgcGh6RPi8AC3VYpBzAEsbP5vglqSdtJtBkOd6d1pDoUQIaTStkoDfmMopR2Lwszam1fZRm7w9V7ytmWi0jSkgzasLa5bVVwd7hBu7qDDQxevQv1wFvw5P5IitlMs2lehIn6YAEDYYz95FpnNYNuGX8A4cl7qAZ7wFXdNWTU9sMqN6IZ3cmG23Rz3UT1sMcWqOcdr53ev8jlHY7Phhdsw4TygsuNAiHnqBQKLk00dwd6frM",
+              "received": false
+            }
+          ],
+          "total_price": 60766,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Chanellestad",
+              "street": "Cedar Grove",
+              "house": 725,
+              "flat": 430
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:45:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956ced71c508c5d5e66a87d",
+          "products": [
+            {
+              "_id": "6956ced81c508c5d5e66a92d",
+              "name": "Pants53624",
+              "amount": 363,
+              "price": 60766,
+              "manufacturer": "Apple",
+              "notes": "i0Tn2xpfwhRsgcGh6RPi8AC3VYpBzAEsbP5vglqSdtJtBkOd6d1pDoUQIaTStkoDfmMopR2Lwszam1fZRm7w9V7ytmWi0jSkgzasLa5bVVwd7hBu7qDDQxevQv1wFvw5P5IitlMs2lehIn6YAEDYYz95FpnNYNuGX8A4cl7qAZ7wFXdNWTU9sMqN6IZ3cmG23Rz3UT1sMcWqOcdr53ev8jlHY7Phhdsw4TygsuNAiHnqBQKLk00dwd6frM",
+              "received": false
+            }
+          ],
+          "total_price": 60766,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:45:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

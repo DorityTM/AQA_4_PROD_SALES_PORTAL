@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:44:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5250",
+    "etag": "W/\"1482-KSnxvXQM+8Rh0PM21cW7RJPxDv8\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956ceb71c508c5d5e6694c5",
+      "status": "In Process",
+      "customer": {
+        "_id": "6956ceb31c508c5d5e6691af",
+        "email": "Bernardo.Braun@gmail.com",
+        "name": "Skyla Jast",
+        "country": "Canada",
+        "city": "Jermaineboro",
+        "street": "Millie Trail 66",
+        "house": 117,
+        "flat": 1640,
+        "phone": "+132279480913204",
+        "createdOn": "2026-01-01T19:44:51.000Z",
+        "notes": "Z0Ee3PYyLZlVA9k1ACAHvw2vidPfUJ"
+      },
+      "products": [
+        {
+          "_id": "6956ceb41c508c5d5e66925f",
+          "name": "Shirt54029",
+          "amount": 554,
+          "price": 98714,
+          "manufacturer": "Google",
+          "notes": "3dmmcRyP0FOrxRXTGSwIRQlEpnjh7bl3pWSdr3il7JU2gAqgttUKfc6xG5PnofAZAPqXX8wCFhnOOVF9aUkbGjmhacrXmG5ED2aLb8CV16FHJXdcq1wYYUs2nSwwyNfsWkKFh0LHDkwrD9jAlbPOPEfk5oesgVT2Yk22UdqcDj2bh5Eur6nhSypym5sZGsygVnn9tuU2M5w8Wr2JgkWYZ4K60bL0yTpD7k62aKDJXO1xIZMipa4esX080R",
+          "received": false
+        },
+        {
+          "_id": "6956ceb51c508c5d5e6692a5",
+          "name": "Soap72100",
+          "amount": 825,
+          "price": 12944,
+          "manufacturer": "Microsoft",
+          "notes": "YsrYvief2o2g2KxJAvAwrTLz301T74k6fG7NOuffBS73v6gNr3GMLoe1Qje1298wR4IfJ8reZ2am3YbnUnFn1k2VdaYYoh1Otl7FefjuIRwIUGy5jd0g3FD4exeqgfnrta8I1o7WDmQmNKjSO1MSyXeLzNC0mtkMGm0CKhKTqx3Ab1GHHqy1Wd692ZXoSljMd1ofcCwandS1VksC4exlkq88dPFPr1NAqfUTHG4nOAE7R4dOnL1NyIOCtu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "West Santosview",
+          "street": "Chestnut Street",
+          "house": 270,
+          "flat": 9608
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 111658,
+      "createdOn": "2026-01-01T19:44:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6956ceb31c508c5d5e6691af",
+          "products": [
+            {
+              "_id": "6956ceb41c508c5d5e66925f",
+              "name": "Shirt54029",
+              "amount": 554,
+              "price": 98714,
+              "manufacturer": "Google",
+              "notes": "3dmmcRyP0FOrxRXTGSwIRQlEpnjh7bl3pWSdr3il7JU2gAqgttUKfc6xG5PnofAZAPqXX8wCFhnOOVF9aUkbGjmhacrXmG5ED2aLb8CV16FHJXdcq1wYYUs2nSwwyNfsWkKFh0LHDkwrD9jAlbPOPEfk5oesgVT2Yk22UdqcDj2bh5Eur6nhSypym5sZGsygVnn9tuU2M5w8Wr2JgkWYZ4K60bL0yTpD7k62aKDJXO1xIZMipa4esX080R",
+              "received": false
+            },
+            {
+              "_id": "6956ceb51c508c5d5e6692a5",
+              "name": "Soap72100",
+              "amount": 825,
+              "price": 12944,
+              "manufacturer": "Microsoft",
+              "notes": "YsrYvief2o2g2KxJAvAwrTLz301T74k6fG7NOuffBS73v6gNr3GMLoe1Qje1298wR4IfJ8reZ2am3YbnUnFn1k2VdaYYoh1Otl7FefjuIRwIUGy5jd0g3FD4exeqgfnrta8I1o7WDmQmNKjSO1MSyXeLzNC0mtkMGm0CKhKTqx3Ab1GHHqy1Wd692ZXoSljMd1ofcCwandS1VksC4exlkq88dPFPr1NAqfUTHG4nOAE7R4dOnL1NyIOCtu",
+              "received": false
+            }
+          ],
+          "total_price": 111658,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Santosview",
+              "street": "Chestnut Street",
+              "house": 270,
+              "flat": 9608
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:44:57.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956ceb31c508c5d5e6691af",
+          "products": [
+            {
+              "_id": "6956ceb41c508c5d5e66925f",
+              "name": "Shirt54029",
+              "amount": 554,
+              "price": 98714,
+              "manufacturer": "Google",
+              "notes": "3dmmcRyP0FOrxRXTGSwIRQlEpnjh7bl3pWSdr3il7JU2gAqgttUKfc6xG5PnofAZAPqXX8wCFhnOOVF9aUkbGjmhacrXmG5ED2aLb8CV16FHJXdcq1wYYUs2nSwwyNfsWkKFh0LHDkwrD9jAlbPOPEfk5oesgVT2Yk22UdqcDj2bh5Eur6nhSypym5sZGsygVnn9tuU2M5w8Wr2JgkWYZ4K60bL0yTpD7k62aKDJXO1xIZMipa4esX080R",
+              "received": false
+            },
+            {
+              "_id": "6956ceb51c508c5d5e6692a5",
+              "name": "Soap72100",
+              "amount": 825,
+              "price": 12944,
+              "manufacturer": "Microsoft",
+              "notes": "YsrYvief2o2g2KxJAvAwrTLz301T74k6fG7NOuffBS73v6gNr3GMLoe1Qje1298wR4IfJ8reZ2am3YbnUnFn1k2VdaYYoh1Otl7FefjuIRwIUGy5jd0g3FD4exeqgfnrta8I1o7WDmQmNKjSO1MSyXeLzNC0mtkMGm0CKhKTqx3Ab1GHHqy1Wd692ZXoSljMd1ofcCwandS1VksC4exlkq88dPFPr1NAqfUTHG4nOAE7R4dOnL1NyIOCtu",
+              "received": false
+            }
+          ],
+          "total_price": 111658,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Santosview",
+              "street": "Chestnut Street",
+              "house": 270,
+              "flat": 9608
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:44:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956ceb31c508c5d5e6691af",
+          "products": [
+            {
+              "_id": "6956ceb41c508c5d5e66925f",
+              "name": "Shirt54029",
+              "amount": 554,
+              "price": 98714,
+              "manufacturer": "Google",
+              "notes": "3dmmcRyP0FOrxRXTGSwIRQlEpnjh7bl3pWSdr3il7JU2gAqgttUKfc6xG5PnofAZAPqXX8wCFhnOOVF9aUkbGjmhacrXmG5ED2aLb8CV16FHJXdcq1wYYUs2nSwwyNfsWkKFh0LHDkwrD9jAlbPOPEfk5oesgVT2Yk22UdqcDj2bh5Eur6nhSypym5sZGsygVnn9tuU2M5w8Wr2JgkWYZ4K60bL0yTpD7k62aKDJXO1xIZMipa4esX080R",
+              "received": false
+            },
+            {
+              "_id": "6956ceb51c508c5d5e6692a5",
+              "name": "Soap72100",
+              "amount": 825,
+              "price": 12944,
+              "manufacturer": "Microsoft",
+              "notes": "YsrYvief2o2g2KxJAvAwrTLz301T74k6fG7NOuffBS73v6gNr3GMLoe1Qje1298wR4IfJ8reZ2am3YbnUnFn1k2VdaYYoh1Otl7FefjuIRwIUGy5jd0g3FD4exeqgfnrta8I1o7WDmQmNKjSO1MSyXeLzNC0mtkMGm0CKhKTqx3Ab1GHHqy1Wd692ZXoSljMd1ofcCwandS1VksC4exlkq88dPFPr1NAqfUTHG4nOAE7R4dOnL1NyIOCtu",
+              "received": false
+            }
+          ],
+          "total_price": 111658,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:44:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

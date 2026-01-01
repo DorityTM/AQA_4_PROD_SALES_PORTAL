@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:56:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3708",
+    "etag": "W/\"e7c-5N1pFs4GECOHJ4tlkkiWeZFuma0\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d1611c508c5d5e685e84",
+      "status": "In Process",
+      "customer": {
+        "_id": "6956d1601c508c5d5e685df9",
+        "email": "Alexandro.Wuckert@yahoo.com",
+        "name": "Maximilian Vandervort",
+        "country": "Belarus",
+        "city": "Schusterfort",
+        "street": "Zboncak Mall 80",
+        "house": 300,
+        "flat": 6554,
+        "phone": "+901650813330570",
+        "createdOn": "2026-01-01T19:56:16.000Z",
+        "notes": "1YDnwWuqJuoFm6VfkpgPP70Bu2vmZN"
+      },
+      "products": [
+        {
+          "_id": "6956d1611c508c5d5e685e56",
+          "name": "Salad73250",
+          "amount": 197,
+          "price": 36705,
+          "manufacturer": "Xiaomi",
+          "notes": "tl1q2zND6Js79i8Z50BbDsk0oPClrwZRMLA0gCNLun4Gt7P2VP6PLQDtizVYXG3kUocC38I0rVusbuWpemXSaWtBzxvbScEJ5EhNKVs3ugMhEx9iIw4YCPGrAtMZmUl1vk73vOVOxjr2S3Ncg2KbCD5yR5KxVuF5zh9EvnDe2N3aHnA8WmqFEyo6gXK5hn7sbL3SLovnd80u3Vjpea8uz6iuBVybgZdR1y9i8637U6vM1ZvHQLjyDpSBk8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Hipolitoborough",
+          "street": "Chase Skyway",
+          "house": 710,
+          "flat": 3214
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 36705,
+      "createdOn": "2026-01-01T19:56:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6956d1601c508c5d5e685df9",
+          "products": [
+            {
+              "_id": "6956d1611c508c5d5e685e56",
+              "name": "Salad73250",
+              "amount": 197,
+              "price": 36705,
+              "manufacturer": "Xiaomi",
+              "notes": "tl1q2zND6Js79i8Z50BbDsk0oPClrwZRMLA0gCNLun4Gt7P2VP6PLQDtizVYXG3kUocC38I0rVusbuWpemXSaWtBzxvbScEJ5EhNKVs3ugMhEx9iIw4YCPGrAtMZmUl1vk73vOVOxjr2S3Ncg2KbCD5yR5KxVuF5zh9EvnDe2N3aHnA8WmqFEyo6gXK5hn7sbL3SLovnd80u3Vjpea8uz6iuBVybgZdR1y9i8637U6vM1ZvHQLjyDpSBk8",
+              "received": false
+            }
+          ],
+          "total_price": 36705,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Hipolitoborough",
+              "street": "Chase Skyway",
+              "house": 710,
+              "flat": 3214
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:56:20.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1601c508c5d5e685df9",
+          "products": [
+            {
+              "_id": "6956d1611c508c5d5e685e56",
+              "name": "Salad73250",
+              "amount": 197,
+              "price": 36705,
+              "manufacturer": "Xiaomi",
+              "notes": "tl1q2zND6Js79i8Z50BbDsk0oPClrwZRMLA0gCNLun4Gt7P2VP6PLQDtizVYXG3kUocC38I0rVusbuWpemXSaWtBzxvbScEJ5EhNKVs3ugMhEx9iIw4YCPGrAtMZmUl1vk73vOVOxjr2S3Ncg2KbCD5yR5KxVuF5zh9EvnDe2N3aHnA8WmqFEyo6gXK5hn7sbL3SLovnd80u3Vjpea8uz6iuBVybgZdR1y9i8637U6vM1ZvHQLjyDpSBk8",
+              "received": false
+            }
+          ],
+          "total_price": 36705,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Hipolitoborough",
+              "street": "Chase Skyway",
+              "house": 710,
+              "flat": 3214
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:56:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1601c508c5d5e685df9",
+          "products": [
+            {
+              "_id": "6956d1611c508c5d5e685e56",
+              "name": "Salad73250",
+              "amount": 197,
+              "price": 36705,
+              "manufacturer": "Xiaomi",
+              "notes": "tl1q2zND6Js79i8Z50BbDsk0oPClrwZRMLA0gCNLun4Gt7P2VP6PLQDtizVYXG3kUocC38I0rVusbuWpemXSaWtBzxvbScEJ5EhNKVs3ugMhEx9iIw4YCPGrAtMZmUl1vk73vOVOxjr2S3Ncg2KbCD5yR5KxVuF5zh9EvnDe2N3aHnA8WmqFEyo6gXK5hn7sbL3SLovnd80u3Vjpea8uz6iuBVybgZdR1y9i8637U6vM1ZvHQLjyDpSBk8",
+              "received": false
+            }
+          ],
+          "total_price": 36705,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:56:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
