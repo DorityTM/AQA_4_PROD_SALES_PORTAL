@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:55:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3689",
+    "etag": "W/\"e69-MYVEqh88XxTiMokwFeR+LCwzF6Q\"",
+    "keep-alive": "timeout=5, max=45",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566ec01c508c5d5e63b77e",
+      "status": "In Process",
+      "customer": {
+        "_id": "69566ebf1c508c5d5e63b751",
+        "email": "Jamie_Bogan@yahoo.com",
+        "name": "Carlee Jones",
+        "country": "Canada",
+        "city": "Haleyview",
+        "street": "Kacie River 30",
+        "house": 124,
+        "flat": 6234,
+        "phone": "+310674239654609",
+        "createdOn": "2026-01-01T12:55:27.000Z",
+        "notes": "SRdSF1eGcX9H4DjmszEx1k9qhyzra1"
+      },
+      "products": [
+        {
+          "_id": "69566ec01c508c5d5e63b76a",
+          "name": "Chair8050",
+          "amount": 744,
+          "price": 57051,
+          "manufacturer": "Apple",
+          "notes": "z2RZlnjK3X4B6XdSv0kiiGWvP1CImYA0wZXa69EWXc5Y97zrBVdxjlv7PaYKkfQ6kcq95sPlftKPebcR3HJsVFmjFRZXGqPFgAIZkWOZCdLVLOQkZkZ5eEbdZnhjWmG2cAg1BA2qRvSn2JB07WWe8yb7AEMmfOsg3qu3vZZbIW6nFQFn4jNDxdvKPjnbfKssnwTi27dDE7a0OknFVF6ZXwy51O3jhR7oU1HSMi7Bk6WWOCLnG84sZa9mH7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Willmsview",
+          "street": "Schmeler Pike",
+          "house": 557,
+          "flat": 1734
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 57051,
+      "createdOn": "2026-01-01T12:55:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69566ebf1c508c5d5e63b751",
+          "products": [
+            {
+              "_id": "69566ec01c508c5d5e63b76a",
+              "name": "Chair8050",
+              "amount": 744,
+              "price": 57051,
+              "manufacturer": "Apple",
+              "notes": "z2RZlnjK3X4B6XdSv0kiiGWvP1CImYA0wZXa69EWXc5Y97zrBVdxjlv7PaYKkfQ6kcq95sPlftKPebcR3HJsVFmjFRZXGqPFgAIZkWOZCdLVLOQkZkZ5eEbdZnhjWmG2cAg1BA2qRvSn2JB07WWe8yb7AEMmfOsg3qu3vZZbIW6nFQFn4jNDxdvKPjnbfKssnwTi27dDE7a0OknFVF6ZXwy51O3jhR7oU1HSMi7Bk6WWOCLnG84sZa9mH7",
+              "received": false
+            }
+          ],
+          "total_price": 57051,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Willmsview",
+              "street": "Schmeler Pike",
+              "house": 557,
+              "flat": 1734
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:55:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566ebf1c508c5d5e63b751",
+          "products": [
+            {
+              "_id": "69566ec01c508c5d5e63b76a",
+              "name": "Chair8050",
+              "amount": 744,
+              "price": 57051,
+              "manufacturer": "Apple",
+              "notes": "z2RZlnjK3X4B6XdSv0kiiGWvP1CImYA0wZXa69EWXc5Y97zrBVdxjlv7PaYKkfQ6kcq95sPlftKPebcR3HJsVFmjFRZXGqPFgAIZkWOZCdLVLOQkZkZ5eEbdZnhjWmG2cAg1BA2qRvSn2JB07WWe8yb7AEMmfOsg3qu3vZZbIW6nFQFn4jNDxdvKPjnbfKssnwTi27dDE7a0OknFVF6ZXwy51O3jhR7oU1HSMi7Bk6WWOCLnG84sZa9mH7",
+              "received": false
+            }
+          ],
+          "total_price": 57051,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Willmsview",
+              "street": "Schmeler Pike",
+              "house": 557,
+              "flat": 1734
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:55:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566ebf1c508c5d5e63b751",
+          "products": [
+            {
+              "_id": "69566ec01c508c5d5e63b76a",
+              "name": "Chair8050",
+              "amount": 744,
+              "price": 57051,
+              "manufacturer": "Apple",
+              "notes": "z2RZlnjK3X4B6XdSv0kiiGWvP1CImYA0wZXa69EWXc5Y97zrBVdxjlv7PaYKkfQ6kcq95sPlftKPebcR3HJsVFmjFRZXGqPFgAIZkWOZCdLVLOQkZkZ5eEbdZnhjWmG2cAg1BA2qRvSn2JB07WWe8yb7AEMmfOsg3qu3vZZbIW6nFQFn4jNDxdvKPjnbfKssnwTi27dDE7a0OknFVF6ZXwy51O3jhR7oU1HSMi7Bk6WWOCLnG84sZa9mH7",
+              "received": false
+            }
+          ],
+          "total_price": 57051,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:55:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

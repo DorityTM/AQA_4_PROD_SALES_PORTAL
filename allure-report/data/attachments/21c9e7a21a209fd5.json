@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:03:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4637",
+    "etag": "W/\"121d-slqeP7uTjs6IY/3fPYhYpEDCc9E\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695670991c508c5d5e64dde3",
+      "status": "Received",
+      "customer": {
+        "_id": "695670971c508c5d5e64dcaa",
+        "email": "Jessica_Dare79@gmail.com",
+        "name": "Macy Lindgren",
+        "country": "Ukraine",
+        "city": "Karlfield",
+        "street": "Conroy Harbors 45",
+        "house": 81,
+        "flat": 1633,
+        "phone": "+137380352406425",
+        "createdOn": "2026-01-01T13:03:19.000Z",
+        "notes": "PgmWtKHVjM34XPmCu9OcQi2xjaNIZb"
+      },
+      "products": [
+        {
+          "_id": "695670981c508c5d5e64dd0a",
+          "name": "Chair98146",
+          "amount": 750,
+          "price": 94740,
+          "manufacturer": "Microsoft",
+          "notes": "gPEdxQ9dyLLJ9hyDmJi5YRJqnDtDbHcIUNp01RM6IzgthTtzCXhc9FcQO5aqJM6svEP9p9Ptrt5PG4y6AOgYmeFksW82dmbw0PsdVHslCP7frUFu0ghEZdXETkVZMnzoNAE6Lx5TTGz1Shf3qZVs4X6zycVXJAPKQhQPy06mztHvRf4OCbxaI8gDoYaZcjSzq0EabIyWld1su96DnZWf942GsuPta6zQrGlsJMuEOqbwfxW2rJ8ol8xfyv",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "New Eltacester",
+          "street": "Letitia Plains",
+          "house": 728,
+          "flat": 2711
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 94740,
+      "createdOn": "2026-01-01T13:03:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695670971c508c5d5e64dcaa",
+          "products": [
+            {
+              "_id": "695670981c508c5d5e64dd0a",
+              "name": "Chair98146",
+              "amount": 750,
+              "price": 94740,
+              "manufacturer": "Microsoft",
+              "notes": "gPEdxQ9dyLLJ9hyDmJi5YRJqnDtDbHcIUNp01RM6IzgthTtzCXhc9FcQO5aqJM6svEP9p9Ptrt5PG4y6AOgYmeFksW82dmbw0PsdVHslCP7frUFu0ghEZdXETkVZMnzoNAE6Lx5TTGz1Shf3qZVs4X6zycVXJAPKQhQPy06mztHvRf4OCbxaI8gDoYaZcjSzq0EabIyWld1su96DnZWf942GsuPta6zQrGlsJMuEOqbwfxW2rJ8ol8xfyv",
+              "received": true
+            }
+          ],
+          "total_price": 94740,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Eltacester",
+              "street": "Letitia Plains",
+              "house": 728,
+              "flat": 2711
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:03:28.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695670971c508c5d5e64dcaa",
+          "products": [
+            {
+              "_id": "695670981c508c5d5e64dd0a",
+              "name": "Chair98146",
+              "amount": 750,
+              "price": 94740,
+              "manufacturer": "Microsoft",
+              "notes": "gPEdxQ9dyLLJ9hyDmJi5YRJqnDtDbHcIUNp01RM6IzgthTtzCXhc9FcQO5aqJM6svEP9p9Ptrt5PG4y6AOgYmeFksW82dmbw0PsdVHslCP7frUFu0ghEZdXETkVZMnzoNAE6Lx5TTGz1Shf3qZVs4X6zycVXJAPKQhQPy06mztHvRf4OCbxaI8gDoYaZcjSzq0EabIyWld1su96DnZWf942GsuPta6zQrGlsJMuEOqbwfxW2rJ8ol8xfyv",
+              "received": false
+            }
+          ],
+          "total_price": 94740,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Eltacester",
+              "street": "Letitia Plains",
+              "house": 728,
+              "flat": 2711
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:03:24.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695670971c508c5d5e64dcaa",
+          "products": [
+            {
+              "_id": "695670981c508c5d5e64dd0a",
+              "name": "Chair98146",
+              "amount": 750,
+              "price": 94740,
+              "manufacturer": "Microsoft",
+              "notes": "gPEdxQ9dyLLJ9hyDmJi5YRJqnDtDbHcIUNp01RM6IzgthTtzCXhc9FcQO5aqJM6svEP9p9Ptrt5PG4y6AOgYmeFksW82dmbw0PsdVHslCP7frUFu0ghEZdXETkVZMnzoNAE6Lx5TTGz1Shf3qZVs4X6zycVXJAPKQhQPy06mztHvRf4OCbxaI8gDoYaZcjSzq0EabIyWld1su96DnZWf942GsuPta6zQrGlsJMuEOqbwfxW2rJ8ol8xfyv",
+              "received": false
+            }
+          ],
+          "total_price": 94740,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Eltacester",
+              "street": "Letitia Plains",
+              "house": 728,
+              "flat": 2711
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:03:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695670971c508c5d5e64dcaa",
+          "products": [
+            {
+              "_id": "695670981c508c5d5e64dd0a",
+              "name": "Chair98146",
+              "amount": 750,
+              "price": 94740,
+              "manufacturer": "Microsoft",
+              "notes": "gPEdxQ9dyLLJ9hyDmJi5YRJqnDtDbHcIUNp01RM6IzgthTtzCXhc9FcQO5aqJM6svEP9p9Ptrt5PG4y6AOgYmeFksW82dmbw0PsdVHslCP7frUFu0ghEZdXETkVZMnzoNAE6Lx5TTGz1Shf3qZVs4X6zycVXJAPKQhQPy06mztHvRf4OCbxaI8gDoYaZcjSzq0EabIyWld1su96DnZWf942GsuPta6zQrGlsJMuEOqbwfxW2rJ8ol8xfyv",
+              "received": false
+            }
+          ],
+          "total_price": 94740,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:03:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

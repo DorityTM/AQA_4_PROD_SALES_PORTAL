@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:02:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3643",
+    "etag": "W/\"e3b-59gUAcYS+/eEFin3ZKoQr2Pgmg8\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695670541c508c5d5e64b095",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695670531c508c5d5e64b03f",
+        "email": "Peter67@yahoo.com",
+        "name": "Lilyan Kohler",
+        "country": "USA",
+        "city": "Littleton",
+        "street": "Lueilwitz Cape 79",
+        "house": 707,
+        "flat": 2461,
+        "phone": "+205247268805625",
+        "createdOn": "2026-01-01T13:02:11.000Z",
+        "notes": "K1p7h1cSNcQvQ5FKzwgWgmfAdl3LGV"
+      },
+      "products": [
+        {
+          "_id": "695670541c508c5d5e64b06e",
+          "name": "Soap47572",
+          "amount": 77,
+          "price": 29878,
+          "manufacturer": "Samsung",
+          "notes": "ushSrxspLLpomtHTs5I8KZSUCpdgXYGj3098UFf99Z4QJbqcO6NyepT4HKGiYyFt6ce1VSLGpkgh2FzZBIwqCYVovX3VZFYQiBSYCpcAjS1SGfFodsX44cvItlQw5UrOxcaSK2bg6djR4e2HLJTcGYeJSNuGOt2Ms62foa3cL4p0w8hUmgzAeHkzqHm4FlYZyZUm36FVgioGKAb6qFHakqgZD38qkRqUyLRnaQat7lIc2XVDQwMpSN9A4g",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "West Gust",
+          "street": "Fahey Ford",
+          "house": 588,
+          "flat": 4256
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 29878,
+      "createdOn": "2026-01-01T13:02:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695670531c508c5d5e64b03f",
+          "products": [
+            {
+              "_id": "695670541c508c5d5e64b06e",
+              "name": "Soap47572",
+              "amount": 77,
+              "price": 29878,
+              "manufacturer": "Samsung",
+              "notes": "ushSrxspLLpomtHTs5I8KZSUCpdgXYGj3098UFf99Z4QJbqcO6NyepT4HKGiYyFt6ce1VSLGpkgh2FzZBIwqCYVovX3VZFYQiBSYCpcAjS1SGfFodsX44cvItlQw5UrOxcaSK2bg6djR4e2HLJTcGYeJSNuGOt2Ms62foa3cL4p0w8hUmgzAeHkzqHm4FlYZyZUm36FVgioGKAb6qFHakqgZD38qkRqUyLRnaQat7lIc2XVDQwMpSN9A4g",
+              "received": false
+            }
+          ],
+          "total_price": 29878,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Gust",
+              "street": "Fahey Ford",
+              "house": 588,
+              "flat": 4256
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:02:13.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695670531c508c5d5e64b03f",
+          "products": [
+            {
+              "_id": "695670541c508c5d5e64b06e",
+              "name": "Soap47572",
+              "amount": 77,
+              "price": 29878,
+              "manufacturer": "Samsung",
+              "notes": "ushSrxspLLpomtHTs5I8KZSUCpdgXYGj3098UFf99Z4QJbqcO6NyepT4HKGiYyFt6ce1VSLGpkgh2FzZBIwqCYVovX3VZFYQiBSYCpcAjS1SGfFodsX44cvItlQw5UrOxcaSK2bg6djR4e2HLJTcGYeJSNuGOt2Ms62foa3cL4p0w8hUmgzAeHkzqHm4FlYZyZUm36FVgioGKAb6qFHakqgZD38qkRqUyLRnaQat7lIc2XVDQwMpSN9A4g",
+              "received": false
+            }
+          ],
+          "total_price": 29878,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Gust",
+              "street": "Fahey Ford",
+              "house": 588,
+              "flat": 4256
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:02:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695670531c508c5d5e64b03f",
+          "products": [
+            {
+              "_id": "695670541c508c5d5e64b06e",
+              "name": "Soap47572",
+              "amount": 77,
+              "price": 29878,
+              "manufacturer": "Samsung",
+              "notes": "ushSrxspLLpomtHTs5I8KZSUCpdgXYGj3098UFf99Z4QJbqcO6NyepT4HKGiYyFt6ce1VSLGpkgh2FzZBIwqCYVovX3VZFYQiBSYCpcAjS1SGfFodsX44cvItlQw5UrOxcaSK2bg6djR4e2HLJTcGYeJSNuGOt2Ms62foa3cL4p0w8hUmgzAeHkzqHm4FlYZyZUm36FVgioGKAb6qFHakqgZD38qkRqUyLRnaQat7lIc2XVDQwMpSN9A4g",
+              "received": false
+            }
+          ],
+          "total_price": 29878,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:02:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

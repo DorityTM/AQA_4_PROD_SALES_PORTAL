@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:02:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4616",
+    "etag": "W/\"1208-DZJeF9xljmMn5GXQ1QPQvbBCXNs\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695670551c508c5d5e64b0ff",
+      "status": "Received",
+      "customer": {
+        "_id": "695670541c508c5d5e64b0ba",
+        "email": "Verna96@hotmail.com",
+        "name": "Elyse Batz",
+        "country": "Russia",
+        "city": "Fort Tyrique",
+        "street": "Goldner Ferry 11",
+        "house": 511,
+        "flat": 398,
+        "phone": "+953336753307285",
+        "createdOn": "2026-01-01T13:02:12.000Z",
+        "notes": "4uazuNAqgElClOEOQTde8NgTWSnP3P"
+      },
+      "products": [
+        {
+          "_id": "695670551c508c5d5e64b0e5",
+          "name": "Computer39138",
+          "amount": 667,
+          "price": 33732,
+          "manufacturer": "Sony",
+          "notes": "UtGEwYe91x0e4ZtL9NprzYNQmFnWvYxEud3B3fYDkaQdkfZNVvF9Mi1L6dOPSHXmkDUyCj6jxsbKCdfCSW2xXk5Sja9Co8oS6yt4cl82MvoxqBwuHS119Up2tk0xfC8XmmmEo210fUIIJUHJY4RkGNzmKQurni93YigOXZzhSZqmgV8UEqJnE2gR5QGUMrvLpaMJtWOWEwoOcgiDBDGxVtQvyw2ONYOF63c54wPdwwGwfYJ1BNTrqxKUze",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "East Lamarton",
+          "street": "Weissnat Knoll",
+          "house": 396,
+          "flat": 1438
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33732,
+      "createdOn": "2026-01-01T13:02:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695670541c508c5d5e64b0ba",
+          "products": [
+            {
+              "_id": "695670551c508c5d5e64b0e5",
+              "name": "Computer39138",
+              "amount": 667,
+              "price": 33732,
+              "manufacturer": "Sony",
+              "notes": "UtGEwYe91x0e4ZtL9NprzYNQmFnWvYxEud3B3fYDkaQdkfZNVvF9Mi1L6dOPSHXmkDUyCj6jxsbKCdfCSW2xXk5Sja9Co8oS6yt4cl82MvoxqBwuHS119Up2tk0xfC8XmmmEo210fUIIJUHJY4RkGNzmKQurni93YigOXZzhSZqmgV8UEqJnE2gR5QGUMrvLpaMJtWOWEwoOcgiDBDGxVtQvyw2ONYOF63c54wPdwwGwfYJ1BNTrqxKUze",
+              "received": true
+            }
+          ],
+          "total_price": 33732,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Lamarton",
+              "street": "Weissnat Knoll",
+              "house": 396,
+              "flat": 1438
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:02:16.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695670541c508c5d5e64b0ba",
+          "products": [
+            {
+              "_id": "695670551c508c5d5e64b0e5",
+              "name": "Computer39138",
+              "amount": 667,
+              "price": 33732,
+              "manufacturer": "Sony",
+              "notes": "UtGEwYe91x0e4ZtL9NprzYNQmFnWvYxEud3B3fYDkaQdkfZNVvF9Mi1L6dOPSHXmkDUyCj6jxsbKCdfCSW2xXk5Sja9Co8oS6yt4cl82MvoxqBwuHS119Up2tk0xfC8XmmmEo210fUIIJUHJY4RkGNzmKQurni93YigOXZzhSZqmgV8UEqJnE2gR5QGUMrvLpaMJtWOWEwoOcgiDBDGxVtQvyw2ONYOF63c54wPdwwGwfYJ1BNTrqxKUze",
+              "received": false
+            }
+          ],
+          "total_price": 33732,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Lamarton",
+              "street": "Weissnat Knoll",
+              "house": 396,
+              "flat": 1438
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:02:15.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695670541c508c5d5e64b0ba",
+          "products": [
+            {
+              "_id": "695670551c508c5d5e64b0e5",
+              "name": "Computer39138",
+              "amount": 667,
+              "price": 33732,
+              "manufacturer": "Sony",
+              "notes": "UtGEwYe91x0e4ZtL9NprzYNQmFnWvYxEud3B3fYDkaQdkfZNVvF9Mi1L6dOPSHXmkDUyCj6jxsbKCdfCSW2xXk5Sja9Co8oS6yt4cl82MvoxqBwuHS119Up2tk0xfC8XmmmEo210fUIIJUHJY4RkGNzmKQurni93YigOXZzhSZqmgV8UEqJnE2gR5QGUMrvLpaMJtWOWEwoOcgiDBDGxVtQvyw2ONYOF63c54wPdwwGwfYJ1BNTrqxKUze",
+              "received": false
+            }
+          ],
+          "total_price": 33732,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "East Lamarton",
+              "street": "Weissnat Knoll",
+              "house": 396,
+              "flat": 1438
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:02:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695670541c508c5d5e64b0ba",
+          "products": [
+            {
+              "_id": "695670551c508c5d5e64b0e5",
+              "name": "Computer39138",
+              "amount": 667,
+              "price": 33732,
+              "manufacturer": "Sony",
+              "notes": "UtGEwYe91x0e4ZtL9NprzYNQmFnWvYxEud3B3fYDkaQdkfZNVvF9Mi1L6dOPSHXmkDUyCj6jxsbKCdfCSW2xXk5Sja9Co8oS6yt4cl82MvoxqBwuHS119Up2tk0xfC8XmmmEo210fUIIJUHJY4RkGNzmKQurni93YigOXZzhSZqmgV8UEqJnE2gR5QGUMrvLpaMJtWOWEwoOcgiDBDGxVtQvyw2ONYOF63c54wPdwwGwfYJ1BNTrqxKUze",
+              "received": false
+            }
+          ],
+          "total_price": 33732,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:02:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

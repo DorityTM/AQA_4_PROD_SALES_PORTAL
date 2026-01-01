@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:02:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-UsbM6A7ysuvtw2LDVS5kdChAvwA\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695670501c508c5d5e64ae4b",
+      "status": "In Process",
+      "customer": {
+        "_id": "6956704c1c508c5d5e64ac93",
+        "email": "Daija26@hotmail.com",
+        "name": "Bertram Hauck",
+        "country": "Canada",
+        "city": "Novi",
+        "street": "School Lane 35",
+        "house": 427,
+        "flat": 6885,
+        "phone": "+719317210801347",
+        "createdOn": "2026-01-01T13:02:04.000Z",
+        "notes": "Gg3xQ6clQ8YdjR2AS7v1mAXdEDKSfy"
+      },
+      "products": [
+        {
+          "_id": "6956704f1c508c5d5e64ae2d",
+          "name": "Pizza66924",
+          "amount": 622,
+          "price": 64074,
+          "manufacturer": "Apple",
+          "notes": "BFc2nYvErtfjc9ubee9ApVaCSDdjduu0hN8OAes2WFbLXSTaCEMGqaFxqWNm5WQTjvzhuvNBQ2SN65A1Q6TuETqVqZOnY5dyNOV0Dz5YTgUtUx9Ani4zoqmSQ6YtWDaYdqwLy4KBEv8wGrxV14N6r9W6alKG0Tl7JgBBnzelNv7H5FnVkVxueY6cTyg7eVIOrzYjVJkCpsvvVQ0wlKOByTP5NEYHHSL7JbcL4vY4elySGSrp9L7Zo910ea",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Woodrow",
+          "street": "Ondricka Stravenue",
+          "house": 118,
+          "flat": 8973
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64074,
+      "createdOn": "2026-01-01T13:02:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6956704c1c508c5d5e64ac93",
+          "products": [
+            {
+              "_id": "6956704f1c508c5d5e64ae2d",
+              "name": "Pizza66924",
+              "amount": 622,
+              "price": 64074,
+              "manufacturer": "Apple",
+              "notes": "BFc2nYvErtfjc9ubee9ApVaCSDdjduu0hN8OAes2WFbLXSTaCEMGqaFxqWNm5WQTjvzhuvNBQ2SN65A1Q6TuETqVqZOnY5dyNOV0Dz5YTgUtUx9Ani4zoqmSQ6YtWDaYdqwLy4KBEv8wGrxV14N6r9W6alKG0Tl7JgBBnzelNv7H5FnVkVxueY6cTyg7eVIOrzYjVJkCpsvvVQ0wlKOByTP5NEYHHSL7JbcL4vY4elySGSrp9L7Zo910ea",
+              "received": false
+            }
+          ],
+          "total_price": 64074,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Woodrow",
+              "street": "Ondricka Stravenue",
+              "house": 118,
+              "flat": 8973
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:02:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956704c1c508c5d5e64ac93",
+          "products": [
+            {
+              "_id": "6956704f1c508c5d5e64ae2d",
+              "name": "Pizza66924",
+              "amount": 622,
+              "price": 64074,
+              "manufacturer": "Apple",
+              "notes": "BFc2nYvErtfjc9ubee9ApVaCSDdjduu0hN8OAes2WFbLXSTaCEMGqaFxqWNm5WQTjvzhuvNBQ2SN65A1Q6TuETqVqZOnY5dyNOV0Dz5YTgUtUx9Ani4zoqmSQ6YtWDaYdqwLy4KBEv8wGrxV14N6r9W6alKG0Tl7JgBBnzelNv7H5FnVkVxueY6cTyg7eVIOrzYjVJkCpsvvVQ0wlKOByTP5NEYHHSL7JbcL4vY4elySGSrp9L7Zo910ea",
+              "received": false
+            }
+          ],
+          "total_price": 64074,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Woodrow",
+              "street": "Ondricka Stravenue",
+              "house": 118,
+              "flat": 8973
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:02:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956704c1c508c5d5e64ac93",
+          "products": [
+            {
+              "_id": "6956704f1c508c5d5e64ae2d",
+              "name": "Pizza66924",
+              "amount": 622,
+              "price": 64074,
+              "manufacturer": "Apple",
+              "notes": "BFc2nYvErtfjc9ubee9ApVaCSDdjduu0hN8OAes2WFbLXSTaCEMGqaFxqWNm5WQTjvzhuvNBQ2SN65A1Q6TuETqVqZOnY5dyNOV0Dz5YTgUtUx9Ani4zoqmSQ6YtWDaYdqwLy4KBEv8wGrxV14N6r9W6alKG0Tl7JgBBnzelNv7H5FnVkVxueY6cTyg7eVIOrzYjVJkCpsvvVQ0wlKOByTP5NEYHHSL7JbcL4vY4elySGSrp9L7Zo910ea",
+              "received": false
+            }
+          ],
+          "total_price": 64074,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:02:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

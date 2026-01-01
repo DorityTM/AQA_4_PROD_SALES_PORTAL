@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:01:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2765",
+    "etag": "W/\"acd-PBUJSUe9ZEjRNw6FvPyydOc4ibk\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695670321c508c5d5e649a7f",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956702f1c508c5d5e649749",
+        "email": "Clotilde.Little@yahoo.com",
+        "name": "Amani Smith",
+        "country": "Great Britain",
+        "city": "South Dewitt",
+        "street": "Mante Crescent 91",
+        "house": 957,
+        "flat": 3272,
+        "phone": "+158939617666809",
+        "createdOn": "2026-01-01T13:01:35.000Z",
+        "notes": "tknvc79EpUdT5PbDlJMhgAcYBENJup"
+      },
+      "products": [
+        {
+          "_id": "695670301c508c5d5e6497d1",
+          "name": "Salad66844",
+          "amount": 809,
+          "price": 33555,
+          "manufacturer": "Xiaomi",
+          "notes": "d9LYD9DNOdL0aP4ZNNjjdHNEdgpyl3YaY88qmncZqt4bLTw9mpneebWngYeQ6kynAX4ESdXRi3D95w6bCM7HM3z8je3ZaBGFB3nIZ8yGOx4GMa7dTScTUvIvcH63eTtzPSuQiBhGCAZBJLw4ibZCjX5hu5QOoij8u1nlScGkeY69DziaR8zgfKye6Ku9J0Yvtwhck1fqKuji12pyRWraHqInrMDNtMJ14GzjyjMTP8NbGJXiDly8yNJ3EO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Fort Cecil",
+          "street": "Erdman Junction",
+          "house": 765,
+          "flat": 2620
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 33555,
+      "createdOn": "2026-01-01T13:01:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956702f1c508c5d5e649749",
+          "products": [
+            {
+              "_id": "695670301c508c5d5e6497d1",
+              "name": "Salad66844",
+              "amount": 809,
+              "price": 33555,
+              "manufacturer": "Xiaomi",
+              "notes": "d9LYD9DNOdL0aP4ZNNjjdHNEdgpyl3YaY88qmncZqt4bLTw9mpneebWngYeQ6kynAX4ESdXRi3D95w6bCM7HM3z8je3ZaBGFB3nIZ8yGOx4GMa7dTScTUvIvcH63eTtzPSuQiBhGCAZBJLw4ibZCjX5hu5QOoij8u1nlScGkeY69DziaR8zgfKye6Ku9J0Yvtwhck1fqKuji12pyRWraHqInrMDNtMJ14GzjyjMTP8NbGJXiDly8yNJ3EO",
+              "received": false
+            }
+          ],
+          "total_price": 33555,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Cecil",
+              "street": "Erdman Junction",
+              "house": 765,
+              "flat": 2620
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:01:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956702f1c508c5d5e649749",
+          "products": [
+            {
+              "_id": "695670301c508c5d5e6497d1",
+              "name": "Salad66844",
+              "amount": 809,
+              "price": 33555,
+              "manufacturer": "Xiaomi",
+              "notes": "d9LYD9DNOdL0aP4ZNNjjdHNEdgpyl3YaY88qmncZqt4bLTw9mpneebWngYeQ6kynAX4ESdXRi3D95w6bCM7HM3z8je3ZaBGFB3nIZ8yGOx4GMa7dTScTUvIvcH63eTtzPSuQiBhGCAZBJLw4ibZCjX5hu5QOoij8u1nlScGkeY69DziaR8zgfKye6Ku9J0Yvtwhck1fqKuji12pyRWraHqInrMDNtMJ14GzjyjMTP8NbGJXiDly8yNJ3EO",
+              "received": false
+            }
+          ],
+          "total_price": 33555,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:01:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

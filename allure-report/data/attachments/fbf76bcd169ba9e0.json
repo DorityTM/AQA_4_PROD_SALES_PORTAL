@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:56:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4278",
+    "etag": "W/\"10b6-malFEKuxFYmO2Omw7R2DfnB60fg\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566efc1c508c5d5e63d558",
+      "status": "Draft",
+      "customer": {
+        "_id": "69566efb1c508c5d5e63d4b5",
+        "email": "Garfield_Bogisich86@hotmail.com",
+        "name": "Casper Pouros",
+        "country": "Canada",
+        "city": "Noelbury",
+        "street": "Russell Street 58",
+        "house": 382,
+        "flat": 1401,
+        "phone": "+621892341995006",
+        "createdOn": "2026-01-01T12:56:27.000Z",
+        "notes": "Av2YXeg7WXaiNzFVQbM2pdNwPj9nNx"
+      },
+      "products": [
+        {
+          "_id": "69566efc1c508c5d5e63d52a",
+          "name": "Hat22876",
+          "amount": 475,
+          "price": 52779,
+          "manufacturer": "Tesla",
+          "notes": "45yxX3BX22a9ykvX1npF1U1LteOqVqu2xTcfo59YHEH7lSfxcypUzibIqxd3kyyIHMxLMRk0I1cbONucyj7CpQXrZR8DRVjhqpEUSwKZFoPgExzZNu4IZWTWIQdhKnE84OnApBKFZ3LGXLGC7GGxoxMPrcrFe8TjUNttGyw3LKftB1Dt6Ar0ZAYgU2ODmUqs39xoOb0o5aHUHmOiKdq3hAyHmwJXUDk1bTu8DjNdPzk0qHJOgly5oMT8Zv",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 52779,
+      "createdOn": "2026-01-01T12:56:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69566efb1c508c5d5e63d4b5",
+          "products": [
+            {
+              "_id": "69566efc1c508c5d5e63d52a",
+              "name": "Hat22876",
+              "amount": 475,
+              "price": 52779,
+              "manufacturer": "Tesla",
+              "notes": "45yxX3BX22a9ykvX1npF1U1LteOqVqu2xTcfo59YHEH7lSfxcypUzibIqxd3kyyIHMxLMRk0I1cbONucyj7CpQXrZR8DRVjhqpEUSwKZFoPgExzZNu4IZWTWIQdhKnE84OnApBKFZ3LGXLGC7GGxoxMPrcrFe8TjUNttGyw3LKftB1Dt6Ar0ZAYgU2ODmUqs39xoOb0o5aHUHmOiKdq3hAyHmwJXUDk1bTu8DjNdPzk0qHJOgly5oMT8Zv",
+              "received": false
+            }
+          ],
+          "total_price": 52779,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:56:33.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "69566efb1c508c5d5e63d4b5",
+          "products": [
+            {
+              "_id": "69566efc1c508c5d5e63d52a",
+              "name": "Hat22876",
+              "amount": 475,
+              "price": 52779,
+              "manufacturer": "Tesla",
+              "notes": "45yxX3BX22a9ykvX1npF1U1LteOqVqu2xTcfo59YHEH7lSfxcypUzibIqxd3kyyIHMxLMRk0I1cbONucyj7CpQXrZR8DRVjhqpEUSwKZFoPgExzZNu4IZWTWIQdhKnE84OnApBKFZ3LGXLGC7GGxoxMPrcrFe8TjUNttGyw3LKftB1Dt6Ar0ZAYgU2ODmUqs39xoOb0o5aHUHmOiKdq3hAyHmwJXUDk1bTu8DjNdPzk0qHJOgly5oMT8Zv",
+              "received": false
+            }
+          ],
+          "total_price": 52779,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Suzanneberg",
+              "street": "S Jefferson Street",
+              "house": 139,
+              "flat": 1333
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:56:32.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566efb1c508c5d5e63d4b5",
+          "products": [
+            {
+              "_id": "69566efc1c508c5d5e63d52a",
+              "name": "Hat22876",
+              "amount": 475,
+              "price": 52779,
+              "manufacturer": "Tesla",
+              "notes": "45yxX3BX22a9ykvX1npF1U1LteOqVqu2xTcfo59YHEH7lSfxcypUzibIqxd3kyyIHMxLMRk0I1cbONucyj7CpQXrZR8DRVjhqpEUSwKZFoPgExzZNu4IZWTWIQdhKnE84OnApBKFZ3LGXLGC7GGxoxMPrcrFe8TjUNttGyw3LKftB1Dt6Ar0ZAYgU2ODmUqs39xoOb0o5aHUHmOiKdq3hAyHmwJXUDk1bTu8DjNdPzk0qHJOgly5oMT8Zv",
+              "received": false
+            }
+          ],
+          "total_price": 52779,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Suzanneberg",
+              "street": "S Jefferson Street",
+              "house": 139,
+              "flat": 1333
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:56:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566efb1c508c5d5e63d4b5",
+          "products": [
+            {
+              "_id": "69566efc1c508c5d5e63d52a",
+              "name": "Hat22876",
+              "amount": 475,
+              "price": 52779,
+              "manufacturer": "Tesla",
+              "notes": "45yxX3BX22a9ykvX1npF1U1LteOqVqu2xTcfo59YHEH7lSfxcypUzibIqxd3kyyIHMxLMRk0I1cbONucyj7CpQXrZR8DRVjhqpEUSwKZFoPgExzZNu4IZWTWIQdhKnE84OnApBKFZ3LGXLGC7GGxoxMPrcrFe8TjUNttGyw3LKftB1Dt6Ar0ZAYgU2ODmUqs39xoOb0o5aHUHmOiKdq3hAyHmwJXUDk1bTu8DjNdPzk0qHJOgly5oMT8Zv",
+              "received": false
+            }
+          ],
+          "total_price": 52779,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:56:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:55:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3668",
+    "etag": "W/\"e54-zAVyA0sgXC4SGcafL+y6soxfzsI\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566ebd1c508c5d5e63b638",
+      "status": "In Process",
+      "customer": {
+        "_id": "69566ebc1c508c5d5e63b5df",
+        "email": "Josh54@gmail.com",
+        "name": "Dane Considine",
+        "country": "USA",
+        "city": "Rockford",
+        "street": "Prospect Street 9",
+        "house": 832,
+        "flat": 9115,
+        "phone": "+886500931321480",
+        "createdOn": "2026-01-01T12:55:24.000Z",
+        "notes": "GX4NNmxLrui2d0MOBnPjm8utrFQILj"
+      },
+      "products": [
+        {
+          "_id": "69566ebd1c508c5d5e63b622",
+          "name": "Tuna68302",
+          "amount": 83,
+          "price": 30830,
+          "manufacturer": "Samsung",
+          "notes": "TWPmskE9JwvOnAiRC8qFyYZvLYPi5ToOd2qTRvoVqgkuAlZtN4SWsBeJ74MMId4mmv6gT5N5HS0KSf3yCmZRKO1Vu1iLD0rS3Cue744rh1FJKPACRmqXC6UfELLRlPXFLFqIgOTuHcbCvGx0qCNO9tGhllkqpJzApizj50CV5pS4skCvDk4eK4Ugz62A8peEGh0IRCDFKGeDNq9iIDjAo4SaNon36MMMbJDrBbG8TziRiXwxD8dO5ZrJKb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Hintzfield",
+          "street": "Jubilee Close",
+          "house": 760,
+          "flat": 2934
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 30830,
+      "createdOn": "2026-01-01T12:55:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69566ebc1c508c5d5e63b5df",
+          "products": [
+            {
+              "_id": "69566ebd1c508c5d5e63b622",
+              "name": "Tuna68302",
+              "amount": 83,
+              "price": 30830,
+              "manufacturer": "Samsung",
+              "notes": "TWPmskE9JwvOnAiRC8qFyYZvLYPi5ToOd2qTRvoVqgkuAlZtN4SWsBeJ74MMId4mmv6gT5N5HS0KSf3yCmZRKO1Vu1iLD0rS3Cue744rh1FJKPACRmqXC6UfELLRlPXFLFqIgOTuHcbCvGx0qCNO9tGhllkqpJzApizj50CV5pS4skCvDk4eK4Ugz62A8peEGh0IRCDFKGeDNq9iIDjAo4SaNon36MMMbJDrBbG8TziRiXwxD8dO5ZrJKb",
+              "received": false
+            }
+          ],
+          "total_price": 30830,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Hintzfield",
+              "street": "Jubilee Close",
+              "house": 760,
+              "flat": 2934
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:55:26.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566ebc1c508c5d5e63b5df",
+          "products": [
+            {
+              "_id": "69566ebd1c508c5d5e63b622",
+              "name": "Tuna68302",
+              "amount": 83,
+              "price": 30830,
+              "manufacturer": "Samsung",
+              "notes": "TWPmskE9JwvOnAiRC8qFyYZvLYPi5ToOd2qTRvoVqgkuAlZtN4SWsBeJ74MMId4mmv6gT5N5HS0KSf3yCmZRKO1Vu1iLD0rS3Cue744rh1FJKPACRmqXC6UfELLRlPXFLFqIgOTuHcbCvGx0qCNO9tGhllkqpJzApizj50CV5pS4skCvDk4eK4Ugz62A8peEGh0IRCDFKGeDNq9iIDjAo4SaNon36MMMbJDrBbG8TziRiXwxD8dO5ZrJKb",
+              "received": false
+            }
+          ],
+          "total_price": 30830,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Hintzfield",
+              "street": "Jubilee Close",
+              "house": 760,
+              "flat": 2934
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:55:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566ebc1c508c5d5e63b5df",
+          "products": [
+            {
+              "_id": "69566ebd1c508c5d5e63b622",
+              "name": "Tuna68302",
+              "amount": 83,
+              "price": 30830,
+              "manufacturer": "Samsung",
+              "notes": "TWPmskE9JwvOnAiRC8qFyYZvLYPi5ToOd2qTRvoVqgkuAlZtN4SWsBeJ74MMId4mmv6gT5N5HS0KSf3yCmZRKO1Vu1iLD0rS3Cue744rh1FJKPACRmqXC6UfELLRlPXFLFqIgOTuHcbCvGx0qCNO9tGhllkqpJzApizj50CV5pS4skCvDk4eK4Ugz62A8peEGh0IRCDFKGeDNq9iIDjAo4SaNon36MMMbJDrBbG8TziRiXwxD8dO5ZrJKb",
+              "received": false
+            }
+          ],
+          "total_price": 30830,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:55:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:56:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1674",
+    "etag": "W/\"68a-iuXCEMGfBICYphtFyWCQcvo1yio\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69566f0b1c508c5d5e63dca4",
+        "email": "Marielle.Friesen@gmail.com",
+        "name": "Rick Batz",
+        "country": "France",
+        "city": "Fort Anthony",
+        "street": "The Woodlands 52",
+        "house": 702,
+        "flat": 2945,
+        "phone": "+425183863778887",
+        "createdOn": "2026-01-01T12:56:43.000Z",
+        "notes": "lAmCJzFoinOG25Q2iPwEqHUjUWkkmj"
+      },
+      "products": [
+        {
+          "_id": "69566f0b1c508c5d5e63dcdd",
+          "name": "Shoes39255",
+          "amount": 610,
+          "price": 22375,
+          "manufacturer": "Amazon",
+          "notes": "L7QOeAiZWekshM8lDELSwFWgODSpksFk2QLNBZw27IfJHP9QIvpe9fmsKO0CdhUFYOEHk3n8lwXvw9Owoao11Y4f1V9TZVoFTNwQls5Ynme8CToHKRKHCLwfeuOPnn0tMRbjSVmmNMbjroNj8EtnhXxCbXVBjevJWHLIxbhVe7XRHhMC2cFD9XXpVIKHblcEG8LQyrDsDRNPb3RiXH0RH5yDCPHhFaYolSZbiEz8WfdsQzBY5GRr9lRtco",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22375,
+      "createdOn": "2026-01-01T12:56:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69566f0b1c508c5d5e63dca4",
+          "products": [
+            {
+              "_id": "69566f0b1c508c5d5e63dcdd",
+              "name": "Shoes39255",
+              "amount": 610,
+              "price": 22375,
+              "manufacturer": "Amazon",
+              "notes": "L7QOeAiZWekshM8lDELSwFWgODSpksFk2QLNBZw27IfJHP9QIvpe9fmsKO0CdhUFYOEHk3n8lwXvw9Owoao11Y4f1V9TZVoFTNwQls5Ynme8CToHKRKHCLwfeuOPnn0tMRbjSVmmNMbjroNj8EtnhXxCbXVBjevJWHLIxbhVe7XRHhMC2cFD9XXpVIKHblcEG8LQyrDsDRNPb3RiXH0RH5yDCPHhFaYolSZbiEz8WfdsQzBY5GRr9lRtco",
+              "received": false
+            }
+          ],
+          "total_price": 22375,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:56:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69566f0c1c508c5d5e63dd06"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

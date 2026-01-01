@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:56:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2743",
+    "etag": "W/\"ab7-CYNvg2fRcz8OgZYk23yWSKDRBm4\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566ef91c508c5d5e63d34c",
+      "status": "Draft",
+      "customer": {
+        "_id": "69566ef81c508c5d5e63d2be",
+        "email": "Nat42@yahoo.com",
+        "name": "Joshuah Klein",
+        "country": "Great Britain",
+        "city": "New Myrtisworth",
+        "street": "Fay Circle 94",
+        "house": 290,
+        "flat": 3813,
+        "phone": "+914662070337141",
+        "createdOn": "2026-01-01T12:56:24.000Z",
+        "notes": "doCaXnHZKdcPl4dkcCFalfBJA73rbm"
+      },
+      "products": [
+        {
+          "_id": "69566ef81c508c5d5e63d30c",
+          "name": "Gloves28703",
+          "amount": 204,
+          "price": 27992,
+          "manufacturer": "Sony",
+          "notes": "YgsTXiyPct4LmwkNY8TnidM42ZF6mSnRReIP3OTdRoJOkaDxt3cTyQZxCVuyueZfg3WuH42iWEbZeVCzTVKvhVb7RIAIH2Hf8v3787raDE8kN8b5pXn2QElbaWX1suYU53peUrgtFRke4rrvhUKis59Wr2jVSmjQoIsbo8zA8JXxguD6ZmRCjd3JdePf3R31riUmX9A9zZDWoTvqAuBcuLIB1KH75Tq6tfiasBpOUb4dT7CXalmqseaxTc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Aidenland",
+          "street": "Royce Divide",
+          "house": 920,
+          "flat": 2998
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 27992,
+      "createdOn": "2026-01-01T12:56:25.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69566ef81c508c5d5e63d2be",
+          "products": [
+            {
+              "_id": "69566ef81c508c5d5e63d30c",
+              "name": "Gloves28703",
+              "amount": 204,
+              "price": 27992,
+              "manufacturer": "Sony",
+              "notes": "YgsTXiyPct4LmwkNY8TnidM42ZF6mSnRReIP3OTdRoJOkaDxt3cTyQZxCVuyueZfg3WuH42iWEbZeVCzTVKvhVb7RIAIH2Hf8v3787raDE8kN8b5pXn2QElbaWX1suYU53peUrgtFRke4rrvhUKis59Wr2jVSmjQoIsbo8zA8JXxguD6ZmRCjd3JdePf3R31riUmX9A9zZDWoTvqAuBcuLIB1KH75Tq6tfiasBpOUb4dT7CXalmqseaxTc",
+              "received": false
+            }
+          ],
+          "total_price": 27992,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Aidenland",
+              "street": "Royce Divide",
+              "house": 920,
+              "flat": 2998
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:56:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566ef81c508c5d5e63d2be",
+          "products": [
+            {
+              "_id": "69566ef81c508c5d5e63d30c",
+              "name": "Gloves28703",
+              "amount": 204,
+              "price": 27992,
+              "manufacturer": "Sony",
+              "notes": "YgsTXiyPct4LmwkNY8TnidM42ZF6mSnRReIP3OTdRoJOkaDxt3cTyQZxCVuyueZfg3WuH42iWEbZeVCzTVKvhVb7RIAIH2Hf8v3787raDE8kN8b5pXn2QElbaWX1suYU53peUrgtFRke4rrvhUKis59Wr2jVSmjQoIsbo8zA8JXxguD6ZmRCjd3JdePf3R31riUmX9A9zZDWoTvqAuBcuLIB1KH75Tq6tfiasBpOUb4dT7CXalmqseaxTc",
+              "received": false
+            }
+          ],
+          "total_price": 27992,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:56:25.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:02:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-MCmNx0Ek4NXz+vQ1Me7Y/5LoBUI\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695670581c508c5d5e64b2c5",
+      "status": "Draft",
+      "customer": {
+        "_id": "695670571c508c5d5e64b273",
+        "email": "Ozella.Wilderman@gmail.com",
+        "name": "Hayley Gulgowski",
+        "country": "Great Britain",
+        "city": "Port Tiana",
+        "street": "Timmy Parkway 12",
+        "house": 5,
+        "flat": 4164,
+        "phone": "+681310710485550",
+        "createdOn": "2026-01-01T13:02:15.000Z",
+        "notes": "MpsKiU5u18euWEoRhdPkllmd9IOjya"
+      },
+      "products": [
+        {
+          "_id": "695670581c508c5d5e64b2a5",
+          "name": "Chips73862",
+          "amount": 437,
+          "price": 99361,
+          "manufacturer": "Xiaomi",
+          "notes": "g25rBP94P41bKIQbS1FdG2a336VIJV3G1v4OKiLATQg34tuOPlm9JVmwubY4WnnpM29yrVx5tqzFY9JFB1odDHYId7MhLN5RxNIeAvtnKOfEBANePKDbqSNtAa0z6tk403eUxR6VepCdXOcxId025b6F7wFpTQQuYuNSu1psyHYeFiRE97mNhDqbY2r0ZxB71ZtgVMGpkRwHhbCy94mCrlb7nn6tH4aRaNJ9qvvhL9WES80ycUjumtjZ3s",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Mullerton",
+          "street": "Chapel Road",
+          "house": 121,
+          "flat": 3314
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99361,
+      "createdOn": "2026-01-01T13:02:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695670571c508c5d5e64b273",
+          "products": [
+            {
+              "_id": "695670581c508c5d5e64b2a5",
+              "name": "Chips73862",
+              "amount": 437,
+              "price": 99361,
+              "manufacturer": "Xiaomi",
+              "notes": "g25rBP94P41bKIQbS1FdG2a336VIJV3G1v4OKiLATQg34tuOPlm9JVmwubY4WnnpM29yrVx5tqzFY9JFB1odDHYId7MhLN5RxNIeAvtnKOfEBANePKDbqSNtAa0z6tk403eUxR6VepCdXOcxId025b6F7wFpTQQuYuNSu1psyHYeFiRE97mNhDqbY2r0ZxB71ZtgVMGpkRwHhbCy94mCrlb7nn6tH4aRaNJ9qvvhL9WES80ycUjumtjZ3s",
+              "received": false
+            }
+          ],
+          "total_price": 99361,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Mullerton",
+              "street": "Chapel Road",
+              "house": 121,
+              "flat": 3314
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:02:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695670571c508c5d5e64b273",
+          "products": [
+            {
+              "_id": "695670581c508c5d5e64b2a5",
+              "name": "Chips73862",
+              "amount": 437,
+              "price": 99361,
+              "manufacturer": "Xiaomi",
+              "notes": "g25rBP94P41bKIQbS1FdG2a336VIJV3G1v4OKiLATQg34tuOPlm9JVmwubY4WnnpM29yrVx5tqzFY9JFB1odDHYId7MhLN5RxNIeAvtnKOfEBANePKDbqSNtAa0z6tk403eUxR6VepCdXOcxId025b6F7wFpTQQuYuNSu1psyHYeFiRE97mNhDqbY2r0ZxB71ZtgVMGpkRwHhbCy94mCrlb7nn6tH4aRaNJ9qvvhL9WES80ycUjumtjZ3s",
+              "received": false
+            }
+          ],
+          "total_price": 99361,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:02:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

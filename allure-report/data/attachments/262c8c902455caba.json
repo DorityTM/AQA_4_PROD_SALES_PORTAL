@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:56:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2749",
+    "etag": "W/\"abd-CerIIRKrAjXF0faDjTB9waiDlOA\"",
+    "keep-alive": "timeout=5, max=54",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566f101c508c5d5e63df89",
+      "status": "Draft",
+      "customer": {
+        "_id": "69566f0d1c508c5d5e63ddab",
+        "email": "Fernando5@gmail.com",
+        "name": "Dillon Gusikowski Gleason",
+        "country": "Russia",
+        "city": "Fontana",
+        "street": "Mertz Pine 8",
+        "house": 993,
+        "flat": 9757,
+        "phone": "+040301961522427",
+        "createdOn": "2026-01-01T12:56:45.000Z",
+        "notes": "SrWd0qIPkPrEdF12NI6tL5BpUIHMBs"
+      },
+      "products": [
+        {
+          "_id": "69566f0e1c508c5d5e63df28",
+          "name": "Soap99779",
+          "amount": 406,
+          "price": 91510,
+          "manufacturer": "Amazon",
+          "notes": "Z30SUqAS9NIIHoUCEPu7LNo5jBiUQileOo6ANFQTvWIHwUswwgfFNvOX1Pg7yNG2hXIJtIm5v2dzA6oreTrk67iwFX5tQQCyuYMjDlfyhmOUcGpk7vXL0fpR5wN0yiWYtMFauq2BgGwqHymNmpWedqGLZHC2EAsrulVyOpdirU65gQsvPs6ZKHRajOkvUf8N0hH7tFdp1fZEvI6RIiOpapA8R85LnJjd2w1vyd5xKOyNiqEtKmuvQrS35p",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "East Gayle",
+          "street": "Naomie Avenue",
+          "house": 691,
+          "flat": 4262
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 91510,
+      "createdOn": "2026-01-01T12:56:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69566f0d1c508c5d5e63ddab",
+          "products": [
+            {
+              "_id": "69566f0e1c508c5d5e63df28",
+              "name": "Soap99779",
+              "amount": 406,
+              "price": 91510,
+              "manufacturer": "Amazon",
+              "notes": "Z30SUqAS9NIIHoUCEPu7LNo5jBiUQileOo6ANFQTvWIHwUswwgfFNvOX1Pg7yNG2hXIJtIm5v2dzA6oreTrk67iwFX5tQQCyuYMjDlfyhmOUcGpk7vXL0fpR5wN0yiWYtMFauq2BgGwqHymNmpWedqGLZHC2EAsrulVyOpdirU65gQsvPs6ZKHRajOkvUf8N0hH7tFdp1fZEvI6RIiOpapA8R85LnJjd2w1vyd5xKOyNiqEtKmuvQrS35p",
+              "received": false
+            }
+          ],
+          "total_price": 91510,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Gayle",
+              "street": "Naomie Avenue",
+              "house": 691,
+              "flat": 4262
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:56:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566f0d1c508c5d5e63ddab",
+          "products": [
+            {
+              "_id": "69566f0e1c508c5d5e63df28",
+              "name": "Soap99779",
+              "amount": 406,
+              "price": 91510,
+              "manufacturer": "Amazon",
+              "notes": "Z30SUqAS9NIIHoUCEPu7LNo5jBiUQileOo6ANFQTvWIHwUswwgfFNvOX1Pg7yNG2hXIJtIm5v2dzA6oreTrk67iwFX5tQQCyuYMjDlfyhmOUcGpk7vXL0fpR5wN0yiWYtMFauq2BgGwqHymNmpWedqGLZHC2EAsrulVyOpdirU65gQsvPs6ZKHRajOkvUf8N0hH7tFdp1fZEvI6RIiOpapA8R85LnJjd2w1vyd5xKOyNiqEtKmuvQrS35p",
+              "received": false
+            }
+          ],
+          "total_price": 91510,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:56:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

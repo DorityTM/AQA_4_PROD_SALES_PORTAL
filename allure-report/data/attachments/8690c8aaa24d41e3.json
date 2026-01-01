@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:00:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3789",
+    "etag": "W/\"ecd-WJX9rI8fajYYe5rq6U0MTrkh4q4\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566fe61c508c5d5e6464ff",
+      "status": "In Process",
+      "customer": {
+        "_id": "69566fe51c508c5d5e646491",
+        "email": "Connor.Borer95@hotmail.com",
+        "name": "Nettie Goldner",
+        "country": "Ukraine",
+        "city": "Lake Jewel",
+        "street": "Hayley Heights 93",
+        "house": 731,
+        "flat": 5627,
+        "phone": "+675791572263002",
+        "createdOn": "2026-01-01T13:00:21.000Z",
+        "notes": "v66zwxf4cdM1ck2SIvQZH1axHxp3IA"
+      },
+      "products": [
+        {
+          "_id": "69566fe61c508c5d5e6464b8",
+          "name": "Shoes65965",
+          "amount": 797,
+          "price": 84723,
+          "manufacturer": "Xiaomi",
+          "notes": "WKd9WM2ofd3E6wSC2O2G1sqqLIhfAXoEepOU0iClrKRMdjojnwm9tVSz3AWMj3F0N7wkNrDJ02e7K9eaTlVMUnD3p82iGLHaWD2ektzka9sPeUFDiZOlcu5ssMxr5O5iZ1Mjgs5eCJ1GKOrRkiK8CNFymU8DzLSbclvj0olnAq5syYFxfGZCY47iH1Bz52OFGcccrzmwL2h47plfzCEoBKy5FTdVnWjHeTtkuOpgWt9CxjvpM9ZiDvhLJj",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Lebsackborough",
+          "street": "Rollin Green",
+          "house": 23,
+          "flat": 5943
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 84723,
+      "createdOn": "2026-01-01T13:00:22.000Z",
+      "comments": [
+        {
+          "text": "Comment 1",
+          "createdOn": "2026-01-01T13:00:26.000Z",
+          "_id": "69566fea1c508c5d5e646734"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69566fe51c508c5d5e646491",
+          "products": [
+            {
+              "_id": "69566fe61c508c5d5e6464b8",
+              "name": "Shoes65965",
+              "amount": 797,
+              "price": 84723,
+              "manufacturer": "Xiaomi",
+              "notes": "WKd9WM2ofd3E6wSC2O2G1sqqLIhfAXoEepOU0iClrKRMdjojnwm9tVSz3AWMj3F0N7wkNrDJ02e7K9eaTlVMUnD3p82iGLHaWD2ektzka9sPeUFDiZOlcu5ssMxr5O5iZ1Mjgs5eCJ1GKOrRkiK8CNFymU8DzLSbclvj0olnAq5syYFxfGZCY47iH1Bz52OFGcccrzmwL2h47plfzCEoBKy5FTdVnWjHeTtkuOpgWt9CxjvpM9ZiDvhLJj",
+              "received": false
+            }
+          ],
+          "total_price": 84723,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lebsackborough",
+              "street": "Rollin Green",
+              "house": 23,
+              "flat": 5943
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:00:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566fe51c508c5d5e646491",
+          "products": [
+            {
+              "_id": "69566fe61c508c5d5e6464b8",
+              "name": "Shoes65965",
+              "amount": 797,
+              "price": 84723,
+              "manufacturer": "Xiaomi",
+              "notes": "WKd9WM2ofd3E6wSC2O2G1sqqLIhfAXoEepOU0iClrKRMdjojnwm9tVSz3AWMj3F0N7wkNrDJ02e7K9eaTlVMUnD3p82iGLHaWD2ektzka9sPeUFDiZOlcu5ssMxr5O5iZ1Mjgs5eCJ1GKOrRkiK8CNFymU8DzLSbclvj0olnAq5syYFxfGZCY47iH1Bz52OFGcccrzmwL2h47plfzCEoBKy5FTdVnWjHeTtkuOpgWt9CxjvpM9ZiDvhLJj",
+              "received": false
+            }
+          ],
+          "total_price": 84723,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lebsackborough",
+              "street": "Rollin Green",
+              "house": 23,
+              "flat": 5943
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:00:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566fe51c508c5d5e646491",
+          "products": [
+            {
+              "_id": "69566fe61c508c5d5e6464b8",
+              "name": "Shoes65965",
+              "amount": 797,
+              "price": 84723,
+              "manufacturer": "Xiaomi",
+              "notes": "WKd9WM2ofd3E6wSC2O2G1sqqLIhfAXoEepOU0iClrKRMdjojnwm9tVSz3AWMj3F0N7wkNrDJ02e7K9eaTlVMUnD3p82iGLHaWD2ektzka9sPeUFDiZOlcu5ssMxr5O5iZ1Mjgs5eCJ1GKOrRkiK8CNFymU8DzLSbclvj0olnAq5syYFxfGZCY47iH1Bz52OFGcccrzmwL2h47plfzCEoBKy5FTdVnWjHeTtkuOpgWt9CxjvpM9ZiDvhLJj",
+              "received": false
+            }
+          ],
+          "total_price": 84723,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:00:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

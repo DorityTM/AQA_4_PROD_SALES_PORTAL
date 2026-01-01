@@ -1,0 +1,184 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:01:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3840",
+    "etag": "W/\"f00-aLbj692eoZEe1E/eTfexX+HujpE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695670101c508c5d5e648225",
+      "status": "In Process",
+      "customer": {
+        "_id": "6956700f1c508c5d5e6481e7",
+        "email": "Clint.Heller6@gmail.com",
+        "name": "Ted Senger",
+        "country": "USA",
+        "city": "Madison",
+        "street": "Jacklyn Track 91",
+        "house": 307,
+        "flat": 8562,
+        "phone": "+807938284751844",
+        "createdOn": "2026-01-01T13:01:03.000Z",
+        "notes": "b8EcABVeBPJpCdwdoORGWsadvVhtlz"
+      },
+      "products": [
+        {
+          "_id": "695670101c508c5d5e64821d",
+          "name": "Car97703",
+          "amount": 345,
+          "price": 69043,
+          "manufacturer": "Tesla",
+          "notes": "6IuUqtKXwTjh4JZoxFwPXnvkQZ04ZOdW5HOtgJGVsxlhhkWYFWHaGwAhL9OzmF3oSoTLxk3HkCYcmvPC3WTcaixUv46CpBAAZLZqMkHHjQS9Vfs2I5DGgI2zOrc4ddNNvW2QfdpFlcQFGEGEEmMCKFZBkQ5AO7jipSKkvrfXQTmeNcI6AThiwBFIzgvqoBQM20t9vAV7AHXN8eNLfpivmbzfuJsYlGTjxJJDQk5gpX42nzc9rP2pAG8eK2",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Louisaburgh",
+          "street": "W Lake Street",
+          "house": 574,
+          "flat": 9651
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 69043,
+      "createdOn": "2026-01-01T13:01:04.000Z",
+      "comments": [
+        {
+          "text": "First",
+          "createdOn": "2026-01-01T13:01:09.000Z",
+          "_id": "695670151c508c5d5e64859f"
+        },
+        {
+          "text": "Last",
+          "createdOn": "2026-01-01T13:01:09.000Z",
+          "_id": "695670151c508c5d5e648616"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6956700f1c508c5d5e6481e7",
+          "products": [
+            {
+              "_id": "695670101c508c5d5e64821d",
+              "name": "Car97703",
+              "amount": 345,
+              "price": 69043,
+              "manufacturer": "Tesla",
+              "notes": "6IuUqtKXwTjh4JZoxFwPXnvkQZ04ZOdW5HOtgJGVsxlhhkWYFWHaGwAhL9OzmF3oSoTLxk3HkCYcmvPC3WTcaixUv46CpBAAZLZqMkHHjQS9Vfs2I5DGgI2zOrc4ddNNvW2QfdpFlcQFGEGEEmMCKFZBkQ5AO7jipSKkvrfXQTmeNcI6AThiwBFIzgvqoBQM20t9vAV7AHXN8eNLfpivmbzfuJsYlGTjxJJDQk5gpX42nzc9rP2pAG8eK2",
+              "received": false
+            }
+          ],
+          "total_price": 69043,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Louisaburgh",
+              "street": "W Lake Street",
+              "house": 574,
+              "flat": 9651
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:01:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956700f1c508c5d5e6481e7",
+          "products": [
+            {
+              "_id": "695670101c508c5d5e64821d",
+              "name": "Car97703",
+              "amount": 345,
+              "price": 69043,
+              "manufacturer": "Tesla",
+              "notes": "6IuUqtKXwTjh4JZoxFwPXnvkQZ04ZOdW5HOtgJGVsxlhhkWYFWHaGwAhL9OzmF3oSoTLxk3HkCYcmvPC3WTcaixUv46CpBAAZLZqMkHHjQS9Vfs2I5DGgI2zOrc4ddNNvW2QfdpFlcQFGEGEEmMCKFZBkQ5AO7jipSKkvrfXQTmeNcI6AThiwBFIzgvqoBQM20t9vAV7AHXN8eNLfpivmbzfuJsYlGTjxJJDQk5gpX42nzc9rP2pAG8eK2",
+              "received": false
+            }
+          ],
+          "total_price": 69043,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Louisaburgh",
+              "street": "W Lake Street",
+              "house": 574,
+              "flat": 9651
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:01:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956700f1c508c5d5e6481e7",
+          "products": [
+            {
+              "_id": "695670101c508c5d5e64821d",
+              "name": "Car97703",
+              "amount": 345,
+              "price": 69043,
+              "manufacturer": "Tesla",
+              "notes": "6IuUqtKXwTjh4JZoxFwPXnvkQZ04ZOdW5HOtgJGVsxlhhkWYFWHaGwAhL9OzmF3oSoTLxk3HkCYcmvPC3WTcaixUv46CpBAAZLZqMkHHjQS9Vfs2I5DGgI2zOrc4ddNNvW2QfdpFlcQFGEGEEmMCKFZBkQ5AO7jipSKkvrfXQTmeNcI6AThiwBFIzgvqoBQM20t9vAV7AHXN8eNLfpivmbzfuJsYlGTjxJJDQk5gpX42nzc9rP2pAG8eK2",
+              "received": false
+            }
+          ],
+          "total_price": 69043,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:01:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

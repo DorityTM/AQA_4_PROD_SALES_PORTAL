@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:01:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1658",
+    "etag": "W/\"67a-hNTM6iIlmVNw4K3Z8zPI3s8maPs\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956700f1c508c5d5e6481e7",
+        "email": "Clint.Heller6@gmail.com",
+        "name": "Ted Senger",
+        "country": "USA",
+        "city": "Madison",
+        "street": "Jacklyn Track 91",
+        "house": 307,
+        "flat": 8562,
+        "phone": "+807938284751844",
+        "createdOn": "2026-01-01T13:01:03.000Z",
+        "notes": "b8EcABVeBPJpCdwdoORGWsadvVhtlz"
+      },
+      "products": [
+        {
+          "_id": "695670101c508c5d5e64821d",
+          "name": "Car97703",
+          "amount": 345,
+          "price": 69043,
+          "manufacturer": "Tesla",
+          "notes": "6IuUqtKXwTjh4JZoxFwPXnvkQZ04ZOdW5HOtgJGVsxlhhkWYFWHaGwAhL9OzmF3oSoTLxk3HkCYcmvPC3WTcaixUv46CpBAAZLZqMkHHjQS9Vfs2I5DGgI2zOrc4ddNNvW2QfdpFlcQFGEGEEmMCKFZBkQ5AO7jipSKkvrfXQTmeNcI6AThiwBFIzgvqoBQM20t9vAV7AHXN8eNLfpivmbzfuJsYlGTjxJJDQk5gpX42nzc9rP2pAG8eK2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 69043,
+      "createdOn": "2026-01-01T13:01:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956700f1c508c5d5e6481e7",
+          "products": [
+            {
+              "_id": "695670101c508c5d5e64821d",
+              "name": "Car97703",
+              "amount": 345,
+              "price": 69043,
+              "manufacturer": "Tesla",
+              "notes": "6IuUqtKXwTjh4JZoxFwPXnvkQZ04ZOdW5HOtgJGVsxlhhkWYFWHaGwAhL9OzmF3oSoTLxk3HkCYcmvPC3WTcaixUv46CpBAAZLZqMkHHjQS9Vfs2I5DGgI2zOrc4ddNNvW2QfdpFlcQFGEGEEmMCKFZBkQ5AO7jipSKkvrfXQTmeNcI6AThiwBFIzgvqoBQM20t9vAV7AHXN8eNLfpivmbzfuJsYlGTjxJJDQk5gpX42nzc9rP2pAG8eK2",
+              "received": false
+            }
+          ],
+          "total_price": 69043,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:01:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695670101c508c5d5e648225"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

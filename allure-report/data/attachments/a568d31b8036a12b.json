@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:55:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-RWVYtFOrEeJovvg9dZtNpEg9eJU\"",
+    "keep-alive": "timeout=5, max=32",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566ec51c508c5d5e63b9f3",
+      "status": "In Process",
+      "customer": {
+        "_id": "69566ec41c508c5d5e63b992",
+        "email": "Richie.Hoppe@gmail.com",
+        "name": "Kiara Pagac",
+        "country": "Germany",
+        "city": "Hegmannport",
+        "street": "Rashad Ridges 98",
+        "house": 964,
+        "flat": 7677,
+        "phone": "+287043236028661",
+        "createdOn": "2026-01-01T12:55:32.000Z",
+        "notes": "G4DBbW9dx0Z9wvlBiaHFbwUaZbYPXL"
+      },
+      "products": [
+        {
+          "_id": "69566ec51c508c5d5e63b9d4",
+          "name": "Hat2490",
+          "amount": 639,
+          "price": 43192,
+          "manufacturer": "Amazon",
+          "notes": "BnfymFSIhaJLwIa0N8sPN08U79lnJEK7yRaMjd7vjFLpHQorNaKbbbKQyXptdAjQ4adg7nG27Nqiii1Zf5G07RIuMvQgmqkbp1Rkn5IKTfgLzAerN3oiUHFqoqXONpsaxq9i8kOpmjd5yqGSGFNanxn0wUNJvHq6x5wVfEJB9URZRs34jIUUWSoki0x5rIZPdqSjbE3D275vxccJbiYhqSqjxcWlXH8eS03HqJFVF8so0dOh35ZRNHPokZ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "South Marisol",
+          "street": "Swaniawski Burgs",
+          "house": 287,
+          "flat": 7457
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 43192,
+      "createdOn": "2026-01-01T12:55:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69566ec41c508c5d5e63b992",
+          "products": [
+            {
+              "_id": "69566ec51c508c5d5e63b9d4",
+              "name": "Hat2490",
+              "amount": 639,
+              "price": 43192,
+              "manufacturer": "Amazon",
+              "notes": "BnfymFSIhaJLwIa0N8sPN08U79lnJEK7yRaMjd7vjFLpHQorNaKbbbKQyXptdAjQ4adg7nG27Nqiii1Zf5G07RIuMvQgmqkbp1Rkn5IKTfgLzAerN3oiUHFqoqXONpsaxq9i8kOpmjd5yqGSGFNanxn0wUNJvHq6x5wVfEJB9URZRs34jIUUWSoki0x5rIZPdqSjbE3D275vxccJbiYhqSqjxcWlXH8eS03HqJFVF8so0dOh35ZRNHPokZ",
+              "received": false
+            }
+          ],
+          "total_price": 43192,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "South Marisol",
+              "street": "Swaniawski Burgs",
+              "house": 287,
+              "flat": 7457
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:55:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566ec41c508c5d5e63b992",
+          "products": [
+            {
+              "_id": "69566ec51c508c5d5e63b9d4",
+              "name": "Hat2490",
+              "amount": 639,
+              "price": 43192,
+              "manufacturer": "Amazon",
+              "notes": "BnfymFSIhaJLwIa0N8sPN08U79lnJEK7yRaMjd7vjFLpHQorNaKbbbKQyXptdAjQ4adg7nG27Nqiii1Zf5G07RIuMvQgmqkbp1Rkn5IKTfgLzAerN3oiUHFqoqXONpsaxq9i8kOpmjd5yqGSGFNanxn0wUNJvHq6x5wVfEJB9URZRs34jIUUWSoki0x5rIZPdqSjbE3D275vxccJbiYhqSqjxcWlXH8eS03HqJFVF8so0dOh35ZRNHPokZ",
+              "received": false
+            }
+          ],
+          "total_price": 43192,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "South Marisol",
+              "street": "Swaniawski Burgs",
+              "house": 287,
+              "flat": 7457
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:55:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566ec41c508c5d5e63b992",
+          "products": [
+            {
+              "_id": "69566ec51c508c5d5e63b9d4",
+              "name": "Hat2490",
+              "amount": 639,
+              "price": 43192,
+              "manufacturer": "Amazon",
+              "notes": "BnfymFSIhaJLwIa0N8sPN08U79lnJEK7yRaMjd7vjFLpHQorNaKbbbKQyXptdAjQ4adg7nG27Nqiii1Zf5G07RIuMvQgmqkbp1Rkn5IKTfgLzAerN3oiUHFqoqXONpsaxq9i8kOpmjd5yqGSGFNanxn0wUNJvHq6x5wVfEJB9URZRs34jIUUWSoki0x5rIZPdqSjbE3D275vxccJbiYhqSqjxcWlXH8eS03HqJFVF8so0dOh35ZRNHPokZ",
+              "received": false
+            }
+          ],
+          "total_price": 43192,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:55:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

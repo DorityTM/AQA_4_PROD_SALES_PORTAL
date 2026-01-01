@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:55:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2746",
+    "etag": "W/\"aba-qrDs5gJqgsh6fpl8Gd5e3VQeRxw\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566ec71c508c5d5e63bae2",
+      "status": "Draft",
+      "customer": {
+        "_id": "69566ec61c508c5d5e63ba8a",
+        "email": "Madisen.Hilpert-Smitham35@hotmail.com",
+        "name": "Sydney Flatley",
+        "country": "Canada",
+        "city": "Kariland",
+        "street": "Brown Knoll 40",
+        "house": 31,
+        "flat": 4081,
+        "phone": "+645641570232344",
+        "createdOn": "2026-01-01T12:55:34.000Z",
+        "notes": "251CjiBqEz7OrIhJKrFdqllwineOUq"
+      },
+      "products": [
+        {
+          "_id": "69566ec71c508c5d5e63baa3",
+          "name": "Computer99091",
+          "amount": 156,
+          "price": 718,
+          "manufacturer": "Xiaomi",
+          "notes": "CdAjARhhjNdu53TSPkHFO89OGKMVLePkazLTdrJ41EmP9P3TJeRtxkbGvJscgy9p4fcBjdSgZLESRUrlBBdFB72DZXUEwfLKDBEksRV90WBAjtA17g4QYngd0hBKCQZhPglBPl4iAWMAHzopILaqvrWzkKlz1kq1V2qV7fDUlSeaBtEG8zvmLGUVF7V8q11YWWz1ZHWSHNvU8WqBTjNXbqQg8CdrxGQrCgqi9Dl6AgeVwPQ53eo07zg4S3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Tracy",
+          "street": "Darrion Shore",
+          "house": 23,
+          "flat": 8114
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 718,
+      "createdOn": "2026-01-01T12:55:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69566ec61c508c5d5e63ba8a",
+          "products": [
+            {
+              "_id": "69566ec71c508c5d5e63baa3",
+              "name": "Computer99091",
+              "amount": 156,
+              "price": 718,
+              "manufacturer": "Xiaomi",
+              "notes": "CdAjARhhjNdu53TSPkHFO89OGKMVLePkazLTdrJ41EmP9P3TJeRtxkbGvJscgy9p4fcBjdSgZLESRUrlBBdFB72DZXUEwfLKDBEksRV90WBAjtA17g4QYngd0hBKCQZhPglBPl4iAWMAHzopILaqvrWzkKlz1kq1V2qV7fDUlSeaBtEG8zvmLGUVF7V8q11YWWz1ZHWSHNvU8WqBTjNXbqQg8CdrxGQrCgqi9Dl6AgeVwPQ53eo07zg4S3",
+              "received": false
+            }
+          ],
+          "total_price": 718,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Tracy",
+              "street": "Darrion Shore",
+              "house": 23,
+              "flat": 8114
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:55:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566ec61c508c5d5e63ba8a",
+          "products": [
+            {
+              "_id": "69566ec71c508c5d5e63baa3",
+              "name": "Computer99091",
+              "amount": 156,
+              "price": 718,
+              "manufacturer": "Xiaomi",
+              "notes": "CdAjARhhjNdu53TSPkHFO89OGKMVLePkazLTdrJ41EmP9P3TJeRtxkbGvJscgy9p4fcBjdSgZLESRUrlBBdFB72DZXUEwfLKDBEksRV90WBAjtA17g4QYngd0hBKCQZhPglBPl4iAWMAHzopILaqvrWzkKlz1kq1V2qV7fDUlSeaBtEG8zvmLGUVF7V8q11YWWz1ZHWSHNvU8WqBTjNXbqQg8CdrxGQrCgqi9Dl6AgeVwPQ53eo07zg4S3",
+              "received": false
+            }
+          ],
+          "total_price": 718,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:55:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
