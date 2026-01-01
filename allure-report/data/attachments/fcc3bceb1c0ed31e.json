@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:44:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5256",
+    "etag": "W/\"1488-mJBJ+4cdIAdKPpWquW0BhDvqt7g\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956ce9c1c508c5d5e66838d",
+      "status": "In Process",
+      "customer": {
+        "_id": "6956ce991c508c5d5e6681e9",
+        "email": "Angeline.Beatty33@hotmail.com",
+        "name": "Michele Pollich",
+        "country": "Canada",
+        "city": "Richieville",
+        "street": "St George s Road 96",
+        "house": 190,
+        "flat": 416,
+        "phone": "+590912227639566",
+        "createdOn": "2026-01-01T19:44:25.000Z",
+        "notes": "EkgYm3pNB6BPTDa2RB8vzxzptPdmFW"
+      },
+      "products": [
+        {
+          "_id": "6956ce9a1c508c5d5e66821b",
+          "name": "Chicken44208",
+          "amount": 200,
+          "price": 67246,
+          "manufacturer": "Microsoft",
+          "notes": "Q7MYUpzKjSkEQQuJIjXHNW4QkBQoJQ1Rhei3qmjxS9itR5ujp39KWFXrEpNlh5eVfIvtcgI2Aqip18rh3fGYOO6odZSprCgqscvrFEfKZpgJqwK8SSwtFEhmvtOMSDtxSEwubdnAOrv2RXrLM1E1Uo1umfdfblCvXMWByISirrG8dLQ92OBim5aC2G4hEMUMH4WLiSEF5LWYoJwXuIX4B86PATWGkUPFl6URHNAzst2LT30BoU9eEk3kBz",
+          "received": false
+        },
+        {
+          "_id": "6956ce9b1c508c5d5e6682d4",
+          "name": "Ball49766",
+          "amount": 679,
+          "price": 71110,
+          "manufacturer": "Samsung",
+          "notes": "2RJgzKHn68omomJyilwyWsouD6ADWKOjaa18kMe4mgmiS6UeFQoqnbVesfi4othMjGXUUsExzgTHQnAwhyHm3I40e9BBM07swLX2SXrRO5QkIquV5S8iZ87Cy8a3tIa39T2Qp0ewpE2SpS2gAamj0PrbAnWbGAH5pGuy7y9K4gSqiCPRbrBnMwRCgSws4xHhpfrjgDBIlbWV1o2QD09Th2DDU2GAQTdT5g5BpS9qCMvG3tOixymnZnuL4o",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Santa Maria",
+          "street": "Hirthe Views",
+          "house": 732,
+          "flat": 7011
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 138356,
+      "createdOn": "2026-01-01T19:44:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6956ce991c508c5d5e6681e9",
+          "products": [
+            {
+              "_id": "6956ce9a1c508c5d5e66821b",
+              "name": "Chicken44208",
+              "amount": 200,
+              "price": 67246,
+              "manufacturer": "Microsoft",
+              "notes": "Q7MYUpzKjSkEQQuJIjXHNW4QkBQoJQ1Rhei3qmjxS9itR5ujp39KWFXrEpNlh5eVfIvtcgI2Aqip18rh3fGYOO6odZSprCgqscvrFEfKZpgJqwK8SSwtFEhmvtOMSDtxSEwubdnAOrv2RXrLM1E1Uo1umfdfblCvXMWByISirrG8dLQ92OBim5aC2G4hEMUMH4WLiSEF5LWYoJwXuIX4B86PATWGkUPFl6URHNAzst2LT30BoU9eEk3kBz",
+              "received": false
+            },
+            {
+              "_id": "6956ce9b1c508c5d5e6682d4",
+              "name": "Ball49766",
+              "amount": 679,
+              "price": 71110,
+              "manufacturer": "Samsung",
+              "notes": "2RJgzKHn68omomJyilwyWsouD6ADWKOjaa18kMe4mgmiS6UeFQoqnbVesfi4othMjGXUUsExzgTHQnAwhyHm3I40e9BBM07swLX2SXrRO5QkIquV5S8iZ87Cy8a3tIa39T2Qp0ewpE2SpS2gAamj0PrbAnWbGAH5pGuy7y9K4gSqiCPRbrBnMwRCgSws4xHhpfrjgDBIlbWV1o2QD09Th2DDU2GAQTdT5g5BpS9qCMvG3tOixymnZnuL4o",
+              "received": false
+            }
+          ],
+          "total_price": 138356,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Santa Maria",
+              "street": "Hirthe Views",
+              "house": 732,
+              "flat": 7011
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:44:30.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956ce991c508c5d5e6681e9",
+          "products": [
+            {
+              "_id": "6956ce9a1c508c5d5e66821b",
+              "name": "Chicken44208",
+              "amount": 200,
+              "price": 67246,
+              "manufacturer": "Microsoft",
+              "notes": "Q7MYUpzKjSkEQQuJIjXHNW4QkBQoJQ1Rhei3qmjxS9itR5ujp39KWFXrEpNlh5eVfIvtcgI2Aqip18rh3fGYOO6odZSprCgqscvrFEfKZpgJqwK8SSwtFEhmvtOMSDtxSEwubdnAOrv2RXrLM1E1Uo1umfdfblCvXMWByISirrG8dLQ92OBim5aC2G4hEMUMH4WLiSEF5LWYoJwXuIX4B86PATWGkUPFl6URHNAzst2LT30BoU9eEk3kBz",
+              "received": false
+            },
+            {
+              "_id": "6956ce9b1c508c5d5e6682d4",
+              "name": "Ball49766",
+              "amount": 679,
+              "price": 71110,
+              "manufacturer": "Samsung",
+              "notes": "2RJgzKHn68omomJyilwyWsouD6ADWKOjaa18kMe4mgmiS6UeFQoqnbVesfi4othMjGXUUsExzgTHQnAwhyHm3I40e9BBM07swLX2SXrRO5QkIquV5S8iZ87Cy8a3tIa39T2Qp0ewpE2SpS2gAamj0PrbAnWbGAH5pGuy7y9K4gSqiCPRbrBnMwRCgSws4xHhpfrjgDBIlbWV1o2QD09Th2DDU2GAQTdT5g5BpS9qCMvG3tOixymnZnuL4o",
+              "received": false
+            }
+          ],
+          "total_price": 138356,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Santa Maria",
+              "street": "Hirthe Views",
+              "house": 732,
+              "flat": 7011
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:44:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956ce991c508c5d5e6681e9",
+          "products": [
+            {
+              "_id": "6956ce9a1c508c5d5e66821b",
+              "name": "Chicken44208",
+              "amount": 200,
+              "price": 67246,
+              "manufacturer": "Microsoft",
+              "notes": "Q7MYUpzKjSkEQQuJIjXHNW4QkBQoJQ1Rhei3qmjxS9itR5ujp39KWFXrEpNlh5eVfIvtcgI2Aqip18rh3fGYOO6odZSprCgqscvrFEfKZpgJqwK8SSwtFEhmvtOMSDtxSEwubdnAOrv2RXrLM1E1Uo1umfdfblCvXMWByISirrG8dLQ92OBim5aC2G4hEMUMH4WLiSEF5LWYoJwXuIX4B86PATWGkUPFl6URHNAzst2LT30BoU9eEk3kBz",
+              "received": false
+            },
+            {
+              "_id": "6956ce9b1c508c5d5e6682d4",
+              "name": "Ball49766",
+              "amount": 679,
+              "price": 71110,
+              "manufacturer": "Samsung",
+              "notes": "2RJgzKHn68omomJyilwyWsouD6ADWKOjaa18kMe4mgmiS6UeFQoqnbVesfi4othMjGXUUsExzgTHQnAwhyHm3I40e9BBM07swLX2SXrRO5QkIquV5S8iZ87Cy8a3tIa39T2Qp0ewpE2SpS2gAamj0PrbAnWbGAH5pGuy7y9K4gSqiCPRbrBnMwRCgSws4xHhpfrjgDBIlbWV1o2QD09Th2DDU2GAQTdT5g5BpS9qCMvG3tOixymnZnuL4o",
+              "received": false
+            }
+          ],
+          "total_price": 138356,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:44:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

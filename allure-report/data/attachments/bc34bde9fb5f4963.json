@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:56:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1682",
+    "etag": "W/\"692-jBn7Tuc5/ZF02huxtQ8tU3iHzSk\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6956d1651c508c5d5e6860e3",
+        "email": "Evert.Wiegand@hotmail.com",
+        "name": "Javier Russel",
+        "country": "Russia",
+        "city": "New Brianaborough",
+        "street": "Alfred Street 67",
+        "house": 757,
+        "flat": 9325,
+        "phone": "+902551528980520",
+        "createdOn": "2026-01-01T19:56:21.000Z",
+        "notes": "A2jZNIt3tpzkOBUOZzK07wev4brtMM"
+      },
+      "products": [
+        {
+          "_id": "6956d16a1c508c5d5e68657f",
+          "name": "Chicken371",
+          "amount": 678,
+          "price": 22865,
+          "manufacturer": "Amazon",
+          "notes": "1FBh59zswgx0kdFtmIzuWzgQbwgKFMor6WyiMjrmSjVzWIl7zHWfrkhiLsfBLbINPVK8gw3ng9YlZsNS1lmIqYBnkTPOYAskRMdamJgIzcw6Rfo71VcPbYRnAaLFggtgJ3u39kY9mvQX08z7ZuMFDKncbhTHNBqUqqLt5pWEpR9vEotczPK42pS5tRbACMXn6r4uxOC51G9EOGqmFS9KLvvXnT4pzJNnvZVlglbMho2Vmo3IFFGXXhwtul",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22865,
+      "createdOn": "2026-01-01T19:56:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956d1651c508c5d5e6860e3",
+          "products": [
+            {
+              "_id": "6956d16a1c508c5d5e68657f",
+              "name": "Chicken371",
+              "amount": 678,
+              "price": 22865,
+              "manufacturer": "Amazon",
+              "notes": "1FBh59zswgx0kdFtmIzuWzgQbwgKFMor6WyiMjrmSjVzWIl7zHWfrkhiLsfBLbINPVK8gw3ng9YlZsNS1lmIqYBnkTPOYAskRMdamJgIzcw6Rfo71VcPbYRnAaLFggtgJ3u39kY9mvQX08z7ZuMFDKncbhTHNBqUqqLt5pWEpR9vEotczPK42pS5tRbACMXn6r4uxOC51G9EOGqmFS9KLvvXnT4pzJNnvZVlglbMho2Vmo3IFFGXXhwtul",
+              "received": false
+            }
+          ],
+          "total_price": 22865,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:56:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6956d16b1c508c5d5e6865b3"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

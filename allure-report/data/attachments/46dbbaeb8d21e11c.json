@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:48:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4632",
+    "etag": "W/\"1218-SJRAH6P3PPQtspRZR/U6y20w+hU\"",
+    "keep-alive": "timeout=5, max=62",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956cf681c508c5d5e6707a4",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6956cf671c508c5d5e670730",
+        "email": "Elijah16@yahoo.com",
+        "name": "Antwon Brakus",
+        "country": "Germany",
+        "city": "Elainaburgh",
+        "street": "Zakary Mission 19",
+        "house": 380,
+        "flat": 1680,
+        "phone": "+453990939616750",
+        "createdOn": "2026-01-01T19:47:51.000Z",
+        "notes": "qRaQLJZIyudrXXPHshOopZZ7ndq7Ce"
+      },
+      "products": [
+        {
+          "_id": "6956cf681c508c5d5e67077b",
+          "name": "Hat12331",
+          "amount": 166,
+          "price": 31825,
+          "manufacturer": "Xiaomi",
+          "notes": "qOhVqq0m8jjDjMf8o8ijW961xOhVA3rQR9cDcQLzzGTNCjqmqsPZI2nCowtWcL1HOirkrzijEcYZSgZ4LuAYWfnDDwwBirdVKjP4F7baWx0iJ7z47vMJUMoZgowXwWyfgUBwhzpGcUZiIfaNWflozRHMfhRQECkkYIoXzniJ3N3Kr5R13ZG9dS7keoq8DCNliaxUuKXmn6m9o3poJobblH4U231vuOxCbZABlKUDO1uKrYGforMC3yQVDT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "South Edenchester",
+          "street": "Monte Locks",
+          "house": 387,
+          "flat": 5159
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 31825,
+      "createdOn": "2026-01-01T19:47:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6956cf671c508c5d5e670730",
+          "products": [
+            {
+              "_id": "6956cf681c508c5d5e67077b",
+              "name": "Hat12331",
+              "amount": 166,
+              "price": 31825,
+              "manufacturer": "Xiaomi",
+              "notes": "qOhVqq0m8jjDjMf8o8ijW961xOhVA3rQR9cDcQLzzGTNCjqmqsPZI2nCowtWcL1HOirkrzijEcYZSgZ4LuAYWfnDDwwBirdVKjP4F7baWx0iJ7z47vMJUMoZgowXwWyfgUBwhzpGcUZiIfaNWflozRHMfhRQECkkYIoXzniJ3N3Kr5R13ZG9dS7keoq8DCNliaxUuKXmn6m9o3poJobblH4U231vuOxCbZABlKUDO1uKrYGforMC3yQVDT",
+              "received": false
+            }
+          ],
+          "total_price": 31825,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Edenchester",
+              "street": "Monte Locks",
+              "house": 387,
+              "flat": 5159
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:48:00.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6956cf671c508c5d5e670730",
+          "products": [
+            {
+              "_id": "6956cf681c508c5d5e67077b",
+              "name": "Hat12331",
+              "amount": 166,
+              "price": 31825,
+              "manufacturer": "Xiaomi",
+              "notes": "qOhVqq0m8jjDjMf8o8ijW961xOhVA3rQR9cDcQLzzGTNCjqmqsPZI2nCowtWcL1HOirkrzijEcYZSgZ4LuAYWfnDDwwBirdVKjP4F7baWx0iJ7z47vMJUMoZgowXwWyfgUBwhzpGcUZiIfaNWflozRHMfhRQECkkYIoXzniJ3N3Kr5R13ZG9dS7keoq8DCNliaxUuKXmn6m9o3poJobblH4U231vuOxCbZABlKUDO1uKrYGforMC3yQVDT",
+              "received": false
+            }
+          ],
+          "total_price": 31825,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Edenchester",
+              "street": "Monte Locks",
+              "house": 387,
+              "flat": 5159
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:47:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cf671c508c5d5e670730",
+          "products": [
+            {
+              "_id": "6956cf681c508c5d5e67077b",
+              "name": "Hat12331",
+              "amount": 166,
+              "price": 31825,
+              "manufacturer": "Xiaomi",
+              "notes": "qOhVqq0m8jjDjMf8o8ijW961xOhVA3rQR9cDcQLzzGTNCjqmqsPZI2nCowtWcL1HOirkrzijEcYZSgZ4LuAYWfnDDwwBirdVKjP4F7baWx0iJ7z47vMJUMoZgowXwWyfgUBwhzpGcUZiIfaNWflozRHMfhRQECkkYIoXzniJ3N3Kr5R13ZG9dS7keoq8DCNliaxUuKXmn6m9o3poJobblH4U231vuOxCbZABlKUDO1uKrYGforMC3yQVDT",
+              "received": false
+            }
+          ],
+          "total_price": 31825,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Edenchester",
+              "street": "Monte Locks",
+              "house": 387,
+              "flat": 5159
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:47:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cf671c508c5d5e670730",
+          "products": [
+            {
+              "_id": "6956cf681c508c5d5e67077b",
+              "name": "Hat12331",
+              "amount": 166,
+              "price": 31825,
+              "manufacturer": "Xiaomi",
+              "notes": "qOhVqq0m8jjDjMf8o8ijW961xOhVA3rQR9cDcQLzzGTNCjqmqsPZI2nCowtWcL1HOirkrzijEcYZSgZ4LuAYWfnDDwwBirdVKjP4F7baWx0iJ7z47vMJUMoZgowXwWyfgUBwhzpGcUZiIfaNWflozRHMfhRQECkkYIoXzniJ3N3Kr5R13ZG9dS7keoq8DCNliaxUuKXmn6m9o3poJobblH4U231vuOxCbZABlKUDO1uKrYGforMC3yQVDT",
+              "received": false
+            }
+          ],
+          "total_price": 31825,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:47:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

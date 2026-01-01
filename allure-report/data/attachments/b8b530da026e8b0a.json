@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:47:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2769",
+    "etag": "W/\"ad1-3ilUT/BOHfJNsVB6GUMP0ixVUp8\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956cf591c508c5d5e66fd1b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956cf581c508c5d5e66fcf2",
+        "email": "Mireille.Watsica@gmail.com",
+        "name": "Astrid Pouros",
+        "country": "Canada",
+        "city": "Kellenborough",
+        "street": "S Oak Street 64",
+        "house": 910,
+        "flat": 5396,
+        "phone": "+040508912140292",
+        "createdOn": "2026-01-01T19:47:36.000Z",
+        "notes": "H9Sd0dH6cc3PFqyejzbwe5403rAntS"
+      },
+      "products": [
+        {
+          "_id": "6956cf591c508c5d5e66fd06",
+          "name": "Sausages17372",
+          "amount": 660,
+          "price": 43327,
+          "manufacturer": "Google",
+          "notes": "1vBqKAki49uQ5f6PkzgJwcI0tFqF1KKop3MvQ1kkRxOlvcOjg4YM2ykZ8EwqDGXuOrEBRv1J6oqZH7PdAr3xVnpfmzl9kHz8kCrBW8iby9oo3wWI79FieRuyj7tcPGTRfdoatjdW0KjQ4yITaeDpSGPmv4HnNTdn2P7iy752QzYdAt4rhRySXRHirwxRJ9bZip7dhruGXd8aCewlkPXQqrVnnMecR5DCqHZRE5V4f4ptP1unAmaqTH007Q",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Fort Rebeca",
+          "street": "Columbia Avenue",
+          "house": 75,
+          "flat": 4087
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 43327,
+      "createdOn": "2026-01-01T19:47:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956cf581c508c5d5e66fcf2",
+          "products": [
+            {
+              "_id": "6956cf591c508c5d5e66fd06",
+              "name": "Sausages17372",
+              "amount": 660,
+              "price": 43327,
+              "manufacturer": "Google",
+              "notes": "1vBqKAki49uQ5f6PkzgJwcI0tFqF1KKop3MvQ1kkRxOlvcOjg4YM2ykZ8EwqDGXuOrEBRv1J6oqZH7PdAr3xVnpfmzl9kHz8kCrBW8iby9oo3wWI79FieRuyj7tcPGTRfdoatjdW0KjQ4yITaeDpSGPmv4HnNTdn2P7iy752QzYdAt4rhRySXRHirwxRJ9bZip7dhruGXd8aCewlkPXQqrVnnMecR5DCqHZRE5V4f4ptP1unAmaqTH007Q",
+              "received": false
+            }
+          ],
+          "total_price": 43327,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Rebeca",
+              "street": "Columbia Avenue",
+              "house": 75,
+              "flat": 4087
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:47:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cf581c508c5d5e66fcf2",
+          "products": [
+            {
+              "_id": "6956cf591c508c5d5e66fd06",
+              "name": "Sausages17372",
+              "amount": 660,
+              "price": 43327,
+              "manufacturer": "Google",
+              "notes": "1vBqKAki49uQ5f6PkzgJwcI0tFqF1KKop3MvQ1kkRxOlvcOjg4YM2ykZ8EwqDGXuOrEBRv1J6oqZH7PdAr3xVnpfmzl9kHz8kCrBW8iby9oo3wWI79FieRuyj7tcPGTRfdoatjdW0KjQ4yITaeDpSGPmv4HnNTdn2P7iy752QzYdAt4rhRySXRHirwxRJ9bZip7dhruGXd8aCewlkPXQqrVnnMecR5DCqHZRE5V4f4ptP1unAmaqTH007Q",
+              "received": false
+            }
+          ],
+          "total_price": 43327,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:47:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

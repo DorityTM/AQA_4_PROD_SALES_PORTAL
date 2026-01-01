@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:58:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2741",
+    "etag": "W/\"ab5-gUyjfSc/7u8DEgT9AUK+njk2M3s\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d1dc1c508c5d5e68bc88",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956d1db1c508c5d5e68bc1d",
+        "email": "Gregoria_Price@yahoo.com",
+        "name": "Agustina Leuschke",
+        "country": "Belarus",
+        "city": "West Chelsiestead",
+        "street": "Verda Terrace 5",
+        "house": 170,
+        "flat": 7978,
+        "phone": "+456690036114198",
+        "createdOn": "2026-01-01T19:58:19.000Z",
+        "notes": "8C1RkgDgPTmTr5nZRS0H51iHKvfUHy"
+      },
+      "products": [
+        {
+          "_id": "6956d1db1c508c5d5e68bc64",
+          "name": "Hat42227",
+          "amount": 524,
+          "price": 35112,
+          "manufacturer": "Xiaomi",
+          "notes": "f0vlCQTAA5b0IMGzTKRnWFiR3fVo3jMz3iCulcxdLDgSkjBgKRf5FpNTnTdvVx5HQdiuk6Z9DzDN9jFuUyF13b4qnrV53wqpVl4peuP77UCCIwRROIzrRExhKQVwxpogUlqZVVN1IFlvk3LqoYc9y8qoSrnBaQ5wWrxzTm0NggU441OKDnAZTpzcCdbuiPz7zaYVjbe3ksBKGOOn3EYvgpZDn2xCcYFKYc3DMDPa64Cl3RK1y5EZDbz6HH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Round Rock",
+          "street": "Alec Well",
+          "house": 451,
+          "flat": 6339
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 35112,
+      "createdOn": "2026-01-01T19:58:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956d1db1c508c5d5e68bc1d",
+          "products": [
+            {
+              "_id": "6956d1db1c508c5d5e68bc64",
+              "name": "Hat42227",
+              "amount": 524,
+              "price": 35112,
+              "manufacturer": "Xiaomi",
+              "notes": "f0vlCQTAA5b0IMGzTKRnWFiR3fVo3jMz3iCulcxdLDgSkjBgKRf5FpNTnTdvVx5HQdiuk6Z9DzDN9jFuUyF13b4qnrV53wqpVl4peuP77UCCIwRROIzrRExhKQVwxpogUlqZVVN1IFlvk3LqoYc9y8qoSrnBaQ5wWrxzTm0NggU441OKDnAZTpzcCdbuiPz7zaYVjbe3ksBKGOOn3EYvgpZDn2xCcYFKYc3DMDPa64Cl3RK1y5EZDbz6HH",
+              "received": false
+            }
+          ],
+          "total_price": 35112,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Round Rock",
+              "street": "Alec Well",
+              "house": 451,
+              "flat": 6339
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:58:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1db1c508c5d5e68bc1d",
+          "products": [
+            {
+              "_id": "6956d1db1c508c5d5e68bc64",
+              "name": "Hat42227",
+              "amount": 524,
+              "price": 35112,
+              "manufacturer": "Xiaomi",
+              "notes": "f0vlCQTAA5b0IMGzTKRnWFiR3fVo3jMz3iCulcxdLDgSkjBgKRf5FpNTnTdvVx5HQdiuk6Z9DzDN9jFuUyF13b4qnrV53wqpVl4peuP77UCCIwRROIzrRExhKQVwxpogUlqZVVN1IFlvk3LqoYc9y8qoSrnBaQ5wWrxzTm0NggU441OKDnAZTpzcCdbuiPz7zaYVjbe3ksBKGOOn3EYvgpZDn2xCcYFKYc3DMDPa64Cl3RK1y5EZDbz6HH",
+              "received": false
+            }
+          ],
+          "total_price": 35112,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:58:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

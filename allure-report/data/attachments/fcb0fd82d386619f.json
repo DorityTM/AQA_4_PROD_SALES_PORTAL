@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 20:00:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4558",
+    "etag": "W/\"11ce-im4aULyLbxat+/vwVSA81I0akOk\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d2631c508c5d5e691b8d",
+      "status": "Received",
+      "customer": {
+        "_id": "6956d2621c508c5d5e691b0b",
+        "email": "Brianne.Wuckert@hotmail.com",
+        "name": "Ida Torp",
+        "country": "Ukraine",
+        "city": "Clementineworth",
+        "street": "Ebert Parkway 39",
+        "house": 982,
+        "flat": 1347,
+        "phone": "+895340230036172",
+        "createdOn": "2026-01-01T20:00:34.000Z",
+        "notes": "czLNTJY44sg75VWInFu1PCJJbnXbOv"
+      },
+      "products": [
+        {
+          "_id": "6956d2631c508c5d5e691b33",
+          "name": "Car93936",
+          "amount": 455,
+          "price": 89574,
+          "manufacturer": "Sony",
+          "notes": "XoY3LwCXuu314WVW6lGES9jqf6705kVEJRf6bbQZgkfYi5yaMvOPIyauEzwLlvftp5F0mhGrNQYAhcHVqbMJJOWsDukroB5TU2KpVHFbwhZ8tmiN9KG0wWNAH716XTqFHpRLU5jVcZRgPkEyEpHArTSVXz8eAmP4GXzlXUAMjfjTXIyznLRpz3BTI2DqxrJqWuOISxMyvVacBiVpIdGiHMAyg0eXvRMCvtYQYtjYxJe47oNyFO05dFGXpq",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Kenyaview",
+          "street": "Lesly Fort",
+          "house": 160,
+          "flat": 1284
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 89574,
+      "createdOn": "2026-01-01T20:00:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6956d2621c508c5d5e691b0b",
+          "products": [
+            {
+              "_id": "6956d2631c508c5d5e691b33",
+              "name": "Car93936",
+              "amount": 455,
+              "price": 89574,
+              "manufacturer": "Sony",
+              "notes": "XoY3LwCXuu314WVW6lGES9jqf6705kVEJRf6bbQZgkfYi5yaMvOPIyauEzwLlvftp5F0mhGrNQYAhcHVqbMJJOWsDukroB5TU2KpVHFbwhZ8tmiN9KG0wWNAH716XTqFHpRLU5jVcZRgPkEyEpHArTSVXz8eAmP4GXzlXUAMjfjTXIyznLRpz3BTI2DqxrJqWuOISxMyvVacBiVpIdGiHMAyg0eXvRMCvtYQYtjYxJe47oNyFO05dFGXpq",
+              "received": true
+            }
+          ],
+          "total_price": 89574,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kenyaview",
+              "street": "Lesly Fort",
+              "house": 160,
+              "flat": 1284
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T20:00:45.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6956d2621c508c5d5e691b0b",
+          "products": [
+            {
+              "_id": "6956d2631c508c5d5e691b33",
+              "name": "Car93936",
+              "amount": 455,
+              "price": 89574,
+              "manufacturer": "Sony",
+              "notes": "XoY3LwCXuu314WVW6lGES9jqf6705kVEJRf6bbQZgkfYi5yaMvOPIyauEzwLlvftp5F0mhGrNQYAhcHVqbMJJOWsDukroB5TU2KpVHFbwhZ8tmiN9KG0wWNAH716XTqFHpRLU5jVcZRgPkEyEpHArTSVXz8eAmP4GXzlXUAMjfjTXIyznLRpz3BTI2DqxrJqWuOISxMyvVacBiVpIdGiHMAyg0eXvRMCvtYQYtjYxJe47oNyFO05dFGXpq",
+              "received": false
+            }
+          ],
+          "total_price": 89574,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kenyaview",
+              "street": "Lesly Fort",
+              "house": 160,
+              "flat": 1284
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T20:00:40.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d2621c508c5d5e691b0b",
+          "products": [
+            {
+              "_id": "6956d2631c508c5d5e691b33",
+              "name": "Car93936",
+              "amount": 455,
+              "price": 89574,
+              "manufacturer": "Sony",
+              "notes": "XoY3LwCXuu314WVW6lGES9jqf6705kVEJRf6bbQZgkfYi5yaMvOPIyauEzwLlvftp5F0mhGrNQYAhcHVqbMJJOWsDukroB5TU2KpVHFbwhZ8tmiN9KG0wWNAH716XTqFHpRLU5jVcZRgPkEyEpHArTSVXz8eAmP4GXzlXUAMjfjTXIyznLRpz3BTI2DqxrJqWuOISxMyvVacBiVpIdGiHMAyg0eXvRMCvtYQYtjYxJe47oNyFO05dFGXpq",
+              "received": false
+            }
+          ],
+          "total_price": 89574,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kenyaview",
+              "street": "Lesly Fort",
+              "house": 160,
+              "flat": 1284
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T20:00:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d2621c508c5d5e691b0b",
+          "products": [
+            {
+              "_id": "6956d2631c508c5d5e691b33",
+              "name": "Car93936",
+              "amount": 455,
+              "price": 89574,
+              "manufacturer": "Sony",
+              "notes": "XoY3LwCXuu314WVW6lGES9jqf6705kVEJRf6bbQZgkfYi5yaMvOPIyauEzwLlvftp5F0mhGrNQYAhcHVqbMJJOWsDukroB5TU2KpVHFbwhZ8tmiN9KG0wWNAH716XTqFHpRLU5jVcZRgPkEyEpHArTSVXz8eAmP4GXzlXUAMjfjTXIyznLRpz3BTI2DqxrJqWuOISxMyvVacBiVpIdGiHMAyg0eXvRMCvtYQYtjYxJe47oNyFO05dFGXpq",
+              "received": false
+            }
+          ],
+          "total_price": 89574,
+          "delivery": null,
+          "changedOn": "2026-01-01T20:00:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

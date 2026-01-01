@@ -1,0 +1,125 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - generic [ref=e7]: Sales Portal
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: "#/home"
+      - link "Orders" [ref=e11] [cursor=pointer]:
+        - /url: "#/orders"
+      - link "Products" [ref=e13] [cursor=pointer]:
+        - /url: "#/products"
+      - link "Customers" [ref=e15] [cursor=pointer]:
+        - /url: "#/customers"
+      - link "Managers" [ref=e17] [cursor=pointer]:
+        - /url: "#/managers"
+    - generic [ref=e19]:
+      - button " 448" [ref=e21] [cursor=pointer]:
+        - generic: 
+        - generic [ref=e22]: "448"
+      - button "" [ref=e23] [cursor=pointer]:
+        - generic: 
+      - link "User" [ref=e25] [cursor=pointer]:
+        - /url: "#/managers/undefined"
+        - strong [ref=e26]: User
+      - button "" [ref=e27] [cursor=pointer]:
+        - generic: 
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - link " Orders" [ref=e30] [cursor=pointer]:
+        - /url: "#/orders"
+        - generic: 
+        - text: Orders
+      - generic [ref=e31]:
+        - heading "Order Details" [level=2] [ref=e33]
+        - generic [ref=e34]:
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - generic [ref=e38]: "Order number:"
+              - generic [ref=e39]: 6956d2431c508c5d5e6904c3
+            - generic [ref=e40]:
+              - generic [ref=e41]: "Assigned Manager:"
+              - generic [ref=e43] [cursor=pointer]: Click to select manager
+          - button "Refresh Order " [ref=e46] [cursor=pointer]:
+            - text: Refresh Order
+            - generic: 
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - text: Order Status
+              - text: Partially Received
+            - generic [ref=e49]:
+              - text: Total Price
+              - text: $53057
+            - generic [ref=e50]:
+              - text: Delivery
+              - text: 2026/01/08
+            - generic [ref=e51]:
+              - text: Created On
+              - text: January 1, 2026 8:00 PM
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - heading "Customer Details" [level=4] [ref=e55]
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Email
+            - generic [ref=e59]: Foster51@hotmail.com
+          - generic [ref=e60]:
+            - generic [ref=e61]: Name
+            - generic [ref=e62]: Elody Abernathy
+          - generic [ref=e63]:
+            - generic [ref=e64]: Country
+            - generic [ref=e65]: Germany
+          - generic [ref=e66]:
+            - generic [ref=e67]: City
+            - generic [ref=e68]: Fayside
+          - generic [ref=e69]:
+            - generic [ref=e70]: Street
+            - generic [ref=e71]: Westfield Road 14
+          - generic [ref=e72]:
+            - generic [ref=e73]: House
+            - generic [ref=e74]: "747"
+          - generic [ref=e75]:
+            - generic [ref=e76]: Flat
+            - generic [ref=e77]: "4025"
+          - generic [ref=e78]:
+            - generic [ref=e79]: Phone
+            - generic [ref=e80]: "+091302253059768"
+          - generic [ref=e81]:
+            - generic [ref=e82]: Created On
+            - generic [ref=e83]: 2026/01/01 19:59:59
+          - generic [ref=e84]:
+            - generic [ref=e85]: Notes
+            - generic [ref=e86]: oG54R6nSUPwp1pl0Kw51TP0imGLJoL
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - heading "Requested Products" [level=4] [ref=e90]
+          - generic [ref=e91]:
+            - button [disabled]:
+              - status
+        - generic [ref=e92]:
+          - generic [ref=e94]:
+            - button "Computer94972" [ref=e95] [cursor=pointer]
+            - generic [ref=e96]: Received
+          - generic [ref=e98]:
+            - button "Soap2217" [ref=e99] [cursor=pointer]
+            - generic [ref=e100]: Not Received
+          - generic [ref=e102]:
+            - button "Car8119" [ref=e103] [cursor=pointer]
+            - generic [ref=e104]: Not Received
+    - generic [ref=e106]:
+      - tablist [ref=e107]:
+        - tab "Delivery" [ref=e108] [cursor=pointer]
+        - tab "Order History" [ref=e109] [cursor=pointer]
+        - tab "Comments" [ref=e110] [cursor=pointer]
+      - tabpanel "Comments" [ref=e112]:
+        - generic [ref=e113]:
+          - heading "Comments" [level=4] [ref=e114]
+          - generic [ref=e115]:
+            - textbox "Enter a comment" [ref=e117]
+            - generic [ref=e118]:
+              - button "Create" [disabled]
+```

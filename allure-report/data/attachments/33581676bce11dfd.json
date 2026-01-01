@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:57:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3654",
+    "etag": "W/\"e46-nLsEfk7NdLHgJbgS/oEVUIDfvgU\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d19e1c508c5d5e688c7c",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6956d1991c508c5d5e688a60",
+        "email": "Vivian.Witting@yahoo.com",
+        "name": "Terrence Friesen",
+        "country": "Germany",
+        "city": "Stromanfort",
+        "street": "Berge View 32",
+        "house": 194,
+        "flat": 1410,
+        "phone": "+098763004603883",
+        "createdOn": "2026-01-01T19:57:13.000Z",
+        "notes": "vwyiV3d4CZ0EVtqSIEN56KofZ0cX2g"
+      },
+      "products": [
+        {
+          "_id": "6956d19d1c508c5d5e688c29",
+          "name": "Salad6515",
+          "amount": 548,
+          "price": 68350,
+          "manufacturer": "Tesla",
+          "notes": "gJ7QnpjT4VLPR1ScIoyjBrWdSnurGX5cHAHj7CKvfGDN5zkzSGQ4Yr4rUWK0wVgXsTSn93jni2ypqZvwBuj3n50agdP8oh6hVC4X2oebzZuDepYN1R4xfV53PSV70DaTjPzsyi4IuNyqYYUGQPYxZMzivFj2x564VQ3QDg5Ejh763aX1ga52EYsbQ67EoUrSOMn2zJYFIpOdY2RhiNDhMNJ5Q6MIyQ3craQPKcmO7IK4irnsE33wro6sud",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Norwalk",
+          "street": "Main Street N",
+          "house": 620,
+          "flat": 8044
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 68350,
+      "createdOn": "2026-01-01T19:57:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6956d1991c508c5d5e688a60",
+          "products": [
+            {
+              "_id": "6956d19d1c508c5d5e688c29",
+              "name": "Salad6515",
+              "amount": 548,
+              "price": 68350,
+              "manufacturer": "Tesla",
+              "notes": "gJ7QnpjT4VLPR1ScIoyjBrWdSnurGX5cHAHj7CKvfGDN5zkzSGQ4Yr4rUWK0wVgXsTSn93jni2ypqZvwBuj3n50agdP8oh6hVC4X2oebzZuDepYN1R4xfV53PSV70DaTjPzsyi4IuNyqYYUGQPYxZMzivFj2x564VQ3QDg5Ejh763aX1ga52EYsbQ67EoUrSOMn2zJYFIpOdY2RhiNDhMNJ5Q6MIyQ3craQPKcmO7IK4irnsE33wro6sud",
+              "received": false
+            }
+          ],
+          "total_price": 68350,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Norwalk",
+              "street": "Main Street N",
+              "house": 620,
+              "flat": 8044
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:57:25.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1991c508c5d5e688a60",
+          "products": [
+            {
+              "_id": "6956d19d1c508c5d5e688c29",
+              "name": "Salad6515",
+              "amount": 548,
+              "price": 68350,
+              "manufacturer": "Tesla",
+              "notes": "gJ7QnpjT4VLPR1ScIoyjBrWdSnurGX5cHAHj7CKvfGDN5zkzSGQ4Yr4rUWK0wVgXsTSn93jni2ypqZvwBuj3n50agdP8oh6hVC4X2oebzZuDepYN1R4xfV53PSV70DaTjPzsyi4IuNyqYYUGQPYxZMzivFj2x564VQ3QDg5Ejh763aX1ga52EYsbQ67EoUrSOMn2zJYFIpOdY2RhiNDhMNJ5Q6MIyQ3craQPKcmO7IK4irnsE33wro6sud",
+              "received": false
+            }
+          ],
+          "total_price": 68350,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Norwalk",
+              "street": "Main Street N",
+              "house": 620,
+              "flat": 8044
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:57:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1991c508c5d5e688a60",
+          "products": [
+            {
+              "_id": "6956d19d1c508c5d5e688c29",
+              "name": "Salad6515",
+              "amount": 548,
+              "price": 68350,
+              "manufacturer": "Tesla",
+              "notes": "gJ7QnpjT4VLPR1ScIoyjBrWdSnurGX5cHAHj7CKvfGDN5zkzSGQ4Yr4rUWK0wVgXsTSn93jni2ypqZvwBuj3n50agdP8oh6hVC4X2oebzZuDepYN1R4xfV53PSV70DaTjPzsyi4IuNyqYYUGQPYxZMzivFj2x564VQ3QDg5Ejh763aX1ga52EYsbQ67EoUrSOMn2zJYFIpOdY2RhiNDhMNJ5Q6MIyQ3craQPKcmO7IK4irnsE33wro6sud",
+              "received": false
+            }
+          ],
+          "total_price": 68350,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:57:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

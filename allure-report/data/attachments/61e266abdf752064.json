@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:56:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4593",
+    "etag": "W/\"11f1-gA1PzlEJnncpn8dUms5mBM6473M\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d15b1c508c5d5e685a0f",
+      "status": "Received",
+      "customer": {
+        "_id": "6956d1591c508c5d5e68599a",
+        "email": "Carmelo_Borer-Effertz72@yahoo.com",
+        "name": "Simeon Heidenreich",
+        "country": "Belarus",
+        "city": "Gradyburgh",
+        "street": "Norfolk Road 2",
+        "house": 287,
+        "flat": 8550,
+        "phone": "+894205804652477",
+        "createdOn": "2026-01-01T19:56:09.000Z",
+        "notes": "AatgoSPRAVdnpaVU299zqY8fAtS6MP"
+      },
+      "products": [
+        {
+          "_id": "6956d15a1c508c5d5e6859ee",
+          "name": "Table11517",
+          "amount": 201,
+          "price": 80867,
+          "manufacturer": "Sony",
+          "notes": "vicpX9Z2vhm6fLpljDBKZGV2XTzvEAB4mQ3bH0aFzqT5BmYj7BIikl65iK17SrRIHMJuqIlyc2jkyKlAPEFJqpQeVhc5JNRh54IkngSVuL5pRzgMWmMiIDIMpNfgFsqY5K8kepsqZTeqSGFTNpAtWr2nZuy8QyqPkit2B6YtOchfdLsjD8jzxdePjCDS37GAoujHsRo9MyRjVKaC0iMk5KrLA161rw4oo2PgrEWttPpj86ByKvcVtsq6Ku",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "New Nya",
+          "street": "Ritchie Walk",
+          "house": 238,
+          "flat": 4958
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80867,
+      "createdOn": "2026-01-01T19:56:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6956d1591c508c5d5e68599a",
+          "products": [
+            {
+              "_id": "6956d15a1c508c5d5e6859ee",
+              "name": "Table11517",
+              "amount": 201,
+              "price": 80867,
+              "manufacturer": "Sony",
+              "notes": "vicpX9Z2vhm6fLpljDBKZGV2XTzvEAB4mQ3bH0aFzqT5BmYj7BIikl65iK17SrRIHMJuqIlyc2jkyKlAPEFJqpQeVhc5JNRh54IkngSVuL5pRzgMWmMiIDIMpNfgFsqY5K8kepsqZTeqSGFTNpAtWr2nZuy8QyqPkit2B6YtOchfdLsjD8jzxdePjCDS37GAoujHsRo9MyRjVKaC0iMk5KrLA161rw4oo2PgrEWttPpj86ByKvcVtsq6Ku",
+              "received": true
+            }
+          ],
+          "total_price": 80867,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Nya",
+              "street": "Ritchie Walk",
+              "house": 238,
+              "flat": 4958
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:56:15.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6956d1591c508c5d5e68599a",
+          "products": [
+            {
+              "_id": "6956d15a1c508c5d5e6859ee",
+              "name": "Table11517",
+              "amount": 201,
+              "price": 80867,
+              "manufacturer": "Sony",
+              "notes": "vicpX9Z2vhm6fLpljDBKZGV2XTzvEAB4mQ3bH0aFzqT5BmYj7BIikl65iK17SrRIHMJuqIlyc2jkyKlAPEFJqpQeVhc5JNRh54IkngSVuL5pRzgMWmMiIDIMpNfgFsqY5K8kepsqZTeqSGFTNpAtWr2nZuy8QyqPkit2B6YtOchfdLsjD8jzxdePjCDS37GAoujHsRo9MyRjVKaC0iMk5KrLA161rw4oo2PgrEWttPpj86ByKvcVtsq6Ku",
+              "received": false
+            }
+          ],
+          "total_price": 80867,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Nya",
+              "street": "Ritchie Walk",
+              "house": 238,
+              "flat": 4958
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:56:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1591c508c5d5e68599a",
+          "products": [
+            {
+              "_id": "6956d15a1c508c5d5e6859ee",
+              "name": "Table11517",
+              "amount": 201,
+              "price": 80867,
+              "manufacturer": "Sony",
+              "notes": "vicpX9Z2vhm6fLpljDBKZGV2XTzvEAB4mQ3bH0aFzqT5BmYj7BIikl65iK17SrRIHMJuqIlyc2jkyKlAPEFJqpQeVhc5JNRh54IkngSVuL5pRzgMWmMiIDIMpNfgFsqY5K8kepsqZTeqSGFTNpAtWr2nZuy8QyqPkit2B6YtOchfdLsjD8jzxdePjCDS37GAoujHsRo9MyRjVKaC0iMk5KrLA161rw4oo2PgrEWttPpj86ByKvcVtsq6Ku",
+              "received": false
+            }
+          ],
+          "total_price": 80867,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "New Nya",
+              "street": "Ritchie Walk",
+              "house": 238,
+              "flat": 4958
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:56:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1591c508c5d5e68599a",
+          "products": [
+            {
+              "_id": "6956d15a1c508c5d5e6859ee",
+              "name": "Table11517",
+              "amount": 201,
+              "price": 80867,
+              "manufacturer": "Sony",
+              "notes": "vicpX9Z2vhm6fLpljDBKZGV2XTzvEAB4mQ3bH0aFzqT5BmYj7BIikl65iK17SrRIHMJuqIlyc2jkyKlAPEFJqpQeVhc5JNRh54IkngSVuL5pRzgMWmMiIDIMpNfgFsqY5K8kepsqZTeqSGFTNpAtWr2nZuy8QyqPkit2B6YtOchfdLsjD8jzxdePjCDS37GAoujHsRo9MyRjVKaC0iMk5KrLA161rw4oo2PgrEWttPpj86ByKvcVtsq6Ku",
+              "received": false
+            }
+          ],
+          "total_price": 80867,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:56:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

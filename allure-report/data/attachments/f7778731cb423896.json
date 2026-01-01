@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:56:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2766",
+    "etag": "W/\"ace-vsuAEiD9dzzlv/hlrGo8Ic0M48U\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d1781c508c5d5e68702b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956d1751c508c5d5e686dbc",
+        "email": "Stewart_Deckow26@gmail.com",
+        "name": "Milan Kris",
+        "country": "Germany",
+        "city": "Nicolasbury",
+        "street": "Ophelia Throughway 87",
+        "house": 342,
+        "flat": 5915,
+        "phone": "+618024081469883",
+        "createdOn": "2026-01-01T19:56:37.000Z",
+        "notes": "uXUzZTEeksmlgYja0hznCpg7y8Op40"
+      },
+      "products": [
+        {
+          "_id": "6956d1771c508c5d5e686ffc",
+          "name": "Sausages2762",
+          "amount": 125,
+          "price": 77865,
+          "manufacturer": "Xiaomi",
+          "notes": "tUpEEhl0n4fP5eqCNuGhnkemGM56WRV4pCJJez5dwtCvD41Fi3Gr7JcCGghlXCXaDLy4El4ujA50pnkeOnCGHoEiG69rZHpEB3RjrXK0h49WkE97KbCEdHNcabgc7c4a3tISbt4wUf6InCl4IinkyXbvrLcWMEbqd7x9j5y5dfKsUMif3qVbeJeyTAyQnYkpfApIUuz2RhJQcBZMCelDgVTK182YMJtEHs99i16htcfY7dwXC7OoWFbv68",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Leta",
+          "street": "N Monroe Street",
+          "house": 217,
+          "flat": 3860
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 77865,
+      "createdOn": "2026-01-01T19:56:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956d1751c508c5d5e686dbc",
+          "products": [
+            {
+              "_id": "6956d1771c508c5d5e686ffc",
+              "name": "Sausages2762",
+              "amount": 125,
+              "price": 77865,
+              "manufacturer": "Xiaomi",
+              "notes": "tUpEEhl0n4fP5eqCNuGhnkemGM56WRV4pCJJez5dwtCvD41Fi3Gr7JcCGghlXCXaDLy4El4ujA50pnkeOnCGHoEiG69rZHpEB3RjrXK0h49WkE97KbCEdHNcabgc7c4a3tISbt4wUf6InCl4IinkyXbvrLcWMEbqd7x9j5y5dfKsUMif3qVbeJeyTAyQnYkpfApIUuz2RhJQcBZMCelDgVTK182YMJtEHs99i16htcfY7dwXC7OoWFbv68",
+              "received": false
+            }
+          ],
+          "total_price": 77865,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Leta",
+              "street": "N Monroe Street",
+              "house": 217,
+              "flat": 3860
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:56:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1751c508c5d5e686dbc",
+          "products": [
+            {
+              "_id": "6956d1771c508c5d5e686ffc",
+              "name": "Sausages2762",
+              "amount": 125,
+              "price": 77865,
+              "manufacturer": "Xiaomi",
+              "notes": "tUpEEhl0n4fP5eqCNuGhnkemGM56WRV4pCJJez5dwtCvD41Fi3Gr7JcCGghlXCXaDLy4El4ujA50pnkeOnCGHoEiG69rZHpEB3RjrXK0h49WkE97KbCEdHNcabgc7c4a3tISbt4wUf6InCl4IinkyXbvrLcWMEbqd7x9j5y5dfKsUMif3qVbeJeyTAyQnYkpfApIUuz2RhJQcBZMCelDgVTK182YMJtEHs99i16htcfY7dwXC7OoWFbv68",
+              "received": false
+            }
+          ],
+          "total_price": 77865,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:56:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

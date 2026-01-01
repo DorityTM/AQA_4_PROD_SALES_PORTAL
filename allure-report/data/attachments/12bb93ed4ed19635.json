@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:47:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4603",
+    "etag": "W/\"11fb-zRo7ufBALHSQtUoH5/skMv0clug\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956cf621c508c5d5e67036f",
+      "status": "Received",
+      "customer": {
+        "_id": "6956cf601c508c5d5e670319",
+        "email": "Desiree48@gmail.com",
+        "name": "Noah Lang",
+        "country": "Great Britain",
+        "city": "New Marisolville",
+        "street": "Maybelle Views 26",
+        "house": 301,
+        "flat": 2167,
+        "phone": "+107385715053075",
+        "createdOn": "2026-01-01T19:47:44.000Z",
+        "notes": "IL4ysZl6fERdIWCQX6VB78zKotTudN"
+      },
+      "products": [
+        {
+          "_id": "6956cf621c508c5d5e670354",
+          "name": "Cheese71011",
+          "amount": 645,
+          "price": 65028,
+          "manufacturer": "Apple",
+          "notes": "JTjajq2YMwlJP0uHT0qZ28J51s8tR44ZgN6iPsi7l6vIGeJ8WuOEM6YNg45QmRdgsY66hcdcbcWhyMOaIBcAZAdlKHAbDFEMXOtIGtQ8glkXIClCnYyOVKRCy1Fhlder1iNX44wPfCWNXOIrYpXvnWEwOZr7XqPVgbohs5rQeHYzy5F2hVX2flvb6Wr4sZQgunV1qc6qbCx4HghyzwushLPjlEhBapswJDoJWo9Gobt1d0ApBf7FHocl45",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "East Darren",
+          "street": "Kuhn Hollow",
+          "house": 901,
+          "flat": 9269
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 65028,
+      "createdOn": "2026-01-01T19:47:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6956cf601c508c5d5e670319",
+          "products": [
+            {
+              "_id": "6956cf621c508c5d5e670354",
+              "name": "Cheese71011",
+              "amount": 645,
+              "price": 65028,
+              "manufacturer": "Apple",
+              "notes": "JTjajq2YMwlJP0uHT0qZ28J51s8tR44ZgN6iPsi7l6vIGeJ8WuOEM6YNg45QmRdgsY66hcdcbcWhyMOaIBcAZAdlKHAbDFEMXOtIGtQ8glkXIClCnYyOVKRCy1Fhlder1iNX44wPfCWNXOIrYpXvnWEwOZr7XqPVgbohs5rQeHYzy5F2hVX2flvb6Wr4sZQgunV1qc6qbCx4HghyzwushLPjlEhBapswJDoJWo9Gobt1d0ApBf7FHocl45",
+              "received": true
+            }
+          ],
+          "total_price": 65028,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Darren",
+              "street": "Kuhn Hollow",
+              "house": 901,
+              "flat": 9269
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:47:50.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6956cf601c508c5d5e670319",
+          "products": [
+            {
+              "_id": "6956cf621c508c5d5e670354",
+              "name": "Cheese71011",
+              "amount": 645,
+              "price": 65028,
+              "manufacturer": "Apple",
+              "notes": "JTjajq2YMwlJP0uHT0qZ28J51s8tR44ZgN6iPsi7l6vIGeJ8WuOEM6YNg45QmRdgsY66hcdcbcWhyMOaIBcAZAdlKHAbDFEMXOtIGtQ8glkXIClCnYyOVKRCy1Fhlder1iNX44wPfCWNXOIrYpXvnWEwOZr7XqPVgbohs5rQeHYzy5F2hVX2flvb6Wr4sZQgunV1qc6qbCx4HghyzwushLPjlEhBapswJDoJWo9Gobt1d0ApBf7FHocl45",
+              "received": false
+            }
+          ],
+          "total_price": 65028,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Darren",
+              "street": "Kuhn Hollow",
+              "house": 901,
+              "flat": 9269
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:47:48.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cf601c508c5d5e670319",
+          "products": [
+            {
+              "_id": "6956cf621c508c5d5e670354",
+              "name": "Cheese71011",
+              "amount": 645,
+              "price": 65028,
+              "manufacturer": "Apple",
+              "notes": "JTjajq2YMwlJP0uHT0qZ28J51s8tR44ZgN6iPsi7l6vIGeJ8WuOEM6YNg45QmRdgsY66hcdcbcWhyMOaIBcAZAdlKHAbDFEMXOtIGtQ8glkXIClCnYyOVKRCy1Fhlder1iNX44wPfCWNXOIrYpXvnWEwOZr7XqPVgbohs5rQeHYzy5F2hVX2flvb6Wr4sZQgunV1qc6qbCx4HghyzwushLPjlEhBapswJDoJWo9Gobt1d0ApBf7FHocl45",
+              "received": false
+            }
+          ],
+          "total_price": 65028,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Darren",
+              "street": "Kuhn Hollow",
+              "house": 901,
+              "flat": 9269
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:47:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956cf601c508c5d5e670319",
+          "products": [
+            {
+              "_id": "6956cf621c508c5d5e670354",
+              "name": "Cheese71011",
+              "amount": 645,
+              "price": 65028,
+              "manufacturer": "Apple",
+              "notes": "JTjajq2YMwlJP0uHT0qZ28J51s8tR44ZgN6iPsi7l6vIGeJ8WuOEM6YNg45QmRdgsY66hcdcbcWhyMOaIBcAZAdlKHAbDFEMXOtIGtQ8glkXIClCnYyOVKRCy1Fhlder1iNX44wPfCWNXOIrYpXvnWEwOZr7XqPVgbohs5rQeHYzy5F2hVX2flvb6Wr4sZQgunV1qc6qbCx4HghyzwushLPjlEhBapswJDoJWo9Gobt1d0ApBf7FHocl45",
+              "received": false
+            }
+          ],
+          "total_price": 65028,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:47:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

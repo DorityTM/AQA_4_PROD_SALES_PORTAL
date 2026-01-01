@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 19:58:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3877",
+    "etag": "W/\"f25-Ek8aCh4kX/c1JuF4HpTyLzPSdgw\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6956d1e01c508c5d5e68bead",
+      "status": "Draft",
+      "customer": {
+        "_id": "6956d1de1c508c5d5e68bd64",
+        "email": "Eleazar82@yahoo.com",
+        "name": "Aracely Klocko",
+        "country": "Germany",
+        "city": "Wisozkfurt",
+        "street": "Jacobi Port 8",
+        "house": 31,
+        "flat": 5952,
+        "phone": "+823163737910914",
+        "createdOn": "2026-01-01T19:58:22.000Z",
+        "notes": "yKHW2QJIJNT1UrPgAVh3o9KJSHfkt6"
+      },
+      "products": [
+        {
+          "_id": "6956d1df1c508c5d5e68bde3",
+          "name": "Hat19041",
+          "amount": 756,
+          "price": 59046,
+          "manufacturer": "Amazon",
+          "notes": "dCyUvccoyMgEHpXrmqptL3wSlNlY1OcdFCArL8iDNa6eyHCsZ5ri34WG32BPgvLNU2UBzuvVmvlZL2dA2oRU2u2WoZzTwpOmiGKs2qOdJqs95rclGdhcT7koReefrOBleMSN6yPfqPexQYEDCCzYvX83PJlfqCwqCZglE4FUwZTsmyfIyyRQgeRmY0VEnuUKaoi8M4IpeDuh7RgbHnkPj8uCfnjQoOHpqUPA42RP6MfAEjVbJ3mAKQe6LH",
+          "received": false
+        },
+        {
+          "_id": "6956d1e01c508c5d5e68be78",
+          "name": "Salad69279",
+          "amount": 359,
+          "price": 85601,
+          "manufacturer": "Tesla",
+          "notes": "Pc0NOrriA5QJpCB6gosD3alQbjhqaYmRH8ifx5ut87aqME4oNYhtcIn8dvB8lQwcSNw5QGtgAKaSRz5aaYcqJVPfiBVbdKtueuP0NTlrM3KD3uSMb2arcXttlBPQYhBhnm4tSPgQB8dtmgIii45EBX2Z8nATSBpuQBWm4K1GUkWsORJKhKClNimYNaiGhDOMyXYOFNRSVTcEwQDuBA6hlktZvxniFC3lvXlRTToPXV3fM3meXS80p15cs4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Alhambra",
+          "street": "Main Road",
+          "house": 80,
+          "flat": 9166
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 144647,
+      "createdOn": "2026-01-01T19:58:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6956d1de1c508c5d5e68bd64",
+          "products": [
+            {
+              "_id": "6956d1df1c508c5d5e68bde3",
+              "name": "Hat19041",
+              "amount": 756,
+              "price": 59046,
+              "manufacturer": "Amazon",
+              "notes": "dCyUvccoyMgEHpXrmqptL3wSlNlY1OcdFCArL8iDNa6eyHCsZ5ri34WG32BPgvLNU2UBzuvVmvlZL2dA2oRU2u2WoZzTwpOmiGKs2qOdJqs95rclGdhcT7koReefrOBleMSN6yPfqPexQYEDCCzYvX83PJlfqCwqCZglE4FUwZTsmyfIyyRQgeRmY0VEnuUKaoi8M4IpeDuh7RgbHnkPj8uCfnjQoOHpqUPA42RP6MfAEjVbJ3mAKQe6LH",
+              "received": false
+            },
+            {
+              "_id": "6956d1e01c508c5d5e68be78",
+              "name": "Salad69279",
+              "amount": 359,
+              "price": 85601,
+              "manufacturer": "Tesla",
+              "notes": "Pc0NOrriA5QJpCB6gosD3alQbjhqaYmRH8ifx5ut87aqME4oNYhtcIn8dvB8lQwcSNw5QGtgAKaSRz5aaYcqJVPfiBVbdKtueuP0NTlrM3KD3uSMb2arcXttlBPQYhBhnm4tSPgQB8dtmgIii45EBX2Z8nATSBpuQBWm4K1GUkWsORJKhKClNimYNaiGhDOMyXYOFNRSVTcEwQDuBA6hlktZvxniFC3lvXlRTToPXV3fM3meXS80p15cs4",
+              "received": false
+            }
+          ],
+          "total_price": 144647,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Alhambra",
+              "street": "Main Road",
+              "house": 80,
+              "flat": 9166
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T19:58:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6956d1de1c508c5d5e68bd64",
+          "products": [
+            {
+              "_id": "6956d1df1c508c5d5e68bde3",
+              "name": "Hat19041",
+              "amount": 756,
+              "price": 59046,
+              "manufacturer": "Amazon",
+              "notes": "dCyUvccoyMgEHpXrmqptL3wSlNlY1OcdFCArL8iDNa6eyHCsZ5ri34WG32BPgvLNU2UBzuvVmvlZL2dA2oRU2u2WoZzTwpOmiGKs2qOdJqs95rclGdhcT7koReefrOBleMSN6yPfqPexQYEDCCzYvX83PJlfqCwqCZglE4FUwZTsmyfIyyRQgeRmY0VEnuUKaoi8M4IpeDuh7RgbHnkPj8uCfnjQoOHpqUPA42RP6MfAEjVbJ3mAKQe6LH",
+              "received": false
+            },
+            {
+              "_id": "6956d1e01c508c5d5e68be78",
+              "name": "Salad69279",
+              "amount": 359,
+              "price": 85601,
+              "manufacturer": "Tesla",
+              "notes": "Pc0NOrriA5QJpCB6gosD3alQbjhqaYmRH8ifx5ut87aqME4oNYhtcIn8dvB8lQwcSNw5QGtgAKaSRz5aaYcqJVPfiBVbdKtueuP0NTlrM3KD3uSMb2arcXttlBPQYhBhnm4tSPgQB8dtmgIii45EBX2Z8nATSBpuQBWm4K1GUkWsORJKhKClNimYNaiGhDOMyXYOFNRSVTcEwQDuBA6hlktZvxniFC3lvXlRTToPXV3fM3meXS80p15cs4",
+              "received": false
+            }
+          ],
+          "total_price": 144647,
+          "delivery": null,
+          "changedOn": "2026-01-01T19:58:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
