@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 15:15:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2773",
+    "etag": "W/\"ad5-7pyRxFKLsArvWoJzqMeRenjKwNs\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69568f891c508c5d5e66223b",
+      "status": "Draft",
+      "customer": {
+        "_id": "69568f891c508c5d5e6621f2",
+        "email": "Leonard.Dare25@hotmail.com",
+        "name": "Sigurd Gislason Stark",
+        "country": "Belarus",
+        "city": "East Gudrun",
+        "street": "Wilderman Plains 74",
+        "house": 128,
+        "flat": 383,
+        "phone": "+409242012412428",
+        "createdOn": "2026-01-01T15:15:21.000Z",
+        "notes": "biIqHtKoSJF4t1DJ2WFory6Gca3tR3"
+      },
+      "products": [
+        {
+          "_id": "69568f891c508c5d5e662230",
+          "name": "Chips85701",
+          "amount": 441,
+          "price": 15767,
+          "manufacturer": "Microsoft",
+          "notes": "xo94B7XGbyO22kZb7jpwnHpsfISHLAYUuXz7wRbyOwh11a1Z3JPyvEdTFfh9eq1KlzA0UguF373LkD3VpQFfQpa98T3HBiqoP52rz9QfcpLzPVzxgTwIa4MUYAwUoxjqyQq4VJlfc3I4NfvQrUEj7d6oJiTczPvbU2Q53TpyF0HIMZy4KEIo6G6fKy9Oi1QAJXzUliiqpMq3zjCHhq1zSBTfxDs8OuLxcAs66KUmTt7eN273PenCEdGNXk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Taniabury",
+          "street": "Jenkins Tunnel",
+          "house": 939,
+          "flat": 4308
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15767,
+      "createdOn": "2026-01-01T15:15:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69568f891c508c5d5e6621f2",
+          "products": [
+            {
+              "_id": "69568f891c508c5d5e662230",
+              "name": "Chips85701",
+              "amount": 441,
+              "price": 15767,
+              "manufacturer": "Microsoft",
+              "notes": "xo94B7XGbyO22kZb7jpwnHpsfISHLAYUuXz7wRbyOwh11a1Z3JPyvEdTFfh9eq1KlzA0UguF373LkD3VpQFfQpa98T3HBiqoP52rz9QfcpLzPVzxgTwIa4MUYAwUoxjqyQq4VJlfc3I4NfvQrUEj7d6oJiTczPvbU2Q53TpyF0HIMZy4KEIo6G6fKy9Oi1QAJXzUliiqpMq3zjCHhq1zSBTfxDs8OuLxcAs66KUmTt7eN273PenCEdGNXk",
+              "received": false
+            }
+          ],
+          "total_price": 15767,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Taniabury",
+              "street": "Jenkins Tunnel",
+              "house": 939,
+              "flat": 4308
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:15:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568f891c508c5d5e6621f2",
+          "products": [
+            {
+              "_id": "69568f891c508c5d5e662230",
+              "name": "Chips85701",
+              "amount": 441,
+              "price": 15767,
+              "manufacturer": "Microsoft",
+              "notes": "xo94B7XGbyO22kZb7jpwnHpsfISHLAYUuXz7wRbyOwh11a1Z3JPyvEdTFfh9eq1KlzA0UguF373LkD3VpQFfQpa98T3HBiqoP52rz9QfcpLzPVzxgTwIa4MUYAwUoxjqyQq4VJlfc3I4NfvQrUEj7d6oJiTczPvbU2Q53TpyF0HIMZy4KEIo6G6fKy9Oi1QAJXzUliiqpMq3zjCHhq1zSBTfxDs8OuLxcAs66KUmTt7eN273PenCEdGNXk",
+              "received": false
+            }
+          ],
+          "total_price": 15767,
+          "delivery": null,
+          "changedOn": "2026-01-01T15:15:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

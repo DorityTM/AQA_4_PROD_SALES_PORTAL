@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 15:13:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-twkqXu1ovE/QkopdP6i0e9wHF10\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69568f2e1c508c5d5e65ef70",
+      "status": "In Process",
+      "customer": {
+        "_id": "69568f2d1c508c5d5e65ef4e",
+        "email": "Clementina_Schiller@gmail.com",
+        "name": "Bruce McClure",
+        "country": "France",
+        "city": "Imachester",
+        "street": "Pagac Lane 30",
+        "house": 318,
+        "flat": 3881,
+        "phone": "+130641548053996",
+        "createdOn": "2026-01-01T15:13:49.000Z",
+        "notes": "aLhc6A5UQaR6mfiEAqdb312Twegmqe"
+      },
+      "products": [
+        {
+          "_id": "69568f2e1c508c5d5e65ef60",
+          "name": "Ball60920",
+          "amount": 347,
+          "price": 19798,
+          "manufacturer": "Apple",
+          "notes": "eKibDB0JXWQMJt4qEpx1Nx2aLfVpF88XnyA01Ss89ZXXPH0sG26vrGZAJf4H8fhjzWcdNdJYQdVteVt5Dvb0hLMTzdjFDbPa1vIoRpo3PSO8TmEALfnIVdihGbMkNDxvYhLf72mOVAn78qEdH1DXtY550ze7cNJZSr3ZRndjpCTWHKp5xWNj8hrJUQRN4VwU3CPPc2Pq3QA9Q2LhJyjNkyye66sUeGMFdMPtrewu3WVp2QveHC7b8yivM6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Mayatown",
+          "street": "Belle Manor",
+          "house": 558,
+          "flat": 2638
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 19798,
+      "createdOn": "2026-01-01T15:13:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69568f2d1c508c5d5e65ef4e",
+          "products": [
+            {
+              "_id": "69568f2e1c508c5d5e65ef60",
+              "name": "Ball60920",
+              "amount": 347,
+              "price": 19798,
+              "manufacturer": "Apple",
+              "notes": "eKibDB0JXWQMJt4qEpx1Nx2aLfVpF88XnyA01Ss89ZXXPH0sG26vrGZAJf4H8fhjzWcdNdJYQdVteVt5Dvb0hLMTzdjFDbPa1vIoRpo3PSO8TmEALfnIVdihGbMkNDxvYhLf72mOVAn78qEdH1DXtY550ze7cNJZSr3ZRndjpCTWHKp5xWNj8hrJUQRN4VwU3CPPc2Pq3QA9Q2LhJyjNkyye66sUeGMFdMPtrewu3WVp2QveHC7b8yivM6",
+              "received": false
+            }
+          ],
+          "total_price": 19798,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Mayatown",
+              "street": "Belle Manor",
+              "house": 558,
+              "flat": 2638
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:13:51.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568f2d1c508c5d5e65ef4e",
+          "products": [
+            {
+              "_id": "69568f2e1c508c5d5e65ef60",
+              "name": "Ball60920",
+              "amount": 347,
+              "price": 19798,
+              "manufacturer": "Apple",
+              "notes": "eKibDB0JXWQMJt4qEpx1Nx2aLfVpF88XnyA01Ss89ZXXPH0sG26vrGZAJf4H8fhjzWcdNdJYQdVteVt5Dvb0hLMTzdjFDbPa1vIoRpo3PSO8TmEALfnIVdihGbMkNDxvYhLf72mOVAn78qEdH1DXtY550ze7cNJZSr3ZRndjpCTWHKp5xWNj8hrJUQRN4VwU3CPPc2Pq3QA9Q2LhJyjNkyye66sUeGMFdMPtrewu3WVp2QveHC7b8yivM6",
+              "received": false
+            }
+          ],
+          "total_price": 19798,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Mayatown",
+              "street": "Belle Manor",
+              "house": 558,
+              "flat": 2638
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:13:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568f2d1c508c5d5e65ef4e",
+          "products": [
+            {
+              "_id": "69568f2e1c508c5d5e65ef60",
+              "name": "Ball60920",
+              "amount": 347,
+              "price": 19798,
+              "manufacturer": "Apple",
+              "notes": "eKibDB0JXWQMJt4qEpx1Nx2aLfVpF88XnyA01Ss89ZXXPH0sG26vrGZAJf4H8fhjzWcdNdJYQdVteVt5Dvb0hLMTzdjFDbPa1vIoRpo3PSO8TmEALfnIVdihGbMkNDxvYhLf72mOVAn78qEdH1DXtY550ze7cNJZSr3ZRndjpCTWHKp5xWNj8hrJUQRN4VwU3CPPc2Pq3QA9Q2LhJyjNkyye66sUeGMFdMPtrewu3WVp2QveHC7b8yivM6",
+              "received": false
+            }
+          ],
+          "total_price": 19798,
+          "delivery": null,
+          "changedOn": "2026-01-01T15:13:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 15:10:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6606",
+    "etag": "W/\"19ce-4Jh9QXp4RLTe0HHPEDTwv/lJmzA\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69568e551c508c5d5e6584a2",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "69568e531c508c5d5e6583d1",
+        "email": "Santino47@gmail.com",
+        "name": "Allan Hammes",
+        "country": "USA",
+        "city": "South Marlenton",
+        "street": "E 14th Street 80",
+        "house": 610,
+        "flat": 4129,
+        "phone": "+845561056262810",
+        "createdOn": "2026-01-01T15:10:11.000Z",
+        "notes": "GQxCsAmw4jLvibk9Yx0ojhqSHgFOPl"
+      },
+      "products": [
+        {
+          "_id": "69568e541c508c5d5e6583ec",
+          "name": "Computer58221",
+          "amount": 834,
+          "price": 36614,
+          "manufacturer": "Microsoft",
+          "notes": "n3uh4IQaXTEt1JBCJz2DYSqwBPjhXbCyBOYxTx7EVvHq6IbULVSYTQC6jB2qTwkfNYYZpVu7dRbXp6K4jfAJLaF8z7wmx3SbvV5hwxciBayBDSmMQujoDQYhhHsbhxJf0d8OWgGNJPoJalsscdG6J8EH0Q1tpAHuE3bjZn7YNfkWBqcqpobBlRnLfPJFfPxoiKW64CcQU5uGMA00XrHxW3VoqM73EbHvhYvH8ShvBgzyEyppIs6hL0Zh1t",
+          "received": true
+        },
+        {
+          "_id": "69568e541c508c5d5e65841c",
+          "name": "Chicken39541",
+          "amount": 319,
+          "price": 83564,
+          "manufacturer": "Amazon",
+          "notes": "HSsxlihCF2HAvGM0W3RZnfw7ocu4UlBIHLnnNvzXH2Mnvpk1EkRO0iMYJfqVyx6erQwIaurZ2bRC9jvNXrL5FZGyyQ03uitTioLAyEfL5xTBP7xJITiFRG7UD7aCzkbtdiL5Y2zJpe7EOTI6bLeo8V6l19JFACpsiPdTe1FrAnpVRaPlFpu2IYgwktDlSAgQBD94qTgOSferFTbiQj5sY041HzHih0bFWbIQO3VLYXf6b4Ok45noz4sdXu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "South Christinaberg",
+          "street": "Anderson Ramp",
+          "house": 529,
+          "flat": 8565
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 120178,
+      "createdOn": "2026-01-01T15:10:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "69568e531c508c5d5e6583d1",
+          "products": [
+            {
+              "_id": "69568e541c508c5d5e6583ec",
+              "name": "Computer58221",
+              "amount": 834,
+              "price": 36614,
+              "manufacturer": "Microsoft",
+              "notes": "n3uh4IQaXTEt1JBCJz2DYSqwBPjhXbCyBOYxTx7EVvHq6IbULVSYTQC6jB2qTwkfNYYZpVu7dRbXp6K4jfAJLaF8z7wmx3SbvV5hwxciBayBDSmMQujoDQYhhHsbhxJf0d8OWgGNJPoJalsscdG6J8EH0Q1tpAHuE3bjZn7YNfkWBqcqpobBlRnLfPJFfPxoiKW64CcQU5uGMA00XrHxW3VoqM73EbHvhYvH8ShvBgzyEyppIs6hL0Zh1t",
+              "received": true
+            },
+            {
+              "_id": "69568e541c508c5d5e65841c",
+              "name": "Chicken39541",
+              "amount": 319,
+              "price": 83564,
+              "manufacturer": "Amazon",
+              "notes": "HSsxlihCF2HAvGM0W3RZnfw7ocu4UlBIHLnnNvzXH2Mnvpk1EkRO0iMYJfqVyx6erQwIaurZ2bRC9jvNXrL5FZGyyQ03uitTioLAyEfL5xTBP7xJITiFRG7UD7aCzkbtdiL5Y2zJpe7EOTI6bLeo8V6l19JFACpsiPdTe1FrAnpVRaPlFpu2IYgwktDlSAgQBD94qTgOSferFTbiQj5sY041HzHih0bFWbIQO3VLYXf6b4Ok45noz4sdXu",
+              "received": false
+            }
+          ],
+          "total_price": 120178,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "South Christinaberg",
+              "street": "Anderson Ramp",
+              "house": 529,
+              "flat": 8565
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:10:17.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69568e531c508c5d5e6583d1",
+          "products": [
+            {
+              "_id": "69568e541c508c5d5e6583ec",
+              "name": "Computer58221",
+              "amount": 834,
+              "price": 36614,
+              "manufacturer": "Microsoft",
+              "notes": "n3uh4IQaXTEt1JBCJz2DYSqwBPjhXbCyBOYxTx7EVvHq6IbULVSYTQC6jB2qTwkfNYYZpVu7dRbXp6K4jfAJLaF8z7wmx3SbvV5hwxciBayBDSmMQujoDQYhhHsbhxJf0d8OWgGNJPoJalsscdG6J8EH0Q1tpAHuE3bjZn7YNfkWBqcqpobBlRnLfPJFfPxoiKW64CcQU5uGMA00XrHxW3VoqM73EbHvhYvH8ShvBgzyEyppIs6hL0Zh1t",
+              "received": false
+            },
+            {
+              "_id": "69568e541c508c5d5e65841c",
+              "name": "Chicken39541",
+              "amount": 319,
+              "price": 83564,
+              "manufacturer": "Amazon",
+              "notes": "HSsxlihCF2HAvGM0W3RZnfw7ocu4UlBIHLnnNvzXH2Mnvpk1EkRO0iMYJfqVyx6erQwIaurZ2bRC9jvNXrL5FZGyyQ03uitTioLAyEfL5xTBP7xJITiFRG7UD7aCzkbtdiL5Y2zJpe7EOTI6bLeo8V6l19JFACpsiPdTe1FrAnpVRaPlFpu2IYgwktDlSAgQBD94qTgOSferFTbiQj5sY041HzHih0bFWbIQO3VLYXf6b4Ok45noz4sdXu",
+              "received": false
+            }
+          ],
+          "total_price": 120178,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "South Christinaberg",
+              "street": "Anderson Ramp",
+              "house": 529,
+              "flat": 8565
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:10:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568e531c508c5d5e6583d1",
+          "products": [
+            {
+              "_id": "69568e541c508c5d5e6583ec",
+              "name": "Computer58221",
+              "amount": 834,
+              "price": 36614,
+              "manufacturer": "Microsoft",
+              "notes": "n3uh4IQaXTEt1JBCJz2DYSqwBPjhXbCyBOYxTx7EVvHq6IbULVSYTQC6jB2qTwkfNYYZpVu7dRbXp6K4jfAJLaF8z7wmx3SbvV5hwxciBayBDSmMQujoDQYhhHsbhxJf0d8OWgGNJPoJalsscdG6J8EH0Q1tpAHuE3bjZn7YNfkWBqcqpobBlRnLfPJFfPxoiKW64CcQU5uGMA00XrHxW3VoqM73EbHvhYvH8ShvBgzyEyppIs6hL0Zh1t",
+              "received": false
+            },
+            {
+              "_id": "69568e541c508c5d5e65841c",
+              "name": "Chicken39541",
+              "amount": 319,
+              "price": 83564,
+              "manufacturer": "Amazon",
+              "notes": "HSsxlihCF2HAvGM0W3RZnfw7ocu4UlBIHLnnNvzXH2Mnvpk1EkRO0iMYJfqVyx6erQwIaurZ2bRC9jvNXrL5FZGyyQ03uitTioLAyEfL5xTBP7xJITiFRG7UD7aCzkbtdiL5Y2zJpe7EOTI6bLeo8V6l19JFACpsiPdTe1FrAnpVRaPlFpu2IYgwktDlSAgQBD94qTgOSferFTbiQj5sY041HzHih0bFWbIQO3VLYXf6b4Ok45noz4sdXu",
+              "received": false
+            }
+          ],
+          "total_price": 120178,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "South Christinaberg",
+              "street": "Anderson Ramp",
+              "house": 529,
+              "flat": 8565
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:10:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568e531c508c5d5e6583d1",
+          "products": [
+            {
+              "_id": "69568e541c508c5d5e6583ec",
+              "name": "Computer58221",
+              "amount": 834,
+              "price": 36614,
+              "manufacturer": "Microsoft",
+              "notes": "n3uh4IQaXTEt1JBCJz2DYSqwBPjhXbCyBOYxTx7EVvHq6IbULVSYTQC6jB2qTwkfNYYZpVu7dRbXp6K4jfAJLaF8z7wmx3SbvV5hwxciBayBDSmMQujoDQYhhHsbhxJf0d8OWgGNJPoJalsscdG6J8EH0Q1tpAHuE3bjZn7YNfkWBqcqpobBlRnLfPJFfPxoiKW64CcQU5uGMA00XrHxW3VoqM73EbHvhYvH8ShvBgzyEyppIs6hL0Zh1t",
+              "received": false
+            },
+            {
+              "_id": "69568e541c508c5d5e65841c",
+              "name": "Chicken39541",
+              "amount": 319,
+              "price": 83564,
+              "manufacturer": "Amazon",
+              "notes": "HSsxlihCF2HAvGM0W3RZnfw7ocu4UlBIHLnnNvzXH2Mnvpk1EkRO0iMYJfqVyx6erQwIaurZ2bRC9jvNXrL5FZGyyQ03uitTioLAyEfL5xTBP7xJITiFRG7UD7aCzkbtdiL5Y2zJpe7EOTI6bLeo8V6l19JFACpsiPdTe1FrAnpVRaPlFpu2IYgwktDlSAgQBD94qTgOSferFTbiQj5sY041HzHih0bFWbIQO3VLYXf6b4Ok45noz4sdXu",
+              "received": false
+            }
+          ],
+          "total_price": 120178,
+          "delivery": null,
+          "changedOn": "2026-01-01T15:10:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

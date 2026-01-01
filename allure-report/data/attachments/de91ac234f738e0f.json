@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 15:15:58 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2770",
+    "etag": "W/\"ad2-sn0Zr13wW3x3cblSxK2rwIKadN4\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69568fad1c508c5d5e66365b",
+      "status": "Draft",
+      "customer": {
+        "_id": "69568fac1c508c5d5e66352e",
+        "email": "Martine_Cremin@yahoo.com",
+        "name": "Keira McKenzie",
+        "country": "Germany",
+        "city": "Beerborough",
+        "street": "Cortney Hills 36",
+        "house": 737,
+        "flat": 4769,
+        "phone": "+283659024663093",
+        "createdOn": "2026-01-01T15:15:56.000Z",
+        "notes": "LW5pdjCYj6jg7dlvMxEH0WXZoxlDih"
+      },
+      "products": [
+        {
+          "_id": "69568fad1c508c5d5e6635b9",
+          "name": "Pizza62900",
+          "amount": 686,
+          "price": 43705,
+          "manufacturer": "Apple",
+          "notes": "hrKJAuMFfIbGAeNvwnnsNji1w50P3bFsAw52m7K5r5O0IKbwHRkssK3wtmHbyG4nu2CyMhE42ZmIcQPkY8IraDjzcFjq17p6JwYJWtuP0WtQoQKC57GuC44Sh4DWTkDEwIue3RKb1ZySWVHCd9LVFJ7iUPSWCr7OQIsDOYDdNDx06kRBhEHljjofcZmdVve1ArsMvjl908fpPgwNUrHkKFv3M0PbJOWUlJIz4pSwOhNK4cKP6GVZNU8LpA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "West New York",
+          "street": "Richmond Close",
+          "house": 53,
+          "flat": 2139
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 43705,
+      "createdOn": "2026-01-01T15:15:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69568fac1c508c5d5e66352e",
+          "products": [
+            {
+              "_id": "69568fad1c508c5d5e6635b9",
+              "name": "Pizza62900",
+              "amount": 686,
+              "price": 43705,
+              "manufacturer": "Apple",
+              "notes": "hrKJAuMFfIbGAeNvwnnsNji1w50P3bFsAw52m7K5r5O0IKbwHRkssK3wtmHbyG4nu2CyMhE42ZmIcQPkY8IraDjzcFjq17p6JwYJWtuP0WtQoQKC57GuC44Sh4DWTkDEwIue3RKb1ZySWVHCd9LVFJ7iUPSWCr7OQIsDOYDdNDx06kRBhEHljjofcZmdVve1ArsMvjl908fpPgwNUrHkKFv3M0PbJOWUlJIz4pSwOhNK4cKP6GVZNU8LpA",
+              "received": false
+            }
+          ],
+          "total_price": 43705,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West New York",
+              "street": "Richmond Close",
+              "house": 53,
+              "flat": 2139
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:15:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568fac1c508c5d5e66352e",
+          "products": [
+            {
+              "_id": "69568fad1c508c5d5e6635b9",
+              "name": "Pizza62900",
+              "amount": 686,
+              "price": 43705,
+              "manufacturer": "Apple",
+              "notes": "hrKJAuMFfIbGAeNvwnnsNji1w50P3bFsAw52m7K5r5O0IKbwHRkssK3wtmHbyG4nu2CyMhE42ZmIcQPkY8IraDjzcFjq17p6JwYJWtuP0WtQoQKC57GuC44Sh4DWTkDEwIue3RKb1ZySWVHCd9LVFJ7iUPSWCr7OQIsDOYDdNDx06kRBhEHljjofcZmdVve1ArsMvjl908fpPgwNUrHkKFv3M0PbJOWUlJIz4pSwOhNK4cKP6GVZNU8LpA",
+              "received": false
+            }
+          ],
+          "total_price": 43705,
+          "delivery": null,
+          "changedOn": "2026-01-01T15:15:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

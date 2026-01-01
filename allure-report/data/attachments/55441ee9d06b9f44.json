@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 15:10:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4617",
+    "etag": "W/\"1209-j3jEL3fQ1jE+GnmOFl+DmmJ0JQ4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69568e6c1c508c5d5e65928f",
+      "status": "Received",
+      "customer": {
+        "_id": "69568e6c1c508c5d5e659256",
+        "email": "Laura10@yahoo.com",
+        "name": "Kasey Medhurst Beier",
+        "country": "USA",
+        "city": "Schmelerchester",
+        "street": "Reginald Manors 76",
+        "house": 704,
+        "flat": 3439,
+        "phone": "+739248740840841",
+        "createdOn": "2026-01-01T15:10:36.000Z",
+        "notes": "ITxebBkOObHv47PI5Pc0RgP6mI93bP"
+      },
+      "products": [
+        {
+          "_id": "69568e6c1c508c5d5e659279",
+          "name": "Shirt48318",
+          "amount": 782,
+          "price": 40825,
+          "manufacturer": "Apple",
+          "notes": "4cUBVD5LDA5ZgG75YWMxUmWDn30Fm7fjmCeLjYZm7pKeDDohexNIMskDFNCiodEl1AkQZmO6l3mlPrgmRPddxsgmC7htNbs0qtdUTDErjFqmhXtQMUt2u0CF8GqlEwOLj3WvQo5uoWb5lrGoNfogELL0fYittb351xhmG0bpsV46K5kg3wGsLXJegZ6o28P7EHBBniNpaAwqZyOJ0stvDxjvcmGYf8SuSx8NPxncnVhWI9ZwKSWqi6WCHW",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Jermain",
+          "street": "Botsford Manor",
+          "house": 839,
+          "flat": 7193
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 40825,
+      "createdOn": "2026-01-01T15:10:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69568e6c1c508c5d5e659256",
+          "products": [
+            {
+              "_id": "69568e6c1c508c5d5e659279",
+              "name": "Shirt48318",
+              "amount": 782,
+              "price": 40825,
+              "manufacturer": "Apple",
+              "notes": "4cUBVD5LDA5ZgG75YWMxUmWDn30Fm7fjmCeLjYZm7pKeDDohexNIMskDFNCiodEl1AkQZmO6l3mlPrgmRPddxsgmC7htNbs0qtdUTDErjFqmhXtQMUt2u0CF8GqlEwOLj3WvQo5uoWb5lrGoNfogELL0fYittb351xhmG0bpsV46K5kg3wGsLXJegZ6o28P7EHBBniNpaAwqZyOJ0stvDxjvcmGYf8SuSx8NPxncnVhWI9ZwKSWqi6WCHW",
+              "received": true
+            }
+          ],
+          "total_price": 40825,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Jermain",
+              "street": "Botsford Manor",
+              "house": 839,
+              "flat": 7193
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:10:38.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69568e6c1c508c5d5e659256",
+          "products": [
+            {
+              "_id": "69568e6c1c508c5d5e659279",
+              "name": "Shirt48318",
+              "amount": 782,
+              "price": 40825,
+              "manufacturer": "Apple",
+              "notes": "4cUBVD5LDA5ZgG75YWMxUmWDn30Fm7fjmCeLjYZm7pKeDDohexNIMskDFNCiodEl1AkQZmO6l3mlPrgmRPddxsgmC7htNbs0qtdUTDErjFqmhXtQMUt2u0CF8GqlEwOLj3WvQo5uoWb5lrGoNfogELL0fYittb351xhmG0bpsV46K5kg3wGsLXJegZ6o28P7EHBBniNpaAwqZyOJ0stvDxjvcmGYf8SuSx8NPxncnVhWI9ZwKSWqi6WCHW",
+              "received": false
+            }
+          ],
+          "total_price": 40825,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Jermain",
+              "street": "Botsford Manor",
+              "house": 839,
+              "flat": 7193
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:10:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568e6c1c508c5d5e659256",
+          "products": [
+            {
+              "_id": "69568e6c1c508c5d5e659279",
+              "name": "Shirt48318",
+              "amount": 782,
+              "price": 40825,
+              "manufacturer": "Apple",
+              "notes": "4cUBVD5LDA5ZgG75YWMxUmWDn30Fm7fjmCeLjYZm7pKeDDohexNIMskDFNCiodEl1AkQZmO6l3mlPrgmRPddxsgmC7htNbs0qtdUTDErjFqmhXtQMUt2u0CF8GqlEwOLj3WvQo5uoWb5lrGoNfogELL0fYittb351xhmG0bpsV46K5kg3wGsLXJegZ6o28P7EHBBniNpaAwqZyOJ0stvDxjvcmGYf8SuSx8NPxncnVhWI9ZwKSWqi6WCHW",
+              "received": false
+            }
+          ],
+          "total_price": 40825,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Jermain",
+              "street": "Botsford Manor",
+              "house": 839,
+              "flat": 7193
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:10:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568e6c1c508c5d5e659256",
+          "products": [
+            {
+              "_id": "69568e6c1c508c5d5e659279",
+              "name": "Shirt48318",
+              "amount": 782,
+              "price": 40825,
+              "manufacturer": "Apple",
+              "notes": "4cUBVD5LDA5ZgG75YWMxUmWDn30Fm7fjmCeLjYZm7pKeDDohexNIMskDFNCiodEl1AkQZmO6l3mlPrgmRPddxsgmC7htNbs0qtdUTDErjFqmhXtQMUt2u0CF8GqlEwOLj3WvQo5uoWb5lrGoNfogELL0fYittb351xhmG0bpsV46K5kg3wGsLXJegZ6o28P7EHBBniNpaAwqZyOJ0stvDxjvcmGYf8SuSx8NPxncnVhWI9ZwKSWqi6WCHW",
+              "received": false
+            }
+          ],
+          "total_price": 40825,
+          "delivery": null,
+          "changedOn": "2026-01-01T15:10:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

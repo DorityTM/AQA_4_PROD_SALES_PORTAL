@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 15:10:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3643",
+    "etag": "W/\"e3b-aYFl9SJRGGuV/wEGCTnZ26zcMk4\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69568e651c508c5d5e658e94",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69568e631c508c5d5e658d13",
+        "email": "Gavin.Wolf-Carroll71@gmail.com",
+        "name": "Misael Lynch",
+        "country": "Canada",
+        "city": "Grimestown",
+        "street": "Charlotte Prairie 94",
+        "house": 673,
+        "flat": 7725,
+        "phone": "+684546679176489",
+        "createdOn": "2026-01-01T15:10:27.000Z",
+        "notes": "ESQeIsYXGWylhVuteyXbnEAa5omizV"
+      },
+      "products": [
+        {
+          "_id": "69568e641c508c5d5e658e0a",
+          "name": "Chips81102",
+          "amount": 451,
+          "price": 6480,
+          "manufacturer": "Google",
+          "notes": "OptnJslH6e0AQ42jS1u4r4gOOlW9fAKV0NLpxow9FglyPMzORAix7xMSlDgnrMFzvxdfZzalUQhSJtAF9c7WMiubFCq1abuf0Z6k72nqwaWbbBHmE3JsLtjY4wGw6twiPsJhGtMbnXzGxSPsUN1ureGwANpfBZvkXsJrEQsFymqiRWRVeXKKG4MmcGpKTmqxtk7tP05mlXYLYwSbhwKbeg7R0JivvEEEC5U9MULPGrDJjDDbL7fUwy7IM1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Ashburn",
+          "street": "The Laurels",
+          "house": 286,
+          "flat": 178
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 6480,
+      "createdOn": "2026-01-01T15:10:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69568e631c508c5d5e658d13",
+          "products": [
+            {
+              "_id": "69568e641c508c5d5e658e0a",
+              "name": "Chips81102",
+              "amount": 451,
+              "price": 6480,
+              "manufacturer": "Google",
+              "notes": "OptnJslH6e0AQ42jS1u4r4gOOlW9fAKV0NLpxow9FglyPMzORAix7xMSlDgnrMFzvxdfZzalUQhSJtAF9c7WMiubFCq1abuf0Z6k72nqwaWbbBHmE3JsLtjY4wGw6twiPsJhGtMbnXzGxSPsUN1ureGwANpfBZvkXsJrEQsFymqiRWRVeXKKG4MmcGpKTmqxtk7tP05mlXYLYwSbhwKbeg7R0JivvEEEC5U9MULPGrDJjDDbL7fUwy7IM1",
+              "received": false
+            }
+          ],
+          "total_price": 6480,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Ashburn",
+              "street": "The Laurels",
+              "house": 286,
+              "flat": 178
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:10:30.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568e631c508c5d5e658d13",
+          "products": [
+            {
+              "_id": "69568e641c508c5d5e658e0a",
+              "name": "Chips81102",
+              "amount": 451,
+              "price": 6480,
+              "manufacturer": "Google",
+              "notes": "OptnJslH6e0AQ42jS1u4r4gOOlW9fAKV0NLpxow9FglyPMzORAix7xMSlDgnrMFzvxdfZzalUQhSJtAF9c7WMiubFCq1abuf0Z6k72nqwaWbbBHmE3JsLtjY4wGw6twiPsJhGtMbnXzGxSPsUN1ureGwANpfBZvkXsJrEQsFymqiRWRVeXKKG4MmcGpKTmqxtk7tP05mlXYLYwSbhwKbeg7R0JivvEEEC5U9MULPGrDJjDDbL7fUwy7IM1",
+              "received": false
+            }
+          ],
+          "total_price": 6480,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Ashburn",
+              "street": "The Laurels",
+              "house": 286,
+              "flat": 178
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:10:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568e631c508c5d5e658d13",
+          "products": [
+            {
+              "_id": "69568e641c508c5d5e658e0a",
+              "name": "Chips81102",
+              "amount": 451,
+              "price": 6480,
+              "manufacturer": "Google",
+              "notes": "OptnJslH6e0AQ42jS1u4r4gOOlW9fAKV0NLpxow9FglyPMzORAix7xMSlDgnrMFzvxdfZzalUQhSJtAF9c7WMiubFCq1abuf0Z6k72nqwaWbbBHmE3JsLtjY4wGw6twiPsJhGtMbnXzGxSPsUN1ureGwANpfBZvkXsJrEQsFymqiRWRVeXKKG4MmcGpKTmqxtk7tP05mlXYLYwSbhwKbeg7R0JivvEEEC5U9MULPGrDJjDDbL7fUwy7IM1",
+              "received": false
+            }
+          ],
+          "total_price": 6480,
+          "delivery": null,
+          "changedOn": "2026-01-01T15:10:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

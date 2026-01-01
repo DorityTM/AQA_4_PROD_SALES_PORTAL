@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 15:13:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4584",
+    "etag": "W/\"11e8-nL+c4mTVUjPdskI3BoT7CH4AQi8\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69568f101c508c5d5e65e587",
+      "status": "Received",
+      "customer": {
+        "_id": "69568f0f1c508c5d5e65e54a",
+        "email": "Myra_Smith@gmail.com",
+        "name": "Estelle Bode",
+        "country": "Germany",
+        "city": "Morganfield",
+        "street": "Harrison Street 24",
+        "house": 295,
+        "flat": 1588,
+        "phone": "+680573315063368",
+        "createdOn": "2026-01-01T15:13:19.000Z",
+        "notes": "OGZqwhios09jZXCWbMZaV97TwNPW4d"
+      },
+      "products": [
+        {
+          "_id": "69568f101c508c5d5e65e568",
+          "name": "Mouse11513",
+          "amount": 315,
+          "price": 55055,
+          "manufacturer": "Tesla",
+          "notes": "izOsVUoTPZjDVYDEOq67eq9wX3o9UB0fXV9KKu0ZtL7hcSXJIqPyFfRhqH0xcFCaYOgRm1SqIfsriNSw6LWNCYX5mFQv4ErGwaE3YBR2iehVO54NX9aWUQxRZAJRRuyOuifWfJmGr5tspuZpTIAdQm38KzndM0tQLyrQ80mgnHwYGgTH6Ikst6k3M9FtH4m3dOueUUdKMeXn4e3CJY04TGjxW3eHiKez7lFjakvRu8BtdJqj8I0nNPyfMu",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Wolffield",
+          "street": "Gibson Pass",
+          "house": 359,
+          "flat": 2695
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55055,
+      "createdOn": "2026-01-01T15:13:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69568f0f1c508c5d5e65e54a",
+          "products": [
+            {
+              "_id": "69568f101c508c5d5e65e568",
+              "name": "Mouse11513",
+              "amount": 315,
+              "price": 55055,
+              "manufacturer": "Tesla",
+              "notes": "izOsVUoTPZjDVYDEOq67eq9wX3o9UB0fXV9KKu0ZtL7hcSXJIqPyFfRhqH0xcFCaYOgRm1SqIfsriNSw6LWNCYX5mFQv4ErGwaE3YBR2iehVO54NX9aWUQxRZAJRRuyOuifWfJmGr5tspuZpTIAdQm38KzndM0tQLyrQ80mgnHwYGgTH6Ikst6k3M9FtH4m3dOueUUdKMeXn4e3CJY04TGjxW3eHiKez7lFjakvRu8BtdJqj8I0nNPyfMu",
+              "received": true
+            }
+          ],
+          "total_price": 55055,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Wolffield",
+              "street": "Gibson Pass",
+              "house": 359,
+              "flat": 2695
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:13:21.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69568f0f1c508c5d5e65e54a",
+          "products": [
+            {
+              "_id": "69568f101c508c5d5e65e568",
+              "name": "Mouse11513",
+              "amount": 315,
+              "price": 55055,
+              "manufacturer": "Tesla",
+              "notes": "izOsVUoTPZjDVYDEOq67eq9wX3o9UB0fXV9KKu0ZtL7hcSXJIqPyFfRhqH0xcFCaYOgRm1SqIfsriNSw6LWNCYX5mFQv4ErGwaE3YBR2iehVO54NX9aWUQxRZAJRRuyOuifWfJmGr5tspuZpTIAdQm38KzndM0tQLyrQ80mgnHwYGgTH6Ikst6k3M9FtH4m3dOueUUdKMeXn4e3CJY04TGjxW3eHiKez7lFjakvRu8BtdJqj8I0nNPyfMu",
+              "received": false
+            }
+          ],
+          "total_price": 55055,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Wolffield",
+              "street": "Gibson Pass",
+              "house": 359,
+              "flat": 2695
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:13:21.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568f0f1c508c5d5e65e54a",
+          "products": [
+            {
+              "_id": "69568f101c508c5d5e65e568",
+              "name": "Mouse11513",
+              "amount": 315,
+              "price": 55055,
+              "manufacturer": "Tesla",
+              "notes": "izOsVUoTPZjDVYDEOq67eq9wX3o9UB0fXV9KKu0ZtL7hcSXJIqPyFfRhqH0xcFCaYOgRm1SqIfsriNSw6LWNCYX5mFQv4ErGwaE3YBR2iehVO54NX9aWUQxRZAJRRuyOuifWfJmGr5tspuZpTIAdQm38KzndM0tQLyrQ80mgnHwYGgTH6Ikst6k3M9FtH4m3dOueUUdKMeXn4e3CJY04TGjxW3eHiKez7lFjakvRu8BtdJqj8I0nNPyfMu",
+              "received": false
+            }
+          ],
+          "total_price": 55055,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Wolffield",
+              "street": "Gibson Pass",
+              "house": 359,
+              "flat": 2695
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:13:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568f0f1c508c5d5e65e54a",
+          "products": [
+            {
+              "_id": "69568f101c508c5d5e65e568",
+              "name": "Mouse11513",
+              "amount": 315,
+              "price": 55055,
+              "manufacturer": "Tesla",
+              "notes": "izOsVUoTPZjDVYDEOq67eq9wX3o9UB0fXV9KKu0ZtL7hcSXJIqPyFfRhqH0xcFCaYOgRm1SqIfsriNSw6LWNCYX5mFQv4ErGwaE3YBR2iehVO54NX9aWUQxRZAJRRuyOuifWfJmGr5tspuZpTIAdQm38KzndM0tQLyrQ80mgnHwYGgTH6Ikst6k3M9FtH4m3dOueUUdKMeXn4e3CJY04TGjxW3eHiKez7lFjakvRu8BtdJqj8I0nNPyfMu",
+              "received": false
+            }
+          ],
+          "total_price": 55055,
+          "delivery": null,
+          "changedOn": "2026-01-01T15:13:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

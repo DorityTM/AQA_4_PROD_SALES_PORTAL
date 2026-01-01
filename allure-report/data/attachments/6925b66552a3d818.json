@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 15:14:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3689",
+    "etag": "W/\"e69-NLV6q90LN8kAkV5nK+A1xykzQfk\"",
+    "keep-alive": "timeout=5, max=61",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69568f501c508c5d5e660248",
+      "status": "In Process",
+      "customer": {
+        "_id": "69568f4f1c508c5d5e66022a",
+        "email": "Trevor87@yahoo.com",
+        "name": "Queen Herzog",
+        "country": "USA",
+        "city": "Lake Ariville",
+        "street": "Brianne Via 82",
+        "house": 572,
+        "flat": 1349,
+        "phone": "+678796202299229",
+        "createdOn": "2026-01-01T15:14:23.000Z",
+        "notes": "POtOPgz8eHAlumrN7o6RCXP2cDJZ4B"
+      },
+      "products": [
+        {
+          "_id": "69568f4f1c508c5d5e66023c",
+          "name": "Sausages20927",
+          "amount": 134,
+          "price": 92594,
+          "manufacturer": "Microsoft",
+          "notes": "LCUMzUFpZvqXNpoFfDKtfug6Dej4K7RF632PP4t0cVT4zbTKGkyGJJEW1kbeE0Izo2FEMqH13BypUnVIN9M24PDIwPSKBvsld4PA06btMazQ2ozpvh43wGVDuZFGriMqdZWkpE4mOLrtyRWeuzMD3v66jeab940JlK2NS5dkwoCtDX0UR4h6sTEOGno5D895hReZP49RADRdno1QiJpESWbZybFJ5I9YsBBEi4YJ54ahCjQt38p3cBZozF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Warwick",
+          "street": "Senger Trace",
+          "house": 330,
+          "flat": 6061
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92594,
+      "createdOn": "2026-01-01T15:14:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69568f4f1c508c5d5e66022a",
+          "products": [
+            {
+              "_id": "69568f4f1c508c5d5e66023c",
+              "name": "Sausages20927",
+              "amount": 134,
+              "price": 92594,
+              "manufacturer": "Microsoft",
+              "notes": "LCUMzUFpZvqXNpoFfDKtfug6Dej4K7RF632PP4t0cVT4zbTKGkyGJJEW1kbeE0Izo2FEMqH13BypUnVIN9M24PDIwPSKBvsld4PA06btMazQ2ozpvh43wGVDuZFGriMqdZWkpE4mOLrtyRWeuzMD3v66jeab940JlK2NS5dkwoCtDX0UR4h6sTEOGno5D895hReZP49RADRdno1QiJpESWbZybFJ5I9YsBBEi4YJ54ahCjQt38p3cBZozF",
+              "received": false
+            }
+          ],
+          "total_price": 92594,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Warwick",
+              "street": "Senger Trace",
+              "house": 330,
+              "flat": 6061
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:14:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568f4f1c508c5d5e66022a",
+          "products": [
+            {
+              "_id": "69568f4f1c508c5d5e66023c",
+              "name": "Sausages20927",
+              "amount": 134,
+              "price": 92594,
+              "manufacturer": "Microsoft",
+              "notes": "LCUMzUFpZvqXNpoFfDKtfug6Dej4K7RF632PP4t0cVT4zbTKGkyGJJEW1kbeE0Izo2FEMqH13BypUnVIN9M24PDIwPSKBvsld4PA06btMazQ2ozpvh43wGVDuZFGriMqdZWkpE4mOLrtyRWeuzMD3v66jeab940JlK2NS5dkwoCtDX0UR4h6sTEOGno5D895hReZP49RADRdno1QiJpESWbZybFJ5I9YsBBEi4YJ54ahCjQt38p3cBZozF",
+              "received": false
+            }
+          ],
+          "total_price": 92594,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Warwick",
+              "street": "Senger Trace",
+              "house": 330,
+              "flat": 6061
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:14:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568f4f1c508c5d5e66022a",
+          "products": [
+            {
+              "_id": "69568f4f1c508c5d5e66023c",
+              "name": "Sausages20927",
+              "amount": 134,
+              "price": 92594,
+              "manufacturer": "Microsoft",
+              "notes": "LCUMzUFpZvqXNpoFfDKtfug6Dej4K7RF632PP4t0cVT4zbTKGkyGJJEW1kbeE0Izo2FEMqH13BypUnVIN9M24PDIwPSKBvsld4PA06btMazQ2ozpvh43wGVDuZFGriMqdZWkpE4mOLrtyRWeuzMD3v66jeab940JlK2NS5dkwoCtDX0UR4h6sTEOGno5D895hReZP49RADRdno1QiJpESWbZybFJ5I9YsBBEi4YJ54ahCjQt38p3cBZozF",
+              "received": false
+            }
+          ],
+          "total_price": 92594,
+          "delivery": null,
+          "changedOn": "2026-01-01T15:14:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

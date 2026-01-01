@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 15:14:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3675",
+    "etag": "W/\"e5b-EYPpXQwn2dwHkdLQoSoLoMWGPHI\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69568f381c508c5d5e65f59d",
+      "status": "In Process",
+      "customer": {
+        "_id": "69568f371c508c5d5e65f49c",
+        "email": "Ladarius95@hotmail.com",
+        "name": "Tressa Miller",
+        "country": "Belarus",
+        "city": "Clifton",
+        "street": "Honeysuckle Close 86",
+        "house": 420,
+        "flat": 2821,
+        "phone": "+535016377713755",
+        "createdOn": "2026-01-01T15:13:59.000Z",
+        "notes": "CVzKSeag0vTF24r0876IDQOKKe3xww"
+      },
+      "products": [
+        {
+          "_id": "69568f381c508c5d5e65f4be",
+          "name": "Towels75449",
+          "amount": 17,
+          "price": 93789,
+          "manufacturer": "Samsung",
+          "notes": "6umc6DLiYmOnzhEzxGmruw6CErlN7A1gKGmvt1GSPlkisqu2I0UaWkqcej9E3jkOFO27vH6Lhm3DiK4btkisK2WeMl1v0iWMmr7j2z4R0vDtXJR7DAPdoKV7RUJE4xIpKSFYQg36Qrt6QQbF3N1szDRHlM1NtyqpYPgEf9JywmO89I95AlabhujsFz4oBAGw4arF9JwtMViaXRvHH3tQTThU1j0CaKXymQBBnuCudUMBOoXhFZNQwdyX10",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Port Kellie",
+          "street": "Stark Mount",
+          "house": 296,
+          "flat": 2064
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 93789,
+      "createdOn": "2026-01-01T15:14:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69568f371c508c5d5e65f49c",
+          "products": [
+            {
+              "_id": "69568f381c508c5d5e65f4be",
+              "name": "Towels75449",
+              "amount": 17,
+              "price": 93789,
+              "manufacturer": "Samsung",
+              "notes": "6umc6DLiYmOnzhEzxGmruw6CErlN7A1gKGmvt1GSPlkisqu2I0UaWkqcej9E3jkOFO27vH6Lhm3DiK4btkisK2WeMl1v0iWMmr7j2z4R0vDtXJR7DAPdoKV7RUJE4xIpKSFYQg36Qrt6QQbF3N1szDRHlM1NtyqpYPgEf9JywmO89I95AlabhujsFz4oBAGw4arF9JwtMViaXRvHH3tQTThU1j0CaKXymQBBnuCudUMBOoXhFZNQwdyX10",
+              "received": false
+            }
+          ],
+          "total_price": 93789,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Kellie",
+              "street": "Stark Mount",
+              "house": 296,
+              "flat": 2064
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:14:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568f371c508c5d5e65f49c",
+          "products": [
+            {
+              "_id": "69568f381c508c5d5e65f4be",
+              "name": "Towels75449",
+              "amount": 17,
+              "price": 93789,
+              "manufacturer": "Samsung",
+              "notes": "6umc6DLiYmOnzhEzxGmruw6CErlN7A1gKGmvt1GSPlkisqu2I0UaWkqcej9E3jkOFO27vH6Lhm3DiK4btkisK2WeMl1v0iWMmr7j2z4R0vDtXJR7DAPdoKV7RUJE4xIpKSFYQg36Qrt6QQbF3N1szDRHlM1NtyqpYPgEf9JywmO89I95AlabhujsFz4oBAGw4arF9JwtMViaXRvHH3tQTThU1j0CaKXymQBBnuCudUMBOoXhFZNQwdyX10",
+              "received": false
+            }
+          ],
+          "total_price": 93789,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Kellie",
+              "street": "Stark Mount",
+              "house": 296,
+              "flat": 2064
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T15:14:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69568f371c508c5d5e65f49c",
+          "products": [
+            {
+              "_id": "69568f381c508c5d5e65f4be",
+              "name": "Towels75449",
+              "amount": 17,
+              "price": 93789,
+              "manufacturer": "Samsung",
+              "notes": "6umc6DLiYmOnzhEzxGmruw6CErlN7A1gKGmvt1GSPlkisqu2I0UaWkqcej9E3jkOFO27vH6Lhm3DiK4btkisK2WeMl1v0iWMmr7j2z4R0vDtXJR7DAPdoKV7RUJE4xIpKSFYQg36Qrt6QQbF3N1szDRHlM1NtyqpYPgEf9JywmO89I95AlabhujsFz4oBAGw4arF9JwtMViaXRvHH3tQTThU1j0CaKXymQBBnuCudUMBOoXhFZNQwdyX10",
+              "received": false
+            }
+          ],
+          "total_price": 93789,
+          "delivery": null,
+          "changedOn": "2026-01-01T15:14:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
