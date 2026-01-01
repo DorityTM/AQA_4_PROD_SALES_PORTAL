@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:51:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2766",
+    "etag": "W/\"ace-PmclKzvM2PXuM5ZgB+93gF00Q0k\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566db71c508c5d5e638c09",
+      "status": "Draft",
+      "customer": {
+        "_id": "69566db61c508c5d5e638bc7",
+        "email": "Isabelle_Farrell35@yahoo.com",
+        "name": "Cordelia Wehner",
+        "country": "Canada",
+        "city": "Denver",
+        "street": "Steuber Roads 21",
+        "house": 29,
+        "flat": 8548,
+        "phone": "+848674155826770",
+        "createdOn": "2026-01-01T12:51:02.000Z",
+        "notes": "yFrRQ59eapScSPH6FhMC7Eqfh2ZdUt"
+      },
+      "products": [
+        {
+          "_id": "69566db71c508c5d5e638bea",
+          "name": "Pants47124",
+          "amount": 130,
+          "price": 64800,
+          "manufacturer": "Samsung",
+          "notes": "31uzoxrgpVRj6FbaMXNyoOYs2PsaBGE4T7ZhuEjRBZW751l0Ll22r7uDLPA4Pzwrb910FESzcMYoSDnqMvi6zuRJXG3dXeRxowuVikk5ZygozXHJ6M0ZVN7FCTyehNKRax8aq6zEfAjI9k0VCncZKUPlY3eqBoQ693sr0Lqk3N8TQhf7x5RQbDJ2MLt8sUZMlQqAVCnWoXQNASfeYSoQedEKbzLSpDFltzs1cqNWeTBtTeqIDahklbYM2f",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "West Maggietown",
+          "street": "Heather Close",
+          "house": 351,
+          "flat": 7317
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64800,
+      "createdOn": "2026-01-01T12:51:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69566db61c508c5d5e638bc7",
+          "products": [
+            {
+              "_id": "69566db71c508c5d5e638bea",
+              "name": "Pants47124",
+              "amount": 130,
+              "price": 64800,
+              "manufacturer": "Samsung",
+              "notes": "31uzoxrgpVRj6FbaMXNyoOYs2PsaBGE4T7ZhuEjRBZW751l0Ll22r7uDLPA4Pzwrb910FESzcMYoSDnqMvi6zuRJXG3dXeRxowuVikk5ZygozXHJ6M0ZVN7FCTyehNKRax8aq6zEfAjI9k0VCncZKUPlY3eqBoQ693sr0Lqk3N8TQhf7x5RQbDJ2MLt8sUZMlQqAVCnWoXQNASfeYSoQedEKbzLSpDFltzs1cqNWeTBtTeqIDahklbYM2f",
+              "received": false
+            }
+          ],
+          "total_price": 64800,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "West Maggietown",
+              "street": "Heather Close",
+              "house": 351,
+              "flat": 7317
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:51:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566db61c508c5d5e638bc7",
+          "products": [
+            {
+              "_id": "69566db71c508c5d5e638bea",
+              "name": "Pants47124",
+              "amount": 130,
+              "price": 64800,
+              "manufacturer": "Samsung",
+              "notes": "31uzoxrgpVRj6FbaMXNyoOYs2PsaBGE4T7ZhuEjRBZW751l0Ll22r7uDLPA4Pzwrb910FESzcMYoSDnqMvi6zuRJXG3dXeRxowuVikk5ZygozXHJ6M0ZVN7FCTyehNKRax8aq6zEfAjI9k0VCncZKUPlY3eqBoQ693sr0Lqk3N8TQhf7x5RQbDJ2MLt8sUZMlQqAVCnWoXQNASfeYSoQedEKbzLSpDFltzs1cqNWeTBtTeqIDahklbYM2f",
+              "received": false
+            }
+          ],
+          "total_price": 64800,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:51:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:51:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3918",
+    "etag": "W/\"f4e-pYCMo/ZEtede4bOJQatKC6UC8Pg\"",
+    "keep-alive": "timeout=5, max=23",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566dcc1c508c5d5e639708",
+      "status": "Draft",
+      "customer": {
+        "_id": "69566dcb1c508c5d5e6396b1",
+        "email": "Chesley92@gmail.com",
+        "name": "Dahlia Aufderhar",
+        "country": "Belarus",
+        "city": "Dachport",
+        "street": "Park Place 81",
+        "house": 958,
+        "flat": 6312,
+        "phone": "+477237832864258",
+        "createdOn": "2026-01-01T12:51:23.000Z",
+        "notes": "Z50ZEd2wj9Rad0fBIhYmPP0hTke67s"
+      },
+      "products": [
+        {
+          "_id": "69566dcc1c508c5d5e6396d7",
+          "name": "Shirt13019",
+          "amount": 676,
+          "price": 32584,
+          "manufacturer": "Google",
+          "notes": "Vs56qnWFOo4UNmwV5oS6RQpxGBQzamRYrhjrbTNg0svs9qWfjAjZ2KsmhQFeWsptEDb0dMG7ETPOX7iePq2OCTDqVFw25kMS9UVJGxKLKItFO1a6WiaT59mqw95ntZ0ur2LoZvl5BG6TMTIJcjrPo13SFzIEKaJbKlzqLAKw3gv7MUOzo3bd2awRbPpc3f3UBnt5SHbyOnYJj0nGHMqulOHLCy7L0uJi5zoxT1iSpgGE0Z02QBvo9BJVK8",
+          "received": false
+        },
+        {
+          "_id": "69566dcc1c508c5d5e6396ed",
+          "name": "Pants60838",
+          "amount": 818,
+          "price": 69024,
+          "manufacturer": "Apple",
+          "notes": "zas36AYMDaHSn6iNvT0GC0QoqUZ455NG4sWo8vPNm3caJzX11jNn25y58yYEWkcefz5bomUl7tK5WECWwuE5KpF2zzNOgjXUi4eNYYrYSMAeqvkNKXbHvGmCmKwWE4Mpf7WfEIqKqwGXUsgr8tAtdjiAznHkrLQHEmTXzI9TSjXMFPeEMDHSS2e1DgDHdE369BcFIp9O8JGAumLFBFMyi7cOafKX5dCyMu5R2byOO0hUZy7Jdl0A3lGJdC",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "East Providence",
+          "street": "Laburnum Grove",
+          "house": 466,
+          "flat": 80
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 101608,
+      "createdOn": "2026-01-01T12:51:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69566dcb1c508c5d5e6396b1",
+          "products": [
+            {
+              "_id": "69566dcc1c508c5d5e6396d7",
+              "name": "Shirt13019",
+              "amount": 676,
+              "price": 32584,
+              "manufacturer": "Google",
+              "notes": "Vs56qnWFOo4UNmwV5oS6RQpxGBQzamRYrhjrbTNg0svs9qWfjAjZ2KsmhQFeWsptEDb0dMG7ETPOX7iePq2OCTDqVFw25kMS9UVJGxKLKItFO1a6WiaT59mqw95ntZ0ur2LoZvl5BG6TMTIJcjrPo13SFzIEKaJbKlzqLAKw3gv7MUOzo3bd2awRbPpc3f3UBnt5SHbyOnYJj0nGHMqulOHLCy7L0uJi5zoxT1iSpgGE0Z02QBvo9BJVK8",
+              "received": false
+            },
+            {
+              "_id": "69566dcc1c508c5d5e6396ed",
+              "name": "Pants60838",
+              "amount": 818,
+              "price": 69024,
+              "manufacturer": "Apple",
+              "notes": "zas36AYMDaHSn6iNvT0GC0QoqUZ455NG4sWo8vPNm3caJzX11jNn25y58yYEWkcefz5bomUl7tK5WECWwuE5KpF2zzNOgjXUi4eNYYrYSMAeqvkNKXbHvGmCmKwWE4Mpf7WfEIqKqwGXUsgr8tAtdjiAznHkrLQHEmTXzI9TSjXMFPeEMDHSS2e1DgDHdE369BcFIp9O8JGAumLFBFMyi7cOafKX5dCyMu5R2byOO0hUZy7Jdl0A3lGJdC",
+              "received": false
+            }
+          ],
+          "total_price": 101608,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "East Providence",
+              "street": "Laburnum Grove",
+              "house": 466,
+              "flat": 80
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:51:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566dcb1c508c5d5e6396b1",
+          "products": [
+            {
+              "_id": "69566dcc1c508c5d5e6396d7",
+              "name": "Shirt13019",
+              "amount": 676,
+              "price": 32584,
+              "manufacturer": "Google",
+              "notes": "Vs56qnWFOo4UNmwV5oS6RQpxGBQzamRYrhjrbTNg0svs9qWfjAjZ2KsmhQFeWsptEDb0dMG7ETPOX7iePq2OCTDqVFw25kMS9UVJGxKLKItFO1a6WiaT59mqw95ntZ0ur2LoZvl5BG6TMTIJcjrPo13SFzIEKaJbKlzqLAKw3gv7MUOzo3bd2awRbPpc3f3UBnt5SHbyOnYJj0nGHMqulOHLCy7L0uJi5zoxT1iSpgGE0Z02QBvo9BJVK8",
+              "received": false
+            },
+            {
+              "_id": "69566dcc1c508c5d5e6396ed",
+              "name": "Pants60838",
+              "amount": 818,
+              "price": 69024,
+              "manufacturer": "Apple",
+              "notes": "zas36AYMDaHSn6iNvT0GC0QoqUZ455NG4sWo8vPNm3caJzX11jNn25y58yYEWkcefz5bomUl7tK5WECWwuE5KpF2zzNOgjXUi4eNYYrYSMAeqvkNKXbHvGmCmKwWE4Mpf7WfEIqKqwGXUsgr8tAtdjiAznHkrLQHEmTXzI9TSjXMFPeEMDHSS2e1DgDHdE369BcFIp9O8JGAumLFBFMyi7cOafKX5dCyMu5R2byOO0hUZy7Jdl0A3lGJdC",
+              "received": false
+            }
+          ],
+          "total_price": 101608,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:51:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

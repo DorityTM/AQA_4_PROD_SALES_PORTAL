@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:50:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-BIwTSKbd9spVuxvN2V852o7Vo9c\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566d801c508c5d5e63791b",
+      "status": "In Process",
+      "customer": {
+        "_id": "69566d801c508c5d5e6378ff",
+        "email": "Tierra_Heaney30@hotmail.com",
+        "name": "Tiana Hauck",
+        "country": "Canada",
+        "city": "Wichita Falls",
+        "street": "Elm Road 52",
+        "house": 496,
+        "flat": 6203,
+        "phone": "+965588373033109",
+        "createdOn": "2026-01-01T12:50:08.000Z",
+        "notes": "UBfiZqMVYtUC79ggnN8qEcgWod8j34"
+      },
+      "products": [
+        {
+          "_id": "69566d801c508c5d5e637909",
+          "name": "Chair59445",
+          "amount": 691,
+          "price": 95476,
+          "manufacturer": "Tesla",
+          "notes": "B77PfLh5JmGfR6IBc2TcIASFehPfviVQllcrOioUGt2zw35JL7pxavCUp0Q5Wqac5OSShuIebrqOSCmsfWhBdBbxg7Gnn3hNqQTgTL9FWUseGIaMZvlgAYVqKfklahAjdX1dMBRSSIsCczS74qTaOSihmLCXW20CikHaLqaw6J6yvKR7tPhV7NwMoaP0UygFV6Yowygo1eBeBEzFUxbn89xvEhIHkUL4q7XDgcKqAWeGFRWiDgN2KWDxED",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "College Station",
+          "street": "Gleason Springs",
+          "house": 312,
+          "flat": 3043
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 95476,
+      "createdOn": "2026-01-01T12:50:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69566d801c508c5d5e6378ff",
+          "products": [
+            {
+              "_id": "69566d801c508c5d5e637909",
+              "name": "Chair59445",
+              "amount": 691,
+              "price": 95476,
+              "manufacturer": "Tesla",
+              "notes": "B77PfLh5JmGfR6IBc2TcIASFehPfviVQllcrOioUGt2zw35JL7pxavCUp0Q5Wqac5OSShuIebrqOSCmsfWhBdBbxg7Gnn3hNqQTgTL9FWUseGIaMZvlgAYVqKfklahAjdX1dMBRSSIsCczS74qTaOSihmLCXW20CikHaLqaw6J6yvKR7tPhV7NwMoaP0UygFV6Yowygo1eBeBEzFUxbn89xvEhIHkUL4q7XDgcKqAWeGFRWiDgN2KWDxED",
+              "received": false
+            }
+          ],
+          "total_price": 95476,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "College Station",
+              "street": "Gleason Springs",
+              "house": 312,
+              "flat": 3043
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:50:09.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566d801c508c5d5e6378ff",
+          "products": [
+            {
+              "_id": "69566d801c508c5d5e637909",
+              "name": "Chair59445",
+              "amount": 691,
+              "price": 95476,
+              "manufacturer": "Tesla",
+              "notes": "B77PfLh5JmGfR6IBc2TcIASFehPfviVQllcrOioUGt2zw35JL7pxavCUp0Q5Wqac5OSShuIebrqOSCmsfWhBdBbxg7Gnn3hNqQTgTL9FWUseGIaMZvlgAYVqKfklahAjdX1dMBRSSIsCczS74qTaOSihmLCXW20CikHaLqaw6J6yvKR7tPhV7NwMoaP0UygFV6Yowygo1eBeBEzFUxbn89xvEhIHkUL4q7XDgcKqAWeGFRWiDgN2KWDxED",
+              "received": false
+            }
+          ],
+          "total_price": 95476,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "College Station",
+              "street": "Gleason Springs",
+              "house": 312,
+              "flat": 3043
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:50:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566d801c508c5d5e6378ff",
+          "products": [
+            {
+              "_id": "69566d801c508c5d5e637909",
+              "name": "Chair59445",
+              "amount": 691,
+              "price": 95476,
+              "manufacturer": "Tesla",
+              "notes": "B77PfLh5JmGfR6IBc2TcIASFehPfviVQllcrOioUGt2zw35JL7pxavCUp0Q5Wqac5OSShuIebrqOSCmsfWhBdBbxg7Gnn3hNqQTgTL9FWUseGIaMZvlgAYVqKfklahAjdX1dMBRSSIsCczS74qTaOSihmLCXW20CikHaLqaw6J6yvKR7tPhV7NwMoaP0UygFV6Yowygo1eBeBEzFUxbn89xvEhIHkUL4q7XDgcKqAWeGFRWiDgN2KWDxED",
+              "received": false
+            }
+          ],
+          "total_price": 95476,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:50:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

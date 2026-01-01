@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:48:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3682",
+    "etag": "W/\"e62-OYlfRp+pwW/eCRGeIEXzDMImbTU\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566d1a1c508c5d5e635773",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69566d191c508c5d5e63572d",
+        "email": "Jerel_Kuhn@yahoo.com",
+        "name": "Hester Barrows",
+        "country": "Belarus",
+        "city": "Passaic",
+        "street": "Rossie Pass 53",
+        "house": 347,
+        "flat": 1351,
+        "phone": "+639909818200027",
+        "createdOn": "2026-01-01T12:48:25.000Z",
+        "notes": "GzEjLiqDTm31JelF2fBoZ6KjBsJSzi"
+      },
+      "products": [
+        {
+          "_id": "69566d1a1c508c5d5e63575c",
+          "name": "Car75776",
+          "amount": 109,
+          "price": 52818,
+          "manufacturer": "Samsung",
+          "notes": "APS1Kuks5E3I0wiXvfnhmSQ2fP01k6YrvkoA5y3otmNOz0t4N7xya2kBvsB6VJmXsq4EltajOjid1rc91bMCY0dAKprdgzKfuGFfF9RA5ebGZsh7mCK9GiOOKOrdngwnORvnZSWkP5ohblr5Ee68KwTvGaKxH7EV125RCfVNISSaIyita0hKmR304vcAjC6vRzOvLaKEbwIq2AVvUgvsYknL0FQtNLdDtZ2wDv4ISM8tdikCg2FkhWz7n4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Genoveva",
+          "street": "Reinger Stravenue",
+          "house": 781,
+          "flat": 7869
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 52818,
+      "createdOn": "2026-01-01T12:48:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69566d191c508c5d5e63572d",
+          "products": [
+            {
+              "_id": "69566d1a1c508c5d5e63575c",
+              "name": "Car75776",
+              "amount": 109,
+              "price": 52818,
+              "manufacturer": "Samsung",
+              "notes": "APS1Kuks5E3I0wiXvfnhmSQ2fP01k6YrvkoA5y3otmNOz0t4N7xya2kBvsB6VJmXsq4EltajOjid1rc91bMCY0dAKprdgzKfuGFfF9RA5ebGZsh7mCK9GiOOKOrdngwnORvnZSWkP5ohblr5Ee68KwTvGaKxH7EV125RCfVNISSaIyita0hKmR304vcAjC6vRzOvLaKEbwIq2AVvUgvsYknL0FQtNLdDtZ2wDv4ISM8tdikCg2FkhWz7n4",
+              "received": false
+            }
+          ],
+          "total_price": 52818,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Genoveva",
+              "street": "Reinger Stravenue",
+              "house": 781,
+              "flat": 7869
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:48:27.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566d191c508c5d5e63572d",
+          "products": [
+            {
+              "_id": "69566d1a1c508c5d5e63575c",
+              "name": "Car75776",
+              "amount": 109,
+              "price": 52818,
+              "manufacturer": "Samsung",
+              "notes": "APS1Kuks5E3I0wiXvfnhmSQ2fP01k6YrvkoA5y3otmNOz0t4N7xya2kBvsB6VJmXsq4EltajOjid1rc91bMCY0dAKprdgzKfuGFfF9RA5ebGZsh7mCK9GiOOKOrdngwnORvnZSWkP5ohblr5Ee68KwTvGaKxH7EV125RCfVNISSaIyita0hKmR304vcAjC6vRzOvLaKEbwIq2AVvUgvsYknL0FQtNLdDtZ2wDv4ISM8tdikCg2FkhWz7n4",
+              "received": false
+            }
+          ],
+          "total_price": 52818,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Genoveva",
+              "street": "Reinger Stravenue",
+              "house": 781,
+              "flat": 7869
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:48:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566d191c508c5d5e63572d",
+          "products": [
+            {
+              "_id": "69566d1a1c508c5d5e63575c",
+              "name": "Car75776",
+              "amount": 109,
+              "price": 52818,
+              "manufacturer": "Samsung",
+              "notes": "APS1Kuks5E3I0wiXvfnhmSQ2fP01k6YrvkoA5y3otmNOz0t4N7xya2kBvsB6VJmXsq4EltajOjid1rc91bMCY0dAKprdgzKfuGFfF9RA5ebGZsh7mCK9GiOOKOrdngwnORvnZSWkP5ohblr5Ee68KwTvGaKxH7EV125RCfVNISSaIyita0hKmR304vcAjC6vRzOvLaKEbwIq2AVvUgvsYknL0FQtNLdDtZ2wDv4ISM8tdikCg2FkhWz7n4",
+              "received": false
+            }
+          ],
+          "total_price": 52818,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:48:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

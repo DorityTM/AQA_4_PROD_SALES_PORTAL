@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:47:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4608",
+    "etag": "W/\"1200-EM9Gw+ecZWigfDFB383kdFOrFm0\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566cdf1c508c5d5e633f4c",
+      "status": "Received",
+      "customer": {
+        "_id": "69566cde1c508c5d5e633f17",
+        "email": "Myriam47@yahoo.com",
+        "name": "Shane Ondricka",
+        "country": "Canada",
+        "city": "Farmington",
+        "street": "Eda Square 91",
+        "house": 793,
+        "flat": 3191,
+        "phone": "+900387440893190",
+        "createdOn": "2026-01-01T12:47:26.000Z",
+        "notes": "nnRONbwrfkWlFQ2x4rrlKrxJvMj5zX"
+      },
+      "products": [
+        {
+          "_id": "69566cdf1c508c5d5e633f30",
+          "name": "Bike13386",
+          "amount": 848,
+          "price": 8593,
+          "manufacturer": "Samsung",
+          "notes": "ggtTS7JTTv2t8LltCU21qBuHb18DT0jI9GqgXgEVUt6FrbcMqlKQzCGdJujC7Juaz5V0Vn4xCQd52GX42gLeG3PQfCaojKB9ZLUQNmECWrrc1cYncToijJXM48we4PdbivlBtUSXtWUvdne7VpIaRrYsY5T0cal8URuTuvcxtzi4fmvu68q3h7Fq47m6ueYUtpCdW3OJg2YPSJwwoKRmmDby6tsaA4dVBejSwpeUaNMWwyEa4gCoeOhwmz",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "South Otiliaburgh",
+          "street": "The Crescent",
+          "house": 357,
+          "flat": 1785
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 8593,
+      "createdOn": "2026-01-01T12:47:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69566cde1c508c5d5e633f17",
+          "products": [
+            {
+              "_id": "69566cdf1c508c5d5e633f30",
+              "name": "Bike13386",
+              "amount": 848,
+              "price": 8593,
+              "manufacturer": "Samsung",
+              "notes": "ggtTS7JTTv2t8LltCU21qBuHb18DT0jI9GqgXgEVUt6FrbcMqlKQzCGdJujC7Juaz5V0Vn4xCQd52GX42gLeG3PQfCaojKB9ZLUQNmECWrrc1cYncToijJXM48we4PdbivlBtUSXtWUvdne7VpIaRrYsY5T0cal8URuTuvcxtzi4fmvu68q3h7Fq47m6ueYUtpCdW3OJg2YPSJwwoKRmmDby6tsaA4dVBejSwpeUaNMWwyEa4gCoeOhwmz",
+              "received": true
+            }
+          ],
+          "total_price": 8593,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Otiliaburgh",
+              "street": "The Crescent",
+              "house": 357,
+              "flat": 1785
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:47:28.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69566cde1c508c5d5e633f17",
+          "products": [
+            {
+              "_id": "69566cdf1c508c5d5e633f30",
+              "name": "Bike13386",
+              "amount": 848,
+              "price": 8593,
+              "manufacturer": "Samsung",
+              "notes": "ggtTS7JTTv2t8LltCU21qBuHb18DT0jI9GqgXgEVUt6FrbcMqlKQzCGdJujC7Juaz5V0Vn4xCQd52GX42gLeG3PQfCaojKB9ZLUQNmECWrrc1cYncToijJXM48we4PdbivlBtUSXtWUvdne7VpIaRrYsY5T0cal8URuTuvcxtzi4fmvu68q3h7Fq47m6ueYUtpCdW3OJg2YPSJwwoKRmmDby6tsaA4dVBejSwpeUaNMWwyEa4gCoeOhwmz",
+              "received": false
+            }
+          ],
+          "total_price": 8593,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Otiliaburgh",
+              "street": "The Crescent",
+              "house": 357,
+              "flat": 1785
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:47:28.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566cde1c508c5d5e633f17",
+          "products": [
+            {
+              "_id": "69566cdf1c508c5d5e633f30",
+              "name": "Bike13386",
+              "amount": 848,
+              "price": 8593,
+              "manufacturer": "Samsung",
+              "notes": "ggtTS7JTTv2t8LltCU21qBuHb18DT0jI9GqgXgEVUt6FrbcMqlKQzCGdJujC7Juaz5V0Vn4xCQd52GX42gLeG3PQfCaojKB9ZLUQNmECWrrc1cYncToijJXM48we4PdbivlBtUSXtWUvdne7VpIaRrYsY5T0cal8URuTuvcxtzi4fmvu68q3h7Fq47m6ueYUtpCdW3OJg2YPSJwwoKRmmDby6tsaA4dVBejSwpeUaNMWwyEa4gCoeOhwmz",
+              "received": false
+            }
+          ],
+          "total_price": 8593,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Otiliaburgh",
+              "street": "The Crescent",
+              "house": 357,
+              "flat": 1785
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:47:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566cde1c508c5d5e633f17",
+          "products": [
+            {
+              "_id": "69566cdf1c508c5d5e633f30",
+              "name": "Bike13386",
+              "amount": 848,
+              "price": 8593,
+              "manufacturer": "Samsung",
+              "notes": "ggtTS7JTTv2t8LltCU21qBuHb18DT0jI9GqgXgEVUt6FrbcMqlKQzCGdJujC7Juaz5V0Vn4xCQd52GX42gLeG3PQfCaojKB9ZLUQNmECWrrc1cYncToijJXM48we4PdbivlBtUSXtWUvdne7VpIaRrYsY5T0cal8URuTuvcxtzi4fmvu68q3h7Fq47m6ueYUtpCdW3OJg2YPSJwwoKRmmDby6tsaA4dVBejSwpeUaNMWwyEa4gCoeOhwmz",
+              "received": false
+            }
+          ],
+          "total_price": 8593,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:47:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:48:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3664",
+    "etag": "W/\"e50-7GU9f7mAPcC40sOfSdRIp8Pecx0\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566d161c508c5d5e63559c",
+      "status": "In Process",
+      "customer": {
+        "_id": "69566d151c508c5d5e635525",
+        "email": "Johnathan.King89@hotmail.com",
+        "name": "Nina Abbott",
+        "country": "Belarus",
+        "city": "Trenton",
+        "street": "Ebert Place 83",
+        "house": 476,
+        "flat": 6975,
+        "phone": "+020524555522339",
+        "createdOn": "2026-01-01T12:48:21.000Z",
+        "notes": "bssUFdzEw2ZYiZp50PTiftrSxppg1I"
+      },
+      "products": [
+        {
+          "_id": "69566d151c508c5d5e63555d",
+          "name": "Bacon5586",
+          "amount": 504,
+          "price": 60898,
+          "manufacturer": "Tesla",
+          "notes": "qViHZFTev6c1zIwdsgDoH9X0WLr4D8SagcgJjfZj5jKfBc8wHGq1pqEAMtyZjs11mxgQV61xlehYxVkpVDSfq8R5IQtcvSh3aw73tjZAb16EoegtZT9ZItlf6R01jHfv5ksOhFKlHZ6fO7afAvA5RU7nIKEL3WN2mtCu7fSGU1NPuPdZEkZMEp9kVaxlH8VooD9nug5m2vo5WkkWMhfFnrNuJo54EELaniqYml60GVQbMJG4czI7gt1Hk9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Wyoming",
+          "street": "Muller Freeway",
+          "house": 788,
+          "flat": 780
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 60898,
+      "createdOn": "2026-01-01T12:48:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69566d151c508c5d5e635525",
+          "products": [
+            {
+              "_id": "69566d151c508c5d5e63555d",
+              "name": "Bacon5586",
+              "amount": 504,
+              "price": 60898,
+              "manufacturer": "Tesla",
+              "notes": "qViHZFTev6c1zIwdsgDoH9X0WLr4D8SagcgJjfZj5jKfBc8wHGq1pqEAMtyZjs11mxgQV61xlehYxVkpVDSfq8R5IQtcvSh3aw73tjZAb16EoegtZT9ZItlf6R01jHfv5ksOhFKlHZ6fO7afAvA5RU7nIKEL3WN2mtCu7fSGU1NPuPdZEkZMEp9kVaxlH8VooD9nug5m2vo5WkkWMhfFnrNuJo54EELaniqYml60GVQbMJG4czI7gt1Hk9",
+              "received": false
+            }
+          ],
+          "total_price": 60898,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Wyoming",
+              "street": "Muller Freeway",
+              "house": 788,
+              "flat": 780
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:48:23.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566d151c508c5d5e635525",
+          "products": [
+            {
+              "_id": "69566d151c508c5d5e63555d",
+              "name": "Bacon5586",
+              "amount": 504,
+              "price": 60898,
+              "manufacturer": "Tesla",
+              "notes": "qViHZFTev6c1zIwdsgDoH9X0WLr4D8SagcgJjfZj5jKfBc8wHGq1pqEAMtyZjs11mxgQV61xlehYxVkpVDSfq8R5IQtcvSh3aw73tjZAb16EoegtZT9ZItlf6R01jHfv5ksOhFKlHZ6fO7afAvA5RU7nIKEL3WN2mtCu7fSGU1NPuPdZEkZMEp9kVaxlH8VooD9nug5m2vo5WkkWMhfFnrNuJo54EELaniqYml60GVQbMJG4czI7gt1Hk9",
+              "received": false
+            }
+          ],
+          "total_price": 60898,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Wyoming",
+              "street": "Muller Freeway",
+              "house": 788,
+              "flat": 780
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:48:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566d151c508c5d5e635525",
+          "products": [
+            {
+              "_id": "69566d151c508c5d5e63555d",
+              "name": "Bacon5586",
+              "amount": 504,
+              "price": 60898,
+              "manufacturer": "Tesla",
+              "notes": "qViHZFTev6c1zIwdsgDoH9X0WLr4D8SagcgJjfZj5jKfBc8wHGq1pqEAMtyZjs11mxgQV61xlehYxVkpVDSfq8R5IQtcvSh3aw73tjZAb16EoegtZT9ZItlf6R01jHfv5ksOhFKlHZ6fO7afAvA5RU7nIKEL3WN2mtCu7fSGU1NPuPdZEkZMEp9kVaxlH8VooD9nug5m2vo5WkkWMhfFnrNuJo54EELaniqYml60GVQbMJG4czI7gt1Hk9",
+              "received": false
+            }
+          ],
+          "total_price": 60898,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:48:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

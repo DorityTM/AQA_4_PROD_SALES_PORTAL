@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:51:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1671",
+    "etag": "W/\"687-bFFdZtnzPm7cpne7jxEi8Cz0aOk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69566db61c508c5d5e638bb2",
+        "email": "Dimitri50@yahoo.com",
+        "name": "Green Mante",
+        "country": "Canada",
+        "city": "South Kobe",
+        "street": "S 4th Street 8",
+        "house": 601,
+        "flat": 2374,
+        "phone": "+998869135429155",
+        "createdOn": "2026-01-01T12:51:02.000Z",
+        "notes": "khJyn735Abmuv7DvQt75QmMHiCHQ0f"
+      },
+      "products": [
+        {
+          "_id": "69566db61c508c5d5e638bcb",
+          "name": "Computer40273",
+          "amount": 441,
+          "price": 36200,
+          "manufacturer": "Amazon",
+          "notes": "1V94McytC7Zf3mAOpZw5ksOluRHYfyBtWamn5RHLWueVcJXRfRDLpkY2y9yIwOFiJPUjNmzHiJLrlsonOrdFOmouxvkA4DOUfUp54S4GCSsMOjuLCs30fQCI5qhPCFTRjPQGz8FASib8fyTu1GbjFoDdXYKiqjT2WRwdYQtSQpTWkvebYqF5gAHyOGsXmOQ0hl1G27R0bq7NowI4VAzfrwz1QWqBmmcmm3QvoJVPg09XfKGtDqxiqMPriu",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 36200,
+      "createdOn": "2026-01-01T12:51:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69566db61c508c5d5e638bb2",
+          "products": [
+            {
+              "_id": "69566db61c508c5d5e638bcb",
+              "name": "Computer40273",
+              "amount": 441,
+              "price": 36200,
+              "manufacturer": "Amazon",
+              "notes": "1V94McytC7Zf3mAOpZw5ksOluRHYfyBtWamn5RHLWueVcJXRfRDLpkY2y9yIwOFiJPUjNmzHiJLrlsonOrdFOmouxvkA4DOUfUp54S4GCSsMOjuLCs30fQCI5qhPCFTRjPQGz8FASib8fyTu1GbjFoDdXYKiqjT2WRwdYQtSQpTWkvebYqF5gAHyOGsXmOQ0hl1G27R0bq7NowI4VAzfrwz1QWqBmmcmm3QvoJVPg09XfKGtDqxiqMPriu",
+              "received": false
+            }
+          ],
+          "total_price": 36200,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:51:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69566db71c508c5d5e638bee"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

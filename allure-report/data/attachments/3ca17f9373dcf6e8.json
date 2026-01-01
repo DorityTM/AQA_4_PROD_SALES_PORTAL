@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:47:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3669",
+    "etag": "W/\"e55-vc/pj/atM0JnCvjIlfDa9viadtk\"",
+    "keep-alive": "timeout=5, max=33",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566cf31c508c5d5e6347bb",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69566cf31c508c5d5e63476a",
+        "email": "Marguerite19@gmail.com",
+        "name": "Esther Hauck",
+        "country": "Canada",
+        "city": "Muellerboro",
+        "street": "Poplar Avenue 40",
+        "house": 841,
+        "flat": 8655,
+        "phone": "+143997531203282",
+        "createdOn": "2026-01-01T12:47:47.000Z",
+        "notes": "crWxkNcYadHEi8S3NsSd3wraccAmOh"
+      },
+      "products": [
+        {
+          "_id": "69566cf31c508c5d5e63478d",
+          "name": "Pizza31171",
+          "amount": 328,
+          "price": 98982,
+          "manufacturer": "Tesla",
+          "notes": "M3LiGkt2r1u4xZqbh7fFUOYYNFQI0zwMK3DygVdcUIijckffzFu3OXfvjeuBh4PdLwRsax1CTHgrKdIv6mVIVc8Qk99fj00MX76O7ULjUiCAZIovWYUTJS3z5aF7AUrbiJcgtDCJN1RPvG4DHLcECny1EH12POlOCsBR2NbSWFOHBlHTSyaBdorS1CtIlLEIhHMi7xZkLIAh3GSZnWJz7HifulWp1pNiSRPw9z16usZvam3Pfu86c7JfNF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Dibbertburgh",
+          "street": "Graham Spring",
+          "house": 478,
+          "flat": 2538
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98982,
+      "createdOn": "2026-01-01T12:47:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69566cf31c508c5d5e63476a",
+          "products": [
+            {
+              "_id": "69566cf31c508c5d5e63478d",
+              "name": "Pizza31171",
+              "amount": 328,
+              "price": 98982,
+              "manufacturer": "Tesla",
+              "notes": "M3LiGkt2r1u4xZqbh7fFUOYYNFQI0zwMK3DygVdcUIijckffzFu3OXfvjeuBh4PdLwRsax1CTHgrKdIv6mVIVc8Qk99fj00MX76O7ULjUiCAZIovWYUTJS3z5aF7AUrbiJcgtDCJN1RPvG4DHLcECny1EH12POlOCsBR2NbSWFOHBlHTSyaBdorS1CtIlLEIhHMi7xZkLIAh3GSZnWJz7HifulWp1pNiSRPw9z16usZvam3Pfu86c7JfNF",
+              "received": false
+            }
+          ],
+          "total_price": 98982,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Dibbertburgh",
+              "street": "Graham Spring",
+              "house": 478,
+              "flat": 2538
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:47:48.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566cf31c508c5d5e63476a",
+          "products": [
+            {
+              "_id": "69566cf31c508c5d5e63478d",
+              "name": "Pizza31171",
+              "amount": 328,
+              "price": 98982,
+              "manufacturer": "Tesla",
+              "notes": "M3LiGkt2r1u4xZqbh7fFUOYYNFQI0zwMK3DygVdcUIijckffzFu3OXfvjeuBh4PdLwRsax1CTHgrKdIv6mVIVc8Qk99fj00MX76O7ULjUiCAZIovWYUTJS3z5aF7AUrbiJcgtDCJN1RPvG4DHLcECny1EH12POlOCsBR2NbSWFOHBlHTSyaBdorS1CtIlLEIhHMi7xZkLIAh3GSZnWJz7HifulWp1pNiSRPw9z16usZvam3Pfu86c7JfNF",
+              "received": false
+            }
+          ],
+          "total_price": 98982,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Dibbertburgh",
+              "street": "Graham Spring",
+              "house": 478,
+              "flat": 2538
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:47:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566cf31c508c5d5e63476a",
+          "products": [
+            {
+              "_id": "69566cf31c508c5d5e63478d",
+              "name": "Pizza31171",
+              "amount": 328,
+              "price": 98982,
+              "manufacturer": "Tesla",
+              "notes": "M3LiGkt2r1u4xZqbh7fFUOYYNFQI0zwMK3DygVdcUIijckffzFu3OXfvjeuBh4PdLwRsax1CTHgrKdIv6mVIVc8Qk99fj00MX76O7ULjUiCAZIovWYUTJS3z5aF7AUrbiJcgtDCJN1RPvG4DHLcECny1EH12POlOCsBR2NbSWFOHBlHTSyaBdorS1CtIlLEIhHMi7xZkLIAh3GSZnWJz7HifulWp1pNiSRPw9z16usZvam3Pfu86c7JfNF",
+              "received": false
+            }
+          ],
+          "total_price": 98982,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:47:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:47:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3671",
+    "etag": "W/\"e57-xjlsvgwtJMKMPeATulqzmDMpmpQ\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566cef1c508c5d5e6345b2",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69566cee1c508c5d5e634562",
+        "email": "Neha84@hotmail.com",
+        "name": "Zack Beer",
+        "country": "Great Britain",
+        "city": "Murrieta",
+        "street": "Hane Park 71",
+        "house": 711,
+        "flat": 8609,
+        "phone": "+901486622329455",
+        "createdOn": "2026-01-01T12:47:42.000Z",
+        "notes": "PiLqUiXCOOhyEedk4nA3QfdvZZzDbf"
+      },
+      "products": [
+        {
+          "_id": "69566cee1c508c5d5e634581",
+          "name": "Cheese85408",
+          "amount": 389,
+          "price": 26537,
+          "manufacturer": "Samsung",
+          "notes": "nJF5bHcxpYgkuCj1wDoBkHilBuyAdZj6FuakesIwO1AQaeTBSvJasbEQm1eO9j3ROu7QyBagIqbT6iYUv53b9xkv4a8qv9hrY5EQMkQVyP7gIV68ntnAbMElfQC1dWQkQanQw9aEK8FDYNx1y2YDtHV4Z9DIz5ALeZGAJbicC5oVchhnAjcYnKUTf9cQyhGLLjrkSjBvC93dqycKRrkOR3cG18JLrq0pajcuWUcvH41FxBbWOsvdwKFi9M",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Richardport",
+          "street": "South Street",
+          "house": 637,
+          "flat": 5758
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 26537,
+      "createdOn": "2026-01-01T12:47:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69566cee1c508c5d5e634562",
+          "products": [
+            {
+              "_id": "69566cee1c508c5d5e634581",
+              "name": "Cheese85408",
+              "amount": 389,
+              "price": 26537,
+              "manufacturer": "Samsung",
+              "notes": "nJF5bHcxpYgkuCj1wDoBkHilBuyAdZj6FuakesIwO1AQaeTBSvJasbEQm1eO9j3ROu7QyBagIqbT6iYUv53b9xkv4a8qv9hrY5EQMkQVyP7gIV68ntnAbMElfQC1dWQkQanQw9aEK8FDYNx1y2YDtHV4Z9DIz5ALeZGAJbicC5oVchhnAjcYnKUTf9cQyhGLLjrkSjBvC93dqycKRrkOR3cG18JLrq0pajcuWUcvH41FxBbWOsvdwKFi9M",
+              "received": false
+            }
+          ],
+          "total_price": 26537,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Richardport",
+              "street": "South Street",
+              "house": 637,
+              "flat": 5758
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:47:44.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566cee1c508c5d5e634562",
+          "products": [
+            {
+              "_id": "69566cee1c508c5d5e634581",
+              "name": "Cheese85408",
+              "amount": 389,
+              "price": 26537,
+              "manufacturer": "Samsung",
+              "notes": "nJF5bHcxpYgkuCj1wDoBkHilBuyAdZj6FuakesIwO1AQaeTBSvJasbEQm1eO9j3ROu7QyBagIqbT6iYUv53b9xkv4a8qv9hrY5EQMkQVyP7gIV68ntnAbMElfQC1dWQkQanQw9aEK8FDYNx1y2YDtHV4Z9DIz5ALeZGAJbicC5oVchhnAjcYnKUTf9cQyhGLLjrkSjBvC93dqycKRrkOR3cG18JLrq0pajcuWUcvH41FxBbWOsvdwKFi9M",
+              "received": false
+            }
+          ],
+          "total_price": 26537,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Richardport",
+              "street": "South Street",
+              "house": 637,
+              "flat": 5758
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:47:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566cee1c508c5d5e634562",
+          "products": [
+            {
+              "_id": "69566cee1c508c5d5e634581",
+              "name": "Cheese85408",
+              "amount": 389,
+              "price": 26537,
+              "manufacturer": "Samsung",
+              "notes": "nJF5bHcxpYgkuCj1wDoBkHilBuyAdZj6FuakesIwO1AQaeTBSvJasbEQm1eO9j3ROu7QyBagIqbT6iYUv53b9xkv4a8qv9hrY5EQMkQVyP7gIV68ntnAbMElfQC1dWQkQanQw9aEK8FDYNx1y2YDtHV4Z9DIz5ALeZGAJbicC5oVchhnAjcYnKUTf9cQyhGLLjrkSjBvC93dqycKRrkOR3cG18JLrq0pajcuWUcvH41FxBbWOsvdwKFi9M",
+              "received": false
+            }
+          ],
+          "total_price": 26537,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:47:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

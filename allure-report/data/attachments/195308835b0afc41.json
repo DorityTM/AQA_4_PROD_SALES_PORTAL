@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:47:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3682",
+    "etag": "W/\"e62-SgYs4HUXNEzQfcXAINZm2+6SBYs\"",
+    "keep-alive": "timeout=5, max=57",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566ceb1c508c5d5e634443",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69566cea1c508c5d5e634411",
+        "email": "Rudy.Bernhard@gmail.com",
+        "name": "Hallie McDermott",
+        "country": "France",
+        "city": "Philadelphia",
+        "street": "Giuseppe Lock 63",
+        "house": 745,
+        "flat": 3780,
+        "phone": "+433012172669000",
+        "createdOn": "2026-01-01T12:47:38.000Z",
+        "notes": "odCYkgh3mg6NhcQ1dw0TN9X5xBUMpI"
+      },
+      "products": [
+        {
+          "_id": "69566ceb1c508c5d5e63442e",
+          "name": "Keyboard90641",
+          "amount": 415,
+          "price": 68706,
+          "manufacturer": "Amazon",
+          "notes": "Fc6cxro5qSP2njiVS2TvZbHhLCjFYR5D6saJuoPdDgANlbhY2gTAvJW4KhzQ1npQboezalJME8CtzgP1OvfDbYgJruS3WT9eANtybXtqW88I73BTG6PJp3QsP6fDPQ648IQbm2YELH2YXYsTbIXeOYJfDAw8PcxxR0SMuW9FTYxkTtRaYSNlHgmgFswHwTLhbBfVAzrCXdn0WLASywdGgKYf348eyMKloNDJWzjDlzAFPMvdi3qQUVXC6R",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Pansy",
+          "street": "Karelle Fort",
+          "house": 552,
+          "flat": 384
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 68706,
+      "createdOn": "2026-01-01T12:47:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69566cea1c508c5d5e634411",
+          "products": [
+            {
+              "_id": "69566ceb1c508c5d5e63442e",
+              "name": "Keyboard90641",
+              "amount": 415,
+              "price": 68706,
+              "manufacturer": "Amazon",
+              "notes": "Fc6cxro5qSP2njiVS2TvZbHhLCjFYR5D6saJuoPdDgANlbhY2gTAvJW4KhzQ1npQboezalJME8CtzgP1OvfDbYgJruS3WT9eANtybXtqW88I73BTG6PJp3QsP6fDPQ648IQbm2YELH2YXYsTbIXeOYJfDAw8PcxxR0SMuW9FTYxkTtRaYSNlHgmgFswHwTLhbBfVAzrCXdn0WLASywdGgKYf348eyMKloNDJWzjDlzAFPMvdi3qQUVXC6R",
+              "received": false
+            }
+          ],
+          "total_price": 68706,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Pansy",
+              "street": "Karelle Fort",
+              "house": 552,
+              "flat": 384
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:47:40.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566cea1c508c5d5e634411",
+          "products": [
+            {
+              "_id": "69566ceb1c508c5d5e63442e",
+              "name": "Keyboard90641",
+              "amount": 415,
+              "price": 68706,
+              "manufacturer": "Amazon",
+              "notes": "Fc6cxro5qSP2njiVS2TvZbHhLCjFYR5D6saJuoPdDgANlbhY2gTAvJW4KhzQ1npQboezalJME8CtzgP1OvfDbYgJruS3WT9eANtybXtqW88I73BTG6PJp3QsP6fDPQ648IQbm2YELH2YXYsTbIXeOYJfDAw8PcxxR0SMuW9FTYxkTtRaYSNlHgmgFswHwTLhbBfVAzrCXdn0WLASywdGgKYf348eyMKloNDJWzjDlzAFPMvdi3qQUVXC6R",
+              "received": false
+            }
+          ],
+          "total_price": 68706,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Pansy",
+              "street": "Karelle Fort",
+              "house": 552,
+              "flat": 384
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:47:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566cea1c508c5d5e634411",
+          "products": [
+            {
+              "_id": "69566ceb1c508c5d5e63442e",
+              "name": "Keyboard90641",
+              "amount": 415,
+              "price": 68706,
+              "manufacturer": "Amazon",
+              "notes": "Fc6cxro5qSP2njiVS2TvZbHhLCjFYR5D6saJuoPdDgANlbhY2gTAvJW4KhzQ1npQboezalJME8CtzgP1OvfDbYgJruS3WT9eANtybXtqW88I73BTG6PJp3QsP6fDPQ648IQbm2YELH2YXYsTbIXeOYJfDAw8PcxxR0SMuW9FTYxkTtRaYSNlHgmgFswHwTLhbBfVAzrCXdn0WLASywdGgKYf348eyMKloNDJWzjDlzAFPMvdi3qQUVXC6R",
+              "received": false
+            }
+          ],
+          "total_price": 68706,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:47:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

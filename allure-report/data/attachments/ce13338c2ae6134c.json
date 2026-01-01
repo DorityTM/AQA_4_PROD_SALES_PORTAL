@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:48:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2787",
+    "etag": "W/\"ae3-rguVIyNnvVdKPgNsweGQgqqgVvw\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566d171c508c5d5e635632",
+      "status": "Draft",
+      "customer": {
+        "_id": "69566d171c508c5d5e6355f4",
+        "email": "Franz.Bogisich-Lakin@gmail.com",
+        "name": "Kendrick Haley",
+        "country": "Canada",
+        "city": "South Guscester",
+        "street": "Stroman Prairie 77",
+        "house": 106,
+        "flat": 6023,
+        "phone": "+444460948277067",
+        "createdOn": "2026-01-01T12:48:23.000Z",
+        "notes": "N3G8N0O5Z3PM4Wne7qkFzfaaRWn3EX"
+      },
+      "products": [
+        {
+          "_id": "69566d171c508c5d5e635611",
+          "name": "Soap71345",
+          "amount": 16,
+          "price": 49574,
+          "manufacturer": "Microsoft",
+          "notes": "K8U5rPJg7OQIXV50vQKnccOpDXtvnCLjlRsuf3QPKvfXaJEyhiqW1eyDl7GaSXWAob8lD3ub16r0PrD1djVZJ91StSrOQpDswwkv5wPqE0AyU4t1x3X1oNXCBy8YngyKOI9uXnWHmAEeWWaTUe00B0K1wk57VathzFeOxvUoW9i848XO9pCu21FAp5YB8CPceKcDlTJaBuoubLg10wUfIQmpiR7OpbICtMT5TnMGPCaUPMWqLkCLvc10ln",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "West Haydencester",
+          "street": "Xavier Junctions",
+          "house": 250,
+          "flat": 7636
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 49574,
+      "createdOn": "2026-01-01T12:48:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69566d171c508c5d5e6355f4",
+          "products": [
+            {
+              "_id": "69566d171c508c5d5e635611",
+              "name": "Soap71345",
+              "amount": 16,
+              "price": 49574,
+              "manufacturer": "Microsoft",
+              "notes": "K8U5rPJg7OQIXV50vQKnccOpDXtvnCLjlRsuf3QPKvfXaJEyhiqW1eyDl7GaSXWAob8lD3ub16r0PrD1djVZJ91StSrOQpDswwkv5wPqE0AyU4t1x3X1oNXCBy8YngyKOI9uXnWHmAEeWWaTUe00B0K1wk57VathzFeOxvUoW9i848XO9pCu21FAp5YB8CPceKcDlTJaBuoubLg10wUfIQmpiR7OpbICtMT5TnMGPCaUPMWqLkCLvc10ln",
+              "received": false
+            }
+          ],
+          "total_price": 49574,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Haydencester",
+              "street": "Xavier Junctions",
+              "house": 250,
+              "flat": 7636
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:48:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566d171c508c5d5e6355f4",
+          "products": [
+            {
+              "_id": "69566d171c508c5d5e635611",
+              "name": "Soap71345",
+              "amount": 16,
+              "price": 49574,
+              "manufacturer": "Microsoft",
+              "notes": "K8U5rPJg7OQIXV50vQKnccOpDXtvnCLjlRsuf3QPKvfXaJEyhiqW1eyDl7GaSXWAob8lD3ub16r0PrD1djVZJ91StSrOQpDswwkv5wPqE0AyU4t1x3X1oNXCBy8YngyKOI9uXnWHmAEeWWaTUe00B0K1wk57VathzFeOxvUoW9i848XO9pCu21FAp5YB8CPceKcDlTJaBuoubLg10wUfIQmpiR7OpbICtMT5TnMGPCaUPMWqLkCLvc10ln",
+              "received": false
+            }
+          ],
+          "total_price": 49574,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:48:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
