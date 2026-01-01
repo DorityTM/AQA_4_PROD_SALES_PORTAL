@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:03:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3676",
+    "etag": "W/\"e5c-vfaz5nvijVNwgyV1tUonfH35l94\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695670b21c508c5d5e64eb74",
+      "status": "In Process",
+      "customer": {
+        "_id": "695670b11c508c5d5e64eb58",
+        "email": "Franco_Block@gmail.com",
+        "name": "Annette Russel",
+        "country": "France",
+        "city": "Kodystad",
+        "street": "Grant Points 48",
+        "house": 543,
+        "flat": 5855,
+        "phone": "+759605690922218",
+        "createdOn": "2026-01-01T13:03:45.000Z",
+        "notes": "be3P8h5gcXCFclhL9mSJosYJd2cpAq"
+      },
+      "products": [
+        {
+          "_id": "695670b11c508c5d5e64eb67",
+          "name": "Salad9888",
+          "amount": 151,
+          "price": 59786,
+          "manufacturer": "Samsung",
+          "notes": "YyyUuQU3JCM2dkbZiGps8vPyMdzxAdYejQ9vVZEVENiB2J2OfFT0rHoJkmmWFQeW9GchaQRFShnRufJYO6ZqS39LsP9wANVORpvXd07nlC4kJatNjC5GKdDqE2jHIQZdGGbyYfQ0C74bm8G7xn5EJ0x33Mvxy6OH442vMOkxLnSBy8PG8d5JOkSSU6gXT1PIpqfjohXTgWV1aqRjs57thH6Ly8mTpuNDm2A10HIkAGqLLdRvXSZFUpoXJv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Jacintomouth",
+          "street": "Ebert Ways",
+          "house": 226,
+          "flat": 3446
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 59786,
+      "createdOn": "2026-01-01T13:03:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695670b11c508c5d5e64eb58",
+          "products": [
+            {
+              "_id": "695670b11c508c5d5e64eb67",
+              "name": "Salad9888",
+              "amount": 151,
+              "price": 59786,
+              "manufacturer": "Samsung",
+              "notes": "YyyUuQU3JCM2dkbZiGps8vPyMdzxAdYejQ9vVZEVENiB2J2OfFT0rHoJkmmWFQeW9GchaQRFShnRufJYO6ZqS39LsP9wANVORpvXd07nlC4kJatNjC5GKdDqE2jHIQZdGGbyYfQ0C74bm8G7xn5EJ0x33Mvxy6OH442vMOkxLnSBy8PG8d5JOkSSU6gXT1PIpqfjohXTgWV1aqRjs57thH6Ly8mTpuNDm2A10HIkAGqLLdRvXSZFUpoXJv",
+              "received": false
+            }
+          ],
+          "total_price": 59786,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Jacintomouth",
+              "street": "Ebert Ways",
+              "house": 226,
+              "flat": 3446
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:03:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695670b11c508c5d5e64eb58",
+          "products": [
+            {
+              "_id": "695670b11c508c5d5e64eb67",
+              "name": "Salad9888",
+              "amount": 151,
+              "price": 59786,
+              "manufacturer": "Samsung",
+              "notes": "YyyUuQU3JCM2dkbZiGps8vPyMdzxAdYejQ9vVZEVENiB2J2OfFT0rHoJkmmWFQeW9GchaQRFShnRufJYO6ZqS39LsP9wANVORpvXd07nlC4kJatNjC5GKdDqE2jHIQZdGGbyYfQ0C74bm8G7xn5EJ0x33Mvxy6OH442vMOkxLnSBy8PG8d5JOkSSU6gXT1PIpqfjohXTgWV1aqRjs57thH6Ly8mTpuNDm2A10HIkAGqLLdRvXSZFUpoXJv",
+              "received": false
+            }
+          ],
+          "total_price": 59786,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Jacintomouth",
+              "street": "Ebert Ways",
+              "house": 226,
+              "flat": 3446
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:03:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695670b11c508c5d5e64eb58",
+          "products": [
+            {
+              "_id": "695670b11c508c5d5e64eb67",
+              "name": "Salad9888",
+              "amount": 151,
+              "price": 59786,
+              "manufacturer": "Samsung",
+              "notes": "YyyUuQU3JCM2dkbZiGps8vPyMdzxAdYejQ9vVZEVENiB2J2OfFT0rHoJkmmWFQeW9GchaQRFShnRufJYO6ZqS39LsP9wANVORpvXd07nlC4kJatNjC5GKdDqE2jHIQZdGGbyYfQ0C74bm8G7xn5EJ0x33Mvxy6OH442vMOkxLnSBy8PG8d5JOkSSU6gXT1PIpqfjohXTgWV1aqRjs57thH6Ly8mTpuNDm2A10HIkAGqLLdRvXSZFUpoXJv",
+              "received": false
+            }
+          ],
+          "total_price": 59786,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:03:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

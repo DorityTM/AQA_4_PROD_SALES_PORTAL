@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:57:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4583",
+    "etag": "W/\"11e7-ke/AyOAHgJFamh1qEoiF5s4Vi64\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566f201c508c5d5e63e890",
+      "status": "Received",
+      "customer": {
+        "_id": "69566f1e1c508c5d5e63e812",
+        "email": "Wendy12@hotmail.com",
+        "name": "Neoma Ziemann",
+        "country": "France",
+        "city": "Port Sonnyworth",
+        "street": "Beech Drive 59",
+        "house": 212,
+        "flat": 8251,
+        "phone": "+602327698406662",
+        "createdOn": "2026-01-01T12:57:02.000Z",
+        "notes": "UffBkWFAuB6bGXjbqZ3Qiy5sJPX29R"
+      },
+      "products": [
+        {
+          "_id": "69566f1f1c508c5d5e63e856",
+          "name": "Bike84500",
+          "amount": 518,
+          "price": 17239,
+          "manufacturer": "Google",
+          "notes": "o6Dl1fm8sRrRFAeoMKV3xXy8O7V1DU0g1niOXeASpBOLs6APdJ23ltxLR0OkDqj5NVqXdoECv13uUMBL9jFRSc4Th1Ajp7UccTS4hLTyMd5wMcdSyTVWrCSbYcNErVgXKxOXT8cjiB0ofm3I0gDhAp9D4ejxyT72oQZFE21GD5ZLns1Ox4ASRVufHRhciJkQjWEuy9uTNrji3Dk710NwDPPGJogEviILdrsdPZLCeq5YSJ6lcRoZsZShIh",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "West Mandyport",
+          "street": "E Main",
+          "house": 512,
+          "flat": 9468
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17239,
+      "createdOn": "2026-01-01T12:57:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69566f1e1c508c5d5e63e812",
+          "products": [
+            {
+              "_id": "69566f1f1c508c5d5e63e856",
+              "name": "Bike84500",
+              "amount": 518,
+              "price": 17239,
+              "manufacturer": "Google",
+              "notes": "o6Dl1fm8sRrRFAeoMKV3xXy8O7V1DU0g1niOXeASpBOLs6APdJ23ltxLR0OkDqj5NVqXdoECv13uUMBL9jFRSc4Th1Ajp7UccTS4hLTyMd5wMcdSyTVWrCSbYcNErVgXKxOXT8cjiB0ofm3I0gDhAp9D4ejxyT72oQZFE21GD5ZLns1Ox4ASRVufHRhciJkQjWEuy9uTNrji3Dk710NwDPPGJogEviILdrsdPZLCeq5YSJ6lcRoZsZShIh",
+              "received": true
+            }
+          ],
+          "total_price": 17239,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Mandyport",
+              "street": "E Main",
+              "house": 512,
+              "flat": 9468
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:57:07.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69566f1e1c508c5d5e63e812",
+          "products": [
+            {
+              "_id": "69566f1f1c508c5d5e63e856",
+              "name": "Bike84500",
+              "amount": 518,
+              "price": 17239,
+              "manufacturer": "Google",
+              "notes": "o6Dl1fm8sRrRFAeoMKV3xXy8O7V1DU0g1niOXeASpBOLs6APdJ23ltxLR0OkDqj5NVqXdoECv13uUMBL9jFRSc4Th1Ajp7UccTS4hLTyMd5wMcdSyTVWrCSbYcNErVgXKxOXT8cjiB0ofm3I0gDhAp9D4ejxyT72oQZFE21GD5ZLns1Ox4ASRVufHRhciJkQjWEuy9uTNrji3Dk710NwDPPGJogEviILdrsdPZLCeq5YSJ6lcRoZsZShIh",
+              "received": false
+            }
+          ],
+          "total_price": 17239,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Mandyport",
+              "street": "E Main",
+              "house": 512,
+              "flat": 9468
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:57:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566f1e1c508c5d5e63e812",
+          "products": [
+            {
+              "_id": "69566f1f1c508c5d5e63e856",
+              "name": "Bike84500",
+              "amount": 518,
+              "price": 17239,
+              "manufacturer": "Google",
+              "notes": "o6Dl1fm8sRrRFAeoMKV3xXy8O7V1DU0g1niOXeASpBOLs6APdJ23ltxLR0OkDqj5NVqXdoECv13uUMBL9jFRSc4Th1Ajp7UccTS4hLTyMd5wMcdSyTVWrCSbYcNErVgXKxOXT8cjiB0ofm3I0gDhAp9D4ejxyT72oQZFE21GD5ZLns1Ox4ASRVufHRhciJkQjWEuy9uTNrji3Dk710NwDPPGJogEviILdrsdPZLCeq5YSJ6lcRoZsZShIh",
+              "received": false
+            }
+          ],
+          "total_price": 17239,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Mandyport",
+              "street": "E Main",
+              "house": 512,
+              "flat": 9468
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:57:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566f1e1c508c5d5e63e812",
+          "products": [
+            {
+              "_id": "69566f1f1c508c5d5e63e856",
+              "name": "Bike84500",
+              "amount": 518,
+              "price": 17239,
+              "manufacturer": "Google",
+              "notes": "o6Dl1fm8sRrRFAeoMKV3xXy8O7V1DU0g1niOXeASpBOLs6APdJ23ltxLR0OkDqj5NVqXdoECv13uUMBL9jFRSc4Th1Ajp7UccTS4hLTyMd5wMcdSyTVWrCSbYcNErVgXKxOXT8cjiB0ofm3I0gDhAp9D4ejxyT72oQZFE21GD5ZLns1Ox4ASRVufHRhciJkQjWEuy9uTNrji3Dk710NwDPPGJogEviILdrsdPZLCeq5YSJ6lcRoZsZShIh",
+              "received": false
+            }
+          ],
+          "total_price": 17239,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:57:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

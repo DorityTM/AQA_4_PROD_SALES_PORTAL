@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:58:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5233",
+    "etag": "W/\"1471-hxXZIjHogJD1zBJleduquyquVXI\"",
+    "keep-alive": "timeout=5, max=25",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566f721c508c5d5e641b9d",
+      "status": "In Process",
+      "customer": {
+        "_id": "69566f711c508c5d5e641ae1",
+        "email": "Jarrod.Schuppe26@yahoo.com",
+        "name": "Jettie Turner",
+        "country": "Russia",
+        "city": "Macistead",
+        "street": "N 6th Street 3",
+        "house": 261,
+        "flat": 9041,
+        "phone": "+073984394788777",
+        "createdOn": "2026-01-01T12:58:25.000Z",
+        "notes": "DxMVZmbXofn1KUGrvbmyUrtux2xdxV"
+      },
+      "products": [
+        {
+          "_id": "69566f711c508c5d5e641b1b",
+          "name": "Sausages73103",
+          "amount": 497,
+          "price": 33605,
+          "manufacturer": "Google",
+          "notes": "7X6zB5oEWIOPfKH6lcSfPoijS0GLN1ttYc1VDuHedvNYBHh0JxqHRUO2I8IEsP83XOLxIwoeQGcI2svVIXQ5F0rsfWJxqNobS4wXhxo4jQ9EBBjbFCfLulPm9sJwUc1Qta4ILglKrUAXejE4XHcg2hAComPlA1qDjZ3GmLikaLcPYhTCNjUzaoTmxDRuwShvssCV1ctsj9WYpDVeYj0ZL6vLMQUOp9nv9pYTFlkmw2duiukiuF06Dy98u5",
+          "received": false
+        },
+        {
+          "_id": "69566f721c508c5d5e641b68",
+          "name": "Chair37391",
+          "amount": 750,
+          "price": 54485,
+          "manufacturer": "Xiaomi",
+          "notes": "tz2qRG7tiiENsSFyO7t5Zpv3tXD5aO61UTruBTPhjaclfYBmL348X3GNTsKcnIAKHk6flCrmdQZWQ1F4skBz2SksAKsqAKPEIVuA4Nu3zrLWcXCpBtkb95qOSeF0f6UHczMcsDafodYyVZxDsl7myw3FJn4UVPXMuXbzfRAmvU5PjsAHRJf9yjjjwhAJSLdAcj9hj6MeG18NRCljiUF6HWgMMJbdtZMteAODT7Y4yLQe3w0cCfRAI1Q70S",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Keeblerboro",
+          "street": "Church Close",
+          "house": 668,
+          "flat": 9078
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88090,
+      "createdOn": "2026-01-01T12:58:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69566f711c508c5d5e641ae1",
+          "products": [
+            {
+              "_id": "69566f711c508c5d5e641b1b",
+              "name": "Sausages73103",
+              "amount": 497,
+              "price": 33605,
+              "manufacturer": "Google",
+              "notes": "7X6zB5oEWIOPfKH6lcSfPoijS0GLN1ttYc1VDuHedvNYBHh0JxqHRUO2I8IEsP83XOLxIwoeQGcI2svVIXQ5F0rsfWJxqNobS4wXhxo4jQ9EBBjbFCfLulPm9sJwUc1Qta4ILglKrUAXejE4XHcg2hAComPlA1qDjZ3GmLikaLcPYhTCNjUzaoTmxDRuwShvssCV1ctsj9WYpDVeYj0ZL6vLMQUOp9nv9pYTFlkmw2duiukiuF06Dy98u5",
+              "received": false
+            },
+            {
+              "_id": "69566f721c508c5d5e641b68",
+              "name": "Chair37391",
+              "amount": 750,
+              "price": 54485,
+              "manufacturer": "Xiaomi",
+              "notes": "tz2qRG7tiiENsSFyO7t5Zpv3tXD5aO61UTruBTPhjaclfYBmL348X3GNTsKcnIAKHk6flCrmdQZWQ1F4skBz2SksAKsqAKPEIVuA4Nu3zrLWcXCpBtkb95qOSeF0f6UHczMcsDafodYyVZxDsl7myw3FJn4UVPXMuXbzfRAmvU5PjsAHRJf9yjjjwhAJSLdAcj9hj6MeG18NRCljiUF6HWgMMJbdtZMteAODT7Y4yLQe3w0cCfRAI1Q70S",
+              "received": false
+            }
+          ],
+          "total_price": 88090,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Keeblerboro",
+              "street": "Church Close",
+              "house": 668,
+              "flat": 9078
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:58:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566f711c508c5d5e641ae1",
+          "products": [
+            {
+              "_id": "69566f711c508c5d5e641b1b",
+              "name": "Sausages73103",
+              "amount": 497,
+              "price": 33605,
+              "manufacturer": "Google",
+              "notes": "7X6zB5oEWIOPfKH6lcSfPoijS0GLN1ttYc1VDuHedvNYBHh0JxqHRUO2I8IEsP83XOLxIwoeQGcI2svVIXQ5F0rsfWJxqNobS4wXhxo4jQ9EBBjbFCfLulPm9sJwUc1Qta4ILglKrUAXejE4XHcg2hAComPlA1qDjZ3GmLikaLcPYhTCNjUzaoTmxDRuwShvssCV1ctsj9WYpDVeYj0ZL6vLMQUOp9nv9pYTFlkmw2duiukiuF06Dy98u5",
+              "received": false
+            },
+            {
+              "_id": "69566f721c508c5d5e641b68",
+              "name": "Chair37391",
+              "amount": 750,
+              "price": 54485,
+              "manufacturer": "Xiaomi",
+              "notes": "tz2qRG7tiiENsSFyO7t5Zpv3tXD5aO61UTruBTPhjaclfYBmL348X3GNTsKcnIAKHk6flCrmdQZWQ1F4skBz2SksAKsqAKPEIVuA4Nu3zrLWcXCpBtkb95qOSeF0f6UHczMcsDafodYyVZxDsl7myw3FJn4UVPXMuXbzfRAmvU5PjsAHRJf9yjjjwhAJSLdAcj9hj6MeG18NRCljiUF6HWgMMJbdtZMteAODT7Y4yLQe3w0cCfRAI1Q70S",
+              "received": false
+            }
+          ],
+          "total_price": 88090,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Keeblerboro",
+              "street": "Church Close",
+              "house": 668,
+              "flat": 9078
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T12:58:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69566f711c508c5d5e641ae1",
+          "products": [
+            {
+              "_id": "69566f711c508c5d5e641b1b",
+              "name": "Sausages73103",
+              "amount": 497,
+              "price": 33605,
+              "manufacturer": "Google",
+              "notes": "7X6zB5oEWIOPfKH6lcSfPoijS0GLN1ttYc1VDuHedvNYBHh0JxqHRUO2I8IEsP83XOLxIwoeQGcI2svVIXQ5F0rsfWJxqNobS4wXhxo4jQ9EBBjbFCfLulPm9sJwUc1Qta4ILglKrUAXejE4XHcg2hAComPlA1qDjZ3GmLikaLcPYhTCNjUzaoTmxDRuwShvssCV1ctsj9WYpDVeYj0ZL6vLMQUOp9nv9pYTFlkmw2duiukiuF06Dy98u5",
+              "received": false
+            },
+            {
+              "_id": "69566f721c508c5d5e641b68",
+              "name": "Chair37391",
+              "amount": 750,
+              "price": 54485,
+              "manufacturer": "Xiaomi",
+              "notes": "tz2qRG7tiiENsSFyO7t5Zpv3tXD5aO61UTruBTPhjaclfYBmL348X3GNTsKcnIAKHk6flCrmdQZWQ1F4skBz2SksAKsqAKPEIVuA4Nu3zrLWcXCpBtkb95qOSeF0f6UHczMcsDafodYyVZxDsl7myw3FJn4UVPXMuXbzfRAmvU5PjsAHRJf9yjjjwhAJSLdAcj9hj6MeG18NRCljiUF6HWgMMJbdtZMteAODT7Y4yLQe3w0cCfRAI1Q70S",
+              "received": false
+            }
+          ],
+          "total_price": 88090,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:58:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 13:05:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3916",
+    "etag": "W/\"f4c-YKGV7FotAvm4MGDCGsqk1i2HJ6g\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695671001c508c5d5e65171d",
+      "status": "Draft",
+      "customer": {
+        "_id": "695670ff1c508c5d5e6516cc",
+        "email": "Geovanni.Stoltenberg@gmail.com",
+        "name": "Everett Haley",
+        "country": "Ukraine",
+        "city": "Caseyfort",
+        "street": "Leola Ville 43",
+        "house": 358,
+        "flat": 3198,
+        "phone": "+626026463334591",
+        "createdOn": "2026-01-01T13:05:03.000Z",
+        "notes": "FEyG13VxVDwYRdcG2FKdWBKfyZHI9Y"
+      },
+      "products": [
+        {
+          "_id": "695670ff1c508c5d5e6516e9",
+          "name": "Bacon27303",
+          "amount": 790,
+          "price": 9385,
+          "manufacturer": "Amazon",
+          "notes": "nqcYVdHfh3Cb3yCLPvIDSSKOqJGvMPS15csYLh5qtwfAAlrTECsTXAbIAcfX47R4zakm377sn7Lxky2tbDStlEfHgRg3HVTqC13LYlWyRJNchJFp5FdU68KnUv4K5OacCfd4uzK3MUmRmQOx77IIy1Q9bxL6dZgu50eL3srb51I0Lo8bXzPVJb5LwBt9tpdqyP7ydulcZKnDhF0KUg7lGkCwVJc3eS56zN7NTkNqspDcKVkefJmbE5DXdC",
+          "received": false
+        },
+        {
+          "_id": "695671001c508c5d5e65170e",
+          "name": "Tuna75036",
+          "amount": 214,
+          "price": 5904,
+          "manufacturer": "Microsoft",
+          "notes": "uMsmDnfRF2JNRwtSysmYi6UujgglQk3a1sCvbPp6JGIkiO86cdvBSGDHUk8ZAyi6rwxU8bioXkCDac7JiBIBKsU0UTzir9LKB1haFFmKsncozFoV6PfvfUMF5ZV5gCXOAFitMnCdlSYdxUib0wT37k4Zbh79Arv6rYG3eH7lSBtb8xmn0grGXrYxnjtezYTx7CfbCzFZ2WW1cON7J6cUIEmXenYEyawymYhJC1eV68ZhRRAxnUb69hnQmk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "McKenzieborough",
+          "street": "Moore Street",
+          "house": 281,
+          "flat": 7889
+        },
+        "finalDate": "2026-01-08T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15289,
+      "createdOn": "2026-01-01T13:05:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695670ff1c508c5d5e6516cc",
+          "products": [
+            {
+              "_id": "695670ff1c508c5d5e6516e9",
+              "name": "Bacon27303",
+              "amount": 790,
+              "price": 9385,
+              "manufacturer": "Amazon",
+              "notes": "nqcYVdHfh3Cb3yCLPvIDSSKOqJGvMPS15csYLh5qtwfAAlrTECsTXAbIAcfX47R4zakm377sn7Lxky2tbDStlEfHgRg3HVTqC13LYlWyRJNchJFp5FdU68KnUv4K5OacCfd4uzK3MUmRmQOx77IIy1Q9bxL6dZgu50eL3srb51I0Lo8bXzPVJb5LwBt9tpdqyP7ydulcZKnDhF0KUg7lGkCwVJc3eS56zN7NTkNqspDcKVkefJmbE5DXdC",
+              "received": false
+            },
+            {
+              "_id": "695671001c508c5d5e65170e",
+              "name": "Tuna75036",
+              "amount": 214,
+              "price": 5904,
+              "manufacturer": "Microsoft",
+              "notes": "uMsmDnfRF2JNRwtSysmYi6UujgglQk3a1sCvbPp6JGIkiO86cdvBSGDHUk8ZAyi6rwxU8bioXkCDac7JiBIBKsU0UTzir9LKB1haFFmKsncozFoV6PfvfUMF5ZV5gCXOAFitMnCdlSYdxUib0wT37k4Zbh79Arv6rYG3eH7lSBtb8xmn0grGXrYxnjtezYTx7CfbCzFZ2WW1cON7J6cUIEmXenYEyawymYhJC1eV68ZhRRAxnUb69hnQmk",
+              "received": false
+            }
+          ],
+          "total_price": 15289,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "McKenzieborough",
+              "street": "Moore Street",
+              "house": 281,
+              "flat": 7889
+            },
+            "finalDate": "2026-01-08T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-01T13:05:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695670ff1c508c5d5e6516cc",
+          "products": [
+            {
+              "_id": "695670ff1c508c5d5e6516e9",
+              "name": "Bacon27303",
+              "amount": 790,
+              "price": 9385,
+              "manufacturer": "Amazon",
+              "notes": "nqcYVdHfh3Cb3yCLPvIDSSKOqJGvMPS15csYLh5qtwfAAlrTECsTXAbIAcfX47R4zakm377sn7Lxky2tbDStlEfHgRg3HVTqC13LYlWyRJNchJFp5FdU68KnUv4K5OacCfd4uzK3MUmRmQOx77IIy1Q9bxL6dZgu50eL3srb51I0Lo8bXzPVJb5LwBt9tpdqyP7ydulcZKnDhF0KUg7lGkCwVJc3eS56zN7NTkNqspDcKVkefJmbE5DXdC",
+              "received": false
+            },
+            {
+              "_id": "695671001c508c5d5e65170e",
+              "name": "Tuna75036",
+              "amount": 214,
+              "price": 5904,
+              "manufacturer": "Microsoft",
+              "notes": "uMsmDnfRF2JNRwtSysmYi6UujgglQk3a1sCvbPp6JGIkiO86cdvBSGDHUk8ZAyi6rwxU8bioXkCDac7JiBIBKsU0UTzir9LKB1haFFmKsncozFoV6PfvfUMF5ZV5gCXOAFitMnCdlSYdxUib0wT37k4Zbh79Arv6rYG3eH7lSBtb8xmn0grGXrYxnjtezYTx7CfbCzFZ2WW1cON7J6cUIEmXenYEyawymYhJC1eV68ZhRRAxnUb69hnQmk",
+              "received": false
+            }
+          ],
+          "total_price": 15289,
+          "delivery": null,
+          "changedOn": "2026-01-01T13:05:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

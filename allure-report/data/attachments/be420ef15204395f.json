@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Thu, 01 Jan 2026 12:58:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1782",
+    "etag": "W/\"6f6-vR4tNnTU8kirbR64yv7312LWBU4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69566f791c508c5d5e641fd0",
+      "status": "Draft",
+      "customer": {
+        "_id": "69566f781c508c5d5e641f78",
+        "email": "Harrison.Larkin5@gmail.com",
+        "name": "Wilton Hegmann",
+        "country": "France",
+        "city": "Osborneburgh",
+        "street": "Alfonzo Knoll 95",
+        "house": 363,
+        "flat": 2212,
+        "phone": "+938764339416286",
+        "createdOn": "2026-01-01T12:58:32.000Z",
+        "notes": "4eTD34UBgqvFXYrXTY7NHmUjmo0Ahu"
+      },
+      "products": [
+        {
+          "_id": "69566f781c508c5d5e641f9e",
+          "name": "Car47958",
+          "amount": 342,
+          "price": 8285,
+          "manufacturer": "Samsung",
+          "notes": "qlIjCfsmy3vPccgbuDuLONoOkorI4ESXEe61jtbVUk4M2ZDAgwp4K7KCuYmTPswg1ODTtKvxGfTCQpdDM4Ovsn4fCmeBliezEolCzkb0edd1ZFR59gjP3YabxkibeOtiufeYhJto6Mk5QBZZsMFGa2cvJcCX3vk1Z2fxEiDtOftHg0eaWGGf49tfeJiZDgYfbKjCwyZ6bPkaiLJvSCWxbfIRTSGk2bxsXDnJzDQRzpLAwPtxgBaoaExCbR",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 8285,
+      "createdOn": "2026-01-01T12:58:33.000Z",
+      "comments": [
+        {
+          "text": "Please check < invalid tag",
+          "createdOn": "2026-01-01T12:58:33.000Z",
+          "_id": "69566f791c508c5d5e641ffe"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69566f781c508c5d5e641f78",
+          "products": [
+            {
+              "_id": "69566f781c508c5d5e641f9e",
+              "name": "Car47958",
+              "amount": 342,
+              "price": 8285,
+              "manufacturer": "Samsung",
+              "notes": "qlIjCfsmy3vPccgbuDuLONoOkorI4ESXEe61jtbVUk4M2ZDAgwp4K7KCuYmTPswg1ODTtKvxGfTCQpdDM4Ovsn4fCmeBliezEolCzkb0edd1ZFR59gjP3YabxkibeOtiufeYhJto6Mk5QBZZsMFGa2cvJcCX3vk1Z2fxEiDtOftHg0eaWGGf49tfeJiZDgYfbKjCwyZ6bPkaiLJvSCWxbfIRTSGk2bxsXDnJzDQRzpLAwPtxgBaoaExCbR",
+              "received": false
+            }
+          ],
+          "total_price": 8285,
+          "delivery": null,
+          "changedOn": "2026-01-01T12:58:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
