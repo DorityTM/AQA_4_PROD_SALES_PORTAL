@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:24:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3878",
+    "etag": "W/\"f26-MTdcgBiXjS/m6Qg+Sd5raJ5LsfE\"",
+    "keep-alive": "timeout=5, max=69",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695853951c508c5d5e7a9475",
+      "status": "Draft",
+      "customer": {
+        "_id": "695853921c508c5d5e7a9351",
+        "email": "Miles32@yahoo.com",
+        "name": "Jeremie Emard",
+        "country": "Russia",
+        "city": "Rapid City",
+        "street": "Purdy Glens 63",
+        "house": 298,
+        "flat": 196,
+        "phone": "+548119747713046",
+        "createdOn": "2026-01-02T23:24:02.000Z",
+        "notes": "XVB2aitTRay3pPG08xxsxSYp7IQxoF"
+      },
+      "products": [
+        {
+          "_id": "695853931c508c5d5e7a93e0",
+          "name": "Ball49548",
+          "amount": 527,
+          "price": 43734,
+          "manufacturer": "Apple",
+          "notes": "HYnMMy56ZbyNdWsFl5Tc3weuGnroEOcAUDdKUThNLeYhGB3fTVwz7pNSyxvEvGPaPNh5OZcLSb1sILiGdRbUeoRUE1l3mYOkc8mMxQN8dYKnBgniUt4EYwU75B7PW1xP1Ja7Mp9LPnULQQwBmjrr0o5VYP3XdX2wAc8EWiWaxEpqB3RmUPnfpYJAnySDzqqjeQznlYiU9zgiKAoKPItYKNuDNwKMW5qhxJrkobLFvR9cLsZcxVBjQQaYt2",
+          "received": false
+        },
+        {
+          "_id": "695853951c508c5d5e7a945d",
+          "name": "Fish28260",
+          "amount": 797,
+          "price": 30496,
+          "manufacturer": "Microsoft",
+          "notes": "IyVG85g9Jd0aJdyvYGmdfOgop3XtDX4E5T6tcqdXOAIzyjIRIpO2gZVLOQQF8He2EUlTYRo5wDUjRy3nKu69ctwnb1mK0wviak4ExWHtrYlCx01y9qxjSEgWi319oxjEd51g1Am6u5Rjs3JfmLodFtK3U4b2BsqrK9N4u53SsvMOQU3KTIcTOfSeDn7QRiJ9X9EmacNfu7BtMYDZIRdkNiLANTMhFlzT48BUxBtj4vN2pzkh6piiWxWCDe",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Dayton",
+          "street": "Lakin Run",
+          "house": 499,
+          "flat": 6297
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 74230,
+      "createdOn": "2026-01-02T23:24:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695853921c508c5d5e7a9351",
+          "products": [
+            {
+              "_id": "695853931c508c5d5e7a93e0",
+              "name": "Ball49548",
+              "amount": 527,
+              "price": 43734,
+              "manufacturer": "Apple",
+              "notes": "HYnMMy56ZbyNdWsFl5Tc3weuGnroEOcAUDdKUThNLeYhGB3fTVwz7pNSyxvEvGPaPNh5OZcLSb1sILiGdRbUeoRUE1l3mYOkc8mMxQN8dYKnBgniUt4EYwU75B7PW1xP1Ja7Mp9LPnULQQwBmjrr0o5VYP3XdX2wAc8EWiWaxEpqB3RmUPnfpYJAnySDzqqjeQznlYiU9zgiKAoKPItYKNuDNwKMW5qhxJrkobLFvR9cLsZcxVBjQQaYt2",
+              "received": false
+            },
+            {
+              "_id": "695853951c508c5d5e7a945d",
+              "name": "Fish28260",
+              "amount": 797,
+              "price": 30496,
+              "manufacturer": "Microsoft",
+              "notes": "IyVG85g9Jd0aJdyvYGmdfOgop3XtDX4E5T6tcqdXOAIzyjIRIpO2gZVLOQQF8He2EUlTYRo5wDUjRy3nKu69ctwnb1mK0wviak4ExWHtrYlCx01y9qxjSEgWi319oxjEd51g1Am6u5Rjs3JfmLodFtK3U4b2BsqrK9N4u53SsvMOQU3KTIcTOfSeDn7QRiJ9X9EmacNfu7BtMYDZIRdkNiLANTMhFlzT48BUxBtj4vN2pzkh6piiWxWCDe",
+              "received": false
+            }
+          ],
+          "total_price": 74230,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Dayton",
+              "street": "Lakin Run",
+              "house": 499,
+              "flat": 6297
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:24:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695853921c508c5d5e7a9351",
+          "products": [
+            {
+              "_id": "695853931c508c5d5e7a93e0",
+              "name": "Ball49548",
+              "amount": 527,
+              "price": 43734,
+              "manufacturer": "Apple",
+              "notes": "HYnMMy56ZbyNdWsFl5Tc3weuGnroEOcAUDdKUThNLeYhGB3fTVwz7pNSyxvEvGPaPNh5OZcLSb1sILiGdRbUeoRUE1l3mYOkc8mMxQN8dYKnBgniUt4EYwU75B7PW1xP1Ja7Mp9LPnULQQwBmjrr0o5VYP3XdX2wAc8EWiWaxEpqB3RmUPnfpYJAnySDzqqjeQznlYiU9zgiKAoKPItYKNuDNwKMW5qhxJrkobLFvR9cLsZcxVBjQQaYt2",
+              "received": false
+            },
+            {
+              "_id": "695853951c508c5d5e7a945d",
+              "name": "Fish28260",
+              "amount": 797,
+              "price": 30496,
+              "manufacturer": "Microsoft",
+              "notes": "IyVG85g9Jd0aJdyvYGmdfOgop3XtDX4E5T6tcqdXOAIzyjIRIpO2gZVLOQQF8He2EUlTYRo5wDUjRy3nKu69ctwnb1mK0wviak4ExWHtrYlCx01y9qxjSEgWi319oxjEd51g1Am6u5Rjs3JfmLodFtK3U4b2BsqrK9N4u53SsvMOQU3KTIcTOfSeDn7QRiJ9X9EmacNfu7BtMYDZIRdkNiLANTMhFlzT48BUxBtj4vN2pzkh6piiWxWCDe",
+              "received": false
+            }
+          ],
+          "total_price": 74230,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:24:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:26:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1673",
+    "etag": "W/\"689-BW81+pRebkk/3QOQTGQHKjNbr3k\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6958541f1c508c5d5e7acf89",
+        "email": "Dan.Windler@hotmail.com",
+        "name": "Elian Goldner",
+        "country": "Germany",
+        "city": "South Lillyfield",
+        "street": "Nash Ville 22",
+        "house": 274,
+        "flat": 5198,
+        "phone": "+022571775788350",
+        "createdOn": "2026-01-02T23:26:23.000Z",
+        "notes": "ZmnJdHjb3IgIcFdXkPqbZ8yg965XTP"
+      },
+      "products": [
+        {
+          "_id": "695854231c508c5d5e7acfb5",
+          "name": "Tuna19116",
+          "amount": 538,
+          "price": 22611,
+          "manufacturer": "Apple",
+          "notes": "Y5G8Snb06xIFOCqLCRYkzksxJo8x9pyCsOYIXO17LmGNxfdFgKQX3f91DyOawfKIEYORbMQfaV9iZQJg7DPQUYO0C4nBS0h8udEIUNwJH5YJcMEJFM4GsfOukAEPJk8QW2qHfwsSEy8M5mYYvQMZqUdHMfx88xuKjdSq6FicIbfSEjWbITr3L2l9J0OWiOsh0fK1xxDPy3JXuvKH6ONIoP8I6469cn6n4rdMTqe7HjzCK1FRxEAixNh4rk",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 22611,
+      "createdOn": "2026-01-02T23:26:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958541f1c508c5d5e7acf89",
+          "products": [
+            {
+              "_id": "695854231c508c5d5e7acfb5",
+              "name": "Tuna19116",
+              "amount": 538,
+              "price": 22611,
+              "manufacturer": "Apple",
+              "notes": "Y5G8Snb06xIFOCqLCRYkzksxJo8x9pyCsOYIXO17LmGNxfdFgKQX3f91DyOawfKIEYORbMQfaV9iZQJg7DPQUYO0C4nBS0h8udEIUNwJH5YJcMEJFM4GsfOukAEPJk8QW2qHfwsSEy8M5mYYvQMZqUdHMfx88xuKjdSq6FicIbfSEjWbITr3L2l9J0OWiOsh0fK1xxDPy3JXuvKH6ONIoP8I6469cn6n4rdMTqe7HjzCK1FRxEAixNh4rk",
+              "received": false
+            }
+          ],
+          "total_price": 22611,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:26:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695854231c508c5d5e7acfbd"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

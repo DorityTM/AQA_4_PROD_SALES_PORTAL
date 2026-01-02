@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:35:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4554",
+    "etag": "W/\"11ca-7/XdfY0efs5QGhidiRI3eazlcug\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695856341c508c5d5e7babf1",
+      "status": "Received",
+      "customer": {
+        "_id": "695856321c508c5d5e7baad3",
+        "email": "Nicolas12@gmail.com",
+        "name": "Ima Goldner",
+        "country": "USA",
+        "city": "Warner Robins",
+        "street": "Oberbrunner Drives 89",
+        "house": 758,
+        "flat": 1231,
+        "phone": "+706839101352497",
+        "createdOn": "2026-01-02T23:35:14.000Z",
+        "notes": "OCtIh5mYfWPUksPf6t2dCA4HFwqtBy"
+      },
+      "products": [
+        {
+          "_id": "695856331c508c5d5e7babe1",
+          "name": "Pizza28837",
+          "amount": 549,
+          "price": 28802,
+          "manufacturer": "Sony",
+          "notes": "vg5vWvsJ7zFq6Ob9f9pyY8HywgoBYHla9Jh0db1CeNnGA8O0fo8u6bKNpBXu9S6g2ggm6HEk9KDFT6mKsRMVOJhYnL6nHTUnUMvcttmyrL4BRWgJLZyJwIoLhDZtb99hsmoQQZ0A7kyfrbyeg6awpkrOKThUgZug1lbttypHQkLaYEHK9Di6doBrLuWBm714yVOeGQAUAI9CF5Vdifv3gPeqnGOSHz54pjCzHorQWnO2bQ7XxXASDthd6p",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Eagan",
+          "street": "Garth Lights",
+          "house": 611,
+          "flat": 9448
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 28802,
+      "createdOn": "2026-01-02T23:35:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695856321c508c5d5e7baad3",
+          "products": [
+            {
+              "_id": "695856331c508c5d5e7babe1",
+              "name": "Pizza28837",
+              "amount": 549,
+              "price": 28802,
+              "manufacturer": "Sony",
+              "notes": "vg5vWvsJ7zFq6Ob9f9pyY8HywgoBYHla9Jh0db1CeNnGA8O0fo8u6bKNpBXu9S6g2ggm6HEk9KDFT6mKsRMVOJhYnL6nHTUnUMvcttmyrL4BRWgJLZyJwIoLhDZtb99hsmoQQZ0A7kyfrbyeg6awpkrOKThUgZug1lbttypHQkLaYEHK9Di6doBrLuWBm714yVOeGQAUAI9CF5Vdifv3gPeqnGOSHz54pjCzHorQWnO2bQ7XxXASDthd6p",
+              "received": true
+            }
+          ],
+          "total_price": 28802,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Eagan",
+              "street": "Garth Lights",
+              "house": 611,
+              "flat": 9448
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:35:17.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695856321c508c5d5e7baad3",
+          "products": [
+            {
+              "_id": "695856331c508c5d5e7babe1",
+              "name": "Pizza28837",
+              "amount": 549,
+              "price": 28802,
+              "manufacturer": "Sony",
+              "notes": "vg5vWvsJ7zFq6Ob9f9pyY8HywgoBYHla9Jh0db1CeNnGA8O0fo8u6bKNpBXu9S6g2ggm6HEk9KDFT6mKsRMVOJhYnL6nHTUnUMvcttmyrL4BRWgJLZyJwIoLhDZtb99hsmoQQZ0A7kyfrbyeg6awpkrOKThUgZug1lbttypHQkLaYEHK9Di6doBrLuWBm714yVOeGQAUAI9CF5Vdifv3gPeqnGOSHz54pjCzHorQWnO2bQ7XxXASDthd6p",
+              "received": false
+            }
+          ],
+          "total_price": 28802,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Eagan",
+              "street": "Garth Lights",
+              "house": 611,
+              "flat": 9448
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:35:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695856321c508c5d5e7baad3",
+          "products": [
+            {
+              "_id": "695856331c508c5d5e7babe1",
+              "name": "Pizza28837",
+              "amount": 549,
+              "price": 28802,
+              "manufacturer": "Sony",
+              "notes": "vg5vWvsJ7zFq6Ob9f9pyY8HywgoBYHla9Jh0db1CeNnGA8O0fo8u6bKNpBXu9S6g2ggm6HEk9KDFT6mKsRMVOJhYnL6nHTUnUMvcttmyrL4BRWgJLZyJwIoLhDZtb99hsmoQQZ0A7kyfrbyeg6awpkrOKThUgZug1lbttypHQkLaYEHK9Di6doBrLuWBm714yVOeGQAUAI9CF5Vdifv3gPeqnGOSHz54pjCzHorQWnO2bQ7XxXASDthd6p",
+              "received": false
+            }
+          ],
+          "total_price": 28802,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Eagan",
+              "street": "Garth Lights",
+              "house": 611,
+              "flat": 9448
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:35:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695856321c508c5d5e7baad3",
+          "products": [
+            {
+              "_id": "695856331c508c5d5e7babe1",
+              "name": "Pizza28837",
+              "amount": 549,
+              "price": 28802,
+              "manufacturer": "Sony",
+              "notes": "vg5vWvsJ7zFq6Ob9f9pyY8HywgoBYHla9Jh0db1CeNnGA8O0fo8u6bKNpBXu9S6g2ggm6HEk9KDFT6mKsRMVOJhYnL6nHTUnUMvcttmyrL4BRWgJLZyJwIoLhDZtb99hsmoQQZ0A7kyfrbyeg6awpkrOKThUgZug1lbttypHQkLaYEHK9Di6doBrLuWBm714yVOeGQAUAI9CF5Vdifv3gPeqnGOSHz54pjCzHorQWnO2bQ7XxXASDthd6p",
+              "received": false
+            }
+          ],
+          "total_price": 28802,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:35:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:34:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3699",
+    "etag": "W/\"e73-STMrWveuIbNmgtbZHWBteo4D+o8\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695855fe1c508c5d5e7b925a",
+      "status": "In Process",
+      "customer": {
+        "_id": "695855fb1c508c5d5e7b9233",
+        "email": "Ernest21@gmail.com",
+        "name": "Kathryn Heidenreich",
+        "country": "Russia",
+        "city": "Serenacester",
+        "street": "Krajcik Vista 20",
+        "house": 656,
+        "flat": 4227,
+        "phone": "+844703626187794",
+        "createdOn": "2026-01-02T23:34:19.000Z",
+        "notes": "J8uY21DaaQIjfhY4tmyMWa9ktzUKKB"
+      },
+      "products": [
+        {
+          "_id": "695855fd1c508c5d5e7b924a",
+          "name": "Chicken3618",
+          "amount": 180,
+          "price": 92096,
+          "manufacturer": "Sony",
+          "notes": "h9k1OqQnUBlohTkbx1jZJgNUPQ702rJDfYe0gpyfG8gd95gYQKIQZkB9HadFDoK25WIKDqK3uq59Am7JHFfnAuYdvzN1cwQEMom2I2DzjengxwypJGNWgll5s07qWvhROVxbSjFszFq4Mac6fy3OqiVceXbeZw20sC3xR1jdqZO7FZVxTnMWrP3J7n2koemhLGo7TMxBq8An2WrEIMhrV6YsjEsbcbwHr0eV1KvP7pnCEuyj2UleKfw9j6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Round Rock",
+          "street": "Rutherford Meadows",
+          "house": 137,
+          "flat": 1491
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92096,
+      "createdOn": "2026-01-02T23:34:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695855fb1c508c5d5e7b9233",
+          "products": [
+            {
+              "_id": "695855fd1c508c5d5e7b924a",
+              "name": "Chicken3618",
+              "amount": 180,
+              "price": 92096,
+              "manufacturer": "Sony",
+              "notes": "h9k1OqQnUBlohTkbx1jZJgNUPQ702rJDfYe0gpyfG8gd95gYQKIQZkB9HadFDoK25WIKDqK3uq59Am7JHFfnAuYdvzN1cwQEMom2I2DzjengxwypJGNWgll5s07qWvhROVxbSjFszFq4Mac6fy3OqiVceXbeZw20sC3xR1jdqZO7FZVxTnMWrP3J7n2koemhLGo7TMxBq8An2WrEIMhrV6YsjEsbcbwHr0eV1KvP7pnCEuyj2UleKfw9j6",
+              "received": false
+            }
+          ],
+          "total_price": 92096,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Round Rock",
+              "street": "Rutherford Meadows",
+              "house": 137,
+              "flat": 1491
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:34:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695855fb1c508c5d5e7b9233",
+          "products": [
+            {
+              "_id": "695855fd1c508c5d5e7b924a",
+              "name": "Chicken3618",
+              "amount": 180,
+              "price": 92096,
+              "manufacturer": "Sony",
+              "notes": "h9k1OqQnUBlohTkbx1jZJgNUPQ702rJDfYe0gpyfG8gd95gYQKIQZkB9HadFDoK25WIKDqK3uq59Am7JHFfnAuYdvzN1cwQEMom2I2DzjengxwypJGNWgll5s07qWvhROVxbSjFszFq4Mac6fy3OqiVceXbeZw20sC3xR1jdqZO7FZVxTnMWrP3J7n2koemhLGo7TMxBq8An2WrEIMhrV6YsjEsbcbwHr0eV1KvP7pnCEuyj2UleKfw9j6",
+              "received": false
+            }
+          ],
+          "total_price": 92096,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Round Rock",
+              "street": "Rutherford Meadows",
+              "house": 137,
+              "flat": 1491
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:34:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695855fb1c508c5d5e7b9233",
+          "products": [
+            {
+              "_id": "695855fd1c508c5d5e7b924a",
+              "name": "Chicken3618",
+              "amount": 180,
+              "price": 92096,
+              "manufacturer": "Sony",
+              "notes": "h9k1OqQnUBlohTkbx1jZJgNUPQ702rJDfYe0gpyfG8gd95gYQKIQZkB9HadFDoK25WIKDqK3uq59Am7JHFfnAuYdvzN1cwQEMom2I2DzjengxwypJGNWgll5s07qWvhROVxbSjFszFq4Mac6fy3OqiVceXbeZw20sC3xR1jdqZO7FZVxTnMWrP3J7n2koemhLGo7TMxBq8An2WrEIMhrV6YsjEsbcbwHr0eV1KvP7pnCEuyj2UleKfw9j6",
+              "received": false
+            }
+          ],
+          "total_price": 92096,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:34:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

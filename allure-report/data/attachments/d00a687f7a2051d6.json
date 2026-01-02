@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:24:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2746",
+    "etag": "W/\"aba-Cpk/IqkGPhdjF8vfMNqTW36xqjg\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958539d1c508c5d5e7a97ad",
+      "status": "Draft",
+      "customer": {
+        "_id": "695853991c508c5d5e7a9630",
+        "email": "Dante_Rempel@hotmail.com",
+        "name": "Asha Simonis",
+        "country": "Ukraine",
+        "city": "Schmittworth",
+        "street": "Spruce Street 20",
+        "house": 488,
+        "flat": 6443,
+        "phone": "+693155680615577",
+        "createdOn": "2026-01-02T23:24:09.000Z",
+        "notes": "rEeBhyBaVDWZXKvoLL3s068NJ19mae"
+      },
+      "products": [
+        {
+          "_id": "6958539d1c508c5d5e7a97a1",
+          "name": "Mouse92008",
+          "amount": 530,
+          "price": 92285,
+          "manufacturer": "Google",
+          "notes": "CGu6L4oIxN8KngP2qlegtptD0GFeBnxbtLFDOKlOT6AKibKa6VGcvdxXGqLq33VEulBs1Xpd3uLt65BSU9zz6lf065K8xtprU3KQI3QLJ9rz7mH6XHC3rKbKNAduoMN43RpFUR2gkodTKPPw4MugR45rl3go8xcOXRamBPWjhHJBflrqVn83XuJ5iocm1fIdZquYAq4iTD127rsQZTYmzYAYmZyjcyMBX0ZznKFzrCaeO76v3MyXf9vYgb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Sybletown",
+          "street": "Electa Camp",
+          "house": 314,
+          "flat": 8996
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92285,
+      "createdOn": "2026-01-02T23:24:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695853991c508c5d5e7a9630",
+          "products": [
+            {
+              "_id": "6958539d1c508c5d5e7a97a1",
+              "name": "Mouse92008",
+              "amount": 530,
+              "price": 92285,
+              "manufacturer": "Google",
+              "notes": "CGu6L4oIxN8KngP2qlegtptD0GFeBnxbtLFDOKlOT6AKibKa6VGcvdxXGqLq33VEulBs1Xpd3uLt65BSU9zz6lf065K8xtprU3KQI3QLJ9rz7mH6XHC3rKbKNAduoMN43RpFUR2gkodTKPPw4MugR45rl3go8xcOXRamBPWjhHJBflrqVn83XuJ5iocm1fIdZquYAq4iTD127rsQZTYmzYAYmZyjcyMBX0ZznKFzrCaeO76v3MyXf9vYgb",
+              "received": false
+            }
+          ],
+          "total_price": 92285,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Sybletown",
+              "street": "Electa Camp",
+              "house": 314,
+              "flat": 8996
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:24:14.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695853991c508c5d5e7a9630",
+          "products": [
+            {
+              "_id": "6958539d1c508c5d5e7a97a1",
+              "name": "Mouse92008",
+              "amount": 530,
+              "price": 92285,
+              "manufacturer": "Google",
+              "notes": "CGu6L4oIxN8KngP2qlegtptD0GFeBnxbtLFDOKlOT6AKibKa6VGcvdxXGqLq33VEulBs1Xpd3uLt65BSU9zz6lf065K8xtprU3KQI3QLJ9rz7mH6XHC3rKbKNAduoMN43RpFUR2gkodTKPPw4MugR45rl3go8xcOXRamBPWjhHJBflrqVn83XuJ5iocm1fIdZquYAq4iTD127rsQZTYmzYAYmZyjcyMBX0ZznKFzrCaeO76v3MyXf9vYgb",
+              "received": false
+            }
+          ],
+          "total_price": 92285,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:24:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

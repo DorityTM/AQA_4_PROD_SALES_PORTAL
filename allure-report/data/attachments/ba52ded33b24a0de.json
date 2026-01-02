@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:38:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3708",
+    "etag": "W/\"e7c-9z27DT51ok7f1TAl8P3c5n7GXPo\"",
+    "keep-alive": "timeout=5, max=68",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958570c1c508c5d5e7c1438",
+      "status": "In Process",
+      "customer": {
+        "_id": "6958570a1c508c5d5e7c13da",
+        "email": "Britney87@gmail.com",
+        "name": "Asha Schiller",
+        "country": "Russia",
+        "city": "Clotildestad",
+        "street": "Bechtelar Ramp 51",
+        "house": 252,
+        "flat": 7840,
+        "phone": "+036515219730195",
+        "createdOn": "2026-01-02T23:38:50.000Z",
+        "notes": "8fPOaDgkJp45NfOBm9S9RLzmmqhNqA"
+      },
+      "products": [
+        {
+          "_id": "6958570b1c508c5d5e7c1425",
+          "name": "Salad82770",
+          "amount": 584,
+          "price": 67098,
+          "manufacturer": "Xiaomi",
+          "notes": "dgRHiulXAiemAfprT9GZMZiM7XnoKgvyVWHAgzupPJNi1v8d3I2d1E20F7lLHJx5bZOJYZgrkGN9TYss9Zplop8IpaL7G4RcbLtOn6hhDThmPrWqxjHKwdlAxTg8aHhqLdCFTsIG91YjV8A6mVQPNtsRvs1lCWLo7UcwLVLpsXYQqWO1SIw8XPrYGyo2qgrByfx1El5vJejb1zV2APXPSA1TK21tAUNkWT67b83sCMbAvfM3xF3cLle22J",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Rutherfordchester",
+          "street": "Gottlieb Springs",
+          "house": 57,
+          "flat": 7536
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 67098,
+      "createdOn": "2026-01-02T23:38:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6958570a1c508c5d5e7c13da",
+          "products": [
+            {
+              "_id": "6958570b1c508c5d5e7c1425",
+              "name": "Salad82770",
+              "amount": 584,
+              "price": 67098,
+              "manufacturer": "Xiaomi",
+              "notes": "dgRHiulXAiemAfprT9GZMZiM7XnoKgvyVWHAgzupPJNi1v8d3I2d1E20F7lLHJx5bZOJYZgrkGN9TYss9Zplop8IpaL7G4RcbLtOn6hhDThmPrWqxjHKwdlAxTg8aHhqLdCFTsIG91YjV8A6mVQPNtsRvs1lCWLo7UcwLVLpsXYQqWO1SIw8XPrYGyo2qgrByfx1El5vJejb1zV2APXPSA1TK21tAUNkWT67b83sCMbAvfM3xF3cLle22J",
+              "received": false
+            }
+          ],
+          "total_price": 67098,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Rutherfordchester",
+              "street": "Gottlieb Springs",
+              "house": 57,
+              "flat": 7536
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:38:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958570a1c508c5d5e7c13da",
+          "products": [
+            {
+              "_id": "6958570b1c508c5d5e7c1425",
+              "name": "Salad82770",
+              "amount": 584,
+              "price": 67098,
+              "manufacturer": "Xiaomi",
+              "notes": "dgRHiulXAiemAfprT9GZMZiM7XnoKgvyVWHAgzupPJNi1v8d3I2d1E20F7lLHJx5bZOJYZgrkGN9TYss9Zplop8IpaL7G4RcbLtOn6hhDThmPrWqxjHKwdlAxTg8aHhqLdCFTsIG91YjV8A6mVQPNtsRvs1lCWLo7UcwLVLpsXYQqWO1SIw8XPrYGyo2qgrByfx1El5vJejb1zV2APXPSA1TK21tAUNkWT67b83sCMbAvfM3xF3cLle22J",
+              "received": false
+            }
+          ],
+          "total_price": 67098,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Rutherfordchester",
+              "street": "Gottlieb Springs",
+              "house": 57,
+              "flat": 7536
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:38:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958570a1c508c5d5e7c13da",
+          "products": [
+            {
+              "_id": "6958570b1c508c5d5e7c1425",
+              "name": "Salad82770",
+              "amount": 584,
+              "price": 67098,
+              "manufacturer": "Xiaomi",
+              "notes": "dgRHiulXAiemAfprT9GZMZiM7XnoKgvyVWHAgzupPJNi1v8d3I2d1E20F7lLHJx5bZOJYZgrkGN9TYss9Zplop8IpaL7G4RcbLtOn6hhDThmPrWqxjHKwdlAxTg8aHhqLdCFTsIG91YjV8A6mVQPNtsRvs1lCWLo7UcwLVLpsXYQqWO1SIw8XPrYGyo2qgrByfx1El5vJejb1zV2APXPSA1TK21tAUNkWT67b83sCMbAvfM3xF3cLle22J",
+              "received": false
+            }
+          ],
+          "total_price": 67098,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:38:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

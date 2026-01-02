@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:25:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2757",
+    "etag": "W/\"ac5-qcW1+k1HzcWevtQpq9/4MFRZ8OQ\"",
+    "keep-alive": "timeout=5, max=13",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695853db1c508c5d5e7ab005",
+      "status": "Draft",
+      "customer": {
+        "_id": "695853d91c508c5d5e7aafe7",
+        "email": "Stone.Deckow12@gmail.com",
+        "name": "Gerardo Tillman",
+        "country": "Russia",
+        "city": "Dickinsonhaven",
+        "street": "Glennie Bridge 48",
+        "house": 855,
+        "flat": 2401,
+        "phone": "+186064591950471",
+        "createdOn": "2026-01-02T23:25:13.000Z",
+        "notes": "jKPGFfP94fHlaf8xsZ8uorKry0fzSw"
+      },
+      "products": [
+        {
+          "_id": "695853db1c508c5d5e7aaffa",
+          "name": "Bike2480",
+          "amount": 667,
+          "price": 98012,
+          "manufacturer": "Sony",
+          "notes": "HTDaarfMBRLWTTwkLllbJaiJf8usEvE57UOR0MMxuGXn10yZPUFr8tSZXNYa5FwBuVRbT5Zzu5kf9Ty9ssacjmARohVSo2ggrPbyK0QJD7lFkhg9hvD6pJ2Cal3sXpVwajrFxRw9v8yTrCvAGlKRUfwZbDkqfVR5pplNq0R8rGVVx3pzk186ohDicRnA9ncZvMCTqHbVTr0ysgalfu905gaGH7v8oQl7dzszSbxRw7OWvRnDwg7ZiOE0xD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Mountain View",
+          "street": "Shane Path",
+          "house": 876,
+          "flat": 772
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98012,
+      "createdOn": "2026-01-02T23:25:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695853d91c508c5d5e7aafe7",
+          "products": [
+            {
+              "_id": "695853db1c508c5d5e7aaffa",
+              "name": "Bike2480",
+              "amount": 667,
+              "price": 98012,
+              "manufacturer": "Sony",
+              "notes": "HTDaarfMBRLWTTwkLllbJaiJf8usEvE57UOR0MMxuGXn10yZPUFr8tSZXNYa5FwBuVRbT5Zzu5kf9Ty9ssacjmARohVSo2ggrPbyK0QJD7lFkhg9hvD6pJ2Cal3sXpVwajrFxRw9v8yTrCvAGlKRUfwZbDkqfVR5pplNq0R8rGVVx3pzk186ohDicRnA9ncZvMCTqHbVTr0ysgalfu905gaGH7v8oQl7dzszSbxRw7OWvRnDwg7ZiOE0xD",
+              "received": false
+            }
+          ],
+          "total_price": 98012,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Mountain View",
+              "street": "Shane Path",
+              "house": 876,
+              "flat": 772
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:25:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695853d91c508c5d5e7aafe7",
+          "products": [
+            {
+              "_id": "695853db1c508c5d5e7aaffa",
+              "name": "Bike2480",
+              "amount": 667,
+              "price": 98012,
+              "manufacturer": "Sony",
+              "notes": "HTDaarfMBRLWTTwkLllbJaiJf8usEvE57UOR0MMxuGXn10yZPUFr8tSZXNYa5FwBuVRbT5Zzu5kf9Ty9ssacjmARohVSo2ggrPbyK0QJD7lFkhg9hvD6pJ2Cal3sXpVwajrFxRw9v8yTrCvAGlKRUfwZbDkqfVR5pplNq0R8rGVVx3pzk186ohDicRnA9ncZvMCTqHbVTr0ysgalfu905gaGH7v8oQl7dzszSbxRw7OWvRnDwg7ZiOE0xD",
+              "received": false
+            }
+          ],
+          "total_price": 98012,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:25:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

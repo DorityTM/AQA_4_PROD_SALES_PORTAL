@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:24:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2756",
+    "etag": "W/\"ac4-yhiX1gySOVztmyqc7L6rgagRjOM\"",
+    "keep-alive": "timeout=5, max=35",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695853aa1c508c5d5e7a9d18",
+      "status": "Draft",
+      "customer": {
+        "_id": "695853a81c508c5d5e7a9cac",
+        "email": "David.Jacobs@gmail.com",
+        "name": "Camila O Kon",
+        "country": "Ukraine",
+        "city": "Lillachester",
+        "street": "Willms Dale 14",
+        "house": 717,
+        "flat": 8742,
+        "phone": "+167651923916896",
+        "createdOn": "2026-01-02T23:24:24.000Z",
+        "notes": "9YQ3lqwkhPNRNQwM7yqmztvAUxHHx7"
+      },
+      "products": [
+        {
+          "_id": "695853aa1c508c5d5e7a9cfd",
+          "name": "Towels67000",
+          "amount": 111,
+          "price": 54174,
+          "manufacturer": "Samsung",
+          "notes": "7uakg7HwXrogfMAn11QJC2aGo0VtV2Mz99ECMIpVdZUWeAZifDUhisv3sLUlZLXc5vKIaisGNjPICvxWsYvyZpSaMrUn5lo5A1p9pgvyUxLgmBcFkA5tLIHq1pfsT2uu5XL88sI85UvyqkjE9QjhAZgHhR4hz5ijnZLjCUyzdvbjRfIgtTrjnPm2i4RJdUENKtEqQS6SaLOhqnXz1d6iNLEFkKSccLWKHWrbLJ0cmyPqs6Ta4z1MevAwxe",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Lubowitzbury",
+          "street": "Thiel Branch",
+          "house": 872,
+          "flat": 2196
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 54174,
+      "createdOn": "2026-01-02T23:24:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695853a81c508c5d5e7a9cac",
+          "products": [
+            {
+              "_id": "695853aa1c508c5d5e7a9cfd",
+              "name": "Towels67000",
+              "amount": 111,
+              "price": 54174,
+              "manufacturer": "Samsung",
+              "notes": "7uakg7HwXrogfMAn11QJC2aGo0VtV2Mz99ECMIpVdZUWeAZifDUhisv3sLUlZLXc5vKIaisGNjPICvxWsYvyZpSaMrUn5lo5A1p9pgvyUxLgmBcFkA5tLIHq1pfsT2uu5XL88sI85UvyqkjE9QjhAZgHhR4hz5ijnZLjCUyzdvbjRfIgtTrjnPm2i4RJdUENKtEqQS6SaLOhqnXz1d6iNLEFkKSccLWKHWrbLJ0cmyPqs6Ta4z1MevAwxe",
+              "received": false
+            }
+          ],
+          "total_price": 54174,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Lubowitzbury",
+              "street": "Thiel Branch",
+              "house": 872,
+              "flat": 2196
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:24:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695853a81c508c5d5e7a9cac",
+          "products": [
+            {
+              "_id": "695853aa1c508c5d5e7a9cfd",
+              "name": "Towels67000",
+              "amount": 111,
+              "price": 54174,
+              "manufacturer": "Samsung",
+              "notes": "7uakg7HwXrogfMAn11QJC2aGo0VtV2Mz99ECMIpVdZUWeAZifDUhisv3sLUlZLXc5vKIaisGNjPICvxWsYvyZpSaMrUn5lo5A1p9pgvyUxLgmBcFkA5tLIHq1pfsT2uu5XL88sI85UvyqkjE9QjhAZgHhR4hz5ijnZLjCUyzdvbjRfIgtTrjnPm2i4RJdUENKtEqQS6SaLOhqnXz1d6iNLEFkKSccLWKHWrbLJ0cmyPqs6Ta4z1MevAwxe",
+              "received": false
+            }
+          ],
+          "total_price": 54174,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:24:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

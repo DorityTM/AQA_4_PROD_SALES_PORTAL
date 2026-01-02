@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:34:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3678",
+    "etag": "W/\"e5e-2Dn/I70ttYJj3lz5mVR+iE+8hZU\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695855f91c508c5d5e7b912a",
+      "status": "In Process",
+      "customer": {
+        "_id": "695855f61c508c5d5e7b90e0",
+        "email": "Trever.Larson@yahoo.com",
+        "name": "Helmer Cummings",
+        "country": "Belarus",
+        "city": "Kimberlyfield",
+        "street": "Heathcote Extension 52",
+        "house": 878,
+        "flat": 2651,
+        "phone": "+722632171930575",
+        "createdOn": "2026-01-02T23:34:14.000Z",
+        "notes": "Jvl1oISjiKqfVni1nsbrxPa4yXbpGN"
+      },
+      "products": [
+        {
+          "_id": "695855f91c508c5d5e7b9117",
+          "name": "Shoes79474",
+          "amount": 641,
+          "price": 76644,
+          "manufacturer": "Tesla",
+          "notes": "Waa8dMIxbrU5pAZxSelIqFuW9hqqIKlon6EPHOAFF30QenIbTzXEeVoLPO3Gdql8qcCrZL0FkvhvHl8maAlh0sTM16hsgvJ7psMtKqoHeGk9a98kNIm1AZg6e2Ohwsf7xjCTIDLpqomMm4MtEU4NVAeFNjKmWdf9hY3LUlOoefaeeQd3x2MRCqZNlehbuVWukayO2Zvvj5gsGkhs802N4ttdAwc2yhhAaD3HWkMs4jgf2RePsIKkVlfCBX",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Amyaville",
+          "street": "Park Place",
+          "house": 109,
+          "flat": 7393
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76644,
+      "createdOn": "2026-01-02T23:34:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695855f61c508c5d5e7b90e0",
+          "products": [
+            {
+              "_id": "695855f91c508c5d5e7b9117",
+              "name": "Shoes79474",
+              "amount": 641,
+              "price": 76644,
+              "manufacturer": "Tesla",
+              "notes": "Waa8dMIxbrU5pAZxSelIqFuW9hqqIKlon6EPHOAFF30QenIbTzXEeVoLPO3Gdql8qcCrZL0FkvhvHl8maAlh0sTM16hsgvJ7psMtKqoHeGk9a98kNIm1AZg6e2Ohwsf7xjCTIDLpqomMm4MtEU4NVAeFNjKmWdf9hY3LUlOoefaeeQd3x2MRCqZNlehbuVWukayO2Zvvj5gsGkhs802N4ttdAwc2yhhAaD3HWkMs4jgf2RePsIKkVlfCBX",
+              "received": false
+            }
+          ],
+          "total_price": 76644,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Amyaville",
+              "street": "Park Place",
+              "house": 109,
+              "flat": 7393
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:34:18.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695855f61c508c5d5e7b90e0",
+          "products": [
+            {
+              "_id": "695855f91c508c5d5e7b9117",
+              "name": "Shoes79474",
+              "amount": 641,
+              "price": 76644,
+              "manufacturer": "Tesla",
+              "notes": "Waa8dMIxbrU5pAZxSelIqFuW9hqqIKlon6EPHOAFF30QenIbTzXEeVoLPO3Gdql8qcCrZL0FkvhvHl8maAlh0sTM16hsgvJ7psMtKqoHeGk9a98kNIm1AZg6e2Ohwsf7xjCTIDLpqomMm4MtEU4NVAeFNjKmWdf9hY3LUlOoefaeeQd3x2MRCqZNlehbuVWukayO2Zvvj5gsGkhs802N4ttdAwc2yhhAaD3HWkMs4jgf2RePsIKkVlfCBX",
+              "received": false
+            }
+          ],
+          "total_price": 76644,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Amyaville",
+              "street": "Park Place",
+              "house": 109,
+              "flat": 7393
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:34:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695855f61c508c5d5e7b90e0",
+          "products": [
+            {
+              "_id": "695855f91c508c5d5e7b9117",
+              "name": "Shoes79474",
+              "amount": 641,
+              "price": 76644,
+              "manufacturer": "Tesla",
+              "notes": "Waa8dMIxbrU5pAZxSelIqFuW9hqqIKlon6EPHOAFF30QenIbTzXEeVoLPO3Gdql8qcCrZL0FkvhvHl8maAlh0sTM16hsgvJ7psMtKqoHeGk9a98kNIm1AZg6e2Ohwsf7xjCTIDLpqomMm4MtEU4NVAeFNjKmWdf9hY3LUlOoefaeeQd3x2MRCqZNlehbuVWukayO2Zvvj5gsGkhs802N4ttdAwc2yhhAaD3HWkMs4jgf2RePsIKkVlfCBX",
+              "received": false
+            }
+          ],
+          "total_price": 76644,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:34:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

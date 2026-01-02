@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:24:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6505",
+    "etag": "W/\"1969-VjES/3TiUPCrY3z/wpGxYxcr67w\"",
+    "keep-alive": "timeout=5, max=35",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695853ad1c508c5d5e7a9dfe",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "695853a91c508c5d5e7a9cda",
+        "email": "Trever_Smith@gmail.com",
+        "name": "Delphine Ebert",
+        "country": "Canada",
+        "city": "Brettberg",
+        "street": "E 6th Avenue 78",
+        "house": 866,
+        "flat": 3511,
+        "phone": "+384316437754670",
+        "createdOn": "2026-01-02T23:24:25.000Z",
+        "notes": "tP1QF0fdqTUaKvzSQm1NlyFVhaoasR"
+      },
+      "products": [
+        {
+          "_id": "695853ab1c508c5d5e7a9d78",
+          "name": "Pizza18387",
+          "amount": 443,
+          "price": 48136,
+          "manufacturer": "Sony",
+          "notes": "bHQmtL3wk2HUrhP8FtxaLsID7ww7SisUbCZ5aZiL6kDhYix885wBSNL2u0CpqseyZTCGWyt4dPySeuPDIps6UuQVBkoB69HdmyciR9WmUrzG57JPG14rBhCnIkza3pRSlwyxSzYxUt4J9fQB1sc6atnZ1kGz7zabpbpGeVXB5Sh4vzw7adSSJAdy1AUTjHnNhBNwLYQSl6BBeku1CBiY5fcUPEcYcgUmXF0CMHUld96JVsyP9w1TRVAFLq",
+          "received": true
+        },
+        {
+          "_id": "695853ad1c508c5d5e7a9de5",
+          "name": "Ball80986",
+          "amount": 569,
+          "price": 34085,
+          "manufacturer": "Sony",
+          "notes": "WbVXULG9lKsFt56Is8cioftJwP2QEHr10e1DxJzI24aMzDO3gdZvsEXCdKaQMzvw0FARagV0r7aZlslgwP06mgkHfxXg5m97PucrTWKMvtHzAOJXs311nTyk4YzTcCwNwdsua0cnYd1hfUMM3geCbHT1mOGBUQwYK0QSc7RiCkaQTzF9zpN4T8uNN1TpXqbb36iFqjWVjyTgjhM4kTmwcStGh2Ji1IHr9r3JswRDUrdaQiGRKdskuUMr78",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Okunevaport",
+          "street": "Yazmin Harbor",
+          "house": 913,
+          "flat": 6814
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 82221,
+      "createdOn": "2026-01-02T23:24:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "695853a91c508c5d5e7a9cda",
+          "products": [
+            {
+              "_id": "695853ab1c508c5d5e7a9d78",
+              "name": "Pizza18387",
+              "amount": 443,
+              "price": 48136,
+              "manufacturer": "Sony",
+              "notes": "bHQmtL3wk2HUrhP8FtxaLsID7ww7SisUbCZ5aZiL6kDhYix885wBSNL2u0CpqseyZTCGWyt4dPySeuPDIps6UuQVBkoB69HdmyciR9WmUrzG57JPG14rBhCnIkza3pRSlwyxSzYxUt4J9fQB1sc6atnZ1kGz7zabpbpGeVXB5Sh4vzw7adSSJAdy1AUTjHnNhBNwLYQSl6BBeku1CBiY5fcUPEcYcgUmXF0CMHUld96JVsyP9w1TRVAFLq",
+              "received": true
+            },
+            {
+              "_id": "695853ad1c508c5d5e7a9de5",
+              "name": "Ball80986",
+              "amount": 569,
+              "price": 34085,
+              "manufacturer": "Sony",
+              "notes": "WbVXULG9lKsFt56Is8cioftJwP2QEHr10e1DxJzI24aMzDO3gdZvsEXCdKaQMzvw0FARagV0r7aZlslgwP06mgkHfxXg5m97PucrTWKMvtHzAOJXs311nTyk4YzTcCwNwdsua0cnYd1hfUMM3geCbHT1mOGBUQwYK0QSc7RiCkaQTzF9zpN4T8uNN1TpXqbb36iFqjWVjyTgjhM4kTmwcStGh2Ji1IHr9r3JswRDUrdaQiGRKdskuUMr78",
+              "received": false
+            }
+          ],
+          "total_price": 82221,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Okunevaport",
+              "street": "Yazmin Harbor",
+              "house": 913,
+              "flat": 6814
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:24:30.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695853a91c508c5d5e7a9cda",
+          "products": [
+            {
+              "_id": "695853ab1c508c5d5e7a9d78",
+              "name": "Pizza18387",
+              "amount": 443,
+              "price": 48136,
+              "manufacturer": "Sony",
+              "notes": "bHQmtL3wk2HUrhP8FtxaLsID7ww7SisUbCZ5aZiL6kDhYix885wBSNL2u0CpqseyZTCGWyt4dPySeuPDIps6UuQVBkoB69HdmyciR9WmUrzG57JPG14rBhCnIkza3pRSlwyxSzYxUt4J9fQB1sc6atnZ1kGz7zabpbpGeVXB5Sh4vzw7adSSJAdy1AUTjHnNhBNwLYQSl6BBeku1CBiY5fcUPEcYcgUmXF0CMHUld96JVsyP9w1TRVAFLq",
+              "received": false
+            },
+            {
+              "_id": "695853ad1c508c5d5e7a9de5",
+              "name": "Ball80986",
+              "amount": 569,
+              "price": 34085,
+              "manufacturer": "Sony",
+              "notes": "WbVXULG9lKsFt56Is8cioftJwP2QEHr10e1DxJzI24aMzDO3gdZvsEXCdKaQMzvw0FARagV0r7aZlslgwP06mgkHfxXg5m97PucrTWKMvtHzAOJXs311nTyk4YzTcCwNwdsua0cnYd1hfUMM3geCbHT1mOGBUQwYK0QSc7RiCkaQTzF9zpN4T8uNN1TpXqbb36iFqjWVjyTgjhM4kTmwcStGh2Ji1IHr9r3JswRDUrdaQiGRKdskuUMr78",
+              "received": false
+            }
+          ],
+          "total_price": 82221,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Okunevaport",
+              "street": "Yazmin Harbor",
+              "house": 913,
+              "flat": 6814
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:24:30.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695853a91c508c5d5e7a9cda",
+          "products": [
+            {
+              "_id": "695853ab1c508c5d5e7a9d78",
+              "name": "Pizza18387",
+              "amount": 443,
+              "price": 48136,
+              "manufacturer": "Sony",
+              "notes": "bHQmtL3wk2HUrhP8FtxaLsID7ww7SisUbCZ5aZiL6kDhYix885wBSNL2u0CpqseyZTCGWyt4dPySeuPDIps6UuQVBkoB69HdmyciR9WmUrzG57JPG14rBhCnIkza3pRSlwyxSzYxUt4J9fQB1sc6atnZ1kGz7zabpbpGeVXB5Sh4vzw7adSSJAdy1AUTjHnNhBNwLYQSl6BBeku1CBiY5fcUPEcYcgUmXF0CMHUld96JVsyP9w1TRVAFLq",
+              "received": false
+            },
+            {
+              "_id": "695853ad1c508c5d5e7a9de5",
+              "name": "Ball80986",
+              "amount": 569,
+              "price": 34085,
+              "manufacturer": "Sony",
+              "notes": "WbVXULG9lKsFt56Is8cioftJwP2QEHr10e1DxJzI24aMzDO3gdZvsEXCdKaQMzvw0FARagV0r7aZlslgwP06mgkHfxXg5m97PucrTWKMvtHzAOJXs311nTyk4YzTcCwNwdsua0cnYd1hfUMM3geCbHT1mOGBUQwYK0QSc7RiCkaQTzF9zpN4T8uNN1TpXqbb36iFqjWVjyTgjhM4kTmwcStGh2Ji1IHr9r3JswRDUrdaQiGRKdskuUMr78",
+              "received": false
+            }
+          ],
+          "total_price": 82221,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Okunevaport",
+              "street": "Yazmin Harbor",
+              "house": 913,
+              "flat": 6814
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:24:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695853a91c508c5d5e7a9cda",
+          "products": [
+            {
+              "_id": "695853ab1c508c5d5e7a9d78",
+              "name": "Pizza18387",
+              "amount": 443,
+              "price": 48136,
+              "manufacturer": "Sony",
+              "notes": "bHQmtL3wk2HUrhP8FtxaLsID7ww7SisUbCZ5aZiL6kDhYix885wBSNL2u0CpqseyZTCGWyt4dPySeuPDIps6UuQVBkoB69HdmyciR9WmUrzG57JPG14rBhCnIkza3pRSlwyxSzYxUt4J9fQB1sc6atnZ1kGz7zabpbpGeVXB5Sh4vzw7adSSJAdy1AUTjHnNhBNwLYQSl6BBeku1CBiY5fcUPEcYcgUmXF0CMHUld96JVsyP9w1TRVAFLq",
+              "received": false
+            },
+            {
+              "_id": "695853ad1c508c5d5e7a9de5",
+              "name": "Ball80986",
+              "amount": 569,
+              "price": 34085,
+              "manufacturer": "Sony",
+              "notes": "WbVXULG9lKsFt56Is8cioftJwP2QEHr10e1DxJzI24aMzDO3gdZvsEXCdKaQMzvw0FARagV0r7aZlslgwP06mgkHfxXg5m97PucrTWKMvtHzAOJXs311nTyk4YzTcCwNwdsua0cnYd1hfUMM3geCbHT1mOGBUQwYK0QSc7RiCkaQTzF9zpN4T8uNN1TpXqbb36iFqjWVjyTgjhM4kTmwcStGh2Ji1IHr9r3JswRDUrdaQiGRKdskuUMr78",
+              "received": false
+            }
+          ],
+          "total_price": 82221,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:24:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:35:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3701",
+    "etag": "W/\"e75-KgYOY1ssiaDnkY7gmCCTYhg2LNQ\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958562f1c508c5d5e7baa23",
+      "status": "In Process",
+      "customer": {
+        "_id": "6958562d1c508c5d5e7ba9f8",
+        "email": "Harvey_Ullrich93@gmail.com",
+        "name": "Dedric Hane Larson",
+        "country": "Germany",
+        "city": "Boyerworth",
+        "street": "Adrien Brooks 31",
+        "house": 366,
+        "flat": 441,
+        "phone": "+066382419426206",
+        "createdOn": "2026-01-02T23:35:09.000Z",
+        "notes": "C7wiOBHp7hbdc9dfnNFmhOx3xbrApY"
+      },
+      "products": [
+        {
+          "_id": "6958562f1c508c5d5e7baa17",
+          "name": "Car89966",
+          "amount": 342,
+          "price": 94179,
+          "manufacturer": "Samsung",
+          "notes": "Mzp4CekRLGvwwUD0E6XtKwLIAZyQsTO4lpP90cHAf62eHIHndMlyPINLHYigLXwzWAV7i8zsdCKyPdUcKtLYrYtvzRkh6pCitc6X00HGO5N0Y4MYrCVRdMC74ttGZhIvWtUZFYh4M2Zbd07Qw8v2LzwrHIrPkmCJMrwWAQa5qR1ngSxVc3hqEujGxzRH4GivnB0ga2HUeUdj9N4BpiQ3pMNuNYNyDnzNiXtzdMSR1qiBldbxElSfRIvNQG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Fort Vivienne",
+          "street": "Jacobson Cliff",
+          "house": 429,
+          "flat": 5656
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 94179,
+      "createdOn": "2026-01-02T23:35:11.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6958562d1c508c5d5e7ba9f8",
+          "products": [
+            {
+              "_id": "6958562f1c508c5d5e7baa17",
+              "name": "Car89966",
+              "amount": 342,
+              "price": 94179,
+              "manufacturer": "Samsung",
+              "notes": "Mzp4CekRLGvwwUD0E6XtKwLIAZyQsTO4lpP90cHAf62eHIHndMlyPINLHYigLXwzWAV7i8zsdCKyPdUcKtLYrYtvzRkh6pCitc6X00HGO5N0Y4MYrCVRdMC74ttGZhIvWtUZFYh4M2Zbd07Qw8v2LzwrHIrPkmCJMrwWAQa5qR1ngSxVc3hqEujGxzRH4GivnB0ga2HUeUdj9N4BpiQ3pMNuNYNyDnzNiXtzdMSR1qiBldbxElSfRIvNQG",
+              "received": false
+            }
+          ],
+          "total_price": 94179,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Vivienne",
+              "street": "Jacobson Cliff",
+              "house": 429,
+              "flat": 5656
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:35:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958562d1c508c5d5e7ba9f8",
+          "products": [
+            {
+              "_id": "6958562f1c508c5d5e7baa17",
+              "name": "Car89966",
+              "amount": 342,
+              "price": 94179,
+              "manufacturer": "Samsung",
+              "notes": "Mzp4CekRLGvwwUD0E6XtKwLIAZyQsTO4lpP90cHAf62eHIHndMlyPINLHYigLXwzWAV7i8zsdCKyPdUcKtLYrYtvzRkh6pCitc6X00HGO5N0Y4MYrCVRdMC74ttGZhIvWtUZFYh4M2Zbd07Qw8v2LzwrHIrPkmCJMrwWAQa5qR1ngSxVc3hqEujGxzRH4GivnB0ga2HUeUdj9N4BpiQ3pMNuNYNyDnzNiXtzdMSR1qiBldbxElSfRIvNQG",
+              "received": false
+            }
+          ],
+          "total_price": 94179,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Vivienne",
+              "street": "Jacobson Cliff",
+              "house": 429,
+              "flat": 5656
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:35:11.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958562d1c508c5d5e7ba9f8",
+          "products": [
+            {
+              "_id": "6958562f1c508c5d5e7baa17",
+              "name": "Car89966",
+              "amount": 342,
+              "price": 94179,
+              "manufacturer": "Samsung",
+              "notes": "Mzp4CekRLGvwwUD0E6XtKwLIAZyQsTO4lpP90cHAf62eHIHndMlyPINLHYigLXwzWAV7i8zsdCKyPdUcKtLYrYtvzRkh6pCitc6X00HGO5N0Y4MYrCVRdMC74ttGZhIvWtUZFYh4M2Zbd07Qw8v2LzwrHIrPkmCJMrwWAQa5qR1ngSxVc3hqEujGxzRH4GivnB0ga2HUeUdj9N4BpiQ3pMNuNYNyDnzNiXtzdMSR1qiBldbxElSfRIvNQG",
+              "received": false
+            }
+          ],
+          "total_price": 94179,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:35:11.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:26:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4596",
+    "etag": "W/\"11f4-C35P4dNNze33mB+ihSHcOIlTRwY\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695854251c508c5d5e7ad0a6",
+      "status": "Received",
+      "customer": {
+        "_id": "695854231c508c5d5e7acfaa",
+        "email": "Carmella31@gmail.com",
+        "name": "Cayla Langosh",
+        "country": "Ukraine",
+        "city": "Fort Haroldfurt",
+        "street": "Olson Cove 83",
+        "house": 780,
+        "flat": 1632,
+        "phone": "+846330753509793",
+        "createdOn": "2026-01-02T23:26:27.000Z",
+        "notes": "T34TGysfVatrpjTldacwZ46uQkXSj5"
+      },
+      "products": [
+        {
+          "_id": "695854251c508c5d5e7ad08c",
+          "name": "Bike82427",
+          "amount": 178,
+          "price": 69718,
+          "manufacturer": "Google",
+          "notes": "n0gaGmXsv1Rarf0qeZw08HMWtUd4DP7l4ZhowTn44cpYCZwVmHYrDzvIbfWb7NSpHQXSwZLxxPuXasesf69AkIINh0WJPBeHsm1CDqhTjRJGnqcZJXJFYgy0BadB0wSbFJNN7obXm1hYuh17SHSZmmsT1XY5bPY7Mbrvxb1tWEzu6ZXY8t7oIHoLg9TC1rLb4293jIu3fGwVoNXugcdBqt4PW0mJdNPcA9Xm946UZXzlnDSv6uqemExwof",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Hayleeworth",
+          "street": "Claudie Wall",
+          "house": 866,
+          "flat": 5732
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 69718,
+      "createdOn": "2026-01-02T23:26:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695854231c508c5d5e7acfaa",
+          "products": [
+            {
+              "_id": "695854251c508c5d5e7ad08c",
+              "name": "Bike82427",
+              "amount": 178,
+              "price": 69718,
+              "manufacturer": "Google",
+              "notes": "n0gaGmXsv1Rarf0qeZw08HMWtUd4DP7l4ZhowTn44cpYCZwVmHYrDzvIbfWb7NSpHQXSwZLxxPuXasesf69AkIINh0WJPBeHsm1CDqhTjRJGnqcZJXJFYgy0BadB0wSbFJNN7obXm1hYuh17SHSZmmsT1XY5bPY7Mbrvxb1tWEzu6ZXY8t7oIHoLg9TC1rLb4293jIu3fGwVoNXugcdBqt4PW0mJdNPcA9Xm946UZXzlnDSv6uqemExwof",
+              "received": true
+            }
+          ],
+          "total_price": 69718,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Hayleeworth",
+              "street": "Claudie Wall",
+              "house": 866,
+              "flat": 5732
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:26:30.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695854231c508c5d5e7acfaa",
+          "products": [
+            {
+              "_id": "695854251c508c5d5e7ad08c",
+              "name": "Bike82427",
+              "amount": 178,
+              "price": 69718,
+              "manufacturer": "Google",
+              "notes": "n0gaGmXsv1Rarf0qeZw08HMWtUd4DP7l4ZhowTn44cpYCZwVmHYrDzvIbfWb7NSpHQXSwZLxxPuXasesf69AkIINh0WJPBeHsm1CDqhTjRJGnqcZJXJFYgy0BadB0wSbFJNN7obXm1hYuh17SHSZmmsT1XY5bPY7Mbrvxb1tWEzu6ZXY8t7oIHoLg9TC1rLb4293jIu3fGwVoNXugcdBqt4PW0mJdNPcA9Xm946UZXzlnDSv6uqemExwof",
+              "received": false
+            }
+          ],
+          "total_price": 69718,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Hayleeworth",
+              "street": "Claudie Wall",
+              "house": 866,
+              "flat": 5732
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:26:30.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695854231c508c5d5e7acfaa",
+          "products": [
+            {
+              "_id": "695854251c508c5d5e7ad08c",
+              "name": "Bike82427",
+              "amount": 178,
+              "price": 69718,
+              "manufacturer": "Google",
+              "notes": "n0gaGmXsv1Rarf0qeZw08HMWtUd4DP7l4ZhowTn44cpYCZwVmHYrDzvIbfWb7NSpHQXSwZLxxPuXasesf69AkIINh0WJPBeHsm1CDqhTjRJGnqcZJXJFYgy0BadB0wSbFJNN7obXm1hYuh17SHSZmmsT1XY5bPY7Mbrvxb1tWEzu6ZXY8t7oIHoLg9TC1rLb4293jIu3fGwVoNXugcdBqt4PW0mJdNPcA9Xm946UZXzlnDSv6uqemExwof",
+              "received": false
+            }
+          ],
+          "total_price": 69718,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Hayleeworth",
+              "street": "Claudie Wall",
+              "house": 866,
+              "flat": 5732
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:26:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695854231c508c5d5e7acfaa",
+          "products": [
+            {
+              "_id": "695854251c508c5d5e7ad08c",
+              "name": "Bike82427",
+              "amount": 178,
+              "price": 69718,
+              "manufacturer": "Google",
+              "notes": "n0gaGmXsv1Rarf0qeZw08HMWtUd4DP7l4ZhowTn44cpYCZwVmHYrDzvIbfWb7NSpHQXSwZLxxPuXasesf69AkIINh0WJPBeHsm1CDqhTjRJGnqcZJXJFYgy0BadB0wSbFJNN7obXm1hYuh17SHSZmmsT1XY5bPY7Mbrvxb1tWEzu6ZXY8t7oIHoLg9TC1rLb4293jIu3fGwVoNXugcdBqt4PW0mJdNPcA9Xm946UZXzlnDSv6uqemExwof",
+              "received": false
+            }
+          ],
+          "total_price": 69718,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:26:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

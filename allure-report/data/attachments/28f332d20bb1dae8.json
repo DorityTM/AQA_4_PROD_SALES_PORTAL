@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:35:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3692",
+    "etag": "W/\"e6c-fEWz+u7q2StTJMVTzqA4zMUmw48\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695856391c508c5d5e7badb5",
+      "status": "In Process",
+      "customer": {
+        "_id": "695856361c508c5d5e7baca0",
+        "email": "Leonor36@hotmail.com",
+        "name": "Kurt Stiedemann",
+        "country": "Belarus",
+        "city": "East Mekhi",
+        "street": "Locust Street 56",
+        "house": 616,
+        "flat": 1926,
+        "phone": "+041968361183760",
+        "createdOn": "2026-01-02T23:35:18.000Z",
+        "notes": "rKaWj6VuHkTNYGkiOxHskFSHtsj0sZ"
+      },
+      "products": [
+        {
+          "_id": "695856381c508c5d5e7bada5",
+          "name": "Ball87321",
+          "amount": 89,
+          "price": 59349,
+          "manufacturer": "Microsoft",
+          "notes": "uOTn0bSsHBkIL2BklqGJ1Ui5wyR8vO9cl88vdy2gdFwg8Sf5xTtZOFvsKWfy16fBXPqPL24FB5XzANa88A8wbps8ZrqMm3433tca1DkoBjMALuYTbWwEigRL1rngg4vL5I1q9iV7V6pdfEHfCkArnOozmn3D2VKAQFtB2OvzVQRRKX1XSf0cLDSFg00rrYgLFRx9UfIFUQ8KWxxcfK4oOTwxAhRPBxSXpQVf5nWhr96USKm6aPm7CcerGU",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Bell Gardens",
+          "street": "Herta Shores",
+          "house": 786,
+          "flat": 4989
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 59349,
+      "createdOn": "2026-01-02T23:35:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695856361c508c5d5e7baca0",
+          "products": [
+            {
+              "_id": "695856381c508c5d5e7bada5",
+              "name": "Ball87321",
+              "amount": 89,
+              "price": 59349,
+              "manufacturer": "Microsoft",
+              "notes": "uOTn0bSsHBkIL2BklqGJ1Ui5wyR8vO9cl88vdy2gdFwg8Sf5xTtZOFvsKWfy16fBXPqPL24FB5XzANa88A8wbps8ZrqMm3433tca1DkoBjMALuYTbWwEigRL1rngg4vL5I1q9iV7V6pdfEHfCkArnOozmn3D2VKAQFtB2OvzVQRRKX1XSf0cLDSFg00rrYgLFRx9UfIFUQ8KWxxcfK4oOTwxAhRPBxSXpQVf5nWhr96USKm6aPm7CcerGU",
+              "received": false
+            }
+          ],
+          "total_price": 59349,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Bell Gardens",
+              "street": "Herta Shores",
+              "house": 786,
+              "flat": 4989
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:35:23.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695856361c508c5d5e7baca0",
+          "products": [
+            {
+              "_id": "695856381c508c5d5e7bada5",
+              "name": "Ball87321",
+              "amount": 89,
+              "price": 59349,
+              "manufacturer": "Microsoft",
+              "notes": "uOTn0bSsHBkIL2BklqGJ1Ui5wyR8vO9cl88vdy2gdFwg8Sf5xTtZOFvsKWfy16fBXPqPL24FB5XzANa88A8wbps8ZrqMm3433tca1DkoBjMALuYTbWwEigRL1rngg4vL5I1q9iV7V6pdfEHfCkArnOozmn3D2VKAQFtB2OvzVQRRKX1XSf0cLDSFg00rrYgLFRx9UfIFUQ8KWxxcfK4oOTwxAhRPBxSXpQVf5nWhr96USKm6aPm7CcerGU",
+              "received": false
+            }
+          ],
+          "total_price": 59349,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Bell Gardens",
+              "street": "Herta Shores",
+              "house": 786,
+              "flat": 4989
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:35:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695856361c508c5d5e7baca0",
+          "products": [
+            {
+              "_id": "695856381c508c5d5e7bada5",
+              "name": "Ball87321",
+              "amount": 89,
+              "price": 59349,
+              "manufacturer": "Microsoft",
+              "notes": "uOTn0bSsHBkIL2BklqGJ1Ui5wyR8vO9cl88vdy2gdFwg8Sf5xTtZOFvsKWfy16fBXPqPL24FB5XzANa88A8wbps8ZrqMm3433tca1DkoBjMALuYTbWwEigRL1rngg4vL5I1q9iV7V6pdfEHfCkArnOozmn3D2VKAQFtB2OvzVQRRKX1XSf0cLDSFg00rrYgLFRx9UfIFUQ8KWxxcfK4oOTwxAhRPBxSXpQVf5nWhr96USKm6aPm7CcerGU",
+              "received": false
+            }
+          ],
+          "total_price": 59349,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:35:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:36:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4597",
+    "etag": "W/\"11f5-QNo+N4rF5+Et5ShyH6aPEaXmARI\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958566d1c508c5d5e7bc6d2",
+      "status": "Received",
+      "customer": {
+        "_id": "6958566b1c508c5d5e7bc6b6",
+        "email": "Bruce_Bayer@hotmail.com",
+        "name": "Katharina Harvey",
+        "country": "USA",
+        "city": "North Sigurd",
+        "street": "Laburnum Grove 41",
+        "house": 169,
+        "flat": 972,
+        "phone": "+077540575053264",
+        "createdOn": "2026-01-02T23:36:11.000Z",
+        "notes": "gt5bs11xgtNuh2uECUXUN84nKeWXpz"
+      },
+      "products": [
+        {
+          "_id": "6958566c1c508c5d5e7bc6ca",
+          "name": "Bike34145",
+          "amount": 222,
+          "price": 26147,
+          "manufacturer": "Microsoft",
+          "notes": "AWftCNiP2r4csS2hgnUxlECErdaLXhvoSGdvQzLMTc4qpZj4b36scyBU3nkAIPrFVKy0KMG5vwb65M1AoEVtuqeDoUmVga4G6LNu4yl41e1FOFLF8uYKDyQlbSdbTJS2dIAo1FNWdW4SLHuSDFDytnP3lphXqT1MdLNowOdwo3ohCVmIPC2eQgQ2oxa7hIF4ZyXMu2ap2st1bx2OB0CQ3dLqFILXfatd5J3hiaiJyPYpU11WduRVWgkhiP",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Frederik",
+          "street": "Hugh Parks",
+          "house": 304,
+          "flat": 128
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 26147,
+      "createdOn": "2026-01-02T23:36:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6958566b1c508c5d5e7bc6b6",
+          "products": [
+            {
+              "_id": "6958566c1c508c5d5e7bc6ca",
+              "name": "Bike34145",
+              "amount": 222,
+              "price": 26147,
+              "manufacturer": "Microsoft",
+              "notes": "AWftCNiP2r4csS2hgnUxlECErdaLXhvoSGdvQzLMTc4qpZj4b36scyBU3nkAIPrFVKy0KMG5vwb65M1AoEVtuqeDoUmVga4G6LNu4yl41e1FOFLF8uYKDyQlbSdbTJS2dIAo1FNWdW4SLHuSDFDytnP3lphXqT1MdLNowOdwo3ohCVmIPC2eQgQ2oxa7hIF4ZyXMu2ap2st1bx2OB0CQ3dLqFILXfatd5J3hiaiJyPYpU11WduRVWgkhiP",
+              "received": true
+            }
+          ],
+          "total_price": 26147,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Frederik",
+              "street": "Hugh Parks",
+              "house": 304,
+              "flat": 128
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:36:15.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6958566b1c508c5d5e7bc6b6",
+          "products": [
+            {
+              "_id": "6958566c1c508c5d5e7bc6ca",
+              "name": "Bike34145",
+              "amount": 222,
+              "price": 26147,
+              "manufacturer": "Microsoft",
+              "notes": "AWftCNiP2r4csS2hgnUxlECErdaLXhvoSGdvQzLMTc4qpZj4b36scyBU3nkAIPrFVKy0KMG5vwb65M1AoEVtuqeDoUmVga4G6LNu4yl41e1FOFLF8uYKDyQlbSdbTJS2dIAo1FNWdW4SLHuSDFDytnP3lphXqT1MdLNowOdwo3ohCVmIPC2eQgQ2oxa7hIF4ZyXMu2ap2st1bx2OB0CQ3dLqFILXfatd5J3hiaiJyPYpU11WduRVWgkhiP",
+              "received": false
+            }
+          ],
+          "total_price": 26147,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Frederik",
+              "street": "Hugh Parks",
+              "house": 304,
+              "flat": 128
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:36:14.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958566b1c508c5d5e7bc6b6",
+          "products": [
+            {
+              "_id": "6958566c1c508c5d5e7bc6ca",
+              "name": "Bike34145",
+              "amount": 222,
+              "price": 26147,
+              "manufacturer": "Microsoft",
+              "notes": "AWftCNiP2r4csS2hgnUxlECErdaLXhvoSGdvQzLMTc4qpZj4b36scyBU3nkAIPrFVKy0KMG5vwb65M1AoEVtuqeDoUmVga4G6LNu4yl41e1FOFLF8uYKDyQlbSdbTJS2dIAo1FNWdW4SLHuSDFDytnP3lphXqT1MdLNowOdwo3ohCVmIPC2eQgQ2oxa7hIF4ZyXMu2ap2st1bx2OB0CQ3dLqFILXfatd5J3hiaiJyPYpU11WduRVWgkhiP",
+              "received": false
+            }
+          ],
+          "total_price": 26147,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Frederik",
+              "street": "Hugh Parks",
+              "house": 304,
+              "flat": 128
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:36:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958566b1c508c5d5e7bc6b6",
+          "products": [
+            {
+              "_id": "6958566c1c508c5d5e7bc6ca",
+              "name": "Bike34145",
+              "amount": 222,
+              "price": 26147,
+              "manufacturer": "Microsoft",
+              "notes": "AWftCNiP2r4csS2hgnUxlECErdaLXhvoSGdvQzLMTc4qpZj4b36scyBU3nkAIPrFVKy0KMG5vwb65M1AoEVtuqeDoUmVga4G6LNu4yl41e1FOFLF8uYKDyQlbSdbTJS2dIAo1FNWdW4SLHuSDFDytnP3lphXqT1MdLNowOdwo3ohCVmIPC2eQgQ2oxa7hIF4ZyXMu2ap2st1bx2OB0CQ3dLqFILXfatd5J3hiaiJyPYpU11WduRVWgkhiP",
+              "received": false
+            }
+          ],
+          "total_price": 26147,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:36:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

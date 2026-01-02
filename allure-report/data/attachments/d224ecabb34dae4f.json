@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:36:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4599",
+    "etag": "W/\"11f7-bOXVuLiElm6HMcFtOdvq+p1+0cY\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695856731c508c5d5e7bc8dc",
+      "status": "Received",
+      "customer": {
+        "_id": "695856701c508c5d5e7bc864",
+        "email": "Rosendo99@hotmail.com",
+        "name": "Elda Macejkovic",
+        "country": "Russia",
+        "city": "Labadietown",
+        "street": "Gislason Union 41",
+        "house": 287,
+        "flat": 3604,
+        "phone": "+481787430894761",
+        "createdOn": "2026-01-02T23:36:16.000Z",
+        "notes": "eyr1YG9hM4JQJt86venFdDEtJ5dkoo"
+      },
+      "products": [
+        {
+          "_id": "695856721c508c5d5e7bc8af",
+          "name": "Ball2311",
+          "amount": 607,
+          "price": 77712,
+          "manufacturer": "Sony",
+          "notes": "KcXVmHh2N0vwQEjSbdOtA0NebKhsOy0Cp2vlhXM0JPlNfaTVJ6803V6jz7V0nGw0TUVBcW4OBdgsjf4FVuexklc3dGNsl2ukNymFCc26ArrSYQSkhpeMv81O0vp55wWn7UGZVkKS6q8SEEGtQas5muZ9hWiT2TZhtCt5o5IfomiROuP5iIgUniV4Y6vNrXtcBYemvFgZi2ViRAYloB9WKqJFhrRSydpinZWUZ5JxnGMT6jjChLcBGs3oqF",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Fort Sethstead",
+          "street": "S Mill Street",
+          "house": 362,
+          "flat": 9671
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 77712,
+      "createdOn": "2026-01-02T23:36:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695856701c508c5d5e7bc864",
+          "products": [
+            {
+              "_id": "695856721c508c5d5e7bc8af",
+              "name": "Ball2311",
+              "amount": 607,
+              "price": 77712,
+              "manufacturer": "Sony",
+              "notes": "KcXVmHh2N0vwQEjSbdOtA0NebKhsOy0Cp2vlhXM0JPlNfaTVJ6803V6jz7V0nGw0TUVBcW4OBdgsjf4FVuexklc3dGNsl2ukNymFCc26ArrSYQSkhpeMv81O0vp55wWn7UGZVkKS6q8SEEGtQas5muZ9hWiT2TZhtCt5o5IfomiROuP5iIgUniV4Y6vNrXtcBYemvFgZi2ViRAYloB9WKqJFhrRSydpinZWUZ5JxnGMT6jjChLcBGs3oqF",
+              "received": true
+            }
+          ],
+          "total_price": 77712,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Sethstead",
+              "street": "S Mill Street",
+              "house": 362,
+              "flat": 9671
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:36:20.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695856701c508c5d5e7bc864",
+          "products": [
+            {
+              "_id": "695856721c508c5d5e7bc8af",
+              "name": "Ball2311",
+              "amount": 607,
+              "price": 77712,
+              "manufacturer": "Sony",
+              "notes": "KcXVmHh2N0vwQEjSbdOtA0NebKhsOy0Cp2vlhXM0JPlNfaTVJ6803V6jz7V0nGw0TUVBcW4OBdgsjf4FVuexklc3dGNsl2ukNymFCc26ArrSYQSkhpeMv81O0vp55wWn7UGZVkKS6q8SEEGtQas5muZ9hWiT2TZhtCt5o5IfomiROuP5iIgUniV4Y6vNrXtcBYemvFgZi2ViRAYloB9WKqJFhrRSydpinZWUZ5JxnGMT6jjChLcBGs3oqF",
+              "received": false
+            }
+          ],
+          "total_price": 77712,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Sethstead",
+              "street": "S Mill Street",
+              "house": 362,
+              "flat": 9671
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:36:19.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695856701c508c5d5e7bc864",
+          "products": [
+            {
+              "_id": "695856721c508c5d5e7bc8af",
+              "name": "Ball2311",
+              "amount": 607,
+              "price": 77712,
+              "manufacturer": "Sony",
+              "notes": "KcXVmHh2N0vwQEjSbdOtA0NebKhsOy0Cp2vlhXM0JPlNfaTVJ6803V6jz7V0nGw0TUVBcW4OBdgsjf4FVuexklc3dGNsl2ukNymFCc26ArrSYQSkhpeMv81O0vp55wWn7UGZVkKS6q8SEEGtQas5muZ9hWiT2TZhtCt5o5IfomiROuP5iIgUniV4Y6vNrXtcBYemvFgZi2ViRAYloB9WKqJFhrRSydpinZWUZ5JxnGMT6jjChLcBGs3oqF",
+              "received": false
+            }
+          ],
+          "total_price": 77712,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Sethstead",
+              "street": "S Mill Street",
+              "house": 362,
+              "flat": 9671
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:36:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695856701c508c5d5e7bc864",
+          "products": [
+            {
+              "_id": "695856721c508c5d5e7bc8af",
+              "name": "Ball2311",
+              "amount": 607,
+              "price": 77712,
+              "manufacturer": "Sony",
+              "notes": "KcXVmHh2N0vwQEjSbdOtA0NebKhsOy0Cp2vlhXM0JPlNfaTVJ6803V6jz7V0nGw0TUVBcW4OBdgsjf4FVuexklc3dGNsl2ukNymFCc26ArrSYQSkhpeMv81O0vp55wWn7UGZVkKS6q8SEEGtQas5muZ9hWiT2TZhtCt5o5IfomiROuP5iIgUniV4Y6vNrXtcBYemvFgZi2ViRAYloB9WKqJFhrRSydpinZWUZ5JxnGMT6jjChLcBGs3oqF",
+              "received": false
+            }
+          ],
+          "total_price": 77712,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:36:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

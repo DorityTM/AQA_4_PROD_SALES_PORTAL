@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 23:36:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3696",
+    "etag": "W/\"e70-wj4KbpA1nNO0gkYFImQoTZUTDgE\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695856781c508c5d5e7bca44",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695856751c508c5d5e7bc9c3",
+        "email": "Madyson_Aufderhar48@hotmail.com",
+        "name": "Selina Schroeder",
+        "country": "Ukraine",
+        "city": "North Arnocester",
+        "street": "Bashirian Terrace 61",
+        "house": 344,
+        "flat": 299,
+        "phone": "+117546836014933",
+        "createdOn": "2026-01-02T23:36:21.000Z",
+        "notes": "Aq9sbAICixvY6uTW767lTtlPRWsweS"
+      },
+      "products": [
+        {
+          "_id": "695856771c508c5d5e7bc9f9",
+          "name": "Chicken98274",
+          "amount": 96,
+          "price": 53675,
+          "manufacturer": "Google",
+          "notes": "NXghQwOEjXzqwgWFnol7vjTCkKGiOBl0xqn7NyRZ7cvjV6WNfaJ9D2oWiNnbekuz3ssnty35qmkIMJzFrBbYwChYYfWycOatByA5zSuTU3H4xPJugpO3XfIMKl19vzApOWMoGiVo1M979dayNK1rLa6pl2nta836MGC5JQGMdzu2psLvVD4MtEuNHKIBJhLAqfAAkqoAY6NK69nOxzdmfkh1AHJjeCWUWy5hFGEqZmpZPZONJV5wCd3mAm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Carolyncester",
+          "street": "6th Street",
+          "house": 159,
+          "flat": 1409
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53675,
+      "createdOn": "2026-01-02T23:36:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695856751c508c5d5e7bc9c3",
+          "products": [
+            {
+              "_id": "695856771c508c5d5e7bc9f9",
+              "name": "Chicken98274",
+              "amount": 96,
+              "price": 53675,
+              "manufacturer": "Google",
+              "notes": "NXghQwOEjXzqwgWFnol7vjTCkKGiOBl0xqn7NyRZ7cvjV6WNfaJ9D2oWiNnbekuz3ssnty35qmkIMJzFrBbYwChYYfWycOatByA5zSuTU3H4xPJugpO3XfIMKl19vzApOWMoGiVo1M979dayNK1rLa6pl2nta836MGC5JQGMdzu2psLvVD4MtEuNHKIBJhLAqfAAkqoAY6NK69nOxzdmfkh1AHJjeCWUWy5hFGEqZmpZPZONJV5wCd3mAm",
+              "received": false
+            }
+          ],
+          "total_price": 53675,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Carolyncester",
+              "street": "6th Street",
+              "house": 159,
+              "flat": 1409
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:36:26.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695856751c508c5d5e7bc9c3",
+          "products": [
+            {
+              "_id": "695856771c508c5d5e7bc9f9",
+              "name": "Chicken98274",
+              "amount": 96,
+              "price": 53675,
+              "manufacturer": "Google",
+              "notes": "NXghQwOEjXzqwgWFnol7vjTCkKGiOBl0xqn7NyRZ7cvjV6WNfaJ9D2oWiNnbekuz3ssnty35qmkIMJzFrBbYwChYYfWycOatByA5zSuTU3H4xPJugpO3XfIMKl19vzApOWMoGiVo1M979dayNK1rLa6pl2nta836MGC5JQGMdzu2psLvVD4MtEuNHKIBJhLAqfAAkqoAY6NK69nOxzdmfkh1AHJjeCWUWy5hFGEqZmpZPZONJV5wCd3mAm",
+              "received": false
+            }
+          ],
+          "total_price": 53675,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Carolyncester",
+              "street": "6th Street",
+              "house": 159,
+              "flat": 1409
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T23:36:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695856751c508c5d5e7bc9c3",
+          "products": [
+            {
+              "_id": "695856771c508c5d5e7bc9f9",
+              "name": "Chicken98274",
+              "amount": 96,
+              "price": 53675,
+              "manufacturer": "Google",
+              "notes": "NXghQwOEjXzqwgWFnol7vjTCkKGiOBl0xqn7NyRZ7cvjV6WNfaJ9D2oWiNnbekuz3ssnty35qmkIMJzFrBbYwChYYfWycOatByA5zSuTU3H4xPJugpO3XfIMKl19vzApOWMoGiVo1M979dayNK1rLa6pl2nta836MGC5JQGMdzu2psLvVD4MtEuNHKIBJhLAqfAAkqoAY6NK69nOxzdmfkh1AHJjeCWUWy5hFGEqZmpZPZONJV5wCd3mAm",
+              "received": false
+            }
+          ],
+          "total_price": 53675,
+          "delivery": null,
+          "changedOn": "2026-01-02T23:36:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
