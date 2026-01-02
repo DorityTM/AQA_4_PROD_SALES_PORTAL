@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:46:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2734",
+    "etag": "W/\"aae-+FZw+yhfKo9SQZ99DPGKmFV54Qs\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582ea61c508c5d5e7543a2",
+      "status": "Draft",
+      "customer": {
+        "_id": "69582ea51c508c5d5e754360",
+        "email": "Jovanny51@yahoo.com",
+        "name": "Vaughn Mohr",
+        "country": "Great Britain",
+        "city": "Franeckiland",
+        "street": "Xavier Forge 70",
+        "house": 264,
+        "flat": 605,
+        "phone": "+877869798931099",
+        "createdOn": "2026-01-02T20:46:29.000Z",
+        "notes": "OFzoZorYzaHm7PBU5oOIVoTJpBbhBX"
+      },
+      "products": [
+        {
+          "_id": "69582ea51c508c5d5e754387",
+          "name": "Soap13653",
+          "amount": 881,
+          "price": 785,
+          "manufacturer": "Tesla",
+          "notes": "Q7waLt0gCxF0A8o5xDdr4dtcLOByHjUZMR2tMDrm96RLR4OdbIqFoy5WAXSkaaUO2JMu1eWcwVV1jP6cXtT9M7lxB1nEqIhgZUw3hjJMyfsyktxRFH9L28yTgeDCMU5IbBEmODpd0vwsiio3NeJfyVPaX53HKaF17kXFzAjqpkwBQxeQQxl6vZjoMIG5CklfUYYf352xY5xPf0IzZumSYeMbIEVnKSyApuqWgXsXBz3N7jNLGNm2INUtCc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Littleside",
+          "street": "Michele Square",
+          "house": 703,
+          "flat": 6906
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 785,
+      "createdOn": "2026-01-02T20:46:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69582ea51c508c5d5e754360",
+          "products": [
+            {
+              "_id": "69582ea51c508c5d5e754387",
+              "name": "Soap13653",
+              "amount": 881,
+              "price": 785,
+              "manufacturer": "Tesla",
+              "notes": "Q7waLt0gCxF0A8o5xDdr4dtcLOByHjUZMR2tMDrm96RLR4OdbIqFoy5WAXSkaaUO2JMu1eWcwVV1jP6cXtT9M7lxB1nEqIhgZUw3hjJMyfsyktxRFH9L28yTgeDCMU5IbBEmODpd0vwsiio3NeJfyVPaX53HKaF17kXFzAjqpkwBQxeQQxl6vZjoMIG5CklfUYYf352xY5xPf0IzZumSYeMbIEVnKSyApuqWgXsXBz3N7jNLGNm2INUtCc",
+              "received": false
+            }
+          ],
+          "total_price": 785,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Littleside",
+              "street": "Michele Square",
+              "house": 703,
+              "flat": 6906
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:46:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582ea51c508c5d5e754360",
+          "products": [
+            {
+              "_id": "69582ea51c508c5d5e754387",
+              "name": "Soap13653",
+              "amount": 881,
+              "price": 785,
+              "manufacturer": "Tesla",
+              "notes": "Q7waLt0gCxF0A8o5xDdr4dtcLOByHjUZMR2tMDrm96RLR4OdbIqFoy5WAXSkaaUO2JMu1eWcwVV1jP6cXtT9M7lxB1nEqIhgZUw3hjJMyfsyktxRFH9L28yTgeDCMU5IbBEmODpd0vwsiio3NeJfyVPaX53HKaF17kXFzAjqpkwBQxeQQxl6vZjoMIG5CklfUYYf352xY5xPf0IzZumSYeMbIEVnKSyApuqWgXsXBz3N7jNLGNm2INUtCc",
+              "received": false
+            }
+          ],
+          "total_price": 785,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:46:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

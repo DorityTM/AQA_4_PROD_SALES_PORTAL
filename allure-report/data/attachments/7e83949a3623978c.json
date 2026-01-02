@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:43:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3660",
+    "etag": "W/\"e4c-W1AVG0RiYXzHn4l5jI0UU0FeM5g\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582def1c508c5d5e74ff40",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69582dee1c508c5d5e74fee9",
+        "email": "Angelina82@hotmail.com",
+        "name": "Karen Crooks",
+        "country": "Russia",
+        "city": "Jaysonchester",
+        "street": "Duane View 6",
+        "house": 459,
+        "flat": 5683,
+        "phone": "+398599082634267",
+        "createdOn": "2026-01-02T20:43:26.000Z",
+        "notes": "a5jLGmsvfbwrK1GhIczP2VkbFR8W66"
+      },
+      "products": [
+        {
+          "_id": "69582def1c508c5d5e74ff20",
+          "name": "Hat78949",
+          "amount": 888,
+          "price": 12701,
+          "manufacturer": "Google",
+          "notes": "6YkuS6OOv7QV6iFrQvEV2eYGtVDRqNbqZPUzincB9VCU3TWP0EC87r1urQLemL8gDC5QuY6g1QuQF7yGcx2Sm6EkRvBebm7el9HZSGPgeJ8Pfb4SK5FFXljMS6Sudf7gS5N0ruaPD38nDeBtmqcafiBZfj4qCAAMRSyhr9bUxgsy0Qb4iy8WIrQx5lDr2UE0B4hqULFw5BNJQpDcAF7mssOObN0yUZg27dWi10rRoIOplytdTqiTGaAZ7C",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "North Dave",
+          "street": "Second Avenue",
+          "house": 554,
+          "flat": 4451
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 12701,
+      "createdOn": "2026-01-02T20:43:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69582dee1c508c5d5e74fee9",
+          "products": [
+            {
+              "_id": "69582def1c508c5d5e74ff20",
+              "name": "Hat78949",
+              "amount": 888,
+              "price": 12701,
+              "manufacturer": "Google",
+              "notes": "6YkuS6OOv7QV6iFrQvEV2eYGtVDRqNbqZPUzincB9VCU3TWP0EC87r1urQLemL8gDC5QuY6g1QuQF7yGcx2Sm6EkRvBebm7el9HZSGPgeJ8Pfb4SK5FFXljMS6Sudf7gS5N0ruaPD38nDeBtmqcafiBZfj4qCAAMRSyhr9bUxgsy0Qb4iy8WIrQx5lDr2UE0B4hqULFw5BNJQpDcAF7mssOObN0yUZg27dWi10rRoIOplytdTqiTGaAZ7C",
+              "received": false
+            }
+          ],
+          "total_price": 12701,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "North Dave",
+              "street": "Second Avenue",
+              "house": 554,
+              "flat": 4451
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:43:28.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582dee1c508c5d5e74fee9",
+          "products": [
+            {
+              "_id": "69582def1c508c5d5e74ff20",
+              "name": "Hat78949",
+              "amount": 888,
+              "price": 12701,
+              "manufacturer": "Google",
+              "notes": "6YkuS6OOv7QV6iFrQvEV2eYGtVDRqNbqZPUzincB9VCU3TWP0EC87r1urQLemL8gDC5QuY6g1QuQF7yGcx2Sm6EkRvBebm7el9HZSGPgeJ8Pfb4SK5FFXljMS6Sudf7gS5N0ruaPD38nDeBtmqcafiBZfj4qCAAMRSyhr9bUxgsy0Qb4iy8WIrQx5lDr2UE0B4hqULFw5BNJQpDcAF7mssOObN0yUZg27dWi10rRoIOplytdTqiTGaAZ7C",
+              "received": false
+            }
+          ],
+          "total_price": 12701,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "North Dave",
+              "street": "Second Avenue",
+              "house": 554,
+              "flat": 4451
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:43:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582dee1c508c5d5e74fee9",
+          "products": [
+            {
+              "_id": "69582def1c508c5d5e74ff20",
+              "name": "Hat78949",
+              "amount": 888,
+              "price": 12701,
+              "manufacturer": "Google",
+              "notes": "6YkuS6OOv7QV6iFrQvEV2eYGtVDRqNbqZPUzincB9VCU3TWP0EC87r1urQLemL8gDC5QuY6g1QuQF7yGcx2Sm6EkRvBebm7el9HZSGPgeJ8Pfb4SK5FFXljMS6Sudf7gS5N0ruaPD38nDeBtmqcafiBZfj4qCAAMRSyhr9bUxgsy0Qb4iy8WIrQx5lDr2UE0B4hqULFw5BNJQpDcAF7mssOObN0yUZg27dWi10rRoIOplytdTqiTGaAZ7C",
+              "received": false
+            }
+          ],
+          "total_price": 12701,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:43:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:46:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2767",
+    "etag": "W/\"acf-03RkRFxlffabVFFD9aQBftBN8iU\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582e8d1c508c5d5e7537b8",
+      "status": "Draft",
+      "customer": {
+        "_id": "69582e8d1c508c5d5e753745",
+        "email": "Cyril_Terry78@yahoo.com",
+        "name": "Clark Swaniawski",
+        "country": "Canada",
+        "city": "Lake Nolanville",
+        "street": "Beach Road 69",
+        "house": 140,
+        "flat": 8442,
+        "phone": "+034164210740448",
+        "createdOn": "2026-01-02T20:46:05.000Z",
+        "notes": "aI4RN4KaOEa0Wf2o1hK22RFrOOBwH3"
+      },
+      "products": [
+        {
+          "_id": "69582e8d1c508c5d5e7537a0",
+          "name": "Table29066",
+          "amount": 195,
+          "price": 42454,
+          "manufacturer": "Microsoft",
+          "notes": "jQ381gLXsgHpr4K1i5vpPBNLhpa9pTdzLSYmhPmKn1pCLlkZWR9fI2d1XdK2dWN7gOYmblcvfeL3ugE0dTwjm3wfHa0QCcEoE5r4pdCnQrHOtkledC18SgiLAi7c1dXokz9XcLGUvIVAF1SLwLjEWI2rFoOxtLT4DdKCt1MHukINGn2mKY5L9bqa1TmYRHVzIIdVyANwn1qgiQyqPOW6Ejwzq7wZc27VbJTJkybgig1OnteEYC7oQmsVDV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Maystead",
+          "street": "Rice Place",
+          "house": 688,
+          "flat": 2402
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42454,
+      "createdOn": "2026-01-02T20:46:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69582e8d1c508c5d5e753745",
+          "products": [
+            {
+              "_id": "69582e8d1c508c5d5e7537a0",
+              "name": "Table29066",
+              "amount": 195,
+              "price": 42454,
+              "manufacturer": "Microsoft",
+              "notes": "jQ381gLXsgHpr4K1i5vpPBNLhpa9pTdzLSYmhPmKn1pCLlkZWR9fI2d1XdK2dWN7gOYmblcvfeL3ugE0dTwjm3wfHa0QCcEoE5r4pdCnQrHOtkledC18SgiLAi7c1dXokz9XcLGUvIVAF1SLwLjEWI2rFoOxtLT4DdKCt1MHukINGn2mKY5L9bqa1TmYRHVzIIdVyANwn1qgiQyqPOW6Ejwzq7wZc27VbJTJkybgig1OnteEYC7oQmsVDV",
+              "received": false
+            }
+          ],
+          "total_price": 42454,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Maystead",
+              "street": "Rice Place",
+              "house": 688,
+              "flat": 2402
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:46:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582e8d1c508c5d5e753745",
+          "products": [
+            {
+              "_id": "69582e8d1c508c5d5e7537a0",
+              "name": "Table29066",
+              "amount": 195,
+              "price": 42454,
+              "manufacturer": "Microsoft",
+              "notes": "jQ381gLXsgHpr4K1i5vpPBNLhpa9pTdzLSYmhPmKn1pCLlkZWR9fI2d1XdK2dWN7gOYmblcvfeL3ugE0dTwjm3wfHa0QCcEoE5r4pdCnQrHOtkledC18SgiLAi7c1dXokz9XcLGUvIVAF1SLwLjEWI2rFoOxtLT4DdKCt1MHukINGn2mKY5L9bqa1TmYRHVzIIdVyANwn1qgiQyqPOW6Ejwzq7wZc27VbJTJkybgig1OnteEYC7oQmsVDV",
+              "received": false
+            }
+          ],
+          "total_price": 42454,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:46:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

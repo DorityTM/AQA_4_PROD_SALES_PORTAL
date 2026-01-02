@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:43:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-smxwLmpEYToXz7i6alPKo5CUMZA\"",
+    "keep-alive": "timeout=5, max=1",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582dd91c508c5d5e74f5c5",
+      "status": "In Process",
+      "customer": {
+        "_id": "69582dd91c508c5d5e74f595",
+        "email": "Eldred.Lakin@yahoo.com",
+        "name": "Rubie Upton",
+        "country": "Germany",
+        "city": "Port Angelina",
+        "street": "Walter Flat 10",
+        "house": 674,
+        "flat": 4150,
+        "phone": "+443966182292073",
+        "createdOn": "2026-01-02T20:43:05.000Z",
+        "notes": "02TpsYW3wlWxUuqXoMNig86YbFQO0c"
+      },
+      "products": [
+        {
+          "_id": "69582dd91c508c5d5e74f5aa",
+          "name": "Chips4824",
+          "amount": 835,
+          "price": 62435,
+          "manufacturer": "Xiaomi",
+          "notes": "Cppu8oZRLDmsZZDG1NkF8n4OCTxxbB81BgJsMY2pR9jvd3bawX06eap9sIihFx82CAqvvOxRyHHmnAuISEUeK6x4Hz6RYGjMnsqRfn88kXoYuAR6fELAIl5yXkKTJh8UuW99n6VPiLA7gqmOPMiXSPzoMhSCKIk2SYqWLcwap2KI38JnGVm4IozaHi3CLbApFuJsWqYjwoGOdIUNCOgBhLdYq9yN2fpg4sCP6DQnarv9rS7JBbk62pJrR3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Mertzfurt",
+          "street": "Cartwright Valley",
+          "house": 148,
+          "flat": 2155
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 62435,
+      "createdOn": "2026-01-02T20:43:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69582dd91c508c5d5e74f595",
+          "products": [
+            {
+              "_id": "69582dd91c508c5d5e74f5aa",
+              "name": "Chips4824",
+              "amount": 835,
+              "price": 62435,
+              "manufacturer": "Xiaomi",
+              "notes": "Cppu8oZRLDmsZZDG1NkF8n4OCTxxbB81BgJsMY2pR9jvd3bawX06eap9sIihFx82CAqvvOxRyHHmnAuISEUeK6x4Hz6RYGjMnsqRfn88kXoYuAR6fELAIl5yXkKTJh8UuW99n6VPiLA7gqmOPMiXSPzoMhSCKIk2SYqWLcwap2KI38JnGVm4IozaHi3CLbApFuJsWqYjwoGOdIUNCOgBhLdYq9yN2fpg4sCP6DQnarv9rS7JBbk62pJrR3",
+              "received": false
+            }
+          ],
+          "total_price": 62435,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Mertzfurt",
+              "street": "Cartwright Valley",
+              "house": 148,
+              "flat": 2155
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:43:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582dd91c508c5d5e74f595",
+          "products": [
+            {
+              "_id": "69582dd91c508c5d5e74f5aa",
+              "name": "Chips4824",
+              "amount": 835,
+              "price": 62435,
+              "manufacturer": "Xiaomi",
+              "notes": "Cppu8oZRLDmsZZDG1NkF8n4OCTxxbB81BgJsMY2pR9jvd3bawX06eap9sIihFx82CAqvvOxRyHHmnAuISEUeK6x4Hz6RYGjMnsqRfn88kXoYuAR6fELAIl5yXkKTJh8UuW99n6VPiLA7gqmOPMiXSPzoMhSCKIk2SYqWLcwap2KI38JnGVm4IozaHi3CLbApFuJsWqYjwoGOdIUNCOgBhLdYq9yN2fpg4sCP6DQnarv9rS7JBbk62pJrR3",
+              "received": false
+            }
+          ],
+          "total_price": 62435,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Mertzfurt",
+              "street": "Cartwright Valley",
+              "house": 148,
+              "flat": 2155
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:43:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582dd91c508c5d5e74f595",
+          "products": [
+            {
+              "_id": "69582dd91c508c5d5e74f5aa",
+              "name": "Chips4824",
+              "amount": 835,
+              "price": 62435,
+              "manufacturer": "Xiaomi",
+              "notes": "Cppu8oZRLDmsZZDG1NkF8n4OCTxxbB81BgJsMY2pR9jvd3bawX06eap9sIihFx82CAqvvOxRyHHmnAuISEUeK6x4Hz6RYGjMnsqRfn88kXoYuAR6fELAIl5yXkKTJh8UuW99n6VPiLA7gqmOPMiXSPzoMhSCKIk2SYqWLcwap2KI38JnGVm4IozaHi3CLbApFuJsWqYjwoGOdIUNCOgBhLdYq9yN2fpg4sCP6DQnarv9rS7JBbk62pJrR3",
+              "received": false
+            }
+          ],
+          "total_price": 62435,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:43:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

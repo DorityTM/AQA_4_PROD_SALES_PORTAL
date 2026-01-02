@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:44:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4615",
+    "etag": "W/\"1207-3BpdNwyevXFbeofXrGHwsjoAwvo\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582e101c508c5d5e750f54",
+      "status": "Received",
+      "customer": {
+        "_id": "69582e0f1c508c5d5e750f11",
+        "email": "Mertie51@gmail.com",
+        "name": "Karianne Rice",
+        "country": "USA",
+        "city": "Napoleonville",
+        "street": "Forest Avenue 39",
+        "house": 946,
+        "flat": 3501,
+        "phone": "+606634842323832",
+        "createdOn": "2026-01-02T20:43:59.000Z",
+        "notes": "0C8ofa0ud4by4pod1BZEiIcJUIsEpv"
+      },
+      "products": [
+        {
+          "_id": "69582e0f1c508c5d5e750f32",
+          "name": "Hat26389",
+          "amount": 310,
+          "price": 38942,
+          "manufacturer": "Samsung",
+          "notes": "EmvMQdWGwgMgvg0sgEnQMTtCYwYXDNSzrgWdrrGEgCYq1DIQZqJIKUIjIiofSaOxIWoMfDLpu0g0DVUQJbnyLGskrS4Py1BjgId4WXfUXvOr2JsiNbgHUoNPVEhVGNp4b5L7MIHpEDqmYbBy33zQyuY2AxyJ281OkCkBHAY7JixiiY5wmAkuVFSGU6byVu0Cp7dugOfNbzFU9MFUUjD2v5wMxjaeYmHlTS7DBf0CreQ9c8zeDq6MCcuWyx",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Port Reynoldstad",
+          "street": "Wunsch Square",
+          "house": 428,
+          "flat": 5798
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 38942,
+      "createdOn": "2026-01-02T20:44:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69582e0f1c508c5d5e750f11",
+          "products": [
+            {
+              "_id": "69582e0f1c508c5d5e750f32",
+              "name": "Hat26389",
+              "amount": 310,
+              "price": 38942,
+              "manufacturer": "Samsung",
+              "notes": "EmvMQdWGwgMgvg0sgEnQMTtCYwYXDNSzrgWdrrGEgCYq1DIQZqJIKUIjIiofSaOxIWoMfDLpu0g0DVUQJbnyLGskrS4Py1BjgId4WXfUXvOr2JsiNbgHUoNPVEhVGNp4b5L7MIHpEDqmYbBy33zQyuY2AxyJ281OkCkBHAY7JixiiY5wmAkuVFSGU6byVu0Cp7dugOfNbzFU9MFUUjD2v5wMxjaeYmHlTS7DBf0CreQ9c8zeDq6MCcuWyx",
+              "received": true
+            }
+          ],
+          "total_price": 38942,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Port Reynoldstad",
+              "street": "Wunsch Square",
+              "house": 428,
+              "flat": 5798
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:44:01.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69582e0f1c508c5d5e750f11",
+          "products": [
+            {
+              "_id": "69582e0f1c508c5d5e750f32",
+              "name": "Hat26389",
+              "amount": 310,
+              "price": 38942,
+              "manufacturer": "Samsung",
+              "notes": "EmvMQdWGwgMgvg0sgEnQMTtCYwYXDNSzrgWdrrGEgCYq1DIQZqJIKUIjIiofSaOxIWoMfDLpu0g0DVUQJbnyLGskrS4Py1BjgId4WXfUXvOr2JsiNbgHUoNPVEhVGNp4b5L7MIHpEDqmYbBy33zQyuY2AxyJ281OkCkBHAY7JixiiY5wmAkuVFSGU6byVu0Cp7dugOfNbzFU9MFUUjD2v5wMxjaeYmHlTS7DBf0CreQ9c8zeDq6MCcuWyx",
+              "received": false
+            }
+          ],
+          "total_price": 38942,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Port Reynoldstad",
+              "street": "Wunsch Square",
+              "house": 428,
+              "flat": 5798
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:44:00.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582e0f1c508c5d5e750f11",
+          "products": [
+            {
+              "_id": "69582e0f1c508c5d5e750f32",
+              "name": "Hat26389",
+              "amount": 310,
+              "price": 38942,
+              "manufacturer": "Samsung",
+              "notes": "EmvMQdWGwgMgvg0sgEnQMTtCYwYXDNSzrgWdrrGEgCYq1DIQZqJIKUIjIiofSaOxIWoMfDLpu0g0DVUQJbnyLGskrS4Py1BjgId4WXfUXvOr2JsiNbgHUoNPVEhVGNp4b5L7MIHpEDqmYbBy33zQyuY2AxyJ281OkCkBHAY7JixiiY5wmAkuVFSGU6byVu0Cp7dugOfNbzFU9MFUUjD2v5wMxjaeYmHlTS7DBf0CreQ9c8zeDq6MCcuWyx",
+              "received": false
+            }
+          ],
+          "total_price": 38942,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Port Reynoldstad",
+              "street": "Wunsch Square",
+              "house": 428,
+              "flat": 5798
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:44:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582e0f1c508c5d5e750f11",
+          "products": [
+            {
+              "_id": "69582e0f1c508c5d5e750f32",
+              "name": "Hat26389",
+              "amount": 310,
+              "price": 38942,
+              "manufacturer": "Samsung",
+              "notes": "EmvMQdWGwgMgvg0sgEnQMTtCYwYXDNSzrgWdrrGEgCYq1DIQZqJIKUIjIiofSaOxIWoMfDLpu0g0DVUQJbnyLGskrS4Py1BjgId4WXfUXvOr2JsiNbgHUoNPVEhVGNp4b5L7MIHpEDqmYbBy33zQyuY2AxyJ281OkCkBHAY7JixiiY5wmAkuVFSGU6byVu0Cp7dugOfNbzFU9MFUUjD2v5wMxjaeYmHlTS7DBf0CreQ9c8zeDq6MCcuWyx",
+              "received": false
+            }
+          ],
+          "total_price": 38942,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:44:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

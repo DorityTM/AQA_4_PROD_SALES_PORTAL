@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:47:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3679",
+    "etag": "W/\"e5f-Rl3tiYOed86H+KftZyIaeq2ZK7Y\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582ecb1c508c5d5e755365",
+      "status": "In Process",
+      "customer": {
+        "_id": "69582ecb1c508c5d5e75531f",
+        "email": "Emelie25@gmail.com",
+        "name": "Adolph Gleason",
+        "country": "Belarus",
+        "city": "South Jordan",
+        "street": "Pagac Skyway 59",
+        "house": 369,
+        "flat": 950,
+        "phone": "+039796579829570",
+        "createdOn": "2026-01-02T20:47:07.000Z",
+        "notes": "tfFLiQkTMmZL9LIpxdtndBo5zW6RCC"
+      },
+      "products": [
+        {
+          "_id": "69582ecb1c508c5d5e755338",
+          "name": "Shirt29623",
+          "amount": 483,
+          "price": 6793,
+          "manufacturer": "Tesla",
+          "notes": "FFYYVzMT7XhK5A1HCZr29gw6uLn19rEQrFKHcb8kElexdHik6Ca3KtnNsEFdSllaPDJMhmq1jTtpO1LmNE16UidJIiyqYyI3n9ErtRvGkFDP4XjoVMMAybfVyylGWMErBMGDql8hIBaDNX02mpeiMoRc0p9sxWjQIm1lGPvXR4dV12BtvrhzvbNrDblLixsd7lbjyNgfjpG0jNXVBFXGPOLNSbZzyQRv66AFCYL3AOMe7BoOtAm2vJ1xE8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "South Josianne",
+          "street": "Lockman Fields",
+          "house": 898,
+          "flat": 543
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 6793,
+      "createdOn": "2026-01-02T20:47:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69582ecb1c508c5d5e75531f",
+          "products": [
+            {
+              "_id": "69582ecb1c508c5d5e755338",
+              "name": "Shirt29623",
+              "amount": 483,
+              "price": 6793,
+              "manufacturer": "Tesla",
+              "notes": "FFYYVzMT7XhK5A1HCZr29gw6uLn19rEQrFKHcb8kElexdHik6Ca3KtnNsEFdSllaPDJMhmq1jTtpO1LmNE16UidJIiyqYyI3n9ErtRvGkFDP4XjoVMMAybfVyylGWMErBMGDql8hIBaDNX02mpeiMoRc0p9sxWjQIm1lGPvXR4dV12BtvrhzvbNrDblLixsd7lbjyNgfjpG0jNXVBFXGPOLNSbZzyQRv66AFCYL3AOMe7BoOtAm2vJ1xE8",
+              "received": false
+            }
+          ],
+          "total_price": 6793,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "South Josianne",
+              "street": "Lockman Fields",
+              "house": 898,
+              "flat": 543
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:47:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582ecb1c508c5d5e75531f",
+          "products": [
+            {
+              "_id": "69582ecb1c508c5d5e755338",
+              "name": "Shirt29623",
+              "amount": 483,
+              "price": 6793,
+              "manufacturer": "Tesla",
+              "notes": "FFYYVzMT7XhK5A1HCZr29gw6uLn19rEQrFKHcb8kElexdHik6Ca3KtnNsEFdSllaPDJMhmq1jTtpO1LmNE16UidJIiyqYyI3n9ErtRvGkFDP4XjoVMMAybfVyylGWMErBMGDql8hIBaDNX02mpeiMoRc0p9sxWjQIm1lGPvXR4dV12BtvrhzvbNrDblLixsd7lbjyNgfjpG0jNXVBFXGPOLNSbZzyQRv66AFCYL3AOMe7BoOtAm2vJ1xE8",
+              "received": false
+            }
+          ],
+          "total_price": 6793,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "South Josianne",
+              "street": "Lockman Fields",
+              "house": 898,
+              "flat": 543
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:47:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582ecb1c508c5d5e75531f",
+          "products": [
+            {
+              "_id": "69582ecb1c508c5d5e755338",
+              "name": "Shirt29623",
+              "amount": 483,
+              "price": 6793,
+              "manufacturer": "Tesla",
+              "notes": "FFYYVzMT7XhK5A1HCZr29gw6uLn19rEQrFKHcb8kElexdHik6Ca3KtnNsEFdSllaPDJMhmq1jTtpO1LmNE16UidJIiyqYyI3n9ErtRvGkFDP4XjoVMMAybfVyylGWMErBMGDql8hIBaDNX02mpeiMoRc0p9sxWjQIm1lGPvXR4dV12BtvrhzvbNrDblLixsd7lbjyNgfjpG0jNXVBFXGPOLNSbZzyQRv66AFCYL3AOMe7BoOtAm2vJ1xE8",
+              "received": false
+            }
+          ],
+          "total_price": 6793,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:47:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

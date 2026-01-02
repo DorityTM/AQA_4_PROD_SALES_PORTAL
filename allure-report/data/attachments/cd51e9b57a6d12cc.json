@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:48:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6518",
+    "etag": "W/\"1976-wKRpejLjVRjT6OhS4FK6AsDtuUw\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582f161c508c5d5e75779f",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "69582f151c508c5d5e757768",
+        "email": "Davion12@hotmail.com",
+        "name": "Jan Pagac",
+        "country": "Canada",
+        "city": "Fort Nelle",
+        "street": "Blick Parkways 11",
+        "house": 1,
+        "flat": 5065,
+        "phone": "+896269193243978",
+        "createdOn": "2026-01-02T20:48:21.000Z",
+        "notes": "fNS3w5vYm5xvDk2Tb5twkwlwGwvxxs"
+      },
+      "products": [
+        {
+          "_id": "69582f161c508c5d5e75777c",
+          "name": "Shirt58843",
+          "amount": 935,
+          "price": 59061,
+          "manufacturer": "Apple",
+          "notes": "eNjV31wzFQyfQGWfzLjWVCguP3UrGDhwaoBDqylvTYDonhSPADOvTf6BSqsYK1uwM9ulyRjx5j5lqkTSa1vFJhYfJb4ywipDlOv10JdYkG5HfCURfMpzsGsJ6PQD1eDPmqIcPUwxN8TQOAfL1iV93i4epHwvOD5OcLwyQUYj70cxpzgEZhK0Y08GyMG1vagNnoiMDYXNlBiHTJwYpt4z1zr6PH3dr4gETirJpIUhM6ZKruLdJlIoZCRUIq",
+          "received": true
+        },
+        {
+          "_id": "69582f161c508c5d5e75778b",
+          "name": "Sausages42438",
+          "amount": 19,
+          "price": 81261,
+          "manufacturer": "Google",
+          "notes": "335Ldt39HUAlKNGciT0rKptuBnviDPCz3Ct4AvX22m7lgb9fbY6NV4rAs0ZhTDseAENgesjXrLaOQj9FhmoD3U8TTUnpSGKYQVVV3WWBLlD0VEiUSZNWZRDjZaXrUhdZIRVoUKnqu0EZNFqMGAYH4vm8oxM0rUlSR5RDiw2nCcYhrl4GfL64bx6EEwSuUWA6oXa7OBxcpIa9HcKU5LxCE4PII3qRndnDITUYL7Q4p3w60I7DHqt2lHNGdF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "North Todhaven",
+          "street": "Funk Ford",
+          "house": 834,
+          "flat": 7470
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 140322,
+      "createdOn": "2026-01-02T20:48:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "69582f151c508c5d5e757768",
+          "products": [
+            {
+              "_id": "69582f161c508c5d5e75777c",
+              "name": "Shirt58843",
+              "amount": 935,
+              "price": 59061,
+              "manufacturer": "Apple",
+              "notes": "eNjV31wzFQyfQGWfzLjWVCguP3UrGDhwaoBDqylvTYDonhSPADOvTf6BSqsYK1uwM9ulyRjx5j5lqkTSa1vFJhYfJb4ywipDlOv10JdYkG5HfCURfMpzsGsJ6PQD1eDPmqIcPUwxN8TQOAfL1iV93i4epHwvOD5OcLwyQUYj70cxpzgEZhK0Y08GyMG1vagNnoiMDYXNlBiHTJwYpt4z1zr6PH3dr4gETirJpIUhM6ZKruLdJlIoZCRUIq",
+              "received": true
+            },
+            {
+              "_id": "69582f161c508c5d5e75778b",
+              "name": "Sausages42438",
+              "amount": 19,
+              "price": 81261,
+              "manufacturer": "Google",
+              "notes": "335Ldt39HUAlKNGciT0rKptuBnviDPCz3Ct4AvX22m7lgb9fbY6NV4rAs0ZhTDseAENgesjXrLaOQj9FhmoD3U8TTUnpSGKYQVVV3WWBLlD0VEiUSZNWZRDjZaXrUhdZIRVoUKnqu0EZNFqMGAYH4vm8oxM0rUlSR5RDiw2nCcYhrl4GfL64bx6EEwSuUWA6oXa7OBxcpIa9HcKU5LxCE4PII3qRndnDITUYL7Q4p3w60I7DHqt2lHNGdF",
+              "received": false
+            }
+          ],
+          "total_price": 140322,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Todhaven",
+              "street": "Funk Ford",
+              "house": 834,
+              "flat": 7470
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:48:24.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69582f151c508c5d5e757768",
+          "products": [
+            {
+              "_id": "69582f161c508c5d5e75777c",
+              "name": "Shirt58843",
+              "amount": 935,
+              "price": 59061,
+              "manufacturer": "Apple",
+              "notes": "eNjV31wzFQyfQGWfzLjWVCguP3UrGDhwaoBDqylvTYDonhSPADOvTf6BSqsYK1uwM9ulyRjx5j5lqkTSa1vFJhYfJb4ywipDlOv10JdYkG5HfCURfMpzsGsJ6PQD1eDPmqIcPUwxN8TQOAfL1iV93i4epHwvOD5OcLwyQUYj70cxpzgEZhK0Y08GyMG1vagNnoiMDYXNlBiHTJwYpt4z1zr6PH3dr4gETirJpIUhM6ZKruLdJlIoZCRUIq",
+              "received": false
+            },
+            {
+              "_id": "69582f161c508c5d5e75778b",
+              "name": "Sausages42438",
+              "amount": 19,
+              "price": 81261,
+              "manufacturer": "Google",
+              "notes": "335Ldt39HUAlKNGciT0rKptuBnviDPCz3Ct4AvX22m7lgb9fbY6NV4rAs0ZhTDseAENgesjXrLaOQj9FhmoD3U8TTUnpSGKYQVVV3WWBLlD0VEiUSZNWZRDjZaXrUhdZIRVoUKnqu0EZNFqMGAYH4vm8oxM0rUlSR5RDiw2nCcYhrl4GfL64bx6EEwSuUWA6oXa7OBxcpIa9HcKU5LxCE4PII3qRndnDITUYL7Q4p3w60I7DHqt2lHNGdF",
+              "received": false
+            }
+          ],
+          "total_price": 140322,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Todhaven",
+              "street": "Funk Ford",
+              "house": 834,
+              "flat": 7470
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:48:23.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582f151c508c5d5e757768",
+          "products": [
+            {
+              "_id": "69582f161c508c5d5e75777c",
+              "name": "Shirt58843",
+              "amount": 935,
+              "price": 59061,
+              "manufacturer": "Apple",
+              "notes": "eNjV31wzFQyfQGWfzLjWVCguP3UrGDhwaoBDqylvTYDonhSPADOvTf6BSqsYK1uwM9ulyRjx5j5lqkTSa1vFJhYfJb4ywipDlOv10JdYkG5HfCURfMpzsGsJ6PQD1eDPmqIcPUwxN8TQOAfL1iV93i4epHwvOD5OcLwyQUYj70cxpzgEZhK0Y08GyMG1vagNnoiMDYXNlBiHTJwYpt4z1zr6PH3dr4gETirJpIUhM6ZKruLdJlIoZCRUIq",
+              "received": false
+            },
+            {
+              "_id": "69582f161c508c5d5e75778b",
+              "name": "Sausages42438",
+              "amount": 19,
+              "price": 81261,
+              "manufacturer": "Google",
+              "notes": "335Ldt39HUAlKNGciT0rKptuBnviDPCz3Ct4AvX22m7lgb9fbY6NV4rAs0ZhTDseAENgesjXrLaOQj9FhmoD3U8TTUnpSGKYQVVV3WWBLlD0VEiUSZNWZRDjZaXrUhdZIRVoUKnqu0EZNFqMGAYH4vm8oxM0rUlSR5RDiw2nCcYhrl4GfL64bx6EEwSuUWA6oXa7OBxcpIa9HcKU5LxCE4PII3qRndnDITUYL7Q4p3w60I7DHqt2lHNGdF",
+              "received": false
+            }
+          ],
+          "total_price": 140322,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Todhaven",
+              "street": "Funk Ford",
+              "house": 834,
+              "flat": 7470
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:48:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582f151c508c5d5e757768",
+          "products": [
+            {
+              "_id": "69582f161c508c5d5e75777c",
+              "name": "Shirt58843",
+              "amount": 935,
+              "price": 59061,
+              "manufacturer": "Apple",
+              "notes": "eNjV31wzFQyfQGWfzLjWVCguP3UrGDhwaoBDqylvTYDonhSPADOvTf6BSqsYK1uwM9ulyRjx5j5lqkTSa1vFJhYfJb4ywipDlOv10JdYkG5HfCURfMpzsGsJ6PQD1eDPmqIcPUwxN8TQOAfL1iV93i4epHwvOD5OcLwyQUYj70cxpzgEZhK0Y08GyMG1vagNnoiMDYXNlBiHTJwYpt4z1zr6PH3dr4gETirJpIUhM6ZKruLdJlIoZCRUIq",
+              "received": false
+            },
+            {
+              "_id": "69582f161c508c5d5e75778b",
+              "name": "Sausages42438",
+              "amount": 19,
+              "price": 81261,
+              "manufacturer": "Google",
+              "notes": "335Ldt39HUAlKNGciT0rKptuBnviDPCz3Ct4AvX22m7lgb9fbY6NV4rAs0ZhTDseAENgesjXrLaOQj9FhmoD3U8TTUnpSGKYQVVV3WWBLlD0VEiUSZNWZRDjZaXrUhdZIRVoUKnqu0EZNFqMGAYH4vm8oxM0rUlSR5RDiw2nCcYhrl4GfL64bx6EEwSuUWA6oXa7OBxcpIa9HcKU5LxCE4PII3qRndnDITUYL7Q4p3w60I7DHqt2lHNGdF",
+              "received": false
+            }
+          ],
+          "total_price": 140322,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:48:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

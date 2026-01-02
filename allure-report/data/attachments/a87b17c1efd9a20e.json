@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:42:42 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4604",
+    "etag": "W/\"11fc-J71C70XyDNeGEZhkZxdbFT36C3w\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582dc11c508c5d5e74ec24",
+      "status": "Received",
+      "customer": {
+        "_id": "69582dc01c508c5d5e74ebf8",
+        "email": "Henderson.Christiansen26@gmail.com",
+        "name": "Kevin Becker",
+        "country": "Ukraine",
+        "city": "Greensboro",
+        "street": "Leuschke Orchard 74",
+        "house": 132,
+        "flat": 1949,
+        "phone": "+569936098660735",
+        "createdOn": "2026-01-02T20:42:40.000Z",
+        "notes": "flTgzMVZcMQTTnUPngkIc44Qou5RG5"
+      },
+      "products": [
+        {
+          "_id": "69582dc11c508c5d5e74ec08",
+          "name": "Car69674",
+          "amount": 708,
+          "price": 30859,
+          "manufacturer": "Apple",
+          "notes": "cnFsr88MIqH8OLRGAVZkrAc0E7E5bnW9rmAfzCCOyKUmUFapOXq0Tmtcybt66OcBVQOp9sArUVLlbWv1oplBSx7y2cv8AeaKayKrx0Bl39VfzJxKHNO9koK5hDew4pzqq7BDDPv4yVx2LGLEqhI99Y0I3yoMwDd2I7EV851fREuhQg1HMohOWxQE2oxCv0m9SdANeGDJcqdXzZXVfXj4NBARf2C4b2avr2nKuWZuoihR6re6Tw6fvixQTJ",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "West Kaciton",
+          "street": "Weissnat Row",
+          "house": 381,
+          "flat": 7266
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 30859,
+      "createdOn": "2026-01-02T20:42:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69582dc01c508c5d5e74ebf8",
+          "products": [
+            {
+              "_id": "69582dc11c508c5d5e74ec08",
+              "name": "Car69674",
+              "amount": 708,
+              "price": 30859,
+              "manufacturer": "Apple",
+              "notes": "cnFsr88MIqH8OLRGAVZkrAc0E7E5bnW9rmAfzCCOyKUmUFapOXq0Tmtcybt66OcBVQOp9sArUVLlbWv1oplBSx7y2cv8AeaKayKrx0Bl39VfzJxKHNO9koK5hDew4pzqq7BDDPv4yVx2LGLEqhI99Y0I3yoMwDd2I7EV851fREuhQg1HMohOWxQE2oxCv0m9SdANeGDJcqdXzZXVfXj4NBARf2C4b2avr2nKuWZuoihR6re6Tw6fvixQTJ",
+              "received": true
+            }
+          ],
+          "total_price": 30859,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Kaciton",
+              "street": "Weissnat Row",
+              "house": 381,
+              "flat": 7266
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:42:42.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69582dc01c508c5d5e74ebf8",
+          "products": [
+            {
+              "_id": "69582dc11c508c5d5e74ec08",
+              "name": "Car69674",
+              "amount": 708,
+              "price": 30859,
+              "manufacturer": "Apple",
+              "notes": "cnFsr88MIqH8OLRGAVZkrAc0E7E5bnW9rmAfzCCOyKUmUFapOXq0Tmtcybt66OcBVQOp9sArUVLlbWv1oplBSx7y2cv8AeaKayKrx0Bl39VfzJxKHNO9koK5hDew4pzqq7BDDPv4yVx2LGLEqhI99Y0I3yoMwDd2I7EV851fREuhQg1HMohOWxQE2oxCv0m9SdANeGDJcqdXzZXVfXj4NBARf2C4b2avr2nKuWZuoihR6re6Tw6fvixQTJ",
+              "received": false
+            }
+          ],
+          "total_price": 30859,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Kaciton",
+              "street": "Weissnat Row",
+              "house": 381,
+              "flat": 7266
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:42:42.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582dc01c508c5d5e74ebf8",
+          "products": [
+            {
+              "_id": "69582dc11c508c5d5e74ec08",
+              "name": "Car69674",
+              "amount": 708,
+              "price": 30859,
+              "manufacturer": "Apple",
+              "notes": "cnFsr88MIqH8OLRGAVZkrAc0E7E5bnW9rmAfzCCOyKUmUFapOXq0Tmtcybt66OcBVQOp9sArUVLlbWv1oplBSx7y2cv8AeaKayKrx0Bl39VfzJxKHNO9koK5hDew4pzqq7BDDPv4yVx2LGLEqhI99Y0I3yoMwDd2I7EV851fREuhQg1HMohOWxQE2oxCv0m9SdANeGDJcqdXzZXVfXj4NBARf2C4b2avr2nKuWZuoihR6re6Tw6fvixQTJ",
+              "received": false
+            }
+          ],
+          "total_price": 30859,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Kaciton",
+              "street": "Weissnat Row",
+              "house": 381,
+              "flat": 7266
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:42:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582dc01c508c5d5e74ebf8",
+          "products": [
+            {
+              "_id": "69582dc11c508c5d5e74ec08",
+              "name": "Car69674",
+              "amount": 708,
+              "price": 30859,
+              "manufacturer": "Apple",
+              "notes": "cnFsr88MIqH8OLRGAVZkrAc0E7E5bnW9rmAfzCCOyKUmUFapOXq0Tmtcybt66OcBVQOp9sArUVLlbWv1oplBSx7y2cv8AeaKayKrx0Bl39VfzJxKHNO9koK5hDew4pzqq7BDDPv4yVx2LGLEqhI99Y0I3yoMwDd2I7EV851fREuhQg1HMohOWxQE2oxCv0m9SdANeGDJcqdXzZXVfXj4NBARf2C4b2avr2nKuWZuoihR6re6Tw6fvixQTJ",
+              "received": false
+            }
+          ],
+          "total_price": 30859,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:42:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

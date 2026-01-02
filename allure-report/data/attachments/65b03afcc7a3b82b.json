@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:43:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-VET9YmNDV9rELVJpycwU1xBsLRY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582e081c508c5d5e750b7a",
+      "status": "In Process",
+      "customer": {
+        "_id": "69582e071c508c5d5e750b2a",
+        "email": "Eugenia_Pollich@hotmail.com",
+        "name": "Bill Crooks",
+        "country": "Canada",
+        "city": "Hartford",
+        "street": "Springfield Close 17",
+        "house": 251,
+        "flat": 5239,
+        "phone": "+629960719928333",
+        "createdOn": "2026-01-02T20:43:51.000Z",
+        "notes": "WxGlbTmc9tAjQJxwYL7HaKgMpWSZaJ"
+      },
+      "products": [
+        {
+          "_id": "69582e071c508c5d5e750b67",
+          "name": "Bacon74179",
+          "amount": 203,
+          "price": 98158,
+          "manufacturer": "Sony",
+          "notes": "zNxvZLv6O6uGcvsdwkZQWew8ggPrSwZEcq6y16gW86l71V21PbNKqjDSQuxsPaxIBil69urEFDoKXw2nadXJhbGzZDUb1anxFwfAoLDBwAwAis7sGbekBofaOWb9R4ibsXVSfoUk6TAMqIsNAj8rfyWkLfBBuspnNpwjCSXGFPk2PZeiAag4BrNMC5nmfiqUmG9iKCeRc7Iv71ZZMNc16LpF60apdUa2RiyAFfQdUpvMvwsdC9AABlOsC1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Goodwinshire",
+          "street": "Botsford Parkway",
+          "house": 738,
+          "flat": 920
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98158,
+      "createdOn": "2026-01-02T20:43:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69582e071c508c5d5e750b2a",
+          "products": [
+            {
+              "_id": "69582e071c508c5d5e750b67",
+              "name": "Bacon74179",
+              "amount": 203,
+              "price": 98158,
+              "manufacturer": "Sony",
+              "notes": "zNxvZLv6O6uGcvsdwkZQWew8ggPrSwZEcq6y16gW86l71V21PbNKqjDSQuxsPaxIBil69urEFDoKXw2nadXJhbGzZDUb1anxFwfAoLDBwAwAis7sGbekBofaOWb9R4ibsXVSfoUk6TAMqIsNAj8rfyWkLfBBuspnNpwjCSXGFPk2PZeiAag4BrNMC5nmfiqUmG9iKCeRc7Iv71ZZMNc16LpF60apdUa2RiyAFfQdUpvMvwsdC9AABlOsC1",
+              "received": false
+            }
+          ],
+          "total_price": 98158,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Goodwinshire",
+              "street": "Botsford Parkway",
+              "house": 738,
+              "flat": 920
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:43:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582e071c508c5d5e750b2a",
+          "products": [
+            {
+              "_id": "69582e071c508c5d5e750b67",
+              "name": "Bacon74179",
+              "amount": 203,
+              "price": 98158,
+              "manufacturer": "Sony",
+              "notes": "zNxvZLv6O6uGcvsdwkZQWew8ggPrSwZEcq6y16gW86l71V21PbNKqjDSQuxsPaxIBil69urEFDoKXw2nadXJhbGzZDUb1anxFwfAoLDBwAwAis7sGbekBofaOWb9R4ibsXVSfoUk6TAMqIsNAj8rfyWkLfBBuspnNpwjCSXGFPk2PZeiAag4BrNMC5nmfiqUmG9iKCeRc7Iv71ZZMNc16LpF60apdUa2RiyAFfQdUpvMvwsdC9AABlOsC1",
+              "received": false
+            }
+          ],
+          "total_price": 98158,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Goodwinshire",
+              "street": "Botsford Parkway",
+              "house": 738,
+              "flat": 920
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:43:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582e071c508c5d5e750b2a",
+          "products": [
+            {
+              "_id": "69582e071c508c5d5e750b67",
+              "name": "Bacon74179",
+              "amount": 203,
+              "price": 98158,
+              "manufacturer": "Sony",
+              "notes": "zNxvZLv6O6uGcvsdwkZQWew8ggPrSwZEcq6y16gW86l71V21PbNKqjDSQuxsPaxIBil69urEFDoKXw2nadXJhbGzZDUb1anxFwfAoLDBwAwAis7sGbekBofaOWb9R4ibsXVSfoUk6TAMqIsNAj8rfyWkLfBBuspnNpwjCSXGFPk2PZeiAag4BrNMC5nmfiqUmG9iKCeRc7Iv71ZZMNc16LpF60apdUa2RiyAFfQdUpvMvwsdC9AABlOsC1",
+              "received": false
+            }
+          ],
+          "total_price": 98158,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:43:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Fri, 02 Jan 2026 20:48:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2739",
+    "etag": "W/\"ab3-R6cH++6IU3DDpkqt+g+/WwPZfow\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69582eff1c508c5d5e756c58",
+      "status": "Draft",
+      "customer": {
+        "_id": "69582eff1c508c5d5e756c1f",
+        "email": "Lacey.Mohr56@hotmail.com",
+        "name": "Carolyn Moore",
+        "country": "Belarus",
+        "city": "Kreigerfort",
+        "street": "Lincoln Road 13",
+        "house": 70,
+        "flat": 6549,
+        "phone": "+303118522631855",
+        "createdOn": "2026-01-02T20:47:59.000Z",
+        "notes": "WTRxVX9mwduXk05TmN3bHbiVOjeUd5"
+      },
+      "products": [
+        {
+          "_id": "69582eff1c508c5d5e756c39",
+          "name": "Gloves40963",
+          "amount": 403,
+          "price": 53117,
+          "manufacturer": "Sony",
+          "notes": "JtNFkiOO5FEYvnCcTBq3g3QmRzF8wuUlJGOstSYDzRMuG5in7EjaeBtweReXwFMrb3wIOhPY8WpEtVaAJACpBMChgSEq1awvRAwmy06G4nGpuIHzqpCViduhAYInXoUPwj7Zer7JYy9FTIRFeTIk0HPfL5h84jbPBs8eBzgsYRFT9B0b5cp2RjO1Da0Bu859eZuqUsdvG1rwuXIfUg0t51Nng6krufiohRd4lXkumlUsVAB0D20CeburgI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Hickleberg",
+          "street": "S Elm Street",
+          "house": 672,
+          "flat": 4767
+        },
+        "finalDate": "2026-01-09T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53117,
+      "createdOn": "2026-01-02T20:47:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69582eff1c508c5d5e756c1f",
+          "products": [
+            {
+              "_id": "69582eff1c508c5d5e756c39",
+              "name": "Gloves40963",
+              "amount": 403,
+              "price": 53117,
+              "manufacturer": "Sony",
+              "notes": "JtNFkiOO5FEYvnCcTBq3g3QmRzF8wuUlJGOstSYDzRMuG5in7EjaeBtweReXwFMrb3wIOhPY8WpEtVaAJACpBMChgSEq1awvRAwmy06G4nGpuIHzqpCViduhAYInXoUPwj7Zer7JYy9FTIRFeTIk0HPfL5h84jbPBs8eBzgsYRFT9B0b5cp2RjO1Da0Bu859eZuqUsdvG1rwuXIfUg0t51Nng6krufiohRd4lXkumlUsVAB0D20CeburgI",
+              "received": false
+            }
+          ],
+          "total_price": 53117,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Hickleberg",
+              "street": "S Elm Street",
+              "house": 672,
+              "flat": 4767
+            },
+            "finalDate": "2026-01-09T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-02T20:48:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69582eff1c508c5d5e756c1f",
+          "products": [
+            {
+              "_id": "69582eff1c508c5d5e756c39",
+              "name": "Gloves40963",
+              "amount": 403,
+              "price": 53117,
+              "manufacturer": "Sony",
+              "notes": "JtNFkiOO5FEYvnCcTBq3g3QmRzF8wuUlJGOstSYDzRMuG5in7EjaeBtweReXwFMrb3wIOhPY8WpEtVaAJACpBMChgSEq1awvRAwmy06G4nGpuIHzqpCViduhAYInXoUPwj7Zer7JYy9FTIRFeTIk0HPfL5h84jbPBs8eBzgsYRFT9B0b5cp2RjO1Da0Bu859eZuqUsdvG1rwuXIfUg0t51Nng6krufiohRd4lXkumlUsVAB0D20CeburgI",
+              "received": false
+            }
+          ],
+          "total_price": 53117,
+          "delivery": null,
+          "changedOn": "2026-01-02T20:47:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
