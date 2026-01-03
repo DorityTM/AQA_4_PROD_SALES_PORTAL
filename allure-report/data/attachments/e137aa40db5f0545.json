@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:45:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2745",
+    "etag": "W/\"ab9-ykF0r82JaMMAQIh/Wd1oZVssvV0\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69592b731c508c5d5e8ce0a2",
+      "status": "Draft",
+      "customer": {
+        "_id": "69592b641c508c5d5e8cded9",
+        "email": "Stuart86@gmail.com",
+        "name": "Eden Thompson",
+        "country": "France",
+        "city": "Haydencester",
+        "street": "Melissa Street 94",
+        "house": 469,
+        "flat": 9076,
+        "phone": "+097855145216981",
+        "createdOn": "2026-01-03T14:44:52.000Z",
+        "notes": "lZaQlWt7Pry6IEDcqUMHW1lZRl0NPW"
+      },
+      "products": [
+        {
+          "_id": "69592b721c508c5d5e8ce04d",
+          "name": "Salad85419",
+          "amount": 712,
+          "price": 18788,
+          "manufacturer": "Google",
+          "notes": "r0F7oM5jF9I3MgaRxaYPlCdx6QFBRAIavUbhWjBuRl3SBy2ECSUp4VVGfIuD8XQtEjI0wuhbVGcb8bxQKdxsOy6qxSaIpbunxhwg5mH8mOkJ3kHNUlxtvUbRrgmHFjxeIFtkJWpw25FhaZ1e7mCORkzRT6yXT8fboQdlhx0DBE6wa71eRjim7ne2F7IlzIEUtsvfaVfOuqxDuisPxbw8QbLkMzXgit3eSpI9o7gILGGogkfbgxhO31KBap",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Durganshire",
+          "street": "Sandy Lane",
+          "house": 854,
+          "flat": 7470
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 18788,
+      "createdOn": "2026-01-03T14:45:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592b641c508c5d5e8cded9",
+          "products": [
+            {
+              "_id": "69592b721c508c5d5e8ce04d",
+              "name": "Salad85419",
+              "amount": 712,
+              "price": 18788,
+              "manufacturer": "Google",
+              "notes": "r0F7oM5jF9I3MgaRxaYPlCdx6QFBRAIavUbhWjBuRl3SBy2ECSUp4VVGfIuD8XQtEjI0wuhbVGcb8bxQKdxsOy6qxSaIpbunxhwg5mH8mOkJ3kHNUlxtvUbRrgmHFjxeIFtkJWpw25FhaZ1e7mCORkzRT6yXT8fboQdlhx0DBE6wa71eRjim7ne2F7IlzIEUtsvfaVfOuqxDuisPxbw8QbLkMzXgit3eSpI9o7gILGGogkfbgxhO31KBap",
+              "received": false
+            }
+          ],
+          "total_price": 18788,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Durganshire",
+              "street": "Sandy Lane",
+              "house": 854,
+              "flat": 7470
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:45:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592b641c508c5d5e8cded9",
+          "products": [
+            {
+              "_id": "69592b721c508c5d5e8ce04d",
+              "name": "Salad85419",
+              "amount": 712,
+              "price": 18788,
+              "manufacturer": "Google",
+              "notes": "r0F7oM5jF9I3MgaRxaYPlCdx6QFBRAIavUbhWjBuRl3SBy2ECSUp4VVGfIuD8XQtEjI0wuhbVGcb8bxQKdxsOy6qxSaIpbunxhwg5mH8mOkJ3kHNUlxtvUbRrgmHFjxeIFtkJWpw25FhaZ1e7mCORkzRT6yXT8fboQdlhx0DBE6wa71eRjim7ne2F7IlzIEUtsvfaVfOuqxDuisPxbw8QbLkMzXgit3eSpI9o7gILGGogkfbgxhO31KBap",
+              "received": false
+            }
+          ],
+          "total_price": 18788,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:45:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

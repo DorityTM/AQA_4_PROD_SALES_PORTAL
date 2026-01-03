@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:38:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2759",
+    "etag": "W/\"ac7-/QRPuOO9sTNXgKsCfYWtMiq0T4I\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695929c91c508c5d5e8c8763",
+      "status": "Draft",
+      "customer": {
+        "_id": "695929c41c508c5d5e8c85c4",
+        "email": "Kiana.Turcotte@hotmail.com",
+        "name": "Esteban Block",
+        "country": "France",
+        "city": "Nyahboro",
+        "street": "Maggio Expressway 22",
+        "house": 558,
+        "flat": 957,
+        "phone": "+791005467894509",
+        "createdOn": "2026-01-03T14:37:56.000Z",
+        "notes": "NaIWZfOjAuffsxwK0wC3EC8WpUsqF5"
+      },
+      "products": [
+        {
+          "_id": "695929c91c508c5d5e8c875b",
+          "name": "Car89374",
+          "amount": 34,
+          "price": 37524,
+          "manufacturer": "Microsoft",
+          "notes": "y2Eg1iMVUufBaoYsAGYOcSv2Kg4oFX6Vpwt2vr9de2zkIikF6ePbHiEVRNkHdVOsAmYil00Tmg8fyvINiIhUkkhz5ooHdNsJzBUBOftT427H8xrPLqUd5GznGZp1pjgHHr8ronPvL6uHilFnLp3g2QGzYhlHxrG9CjjShWENFploYzT8ub6n8MW32Rg0Eg9AX96JzV6qSCTnjpmBLIJRAUvEAi8b39iEoIhVDxWVe0QluBwv5YCQNj3RNr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "St Charles",
+          "street": "McKenzie Plains",
+          "house": 833,
+          "flat": 7055
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 37524,
+      "createdOn": "2026-01-03T14:38:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695929c41c508c5d5e8c85c4",
+          "products": [
+            {
+              "_id": "695929c91c508c5d5e8c875b",
+              "name": "Car89374",
+              "amount": 34,
+              "price": 37524,
+              "manufacturer": "Microsoft",
+              "notes": "y2Eg1iMVUufBaoYsAGYOcSv2Kg4oFX6Vpwt2vr9de2zkIikF6ePbHiEVRNkHdVOsAmYil00Tmg8fyvINiIhUkkhz5ooHdNsJzBUBOftT427H8xrPLqUd5GznGZp1pjgHHr8ronPvL6uHilFnLp3g2QGzYhlHxrG9CjjShWENFploYzT8ub6n8MW32Rg0Eg9AX96JzV6qSCTnjpmBLIJRAUvEAi8b39iEoIhVDxWVe0QluBwv5YCQNj3RNr",
+              "received": false
+            }
+          ],
+          "total_price": 37524,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "St Charles",
+              "street": "McKenzie Plains",
+              "house": 833,
+              "flat": 7055
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:38:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695929c41c508c5d5e8c85c4",
+          "products": [
+            {
+              "_id": "695929c91c508c5d5e8c875b",
+              "name": "Car89374",
+              "amount": 34,
+              "price": 37524,
+              "manufacturer": "Microsoft",
+              "notes": "y2Eg1iMVUufBaoYsAGYOcSv2Kg4oFX6Vpwt2vr9de2zkIikF6ePbHiEVRNkHdVOsAmYil00Tmg8fyvINiIhUkkhz5ooHdNsJzBUBOftT427H8xrPLqUd5GznGZp1pjgHHr8ronPvL6uHilFnLp3g2QGzYhlHxrG9CjjShWENFploYzT8ub6n8MW32Rg0Eg9AX96JzV6qSCTnjpmBLIJRAUvEAi8b39iEoIhVDxWVe0QluBwv5YCQNj3RNr",
+              "received": false
+            }
+          ],
+          "total_price": 37524,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:38:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

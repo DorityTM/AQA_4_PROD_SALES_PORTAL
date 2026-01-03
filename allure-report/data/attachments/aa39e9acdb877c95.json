@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:35:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2765",
+    "etag": "W/\"acd-7XEciHKlT1SA4coNQvsGsu81/X8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695929421c508c5d5e8c6e09",
+      "status": "Draft",
+      "customer": {
+        "_id": "6959293c1c508c5d5e8c6c5f",
+        "email": "Demarco85@gmail.com",
+        "name": "Arno Greenholt",
+        "country": "Canada",
+        "city": "Lake Friedaburgh",
+        "street": "Carlo Manors 15",
+        "house": 805,
+        "flat": 6649,
+        "phone": "+973415159134021",
+        "createdOn": "2026-01-03T14:35:40.000Z",
+        "notes": "Jny1MLA4rlE0vxcbLqoJmd0bxtQj01"
+      },
+      "products": [
+        {
+          "_id": "695929421c508c5d5e8c6df5",
+          "name": "Pants11779",
+          "amount": 948,
+          "price": 19625,
+          "manufacturer": "Xiaomi",
+          "notes": "dLrTod8qYS01BbgpOvAduGViPAKmTorMKI8eN8YFF0hf1231C47MlXs9GhAbZyA3a0Pd5LmfnXGqYi6uUIXcqz19k57a3kORErAmKsmGo4piRjCrffZ0HZnHksNxrlkzg9peeT5LIPimftgYQxgwbeo0a5HUhhnoPfdqqKr9H0bgy1OnxpJEOXmRESynKqUa9Dy3Q6kOrOyJ4AetZvhbBpGwOByLcy0anTLZUWFz5pd6P2hMTPEFSyiXMP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "South Treverland",
+          "street": "Low Road",
+          "house": 31,
+          "flat": 5616
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 19625,
+      "createdOn": "2026-01-03T14:35:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959293c1c508c5d5e8c6c5f",
+          "products": [
+            {
+              "_id": "695929421c508c5d5e8c6df5",
+              "name": "Pants11779",
+              "amount": 948,
+              "price": 19625,
+              "manufacturer": "Xiaomi",
+              "notes": "dLrTod8qYS01BbgpOvAduGViPAKmTorMKI8eN8YFF0hf1231C47MlXs9GhAbZyA3a0Pd5LmfnXGqYi6uUIXcqz19k57a3kORErAmKsmGo4piRjCrffZ0HZnHksNxrlkzg9peeT5LIPimftgYQxgwbeo0a5HUhhnoPfdqqKr9H0bgy1OnxpJEOXmRESynKqUa9Dy3Q6kOrOyJ4AetZvhbBpGwOByLcy0anTLZUWFz5pd6P2hMTPEFSyiXMP",
+              "received": false
+            }
+          ],
+          "total_price": 19625,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Treverland",
+              "street": "Low Road",
+              "house": 31,
+              "flat": 5616
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:35:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959293c1c508c5d5e8c6c5f",
+          "products": [
+            {
+              "_id": "695929421c508c5d5e8c6df5",
+              "name": "Pants11779",
+              "amount": 948,
+              "price": 19625,
+              "manufacturer": "Xiaomi",
+              "notes": "dLrTod8qYS01BbgpOvAduGViPAKmTorMKI8eN8YFF0hf1231C47MlXs9GhAbZyA3a0Pd5LmfnXGqYi6uUIXcqz19k57a3kORErAmKsmGo4piRjCrffZ0HZnHksNxrlkzg9peeT5LIPimftgYQxgwbeo0a5HUhhnoPfdqqKr9H0bgy1OnxpJEOXmRESynKqUa9Dy3Q6kOrOyJ4AetZvhbBpGwOByLcy0anTLZUWFz5pd6P2hMTPEFSyiXMP",
+              "received": false
+            }
+          ],
+          "total_price": 19625,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:35:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

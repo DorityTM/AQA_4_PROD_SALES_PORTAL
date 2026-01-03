@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:34:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2749",
+    "etag": "W/\"abd-f+WZsCUcGU0xzALgaIuyzJ4NMT4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695928dc1c508c5d5e8c5a66",
+      "status": "Draft",
+      "customer": {
+        "_id": "695928d31c508c5d5e8c5877",
+        "email": "Ray_West26@yahoo.com",
+        "name": "Emely Feil",
+        "country": "USA",
+        "city": "Watsicaberg",
+        "street": "E 10th Street 24",
+        "house": 747,
+        "flat": 7019,
+        "phone": "+185213099576163",
+        "createdOn": "2026-01-03T14:33:55.000Z",
+        "notes": "VUa2vvOASPFofwRFteP1dEl3BVBCoa"
+      },
+      "products": [
+        {
+          "_id": "695928db1c508c5d5e8c5a42",
+          "name": "Bike95804",
+          "amount": 445,
+          "price": 14327,
+          "manufacturer": "Tesla",
+          "notes": "8DO67kyEaAFlzucCGwf6EWAjFKsv0uVjW6uwyqLBld6WCDNt3bs5dnazPHDTYe5shNCdi32aJUSfrPV2vAa3gPjHtPCRWMQpA1yTK0EroTykNJ7lv1BI8iXwFJyazycDvEZ6dwPiNFX2XI6YfiP1O7wA7m2cHA4cHAGAqUprSd6KfrgXFR9pYfrWUAcUBxzsMHUqVqLmHVvtEagC65eYaYc2mwqgcTMs77K9231LEI0c10F84tjsNXqntu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Reginaldmouth",
+          "street": "Rodrick Ways",
+          "house": 572,
+          "flat": 552
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 14327,
+      "createdOn": "2026-01-03T14:34:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695928d31c508c5d5e8c5877",
+          "products": [
+            {
+              "_id": "695928db1c508c5d5e8c5a42",
+              "name": "Bike95804",
+              "amount": 445,
+              "price": 14327,
+              "manufacturer": "Tesla",
+              "notes": "8DO67kyEaAFlzucCGwf6EWAjFKsv0uVjW6uwyqLBld6WCDNt3bs5dnazPHDTYe5shNCdi32aJUSfrPV2vAa3gPjHtPCRWMQpA1yTK0EroTykNJ7lv1BI8iXwFJyazycDvEZ6dwPiNFX2XI6YfiP1O7wA7m2cHA4cHAGAqUprSd6KfrgXFR9pYfrWUAcUBxzsMHUqVqLmHVvtEagC65eYaYc2mwqgcTMs77K9231LEI0c10F84tjsNXqntu",
+              "received": false
+            }
+          ],
+          "total_price": 14327,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Reginaldmouth",
+              "street": "Rodrick Ways",
+              "house": 572,
+              "flat": 552
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:34:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695928d31c508c5d5e8c5877",
+          "products": [
+            {
+              "_id": "695928db1c508c5d5e8c5a42",
+              "name": "Bike95804",
+              "amount": 445,
+              "price": 14327,
+              "manufacturer": "Tesla",
+              "notes": "8DO67kyEaAFlzucCGwf6EWAjFKsv0uVjW6uwyqLBld6WCDNt3bs5dnazPHDTYe5shNCdi32aJUSfrPV2vAa3gPjHtPCRWMQpA1yTK0EroTykNJ7lv1BI8iXwFJyazycDvEZ6dwPiNFX2XI6YfiP1O7wA7m2cHA4cHAGAqUprSd6KfrgXFR9pYfrWUAcUBxzsMHUqVqLmHVvtEagC65eYaYc2mwqgcTMs77K9231LEI0c10F84tjsNXqntu",
+              "received": false
+            }
+          ],
+          "total_price": 14327,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:34:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

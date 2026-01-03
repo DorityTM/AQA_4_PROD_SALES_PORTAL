@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:14:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3653",
+    "etag": "W/\"e45-8wblOzSSwukiCs5p5QOm4G1fn9Y\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695924271c508c5d5e8b154f",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6959241c1c508c5d5e8b1163",
+        "email": "Ervin.Schuppe@yahoo.com",
+        "name": "Jillian Brown",
+        "country": "France",
+        "city": "Anissaport",
+        "street": "Abbey Road 54",
+        "house": 312,
+        "flat": 7747,
+        "phone": "+828922869757632",
+        "createdOn": "2026-01-03T14:13:48.000Z",
+        "notes": "6jrC7taCNeQAJQCc7bg7HOa0SSI2kg"
+      },
+      "products": [
+        {
+          "_id": "695924271c508c5d5e8b147c",
+          "name": "Hat2913",
+          "amount": 582,
+          "price": 48353,
+          "manufacturer": "Amazon",
+          "notes": "fbEJRM4g4lZVeZqD0FBsPKASW2Qkcti7Kb3EhCP7FQYd23eowMZbclCgITYowQUW8XSN4X9wiY931QlzBYq3qhaNZYUCzqfFH3TpZjrW04S4QGE79zJ6ACFApKg1u4DHa6lTn2WsiGWNQaoJfVEvItwg0V9JMvZ2MJk6bLSb6fiNdTKBEpSxiQYsv07z80M5Eqlpwo0qc2tGIRVGnQ9105am8HoF3ypN4SeBLQBUjZieHQexG2qVdrE3IS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Darronborough",
+          "street": "Marsh Lane",
+          "house": 331,
+          "flat": 3385
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 48353,
+      "createdOn": "2026-01-03T14:13:59.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6959241c1c508c5d5e8b1163",
+          "products": [
+            {
+              "_id": "695924271c508c5d5e8b147c",
+              "name": "Hat2913",
+              "amount": 582,
+              "price": 48353,
+              "manufacturer": "Amazon",
+              "notes": "fbEJRM4g4lZVeZqD0FBsPKASW2Qkcti7Kb3EhCP7FQYd23eowMZbclCgITYowQUW8XSN4X9wiY931QlzBYq3qhaNZYUCzqfFH3TpZjrW04S4QGE79zJ6ACFApKg1u4DHa6lTn2WsiGWNQaoJfVEvItwg0V9JMvZ2MJk6bLSb6fiNdTKBEpSxiQYsv07z80M5Eqlpwo0qc2tGIRVGnQ9105am8HoF3ypN4SeBLQBUjZieHQexG2qVdrE3IS",
+              "received": false
+            }
+          ],
+          "total_price": 48353,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Darronborough",
+              "street": "Marsh Lane",
+              "house": 331,
+              "flat": 3385
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:14:00.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959241c1c508c5d5e8b1163",
+          "products": [
+            {
+              "_id": "695924271c508c5d5e8b147c",
+              "name": "Hat2913",
+              "amount": 582,
+              "price": 48353,
+              "manufacturer": "Amazon",
+              "notes": "fbEJRM4g4lZVeZqD0FBsPKASW2Qkcti7Kb3EhCP7FQYd23eowMZbclCgITYowQUW8XSN4X9wiY931QlzBYq3qhaNZYUCzqfFH3TpZjrW04S4QGE79zJ6ACFApKg1u4DHa6lTn2WsiGWNQaoJfVEvItwg0V9JMvZ2MJk6bLSb6fiNdTKBEpSxiQYsv07z80M5Eqlpwo0qc2tGIRVGnQ9105am8HoF3ypN4SeBLQBUjZieHQexG2qVdrE3IS",
+              "received": false
+            }
+          ],
+          "total_price": 48353,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Darronborough",
+              "street": "Marsh Lane",
+              "house": 331,
+              "flat": 3385
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:14:00.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959241c1c508c5d5e8b1163",
+          "products": [
+            {
+              "_id": "695924271c508c5d5e8b147c",
+              "name": "Hat2913",
+              "amount": 582,
+              "price": 48353,
+              "manufacturer": "Amazon",
+              "notes": "fbEJRM4g4lZVeZqD0FBsPKASW2Qkcti7Kb3EhCP7FQYd23eowMZbclCgITYowQUW8XSN4X9wiY931QlzBYq3qhaNZYUCzqfFH3TpZjrW04S4QGE79zJ6ACFApKg1u4DHa6lTn2WsiGWNQaoJfVEvItwg0V9JMvZ2MJk6bLSb6fiNdTKBEpSxiQYsv07z80M5Eqlpwo0qc2tGIRVGnQ9105am8HoF3ypN4SeBLQBUjZieHQexG2qVdrE3IS",
+              "received": false
+            }
+          ],
+          "total_price": 48353,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:13:59.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

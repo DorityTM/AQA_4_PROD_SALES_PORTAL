@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:14:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3689",
+    "etag": "W/\"e69-Kse0iXCxPWcXy4JnGTyti//zYYo\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695924551c508c5d5e8b2564",
+      "status": "In Process",
+      "customer": {
+        "_id": "6959244b1c508c5d5e8b228e",
+        "email": "Dave78@hotmail.com",
+        "name": "Cathy Torp",
+        "country": "USA",
+        "city": "Sporerland",
+        "street": "Mann Manor 55",
+        "house": 734,
+        "flat": 8743,
+        "phone": "+824956936198031",
+        "createdOn": "2026-01-03T14:14:35.000Z",
+        "notes": "y5A60tDspdl5OXhcs3E4Ytvxk3AEvY"
+      },
+      "products": [
+        {
+          "_id": "695924521c508c5d5e8b2531",
+          "name": "Bacon45465",
+          "amount": 280,
+          "price": 51655,
+          "manufacturer": "Microsoft",
+          "notes": "4q4SSjcEUsfgoyoJIbH6gdBkeKzaldZMFLnf6f4qH7Pqd7QNEWXENEZVvCFr4Xt7JkDCgyNGFdOo7mhe587ZCPwM7VYPGmYYI0bq4RfsVFd1TrMV7gU0wsNcbhfwdlpdryUMrHzCmw9p4ZhbdFn19GNdx8AR9vxqT7BlaYkdYTc1pGpbJBcme4aNHufRlyfV24c6jlKCjix8C9E8MRVbYmqHxhQgK2ItbqoU5riZHn0Q27HsqXdfkN8Lhn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Lake Alaina",
+          "street": "Bryce Causeway",
+          "house": 905,
+          "flat": 5884
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51655,
+      "createdOn": "2026-01-03T14:14:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6959244b1c508c5d5e8b228e",
+          "products": [
+            {
+              "_id": "695924521c508c5d5e8b2531",
+              "name": "Bacon45465",
+              "amount": 280,
+              "price": 51655,
+              "manufacturer": "Microsoft",
+              "notes": "4q4SSjcEUsfgoyoJIbH6gdBkeKzaldZMFLnf6f4qH7Pqd7QNEWXENEZVvCFr4Xt7JkDCgyNGFdOo7mhe587ZCPwM7VYPGmYYI0bq4RfsVFd1TrMV7gU0wsNcbhfwdlpdryUMrHzCmw9p4ZhbdFn19GNdx8AR9vxqT7BlaYkdYTc1pGpbJBcme4aNHufRlyfV24c6jlKCjix8C9E8MRVbYmqHxhQgK2ItbqoU5riZHn0Q27HsqXdfkN8Lhn",
+              "received": false
+            }
+          ],
+          "total_price": 51655,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Alaina",
+              "street": "Bryce Causeway",
+              "house": 905,
+              "flat": 5884
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:14:46.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959244b1c508c5d5e8b228e",
+          "products": [
+            {
+              "_id": "695924521c508c5d5e8b2531",
+              "name": "Bacon45465",
+              "amount": 280,
+              "price": 51655,
+              "manufacturer": "Microsoft",
+              "notes": "4q4SSjcEUsfgoyoJIbH6gdBkeKzaldZMFLnf6f4qH7Pqd7QNEWXENEZVvCFr4Xt7JkDCgyNGFdOo7mhe587ZCPwM7VYPGmYYI0bq4RfsVFd1TrMV7gU0wsNcbhfwdlpdryUMrHzCmw9p4ZhbdFn19GNdx8AR9vxqT7BlaYkdYTc1pGpbJBcme4aNHufRlyfV24c6jlKCjix8C9E8MRVbYmqHxhQgK2ItbqoU5riZHn0Q27HsqXdfkN8Lhn",
+              "received": false
+            }
+          ],
+          "total_price": 51655,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Lake Alaina",
+              "street": "Bryce Causeway",
+              "house": 905,
+              "flat": 5884
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:14:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959244b1c508c5d5e8b228e",
+          "products": [
+            {
+              "_id": "695924521c508c5d5e8b2531",
+              "name": "Bacon45465",
+              "amount": 280,
+              "price": 51655,
+              "manufacturer": "Microsoft",
+              "notes": "4q4SSjcEUsfgoyoJIbH6gdBkeKzaldZMFLnf6f4qH7Pqd7QNEWXENEZVvCFr4Xt7JkDCgyNGFdOo7mhe587ZCPwM7VYPGmYYI0bq4RfsVFd1TrMV7gU0wsNcbhfwdlpdryUMrHzCmw9p4ZhbdFn19GNdx8AR9vxqT7BlaYkdYTc1pGpbJBcme4aNHufRlyfV24c6jlKCjix8C9E8MRVbYmqHxhQgK2ItbqoU5riZHn0Q27HsqXdfkN8Lhn",
+              "received": false
+            }
+          ],
+          "total_price": 51655,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:14:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

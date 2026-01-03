@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:13:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3895",
+    "etag": "W/\"f37-wTXF+lxwjqgWFjdMuFw2eaCe8sg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695924041c508c5d5e8b0808",
+      "status": "Draft",
+      "customer": {
+        "_id": "695923f01c508c5d5e8aff24",
+        "email": "Russel_Beer@gmail.com",
+        "name": "Kavon Halvorson",
+        "country": "USA",
+        "city": "Devynchester",
+        "street": "Rowena Stream 28",
+        "house": 908,
+        "flat": 9195,
+        "phone": "+917497075803836",
+        "createdOn": "2026-01-03T14:13:04.000Z",
+        "notes": "cBLZMc1QJvSwiN3bsgnzT5QSM1Crgm"
+      },
+      "products": [
+        {
+          "_id": "695923fa1c508c5d5e8b02d7",
+          "name": "Car29740",
+          "amount": 390,
+          "price": 6317,
+          "manufacturer": "Tesla",
+          "notes": "lK4cwP5q6bouqiMNia41vjcIjcpkI142CeZ3cCNIFLH2dlbzdLx8DMT1vXyPE9PC0CfQZG0aYlhp4WcotACQrYnEOqmdU8YXW9EplgZTXkjQ50VdeNJc088pMDWnu4VTO4ZC0aMjGlZOeudraeMaJn5Q59Lbpz3EsKFzBI3nrZZEqBDPthuwtYtmfSSorVDViLFxv5S5bKTvlnjA4qN3aZyY50NFIVClIqsfd0yaxMapwOU2gNKNBWFt8p",
+          "received": false
+        },
+        {
+          "_id": "695923ff1c508c5d5e8b07a1",
+          "name": "Towels80585",
+          "amount": 729,
+          "price": 68370,
+          "manufacturer": "Amazon",
+          "notes": "fJilCQMl9s4wq4KOtiU8lf1BuIC3kvijnUdqIRUn1MdJgiD4deuHjOenEfWI8CHxXACKCJ5Pt7vEN6dix73rIqOJLu0NIjM6CRTntbhY16WrAKSO1bjZpA6TwIVaui4kzJ9Ow0Cj3yq3h4Kw6i3mzrnrXNEnbJEAJuTFqA3h036SWxna5DcDFc2D7wRitYZxd5mAIzyNFZvjhi76W85Htmdkzhju28A2bLtVhXir7vf4Tg0sstBxVNEfJc",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Rowenastad",
+          "street": "Old State Road",
+          "house": 779,
+          "flat": 2402
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 74687,
+      "createdOn": "2026-01-03T14:13:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695923f01c508c5d5e8aff24",
+          "products": [
+            {
+              "_id": "695923fa1c508c5d5e8b02d7",
+              "name": "Car29740",
+              "amount": 390,
+              "price": 6317,
+              "manufacturer": "Tesla",
+              "notes": "lK4cwP5q6bouqiMNia41vjcIjcpkI142CeZ3cCNIFLH2dlbzdLx8DMT1vXyPE9PC0CfQZG0aYlhp4WcotACQrYnEOqmdU8YXW9EplgZTXkjQ50VdeNJc088pMDWnu4VTO4ZC0aMjGlZOeudraeMaJn5Q59Lbpz3EsKFzBI3nrZZEqBDPthuwtYtmfSSorVDViLFxv5S5bKTvlnjA4qN3aZyY50NFIVClIqsfd0yaxMapwOU2gNKNBWFt8p",
+              "received": false
+            },
+            {
+              "_id": "695923ff1c508c5d5e8b07a1",
+              "name": "Towels80585",
+              "amount": 729,
+              "price": 68370,
+              "manufacturer": "Amazon",
+              "notes": "fJilCQMl9s4wq4KOtiU8lf1BuIC3kvijnUdqIRUn1MdJgiD4deuHjOenEfWI8CHxXACKCJ5Pt7vEN6dix73rIqOJLu0NIjM6CRTntbhY16WrAKSO1bjZpA6TwIVaui4kzJ9Ow0Cj3yq3h4Kw6i3mzrnrXNEnbJEAJuTFqA3h036SWxna5DcDFc2D7wRitYZxd5mAIzyNFZvjhi76W85Htmdkzhju28A2bLtVhXir7vf4Tg0sstBxVNEfJc",
+              "received": false
+            }
+          ],
+          "total_price": 74687,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Rowenastad",
+              "street": "Old State Road",
+              "house": 779,
+              "flat": 2402
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:13:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695923f01c508c5d5e8aff24",
+          "products": [
+            {
+              "_id": "695923fa1c508c5d5e8b02d7",
+              "name": "Car29740",
+              "amount": 390,
+              "price": 6317,
+              "manufacturer": "Tesla",
+              "notes": "lK4cwP5q6bouqiMNia41vjcIjcpkI142CeZ3cCNIFLH2dlbzdLx8DMT1vXyPE9PC0CfQZG0aYlhp4WcotACQrYnEOqmdU8YXW9EplgZTXkjQ50VdeNJc088pMDWnu4VTO4ZC0aMjGlZOeudraeMaJn5Q59Lbpz3EsKFzBI3nrZZEqBDPthuwtYtmfSSorVDViLFxv5S5bKTvlnjA4qN3aZyY50NFIVClIqsfd0yaxMapwOU2gNKNBWFt8p",
+              "received": false
+            },
+            {
+              "_id": "695923ff1c508c5d5e8b07a1",
+              "name": "Towels80585",
+              "amount": 729,
+              "price": 68370,
+              "manufacturer": "Amazon",
+              "notes": "fJilCQMl9s4wq4KOtiU8lf1BuIC3kvijnUdqIRUn1MdJgiD4deuHjOenEfWI8CHxXACKCJ5Pt7vEN6dix73rIqOJLu0NIjM6CRTntbhY16WrAKSO1bjZpA6TwIVaui4kzJ9Ow0Cj3yq3h4Kw6i3mzrnrXNEnbJEAJuTFqA3h036SWxna5DcDFc2D7wRitYZxd5mAIzyNFZvjhi76W85Htmdkzhju28A2bLtVhXir7vf4Tg0sstBxVNEfJc",
+              "received": false
+            }
+          ],
+          "total_price": 74687,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:13:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:12:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "7023",
+    "etag": "W/\"1b6f-Tu1lGv4a7Oe982EfVdpvxcIH7WU\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695923ac1c508c5d5e8adc55",
+      "status": "In Process",
+      "customer": {
+        "_id": "695923951c508c5d5e8ad199",
+        "email": "Devin1@yahoo.com",
+        "name": "Michelle Rolfson Willms",
+        "country": "Ukraine",
+        "city": "Norman",
+        "street": "Christiansen Plains 36",
+        "house": 905,
+        "flat": 1160,
+        "phone": "+196179631043711",
+        "createdOn": "2026-01-03T14:11:33.000Z",
+        "notes": "1qQLm51BZMg1z4qdfXnzfyg3xKAS4j"
+      },
+      "products": [
+        {
+          "_id": "6959239e1c508c5d5e8ad447",
+          "name": "Chair33828",
+          "amount": 493,
+          "price": 84032,
+          "manufacturer": "Samsung",
+          "notes": "OdNgBYE5znzO6EK1cpd2efQd1AkWrpnNDp3ZaDIdMwocyMuW36wIRVTbMMOX3UiRtEMUGmWulohOP1vucJ4TzBH05syf5MNOVEZNXYulp9HsqMovUmRLr0LYOHRDJD5AShonOHdwYZDSpzu9ICBF6M4TTuYyoQS3XciAex8StPM29VYD1siFeArKLH1QoZ5Wv4OAxsPjWO3GEY00aXjNxLn9uTPQpbXncruZcMhDIxjbKN2e0dQ9cUEPCq",
+          "received": false
+        },
+        {
+          "_id": "695923a61c508c5d5e8ad863",
+          "name": "Towels41428",
+          "amount": 521,
+          "price": 18904,
+          "manufacturer": "Amazon",
+          "notes": "qmKE3BFQBGV2ifYeWckO3v8ltDgYZrvS6GguAcrzICWPPQ5zbAfcgqiv56aLjYzAPeDIbn97LEwMUKlyYZyLubScWDi9qwE2M5DY4KY6T6LBzMRCnoaDeyUxs1KATQJYUJnmgkhadDIr8UWjBskRyh7EVJoNpzc4zDe8x0prx5QQG8Jwb72Xkl8Sii5GMO1lT8UmETJQ5MwT25UuFnIvyt9zEfsUd83XID6H8looonAzmbxv35JHeaCD3x",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Lysanneboro",
+          "street": "Durgan Passage",
+          "house": 809,
+          "flat": 6089
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 102936,
+      "createdOn": "2026-01-03T14:11:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695923951c508c5d5e8ad199",
+          "products": [
+            {
+              "_id": "6959239e1c508c5d5e8ad447",
+              "name": "Chair33828",
+              "amount": 493,
+              "price": 84032,
+              "manufacturer": "Samsung",
+              "notes": "OdNgBYE5znzO6EK1cpd2efQd1AkWrpnNDp3ZaDIdMwocyMuW36wIRVTbMMOX3UiRtEMUGmWulohOP1vucJ4TzBH05syf5MNOVEZNXYulp9HsqMovUmRLr0LYOHRDJD5AShonOHdwYZDSpzu9ICBF6M4TTuYyoQS3XciAex8StPM29VYD1siFeArKLH1QoZ5Wv4OAxsPjWO3GEY00aXjNxLn9uTPQpbXncruZcMhDIxjbKN2e0dQ9cUEPCq",
+              "received": false
+            },
+            {
+              "_id": "695923a61c508c5d5e8ad863",
+              "name": "Towels41428",
+              "amount": 521,
+              "price": 18904,
+              "manufacturer": "Amazon",
+              "notes": "qmKE3BFQBGV2ifYeWckO3v8ltDgYZrvS6GguAcrzICWPPQ5zbAfcgqiv56aLjYzAPeDIbn97LEwMUKlyYZyLubScWDi9qwE2M5DY4KY6T6LBzMRCnoaDeyUxs1KATQJYUJnmgkhadDIr8UWjBskRyh7EVJoNpzc4zDe8x0prx5QQG8Jwb72Xkl8Sii5GMO1lT8UmETJQ5MwT25UuFnIvyt9zEfsUd83XID6H8looonAzmbxv35JHeaCD3x",
+              "received": false
+            }
+          ],
+          "total_price": 102936,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lysanneboro",
+              "street": "Durgan Passage",
+              "house": 809,
+              "flat": 6089
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:11:59.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695923951c508c5d5e8ad199",
+          "products": [
+            {
+              "_id": "6959239e1c508c5d5e8ad447",
+              "name": "Chair33828",
+              "amount": 493,
+              "price": 84032,
+              "manufacturer": "Samsung",
+              "notes": "OdNgBYE5znzO6EK1cpd2efQd1AkWrpnNDp3ZaDIdMwocyMuW36wIRVTbMMOX3UiRtEMUGmWulohOP1vucJ4TzBH05syf5MNOVEZNXYulp9HsqMovUmRLr0LYOHRDJD5AShonOHdwYZDSpzu9ICBF6M4TTuYyoQS3XciAex8StPM29VYD1siFeArKLH1QoZ5Wv4OAxsPjWO3GEY00aXjNxLn9uTPQpbXncruZcMhDIxjbKN2e0dQ9cUEPCq",
+              "received": false
+            },
+            {
+              "_id": "695923a61c508c5d5e8ad863",
+              "name": "Towels41428",
+              "amount": 521,
+              "price": 18904,
+              "manufacturer": "Amazon",
+              "notes": "qmKE3BFQBGV2ifYeWckO3v8ltDgYZrvS6GguAcrzICWPPQ5zbAfcgqiv56aLjYzAPeDIbn97LEwMUKlyYZyLubScWDi9qwE2M5DY4KY6T6LBzMRCnoaDeyUxs1KATQJYUJnmgkhadDIr8UWjBskRyh7EVJoNpzc4zDe8x0prx5QQG8Jwb72Xkl8Sii5GMO1lT8UmETJQ5MwT25UuFnIvyt9zEfsUd83XID6H8looonAzmbxv35JHeaCD3x",
+              "received": false
+            }
+          ],
+          "total_price": 102936,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lysanneboro",
+              "street": "Durgan Passage",
+              "house": 809,
+              "flat": 6089
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:11:57.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695923951c508c5d5e8ad199",
+          "products": [
+            {
+              "_id": "6959239e1c508c5d5e8ad447",
+              "name": "Chair33828",
+              "amount": 493,
+              "price": 84032,
+              "manufacturer": "Samsung",
+              "notes": "OdNgBYE5znzO6EK1cpd2efQd1AkWrpnNDp3ZaDIdMwocyMuW36wIRVTbMMOX3UiRtEMUGmWulohOP1vucJ4TzBH05syf5MNOVEZNXYulp9HsqMovUmRLr0LYOHRDJD5AShonOHdwYZDSpzu9ICBF6M4TTuYyoQS3XciAex8StPM29VYD1siFeArKLH1QoZ5Wv4OAxsPjWO3GEY00aXjNxLn9uTPQpbXncruZcMhDIxjbKN2e0dQ9cUEPCq",
+              "received": false
+            },
+            {
+              "_id": "695923a61c508c5d5e8ad863",
+              "name": "Towels41428",
+              "amount": 521,
+              "price": 18904,
+              "manufacturer": "Amazon",
+              "notes": "qmKE3BFQBGV2ifYeWckO3v8ltDgYZrvS6GguAcrzICWPPQ5zbAfcgqiv56aLjYzAPeDIbn97LEwMUKlyYZyLubScWDi9qwE2M5DY4KY6T6LBzMRCnoaDeyUxs1KATQJYUJnmgkhadDIr8UWjBskRyh7EVJoNpzc4zDe8x0prx5QQG8Jwb72Xkl8Sii5GMO1lT8UmETJQ5MwT25UuFnIvyt9zEfsUd83XID6H8looonAzmbxv35JHeaCD3x",
+              "received": false
+            }
+          ],
+          "total_price": 102936,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Lysanneboro",
+              "street": "Durgan Passage",
+              "house": 809,
+              "flat": 6089
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:11:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695923951c508c5d5e8ad199",
+          "products": [
+            {
+              "_id": "6959239e1c508c5d5e8ad447",
+              "name": "Chair33828",
+              "amount": 493,
+              "price": 84032,
+              "manufacturer": "Samsung",
+              "notes": "OdNgBYE5znzO6EK1cpd2efQd1AkWrpnNDp3ZaDIdMwocyMuW36wIRVTbMMOX3UiRtEMUGmWulohOP1vucJ4TzBH05syf5MNOVEZNXYulp9HsqMovUmRLr0LYOHRDJD5AShonOHdwYZDSpzu9ICBF6M4TTuYyoQS3XciAex8StPM29VYD1siFeArKLH1QoZ5Wv4OAxsPjWO3GEY00aXjNxLn9uTPQpbXncruZcMhDIxjbKN2e0dQ9cUEPCq",
+              "received": false
+            },
+            {
+              "_id": "695923a61c508c5d5e8ad863",
+              "name": "Towels41428",
+              "amount": 521,
+              "price": 18904,
+              "manufacturer": "Amazon",
+              "notes": "qmKE3BFQBGV2ifYeWckO3v8ltDgYZrvS6GguAcrzICWPPQ5zbAfcgqiv56aLjYzAPeDIbn97LEwMUKlyYZyLubScWDi9qwE2M5DY4KY6T6LBzMRCnoaDeyUxs1KATQJYUJnmgkhadDIr8UWjBskRyh7EVJoNpzc4zDe8x0prx5QQG8Jwb72Xkl8Sii5GMO1lT8UmETJQ5MwT25UuFnIvyt9zEfsUd83XID6H8looonAzmbxv35JHeaCD3x",
+              "received": false
+            }
+          ],
+          "total_price": 102936,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:11:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

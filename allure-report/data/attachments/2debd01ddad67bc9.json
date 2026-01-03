@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:33:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4604",
+    "etag": "W/\"11fc-CjpldjpNDGXgb5JNYVdFdziJLG8\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695928b71c508c5d5e8c53d2",
+      "status": "Received",
+      "customer": {
+        "_id": "695928b11c508c5d5e8c5331",
+        "email": "Assunta.Considine@hotmail.com",
+        "name": "Monte Harvey",
+        "country": "Ukraine",
+        "city": "New Kristofer",
+        "street": "Jaskolski Ports 22",
+        "house": 501,
+        "flat": 196,
+        "phone": "+011668082565119",
+        "createdOn": "2026-01-03T14:33:21.000Z",
+        "notes": "G7xrODxnA60D1bq1bD01GSZJBa0vzw"
+      },
+      "products": [
+        {
+          "_id": "695928b71c508c5d5e8c5381",
+          "name": "Soap59939",
+          "amount": 521,
+          "price": 16943,
+          "manufacturer": "Sony",
+          "notes": "yRXg6snxridO1FVBPKEY2raLo26BPGUfKve3Fdp5JxcpPW3o1OXQavBG9qorZsPtMTQkYpiLazANkLb9FPV94dTMhqXu2omcUFS1TEyeODxh3vRKtlNyXK802l4oFajL4lOtHc0Evu6W4Lw5Ne2wXrrYM7MXVlP0P2FODwfL1DIspOZ4seb6lTrSUMs2j6AVgib7au2n56rgK3bNXUIApOuwNsucUy4JhX4tOX9J8EiUOesxath9zIpRc3",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Dario",
+          "street": "Lincoln Street",
+          "house": 830,
+          "flat": 8782
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16943,
+      "createdOn": "2026-01-03T14:33:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695928b11c508c5d5e8c5331",
+          "products": [
+            {
+              "_id": "695928b71c508c5d5e8c5381",
+              "name": "Soap59939",
+              "amount": 521,
+              "price": 16943,
+              "manufacturer": "Sony",
+              "notes": "yRXg6snxridO1FVBPKEY2raLo26BPGUfKve3Fdp5JxcpPW3o1OXQavBG9qorZsPtMTQkYpiLazANkLb9FPV94dTMhqXu2omcUFS1TEyeODxh3vRKtlNyXK802l4oFajL4lOtHc0Evu6W4Lw5Ne2wXrrYM7MXVlP0P2FODwfL1DIspOZ4seb6lTrSUMs2j6AVgib7au2n56rgK3bNXUIApOuwNsucUy4JhX4tOX9J8EiUOesxath9zIpRc3",
+              "received": true
+            }
+          ],
+          "total_price": 16943,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Dario",
+              "street": "Lincoln Street",
+              "house": 830,
+              "flat": 8782
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:33:28.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695928b11c508c5d5e8c5331",
+          "products": [
+            {
+              "_id": "695928b71c508c5d5e8c5381",
+              "name": "Soap59939",
+              "amount": 521,
+              "price": 16943,
+              "manufacturer": "Sony",
+              "notes": "yRXg6snxridO1FVBPKEY2raLo26BPGUfKve3Fdp5JxcpPW3o1OXQavBG9qorZsPtMTQkYpiLazANkLb9FPV94dTMhqXu2omcUFS1TEyeODxh3vRKtlNyXK802l4oFajL4lOtHc0Evu6W4Lw5Ne2wXrrYM7MXVlP0P2FODwfL1DIspOZ4seb6lTrSUMs2j6AVgib7au2n56rgK3bNXUIApOuwNsucUy4JhX4tOX9J8EiUOesxath9zIpRc3",
+              "received": false
+            }
+          ],
+          "total_price": 16943,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Dario",
+              "street": "Lincoln Street",
+              "house": 830,
+              "flat": 8782
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:33:28.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695928b11c508c5d5e8c5331",
+          "products": [
+            {
+              "_id": "695928b71c508c5d5e8c5381",
+              "name": "Soap59939",
+              "amount": 521,
+              "price": 16943,
+              "manufacturer": "Sony",
+              "notes": "yRXg6snxridO1FVBPKEY2raLo26BPGUfKve3Fdp5JxcpPW3o1OXQavBG9qorZsPtMTQkYpiLazANkLb9FPV94dTMhqXu2omcUFS1TEyeODxh3vRKtlNyXK802l4oFajL4lOtHc0Evu6W4Lw5Ne2wXrrYM7MXVlP0P2FODwfL1DIspOZ4seb6lTrSUMs2j6AVgib7au2n56rgK3bNXUIApOuwNsucUy4JhX4tOX9J8EiUOesxath9zIpRc3",
+              "received": false
+            }
+          ],
+          "total_price": 16943,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Dario",
+              "street": "Lincoln Street",
+              "house": 830,
+              "flat": 8782
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:33:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695928b11c508c5d5e8c5331",
+          "products": [
+            {
+              "_id": "695928b71c508c5d5e8c5381",
+              "name": "Soap59939",
+              "amount": 521,
+              "price": 16943,
+              "manufacturer": "Sony",
+              "notes": "yRXg6snxridO1FVBPKEY2raLo26BPGUfKve3Fdp5JxcpPW3o1OXQavBG9qorZsPtMTQkYpiLazANkLb9FPV94dTMhqXu2omcUFS1TEyeODxh3vRKtlNyXK802l4oFajL4lOtHc0Evu6W4Lw5Ne2wXrrYM7MXVlP0P2FODwfL1DIspOZ4seb6lTrSUMs2j6AVgib7au2n56rgK3bNXUIApOuwNsucUy4JhX4tOX9J8EiUOesxath9zIpRc3",
+              "received": false
+            }
+          ],
+          "total_price": 16943,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:33:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
