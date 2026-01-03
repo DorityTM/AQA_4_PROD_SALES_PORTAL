@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:54:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2743",
+    "etag": "W/\"ab7-rdhjo0WycPP5DOMlAWvLxk4QJ1w\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695949dc1c508c5d5e91343d",
+      "status": "Draft",
+      "customer": {
+        "_id": "695949da1c508c5d5e91334d",
+        "email": "Santiago52@yahoo.com",
+        "name": "Karlie Senger",
+        "country": "Germany",
+        "city": "New Shanny",
+        "street": "W 2nd Street 76",
+        "house": 289,
+        "flat": 541,
+        "phone": "+798582807199173",
+        "createdOn": "2026-01-03T16:54:50.000Z",
+        "notes": "SBUJ1md1RyckaaCq1KUZv4rTc6V4i8"
+      },
+      "products": [
+        {
+          "_id": "695949db1c508c5d5e91342f",
+          "name": "Fish95984",
+          "amount": 809,
+          "price": 76978,
+          "manufacturer": "Tesla",
+          "notes": "uRcevExDCzTzmW2GB2LK8HuxGu1f4VF25iUzOEkNpNvDdQADT9PJ6wJJRmaIb1nNyUHbIT0odXkaSNaEzlZ9rxt4v3iFaxfRLKNxPkx6gzSVAfqikdnOQx5f7oPpQ7gg2VuT957ZgaaCJJoP2HEVpUiBEGjMVsLMS1QUNuBtGYc9MjcWNJJaQu26KTUrkqCBSyrtswr8xef8kXwv4j8Vc8DwgAHnmXnB1sXoLMtpZGeA8Zh6PUEojE3Eeq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Port Kacishire",
+          "street": "Prospect Place",
+          "house": 606,
+          "flat": 8185
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76978,
+      "createdOn": "2026-01-03T16:54:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695949da1c508c5d5e91334d",
+          "products": [
+            {
+              "_id": "695949db1c508c5d5e91342f",
+              "name": "Fish95984",
+              "amount": 809,
+              "price": 76978,
+              "manufacturer": "Tesla",
+              "notes": "uRcevExDCzTzmW2GB2LK8HuxGu1f4VF25iUzOEkNpNvDdQADT9PJ6wJJRmaIb1nNyUHbIT0odXkaSNaEzlZ9rxt4v3iFaxfRLKNxPkx6gzSVAfqikdnOQx5f7oPpQ7gg2VuT957ZgaaCJJoP2HEVpUiBEGjMVsLMS1QUNuBtGYc9MjcWNJJaQu26KTUrkqCBSyrtswr8xef8kXwv4j8Vc8DwgAHnmXnB1sXoLMtpZGeA8Zh6PUEojE3Eeq",
+              "received": false
+            }
+          ],
+          "total_price": 76978,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Kacishire",
+              "street": "Prospect Place",
+              "house": 606,
+              "flat": 8185
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949da1c508c5d5e91334d",
+          "products": [
+            {
+              "_id": "695949db1c508c5d5e91342f",
+              "name": "Fish95984",
+              "amount": 809,
+              "price": 76978,
+              "manufacturer": "Tesla",
+              "notes": "uRcevExDCzTzmW2GB2LK8HuxGu1f4VF25iUzOEkNpNvDdQADT9PJ6wJJRmaIb1nNyUHbIT0odXkaSNaEzlZ9rxt4v3iFaxfRLKNxPkx6gzSVAfqikdnOQx5f7oPpQ7gg2VuT957ZgaaCJJoP2HEVpUiBEGjMVsLMS1QUNuBtGYc9MjcWNJJaQu26KTUrkqCBSyrtswr8xef8kXwv4j8Vc8DwgAHnmXnB1sXoLMtpZGeA8Zh6PUEojE3Eeq",
+              "received": false
+            }
+          ],
+          "total_price": 76978,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:54:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

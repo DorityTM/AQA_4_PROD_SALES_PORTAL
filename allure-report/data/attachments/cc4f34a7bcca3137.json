@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:54:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3708",
+    "etag": "W/\"e7c-BIhHNBKmnvNoJUPC4cVBQrlbc8I\"",
+    "keep-alive": "timeout=5, max=64",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695949ad1c508c5d5e911f63",
+      "status": "In Process",
+      "customer": {
+        "_id": "695949ac1c508c5d5e911f0d",
+        "email": "Paolo.Cruickshank3@yahoo.com",
+        "name": "Georgette Spinka",
+        "country": "Russia",
+        "city": "West Orenburgh",
+        "street": "School Close 82",
+        "house": 838,
+        "flat": 947,
+        "phone": "+375629526683718",
+        "createdOn": "2026-01-03T16:54:04.000Z",
+        "notes": "biAp2z8FTG6WLxyCYi7WNTfd0eTQ9X"
+      },
+      "products": [
+        {
+          "_id": "695949ac1c508c5d5e911f41",
+          "name": "Keyboard97753",
+          "amount": 344,
+          "price": 34357,
+          "manufacturer": "Samsung",
+          "notes": "ysw11tSnrr7lK82C0Z7mb6wdE8gtT7QBG2e3RjraqnxbtCSt3nfXAvNZh5Dm0zu1IGZNsZJy54B66K60KNx9Zf6ItojiIWAEWRFDYKgcI3t6lS2A94QCkhYLC3jWah1O4RVV2IrMKzNUeSfuhPD0LyT7IgAORJ6VhgwrcdlR1en94fXniD6ZiuGSedpz88s8CcfwMuungaBE3CGXSjcfvWruUBkjdbDN9F1a3kVl6J8kpZCSG693t6iaJI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Minneapolis",
+          "street": "Gislason Way",
+          "house": 217,
+          "flat": 3869
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 34357,
+      "createdOn": "2026-01-03T16:54:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695949ac1c508c5d5e911f0d",
+          "products": [
+            {
+              "_id": "695949ac1c508c5d5e911f41",
+              "name": "Keyboard97753",
+              "amount": 344,
+              "price": 34357,
+              "manufacturer": "Samsung",
+              "notes": "ysw11tSnrr7lK82C0Z7mb6wdE8gtT7QBG2e3RjraqnxbtCSt3nfXAvNZh5Dm0zu1IGZNsZJy54B66K60KNx9Zf6ItojiIWAEWRFDYKgcI3t6lS2A94QCkhYLC3jWah1O4RVV2IrMKzNUeSfuhPD0LyT7IgAORJ6VhgwrcdlR1en94fXniD6ZiuGSedpz88s8CcfwMuungaBE3CGXSjcfvWruUBkjdbDN9F1a3kVl6J8kpZCSG693t6iaJI",
+              "received": false
+            }
+          ],
+          "total_price": 34357,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Minneapolis",
+              "street": "Gislason Way",
+              "house": 217,
+              "flat": 3869
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949ac1c508c5d5e911f0d",
+          "products": [
+            {
+              "_id": "695949ac1c508c5d5e911f41",
+              "name": "Keyboard97753",
+              "amount": 344,
+              "price": 34357,
+              "manufacturer": "Samsung",
+              "notes": "ysw11tSnrr7lK82C0Z7mb6wdE8gtT7QBG2e3RjraqnxbtCSt3nfXAvNZh5Dm0zu1IGZNsZJy54B66K60KNx9Zf6ItojiIWAEWRFDYKgcI3t6lS2A94QCkhYLC3jWah1O4RVV2IrMKzNUeSfuhPD0LyT7IgAORJ6VhgwrcdlR1en94fXniD6ZiuGSedpz88s8CcfwMuungaBE3CGXSjcfvWruUBkjdbDN9F1a3kVl6J8kpZCSG693t6iaJI",
+              "received": false
+            }
+          ],
+          "total_price": 34357,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Minneapolis",
+              "street": "Gislason Way",
+              "house": 217,
+              "flat": 3869
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949ac1c508c5d5e911f0d",
+          "products": [
+            {
+              "_id": "695949ac1c508c5d5e911f41",
+              "name": "Keyboard97753",
+              "amount": 344,
+              "price": 34357,
+              "manufacturer": "Samsung",
+              "notes": "ysw11tSnrr7lK82C0Z7mb6wdE8gtT7QBG2e3RjraqnxbtCSt3nfXAvNZh5Dm0zu1IGZNsZJy54B66K60KNx9Zf6ItojiIWAEWRFDYKgcI3t6lS2A94QCkhYLC3jWah1O4RVV2IrMKzNUeSfuhPD0LyT7IgAORJ6VhgwrcdlR1en94fXniD6ZiuGSedpz88s8CcfwMuungaBE3CGXSjcfvWruUBkjdbDN9F1a3kVl6J8kpZCSG693t6iaJI",
+              "received": false
+            }
+          ],
+          "total_price": 34357,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:54:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

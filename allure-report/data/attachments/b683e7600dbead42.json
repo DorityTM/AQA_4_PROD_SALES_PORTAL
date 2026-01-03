@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:53:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4610",
+    "etag": "W/\"1202-29qSoWd5SsEWMYgN3AMkxd4NG/w\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695949a11c508c5d5e911a5f",
+      "status": "Received",
+      "customer": {
+        "_id": "695949a01c508c5d5e9119c2",
+        "email": "Queen17@gmail.com",
+        "name": "Enid Walker",
+        "country": "Ukraine",
+        "city": "New Jadynboro",
+        "street": "Lincoln Highway 27",
+        "house": 966,
+        "flat": 5924,
+        "phone": "+781352625365712",
+        "createdOn": "2026-01-03T16:53:52.000Z",
+        "notes": "baPpneH9xpYxPuVFxLReqeQaHLXzsQ"
+      },
+      "products": [
+        {
+          "_id": "695949a11c508c5d5e9119ef",
+          "name": "Shoes13920",
+          "amount": 29,
+          "price": 37724,
+          "manufacturer": "Xiaomi",
+          "notes": "Oood0zDh4tljbkhKolcrayxHOFCwotaQw4n3IGmqikTiXVIulQVHJyFuKhY16Lsddcj8X8lRgtdknMFC9xqUcRKWProU9sneHwUXo0Y22Ho76r1xnqsHv67mPmPc5uL3cPllkOfDc1uxrTmOyaefRWwFMchWOAKcWNBWYiFbNM9enp1hkUXfsyedbbHjH1L6bH6VfWdZdZPlEbYMfwZf4QJDoDOsCO6nfiV1GRXaKrX5bOmDxzBFJl6Zlq",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Madgeworth",
+          "street": "Adams Street",
+          "house": 44,
+          "flat": 1080
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 37724,
+      "createdOn": "2026-01-03T16:53:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695949a01c508c5d5e9119c2",
+          "products": [
+            {
+              "_id": "695949a11c508c5d5e9119ef",
+              "name": "Shoes13920",
+              "amount": 29,
+              "price": 37724,
+              "manufacturer": "Xiaomi",
+              "notes": "Oood0zDh4tljbkhKolcrayxHOFCwotaQw4n3IGmqikTiXVIulQVHJyFuKhY16Lsddcj8X8lRgtdknMFC9xqUcRKWProU9sneHwUXo0Y22Ho76r1xnqsHv67mPmPc5uL3cPllkOfDc1uxrTmOyaefRWwFMchWOAKcWNBWYiFbNM9enp1hkUXfsyedbbHjH1L6bH6VfWdZdZPlEbYMfwZf4QJDoDOsCO6nfiV1GRXaKrX5bOmDxzBFJl6Zlq",
+              "received": true
+            }
+          ],
+          "total_price": 37724,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Madgeworth",
+              "street": "Adams Street",
+              "house": 44,
+              "flat": 1080
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:53:55.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695949a01c508c5d5e9119c2",
+          "products": [
+            {
+              "_id": "695949a11c508c5d5e9119ef",
+              "name": "Shoes13920",
+              "amount": 29,
+              "price": 37724,
+              "manufacturer": "Xiaomi",
+              "notes": "Oood0zDh4tljbkhKolcrayxHOFCwotaQw4n3IGmqikTiXVIulQVHJyFuKhY16Lsddcj8X8lRgtdknMFC9xqUcRKWProU9sneHwUXo0Y22Ho76r1xnqsHv67mPmPc5uL3cPllkOfDc1uxrTmOyaefRWwFMchWOAKcWNBWYiFbNM9enp1hkUXfsyedbbHjH1L6bH6VfWdZdZPlEbYMfwZf4QJDoDOsCO6nfiV1GRXaKrX5bOmDxzBFJl6Zlq",
+              "received": false
+            }
+          ],
+          "total_price": 37724,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Madgeworth",
+              "street": "Adams Street",
+              "house": 44,
+              "flat": 1080
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:53:54.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949a01c508c5d5e9119c2",
+          "products": [
+            {
+              "_id": "695949a11c508c5d5e9119ef",
+              "name": "Shoes13920",
+              "amount": 29,
+              "price": 37724,
+              "manufacturer": "Xiaomi",
+              "notes": "Oood0zDh4tljbkhKolcrayxHOFCwotaQw4n3IGmqikTiXVIulQVHJyFuKhY16Lsddcj8X8lRgtdknMFC9xqUcRKWProU9sneHwUXo0Y22Ho76r1xnqsHv67mPmPc5uL3cPllkOfDc1uxrTmOyaefRWwFMchWOAKcWNBWYiFbNM9enp1hkUXfsyedbbHjH1L6bH6VfWdZdZPlEbYMfwZf4QJDoDOsCO6nfiV1GRXaKrX5bOmDxzBFJl6Zlq",
+              "received": false
+            }
+          ],
+          "total_price": 37724,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Madgeworth",
+              "street": "Adams Street",
+              "house": 44,
+              "flat": 1080
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:53:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949a01c508c5d5e9119c2",
+          "products": [
+            {
+              "_id": "695949a11c508c5d5e9119ef",
+              "name": "Shoes13920",
+              "amount": 29,
+              "price": 37724,
+              "manufacturer": "Xiaomi",
+              "notes": "Oood0zDh4tljbkhKolcrayxHOFCwotaQw4n3IGmqikTiXVIulQVHJyFuKhY16Lsddcj8X8lRgtdknMFC9xqUcRKWProU9sneHwUXo0Y22Ho76r1xnqsHv67mPmPc5uL3cPllkOfDc1uxrTmOyaefRWwFMchWOAKcWNBWYiFbNM9enp1hkUXfsyedbbHjH1L6bH6VfWdZdZPlEbYMfwZf4QJDoDOsCO6nfiV1GRXaKrX5bOmDxzBFJl6Zlq",
+              "received": false
+            }
+          ],
+          "total_price": 37724,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:53:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

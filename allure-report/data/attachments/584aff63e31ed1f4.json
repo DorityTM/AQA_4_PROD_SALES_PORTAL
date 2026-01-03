@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:00:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-2eUTWODWqQNcie2KPaQJ2cTZvt8\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594b181c508c5d5e91c54c",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594b171c508c5d5e91c4eb",
+        "email": "Helene.Jast@yahoo.com",
+        "name": "Evert Hilll",
+        "country": "Ukraine",
+        "city": "Maiyabury",
+        "street": "Kautzer Orchard 60",
+        "house": 100,
+        "flat": 1059,
+        "phone": "+933868337271185",
+        "createdOn": "2026-01-03T17:00:07.000Z",
+        "notes": "ghDyuGprXKWdAwSxpIwVGBrf2MXN2T"
+      },
+      "products": [
+        {
+          "_id": "69594b181c508c5d5e91c53b",
+          "name": "Tuna38668",
+          "amount": 675,
+          "price": 51667,
+          "manufacturer": "Microsoft",
+          "notes": "VYqP6413jr2QuMhIA98xF1glHRNEhI9qkh42R6V42jrfuSk0EB340wQ7hauu0RiGKg3EuodycAuqyCrfovtqhNJQaCrq9C87SlEBorDk8A5Pxi435KHpqZDQc22cf3QBsWNYE5BKb5TbT7S7AKAA6ykPiEMvWuhlTu7KLbBpvuc3WofFYNok7gIPBqVEUN06nETL6VKMCSZpQc39DaTSPxpr0SlVwszP5fd6oJ5anZIcwnB4wjEX161kfT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "South Manuela",
+          "street": "Doyle Causeway",
+          "house": 282,
+          "flat": 3480
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51667,
+      "createdOn": "2026-01-03T17:00:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594b171c508c5d5e91c4eb",
+          "products": [
+            {
+              "_id": "69594b181c508c5d5e91c53b",
+              "name": "Tuna38668",
+              "amount": 675,
+              "price": 51667,
+              "manufacturer": "Microsoft",
+              "notes": "VYqP6413jr2QuMhIA98xF1glHRNEhI9qkh42R6V42jrfuSk0EB340wQ7hauu0RiGKg3EuodycAuqyCrfovtqhNJQaCrq9C87SlEBorDk8A5Pxi435KHpqZDQc22cf3QBsWNYE5BKb5TbT7S7AKAA6ykPiEMvWuhlTu7KLbBpvuc3WofFYNok7gIPBqVEUN06nETL6VKMCSZpQc39DaTSPxpr0SlVwszP5fd6oJ5anZIcwnB4wjEX161kfT",
+              "received": false
+            }
+          ],
+          "total_price": 51667,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "South Manuela",
+              "street": "Doyle Causeway",
+              "house": 282,
+              "flat": 3480
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:00:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594b171c508c5d5e91c4eb",
+          "products": [
+            {
+              "_id": "69594b181c508c5d5e91c53b",
+              "name": "Tuna38668",
+              "amount": 675,
+              "price": 51667,
+              "manufacturer": "Microsoft",
+              "notes": "VYqP6413jr2QuMhIA98xF1glHRNEhI9qkh42R6V42jrfuSk0EB340wQ7hauu0RiGKg3EuodycAuqyCrfovtqhNJQaCrq9C87SlEBorDk8A5Pxi435KHpqZDQc22cf3QBsWNYE5BKb5TbT7S7AKAA6ykPiEMvWuhlTu7KLbBpvuc3WofFYNok7gIPBqVEUN06nETL6VKMCSZpQc39DaTSPxpr0SlVwszP5fd6oJ5anZIcwnB4wjEX161kfT",
+              "received": false
+            }
+          ],
+          "total_price": 51667,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:00:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:54:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5256",
+    "etag": "W/\"1488-NdBNA5JfgZ0NSBmGXbM1DaGzdIU\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695949a91c508c5d5e911da6",
+      "status": "In Process",
+      "customer": {
+        "_id": "695949a81c508c5d5e911d61",
+        "email": "Benny.Goldner@yahoo.com",
+        "name": "Alessandra Luettgen Hintz",
+        "country": "USA",
+        "city": "West Carrieboro",
+        "street": "7th Avenue 33",
+        "house": 809,
+        "flat": 7542,
+        "phone": "+906248107146436",
+        "createdOn": "2026-01-03T16:54:00.000Z",
+        "notes": "1fBLEGQgxQAC5XnrLOQMgfEPmFIgC4"
+      },
+      "products": [
+        {
+          "_id": "695949a81c508c5d5e911d76",
+          "name": "Gloves42231",
+          "amount": 457,
+          "price": 98439,
+          "manufacturer": "Xiaomi",
+          "notes": "zEGQnfkCnLLifOAsLKOQArtugiYnN9uVpFnbY8piU11ojQu0a102wdqWnOSVo4JCcwOZqhRgdvw4jFEg5NvSoK0FDWBqdnXCN5il5C4C893BicKH8MUrC7XGU8DI847aN3ml8QqxFMe3j9lyYljF05poSeFtrpumyxR4cYo6e6P3xDtm6RjF742pd4N6ynjogID0l9ruPgRmMoCL9VrjyGED4dG3g28AlcK9VKOCOE6uBNSdoWxyzZZ9Om",
+          "received": false
+        },
+        {
+          "_id": "695949a81c508c5d5e911d90",
+          "name": "Computer60199",
+          "amount": 494,
+          "price": 78930,
+          "manufacturer": "Samsung",
+          "notes": "6JH0bORhQ8ukNlLdpNoU8oPMcwGDNbxXGEqenGL3w0n8jZxrK1dN00Bzj5top6xYrfjsijterGyRwDC3h74Vls3B2tgKBLPKoU3Fc0IleU6hGm9T6CmB0BRsyQVV91Av9xivvCYU3tT2wchjS6Zltpppu7oBFE4buAQifMabLwCQq7uPwk8q9Nmhll8cB6BehFjaB0dnltcUbuq3yJNvZ5tGeje7EFRRgu6ugrBlGugI8NKccqZvQpX5Zv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "South Ricky",
+          "street": "Haylee Shoals",
+          "house": 130,
+          "flat": 2405
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 177369,
+      "createdOn": "2026-01-03T16:54:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695949a81c508c5d5e911d61",
+          "products": [
+            {
+              "_id": "695949a81c508c5d5e911d76",
+              "name": "Gloves42231",
+              "amount": 457,
+              "price": 98439,
+              "manufacturer": "Xiaomi",
+              "notes": "zEGQnfkCnLLifOAsLKOQArtugiYnN9uVpFnbY8piU11ojQu0a102wdqWnOSVo4JCcwOZqhRgdvw4jFEg5NvSoK0FDWBqdnXCN5il5C4C893BicKH8MUrC7XGU8DI847aN3ml8QqxFMe3j9lyYljF05poSeFtrpumyxR4cYo6e6P3xDtm6RjF742pd4N6ynjogID0l9ruPgRmMoCL9VrjyGED4dG3g28AlcK9VKOCOE6uBNSdoWxyzZZ9Om",
+              "received": false
+            },
+            {
+              "_id": "695949a81c508c5d5e911d90",
+              "name": "Computer60199",
+              "amount": 494,
+              "price": 78930,
+              "manufacturer": "Samsung",
+              "notes": "6JH0bORhQ8ukNlLdpNoU8oPMcwGDNbxXGEqenGL3w0n8jZxrK1dN00Bzj5top6xYrfjsijterGyRwDC3h74Vls3B2tgKBLPKoU3Fc0IleU6hGm9T6CmB0BRsyQVV91Av9xivvCYU3tT2wchjS6Zltpppu7oBFE4buAQifMabLwCQq7uPwk8q9Nmhll8cB6BehFjaB0dnltcUbuq3yJNvZ5tGeje7EFRRgu6ugrBlGugI8NKccqZvQpX5Zv",
+              "received": false
+            }
+          ],
+          "total_price": 177369,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Ricky",
+              "street": "Haylee Shoals",
+              "house": 130,
+              "flat": 2405
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949a81c508c5d5e911d61",
+          "products": [
+            {
+              "_id": "695949a81c508c5d5e911d76",
+              "name": "Gloves42231",
+              "amount": 457,
+              "price": 98439,
+              "manufacturer": "Xiaomi",
+              "notes": "zEGQnfkCnLLifOAsLKOQArtugiYnN9uVpFnbY8piU11ojQu0a102wdqWnOSVo4JCcwOZqhRgdvw4jFEg5NvSoK0FDWBqdnXCN5il5C4C893BicKH8MUrC7XGU8DI847aN3ml8QqxFMe3j9lyYljF05poSeFtrpumyxR4cYo6e6P3xDtm6RjF742pd4N6ynjogID0l9ruPgRmMoCL9VrjyGED4dG3g28AlcK9VKOCOE6uBNSdoWxyzZZ9Om",
+              "received": false
+            },
+            {
+              "_id": "695949a81c508c5d5e911d90",
+              "name": "Computer60199",
+              "amount": 494,
+              "price": 78930,
+              "manufacturer": "Samsung",
+              "notes": "6JH0bORhQ8ukNlLdpNoU8oPMcwGDNbxXGEqenGL3w0n8jZxrK1dN00Bzj5top6xYrfjsijterGyRwDC3h74Vls3B2tgKBLPKoU3Fc0IleU6hGm9T6CmB0BRsyQVV91Av9xivvCYU3tT2wchjS6Zltpppu7oBFE4buAQifMabLwCQq7uPwk8q9Nmhll8cB6BehFjaB0dnltcUbuq3yJNvZ5tGeje7EFRRgu6ugrBlGugI8NKccqZvQpX5Zv",
+              "received": false
+            }
+          ],
+          "total_price": 177369,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Ricky",
+              "street": "Haylee Shoals",
+              "house": 130,
+              "flat": 2405
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949a81c508c5d5e911d61",
+          "products": [
+            {
+              "_id": "695949a81c508c5d5e911d76",
+              "name": "Gloves42231",
+              "amount": 457,
+              "price": 98439,
+              "manufacturer": "Xiaomi",
+              "notes": "zEGQnfkCnLLifOAsLKOQArtugiYnN9uVpFnbY8piU11ojQu0a102wdqWnOSVo4JCcwOZqhRgdvw4jFEg5NvSoK0FDWBqdnXCN5il5C4C893BicKH8MUrC7XGU8DI847aN3ml8QqxFMe3j9lyYljF05poSeFtrpumyxR4cYo6e6P3xDtm6RjF742pd4N6ynjogID0l9ruPgRmMoCL9VrjyGED4dG3g28AlcK9VKOCOE6uBNSdoWxyzZZ9Om",
+              "received": false
+            },
+            {
+              "_id": "695949a81c508c5d5e911d90",
+              "name": "Computer60199",
+              "amount": 494,
+              "price": 78930,
+              "manufacturer": "Samsung",
+              "notes": "6JH0bORhQ8ukNlLdpNoU8oPMcwGDNbxXGEqenGL3w0n8jZxrK1dN00Bzj5top6xYrfjsijterGyRwDC3h74Vls3B2tgKBLPKoU3Fc0IleU6hGm9T6CmB0BRsyQVV91Av9xivvCYU3tT2wchjS6Zltpppu7oBFE4buAQifMabLwCQq7uPwk8q9Nmhll8cB6BehFjaB0dnltcUbuq3yJNvZ5tGeje7EFRRgu6ugrBlGugI8NKccqZvQpX5Zv",
+              "received": false
+            }
+          ],
+          "total_price": 177369,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:54:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

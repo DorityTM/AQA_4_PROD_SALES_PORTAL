@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:54:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "8186",
+    "etag": "W/\"1ffa-44S9/M3WlNxolJAUPgRtawK1AiA\"",
+    "keep-alive": "timeout=5, max=32",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695949c01c508c5d5e91277c",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "695949bf1c508c5d5e91271f",
+        "email": "Annabelle.Borer@hotmail.com",
+        "name": "Berneice Bernier",
+        "country": "Germany",
+        "city": "West Caterina",
+        "street": "O Hara Pines 18",
+        "house": 279,
+        "flat": 9504,
+        "phone": "+893986185958124",
+        "createdOn": "2026-01-03T16:54:23.000Z",
+        "notes": "Rz14zpNXcwKcrfTbI1C8bmqvcNHJKj"
+      },
+      "products": [
+        {
+          "_id": "695949c01c508c5d5e912739",
+          "name": "Computer26373",
+          "amount": 413,
+          "price": 56319,
+          "manufacturer": "Samsung",
+          "notes": "QS2C61PWAx9XFftuipuuKcPm8LhJ3CSbbPLljbWOsSdj6HcuRKsHUHs78Mo432rosZjSQz39dPvpsDkPa8ZAlUD4MRkprU0RA3QMiyn8R8KRk3H5oe3vgiaYy1LTFtahsLTr3tPSMOJ8gRNbBbLq88Y6EDKle4oW6zTRXmssSLX6hHbv3ILqt1v0pE7PSYNbvL7EEUECuF4QktlbwGUF8BuBqdTJAUc264L5g3zXzZf3WpnmlGxWrlp1mC",
+          "received": true
+        },
+        {
+          "_id": "695949c01c508c5d5e91275b",
+          "name": "Shirt77765",
+          "amount": 973,
+          "price": 20917,
+          "manufacturer": "Xiaomi",
+          "notes": "VvLaVmDCEADDHU1Rep3PmxlprsHzl11ONWorz19YpCmVBc9AmbnwiRtH6GReMXh0Z1FRQh4M15KAiWCV5GyjCK3u1GEcCNoYvDevrCf0FDXlJruK0VOlKOTqxJW6iynJ4D3Qb9uHaDSYCWUFONAW4PfdmBqpiWAniBpo2mPMVssjQC26XzTpD0h9T1d9lLua4jb5EkdZsakJKOneIrU2ofc7QIynUUKXZuwVov2WAL80wOi5Fvca8YckBT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Cupertino",
+          "street": "E 8th Street",
+          "house": 163,
+          "flat": 7070
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 77236,
+      "createdOn": "2026-01-03T16:54:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "695949bf1c508c5d5e91271f",
+          "products": [
+            {
+              "_id": "695949c01c508c5d5e912739",
+              "name": "Computer26373",
+              "amount": 413,
+              "price": 56319,
+              "manufacturer": "Samsung",
+              "notes": "QS2C61PWAx9XFftuipuuKcPm8LhJ3CSbbPLljbWOsSdj6HcuRKsHUHs78Mo432rosZjSQz39dPvpsDkPa8ZAlUD4MRkprU0RA3QMiyn8R8KRk3H5oe3vgiaYy1LTFtahsLTr3tPSMOJ8gRNbBbLq88Y6EDKle4oW6zTRXmssSLX6hHbv3ILqt1v0pE7PSYNbvL7EEUECuF4QktlbwGUF8BuBqdTJAUc264L5g3zXzZf3WpnmlGxWrlp1mC",
+              "received": true
+            },
+            {
+              "_id": "695949c01c508c5d5e91275b",
+              "name": "Shirt77765",
+              "amount": 973,
+              "price": 20917,
+              "manufacturer": "Xiaomi",
+              "notes": "VvLaVmDCEADDHU1Rep3PmxlprsHzl11ONWorz19YpCmVBc9AmbnwiRtH6GReMXh0Z1FRQh4M15KAiWCV5GyjCK3u1GEcCNoYvDevrCf0FDXlJruK0VOlKOTqxJW6iynJ4D3Qb9uHaDSYCWUFONAW4PfdmBqpiWAniBpo2mPMVssjQC26XzTpD0h9T1d9lLua4jb5EkdZsakJKOneIrU2ofc7QIynUUKXZuwVov2WAL80wOi5Fvca8YckBT",
+              "received": false
+            }
+          ],
+          "total_price": 77236,
+          "delivery": {
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery",
+            "address": {
+              "country": "Belarus",
+              "city": "Cupertino",
+              "street": "E 8th Street",
+              "house": 163,
+              "flat": 7070
+            }
+          },
+          "changedOn": "2026-01-03T16:54:26.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "695949bf1c508c5d5e91271f",
+          "products": [
+            {
+              "_id": "695949c01c508c5d5e912739",
+              "name": "Computer26373",
+              "amount": 413,
+              "price": 56319,
+              "manufacturer": "Samsung",
+              "notes": "QS2C61PWAx9XFftuipuuKcPm8LhJ3CSbbPLljbWOsSdj6HcuRKsHUHs78Mo432rosZjSQz39dPvpsDkPa8ZAlUD4MRkprU0RA3QMiyn8R8KRk3H5oe3vgiaYy1LTFtahsLTr3tPSMOJ8gRNbBbLq88Y6EDKle4oW6zTRXmssSLX6hHbv3ILqt1v0pE7PSYNbvL7EEUECuF4QktlbwGUF8BuBqdTJAUc264L5g3zXzZf3WpnmlGxWrlp1mC",
+              "received": true
+            },
+            {
+              "_id": "695949c01c508c5d5e91275b",
+              "name": "Shirt77765",
+              "amount": 973,
+              "price": 20917,
+              "manufacturer": "Xiaomi",
+              "notes": "VvLaVmDCEADDHU1Rep3PmxlprsHzl11ONWorz19YpCmVBc9AmbnwiRtH6GReMXh0Z1FRQh4M15KAiWCV5GyjCK3u1GEcCNoYvDevrCf0FDXlJruK0VOlKOTqxJW6iynJ4D3Qb9uHaDSYCWUFONAW4PfdmBqpiWAniBpo2mPMVssjQC26XzTpD0h9T1d9lLua4jb5EkdZsakJKOneIrU2ofc7QIynUUKXZuwVov2WAL80wOi5Fvca8YckBT",
+              "received": false
+            }
+          ],
+          "total_price": 77236,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Cupertino",
+              "street": "E 8th Street",
+              "house": 163,
+              "flat": 7070
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:26.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695949bf1c508c5d5e91271f",
+          "products": [
+            {
+              "_id": "695949c01c508c5d5e912739",
+              "name": "Computer26373",
+              "amount": 413,
+              "price": 56319,
+              "manufacturer": "Samsung",
+              "notes": "QS2C61PWAx9XFftuipuuKcPm8LhJ3CSbbPLljbWOsSdj6HcuRKsHUHs78Mo432rosZjSQz39dPvpsDkPa8ZAlUD4MRkprU0RA3QMiyn8R8KRk3H5oe3vgiaYy1LTFtahsLTr3tPSMOJ8gRNbBbLq88Y6EDKle4oW6zTRXmssSLX6hHbv3ILqt1v0pE7PSYNbvL7EEUECuF4QktlbwGUF8BuBqdTJAUc264L5g3zXzZf3WpnmlGxWrlp1mC",
+              "received": false
+            },
+            {
+              "_id": "695949c01c508c5d5e91275b",
+              "name": "Shirt77765",
+              "amount": 973,
+              "price": 20917,
+              "manufacturer": "Xiaomi",
+              "notes": "VvLaVmDCEADDHU1Rep3PmxlprsHzl11ONWorz19YpCmVBc9AmbnwiRtH6GReMXh0Z1FRQh4M15KAiWCV5GyjCK3u1GEcCNoYvDevrCf0FDXlJruK0VOlKOTqxJW6iynJ4D3Qb9uHaDSYCWUFONAW4PfdmBqpiWAniBpo2mPMVssjQC26XzTpD0h9T1d9lLua4jb5EkdZsakJKOneIrU2ofc7QIynUUKXZuwVov2WAL80wOi5Fvca8YckBT",
+              "received": false
+            }
+          ],
+          "total_price": 77236,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Cupertino",
+              "street": "E 8th Street",
+              "house": 163,
+              "flat": 7070
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949bf1c508c5d5e91271f",
+          "products": [
+            {
+              "_id": "695949c01c508c5d5e912739",
+              "name": "Computer26373",
+              "amount": 413,
+              "price": 56319,
+              "manufacturer": "Samsung",
+              "notes": "QS2C61PWAx9XFftuipuuKcPm8LhJ3CSbbPLljbWOsSdj6HcuRKsHUHs78Mo432rosZjSQz39dPvpsDkPa8ZAlUD4MRkprU0RA3QMiyn8R8KRk3H5oe3vgiaYy1LTFtahsLTr3tPSMOJ8gRNbBbLq88Y6EDKle4oW6zTRXmssSLX6hHbv3ILqt1v0pE7PSYNbvL7EEUECuF4QktlbwGUF8BuBqdTJAUc264L5g3zXzZf3WpnmlGxWrlp1mC",
+              "received": false
+            },
+            {
+              "_id": "695949c01c508c5d5e91275b",
+              "name": "Shirt77765",
+              "amount": 973,
+              "price": 20917,
+              "manufacturer": "Xiaomi",
+              "notes": "VvLaVmDCEADDHU1Rep3PmxlprsHzl11ONWorz19YpCmVBc9AmbnwiRtH6GReMXh0Z1FRQh4M15KAiWCV5GyjCK3u1GEcCNoYvDevrCf0FDXlJruK0VOlKOTqxJW6iynJ4D3Qb9uHaDSYCWUFONAW4PfdmBqpiWAniBpo2mPMVssjQC26XzTpD0h9T1d9lLua4jb5EkdZsakJKOneIrU2ofc7QIynUUKXZuwVov2WAL80wOi5Fvca8YckBT",
+              "received": false
+            }
+          ],
+          "total_price": 77236,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Cupertino",
+              "street": "E 8th Street",
+              "house": 163,
+              "flat": 7070
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:25.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949bf1c508c5d5e91271f",
+          "products": [
+            {
+              "_id": "695949c01c508c5d5e912739",
+              "name": "Computer26373",
+              "amount": 413,
+              "price": 56319,
+              "manufacturer": "Samsung",
+              "notes": "QS2C61PWAx9XFftuipuuKcPm8LhJ3CSbbPLljbWOsSdj6HcuRKsHUHs78Mo432rosZjSQz39dPvpsDkPa8ZAlUD4MRkprU0RA3QMiyn8R8KRk3H5oe3vgiaYy1LTFtahsLTr3tPSMOJ8gRNbBbLq88Y6EDKle4oW6zTRXmssSLX6hHbv3ILqt1v0pE7PSYNbvL7EEUECuF4QktlbwGUF8BuBqdTJAUc264L5g3zXzZf3WpnmlGxWrlp1mC",
+              "received": false
+            },
+            {
+              "_id": "695949c01c508c5d5e91275b",
+              "name": "Shirt77765",
+              "amount": 973,
+              "price": 20917,
+              "manufacturer": "Xiaomi",
+              "notes": "VvLaVmDCEADDHU1Rep3PmxlprsHzl11ONWorz19YpCmVBc9AmbnwiRtH6GReMXh0Z1FRQh4M15KAiWCV5GyjCK3u1GEcCNoYvDevrCf0FDXlJruK0VOlKOTqxJW6iynJ4D3Qb9uHaDSYCWUFONAW4PfdmBqpiWAniBpo2mPMVssjQC26XzTpD0h9T1d9lLua4jb5EkdZsakJKOneIrU2ofc7QIynUUKXZuwVov2WAL80wOi5Fvca8YckBT",
+              "received": false
+            }
+          ],
+          "total_price": 77236,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:54:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

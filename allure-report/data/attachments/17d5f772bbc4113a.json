@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:54:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3696",
+    "etag": "W/\"e70-tsg+R7Gq5JDDnEhGQUVi1vo2nK8\"",
+    "keep-alive": "timeout=5, max=1",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695949d31c508c5d5e912f4a",
+      "status": "In Process",
+      "customer": {
+        "_id": "695949d21c508c5d5e912eff",
+        "email": "Augustus24@hotmail.com",
+        "name": "Yasmine Jaskolski",
+        "country": "Germany",
+        "city": "Lefflertown",
+        "street": "Spring Street 96",
+        "house": 113,
+        "flat": 9662,
+        "phone": "+442758314280059",
+        "createdOn": "2026-01-03T16:54:42.000Z",
+        "notes": "uYkijFWOdgodDCibtyRsBdchnJbF4v"
+      },
+      "products": [
+        {
+          "_id": "695949d21c508c5d5e912f38",
+          "name": "Table70328",
+          "amount": 430,
+          "price": 92173,
+          "manufacturer": "Microsoft",
+          "notes": "ZMPUL6gjjg5IVf4bdIm4dsMPuYIaCgSKTfuCc9MUrc7sQPA7ZSDyHUOwA6aFV81iVD3pSq8SP0Dv8Vnx1JJEZeuOzUy0fEqjHcOmVKf3zmzyGyA9IzWTYocmpxcd8bQeFnJRlweCJ8yKtobmfTy4Ea54EDcd4XhFz7JvfUp8YDN1KfR3FjoTVqqJAirQ0HsLmT9wiIzxmP2NbZvemDTFYTlWgWMImmefDsklfTXjXhn7HFWS6NtthOikRI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Toledo",
+          "street": "Nikolaus Hollow",
+          "house": 965,
+          "flat": 8712
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92173,
+      "createdOn": "2026-01-03T16:54:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695949d21c508c5d5e912eff",
+          "products": [
+            {
+              "_id": "695949d21c508c5d5e912f38",
+              "name": "Table70328",
+              "amount": 430,
+              "price": 92173,
+              "manufacturer": "Microsoft",
+              "notes": "ZMPUL6gjjg5IVf4bdIm4dsMPuYIaCgSKTfuCc9MUrc7sQPA7ZSDyHUOwA6aFV81iVD3pSq8SP0Dv8Vnx1JJEZeuOzUy0fEqjHcOmVKf3zmzyGyA9IzWTYocmpxcd8bQeFnJRlweCJ8yKtobmfTy4Ea54EDcd4XhFz7JvfUp8YDN1KfR3FjoTVqqJAirQ0HsLmT9wiIzxmP2NbZvemDTFYTlWgWMImmefDsklfTXjXhn7HFWS6NtthOikRI",
+              "received": false
+            }
+          ],
+          "total_price": 92173,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Toledo",
+              "street": "Nikolaus Hollow",
+              "house": 965,
+              "flat": 8712
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949d21c508c5d5e912eff",
+          "products": [
+            {
+              "_id": "695949d21c508c5d5e912f38",
+              "name": "Table70328",
+              "amount": 430,
+              "price": 92173,
+              "manufacturer": "Microsoft",
+              "notes": "ZMPUL6gjjg5IVf4bdIm4dsMPuYIaCgSKTfuCc9MUrc7sQPA7ZSDyHUOwA6aFV81iVD3pSq8SP0Dv8Vnx1JJEZeuOzUy0fEqjHcOmVKf3zmzyGyA9IzWTYocmpxcd8bQeFnJRlweCJ8yKtobmfTy4Ea54EDcd4XhFz7JvfUp8YDN1KfR3FjoTVqqJAirQ0HsLmT9wiIzxmP2NbZvemDTFYTlWgWMImmefDsklfTXjXhn7HFWS6NtthOikRI",
+              "received": false
+            }
+          ],
+          "total_price": 92173,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Toledo",
+              "street": "Nikolaus Hollow",
+              "house": 965,
+              "flat": 8712
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949d21c508c5d5e912eff",
+          "products": [
+            {
+              "_id": "695949d21c508c5d5e912f38",
+              "name": "Table70328",
+              "amount": 430,
+              "price": 92173,
+              "manufacturer": "Microsoft",
+              "notes": "ZMPUL6gjjg5IVf4bdIm4dsMPuYIaCgSKTfuCc9MUrc7sQPA7ZSDyHUOwA6aFV81iVD3pSq8SP0Dv8Vnx1JJEZeuOzUy0fEqjHcOmVKf3zmzyGyA9IzWTYocmpxcd8bQeFnJRlweCJ8yKtobmfTy4Ea54EDcd4XhFz7JvfUp8YDN1KfR3FjoTVqqJAirQ0HsLmT9wiIzxmP2NbZvemDTFYTlWgWMImmefDsklfTXjXhn7HFWS6NtthOikRI",
+              "received": false
+            }
+          ],
+          "total_price": 92173,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:54:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:59:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2766",
+    "etag": "W/\"ace-ZokGofQmy2jRat9vPSWZxiEhcKA\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594ae31c508c5d5e91ab1e",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594ae21c508c5d5e91aaf6",
+        "email": "Eduardo_Greenholt@yahoo.com",
+        "name": "Jamel Schmeler",
+        "country": "USA",
+        "city": "South Birdiefield",
+        "street": "Heidenreich Crossing 87",
+        "house": 458,
+        "flat": 2920,
+        "phone": "+005526598039034",
+        "createdOn": "2026-01-03T16:59:14.000Z",
+        "notes": "TZLn20eg8sqtDlG7UAUixR6aEF9S4C"
+      },
+      "products": [
+        {
+          "_id": "69594ae31c508c5d5e91ab0b",
+          "name": "Mouse48133",
+          "amount": 12,
+          "price": 72076,
+          "manufacturer": "Xiaomi",
+          "notes": "FTiFPuk80SERRpiPtJPD1FJ3klIFe3uNkm0ihqV65zFQMeh1ZWPWOT0GtPbbH0YDVKdLgn1TP2QV6yxboieGYY340MzfjCuzwOuJRr8nx9iaZtXyxuydJXal0ylzMBMMsBqKjgxzmHvV2NX12gqwanXeeQ5PspbxjLvhUwZqdBG5uTn15RBTEA5XsaASRIsg2vDABQZ3Ii7FiOHJ3gsJvWKkB9vawfxieJF3ZsPUvlvHuh0Qtu9k9NSBA3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Bodechester",
+          "street": "Kovacek Avenue",
+          "house": 752,
+          "flat": 8887
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72076,
+      "createdOn": "2026-01-03T16:59:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594ae21c508c5d5e91aaf6",
+          "products": [
+            {
+              "_id": "69594ae31c508c5d5e91ab0b",
+              "name": "Mouse48133",
+              "amount": 12,
+              "price": 72076,
+              "manufacturer": "Xiaomi",
+              "notes": "FTiFPuk80SERRpiPtJPD1FJ3klIFe3uNkm0ihqV65zFQMeh1ZWPWOT0GtPbbH0YDVKdLgn1TP2QV6yxboieGYY340MzfjCuzwOuJRr8nx9iaZtXyxuydJXal0ylzMBMMsBqKjgxzmHvV2NX12gqwanXeeQ5PspbxjLvhUwZqdBG5uTn15RBTEA5XsaASRIsg2vDABQZ3Ii7FiOHJ3gsJvWKkB9vawfxieJF3ZsPUvlvHuh0Qtu9k9NSBA3",
+              "received": false
+            }
+          ],
+          "total_price": 72076,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Bodechester",
+              "street": "Kovacek Avenue",
+              "house": 752,
+              "flat": 8887
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:59:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594ae21c508c5d5e91aaf6",
+          "products": [
+            {
+              "_id": "69594ae31c508c5d5e91ab0b",
+              "name": "Mouse48133",
+              "amount": 12,
+              "price": 72076,
+              "manufacturer": "Xiaomi",
+              "notes": "FTiFPuk80SERRpiPtJPD1FJ3klIFe3uNkm0ihqV65zFQMeh1ZWPWOT0GtPbbH0YDVKdLgn1TP2QV6yxboieGYY340MzfjCuzwOuJRr8nx9iaZtXyxuydJXal0ylzMBMMsBqKjgxzmHvV2NX12gqwanXeeQ5PspbxjLvhUwZqdBG5uTn15RBTEA5XsaASRIsg2vDABQZ3Ii7FiOHJ3gsJvWKkB9vawfxieJF3ZsPUvlvHuh0Qtu9k9NSBA3",
+              "received": false
+            }
+          ],
+          "total_price": 72076,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:59:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

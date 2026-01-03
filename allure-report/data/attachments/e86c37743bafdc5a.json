@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:54:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3698",
+    "etag": "W/\"e72-iDBlsjro9+9MtAfZ105ZBrUCvMM\"",
+    "keep-alive": "timeout=5, max=21",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695949bc1c508c5d5e9125b7",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695949bb1c508c5d5e912558",
+        "email": "Lorenz_Ruecker@hotmail.com",
+        "name": "Kyle Farrell",
+        "country": "Canada",
+        "city": "Delray Beach",
+        "street": "Sporer Underpass 8",
+        "house": 760,
+        "flat": 5122,
+        "phone": "+008524505094865",
+        "createdOn": "2026-01-03T16:54:19.000Z",
+        "notes": "mDWZtbh08inyk8wegXMa3fkqZo3lvH"
+      },
+      "products": [
+        {
+          "_id": "695949bc1c508c5d5e91259a",
+          "name": "Chicken27890",
+          "amount": 164,
+          "price": 7057,
+          "manufacturer": "Amazon",
+          "notes": "djS2R59p19XIEwRWvU4zc4Uo6y3DfPL8vYGQJJfwspMZx2IzMj3ZlJnNlso3WwHeHEE2mlQarPodgwTf5twr5iMjEd94Qm2S8KoGl740weh6CuVbZzuVxqCiQjoCAl306GPkRkhhVI2FCo5LibuYe5tGSRvb0LB7B9uv2OS7Tpwv1n2rzYvxYfs8X90eMIUJIzGGRmBvmuNtAAN5z6qjfN3BUPV14HrMKpImHNNDEF6pVxfNFf3w36Yqa4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Herbertborough",
+          "street": "Kemmer Cape",
+          "house": 978,
+          "flat": 3773
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7057,
+      "createdOn": "2026-01-03T16:54:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695949bb1c508c5d5e912558",
+          "products": [
+            {
+              "_id": "695949bc1c508c5d5e91259a",
+              "name": "Chicken27890",
+              "amount": 164,
+              "price": 7057,
+              "manufacturer": "Amazon",
+              "notes": "djS2R59p19XIEwRWvU4zc4Uo6y3DfPL8vYGQJJfwspMZx2IzMj3ZlJnNlso3WwHeHEE2mlQarPodgwTf5twr5iMjEd94Qm2S8KoGl740weh6CuVbZzuVxqCiQjoCAl306GPkRkhhVI2FCo5LibuYe5tGSRvb0LB7B9uv2OS7Tpwv1n2rzYvxYfs8X90eMIUJIzGGRmBvmuNtAAN5z6qjfN3BUPV14HrMKpImHNNDEF6pVxfNFf3w36Yqa4",
+              "received": false
+            }
+          ],
+          "total_price": 7057,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Herbertborough",
+              "street": "Kemmer Cape",
+              "house": 978,
+              "flat": 3773
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:21.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949bb1c508c5d5e912558",
+          "products": [
+            {
+              "_id": "695949bc1c508c5d5e91259a",
+              "name": "Chicken27890",
+              "amount": 164,
+              "price": 7057,
+              "manufacturer": "Amazon",
+              "notes": "djS2R59p19XIEwRWvU4zc4Uo6y3DfPL8vYGQJJfwspMZx2IzMj3ZlJnNlso3WwHeHEE2mlQarPodgwTf5twr5iMjEd94Qm2S8KoGl740weh6CuVbZzuVxqCiQjoCAl306GPkRkhhVI2FCo5LibuYe5tGSRvb0LB7B9uv2OS7Tpwv1n2rzYvxYfs8X90eMIUJIzGGRmBvmuNtAAN5z6qjfN3BUPV14HrMKpImHNNDEF6pVxfNFf3w36Yqa4",
+              "received": false
+            }
+          ],
+          "total_price": 7057,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Herbertborough",
+              "street": "Kemmer Cape",
+              "house": 978,
+              "flat": 3773
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949bb1c508c5d5e912558",
+          "products": [
+            {
+              "_id": "695949bc1c508c5d5e91259a",
+              "name": "Chicken27890",
+              "amount": 164,
+              "price": 7057,
+              "manufacturer": "Amazon",
+              "notes": "djS2R59p19XIEwRWvU4zc4Uo6y3DfPL8vYGQJJfwspMZx2IzMj3ZlJnNlso3WwHeHEE2mlQarPodgwTf5twr5iMjEd94Qm2S8KoGl740weh6CuVbZzuVxqCiQjoCAl306GPkRkhhVI2FCo5LibuYe5tGSRvb0LB7B9uv2OS7Tpwv1n2rzYvxYfs8X90eMIUJIzGGRmBvmuNtAAN5z6qjfN3BUPV14HrMKpImHNNDEF6pVxfNFf3w36Yqa4",
+              "received": false
+            }
+          ],
+          "total_price": 7057,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:54:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

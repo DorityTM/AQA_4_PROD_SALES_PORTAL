@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:54:39 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3696",
+    "etag": "W/\"e70-9wUQef8Zc0BmIh3BG7fKNHlOqNA\"",
+    "keep-alive": "timeout=5, max=12",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695949ce1c508c5d5e912d54",
+      "status": "In Process",
+      "customer": {
+        "_id": "695949ce1c508c5d5e912d33",
+        "email": "Mortimer_Legros@gmail.com",
+        "name": "Robert Ward",
+        "country": "Germany",
+        "city": "Lake Jamie",
+        "street": "Bednar Knoll 47",
+        "house": 33,
+        "flat": 3128,
+        "phone": "+392596742525614",
+        "createdOn": "2026-01-03T16:54:38.000Z",
+        "notes": "gEEDQDBLME9fUCurnpl0sgqJgl07F9"
+      },
+      "products": [
+        {
+          "_id": "695949ce1c508c5d5e912d43",
+          "name": "Hat80492",
+          "amount": 798,
+          "price": 51975,
+          "manufacturer": "Tesla",
+          "notes": "tsPPGaHytuF8rsjAihVUCr7MHbRx4piErbDkR6dq3GkVOwvugHSE7XfUS0jgDe7u83ofgLJwHA5NiAc2IIKOIaQqIetMsWS1N0WReyaENTRittReQzZA1qFOmlH1Kdos0qKyz4G8DB8Rpdpr4JPP2gXjmdVgnS1Bv8nl0Lce35cjE4vFacA952ZGRDS4uYbM37uVjPt3goHpYkA2wvzSRQ9OUypNQ5bTDfeXZgN2y9sA2aUlHJU5BaxF8g",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Redwood City",
+          "street": "Lincoln Field",
+          "house": 565,
+          "flat": 4608
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51975,
+      "createdOn": "2026-01-03T16:54:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695949ce1c508c5d5e912d33",
+          "products": [
+            {
+              "_id": "695949ce1c508c5d5e912d43",
+              "name": "Hat80492",
+              "amount": 798,
+              "price": 51975,
+              "manufacturer": "Tesla",
+              "notes": "tsPPGaHytuF8rsjAihVUCr7MHbRx4piErbDkR6dq3GkVOwvugHSE7XfUS0jgDe7u83ofgLJwHA5NiAc2IIKOIaQqIetMsWS1N0WReyaENTRittReQzZA1qFOmlH1Kdos0qKyz4G8DB8Rpdpr4JPP2gXjmdVgnS1Bv8nl0Lce35cjE4vFacA952ZGRDS4uYbM37uVjPt3goHpYkA2wvzSRQ9OUypNQ5bTDfeXZgN2y9sA2aUlHJU5BaxF8g",
+              "received": false
+            }
+          ],
+          "total_price": 51975,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Redwood City",
+              "street": "Lincoln Field",
+              "house": 565,
+              "flat": 4608
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:39.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949ce1c508c5d5e912d33",
+          "products": [
+            {
+              "_id": "695949ce1c508c5d5e912d43",
+              "name": "Hat80492",
+              "amount": 798,
+              "price": 51975,
+              "manufacturer": "Tesla",
+              "notes": "tsPPGaHytuF8rsjAihVUCr7MHbRx4piErbDkR6dq3GkVOwvugHSE7XfUS0jgDe7u83ofgLJwHA5NiAc2IIKOIaQqIetMsWS1N0WReyaENTRittReQzZA1qFOmlH1Kdos0qKyz4G8DB8Rpdpr4JPP2gXjmdVgnS1Bv8nl0Lce35cjE4vFacA952ZGRDS4uYbM37uVjPt3goHpYkA2wvzSRQ9OUypNQ5bTDfeXZgN2y9sA2aUlHJU5BaxF8g",
+              "received": false
+            }
+          ],
+          "total_price": 51975,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Redwood City",
+              "street": "Lincoln Field",
+              "house": 565,
+              "flat": 4608
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949ce1c508c5d5e912d33",
+          "products": [
+            {
+              "_id": "695949ce1c508c5d5e912d43",
+              "name": "Hat80492",
+              "amount": 798,
+              "price": 51975,
+              "manufacturer": "Tesla",
+              "notes": "tsPPGaHytuF8rsjAihVUCr7MHbRx4piErbDkR6dq3GkVOwvugHSE7XfUS0jgDe7u83ofgLJwHA5NiAc2IIKOIaQqIetMsWS1N0WReyaENTRittReQzZA1qFOmlH1Kdos0qKyz4G8DB8Rpdpr4JPP2gXjmdVgnS1Bv8nl0Lce35cjE4vFacA952ZGRDS4uYbM37uVjPt3goHpYkA2wvzSRQ9OUypNQ5bTDfeXZgN2y9sA2aUlHJU5BaxF8g",
+              "received": false
+            }
+          ],
+          "total_price": 51975,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:54:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

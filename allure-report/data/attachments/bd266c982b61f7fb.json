@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:54:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3658",
+    "etag": "W/\"e4a-Ui7vpe9ekuqh+pm6HlbU5KiAKY0\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695949d91c508c5d5e9132a0",
+      "status": "Draft",
+      "customer": {
+        "_id": "695949d81c508c5d5e91319c",
+        "email": "Aracely.Nikolaus@yahoo.com",
+        "name": "Bryon Casper",
+        "country": "France",
+        "city": "Trantowburgh",
+        "street": "Second Avenue 2",
+        "house": 280,
+        "flat": 849,
+        "phone": "+003501594686663",
+        "createdOn": "2026-01-03T16:54:48.000Z",
+        "notes": "5H4zYzD7NnWKmYPuJ98J85ux18X68t"
+      },
+      "products": [
+        {
+          "_id": "695949d91c508c5d5e913284",
+          "name": "Fish42299",
+          "amount": 800,
+          "price": 89293,
+          "manufacturer": "Sony",
+          "notes": "6XXhWm5di3clGwyqvhRXUw6g84uFe5vtKKl615lSkJzb2YwLEAFOVyk6EjcJC1fmocto8GCyJMN4AYqHZjGWSoc7Sahyw3wIfC8YGaVmwZYV70WPJrG9AfHSOjOzioowUw7wF0mRaotzoEyREYZ2tRajyYJjVAMNRLIV7F2Vm2BjVyBWi6m8H5AKFIrC3IVCNIaHrBAMi9pxo031ppzRsa4En9q8I4wChvCjuEeifzSp16bZyYj1j6PNpM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lynnstead",
+          "street": "Block Ford",
+          "house": 977,
+          "flat": 1225
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 89293,
+      "createdOn": "2026-01-03T16:54:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695949d81c508c5d5e91319c",
+          "products": [
+            {
+              "_id": "695949d91c508c5d5e913284",
+              "name": "Fish42299",
+              "amount": 800,
+              "price": 89293,
+              "manufacturer": "Sony",
+              "notes": "6XXhWm5di3clGwyqvhRXUw6g84uFe5vtKKl615lSkJzb2YwLEAFOVyk6EjcJC1fmocto8GCyJMN4AYqHZjGWSoc7Sahyw3wIfC8YGaVmwZYV70WPJrG9AfHSOjOzioowUw7wF0mRaotzoEyREYZ2tRajyYJjVAMNRLIV7F2Vm2BjVyBWi6m8H5AKFIrC3IVCNIaHrBAMi9pxo031ppzRsa4En9q8I4wChvCjuEeifzSp16bZyYj1j6PNpM",
+              "received": false
+            }
+          ],
+          "total_price": 89293,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lynnstead",
+              "street": "Block Ford",
+              "house": 977,
+              "flat": 1225
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T16:54:51.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949d81c508c5d5e91319c",
+          "products": [
+            {
+              "_id": "695949d91c508c5d5e913284",
+              "name": "Fish42299",
+              "amount": 800,
+              "price": 89293,
+              "manufacturer": "Sony",
+              "notes": "6XXhWm5di3clGwyqvhRXUw6g84uFe5vtKKl615lSkJzb2YwLEAFOVyk6EjcJC1fmocto8GCyJMN4AYqHZjGWSoc7Sahyw3wIfC8YGaVmwZYV70WPJrG9AfHSOjOzioowUw7wF0mRaotzoEyREYZ2tRajyYJjVAMNRLIV7F2Vm2BjVyBWi6m8H5AKFIrC3IVCNIaHrBAMi9pxo031ppzRsa4En9q8I4wChvCjuEeifzSp16bZyYj1j6PNpM",
+              "received": false
+            }
+          ],
+          "total_price": 89293,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Breitenbergstead",
+              "street": "Lesch Crossroad",
+              "house": 627,
+              "flat": 7099
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:54:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695949d81c508c5d5e91319c",
+          "products": [
+            {
+              "_id": "695949d91c508c5d5e913284",
+              "name": "Fish42299",
+              "amount": 800,
+              "price": 89293,
+              "manufacturer": "Sony",
+              "notes": "6XXhWm5di3clGwyqvhRXUw6g84uFe5vtKKl615lSkJzb2YwLEAFOVyk6EjcJC1fmocto8GCyJMN4AYqHZjGWSoc7Sahyw3wIfC8YGaVmwZYV70WPJrG9AfHSOjOzioowUw7wF0mRaotzoEyREYZ2tRajyYJjVAMNRLIV7F2Vm2BjVyBWi6m8H5AKFIrC3IVCNIaHrBAMi9pxo031ppzRsa4En9q8I4wChvCjuEeifzSp16bZyYj1j6PNpM",
+              "received": false
+            }
+          ],
+          "total_price": 89293,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:54:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

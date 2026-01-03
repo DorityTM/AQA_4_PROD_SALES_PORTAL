@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:01:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4255",
+    "etag": "W/\"109f-rKYrukH3livDX69GwMXkHbR5Yvc\"",
+    "keep-alive": "timeout=5, max=85",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594b481c508c5d5e91e11f",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594b481c508c5d5e91e0b5",
+        "email": "Benton.Ebert@hotmail.com",
+        "name": "Jaime Rath",
+        "country": "Belarus",
+        "city": "Rathside",
+        "street": "Maple Street 29",
+        "house": 689,
+        "flat": 8128,
+        "phone": "+798025043195029",
+        "createdOn": "2026-01-03T17:00:56.000Z",
+        "notes": "9rlZyNEj4iGMFsKLO7fMSK7YR5R7QQ"
+      },
+      "products": [
+        {
+          "_id": "69594b481c508c5d5e91e108",
+          "name": "Sausages989",
+          "amount": 364,
+          "price": 90267,
+          "manufacturer": "Google",
+          "notes": "kuJ9r10dDIydbuIx1zviMsnMHtUhTLeCHP5pXDo6KpHirbBPk0tAnsZ7dOcnjajqfbrznFEk0U63ckGVLgkXXkEHjjIAL71D7AqGSZEEKaiUy7ukSXfESFNgZqneo61Qt5wfwLnj8cjZ3dFqLtp5TZ6Yvw6FrWt69YrCwdR7pFA4zWqarOASvMLqE95GItYKi46VW3Ls5SkEiLozzVkTpzm7hHXAOHtPHPQslNSE0XE0jn3hn0wnQiX1vb",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 90267,
+      "createdOn": "2026-01-03T17:00:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594b481c508c5d5e91e0b5",
+          "products": [
+            {
+              "_id": "69594b481c508c5d5e91e108",
+              "name": "Sausages989",
+              "amount": 364,
+              "price": 90267,
+              "manufacturer": "Google",
+              "notes": "kuJ9r10dDIydbuIx1zviMsnMHtUhTLeCHP5pXDo6KpHirbBPk0tAnsZ7dOcnjajqfbrznFEk0U63ckGVLgkXXkEHjjIAL71D7AqGSZEEKaiUy7ukSXfESFNgZqneo61Qt5wfwLnj8cjZ3dFqLtp5TZ6Yvw6FrWt69YrCwdR7pFA4zWqarOASvMLqE95GItYKi46VW3Ls5SkEiLozzVkTpzm7hHXAOHtPHPQslNSE0XE0jn3hn0wnQiX1vb",
+              "received": false
+            }
+          ],
+          "total_price": 90267,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:01:00.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "69594b481c508c5d5e91e0b5",
+          "products": [
+            {
+              "_id": "69594b481c508c5d5e91e108",
+              "name": "Sausages989",
+              "amount": 364,
+              "price": 90267,
+              "manufacturer": "Google",
+              "notes": "kuJ9r10dDIydbuIx1zviMsnMHtUhTLeCHP5pXDo6KpHirbBPk0tAnsZ7dOcnjajqfbrznFEk0U63ckGVLgkXXkEHjjIAL71D7AqGSZEEKaiUy7ukSXfESFNgZqneo61Qt5wfwLnj8cjZ3dFqLtp5TZ6Yvw6FrWt69YrCwdR7pFA4zWqarOASvMLqE95GItYKi46VW3Ls5SkEiLozzVkTpzm7hHXAOHtPHPQslNSE0XE0jn3hn0wnQiX1vb",
+              "received": false
+            }
+          ],
+          "total_price": 90267,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Sengerstad",
+              "street": "Keebler Grove",
+              "house": 682,
+              "flat": 9200
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:00:58.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594b481c508c5d5e91e0b5",
+          "products": [
+            {
+              "_id": "69594b481c508c5d5e91e108",
+              "name": "Sausages989",
+              "amount": 364,
+              "price": 90267,
+              "manufacturer": "Google",
+              "notes": "kuJ9r10dDIydbuIx1zviMsnMHtUhTLeCHP5pXDo6KpHirbBPk0tAnsZ7dOcnjajqfbrznFEk0U63ckGVLgkXXkEHjjIAL71D7AqGSZEEKaiUy7ukSXfESFNgZqneo61Qt5wfwLnj8cjZ3dFqLtp5TZ6Yvw6FrWt69YrCwdR7pFA4zWqarOASvMLqE95GItYKi46VW3Ls5SkEiLozzVkTpzm7hHXAOHtPHPQslNSE0XE0jn3hn0wnQiX1vb",
+              "received": false
+            }
+          ],
+          "total_price": 90267,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Sengerstad",
+              "street": "Keebler Grove",
+              "house": 682,
+              "flat": 9200
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:00:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594b481c508c5d5e91e0b5",
+          "products": [
+            {
+              "_id": "69594b481c508c5d5e91e108",
+              "name": "Sausages989",
+              "amount": 364,
+              "price": 90267,
+              "manufacturer": "Google",
+              "notes": "kuJ9r10dDIydbuIx1zviMsnMHtUhTLeCHP5pXDo6KpHirbBPk0tAnsZ7dOcnjajqfbrznFEk0U63ckGVLgkXXkEHjjIAL71D7AqGSZEEKaiUy7ukSXfESFNgZqneo61Qt5wfwLnj8cjZ3dFqLtp5TZ6Yvw6FrWt69YrCwdR7pFA4zWqarOASvMLqE95GItYKi46VW3Ls5SkEiLozzVkTpzm7hHXAOHtPHPQslNSE0XE0jn3hn0wnQiX1vb",
+              "received": false
+            }
+          ],
+          "total_price": 90267,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:00:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
