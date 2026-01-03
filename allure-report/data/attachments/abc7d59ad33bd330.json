@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:10:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-ZbO7PxpwL1mCHH/r19fiBAfH/n4\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595b991c508c5d5e959931",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69595b981c508c5d5e95990b",
+        "email": "Harmon.McCullough@yahoo.com",
+        "name": "Gwen Ortiz",
+        "country": "Russia",
+        "city": "Schneidershire",
+        "street": "E Broadway 64",
+        "house": 279,
+        "flat": 5181,
+        "phone": "+818105466752133",
+        "createdOn": "2026-01-03T18:10:32.000Z",
+        "notes": "8D6heDk2MEuivMGUEMgVQtcJLkWsyO"
+      },
+      "products": [
+        {
+          "_id": "69595b991c508c5d5e959922",
+          "name": "Chicken75615",
+          "amount": 468,
+          "price": 94781,
+          "manufacturer": "Apple",
+          "notes": "sWE1iOBDrXRUD0jQGUa8eHcNexYIy7mZT1r7XJ42p0huGahhhZvRIrwTEcvtlGCs8VbkMphCWuClmyaVcDvTIhCswYFfgaYNuFhQ9WmKVoFJC08HIb3mkt3lphwntnFgQ2ofGMlbdDB0vahiQGPr3FhCudeRKkBbJ7LJCjBUanZRBPZHgl86TRt6OTvEVjMDVMPHG7RpVHvMkYksv5IXifopUP0LauQipF1RIOFI72Q17kDU7MN2Lb1cO3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Port Jerome",
+          "street": "Deven Junctions",
+          "house": 568,
+          "flat": 9571
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 94781,
+      "createdOn": "2026-01-03T18:10:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69595b981c508c5d5e95990b",
+          "products": [
+            {
+              "_id": "69595b991c508c5d5e959922",
+              "name": "Chicken75615",
+              "amount": 468,
+              "price": 94781,
+              "manufacturer": "Apple",
+              "notes": "sWE1iOBDrXRUD0jQGUa8eHcNexYIy7mZT1r7XJ42p0huGahhhZvRIrwTEcvtlGCs8VbkMphCWuClmyaVcDvTIhCswYFfgaYNuFhQ9WmKVoFJC08HIb3mkt3lphwntnFgQ2ofGMlbdDB0vahiQGPr3FhCudeRKkBbJ7LJCjBUanZRBPZHgl86TRt6OTvEVjMDVMPHG7RpVHvMkYksv5IXifopUP0LauQipF1RIOFI72Q17kDU7MN2Lb1cO3",
+              "received": false
+            }
+          ],
+          "total_price": 94781,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Jerome",
+              "street": "Deven Junctions",
+              "house": 568,
+              "flat": 9571
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:10:34.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595b981c508c5d5e95990b",
+          "products": [
+            {
+              "_id": "69595b991c508c5d5e959922",
+              "name": "Chicken75615",
+              "amount": 468,
+              "price": 94781,
+              "manufacturer": "Apple",
+              "notes": "sWE1iOBDrXRUD0jQGUa8eHcNexYIy7mZT1r7XJ42p0huGahhhZvRIrwTEcvtlGCs8VbkMphCWuClmyaVcDvTIhCswYFfgaYNuFhQ9WmKVoFJC08HIb3mkt3lphwntnFgQ2ofGMlbdDB0vahiQGPr3FhCudeRKkBbJ7LJCjBUanZRBPZHgl86TRt6OTvEVjMDVMPHG7RpVHvMkYksv5IXifopUP0LauQipF1RIOFI72Q17kDU7MN2Lb1cO3",
+              "received": false
+            }
+          ],
+          "total_price": 94781,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Jerome",
+              "street": "Deven Junctions",
+              "house": 568,
+              "flat": 9571
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:10:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595b981c508c5d5e95990b",
+          "products": [
+            {
+              "_id": "69595b991c508c5d5e959922",
+              "name": "Chicken75615",
+              "amount": 468,
+              "price": 94781,
+              "manufacturer": "Apple",
+              "notes": "sWE1iOBDrXRUD0jQGUa8eHcNexYIy7mZT1r7XJ42p0huGahhhZvRIrwTEcvtlGCs8VbkMphCWuClmyaVcDvTIhCswYFfgaYNuFhQ9WmKVoFJC08HIb3mkt3lphwntnFgQ2ofGMlbdDB0vahiQGPr3FhCudeRKkBbJ7LJCjBUanZRBPZHgl86TRt6OTvEVjMDVMPHG7RpVHvMkYksv5IXifopUP0LauQipF1RIOFI72Q17kDU7MN2Lb1cO3",
+              "received": false
+            }
+          ],
+          "total_price": 94781,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:10:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

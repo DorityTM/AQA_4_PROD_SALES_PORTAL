@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:14:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2734",
+    "etag": "W/\"aae-MFKRnBWBkmIjC4qK61gs6gQ76Mk\"",
+    "keep-alive": "timeout=5, max=51",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595ca11c508c5d5e96087b",
+      "status": "Draft",
+      "customer": {
+        "_id": "69595ca01c508c5d5e960817",
+        "email": "Ruby30@hotmail.com",
+        "name": "Jazlyn Mohr",
+        "country": "USA",
+        "city": "Ziemannborough",
+        "street": "Kozey Manors 74",
+        "house": 469,
+        "flat": 1609,
+        "phone": "+946855051362688",
+        "createdOn": "2026-01-03T18:14:56.000Z",
+        "notes": "N1Ght4uLG71z5exY10TTzwEJS710U2"
+      },
+      "products": [
+        {
+          "_id": "69595ca11c508c5d5e960827",
+          "name": "Fish47928",
+          "amount": 498,
+          "price": 14110,
+          "manufacturer": "Tesla",
+          "notes": "nCD1KeHATZNlQKCojMRz36SYe9aax7IYHYwEim0jm3Bs9D2RDs8FDhyBfcALnKEfqdzYjKb8rPXiBAf4vwRMGSejISIAUySGXi7CH4I9G3xihUgBr9VPlD3hBmhSeHcZRPNYu7dGyHDyn42yosF0Po7iMgfewpc0ud1MExVoQmVW56YIJ9mBCs1iUjhJb1SFxKSGaX7zariaAXHuJoq8j712AzqMdZIWHECNdIVGAGDquS0DAeK8JxGCD5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Khalidview",
+          "street": "First Avenue",
+          "house": 927,
+          "flat": 9520
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 14110,
+      "createdOn": "2026-01-03T18:14:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595ca01c508c5d5e960817",
+          "products": [
+            {
+              "_id": "69595ca11c508c5d5e960827",
+              "name": "Fish47928",
+              "amount": 498,
+              "price": 14110,
+              "manufacturer": "Tesla",
+              "notes": "nCD1KeHATZNlQKCojMRz36SYe9aax7IYHYwEim0jm3Bs9D2RDs8FDhyBfcALnKEfqdzYjKb8rPXiBAf4vwRMGSejISIAUySGXi7CH4I9G3xihUgBr9VPlD3hBmhSeHcZRPNYu7dGyHDyn42yosF0Po7iMgfewpc0ud1MExVoQmVW56YIJ9mBCs1iUjhJb1SFxKSGaX7zariaAXHuJoq8j712AzqMdZIWHECNdIVGAGDquS0DAeK8JxGCD5",
+              "received": false
+            }
+          ],
+          "total_price": 14110,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Khalidview",
+              "street": "First Avenue",
+              "house": 927,
+              "flat": 9520
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:14:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595ca01c508c5d5e960817",
+          "products": [
+            {
+              "_id": "69595ca11c508c5d5e960827",
+              "name": "Fish47928",
+              "amount": 498,
+              "price": 14110,
+              "manufacturer": "Tesla",
+              "notes": "nCD1KeHATZNlQKCojMRz36SYe9aax7IYHYwEim0jm3Bs9D2RDs8FDhyBfcALnKEfqdzYjKb8rPXiBAf4vwRMGSejISIAUySGXi7CH4I9G3xihUgBr9VPlD3hBmhSeHcZRPNYu7dGyHDyn42yosF0Po7iMgfewpc0ud1MExVoQmVW56YIJ9mBCs1iUjhJb1SFxKSGaX7zariaAXHuJoq8j712AzqMdZIWHECNdIVGAGDquS0DAeK8JxGCD5",
+              "received": false
+            }
+          ],
+          "total_price": 14110,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:14:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:14:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3703",
+    "etag": "W/\"e77-GL01mFHLkebgK/dfmrtIZJuRkls\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595c9d1c508c5d5e96076e",
+      "status": "In Process",
+      "customer": {
+        "_id": "69595c9d1c508c5d5e960742",
+        "email": "Alexandria.Nitzsche@hotmail.com",
+        "name": "Declan Bruen",
+        "country": "Great Britain",
+        "city": "Levittown",
+        "street": "The Woodlands 92",
+        "house": 545,
+        "flat": 8741,
+        "phone": "+646847856043338",
+        "createdOn": "2026-01-03T18:14:53.000Z",
+        "notes": "zZ9PnCQHiJSXyWyN1D1Py7Cks4j9Jo"
+      },
+      "products": [
+        {
+          "_id": "69595c9d1c508c5d5e96075a",
+          "name": "Chair61466",
+          "amount": 385,
+          "price": 45144,
+          "manufacturer": "Apple",
+          "notes": "gzvKBxP9NqEjB2lhxSnnlYr1X6EUj3OK0w5eNeluTjn1uJv4dcz4AY0hwl95KbmUNRMQPO8sCbRRv8kWpjJTxQUiwKHtcfwUhaKgBQlBkLkTNyLyq7HMd4ZmIkPcFUJ7AtNFEEoSymnOSrKsv5jLD3lXGX3fyVRF3Pb3ScvVOotXYdf2YprvgUXEAuWjFtTgTik7AQdyERfm8n173KwpXF1kRSEmRSNahkRVCX4YbPL8paIaa7MvluwkeE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Palm Springs",
+          "street": "Lynch Mountains",
+          "house": 122,
+          "flat": 2519
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 45144,
+      "createdOn": "2026-01-03T18:14:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69595c9d1c508c5d5e960742",
+          "products": [
+            {
+              "_id": "69595c9d1c508c5d5e96075a",
+              "name": "Chair61466",
+              "amount": 385,
+              "price": 45144,
+              "manufacturer": "Apple",
+              "notes": "gzvKBxP9NqEjB2lhxSnnlYr1X6EUj3OK0w5eNeluTjn1uJv4dcz4AY0hwl95KbmUNRMQPO8sCbRRv8kWpjJTxQUiwKHtcfwUhaKgBQlBkLkTNyLyq7HMd4ZmIkPcFUJ7AtNFEEoSymnOSrKsv5jLD3lXGX3fyVRF3Pb3ScvVOotXYdf2YprvgUXEAuWjFtTgTik7AQdyERfm8n173KwpXF1kRSEmRSNahkRVCX4YbPL8paIaa7MvluwkeE",
+              "received": false
+            }
+          ],
+          "total_price": 45144,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Palm Springs",
+              "street": "Lynch Mountains",
+              "house": 122,
+              "flat": 2519
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:14:54.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595c9d1c508c5d5e960742",
+          "products": [
+            {
+              "_id": "69595c9d1c508c5d5e96075a",
+              "name": "Chair61466",
+              "amount": 385,
+              "price": 45144,
+              "manufacturer": "Apple",
+              "notes": "gzvKBxP9NqEjB2lhxSnnlYr1X6EUj3OK0w5eNeluTjn1uJv4dcz4AY0hwl95KbmUNRMQPO8sCbRRv8kWpjJTxQUiwKHtcfwUhaKgBQlBkLkTNyLyq7HMd4ZmIkPcFUJ7AtNFEEoSymnOSrKsv5jLD3lXGX3fyVRF3Pb3ScvVOotXYdf2YprvgUXEAuWjFtTgTik7AQdyERfm8n173KwpXF1kRSEmRSNahkRVCX4YbPL8paIaa7MvluwkeE",
+              "received": false
+            }
+          ],
+          "total_price": 45144,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Palm Springs",
+              "street": "Lynch Mountains",
+              "house": 122,
+              "flat": 2519
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:14:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595c9d1c508c5d5e960742",
+          "products": [
+            {
+              "_id": "69595c9d1c508c5d5e96075a",
+              "name": "Chair61466",
+              "amount": 385,
+              "price": 45144,
+              "manufacturer": "Apple",
+              "notes": "gzvKBxP9NqEjB2lhxSnnlYr1X6EUj3OK0w5eNeluTjn1uJv4dcz4AY0hwl95KbmUNRMQPO8sCbRRv8kWpjJTxQUiwKHtcfwUhaKgBQlBkLkTNyLyq7HMd4ZmIkPcFUJ7AtNFEEoSymnOSrKsv5jLD3lXGX3fyVRF3Pb3ScvVOotXYdf2YprvgUXEAuWjFtTgTik7AQdyERfm8n173KwpXF1kRSEmRSNahkRVCX4YbPL8paIaa7MvluwkeE",
+              "received": false
+            }
+          ],
+          "total_price": 45144,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:14:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

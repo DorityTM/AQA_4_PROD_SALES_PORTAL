@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:17:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3682",
+    "etag": "W/\"e62-o+LDOd0JsuJs4eAc/26mh+1GcQU\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595d361c508c5d5e964a0a",
+      "status": "In Process",
+      "customer": {
+        "_id": "69595d331c508c5d5e96487a",
+        "email": "Amparo44@hotmail.com",
+        "name": "Melvina Rohan",
+        "country": "Russia",
+        "city": "Lake Evangelinechest",
+        "street": "Gorczany Shoals 39",
+        "house": 321,
+        "flat": 7721,
+        "phone": "+504032340173858",
+        "createdOn": "2026-01-03T18:17:23.000Z",
+        "notes": "I9dMIibKL8ByCFMdKQKLFfXgWeXJ15"
+      },
+      "products": [
+        {
+          "_id": "69595d361c508c5d5e9649f3",
+          "name": "Mouse52686",
+          "amount": 224,
+          "price": 25962,
+          "manufacturer": "Amazon",
+          "notes": "fNNU9gHMtM7oBWX8Jcdj1IsTGbUHYL16AeLMc8cdtNJQzfAIkVOKELKE3myqb3Mj5c48wIEGQNhkS9ZGGHLljBhHLjFyvetImcznSBeCjcPGwNBS7fkh5tX7mjTh3ro6aeVTOGHsNpALH9OOFwEmIUCtQ8gGMPW83iQ4hYQT1Jh5HOcOZsJu1LbinzsVXvaPXanU5sQJFAMQpIffJNeSHelChcUqup5Eg45eq0O2nqAe7q3CVvTyUeQVHa",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "McGlynnfurt",
+          "street": "Hill Street",
+          "house": 4,
+          "flat": 7974
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25962,
+      "createdOn": "2026-01-03T18:17:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69595d331c508c5d5e96487a",
+          "products": [
+            {
+              "_id": "69595d361c508c5d5e9649f3",
+              "name": "Mouse52686",
+              "amount": 224,
+              "price": 25962,
+              "manufacturer": "Amazon",
+              "notes": "fNNU9gHMtM7oBWX8Jcdj1IsTGbUHYL16AeLMc8cdtNJQzfAIkVOKELKE3myqb3Mj5c48wIEGQNhkS9ZGGHLljBhHLjFyvetImcznSBeCjcPGwNBS7fkh5tX7mjTh3ro6aeVTOGHsNpALH9OOFwEmIUCtQ8gGMPW83iQ4hYQT1Jh5HOcOZsJu1LbinzsVXvaPXanU5sQJFAMQpIffJNeSHelChcUqup5Eg45eq0O2nqAe7q3CVvTyUeQVHa",
+              "received": false
+            }
+          ],
+          "total_price": 25962,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "McGlynnfurt",
+              "street": "Hill Street",
+              "house": 4,
+              "flat": 7974
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:17:27.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595d331c508c5d5e96487a",
+          "products": [
+            {
+              "_id": "69595d361c508c5d5e9649f3",
+              "name": "Mouse52686",
+              "amount": 224,
+              "price": 25962,
+              "manufacturer": "Amazon",
+              "notes": "fNNU9gHMtM7oBWX8Jcdj1IsTGbUHYL16AeLMc8cdtNJQzfAIkVOKELKE3myqb3Mj5c48wIEGQNhkS9ZGGHLljBhHLjFyvetImcznSBeCjcPGwNBS7fkh5tX7mjTh3ro6aeVTOGHsNpALH9OOFwEmIUCtQ8gGMPW83iQ4hYQT1Jh5HOcOZsJu1LbinzsVXvaPXanU5sQJFAMQpIffJNeSHelChcUqup5Eg45eq0O2nqAe7q3CVvTyUeQVHa",
+              "received": false
+            }
+          ],
+          "total_price": 25962,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "McGlynnfurt",
+              "street": "Hill Street",
+              "house": 4,
+              "flat": 7974
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:17:26.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595d331c508c5d5e96487a",
+          "products": [
+            {
+              "_id": "69595d361c508c5d5e9649f3",
+              "name": "Mouse52686",
+              "amount": 224,
+              "price": 25962,
+              "manufacturer": "Amazon",
+              "notes": "fNNU9gHMtM7oBWX8Jcdj1IsTGbUHYL16AeLMc8cdtNJQzfAIkVOKELKE3myqb3Mj5c48wIEGQNhkS9ZGGHLljBhHLjFyvetImcznSBeCjcPGwNBS7fkh5tX7mjTh3ro6aeVTOGHsNpALH9OOFwEmIUCtQ8gGMPW83iQ4hYQT1Jh5HOcOZsJu1LbinzsVXvaPXanU5sQJFAMQpIffJNeSHelChcUqup5Eg45eq0O2nqAe7q3CVvTyUeQVHa",
+              "received": false
+            }
+          ],
+          "total_price": 25962,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:17:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

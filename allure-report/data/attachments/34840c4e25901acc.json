@@ -1,0 +1,285 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:10:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6998",
+    "etag": "W/\"1b56-7Gfu4nz9sL9dsLaPf0//blTnC1A\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595b7e1c508c5d5e958cdd",
+      "status": "In Process",
+      "customer": {
+        "_id": "69595b7a1c508c5d5e958b36",
+        "email": "Merle_Frami@yahoo.com",
+        "name": "Saul Gutmann",
+        "country": "Belarus",
+        "city": "Santa Barbara",
+        "street": "O Connell Rue 80",
+        "house": 595,
+        "flat": 864,
+        "phone": "+134916340197782",
+        "createdOn": "2026-01-03T18:10:02.000Z",
+        "notes": "jr3eS5zEcZhxPPS8tEtB9AECYbOAMF"
+      },
+      "products": [
+        {
+          "_id": "69595b7b1c508c5d5e958b73",
+          "name": "Ball12548",
+          "amount": 933,
+          "price": 68791,
+          "manufacturer": "Google",
+          "notes": "AQnkP8WiEjg92EGOVX9PpXixBFYMhrGeTdYUAFfJatQHMYpPwr9wr72Sciv6Aq6s51mWSLCzbbNO9JF68GXr8RWiDG4AE7NKdtyPOkKCIpA8JUZGAE8psqkfkebkaogjd4ekldbaeHxrx4qYrHPVmYgi7neVK9KysPA7IOK9DzKknFhOTr12pUQPCUg32NxptINxj9gVp9LUeoY6Kt5Mzvyhi3wbyilVX3uiavAVR57Jn66jK2uHCH2aXJ",
+          "received": false
+        },
+        {
+          "_id": "69595b7d1c508c5d5e958c92",
+          "name": "Chips18959",
+          "amount": 663,
+          "price": 56064,
+          "manufacturer": "Amazon",
+          "notes": "QjbQnnNppI1vnMtrKchvLCwWijlW0PqjN7AzPgEd7DxXB81gaEIdvkZEkdOQdr02W3rBfS7F3K7IHyfctB2G023JBP2RGhE8sFnuiH9uewg6uIkDG1w16AaYwPS1GzJhkWF5PeQFAjIcyVpZYqkix8sFYW3xrnOk0Zoqq45WwSATH6eWtMJDaDxGIcj6kIoa7WSf23QOoGWRVtlOP6miqsM8DBE0DSpssXeQHHxjRdxI6eXtaV58bc8x5s",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Selena",
+          "street": "Shayne Field",
+          "house": 853,
+          "flat": 5413
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 124855,
+      "createdOn": "2026-01-03T18:10:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69595b7a1c508c5d5e958b36",
+          "products": [
+            {
+              "_id": "69595b7b1c508c5d5e958b73",
+              "name": "Ball12548",
+              "amount": 933,
+              "price": 68791,
+              "manufacturer": "Google",
+              "notes": "AQnkP8WiEjg92EGOVX9PpXixBFYMhrGeTdYUAFfJatQHMYpPwr9wr72Sciv6Aq6s51mWSLCzbbNO9JF68GXr8RWiDG4AE7NKdtyPOkKCIpA8JUZGAE8psqkfkebkaogjd4ekldbaeHxrx4qYrHPVmYgi7neVK9KysPA7IOK9DzKknFhOTr12pUQPCUg32NxptINxj9gVp9LUeoY6Kt5Mzvyhi3wbyilVX3uiavAVR57Jn66jK2uHCH2aXJ",
+              "received": false
+            },
+            {
+              "_id": "69595b7d1c508c5d5e958c92",
+              "name": "Chips18959",
+              "amount": 663,
+              "price": 56064,
+              "manufacturer": "Amazon",
+              "notes": "QjbQnnNppI1vnMtrKchvLCwWijlW0PqjN7AzPgEd7DxXB81gaEIdvkZEkdOQdr02W3rBfS7F3K7IHyfctB2G023JBP2RGhE8sFnuiH9uewg6uIkDG1w16AaYwPS1GzJhkWF5PeQFAjIcyVpZYqkix8sFYW3xrnOk0Zoqq45WwSATH6eWtMJDaDxGIcj6kIoa7WSf23QOoGWRVtlOP6miqsM8DBE0DSpssXeQHHxjRdxI6eXtaV58bc8x5s",
+              "received": false
+            }
+          ],
+          "total_price": 124855,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Selena",
+              "street": "Shayne Field",
+              "house": 853,
+              "flat": 5413
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:10:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69595b7a1c508c5d5e958b36",
+          "products": [
+            {
+              "_id": "69595b7b1c508c5d5e958b73",
+              "name": "Ball12548",
+              "amount": 933,
+              "price": 68791,
+              "manufacturer": "Google",
+              "notes": "AQnkP8WiEjg92EGOVX9PpXixBFYMhrGeTdYUAFfJatQHMYpPwr9wr72Sciv6Aq6s51mWSLCzbbNO9JF68GXr8RWiDG4AE7NKdtyPOkKCIpA8JUZGAE8psqkfkebkaogjd4ekldbaeHxrx4qYrHPVmYgi7neVK9KysPA7IOK9DzKknFhOTr12pUQPCUg32NxptINxj9gVp9LUeoY6Kt5Mzvyhi3wbyilVX3uiavAVR57Jn66jK2uHCH2aXJ",
+              "received": false
+            },
+            {
+              "_id": "69595b7d1c508c5d5e958c92",
+              "name": "Chips18959",
+              "amount": 663,
+              "price": 56064,
+              "manufacturer": "Amazon",
+              "notes": "QjbQnnNppI1vnMtrKchvLCwWijlW0PqjN7AzPgEd7DxXB81gaEIdvkZEkdOQdr02W3rBfS7F3K7IHyfctB2G023JBP2RGhE8sFnuiH9uewg6uIkDG1w16AaYwPS1GzJhkWF5PeQFAjIcyVpZYqkix8sFYW3xrnOk0Zoqq45WwSATH6eWtMJDaDxGIcj6kIoa7WSf23QOoGWRVtlOP6miqsM8DBE0DSpssXeQHHxjRdxI6eXtaV58bc8x5s",
+              "received": false
+            }
+          ],
+          "total_price": 124855,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Selena",
+              "street": "Shayne Field",
+              "house": 853,
+              "flat": 5413
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:10:10.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69595b7a1c508c5d5e958b36",
+          "products": [
+            {
+              "_id": "69595b7b1c508c5d5e958b73",
+              "name": "Ball12548",
+              "amount": 933,
+              "price": 68791,
+              "manufacturer": "Google",
+              "notes": "AQnkP8WiEjg92EGOVX9PpXixBFYMhrGeTdYUAFfJatQHMYpPwr9wr72Sciv6Aq6s51mWSLCzbbNO9JF68GXr8RWiDG4AE7NKdtyPOkKCIpA8JUZGAE8psqkfkebkaogjd4ekldbaeHxrx4qYrHPVmYgi7neVK9KysPA7IOK9DzKknFhOTr12pUQPCUg32NxptINxj9gVp9LUeoY6Kt5Mzvyhi3wbyilVX3uiavAVR57Jn66jK2uHCH2aXJ",
+              "received": false
+            },
+            {
+              "_id": "69595b7d1c508c5d5e958c92",
+              "name": "Chips18959",
+              "amount": 663,
+              "price": 56064,
+              "manufacturer": "Amazon",
+              "notes": "QjbQnnNppI1vnMtrKchvLCwWijlW0PqjN7AzPgEd7DxXB81gaEIdvkZEkdOQdr02W3rBfS7F3K7IHyfctB2G023JBP2RGhE8sFnuiH9uewg6uIkDG1w16AaYwPS1GzJhkWF5PeQFAjIcyVpZYqkix8sFYW3xrnOk0Zoqq45WwSATH6eWtMJDaDxGIcj6kIoa7WSf23QOoGWRVtlOP6miqsM8DBE0DSpssXeQHHxjRdxI6eXtaV58bc8x5s",
+              "received": false
+            }
+          ],
+          "total_price": 124855,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Selena",
+              "street": "Shayne Field",
+              "house": 853,
+              "flat": 5413
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:10:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595b7a1c508c5d5e958b36",
+          "products": [
+            {
+              "_id": "69595b7b1c508c5d5e958b73",
+              "name": "Ball12548",
+              "amount": 933,
+              "price": 68791,
+              "manufacturer": "Google",
+              "notes": "AQnkP8WiEjg92EGOVX9PpXixBFYMhrGeTdYUAFfJatQHMYpPwr9wr72Sciv6Aq6s51mWSLCzbbNO9JF68GXr8RWiDG4AE7NKdtyPOkKCIpA8JUZGAE8psqkfkebkaogjd4ekldbaeHxrx4qYrHPVmYgi7neVK9KysPA7IOK9DzKknFhOTr12pUQPCUg32NxptINxj9gVp9LUeoY6Kt5Mzvyhi3wbyilVX3uiavAVR57Jn66jK2uHCH2aXJ",
+              "received": false
+            },
+            {
+              "_id": "69595b7d1c508c5d5e958c92",
+              "name": "Chips18959",
+              "amount": 663,
+              "price": 56064,
+              "manufacturer": "Amazon",
+              "notes": "QjbQnnNppI1vnMtrKchvLCwWijlW0PqjN7AzPgEd7DxXB81gaEIdvkZEkdOQdr02W3rBfS7F3K7IHyfctB2G023JBP2RGhE8sFnuiH9uewg6uIkDG1w16AaYwPS1GzJhkWF5PeQFAjIcyVpZYqkix8sFYW3xrnOk0Zoqq45WwSATH6eWtMJDaDxGIcj6kIoa7WSf23QOoGWRVtlOP6miqsM8DBE0DSpssXeQHHxjRdxI6eXtaV58bc8x5s",
+              "received": false
+            }
+          ],
+          "total_price": 124855,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:10:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:17:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3696",
+    "etag": "W/\"e70-ZByW7VdAc0aaVGaJ1RKIhwZ5Sq8\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595d281c508c5d5e964279",
+      "status": "In Process",
+      "customer": {
+        "_id": "69595d281c508c5d5e964237",
+        "email": "Dayana.Altenwerth8@yahoo.com",
+        "name": "Dorothy Stracke",
+        "country": "Germany",
+        "city": "Willcester",
+        "street": "Washington Avenue 31",
+        "house": 129,
+        "flat": 9922,
+        "phone": "+238639701423911",
+        "createdOn": "2026-01-03T18:17:12.000Z",
+        "notes": "U1xEkTjfQenhNAYqc0h6RjTWUkKYOG"
+      },
+      "products": [
+        {
+          "_id": "69595d281c508c5d5e96426b",
+          "name": "Chicken7942",
+          "amount": 533,
+          "price": 20335,
+          "manufacturer": "Samsung",
+          "notes": "jSHPZxS8LaLxUmqc7dLMftbBP9mzmrvb2OMgREymXItzScjuMJAgNPTteB893aRVcqgIOHRa5SSeWQTdYQBiOxId0hHIJfplYEh0Fo1zlEvcwxidRZxiqarK3lWVYVQxfCSFjvmEsr8wn1VQBrPvkGOoVdY4yyFxVe8n9sISoTkBuXg7Kofzhie3XW7dAMg9D5zJGvZuJzBBwm9JsY2EXMHmVrpYUoegJIZbi1UptuIiE2J5rP2bC90joR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Salina",
+          "street": "Irwin Causeway",
+          "house": 122,
+          "flat": 7613
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 20335,
+      "createdOn": "2026-01-03T18:17:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69595d281c508c5d5e964237",
+          "products": [
+            {
+              "_id": "69595d281c508c5d5e96426b",
+              "name": "Chicken7942",
+              "amount": 533,
+              "price": 20335,
+              "manufacturer": "Samsung",
+              "notes": "jSHPZxS8LaLxUmqc7dLMftbBP9mzmrvb2OMgREymXItzScjuMJAgNPTteB893aRVcqgIOHRa5SSeWQTdYQBiOxId0hHIJfplYEh0Fo1zlEvcwxidRZxiqarK3lWVYVQxfCSFjvmEsr8wn1VQBrPvkGOoVdY4yyFxVe8n9sISoTkBuXg7Kofzhie3XW7dAMg9D5zJGvZuJzBBwm9JsY2EXMHmVrpYUoegJIZbi1UptuIiE2J5rP2bC90joR",
+              "received": false
+            }
+          ],
+          "total_price": 20335,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Salina",
+              "street": "Irwin Causeway",
+              "house": 122,
+              "flat": 7613
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:17:16.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595d281c508c5d5e964237",
+          "products": [
+            {
+              "_id": "69595d281c508c5d5e96426b",
+              "name": "Chicken7942",
+              "amount": 533,
+              "price": 20335,
+              "manufacturer": "Samsung",
+              "notes": "jSHPZxS8LaLxUmqc7dLMftbBP9mzmrvb2OMgREymXItzScjuMJAgNPTteB893aRVcqgIOHRa5SSeWQTdYQBiOxId0hHIJfplYEh0Fo1zlEvcwxidRZxiqarK3lWVYVQxfCSFjvmEsr8wn1VQBrPvkGOoVdY4yyFxVe8n9sISoTkBuXg7Kofzhie3XW7dAMg9D5zJGvZuJzBBwm9JsY2EXMHmVrpYUoegJIZbi1UptuIiE2J5rP2bC90joR",
+              "received": false
+            }
+          ],
+          "total_price": 20335,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Salina",
+              "street": "Irwin Causeway",
+              "house": 122,
+              "flat": 7613
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:17:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595d281c508c5d5e964237",
+          "products": [
+            {
+              "_id": "69595d281c508c5d5e96426b",
+              "name": "Chicken7942",
+              "amount": 533,
+              "price": 20335,
+              "manufacturer": "Samsung",
+              "notes": "jSHPZxS8LaLxUmqc7dLMftbBP9mzmrvb2OMgREymXItzScjuMJAgNPTteB893aRVcqgIOHRa5SSeWQTdYQBiOxId0hHIJfplYEh0Fo1zlEvcwxidRZxiqarK3lWVYVQxfCSFjvmEsr8wn1VQBrPvkGOoVdY4yyFxVe8n9sISoTkBuXg7Kofzhie3XW7dAMg9D5zJGvZuJzBBwm9JsY2EXMHmVrpYUoegJIZbi1UptuIiE2J5rP2bC90joR",
+              "received": false
+            }
+          ],
+          "total_price": 20335,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:17:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

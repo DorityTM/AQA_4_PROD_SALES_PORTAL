@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:09:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5228",
+    "etag": "W/\"146c-nwgFwjhRXlrhevES6tvzdEboH1I\"",
+    "keep-alive": "timeout=5, max=38",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595b5c1c508c5d5e957b41",
+      "status": "In Process",
+      "customer": {
+        "_id": "69595b5b1c508c5d5e957adf",
+        "email": "Paris.Schiller@hotmail.com",
+        "name": "Van Funk",
+        "country": "Great Britain",
+        "city": "South Jimmiestead",
+        "street": "Okuneva Islands 35",
+        "house": 725,
+        "flat": 1445,
+        "phone": "+356934683034623",
+        "createdOn": "2026-01-03T18:09:31.000Z",
+        "notes": "wEFimX3Om1vOLEX2KHuXqJZl8howkI"
+      },
+      "products": [
+        {
+          "_id": "69595b5b1c508c5d5e957b00",
+          "name": "Bacon7356",
+          "amount": 510,
+          "price": 88167,
+          "manufacturer": "Xiaomi",
+          "notes": "K4Jt1uVjYX5Yah2bNNVHegoIxMoj9BbTyhmgUTCyiffj1Dk4SWGLSYAUuVM5z0Et6PvnpoUxxPJeqvdeuPPY32jdx2JDoIqm3VYasp7tLkMLwtyNccSe5untDCvU1lN6w86zSAlD0uls24JwniHCSIDNhEzPnA4xDN1vh8aKsQrDpkya3r2uUrtTQ0vp5M0V845t9H5695IS6bfDl3IE9u6n7c7QTDGabw3C4aWM8F9IOaAeOydo06HAKq",
+          "received": false
+        },
+        {
+          "_id": "69595b5c1c508c5d5e957b21",
+          "name": "Towels8245",
+          "amount": 702,
+          "price": 76918,
+          "manufacturer": "Tesla",
+          "notes": "xEPkEvTfPK2ZrZApmVh8LVW54g08ozH2Vyrz6HSoU0CvOKeXI5oaKNlYU5S3d0ItdTwbAtm4EfPwifDNIiteGtXM35UXKZxKXpphJTjGr012xIQDmvPOLAYRIAdvG7qcmRGO8qP5XSz3PEPHPqTaWwhLUfYFXiyCSF7ksi517rK0kQpg8woQQVVC8G5Q2R4qdwRbOzWHkyVeB6mFWbARvPhp6syho9VFsLEas42xMfq6IzkscqQID6aDn6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Port Kelsie",
+          "street": "Thiel Square",
+          "house": 939,
+          "flat": 3530
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 165085,
+      "createdOn": "2026-01-03T18:09:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69595b5b1c508c5d5e957adf",
+          "products": [
+            {
+              "_id": "69595b5b1c508c5d5e957b00",
+              "name": "Bacon7356",
+              "amount": 510,
+              "price": 88167,
+              "manufacturer": "Xiaomi",
+              "notes": "K4Jt1uVjYX5Yah2bNNVHegoIxMoj9BbTyhmgUTCyiffj1Dk4SWGLSYAUuVM5z0Et6PvnpoUxxPJeqvdeuPPY32jdx2JDoIqm3VYasp7tLkMLwtyNccSe5untDCvU1lN6w86zSAlD0uls24JwniHCSIDNhEzPnA4xDN1vh8aKsQrDpkya3r2uUrtTQ0vp5M0V845t9H5695IS6bfDl3IE9u6n7c7QTDGabw3C4aWM8F9IOaAeOydo06HAKq",
+              "received": false
+            },
+            {
+              "_id": "69595b5c1c508c5d5e957b21",
+              "name": "Towels8245",
+              "amount": 702,
+              "price": 76918,
+              "manufacturer": "Tesla",
+              "notes": "xEPkEvTfPK2ZrZApmVh8LVW54g08ozH2Vyrz6HSoU0CvOKeXI5oaKNlYU5S3d0ItdTwbAtm4EfPwifDNIiteGtXM35UXKZxKXpphJTjGr012xIQDmvPOLAYRIAdvG7qcmRGO8qP5XSz3PEPHPqTaWwhLUfYFXiyCSF7ksi517rK0kQpg8woQQVVC8G5Q2R4qdwRbOzWHkyVeB6mFWbARvPhp6syho9VFsLEas42xMfq6IzkscqQID6aDn6",
+              "received": false
+            }
+          ],
+          "total_price": 165085,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Port Kelsie",
+              "street": "Thiel Square",
+              "house": 939,
+              "flat": 3530
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:09:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595b5b1c508c5d5e957adf",
+          "products": [
+            {
+              "_id": "69595b5b1c508c5d5e957b00",
+              "name": "Bacon7356",
+              "amount": 510,
+              "price": 88167,
+              "manufacturer": "Xiaomi",
+              "notes": "K4Jt1uVjYX5Yah2bNNVHegoIxMoj9BbTyhmgUTCyiffj1Dk4SWGLSYAUuVM5z0Et6PvnpoUxxPJeqvdeuPPY32jdx2JDoIqm3VYasp7tLkMLwtyNccSe5untDCvU1lN6w86zSAlD0uls24JwniHCSIDNhEzPnA4xDN1vh8aKsQrDpkya3r2uUrtTQ0vp5M0V845t9H5695IS6bfDl3IE9u6n7c7QTDGabw3C4aWM8F9IOaAeOydo06HAKq",
+              "received": false
+            },
+            {
+              "_id": "69595b5c1c508c5d5e957b21",
+              "name": "Towels8245",
+              "amount": 702,
+              "price": 76918,
+              "manufacturer": "Tesla",
+              "notes": "xEPkEvTfPK2ZrZApmVh8LVW54g08ozH2Vyrz6HSoU0CvOKeXI5oaKNlYU5S3d0ItdTwbAtm4EfPwifDNIiteGtXM35UXKZxKXpphJTjGr012xIQDmvPOLAYRIAdvG7qcmRGO8qP5XSz3PEPHPqTaWwhLUfYFXiyCSF7ksi517rK0kQpg8woQQVVC8G5Q2R4qdwRbOzWHkyVeB6mFWbARvPhp6syho9VFsLEas42xMfq6IzkscqQID6aDn6",
+              "received": false
+            }
+          ],
+          "total_price": 165085,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Port Kelsie",
+              "street": "Thiel Square",
+              "house": 939,
+              "flat": 3530
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:09:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595b5b1c508c5d5e957adf",
+          "products": [
+            {
+              "_id": "69595b5b1c508c5d5e957b00",
+              "name": "Bacon7356",
+              "amount": 510,
+              "price": 88167,
+              "manufacturer": "Xiaomi",
+              "notes": "K4Jt1uVjYX5Yah2bNNVHegoIxMoj9BbTyhmgUTCyiffj1Dk4SWGLSYAUuVM5z0Et6PvnpoUxxPJeqvdeuPPY32jdx2JDoIqm3VYasp7tLkMLwtyNccSe5untDCvU1lN6w86zSAlD0uls24JwniHCSIDNhEzPnA4xDN1vh8aKsQrDpkya3r2uUrtTQ0vp5M0V845t9H5695IS6bfDl3IE9u6n7c7QTDGabw3C4aWM8F9IOaAeOydo06HAKq",
+              "received": false
+            },
+            {
+              "_id": "69595b5c1c508c5d5e957b21",
+              "name": "Towels8245",
+              "amount": 702,
+              "price": 76918,
+              "manufacturer": "Tesla",
+              "notes": "xEPkEvTfPK2ZrZApmVh8LVW54g08ozH2Vyrz6HSoU0CvOKeXI5oaKNlYU5S3d0ItdTwbAtm4EfPwifDNIiteGtXM35UXKZxKXpphJTjGr012xIQDmvPOLAYRIAdvG7qcmRGO8qP5XSz3PEPHPqTaWwhLUfYFXiyCSF7ksi517rK0kQpg8woQQVVC8G5Q2R4qdwRbOzWHkyVeB6mFWbARvPhp6syho9VFsLEas42xMfq6IzkscqQID6aDn6",
+              "received": false
+            }
+          ],
+          "total_price": 165085,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:09:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

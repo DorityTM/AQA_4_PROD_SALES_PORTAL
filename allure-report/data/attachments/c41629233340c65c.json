@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:13:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1682",
+    "etag": "W/\"692-QuAtcPbHkhkEp0YIEHYWa5jLQ9Y\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "69595c301c508c5d5e95d9e4",
+        "email": "Kimberly.Stark@yahoo.com",
+        "name": "Elijah Sanford",
+        "country": "Canada",
+        "city": "Richmondfield",
+        "street": "N Railroad Street 77",
+        "house": 251,
+        "flat": 4661,
+        "phone": "+718872422753227",
+        "createdOn": "2026-01-03T18:13:04.000Z",
+        "notes": "8rRtSYWe0RwfnAp7MJte79lLvXSXzr"
+      },
+      "products": [
+        {
+          "_id": "69595c311c508c5d5e95d9e9",
+          "name": "Chips80229",
+          "amount": 935,
+          "price": 13371,
+          "manufacturer": "Xiaomi",
+          "notes": "H4W7spwJqfihOWDVPyVrO8qz0TONpz6R5OWsH3ylTxdvra0ZGFrVaf1bWq10ye8vHhtkm0DP22yQvVDFtIf9bxt7u4Wb6EaqhyabdU8iUMfLmT1fgSMmusNlZnE5DDT0kiepVsaJBms4BnbAl5dwR6dXIrf3Pd1WKJ3yi5Aros0wRPZulr1LgRyYBx4gQud0iOZVryMz3xmIIAUcCDnLy6Pt18tky4nnDu6uX9Ce0unAOM4wWdqcwnhkNF",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 13371,
+      "createdOn": "2026-01-03T18:13:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595c301c508c5d5e95d9e4",
+          "products": [
+            {
+              "_id": "69595c311c508c5d5e95d9e9",
+              "name": "Chips80229",
+              "amount": 935,
+              "price": 13371,
+              "manufacturer": "Xiaomi",
+              "notes": "H4W7spwJqfihOWDVPyVrO8qz0TONpz6R5OWsH3ylTxdvra0ZGFrVaf1bWq10ye8vHhtkm0DP22yQvVDFtIf9bxt7u4Wb6EaqhyabdU8iUMfLmT1fgSMmusNlZnE5DDT0kiepVsaJBms4BnbAl5dwR6dXIrf3Pd1WKJ3yi5Aros0wRPZulr1LgRyYBx4gQud0iOZVryMz3xmIIAUcCDnLy6Pt18tky4nnDu6uX9Ce0unAOM4wWdqcwnhkNF",
+              "received": false
+            }
+          ],
+          "total_price": 13371,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:13:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "69595c311c508c5d5e95da4a"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

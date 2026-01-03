@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:10:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2738",
+    "etag": "W/\"ab2-zPcCS+b7D7aNCEZCd4zOD5FXIhg\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595b861c508c5d5e959031",
+      "status": "Draft",
+      "customer": {
+        "_id": "69595b861c508c5d5e959004",
+        "email": "Mauricio.Schmitt42@yahoo.com",
+        "name": "Rudolph Gulgowski",
+        "country": "Russia",
+        "city": "New Lucy",
+        "street": "Johnson Mews 2",
+        "house": 638,
+        "flat": 9905,
+        "phone": "+642756052529571",
+        "createdOn": "2026-01-03T18:10:14.000Z",
+        "notes": "YkrT9JmBSK2eccOQevvDFFNBOlMD4I"
+      },
+      "products": [
+        {
+          "_id": "69595b861c508c5d5e95901f",
+          "name": "Towels2421",
+          "amount": 52,
+          "price": 95200,
+          "manufacturer": "Tesla",
+          "notes": "lju2GsSnudws4wVcnf9TPyaavCrMs7wNJwi5OYSWJgZYoiegP0OF5ubUYl3RMYFCDb8T66H7K0yW4E3q2kW6ubjUS4tm8SVL13n6lloz0GfvsepVomsYaoq2OSyeObhe0OGXqyFQBCN1jcVMF7uoTErzdNplXFYVvEM90wBl6TZ8yLVzRzDsQtJPZEq7FJKp0ahMepjxPImH92MJhDo6FNjZkhRn4tbnUWyD90SmiYEfZ83OU81TboliyF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Mohrland",
+          "street": "Farm Close",
+          "house": 85,
+          "flat": 5854
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 95200,
+      "createdOn": "2026-01-03T18:10:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69595b861c508c5d5e959004",
+          "products": [
+            {
+              "_id": "69595b861c508c5d5e95901f",
+              "name": "Towels2421",
+              "amount": 52,
+              "price": 95200,
+              "manufacturer": "Tesla",
+              "notes": "lju2GsSnudws4wVcnf9TPyaavCrMs7wNJwi5OYSWJgZYoiegP0OF5ubUYl3RMYFCDb8T66H7K0yW4E3q2kW6ubjUS4tm8SVL13n6lloz0GfvsepVomsYaoq2OSyeObhe0OGXqyFQBCN1jcVMF7uoTErzdNplXFYVvEM90wBl6TZ8yLVzRzDsQtJPZEq7FJKp0ahMepjxPImH92MJhDo6FNjZkhRn4tbnUWyD90SmiYEfZ83OU81TboliyF",
+              "received": false
+            }
+          ],
+          "total_price": 95200,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Mohrland",
+              "street": "Farm Close",
+              "house": 85,
+              "flat": 5854
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:10:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595b861c508c5d5e959004",
+          "products": [
+            {
+              "_id": "69595b861c508c5d5e95901f",
+              "name": "Towels2421",
+              "amount": 52,
+              "price": 95200,
+              "manufacturer": "Tesla",
+              "notes": "lju2GsSnudws4wVcnf9TPyaavCrMs7wNJwi5OYSWJgZYoiegP0OF5ubUYl3RMYFCDb8T66H7K0yW4E3q2kW6ubjUS4tm8SVL13n6lloz0GfvsepVomsYaoq2OSyeObhe0OGXqyFQBCN1jcVMF7uoTErzdNplXFYVvEM90wBl6TZ8yLVzRzDsQtJPZEq7FJKp0ahMepjxPImH92MJhDo6FNjZkhRn4tbnUWyD90SmiYEfZ83OU81TboliyF",
+              "received": false
+            }
+          ],
+          "total_price": 95200,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:10:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

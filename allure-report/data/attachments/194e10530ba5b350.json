@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:15:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3646",
+    "etag": "W/\"e3e-KD2oVA7G6o6xdH5Q1JTyU1xOCIA\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595cb41c508c5d5e961062",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69595cb31c508c5d5e960f68",
+        "email": "Jonatan94@hotmail.com",
+        "name": "Chelsey Kautzer",
+        "country": "Russia",
+        "city": "New Marcelfurt",
+        "street": "Pearl Street 94",
+        "house": 567,
+        "flat": 40,
+        "phone": "+642669149901320",
+        "createdOn": "2026-01-03T18:15:15.000Z",
+        "notes": "CTZil9CTvBwK7BrkXXbwBpkp5IcEcb"
+      },
+      "products": [
+        {
+          "_id": "69595cb31c508c5d5e96101e",
+          "name": "Tuna85112",
+          "amount": 376,
+          "price": 1384,
+          "manufacturer": "Sony",
+          "notes": "GpnfrZEdGdO6kT0zwtK2yoreWEALfkMbZ59LQA5YlXDlpGdh0ouBBmvuCpKVsaifFfgFaQxWOI7Ky6vnv2GvK80iY61ogbz8rlE7TOMDWnZXbJorrfkgPGXagWJMBej7ZZpfchT754MMdGemswRDzdSDYZQSfHnSM8XOw07OpXiSehbW2ZR3RbEnRDVF0LW9pnqiphpSwPTMAj1TsWcnfL80Cd5Jnw8RjA9UR94lStHWvNdR5arCVpCeLq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "West Brownton",
+          "street": "4th Street",
+          "house": 999,
+          "flat": 363
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 1384,
+      "createdOn": "2026-01-03T18:15:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69595cb31c508c5d5e960f68",
+          "products": [
+            {
+              "_id": "69595cb31c508c5d5e96101e",
+              "name": "Tuna85112",
+              "amount": 376,
+              "price": 1384,
+              "manufacturer": "Sony",
+              "notes": "GpnfrZEdGdO6kT0zwtK2yoreWEALfkMbZ59LQA5YlXDlpGdh0ouBBmvuCpKVsaifFfgFaQxWOI7Ky6vnv2GvK80iY61ogbz8rlE7TOMDWnZXbJorrfkgPGXagWJMBej7ZZpfchT754MMdGemswRDzdSDYZQSfHnSM8XOw07OpXiSehbW2ZR3RbEnRDVF0LW9pnqiphpSwPTMAj1TsWcnfL80Cd5Jnw8RjA9UR94lStHWvNdR5arCVpCeLq",
+              "received": false
+            }
+          ],
+          "total_price": 1384,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Brownton",
+              "street": "4th Street",
+              "house": 999,
+              "flat": 363
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:15:18.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595cb31c508c5d5e960f68",
+          "products": [
+            {
+              "_id": "69595cb31c508c5d5e96101e",
+              "name": "Tuna85112",
+              "amount": 376,
+              "price": 1384,
+              "manufacturer": "Sony",
+              "notes": "GpnfrZEdGdO6kT0zwtK2yoreWEALfkMbZ59LQA5YlXDlpGdh0ouBBmvuCpKVsaifFfgFaQxWOI7Ky6vnv2GvK80iY61ogbz8rlE7TOMDWnZXbJorrfkgPGXagWJMBej7ZZpfchT754MMdGemswRDzdSDYZQSfHnSM8XOw07OpXiSehbW2ZR3RbEnRDVF0LW9pnqiphpSwPTMAj1TsWcnfL80Cd5Jnw8RjA9UR94lStHWvNdR5arCVpCeLq",
+              "received": false
+            }
+          ],
+          "total_price": 1384,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Brownton",
+              "street": "4th Street",
+              "house": 999,
+              "flat": 363
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:15:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595cb31c508c5d5e960f68",
+          "products": [
+            {
+              "_id": "69595cb31c508c5d5e96101e",
+              "name": "Tuna85112",
+              "amount": 376,
+              "price": 1384,
+              "manufacturer": "Sony",
+              "notes": "GpnfrZEdGdO6kT0zwtK2yoreWEALfkMbZ59LQA5YlXDlpGdh0ouBBmvuCpKVsaifFfgFaQxWOI7Ky6vnv2GvK80iY61ogbz8rlE7TOMDWnZXbJorrfkgPGXagWJMBej7ZZpfchT754MMdGemswRDzdSDYZQSfHnSM8XOw07OpXiSehbW2ZR3RbEnRDVF0LW9pnqiphpSwPTMAj1TsWcnfL80Cd5Jnw8RjA9UR94lStHWvNdR5arCVpCeLq",
+              "received": false
+            }
+          ],
+          "total_price": 1384,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:15:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 18:13:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3690",
+    "etag": "W/\"e6a-py/eMoz/D+4liW5fUrcM4K6yl24\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69595c3e1c508c5d5e95df23",
+      "status": "In Process",
+      "customer": {
+        "_id": "69595c3d1c508c5d5e95dea1",
+        "email": "Dovie71@hotmail.com",
+        "name": "Rodger MacGyver",
+        "country": "Germany",
+        "city": "Lexington Fayette",
+        "street": "Dark Lane 80",
+        "house": 912,
+        "flat": 7218,
+        "phone": "+804086836330193",
+        "createdOn": "2026-01-03T18:13:17.000Z",
+        "notes": "mUKaiHgs2xjk2F5LgFkhCVmzCE6st0"
+      },
+      "products": [
+        {
+          "_id": "69595c3d1c508c5d5e95deca",
+          "name": "Towels53797",
+          "amount": 54,
+          "price": 91865,
+          "manufacturer": "Google",
+          "notes": "Djka19tume3wWDZyI1Jg0rq7budIWtdEHMtl3ooXZBAScXppNd711OTmczn3AhV84LrhfLeEHbdpqM1nMJFisi95ZdAkMxVQ4bkTlddnos7H8L7DNr6ug83WWqrzDhPeuK5w4twpEvcm8UrNmS42B30xgdwhCxf9LHuxJgqnApyuyIsHCj1kH6XaZq6srP4o1xzRHX6xYSit2e1utiqN8B90vEwH7aPScZR7NDNCJJ62JHKMgtW56lswiH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Bernhardstad",
+          "street": "S 1st Avenue",
+          "house": 332,
+          "flat": 9719
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 91865,
+      "createdOn": "2026-01-03T18:13:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69595c3d1c508c5d5e95dea1",
+          "products": [
+            {
+              "_id": "69595c3d1c508c5d5e95deca",
+              "name": "Towels53797",
+              "amount": 54,
+              "price": 91865,
+              "manufacturer": "Google",
+              "notes": "Djka19tume3wWDZyI1Jg0rq7budIWtdEHMtl3ooXZBAScXppNd711OTmczn3AhV84LrhfLeEHbdpqM1nMJFisi95ZdAkMxVQ4bkTlddnos7H8L7DNr6ug83WWqrzDhPeuK5w4twpEvcm8UrNmS42B30xgdwhCxf9LHuxJgqnApyuyIsHCj1kH6XaZq6srP4o1xzRHX6xYSit2e1utiqN8B90vEwH7aPScZR7NDNCJJ62JHKMgtW56lswiH",
+              "received": false
+            }
+          ],
+          "total_price": 91865,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Bernhardstad",
+              "street": "S 1st Avenue",
+              "house": 332,
+              "flat": 9719
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:13:18.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595c3d1c508c5d5e95dea1",
+          "products": [
+            {
+              "_id": "69595c3d1c508c5d5e95deca",
+              "name": "Towels53797",
+              "amount": 54,
+              "price": 91865,
+              "manufacturer": "Google",
+              "notes": "Djka19tume3wWDZyI1Jg0rq7budIWtdEHMtl3ooXZBAScXppNd711OTmczn3AhV84LrhfLeEHbdpqM1nMJFisi95ZdAkMxVQ4bkTlddnos7H8L7DNr6ug83WWqrzDhPeuK5w4twpEvcm8UrNmS42B30xgdwhCxf9LHuxJgqnApyuyIsHCj1kH6XaZq6srP4o1xzRHX6xYSit2e1utiqN8B90vEwH7aPScZR7NDNCJJ62JHKMgtW56lswiH",
+              "received": false
+            }
+          ],
+          "total_price": 91865,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Bernhardstad",
+              "street": "S 1st Avenue",
+              "house": 332,
+              "flat": 9719
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T18:13:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69595c3d1c508c5d5e95dea1",
+          "products": [
+            {
+              "_id": "69595c3d1c508c5d5e95deca",
+              "name": "Towels53797",
+              "amount": 54,
+              "price": 91865,
+              "manufacturer": "Google",
+              "notes": "Djka19tume3wWDZyI1Jg0rq7budIWtdEHMtl3ooXZBAScXppNd711OTmczn3AhV84LrhfLeEHbdpqM1nMJFisi95ZdAkMxVQ4bkTlddnos7H8L7DNr6ug83WWqrzDhPeuK5w4twpEvcm8UrNmS42B30xgdwhCxf9LHuxJgqnApyuyIsHCj1kH6XaZq6srP4o1xzRHX6xYSit2e1utiqN8B90vEwH7aPScZR7NDNCJJ62JHKMgtW56lswiH",
+              "received": false
+            }
+          ],
+          "total_price": 91865,
+          "delivery": null,
+          "changedOn": "2026-01-03T18:13:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
