@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:18:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3706",
+    "etag": "W/\"e7a-i81C7GR7X0NQin+/Y6AAVRIgbTQ\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594f4e1c508c5d5e939d26",
+      "status": "In Process",
+      "customer": {
+        "_id": "69594f4d1c508c5d5e939cc7",
+        "email": "Alexandrine_Denesik45@yahoo.com",
+        "name": "Ben Jacobi",
+        "country": "USA",
+        "city": "Lake Sidton",
+        "street": "14th Street 50",
+        "house": 186,
+        "flat": 9055,
+        "phone": "+825091809396292",
+        "createdOn": "2026-01-03T17:18:05.000Z",
+        "notes": "WRtwXQREcYXEe8TEoVJtNgC85DXVGB"
+      },
+      "products": [
+        {
+          "_id": "69594f4e1c508c5d5e939d0f",
+          "name": "Soap70294",
+          "amount": 62,
+          "price": 70307,
+          "manufacturer": "Samsung",
+          "notes": "BHiQ9Y0vL30Az3zJbLacb31omMgLU2x25lT7HxF6Fl6o5P98O1KoZy0RAGPjwihTg7X2d9A0ObM6tQy02PV8YJ99S2Ib34DRLVlFmb1OF3gCcTNXBtN4HHSyn3bKtGtIn9S6TDPrBjP3VwnSJVh7Z8a2Wj8ze1qZB7APKWDVUJBja90VSGi67ZKv33RWMEqqe2Y4L48OHdckNbzIwDNSGN2X1mA4W0dCGu8KU5b1drVZzeHBWBLXWuLR7g",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Port Johanborough",
+          "street": "Langworth Vista",
+          "house": 749,
+          "flat": 1617
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 70307,
+      "createdOn": "2026-01-03T17:18:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69594f4d1c508c5d5e939cc7",
+          "products": [
+            {
+              "_id": "69594f4e1c508c5d5e939d0f",
+              "name": "Soap70294",
+              "amount": 62,
+              "price": 70307,
+              "manufacturer": "Samsung",
+              "notes": "BHiQ9Y0vL30Az3zJbLacb31omMgLU2x25lT7HxF6Fl6o5P98O1KoZy0RAGPjwihTg7X2d9A0ObM6tQy02PV8YJ99S2Ib34DRLVlFmb1OF3gCcTNXBtN4HHSyn3bKtGtIn9S6TDPrBjP3VwnSJVh7Z8a2Wj8ze1qZB7APKWDVUJBja90VSGi67ZKv33RWMEqqe2Y4L48OHdckNbzIwDNSGN2X1mA4W0dCGu8KU5b1drVZzeHBWBLXWuLR7g",
+              "received": false
+            }
+          ],
+          "total_price": 70307,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Port Johanborough",
+              "street": "Langworth Vista",
+              "house": 749,
+              "flat": 1617
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:18:07.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594f4d1c508c5d5e939cc7",
+          "products": [
+            {
+              "_id": "69594f4e1c508c5d5e939d0f",
+              "name": "Soap70294",
+              "amount": 62,
+              "price": 70307,
+              "manufacturer": "Samsung",
+              "notes": "BHiQ9Y0vL30Az3zJbLacb31omMgLU2x25lT7HxF6Fl6o5P98O1KoZy0RAGPjwihTg7X2d9A0ObM6tQy02PV8YJ99S2Ib34DRLVlFmb1OF3gCcTNXBtN4HHSyn3bKtGtIn9S6TDPrBjP3VwnSJVh7Z8a2Wj8ze1qZB7APKWDVUJBja90VSGi67ZKv33RWMEqqe2Y4L48OHdckNbzIwDNSGN2X1mA4W0dCGu8KU5b1drVZzeHBWBLXWuLR7g",
+              "received": false
+            }
+          ],
+          "total_price": 70307,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Port Johanborough",
+              "street": "Langworth Vista",
+              "house": 749,
+              "flat": 1617
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:18:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594f4d1c508c5d5e939cc7",
+          "products": [
+            {
+              "_id": "69594f4e1c508c5d5e939d0f",
+              "name": "Soap70294",
+              "amount": 62,
+              "price": 70307,
+              "manufacturer": "Samsung",
+              "notes": "BHiQ9Y0vL30Az3zJbLacb31omMgLU2x25lT7HxF6Fl6o5P98O1KoZy0RAGPjwihTg7X2d9A0ObM6tQy02PV8YJ99S2Ib34DRLVlFmb1OF3gCcTNXBtN4HHSyn3bKtGtIn9S6TDPrBjP3VwnSJVh7Z8a2Wj8ze1qZB7APKWDVUJBja90VSGi67ZKv33RWMEqqe2Y4L48OHdckNbzIwDNSGN2X1mA4W0dCGu8KU5b1drVZzeHBWBLXWuLR7g",
+              "received": false
+            }
+          ],
+          "total_price": 70307,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:18:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:23:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3684",
+    "etag": "W/\"e64-+k5R5rzUe3KwjDkwgaC6NobNw50\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959509b1c508c5d5e943efc",
+      "status": "In Process",
+      "customer": {
+        "_id": "695950991c508c5d5e943e53",
+        "email": "Dedrick_Johnston33@gmail.com",
+        "name": "Felipe Cassin",
+        "country": "Canada",
+        "city": "Ernestoland",
+        "street": "Stark Avenue 26",
+        "house": 35,
+        "flat": 4219,
+        "phone": "+682900116871167",
+        "createdOn": "2026-01-03T17:23:37.000Z",
+        "notes": "se439SCosF8dASf6NU5M3jfxkLFTBH"
+      },
+      "products": [
+        {
+          "_id": "6959509a1c508c5d5e943e63",
+          "name": "Ball1183",
+          "amount": 310,
+          "price": 29580,
+          "manufacturer": "Xiaomi",
+          "notes": "UL9vzNm0AVWUp9xsumM7MF9vF8ryGwB7dFnuchmcbuGO45u5noH2WEelzg2IJwOgFUFcvQbe1J8Bun7CllEI7acsK1oYTyUfNvrVzgGpKMEJKWylUlcfQs2awobD0wWmE42qYXAvO5Y5ZXrKRTveHCRw0yAdOWr3deupYydfFgGImPqSdQXuU9yOeIb0ayWREDBQWtNNr1eg8UmJNvNtcZ8rGG9FAY6HPBZZY4QCPtDlRl00Hx4q6Syid4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Noelworth",
+          "street": "Feil Ports",
+          "house": 267,
+          "flat": 7163
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 29580,
+      "createdOn": "2026-01-03T17:23:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695950991c508c5d5e943e53",
+          "products": [
+            {
+              "_id": "6959509a1c508c5d5e943e63",
+              "name": "Ball1183",
+              "amount": 310,
+              "price": 29580,
+              "manufacturer": "Xiaomi",
+              "notes": "UL9vzNm0AVWUp9xsumM7MF9vF8ryGwB7dFnuchmcbuGO45u5noH2WEelzg2IJwOgFUFcvQbe1J8Bun7CllEI7acsK1oYTyUfNvrVzgGpKMEJKWylUlcfQs2awobD0wWmE42qYXAvO5Y5ZXrKRTveHCRw0yAdOWr3deupYydfFgGImPqSdQXuU9yOeIb0ayWREDBQWtNNr1eg8UmJNvNtcZ8rGG9FAY6HPBZZY4QCPtDlRl00Hx4q6Syid4",
+              "received": false
+            }
+          ],
+          "total_price": 29580,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Noelworth",
+              "street": "Feil Ports",
+              "house": 267,
+              "flat": 7163
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:23:40.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695950991c508c5d5e943e53",
+          "products": [
+            {
+              "_id": "6959509a1c508c5d5e943e63",
+              "name": "Ball1183",
+              "amount": 310,
+              "price": 29580,
+              "manufacturer": "Xiaomi",
+              "notes": "UL9vzNm0AVWUp9xsumM7MF9vF8ryGwB7dFnuchmcbuGO45u5noH2WEelzg2IJwOgFUFcvQbe1J8Bun7CllEI7acsK1oYTyUfNvrVzgGpKMEJKWylUlcfQs2awobD0wWmE42qYXAvO5Y5ZXrKRTveHCRw0yAdOWr3deupYydfFgGImPqSdQXuU9yOeIb0ayWREDBQWtNNr1eg8UmJNvNtcZ8rGG9FAY6HPBZZY4QCPtDlRl00Hx4q6Syid4",
+              "received": false
+            }
+          ],
+          "total_price": 29580,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Noelworth",
+              "street": "Feil Ports",
+              "house": 267,
+              "flat": 7163
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:23:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695950991c508c5d5e943e53",
+          "products": [
+            {
+              "_id": "6959509a1c508c5d5e943e63",
+              "name": "Ball1183",
+              "amount": 310,
+              "price": 29580,
+              "manufacturer": "Xiaomi",
+              "notes": "UL9vzNm0AVWUp9xsumM7MF9vF8ryGwB7dFnuchmcbuGO45u5noH2WEelzg2IJwOgFUFcvQbe1J8Bun7CllEI7acsK1oYTyUfNvrVzgGpKMEJKWylUlcfQs2awobD0wWmE42qYXAvO5Y5ZXrKRTveHCRw0yAdOWr3deupYydfFgGImPqSdQXuU9yOeIb0ayWREDBQWtNNr1eg8UmJNvNtcZ8rGG9FAY6HPBZZY4QCPtDlRl00Hx4q6Syid4",
+              "received": false
+            }
+          ],
+          "total_price": 29580,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:23:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:16:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3665",
+    "etag": "W/\"e51-3ey+gWUWS0BLvskD86rNphlmG+Y\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594ef31c508c5d5e9370b9",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69594ef11c508c5d5e936ff0",
+        "email": "Gia.Spencer9@hotmail.com",
+        "name": "Dalton D Amore",
+        "country": "France",
+        "city": "North Kielshire",
+        "street": "Elody Turnpike 14",
+        "house": 266,
+        "flat": 2832,
+        "phone": "+605922046022255",
+        "createdOn": "2026-01-03T17:16:33.000Z",
+        "notes": "dyzkXZABRBZTP0OTxHD1uty8ED7gM2"
+      },
+      "products": [
+        {
+          "_id": "69594ef21c508c5d5e937099",
+          "name": "Ball32022",
+          "amount": 67,
+          "price": 54951,
+          "manufacturer": "Google",
+          "notes": "t0RsDogdpmnGggRjxsSePfSNM50QwEXVvmFGFHQdBA7Xiqxudsjz2D412WLrAPJ0A90FRsHC1IQCyxeZY3IEBp5BrvG9n4PV4ZvJe69x2I7MBJTsmoWh33NlObqVCWw6JLF9AvOiaG4Bt5eT3Z7zywzx77LAAPRW05oHIx0AUAJK7VJRvidmMOrPW8TvASEyoliYCYMlrKa7emGOvGukZ7PF7aVMmuIxUFaNYypBlMiLkEdBzSyP0DmfDa",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Elianestead",
+          "street": "Church Walk",
+          "house": 568,
+          "flat": 7885
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 54951,
+      "createdOn": "2026-01-03T17:16:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69594ef11c508c5d5e936ff0",
+          "products": [
+            {
+              "_id": "69594ef21c508c5d5e937099",
+              "name": "Ball32022",
+              "amount": 67,
+              "price": 54951,
+              "manufacturer": "Google",
+              "notes": "t0RsDogdpmnGggRjxsSePfSNM50QwEXVvmFGFHQdBA7Xiqxudsjz2D412WLrAPJ0A90FRsHC1IQCyxeZY3IEBp5BrvG9n4PV4ZvJe69x2I7MBJTsmoWh33NlObqVCWw6JLF9AvOiaG4Bt5eT3Z7zywzx77LAAPRW05oHIx0AUAJK7VJRvidmMOrPW8TvASEyoliYCYMlrKa7emGOvGukZ7PF7aVMmuIxUFaNYypBlMiLkEdBzSyP0DmfDa",
+              "received": false
+            }
+          ],
+          "total_price": 54951,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Elianestead",
+              "street": "Church Walk",
+              "house": 568,
+              "flat": 7885
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:16:36.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594ef11c508c5d5e936ff0",
+          "products": [
+            {
+              "_id": "69594ef21c508c5d5e937099",
+              "name": "Ball32022",
+              "amount": 67,
+              "price": 54951,
+              "manufacturer": "Google",
+              "notes": "t0RsDogdpmnGggRjxsSePfSNM50QwEXVvmFGFHQdBA7Xiqxudsjz2D412WLrAPJ0A90FRsHC1IQCyxeZY3IEBp5BrvG9n4PV4ZvJe69x2I7MBJTsmoWh33NlObqVCWw6JLF9AvOiaG4Bt5eT3Z7zywzx77LAAPRW05oHIx0AUAJK7VJRvidmMOrPW8TvASEyoliYCYMlrKa7emGOvGukZ7PF7aVMmuIxUFaNYypBlMiLkEdBzSyP0DmfDa",
+              "received": false
+            }
+          ],
+          "total_price": 54951,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Elianestead",
+              "street": "Church Walk",
+              "house": 568,
+              "flat": 7885
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:16:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594ef11c508c5d5e936ff0",
+          "products": [
+            {
+              "_id": "69594ef21c508c5d5e937099",
+              "name": "Ball32022",
+              "amount": 67,
+              "price": 54951,
+              "manufacturer": "Google",
+              "notes": "t0RsDogdpmnGggRjxsSePfSNM50QwEXVvmFGFHQdBA7Xiqxudsjz2D412WLrAPJ0A90FRsHC1IQCyxeZY3IEBp5BrvG9n4PV4ZvJe69x2I7MBJTsmoWh33NlObqVCWw6JLF9AvOiaG4Bt5eT3Z7zywzx77LAAPRW05oHIx0AUAJK7VJRvidmMOrPW8TvASEyoliYCYMlrKa7emGOvGukZ7PF7aVMmuIxUFaNYypBlMiLkEdBzSyP0DmfDa",
+              "received": false
+            }
+          ],
+          "total_price": 54951,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:16:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

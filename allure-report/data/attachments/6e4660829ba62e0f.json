@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:28:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3936",
+    "etag": "W/\"f60-9D/hhiCCItjiQ4j/+6sVUxPVd+k\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695951a61c508c5d5e94ccab",
+      "status": "Draft",
+      "customer": {
+        "_id": "6959519e1c508c5d5e94c914",
+        "email": "Mallory.Bauch@gmail.com",
+        "name": "Brooklyn O Keefe",
+        "country": "Ukraine",
+        "city": "Port Ulisesberg",
+        "street": "McCullough Shore 33",
+        "house": 553,
+        "flat": 6823,
+        "phone": "+959818403404972",
+        "createdOn": "2026-01-03T17:27:58.000Z",
+        "notes": "mN41Fj489VVKb3j8h0dpputsWW3Nx1"
+      },
+      "products": [
+        {
+          "_id": "695951a01c508c5d5e94c9b6",
+          "name": "Pants85293",
+          "amount": 645,
+          "price": 52991,
+          "manufacturer": "Microsoft",
+          "notes": "Nh2XmvDiEknKa6u3fW6urxajICEdoe3Z4N3Ogtaz4ZqA6WYQn51ZDG48AYxeqvwSNYcV44FCGVYAYA632QNbfV6KCsAlyVEVu6K83t9gs5sLEaZ1X84z4hHsblu2IAlG09nUUnfU0DZN49aTeLX893BkklFNkYkZGkn6fZHuXmDVkMm8NNAKwnkpye5Neb6afnzA1DW5aEyMlzanwLg82BxprTJYi3kP0STPKGlUdKt1M3stanHP0cCKJP",
+          "received": false
+        },
+        {
+          "_id": "695951a51c508c5d5e94cc99",
+          "name": "Car25070",
+          "amount": 78,
+          "price": 3879,
+          "manufacturer": "Xiaomi",
+          "notes": "z0vGiapwmkkRAY78XZ1iyFJsXPuEG97Xobh8cGCh5DSMHB7nNs2FPnDLKw44eP6zsWnpGsNXKqfOLuovuUEGdPshtsncGur85Cj72HCpn7rx4aWhMFbSkvXRjweMAwTvz5bd3BHb7Stf7nKmjYUN6KOmeQ4uz9uF1bnSglHfwhRjXtRFybA0vBGWDtCXWjb5WZS77OBDoKGLWdfKmfIv9ASLtDWxzXRF3px5jUJbqchhc1HTrg9fb0Mr1H",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Serenityview",
+          "street": "Aditya Estates",
+          "house": 53,
+          "flat": 4537
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56870,
+      "createdOn": "2026-01-03T17:28:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959519e1c508c5d5e94c914",
+          "products": [
+            {
+              "_id": "695951a01c508c5d5e94c9b6",
+              "name": "Pants85293",
+              "amount": 645,
+              "price": 52991,
+              "manufacturer": "Microsoft",
+              "notes": "Nh2XmvDiEknKa6u3fW6urxajICEdoe3Z4N3Ogtaz4ZqA6WYQn51ZDG48AYxeqvwSNYcV44FCGVYAYA632QNbfV6KCsAlyVEVu6K83t9gs5sLEaZ1X84z4hHsblu2IAlG09nUUnfU0DZN49aTeLX893BkklFNkYkZGkn6fZHuXmDVkMm8NNAKwnkpye5Neb6afnzA1DW5aEyMlzanwLg82BxprTJYi3kP0STPKGlUdKt1M3stanHP0cCKJP",
+              "received": false
+            },
+            {
+              "_id": "695951a51c508c5d5e94cc99",
+              "name": "Car25070",
+              "amount": 78,
+              "price": 3879,
+              "manufacturer": "Xiaomi",
+              "notes": "z0vGiapwmkkRAY78XZ1iyFJsXPuEG97Xobh8cGCh5DSMHB7nNs2FPnDLKw44eP6zsWnpGsNXKqfOLuovuUEGdPshtsncGur85Cj72HCpn7rx4aWhMFbSkvXRjweMAwTvz5bd3BHb7Stf7nKmjYUN6KOmeQ4uz9uF1bnSglHfwhRjXtRFybA0vBGWDtCXWjb5WZS77OBDoKGLWdfKmfIv9ASLtDWxzXRF3px5jUJbqchhc1HTrg9fb0Mr1H",
+              "received": false
+            }
+          ],
+          "total_price": 56870,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Serenityview",
+              "street": "Aditya Estates",
+              "house": 53,
+              "flat": 4537
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:28:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959519e1c508c5d5e94c914",
+          "products": [
+            {
+              "_id": "695951a01c508c5d5e94c9b6",
+              "name": "Pants85293",
+              "amount": 645,
+              "price": 52991,
+              "manufacturer": "Microsoft",
+              "notes": "Nh2XmvDiEknKa6u3fW6urxajICEdoe3Z4N3Ogtaz4ZqA6WYQn51ZDG48AYxeqvwSNYcV44FCGVYAYA632QNbfV6KCsAlyVEVu6K83t9gs5sLEaZ1X84z4hHsblu2IAlG09nUUnfU0DZN49aTeLX893BkklFNkYkZGkn6fZHuXmDVkMm8NNAKwnkpye5Neb6afnzA1DW5aEyMlzanwLg82BxprTJYi3kP0STPKGlUdKt1M3stanHP0cCKJP",
+              "received": false
+            },
+            {
+              "_id": "695951a51c508c5d5e94cc99",
+              "name": "Car25070",
+              "amount": 78,
+              "price": 3879,
+              "manufacturer": "Xiaomi",
+              "notes": "z0vGiapwmkkRAY78XZ1iyFJsXPuEG97Xobh8cGCh5DSMHB7nNs2FPnDLKw44eP6zsWnpGsNXKqfOLuovuUEGdPshtsncGur85Cj72HCpn7rx4aWhMFbSkvXRjweMAwTvz5bd3BHb7Stf7nKmjYUN6KOmeQ4uz9uF1bnSglHfwhRjXtRFybA0vBGWDtCXWjb5WZS77OBDoKGLWdfKmfIv9ASLtDWxzXRF3px5jUJbqchhc1HTrg9fb0Mr1H",
+              "received": false
+            }
+          ],
+          "total_price": 56870,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:28:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

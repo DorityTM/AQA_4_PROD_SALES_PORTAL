@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:16:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2743",
+    "etag": "W/\"ab7-y/KIXPMHgd7fVhbJXypk+utM7V0\"",
+    "keep-alive": "timeout=5, max=36",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594ee21c508c5d5e936825",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594ee11c508c5d5e9367f5",
+        "email": "Mellie_Padberg@yahoo.com",
+        "name": "Edward Prohaska",
+        "country": "Belarus",
+        "city": "Fort Elisatown",
+        "street": "Darwin Coves 32",
+        "house": 318,
+        "flat": 666,
+        "phone": "+470346733004120",
+        "createdOn": "2026-01-03T17:16:17.000Z",
+        "notes": "NS9ZEBAIASCYi1KrZB9VCBIsj8eeuk"
+      },
+      "products": [
+        {
+          "_id": "69594ee21c508c5d5e936813",
+          "name": "Salad28916",
+          "amount": 3,
+          "price": 12239,
+          "manufacturer": "Google",
+          "notes": "U31RPhuZzXBZ1Xs0FnRgS8EQHYqDa3EunrEHjzNavBboOPQgCV8dhqdNaHu6qSz6Hg10o1UtqXf44stUWJxnuFMjozCW35aydECrS11CidTCFbvf41AgbN6JHPVHT842frVl64cPjaJsj4ujCVTAPPmMApysckSwgbTVFxHQ5yHnuQkyEr5pk4C4e0abeJ2CPZX8y5BzgUAB5As4JDhuTb1twv6ap2cnjxxonqcyCjXNGhs1OB0ljzKZJr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "South Addie",
+          "street": "Lewis Ford",
+          "house": 855,
+          "flat": 801
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 12239,
+      "createdOn": "2026-01-03T17:16:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594ee11c508c5d5e9367f5",
+          "products": [
+            {
+              "_id": "69594ee21c508c5d5e936813",
+              "name": "Salad28916",
+              "amount": 3,
+              "price": 12239,
+              "manufacturer": "Google",
+              "notes": "U31RPhuZzXBZ1Xs0FnRgS8EQHYqDa3EunrEHjzNavBboOPQgCV8dhqdNaHu6qSz6Hg10o1UtqXf44stUWJxnuFMjozCW35aydECrS11CidTCFbvf41AgbN6JHPVHT842frVl64cPjaJsj4ujCVTAPPmMApysckSwgbTVFxHQ5yHnuQkyEr5pk4C4e0abeJ2CPZX8y5BzgUAB5As4JDhuTb1twv6ap2cnjxxonqcyCjXNGhs1OB0ljzKZJr",
+              "received": false
+            }
+          ],
+          "total_price": 12239,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "South Addie",
+              "street": "Lewis Ford",
+              "house": 855,
+              "flat": 801
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:16:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594ee11c508c5d5e9367f5",
+          "products": [
+            {
+              "_id": "69594ee21c508c5d5e936813",
+              "name": "Salad28916",
+              "amount": 3,
+              "price": 12239,
+              "manufacturer": "Google",
+              "notes": "U31RPhuZzXBZ1Xs0FnRgS8EQHYqDa3EunrEHjzNavBboOPQgCV8dhqdNaHu6qSz6Hg10o1UtqXf44stUWJxnuFMjozCW35aydECrS11CidTCFbvf41AgbN6JHPVHT842frVl64cPjaJsj4ujCVTAPPmMApysckSwgbTVFxHQ5yHnuQkyEr5pk4C4e0abeJ2CPZX8y5BzgUAB5As4JDhuTb1twv6ap2cnjxxonqcyCjXNGhs1OB0ljzKZJr",
+              "received": false
+            }
+          ],
+          "total_price": 12239,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:16:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

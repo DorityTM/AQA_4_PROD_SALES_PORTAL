@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:17:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4569",
+    "etag": "W/\"11d9-m98X/7pmRRYsPAa7hKPifK9BQyw\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594f131c508c5d5e938019",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594f121c508c5d5e937f8f",
+        "email": "Dylan79@gmail.com",
+        "name": "Tressa Russel",
+        "country": "Germany",
+        "city": "New Eugene",
+        "street": "Chapel Road 27",
+        "house": 886,
+        "flat": 187,
+        "phone": "+351557045493154",
+        "createdOn": "2026-01-03T17:17:06.000Z",
+        "notes": "DVJHUu26dmkouwpY0oDK6OvD5jDwNE"
+      },
+      "products": [
+        {
+          "_id": "69594f131c508c5d5e938004",
+          "name": "Bike65868",
+          "amount": 572,
+          "price": 35228,
+          "manufacturer": "Samsung",
+          "notes": "MKmxC4CDa6TU27Cm8NTuzYFwaXo4rbDLbiknYGwX2H0QRC7M3ATk6am356DEpYVlHJ8mfRh6wenwpX7SxNfLsPzc3HKxxGrvKa39lVl1NbDkj2brF0bvOvYlNpjnBLbjVTjY76dJR0FAk5Kr75VuUZFDW78FBEVR7V6dc6EYkXkPW5vWFz7ebz5qtazUqELJdD4aQTLe1DJlW1T5LlrENDV3s7ebZCfyM6f530OgeJqHUtpU8bU4HxQ172",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "New Stevestead",
+          "street": "Shaniya View",
+          "house": 415,
+          "flat": 8523
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 35228,
+      "createdOn": "2026-01-03T17:17:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594f121c508c5d5e937f8f",
+          "products": [
+            {
+              "_id": "69594f131c508c5d5e938004",
+              "name": "Bike65868",
+              "amount": 572,
+              "price": 35228,
+              "manufacturer": "Samsung",
+              "notes": "MKmxC4CDa6TU27Cm8NTuzYFwaXo4rbDLbiknYGwX2H0QRC7M3ATk6am356DEpYVlHJ8mfRh6wenwpX7SxNfLsPzc3HKxxGrvKa39lVl1NbDkj2brF0bvOvYlNpjnBLbjVTjY76dJR0FAk5Kr75VuUZFDW78FBEVR7V6dc6EYkXkPW5vWFz7ebz5qtazUqELJdD4aQTLe1DJlW1T5LlrENDV3s7ebZCfyM6f530OgeJqHUtpU8bU4HxQ172",
+              "received": false
+            }
+          ],
+          "total_price": 35228,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "New Stevestead",
+              "street": "Shaniya View",
+              "house": 415,
+              "flat": 8523
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:17:13.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594f121c508c5d5e937f8f",
+          "products": [
+            {
+              "_id": "69594f131c508c5d5e938004",
+              "name": "Bike65868",
+              "amount": 572,
+              "price": 35228,
+              "manufacturer": "Samsung",
+              "notes": "MKmxC4CDa6TU27Cm8NTuzYFwaXo4rbDLbiknYGwX2H0QRC7M3ATk6am356DEpYVlHJ8mfRh6wenwpX7SxNfLsPzc3HKxxGrvKa39lVl1NbDkj2brF0bvOvYlNpjnBLbjVTjY76dJR0FAk5Kr75VuUZFDW78FBEVR7V6dc6EYkXkPW5vWFz7ebz5qtazUqELJdD4aQTLe1DJlW1T5LlrENDV3s7ebZCfyM6f530OgeJqHUtpU8bU4HxQ172",
+              "received": false
+            }
+          ],
+          "total_price": 35228,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Mistyview",
+              "street": "Marks Greens",
+              "house": 543,
+              "flat": 9028
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-03T17:17:12.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594f121c508c5d5e937f8f",
+          "products": [
+            {
+              "_id": "69594f131c508c5d5e938004",
+              "name": "Bike65868",
+              "amount": 572,
+              "price": 35228,
+              "manufacturer": "Samsung",
+              "notes": "MKmxC4CDa6TU27Cm8NTuzYFwaXo4rbDLbiknYGwX2H0QRC7M3ATk6am356DEpYVlHJ8mfRh6wenwpX7SxNfLsPzc3HKxxGrvKa39lVl1NbDkj2brF0bvOvYlNpjnBLbjVTjY76dJR0FAk5Kr75VuUZFDW78FBEVR7V6dc6EYkXkPW5vWFz7ebz5qtazUqELJdD4aQTLe1DJlW1T5LlrENDV3s7ebZCfyM6f530OgeJqHUtpU8bU4HxQ172",
+              "received": false
+            }
+          ],
+          "total_price": 35228,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "New Jermeyfort",
+              "street": "N Broadway",
+              "house": 260,
+              "flat": 653
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:17:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594f121c508c5d5e937f8f",
+          "products": [
+            {
+              "_id": "69594f131c508c5d5e938004",
+              "name": "Bike65868",
+              "amount": 572,
+              "price": 35228,
+              "manufacturer": "Samsung",
+              "notes": "MKmxC4CDa6TU27Cm8NTuzYFwaXo4rbDLbiknYGwX2H0QRC7M3ATk6am356DEpYVlHJ8mfRh6wenwpX7SxNfLsPzc3HKxxGrvKa39lVl1NbDkj2brF0bvOvYlNpjnBLbjVTjY76dJR0FAk5Kr75VuUZFDW78FBEVR7V6dc6EYkXkPW5vWFz7ebz5qtazUqELJdD4aQTLe1DJlW1T5LlrENDV3s7ebZCfyM6f530OgeJqHUtpU8bU4HxQ172",
+              "received": false
+            }
+          ],
+          "total_price": 35228,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:17:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

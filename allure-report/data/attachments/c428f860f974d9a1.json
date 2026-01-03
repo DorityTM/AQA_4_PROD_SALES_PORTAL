@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:28:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2744",
+    "etag": "W/\"ab8-SGUq6E1uOtrfBxw3HdsgwdHIb5w\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695951ba1c508c5d5e94d5f0",
+      "status": "Draft",
+      "customer": {
+        "_id": "695951b71c508c5d5e94d410",
+        "email": "Grant_Mayert40@hotmail.com",
+        "name": "Candice Leannon",
+        "country": "Great Britain",
+        "city": "Zeldacester",
+        "street": "Makenna Camp 19",
+        "house": 782,
+        "flat": 499,
+        "phone": "+645875899452943",
+        "createdOn": "2026-01-03T17:28:23.000Z",
+        "notes": "t1dyM8NeTYQRhMBup57e4n5Vh8lVht"
+      },
+      "products": [
+        {
+          "_id": "695951b81c508c5d5e94d4bf",
+          "name": "Car67452",
+          "amount": 172,
+          "price": 85580,
+          "manufacturer": "Amazon",
+          "notes": "z1tTDnaZytKHuRQseDtgLWamxxpOrGFQeti0a21WXcHdUEzXrKVsFzhQQTj1FYHdt6TUYq5wsfuwaKW1CgcsfMgBUoMBDs5tIWTOL9ilmTdNWgj4TO7u6CTfqOxeYd1DxQx88Hyfhx5XpBqazeFwNb03hRNMCK1Qx5EJOKWgY7DFWWNlKw0VnI0sbVBuhzvvhUBUlXithTBKdLeIsLuINoysnfKXcpCnt9VSuh4aU2c6JuJpU2jAETXaoO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "East Hermann",
+          "street": "Jay Pines",
+          "house": 570,
+          "flat": 1958
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 85580,
+      "createdOn": "2026-01-03T17:28:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695951b71c508c5d5e94d410",
+          "products": [
+            {
+              "_id": "695951b81c508c5d5e94d4bf",
+              "name": "Car67452",
+              "amount": 172,
+              "price": 85580,
+              "manufacturer": "Amazon",
+              "notes": "z1tTDnaZytKHuRQseDtgLWamxxpOrGFQeti0a21WXcHdUEzXrKVsFzhQQTj1FYHdt6TUYq5wsfuwaKW1CgcsfMgBUoMBDs5tIWTOL9ilmTdNWgj4TO7u6CTfqOxeYd1DxQx88Hyfhx5XpBqazeFwNb03hRNMCK1Qx5EJOKWgY7DFWWNlKw0VnI0sbVBuhzvvhUBUlXithTBKdLeIsLuINoysnfKXcpCnt9VSuh4aU2c6JuJpU2jAETXaoO",
+              "received": false
+            }
+          ],
+          "total_price": 85580,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "East Hermann",
+              "street": "Jay Pines",
+              "house": 570,
+              "flat": 1958
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:28:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695951b71c508c5d5e94d410",
+          "products": [
+            {
+              "_id": "695951b81c508c5d5e94d4bf",
+              "name": "Car67452",
+              "amount": 172,
+              "price": 85580,
+              "manufacturer": "Amazon",
+              "notes": "z1tTDnaZytKHuRQseDtgLWamxxpOrGFQeti0a21WXcHdUEzXrKVsFzhQQTj1FYHdt6TUYq5wsfuwaKW1CgcsfMgBUoMBDs5tIWTOL9ilmTdNWgj4TO7u6CTfqOxeYd1DxQx88Hyfhx5XpBqazeFwNb03hRNMCK1Qx5EJOKWgY7DFWWNlKw0VnI0sbVBuhzvvhUBUlXithTBKdLeIsLuINoysnfKXcpCnt9VSuh4aU2c6JuJpU2jAETXaoO",
+              "received": false
+            }
+          ],
+          "total_price": 85580,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:28:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

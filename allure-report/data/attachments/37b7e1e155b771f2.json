@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:24:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2734",
+    "etag": "W/\"aae-tELOQYWxc3cmL7Vp4yDuBaK26To\"",
+    "keep-alive": "timeout=5, max=73",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695950df1c508c5d5e945c0e",
+      "status": "Draft",
+      "customer": {
+        "_id": "695950dd1c508c5d5e945b3d",
+        "email": "Emilio77@gmail.com",
+        "name": "Paxton Koelpin",
+        "country": "USA",
+        "city": "Buffalo",
+        "street": "Rachael Key 20",
+        "house": 691,
+        "flat": 8476,
+        "phone": "+810553664088302",
+        "createdOn": "2026-01-03T17:24:45.000Z",
+        "notes": "F0cQ35rvOo4PBgDDp7B79pM2vWQJJP"
+      },
+      "products": [
+        {
+          "_id": "695950de1c508c5d5e945b76",
+          "name": "Pizza49082",
+          "amount": 406,
+          "price": 67237,
+          "manufacturer": "Apple",
+          "notes": "Mu4gN5tFRrY30awQ1lwPOuJCid7T9BodWYnY9OD4hiFe75hWSAwmoLIfovRPZ5DXRxOmmX5GueDjt9FHt1okGW7hcQAZsfGlBs1iqINrLg2I1w8bW0NrgVqeDeAEt1XU4hio8u2vMiMwFlO4pB6LNP5F1LuxVMx9MWkEChuvS6mombepBFnjHtCsP8Xhj2wjl27xBPOTHpeCzhi8nv9qREXbk7QzBBa1Z0I7NsD2TMe5theTjGVJcFNPCH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Coral Gables",
+          "street": "Verna Lakes",
+          "house": 592,
+          "flat": 217
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 67237,
+      "createdOn": "2026-01-03T17:24:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695950dd1c508c5d5e945b3d",
+          "products": [
+            {
+              "_id": "695950de1c508c5d5e945b76",
+              "name": "Pizza49082",
+              "amount": 406,
+              "price": 67237,
+              "manufacturer": "Apple",
+              "notes": "Mu4gN5tFRrY30awQ1lwPOuJCid7T9BodWYnY9OD4hiFe75hWSAwmoLIfovRPZ5DXRxOmmX5GueDjt9FHt1okGW7hcQAZsfGlBs1iqINrLg2I1w8bW0NrgVqeDeAEt1XU4hio8u2vMiMwFlO4pB6LNP5F1LuxVMx9MWkEChuvS6mombepBFnjHtCsP8Xhj2wjl27xBPOTHpeCzhi8nv9qREXbk7QzBBa1Z0I7NsD2TMe5theTjGVJcFNPCH",
+              "received": false
+            }
+          ],
+          "total_price": 67237,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Coral Gables",
+              "street": "Verna Lakes",
+              "house": 592,
+              "flat": 217
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:24:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695950dd1c508c5d5e945b3d",
+          "products": [
+            {
+              "_id": "695950de1c508c5d5e945b76",
+              "name": "Pizza49082",
+              "amount": 406,
+              "price": 67237,
+              "manufacturer": "Apple",
+              "notes": "Mu4gN5tFRrY30awQ1lwPOuJCid7T9BodWYnY9OD4hiFe75hWSAwmoLIfovRPZ5DXRxOmmX5GueDjt9FHt1okGW7hcQAZsfGlBs1iqINrLg2I1w8bW0NrgVqeDeAEt1XU4hio8u2vMiMwFlO4pB6LNP5F1LuxVMx9MWkEChuvS6mombepBFnjHtCsP8Xhj2wjl27xBPOTHpeCzhi8nv9qREXbk7QzBBa1Z0I7NsD2TMe5theTjGVJcFNPCH",
+              "received": false
+            }
+          ],
+          "total_price": 67237,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:24:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

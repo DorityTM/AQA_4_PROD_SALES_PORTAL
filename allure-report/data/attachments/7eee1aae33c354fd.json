@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:15:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2756",
+    "etag": "W/\"ac4-JbJfq57O2eCA1ZCbAUjIzs7nHl4\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594eab1c508c5d5e934c05",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594ea61c508c5d5e934895",
+        "email": "Harrison49@yahoo.com",
+        "name": "Lorna Powlowski",
+        "country": "Russia",
+        "city": "Quigleyside",
+        "street": "Kuhn Ramp 98",
+        "house": 696,
+        "flat": 2709,
+        "phone": "+399310642541285",
+        "createdOn": "2026-01-03T17:15:18.000Z",
+        "notes": "GwwUPHdWt0VSzyhv8ak5BmEbyk9xrU"
+      },
+      "products": [
+        {
+          "_id": "69594eaa1c508c5d5e934bd5",
+          "name": "Computer34128",
+          "amount": 870,
+          "price": 97980,
+          "manufacturer": "Amazon",
+          "notes": "TQTVdk4ujv3uCeEJZAc0H5nZkonJPRKg6aMAKAr8CBGPuAlfCZftQ5SUtM53doDK2sLHXLfEL5qTgcUHG3jihX4sSAk91PyW5u9bEhfKFafjmqL4QLOXQAp64LsyIVxJsBja5bXcWsH4nPMqTPa7NgukT6nQ5daQWCmkDtTFZWr8YY535FTAnlZuOFxks0Tcx3lXgcs22NNHyhkDZhieAvdqLoIcXVQJQ5ixeSQwQpZIwdBbvMBa3S9tZC",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Marielatown",
+          "street": "Maple Street",
+          "house": 194,
+          "flat": 4538
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 97980,
+      "createdOn": "2026-01-03T17:15:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594ea61c508c5d5e934895",
+          "products": [
+            {
+              "_id": "69594eaa1c508c5d5e934bd5",
+              "name": "Computer34128",
+              "amount": 870,
+              "price": 97980,
+              "manufacturer": "Amazon",
+              "notes": "TQTVdk4ujv3uCeEJZAc0H5nZkonJPRKg6aMAKAr8CBGPuAlfCZftQ5SUtM53doDK2sLHXLfEL5qTgcUHG3jihX4sSAk91PyW5u9bEhfKFafjmqL4QLOXQAp64LsyIVxJsBja5bXcWsH4nPMqTPa7NgukT6nQ5daQWCmkDtTFZWr8YY535FTAnlZuOFxks0Tcx3lXgcs22NNHyhkDZhieAvdqLoIcXVQJQ5ixeSQwQpZIwdBbvMBa3S9tZC",
+              "received": false
+            }
+          ],
+          "total_price": 97980,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Marielatown",
+              "street": "Maple Street",
+              "house": 194,
+              "flat": 4538
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:15:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594ea61c508c5d5e934895",
+          "products": [
+            {
+              "_id": "69594eaa1c508c5d5e934bd5",
+              "name": "Computer34128",
+              "amount": 870,
+              "price": 97980,
+              "manufacturer": "Amazon",
+              "notes": "TQTVdk4ujv3uCeEJZAc0H5nZkonJPRKg6aMAKAr8CBGPuAlfCZftQ5SUtM53doDK2sLHXLfEL5qTgcUHG3jihX4sSAk91PyW5u9bEhfKFafjmqL4QLOXQAp64LsyIVxJsBja5bXcWsH4nPMqTPa7NgukT6nQ5daQWCmkDtTFZWr8YY535FTAnlZuOFxks0Tcx3lXgcs22NNHyhkDZhieAvdqLoIcXVQJQ5ixeSQwQpZIwdBbvMBa3S9tZC",
+              "received": false
+            }
+          ],
+          "total_price": 97980,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:15:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:26:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2756",
+    "etag": "W/\"ac4-NZItmipF+1WQAkBTJixh9aXYArc\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695951381c508c5d5e948e54",
+      "status": "Draft",
+      "customer": {
+        "_id": "695951351c508c5d5e948d0e",
+        "email": "Wilfrid14@yahoo.com",
+        "name": "Gregg Hahn",
+        "country": "Great Britain",
+        "city": "South Bend",
+        "street": "4th Avenue 68",
+        "house": 759,
+        "flat": 3927,
+        "phone": "+638892045412851",
+        "createdOn": "2026-01-03T17:26:13.000Z",
+        "notes": "pIC4wSrZO7JHUqJKRCubRusIwu8jLW"
+      },
+      "products": [
+        {
+          "_id": "695951371c508c5d5e948e25",
+          "name": "Chicken27551",
+          "amount": 34,
+          "price": 81271,
+          "manufacturer": "Microsoft",
+          "notes": "ClnNa1XHmG9rk1oOZYGtKe5J75yNYtavGHObuJKsNkd3Tfwl2DQXIQb2FZdZ4nIRyperAionlSHuqqTJ8e2mw6CCyMmnQgphs4dxHlh31q8a0GKURjEZihRtqVQaeL5RtMlk3dgNdTtDWG3xWi5otCpUOREOsFAxWEjb8YwdwBjkvzD8EKYFYZlr2MGJwGPoisM2AVrlk6bXRlkS9Fu8KOVgKNC36S4KW8GlEVJgiCQ148K4rwtNB24nD8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "East Grace",
+          "street": "S 8th Street",
+          "house": 694,
+          "flat": 5526
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 81271,
+      "createdOn": "2026-01-03T17:26:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695951351c508c5d5e948d0e",
+          "products": [
+            {
+              "_id": "695951371c508c5d5e948e25",
+              "name": "Chicken27551",
+              "amount": 34,
+              "price": 81271,
+              "manufacturer": "Microsoft",
+              "notes": "ClnNa1XHmG9rk1oOZYGtKe5J75yNYtavGHObuJKsNkd3Tfwl2DQXIQb2FZdZ4nIRyperAionlSHuqqTJ8e2mw6CCyMmnQgphs4dxHlh31q8a0GKURjEZihRtqVQaeL5RtMlk3dgNdTtDWG3xWi5otCpUOREOsFAxWEjb8YwdwBjkvzD8EKYFYZlr2MGJwGPoisM2AVrlk6bXRlkS9Fu8KOVgKNC36S4KW8GlEVJgiCQ148K4rwtNB24nD8",
+              "received": false
+            }
+          ],
+          "total_price": 81271,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Grace",
+              "street": "S 8th Street",
+              "house": 694,
+              "flat": 5526
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:26:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695951351c508c5d5e948d0e",
+          "products": [
+            {
+              "_id": "695951371c508c5d5e948e25",
+              "name": "Chicken27551",
+              "amount": 34,
+              "price": 81271,
+              "manufacturer": "Microsoft",
+              "notes": "ClnNa1XHmG9rk1oOZYGtKe5J75yNYtavGHObuJKsNkd3Tfwl2DQXIQb2FZdZ4nIRyperAionlSHuqqTJ8e2mw6CCyMmnQgphs4dxHlh31q8a0GKURjEZihRtqVQaeL5RtMlk3dgNdTtDWG3xWi5otCpUOREOsFAxWEjb8YwdwBjkvzD8EKYFYZlr2MGJwGPoisM2AVrlk6bXRlkS9Fu8KOVgKNC36S4KW8GlEVJgiCQ148K4rwtNB24nD8",
+              "received": false
+            }
+          ],
+          "total_price": 81271,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:26:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:25:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2762",
+    "etag": "W/\"aca-YklzmRx1Cd4sGq8nY7rNWQWuBws\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695951021c508c5d5e9470fc",
+      "status": "Draft",
+      "customer": {
+        "_id": "695951011c508c5d5e947085",
+        "email": "Vincenza.Mayer8@hotmail.com",
+        "name": "Trisha Marquardt",
+        "country": "Great Britain",
+        "city": "Funkburgh",
+        "street": "Cemetery Road 10",
+        "house": 179,
+        "flat": 1945,
+        "phone": "+045641901131559",
+        "createdOn": "2026-01-03T17:25:21.000Z",
+        "notes": "3ahxkNARfDMmMKlcvVpIOgDLSSUpUo"
+      },
+      "products": [
+        {
+          "_id": "695951021c508c5d5e9470e8",
+          "name": "Gloves97504",
+          "amount": 216,
+          "price": 81450,
+          "manufacturer": "Apple",
+          "notes": "Fv4KYOmu51yqi52mFBWbszNosku3E6IPnM0Lla1nR54vQlofA2oFIGHNrC9ARvxaEI3xXKr1Ha7ghYD6Frz8MStUz3Qvp5r8TStq7QyKxwwHaouTJMgfjF4Hce9ghrvF7IunxSMgQoVHNVj6PyxD3wgNlERPjS00KUwLhsG4a5DvuiNQafTXVvyvPp7In6PmuBboKVcbVMgXsr0kncUL6uyHTE1BMC6OfVY8HkmyMuEg7npQ9cE3fyu3zZ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Kohlerhaven",
+          "street": "Vince Islands",
+          "house": 217,
+          "flat": 566
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 81450,
+      "createdOn": "2026-01-03T17:25:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695951011c508c5d5e947085",
+          "products": [
+            {
+              "_id": "695951021c508c5d5e9470e8",
+              "name": "Gloves97504",
+              "amount": 216,
+              "price": 81450,
+              "manufacturer": "Apple",
+              "notes": "Fv4KYOmu51yqi52mFBWbszNosku3E6IPnM0Lla1nR54vQlofA2oFIGHNrC9ARvxaEI3xXKr1Ha7ghYD6Frz8MStUz3Qvp5r8TStq7QyKxwwHaouTJMgfjF4Hce9ghrvF7IunxSMgQoVHNVj6PyxD3wgNlERPjS00KUwLhsG4a5DvuiNQafTXVvyvPp7In6PmuBboKVcbVMgXsr0kncUL6uyHTE1BMC6OfVY8HkmyMuEg7npQ9cE3fyu3zZ",
+              "received": false
+            }
+          ],
+          "total_price": 81450,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Kohlerhaven",
+              "street": "Vince Islands",
+              "house": 217,
+              "flat": 566
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:25:23.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695951011c508c5d5e947085",
+          "products": [
+            {
+              "_id": "695951021c508c5d5e9470e8",
+              "name": "Gloves97504",
+              "amount": 216,
+              "price": 81450,
+              "manufacturer": "Apple",
+              "notes": "Fv4KYOmu51yqi52mFBWbszNosku3E6IPnM0Lla1nR54vQlofA2oFIGHNrC9ARvxaEI3xXKr1Ha7ghYD6Frz8MStUz3Qvp5r8TStq7QyKxwwHaouTJMgfjF4Hce9ghrvF7IunxSMgQoVHNVj6PyxD3wgNlERPjS00KUwLhsG4a5DvuiNQafTXVvyvPp7In6PmuBboKVcbVMgXsr0kncUL6uyHTE1BMC6OfVY8HkmyMuEg7npQ9cE3fyu3zZ",
+              "received": false
+            }
+          ],
+          "total_price": 81450,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:25:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:18:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4593",
+    "etag": "W/\"11f1-UW3ER3Sy4NJVot6/oUbGK3stDhk\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594f631c508c5d5e93a7ce",
+      "status": "Received",
+      "customer": {
+        "_id": "69594f5e1c508c5d5e93a711",
+        "email": "Belle_Gusikowski19@hotmail.com",
+        "name": "Elaina Schowalter",
+        "country": "USA",
+        "city": "Turlock",
+        "street": "Satterfield Shore 71",
+        "house": 829,
+        "flat": 2379,
+        "phone": "+678471629742300",
+        "createdOn": "2026-01-03T17:18:22.000Z",
+        "notes": "5DR80Oi4radvbzywfQULrjTxJ2JoTg"
+      },
+      "products": [
+        {
+          "_id": "69594f631c508c5d5e93a7c2",
+          "name": "Pizza91416",
+          "amount": 752,
+          "price": 68419,
+          "manufacturer": "Apple",
+          "notes": "j3udWkK71UFZcV7jrF2jWZWepylN3EerhwVA50Mhlzy5pznmNJU2KjdZeOmKICzmrb7SioC4ZXMmp8T7oXu1eIUDllFQr1gFOJjbpdklSaHuzSqsdQhsS465LMUHjf3HkmoWNvUdcDx1Ke8XHCo3AiIiuUcQ7CnyxXU15nMDGMU2lUalh7VGdmdoUV43InsMOeywTd96eFlR6EeuPFbAantiNnsWUoANSmaXLxGO3njvOcgfHWtyGWXk8M",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Salem",
+          "street": "Pollich Village",
+          "house": 797,
+          "flat": 5211
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 68419,
+      "createdOn": "2026-01-03T17:18:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69594f5e1c508c5d5e93a711",
+          "products": [
+            {
+              "_id": "69594f631c508c5d5e93a7c2",
+              "name": "Pizza91416",
+              "amount": 752,
+              "price": 68419,
+              "manufacturer": "Apple",
+              "notes": "j3udWkK71UFZcV7jrF2jWZWepylN3EerhwVA50Mhlzy5pznmNJU2KjdZeOmKICzmrb7SioC4ZXMmp8T7oXu1eIUDllFQr1gFOJjbpdklSaHuzSqsdQhsS465LMUHjf3HkmoWNvUdcDx1Ke8XHCo3AiIiuUcQ7CnyxXU15nMDGMU2lUalh7VGdmdoUV43InsMOeywTd96eFlR6EeuPFbAantiNnsWUoANSmaXLxGO3njvOcgfHWtyGWXk8M",
+              "received": true
+            }
+          ],
+          "total_price": 68419,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Salem",
+              "street": "Pollich Village",
+              "house": 797,
+              "flat": 5211
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:18:29.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69594f5e1c508c5d5e93a711",
+          "products": [
+            {
+              "_id": "69594f631c508c5d5e93a7c2",
+              "name": "Pizza91416",
+              "amount": 752,
+              "price": 68419,
+              "manufacturer": "Apple",
+              "notes": "j3udWkK71UFZcV7jrF2jWZWepylN3EerhwVA50Mhlzy5pznmNJU2KjdZeOmKICzmrb7SioC4ZXMmp8T7oXu1eIUDllFQr1gFOJjbpdklSaHuzSqsdQhsS465LMUHjf3HkmoWNvUdcDx1Ke8XHCo3AiIiuUcQ7CnyxXU15nMDGMU2lUalh7VGdmdoUV43InsMOeywTd96eFlR6EeuPFbAantiNnsWUoANSmaXLxGO3njvOcgfHWtyGWXk8M",
+              "received": false
+            }
+          ],
+          "total_price": 68419,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Salem",
+              "street": "Pollich Village",
+              "house": 797,
+              "flat": 5211
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:18:28.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594f5e1c508c5d5e93a711",
+          "products": [
+            {
+              "_id": "69594f631c508c5d5e93a7c2",
+              "name": "Pizza91416",
+              "amount": 752,
+              "price": 68419,
+              "manufacturer": "Apple",
+              "notes": "j3udWkK71UFZcV7jrF2jWZWepylN3EerhwVA50Mhlzy5pznmNJU2KjdZeOmKICzmrb7SioC4ZXMmp8T7oXu1eIUDllFQr1gFOJjbpdklSaHuzSqsdQhsS465LMUHjf3HkmoWNvUdcDx1Ke8XHCo3AiIiuUcQ7CnyxXU15nMDGMU2lUalh7VGdmdoUV43InsMOeywTd96eFlR6EeuPFbAantiNnsWUoANSmaXLxGO3njvOcgfHWtyGWXk8M",
+              "received": false
+            }
+          ],
+          "total_price": 68419,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Salem",
+              "street": "Pollich Village",
+              "house": 797,
+              "flat": 5211
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:18:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594f5e1c508c5d5e93a711",
+          "products": [
+            {
+              "_id": "69594f631c508c5d5e93a7c2",
+              "name": "Pizza91416",
+              "amount": 752,
+              "price": 68419,
+              "manufacturer": "Apple",
+              "notes": "j3udWkK71UFZcV7jrF2jWZWepylN3EerhwVA50Mhlzy5pznmNJU2KjdZeOmKICzmrb7SioC4ZXMmp8T7oXu1eIUDllFQr1gFOJjbpdklSaHuzSqsdQhsS465LMUHjf3HkmoWNvUdcDx1Ke8XHCo3AiIiuUcQ7CnyxXU15nMDGMU2lUalh7VGdmdoUV43InsMOeywTd96eFlR6EeuPFbAantiNnsWUoANSmaXLxGO3njvOcgfHWtyGWXk8M",
+              "received": false
+            }
+          ],
+          "total_price": 68419,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:18:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

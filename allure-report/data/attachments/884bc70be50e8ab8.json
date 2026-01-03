@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:23:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3676",
+    "etag": "W/\"e5c-Most86EAJszkcDXJI8pKlI2D6Tw\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695950ab1c508c5d5e944527",
+      "status": "In Process",
+      "customer": {
+        "_id": "695950aa1c508c5d5e9444cf",
+        "email": "Pansy_Welch-Huels7@hotmail.com",
+        "name": "Tamia Rutherford",
+        "country": "Belarus",
+        "city": "Gary",
+        "street": "Chauncey Pine 33",
+        "house": 992,
+        "flat": 7245,
+        "phone": "+230045709077524",
+        "createdOn": "2026-01-03T17:23:54.000Z",
+        "notes": "PkKwnhVuG2XlwLCcfMa1xKp24mYeOA"
+      },
+      "products": [
+        {
+          "_id": "695950ab1c508c5d5e944516",
+          "name": "Chips16866",
+          "amount": 21,
+          "price": 54228,
+          "manufacturer": "Apple",
+          "notes": "olUrQFKdsVetO7h9kuLwSVUn9oUQO84t1ES2FRAjIRf49Iem4gx8aJgsFL7bswD7xjSHk7jQSfwi0S2eBQWMzasvGtlbWyzpFKcKYLCDTb0idEzAB8jksQGJNTKsqhmEAgtKouGJ8SUMeexHfGr7D58nIOFi6XY7dlipSvcPnTCmwzLRmsuyMWgT2JpV3MuyMHz8g1rdlSsEVZX1XzuhCr9NmnEt5kwv9euODby6BvTxpdO1X1bUTtFPNM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Feestcester",
+          "street": "Hill Street",
+          "house": 501,
+          "flat": 1687
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 54228,
+      "createdOn": "2026-01-03T17:23:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695950aa1c508c5d5e9444cf",
+          "products": [
+            {
+              "_id": "695950ab1c508c5d5e944516",
+              "name": "Chips16866",
+              "amount": 21,
+              "price": 54228,
+              "manufacturer": "Apple",
+              "notes": "olUrQFKdsVetO7h9kuLwSVUn9oUQO84t1ES2FRAjIRf49Iem4gx8aJgsFL7bswD7xjSHk7jQSfwi0S2eBQWMzasvGtlbWyzpFKcKYLCDTb0idEzAB8jksQGJNTKsqhmEAgtKouGJ8SUMeexHfGr7D58nIOFi6XY7dlipSvcPnTCmwzLRmsuyMWgT2JpV3MuyMHz8g1rdlSsEVZX1XzuhCr9NmnEt5kwv9euODby6BvTxpdO1X1bUTtFPNM",
+              "received": false
+            }
+          ],
+          "total_price": 54228,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Feestcester",
+              "street": "Hill Street",
+              "house": 501,
+              "flat": 1687
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:23:56.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695950aa1c508c5d5e9444cf",
+          "products": [
+            {
+              "_id": "695950ab1c508c5d5e944516",
+              "name": "Chips16866",
+              "amount": 21,
+              "price": 54228,
+              "manufacturer": "Apple",
+              "notes": "olUrQFKdsVetO7h9kuLwSVUn9oUQO84t1ES2FRAjIRf49Iem4gx8aJgsFL7bswD7xjSHk7jQSfwi0S2eBQWMzasvGtlbWyzpFKcKYLCDTb0idEzAB8jksQGJNTKsqhmEAgtKouGJ8SUMeexHfGr7D58nIOFi6XY7dlipSvcPnTCmwzLRmsuyMWgT2JpV3MuyMHz8g1rdlSsEVZX1XzuhCr9NmnEt5kwv9euODby6BvTxpdO1X1bUTtFPNM",
+              "received": false
+            }
+          ],
+          "total_price": 54228,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Feestcester",
+              "street": "Hill Street",
+              "house": 501,
+              "flat": 1687
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:23:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695950aa1c508c5d5e9444cf",
+          "products": [
+            {
+              "_id": "695950ab1c508c5d5e944516",
+              "name": "Chips16866",
+              "amount": 21,
+              "price": 54228,
+              "manufacturer": "Apple",
+              "notes": "olUrQFKdsVetO7h9kuLwSVUn9oUQO84t1ES2FRAjIRf49Iem4gx8aJgsFL7bswD7xjSHk7jQSfwi0S2eBQWMzasvGtlbWyzpFKcKYLCDTb0idEzAB8jksQGJNTKsqhmEAgtKouGJ8SUMeexHfGr7D58nIOFi6XY7dlipSvcPnTCmwzLRmsuyMWgT2JpV3MuyMHz8g1rdlSsEVZX1XzuhCr9NmnEt5kwv9euODby6BvTxpdO1X1bUTtFPNM",
+              "received": false
+            }
+          ],
+          "total_price": 54228,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:23:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

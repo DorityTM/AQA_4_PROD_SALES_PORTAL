@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:24:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3680",
+    "etag": "W/\"e60-qx2EdZdNTSa2n1e/Xaup2gOs4a8\"",
+    "keep-alive": "timeout=5, max=71",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695950b31c508c5d5e94495e",
+      "status": "In Process",
+      "customer": {
+        "_id": "695950b11c508c5d5e9447ba",
+        "email": "Jeffry22@hotmail.com",
+        "name": "Hortense Funk",
+        "country": "Belarus",
+        "city": "Homenickland",
+        "street": "Hahn Corner 93",
+        "house": 536,
+        "flat": 9172,
+        "phone": "+774095424778157",
+        "createdOn": "2026-01-03T17:24:01.000Z",
+        "notes": "iudOV2VwjUynMJdpY1ktNrPSNH6iwY"
+      },
+      "products": [
+        {
+          "_id": "695950b31c508c5d5e94494e",
+          "name": "Ball44938",
+          "amount": 12,
+          "price": 31740,
+          "manufacturer": "Tesla",
+          "notes": "yvt2cqfIBMMSf0Z2glIzjHTbHqssskd81MB4x8fegjCU11olqGFu46rrBg1WGO0vhszllJA6chSVBeL4wx7xnjAx9HqOagpTjtgMnQBI4vzgHCKdzE1rmp8F7V6rcxI9aSCxJl4dvtpJjpFBANYWMM0FOjcLmqTlg16dnTtBNVG7S99tgTb8zHw5P1x84pD8VCbLBmTGPrRoDjwpLsO5PL3CEj1IEZvmIkB6u73vctDDAs2zStozYxide0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Fort Judge",
+          "street": "Highfield Avenue",
+          "house": 547,
+          "flat": 6204
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 31740,
+      "createdOn": "2026-01-03T17:24:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695950b11c508c5d5e9447ba",
+          "products": [
+            {
+              "_id": "695950b31c508c5d5e94494e",
+              "name": "Ball44938",
+              "amount": 12,
+              "price": 31740,
+              "manufacturer": "Tesla",
+              "notes": "yvt2cqfIBMMSf0Z2glIzjHTbHqssskd81MB4x8fegjCU11olqGFu46rrBg1WGO0vhszllJA6chSVBeL4wx7xnjAx9HqOagpTjtgMnQBI4vzgHCKdzE1rmp8F7V6rcxI9aSCxJl4dvtpJjpFBANYWMM0FOjcLmqTlg16dnTtBNVG7S99tgTb8zHw5P1x84pD8VCbLBmTGPrRoDjwpLsO5PL3CEj1IEZvmIkB6u73vctDDAs2zStozYxide0",
+              "received": false
+            }
+          ],
+          "total_price": 31740,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Judge",
+              "street": "Highfield Avenue",
+              "house": 547,
+              "flat": 6204
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:24:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695950b11c508c5d5e9447ba",
+          "products": [
+            {
+              "_id": "695950b31c508c5d5e94494e",
+              "name": "Ball44938",
+              "amount": 12,
+              "price": 31740,
+              "manufacturer": "Tesla",
+              "notes": "yvt2cqfIBMMSf0Z2glIzjHTbHqssskd81MB4x8fegjCU11olqGFu46rrBg1WGO0vhszllJA6chSVBeL4wx7xnjAx9HqOagpTjtgMnQBI4vzgHCKdzE1rmp8F7V6rcxI9aSCxJl4dvtpJjpFBANYWMM0FOjcLmqTlg16dnTtBNVG7S99tgTb8zHw5P1x84pD8VCbLBmTGPrRoDjwpLsO5PL3CEj1IEZvmIkB6u73vctDDAs2zStozYxide0",
+              "received": false
+            }
+          ],
+          "total_price": 31740,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Judge",
+              "street": "Highfield Avenue",
+              "house": 547,
+              "flat": 6204
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:24:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695950b11c508c5d5e9447ba",
+          "products": [
+            {
+              "_id": "695950b31c508c5d5e94494e",
+              "name": "Ball44938",
+              "amount": 12,
+              "price": 31740,
+              "manufacturer": "Tesla",
+              "notes": "yvt2cqfIBMMSf0Z2glIzjHTbHqssskd81MB4x8fegjCU11olqGFu46rrBg1WGO0vhszllJA6chSVBeL4wx7xnjAx9HqOagpTjtgMnQBI4vzgHCKdzE1rmp8F7V6rcxI9aSCxJl4dvtpJjpFBANYWMM0FOjcLmqTlg16dnTtBNVG7S99tgTb8zHw5P1x84pD8VCbLBmTGPrRoDjwpLsO5PL3CEj1IEZvmIkB6u73vctDDAs2zStozYxide0",
+              "received": false
+            }
+          ],
+          "total_price": 31740,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:24:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

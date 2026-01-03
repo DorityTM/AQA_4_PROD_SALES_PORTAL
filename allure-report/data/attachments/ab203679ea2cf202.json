@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:25:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4607",
+    "etag": "W/\"11ff-Bz9vY55cq1u39ruaSZ2Rk9u9MtI\"",
+    "keep-alive": "timeout=5, max=80",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695951101c508c5d5e94776b",
+      "status": "Received",
+      "customer": {
+        "_id": "6959510e1c508c5d5e947649",
+        "email": "Charity1@gmail.com",
+        "name": "Rosalinda Marvin",
+        "country": "Great Britain",
+        "city": "Estastead",
+        "street": "Chelsea Circle 50",
+        "house": 757,
+        "flat": 6170,
+        "phone": "+191328602623782",
+        "createdOn": "2026-01-03T17:25:34.000Z",
+        "notes": "cFdHj35BV8aYvchr1jBXwV6lTFuRcH"
+      },
+      "products": [
+        {
+          "_id": "6959510f1c508c5d5e947742",
+          "name": "Pants81821",
+          "amount": 834,
+          "price": 23941,
+          "manufacturer": "Samsung",
+          "notes": "1x4nk09iHm4NKgILXhg8M7oSbfOz5pL8P4g5NsRALTqpRkrUrTyZ8GDp3AZnEuzvHmC2JfFLzOnhabagfe6Du7OXlF8kBywfJLFrj1vxcPahhTyRB2B7amHP6RnRCabZw41Rcb6qg3mnIUU4P49oLyvKaDKw5De4qbGj6AfqmpC63A0dax9xu4nH2VZPIpO7oPUNuTf9db3xrOtjaHzxRmHkNnq7NJgCfdGqIEuWfX0hOoLkeorZxLK1eG",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Feltonside",
+          "street": "Hall Street",
+          "house": 852,
+          "flat": 4421
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 23941,
+      "createdOn": "2026-01-03T17:25:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6959510e1c508c5d5e947649",
+          "products": [
+            {
+              "_id": "6959510f1c508c5d5e947742",
+              "name": "Pants81821",
+              "amount": 834,
+              "price": 23941,
+              "manufacturer": "Samsung",
+              "notes": "1x4nk09iHm4NKgILXhg8M7oSbfOz5pL8P4g5NsRALTqpRkrUrTyZ8GDp3AZnEuzvHmC2JfFLzOnhabagfe6Du7OXlF8kBywfJLFrj1vxcPahhTyRB2B7amHP6RnRCabZw41Rcb6qg3mnIUU4P49oLyvKaDKw5De4qbGj6AfqmpC63A0dax9xu4nH2VZPIpO7oPUNuTf9db3xrOtjaHzxRmHkNnq7NJgCfdGqIEuWfX0hOoLkeorZxLK1eG",
+              "received": true
+            }
+          ],
+          "total_price": 23941,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Feltonside",
+              "street": "Hall Street",
+              "house": 852,
+              "flat": 4421
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:25:41.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6959510e1c508c5d5e947649",
+          "products": [
+            {
+              "_id": "6959510f1c508c5d5e947742",
+              "name": "Pants81821",
+              "amount": 834,
+              "price": 23941,
+              "manufacturer": "Samsung",
+              "notes": "1x4nk09iHm4NKgILXhg8M7oSbfOz5pL8P4g5NsRALTqpRkrUrTyZ8GDp3AZnEuzvHmC2JfFLzOnhabagfe6Du7OXlF8kBywfJLFrj1vxcPahhTyRB2B7amHP6RnRCabZw41Rcb6qg3mnIUU4P49oLyvKaDKw5De4qbGj6AfqmpC63A0dax9xu4nH2VZPIpO7oPUNuTf9db3xrOtjaHzxRmHkNnq7NJgCfdGqIEuWfX0hOoLkeorZxLK1eG",
+              "received": false
+            }
+          ],
+          "total_price": 23941,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Feltonside",
+              "street": "Hall Street",
+              "house": 852,
+              "flat": 4421
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:25:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959510e1c508c5d5e947649",
+          "products": [
+            {
+              "_id": "6959510f1c508c5d5e947742",
+              "name": "Pants81821",
+              "amount": 834,
+              "price": 23941,
+              "manufacturer": "Samsung",
+              "notes": "1x4nk09iHm4NKgILXhg8M7oSbfOz5pL8P4g5NsRALTqpRkrUrTyZ8GDp3AZnEuzvHmC2JfFLzOnhabagfe6Du7OXlF8kBywfJLFrj1vxcPahhTyRB2B7amHP6RnRCabZw41Rcb6qg3mnIUU4P49oLyvKaDKw5De4qbGj6AfqmpC63A0dax9xu4nH2VZPIpO7oPUNuTf9db3xrOtjaHzxRmHkNnq7NJgCfdGqIEuWfX0hOoLkeorZxLK1eG",
+              "received": false
+            }
+          ],
+          "total_price": 23941,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Feltonside",
+              "street": "Hall Street",
+              "house": 852,
+              "flat": 4421
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:25:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959510e1c508c5d5e947649",
+          "products": [
+            {
+              "_id": "6959510f1c508c5d5e947742",
+              "name": "Pants81821",
+              "amount": 834,
+              "price": 23941,
+              "manufacturer": "Samsung",
+              "notes": "1x4nk09iHm4NKgILXhg8M7oSbfOz5pL8P4g5NsRALTqpRkrUrTyZ8GDp3AZnEuzvHmC2JfFLzOnhabagfe6Du7OXlF8kBywfJLFrj1vxcPahhTyRB2B7amHP6RnRCabZw41Rcb6qg3mnIUU4P49oLyvKaDKw5De4qbGj6AfqmpC63A0dax9xu4nH2VZPIpO7oPUNuTf9db3xrOtjaHzxRmHkNnq7NJgCfdGqIEuWfX0hOoLkeorZxLK1eG",
+              "received": false
+            }
+          ],
+          "total_price": 23941,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:25:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
