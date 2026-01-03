@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:30:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4583",
+    "etag": "W/\"11e7-38kit9f9y+r7LFuMkrHg3dhBLxg\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69591a0f1c508c5d5e891517",
+      "status": "Received",
+      "customer": {
+        "_id": "69591a0a1c508c5d5e89124a",
+        "email": "Lauren.Ankunding96@yahoo.com",
+        "name": "Estevan Leannon",
+        "country": "Belarus",
+        "city": "Lake Camron",
+        "street": "Lonie Path 22",
+        "house": 349,
+        "flat": 390,
+        "phone": "+531627436221257",
+        "createdOn": "2026-01-03T13:30:50.000Z",
+        "notes": "kEA9EgdCgVKpMEHi0wBxSrcOMyAlth"
+      },
+      "products": [
+        {
+          "_id": "69591a0f1c508c5d5e891509",
+          "name": "Chair71801",
+          "amount": 986,
+          "price": 50410,
+          "manufacturer": "Samsung",
+          "notes": "c45KZWcZxRB6YmOqHNKbVYVB9E0CtZEBcJYtZSIatqw7mYLcMH3IeRVEyTMypSrIRZxvhL1ph1IdMq8eR514SGq5PNqEkicZ5ry1yDzS1VULA8lyRQI6P5Vn6BJmn22F4DmWoTT9xEf2hP5bjcTjzLMWEJ8BWF6NBmEtIs2PHD4Y2thUCjWFBKSgCWSh3JkPMkwJHDqhgGcNKD1RdeMkiFyKju5wL7KduILTXAELgAWPv9LFXow7j11WKU",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Frisco",
+          "street": "Reva Center",
+          "house": 892,
+          "flat": 823
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 50410,
+      "createdOn": "2026-01-03T13:30:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69591a0a1c508c5d5e89124a",
+          "products": [
+            {
+              "_id": "69591a0f1c508c5d5e891509",
+              "name": "Chair71801",
+              "amount": 986,
+              "price": 50410,
+              "manufacturer": "Samsung",
+              "notes": "c45KZWcZxRB6YmOqHNKbVYVB9E0CtZEBcJYtZSIatqw7mYLcMH3IeRVEyTMypSrIRZxvhL1ph1IdMq8eR514SGq5PNqEkicZ5ry1yDzS1VULA8lyRQI6P5Vn6BJmn22F4DmWoTT9xEf2hP5bjcTjzLMWEJ8BWF6NBmEtIs2PHD4Y2thUCjWFBKSgCWSh3JkPMkwJHDqhgGcNKD1RdeMkiFyKju5wL7KduILTXAELgAWPv9LFXow7j11WKU",
+              "received": true
+            }
+          ],
+          "total_price": 50410,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Frisco",
+              "street": "Reva Center",
+              "house": 892,
+              "flat": 823
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:30:56.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69591a0a1c508c5d5e89124a",
+          "products": [
+            {
+              "_id": "69591a0f1c508c5d5e891509",
+              "name": "Chair71801",
+              "amount": 986,
+              "price": 50410,
+              "manufacturer": "Samsung",
+              "notes": "c45KZWcZxRB6YmOqHNKbVYVB9E0CtZEBcJYtZSIatqw7mYLcMH3IeRVEyTMypSrIRZxvhL1ph1IdMq8eR514SGq5PNqEkicZ5ry1yDzS1VULA8lyRQI6P5Vn6BJmn22F4DmWoTT9xEf2hP5bjcTjzLMWEJ8BWF6NBmEtIs2PHD4Y2thUCjWFBKSgCWSh3JkPMkwJHDqhgGcNKD1RdeMkiFyKju5wL7KduILTXAELgAWPv9LFXow7j11WKU",
+              "received": false
+            }
+          ],
+          "total_price": 50410,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Frisco",
+              "street": "Reva Center",
+              "house": 892,
+              "flat": 823
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:30:56.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591a0a1c508c5d5e89124a",
+          "products": [
+            {
+              "_id": "69591a0f1c508c5d5e891509",
+              "name": "Chair71801",
+              "amount": 986,
+              "price": 50410,
+              "manufacturer": "Samsung",
+              "notes": "c45KZWcZxRB6YmOqHNKbVYVB9E0CtZEBcJYtZSIatqw7mYLcMH3IeRVEyTMypSrIRZxvhL1ph1IdMq8eR514SGq5PNqEkicZ5ry1yDzS1VULA8lyRQI6P5Vn6BJmn22F4DmWoTT9xEf2hP5bjcTjzLMWEJ8BWF6NBmEtIs2PHD4Y2thUCjWFBKSgCWSh3JkPMkwJHDqhgGcNKD1RdeMkiFyKju5wL7KduILTXAELgAWPv9LFXow7j11WKU",
+              "received": false
+            }
+          ],
+          "total_price": 50410,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Frisco",
+              "street": "Reva Center",
+              "house": 892,
+              "flat": 823
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:30:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591a0a1c508c5d5e89124a",
+          "products": [
+            {
+              "_id": "69591a0f1c508c5d5e891509",
+              "name": "Chair71801",
+              "amount": 986,
+              "price": 50410,
+              "manufacturer": "Samsung",
+              "notes": "c45KZWcZxRB6YmOqHNKbVYVB9E0CtZEBcJYtZSIatqw7mYLcMH3IeRVEyTMypSrIRZxvhL1ph1IdMq8eR514SGq5PNqEkicZ5ry1yDzS1VULA8lyRQI6P5Vn6BJmn22F4DmWoTT9xEf2hP5bjcTjzLMWEJ8BWF6NBmEtIs2PHD4Y2thUCjWFBKSgCWSh3JkPMkwJHDqhgGcNKD1RdeMkiFyKju5wL7KduILTXAELgAWPv9LFXow7j11WKU",
+              "received": false
+            }
+          ],
+          "total_price": 50410,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:30:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:31:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3697",
+    "etag": "W/\"e71-/Su95QRYnG54NLDAM+6h3w2766Y\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69591a171c508c5d5e891765",
+      "status": "In Process",
+      "customer": {
+        "_id": "69591a121c508c5d5e8915d2",
+        "email": "Dino_McDermott@yahoo.com",
+        "name": "Mikel Nienow",
+        "country": "Belarus",
+        "city": "East Winifred",
+        "street": "Jaunita Shore 27",
+        "house": 189,
+        "flat": 8868,
+        "phone": "+596800924734610",
+        "createdOn": "2026-01-03T13:30:58.000Z",
+        "notes": "c9mGO1KzVe1kmGlnBlo0GB4EgYP0Lt"
+      },
+      "products": [
+        {
+          "_id": "69591a171c508c5d5e8916b0",
+          "name": "Keyboard9493",
+          "amount": 130,
+          "price": 55335,
+          "manufacturer": "Xiaomi",
+          "notes": "otsbSrEgNzbLvAniM3zzHt3D3JqXDws0mW9zC8hpqBU6ZkkdQeGpsQuPOcb1tpILlEdSKko7mTFydqhNzd7LQ57JO5rlXSbpSoaNlSbCra24MPHc4x20mf0r3zK1jE3AcIx78MOTx9QX6m7Z6ASDNvHZ9HoZW7HN27B4g5m63Jn3I3qJIau3WL0ij26TEBMmqxKPLeVYD0PS637F54BIEG9jd1FV9PjPu2dpm3bwvRYvfDAtwblRA0HC5f",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Goldnerfield",
+          "street": "Kunze Street",
+          "house": 134,
+          "flat": 663
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55335,
+      "createdOn": "2026-01-03T13:31:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69591a121c508c5d5e8915d2",
+          "products": [
+            {
+              "_id": "69591a171c508c5d5e8916b0",
+              "name": "Keyboard9493",
+              "amount": 130,
+              "price": 55335,
+              "manufacturer": "Xiaomi",
+              "notes": "otsbSrEgNzbLvAniM3zzHt3D3JqXDws0mW9zC8hpqBU6ZkkdQeGpsQuPOcb1tpILlEdSKko7mTFydqhNzd7LQ57JO5rlXSbpSoaNlSbCra24MPHc4x20mf0r3zK1jE3AcIx78MOTx9QX6m7Z6ASDNvHZ9HoZW7HN27B4g5m63Jn3I3qJIau3WL0ij26TEBMmqxKPLeVYD0PS637F54BIEG9jd1FV9PjPu2dpm3bwvRYvfDAtwblRA0HC5f",
+              "received": false
+            }
+          ],
+          "total_price": 55335,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Goldnerfield",
+              "street": "Kunze Street",
+              "house": 134,
+              "flat": 663
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:31:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591a121c508c5d5e8915d2",
+          "products": [
+            {
+              "_id": "69591a171c508c5d5e8916b0",
+              "name": "Keyboard9493",
+              "amount": 130,
+              "price": 55335,
+              "manufacturer": "Xiaomi",
+              "notes": "otsbSrEgNzbLvAniM3zzHt3D3JqXDws0mW9zC8hpqBU6ZkkdQeGpsQuPOcb1tpILlEdSKko7mTFydqhNzd7LQ57JO5rlXSbpSoaNlSbCra24MPHc4x20mf0r3zK1jE3AcIx78MOTx9QX6m7Z6ASDNvHZ9HoZW7HN27B4g5m63Jn3I3qJIau3WL0ij26TEBMmqxKPLeVYD0PS637F54BIEG9jd1FV9PjPu2dpm3bwvRYvfDAtwblRA0HC5f",
+              "received": false
+            }
+          ],
+          "total_price": 55335,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Goldnerfield",
+              "street": "Kunze Street",
+              "house": 134,
+              "flat": 663
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:31:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591a121c508c5d5e8915d2",
+          "products": [
+            {
+              "_id": "69591a171c508c5d5e8916b0",
+              "name": "Keyboard9493",
+              "amount": 130,
+              "price": 55335,
+              "manufacturer": "Xiaomi",
+              "notes": "otsbSrEgNzbLvAniM3zzHt3D3JqXDws0mW9zC8hpqBU6ZkkdQeGpsQuPOcb1tpILlEdSKko7mTFydqhNzd7LQ57JO5rlXSbpSoaNlSbCra24MPHc4x20mf0r3zK1jE3AcIx78MOTx9QX6m7Z6ASDNvHZ9HoZW7HN27B4g5m63Jn3I3qJIau3WL0ij26TEBMmqxKPLeVYD0PS637F54BIEG9jd1FV9PjPu2dpm3bwvRYvfDAtwblRA0HC5f",
+              "received": false
+            }
+          ],
+          "total_price": 55335,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:31:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

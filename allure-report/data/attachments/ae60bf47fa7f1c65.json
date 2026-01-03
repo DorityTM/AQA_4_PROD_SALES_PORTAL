@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:28:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3667",
+    "etag": "W/\"e53-7PGEe/yqjq5eFJdOeBZKCaOUd04\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959197a1c508c5d5e88ec9c",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695919711c508c5d5e88e83c",
+        "email": "Asia.Bradtke59@hotmail.com",
+        "name": "Christopher Schmidt",
+        "country": "Great Britain",
+        "city": "Reno",
+        "street": "Gleichner Plains 54",
+        "house": 945,
+        "flat": 3946,
+        "phone": "+005008294611440",
+        "createdOn": "2026-01-03T13:28:17.000Z",
+        "notes": "ceZcju2IQrwo4bMZlzVQYKqa2yVLB6"
+      },
+      "products": [
+        {
+          "_id": "6959197a1c508c5d5e88ec62",
+          "name": "Mouse88891",
+          "amount": 70,
+          "price": 40059,
+          "manufacturer": "Tesla",
+          "notes": "KFHBeCFt2hozOU4Geg0sVNuxmS2fVcHNIXTpPznrBE9jb627iLL5v2WGrDMiqvBC7j5urJJMPzzhvMBeJlfcjmkhTbJgtAQgurGsKUwXuLuIcZbZlZoTdeztOJpsCZQkiRn39wtoA3OuPT1Fcng1hmUs33M9jqhuDH6lQ8N3cGDzLh5F2f6lGgVggVZBshd7Th28x7VJDEpUGtsiR0pEordxKc9o0cN9IzGYH96ZWae1nSNDGFUcl9YC0I",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Kannapolis",
+          "street": "Caleb Drive",
+          "house": 785,
+          "flat": 2676
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 40059,
+      "createdOn": "2026-01-03T13:28:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695919711c508c5d5e88e83c",
+          "products": [
+            {
+              "_id": "6959197a1c508c5d5e88ec62",
+              "name": "Mouse88891",
+              "amount": 70,
+              "price": 40059,
+              "manufacturer": "Tesla",
+              "notes": "KFHBeCFt2hozOU4Geg0sVNuxmS2fVcHNIXTpPznrBE9jb627iLL5v2WGrDMiqvBC7j5urJJMPzzhvMBeJlfcjmkhTbJgtAQgurGsKUwXuLuIcZbZlZoTdeztOJpsCZQkiRn39wtoA3OuPT1Fcng1hmUs33M9jqhuDH6lQ8N3cGDzLh5F2f6lGgVggVZBshd7Th28x7VJDEpUGtsiR0pEordxKc9o0cN9IzGYH96ZWae1nSNDGFUcl9YC0I",
+              "received": false
+            }
+          ],
+          "total_price": 40059,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Kannapolis",
+              "street": "Caleb Drive",
+              "house": 785,
+              "flat": 2676
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:28:27.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695919711c508c5d5e88e83c",
+          "products": [
+            {
+              "_id": "6959197a1c508c5d5e88ec62",
+              "name": "Mouse88891",
+              "amount": 70,
+              "price": 40059,
+              "manufacturer": "Tesla",
+              "notes": "KFHBeCFt2hozOU4Geg0sVNuxmS2fVcHNIXTpPznrBE9jb627iLL5v2WGrDMiqvBC7j5urJJMPzzhvMBeJlfcjmkhTbJgtAQgurGsKUwXuLuIcZbZlZoTdeztOJpsCZQkiRn39wtoA3OuPT1Fcng1hmUs33M9jqhuDH6lQ8N3cGDzLh5F2f6lGgVggVZBshd7Th28x7VJDEpUGtsiR0pEordxKc9o0cN9IzGYH96ZWae1nSNDGFUcl9YC0I",
+              "received": false
+            }
+          ],
+          "total_price": 40059,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Kannapolis",
+              "street": "Caleb Drive",
+              "house": 785,
+              "flat": 2676
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:28:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695919711c508c5d5e88e83c",
+          "products": [
+            {
+              "_id": "6959197a1c508c5d5e88ec62",
+              "name": "Mouse88891",
+              "amount": 70,
+              "price": 40059,
+              "manufacturer": "Tesla",
+              "notes": "KFHBeCFt2hozOU4Geg0sVNuxmS2fVcHNIXTpPznrBE9jb627iLL5v2WGrDMiqvBC7j5urJJMPzzhvMBeJlfcjmkhTbJgtAQgurGsKUwXuLuIcZbZlZoTdeztOJpsCZQkiRn39wtoA3OuPT1Fcng1hmUs33M9jqhuDH6lQ8N3cGDzLh5F2f6lGgVggVZBshd7Th28x7VJDEpUGtsiR0pEordxKc9o0cN9IzGYH96ZWae1nSNDGFUcl9YC0I",
+              "received": false
+            }
+          ],
+          "total_price": 40059,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:28:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

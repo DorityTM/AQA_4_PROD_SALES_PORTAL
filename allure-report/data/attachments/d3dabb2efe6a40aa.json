@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:17:12 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-8sA9Gxup8yDKqeTJtb31/rDZJFg\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695916d81c508c5d5e88384d",
+      "status": "Draft",
+      "customer": {
+        "_id": "695916cd1c508c5d5e88332a",
+        "email": "Carlo_Waters97@yahoo.com",
+        "name": "Peter Hegmann",
+        "country": "Germany",
+        "city": "Rodriguezcester",
+        "street": "W 3rd Street 59",
+        "house": 128,
+        "flat": 5958,
+        "phone": "+151152022981372",
+        "createdOn": "2026-01-03T13:17:01.000Z",
+        "notes": "HvOeVIxh9efYCHV9gabQl4HxV19J8G"
+      },
+      "products": [
+        {
+          "_id": "695916d11c508c5d5e883808",
+          "name": "Bacon59536",
+          "amount": 149,
+          "price": 76896,
+          "manufacturer": "Sony",
+          "notes": "WJ7aSz7vQF6ax71RFytCZfDNgD42GiFZpBfzvWFwHzIcNpXRziIvTPZE74rewYPppWXNbpCwYkSR8Waiw4fBBGQfraOrhV9ig7P72SSah4HfMzMyqGWX5H8Wjr2jM72cVcNRBNqJbsIf0RSqPQ71lZkkZXfh2ycoGWhhdzjY0tDWs5vaFAeGniky1LQCmWJlUNRpnVLbEvJe8ZNGxd02kQLXsl29CiUSH9mNUQZJQ88266vfjy9Hu7LLxM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Mireyafield",
+          "street": "Jacobs Landing",
+          "house": 733,
+          "flat": 2122
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76896,
+      "createdOn": "2026-01-03T13:17:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695916cd1c508c5d5e88332a",
+          "products": [
+            {
+              "_id": "695916d11c508c5d5e883808",
+              "name": "Bacon59536",
+              "amount": 149,
+              "price": 76896,
+              "manufacturer": "Sony",
+              "notes": "WJ7aSz7vQF6ax71RFytCZfDNgD42GiFZpBfzvWFwHzIcNpXRziIvTPZE74rewYPppWXNbpCwYkSR8Waiw4fBBGQfraOrhV9ig7P72SSah4HfMzMyqGWX5H8Wjr2jM72cVcNRBNqJbsIf0RSqPQ71lZkkZXfh2ycoGWhhdzjY0tDWs5vaFAeGniky1LQCmWJlUNRpnVLbEvJe8ZNGxd02kQLXsl29CiUSH9mNUQZJQ88266vfjy9Hu7LLxM",
+              "received": false
+            }
+          ],
+          "total_price": 76896,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Mireyafield",
+              "street": "Jacobs Landing",
+              "house": 733,
+              "flat": 2122
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:17:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695916cd1c508c5d5e88332a",
+          "products": [
+            {
+              "_id": "695916d11c508c5d5e883808",
+              "name": "Bacon59536",
+              "amount": 149,
+              "price": 76896,
+              "manufacturer": "Sony",
+              "notes": "WJ7aSz7vQF6ax71RFytCZfDNgD42GiFZpBfzvWFwHzIcNpXRziIvTPZE74rewYPppWXNbpCwYkSR8Waiw4fBBGQfraOrhV9ig7P72SSah4HfMzMyqGWX5H8Wjr2jM72cVcNRBNqJbsIf0RSqPQ71lZkkZXfh2ycoGWhhdzjY0tDWs5vaFAeGniky1LQCmWJlUNRpnVLbEvJe8ZNGxd02kQLXsl29CiUSH9mNUQZJQ88266vfjy9Hu7LLxM",
+              "received": false
+            }
+          ],
+          "total_price": 76896,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:17:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

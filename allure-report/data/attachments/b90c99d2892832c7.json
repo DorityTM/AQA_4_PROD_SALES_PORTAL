@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:31:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-aSSqjSAEjYBjvSsywMwPQgNSBSc\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69591a371c508c5d5e892300",
+      "status": "Draft",
+      "customer": {
+        "_id": "69591a311c508c5d5e892026",
+        "email": "Derick.Powlowski73@hotmail.com",
+        "name": "Roselyn Renner",
+        "country": "Ukraine",
+        "city": "West Carolyn",
+        "street": "Dare Divide 29",
+        "house": 107,
+        "flat": 4231,
+        "phone": "+930594847906610",
+        "createdOn": "2026-01-03T13:31:29.000Z",
+        "notes": "Xs58DbEmIP6V820fhjw2Uy6nrPJRsE"
+      },
+      "products": [
+        {
+          "_id": "69591a371c508c5d5e8922f8",
+          "name": "Shirt34741",
+          "amount": 112,
+          "price": 15256,
+          "manufacturer": "Sony",
+          "notes": "IQPtNf2L2uyjtHhFmhoxu7YhG8Xu522syhNEJM5RaoHeNoL1iabpaUY98lyFx7lDGrrv1zwGAhbc0ReTKK5zltsYWdzXV5YordZ2hCNO4wTXg8S0CD0eMZhL4J3PYVlwAw3kISXXXFaLLpR6Xayo26A0vRAr5rnvOIK9edeuhjOIityW48oXNHiwf7XUAZgUGltY8VdPkbn9oUeJskLGCwcd6HrZY2T4ab4U5jkUKge9Txv9WhOL9pC9G0",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Sipesfield",
+          "street": "Lizzie Row",
+          "house": 178,
+          "flat": 7979
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15256,
+      "createdOn": "2026-01-03T13:31:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69591a311c508c5d5e892026",
+          "products": [
+            {
+              "_id": "69591a371c508c5d5e8922f8",
+              "name": "Shirt34741",
+              "amount": 112,
+              "price": 15256,
+              "manufacturer": "Sony",
+              "notes": "IQPtNf2L2uyjtHhFmhoxu7YhG8Xu522syhNEJM5RaoHeNoL1iabpaUY98lyFx7lDGrrv1zwGAhbc0ReTKK5zltsYWdzXV5YordZ2hCNO4wTXg8S0CD0eMZhL4J3PYVlwAw3kISXXXFaLLpR6Xayo26A0vRAr5rnvOIK9edeuhjOIityW48oXNHiwf7XUAZgUGltY8VdPkbn9oUeJskLGCwcd6HrZY2T4ab4U5jkUKge9Txv9WhOL9pC9G0",
+              "received": false
+            }
+          ],
+          "total_price": 15256,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Sipesfield",
+              "street": "Lizzie Row",
+              "house": 178,
+              "flat": 7979
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:31:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591a311c508c5d5e892026",
+          "products": [
+            {
+              "_id": "69591a371c508c5d5e8922f8",
+              "name": "Shirt34741",
+              "amount": 112,
+              "price": 15256,
+              "manufacturer": "Sony",
+              "notes": "IQPtNf2L2uyjtHhFmhoxu7YhG8Xu522syhNEJM5RaoHeNoL1iabpaUY98lyFx7lDGrrv1zwGAhbc0ReTKK5zltsYWdzXV5YordZ2hCNO4wTXg8S0CD0eMZhL4J3PYVlwAw3kISXXXFaLLpR6Xayo26A0vRAr5rnvOIK9edeuhjOIityW48oXNHiwf7XUAZgUGltY8VdPkbn9oUeJskLGCwcd6HrZY2T4ab4U5jkUKge9Txv9WhOL9pC9G0",
+              "received": false
+            }
+          ],
+          "total_price": 15256,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:31:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

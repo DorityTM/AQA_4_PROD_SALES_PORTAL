@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:17:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2751",
+    "etag": "W/\"abf-ZfENRFpdAxzTfutS6xVQFSrUFIs\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695916f41c508c5d5e884286",
+      "status": "Draft",
+      "customer": {
+        "_id": "695916f01c508c5d5e884144",
+        "email": "Rodrigo39@hotmail.com",
+        "name": "Herbert Vandervort",
+        "country": "Belarus",
+        "city": "Nadertown",
+        "street": "South View 81",
+        "house": 884,
+        "flat": 3764,
+        "phone": "+138281927728226",
+        "createdOn": "2026-01-03T13:17:36.000Z",
+        "notes": "GvaT8TtH2TGyk1v8Vxzs4yQclXo5AH"
+      },
+      "products": [
+        {
+          "_id": "695916f41c508c5d5e884271",
+          "name": "Car15539",
+          "amount": 995,
+          "price": 30526,
+          "manufacturer": "Xiaomi",
+          "notes": "NMoJuhhvdHYGJ5u68peKJs5B98KL7tyXt0By3AQ8L4rlui531jU3QVNoFV3Q5B1o41h7OgUdAefo9sSb2tqQNfJaHnyZ02eVcprNSV8O9vUnVcEksiIWjUR0h8hcT8HTrDXVxWJeHi0lpdLsazueg5y8z8PJCHXBagPGJb6yY6YOV9oSFs3tDcyH92BRs4D3vInpK3JVocYcKymyoBWZcRZcNRfaypQhFrBSTtndTfkekyg1QLWL7Ayyhs",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Fort Roslyn",
+          "street": "Lenora Mountains",
+          "house": 350,
+          "flat": 1897
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 30526,
+      "createdOn": "2026-01-03T13:17:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695916f01c508c5d5e884144",
+          "products": [
+            {
+              "_id": "695916f41c508c5d5e884271",
+              "name": "Car15539",
+              "amount": 995,
+              "price": 30526,
+              "manufacturer": "Xiaomi",
+              "notes": "NMoJuhhvdHYGJ5u68peKJs5B98KL7tyXt0By3AQ8L4rlui531jU3QVNoFV3Q5B1o41h7OgUdAefo9sSb2tqQNfJaHnyZ02eVcprNSV8O9vUnVcEksiIWjUR0h8hcT8HTrDXVxWJeHi0lpdLsazueg5y8z8PJCHXBagPGJb6yY6YOV9oSFs3tDcyH92BRs4D3vInpK3JVocYcKymyoBWZcRZcNRfaypQhFrBSTtndTfkekyg1QLWL7Ayyhs",
+              "received": false
+            }
+          ],
+          "total_price": 30526,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Roslyn",
+              "street": "Lenora Mountains",
+              "house": 350,
+              "flat": 1897
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:17:41.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695916f01c508c5d5e884144",
+          "products": [
+            {
+              "_id": "695916f41c508c5d5e884271",
+              "name": "Car15539",
+              "amount": 995,
+              "price": 30526,
+              "manufacturer": "Xiaomi",
+              "notes": "NMoJuhhvdHYGJ5u68peKJs5B98KL7tyXt0By3AQ8L4rlui531jU3QVNoFV3Q5B1o41h7OgUdAefo9sSb2tqQNfJaHnyZ02eVcprNSV8O9vUnVcEksiIWjUR0h8hcT8HTrDXVxWJeHi0lpdLsazueg5y8z8PJCHXBagPGJb6yY6YOV9oSFs3tDcyH92BRs4D3vInpK3JVocYcKymyoBWZcRZcNRfaypQhFrBSTtndTfkekyg1QLWL7Ayyhs",
+              "received": false
+            }
+          ],
+          "total_price": 30526,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:17:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

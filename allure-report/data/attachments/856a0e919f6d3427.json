@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:17:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2745",
+    "etag": "W/\"ab9-SZoUCff2wBY4plKtTDAwmuJ5bwI\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695916fe1c508c5d5e884520",
+      "status": "Draft",
+      "customer": {
+        "_id": "695916f91c508c5d5e8844cc",
+        "email": "Emilio_DAmore33@hotmail.com",
+        "name": "Mohammed Schimmel",
+        "country": "Belarus",
+        "city": "Ebertville",
+        "street": "Pennsylvania Avenue 41",
+        "house": 676,
+        "flat": 2839,
+        "phone": "+906517129058621",
+        "createdOn": "2026-01-03T13:17:45.000Z",
+        "notes": "bh88EHrO5LPR9f9FvvOQQyL5IP3d1g"
+      },
+      "products": [
+        {
+          "_id": "695916fd1c508c5d5e88450d",
+          "name": "Ball61345",
+          "amount": 898,
+          "price": 7928,
+          "manufacturer": "Amazon",
+          "notes": "GHvzKvpw4bR0tWQz5BzvZS90YNom6y6UVRUrOJOSxzJvPjJZjw82678ucEOy4b8T9FeZiBGYKRlq3aBLl0crXAcDvKCOmDE6RbeoQzmQMbjMVidLtpetOZJVxypNdnOCP59GkPDTppTJ5CazpXprZFYC5O803cz3cI4a7lfA9M2MN9OJ4h3zmwAkw7ZDKEPs7KKX66q7q5IiVMzcrMy8sLRQ40UKfD3TgSNgroe7nktJHCVqqE8wYXbFQH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Highland",
+          "street": "Church Avenue",
+          "house": 720,
+          "flat": 4688
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7928,
+      "createdOn": "2026-01-03T13:17:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695916f91c508c5d5e8844cc",
+          "products": [
+            {
+              "_id": "695916fd1c508c5d5e88450d",
+              "name": "Ball61345",
+              "amount": 898,
+              "price": 7928,
+              "manufacturer": "Amazon",
+              "notes": "GHvzKvpw4bR0tWQz5BzvZS90YNom6y6UVRUrOJOSxzJvPjJZjw82678ucEOy4b8T9FeZiBGYKRlq3aBLl0crXAcDvKCOmDE6RbeoQzmQMbjMVidLtpetOZJVxypNdnOCP59GkPDTppTJ5CazpXprZFYC5O803cz3cI4a7lfA9M2MN9OJ4h3zmwAkw7ZDKEPs7KKX66q7q5IiVMzcrMy8sLRQ40UKfD3TgSNgroe7nktJHCVqqE8wYXbFQH",
+              "received": false
+            }
+          ],
+          "total_price": 7928,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Highland",
+              "street": "Church Avenue",
+              "house": 720,
+              "flat": 4688
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:17:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695916f91c508c5d5e8844cc",
+          "products": [
+            {
+              "_id": "695916fd1c508c5d5e88450d",
+              "name": "Ball61345",
+              "amount": 898,
+              "price": 7928,
+              "manufacturer": "Amazon",
+              "notes": "GHvzKvpw4bR0tWQz5BzvZS90YNom6y6UVRUrOJOSxzJvPjJZjw82678ucEOy4b8T9FeZiBGYKRlq3aBLl0crXAcDvKCOmDE6RbeoQzmQMbjMVidLtpetOZJVxypNdnOCP59GkPDTppTJ5CazpXprZFYC5O803cz3cI4a7lfA9M2MN9OJ4h3zmwAkw7ZDKEPs7KKX66q7q5IiVMzcrMy8sLRQ40UKfD3TgSNgroe7nktJHCVqqE8wYXbFQH",
+              "received": false
+            }
+          ],
+          "total_price": 7928,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:17:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

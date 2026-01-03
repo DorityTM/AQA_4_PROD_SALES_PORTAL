@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:32:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3705",
+    "etag": "W/\"e79-dPp4N0hUanbftHxAL1VfXzsgoPk\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69591a661c508c5d5e8931e1",
+      "status": "In Process",
+      "customer": {
+        "_id": "69591a611c508c5d5e892ff6",
+        "email": "Juston.Walsh@gmail.com",
+        "name": "Jerrold Collier",
+        "country": "Russia",
+        "city": "East Shaynaborough",
+        "street": "Antonietta Ways 34",
+        "house": 818,
+        "flat": 6212,
+        "phone": "+299791257102361",
+        "createdOn": "2026-01-03T13:32:17.000Z",
+        "notes": "zpM8JH9K8YuaYFn7dsac3Ancrqj5lb"
+      },
+      "products": [
+        {
+          "_id": "69591a661c508c5d5e8931d6",
+          "name": "Shirt24542",
+          "amount": 960,
+          "price": 83558,
+          "manufacturer": "Amazon",
+          "notes": "5MWSj6chsl1G6LW4h9KKlEbGuEJKqKg1KoHqYFDiBUp6TnXqFJJ716yM6wRHcbztrXUbu5SqmamjalRvb5d9X5okxThDREzYCG4Fa3qNXkJn9LhLMGOl75QRtm9b9qRosLwKOlwXeJlen4cqhAx0KZMLnh1cf4Qc7sIXs2MAyqiwr75EA9OUCJMBk5SXqyHFysIivZ4NP8ljmVmadXqwF6rylUggkuFIem3QWur1oPibYyIAbdZNxbLVsg",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "West Garland",
+          "street": "Vicarage Close",
+          "house": 131,
+          "flat": 2519
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 83558,
+      "createdOn": "2026-01-03T13:32:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69591a611c508c5d5e892ff6",
+          "products": [
+            {
+              "_id": "69591a661c508c5d5e8931d6",
+              "name": "Shirt24542",
+              "amount": 960,
+              "price": 83558,
+              "manufacturer": "Amazon",
+              "notes": "5MWSj6chsl1G6LW4h9KKlEbGuEJKqKg1KoHqYFDiBUp6TnXqFJJ716yM6wRHcbztrXUbu5SqmamjalRvb5d9X5okxThDREzYCG4Fa3qNXkJn9LhLMGOl75QRtm9b9qRosLwKOlwXeJlen4cqhAx0KZMLnh1cf4Qc7sIXs2MAyqiwr75EA9OUCJMBk5SXqyHFysIivZ4NP8ljmVmadXqwF6rylUggkuFIem3QWur1oPibYyIAbdZNxbLVsg",
+              "received": false
+            }
+          ],
+          "total_price": 83558,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Garland",
+              "street": "Vicarage Close",
+              "house": 131,
+              "flat": 2519
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:32:23.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591a611c508c5d5e892ff6",
+          "products": [
+            {
+              "_id": "69591a661c508c5d5e8931d6",
+              "name": "Shirt24542",
+              "amount": 960,
+              "price": 83558,
+              "manufacturer": "Amazon",
+              "notes": "5MWSj6chsl1G6LW4h9KKlEbGuEJKqKg1KoHqYFDiBUp6TnXqFJJ716yM6wRHcbztrXUbu5SqmamjalRvb5d9X5okxThDREzYCG4Fa3qNXkJn9LhLMGOl75QRtm9b9qRosLwKOlwXeJlen4cqhAx0KZMLnh1cf4Qc7sIXs2MAyqiwr75EA9OUCJMBk5SXqyHFysIivZ4NP8ljmVmadXqwF6rylUggkuFIem3QWur1oPibYyIAbdZNxbLVsg",
+              "received": false
+            }
+          ],
+          "total_price": 83558,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "West Garland",
+              "street": "Vicarage Close",
+              "house": 131,
+              "flat": 2519
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:32:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591a611c508c5d5e892ff6",
+          "products": [
+            {
+              "_id": "69591a661c508c5d5e8931d6",
+              "name": "Shirt24542",
+              "amount": 960,
+              "price": 83558,
+              "manufacturer": "Amazon",
+              "notes": "5MWSj6chsl1G6LW4h9KKlEbGuEJKqKg1KoHqYFDiBUp6TnXqFJJ716yM6wRHcbztrXUbu5SqmamjalRvb5d9X5okxThDREzYCG4Fa3qNXkJn9LhLMGOl75QRtm9b9qRosLwKOlwXeJlen4cqhAx0KZMLnh1cf4Qc7sIXs2MAyqiwr75EA9OUCJMBk5SXqyHFysIivZ4NP8ljmVmadXqwF6rylUggkuFIem3QWur1oPibYyIAbdZNxbLVsg",
+              "received": false
+            }
+          ],
+          "total_price": 83558,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:32:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:18:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3725",
+    "etag": "W/\"e8d-C0TawRM2t6+kClKYcWLq67Hnc0Q\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959170b1c508c5d5e884825",
+      "status": "In Process",
+      "customer": {
+        "_id": "695917061c508c5d5e8847d7",
+        "email": "Aleen5@gmail.com",
+        "name": "Vicky Spinka",
+        "country": "Canada",
+        "city": "Everettton",
+        "street": "Gottlieb Crescent 84",
+        "house": 744,
+        "flat": 148,
+        "phone": "+766846199316992",
+        "createdOn": "2026-01-03T13:17:58.000Z",
+        "notes": "q2Mhec9Y0BUtKV2jQnWM3F246ClAIK"
+      },
+      "products": [
+        {
+          "_id": "6959170a1c508c5d5e88481d",
+          "name": "Table82162",
+          "amount": 95,
+          "price": 6752,
+          "manufacturer": "Microsoft",
+          "notes": "fSfOeuSPsCUEXJwvcODgPh8wWPetN0xeO8MIwSnQAIuTiORLGI8fqZhHYtQSSrF7xbN8LkE7pZia5JfIHODz9w51KNv2imAklraxegDXRCFi3s2RiMvritw8PC8aMPEJYQk5OabdjVdDGXH5YplTFFsbu6NOrEz47yMBGTyEXejnmMpRqdIwW9OrL6OCGcDKFU8zjdgTJgJjlGnMTmvGaDsVe19goZ3tEDza7Bd52M3WYF0IVfhOalY5A8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Schulisthaven",
+          "street": "Veterans Memorial Highway",
+          "house": 283,
+          "flat": 3644
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 6752,
+      "createdOn": "2026-01-03T13:18:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695917061c508c5d5e8847d7",
+          "products": [
+            {
+              "_id": "6959170a1c508c5d5e88481d",
+              "name": "Table82162",
+              "amount": 95,
+              "price": 6752,
+              "manufacturer": "Microsoft",
+              "notes": "fSfOeuSPsCUEXJwvcODgPh8wWPetN0xeO8MIwSnQAIuTiORLGI8fqZhHYtQSSrF7xbN8LkE7pZia5JfIHODz9w51KNv2imAklraxegDXRCFi3s2RiMvritw8PC8aMPEJYQk5OabdjVdDGXH5YplTFFsbu6NOrEz47yMBGTyEXejnmMpRqdIwW9OrL6OCGcDKFU8zjdgTJgJjlGnMTmvGaDsVe19goZ3tEDza7Bd52M3WYF0IVfhOalY5A8",
+              "received": false
+            }
+          ],
+          "total_price": 6752,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Schulisthaven",
+              "street": "Veterans Memorial Highway",
+              "house": 283,
+              "flat": 3644
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:18:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695917061c508c5d5e8847d7",
+          "products": [
+            {
+              "_id": "6959170a1c508c5d5e88481d",
+              "name": "Table82162",
+              "amount": 95,
+              "price": 6752,
+              "manufacturer": "Microsoft",
+              "notes": "fSfOeuSPsCUEXJwvcODgPh8wWPetN0xeO8MIwSnQAIuTiORLGI8fqZhHYtQSSrF7xbN8LkE7pZia5JfIHODz9w51KNv2imAklraxegDXRCFi3s2RiMvritw8PC8aMPEJYQk5OabdjVdDGXH5YplTFFsbu6NOrEz47yMBGTyEXejnmMpRqdIwW9OrL6OCGcDKFU8zjdgTJgJjlGnMTmvGaDsVe19goZ3tEDza7Bd52M3WYF0IVfhOalY5A8",
+              "received": false
+            }
+          ],
+          "total_price": 6752,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Schulisthaven",
+              "street": "Veterans Memorial Highway",
+              "house": 283,
+              "flat": 3644
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:18:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695917061c508c5d5e8847d7",
+          "products": [
+            {
+              "_id": "6959170a1c508c5d5e88481d",
+              "name": "Table82162",
+              "amount": 95,
+              "price": 6752,
+              "manufacturer": "Microsoft",
+              "notes": "fSfOeuSPsCUEXJwvcODgPh8wWPetN0xeO8MIwSnQAIuTiORLGI8fqZhHYtQSSrF7xbN8LkE7pZia5JfIHODz9w51KNv2imAklraxegDXRCFi3s2RiMvritw8PC8aMPEJYQk5OabdjVdDGXH5YplTFFsbu6NOrEz47yMBGTyEXejnmMpRqdIwW9OrL6OCGcDKFU8zjdgTJgJjlGnMTmvGaDsVe19goZ3tEDza7Bd52M3WYF0IVfhOalY5A8",
+              "received": false
+            }
+          ],
+          "total_price": 6752,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:18:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

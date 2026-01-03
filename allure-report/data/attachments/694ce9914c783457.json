@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:34:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3667",
+    "etag": "W/\"e53-gf/yNtKD2G4A4vc8ZeD0XS7n/ic\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69591aee1c508c5d5e895560",
+      "status": "In Process",
+      "customer": {
+        "_id": "69591ae91c508c5d5e89538f",
+        "email": "Johathan30@yahoo.com",
+        "name": "Manuel Morissette",
+        "country": "USA",
+        "city": "New Kennedy",
+        "street": "Trace Pike 99",
+        "house": 670,
+        "flat": 7368,
+        "phone": "+868632600645715",
+        "createdOn": "2026-01-03T13:34:33.000Z",
+        "notes": "RPQzYvxBsiXy6UdaPH7U16wXIyMb5v"
+      },
+      "products": [
+        {
+          "_id": "69591aed1c508c5d5e895558",
+          "name": "Fish28629",
+          "amount": 581,
+          "price": 43674,
+          "manufacturer": "Tesla",
+          "notes": "TbFHewkWnR4rrFWabarM8kv85drJL6c6knGAqGkAAwlqIoBWqPNMeFDrWZdXp4XK3Q7j0mVqLUVfeUhNDAnz5KRUnOUPeRcWNBHpsASl0p0jqFGebpxWCHU7SHwyycZjO0hQa754YFoGlqabwi0cfXA3KEVQWGC5sZzEYgWdtwogQWnQPU7gwaEbRX9oEHXX7Gsig77QsbfoCMtiKUKL44ST0YzgF8aMY0EZJKRhKFDufE2E5MRkPSk2T9",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "North Krystina",
+          "street": "The Lane",
+          "house": 20,
+          "flat": 8060
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 43674,
+      "createdOn": "2026-01-03T13:34:38.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69591ae91c508c5d5e89538f",
+          "products": [
+            {
+              "_id": "69591aed1c508c5d5e895558",
+              "name": "Fish28629",
+              "amount": 581,
+              "price": 43674,
+              "manufacturer": "Tesla",
+              "notes": "TbFHewkWnR4rrFWabarM8kv85drJL6c6knGAqGkAAwlqIoBWqPNMeFDrWZdXp4XK3Q7j0mVqLUVfeUhNDAnz5KRUnOUPeRcWNBHpsASl0p0jqFGebpxWCHU7SHwyycZjO0hQa754YFoGlqabwi0cfXA3KEVQWGC5sZzEYgWdtwogQWnQPU7gwaEbRX9oEHXX7Gsig77QsbfoCMtiKUKL44ST0YzgF8aMY0EZJKRhKFDufE2E5MRkPSk2T9",
+              "received": false
+            }
+          ],
+          "total_price": 43674,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "North Krystina",
+              "street": "The Lane",
+              "house": 20,
+              "flat": 8060
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:34:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591ae91c508c5d5e89538f",
+          "products": [
+            {
+              "_id": "69591aed1c508c5d5e895558",
+              "name": "Fish28629",
+              "amount": 581,
+              "price": 43674,
+              "manufacturer": "Tesla",
+              "notes": "TbFHewkWnR4rrFWabarM8kv85drJL6c6knGAqGkAAwlqIoBWqPNMeFDrWZdXp4XK3Q7j0mVqLUVfeUhNDAnz5KRUnOUPeRcWNBHpsASl0p0jqFGebpxWCHU7SHwyycZjO0hQa754YFoGlqabwi0cfXA3KEVQWGC5sZzEYgWdtwogQWnQPU7gwaEbRX9oEHXX7Gsig77QsbfoCMtiKUKL44ST0YzgF8aMY0EZJKRhKFDufE2E5MRkPSk2T9",
+              "received": false
+            }
+          ],
+          "total_price": 43674,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "North Krystina",
+              "street": "The Lane",
+              "house": 20,
+              "flat": 8060
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:34:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591ae91c508c5d5e89538f",
+          "products": [
+            {
+              "_id": "69591aed1c508c5d5e895558",
+              "name": "Fish28629",
+              "amount": 581,
+              "price": 43674,
+              "manufacturer": "Tesla",
+              "notes": "TbFHewkWnR4rrFWabarM8kv85drJL6c6knGAqGkAAwlqIoBWqPNMeFDrWZdXp4XK3Q7j0mVqLUVfeUhNDAnz5KRUnOUPeRcWNBHpsASl0p0jqFGebpxWCHU7SHwyycZjO0hQa754YFoGlqabwi0cfXA3KEVQWGC5sZzEYgWdtwogQWnQPU7gwaEbRX9oEHXX7Gsig77QsbfoCMtiKUKL44ST0YzgF8aMY0EZJKRhKFDufE2E5MRkPSk2T9",
+              "received": false
+            }
+          ],
+          "total_price": 43674,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:34:38.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

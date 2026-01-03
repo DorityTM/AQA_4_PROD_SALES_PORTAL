@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:31:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3664",
+    "etag": "W/\"e50-ZWH+1PYv8bB+Ob5ht+02Y637ctk\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69591a471c508c5d5e892726",
+      "status": "In Process",
+      "customer": {
+        "_id": "69591a431c508c5d5e892651",
+        "email": "Jamel47@gmail.com",
+        "name": "Isabell Lebsack",
+        "country": "Germany",
+        "city": "Kubshire",
+        "street": "Branson Cove 75",
+        "house": 614,
+        "flat": 2497,
+        "phone": "+515123312503995",
+        "createdOn": "2026-01-03T13:31:47.000Z",
+        "notes": "dqOXeBwpsCZ4C7RUteQERqT9s3vj4d"
+      },
+      "products": [
+        {
+          "_id": "69591a471c508c5d5e892716",
+          "name": "Mouse44862",
+          "amount": 861,
+          "price": 15426,
+          "manufacturer": "Google",
+          "notes": "emPT7b1c2jwQp6rAOanQoxmpDpsLFYpCvhzyERHw6xbGsgputFMJl1U1AEm5Tok3IuoSlSNG2v4oFutsjQVYuV9sglCOrjTS677E2M1nZwU4GYjWmPGTIFIt6hPNyioTIRnU16jAZolhAADaCD9uN9joubFadvA4Nj6JjEUtwTBZCIszz8ubEEZU9Vd8oRa6pjwkvQbXHzsB2asWetgC2dxpxtGxLYjRz7FHQfmf99wSM5symcTnsVYKAz",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Elmhurst",
+          "street": "Ebert Common",
+          "house": 91,
+          "flat": 8998
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15426,
+      "createdOn": "2026-01-03T13:31:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69591a431c508c5d5e892651",
+          "products": [
+            {
+              "_id": "69591a471c508c5d5e892716",
+              "name": "Mouse44862",
+              "amount": 861,
+              "price": 15426,
+              "manufacturer": "Google",
+              "notes": "emPT7b1c2jwQp6rAOanQoxmpDpsLFYpCvhzyERHw6xbGsgputFMJl1U1AEm5Tok3IuoSlSNG2v4oFutsjQVYuV9sglCOrjTS677E2M1nZwU4GYjWmPGTIFIt6hPNyioTIRnU16jAZolhAADaCD9uN9joubFadvA4Nj6JjEUtwTBZCIszz8ubEEZU9Vd8oRa6pjwkvQbXHzsB2asWetgC2dxpxtGxLYjRz7FHQfmf99wSM5symcTnsVYKAz",
+              "received": false
+            }
+          ],
+          "total_price": 15426,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Elmhurst",
+              "street": "Ebert Common",
+              "house": 91,
+              "flat": 8998
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:31:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591a431c508c5d5e892651",
+          "products": [
+            {
+              "_id": "69591a471c508c5d5e892716",
+              "name": "Mouse44862",
+              "amount": 861,
+              "price": 15426,
+              "manufacturer": "Google",
+              "notes": "emPT7b1c2jwQp6rAOanQoxmpDpsLFYpCvhzyERHw6xbGsgputFMJl1U1AEm5Tok3IuoSlSNG2v4oFutsjQVYuV9sglCOrjTS677E2M1nZwU4GYjWmPGTIFIt6hPNyioTIRnU16jAZolhAADaCD9uN9joubFadvA4Nj6JjEUtwTBZCIszz8ubEEZU9Vd8oRa6pjwkvQbXHzsB2asWetgC2dxpxtGxLYjRz7FHQfmf99wSM5symcTnsVYKAz",
+              "received": false
+            }
+          ],
+          "total_price": 15426,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Elmhurst",
+              "street": "Ebert Common",
+              "house": 91,
+              "flat": 8998
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:31:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69591a431c508c5d5e892651",
+          "products": [
+            {
+              "_id": "69591a471c508c5d5e892716",
+              "name": "Mouse44862",
+              "amount": 861,
+              "price": 15426,
+              "manufacturer": "Google",
+              "notes": "emPT7b1c2jwQp6rAOanQoxmpDpsLFYpCvhzyERHw6xbGsgputFMJl1U1AEm5Tok3IuoSlSNG2v4oFutsjQVYuV9sglCOrjTS677E2M1nZwU4GYjWmPGTIFIt6hPNyioTIRnU16jAZolhAADaCD9uN9joubFadvA4Nj6JjEUtwTBZCIszz8ubEEZU9Vd8oRa6pjwkvQbXHzsB2asWetgC2dxpxtGxLYjRz7FHQfmf99wSM5symcTnsVYKAz",
+              "received": false
+            }
+          ],
+          "total_price": 15426,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:31:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

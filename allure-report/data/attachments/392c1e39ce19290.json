@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:18:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4579",
+    "etag": "W/\"11e3-bhQZlUNrqtgIqkAR3qaQDXV2+Aw\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695917141c508c5d5e884cd7",
+      "status": "Received",
+      "customer": {
+        "_id": "6959170f1c508c5d5e88495a",
+        "email": "Jeanie21@gmail.com",
+        "name": "Madaline Russel",
+        "country": "USA",
+        "city": "Port Connor",
+        "street": "W Chestnut Street 98",
+        "house": 424,
+        "flat": 5492,
+        "phone": "+612377371307251",
+        "createdOn": "2026-01-03T13:18:07.000Z",
+        "notes": "ySefoLseEcP66XPOF1YWh8B3uFTgfI"
+      },
+      "products": [
+        {
+          "_id": "695917141c508c5d5e884cc5",
+          "name": "Salad11035",
+          "amount": 490,
+          "price": 68673,
+          "manufacturer": "Tesla",
+          "notes": "70n2Ld21asbV6zUM56cawjpxDB7YdnFDGO0X1rx0gsCm8kDI1Kt0yF98ekQFTOKk1RETOgXSJopMCl8nbOKsBxJ0LXJdkyxmMLY2GC3QPlo0Z8cnIS5L0p6BzdOG1yJ5AAfHMg0XgPYm2dUx6NJHoC2aCekgqG8hgHRTzN7aBUKQQs2LgyZbEb9h3TMh9FwK1vJd0cH76hNXblQPZ3GHl3Xf8kdVoiayKzy34iuDUbgIEW9mWlqCnudKhl",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lindside",
+          "street": "Gino Groves",
+          "house": 434,
+          "flat": 7055
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 68673,
+      "createdOn": "2026-01-03T13:18:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6959170f1c508c5d5e88495a",
+          "products": [
+            {
+              "_id": "695917141c508c5d5e884cc5",
+              "name": "Salad11035",
+              "amount": 490,
+              "price": 68673,
+              "manufacturer": "Tesla",
+              "notes": "70n2Ld21asbV6zUM56cawjpxDB7YdnFDGO0X1rx0gsCm8kDI1Kt0yF98ekQFTOKk1RETOgXSJopMCl8nbOKsBxJ0LXJdkyxmMLY2GC3QPlo0Z8cnIS5L0p6BzdOG1yJ5AAfHMg0XgPYm2dUx6NJHoC2aCekgqG8hgHRTzN7aBUKQQs2LgyZbEb9h3TMh9FwK1vJd0cH76hNXblQPZ3GHl3Xf8kdVoiayKzy34iuDUbgIEW9mWlqCnudKhl",
+              "received": true
+            }
+          ],
+          "total_price": 68673,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lindside",
+              "street": "Gino Groves",
+              "house": 434,
+              "flat": 7055
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:18:13.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6959170f1c508c5d5e88495a",
+          "products": [
+            {
+              "_id": "695917141c508c5d5e884cc5",
+              "name": "Salad11035",
+              "amount": 490,
+              "price": 68673,
+              "manufacturer": "Tesla",
+              "notes": "70n2Ld21asbV6zUM56cawjpxDB7YdnFDGO0X1rx0gsCm8kDI1Kt0yF98ekQFTOKk1RETOgXSJopMCl8nbOKsBxJ0LXJdkyxmMLY2GC3QPlo0Z8cnIS5L0p6BzdOG1yJ5AAfHMg0XgPYm2dUx6NJHoC2aCekgqG8hgHRTzN7aBUKQQs2LgyZbEb9h3TMh9FwK1vJd0cH76hNXblQPZ3GHl3Xf8kdVoiayKzy34iuDUbgIEW9mWlqCnudKhl",
+              "received": false
+            }
+          ],
+          "total_price": 68673,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lindside",
+              "street": "Gino Groves",
+              "house": 434,
+              "flat": 7055
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:18:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959170f1c508c5d5e88495a",
+          "products": [
+            {
+              "_id": "695917141c508c5d5e884cc5",
+              "name": "Salad11035",
+              "amount": 490,
+              "price": 68673,
+              "manufacturer": "Tesla",
+              "notes": "70n2Ld21asbV6zUM56cawjpxDB7YdnFDGO0X1rx0gsCm8kDI1Kt0yF98ekQFTOKk1RETOgXSJopMCl8nbOKsBxJ0LXJdkyxmMLY2GC3QPlo0Z8cnIS5L0p6BzdOG1yJ5AAfHMg0XgPYm2dUx6NJHoC2aCekgqG8hgHRTzN7aBUKQQs2LgyZbEb9h3TMh9FwK1vJd0cH76hNXblQPZ3GHl3Xf8kdVoiayKzy34iuDUbgIEW9mWlqCnudKhl",
+              "received": false
+            }
+          ],
+          "total_price": 68673,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lindside",
+              "street": "Gino Groves",
+              "house": 434,
+              "flat": 7055
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:18:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959170f1c508c5d5e88495a",
+          "products": [
+            {
+              "_id": "695917141c508c5d5e884cc5",
+              "name": "Salad11035",
+              "amount": 490,
+              "price": 68673,
+              "manufacturer": "Tesla",
+              "notes": "70n2Ld21asbV6zUM56cawjpxDB7YdnFDGO0X1rx0gsCm8kDI1Kt0yF98ekQFTOKk1RETOgXSJopMCl8nbOKsBxJ0LXJdkyxmMLY2GC3QPlo0Z8cnIS5L0p6BzdOG1yJ5AAfHMg0XgPYm2dUx6NJHoC2aCekgqG8hgHRTzN7aBUKQQs2LgyZbEb9h3TMh9FwK1vJd0cH76hNXblQPZ3GHl3Xf8kdVoiayKzy34iuDUbgIEW9mWlqCnudKhl",
+              "received": false
+            }
+          ],
+          "total_price": 68673,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:18:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
