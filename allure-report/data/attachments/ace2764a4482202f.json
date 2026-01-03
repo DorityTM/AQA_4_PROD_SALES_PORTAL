@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:19:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3687",
+    "etag": "W/\"e67-+f4c9HXnOqp1ZiHTpf8DY2wfnHE\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695860851c508c5d5e7ce472",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695860821c508c5d5e7ce3ec",
+        "email": "Celia11@hotmail.com",
+        "name": "Aubree Douglas",
+        "country": "Great Britain",
+        "city": "Lake Rosemary",
+        "street": "Padberg Shoal 66",
+        "house": 741,
+        "flat": 6894,
+        "phone": "+566164269487763",
+        "createdOn": "2026-01-03T00:19:14.000Z",
+        "notes": "DCWjCSBbT0T8r3viMnnXZl05qFTJdC"
+      },
+      "products": [
+        {
+          "_id": "695860851c508c5d5e7ce465",
+          "name": "Keyboard34010",
+          "amount": 584,
+          "price": 82264,
+          "manufacturer": "Amazon",
+          "notes": "INC5qHw4A6ohoFT3db67fkOZHZa7nXPKrtF07cgWHcECJmbSdi9I9TxYvP4XurnZDYI8cNCv7RmpHMDMCNtEibpCcBVNbkkLtxUDlw3WKEAeqYYiX9f2dOh77cW0OIdCBg0Xjv4S3g6ND6Bbuch5q7pjmZhIFGd9ZggNuqQXxuSKoX7DTIksatrwd9qRVITP93r5LjYnxQhGQfFsgzshxnSKkKS6PnHRmXFPHAhyqteJDCyTHOiwJUnA4I",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Chelsieside",
+          "street": "South Street",
+          "house": 505,
+          "flat": 8334
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 82264,
+      "createdOn": "2026-01-03T00:19:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695860821c508c5d5e7ce3ec",
+          "products": [
+            {
+              "_id": "695860851c508c5d5e7ce465",
+              "name": "Keyboard34010",
+              "amount": 584,
+              "price": 82264,
+              "manufacturer": "Amazon",
+              "notes": "INC5qHw4A6ohoFT3db67fkOZHZa7nXPKrtF07cgWHcECJmbSdi9I9TxYvP4XurnZDYI8cNCv7RmpHMDMCNtEibpCcBVNbkkLtxUDlw3WKEAeqYYiX9f2dOh77cW0OIdCBg0Xjv4S3g6ND6Bbuch5q7pjmZhIFGd9ZggNuqQXxuSKoX7DTIksatrwd9qRVITP93r5LjYnxQhGQfFsgzshxnSKkKS6PnHRmXFPHAhyqteJDCyTHOiwJUnA4I",
+              "received": false
+            }
+          ],
+          "total_price": 82264,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Chelsieside",
+              "street": "South Street",
+              "house": 505,
+              "flat": 8334
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:19:18.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695860821c508c5d5e7ce3ec",
+          "products": [
+            {
+              "_id": "695860851c508c5d5e7ce465",
+              "name": "Keyboard34010",
+              "amount": 584,
+              "price": 82264,
+              "manufacturer": "Amazon",
+              "notes": "INC5qHw4A6ohoFT3db67fkOZHZa7nXPKrtF07cgWHcECJmbSdi9I9TxYvP4XurnZDYI8cNCv7RmpHMDMCNtEibpCcBVNbkkLtxUDlw3WKEAeqYYiX9f2dOh77cW0OIdCBg0Xjv4S3g6ND6Bbuch5q7pjmZhIFGd9ZggNuqQXxuSKoX7DTIksatrwd9qRVITP93r5LjYnxQhGQfFsgzshxnSKkKS6PnHRmXFPHAhyqteJDCyTHOiwJUnA4I",
+              "received": false
+            }
+          ],
+          "total_price": 82264,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Chelsieside",
+              "street": "South Street",
+              "house": 505,
+              "flat": 8334
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:19:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695860821c508c5d5e7ce3ec",
+          "products": [
+            {
+              "_id": "695860851c508c5d5e7ce465",
+              "name": "Keyboard34010",
+              "amount": 584,
+              "price": 82264,
+              "manufacturer": "Amazon",
+              "notes": "INC5qHw4A6ohoFT3db67fkOZHZa7nXPKrtF07cgWHcECJmbSdi9I9TxYvP4XurnZDYI8cNCv7RmpHMDMCNtEibpCcBVNbkkLtxUDlw3WKEAeqYYiX9f2dOh77cW0OIdCBg0Xjv4S3g6ND6Bbuch5q7pjmZhIFGd9ZggNuqQXxuSKoX7DTIksatrwd9qRVITP93r5LjYnxQhGQfFsgzshxnSKkKS6PnHRmXFPHAhyqteJDCyTHOiwJUnA4I",
+              "received": false
+            }
+          ],
+          "total_price": 82264,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:19:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

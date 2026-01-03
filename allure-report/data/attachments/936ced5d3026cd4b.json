@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:20:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3706",
+    "etag": "W/\"e7a-N8IObE2qOG9V3lSbLZqRMsNrK6U\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695860b71c508c5d5e7cfb58",
+      "status": "In Process",
+      "customer": {
+        "_id": "695860b51c508c5d5e7cfab6",
+        "email": "Ricardo.Bins@hotmail.com",
+        "name": "Urban Bosco",
+        "country": "USA",
+        "city": "Fort Clareboro",
+        "street": "West Lane 63",
+        "house": 181,
+        "flat": 8680,
+        "phone": "+331792865103557",
+        "createdOn": "2026-01-03T00:20:05.000Z",
+        "notes": "BlvyWVpg3nSH4mCTG8vcZyiJga3VWU"
+      },
+      "products": [
+        {
+          "_id": "695860b71c508c5d5e7cfb43",
+          "name": "Chicken25206",
+          "amount": 7,
+          "price": 44304,
+          "manufacturer": "Sony",
+          "notes": "ifrZkjsM7JxLl2r8x1Cw6ph6sOGpIlkWnRDQCaKpHr3zOQ6l6e0QfYjuRVkavU0EIXBhsNLWIisR2qdSFOTYRAy3WQ24oISw0mU4XgbAGiyYDjY0yhEnrwn09FsDfEloNMRHwozsswt10arpso55JuhNwy1I1k0D27HemWAtBHjcbldHUrKXzbBH4ruN92NR8HwbUmrjX40tBMKEAXiCYFI7QT3ebHOoFxt2cngTaZQwm6Tnjv0UGqNcJL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Port Stephenmouth",
+          "street": "Tyrel Fords",
+          "house": 366,
+          "flat": 2987
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 44304,
+      "createdOn": "2026-01-03T00:20:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695860b51c508c5d5e7cfab6",
+          "products": [
+            {
+              "_id": "695860b71c508c5d5e7cfb43",
+              "name": "Chicken25206",
+              "amount": 7,
+              "price": 44304,
+              "manufacturer": "Sony",
+              "notes": "ifrZkjsM7JxLl2r8x1Cw6ph6sOGpIlkWnRDQCaKpHr3zOQ6l6e0QfYjuRVkavU0EIXBhsNLWIisR2qdSFOTYRAy3WQ24oISw0mU4XgbAGiyYDjY0yhEnrwn09FsDfEloNMRHwozsswt10arpso55JuhNwy1I1k0D27HemWAtBHjcbldHUrKXzbBH4ruN92NR8HwbUmrjX40tBMKEAXiCYFI7QT3ebHOoFxt2cngTaZQwm6Tnjv0UGqNcJL",
+              "received": false
+            }
+          ],
+          "total_price": 44304,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Stephenmouth",
+              "street": "Tyrel Fords",
+              "house": 366,
+              "flat": 2987
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:20:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695860b51c508c5d5e7cfab6",
+          "products": [
+            {
+              "_id": "695860b71c508c5d5e7cfb43",
+              "name": "Chicken25206",
+              "amount": 7,
+              "price": 44304,
+              "manufacturer": "Sony",
+              "notes": "ifrZkjsM7JxLl2r8x1Cw6ph6sOGpIlkWnRDQCaKpHr3zOQ6l6e0QfYjuRVkavU0EIXBhsNLWIisR2qdSFOTYRAy3WQ24oISw0mU4XgbAGiyYDjY0yhEnrwn09FsDfEloNMRHwozsswt10arpso55JuhNwy1I1k0D27HemWAtBHjcbldHUrKXzbBH4ruN92NR8HwbUmrjX40tBMKEAXiCYFI7QT3ebHOoFxt2cngTaZQwm6Tnjv0UGqNcJL",
+              "received": false
+            }
+          ],
+          "total_price": 44304,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Port Stephenmouth",
+              "street": "Tyrel Fords",
+              "house": 366,
+              "flat": 2987
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:20:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695860b51c508c5d5e7cfab6",
+          "products": [
+            {
+              "_id": "695860b71c508c5d5e7cfb43",
+              "name": "Chicken25206",
+              "amount": 7,
+              "price": 44304,
+              "manufacturer": "Sony",
+              "notes": "ifrZkjsM7JxLl2r8x1Cw6ph6sOGpIlkWnRDQCaKpHr3zOQ6l6e0QfYjuRVkavU0EIXBhsNLWIisR2qdSFOTYRAy3WQ24oISw0mU4XgbAGiyYDjY0yhEnrwn09FsDfEloNMRHwozsswt10arpso55JuhNwy1I1k0D27HemWAtBHjcbldHUrKXzbBH4ruN92NR8HwbUmrjX40tBMKEAXiCYFI7QT3ebHOoFxt2cngTaZQwm6Tnjv0UGqNcJL",
+              "received": false
+            }
+          ],
+          "total_price": 44304,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:20:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

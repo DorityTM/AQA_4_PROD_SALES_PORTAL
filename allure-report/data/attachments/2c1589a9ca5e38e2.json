@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:30:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3700",
+    "etag": "W/\"e74-8mjpJMiI7gQ4IBzmK4B4Q2M/i30\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695863101c508c5d5e7e0203",
+      "status": "In Process",
+      "customer": {
+        "_id": "6958630d1c508c5d5e7e0160",
+        "email": "Camron.Murazik71@hotmail.com",
+        "name": "Alda Langosh",
+        "country": "USA",
+        "city": "Port Hilton",
+        "street": "Dietrich Garden 52",
+        "house": 284,
+        "flat": 324,
+        "phone": "+036624361611365",
+        "createdOn": "2026-01-03T00:30:05.000Z",
+        "notes": "36uFqiloCROiUKpM06TOeCwgXDRZq9"
+      },
+      "products": [
+        {
+          "_id": "695863101c508c5d5e7e01f8",
+          "name": "Computer58931",
+          "amount": 936,
+          "price": 39873,
+          "manufacturer": "Microsoft",
+          "notes": "X9qgnEfWNdELYDq4GuL2gKMU4g34k5IajbIdjgm1IeA3r1V8ZKik4owgPkDmTcurkA68TisFxwGUqAYyFDmM3rIRRbrHABqL9aytfMlPXGDBz4TRc7LVBRfaLt4YMY62Ruk8RHp7iXF8ZQ8OgWYHmGsCP6707DF4MEX3XNgY2QX00JJgqBpINIkmGnQVEpqegw48XVi7o1wQrYX7t4TigAmBqVDTs4uiaBC2b1ql6Av3ZL9zJYicl73FtS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Roanoke",
+          "street": "S Park Street",
+          "house": 925,
+          "flat": 4132
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 39873,
+      "createdOn": "2026-01-03T00:30:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6958630d1c508c5d5e7e0160",
+          "products": [
+            {
+              "_id": "695863101c508c5d5e7e01f8",
+              "name": "Computer58931",
+              "amount": 936,
+              "price": 39873,
+              "manufacturer": "Microsoft",
+              "notes": "X9qgnEfWNdELYDq4GuL2gKMU4g34k5IajbIdjgm1IeA3r1V8ZKik4owgPkDmTcurkA68TisFxwGUqAYyFDmM3rIRRbrHABqL9aytfMlPXGDBz4TRc7LVBRfaLt4YMY62Ruk8RHp7iXF8ZQ8OgWYHmGsCP6707DF4MEX3XNgY2QX00JJgqBpINIkmGnQVEpqegw48XVi7o1wQrYX7t4TigAmBqVDTs4uiaBC2b1ql6Av3ZL9zJYicl73FtS",
+              "received": false
+            }
+          ],
+          "total_price": 39873,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Roanoke",
+              "street": "S Park Street",
+              "house": 925,
+              "flat": 4132
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:30:09.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958630d1c508c5d5e7e0160",
+          "products": [
+            {
+              "_id": "695863101c508c5d5e7e01f8",
+              "name": "Computer58931",
+              "amount": 936,
+              "price": 39873,
+              "manufacturer": "Microsoft",
+              "notes": "X9qgnEfWNdELYDq4GuL2gKMU4g34k5IajbIdjgm1IeA3r1V8ZKik4owgPkDmTcurkA68TisFxwGUqAYyFDmM3rIRRbrHABqL9aytfMlPXGDBz4TRc7LVBRfaLt4YMY62Ruk8RHp7iXF8ZQ8OgWYHmGsCP6707DF4MEX3XNgY2QX00JJgqBpINIkmGnQVEpqegw48XVi7o1wQrYX7t4TigAmBqVDTs4uiaBC2b1ql6Av3ZL9zJYicl73FtS",
+              "received": false
+            }
+          ],
+          "total_price": 39873,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Roanoke",
+              "street": "S Park Street",
+              "house": 925,
+              "flat": 4132
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:30:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958630d1c508c5d5e7e0160",
+          "products": [
+            {
+              "_id": "695863101c508c5d5e7e01f8",
+              "name": "Computer58931",
+              "amount": 936,
+              "price": 39873,
+              "manufacturer": "Microsoft",
+              "notes": "X9qgnEfWNdELYDq4GuL2gKMU4g34k5IajbIdjgm1IeA3r1V8ZKik4owgPkDmTcurkA68TisFxwGUqAYyFDmM3rIRRbrHABqL9aytfMlPXGDBz4TRc7LVBRfaLt4YMY62Ruk8RHp7iXF8ZQ8OgWYHmGsCP6707DF4MEX3XNgY2QX00JJgqBpINIkmGnQVEpqegw48XVi7o1wQrYX7t4TigAmBqVDTs4uiaBC2b1ql6Av3ZL9zJYicl73FtS",
+              "received": false
+            }
+          ],
+          "total_price": 39873,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:30:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

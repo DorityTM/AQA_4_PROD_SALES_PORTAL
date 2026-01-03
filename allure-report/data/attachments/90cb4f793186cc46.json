@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:28:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4582",
+    "etag": "W/\"11e6-KkSlMnAkqBdQ6o44Z4wpm5ZIFQQ\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695862b11c508c5d5e7dcd57",
+      "status": "Received",
+      "customer": {
+        "_id": "695862ae1c508c5d5e7dcbdf",
+        "email": "Elody31@yahoo.com",
+        "name": "Destin Kihn",
+        "country": "Ukraine",
+        "city": "Lake Lonnie",
+        "street": "Kovacek Route 85",
+        "house": 67,
+        "flat": 9561,
+        "phone": "+313838295261107",
+        "createdOn": "2026-01-03T00:28:30.000Z",
+        "notes": "f80RFU7rZxl5B96FiygEC5C5mNFHGi"
+      },
+      "products": [
+        {
+          "_id": "695862b01c508c5d5e7dcd3a",
+          "name": "Soap47587",
+          "amount": 218,
+          "price": 52098,
+          "manufacturer": "Samsung",
+          "notes": "5ScaHTy3LFpUfRiwCJ25ABNXrmyIavWJijcFRRuW7vzqtgo30A2MuXxhrnl0Tz4XDsLD39ITKFunC3FHo4kKKXKkxGK3AiS9PMjmqcX5AUyfjBTzwon1wrKWyRrPxZn9UODO6LoCguQeB08h4m4jiur1lbQ5kuLBF7RQd6wTkEPoOvLYRdyW9ZvarrilZwrA0Mq0KQEYdwBwrvLrmHMhwgBBA7t7sOgDpLLzkSyVkNAdpYWcRUojaoxoSL",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Friesenfield",
+          "street": "The Oaks",
+          "house": 256,
+          "flat": 8812
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 52098,
+      "createdOn": "2026-01-03T00:28:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695862ae1c508c5d5e7dcbdf",
+          "products": [
+            {
+              "_id": "695862b01c508c5d5e7dcd3a",
+              "name": "Soap47587",
+              "amount": 218,
+              "price": 52098,
+              "manufacturer": "Samsung",
+              "notes": "5ScaHTy3LFpUfRiwCJ25ABNXrmyIavWJijcFRRuW7vzqtgo30A2MuXxhrnl0Tz4XDsLD39ITKFunC3FHo4kKKXKkxGK3AiS9PMjmqcX5AUyfjBTzwon1wrKWyRrPxZn9UODO6LoCguQeB08h4m4jiur1lbQ5kuLBF7RQd6wTkEPoOvLYRdyW9ZvarrilZwrA0Mq0KQEYdwBwrvLrmHMhwgBBA7t7sOgDpLLzkSyVkNAdpYWcRUojaoxoSL",
+              "received": true
+            }
+          ],
+          "total_price": 52098,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Friesenfield",
+              "street": "The Oaks",
+              "house": 256,
+              "flat": 8812
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:28:34.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695862ae1c508c5d5e7dcbdf",
+          "products": [
+            {
+              "_id": "695862b01c508c5d5e7dcd3a",
+              "name": "Soap47587",
+              "amount": 218,
+              "price": 52098,
+              "manufacturer": "Samsung",
+              "notes": "5ScaHTy3LFpUfRiwCJ25ABNXrmyIavWJijcFRRuW7vzqtgo30A2MuXxhrnl0Tz4XDsLD39ITKFunC3FHo4kKKXKkxGK3AiS9PMjmqcX5AUyfjBTzwon1wrKWyRrPxZn9UODO6LoCguQeB08h4m4jiur1lbQ5kuLBF7RQd6wTkEPoOvLYRdyW9ZvarrilZwrA0Mq0KQEYdwBwrvLrmHMhwgBBA7t7sOgDpLLzkSyVkNAdpYWcRUojaoxoSL",
+              "received": false
+            }
+          ],
+          "total_price": 52098,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Friesenfield",
+              "street": "The Oaks",
+              "house": 256,
+              "flat": 8812
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:28:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695862ae1c508c5d5e7dcbdf",
+          "products": [
+            {
+              "_id": "695862b01c508c5d5e7dcd3a",
+              "name": "Soap47587",
+              "amount": 218,
+              "price": 52098,
+              "manufacturer": "Samsung",
+              "notes": "5ScaHTy3LFpUfRiwCJ25ABNXrmyIavWJijcFRRuW7vzqtgo30A2MuXxhrnl0Tz4XDsLD39ITKFunC3FHo4kKKXKkxGK3AiS9PMjmqcX5AUyfjBTzwon1wrKWyRrPxZn9UODO6LoCguQeB08h4m4jiur1lbQ5kuLBF7RQd6wTkEPoOvLYRdyW9ZvarrilZwrA0Mq0KQEYdwBwrvLrmHMhwgBBA7t7sOgDpLLzkSyVkNAdpYWcRUojaoxoSL",
+              "received": false
+            }
+          ],
+          "total_price": 52098,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Friesenfield",
+              "street": "The Oaks",
+              "house": 256,
+              "flat": 8812
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:28:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695862ae1c508c5d5e7dcbdf",
+          "products": [
+            {
+              "_id": "695862b01c508c5d5e7dcd3a",
+              "name": "Soap47587",
+              "amount": 218,
+              "price": 52098,
+              "manufacturer": "Samsung",
+              "notes": "5ScaHTy3LFpUfRiwCJ25ABNXrmyIavWJijcFRRuW7vzqtgo30A2MuXxhrnl0Tz4XDsLD39ITKFunC3FHo4kKKXKkxGK3AiS9PMjmqcX5AUyfjBTzwon1wrKWyRrPxZn9UODO6LoCguQeB08h4m4jiur1lbQ5kuLBF7RQd6wTkEPoOvLYRdyW9ZvarrilZwrA0Mq0KQEYdwBwrvLrmHMhwgBBA7t7sOgDpLLzkSyVkNAdpYWcRUojaoxoSL",
+              "received": false
+            }
+          ],
+          "total_price": 52098,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:28:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

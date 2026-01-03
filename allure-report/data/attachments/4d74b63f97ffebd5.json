@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:28:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2761",
+    "etag": "W/\"ac9-QTtcnc6iq0WbeO8naVZoKbUoaI8\"",
+    "keep-alive": "timeout=5, max=99",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695862c11c508c5d5e7dd661",
+      "status": "Draft",
+      "customer": {
+        "_id": "695862b91c508c5d5e7dd0e1",
+        "email": "Jaleel.Schmeler83@hotmail.com",
+        "name": "Tomas Willms",
+        "country": "Belarus",
+        "city": "Ashburn",
+        "street": "Toby Plaza 72",
+        "house": 95,
+        "flat": 3158,
+        "phone": "+073315488966052",
+        "createdOn": "2026-01-03T00:28:41.000Z",
+        "notes": "CzlzZgt04Reb0yEkwVEf2cIcWiCl3G"
+      },
+      "products": [
+        {
+          "_id": "695862bc1c508c5d5e7dd4d0",
+          "name": "Sausages63717",
+          "amount": 585,
+          "price": 64016,
+          "manufacturer": "Google",
+          "notes": "XSWdMek6wGQsUjUJgVnCHHscdDJR6XsZxSFqjI8LP76svnMVx5dMRytL7frBCrJ5tJqzzfq0ZceZWy5SwXDm1HuA8aNe4gUZEXyQUtSoSdEkXYh9r9flTuQzVbFQStCA2qk8qTJhbiIcCg9FdbVzyt9IkhedtcQ0uo2L2NOFmtc8l11Uue9hFuOS7xM96sSKC4AApsvY0mpNkztV13cy1HSW4muV1VWdwSMepgq0fPVT91oPJEEVmMz3Hf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Dinastead",
+          "street": "S Washington Street",
+          "house": 883,
+          "flat": 2403
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64016,
+      "createdOn": "2026-01-03T00:28:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695862b91c508c5d5e7dd0e1",
+          "products": [
+            {
+              "_id": "695862bc1c508c5d5e7dd4d0",
+              "name": "Sausages63717",
+              "amount": 585,
+              "price": 64016,
+              "manufacturer": "Google",
+              "notes": "XSWdMek6wGQsUjUJgVnCHHscdDJR6XsZxSFqjI8LP76svnMVx5dMRytL7frBCrJ5tJqzzfq0ZceZWy5SwXDm1HuA8aNe4gUZEXyQUtSoSdEkXYh9r9flTuQzVbFQStCA2qk8qTJhbiIcCg9FdbVzyt9IkhedtcQ0uo2L2NOFmtc8l11Uue9hFuOS7xM96sSKC4AApsvY0mpNkztV13cy1HSW4muV1VWdwSMepgq0fPVT91oPJEEVmMz3Hf",
+              "received": false
+            }
+          ],
+          "total_price": 64016,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Dinastead",
+              "street": "S Washington Street",
+              "house": 883,
+              "flat": 2403
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:28:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695862b91c508c5d5e7dd0e1",
+          "products": [
+            {
+              "_id": "695862bc1c508c5d5e7dd4d0",
+              "name": "Sausages63717",
+              "amount": 585,
+              "price": 64016,
+              "manufacturer": "Google",
+              "notes": "XSWdMek6wGQsUjUJgVnCHHscdDJR6XsZxSFqjI8LP76svnMVx5dMRytL7frBCrJ5tJqzzfq0ZceZWy5SwXDm1HuA8aNe4gUZEXyQUtSoSdEkXYh9r9flTuQzVbFQStCA2qk8qTJhbiIcCg9FdbVzyt9IkhedtcQ0uo2L2NOFmtc8l11Uue9hFuOS7xM96sSKC4AApsvY0mpNkztV13cy1HSW4muV1VWdwSMepgq0fPVT91oPJEEVmMz3Hf",
+              "received": false
+            }
+          ],
+          "total_price": 64016,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:28:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

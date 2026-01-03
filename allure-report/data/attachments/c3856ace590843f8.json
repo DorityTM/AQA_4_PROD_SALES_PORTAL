@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:27:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3685",
+    "etag": "W/\"e65-mFZ6iSzndIY+zJUnpSMdQqkWirE\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695862741c508c5d5e7db02e",
+      "status": "In Process",
+      "customer": {
+        "_id": "695862721c508c5d5e7dafd5",
+        "email": "Louvenia.Hudson1@hotmail.com",
+        "name": "Johnnie Connelly",
+        "country": "France",
+        "city": "Sporerbury",
+        "street": "Garden Close 66",
+        "house": 357,
+        "flat": 8803,
+        "phone": "+824599572519700",
+        "createdOn": "2026-01-03T00:27:30.000Z",
+        "notes": "qahRm59s06SbcpVP9T6bxtcfPWvXiy"
+      },
+      "products": [
+        {
+          "_id": "695862741c508c5d5e7db007",
+          "name": "Bacon38730",
+          "amount": 984,
+          "price": 88017,
+          "manufacturer": "Tesla",
+          "notes": "w6EsNJaqKEBc5f7hv2bSuqxWb1PQDJyI3p62EgHFkmM8OFpooZsog7eVG0l9BsgZUvQgmaQYJ6AKO4x6HUyNxb4ufxpzcqmb9YuJNyvfQTvdfAitk2MyNbiVdDdhUvmffblur42hZWOptTur8dUpKfiWKBp2MDThsLZK8q79i6SmnmN8UJyArs2rGsMjY2bilaETtVIgB50imkW330CvfpKR1JHjTVL9Xp6HVt6tAxcPB4bRmD71sxdrDU",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "North Evelynhaven",
+          "street": "Bell Path",
+          "house": 782,
+          "flat": 3245
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88017,
+      "createdOn": "2026-01-03T00:27:32.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695862721c508c5d5e7dafd5",
+          "products": [
+            {
+              "_id": "695862741c508c5d5e7db007",
+              "name": "Bacon38730",
+              "amount": 984,
+              "price": 88017,
+              "manufacturer": "Tesla",
+              "notes": "w6EsNJaqKEBc5f7hv2bSuqxWb1PQDJyI3p62EgHFkmM8OFpooZsog7eVG0l9BsgZUvQgmaQYJ6AKO4x6HUyNxb4ufxpzcqmb9YuJNyvfQTvdfAitk2MyNbiVdDdhUvmffblur42hZWOptTur8dUpKfiWKBp2MDThsLZK8q79i6SmnmN8UJyArs2rGsMjY2bilaETtVIgB50imkW330CvfpKR1JHjTVL9Xp6HVt6tAxcPB4bRmD71sxdrDU",
+              "received": false
+            }
+          ],
+          "total_price": 88017,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Evelynhaven",
+              "street": "Bell Path",
+              "house": 782,
+              "flat": 3245
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:27:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695862721c508c5d5e7dafd5",
+          "products": [
+            {
+              "_id": "695862741c508c5d5e7db007",
+              "name": "Bacon38730",
+              "amount": 984,
+              "price": 88017,
+              "manufacturer": "Tesla",
+              "notes": "w6EsNJaqKEBc5f7hv2bSuqxWb1PQDJyI3p62EgHFkmM8OFpooZsog7eVG0l9BsgZUvQgmaQYJ6AKO4x6HUyNxb4ufxpzcqmb9YuJNyvfQTvdfAitk2MyNbiVdDdhUvmffblur42hZWOptTur8dUpKfiWKBp2MDThsLZK8q79i6SmnmN8UJyArs2rGsMjY2bilaETtVIgB50imkW330CvfpKR1JHjTVL9Xp6HVt6tAxcPB4bRmD71sxdrDU",
+              "received": false
+            }
+          ],
+          "total_price": 88017,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "North Evelynhaven",
+              "street": "Bell Path",
+              "house": 782,
+              "flat": 3245
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:27:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695862721c508c5d5e7dafd5",
+          "products": [
+            {
+              "_id": "695862741c508c5d5e7db007",
+              "name": "Bacon38730",
+              "amount": 984,
+              "price": 88017,
+              "manufacturer": "Tesla",
+              "notes": "w6EsNJaqKEBc5f7hv2bSuqxWb1PQDJyI3p62EgHFkmM8OFpooZsog7eVG0l9BsgZUvQgmaQYJ6AKO4x6HUyNxb4ufxpzcqmb9YuJNyvfQTvdfAitk2MyNbiVdDdhUvmffblur42hZWOptTur8dUpKfiWKBp2MDThsLZK8q79i6SmnmN8UJyArs2rGsMjY2bilaETtVIgB50imkW330CvfpKR1JHjTVL9Xp6HVt6tAxcPB4bRmD71sxdrDU",
+              "received": false
+            }
+          ],
+          "total_price": 88017,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:27:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

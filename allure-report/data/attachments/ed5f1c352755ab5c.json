@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:29:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3720",
+    "etag": "W/\"e88-ZhdMsEtwbyybAJXPc4hVgC/p67o\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695862de1c508c5d5e7de874",
+      "status": "In Process",
+      "customer": {
+        "_id": "695862dc1c508c5d5e7de833",
+        "email": "Letha_Weimann@gmail.com",
+        "name": "Leonor Ritchie",
+        "country": "Great Britain",
+        "city": "Caliburgh",
+        "street": "Bayer Landing 34",
+        "house": 974,
+        "flat": 4193,
+        "phone": "+903754698459346",
+        "createdOn": "2026-01-03T00:29:16.000Z",
+        "notes": "Uo4vJgoqHSby5DhVOMOZHAWdzEhizO"
+      },
+      "products": [
+        {
+          "_id": "695862de1c508c5d5e7de861",
+          "name": "Chair28508",
+          "amount": 576,
+          "price": 34819,
+          "manufacturer": "Samsung",
+          "notes": "prPC1Y9nqU9rrYXWzSIdTqTvUtaUipWiBH832wmJI4G9J88OrqFk55BEvm1gddzHgt0HP9ikmSbTQ9yAFbLNvmdatgQzy5ZvjxCS63VpLiGjOCzHBcOahBszTQCc2i8RsmFWUU0u4Whxf1LiZdDThusKTVa018IGlt4APNiAl3O2LfFjBz0WrOC1yPgnrnj1sAhxomJwRI1OewxdtcG5xiBcb3i2nLGoiwpjIwxa828f5tb5ydINJ5xIol",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "West Layneport",
+          "street": "Trinity Road",
+          "house": 15,
+          "flat": 5019
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 34819,
+      "createdOn": "2026-01-03T00:29:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695862dc1c508c5d5e7de833",
+          "products": [
+            {
+              "_id": "695862de1c508c5d5e7de861",
+              "name": "Chair28508",
+              "amount": 576,
+              "price": 34819,
+              "manufacturer": "Samsung",
+              "notes": "prPC1Y9nqU9rrYXWzSIdTqTvUtaUipWiBH832wmJI4G9J88OrqFk55BEvm1gddzHgt0HP9ikmSbTQ9yAFbLNvmdatgQzy5ZvjxCS63VpLiGjOCzHBcOahBszTQCc2i8RsmFWUU0u4Whxf1LiZdDThusKTVa018IGlt4APNiAl3O2LfFjBz0WrOC1yPgnrnj1sAhxomJwRI1OewxdtcG5xiBcb3i2nLGoiwpjIwxa828f5tb5ydINJ5xIol",
+              "received": false
+            }
+          ],
+          "total_price": 34819,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Layneport",
+              "street": "Trinity Road",
+              "house": 15,
+              "flat": 5019
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:29:19.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695862dc1c508c5d5e7de833",
+          "products": [
+            {
+              "_id": "695862de1c508c5d5e7de861",
+              "name": "Chair28508",
+              "amount": 576,
+              "price": 34819,
+              "manufacturer": "Samsung",
+              "notes": "prPC1Y9nqU9rrYXWzSIdTqTvUtaUipWiBH832wmJI4G9J88OrqFk55BEvm1gddzHgt0HP9ikmSbTQ9yAFbLNvmdatgQzy5ZvjxCS63VpLiGjOCzHBcOahBszTQCc2i8RsmFWUU0u4Whxf1LiZdDThusKTVa018IGlt4APNiAl3O2LfFjBz0WrOC1yPgnrnj1sAhxomJwRI1OewxdtcG5xiBcb3i2nLGoiwpjIwxa828f5tb5ydINJ5xIol",
+              "received": false
+            }
+          ],
+          "total_price": 34819,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Layneport",
+              "street": "Trinity Road",
+              "house": 15,
+              "flat": 5019
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:29:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695862dc1c508c5d5e7de833",
+          "products": [
+            {
+              "_id": "695862de1c508c5d5e7de861",
+              "name": "Chair28508",
+              "amount": 576,
+              "price": 34819,
+              "manufacturer": "Samsung",
+              "notes": "prPC1Y9nqU9rrYXWzSIdTqTvUtaUipWiBH832wmJI4G9J88OrqFk55BEvm1gddzHgt0HP9ikmSbTQ9yAFbLNvmdatgQzy5ZvjxCS63VpLiGjOCzHBcOahBszTQCc2i8RsmFWUU0u4Whxf1LiZdDThusKTVa018IGlt4APNiAl3O2LfFjBz0WrOC1yPgnrnj1sAhxomJwRI1OewxdtcG5xiBcb3i2nLGoiwpjIwxa828f5tb5ydINJ5xIol",
+              "received": false
+            }
+          ],
+          "total_price": 34819,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:29:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,62 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - generic [ref=e7]: Sales Portal
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: "#/home"
+      - link "Orders" [ref=e11] [cursor=pointer]:
+        - /url: "#/orders"
+      - link "Products" [ref=e13] [cursor=pointer]:
+        - /url: "#/products"
+      - link "Customers" [ref=e15] [cursor=pointer]:
+        - /url: "#/customers"
+      - link "Managers" [ref=e17] [cursor=pointer]:
+        - /url: "#/managers"
+    - generic [ref=e19]:
+      - button "" [ref=e21] [cursor=pointer]:
+        - generic: 
+      - button "" [ref=e22] [cursor=pointer]:
+        - generic: 
+      - link "User" [ref=e24] [cursor=pointer]:
+        - /url: "#/managers/undefined"
+        - strong [ref=e25]: User
+      - button "" [ref=e26] [cursor=pointer]:
+        - generic: 
+  - generic [ref=e27]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Orders List" [level=2] [ref=e31]
+        - button "Create Order" [ref=e32] [cursor=pointer]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - searchbox "Search" [ref=e35]
+          - button " Search" [disabled]:
+            - generic: 
+            - text: Search
+        - button " Filter" [ref=e36] [cursor=pointer]:
+          - generic: 
+          - text: Filter
+        - button "Export" [ref=e37] [cursor=pointer]
+    - generic [ref=e40]:
+      - status [ref=e43]:
+        - generic [ref=e44]: Loading...
+      - table [ref=e46]:
+        - rowgroup [ref=e47]:
+          - row "Order Number Email Price Delivery Status Assigned Manager Created On Actions" [ref=e48]:
+            - columnheader "Order Number" [ref=e49]
+            - columnheader "Email" [ref=e50]
+            - columnheader "Price" [ref=e51]
+            - columnheader "Delivery" [ref=e52]
+            - columnheader "Status" [ref=e53]
+            - columnheader "Assigned Manager" [ref=e54]
+            - columnheader "Created On" [ref=e55]
+            - columnheader "Actions" [ref=e56]
+        - rowgroup [ref=e57]:
+          - row "No records created yet" [ref=e58]:
+            - cell "No records created yet" [ref=e59]
+```

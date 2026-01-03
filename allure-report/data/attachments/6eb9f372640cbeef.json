@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:30:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2756",
+    "etag": "W/\"ac4-WT3YFfdmmz2OBNWioxdLc/ss9PI\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695863121c508c5d5e7e0326",
+      "status": "Draft",
+      "customer": {
+        "_id": "695863101c508c5d5e7e01f6",
+        "email": "Nettie80@hotmail.com",
+        "name": "Raven Bogan",
+        "country": "Belarus",
+        "city": "Lake Natalia",
+        "street": "Kulas Views 44",
+        "house": 990,
+        "flat": 9942,
+        "phone": "+423036033765185",
+        "createdOn": "2026-01-03T00:30:08.000Z",
+        "notes": "53HcQ17EvPnf7hJwhG1LqT2nk6gvw6"
+      },
+      "products": [
+        {
+          "_id": "695863121c508c5d5e7e0318",
+          "name": "Computer19504",
+          "amount": 594,
+          "price": 72375,
+          "manufacturer": "Sony",
+          "notes": "JM4aGJaeOXoWDaLOPS79ctlVSj5AnAqnP9R6KZg67nqCSTd2E6MHVmu50KnD4CJDjLKqpkenbclkuQNuuQ8RFoRoSJzIbEopAos8Z9rOJIRzF3gspCyC2cJ0l81AtPVe8F3xbCb9zIWPm9Ph7FsrOUYKcQwMFVBpdazAPLTHCcgGnqDruVQg5PTGaAPyVS1eikaCqheU8GeqVp76lss5ptEidB9ULA2RkxWKWbsSgP0vjtu68qtOkf8yb7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Weimannborough",
+          "street": "Felicia Well",
+          "house": 229,
+          "flat": 6402
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72375,
+      "createdOn": "2026-01-03T00:30:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695863101c508c5d5e7e01f6",
+          "products": [
+            {
+              "_id": "695863121c508c5d5e7e0318",
+              "name": "Computer19504",
+              "amount": 594,
+              "price": 72375,
+              "manufacturer": "Sony",
+              "notes": "JM4aGJaeOXoWDaLOPS79ctlVSj5AnAqnP9R6KZg67nqCSTd2E6MHVmu50KnD4CJDjLKqpkenbclkuQNuuQ8RFoRoSJzIbEopAos8Z9rOJIRzF3gspCyC2cJ0l81AtPVe8F3xbCb9zIWPm9Ph7FsrOUYKcQwMFVBpdazAPLTHCcgGnqDruVQg5PTGaAPyVS1eikaCqheU8GeqVp76lss5ptEidB9ULA2RkxWKWbsSgP0vjtu68qtOkf8yb7",
+              "received": false
+            }
+          ],
+          "total_price": 72375,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Weimannborough",
+              "street": "Felicia Well",
+              "house": 229,
+              "flat": 6402
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:30:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695863101c508c5d5e7e01f6",
+          "products": [
+            {
+              "_id": "695863121c508c5d5e7e0318",
+              "name": "Computer19504",
+              "amount": 594,
+              "price": 72375,
+              "manufacturer": "Sony",
+              "notes": "JM4aGJaeOXoWDaLOPS79ctlVSj5AnAqnP9R6KZg67nqCSTd2E6MHVmu50KnD4CJDjLKqpkenbclkuQNuuQ8RFoRoSJzIbEopAos8Z9rOJIRzF3gspCyC2cJ0l81AtPVe8F3xbCb9zIWPm9Ph7FsrOUYKcQwMFVBpdazAPLTHCcgGnqDruVQg5PTGaAPyVS1eikaCqheU8GeqVp76lss5ptEidB9ULA2RkxWKWbsSgP0vjtu68qtOkf8yb7",
+              "received": false
+            }
+          ],
+          "total_price": 72375,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:30:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

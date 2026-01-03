@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:17:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3678",
+    "etag": "W/\"e5e-ZuhsrDF3BvizUCuIzP+8bfXeFdk\"",
+    "keep-alive": "timeout=5, max=24",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958602c1c508c5d5e7cbd5c",
+      "status": "In Process",
+      "customer": {
+        "_id": "695860281c508c5d5e7cbbc3",
+        "email": "Vince.Kuhic26@gmail.com",
+        "name": "Kaci Kozey",
+        "country": "Great Britain",
+        "city": "Port Alana",
+        "street": "Jenifer Heights 57",
+        "house": 859,
+        "flat": 1735,
+        "phone": "+241505803937434",
+        "createdOn": "2026-01-03T00:17:44.000Z",
+        "notes": "hqk5yMUIN7FZAToqxtXpB5mUcTwdj7"
+      },
+      "products": [
+        {
+          "_id": "6958602b1c508c5d5e7cbd48",
+          "name": "Bike23912",
+          "amount": 786,
+          "price": 17315,
+          "manufacturer": "Google",
+          "notes": "CYqyls8xwAqvDXDW0MHp1LrpkbLkR76Z5u0ej5NY32rtRpZMbbaRiwG3kK666jf0yvgANGYJhANY5Ly63egkDWofNaWGnawtnmtjvNeP932MRT082hXB8ICUV5QnNMC5JPVsLXBJ2SXX5LkMdeBt4v7pPibA2WkKBvscjoU7zjlBJh2qU3pbJcVZ6I2iEoIcoDX3Awus0MmxGLoao9cMieCgAWzAmvda8rNztZHKsf83BJG0yjMvDPDhfq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Cedar Park",
+          "street": "Fanny Plaza",
+          "house": 621,
+          "flat": 9203
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17315,
+      "createdOn": "2026-01-03T00:17:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695860281c508c5d5e7cbbc3",
+          "products": [
+            {
+              "_id": "6958602b1c508c5d5e7cbd48",
+              "name": "Bike23912",
+              "amount": 786,
+              "price": 17315,
+              "manufacturer": "Google",
+              "notes": "CYqyls8xwAqvDXDW0MHp1LrpkbLkR76Z5u0ej5NY32rtRpZMbbaRiwG3kK666jf0yvgANGYJhANY5Ly63egkDWofNaWGnawtnmtjvNeP932MRT082hXB8ICUV5QnNMC5JPVsLXBJ2SXX5LkMdeBt4v7pPibA2WkKBvscjoU7zjlBJh2qU3pbJcVZ6I2iEoIcoDX3Awus0MmxGLoao9cMieCgAWzAmvda8rNztZHKsf83BJG0yjMvDPDhfq",
+              "received": false
+            }
+          ],
+          "total_price": 17315,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Cedar Park",
+              "street": "Fanny Plaza",
+              "house": 621,
+              "flat": 9203
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:17:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695860281c508c5d5e7cbbc3",
+          "products": [
+            {
+              "_id": "6958602b1c508c5d5e7cbd48",
+              "name": "Bike23912",
+              "amount": 786,
+              "price": 17315,
+              "manufacturer": "Google",
+              "notes": "CYqyls8xwAqvDXDW0MHp1LrpkbLkR76Z5u0ej5NY32rtRpZMbbaRiwG3kK666jf0yvgANGYJhANY5Ly63egkDWofNaWGnawtnmtjvNeP932MRT082hXB8ICUV5QnNMC5JPVsLXBJ2SXX5LkMdeBt4v7pPibA2WkKBvscjoU7zjlBJh2qU3pbJcVZ6I2iEoIcoDX3Awus0MmxGLoao9cMieCgAWzAmvda8rNztZHKsf83BJG0yjMvDPDhfq",
+              "received": false
+            }
+          ],
+          "total_price": 17315,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Cedar Park",
+              "street": "Fanny Plaza",
+              "house": 621,
+              "flat": 9203
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:17:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695860281c508c5d5e7cbbc3",
+          "products": [
+            {
+              "_id": "6958602b1c508c5d5e7cbd48",
+              "name": "Bike23912",
+              "amount": 786,
+              "price": 17315,
+              "manufacturer": "Google",
+              "notes": "CYqyls8xwAqvDXDW0MHp1LrpkbLkR76Z5u0ej5NY32rtRpZMbbaRiwG3kK666jf0yvgANGYJhANY5Ly63egkDWofNaWGnawtnmtjvNeP932MRT082hXB8ICUV5QnNMC5JPVsLXBJ2SXX5LkMdeBt4v7pPibA2WkKBvscjoU7zjlBJh2qU3pbJcVZ6I2iEoIcoDX3Awus0MmxGLoao9cMieCgAWzAmvda8rNztZHKsf83BJG0yjMvDPDhfq",
+              "received": false
+            }
+          ],
+          "total_price": 17315,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:17:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

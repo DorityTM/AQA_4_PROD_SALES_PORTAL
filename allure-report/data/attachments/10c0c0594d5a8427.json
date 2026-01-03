@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:32:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3681",
+    "etag": "W/\"e61-KYCB+0U+KhxfWpdUXwXTamD6+4c\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958637d1c508c5d5e7e3987",
+      "status": "In Process",
+      "customer": {
+        "_id": "6958637a1c508c5d5e7e3966",
+        "email": "Aliza30@hotmail.com",
+        "name": "Delphia Murray",
+        "country": "Great Britain",
+        "city": "Doraborough",
+        "street": "Huel Point 34",
+        "house": 500,
+        "flat": 3916,
+        "phone": "+349541694444039",
+        "createdOn": "2026-01-03T00:31:54.000Z",
+        "notes": "kn4ZQ1GUNvJ4sgGN2popl1sskmld6I"
+      },
+      "products": [
+        {
+          "_id": "6958637c1c508c5d5e7e397a",
+          "name": "Fish88605",
+          "amount": 115,
+          "price": 89609,
+          "manufacturer": "Sony",
+          "notes": "klCeCagsurgXeKVVLNDvdpgknNPU5VmJALmEVybNmfSgXpOABUXGy6gRt9tlCioGQ7P9E587cjWjxUZu2yBHfT9jQvMTxBxMLZ6ud4gB3bwF75jyvPjaQkItkGpv9vPM8wUSAW7bPfdvu4ac6XKlABAbXjb4fmDh4bJyi8RtmjWtJz983wGLVBgwif5iAg1PEqpnC833bWo4ffETOUKEQ7X8iUAhwaelr2sfkf0G5UUdDatfSCU1acP28Y",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Ernserhaven",
+          "street": "Myriam Orchard",
+          "house": 737,
+          "flat": 6589
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 89609,
+      "createdOn": "2026-01-03T00:31:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6958637a1c508c5d5e7e3966",
+          "products": [
+            {
+              "_id": "6958637c1c508c5d5e7e397a",
+              "name": "Fish88605",
+              "amount": 115,
+              "price": 89609,
+              "manufacturer": "Sony",
+              "notes": "klCeCagsurgXeKVVLNDvdpgknNPU5VmJALmEVybNmfSgXpOABUXGy6gRt9tlCioGQ7P9E587cjWjxUZu2yBHfT9jQvMTxBxMLZ6ud4gB3bwF75jyvPjaQkItkGpv9vPM8wUSAW7bPfdvu4ac6XKlABAbXjb4fmDh4bJyi8RtmjWtJz983wGLVBgwif5iAg1PEqpnC833bWo4ffETOUKEQ7X8iUAhwaelr2sfkf0G5UUdDatfSCU1acP28Y",
+              "received": false
+            }
+          ],
+          "total_price": 89609,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Ernserhaven",
+              "street": "Myriam Orchard",
+              "house": 737,
+              "flat": 6589
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:32:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958637a1c508c5d5e7e3966",
+          "products": [
+            {
+              "_id": "6958637c1c508c5d5e7e397a",
+              "name": "Fish88605",
+              "amount": 115,
+              "price": 89609,
+              "manufacturer": "Sony",
+              "notes": "klCeCagsurgXeKVVLNDvdpgknNPU5VmJALmEVybNmfSgXpOABUXGy6gRt9tlCioGQ7P9E587cjWjxUZu2yBHfT9jQvMTxBxMLZ6ud4gB3bwF75jyvPjaQkItkGpv9vPM8wUSAW7bPfdvu4ac6XKlABAbXjb4fmDh4bJyi8RtmjWtJz983wGLVBgwif5iAg1PEqpnC833bWo4ffETOUKEQ7X8iUAhwaelr2sfkf0G5UUdDatfSCU1acP28Y",
+              "received": false
+            }
+          ],
+          "total_price": 89609,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Ernserhaven",
+              "street": "Myriam Orchard",
+              "house": 737,
+              "flat": 6589
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:31:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958637a1c508c5d5e7e3966",
+          "products": [
+            {
+              "_id": "6958637c1c508c5d5e7e397a",
+              "name": "Fish88605",
+              "amount": 115,
+              "price": 89609,
+              "manufacturer": "Sony",
+              "notes": "klCeCagsurgXeKVVLNDvdpgknNPU5VmJALmEVybNmfSgXpOABUXGy6gRt9tlCioGQ7P9E587cjWjxUZu2yBHfT9jQvMTxBxMLZ6ud4gB3bwF75jyvPjaQkItkGpv9vPM8wUSAW7bPfdvu4ac6XKlABAbXjb4fmDh4bJyi8RtmjWtJz983wGLVBgwif5iAg1PEqpnC833bWo4ffETOUKEQ7X8iUAhwaelr2sfkf0G5UUdDatfSCU1acP28Y",
+              "received": false
+            }
+          ],
+          "total_price": 89609,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:31:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

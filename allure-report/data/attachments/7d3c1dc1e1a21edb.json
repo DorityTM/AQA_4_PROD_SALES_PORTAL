@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 00:19:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2770",
+    "etag": "W/\"ad2-CixRK5p+M7RlTWYtyz9uevAm2VM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695860aa1c508c5d5e7cf5ba",
+      "status": "Draft",
+      "customer": {
+        "_id": "695860a71c508c5d5e7cf54e",
+        "email": "Erling71@hotmail.com",
+        "name": "Muhammad Wyman",
+        "country": "USA",
+        "city": "Lake Damion",
+        "street": "Ratke Turnpike 21",
+        "house": 577,
+        "flat": 2533,
+        "phone": "+925918859038177",
+        "createdOn": "2026-01-03T00:19:51.000Z",
+        "notes": "iypKbwKYY5QxR9yfkVudOODkn0KI5j"
+      },
+      "products": [
+        {
+          "_id": "695860a91c508c5d5e7cf596",
+          "name": "Computer92923",
+          "amount": 30,
+          "price": 51050,
+          "manufacturer": "Xiaomi",
+          "notes": "kzIavCUWF2gcAKfwZtLSWFAoFZhVRGUY9DKvT4TP4K2s7lk6jluj07UCT7YTsSwNVDNd9hWjAMrJdNW69QBViwVRNOv6b8SchRmIwNZcG9CNTKV7hl2pymswrO6QlF1k9APuOJGtL7lPQECEnkrbx5jMN6snwUBXZ06b6l0RdkKGRHisn7ElJpfOSifA2L1asP04bqRGwIMGWd0jtA8qW5ipr7tAOcbJMeWmHOxAaHNvgs4LrPqVmRKXfk",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Jermey",
+          "street": "Hettinger Ridge",
+          "house": 217,
+          "flat": 8533
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 51050,
+      "createdOn": "2026-01-03T00:19:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695860a71c508c5d5e7cf54e",
+          "products": [
+            {
+              "_id": "695860a91c508c5d5e7cf596",
+              "name": "Computer92923",
+              "amount": 30,
+              "price": 51050,
+              "manufacturer": "Xiaomi",
+              "notes": "kzIavCUWF2gcAKfwZtLSWFAoFZhVRGUY9DKvT4TP4K2s7lk6jluj07UCT7YTsSwNVDNd9hWjAMrJdNW69QBViwVRNOv6b8SchRmIwNZcG9CNTKV7hl2pymswrO6QlF1k9APuOJGtL7lPQECEnkrbx5jMN6snwUBXZ06b6l0RdkKGRHisn7ElJpfOSifA2L1asP04bqRGwIMGWd0jtA8qW5ipr7tAOcbJMeWmHOxAaHNvgs4LrPqVmRKXfk",
+              "received": false
+            }
+          ],
+          "total_price": 51050,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Jermey",
+              "street": "Hettinger Ridge",
+              "house": 217,
+              "flat": 8533
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T00:19:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695860a71c508c5d5e7cf54e",
+          "products": [
+            {
+              "_id": "695860a91c508c5d5e7cf596",
+              "name": "Computer92923",
+              "amount": 30,
+              "price": 51050,
+              "manufacturer": "Xiaomi",
+              "notes": "kzIavCUWF2gcAKfwZtLSWFAoFZhVRGUY9DKvT4TP4K2s7lk6jluj07UCT7YTsSwNVDNd9hWjAMrJdNW69QBViwVRNOv6b8SchRmIwNZcG9CNTKV7hl2pymswrO6QlF1k9APuOJGtL7lPQECEnkrbx5jMN6snwUBXZ06b6l0RdkKGRHisn7ElJpfOSifA2L1asP04bqRGwIMGWd0jtA8qW5ipr7tAOcbJMeWmHOxAaHNvgs4LrPqVmRKXfk",
+              "received": false
+            }
+          ],
+          "total_price": 51050,
+          "delivery": null,
+          "changedOn": "2026-01-03T00:19:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
