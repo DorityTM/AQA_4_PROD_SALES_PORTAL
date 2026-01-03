@@ -16,16 +16,6 @@ test.describe("[Integration][Orders][Table Sorting]", () => {
         const direction = sorting!.sortOrder;
         const orders = generateOrdersResponseData(ordersCount, sorting);
 
-        // const headersMapper: Record<string, OrdersTableHeader> = {
-        //   "Order Number": "orderNumber",
-        //   Email: "email",
-        //   Price: "price",
-        //   Status: "status",
-        //   Delivery: "delivery",
-        //   "Assigned Manager": "assignedManager",
-        //   "Created On": "createdOn",
-        // };
-
         await mock.ordersPage({
           ...orders,
           sorting: {
@@ -37,13 +27,6 @@ test.describe("[Integration][Orders][Table Sorting]", () => {
         await ordersListPage.open("#/orders");
         await ordersListPage.waitForOpened();
 
-        await mock.ordersPage({
-          ...orders,
-          sorting: {
-            sortField: header!,
-            sortOrder: directions.find((el) => el !== direction)!,
-          },
-        });
         await mock.ordersPage({
           ...orders,
           sorting: {
@@ -65,17 +48,12 @@ test.describe("[Integration][Orders][Table Sorting]", () => {
         );
 
         await ordersListPage.waitForOpened();
-        // expect(request.url()).toBe(
-        //   `${apiConfig.baseURL}${apiConfig.endpoints.orders}?sortField=${header}&sortOrder=${direction}&page=1&limit=10`,
-        // );
-
         await expect(ordersListPage.tableHeaderArrow(header, { direction })).toBeVisible();
-
-        // const tableData = await ordersListPage.getTableData() as IOrderInTable[];
-        // expect(tableData.length).toBe(orders.length);
+        // const ordersList = orders.orders;
+        // const tableData = (await ordersListPage.getTableData()) as IOrderInTable[];
+        // expect.soft(tableData.length).toBe(ordersList.length);
         // tableData.forEach((order, i) => {
-        //   const expected = _.omit(orders[i], ["_id", "notes", "amount"]);
-        //   expected.createdOn = convertToDateAndTime(expected.createdOn!);
+        //   const expected = _.pick(ordersList[i], ["assignedManager", "email", "orderId", "status", "price"]);
         //   expect(order).toEqual(expected);
         // });
       },
