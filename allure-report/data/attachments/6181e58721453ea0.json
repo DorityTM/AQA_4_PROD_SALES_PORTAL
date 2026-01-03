@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:11:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3672",
+    "etag": "W/\"e58-1qx+8Yl+pR/utXRHjmIHKZ4v1c8\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959157c1c508c5d5e87e765",
+      "status": "In Process",
+      "customer": {
+        "_id": "695915781c508c5d5e87e5f2",
+        "email": "Jimmy_Schuster@gmail.com",
+        "name": "Susie Lynch",
+        "country": "Russia",
+        "city": "West Edwardo",
+        "street": "Bauch Port 37",
+        "house": 598,
+        "flat": 333,
+        "phone": "+477472733386723",
+        "createdOn": "2026-01-03T13:11:20.000Z",
+        "notes": "kqeZXciP2H0VvCjYzm1tm3JaMuAKfv"
+      },
+      "products": [
+        {
+          "_id": "6959157c1c508c5d5e87e75d",
+          "name": "Ball891",
+          "amount": 439,
+          "price": 65784,
+          "manufacturer": "Tesla",
+          "notes": "6GZlacICAsyvrCsC1uRbBZMbMJyA0AFtgYsErg0mzYJcjkSteKQz99EbAmrhRNuucJ4nF33hpoPWwHPBe6zIEFRq8E56dLZ7VMWIOAbVjUKSVjkeE1ZRDdipiO7RARDwzOOxowtv1NKh2d8QHSTVXVS0vjZFlH31UGBxmlwlFpdgj9QAzuPsi2krT5z4UGoHfe8BDyP50Ibxn25RlqaGYpOGvTOqFq5XdNANsLNeEEKaiUX7LZSMqt2qCr",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Fort Abdullah",
+          "street": "Bertha Cliffs",
+          "house": 819,
+          "flat": 2279
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 65784,
+      "createdOn": "2026-01-03T13:11:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695915781c508c5d5e87e5f2",
+          "products": [
+            {
+              "_id": "6959157c1c508c5d5e87e75d",
+              "name": "Ball891",
+              "amount": 439,
+              "price": 65784,
+              "manufacturer": "Tesla",
+              "notes": "6GZlacICAsyvrCsC1uRbBZMbMJyA0AFtgYsErg0mzYJcjkSteKQz99EbAmrhRNuucJ4nF33hpoPWwHPBe6zIEFRq8E56dLZ7VMWIOAbVjUKSVjkeE1ZRDdipiO7RARDwzOOxowtv1NKh2d8QHSTVXVS0vjZFlH31UGBxmlwlFpdgj9QAzuPsi2krT5z4UGoHfe8BDyP50Ibxn25RlqaGYpOGvTOqFq5XdNANsLNeEEKaiUX7LZSMqt2qCr",
+              "received": false
+            }
+          ],
+          "total_price": 65784,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Abdullah",
+              "street": "Bertha Cliffs",
+              "house": 819,
+              "flat": 2279
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:11:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695915781c508c5d5e87e5f2",
+          "products": [
+            {
+              "_id": "6959157c1c508c5d5e87e75d",
+              "name": "Ball891",
+              "amount": 439,
+              "price": 65784,
+              "manufacturer": "Tesla",
+              "notes": "6GZlacICAsyvrCsC1uRbBZMbMJyA0AFtgYsErg0mzYJcjkSteKQz99EbAmrhRNuucJ4nF33hpoPWwHPBe6zIEFRq8E56dLZ7VMWIOAbVjUKSVjkeE1ZRDdipiO7RARDwzOOxowtv1NKh2d8QHSTVXVS0vjZFlH31UGBxmlwlFpdgj9QAzuPsi2krT5z4UGoHfe8BDyP50Ibxn25RlqaGYpOGvTOqFq5XdNANsLNeEEKaiUX7LZSMqt2qCr",
+              "received": false
+            }
+          ],
+          "total_price": 65784,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Abdullah",
+              "street": "Bertha Cliffs",
+              "house": 819,
+              "flat": 2279
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:11:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695915781c508c5d5e87e5f2",
+          "products": [
+            {
+              "_id": "6959157c1c508c5d5e87e75d",
+              "name": "Ball891",
+              "amount": 439,
+              "price": 65784,
+              "manufacturer": "Tesla",
+              "notes": "6GZlacICAsyvrCsC1uRbBZMbMJyA0AFtgYsErg0mzYJcjkSteKQz99EbAmrhRNuucJ4nF33hpoPWwHPBe6zIEFRq8E56dLZ7VMWIOAbVjUKSVjkeE1ZRDdipiO7RARDwzOOxowtv1NKh2d8QHSTVXVS0vjZFlH31UGBxmlwlFpdgj9QAzuPsi2krT5z4UGoHfe8BDyP50Ibxn25RlqaGYpOGvTOqFq5XdNANsLNeEEKaiUX7LZSMqt2qCr",
+              "received": false
+            }
+          ],
+          "total_price": 65784,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:11:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

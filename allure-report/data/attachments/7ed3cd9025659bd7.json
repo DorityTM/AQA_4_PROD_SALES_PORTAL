@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:54:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3909",
+    "etag": "W/\"f45-LlcgXwIWs0j6hb+S162Pyu/2rKg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959119a1c508c5d5e86bbaa",
+      "status": "Draft",
+      "customer": {
+        "_id": "695911921c508c5d5e86b863",
+        "email": "Lawrence_Schimmel99@hotmail.com",
+        "name": "Jonatan Keeling",
+        "country": "Ukraine",
+        "city": "South Harrisonside",
+        "street": "W Broadway 58",
+        "house": 501,
+        "flat": 5299,
+        "phone": "+512918424126729",
+        "createdOn": "2026-01-03T12:54:42.000Z",
+        "notes": "hDVM4M5whXXTLSHE7F9yfD6z0m2S7H"
+      },
+      "products": [
+        {
+          "_id": "695911961c508c5d5e86ba54",
+          "name": "Chicken57433",
+          "amount": 597,
+          "price": 67206,
+          "manufacturer": "Xiaomi",
+          "notes": "msLCIF8xZnFMzjZsyPacPrdj7AnuDeEgr0JQ4YPtyNouG6q6XHEG8oUWZ9PP7HlK47cm94AliJSr5IPI9NhGkKeEDF6VoEhN3BBTGdm4IQ7mphp1tYAp5LuXPdNkJGd0dlFyTFMWgUphrhWjWLPWlDDV5cwDYmeDxifvQerGqUnKb8wua7Ctvji6UnDEiwpwinKXRILuUxI0ugPhLz7pBdfTo6BScUNPh2b1BjILk1jgCKD4olCuTWyJ8s",
+          "received": false
+        },
+        {
+          "_id": "6959119a1c508c5d5e86bb74",
+          "name": "Shirt27013",
+          "amount": 74,
+          "price": 88091,
+          "manufacturer": "Sony",
+          "notes": "KNfipahKymtuKrE5Qi35zplj8IPrLkMpCiIaaPMarEipPz02sVYeuI24H1xSMldirYlL5H7nuOZ1nTHRhzlvrNZtuYHYnqezqFzAbF7EXKzZ1crSGETgdHtPAoRh9vgZ6WZgmF60v23aAT3dKheFUXgOmS9i8RixE06EgZMDQO4YYa2OhhYrZX7adZYXgpaKCREfopYGyw7JNxKiOt79SoX5Fu1NQnUJTcmf1Gl4j0PSUG0XEQexJOLzCm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Handfurt",
+          "street": "Howe Fords",
+          "house": 547,
+          "flat": 6330
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 155297,
+      "createdOn": "2026-01-03T12:54:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695911921c508c5d5e86b863",
+          "products": [
+            {
+              "_id": "695911961c508c5d5e86ba54",
+              "name": "Chicken57433",
+              "amount": 597,
+              "price": 67206,
+              "manufacturer": "Xiaomi",
+              "notes": "msLCIF8xZnFMzjZsyPacPrdj7AnuDeEgr0JQ4YPtyNouG6q6XHEG8oUWZ9PP7HlK47cm94AliJSr5IPI9NhGkKeEDF6VoEhN3BBTGdm4IQ7mphp1tYAp5LuXPdNkJGd0dlFyTFMWgUphrhWjWLPWlDDV5cwDYmeDxifvQerGqUnKb8wua7Ctvji6UnDEiwpwinKXRILuUxI0ugPhLz7pBdfTo6BScUNPh2b1BjILk1jgCKD4olCuTWyJ8s",
+              "received": false
+            },
+            {
+              "_id": "6959119a1c508c5d5e86bb74",
+              "name": "Shirt27013",
+              "amount": 74,
+              "price": 88091,
+              "manufacturer": "Sony",
+              "notes": "KNfipahKymtuKrE5Qi35zplj8IPrLkMpCiIaaPMarEipPz02sVYeuI24H1xSMldirYlL5H7nuOZ1nTHRhzlvrNZtuYHYnqezqFzAbF7EXKzZ1crSGETgdHtPAoRh9vgZ6WZgmF60v23aAT3dKheFUXgOmS9i8RixE06EgZMDQO4YYa2OhhYrZX7adZYXgpaKCREfopYGyw7JNxKiOt79SoX5Fu1NQnUJTcmf1Gl4j0PSUG0XEQexJOLzCm",
+              "received": false
+            }
+          ],
+          "total_price": 155297,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Handfurt",
+              "street": "Howe Fords",
+              "house": 547,
+              "flat": 6330
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T12:54:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695911921c508c5d5e86b863",
+          "products": [
+            {
+              "_id": "695911961c508c5d5e86ba54",
+              "name": "Chicken57433",
+              "amount": 597,
+              "price": 67206,
+              "manufacturer": "Xiaomi",
+              "notes": "msLCIF8xZnFMzjZsyPacPrdj7AnuDeEgr0JQ4YPtyNouG6q6XHEG8oUWZ9PP7HlK47cm94AliJSr5IPI9NhGkKeEDF6VoEhN3BBTGdm4IQ7mphp1tYAp5LuXPdNkJGd0dlFyTFMWgUphrhWjWLPWlDDV5cwDYmeDxifvQerGqUnKb8wua7Ctvji6UnDEiwpwinKXRILuUxI0ugPhLz7pBdfTo6BScUNPh2b1BjILk1jgCKD4olCuTWyJ8s",
+              "received": false
+            },
+            {
+              "_id": "6959119a1c508c5d5e86bb74",
+              "name": "Shirt27013",
+              "amount": 74,
+              "price": 88091,
+              "manufacturer": "Sony",
+              "notes": "KNfipahKymtuKrE5Qi35zplj8IPrLkMpCiIaaPMarEipPz02sVYeuI24H1xSMldirYlL5H7nuOZ1nTHRhzlvrNZtuYHYnqezqFzAbF7EXKzZ1crSGETgdHtPAoRh9vgZ6WZgmF60v23aAT3dKheFUXgOmS9i8RixE06EgZMDQO4YYa2OhhYrZX7adZYXgpaKCREfopYGyw7JNxKiOt79SoX5Fu1NQnUJTcmf1Gl4j0PSUG0XEQexJOLzCm",
+              "received": false
+            }
+          ],
+          "total_price": 155297,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:54:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:07:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3693",
+    "etag": "W/\"e6d-0Z/lDqeEQZU2FA5rONS/BVp2Ywo\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695914a81c508c5d5e87a2d5",
+      "status": "In Process",
+      "customer": {
+        "_id": "695914a41c508c5d5e87a21f",
+        "email": "Alda_Bashirian36@gmail.com",
+        "name": "Randal Howell",
+        "country": "Canada",
+        "city": "South Godfrey",
+        "street": "Warren Road 91",
+        "house": 713,
+        "flat": 6740,
+        "phone": "+737201885795655",
+        "createdOn": "2026-01-03T13:07:48.000Z",
+        "notes": "Ww5AGnz0PnW4O2z2Jlo9XdOiOiXpWI"
+      },
+      "products": [
+        {
+          "_id": "695914a81c508c5d5e87a2ca",
+          "name": "Soap20725",
+          "amount": 44,
+          "price": 79265,
+          "manufacturer": "Google",
+          "notes": "MlMTTvbjzDjl8egTAA8SHVewbjL0sRlq4lWxj0tmGCFsJX4Sg0y2FuztL6kU81eT8zvcSCtKjTVf3CpaRV30z0epUJfzWNHv6gEwNHEcG1H3mJqoidPhQ35HIeSBtnOHixOLJodQgdoqBRufJT9HuplWfZ1lRJ2UzJRdKukQOKFkL4qSoxIjmdt7kaOfDB8Wghte5zEQuXzT58YU10KqpEn6zMWybAaIc7mtbC8SGqW6BbZ3tBGTC0QWIm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Frederick",
+          "street": "Walsh Station",
+          "house": 29,
+          "flat": 5186
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79265,
+      "createdOn": "2026-01-03T13:07:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695914a41c508c5d5e87a21f",
+          "products": [
+            {
+              "_id": "695914a81c508c5d5e87a2ca",
+              "name": "Soap20725",
+              "amount": 44,
+              "price": 79265,
+              "manufacturer": "Google",
+              "notes": "MlMTTvbjzDjl8egTAA8SHVewbjL0sRlq4lWxj0tmGCFsJX4Sg0y2FuztL6kU81eT8zvcSCtKjTVf3CpaRV30z0epUJfzWNHv6gEwNHEcG1H3mJqoidPhQ35HIeSBtnOHixOLJodQgdoqBRufJT9HuplWfZ1lRJ2UzJRdKukQOKFkL4qSoxIjmdt7kaOfDB8Wghte5zEQuXzT58YU10KqpEn6zMWybAaIc7mtbC8SGqW6BbZ3tBGTC0QWIm",
+              "received": false
+            }
+          ],
+          "total_price": 79265,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Frederick",
+              "street": "Walsh Station",
+              "house": 29,
+              "flat": 5186
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:07:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695914a41c508c5d5e87a21f",
+          "products": [
+            {
+              "_id": "695914a81c508c5d5e87a2ca",
+              "name": "Soap20725",
+              "amount": 44,
+              "price": 79265,
+              "manufacturer": "Google",
+              "notes": "MlMTTvbjzDjl8egTAA8SHVewbjL0sRlq4lWxj0tmGCFsJX4Sg0y2FuztL6kU81eT8zvcSCtKjTVf3CpaRV30z0epUJfzWNHv6gEwNHEcG1H3mJqoidPhQ35HIeSBtnOHixOLJodQgdoqBRufJT9HuplWfZ1lRJ2UzJRdKukQOKFkL4qSoxIjmdt7kaOfDB8Wghte5zEQuXzT58YU10KqpEn6zMWybAaIc7mtbC8SGqW6BbZ3tBGTC0QWIm",
+              "received": false
+            }
+          ],
+          "total_price": 79265,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Frederick",
+              "street": "Walsh Station",
+              "house": 29,
+              "flat": 5186
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:07:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695914a41c508c5d5e87a21f",
+          "products": [
+            {
+              "_id": "695914a81c508c5d5e87a2ca",
+              "name": "Soap20725",
+              "amount": 44,
+              "price": 79265,
+              "manufacturer": "Google",
+              "notes": "MlMTTvbjzDjl8egTAA8SHVewbjL0sRlq4lWxj0tmGCFsJX4Sg0y2FuztL6kU81eT8zvcSCtKjTVf3CpaRV30z0epUJfzWNHv6gEwNHEcG1H3mJqoidPhQ35HIeSBtnOHixOLJodQgdoqBRufJT9HuplWfZ1lRJ2UzJRdKukQOKFkL4qSoxIjmdt7kaOfDB8Wghte5zEQuXzT58YU10KqpEn6zMWybAaIc7mtbC8SGqW6BbZ3tBGTC0QWIm",
+              "received": false
+            }
+          ],
+          "total_price": 79265,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:07:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:54:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4585",
+    "etag": "W/\"11e9-U71xSEMNOooS5UeGv+MLJ9Gf7Q4\"",
+    "keep-alive": "timeout=5, max=11",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959117e1c508c5d5e86b09a",
+      "status": "Received",
+      "customer": {
+        "_id": "6959117a1c508c5d5e86ae78",
+        "email": "Aric_Kling78@gmail.com",
+        "name": "Carey Becker Leuschke",
+        "country": "Belarus",
+        "city": "Littelchester",
+        "street": "Quigley Ridges 97",
+        "house": 588,
+        "flat": 6384,
+        "phone": "+726811029232051",
+        "createdOn": "2026-01-03T12:54:18.000Z",
+        "notes": "5ljAkJdT5ewIItpzjA1JWgh88qXjVJ"
+      },
+      "products": [
+        {
+          "_id": "6959117e1c508c5d5e86b07d",
+          "name": "Towels43901",
+          "amount": 331,
+          "price": 17948,
+          "manufacturer": "Apple",
+          "notes": "kCIimkawScIcb5BJMBRTyayiVnmF7gqcbjrdNi3AyxcJGIkjOgEPHYz1ZUbrhbMIDFhmv3W9ohhj6dT0uXxnwlvhbSix42Xi0lWS6h699s1SfHWYX9J4CRnJj4PKojqNJ0mC4oKspTLxR1cusbJCuZ4ubWPd3nwTgFB7G9CesdJIKfQjcD0HHkeXC4DHuHYQDyym7W4LVjaGfC3e7aMFtxYB8MBNvULEXtMn7j6ycek7DzMBC3bUAeFhCT",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Ociefort",
+          "street": "Lesch Dale",
+          "house": 911,
+          "flat": 38
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17948,
+      "createdOn": "2026-01-03T12:54:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6959117a1c508c5d5e86ae78",
+          "products": [
+            {
+              "_id": "6959117e1c508c5d5e86b07d",
+              "name": "Towels43901",
+              "amount": 331,
+              "price": 17948,
+              "manufacturer": "Apple",
+              "notes": "kCIimkawScIcb5BJMBRTyayiVnmF7gqcbjrdNi3AyxcJGIkjOgEPHYz1ZUbrhbMIDFhmv3W9ohhj6dT0uXxnwlvhbSix42Xi0lWS6h699s1SfHWYX9J4CRnJj4PKojqNJ0mC4oKspTLxR1cusbJCuZ4ubWPd3nwTgFB7G9CesdJIKfQjcD0HHkeXC4DHuHYQDyym7W4LVjaGfC3e7aMFtxYB8MBNvULEXtMn7j6ycek7DzMBC3bUAeFhCT",
+              "received": true
+            }
+          ],
+          "total_price": 17948,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Ociefort",
+              "street": "Lesch Dale",
+              "house": 911,
+              "flat": 38
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T12:54:23.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6959117a1c508c5d5e86ae78",
+          "products": [
+            {
+              "_id": "6959117e1c508c5d5e86b07d",
+              "name": "Towels43901",
+              "amount": 331,
+              "price": 17948,
+              "manufacturer": "Apple",
+              "notes": "kCIimkawScIcb5BJMBRTyayiVnmF7gqcbjrdNi3AyxcJGIkjOgEPHYz1ZUbrhbMIDFhmv3W9ohhj6dT0uXxnwlvhbSix42Xi0lWS6h699s1SfHWYX9J4CRnJj4PKojqNJ0mC4oKspTLxR1cusbJCuZ4ubWPd3nwTgFB7G9CesdJIKfQjcD0HHkeXC4DHuHYQDyym7W4LVjaGfC3e7aMFtxYB8MBNvULEXtMn7j6ycek7DzMBC3bUAeFhCT",
+              "received": false
+            }
+          ],
+          "total_price": 17948,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Ociefort",
+              "street": "Lesch Dale",
+              "house": 911,
+              "flat": 38
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T12:54:23.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959117a1c508c5d5e86ae78",
+          "products": [
+            {
+              "_id": "6959117e1c508c5d5e86b07d",
+              "name": "Towels43901",
+              "amount": 331,
+              "price": 17948,
+              "manufacturer": "Apple",
+              "notes": "kCIimkawScIcb5BJMBRTyayiVnmF7gqcbjrdNi3AyxcJGIkjOgEPHYz1ZUbrhbMIDFhmv3W9ohhj6dT0uXxnwlvhbSix42Xi0lWS6h699s1SfHWYX9J4CRnJj4PKojqNJ0mC4oKspTLxR1cusbJCuZ4ubWPd3nwTgFB7G9CesdJIKfQjcD0HHkeXC4DHuHYQDyym7W4LVjaGfC3e7aMFtxYB8MBNvULEXtMn7j6ycek7DzMBC3bUAeFhCT",
+              "received": false
+            }
+          ],
+          "total_price": 17948,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Ociefort",
+              "street": "Lesch Dale",
+              "house": 911,
+              "flat": 38
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T12:54:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959117a1c508c5d5e86ae78",
+          "products": [
+            {
+              "_id": "6959117e1c508c5d5e86b07d",
+              "name": "Towels43901",
+              "amount": 331,
+              "price": 17948,
+              "manufacturer": "Apple",
+              "notes": "kCIimkawScIcb5BJMBRTyayiVnmF7gqcbjrdNi3AyxcJGIkjOgEPHYz1ZUbrhbMIDFhmv3W9ohhj6dT0uXxnwlvhbSix42Xi0lWS6h699s1SfHWYX9J4CRnJj4PKojqNJ0mC4oKspTLxR1cusbJCuZ4ubWPd3nwTgFB7G9CesdJIKfQjcD0HHkeXC4DHuHYQDyym7W4LVjaGfC3e7aMFtxYB8MBNvULEXtMn7j6ycek7DzMBC3bUAeFhCT",
+              "received": false
+            }
+          ],
+          "total_price": 17948,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:54:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

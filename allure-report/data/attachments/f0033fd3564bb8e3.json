@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:07:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3671",
+    "etag": "W/\"e57-0KbYIxINQSfQiu8f82KT2sUBWGQ\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695914861c508c5d5e8798cb",
+      "status": "In Process",
+      "customer": {
+        "_id": "695914821c508c5d5e8797dc",
+        "email": "Jeromy.Leffler@hotmail.com",
+        "name": "Harry Stanton",
+        "country": "Great Britain",
+        "city": "West Gus",
+        "street": "Wiza Well 93",
+        "house": 2,
+        "flat": 2823,
+        "phone": "+297117194194974",
+        "createdOn": "2026-01-03T13:07:14.000Z",
+        "notes": "Mh9JPv176GnlQvx7ZYyTH1BGy9LIvy"
+      },
+      "products": [
+        {
+          "_id": "695914851c508c5d5e8798b4",
+          "name": "Tuna35179",
+          "amount": 981,
+          "price": 86581,
+          "manufacturer": "Amazon",
+          "notes": "u7h4xLdTXtf8k1w9rubFW0szKYeTHlSXWqoVseFYK6cZREuKlJfP1RQVFt2gx5QuzHDGZFApWmxHATQqzF3rWfCkd2yW2BfX4GjJ231ScrYQfGYfbzoQm3OOfoL36WRHTLb6RyGc9VgbrrYjrrm02H7XmTsEObvMhwam2yMJu90jrEauthIxrv04XnE1MQcMu6CKHoFfisTRqVaofIbtVqj0nn1g9fde2lSP9ePtuTU08mUA0S9KFdLSoQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "New Kenton",
+          "street": "White Isle",
+          "house": 941,
+          "flat": 8969
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 86581,
+      "createdOn": "2026-01-03T13:07:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695914821c508c5d5e8797dc",
+          "products": [
+            {
+              "_id": "695914851c508c5d5e8798b4",
+              "name": "Tuna35179",
+              "amount": 981,
+              "price": 86581,
+              "manufacturer": "Amazon",
+              "notes": "u7h4xLdTXtf8k1w9rubFW0szKYeTHlSXWqoVseFYK6cZREuKlJfP1RQVFt2gx5QuzHDGZFApWmxHATQqzF3rWfCkd2yW2BfX4GjJ231ScrYQfGYfbzoQm3OOfoL36WRHTLb6RyGc9VgbrrYjrrm02H7XmTsEObvMhwam2yMJu90jrEauthIxrv04XnE1MQcMu6CKHoFfisTRqVaofIbtVqj0nn1g9fde2lSP9ePtuTU08mUA0S9KFdLSoQ",
+              "received": false
+            }
+          ],
+          "total_price": 86581,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Kenton",
+              "street": "White Isle",
+              "house": 941,
+              "flat": 8969
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:07:18.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695914821c508c5d5e8797dc",
+          "products": [
+            {
+              "_id": "695914851c508c5d5e8798b4",
+              "name": "Tuna35179",
+              "amount": 981,
+              "price": 86581,
+              "manufacturer": "Amazon",
+              "notes": "u7h4xLdTXtf8k1w9rubFW0szKYeTHlSXWqoVseFYK6cZREuKlJfP1RQVFt2gx5QuzHDGZFApWmxHATQqzF3rWfCkd2yW2BfX4GjJ231ScrYQfGYfbzoQm3OOfoL36WRHTLb6RyGc9VgbrrYjrrm02H7XmTsEObvMhwam2yMJu90jrEauthIxrv04XnE1MQcMu6CKHoFfisTRqVaofIbtVqj0nn1g9fde2lSP9ePtuTU08mUA0S9KFdLSoQ",
+              "received": false
+            }
+          ],
+          "total_price": 86581,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Kenton",
+              "street": "White Isle",
+              "house": 941,
+              "flat": 8969
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:07:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695914821c508c5d5e8797dc",
+          "products": [
+            {
+              "_id": "695914851c508c5d5e8798b4",
+              "name": "Tuna35179",
+              "amount": 981,
+              "price": 86581,
+              "manufacturer": "Amazon",
+              "notes": "u7h4xLdTXtf8k1w9rubFW0szKYeTHlSXWqoVseFYK6cZREuKlJfP1RQVFt2gx5QuzHDGZFApWmxHATQqzF3rWfCkd2yW2BfX4GjJ231ScrYQfGYfbzoQm3OOfoL36WRHTLb6RyGc9VgbrrYjrrm02H7XmTsEObvMhwam2yMJu90jrEauthIxrv04XnE1MQcMu6CKHoFfisTRqVaofIbtVqj0nn1g9fde2lSP9ePtuTU08mUA0S9KFdLSoQ",
+              "received": false
+            }
+          ],
+          "total_price": 86581,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:07:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

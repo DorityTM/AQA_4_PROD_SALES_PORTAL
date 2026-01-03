@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:08:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2761",
+    "etag": "W/\"ac9-ywP8t61SXZCfgjuGFVnokWq71Xc\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695914c81c508c5d5e87ac12",
+      "status": "Draft",
+      "customer": {
+        "_id": "695914c41c508c5d5e87ab95",
+        "email": "Spencer.Jast-Crooks@yahoo.com",
+        "name": "Thurman Denesik",
+        "country": "Canada",
+        "city": "Baltimore",
+        "street": "Kelley Shore 66",
+        "house": 562,
+        "flat": 4964,
+        "phone": "+640752428241492",
+        "createdOn": "2026-01-03T13:08:20.000Z",
+        "notes": "p1oI9Ok9hXqTPUWdGJ2zBlTvgWIbKd"
+      },
+      "products": [
+        {
+          "_id": "695914c81c508c5d5e87abfa",
+          "name": "Fish90228",
+          "amount": 194,
+          "price": 16000,
+          "manufacturer": "Apple",
+          "notes": "7tjUNBAih0qKCGPLQ2hCWpPcGtImGR7yfexSfqDJAyyBUR81jhNM50UIHec17WeXzXLmXRA2sHvQWNZBKLjy10SOsjHjh6Jirx0mHWrQD9QIsLufQMriBxpDFAFIrhcLdLaRh1s8j05mJKsXjSJV6UMRiQHtGmSOaQEFg26z3Y2JzxFgqPLzPPsYZmzgKnwiqQDyXY3G9Upg0pFfOfiveq6wF5YE52W8vnuf4HGtUUcI8xKoo3i3w4W6Vv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Port Chance",
+          "street": "S Broadway Street",
+          "house": 605,
+          "flat": 5320
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16000,
+      "createdOn": "2026-01-03T13:08:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695914c41c508c5d5e87ab95",
+          "products": [
+            {
+              "_id": "695914c81c508c5d5e87abfa",
+              "name": "Fish90228",
+              "amount": 194,
+              "price": 16000,
+              "manufacturer": "Apple",
+              "notes": "7tjUNBAih0qKCGPLQ2hCWpPcGtImGR7yfexSfqDJAyyBUR81jhNM50UIHec17WeXzXLmXRA2sHvQWNZBKLjy10SOsjHjh6Jirx0mHWrQD9QIsLufQMriBxpDFAFIrhcLdLaRh1s8j05mJKsXjSJV6UMRiQHtGmSOaQEFg26z3Y2JzxFgqPLzPPsYZmzgKnwiqQDyXY3G9Upg0pFfOfiveq6wF5YE52W8vnuf4HGtUUcI8xKoo3i3w4W6Vv",
+              "received": false
+            }
+          ],
+          "total_price": 16000,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Port Chance",
+              "street": "S Broadway Street",
+              "house": 605,
+              "flat": 5320
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:08:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695914c41c508c5d5e87ab95",
+          "products": [
+            {
+              "_id": "695914c81c508c5d5e87abfa",
+              "name": "Fish90228",
+              "amount": 194,
+              "price": 16000,
+              "manufacturer": "Apple",
+              "notes": "7tjUNBAih0qKCGPLQ2hCWpPcGtImGR7yfexSfqDJAyyBUR81jhNM50UIHec17WeXzXLmXRA2sHvQWNZBKLjy10SOsjHjh6Jirx0mHWrQD9QIsLufQMriBxpDFAFIrhcLdLaRh1s8j05mJKsXjSJV6UMRiQHtGmSOaQEFg26z3Y2JzxFgqPLzPPsYZmzgKnwiqQDyXY3G9Upg0pFfOfiveq6wF5YE52W8vnuf4HGtUUcI8xKoo3i3w4W6Vv",
+              "received": false
+            }
+          ],
+          "total_price": 16000,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:08:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

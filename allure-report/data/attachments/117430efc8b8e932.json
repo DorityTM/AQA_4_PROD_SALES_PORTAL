@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:52:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3714",
+    "etag": "W/\"e82-fHTJU7qU0BjWxidEXxEzHgrX4sI\"",
+    "keep-alive": "timeout=5, max=66",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695911231c508c5d5e868ac4",
+      "status": "In Process",
+      "customer": {
+        "_id": "6959111e1c508c5d5e868863",
+        "email": "Vernie_VonRueden@hotmail.com",
+        "name": "Yasmine Berge",
+        "country": "Germany",
+        "city": "Rosenbaumstead",
+        "street": "Polly Center 3",
+        "house": 207,
+        "flat": 3635,
+        "phone": "+588048268373776",
+        "createdOn": "2026-01-03T12:52:46.000Z",
+        "notes": "7x4dPzVfCcPP0GPVREdr7WviiylgA6"
+      },
+      "products": [
+        {
+          "_id": "695911221c508c5d5e868a66",
+          "name": "Pizza43712",
+          "amount": 26,
+          "price": 16733,
+          "manufacturer": "Sony",
+          "notes": "fFQUsBn1tQY5wiEVbOvKtxHwNpYqshNHEgyooawScENkvq4466lmH6h2NhrEZOzDSuG4xm8dVd1DymfIPzZ3iLBqKAf5D5SezwUqlkCclShQc2z3351QHxNsZFl2RHfY4b64gZuJBXmqbaHLeg0cEFPYZSTMENLkxiPuYLu25Uob1u5QevEPdeuOtj9TqQ8lkY1aGHlCzbxOgfI7weJGVdz97msHhfJLPt8o8KJMVpOfXQf8SzTinJTd8s",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Lake Bobbieborough",
+          "street": "Emile Glens",
+          "house": 99,
+          "flat": 8617
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 16733,
+      "createdOn": "2026-01-03T12:52:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6959111e1c508c5d5e868863",
+          "products": [
+            {
+              "_id": "695911221c508c5d5e868a66",
+              "name": "Pizza43712",
+              "amount": 26,
+              "price": 16733,
+              "manufacturer": "Sony",
+              "notes": "fFQUsBn1tQY5wiEVbOvKtxHwNpYqshNHEgyooawScENkvq4466lmH6h2NhrEZOzDSuG4xm8dVd1DymfIPzZ3iLBqKAf5D5SezwUqlkCclShQc2z3351QHxNsZFl2RHfY4b64gZuJBXmqbaHLeg0cEFPYZSTMENLkxiPuYLu25Uob1u5QevEPdeuOtj9TqQ8lkY1aGHlCzbxOgfI7weJGVdz97msHhfJLPt8o8KJMVpOfXQf8SzTinJTd8s",
+              "received": false
+            }
+          ],
+          "total_price": 16733,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Bobbieborough",
+              "street": "Emile Glens",
+              "house": 99,
+              "flat": 8617
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T12:52:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959111e1c508c5d5e868863",
+          "products": [
+            {
+              "_id": "695911221c508c5d5e868a66",
+              "name": "Pizza43712",
+              "amount": 26,
+              "price": 16733,
+              "manufacturer": "Sony",
+              "notes": "fFQUsBn1tQY5wiEVbOvKtxHwNpYqshNHEgyooawScENkvq4466lmH6h2NhrEZOzDSuG4xm8dVd1DymfIPzZ3iLBqKAf5D5SezwUqlkCclShQc2z3351QHxNsZFl2RHfY4b64gZuJBXmqbaHLeg0cEFPYZSTMENLkxiPuYLu25Uob1u5QevEPdeuOtj9TqQ8lkY1aGHlCzbxOgfI7weJGVdz97msHhfJLPt8o8KJMVpOfXQf8SzTinJTd8s",
+              "received": false
+            }
+          ],
+          "total_price": 16733,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Bobbieborough",
+              "street": "Emile Glens",
+              "house": 99,
+              "flat": 8617
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T12:52:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959111e1c508c5d5e868863",
+          "products": [
+            {
+              "_id": "695911221c508c5d5e868a66",
+              "name": "Pizza43712",
+              "amount": 26,
+              "price": 16733,
+              "manufacturer": "Sony",
+              "notes": "fFQUsBn1tQY5wiEVbOvKtxHwNpYqshNHEgyooawScENkvq4466lmH6h2NhrEZOzDSuG4xm8dVd1DymfIPzZ3iLBqKAf5D5SezwUqlkCclShQc2z3351QHxNsZFl2RHfY4b64gZuJBXmqbaHLeg0cEFPYZSTMENLkxiPuYLu25Uob1u5QevEPdeuOtj9TqQ8lkY1aGHlCzbxOgfI7weJGVdz97msHhfJLPt8o8KJMVpOfXQf8SzTinJTd8s",
+              "received": false
+            }
+          ],
+          "total_price": 16733,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:52:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

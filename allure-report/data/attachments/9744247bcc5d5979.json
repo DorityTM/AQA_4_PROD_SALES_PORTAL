@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:09:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5224",
+    "etag": "W/\"1468-HTQ+ylYIK43zYfDdkEKHkTyvdL0\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695915181c508c5d5e87bfa9",
+      "status": "In Process",
+      "customer": {
+        "_id": "695915101c508c5d5e87bdc4",
+        "email": "Adrianna62@gmail.com",
+        "name": "Issac Raynor",
+        "country": "Belarus",
+        "city": "Aliso Viejo",
+        "street": "Ullrich Way 31",
+        "house": 724,
+        "flat": 3617,
+        "phone": "+880812721568606",
+        "createdOn": "2026-01-03T13:09:36.000Z",
+        "notes": "2d6Cn0GHHpvdQ2ncZnD5Be7RVuDdUU"
+      },
+      "products": [
+        {
+          "_id": "695915141c508c5d5e87be49",
+          "name": "Salad54918",
+          "amount": 253,
+          "price": 88686,
+          "manufacturer": "Google",
+          "notes": "a7Pz1GCr51YcdtZOVvMjmSKk7Hw2I7rehN1fZSFJ43dDeXl34JJV5K6hNt8L4Cy1OF2V7r0fC1JRAzhaZklaEnMLcVzwvSVUoumg6QXzHKQeM0OJOclsRzubZ3BOqjm8vwtZY2ujYftGq7zm7y52eY37zqeI0fO6DduLpSTX1kg5koabeaoIsTl9RkwX7CBpZ2N2n2Ojxzrt1IYT1vEclOsuvCtHcHOCwyz3FQPIe5RrXbMfI3ydpKKat2",
+          "received": false
+        },
+        {
+          "_id": "695915181c508c5d5e87bf9b",
+          "name": "Sausages63093",
+          "amount": 876,
+          "price": 37905,
+          "manufacturer": "Xiaomi",
+          "notes": "A6NrXyjhn2SRzHZRDARRhMa8cNKAWmOnpGZTUyYvrNcaO1rPaabinWRZLKtBJfbTPBozK8mgLZB5FO6dNTysmecN0RqGjmwV1eY5mfNp0Qlk4c0yQ2G81l9m3oNDl4MSHwXgNL6GKm6BFY79CpDuLvQ4ZtMYe8QfOI8H31yloqF2sBhgzFAoBzOIoFhL2hsvicebI0OtsFHdu7EQJfYzKI9TyZYA0239fLJFh4GQcaqu50nrE8aU6vybBE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Mesa",
+          "street": "W Chestnut Street",
+          "house": 311,
+          "flat": 7434
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 126591,
+      "createdOn": "2026-01-03T13:09:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695915101c508c5d5e87bdc4",
+          "products": [
+            {
+              "_id": "695915141c508c5d5e87be49",
+              "name": "Salad54918",
+              "amount": 253,
+              "price": 88686,
+              "manufacturer": "Google",
+              "notes": "a7Pz1GCr51YcdtZOVvMjmSKk7Hw2I7rehN1fZSFJ43dDeXl34JJV5K6hNt8L4Cy1OF2V7r0fC1JRAzhaZklaEnMLcVzwvSVUoumg6QXzHKQeM0OJOclsRzubZ3BOqjm8vwtZY2ujYftGq7zm7y52eY37zqeI0fO6DduLpSTX1kg5koabeaoIsTl9RkwX7CBpZ2N2n2Ojxzrt1IYT1vEclOsuvCtHcHOCwyz3FQPIe5RrXbMfI3ydpKKat2",
+              "received": false
+            },
+            {
+              "_id": "695915181c508c5d5e87bf9b",
+              "name": "Sausages63093",
+              "amount": 876,
+              "price": 37905,
+              "manufacturer": "Xiaomi",
+              "notes": "A6NrXyjhn2SRzHZRDARRhMa8cNKAWmOnpGZTUyYvrNcaO1rPaabinWRZLKtBJfbTPBozK8mgLZB5FO6dNTysmecN0RqGjmwV1eY5mfNp0Qlk4c0yQ2G81l9m3oNDl4MSHwXgNL6GKm6BFY79CpDuLvQ4ZtMYe8QfOI8H31yloqF2sBhgzFAoBzOIoFhL2hsvicebI0OtsFHdu7EQJfYzKI9TyZYA0239fLJFh4GQcaqu50nrE8aU6vybBE",
+              "received": false
+            }
+          ],
+          "total_price": 126591,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Mesa",
+              "street": "W Chestnut Street",
+              "house": 311,
+              "flat": 7434
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:09:45.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695915101c508c5d5e87bdc4",
+          "products": [
+            {
+              "_id": "695915141c508c5d5e87be49",
+              "name": "Salad54918",
+              "amount": 253,
+              "price": 88686,
+              "manufacturer": "Google",
+              "notes": "a7Pz1GCr51YcdtZOVvMjmSKk7Hw2I7rehN1fZSFJ43dDeXl34JJV5K6hNt8L4Cy1OF2V7r0fC1JRAzhaZklaEnMLcVzwvSVUoumg6QXzHKQeM0OJOclsRzubZ3BOqjm8vwtZY2ujYftGq7zm7y52eY37zqeI0fO6DduLpSTX1kg5koabeaoIsTl9RkwX7CBpZ2N2n2Ojxzrt1IYT1vEclOsuvCtHcHOCwyz3FQPIe5RrXbMfI3ydpKKat2",
+              "received": false
+            },
+            {
+              "_id": "695915181c508c5d5e87bf9b",
+              "name": "Sausages63093",
+              "amount": 876,
+              "price": 37905,
+              "manufacturer": "Xiaomi",
+              "notes": "A6NrXyjhn2SRzHZRDARRhMa8cNKAWmOnpGZTUyYvrNcaO1rPaabinWRZLKtBJfbTPBozK8mgLZB5FO6dNTysmecN0RqGjmwV1eY5mfNp0Qlk4c0yQ2G81l9m3oNDl4MSHwXgNL6GKm6BFY79CpDuLvQ4ZtMYe8QfOI8H31yloqF2sBhgzFAoBzOIoFhL2hsvicebI0OtsFHdu7EQJfYzKI9TyZYA0239fLJFh4GQcaqu50nrE8aU6vybBE",
+              "received": false
+            }
+          ],
+          "total_price": 126591,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Mesa",
+              "street": "W Chestnut Street",
+              "house": 311,
+              "flat": 7434
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:09:45.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695915101c508c5d5e87bdc4",
+          "products": [
+            {
+              "_id": "695915141c508c5d5e87be49",
+              "name": "Salad54918",
+              "amount": 253,
+              "price": 88686,
+              "manufacturer": "Google",
+              "notes": "a7Pz1GCr51YcdtZOVvMjmSKk7Hw2I7rehN1fZSFJ43dDeXl34JJV5K6hNt8L4Cy1OF2V7r0fC1JRAzhaZklaEnMLcVzwvSVUoumg6QXzHKQeM0OJOclsRzubZ3BOqjm8vwtZY2ujYftGq7zm7y52eY37zqeI0fO6DduLpSTX1kg5koabeaoIsTl9RkwX7CBpZ2N2n2Ojxzrt1IYT1vEclOsuvCtHcHOCwyz3FQPIe5RrXbMfI3ydpKKat2",
+              "received": false
+            },
+            {
+              "_id": "695915181c508c5d5e87bf9b",
+              "name": "Sausages63093",
+              "amount": 876,
+              "price": 37905,
+              "manufacturer": "Xiaomi",
+              "notes": "A6NrXyjhn2SRzHZRDARRhMa8cNKAWmOnpGZTUyYvrNcaO1rPaabinWRZLKtBJfbTPBozK8mgLZB5FO6dNTysmecN0RqGjmwV1eY5mfNp0Qlk4c0yQ2G81l9m3oNDl4MSHwXgNL6GKm6BFY79CpDuLvQ4ZtMYe8QfOI8H31yloqF2sBhgzFAoBzOIoFhL2hsvicebI0OtsFHdu7EQJfYzKI9TyZYA0239fLJFh4GQcaqu50nrE8aU6vybBE",
+              "received": false
+            }
+          ],
+          "total_price": 126591,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:09:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

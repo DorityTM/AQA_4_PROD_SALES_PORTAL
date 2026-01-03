@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:09:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2759",
+    "etag": "W/\"ac7-T6L3ExHDudfia4ALQF6Fqr9i+RM\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695914f01c508c5d5e87b60d",
+      "status": "Draft",
+      "customer": {
+        "_id": "695914ec1c508c5d5e87b5cc",
+        "email": "Raymundo3@gmail.com",
+        "name": "Vincent Konopelski",
+        "country": "Belarus",
+        "city": "La Mirada",
+        "street": "Wyman Street 59",
+        "house": 702,
+        "flat": 8745,
+        "phone": "+095106995729817",
+        "createdOn": "2026-01-03T13:09:00.000Z",
+        "notes": "Jnv5pJn9egyrBnXhxI8OC2IlufHk2T"
+      },
+      "products": [
+        {
+          "_id": "695914f01c508c5d5e87b601",
+          "name": "Soap92649",
+          "amount": 684,
+          "price": 65035,
+          "manufacturer": "Samsung",
+          "notes": "4UrUNg25NDsVU3XL7ZcC8TMCPi5MgEhpguYUQyngLNSQPEMSYztsCU4cGQ1drKq84te0A0Cr2pRwIIXOjAE6ShOtbuYdVlsXedLpdwOOZC5wCktOvJsPijOUNdlNkqiAxQLcsl8EEOBX2wRElUbqDIIbzDeGOw6A0Tn8tsvrU8QNofvmDB8R7ZSeR5Cab8PLu9KeepRoH5JwoCrNTCMxL3Gqpr84gW8OfodXMmMziiOfSLs5Elb54jaq64",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Fort Vernie",
+          "street": "Heidenreich Views",
+          "house": 253,
+          "flat": 7063
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 65035,
+      "createdOn": "2026-01-03T13:09:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695914ec1c508c5d5e87b5cc",
+          "products": [
+            {
+              "_id": "695914f01c508c5d5e87b601",
+              "name": "Soap92649",
+              "amount": 684,
+              "price": 65035,
+              "manufacturer": "Samsung",
+              "notes": "4UrUNg25NDsVU3XL7ZcC8TMCPi5MgEhpguYUQyngLNSQPEMSYztsCU4cGQ1drKq84te0A0Cr2pRwIIXOjAE6ShOtbuYdVlsXedLpdwOOZC5wCktOvJsPijOUNdlNkqiAxQLcsl8EEOBX2wRElUbqDIIbzDeGOw6A0Tn8tsvrU8QNofvmDB8R7ZSeR5Cab8PLu9KeepRoH5JwoCrNTCMxL3Gqpr84gW8OfodXMmMziiOfSLs5Elb54jaq64",
+              "received": false
+            }
+          ],
+          "total_price": 65035,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Vernie",
+              "street": "Heidenreich Views",
+              "house": 253,
+              "flat": 7063
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:09:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695914ec1c508c5d5e87b5cc",
+          "products": [
+            {
+              "_id": "695914f01c508c5d5e87b601",
+              "name": "Soap92649",
+              "amount": 684,
+              "price": 65035,
+              "manufacturer": "Samsung",
+              "notes": "4UrUNg25NDsVU3XL7ZcC8TMCPi5MgEhpguYUQyngLNSQPEMSYztsCU4cGQ1drKq84te0A0Cr2pRwIIXOjAE6ShOtbuYdVlsXedLpdwOOZC5wCktOvJsPijOUNdlNkqiAxQLcsl8EEOBX2wRElUbqDIIbzDeGOw6A0Tn8tsvrU8QNofvmDB8R7ZSeR5Cab8PLu9KeepRoH5JwoCrNTCMxL3Gqpr84gW8OfodXMmMziiOfSLs5Elb54jaq64",
+              "received": false
+            }
+          ],
+          "total_price": 65035,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:09:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

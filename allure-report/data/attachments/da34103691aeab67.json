@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:07:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2761",
+    "etag": "W/\"ac9-5YFbkBwtvk/NxI97REEuC3phofU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959147d1c508c5d5e8796e2",
+      "status": "Draft",
+      "customer": {
+        "_id": "695914791c508c5d5e879625",
+        "email": "Francisca.Bartell@hotmail.com",
+        "name": "Dasia Boehm",
+        "country": "Canada",
+        "city": "MacGyverchester",
+        "street": "The Chase 8",
+        "house": 878,
+        "flat": 2134,
+        "phone": "+492376864224304",
+        "createdOn": "2026-01-03T13:07:05.000Z",
+        "notes": "8eUG6SZhOZCLpmD9I3WKCbyjm4jPJZ"
+      },
+      "products": [
+        {
+          "_id": "6959147d1c508c5d5e8796ce",
+          "name": "Shirt13065",
+          "amount": 824,
+          "price": 78759,
+          "manufacturer": "Sony",
+          "notes": "DDZeG7NrozOIJ7iHp66SFIG4iLnBEkMGneouKGHHNJDUVzdxREYj5pwzQ3NP56p2vUbDOSQXNVaAZYFc06bQTBnYDGIcx1BZPRZ4DA6PZQVr8j31Ke44KUQvLEbBc7uoEwN92xRj4Ggq6AQq122BzNsc2ndOn4wE1ugP67Hr18shcVy7EFxMfh1x0L3aWRmZyOB7TmgZ60qQ8YRzsk9SdV8hvnEhFiAyijSbogBsGY53IP7ailbvpB7Hec",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Terranceworth",
+          "street": "Kale Place",
+          "house": 453,
+          "flat": 5314
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 78759,
+      "createdOn": "2026-01-03T13:07:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695914791c508c5d5e879625",
+          "products": [
+            {
+              "_id": "6959147d1c508c5d5e8796ce",
+              "name": "Shirt13065",
+              "amount": 824,
+              "price": 78759,
+              "manufacturer": "Sony",
+              "notes": "DDZeG7NrozOIJ7iHp66SFIG4iLnBEkMGneouKGHHNJDUVzdxREYj5pwzQ3NP56p2vUbDOSQXNVaAZYFc06bQTBnYDGIcx1BZPRZ4DA6PZQVr8j31Ke44KUQvLEbBc7uoEwN92xRj4Ggq6AQq122BzNsc2ndOn4wE1ugP67Hr18shcVy7EFxMfh1x0L3aWRmZyOB7TmgZ60qQ8YRzsk9SdV8hvnEhFiAyijSbogBsGY53IP7ailbvpB7Hec",
+              "received": false
+            }
+          ],
+          "total_price": 78759,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Terranceworth",
+              "street": "Kale Place",
+              "house": 453,
+              "flat": 5314
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:07:09.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695914791c508c5d5e879625",
+          "products": [
+            {
+              "_id": "6959147d1c508c5d5e8796ce",
+              "name": "Shirt13065",
+              "amount": 824,
+              "price": 78759,
+              "manufacturer": "Sony",
+              "notes": "DDZeG7NrozOIJ7iHp66SFIG4iLnBEkMGneouKGHHNJDUVzdxREYj5pwzQ3NP56p2vUbDOSQXNVaAZYFc06bQTBnYDGIcx1BZPRZ4DA6PZQVr8j31Ke44KUQvLEbBc7uoEwN92xRj4Ggq6AQq122BzNsc2ndOn4wE1ugP67Hr18shcVy7EFxMfh1x0L3aWRmZyOB7TmgZ60qQ8YRzsk9SdV8hvnEhFiAyijSbogBsGY53IP7ailbvpB7Hec",
+              "received": false
+            }
+          ],
+          "total_price": 78759,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:07:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

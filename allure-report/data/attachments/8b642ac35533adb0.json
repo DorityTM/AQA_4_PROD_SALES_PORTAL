@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 13:07:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2752",
+    "etag": "W/\"ac0-t++jcmIT9uXnkxGBr/SztPz4Pjg\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695914aa1c508c5d5e87a314",
+      "status": "Draft",
+      "customer": {
+        "_id": "695914a61c508c5d5e87a261",
+        "email": "Zachary_Bosco@gmail.com",
+        "name": "Gerard Jones",
+        "country": "France",
+        "city": "Baumbachworth",
+        "street": "W 11th Street 64",
+        "house": 998,
+        "flat": 8554,
+        "phone": "+931986089438240",
+        "createdOn": "2026-01-03T13:07:50.000Z",
+        "notes": "KOE38E809EPJyMpiEG52POvZpMhr5m"
+      },
+      "products": [
+        {
+          "_id": "695914aa1c508c5d5e87a30c",
+          "name": "Chips6649",
+          "amount": 382,
+          "price": 64063,
+          "manufacturer": "Sony",
+          "notes": "X77Fs46YM6EPwMR9m5ygJC1iEYATxufBPAtwQPz3YqE2C6hvGrERteF8gLQRjevSlKlbT0bHAxBAhHp5OhEi5hJ1DTc7FIm51d2ooq8PugmaClQwYciqp0LVpX9NsqZB40ydlE9U39QjSenVTcReAEdbMtISCeXx2MSuyXzRVBQ6OTAS14Lx0rJ1fk1dU36DJitcT2TJfZ9Pgq2YqFz19FFJBEq773YxdWsxVquV6MzSVSDd9Zellf7VsH",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Huntington Beach",
+          "street": "Rohan Canyon",
+          "house": 621,
+          "flat": 8840
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64063,
+      "createdOn": "2026-01-03T13:07:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695914a61c508c5d5e87a261",
+          "products": [
+            {
+              "_id": "695914aa1c508c5d5e87a30c",
+              "name": "Chips6649",
+              "amount": 382,
+              "price": 64063,
+              "manufacturer": "Sony",
+              "notes": "X77Fs46YM6EPwMR9m5ygJC1iEYATxufBPAtwQPz3YqE2C6hvGrERteF8gLQRjevSlKlbT0bHAxBAhHp5OhEi5hJ1DTc7FIm51d2ooq8PugmaClQwYciqp0LVpX9NsqZB40ydlE9U39QjSenVTcReAEdbMtISCeXx2MSuyXzRVBQ6OTAS14Lx0rJ1fk1dU36DJitcT2TJfZ9Pgq2YqFz19FFJBEq773YxdWsxVquV6MzSVSDd9Zellf7VsH",
+              "received": false
+            }
+          ],
+          "total_price": 64063,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Huntington Beach",
+              "street": "Rohan Canyon",
+              "house": 621,
+              "flat": 8840
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T13:07:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695914a61c508c5d5e87a261",
+          "products": [
+            {
+              "_id": "695914aa1c508c5d5e87a30c",
+              "name": "Chips6649",
+              "amount": 382,
+              "price": 64063,
+              "manufacturer": "Sony",
+              "notes": "X77Fs46YM6EPwMR9m5ygJC1iEYATxufBPAtwQPz3YqE2C6hvGrERteF8gLQRjevSlKlbT0bHAxBAhHp5OhEi5hJ1DTc7FIm51d2ooq8PugmaClQwYciqp0LVpX9NsqZB40ydlE9U39QjSenVTcReAEdbMtISCeXx2MSuyXzRVBQ6OTAS14Lx0rJ1fk1dU36DJitcT2TJfZ9Pgq2YqFz19FFJBEq773YxdWsxVquV6MzSVSDd9Zellf7VsH",
+              "received": false
+            }
+          ],
+          "total_price": 64063,
+          "delivery": null,
+          "changedOn": "2026-01-03T13:07:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

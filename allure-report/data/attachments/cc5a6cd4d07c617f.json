@@ -1,0 +1,113 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 12:55:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2411",
+    "etag": "W/\"96b-mtQvacdNJCJ2GBDhwWY2GeCogzE\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695911c31c508c5d5e86cf4d",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695911c01c508c5d5e86cd84",
+        "email": "Electa12@gmail.com",
+        "name": "Magdalen Crona",
+        "country": "France",
+        "city": "Alvatown",
+        "street": "Thiel Rue 96",
+        "house": 626,
+        "flat": 6713,
+        "phone": "+141837359663210",
+        "createdOn": "2026-01-03T12:55:28.000Z",
+        "notes": "jaCE7IiIEMkO5lFScfsZyrZDPoFIxU"
+      },
+      "products": [
+        {
+          "_id": "695911c31c508c5d5e86cf33",
+          "name": "Car67345",
+          "amount": 526,
+          "price": 98314,
+          "manufacturer": "Sony",
+          "notes": "nINe5T1dqkW8mzwx6oE6mMSkpN0GCjtLzQwkSleZ0jyF7w88k5jlksLxOo6XyR8IB5JxRkVqkd34RxDZjAhshlitI31GJejytloIhucndMWvvQS8KsYodz9yGS50OkCbt2fFsbDZKIPnscUbeCV91U4dgibXp754yAxAcGiOHTZs4wNvgiIwTpWQVjBYeIJ2zuGtnNc4EyfgVGPOqDtp2rG4qVSFAdj6pUgnVNpDtg5LoGCNEEAyePOCCg",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 98314,
+      "createdOn": "2026-01-03T12:55:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695911c01c508c5d5e86cd84",
+          "products": [
+            {
+              "_id": "695911c31c508c5d5e86cf33",
+              "name": "Car67345",
+              "amount": 526,
+              "price": 98314,
+              "manufacturer": "Sony",
+              "notes": "nINe5T1dqkW8mzwx6oE6mMSkpN0GCjtLzQwkSleZ0jyF7w88k5jlksLxOo6XyR8IB5JxRkVqkd34RxDZjAhshlitI31GJejytloIhucndMWvvQS8KsYodz9yGS50OkCbt2fFsbDZKIPnscUbeCV91U4dgibXp754yAxAcGiOHTZs4wNvgiIwTpWQVjBYeIJ2zuGtnNc4EyfgVGPOqDtp2rG4qVSFAdj6pUgnVNpDtg5LoGCNEEAyePOCCg",
+              "received": false
+            }
+          ],
+          "total_price": 98314,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:55:32.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695911c01c508c5d5e86cd84",
+          "products": [
+            {
+              "_id": "695911c31c508c5d5e86cf33",
+              "name": "Car67345",
+              "amount": 526,
+              "price": 98314,
+              "manufacturer": "Sony",
+              "notes": "nINe5T1dqkW8mzwx6oE6mMSkpN0GCjtLzQwkSleZ0jyF7w88k5jlksLxOo6XyR8IB5JxRkVqkd34RxDZjAhshlitI31GJejytloIhucndMWvvQS8KsYodz9yGS50OkCbt2fFsbDZKIPnscUbeCV91U4dgibXp754yAxAcGiOHTZs4wNvgiIwTpWQVjBYeIJ2zuGtnNc4EyfgVGPOqDtp2rG4qVSFAdj6pUgnVNpDtg5LoGCNEEAyePOCCg",
+              "received": false
+            }
+          ],
+          "total_price": 98314,
+          "delivery": null,
+          "changedOn": "2026-01-03T12:55:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
