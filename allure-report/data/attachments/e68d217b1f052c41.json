@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:24:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1682",
+    "etag": "W/\"692-Bh+hpmufTeW2bSV/jDkTLVsvwwo\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695942a51c508c5d5e8fe5a6",
+        "email": "Brannon.Lemke-Rippin@gmail.com",
+        "name": "Russ Hamill",
+        "country": "Germany",
+        "city": "Duluth",
+        "street": "Bechtelar Streets 66",
+        "house": 27,
+        "flat": 3822,
+        "phone": "+322667544186058",
+        "createdOn": "2026-01-03T16:24:05.000Z",
+        "notes": "hdzKDf5VGylyMkPV5AK5eeB61p98ii"
+      },
+      "products": [
+        {
+          "_id": "695942a61c508c5d5e8fe5ad",
+          "name": "Tuna73530",
+          "amount": 783,
+          "price": 66551,
+          "manufacturer": "Microsoft",
+          "notes": "UPnh8AslFtCNbJYM6ewAMhOIr3iARH8qR3HRpMBKMsHVIEU6NFKAvMw48DczTGFGHlWsRN8lgMOUFWtGtw6Apq3e4zHuU3wnR4qUQMUc62DpPlbPX5io9OSWuP5WgaaKFG4N98gG6iHGfbuhkLZjd4MjOryN8hFhLlf07yEEU5QumCtHDbxLX8cmClCReqq0imLVpJ7UQpqsj1MIXPObG4tsXPoGgXZuiwYxpUAJk9PExr6Sj3TIwcPmMc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 66551,
+      "createdOn": "2026-01-03T16:24:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695942a51c508c5d5e8fe5a6",
+          "products": [
+            {
+              "_id": "695942a61c508c5d5e8fe5ad",
+              "name": "Tuna73530",
+              "amount": 783,
+              "price": 66551,
+              "manufacturer": "Microsoft",
+              "notes": "UPnh8AslFtCNbJYM6ewAMhOIr3iARH8qR3HRpMBKMsHVIEU6NFKAvMw48DczTGFGHlWsRN8lgMOUFWtGtw6Apq3e4zHuU3wnR4qUQMUc62DpPlbPX5io9OSWuP5WgaaKFG4N98gG6iHGfbuhkLZjd4MjOryN8hFhLlf07yEEU5QumCtHDbxLX8cmClCReqq0imLVpJ7UQpqsj1MIXPObG4tsXPoGgXZuiwYxpUAJk9PExr6Sj3TIwcPmMc",
+              "received": false
+            }
+          ],
+          "total_price": 66551,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:24:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695942a61c508c5d5e8fe5c5"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

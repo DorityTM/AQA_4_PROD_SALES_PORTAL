@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:27:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2730",
+    "etag": "W/\"aaa-35S0uEZ+HgMUmKUlL4cyDDwITfM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695943631c508c5d5e9008c3",
+      "status": "Draft",
+      "customer": {
+        "_id": "695943621c508c5d5e9008a4",
+        "email": "Angela59@hotmail.com",
+        "name": "Gregg Hirthe",
+        "country": "Belarus",
+        "city": "Amelyview",
+        "street": "Johnston Mills 56",
+        "house": 25,
+        "flat": 8467,
+        "phone": "+912253872300075",
+        "createdOn": "2026-01-03T16:27:14.000Z",
+        "notes": "LMYjiZYzZRPccGFbcPAeo6twcGP0Hd"
+      },
+      "products": [
+        {
+          "_id": "695943631c508c5d5e9008ae",
+          "name": "Bike23324",
+          "amount": 647,
+          "price": 2420,
+          "manufacturer": "Sony",
+          "notes": "KdVpmXxxEvGO5onsMpUlv1xueZHxvoKAwJQlp24FfjL0g3q8X7YeknCEa3Tlllucjtm75vf01m8idyub95JmweeqqPoR9pZfPqXy1Sj1EFoPzaLncewT5fx0iEaiVX4QqMfPHTobekTwAtqxpxZ7DnCZYUKnQ6kTTFDC75YM59S9fqvTkUwv5TqGfHKCrvZ1nrDrfuS0GxbDhevrERSnq4bjES2eUpngfIdwrkKrv9gEd5yEBEYWfzqJTt",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Waelchistad",
+          "street": "Verna Drive",
+          "house": 195,
+          "flat": 1043
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 2420,
+      "createdOn": "2026-01-03T16:27:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695943621c508c5d5e9008a4",
+          "products": [
+            {
+              "_id": "695943631c508c5d5e9008ae",
+              "name": "Bike23324",
+              "amount": 647,
+              "price": 2420,
+              "manufacturer": "Sony",
+              "notes": "KdVpmXxxEvGO5onsMpUlv1xueZHxvoKAwJQlp24FfjL0g3q8X7YeknCEa3Tlllucjtm75vf01m8idyub95JmweeqqPoR9pZfPqXy1Sj1EFoPzaLncewT5fx0iEaiVX4QqMfPHTobekTwAtqxpxZ7DnCZYUKnQ6kTTFDC75YM59S9fqvTkUwv5TqGfHKCrvZ1nrDrfuS0GxbDhevrERSnq4bjES2eUpngfIdwrkKrv9gEd5yEBEYWfzqJTt",
+              "received": false
+            }
+          ],
+          "total_price": 2420,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Waelchistad",
+              "street": "Verna Drive",
+              "house": 195,
+              "flat": 1043
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:27:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695943621c508c5d5e9008a4",
+          "products": [
+            {
+              "_id": "695943631c508c5d5e9008ae",
+              "name": "Bike23324",
+              "amount": 647,
+              "price": 2420,
+              "manufacturer": "Sony",
+              "notes": "KdVpmXxxEvGO5onsMpUlv1xueZHxvoKAwJQlp24FfjL0g3q8X7YeknCEa3Tlllucjtm75vf01m8idyub95JmweeqqPoR9pZfPqXy1Sj1EFoPzaLncewT5fx0iEaiVX4QqMfPHTobekTwAtqxpxZ7DnCZYUKnQ6kTTFDC75YM59S9fqvTkUwv5TqGfHKCrvZ1nrDrfuS0GxbDhevrERSnq4bjES2eUpngfIdwrkKrv9gEd5yEBEYWfzqJTt",
+              "received": false
+            }
+          ],
+          "total_price": 2420,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:27:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

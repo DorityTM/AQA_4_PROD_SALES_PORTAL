@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:08:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3658",
+    "etag": "W/\"e4a-XT+S4hyOFIKyqM5sNSyUJKq6l+Q\"",
+    "keep-alive": "timeout=5, max=47",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593efb1c508c5d5e8ecacd",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69593ef21c508c5d5e8ec951",
+        "email": "Alicia45@yahoo.com",
+        "name": "Myah Howell",
+        "country": "Russia",
+        "city": "Boehmberg",
+        "street": "Heather Close 67",
+        "house": 270,
+        "flat": 5689,
+        "phone": "+538472294110067",
+        "createdOn": "2026-01-03T16:08:18.000Z",
+        "notes": "ajr3r9IUuiCygXkfTGcWSVN8m0N0Br"
+      },
+      "products": [
+        {
+          "_id": "69593ef91c508c5d5e8eca94",
+          "name": "Bacon48267",
+          "amount": 267,
+          "price": 199,
+          "manufacturer": "Tesla",
+          "notes": "AF7Fx54H7DLJr8qWi6TieKS8vQDEithb4rvurNXGCp50xQ5e4BP5GZUXSFT7ISfFZYDMKQYoPsXDOyT307BUFjLDi7ozVdi8BWznE1SGd2CgVdVpEZ3e6a24t73GHIijktDKLzaIBpxRQBoitn1atxN2pyZ9Kprcupc0eLDuSCnTefhl9dGdRz423kNAWGk7oeVZSTAMljmgwGkCvsaG28jBNdSfLkyKlEyP6GOnC78SiBUf1NMCNqbfk4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Gustbury",
+          "street": "Madison Avenue",
+          "house": 553,
+          "flat": 4579
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 199,
+      "createdOn": "2026-01-03T16:08:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69593ef21c508c5d5e8ec951",
+          "products": [
+            {
+              "_id": "69593ef91c508c5d5e8eca94",
+              "name": "Bacon48267",
+              "amount": 267,
+              "price": 199,
+              "manufacturer": "Tesla",
+              "notes": "AF7Fx54H7DLJr8qWi6TieKS8vQDEithb4rvurNXGCp50xQ5e4BP5GZUXSFT7ISfFZYDMKQYoPsXDOyT307BUFjLDi7ozVdi8BWznE1SGd2CgVdVpEZ3e6a24t73GHIijktDKLzaIBpxRQBoitn1atxN2pyZ9Kprcupc0eLDuSCnTefhl9dGdRz423kNAWGk7oeVZSTAMljmgwGkCvsaG28jBNdSfLkyKlEyP6GOnC78SiBUf1NMCNqbfk4",
+              "received": false
+            }
+          ],
+          "total_price": 199,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Gustbury",
+              "street": "Madison Avenue",
+              "house": 553,
+              "flat": 4579
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:08:28.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593ef21c508c5d5e8ec951",
+          "products": [
+            {
+              "_id": "69593ef91c508c5d5e8eca94",
+              "name": "Bacon48267",
+              "amount": 267,
+              "price": 199,
+              "manufacturer": "Tesla",
+              "notes": "AF7Fx54H7DLJr8qWi6TieKS8vQDEithb4rvurNXGCp50xQ5e4BP5GZUXSFT7ISfFZYDMKQYoPsXDOyT307BUFjLDi7ozVdi8BWznE1SGd2CgVdVpEZ3e6a24t73GHIijktDKLzaIBpxRQBoitn1atxN2pyZ9Kprcupc0eLDuSCnTefhl9dGdRz423kNAWGk7oeVZSTAMljmgwGkCvsaG28jBNdSfLkyKlEyP6GOnC78SiBUf1NMCNqbfk4",
+              "received": false
+            }
+          ],
+          "total_price": 199,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Gustbury",
+              "street": "Madison Avenue",
+              "house": 553,
+              "flat": 4579
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:08:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593ef21c508c5d5e8ec951",
+          "products": [
+            {
+              "_id": "69593ef91c508c5d5e8eca94",
+              "name": "Bacon48267",
+              "amount": 267,
+              "price": 199,
+              "manufacturer": "Tesla",
+              "notes": "AF7Fx54H7DLJr8qWi6TieKS8vQDEithb4rvurNXGCp50xQ5e4BP5GZUXSFT7ISfFZYDMKQYoPsXDOyT307BUFjLDi7ozVdi8BWznE1SGd2CgVdVpEZ3e6a24t73GHIijktDKLzaIBpxRQBoitn1atxN2pyZ9Kprcupc0eLDuSCnTefhl9dGdRz423kNAWGk7oeVZSTAMljmgwGkCvsaG28jBNdSfLkyKlEyP6GOnC78SiBUf1NMCNqbfk4",
+              "received": false
+            }
+          ],
+          "total_price": 199,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:08:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

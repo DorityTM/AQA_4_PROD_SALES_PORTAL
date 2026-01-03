@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:24:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3701",
+    "etag": "W/\"e75-pQxNIL9aoSqyTqGyWmKMQH1nFek\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695942b31c508c5d5e8fe86d",
+      "status": "In Process",
+      "customer": {
+        "_id": "695942b21c508c5d5e8fe860",
+        "email": "Candido63@yahoo.com",
+        "name": "Nona Maggio",
+        "country": "France",
+        "city": "Fort Keaganport",
+        "street": "Bosco Parkways 55",
+        "house": 956,
+        "flat": 1200,
+        "phone": "+514629854664742",
+        "createdOn": "2026-01-03T16:24:18.000Z",
+        "notes": "qpuOBg8SAdwp1D2FjfDRNEKr98WAta"
+      },
+      "products": [
+        {
+          "_id": "695942b21c508c5d5e8fe865",
+          "name": "Table42043",
+          "amount": 306,
+          "price": 1710,
+          "manufacturer": "Amazon",
+          "notes": "UqYlMhgSXoO8aaB8151rx4xQGwXOmG2uH24xbLdHISJkki8gPAVjLtyAxFgsfzispkzLJjIY8cZdCjcJG4N0mFI3WAXxFXLH2AP1mf2y4xLV7eNeGkscC8tI4Qu5RKeW4ZcUn8fxi8P2Nqdk59kZubLRp0gpiQrOo7IlqyFSnXScieFalbLtsdZPdXloFyx4enq8Ggwcafys0KXspHD97DmlzJngUDTv4hyIDRhPtg2bj5eK0P2xSexQfs",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Naperville",
+          "street": "N Church Street",
+          "house": 899,
+          "flat": 1572
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 1710,
+      "createdOn": "2026-01-03T16:24:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695942b21c508c5d5e8fe860",
+          "products": [
+            {
+              "_id": "695942b21c508c5d5e8fe865",
+              "name": "Table42043",
+              "amount": 306,
+              "price": 1710,
+              "manufacturer": "Amazon",
+              "notes": "UqYlMhgSXoO8aaB8151rx4xQGwXOmG2uH24xbLdHISJkki8gPAVjLtyAxFgsfzispkzLJjIY8cZdCjcJG4N0mFI3WAXxFXLH2AP1mf2y4xLV7eNeGkscC8tI4Qu5RKeW4ZcUn8fxi8P2Nqdk59kZubLRp0gpiQrOo7IlqyFSnXScieFalbLtsdZPdXloFyx4enq8Ggwcafys0KXspHD97DmlzJngUDTv4hyIDRhPtg2bj5eK0P2xSexQfs",
+              "received": false
+            }
+          ],
+          "total_price": 1710,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Naperville",
+              "street": "N Church Street",
+              "house": 899,
+              "flat": 1572
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:24:19.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695942b21c508c5d5e8fe860",
+          "products": [
+            {
+              "_id": "695942b21c508c5d5e8fe865",
+              "name": "Table42043",
+              "amount": 306,
+              "price": 1710,
+              "manufacturer": "Amazon",
+              "notes": "UqYlMhgSXoO8aaB8151rx4xQGwXOmG2uH24xbLdHISJkki8gPAVjLtyAxFgsfzispkzLJjIY8cZdCjcJG4N0mFI3WAXxFXLH2AP1mf2y4xLV7eNeGkscC8tI4Qu5RKeW4ZcUn8fxi8P2Nqdk59kZubLRp0gpiQrOo7IlqyFSnXScieFalbLtsdZPdXloFyx4enq8Ggwcafys0KXspHD97DmlzJngUDTv4hyIDRhPtg2bj5eK0P2xSexQfs",
+              "received": false
+            }
+          ],
+          "total_price": 1710,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Naperville",
+              "street": "N Church Street",
+              "house": 899,
+              "flat": 1572
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:24:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695942b21c508c5d5e8fe860",
+          "products": [
+            {
+              "_id": "695942b21c508c5d5e8fe865",
+              "name": "Table42043",
+              "amount": 306,
+              "price": 1710,
+              "manufacturer": "Amazon",
+              "notes": "UqYlMhgSXoO8aaB8151rx4xQGwXOmG2uH24xbLdHISJkki8gPAVjLtyAxFgsfzispkzLJjIY8cZdCjcJG4N0mFI3WAXxFXLH2AP1mf2y4xLV7eNeGkscC8tI4Qu5RKeW4ZcUn8fxi8P2Nqdk59kZubLRp0gpiQrOo7IlqyFSnXScieFalbLtsdZPdXloFyx4enq8Ggwcafys0KXspHD97DmlzJngUDTv4hyIDRhPtg2bj5eK0P2xSexQfs",
+              "received": false
+            }
+          ],
+          "total_price": 1710,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:24:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

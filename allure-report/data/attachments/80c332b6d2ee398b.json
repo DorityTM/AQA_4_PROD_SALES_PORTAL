@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:30:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6574",
+    "etag": "W/\"19ae-cmGS+nTilH3Mjwwby1i7sxZHvE8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959441d1c508c5d5e903058",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6959441c1c508c5d5e90300e",
+        "email": "Felicia.Yost@gmail.com",
+        "name": "Enoch Kling",
+        "country": "Great Britain",
+        "city": "New Jaroncester",
+        "street": "Aniya Creek 40",
+        "house": 72,
+        "flat": 6461,
+        "phone": "+117448389058722",
+        "createdOn": "2026-01-03T16:30:20.000Z",
+        "notes": "GBWMRsLk3Ewa2TcpvsMSXoHDuAyWnm"
+      },
+      "products": [
+        {
+          "_id": "6959441c1c508c5d5e90301e",
+          "name": "Car98906",
+          "amount": 511,
+          "price": 76270,
+          "manufacturer": "Apple",
+          "notes": "mQuC63clc1x5egggUYc6GtXmPmlPU57UNqF8Agg99184jFzDoHC8f2fJ2yeZ1WioEupetvpkzShgLasiLyW3J6TM2zu15A52txjb2e225pa9YbuQ0nx6cuW3gnyTUpNZbl8kHOTM3KxgwD5SCEIJQwSbLaOzH08kQ5gxzG7rQDUaaI9lh1BtwfM6YDgOzrAzMsZFSkmGYCQNaEeOHrz9V9novPuqx8OPEvf0cZOhlgXQg68leDWyWyrkhm",
+          "received": true
+        },
+        {
+          "_id": "6959441d1c508c5d5e903033",
+          "name": "Tuna44591",
+          "amount": 823,
+          "price": 61370,
+          "manufacturer": "Microsoft",
+          "notes": "T8klNjtDjrh4wCRhQrKj0lVYvhP13y0JPrgUXT5J8Zu3GL4ItNJWlsupMbESYxPdifGzMDsKEU92BAsa5QCzWkcHdVDnDvneVgO5EwpwXkFEfy8IzPrKiPIPeamnwdteLZMJdAgCoT8lohOg1pt7Htus3LPuTqx0OTZXk8wwn9lsOk4fqK7SsvLdBShhv2mdc18kZKXVWxuLih5xjhwyzomqtUo65Huit00JfjiOQS82Q0VwsUvI4pyywT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Fort Tressietown",
+          "street": "Vincenza Terrace",
+          "house": 213,
+          "flat": 7092
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 137640,
+      "createdOn": "2026-01-03T16:30:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6959441c1c508c5d5e90300e",
+          "products": [
+            {
+              "_id": "6959441c1c508c5d5e90301e",
+              "name": "Car98906",
+              "amount": 511,
+              "price": 76270,
+              "manufacturer": "Apple",
+              "notes": "mQuC63clc1x5egggUYc6GtXmPmlPU57UNqF8Agg99184jFzDoHC8f2fJ2yeZ1WioEupetvpkzShgLasiLyW3J6TM2zu15A52txjb2e225pa9YbuQ0nx6cuW3gnyTUpNZbl8kHOTM3KxgwD5SCEIJQwSbLaOzH08kQ5gxzG7rQDUaaI9lh1BtwfM6YDgOzrAzMsZFSkmGYCQNaEeOHrz9V9novPuqx8OPEvf0cZOhlgXQg68leDWyWyrkhm",
+              "received": true
+            },
+            {
+              "_id": "6959441d1c508c5d5e903033",
+              "name": "Tuna44591",
+              "amount": 823,
+              "price": 61370,
+              "manufacturer": "Microsoft",
+              "notes": "T8klNjtDjrh4wCRhQrKj0lVYvhP13y0JPrgUXT5J8Zu3GL4ItNJWlsupMbESYxPdifGzMDsKEU92BAsa5QCzWkcHdVDnDvneVgO5EwpwXkFEfy8IzPrKiPIPeamnwdteLZMJdAgCoT8lohOg1pt7Htus3LPuTqx0OTZXk8wwn9lsOk4fqK7SsvLdBShhv2mdc18kZKXVWxuLih5xjhwyzomqtUo65Huit00JfjiOQS82Q0VwsUvI4pyywT",
+              "received": false
+            }
+          ],
+          "total_price": 137640,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Tressietown",
+              "street": "Vincenza Terrace",
+              "house": 213,
+              "flat": 7092
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:30:22.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6959441c1c508c5d5e90300e",
+          "products": [
+            {
+              "_id": "6959441c1c508c5d5e90301e",
+              "name": "Car98906",
+              "amount": 511,
+              "price": 76270,
+              "manufacturer": "Apple",
+              "notes": "mQuC63clc1x5egggUYc6GtXmPmlPU57UNqF8Agg99184jFzDoHC8f2fJ2yeZ1WioEupetvpkzShgLasiLyW3J6TM2zu15A52txjb2e225pa9YbuQ0nx6cuW3gnyTUpNZbl8kHOTM3KxgwD5SCEIJQwSbLaOzH08kQ5gxzG7rQDUaaI9lh1BtwfM6YDgOzrAzMsZFSkmGYCQNaEeOHrz9V9novPuqx8OPEvf0cZOhlgXQg68leDWyWyrkhm",
+              "received": false
+            },
+            {
+              "_id": "6959441d1c508c5d5e903033",
+              "name": "Tuna44591",
+              "amount": 823,
+              "price": 61370,
+              "manufacturer": "Microsoft",
+              "notes": "T8klNjtDjrh4wCRhQrKj0lVYvhP13y0JPrgUXT5J8Zu3GL4ItNJWlsupMbESYxPdifGzMDsKEU92BAsa5QCzWkcHdVDnDvneVgO5EwpwXkFEfy8IzPrKiPIPeamnwdteLZMJdAgCoT8lohOg1pt7Htus3LPuTqx0OTZXk8wwn9lsOk4fqK7SsvLdBShhv2mdc18kZKXVWxuLih5xjhwyzomqtUo65Huit00JfjiOQS82Q0VwsUvI4pyywT",
+              "received": false
+            }
+          ],
+          "total_price": 137640,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Tressietown",
+              "street": "Vincenza Terrace",
+              "house": 213,
+              "flat": 7092
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:30:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959441c1c508c5d5e90300e",
+          "products": [
+            {
+              "_id": "6959441c1c508c5d5e90301e",
+              "name": "Car98906",
+              "amount": 511,
+              "price": 76270,
+              "manufacturer": "Apple",
+              "notes": "mQuC63clc1x5egggUYc6GtXmPmlPU57UNqF8Agg99184jFzDoHC8f2fJ2yeZ1WioEupetvpkzShgLasiLyW3J6TM2zu15A52txjb2e225pa9YbuQ0nx6cuW3gnyTUpNZbl8kHOTM3KxgwD5SCEIJQwSbLaOzH08kQ5gxzG7rQDUaaI9lh1BtwfM6YDgOzrAzMsZFSkmGYCQNaEeOHrz9V9novPuqx8OPEvf0cZOhlgXQg68leDWyWyrkhm",
+              "received": false
+            },
+            {
+              "_id": "6959441d1c508c5d5e903033",
+              "name": "Tuna44591",
+              "amount": 823,
+              "price": 61370,
+              "manufacturer": "Microsoft",
+              "notes": "T8klNjtDjrh4wCRhQrKj0lVYvhP13y0JPrgUXT5J8Zu3GL4ItNJWlsupMbESYxPdifGzMDsKEU92BAsa5QCzWkcHdVDnDvneVgO5EwpwXkFEfy8IzPrKiPIPeamnwdteLZMJdAgCoT8lohOg1pt7Htus3LPuTqx0OTZXk8wwn9lsOk4fqK7SsvLdBShhv2mdc18kZKXVWxuLih5xjhwyzomqtUo65Huit00JfjiOQS82Q0VwsUvI4pyywT",
+              "received": false
+            }
+          ],
+          "total_price": 137640,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Tressietown",
+              "street": "Vincenza Terrace",
+              "house": 213,
+              "flat": 7092
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:30:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959441c1c508c5d5e90300e",
+          "products": [
+            {
+              "_id": "6959441c1c508c5d5e90301e",
+              "name": "Car98906",
+              "amount": 511,
+              "price": 76270,
+              "manufacturer": "Apple",
+              "notes": "mQuC63clc1x5egggUYc6GtXmPmlPU57UNqF8Agg99184jFzDoHC8f2fJ2yeZ1WioEupetvpkzShgLasiLyW3J6TM2zu15A52txjb2e225pa9YbuQ0nx6cuW3gnyTUpNZbl8kHOTM3KxgwD5SCEIJQwSbLaOzH08kQ5gxzG7rQDUaaI9lh1BtwfM6YDgOzrAzMsZFSkmGYCQNaEeOHrz9V9novPuqx8OPEvf0cZOhlgXQg68leDWyWyrkhm",
+              "received": false
+            },
+            {
+              "_id": "6959441d1c508c5d5e903033",
+              "name": "Tuna44591",
+              "amount": 823,
+              "price": 61370,
+              "manufacturer": "Microsoft",
+              "notes": "T8klNjtDjrh4wCRhQrKj0lVYvhP13y0JPrgUXT5J8Zu3GL4ItNJWlsupMbESYxPdifGzMDsKEU92BAsa5QCzWkcHdVDnDvneVgO5EwpwXkFEfy8IzPrKiPIPeamnwdteLZMJdAgCoT8lohOg1pt7Htus3LPuTqx0OTZXk8wwn9lsOk4fqK7SsvLdBShhv2mdc18kZKXVWxuLih5xjhwyzomqtUo65Huit00JfjiOQS82Q0VwsUvI4pyywT",
+              "received": false
+            }
+          ],
+          "total_price": 137640,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:30:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

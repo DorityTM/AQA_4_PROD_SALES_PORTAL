@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:09:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2743",
+    "etag": "W/\"ab7-LMobJPPb9GHZJWJhsDW+bloNoPo\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593f521c508c5d5e8ee96b",
+      "status": "Draft",
+      "customer": {
+        "_id": "69593f4c1c508c5d5e8ee795",
+        "email": "Breanna.Kilback92@hotmail.com",
+        "name": "Leon Mertz",
+        "country": "USA",
+        "city": "West Jasonmouth",
+        "street": "Britney Meadow 50",
+        "house": 230,
+        "flat": 550,
+        "phone": "+054456450478879",
+        "createdOn": "2026-01-03T16:09:48.000Z",
+        "notes": "D2qx8UwYnPDF67KvRRHXEEeac1j6Cf"
+      },
+      "products": [
+        {
+          "_id": "69593f521c508c5d5e8ee961",
+          "name": "Chicken32843",
+          "amount": 35,
+          "price": 79517,
+          "manufacturer": "Xiaomi",
+          "notes": "aK30yeVtKZvyIESNqqagdUMvKIFkyipt0xDlLgdqU3IE8Q1Ezxq92gdyVL6v9DemBLJmx7Fi5tM4zyhw2PznC5sVNs1uPvbhlvAATQgvOz1d8cgxTensc03aw1RmYOtrXK25MeIiVoD96n5OBqQlTvx94g7uZhJTcCNoDAQ7NOip4pMLOMAbsT963Wuwq17picRHynGPqpNadNTw9yYlejnQWD8dBVxIKu3ikPHcJfFPwYg5IVF9VRWmmu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Sanford",
+          "street": "Jubilee Close",
+          "house": 236,
+          "flat": 865
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 79517,
+      "createdOn": "2026-01-03T16:09:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69593f4c1c508c5d5e8ee795",
+          "products": [
+            {
+              "_id": "69593f521c508c5d5e8ee961",
+              "name": "Chicken32843",
+              "amount": 35,
+              "price": 79517,
+              "manufacturer": "Xiaomi",
+              "notes": "aK30yeVtKZvyIESNqqagdUMvKIFkyipt0xDlLgdqU3IE8Q1Ezxq92gdyVL6v9DemBLJmx7Fi5tM4zyhw2PznC5sVNs1uPvbhlvAATQgvOz1d8cgxTensc03aw1RmYOtrXK25MeIiVoD96n5OBqQlTvx94g7uZhJTcCNoDAQ7NOip4pMLOMAbsT963Wuwq17picRHynGPqpNadNTw9yYlejnQWD8dBVxIKu3ikPHcJfFPwYg5IVF9VRWmmu",
+              "received": false
+            }
+          ],
+          "total_price": 79517,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Sanford",
+              "street": "Jubilee Close",
+              "house": 236,
+              "flat": 865
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:09:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593f4c1c508c5d5e8ee795",
+          "products": [
+            {
+              "_id": "69593f521c508c5d5e8ee961",
+              "name": "Chicken32843",
+              "amount": 35,
+              "price": 79517,
+              "manufacturer": "Xiaomi",
+              "notes": "aK30yeVtKZvyIESNqqagdUMvKIFkyipt0xDlLgdqU3IE8Q1Ezxq92gdyVL6v9DemBLJmx7Fi5tM4zyhw2PznC5sVNs1uPvbhlvAATQgvOz1d8cgxTensc03aw1RmYOtrXK25MeIiVoD96n5OBqQlTvx94g7uZhJTcCNoDAQ7NOip4pMLOMAbsT963Wuwq17picRHynGPqpNadNTw9yYlejnQWD8dBVxIKu3ikPHcJfFPwYg5IVF9VRWmmu",
+              "received": false
+            }
+          ],
+          "total_price": 79517,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:09:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:29:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3685",
+    "etag": "W/\"e65-G518JPgMQkUoz4LAmV1oTXWG/hk\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695943e11c508c5d5e9022b8",
+      "status": "In Process",
+      "customer": {
+        "_id": "695943e01c508c5d5e90229a",
+        "email": "Eveline3@hotmail.com",
+        "name": "Hulda Borer",
+        "country": "Ukraine",
+        "city": "Racine",
+        "street": "Boyer Freeway 19",
+        "house": 884,
+        "flat": 5144,
+        "phone": "+795202835373891",
+        "createdOn": "2026-01-03T16:29:20.000Z",
+        "notes": "3N8xXeUMf2Wck0o1gmibHLoh4lNNYX"
+      },
+      "products": [
+        {
+          "_id": "695943e11c508c5d5e9022ab",
+          "name": "Hat82226",
+          "amount": 314,
+          "price": 85556,
+          "manufacturer": "Sony",
+          "notes": "vfOhWAGxUnsMLcabhEEy8Jsjgjli3oI9dOwsRvTnGrLgJu7RfPgCTp5Yo4pTCk5Rguzw92AmMMjRMNcydKQOHDJjMaNseUBMOyjmO8t56Rjn8ZA0WkOBVB1l0FAsx09pqVj2rwxZyUe8kCSc6eghdihzFSzmR2eMh7PQDorHXFQKfe4kOyHAuQBnSSoSn3TWYIw5ynRiPebFLSADZvXamywLeoxc51AB2SfGJzwqgmHuUGjXSQMRTbPIeW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "West Hankbury",
+          "street": "Sipes Ridges",
+          "house": 900,
+          "flat": 8616
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 85556,
+      "createdOn": "2026-01-03T16:29:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695943e01c508c5d5e90229a",
+          "products": [
+            {
+              "_id": "695943e11c508c5d5e9022ab",
+              "name": "Hat82226",
+              "amount": 314,
+              "price": 85556,
+              "manufacturer": "Sony",
+              "notes": "vfOhWAGxUnsMLcabhEEy8Jsjgjli3oI9dOwsRvTnGrLgJu7RfPgCTp5Yo4pTCk5Rguzw92AmMMjRMNcydKQOHDJjMaNseUBMOyjmO8t56Rjn8ZA0WkOBVB1l0FAsx09pqVj2rwxZyUe8kCSc6eghdihzFSzmR2eMh7PQDorHXFQKfe4kOyHAuQBnSSoSn3TWYIw5ynRiPebFLSADZvXamywLeoxc51AB2SfGJzwqgmHuUGjXSQMRTbPIeW",
+              "received": false
+            }
+          ],
+          "total_price": 85556,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Hankbury",
+              "street": "Sipes Ridges",
+              "house": 900,
+              "flat": 8616
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:29:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695943e01c508c5d5e90229a",
+          "products": [
+            {
+              "_id": "695943e11c508c5d5e9022ab",
+              "name": "Hat82226",
+              "amount": 314,
+              "price": 85556,
+              "manufacturer": "Sony",
+              "notes": "vfOhWAGxUnsMLcabhEEy8Jsjgjli3oI9dOwsRvTnGrLgJu7RfPgCTp5Yo4pTCk5Rguzw92AmMMjRMNcydKQOHDJjMaNseUBMOyjmO8t56Rjn8ZA0WkOBVB1l0FAsx09pqVj2rwxZyUe8kCSc6eghdihzFSzmR2eMh7PQDorHXFQKfe4kOyHAuQBnSSoSn3TWYIw5ynRiPebFLSADZvXamywLeoxc51AB2SfGJzwqgmHuUGjXSQMRTbPIeW",
+              "received": false
+            }
+          ],
+          "total_price": 85556,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Hankbury",
+              "street": "Sipes Ridges",
+              "house": 900,
+              "flat": 8616
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:29:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695943e01c508c5d5e90229a",
+          "products": [
+            {
+              "_id": "695943e11c508c5d5e9022ab",
+              "name": "Hat82226",
+              "amount": 314,
+              "price": 85556,
+              "manufacturer": "Sony",
+              "notes": "vfOhWAGxUnsMLcabhEEy8Jsjgjli3oI9dOwsRvTnGrLgJu7RfPgCTp5Yo4pTCk5Rguzw92AmMMjRMNcydKQOHDJjMaNseUBMOyjmO8t56Rjn8ZA0WkOBVB1l0FAsx09pqVj2rwxZyUe8kCSc6eghdihzFSzmR2eMh7PQDorHXFQKfe4kOyHAuQBnSSoSn3TWYIw5ynRiPebFLSADZvXamywLeoxc51AB2SfGJzwqgmHuUGjXSQMRTbPIeW",
+              "received": false
+            }
+          ],
+          "total_price": 85556,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:29:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

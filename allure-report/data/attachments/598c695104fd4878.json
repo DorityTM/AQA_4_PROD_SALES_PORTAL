@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:30:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4632",
+    "etag": "W/\"1218-M9+dtzD2sSa5+M5FRhLyYCcYmoM\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695944181c508c5d5e902f4c",
+      "status": "Received",
+      "customer": {
+        "_id": "695944181c508c5d5e902f29",
+        "email": "Kenny.Abbott42@hotmail.com",
+        "name": "Nestor Kuhlman",
+        "country": "Canada",
+        "city": "Rocioport",
+        "street": "Windmill Close 65",
+        "house": 472,
+        "flat": 2885,
+        "phone": "+876312298572413",
+        "createdOn": "2026-01-03T16:30:16.000Z",
+        "notes": "ZiMIuZ9oo8PPPhQr8HG519lS7OcAEO"
+      },
+      "products": [
+        {
+          "_id": "695944181c508c5d5e902f34",
+          "name": "Pants46865",
+          "amount": 780,
+          "price": 139,
+          "manufacturer": "Microsoft",
+          "notes": "XXyjLJjQRdX4ArOeJjJVRzcI7YnX5c5u8KR9nlPYKfW7rnqZNqUneFJV2CdnKs7ZVgG0tzJ4o5TPnHeqmKU9SSsSnEMdYehzllnR2ogrPwr8weBWcqAOLs1mrgJhvlnIOaI3omuh1dSwodKPT1WZRkaZMAad2psGCJzKssXUK4bcSxmHvI40ba95Qsis9eDeq44jXl87KJ3NnWAqSCajOOyTodh0kKZtczzlj4pZUTPyVVMuxioaFUeSio",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Ardellaside",
+          "street": "Cristina Fork",
+          "house": 420,
+          "flat": 4451
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 139,
+      "createdOn": "2026-01-03T16:30:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695944181c508c5d5e902f29",
+          "products": [
+            {
+              "_id": "695944181c508c5d5e902f34",
+              "name": "Pants46865",
+              "amount": 780,
+              "price": 139,
+              "manufacturer": "Microsoft",
+              "notes": "XXyjLJjQRdX4ArOeJjJVRzcI7YnX5c5u8KR9nlPYKfW7rnqZNqUneFJV2CdnKs7ZVgG0tzJ4o5TPnHeqmKU9SSsSnEMdYehzllnR2ogrPwr8weBWcqAOLs1mrgJhvlnIOaI3omuh1dSwodKPT1WZRkaZMAad2psGCJzKssXUK4bcSxmHvI40ba95Qsis9eDeq44jXl87KJ3NnWAqSCajOOyTodh0kKZtczzlj4pZUTPyVVMuxioaFUeSio",
+              "received": true
+            }
+          ],
+          "total_price": 139,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Ardellaside",
+              "street": "Cristina Fork",
+              "house": 420,
+              "flat": 4451
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:30:18.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695944181c508c5d5e902f29",
+          "products": [
+            {
+              "_id": "695944181c508c5d5e902f34",
+              "name": "Pants46865",
+              "amount": 780,
+              "price": 139,
+              "manufacturer": "Microsoft",
+              "notes": "XXyjLJjQRdX4ArOeJjJVRzcI7YnX5c5u8KR9nlPYKfW7rnqZNqUneFJV2CdnKs7ZVgG0tzJ4o5TPnHeqmKU9SSsSnEMdYehzllnR2ogrPwr8weBWcqAOLs1mrgJhvlnIOaI3omuh1dSwodKPT1WZRkaZMAad2psGCJzKssXUK4bcSxmHvI40ba95Qsis9eDeq44jXl87KJ3NnWAqSCajOOyTodh0kKZtczzlj4pZUTPyVVMuxioaFUeSio",
+              "received": false
+            }
+          ],
+          "total_price": 139,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Ardellaside",
+              "street": "Cristina Fork",
+              "house": 420,
+              "flat": 4451
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:30:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695944181c508c5d5e902f29",
+          "products": [
+            {
+              "_id": "695944181c508c5d5e902f34",
+              "name": "Pants46865",
+              "amount": 780,
+              "price": 139,
+              "manufacturer": "Microsoft",
+              "notes": "XXyjLJjQRdX4ArOeJjJVRzcI7YnX5c5u8KR9nlPYKfW7rnqZNqUneFJV2CdnKs7ZVgG0tzJ4o5TPnHeqmKU9SSsSnEMdYehzllnR2ogrPwr8weBWcqAOLs1mrgJhvlnIOaI3omuh1dSwodKPT1WZRkaZMAad2psGCJzKssXUK4bcSxmHvI40ba95Qsis9eDeq44jXl87KJ3NnWAqSCajOOyTodh0kKZtczzlj4pZUTPyVVMuxioaFUeSio",
+              "received": false
+            }
+          ],
+          "total_price": 139,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Ardellaside",
+              "street": "Cristina Fork",
+              "house": 420,
+              "flat": 4451
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:30:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695944181c508c5d5e902f29",
+          "products": [
+            {
+              "_id": "695944181c508c5d5e902f34",
+              "name": "Pants46865",
+              "amount": 780,
+              "price": 139,
+              "manufacturer": "Microsoft",
+              "notes": "XXyjLJjQRdX4ArOeJjJVRzcI7YnX5c5u8KR9nlPYKfW7rnqZNqUneFJV2CdnKs7ZVgG0tzJ4o5TPnHeqmKU9SSsSnEMdYehzllnR2ogrPwr8weBWcqAOLs1mrgJhvlnIOaI3omuh1dSwodKPT1WZRkaZMAad2psGCJzKssXUK4bcSxmHvI40ba95Qsis9eDeq44jXl87KJ3NnWAqSCajOOyTodh0kKZtczzlj4pZUTPyVVMuxioaFUeSio",
+              "received": false
+            }
+          ],
+          "total_price": 139,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:30:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

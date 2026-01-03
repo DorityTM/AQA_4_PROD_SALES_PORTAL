@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:28:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2745",
+    "etag": "W/\"ab9-XAWx5K3wKtAF52aAWXnwWHSarcU\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695943af1c508c5d5e901848",
+      "status": "Draft",
+      "customer": {
+        "_id": "695943ae1c508c5d5e90182b",
+        "email": "Johanna.Upton25@yahoo.com",
+        "name": "Fiona Nicolas",
+        "country": "Germany",
+        "city": "Hickleboro",
+        "street": "S Broad Street 56",
+        "house": 624,
+        "flat": 6084,
+        "phone": "+549907031465455",
+        "createdOn": "2026-01-03T16:28:30.000Z",
+        "notes": "xnnvPcpaAHMBnRgIe0u0wa7nrPjLIr"
+      },
+      "products": [
+        {
+          "_id": "695943ae1c508c5d5e901839",
+          "name": "Ball21608",
+          "amount": 609,
+          "price": 23676,
+          "manufacturer": "Apple",
+          "notes": "6R5PS1kF9M4m4iudxemg3mo98kjVVhGJ0UIyIUxjGNAb9qoG6u9SldTLvUEthngfvUKj634yFxFuSr1bIlhk0LRSE9Zz4Ch0Tx8OeFfNTUAwtgMd34CZmc0NQs2ovSm4pJDbZIWGweTiyNfoHI5yXDurUwYkybWtGcHFXOSY0SzVLVPitpvd0W8OlXAYtCmeCFy5HZZZBsUeEQdHlvn8OCF7jEsa2iNByduoFGAvw9PotLLGZpdYBSDm5l",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Santa Barbara",
+          "street": "Waterside",
+          "house": 263,
+          "flat": 3702
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 23676,
+      "createdOn": "2026-01-03T16:28:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695943ae1c508c5d5e90182b",
+          "products": [
+            {
+              "_id": "695943ae1c508c5d5e901839",
+              "name": "Ball21608",
+              "amount": 609,
+              "price": 23676,
+              "manufacturer": "Apple",
+              "notes": "6R5PS1kF9M4m4iudxemg3mo98kjVVhGJ0UIyIUxjGNAb9qoG6u9SldTLvUEthngfvUKj634yFxFuSr1bIlhk0LRSE9Zz4Ch0Tx8OeFfNTUAwtgMd34CZmc0NQs2ovSm4pJDbZIWGweTiyNfoHI5yXDurUwYkybWtGcHFXOSY0SzVLVPitpvd0W8OlXAYtCmeCFy5HZZZBsUeEQdHlvn8OCF7jEsa2iNByduoFGAvw9PotLLGZpdYBSDm5l",
+              "received": false
+            }
+          ],
+          "total_price": 23676,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Santa Barbara",
+              "street": "Waterside",
+              "house": 263,
+              "flat": 3702
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:28:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695943ae1c508c5d5e90182b",
+          "products": [
+            {
+              "_id": "695943ae1c508c5d5e901839",
+              "name": "Ball21608",
+              "amount": 609,
+              "price": 23676,
+              "manufacturer": "Apple",
+              "notes": "6R5PS1kF9M4m4iudxemg3mo98kjVVhGJ0UIyIUxjGNAb9qoG6u9SldTLvUEthngfvUKj634yFxFuSr1bIlhk0LRSE9Zz4Ch0Tx8OeFfNTUAwtgMd34CZmc0NQs2ovSm4pJDbZIWGweTiyNfoHI5yXDurUwYkybWtGcHFXOSY0SzVLVPitpvd0W8OlXAYtCmeCFy5HZZZBsUeEQdHlvn8OCF7jEsa2iNByduoFGAvw9PotLLGZpdYBSDm5l",
+              "received": false
+            }
+          ],
+          "total_price": 23676,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:28:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
