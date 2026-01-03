@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:46:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3913",
+    "etag": "W/\"f49-NarCd6blT3Zk1jDwmjzwxhu13sY\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695947d81c508c5d5e90de77",
+      "status": "Draft",
+      "customer": {
+        "_id": "695947d71c508c5d5e90de27",
+        "email": "Frederick21@yahoo.com",
+        "name": "Tyler Kulas",
+        "country": "Canada",
+        "city": "Tremblayland",
+        "street": "Celestine Terrace 84",
+        "house": 432,
+        "flat": 570,
+        "phone": "+265903794527688",
+        "createdOn": "2026-01-03T16:46:15.000Z",
+        "notes": "TzDmvZ3YBrf78H6Dn65s3XyxP3w0R5"
+      },
+      "products": [
+        {
+          "_id": "695947d71c508c5d5e90de4e",
+          "name": "Fish24509",
+          "amount": 526,
+          "price": 56959,
+          "manufacturer": "Amazon",
+          "notes": "q3fv36Et0XV7j6Y1LKraCjacL3hy5EYt4ecbdeojTnyHfiz9ZizpuUpa6PYjaXtTLk4z4LFmKz3jyWCU5TaRXcCk2gzNOWuvcv1DZhNHIcaw6gc6BR8iTh4ehHxeSTdp0lktdLHbjyur5uTFo74fALmzZwJZ1tvmTxXKDW7mK0qOcHHAx6rD5dAe8G2lVNTWDP4kk3UBbVc2OoGeL3doHXYTfXFj0IrNK4X2OLVGclcpQ79nXnEqIPC8Yg",
+          "received": false
+        },
+        {
+          "_id": "695947d71c508c5d5e90de5e",
+          "name": "Chair57163",
+          "amount": 900,
+          "price": 82554,
+          "manufacturer": "Apple",
+          "notes": "2rpkNidmGZHsHUfioxtspCprdkSKumcIEwarxH0D7KG9rP8vnsKVqRY1CNbWvzi5Zdrcxk856WD6t6Bo6G6kjzwcyzROeK7CXdxqOhs1A6jEMpBF3jzG3prvrrQrFBuw5qrS3CSWsmxCkOqRMDNICf27hmqWiUf8KkQAvXOIJMb7b0qPZmgPuWhL2ExfGopzJT4tLfixQVnvXV20S2Lkq1tRx5XRKlDOJL5l3q6sDUKzwF5NAVblp97mhU",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "East Garrett",
+          "street": "Breitenberg River",
+          "house": 857,
+          "flat": 8729
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 139513,
+      "createdOn": "2026-01-03T16:46:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695947d71c508c5d5e90de27",
+          "products": [
+            {
+              "_id": "695947d71c508c5d5e90de4e",
+              "name": "Fish24509",
+              "amount": 526,
+              "price": 56959,
+              "manufacturer": "Amazon",
+              "notes": "q3fv36Et0XV7j6Y1LKraCjacL3hy5EYt4ecbdeojTnyHfiz9ZizpuUpa6PYjaXtTLk4z4LFmKz3jyWCU5TaRXcCk2gzNOWuvcv1DZhNHIcaw6gc6BR8iTh4ehHxeSTdp0lktdLHbjyur5uTFo74fALmzZwJZ1tvmTxXKDW7mK0qOcHHAx6rD5dAe8G2lVNTWDP4kk3UBbVc2OoGeL3doHXYTfXFj0IrNK4X2OLVGclcpQ79nXnEqIPC8Yg",
+              "received": false
+            },
+            {
+              "_id": "695947d71c508c5d5e90de5e",
+              "name": "Chair57163",
+              "amount": 900,
+              "price": 82554,
+              "manufacturer": "Apple",
+              "notes": "2rpkNidmGZHsHUfioxtspCprdkSKumcIEwarxH0D7KG9rP8vnsKVqRY1CNbWvzi5Zdrcxk856WD6t6Bo6G6kjzwcyzROeK7CXdxqOhs1A6jEMpBF3jzG3prvrrQrFBuw5qrS3CSWsmxCkOqRMDNICf27hmqWiUf8KkQAvXOIJMb7b0qPZmgPuWhL2ExfGopzJT4tLfixQVnvXV20S2Lkq1tRx5XRKlDOJL5l3q6sDUKzwF5NAVblp97mhU",
+              "received": false
+            }
+          ],
+          "total_price": 139513,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "East Garrett",
+              "street": "Breitenberg River",
+              "house": 857,
+              "flat": 8729
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:46:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695947d71c508c5d5e90de27",
+          "products": [
+            {
+              "_id": "695947d71c508c5d5e90de4e",
+              "name": "Fish24509",
+              "amount": 526,
+              "price": 56959,
+              "manufacturer": "Amazon",
+              "notes": "q3fv36Et0XV7j6Y1LKraCjacL3hy5EYt4ecbdeojTnyHfiz9ZizpuUpa6PYjaXtTLk4z4LFmKz3jyWCU5TaRXcCk2gzNOWuvcv1DZhNHIcaw6gc6BR8iTh4ehHxeSTdp0lktdLHbjyur5uTFo74fALmzZwJZ1tvmTxXKDW7mK0qOcHHAx6rD5dAe8G2lVNTWDP4kk3UBbVc2OoGeL3doHXYTfXFj0IrNK4X2OLVGclcpQ79nXnEqIPC8Yg",
+              "received": false
+            },
+            {
+              "_id": "695947d71c508c5d5e90de5e",
+              "name": "Chair57163",
+              "amount": 900,
+              "price": 82554,
+              "manufacturer": "Apple",
+              "notes": "2rpkNidmGZHsHUfioxtspCprdkSKumcIEwarxH0D7KG9rP8vnsKVqRY1CNbWvzi5Zdrcxk856WD6t6Bo6G6kjzwcyzROeK7CXdxqOhs1A6jEMpBF3jzG3prvrrQrFBuw5qrS3CSWsmxCkOqRMDNICf27hmqWiUf8KkQAvXOIJMb7b0qPZmgPuWhL2ExfGopzJT4tLfixQVnvXV20S2Lkq1tRx5XRKlDOJL5l3q6sDUKzwF5NAVblp97mhU",
+              "received": false
+            }
+          ],
+          "total_price": 139513,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:46:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

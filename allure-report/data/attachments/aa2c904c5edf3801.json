@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:43:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6483",
+    "etag": "W/\"1953-jZrIVOcWMKq6lxVoED1eCZPpJcM\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695947221c508c5d5e909dad",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "695947201c508c5d5e909c93",
+        "email": "Roel.Legros@gmail.com",
+        "name": "Cyrus Lakin",
+        "country": "France",
+        "city": "East Brent",
+        "street": "Airport Road 72",
+        "house": 825,
+        "flat": 172,
+        "phone": "+118821191951056",
+        "createdOn": "2026-01-03T16:43:12.000Z",
+        "notes": "euMTxYrv40Ehhs4nKI5TKNHpMf3Cac"
+      },
+      "products": [
+        {
+          "_id": "695947201c508c5d5e909caf",
+          "name": "Chair79778",
+          "amount": 263,
+          "price": 82583,
+          "manufacturer": "Sony",
+          "notes": "sVJoaRk8QZh1iFTUf0LBCajakPCVpi6vEoYUSrU1XKSIpDCdlUhtCBwVWbcipm74Ku3kxa9zv1NTCBwuggLKSZdnMgDfyTRAk1pUK7Bmi7FcxFAJ4fHlihY2KliFJNsz4cRyp8uMaNGrljjpgf3TvFUmKTsUaCp4bDHaS5U5jZCJlJmJ3KUT45OT0PMTQKD0jQ14ICEBWIudC53GPv11a89K674yFjeIqslYPkePuWOKk72UyPaxNxlNnk",
+          "received": true
+        },
+        {
+          "_id": "695947211c508c5d5e909d5f",
+          "name": "Tuna69813",
+          "amount": 751,
+          "price": 82101,
+          "manufacturer": "Tesla",
+          "notes": "M4lFf4WjhstJBXUXKYPVBRBL5t4qQv9GpCRoMuuEYlvyOy6nEccrb5p4BhGPIEJt7fCWvaAq9h6UjQWa1SBeOsnyGefTYMATrUHXI6LegJwcArx6QSawJKQGyepv7cRXexzbetRBt9E6niOsjBajkctur3R7ZMxnpAe6VpaYjWpJ0tZtmxZaO6oHKQC1PGxQwDrQ1MOOAFQBc6MoxCjn8xUgLe2DowsIag9wfy5TrvbGx5K3lG6p5ySCF4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Amarillo",
+          "street": "Lazaro Ridge",
+          "house": 107,
+          "flat": 5224
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 164684,
+      "createdOn": "2026-01-03T16:43:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "695947201c508c5d5e909c93",
+          "products": [
+            {
+              "_id": "695947201c508c5d5e909caf",
+              "name": "Chair79778",
+              "amount": 263,
+              "price": 82583,
+              "manufacturer": "Sony",
+              "notes": "sVJoaRk8QZh1iFTUf0LBCajakPCVpi6vEoYUSrU1XKSIpDCdlUhtCBwVWbcipm74Ku3kxa9zv1NTCBwuggLKSZdnMgDfyTRAk1pUK7Bmi7FcxFAJ4fHlihY2KliFJNsz4cRyp8uMaNGrljjpgf3TvFUmKTsUaCp4bDHaS5U5jZCJlJmJ3KUT45OT0PMTQKD0jQ14ICEBWIudC53GPv11a89K674yFjeIqslYPkePuWOKk72UyPaxNxlNnk",
+              "received": true
+            },
+            {
+              "_id": "695947211c508c5d5e909d5f",
+              "name": "Tuna69813",
+              "amount": 751,
+              "price": 82101,
+              "manufacturer": "Tesla",
+              "notes": "M4lFf4WjhstJBXUXKYPVBRBL5t4qQv9GpCRoMuuEYlvyOy6nEccrb5p4BhGPIEJt7fCWvaAq9h6UjQWa1SBeOsnyGefTYMATrUHXI6LegJwcArx6QSawJKQGyepv7cRXexzbetRBt9E6niOsjBajkctur3R7ZMxnpAe6VpaYjWpJ0tZtmxZaO6oHKQC1PGxQwDrQ1MOOAFQBc6MoxCjn8xUgLe2DowsIag9wfy5TrvbGx5K3lG6p5ySCF4",
+              "received": false
+            }
+          ],
+          "total_price": 164684,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Amarillo",
+              "street": "Lazaro Ridge",
+              "house": 107,
+              "flat": 5224
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:43:16.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695947201c508c5d5e909c93",
+          "products": [
+            {
+              "_id": "695947201c508c5d5e909caf",
+              "name": "Chair79778",
+              "amount": 263,
+              "price": 82583,
+              "manufacturer": "Sony",
+              "notes": "sVJoaRk8QZh1iFTUf0LBCajakPCVpi6vEoYUSrU1XKSIpDCdlUhtCBwVWbcipm74Ku3kxa9zv1NTCBwuggLKSZdnMgDfyTRAk1pUK7Bmi7FcxFAJ4fHlihY2KliFJNsz4cRyp8uMaNGrljjpgf3TvFUmKTsUaCp4bDHaS5U5jZCJlJmJ3KUT45OT0PMTQKD0jQ14ICEBWIudC53GPv11a89K674yFjeIqslYPkePuWOKk72UyPaxNxlNnk",
+              "received": false
+            },
+            {
+              "_id": "695947211c508c5d5e909d5f",
+              "name": "Tuna69813",
+              "amount": 751,
+              "price": 82101,
+              "manufacturer": "Tesla",
+              "notes": "M4lFf4WjhstJBXUXKYPVBRBL5t4qQv9GpCRoMuuEYlvyOy6nEccrb5p4BhGPIEJt7fCWvaAq9h6UjQWa1SBeOsnyGefTYMATrUHXI6LegJwcArx6QSawJKQGyepv7cRXexzbetRBt9E6niOsjBajkctur3R7ZMxnpAe6VpaYjWpJ0tZtmxZaO6oHKQC1PGxQwDrQ1MOOAFQBc6MoxCjn8xUgLe2DowsIag9wfy5TrvbGx5K3lG6p5ySCF4",
+              "received": false
+            }
+          ],
+          "total_price": 164684,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Amarillo",
+              "street": "Lazaro Ridge",
+              "house": 107,
+              "flat": 5224
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:43:15.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695947201c508c5d5e909c93",
+          "products": [
+            {
+              "_id": "695947201c508c5d5e909caf",
+              "name": "Chair79778",
+              "amount": 263,
+              "price": 82583,
+              "manufacturer": "Sony",
+              "notes": "sVJoaRk8QZh1iFTUf0LBCajakPCVpi6vEoYUSrU1XKSIpDCdlUhtCBwVWbcipm74Ku3kxa9zv1NTCBwuggLKSZdnMgDfyTRAk1pUK7Bmi7FcxFAJ4fHlihY2KliFJNsz4cRyp8uMaNGrljjpgf3TvFUmKTsUaCp4bDHaS5U5jZCJlJmJ3KUT45OT0PMTQKD0jQ14ICEBWIudC53GPv11a89K674yFjeIqslYPkePuWOKk72UyPaxNxlNnk",
+              "received": false
+            },
+            {
+              "_id": "695947211c508c5d5e909d5f",
+              "name": "Tuna69813",
+              "amount": 751,
+              "price": 82101,
+              "manufacturer": "Tesla",
+              "notes": "M4lFf4WjhstJBXUXKYPVBRBL5t4qQv9GpCRoMuuEYlvyOy6nEccrb5p4BhGPIEJt7fCWvaAq9h6UjQWa1SBeOsnyGefTYMATrUHXI6LegJwcArx6QSawJKQGyepv7cRXexzbetRBt9E6niOsjBajkctur3R7ZMxnpAe6VpaYjWpJ0tZtmxZaO6oHKQC1PGxQwDrQ1MOOAFQBc6MoxCjn8xUgLe2DowsIag9wfy5TrvbGx5K3lG6p5ySCF4",
+              "received": false
+            }
+          ],
+          "total_price": 164684,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Amarillo",
+              "street": "Lazaro Ridge",
+              "house": 107,
+              "flat": 5224
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:43:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695947201c508c5d5e909c93",
+          "products": [
+            {
+              "_id": "695947201c508c5d5e909caf",
+              "name": "Chair79778",
+              "amount": 263,
+              "price": 82583,
+              "manufacturer": "Sony",
+              "notes": "sVJoaRk8QZh1iFTUf0LBCajakPCVpi6vEoYUSrU1XKSIpDCdlUhtCBwVWbcipm74Ku3kxa9zv1NTCBwuggLKSZdnMgDfyTRAk1pUK7Bmi7FcxFAJ4fHlihY2KliFJNsz4cRyp8uMaNGrljjpgf3TvFUmKTsUaCp4bDHaS5U5jZCJlJmJ3KUT45OT0PMTQKD0jQ14ICEBWIudC53GPv11a89K674yFjeIqslYPkePuWOKk72UyPaxNxlNnk",
+              "received": false
+            },
+            {
+              "_id": "695947211c508c5d5e909d5f",
+              "name": "Tuna69813",
+              "amount": 751,
+              "price": 82101,
+              "manufacturer": "Tesla",
+              "notes": "M4lFf4WjhstJBXUXKYPVBRBL5t4qQv9GpCRoMuuEYlvyOy6nEccrb5p4BhGPIEJt7fCWvaAq9h6UjQWa1SBeOsnyGefTYMATrUHXI6LegJwcArx6QSawJKQGyepv7cRXexzbetRBt9E6niOsjBajkctur3R7ZMxnpAe6VpaYjWpJ0tZtmxZaO6oHKQC1PGxQwDrQ1MOOAFQBc6MoxCjn8xUgLe2DowsIag9wfy5TrvbGx5K3lG6p5ySCF4",
+              "received": false
+            }
+          ],
+          "total_price": 164684,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:43:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

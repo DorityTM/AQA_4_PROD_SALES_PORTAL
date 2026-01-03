@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:44:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3714",
+    "etag": "W/\"e82-h/V9PfJvp3KFMvzXZeJiGyFocPc\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959477b1c508c5d5e90b9e6",
+      "status": "In Process",
+      "customer": {
+        "_id": "6959477b1c508c5d5e90b9b7",
+        "email": "Bria_Wiegand@yahoo.com",
+        "name": "Maurine Langworth",
+        "country": "USA",
+        "city": "St Peters",
+        "street": "Barrows Forges 97",
+        "house": 79,
+        "flat": 8644,
+        "phone": "+811243990259645",
+        "createdOn": "2026-01-03T16:44:43.000Z",
+        "notes": "HO6LHLNObF46pBm1SZpF3FhAXKh8mk"
+      },
+      "products": [
+        {
+          "_id": "6959477b1c508c5d5e90b9cb",
+          "name": "Pizza17608",
+          "amount": 623,
+          "price": 28548,
+          "manufacturer": "Microsoft",
+          "notes": "ZtkljSWoa4Q3Og81M3w8QM93feQ55ha1k147mFWarYGZh3AQx0qUPvto7FW229tamqBenRuyh1m2Aa6hMktpFAm5ypId9JKV8oMY5tbo0BMNNE3WvdPZBF1xu0yuBhUAWFhPjCf0NeYa88SfHR9vgKjTAg89Os5AazHlK7tdqWbdinlab3zRNbjIyAM49fSywwnuQZCVbZrJGnhytnG4o6chVqdpXWggpZXRfonmWmaJPwwFwf2rtRCzhP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Elsechester",
+          "street": "Johnnie Creek",
+          "house": 477,
+          "flat": 4271
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 28548,
+      "createdOn": "2026-01-03T16:44:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6959477b1c508c5d5e90b9b7",
+          "products": [
+            {
+              "_id": "6959477b1c508c5d5e90b9cb",
+              "name": "Pizza17608",
+              "amount": 623,
+              "price": 28548,
+              "manufacturer": "Microsoft",
+              "notes": "ZtkljSWoa4Q3Og81M3w8QM93feQ55ha1k147mFWarYGZh3AQx0qUPvto7FW229tamqBenRuyh1m2Aa6hMktpFAm5ypId9JKV8oMY5tbo0BMNNE3WvdPZBF1xu0yuBhUAWFhPjCf0NeYa88SfHR9vgKjTAg89Os5AazHlK7tdqWbdinlab3zRNbjIyAM49fSywwnuQZCVbZrJGnhytnG4o6chVqdpXWggpZXRfonmWmaJPwwFwf2rtRCzhP",
+              "received": false
+            }
+          ],
+          "total_price": 28548,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Elsechester",
+              "street": "Johnnie Creek",
+              "house": 477,
+              "flat": 4271
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:44:44.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959477b1c508c5d5e90b9b7",
+          "products": [
+            {
+              "_id": "6959477b1c508c5d5e90b9cb",
+              "name": "Pizza17608",
+              "amount": 623,
+              "price": 28548,
+              "manufacturer": "Microsoft",
+              "notes": "ZtkljSWoa4Q3Og81M3w8QM93feQ55ha1k147mFWarYGZh3AQx0qUPvto7FW229tamqBenRuyh1m2Aa6hMktpFAm5ypId9JKV8oMY5tbo0BMNNE3WvdPZBF1xu0yuBhUAWFhPjCf0NeYa88SfHR9vgKjTAg89Os5AazHlK7tdqWbdinlab3zRNbjIyAM49fSywwnuQZCVbZrJGnhytnG4o6chVqdpXWggpZXRfonmWmaJPwwFwf2rtRCzhP",
+              "received": false
+            }
+          ],
+          "total_price": 28548,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Elsechester",
+              "street": "Johnnie Creek",
+              "house": 477,
+              "flat": 4271
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:44:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959477b1c508c5d5e90b9b7",
+          "products": [
+            {
+              "_id": "6959477b1c508c5d5e90b9cb",
+              "name": "Pizza17608",
+              "amount": 623,
+              "price": 28548,
+              "manufacturer": "Microsoft",
+              "notes": "ZtkljSWoa4Q3Og81M3w8QM93feQ55ha1k147mFWarYGZh3AQx0qUPvto7FW229tamqBenRuyh1m2Aa6hMktpFAm5ypId9JKV8oMY5tbo0BMNNE3WvdPZBF1xu0yuBhUAWFhPjCf0NeYa88SfHR9vgKjTAg89Os5AazHlK7tdqWbdinlab3zRNbjIyAM49fSywwnuQZCVbZrJGnhytnG4o6chVqdpXWggpZXRfonmWmaJPwwFwf2rtRCzhP",
+              "received": false
+            }
+          ],
+          "total_price": 28548,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:44:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

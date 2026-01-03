@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:46:41 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3696",
+    "etag": "W/\"e70-w2emZHdCJjfVzdPYjEmm3xgZ5p8\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695947f01c508c5d5e90e93c",
+      "status": "In Process",
+      "customer": {
+        "_id": "695947ef1c508c5d5e90e91c",
+        "email": "Filomena.Cormier@gmail.com",
+        "name": "Stuart Gulgowski",
+        "country": "Germany",
+        "city": "Binghamton",
+        "street": "Steuber Road 35",
+        "house": 111,
+        "flat": 7628,
+        "phone": "+328530611854644",
+        "createdOn": "2026-01-03T16:46:39.000Z",
+        "notes": "9WCqGr5kVoIo8UiiUDoh730ol2u8mN"
+      },
+      "products": [
+        {
+          "_id": "695947f01c508c5d5e90e92c",
+          "name": "Car91764",
+          "amount": 422,
+          "price": 9132,
+          "manufacturer": "Microsoft",
+          "notes": "ifTBSe4f4X4bYfnVRYGN1VvMsPituza92zqia2ObcRUxa14WFQHuuVVTZQovza2Scu8wxnznT5wcJ5n9LD4oM80DqHbgrho6JMm49FgT6FLCdzK2F0bKI9orUdEGgNmG7DUnP3T27MrSicxnlFCh9dW3gdiiBIHq9jgbfIsPg2XBz4y1kAPvdKQs5sj2C9ly5jWC66ZBvjB8SG6sFwd34snbVvUIWDpwP1xoUWgN1AwJKmFr392YhkjS7N",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Ricefurt",
+          "street": "Bode Circles",
+          "house": 619,
+          "flat": 8085
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 9132,
+      "createdOn": "2026-01-03T16:46:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695947ef1c508c5d5e90e91c",
+          "products": [
+            {
+              "_id": "695947f01c508c5d5e90e92c",
+              "name": "Car91764",
+              "amount": 422,
+              "price": 9132,
+              "manufacturer": "Microsoft",
+              "notes": "ifTBSe4f4X4bYfnVRYGN1VvMsPituza92zqia2ObcRUxa14WFQHuuVVTZQovza2Scu8wxnznT5wcJ5n9LD4oM80DqHbgrho6JMm49FgT6FLCdzK2F0bKI9orUdEGgNmG7DUnP3T27MrSicxnlFCh9dW3gdiiBIHq9jgbfIsPg2XBz4y1kAPvdKQs5sj2C9ly5jWC66ZBvjB8SG6sFwd34snbVvUIWDpwP1xoUWgN1AwJKmFr392YhkjS7N",
+              "received": false
+            }
+          ],
+          "total_price": 9132,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Ricefurt",
+              "street": "Bode Circles",
+              "house": 619,
+              "flat": 8085
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:46:41.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695947ef1c508c5d5e90e91c",
+          "products": [
+            {
+              "_id": "695947f01c508c5d5e90e92c",
+              "name": "Car91764",
+              "amount": 422,
+              "price": 9132,
+              "manufacturer": "Microsoft",
+              "notes": "ifTBSe4f4X4bYfnVRYGN1VvMsPituza92zqia2ObcRUxa14WFQHuuVVTZQovza2Scu8wxnznT5wcJ5n9LD4oM80DqHbgrho6JMm49FgT6FLCdzK2F0bKI9orUdEGgNmG7DUnP3T27MrSicxnlFCh9dW3gdiiBIHq9jgbfIsPg2XBz4y1kAPvdKQs5sj2C9ly5jWC66ZBvjB8SG6sFwd34snbVvUIWDpwP1xoUWgN1AwJKmFr392YhkjS7N",
+              "received": false
+            }
+          ],
+          "total_price": 9132,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Ricefurt",
+              "street": "Bode Circles",
+              "house": 619,
+              "flat": 8085
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:46:40.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695947ef1c508c5d5e90e91c",
+          "products": [
+            {
+              "_id": "695947f01c508c5d5e90e92c",
+              "name": "Car91764",
+              "amount": 422,
+              "price": 9132,
+              "manufacturer": "Microsoft",
+              "notes": "ifTBSe4f4X4bYfnVRYGN1VvMsPituza92zqia2ObcRUxa14WFQHuuVVTZQovza2Scu8wxnznT5wcJ5n9LD4oM80DqHbgrho6JMm49FgT6FLCdzK2F0bKI9orUdEGgNmG7DUnP3T27MrSicxnlFCh9dW3gdiiBIHq9jgbfIsPg2XBz4y1kAPvdKQs5sj2C9ly5jWC66ZBvjB8SG6sFwd34snbVvUIWDpwP1xoUWgN1AwJKmFr392YhkjS7N",
+              "received": false
+            }
+          ],
+          "total_price": 9132,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:46:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

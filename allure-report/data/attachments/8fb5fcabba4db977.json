@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:47:09 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4621",
+    "etag": "W/\"120d-LZWTPCdvN1+ZzNG14nH91d5QoAM\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959480b1c508c5d5e90f738",
+      "status": "Received",
+      "customer": {
+        "_id": "6959480b1c508c5d5e90f708",
+        "email": "Denis.Daugherty38@yahoo.com",
+        "name": "Kirk Kassulke",
+        "country": "Great Britain",
+        "city": "Fort Dessiestad",
+        "street": "Grant Point 3",
+        "house": 123,
+        "flat": 8783,
+        "phone": "+801323232544240",
+        "createdOn": "2026-01-03T16:47:07.000Z",
+        "notes": "kLuQNmBfadm04JSxBR89EUeJ5c2r9s"
+      },
+      "products": [
+        {
+          "_id": "6959480b1c508c5d5e90f71e",
+          "name": "Tuna59722",
+          "amount": 437,
+          "price": 80202,
+          "manufacturer": "Amazon",
+          "notes": "Ct5KkHh2NSR0oyUA9QrSePGVeCBTtctMPP9AHD8gPVArvtsaWgJTq2AT6jKReSpBC1DoFLLMq1Ea5nufpt3oIjVWSkSJ4KRI7F70ASkB0eOmN3eCLOrKBw0amDCNFKXNhlFzYeBiKRGKDwmzL7byDOVTofENj7BVtvp9cltzYuTbAbKdKhjT1peKRqJpAN3rvVyK58tt2LUblks2RsY8s5WA7iPcZTL6lfw7StWlwfEc4CjunhiLzYOxpt",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Chino Hills",
+          "street": "Prosacco Harbors",
+          "house": 209,
+          "flat": 259
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80202,
+      "createdOn": "2026-01-03T16:47:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6959480b1c508c5d5e90f708",
+          "products": [
+            {
+              "_id": "6959480b1c508c5d5e90f71e",
+              "name": "Tuna59722",
+              "amount": 437,
+              "price": 80202,
+              "manufacturer": "Amazon",
+              "notes": "Ct5KkHh2NSR0oyUA9QrSePGVeCBTtctMPP9AHD8gPVArvtsaWgJTq2AT6jKReSpBC1DoFLLMq1Ea5nufpt3oIjVWSkSJ4KRI7F70ASkB0eOmN3eCLOrKBw0amDCNFKXNhlFzYeBiKRGKDwmzL7byDOVTofENj7BVtvp9cltzYuTbAbKdKhjT1peKRqJpAN3rvVyK58tt2LUblks2RsY8s5WA7iPcZTL6lfw7StWlwfEc4CjunhiLzYOxpt",
+              "received": true
+            }
+          ],
+          "total_price": 80202,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Chino Hills",
+              "street": "Prosacco Harbors",
+              "house": 209,
+              "flat": 259
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:47:09.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6959480b1c508c5d5e90f708",
+          "products": [
+            {
+              "_id": "6959480b1c508c5d5e90f71e",
+              "name": "Tuna59722",
+              "amount": 437,
+              "price": 80202,
+              "manufacturer": "Amazon",
+              "notes": "Ct5KkHh2NSR0oyUA9QrSePGVeCBTtctMPP9AHD8gPVArvtsaWgJTq2AT6jKReSpBC1DoFLLMq1Ea5nufpt3oIjVWSkSJ4KRI7F70ASkB0eOmN3eCLOrKBw0amDCNFKXNhlFzYeBiKRGKDwmzL7byDOVTofENj7BVtvp9cltzYuTbAbKdKhjT1peKRqJpAN3rvVyK58tt2LUblks2RsY8s5WA7iPcZTL6lfw7StWlwfEc4CjunhiLzYOxpt",
+              "received": false
+            }
+          ],
+          "total_price": 80202,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Chino Hills",
+              "street": "Prosacco Harbors",
+              "house": 209,
+              "flat": 259
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:47:08.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959480b1c508c5d5e90f708",
+          "products": [
+            {
+              "_id": "6959480b1c508c5d5e90f71e",
+              "name": "Tuna59722",
+              "amount": 437,
+              "price": 80202,
+              "manufacturer": "Amazon",
+              "notes": "Ct5KkHh2NSR0oyUA9QrSePGVeCBTtctMPP9AHD8gPVArvtsaWgJTq2AT6jKReSpBC1DoFLLMq1Ea5nufpt3oIjVWSkSJ4KRI7F70ASkB0eOmN3eCLOrKBw0amDCNFKXNhlFzYeBiKRGKDwmzL7byDOVTofENj7BVtvp9cltzYuTbAbKdKhjT1peKRqJpAN3rvVyK58tt2LUblks2RsY8s5WA7iPcZTL6lfw7StWlwfEc4CjunhiLzYOxpt",
+              "received": false
+            }
+          ],
+          "total_price": 80202,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Chino Hills",
+              "street": "Prosacco Harbors",
+              "house": 209,
+              "flat": 259
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:47:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959480b1c508c5d5e90f708",
+          "products": [
+            {
+              "_id": "6959480b1c508c5d5e90f71e",
+              "name": "Tuna59722",
+              "amount": 437,
+              "price": 80202,
+              "manufacturer": "Amazon",
+              "notes": "Ct5KkHh2NSR0oyUA9QrSePGVeCBTtctMPP9AHD8gPVArvtsaWgJTq2AT6jKReSpBC1DoFLLMq1Ea5nufpt3oIjVWSkSJ4KRI7F70ASkB0eOmN3eCLOrKBw0amDCNFKXNhlFzYeBiKRGKDwmzL7byDOVTofENj7BVtvp9cltzYuTbAbKdKhjT1peKRqJpAN3rvVyK58tt2LUblks2RsY8s5WA7iPcZTL6lfw7StWlwfEc4CjunhiLzYOxpt",
+              "received": false
+            }
+          ],
+          "total_price": 80202,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:47:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

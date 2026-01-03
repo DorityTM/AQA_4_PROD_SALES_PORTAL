@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:42:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3653",
+    "etag": "W/\"e45-yk2camqcLpPrSd1hRTEhxzE59Vk\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695946db1c508c5d5e907f43",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695946db1c508c5d5e907f07",
+        "email": "Elyssa19@gmail.com",
+        "name": "Beaulah Bogisich",
+        "country": "Belarus",
+        "city": "East Marlon",
+        "street": "S West Street 94",
+        "house": 693,
+        "flat": 5347,
+        "phone": "+252181942504248",
+        "createdOn": "2026-01-03T16:42:03.000Z",
+        "notes": "IKifWIUUz25tUSYLbLXVHWeMGGDXNq"
+      },
+      "products": [
+        {
+          "_id": "695946db1c508c5d5e907f24",
+          "name": "Mouse2810",
+          "amount": 285,
+          "price": 32286,
+          "manufacturer": "Sony",
+          "notes": "FLOF31AgbUPxW1qjFjXkPQYADi84mS4P9TsOTNGQm9yAPQ81X0aotmXUFEhFY5SgxrzLX5YMoRcjg3vaRB20C3Z6nZFoDd7ocrKDnr2kvazisWJo7OAQUTeBz0OLy077yT29vfTdaExHLG9VCf1VVBKwRQaVvUplaeHadtiouxUQsV2PyqK1yTX0YF26LtiHl9fylEbs5Qo5DUJzYXJ9AjrayNWkCQue4PUtv9PLFf05uGaKjr1YA2Ii9F",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Robertbury",
+          "street": "Wendell Well",
+          "house": 504,
+          "flat": 7419
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 32286,
+      "createdOn": "2026-01-03T16:42:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695946db1c508c5d5e907f07",
+          "products": [
+            {
+              "_id": "695946db1c508c5d5e907f24",
+              "name": "Mouse2810",
+              "amount": 285,
+              "price": 32286,
+              "manufacturer": "Sony",
+              "notes": "FLOF31AgbUPxW1qjFjXkPQYADi84mS4P9TsOTNGQm9yAPQ81X0aotmXUFEhFY5SgxrzLX5YMoRcjg3vaRB20C3Z6nZFoDd7ocrKDnr2kvazisWJo7OAQUTeBz0OLy077yT29vfTdaExHLG9VCf1VVBKwRQaVvUplaeHadtiouxUQsV2PyqK1yTX0YF26LtiHl9fylEbs5Qo5DUJzYXJ9AjrayNWkCQue4PUtv9PLFf05uGaKjr1YA2Ii9F",
+              "received": false
+            }
+          ],
+          "total_price": 32286,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Robertbury",
+              "street": "Wendell Well",
+              "house": 504,
+              "flat": 7419
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:42:04.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695946db1c508c5d5e907f07",
+          "products": [
+            {
+              "_id": "695946db1c508c5d5e907f24",
+              "name": "Mouse2810",
+              "amount": 285,
+              "price": 32286,
+              "manufacturer": "Sony",
+              "notes": "FLOF31AgbUPxW1qjFjXkPQYADi84mS4P9TsOTNGQm9yAPQ81X0aotmXUFEhFY5SgxrzLX5YMoRcjg3vaRB20C3Z6nZFoDd7ocrKDnr2kvazisWJo7OAQUTeBz0OLy077yT29vfTdaExHLG9VCf1VVBKwRQaVvUplaeHadtiouxUQsV2PyqK1yTX0YF26LtiHl9fylEbs5Qo5DUJzYXJ9AjrayNWkCQue4PUtv9PLFf05uGaKjr1YA2Ii9F",
+              "received": false
+            }
+          ],
+          "total_price": 32286,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Robertbury",
+              "street": "Wendell Well",
+              "house": 504,
+              "flat": 7419
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:42:04.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695946db1c508c5d5e907f07",
+          "products": [
+            {
+              "_id": "695946db1c508c5d5e907f24",
+              "name": "Mouse2810",
+              "amount": 285,
+              "price": 32286,
+              "manufacturer": "Sony",
+              "notes": "FLOF31AgbUPxW1qjFjXkPQYADi84mS4P9TsOTNGQm9yAPQ81X0aotmXUFEhFY5SgxrzLX5YMoRcjg3vaRB20C3Z6nZFoDd7ocrKDnr2kvazisWJo7OAQUTeBz0OLy077yT29vfTdaExHLG9VCf1VVBKwRQaVvUplaeHadtiouxUQsV2PyqK1yTX0YF26LtiHl9fylEbs5Qo5DUJzYXJ9AjrayNWkCQue4PUtv9PLFf05uGaKjr1YA2Ii9F",
+              "received": false
+            }
+          ],
+          "total_price": 32286,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:42:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

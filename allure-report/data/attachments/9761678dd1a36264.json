@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:41:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4567",
+    "etag": "W/\"11d7-fiqT+MhgNtbsuueXeDuexg1fDPA\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695946cf1c508c5d5e907ac6",
+      "status": "Received",
+      "customer": {
+        "_id": "695946cf1c508c5d5e907a89",
+        "email": "Graham68@gmail.com",
+        "name": "Dino Barrows",
+        "country": "Germany",
+        "city": "Hillaryton",
+        "street": "O Conner Ford 19",
+        "house": 194,
+        "flat": 3849,
+        "phone": "+780717403470399",
+        "createdOn": "2026-01-03T16:41:51.000Z",
+        "notes": "9hZbt84pmooQNlJYDBlg5sb0Lr8MNh"
+      },
+      "products": [
+        {
+          "_id": "695946cf1c508c5d5e907aa4",
+          "name": "Bike3845",
+          "amount": 798,
+          "price": 50929,
+          "manufacturer": "Samsung",
+          "notes": "T0VsCkMKy8IdjnPAv9GJ4dFQNvh7UUKCR00fWfYUnejhfoyZgHNGgPRuDeg1KHIosL9FB3Ic0lpGW9GXGyCfsve4991BGFO7VbfA81ZBuoAu0Q5SqDlr77an4XVIkJhJ5IfjYurnYNAnoVqHDgqW1CA6LaDzYa3wwzH90BNU7ON95yPfyMn7GMVPhtyDwf0HxQ65gadVdDESVOI8zm4MCFkRoqVDyERTED53WuLj7EICgXsbzKwK5a7KBK",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Abilene",
+          "street": "Conrad Row",
+          "house": 659,
+          "flat": 8185
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 50929,
+      "createdOn": "2026-01-03T16:41:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695946cf1c508c5d5e907a89",
+          "products": [
+            {
+              "_id": "695946cf1c508c5d5e907aa4",
+              "name": "Bike3845",
+              "amount": 798,
+              "price": 50929,
+              "manufacturer": "Samsung",
+              "notes": "T0VsCkMKy8IdjnPAv9GJ4dFQNvh7UUKCR00fWfYUnejhfoyZgHNGgPRuDeg1KHIosL9FB3Ic0lpGW9GXGyCfsve4991BGFO7VbfA81ZBuoAu0Q5SqDlr77an4XVIkJhJ5IfjYurnYNAnoVqHDgqW1CA6LaDzYa3wwzH90BNU7ON95yPfyMn7GMVPhtyDwf0HxQ65gadVdDESVOI8zm4MCFkRoqVDyERTED53WuLj7EICgXsbzKwK5a7KBK",
+              "received": true
+            }
+          ],
+          "total_price": 50929,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Abilene",
+              "street": "Conrad Row",
+              "house": 659,
+              "flat": 8185
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:41:53.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695946cf1c508c5d5e907a89",
+          "products": [
+            {
+              "_id": "695946cf1c508c5d5e907aa4",
+              "name": "Bike3845",
+              "amount": 798,
+              "price": 50929,
+              "manufacturer": "Samsung",
+              "notes": "T0VsCkMKy8IdjnPAv9GJ4dFQNvh7UUKCR00fWfYUnejhfoyZgHNGgPRuDeg1KHIosL9FB3Ic0lpGW9GXGyCfsve4991BGFO7VbfA81ZBuoAu0Q5SqDlr77an4XVIkJhJ5IfjYurnYNAnoVqHDgqW1CA6LaDzYa3wwzH90BNU7ON95yPfyMn7GMVPhtyDwf0HxQ65gadVdDESVOI8zm4MCFkRoqVDyERTED53WuLj7EICgXsbzKwK5a7KBK",
+              "received": false
+            }
+          ],
+          "total_price": 50929,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Abilene",
+              "street": "Conrad Row",
+              "house": 659,
+              "flat": 8185
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:41:52.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695946cf1c508c5d5e907a89",
+          "products": [
+            {
+              "_id": "695946cf1c508c5d5e907aa4",
+              "name": "Bike3845",
+              "amount": 798,
+              "price": 50929,
+              "manufacturer": "Samsung",
+              "notes": "T0VsCkMKy8IdjnPAv9GJ4dFQNvh7UUKCR00fWfYUnejhfoyZgHNGgPRuDeg1KHIosL9FB3Ic0lpGW9GXGyCfsve4991BGFO7VbfA81ZBuoAu0Q5SqDlr77an4XVIkJhJ5IfjYurnYNAnoVqHDgqW1CA6LaDzYa3wwzH90BNU7ON95yPfyMn7GMVPhtyDwf0HxQ65gadVdDESVOI8zm4MCFkRoqVDyERTED53WuLj7EICgXsbzKwK5a7KBK",
+              "received": false
+            }
+          ],
+          "total_price": 50929,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Abilene",
+              "street": "Conrad Row",
+              "house": 659,
+              "flat": 8185
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:41:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695946cf1c508c5d5e907a89",
+          "products": [
+            {
+              "_id": "695946cf1c508c5d5e907aa4",
+              "name": "Bike3845",
+              "amount": 798,
+              "price": 50929,
+              "manufacturer": "Samsung",
+              "notes": "T0VsCkMKy8IdjnPAv9GJ4dFQNvh7UUKCR00fWfYUnejhfoyZgHNGgPRuDeg1KHIosL9FB3Ic0lpGW9GXGyCfsve4991BGFO7VbfA81ZBuoAu0Q5SqDlr77an4XVIkJhJ5IfjYurnYNAnoVqHDgqW1CA6LaDzYa3wwzH90BNU7ON95yPfyMn7GMVPhtyDwf0HxQ65gadVdDESVOI8zm4MCFkRoqVDyERTED53WuLj7EICgXsbzKwK5a7KBK",
+              "received": false
+            }
+          ],
+          "total_price": 50929,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:41:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

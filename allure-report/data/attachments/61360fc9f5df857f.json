@@ -1,0 +1,184 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:45:26 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3882",
+    "etag": "W/\"f2a-/IsxJP4eTpbYUoKCzLpyK564iyw\"",
+    "keep-alive": "timeout=5, max=79",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695947a41c508c5d5e90c5d1",
+      "status": "In Process",
+      "customer": {
+        "_id": "695947a31c508c5d5e90c598",
+        "email": "Hannah_Keeling@gmail.com",
+        "name": "Julio Emard",
+        "country": "Russia",
+        "city": "Norfolk",
+        "street": "Dimitri Trace 57",
+        "house": 176,
+        "flat": 7271,
+        "phone": "+119696550410389",
+        "createdOn": "2026-01-03T16:45:23.000Z",
+        "notes": "5SaId5di7lk7HZuYRKoOATN2tlCWmw"
+      },
+      "products": [
+        {
+          "_id": "695947a41c508c5d5e90c5c2",
+          "name": "Sausages88414",
+          "amount": 665,
+          "price": 50526,
+          "manufacturer": "Samsung",
+          "notes": "sCMANXBxpE1q5yGAWgpcOFMZ49BwL7tJOG31c5CxHCABbJIhR5P2CTGLndAU0vtgF2xvMmRmRXQ1UX1cFKBQOAkYwKCEnSIMjTvWKNxArjodFwcH1gkIPP1JnXsFzFvzFPVfwvETrpaDmIbrtOF3tQ8FBpbssydJgrwbQOnMMsLZSUmhwYUl8vZTCD6an0ABVr5QhVeZU7qYjjEfyG2clPmI10w7B3GQi8S0A9PkGNzHLJMgKPFNJPDmGl",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Isabelstead",
+          "street": "E Jackson Street",
+          "house": 829,
+          "flat": 1332
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 50526,
+      "createdOn": "2026-01-03T16:45:24.000Z",
+      "comments": [
+        {
+          "text": "First",
+          "createdOn": "2026-01-03T16:45:25.000Z",
+          "_id": "695947a51c508c5d5e90c694"
+        },
+        {
+          "text": "Last",
+          "createdOn": "2026-01-03T16:45:26.000Z",
+          "_id": "695947a61c508c5d5e90c6f0"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695947a31c508c5d5e90c598",
+          "products": [
+            {
+              "_id": "695947a41c508c5d5e90c5c2",
+              "name": "Sausages88414",
+              "amount": 665,
+              "price": 50526,
+              "manufacturer": "Samsung",
+              "notes": "sCMANXBxpE1q5yGAWgpcOFMZ49BwL7tJOG31c5CxHCABbJIhR5P2CTGLndAU0vtgF2xvMmRmRXQ1UX1cFKBQOAkYwKCEnSIMjTvWKNxArjodFwcH1gkIPP1JnXsFzFvzFPVfwvETrpaDmIbrtOF3tQ8FBpbssydJgrwbQOnMMsLZSUmhwYUl8vZTCD6an0ABVr5QhVeZU7qYjjEfyG2clPmI10w7B3GQi8S0A9PkGNzHLJMgKPFNJPDmGl",
+              "received": false
+            }
+          ],
+          "total_price": 50526,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Isabelstead",
+              "street": "E Jackson Street",
+              "house": 829,
+              "flat": 1332
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:45:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695947a31c508c5d5e90c598",
+          "products": [
+            {
+              "_id": "695947a41c508c5d5e90c5c2",
+              "name": "Sausages88414",
+              "amount": 665,
+              "price": 50526,
+              "manufacturer": "Samsung",
+              "notes": "sCMANXBxpE1q5yGAWgpcOFMZ49BwL7tJOG31c5CxHCABbJIhR5P2CTGLndAU0vtgF2xvMmRmRXQ1UX1cFKBQOAkYwKCEnSIMjTvWKNxArjodFwcH1gkIPP1JnXsFzFvzFPVfwvETrpaDmIbrtOF3tQ8FBpbssydJgrwbQOnMMsLZSUmhwYUl8vZTCD6an0ABVr5QhVeZU7qYjjEfyG2clPmI10w7B3GQi8S0A9PkGNzHLJMgKPFNJPDmGl",
+              "received": false
+            }
+          ],
+          "total_price": 50526,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Isabelstead",
+              "street": "E Jackson Street",
+              "house": 829,
+              "flat": 1332
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:45:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695947a31c508c5d5e90c598",
+          "products": [
+            {
+              "_id": "695947a41c508c5d5e90c5c2",
+              "name": "Sausages88414",
+              "amount": 665,
+              "price": 50526,
+              "manufacturer": "Samsung",
+              "notes": "sCMANXBxpE1q5yGAWgpcOFMZ49BwL7tJOG31c5CxHCABbJIhR5P2CTGLndAU0vtgF2xvMmRmRXQ1UX1cFKBQOAkYwKCEnSIMjTvWKNxArjodFwcH1gkIPP1JnXsFzFvzFPVfwvETrpaDmIbrtOF3tQ8FBpbssydJgrwbQOnMMsLZSUmhwYUl8vZTCD6an0ABVr5QhVeZU7qYjjEfyG2clPmI10w7B3GQi8S0A9PkGNzHLJMgKPFNJPDmGl",
+              "received": false
+            }
+          ],
+          "total_price": 50526,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:45:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

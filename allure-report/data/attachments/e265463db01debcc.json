@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:46:14 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5203",
+    "etag": "W/\"1453-cUlDaQZkrMTnMr1XO1JcamTBlcQ\"",
+    "keep-alive": "timeout=5, max=9",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695947d41c508c5d5e90dcd9",
+      "status": "In Process",
+      "customer": {
+        "_id": "695947d31c508c5d5e90dc60",
+        "email": "Velda43@hotmail.com",
+        "name": "Mauricio Lang",
+        "country": "Russia",
+        "city": "Burien",
+        "street": "Norbert Hollow 75",
+        "house": 60,
+        "flat": 8199,
+        "phone": "+702476141958450",
+        "createdOn": "2026-01-03T16:46:11.000Z",
+        "notes": "ysAZPALtcQOQVIQw8Viuis30kedaUM"
+      },
+      "products": [
+        {
+          "_id": "695947d31c508c5d5e90dc78",
+          "name": "Chips68235",
+          "amount": 644,
+          "price": 85329,
+          "manufacturer": "Xiaomi",
+          "notes": "5IPiZ4e0K93HoJgXC9BnclASdREgT9hcrin7lMKRCT10uaSDiGKcg8h5vuflDvonM2AMESHwItMKiJ2A74w0YXzhwKnmxIxUyLI5v70sNAWfxOXre0ulIE2hqxsJ8EN8Tb0o4qo01KncUvZ9HD3dXGWWtE13BEY0DtD3NlcbGW4pZJPqkpHl0WpH2QOltf1XbVq5lRlX11QYF0I0bi2vGF1cBLgPaDd1625QvL3nJIDdEhN8gP9ghsxPth",
+          "received": false
+        },
+        {
+          "_id": "695947d41c508c5d5e90dca9",
+          "name": "Shirt63140",
+          "amount": 511,
+          "price": 75472,
+          "manufacturer": "Samsung",
+          "notes": "GDyuSwbGsm23YobsFIKMo00c6DcMTd3eFNFPxYmROt16fxx8Y71iCEytmuuRMCKFIHeFOk9zdRRTkIYNZb2MNgrklerWuRLy4OXl0Z5q7Q5EUeihOtMX6zXEMneumwFVUHJz39jtq9k7ClPvYhFrTYmgscTE6c7c4fyJ6SJSanA78v0TVBS6dPy07LAMVT06IByQeLEi75GffgnB7cXjVd9j3e7FF6DjH3Td5gN8dhajqJC73SrRpo2Q6k",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Scottieboro",
+          "street": "Macey Camp",
+          "house": 295,
+          "flat": 7639
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 160801,
+      "createdOn": "2026-01-03T16:46:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695947d31c508c5d5e90dc60",
+          "products": [
+            {
+              "_id": "695947d31c508c5d5e90dc78",
+              "name": "Chips68235",
+              "amount": 644,
+              "price": 85329,
+              "manufacturer": "Xiaomi",
+              "notes": "5IPiZ4e0K93HoJgXC9BnclASdREgT9hcrin7lMKRCT10uaSDiGKcg8h5vuflDvonM2AMESHwItMKiJ2A74w0YXzhwKnmxIxUyLI5v70sNAWfxOXre0ulIE2hqxsJ8EN8Tb0o4qo01KncUvZ9HD3dXGWWtE13BEY0DtD3NlcbGW4pZJPqkpHl0WpH2QOltf1XbVq5lRlX11QYF0I0bi2vGF1cBLgPaDd1625QvL3nJIDdEhN8gP9ghsxPth",
+              "received": false
+            },
+            {
+              "_id": "695947d41c508c5d5e90dca9",
+              "name": "Shirt63140",
+              "amount": 511,
+              "price": 75472,
+              "manufacturer": "Samsung",
+              "notes": "GDyuSwbGsm23YobsFIKMo00c6DcMTd3eFNFPxYmROt16fxx8Y71iCEytmuuRMCKFIHeFOk9zdRRTkIYNZb2MNgrklerWuRLy4OXl0Z5q7Q5EUeihOtMX6zXEMneumwFVUHJz39jtq9k7ClPvYhFrTYmgscTE6c7c4fyJ6SJSanA78v0TVBS6dPy07LAMVT06IByQeLEi75GffgnB7cXjVd9j3e7FF6DjH3Td5gN8dhajqJC73SrRpo2Q6k",
+              "received": false
+            }
+          ],
+          "total_price": 160801,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Scottieboro",
+              "street": "Macey Camp",
+              "house": 295,
+              "flat": 7639
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:46:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695947d31c508c5d5e90dc60",
+          "products": [
+            {
+              "_id": "695947d31c508c5d5e90dc78",
+              "name": "Chips68235",
+              "amount": 644,
+              "price": 85329,
+              "manufacturer": "Xiaomi",
+              "notes": "5IPiZ4e0K93HoJgXC9BnclASdREgT9hcrin7lMKRCT10uaSDiGKcg8h5vuflDvonM2AMESHwItMKiJ2A74w0YXzhwKnmxIxUyLI5v70sNAWfxOXre0ulIE2hqxsJ8EN8Tb0o4qo01KncUvZ9HD3dXGWWtE13BEY0DtD3NlcbGW4pZJPqkpHl0WpH2QOltf1XbVq5lRlX11QYF0I0bi2vGF1cBLgPaDd1625QvL3nJIDdEhN8gP9ghsxPth",
+              "received": false
+            },
+            {
+              "_id": "695947d41c508c5d5e90dca9",
+              "name": "Shirt63140",
+              "amount": 511,
+              "price": 75472,
+              "manufacturer": "Samsung",
+              "notes": "GDyuSwbGsm23YobsFIKMo00c6DcMTd3eFNFPxYmROt16fxx8Y71iCEytmuuRMCKFIHeFOk9zdRRTkIYNZb2MNgrklerWuRLy4OXl0Z5q7Q5EUeihOtMX6zXEMneumwFVUHJz39jtq9k7ClPvYhFrTYmgscTE6c7c4fyJ6SJSanA78v0TVBS6dPy07LAMVT06IByQeLEi75GffgnB7cXjVd9j3e7FF6DjH3Td5gN8dhajqJC73SrRpo2Q6k",
+              "received": false
+            }
+          ],
+          "total_price": 160801,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Scottieboro",
+              "street": "Macey Camp",
+              "house": 295,
+              "flat": 7639
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:46:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695947d31c508c5d5e90dc60",
+          "products": [
+            {
+              "_id": "695947d31c508c5d5e90dc78",
+              "name": "Chips68235",
+              "amount": 644,
+              "price": 85329,
+              "manufacturer": "Xiaomi",
+              "notes": "5IPiZ4e0K93HoJgXC9BnclASdREgT9hcrin7lMKRCT10uaSDiGKcg8h5vuflDvonM2AMESHwItMKiJ2A74w0YXzhwKnmxIxUyLI5v70sNAWfxOXre0ulIE2hqxsJ8EN8Tb0o4qo01KncUvZ9HD3dXGWWtE13BEY0DtD3NlcbGW4pZJPqkpHl0WpH2QOltf1XbVq5lRlX11QYF0I0bi2vGF1cBLgPaDd1625QvL3nJIDdEhN8gP9ghsxPth",
+              "received": false
+            },
+            {
+              "_id": "695947d41c508c5d5e90dca9",
+              "name": "Shirt63140",
+              "amount": 511,
+              "price": 75472,
+              "manufacturer": "Samsung",
+              "notes": "GDyuSwbGsm23YobsFIKMo00c6DcMTd3eFNFPxYmROt16fxx8Y71iCEytmuuRMCKFIHeFOk9zdRRTkIYNZb2MNgrklerWuRLy4OXl0Z5q7Q5EUeihOtMX6zXEMneumwFVUHJz39jtq9k7ClPvYhFrTYmgscTE6c7c4fyJ6SJSanA78v0TVBS6dPy07LAMVT06IByQeLEi75GffgnB7cXjVd9j3e7FF6DjH3Td5gN8dhajqJC73SrRpo2Q6k",
+              "received": false
+            }
+          ],
+          "total_price": 160801,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:46:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

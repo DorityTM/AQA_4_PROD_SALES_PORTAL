@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:45:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1673",
+    "etag": "W/\"689-2PLh6bCZTZqBTcAZhFwJ+NSF5ZY\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "6959479d1c508c5d5e90c2c0",
+        "email": "Albert.Borer@gmail.com",
+        "name": "Garnet Gulgowski",
+        "country": "Canada",
+        "city": "East Lansing",
+        "street": "Else Rest 67",
+        "house": 216,
+        "flat": 6648,
+        "phone": "+535768632407317",
+        "createdOn": "2026-01-03T16:45:17.000Z",
+        "notes": "0z5AK5Dp7jvGMPCP6fkGizQe3lWmlM"
+      },
+      "products": [
+        {
+          "_id": "6959479e1c508c5d5e90c2dc",
+          "name": "Tuna20291",
+          "amount": 902,
+          "price": 32249,
+          "manufacturer": "Samsung",
+          "notes": "PWV3V4N2WuF51Y0lUOgPNDS1zwt7mNE2WRd0OVcdEGMkpGA8x7rXaUrSv6VD5bbsLJfbBNtsU4F4EHNHyLWqYfIP6Vnl9hk30MXJW3IEIchYth27T7sD7YlqNDSM9rD5P4Cl2ow4W1Qlkv0X3vYFohe93APQgGojYDWgdVsE6lsHyZoZW2pwOothZUSvGiyr38Ap4bsez5gUzfc2k2P7OJOd232kjTi3DCo12YLh0KX9jRvmfi2wKhkiqM",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 32249,
+      "createdOn": "2026-01-03T16:45:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959479d1c508c5d5e90c2c0",
+          "products": [
+            {
+              "_id": "6959479e1c508c5d5e90c2dc",
+              "name": "Tuna20291",
+              "amount": 902,
+              "price": 32249,
+              "manufacturer": "Samsung",
+              "notes": "PWV3V4N2WuF51Y0lUOgPNDS1zwt7mNE2WRd0OVcdEGMkpGA8x7rXaUrSv6VD5bbsLJfbBNtsU4F4EHNHyLWqYfIP6Vnl9hk30MXJW3IEIchYth27T7sD7YlqNDSM9rD5P4Cl2ow4W1Qlkv0X3vYFohe93APQgGojYDWgdVsE6lsHyZoZW2pwOothZUSvGiyr38Ap4bsez5gUzfc2k2P7OJOd232kjTi3DCo12YLh0KX9jRvmfi2wKhkiqM",
+              "received": false
+            }
+          ],
+          "total_price": 32249,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:45:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "6959479e1c508c5d5e90c2fe"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

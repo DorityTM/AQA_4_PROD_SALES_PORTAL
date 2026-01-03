@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:42:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-jlBO7J7zaB6UI2aiiHj5uyXmlWc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695947101c508c5d5e909406",
+      "status": "Draft",
+      "customer": {
+        "_id": "6959470f1c508c5d5e9093a9",
+        "email": "Nicolas39@hotmail.com",
+        "name": "Tanya Wehner",
+        "country": "Ukraine",
+        "city": "Edwinstad",
+        "street": "7th Avenue 79",
+        "house": 174,
+        "flat": 3308,
+        "phone": "+017214355648693",
+        "createdOn": "2026-01-03T16:42:55.000Z",
+        "notes": "rYQAY9ciYWwsrel79ijH77rGrbzikQ"
+      },
+      "products": [
+        {
+          "_id": "6959470f1c508c5d5e9093df",
+          "name": "Shoes54661",
+          "amount": 812,
+          "price": 64116,
+          "manufacturer": "Samsung",
+          "notes": "ZIdh8vGZfWjSD54JWFsQofdPyIDy7T4ic87CCaj8T4L6QqscIBt9Vy3vsh0ntX0tzlgxix72Dz8O18in4AvqlgT0vJtcSitP3Er4tVrIiYOvebIRYRtfDlRNk61dyYshhqVM18ao3kxwg8BFUhNFFe5YanPaoHXeWCVMzeuxyALmQEQqLg8KSKwMCNp9JdwP3dxnXgSkq6a3WC6dmxscXAKEA2TTdnntLr9in9BBZvbfIQMe2nVY9WlL8U",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "New Adelebury",
+          "street": "E State Street",
+          "house": 270,
+          "flat": 6315
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64116,
+      "createdOn": "2026-01-03T16:42:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959470f1c508c5d5e9093a9",
+          "products": [
+            {
+              "_id": "6959470f1c508c5d5e9093df",
+              "name": "Shoes54661",
+              "amount": 812,
+              "price": 64116,
+              "manufacturer": "Samsung",
+              "notes": "ZIdh8vGZfWjSD54JWFsQofdPyIDy7T4ic87CCaj8T4L6QqscIBt9Vy3vsh0ntX0tzlgxix72Dz8O18in4AvqlgT0vJtcSitP3Er4tVrIiYOvebIRYRtfDlRNk61dyYshhqVM18ao3kxwg8BFUhNFFe5YanPaoHXeWCVMzeuxyALmQEQqLg8KSKwMCNp9JdwP3dxnXgSkq6a3WC6dmxscXAKEA2TTdnntLr9in9BBZvbfIQMe2nVY9WlL8U",
+              "received": false
+            }
+          ],
+          "total_price": 64116,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "New Adelebury",
+              "street": "E State Street",
+              "house": 270,
+              "flat": 6315
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:42:56.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959470f1c508c5d5e9093a9",
+          "products": [
+            {
+              "_id": "6959470f1c508c5d5e9093df",
+              "name": "Shoes54661",
+              "amount": 812,
+              "price": 64116,
+              "manufacturer": "Samsung",
+              "notes": "ZIdh8vGZfWjSD54JWFsQofdPyIDy7T4ic87CCaj8T4L6QqscIBt9Vy3vsh0ntX0tzlgxix72Dz8O18in4AvqlgT0vJtcSitP3Er4tVrIiYOvebIRYRtfDlRNk61dyYshhqVM18ao3kxwg8BFUhNFFe5YanPaoHXeWCVMzeuxyALmQEQqLg8KSKwMCNp9JdwP3dxnXgSkq6a3WC6dmxscXAKEA2TTdnntLr9in9BBZvbfIQMe2nVY9WlL8U",
+              "received": false
+            }
+          ],
+          "total_price": 64116,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:42:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
