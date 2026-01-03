@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:46:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5213",
+    "etag": "W/\"145d-35Ujgo6EF6/JuF8GMrz4gQ4CT+Q\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958f39d1c508c5d5e83fb93",
+      "status": "In Process",
+      "customer": {
+        "_id": "6958f3941c508c5d5e83f741",
+        "email": "Micheal47@gmail.com",
+        "name": "Mona McClure",
+        "country": "Great Britain",
+        "city": "Zitastead",
+        "street": "Chad Ranch 37",
+        "house": 730,
+        "flat": 8734,
+        "phone": "+160423204736411",
+        "createdOn": "2026-01-03T10:46:44.000Z",
+        "notes": "fjOQvhGfqcXpWyj3tW23H45ucwMQqb"
+      },
+      "products": [
+        {
+          "_id": "6958f3971c508c5d5e83f76f",
+          "name": "Car83356",
+          "amount": 636,
+          "price": 2120,
+          "manufacturer": "Microsoft",
+          "notes": "Vw7vJWXBJEcLtZdMSVYTa4Vyauzg52CYiKrEmupolPVYFfdnzeCaWXUTzHNblML8mRcm1PNFBo5n4bjiy5MaBAegKeY25HjSXWRpDVHVIhBp5xNWkpFRFdc5Jxa0NbsX90odmPg5eUyPTkDMLw8lrrO0JKF2Z53RUxCfT5AjxCkrK1Kn0JcI77KAAFTt7vCUQIms3qzo1L5BWPRL1G9eRttHt2rOtJdFPqBSGZN0xzlYSvakrotu1BgXeJ",
+          "received": false
+        },
+        {
+          "_id": "6958f3991c508c5d5e83fb5d",
+          "name": "Ball78961",
+          "amount": 569,
+          "price": 46064,
+          "manufacturer": "Samsung",
+          "notes": "kdRNsCmJTfi9P2oJksmUyiLM12AenrAgnfFjfG104u95hhbD2Cfjhtdv0doksVOm9ZJiFN5G2gkiJaY0RIDjIb9wWIEunkBVNGj4aDDojeYCu2o85nRIUxEtHObk5r1lpUY2DytLlAydSivq16MMbry5HH9oSKKa1gp6tBGMuBOQ8OmeVQWhoDOSMpvgBpKg55eOxrhzcMPpxD6cQNbEbXhwdv64hj5xqLWQq3caAzZC9SeYcsAmsJb0xL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "West Llewellyn",
+          "street": "Old Road",
+          "house": 447,
+          "flat": 1076
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 48184,
+      "createdOn": "2026-01-03T10:46:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6958f3941c508c5d5e83f741",
+          "products": [
+            {
+              "_id": "6958f3971c508c5d5e83f76f",
+              "name": "Car83356",
+              "amount": 636,
+              "price": 2120,
+              "manufacturer": "Microsoft",
+              "notes": "Vw7vJWXBJEcLtZdMSVYTa4Vyauzg52CYiKrEmupolPVYFfdnzeCaWXUTzHNblML8mRcm1PNFBo5n4bjiy5MaBAegKeY25HjSXWRpDVHVIhBp5xNWkpFRFdc5Jxa0NbsX90odmPg5eUyPTkDMLw8lrrO0JKF2Z53RUxCfT5AjxCkrK1Kn0JcI77KAAFTt7vCUQIms3qzo1L5BWPRL1G9eRttHt2rOtJdFPqBSGZN0xzlYSvakrotu1BgXeJ",
+              "received": false
+            },
+            {
+              "_id": "6958f3991c508c5d5e83fb5d",
+              "name": "Ball78961",
+              "amount": 569,
+              "price": 46064,
+              "manufacturer": "Samsung",
+              "notes": "kdRNsCmJTfi9P2oJksmUyiLM12AenrAgnfFjfG104u95hhbD2Cfjhtdv0doksVOm9ZJiFN5G2gkiJaY0RIDjIb9wWIEunkBVNGj4aDDojeYCu2o85nRIUxEtHObk5r1lpUY2DytLlAydSivq16MMbry5HH9oSKKa1gp6tBGMuBOQ8OmeVQWhoDOSMpvgBpKg55eOxrhzcMPpxD6cQNbEbXhwdv64hj5xqLWQq3caAzZC9SeYcsAmsJb0xL",
+              "received": false
+            }
+          ],
+          "total_price": 48184,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Llewellyn",
+              "street": "Old Road",
+              "house": 447,
+              "flat": 1076
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:46:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958f3941c508c5d5e83f741",
+          "products": [
+            {
+              "_id": "6958f3971c508c5d5e83f76f",
+              "name": "Car83356",
+              "amount": 636,
+              "price": 2120,
+              "manufacturer": "Microsoft",
+              "notes": "Vw7vJWXBJEcLtZdMSVYTa4Vyauzg52CYiKrEmupolPVYFfdnzeCaWXUTzHNblML8mRcm1PNFBo5n4bjiy5MaBAegKeY25HjSXWRpDVHVIhBp5xNWkpFRFdc5Jxa0NbsX90odmPg5eUyPTkDMLw8lrrO0JKF2Z53RUxCfT5AjxCkrK1Kn0JcI77KAAFTt7vCUQIms3qzo1L5BWPRL1G9eRttHt2rOtJdFPqBSGZN0xzlYSvakrotu1BgXeJ",
+              "received": false
+            },
+            {
+              "_id": "6958f3991c508c5d5e83fb5d",
+              "name": "Ball78961",
+              "amount": 569,
+              "price": 46064,
+              "manufacturer": "Samsung",
+              "notes": "kdRNsCmJTfi9P2oJksmUyiLM12AenrAgnfFjfG104u95hhbD2Cfjhtdv0doksVOm9ZJiFN5G2gkiJaY0RIDjIb9wWIEunkBVNGj4aDDojeYCu2o85nRIUxEtHObk5r1lpUY2DytLlAydSivq16MMbry5HH9oSKKa1gp6tBGMuBOQ8OmeVQWhoDOSMpvgBpKg55eOxrhzcMPpxD6cQNbEbXhwdv64hj5xqLWQq3caAzZC9SeYcsAmsJb0xL",
+              "received": false
+            }
+          ],
+          "total_price": 48184,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "West Llewellyn",
+              "street": "Old Road",
+              "house": 447,
+              "flat": 1076
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:46:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958f3941c508c5d5e83f741",
+          "products": [
+            {
+              "_id": "6958f3971c508c5d5e83f76f",
+              "name": "Car83356",
+              "amount": 636,
+              "price": 2120,
+              "manufacturer": "Microsoft",
+              "notes": "Vw7vJWXBJEcLtZdMSVYTa4Vyauzg52CYiKrEmupolPVYFfdnzeCaWXUTzHNblML8mRcm1PNFBo5n4bjiy5MaBAegKeY25HjSXWRpDVHVIhBp5xNWkpFRFdc5Jxa0NbsX90odmPg5eUyPTkDMLw8lrrO0JKF2Z53RUxCfT5AjxCkrK1Kn0JcI77KAAFTt7vCUQIms3qzo1L5BWPRL1G9eRttHt2rOtJdFPqBSGZN0xzlYSvakrotu1BgXeJ",
+              "received": false
+            },
+            {
+              "_id": "6958f3991c508c5d5e83fb5d",
+              "name": "Ball78961",
+              "amount": 569,
+              "price": 46064,
+              "manufacturer": "Samsung",
+              "notes": "kdRNsCmJTfi9P2oJksmUyiLM12AenrAgnfFjfG104u95hhbD2Cfjhtdv0doksVOm9ZJiFN5G2gkiJaY0RIDjIb9wWIEunkBVNGj4aDDojeYCu2o85nRIUxEtHObk5r1lpUY2DytLlAydSivq16MMbry5HH9oSKKa1gp6tBGMuBOQ8OmeVQWhoDOSMpvgBpKg55eOxrhzcMPpxD6cQNbEbXhwdv64hj5xqLWQq3caAzZC9SeYcsAmsJb0xL",
+              "received": false
+            }
+          ],
+          "total_price": 48184,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:46:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

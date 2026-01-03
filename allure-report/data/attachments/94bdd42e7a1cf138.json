@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:24:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4627",
+    "etag": "W/\"1213-b04psXweVxhvldoR7V4573DXVWY\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958ee621c508c5d5e81b10c",
+      "status": "Received",
+      "customer": {
+        "_id": "6958ee5f1c508c5d5e81af92",
+        "email": "Wilfredo.Keebler3@gmail.com",
+        "name": "Murphy Zieme",
+        "country": "Great Britain",
+        "city": "Nampa",
+        "street": "Effertz Junction 96",
+        "house": 126,
+        "flat": 4544,
+        "phone": "+416950840107796",
+        "createdOn": "2026-01-03T10:24:31.000Z",
+        "notes": "dKeI33cpTq94QRnSth3GMVYTDkGoPR"
+      },
+      "products": [
+        {
+          "_id": "6958ee611c508c5d5e81b102",
+          "name": "Ball67418",
+          "amount": 530,
+          "price": 80565,
+          "manufacturer": "Tesla",
+          "notes": "BqIYgLTtu0E0T5OgIylz4YEZTJtVKamIbxOUqm99GYhpHBF8tUKzaUL8LyWsThSz0bzli12ypdrLlTZ5k70qjziONOeemxKXX7RjuzeIna0jWvBQqGjgXV8WHH3420tDckbSUInQNzKxCHN5Ry3R4pCSJOfC6gtiQmeG9NVW8XGDSp9KkzMePy71OHQi6qxinGsIkw3IEw5UKjRW1NMrvwmY0huyK0taSE3jrIsbUPtFfvBAuKqBqQ392m",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Fort Marilieborough",
+          "street": "Albert Road",
+          "house": 153,
+          "flat": 6542
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80565,
+      "createdOn": "2026-01-03T10:24:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6958ee5f1c508c5d5e81af92",
+          "products": [
+            {
+              "_id": "6958ee611c508c5d5e81b102",
+              "name": "Ball67418",
+              "amount": 530,
+              "price": 80565,
+              "manufacturer": "Tesla",
+              "notes": "BqIYgLTtu0E0T5OgIylz4YEZTJtVKamIbxOUqm99GYhpHBF8tUKzaUL8LyWsThSz0bzli12ypdrLlTZ5k70qjziONOeemxKXX7RjuzeIna0jWvBQqGjgXV8WHH3420tDckbSUInQNzKxCHN5Ry3R4pCSJOfC6gtiQmeG9NVW8XGDSp9KkzMePy71OHQi6qxinGsIkw3IEw5UKjRW1NMrvwmY0huyK0taSE3jrIsbUPtFfvBAuKqBqQ392m",
+              "received": true
+            }
+          ],
+          "total_price": 80565,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Marilieborough",
+              "street": "Albert Road",
+              "house": 153,
+              "flat": 6542
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:24:35.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6958ee5f1c508c5d5e81af92",
+          "products": [
+            {
+              "_id": "6958ee611c508c5d5e81b102",
+              "name": "Ball67418",
+              "amount": 530,
+              "price": 80565,
+              "manufacturer": "Tesla",
+              "notes": "BqIYgLTtu0E0T5OgIylz4YEZTJtVKamIbxOUqm99GYhpHBF8tUKzaUL8LyWsThSz0bzli12ypdrLlTZ5k70qjziONOeemxKXX7RjuzeIna0jWvBQqGjgXV8WHH3420tDckbSUInQNzKxCHN5Ry3R4pCSJOfC6gtiQmeG9NVW8XGDSp9KkzMePy71OHQi6qxinGsIkw3IEw5UKjRW1NMrvwmY0huyK0taSE3jrIsbUPtFfvBAuKqBqQ392m",
+              "received": false
+            }
+          ],
+          "total_price": 80565,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Marilieborough",
+              "street": "Albert Road",
+              "house": 153,
+              "flat": 6542
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:24:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ee5f1c508c5d5e81af92",
+          "products": [
+            {
+              "_id": "6958ee611c508c5d5e81b102",
+              "name": "Ball67418",
+              "amount": 530,
+              "price": 80565,
+              "manufacturer": "Tesla",
+              "notes": "BqIYgLTtu0E0T5OgIylz4YEZTJtVKamIbxOUqm99GYhpHBF8tUKzaUL8LyWsThSz0bzli12ypdrLlTZ5k70qjziONOeemxKXX7RjuzeIna0jWvBQqGjgXV8WHH3420tDckbSUInQNzKxCHN5Ry3R4pCSJOfC6gtiQmeG9NVW8XGDSp9KkzMePy71OHQi6qxinGsIkw3IEw5UKjRW1NMrvwmY0huyK0taSE3jrIsbUPtFfvBAuKqBqQ392m",
+              "received": false
+            }
+          ],
+          "total_price": 80565,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Marilieborough",
+              "street": "Albert Road",
+              "house": 153,
+              "flat": 6542
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:24:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ee5f1c508c5d5e81af92",
+          "products": [
+            {
+              "_id": "6958ee611c508c5d5e81b102",
+              "name": "Ball67418",
+              "amount": 530,
+              "price": 80565,
+              "manufacturer": "Tesla",
+              "notes": "BqIYgLTtu0E0T5OgIylz4YEZTJtVKamIbxOUqm99GYhpHBF8tUKzaUL8LyWsThSz0bzli12ypdrLlTZ5k70qjziONOeemxKXX7RjuzeIna0jWvBQqGjgXV8WHH3420tDckbSUInQNzKxCHN5Ry3R4pCSJOfC6gtiQmeG9NVW8XGDSp9KkzMePy71OHQi6qxinGsIkw3IEw5UKjRW1NMrvwmY0huyK0taSE3jrIsbUPtFfvBAuKqBqQ392m",
+              "received": false
+            }
+          ],
+          "total_price": 80565,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:24:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

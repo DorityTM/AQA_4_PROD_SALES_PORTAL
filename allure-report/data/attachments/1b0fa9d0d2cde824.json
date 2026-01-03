@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:43:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2749",
+    "etag": "W/\"abd-RxJEgr8RidtmGP6TVG1KaoUfLoY\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958f2c11c508c5d5e838d82",
+      "status": "Draft",
+      "customer": {
+        "_id": "6958f2be1c508c5d5e838d19",
+        "email": "Raul_Kshlerin@yahoo.com",
+        "name": "Katlynn Schaden",
+        "country": "USA",
+        "city": "Simview",
+        "street": "Wyman Track 25",
+        "house": 123,
+        "flat": 7888,
+        "phone": "+543306457802015",
+        "createdOn": "2026-01-03T10:43:10.000Z",
+        "notes": "ySQHMV7SLQsAEGyPRHV06WjrbX0n6Z"
+      },
+      "products": [
+        {
+          "_id": "6958f2c01c508c5d5e838d7a",
+          "name": "Bike98823",
+          "amount": 771,
+          "price": 47431,
+          "manufacturer": "Samsung",
+          "notes": "p04ENyT1QC8ko1CTDxiEvbiidx17t2ovIxma0svfLILg8XcrvhaP3WVzqI1oYovxSk4dOe0QVLJM20WISG4t7K985cxJsX53nKpbSJigK9b9AttsrT2cUvaKGhO72pfWtnN0dYKOth0YdWhAUlvSQ0UjdLbeAsRL6v4VKNosjo0cgJmr7DNu9KCAVm9i7l3qF7DQAG4o4z9atKtVElFM0LEL3tweNkCL6fr1lR7H6e6f101GbSqr7sSpEi",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "North Jovanboro",
+          "street": "Wehner Mall",
+          "house": 887,
+          "flat": 3055
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47431,
+      "createdOn": "2026-01-03T10:43:13.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958f2be1c508c5d5e838d19",
+          "products": [
+            {
+              "_id": "6958f2c01c508c5d5e838d7a",
+              "name": "Bike98823",
+              "amount": 771,
+              "price": 47431,
+              "manufacturer": "Samsung",
+              "notes": "p04ENyT1QC8ko1CTDxiEvbiidx17t2ovIxma0svfLILg8XcrvhaP3WVzqI1oYovxSk4dOe0QVLJM20WISG4t7K985cxJsX53nKpbSJigK9b9AttsrT2cUvaKGhO72pfWtnN0dYKOth0YdWhAUlvSQ0UjdLbeAsRL6v4VKNosjo0cgJmr7DNu9KCAVm9i7l3qF7DQAG4o4z9atKtVElFM0LEL3tweNkCL6fr1lR7H6e6f101GbSqr7sSpEi",
+              "received": false
+            }
+          ],
+          "total_price": 47431,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "North Jovanboro",
+              "street": "Wehner Mall",
+              "house": 887,
+              "flat": 3055
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:43:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958f2be1c508c5d5e838d19",
+          "products": [
+            {
+              "_id": "6958f2c01c508c5d5e838d7a",
+              "name": "Bike98823",
+              "amount": 771,
+              "price": 47431,
+              "manufacturer": "Samsung",
+              "notes": "p04ENyT1QC8ko1CTDxiEvbiidx17t2ovIxma0svfLILg8XcrvhaP3WVzqI1oYovxSk4dOe0QVLJM20WISG4t7K985cxJsX53nKpbSJigK9b9AttsrT2cUvaKGhO72pfWtnN0dYKOth0YdWhAUlvSQ0UjdLbeAsRL6v4VKNosjo0cgJmr7DNu9KCAVm9i7l3qF7DQAG4o4z9atKtVElFM0LEL3tweNkCL6fr1lR7H6e6f101GbSqr7sSpEi",
+              "received": false
+            }
+          ],
+          "total_price": 47431,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:43:13.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

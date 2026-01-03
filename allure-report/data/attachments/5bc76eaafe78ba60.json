@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:46:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2774",
+    "etag": "W/\"ad6-OUhS3u1LmcoOZBjT+yUC3YCE7Ew\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958f37a1c508c5d5e83ea8d",
+      "status": "Draft",
+      "customer": {
+        "_id": "6958f3761c508c5d5e83e8d4",
+        "email": "Baylee.Hartmann@gmail.com",
+        "name": "Nola Brown",
+        "country": "Great Britain",
+        "city": "Mateostead",
+        "street": "Harrison Street 72",
+        "house": 51,
+        "flat": 4224,
+        "phone": "+403875895769233",
+        "createdOn": "2026-01-03T10:46:14.000Z",
+        "notes": "fVfshEvk2tMt1A2WS2uErULaoLtOuT"
+      },
+      "products": [
+        {
+          "_id": "6958f37a1c508c5d5e83ea7f",
+          "name": "Salad68191",
+          "amount": 548,
+          "price": 66253,
+          "manufacturer": "Xiaomi",
+          "notes": "IC3WsslstKzxmAxH1r6ggHVrUlLzRxnfBLPyMUUD9cWhyG5EEuDVVZ0NYlCJTG9h0q8TXVZPjd0C1jeGuQC9TXjXKNYsYbsqfj87UjSgdANsXqQgVgENiHvjjVlnqWamNsBUJPgvrw7zHbPITsC9v4lFJN86lP4NKJHkgJLjkljV8JsM5iA8N60dfvKfm8CjlKlILE6ysnUW7GU0bdrGW2z9TKTeVGR35baFEuUIoUiqYf4dk88CWQGqG7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "South Ardith",
+          "street": "Leannon Cliff",
+          "house": 740,
+          "flat": 8648
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 66253,
+      "createdOn": "2026-01-03T10:46:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958f3761c508c5d5e83e8d4",
+          "products": [
+            {
+              "_id": "6958f37a1c508c5d5e83ea7f",
+              "name": "Salad68191",
+              "amount": 548,
+              "price": 66253,
+              "manufacturer": "Xiaomi",
+              "notes": "IC3WsslstKzxmAxH1r6ggHVrUlLzRxnfBLPyMUUD9cWhyG5EEuDVVZ0NYlCJTG9h0q8TXVZPjd0C1jeGuQC9TXjXKNYsYbsqfj87UjSgdANsXqQgVgENiHvjjVlnqWamNsBUJPgvrw7zHbPITsC9v4lFJN86lP4NKJHkgJLjkljV8JsM5iA8N60dfvKfm8CjlKlILE6ysnUW7GU0bdrGW2z9TKTeVGR35baFEuUIoUiqYf4dk88CWQGqG7",
+              "received": false
+            }
+          ],
+          "total_price": 66253,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "South Ardith",
+              "street": "Leannon Cliff",
+              "house": 740,
+              "flat": 8648
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:46:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958f3761c508c5d5e83e8d4",
+          "products": [
+            {
+              "_id": "6958f37a1c508c5d5e83ea7f",
+              "name": "Salad68191",
+              "amount": 548,
+              "price": 66253,
+              "manufacturer": "Xiaomi",
+              "notes": "IC3WsslstKzxmAxH1r6ggHVrUlLzRxnfBLPyMUUD9cWhyG5EEuDVVZ0NYlCJTG9h0q8TXVZPjd0C1jeGuQC9TXjXKNYsYbsqfj87UjSgdANsXqQgVgENiHvjjVlnqWamNsBUJPgvrw7zHbPITsC9v4lFJN86lP4NKJHkgJLjkljV8JsM5iA8N60dfvKfm8CjlKlILE6ysnUW7GU0bdrGW2z9TKTeVGR35baFEuUIoUiqYf4dk88CWQGqG7",
+              "received": false
+            }
+          ],
+          "total_price": 66253,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:46:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

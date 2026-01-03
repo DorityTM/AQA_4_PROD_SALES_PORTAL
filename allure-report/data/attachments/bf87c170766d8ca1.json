@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:23:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2733",
+    "etag": "W/\"aad-ipGksM7oMmLt1mD8+xfHeXt3L/k\"",
+    "keep-alive": "timeout=5, max=13",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958ee0d1c508c5d5e8188f5",
+      "status": "Draft",
+      "customer": {
+        "_id": "6958ee071c508c5d5e8186dc",
+        "email": "Deja_Ferry11@gmail.com",
+        "name": "Cleveland Kozey",
+        "country": "USA",
+        "city": "Parker",
+        "street": "Harrison Street 18",
+        "house": 534,
+        "flat": 7194,
+        "phone": "+151834009641002",
+        "createdOn": "2026-01-03T10:23:03.000Z",
+        "notes": "gZ7JjiuPx7fooaKiegCORSFOhCOsgb"
+      },
+      "products": [
+        {
+          "_id": "6958ee0c1c508c5d5e8187c2",
+          "name": "Salad33369",
+          "amount": 876,
+          "price": 11816,
+          "manufacturer": "Sony",
+          "notes": "onYpqk9ogSbv9AAh9Msphutq0d38HPVAWhyeqewN9H8d3kk4v5Pvk963gUCQfiXjEfOC3YVihhuErNV7wfBmwxyDbx8Sj7HhjGRD9qomZMU9ZAzVLmlWwzafgeE07J7MM3nM1nyC7riZFWGyCKjkt2qGTMqMo4OwynJd4xmDzS17tJsLXhon8TrF9M0Y6BB1DGmccyliuDxzxg7nh7fGPLS4RD93cTDWcpskzrZqWYfLctjDBXymJBUadn",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "New Jamil",
+          "street": "Donny Flat",
+          "house": 703,
+          "flat": 3166
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 11816,
+      "createdOn": "2026-01-03T10:23:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958ee071c508c5d5e8186dc",
+          "products": [
+            {
+              "_id": "6958ee0c1c508c5d5e8187c2",
+              "name": "Salad33369",
+              "amount": 876,
+              "price": 11816,
+              "manufacturer": "Sony",
+              "notes": "onYpqk9ogSbv9AAh9Msphutq0d38HPVAWhyeqewN9H8d3kk4v5Pvk963gUCQfiXjEfOC3YVihhuErNV7wfBmwxyDbx8Sj7HhjGRD9qomZMU9ZAzVLmlWwzafgeE07J7MM3nM1nyC7riZFWGyCKjkt2qGTMqMo4OwynJd4xmDzS17tJsLXhon8TrF9M0Y6BB1DGmccyliuDxzxg7nh7fGPLS4RD93cTDWcpskzrZqWYfLctjDBXymJBUadn",
+              "received": false
+            }
+          ],
+          "total_price": 11816,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "New Jamil",
+              "street": "Donny Flat",
+              "house": 703,
+              "flat": 3166
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:23:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ee071c508c5d5e8186dc",
+          "products": [
+            {
+              "_id": "6958ee0c1c508c5d5e8187c2",
+              "name": "Salad33369",
+              "amount": 876,
+              "price": 11816,
+              "manufacturer": "Sony",
+              "notes": "onYpqk9ogSbv9AAh9Msphutq0d38HPVAWhyeqewN9H8d3kk4v5Pvk963gUCQfiXjEfOC3YVihhuErNV7wfBmwxyDbx8Sj7HhjGRD9qomZMU9ZAzVLmlWwzafgeE07J7MM3nM1nyC7riZFWGyCKjkt2qGTMqMo4OwynJd4xmDzS17tJsLXhon8TrF9M0Y6BB1DGmccyliuDxzxg7nh7fGPLS4RD93cTDWcpskzrZqWYfLctjDBXymJBUadn",
+              "received": false
+            }
+          ],
+          "total_price": 11816,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:23:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

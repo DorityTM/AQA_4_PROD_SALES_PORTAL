@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:20:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4612",
+    "etag": "W/\"1204-zauJpaqNaIgLvVbM826cylRdo9Q\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958ed821c508c5d5e814934",
+      "status": "Received",
+      "customer": {
+        "_id": "6958ed801c508c5d5e81490e",
+        "email": "Jerry_Vandervort86@gmail.com",
+        "name": "Danyka Huel",
+        "country": "France",
+        "city": "Jenkinsside",
+        "street": "Strosin Station 10",
+        "house": 906,
+        "flat": 3147,
+        "phone": "+984119335530206",
+        "createdOn": "2026-01-03T10:20:48.000Z",
+        "notes": "Q0XZEcZ7dYCi5tgihA3SJXPjv7FYWx"
+      },
+      "products": [
+        {
+          "_id": "6958ed821c508c5d5e814922",
+          "name": "Table23485",
+          "amount": 447,
+          "price": 42633,
+          "manufacturer": "Samsung",
+          "notes": "e0UUy85NgaedRA9vewxpBSE4a3YvckBX6xfOSnZ5aKhfAxLYNxLaLpd7S45RCQ3i45OtF759JK5LAJf49mDPDWYq2D8PV54NYtfvpm16StMwBi2QUqX9n0taz0ZWBTykKfSOrW2tMVa5k9pxQHUmDQyFweM8m13BLcJIUfdRKIv2lu0HvVB78ePR3BKdGetT1uYjwIV1PrGh2XnZYfhirHSSBIq0uLvG5djZ7GQdkowqvshDZCEnpeBiCx",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Federal Way",
+          "street": "Mount Street",
+          "house": 743,
+          "flat": 8045
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42633,
+      "createdOn": "2026-01-03T10:20:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6958ed801c508c5d5e81490e",
+          "products": [
+            {
+              "_id": "6958ed821c508c5d5e814922",
+              "name": "Table23485",
+              "amount": 447,
+              "price": 42633,
+              "manufacturer": "Samsung",
+              "notes": "e0UUy85NgaedRA9vewxpBSE4a3YvckBX6xfOSnZ5aKhfAxLYNxLaLpd7S45RCQ3i45OtF759JK5LAJf49mDPDWYq2D8PV54NYtfvpm16StMwBi2QUqX9n0taz0ZWBTykKfSOrW2tMVa5k9pxQHUmDQyFweM8m13BLcJIUfdRKIv2lu0HvVB78ePR3BKdGetT1uYjwIV1PrGh2XnZYfhirHSSBIq0uLvG5djZ7GQdkowqvshDZCEnpeBiCx",
+              "received": true
+            }
+          ],
+          "total_price": 42633,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Federal Way",
+              "street": "Mount Street",
+              "house": 743,
+              "flat": 8045
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:20:54.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6958ed801c508c5d5e81490e",
+          "products": [
+            {
+              "_id": "6958ed821c508c5d5e814922",
+              "name": "Table23485",
+              "amount": 447,
+              "price": 42633,
+              "manufacturer": "Samsung",
+              "notes": "e0UUy85NgaedRA9vewxpBSE4a3YvckBX6xfOSnZ5aKhfAxLYNxLaLpd7S45RCQ3i45OtF759JK5LAJf49mDPDWYq2D8PV54NYtfvpm16StMwBi2QUqX9n0taz0ZWBTykKfSOrW2tMVa5k9pxQHUmDQyFweM8m13BLcJIUfdRKIv2lu0HvVB78ePR3BKdGetT1uYjwIV1PrGh2XnZYfhirHSSBIq0uLvG5djZ7GQdkowqvshDZCEnpeBiCx",
+              "received": false
+            }
+          ],
+          "total_price": 42633,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Federal Way",
+              "street": "Mount Street",
+              "house": 743,
+              "flat": 8045
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:20:51.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ed801c508c5d5e81490e",
+          "products": [
+            {
+              "_id": "6958ed821c508c5d5e814922",
+              "name": "Table23485",
+              "amount": 447,
+              "price": 42633,
+              "manufacturer": "Samsung",
+              "notes": "e0UUy85NgaedRA9vewxpBSE4a3YvckBX6xfOSnZ5aKhfAxLYNxLaLpd7S45RCQ3i45OtF759JK5LAJf49mDPDWYq2D8PV54NYtfvpm16StMwBi2QUqX9n0taz0ZWBTykKfSOrW2tMVa5k9pxQHUmDQyFweM8m13BLcJIUfdRKIv2lu0HvVB78ePR3BKdGetT1uYjwIV1PrGh2XnZYfhirHSSBIq0uLvG5djZ7GQdkowqvshDZCEnpeBiCx",
+              "received": false
+            }
+          ],
+          "total_price": 42633,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Federal Way",
+              "street": "Mount Street",
+              "house": 743,
+              "flat": 8045
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:20:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ed801c508c5d5e81490e",
+          "products": [
+            {
+              "_id": "6958ed821c508c5d5e814922",
+              "name": "Table23485",
+              "amount": 447,
+              "price": 42633,
+              "manufacturer": "Samsung",
+              "notes": "e0UUy85NgaedRA9vewxpBSE4a3YvckBX6xfOSnZ5aKhfAxLYNxLaLpd7S45RCQ3i45OtF759JK5LAJf49mDPDWYq2D8PV54NYtfvpm16StMwBi2QUqX9n0taz0ZWBTykKfSOrW2tMVa5k9pxQHUmDQyFweM8m13BLcJIUfdRKIv2lu0HvVB78ePR3BKdGetT1uYjwIV1PrGh2XnZYfhirHSSBIq0uLvG5djZ7GQdkowqvshDZCEnpeBiCx",
+              "received": false
+            }
+          ],
+          "total_price": 42633,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:20:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:43:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4578",
+    "etag": "W/\"11e2-7YYIrKKmX9I7b/wmhNmmLdq3BRw\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958f2c91c508c5d5e839345",
+      "status": "Received",
+      "customer": {
+        "_id": "6958f2c21c508c5d5e839109",
+        "email": "Ada.Jacobs35@yahoo.com",
+        "name": "Mya Maggio",
+        "country": "Ukraine",
+        "city": "Huelcester",
+        "street": "Wisoky Branch 54",
+        "house": 894,
+        "flat": 6220,
+        "phone": "+346492577547177",
+        "createdOn": "2026-01-03T10:43:14.000Z",
+        "notes": "9QQsqUalarUvocwJtizjvfQryvWL1E"
+      },
+      "products": [
+        {
+          "_id": "6958f2c91c508c5d5e839332",
+          "name": "Shirt54582",
+          "amount": 778,
+          "price": 22421,
+          "manufacturer": "Google",
+          "notes": "fRHWUqOgOZesZe81zfYfpaIeZWV7WXfktlGgIS2uLEkzvQ99hBCU8qgzwWwmQ7SDQRc1RxV0mKQx5GIyXPQXp01CcDdPudwejJ0whFYHl2GeSljeDeuVJlsX3cFK5wbQ7Jpq9RfZQJwrsLd2EZSAnH09TImsPBW8I7AvHOuKVj3z145tMCtYxJbYM9b8hop0EOStGWMY0859iuP4c3cKyG2J26NbijPa611s210n434NCsXdcm5EuHoD5U",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Deloresfort",
+          "street": "Beech Drive",
+          "house": 790,
+          "flat": 767
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22421,
+      "createdOn": "2026-01-03T10:43:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6958f2c21c508c5d5e839109",
+          "products": [
+            {
+              "_id": "6958f2c91c508c5d5e839332",
+              "name": "Shirt54582",
+              "amount": 778,
+              "price": 22421,
+              "manufacturer": "Google",
+              "notes": "fRHWUqOgOZesZe81zfYfpaIeZWV7WXfktlGgIS2uLEkzvQ99hBCU8qgzwWwmQ7SDQRc1RxV0mKQx5GIyXPQXp01CcDdPudwejJ0whFYHl2GeSljeDeuVJlsX3cFK5wbQ7Jpq9RfZQJwrsLd2EZSAnH09TImsPBW8I7AvHOuKVj3z145tMCtYxJbYM9b8hop0EOStGWMY0859iuP4c3cKyG2J26NbijPa611s210n434NCsXdcm5EuHoD5U",
+              "received": true
+            }
+          ],
+          "total_price": 22421,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Deloresfort",
+              "street": "Beech Drive",
+              "house": 790,
+              "flat": 767
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:43:22.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6958f2c21c508c5d5e839109",
+          "products": [
+            {
+              "_id": "6958f2c91c508c5d5e839332",
+              "name": "Shirt54582",
+              "amount": 778,
+              "price": 22421,
+              "manufacturer": "Google",
+              "notes": "fRHWUqOgOZesZe81zfYfpaIeZWV7WXfktlGgIS2uLEkzvQ99hBCU8qgzwWwmQ7SDQRc1RxV0mKQx5GIyXPQXp01CcDdPudwejJ0whFYHl2GeSljeDeuVJlsX3cFK5wbQ7Jpq9RfZQJwrsLd2EZSAnH09TImsPBW8I7AvHOuKVj3z145tMCtYxJbYM9b8hop0EOStGWMY0859iuP4c3cKyG2J26NbijPa611s210n434NCsXdcm5EuHoD5U",
+              "received": false
+            }
+          ],
+          "total_price": 22421,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Deloresfort",
+              "street": "Beech Drive",
+              "house": 790,
+              "flat": 767
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:43:22.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958f2c21c508c5d5e839109",
+          "products": [
+            {
+              "_id": "6958f2c91c508c5d5e839332",
+              "name": "Shirt54582",
+              "amount": 778,
+              "price": 22421,
+              "manufacturer": "Google",
+              "notes": "fRHWUqOgOZesZe81zfYfpaIeZWV7WXfktlGgIS2uLEkzvQ99hBCU8qgzwWwmQ7SDQRc1RxV0mKQx5GIyXPQXp01CcDdPudwejJ0whFYHl2GeSljeDeuVJlsX3cFK5wbQ7Jpq9RfZQJwrsLd2EZSAnH09TImsPBW8I7AvHOuKVj3z145tMCtYxJbYM9b8hop0EOStGWMY0859iuP4c3cKyG2J26NbijPa611s210n434NCsXdcm5EuHoD5U",
+              "received": false
+            }
+          ],
+          "total_price": 22421,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Deloresfort",
+              "street": "Beech Drive",
+              "house": 790,
+              "flat": 767
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:43:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958f2c21c508c5d5e839109",
+          "products": [
+            {
+              "_id": "6958f2c91c508c5d5e839332",
+              "name": "Shirt54582",
+              "amount": 778,
+              "price": 22421,
+              "manufacturer": "Google",
+              "notes": "fRHWUqOgOZesZe81zfYfpaIeZWV7WXfktlGgIS2uLEkzvQ99hBCU8qgzwWwmQ7SDQRc1RxV0mKQx5GIyXPQXp01CcDdPudwejJ0whFYHl2GeSljeDeuVJlsX3cFK5wbQ7Jpq9RfZQJwrsLd2EZSAnH09TImsPBW8I7AvHOuKVj3z145tMCtYxJbYM9b8hop0EOStGWMY0859iuP4c3cKyG2J26NbijPa611s210n434NCsXdcm5EuHoD5U",
+              "received": false
+            }
+          ],
+          "total_price": 22421,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:43:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:25:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4580",
+    "etag": "W/\"11e4-Zqbak6GZBo3jZHjSaQPL/YxZQrY\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958eeaa1c508c5d5e81dc48",
+      "status": "Received",
+      "customer": {
+        "_id": "6958eea81c508c5d5e81dab3",
+        "email": "Andre.Bernier54@yahoo.com",
+        "name": "Hassie Rohan",
+        "country": "Belarus",
+        "city": "Carmel",
+        "street": "Travon Cliff 10",
+        "house": 628,
+        "flat": 6917,
+        "phone": "+075271416514513",
+        "createdOn": "2026-01-03T10:25:44.000Z",
+        "notes": "4rwQghOnpGIpuudKwU4cQzCfkAKawV"
+      },
+      "products": [
+        {
+          "_id": "6958eeaa1c508c5d5e81dc40",
+          "name": "Salad92056",
+          "amount": 943,
+          "price": 92419,
+          "manufacturer": "Sony",
+          "notes": "0gd4CQKdNlFa7EfNEjtN5M0wI8IoXWrUhlJRsRipHQS9cl3lBeZmKQajboJccg5w7PytsPQH11Oz1hOD0Ra8iWCFUpemfabW87ujx8P1rB0R0nswobuwfXU4IAPh45FaV8TKxgC9s2T7jqIqlbS3qAUP438LuUSjjBJFOvMlglFEgd91r75ITmIW3f4annTnzBPjCqqfyEzOHNXxaDv7XeToKeCttRevgy1OFHcESCz8fn2zOmbB5wdDcN",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "South Bend",
+          "street": "Marsh Lane",
+          "house": 966,
+          "flat": 8804
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92419,
+      "createdOn": "2026-01-03T10:25:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6958eea81c508c5d5e81dab3",
+          "products": [
+            {
+              "_id": "6958eeaa1c508c5d5e81dc40",
+              "name": "Salad92056",
+              "amount": 943,
+              "price": 92419,
+              "manufacturer": "Sony",
+              "notes": "0gd4CQKdNlFa7EfNEjtN5M0wI8IoXWrUhlJRsRipHQS9cl3lBeZmKQajboJccg5w7PytsPQH11Oz1hOD0Ra8iWCFUpemfabW87ujx8P1rB0R0nswobuwfXU4IAPh45FaV8TKxgC9s2T7jqIqlbS3qAUP438LuUSjjBJFOvMlglFEgd91r75ITmIW3f4annTnzBPjCqqfyEzOHNXxaDv7XeToKeCttRevgy1OFHcESCz8fn2zOmbB5wdDcN",
+              "received": true
+            }
+          ],
+          "total_price": 92419,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "South Bend",
+              "street": "Marsh Lane",
+              "house": 966,
+              "flat": 8804
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:25:47.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6958eea81c508c5d5e81dab3",
+          "products": [
+            {
+              "_id": "6958eeaa1c508c5d5e81dc40",
+              "name": "Salad92056",
+              "amount": 943,
+              "price": 92419,
+              "manufacturer": "Sony",
+              "notes": "0gd4CQKdNlFa7EfNEjtN5M0wI8IoXWrUhlJRsRipHQS9cl3lBeZmKQajboJccg5w7PytsPQH11Oz1hOD0Ra8iWCFUpemfabW87ujx8P1rB0R0nswobuwfXU4IAPh45FaV8TKxgC9s2T7jqIqlbS3qAUP438LuUSjjBJFOvMlglFEgd91r75ITmIW3f4annTnzBPjCqqfyEzOHNXxaDv7XeToKeCttRevgy1OFHcESCz8fn2zOmbB5wdDcN",
+              "received": false
+            }
+          ],
+          "total_price": 92419,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "South Bend",
+              "street": "Marsh Lane",
+              "house": 966,
+              "flat": 8804
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:25:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958eea81c508c5d5e81dab3",
+          "products": [
+            {
+              "_id": "6958eeaa1c508c5d5e81dc40",
+              "name": "Salad92056",
+              "amount": 943,
+              "price": 92419,
+              "manufacturer": "Sony",
+              "notes": "0gd4CQKdNlFa7EfNEjtN5M0wI8IoXWrUhlJRsRipHQS9cl3lBeZmKQajboJccg5w7PytsPQH11Oz1hOD0Ra8iWCFUpemfabW87ujx8P1rB0R0nswobuwfXU4IAPh45FaV8TKxgC9s2T7jqIqlbS3qAUP438LuUSjjBJFOvMlglFEgd91r75ITmIW3f4annTnzBPjCqqfyEzOHNXxaDv7XeToKeCttRevgy1OFHcESCz8fn2zOmbB5wdDcN",
+              "received": false
+            }
+          ],
+          "total_price": 92419,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "South Bend",
+              "street": "Marsh Lane",
+              "house": 966,
+              "flat": 8804
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:25:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958eea81c508c5d5e81dab3",
+          "products": [
+            {
+              "_id": "6958eeaa1c508c5d5e81dc40",
+              "name": "Salad92056",
+              "amount": 943,
+              "price": 92419,
+              "manufacturer": "Sony",
+              "notes": "0gd4CQKdNlFa7EfNEjtN5M0wI8IoXWrUhlJRsRipHQS9cl3lBeZmKQajboJccg5w7PytsPQH11Oz1hOD0Ra8iWCFUpemfabW87ujx8P1rB0R0nswobuwfXU4IAPh45FaV8TKxgC9s2T7jqIqlbS3qAUP438LuUSjjBJFOvMlglFEgd91r75ITmIW3f4annTnzBPjCqqfyEzOHNXxaDv7XeToKeCttRevgy1OFHcESCz8fn2zOmbB5wdDcN",
+              "received": false
+            }
+          ],
+          "total_price": 92419,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:25:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

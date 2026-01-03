@@ -1,0 +1,383 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:22:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "9671",
+    "etag": "W/\"25c7-scRKhUcclqyv2Eb0u8aQTjiJfjs\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958edd01c508c5d5e816cc1",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6958edca1c508c5d5e816b35",
+        "email": "Brook.Kuhlman@hotmail.com",
+        "name": "Urban Gusikowski Dickens",
+        "country": "Ukraine",
+        "city": "South Kaciestead",
+        "street": "Frami Garden 55",
+        "house": 139,
+        "flat": 3714,
+        "phone": "+721853356215286",
+        "createdOn": "2026-01-03T10:22:02.000Z",
+        "notes": "EhBlAxTygEoa89R6rFNfsWhjS1K0Ad"
+      },
+      "products": [
+        {
+          "_id": "6958edcd1c508c5d5e816ba9",
+          "name": "Sausages71752",
+          "amount": 390,
+          "price": 67912,
+          "manufacturer": "Tesla",
+          "notes": "gHuip7W0HU63RErVfeUlBHN4vS7k64m73xdpVtF0awdjxJeswVRdPtv5naFqMYFJZ435kLiLdHWQTgcr2p7nX9GvGMePQvIiULn6GgjbPLWXoTscr1GmnbXHgPWdIDwn1EkMEUoaAYNQoOaWyZaJMOmk1QbYjV9lRjw4F97cuiEdA7StZq2Tqv5voutlzon9h2csc8vSNBoYPCV91ya0NSTsSKyGV8ewidqIki17HTyx4TofD9FxZ4J0ze",
+          "received": true
+        },
+        {
+          "_id": "6958edcf1c508c5d5e816cb6",
+          "name": "Chips94167",
+          "amount": 802,
+          "price": 91545,
+          "manufacturer": "Google",
+          "notes": "P53EJa7JnAPfBv7Ppdik5qCNJREKrwfL1WRttAKt9Ne3HjIfY7Vfyn1OP7DdRloSvkZ7St2ryWFHZm23TDaUlKqkSsSRfpm6PndZtEn7tyRcM9riXgbZ2rhWuzovNiN4BzS6sJOMBdtUAigh5HhkCNbVJCOQIQQKTfX4zsVuwkIN3mRZUFZNms3DNecIZqRWxfmnz7bpvgkh7Imm5U7GYwhGXigwgbZyEWu6KODih8kVc5yGaCcSO6edwb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Ryleeport",
+          "street": "Murazik Center",
+          "house": 180,
+          "flat": 4970
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 159457,
+      "createdOn": "2026-01-03T10:22:08.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6958edca1c508c5d5e816b35",
+          "products": [
+            {
+              "_id": "6958edcd1c508c5d5e816ba9",
+              "name": "Sausages71752",
+              "amount": 390,
+              "price": 67912,
+              "manufacturer": "Tesla",
+              "notes": "gHuip7W0HU63RErVfeUlBHN4vS7k64m73xdpVtF0awdjxJeswVRdPtv5naFqMYFJZ435kLiLdHWQTgcr2p7nX9GvGMePQvIiULn6GgjbPLWXoTscr1GmnbXHgPWdIDwn1EkMEUoaAYNQoOaWyZaJMOmk1QbYjV9lRjw4F97cuiEdA7StZq2Tqv5voutlzon9h2csc8vSNBoYPCV91ya0NSTsSKyGV8ewidqIki17HTyx4TofD9FxZ4J0ze",
+              "received": true
+            },
+            {
+              "_id": "6958edcf1c508c5d5e816cb6",
+              "name": "Chips94167",
+              "amount": 802,
+              "price": 91545,
+              "manufacturer": "Google",
+              "notes": "P53EJa7JnAPfBv7Ppdik5qCNJREKrwfL1WRttAKt9Ne3HjIfY7Vfyn1OP7DdRloSvkZ7St2ryWFHZm23TDaUlKqkSsSRfpm6PndZtEn7tyRcM9riXgbZ2rhWuzovNiN4BzS6sJOMBdtUAigh5HhkCNbVJCOQIQQKTfX4zsVuwkIN3mRZUFZNms3DNecIZqRWxfmnz7bpvgkh7Imm5U7GYwhGXigwgbZyEWu6KODih8kVc5yGaCcSO6edwb",
+              "received": false
+            }
+          ],
+          "total_price": 159457,
+          "delivery": {
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery",
+            "address": {
+              "country": "Germany",
+              "city": "Ryleeport",
+              "street": "Murazik Center",
+              "house": 180,
+              "flat": 4970
+            }
+          },
+          "changedOn": "2026-01-03T10:22:15.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e953357",
+            "username": "student13@gmail.com",
+            "firstName": "Isabelle",
+            "lastName": "Mueller",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "6958edca1c508c5d5e816b35",
+          "products": [
+            {
+              "_id": "6958edcd1c508c5d5e816ba9",
+              "name": "Sausages71752",
+              "amount": 390,
+              "price": 67912,
+              "manufacturer": "Tesla",
+              "notes": "gHuip7W0HU63RErVfeUlBHN4vS7k64m73xdpVtF0awdjxJeswVRdPtv5naFqMYFJZ435kLiLdHWQTgcr2p7nX9GvGMePQvIiULn6GgjbPLWXoTscr1GmnbXHgPWdIDwn1EkMEUoaAYNQoOaWyZaJMOmk1QbYjV9lRjw4F97cuiEdA7StZq2Tqv5voutlzon9h2csc8vSNBoYPCV91ya0NSTsSKyGV8ewidqIki17HTyx4TofD9FxZ4J0ze",
+              "received": true
+            },
+            {
+              "_id": "6958edcf1c508c5d5e816cb6",
+              "name": "Chips94167",
+              "amount": 802,
+              "price": 91545,
+              "manufacturer": "Google",
+              "notes": "P53EJa7JnAPfBv7Ppdik5qCNJREKrwfL1WRttAKt9Ne3HjIfY7Vfyn1OP7DdRloSvkZ7St2ryWFHZm23TDaUlKqkSsSRfpm6PndZtEn7tyRcM9riXgbZ2rhWuzovNiN4BzS6sJOMBdtUAigh5HhkCNbVJCOQIQQKTfX4zsVuwkIN3mRZUFZNms3DNecIZqRWxfmnz7bpvgkh7Imm5U7GYwhGXigwgbZyEWu6KODih8kVc5yGaCcSO6edwb",
+              "received": false
+            }
+          ],
+          "total_price": 159457,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Ryleeport",
+              "street": "Murazik Center",
+              "house": 180,
+              "flat": 4970
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:22:14.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Partially Received",
+          "customer": "6958edca1c508c5d5e816b35",
+          "products": [
+            {
+              "_id": "6958edcd1c508c5d5e816ba9",
+              "name": "Sausages71752",
+              "amount": 390,
+              "price": 67912,
+              "manufacturer": "Tesla",
+              "notes": "gHuip7W0HU63RErVfeUlBHN4vS7k64m73xdpVtF0awdjxJeswVRdPtv5naFqMYFJZ435kLiLdHWQTgcr2p7nX9GvGMePQvIiULn6GgjbPLWXoTscr1GmnbXHgPWdIDwn1EkMEUoaAYNQoOaWyZaJMOmk1QbYjV9lRjw4F97cuiEdA7StZq2Tqv5voutlzon9h2csc8vSNBoYPCV91ya0NSTsSKyGV8ewidqIki17HTyx4TofD9FxZ4J0ze",
+              "received": true
+            },
+            {
+              "_id": "6958edcf1c508c5d5e816cb6",
+              "name": "Chips94167",
+              "amount": 802,
+              "price": 91545,
+              "manufacturer": "Google",
+              "notes": "P53EJa7JnAPfBv7Ppdik5qCNJREKrwfL1WRttAKt9Ne3HjIfY7Vfyn1OP7DdRloSvkZ7St2ryWFHZm23TDaUlKqkSsSRfpm6PndZtEn7tyRcM9riXgbZ2rhWuzovNiN4BzS6sJOMBdtUAigh5HhkCNbVJCOQIQQKTfX4zsVuwkIN3mRZUFZNms3DNecIZqRWxfmnz7bpvgkh7Imm5U7GYwhGXigwgbZyEWu6KODih8kVc5yGaCcSO6edwb",
+              "received": false
+            }
+          ],
+          "total_price": 159457,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Ryleeport",
+              "street": "Murazik Center",
+              "house": 180,
+              "flat": 4970
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:22:13.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6958edca1c508c5d5e816b35",
+          "products": [
+            {
+              "_id": "6958edcd1c508c5d5e816ba9",
+              "name": "Sausages71752",
+              "amount": 390,
+              "price": 67912,
+              "manufacturer": "Tesla",
+              "notes": "gHuip7W0HU63RErVfeUlBHN4vS7k64m73xdpVtF0awdjxJeswVRdPtv5naFqMYFJZ435kLiLdHWQTgcr2p7nX9GvGMePQvIiULn6GgjbPLWXoTscr1GmnbXHgPWdIDwn1EkMEUoaAYNQoOaWyZaJMOmk1QbYjV9lRjw4F97cuiEdA7StZq2Tqv5voutlzon9h2csc8vSNBoYPCV91ya0NSTsSKyGV8ewidqIki17HTyx4TofD9FxZ4J0ze",
+              "received": false
+            },
+            {
+              "_id": "6958edcf1c508c5d5e816cb6",
+              "name": "Chips94167",
+              "amount": 802,
+              "price": 91545,
+              "manufacturer": "Google",
+              "notes": "P53EJa7JnAPfBv7Ppdik5qCNJREKrwfL1WRttAKt9Ne3HjIfY7Vfyn1OP7DdRloSvkZ7St2ryWFHZm23TDaUlKqkSsSRfpm6PndZtEn7tyRcM9riXgbZ2rhWuzovNiN4BzS6sJOMBdtUAigh5HhkCNbVJCOQIQQKTfX4zsVuwkIN3mRZUFZNms3DNecIZqRWxfmnz7bpvgkh7Imm5U7GYwhGXigwgbZyEWu6KODih8kVc5yGaCcSO6edwb",
+              "received": false
+            }
+          ],
+          "total_price": 159457,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Ryleeport",
+              "street": "Murazik Center",
+              "house": 180,
+              "flat": 4970
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:22:13.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958edca1c508c5d5e816b35",
+          "products": [
+            {
+              "_id": "6958edcd1c508c5d5e816ba9",
+              "name": "Sausages71752",
+              "amount": 390,
+              "price": 67912,
+              "manufacturer": "Tesla",
+              "notes": "gHuip7W0HU63RErVfeUlBHN4vS7k64m73xdpVtF0awdjxJeswVRdPtv5naFqMYFJZ435kLiLdHWQTgcr2p7nX9GvGMePQvIiULn6GgjbPLWXoTscr1GmnbXHgPWdIDwn1EkMEUoaAYNQoOaWyZaJMOmk1QbYjV9lRjw4F97cuiEdA7StZq2Tqv5voutlzon9h2csc8vSNBoYPCV91ya0NSTsSKyGV8ewidqIki17HTyx4TofD9FxZ4J0ze",
+              "received": false
+            },
+            {
+              "_id": "6958edcf1c508c5d5e816cb6",
+              "name": "Chips94167",
+              "amount": 802,
+              "price": 91545,
+              "manufacturer": "Google",
+              "notes": "P53EJa7JnAPfBv7Ppdik5qCNJREKrwfL1WRttAKt9Ne3HjIfY7Vfyn1OP7DdRloSvkZ7St2ryWFHZm23TDaUlKqkSsSRfpm6PndZtEn7tyRcM9riXgbZ2rhWuzovNiN4BzS6sJOMBdtUAigh5HhkCNbVJCOQIQQKTfX4zsVuwkIN3mRZUFZNms3DNecIZqRWxfmnz7bpvgkh7Imm5U7GYwhGXigwgbZyEWu6KODih8kVc5yGaCcSO6edwb",
+              "received": false
+            }
+          ],
+          "total_price": 159457,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Ryleeport",
+              "street": "Murazik Center",
+              "house": 180,
+              "flat": 4970
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:22:08.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958edca1c508c5d5e816b35",
+          "products": [
+            {
+              "_id": "6958edcd1c508c5d5e816ba9",
+              "name": "Sausages71752",
+              "amount": 390,
+              "price": 67912,
+              "manufacturer": "Tesla",
+              "notes": "gHuip7W0HU63RErVfeUlBHN4vS7k64m73xdpVtF0awdjxJeswVRdPtv5naFqMYFJZ435kLiLdHWQTgcr2p7nX9GvGMePQvIiULn6GgjbPLWXoTscr1GmnbXHgPWdIDwn1EkMEUoaAYNQoOaWyZaJMOmk1QbYjV9lRjw4F97cuiEdA7StZq2Tqv5voutlzon9h2csc8vSNBoYPCV91ya0NSTsSKyGV8ewidqIki17HTyx4TofD9FxZ4J0ze",
+              "received": false
+            },
+            {
+              "_id": "6958edcf1c508c5d5e816cb6",
+              "name": "Chips94167",
+              "amount": 802,
+              "price": 91545,
+              "manufacturer": "Google",
+              "notes": "P53EJa7JnAPfBv7Ppdik5qCNJREKrwfL1WRttAKt9Ne3HjIfY7Vfyn1OP7DdRloSvkZ7St2ryWFHZm23TDaUlKqkSsSRfpm6PndZtEn7tyRcM9riXgbZ2rhWuzovNiN4BzS6sJOMBdtUAigh5HhkCNbVJCOQIQQKTfX4zsVuwkIN3mRZUFZNms3DNecIZqRWxfmnz7bpvgkh7Imm5U7GYwhGXigwgbZyEWu6KODih8kVc5yGaCcSO6edwb",
+              "received": false
+            }
+          ],
+          "total_price": 159457,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:22:08.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e953357",
+        "username": "student13@gmail.com",
+        "firstName": "Isabelle",
+        "lastName": "Mueller",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

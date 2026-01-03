@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:20:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6574",
+    "etag": "W/\"19ae-Cvo8rjKjjtdWFYekjajeUaCfFV8\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958ed611c508c5d5e813cc0",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "6958ed5a1c508c5d5e813a20",
+        "email": "Osbaldo_Langworth20@gmail.com",
+        "name": "Nat Streich",
+        "country": "Germany",
+        "city": "West Kariworth",
+        "street": "Corwin Meadows 11",
+        "house": 629,
+        "flat": 6738,
+        "phone": "+102877149140441",
+        "createdOn": "2026-01-03T10:20:10.000Z",
+        "notes": "pa15bPDS4szUR74TeXUHcbHP14fJbf"
+      },
+      "products": [
+        {
+          "_id": "6958ed5c1c508c5d5e813c4f",
+          "name": "Sausages7811",
+          "amount": 131,
+          "price": 85789,
+          "manufacturer": "Amazon",
+          "notes": "eMKq7zm2ZgykHZpVyMgeCnWAYqfV6UR87hQtL7R3QefhjbXIGfpeYxZ95DEJCBTK5IfD7ot2Oy5njDIKUGGHslh7a7c1OJursNbWP04YimVpFOK2UqUBoqbVZRAIzvYwYsKIL5zW7xDS4q1uHfwgAqxTBv3jlRVZPXTl2CkTW2nxxBloIYQJOBA9xWPbKwKzjdLKf1XfIfl482KYHfXSeCqcxq33nd5Iy7UZnDuifVlS1aJanIZiY38AGR",
+          "received": true
+        },
+        {
+          "_id": "6958ed601c508c5d5e813cad",
+          "name": "Car31257",
+          "amount": 234,
+          "price": 44125,
+          "manufacturer": "Microsoft",
+          "notes": "POqYbJDUK0ItF0pYQ2feAGZr9ZtlMBfXMgiShEBGexN5poIC8s9bnwsN0FSFGROSypF3uO2sDibxBfwB4NITYtIfIxiG5mSpPc8CkgsrZx2YrNsENukfnDRg8iQ8QwkukeNNJXIunHT2r5UHBmGnGGzRKdwkHDrkLViFAFWJmEKPu0GNnAk54KXMc2Hv4ctdtuxwdQ2esRBZu8tISckjWd4iae9XJ1Syx43HIOIWz9MFmTjuq5JcCHYhtK",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Fort Ernesto",
+          "street": "St Georges Road",
+          "house": 642,
+          "flat": 4442
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 129914,
+      "createdOn": "2026-01-03T10:20:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "6958ed5a1c508c5d5e813a20",
+          "products": [
+            {
+              "_id": "6958ed5c1c508c5d5e813c4f",
+              "name": "Sausages7811",
+              "amount": 131,
+              "price": 85789,
+              "manufacturer": "Amazon",
+              "notes": "eMKq7zm2ZgykHZpVyMgeCnWAYqfV6UR87hQtL7R3QefhjbXIGfpeYxZ95DEJCBTK5IfD7ot2Oy5njDIKUGGHslh7a7c1OJursNbWP04YimVpFOK2UqUBoqbVZRAIzvYwYsKIL5zW7xDS4q1uHfwgAqxTBv3jlRVZPXTl2CkTW2nxxBloIYQJOBA9xWPbKwKzjdLKf1XfIfl482KYHfXSeCqcxq33nd5Iy7UZnDuifVlS1aJanIZiY38AGR",
+              "received": true
+            },
+            {
+              "_id": "6958ed601c508c5d5e813cad",
+              "name": "Car31257",
+              "amount": 234,
+              "price": 44125,
+              "manufacturer": "Microsoft",
+              "notes": "POqYbJDUK0ItF0pYQ2feAGZr9ZtlMBfXMgiShEBGexN5poIC8s9bnwsN0FSFGROSypF3uO2sDibxBfwB4NITYtIfIxiG5mSpPc8CkgsrZx2YrNsENukfnDRg8iQ8QwkukeNNJXIunHT2r5UHBmGnGGzRKdwkHDrkLViFAFWJmEKPu0GNnAk54KXMc2Hv4ctdtuxwdQ2esRBZu8tISckjWd4iae9XJ1Syx43HIOIWz9MFmTjuq5JcCHYhtK",
+              "received": false
+            }
+          ],
+          "total_price": 129914,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Ernesto",
+              "street": "St Georges Road",
+              "house": 642,
+              "flat": 4442
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:20:18.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6958ed5a1c508c5d5e813a20",
+          "products": [
+            {
+              "_id": "6958ed5c1c508c5d5e813c4f",
+              "name": "Sausages7811",
+              "amount": 131,
+              "price": 85789,
+              "manufacturer": "Amazon",
+              "notes": "eMKq7zm2ZgykHZpVyMgeCnWAYqfV6UR87hQtL7R3QefhjbXIGfpeYxZ95DEJCBTK5IfD7ot2Oy5njDIKUGGHslh7a7c1OJursNbWP04YimVpFOK2UqUBoqbVZRAIzvYwYsKIL5zW7xDS4q1uHfwgAqxTBv3jlRVZPXTl2CkTW2nxxBloIYQJOBA9xWPbKwKzjdLKf1XfIfl482KYHfXSeCqcxq33nd5Iy7UZnDuifVlS1aJanIZiY38AGR",
+              "received": false
+            },
+            {
+              "_id": "6958ed601c508c5d5e813cad",
+              "name": "Car31257",
+              "amount": 234,
+              "price": 44125,
+              "manufacturer": "Microsoft",
+              "notes": "POqYbJDUK0ItF0pYQ2feAGZr9ZtlMBfXMgiShEBGexN5poIC8s9bnwsN0FSFGROSypF3uO2sDibxBfwB4NITYtIfIxiG5mSpPc8CkgsrZx2YrNsENukfnDRg8iQ8QwkukeNNJXIunHT2r5UHBmGnGGzRKdwkHDrkLViFAFWJmEKPu0GNnAk54KXMc2Hv4ctdtuxwdQ2esRBZu8tISckjWd4iae9XJ1Syx43HIOIWz9MFmTjuq5JcCHYhtK",
+              "received": false
+            }
+          ],
+          "total_price": 129914,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Ernesto",
+              "street": "St Georges Road",
+              "house": 642,
+              "flat": 4442
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:20:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ed5a1c508c5d5e813a20",
+          "products": [
+            {
+              "_id": "6958ed5c1c508c5d5e813c4f",
+              "name": "Sausages7811",
+              "amount": 131,
+              "price": 85789,
+              "manufacturer": "Amazon",
+              "notes": "eMKq7zm2ZgykHZpVyMgeCnWAYqfV6UR87hQtL7R3QefhjbXIGfpeYxZ95DEJCBTK5IfD7ot2Oy5njDIKUGGHslh7a7c1OJursNbWP04YimVpFOK2UqUBoqbVZRAIzvYwYsKIL5zW7xDS4q1uHfwgAqxTBv3jlRVZPXTl2CkTW2nxxBloIYQJOBA9xWPbKwKzjdLKf1XfIfl482KYHfXSeCqcxq33nd5Iy7UZnDuifVlS1aJanIZiY38AGR",
+              "received": false
+            },
+            {
+              "_id": "6958ed601c508c5d5e813cad",
+              "name": "Car31257",
+              "amount": 234,
+              "price": 44125,
+              "manufacturer": "Microsoft",
+              "notes": "POqYbJDUK0ItF0pYQ2feAGZr9ZtlMBfXMgiShEBGexN5poIC8s9bnwsN0FSFGROSypF3uO2sDibxBfwB4NITYtIfIxiG5mSpPc8CkgsrZx2YrNsENukfnDRg8iQ8QwkukeNNJXIunHT2r5UHBmGnGGzRKdwkHDrkLViFAFWJmEKPu0GNnAk54KXMc2Hv4ctdtuxwdQ2esRBZu8tISckjWd4iae9XJ1Syx43HIOIWz9MFmTjuq5JcCHYhtK",
+              "received": false
+            }
+          ],
+          "total_price": 129914,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Fort Ernesto",
+              "street": "St Georges Road",
+              "house": 642,
+              "flat": 4442
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:20:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ed5a1c508c5d5e813a20",
+          "products": [
+            {
+              "_id": "6958ed5c1c508c5d5e813c4f",
+              "name": "Sausages7811",
+              "amount": 131,
+              "price": 85789,
+              "manufacturer": "Amazon",
+              "notes": "eMKq7zm2ZgykHZpVyMgeCnWAYqfV6UR87hQtL7R3QefhjbXIGfpeYxZ95DEJCBTK5IfD7ot2Oy5njDIKUGGHslh7a7c1OJursNbWP04YimVpFOK2UqUBoqbVZRAIzvYwYsKIL5zW7xDS4q1uHfwgAqxTBv3jlRVZPXTl2CkTW2nxxBloIYQJOBA9xWPbKwKzjdLKf1XfIfl482KYHfXSeCqcxq33nd5Iy7UZnDuifVlS1aJanIZiY38AGR",
+              "received": false
+            },
+            {
+              "_id": "6958ed601c508c5d5e813cad",
+              "name": "Car31257",
+              "amount": 234,
+              "price": 44125,
+              "manufacturer": "Microsoft",
+              "notes": "POqYbJDUK0ItF0pYQ2feAGZr9ZtlMBfXMgiShEBGexN5poIC8s9bnwsN0FSFGROSypF3uO2sDibxBfwB4NITYtIfIxiG5mSpPc8CkgsrZx2YrNsENukfnDRg8iQ8QwkukeNNJXIunHT2r5UHBmGnGGzRKdwkHDrkLViFAFWJmEKPu0GNnAk54KXMc2Hv4ctdtuxwdQ2esRBZu8tISckjWd4iae9XJ1Syx43HIOIWz9MFmTjuq5JcCHYhtK",
+              "received": false
+            }
+          ],
+          "total_price": 129914,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:20:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

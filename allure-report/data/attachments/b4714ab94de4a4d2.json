@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:22:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1783",
+    "etag": "W/\"6f7-cnfdWnQdzCnTE091aRMo4IHW0es\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958ede41c508c5d5e817617",
+      "status": "Draft",
+      "customer": {
+        "_id": "6958ede11c508c5d5e8174d6",
+        "email": "Gust50@hotmail.com",
+        "name": "Yoshiko Hodkiewicz",
+        "country": "Great Britain",
+        "city": "Ikeberg",
+        "street": "Hessel Forks 78",
+        "house": 146,
+        "flat": 6601,
+        "phone": "+011349377640836",
+        "createdOn": "2026-01-03T10:22:25.000Z",
+        "notes": "0XMBXMPBmGVBEHPvtwFB57n36g3Nws"
+      },
+      "products": [
+        {
+          "_id": "6958ede41c508c5d5e81760c",
+          "name": "Salad5919",
+          "amount": 447,
+          "price": 1119,
+          "manufacturer": "Amazon",
+          "notes": "kJI57ZHpmMHkOzQSNJaKe8H700AR8FfZgxRSNZaX1q0sXjVOAVgi9WoUMRUi8n2v1yWo1SX0KRGYRvWXBXQo3k9YQHhj2v7vqdgOdIL1KyoHM46g5uptwVgy1cYUT2DJI90nrJnNc6QCpHpHE6KQBQKxKMPoUvs627NsLA6TYoajD2rpBr4IK02VgXKgkOzZBsN37Eja1pgCnpMKGO7KZF8WJaQTOf6lmn0e98tb9zYe0FK4Hv9tNzwqTc",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 1119,
+      "createdOn": "2026-01-03T10:22:28.000Z",
+      "comments": [
+        {
+          "text": "Ensure > threshold before ship",
+          "createdOn": "2026-01-03T10:22:28.000Z",
+          "_id": "6958ede41c508c5d5e817624"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958ede11c508c5d5e8174d6",
+          "products": [
+            {
+              "_id": "6958ede41c508c5d5e81760c",
+              "name": "Salad5919",
+              "amount": 447,
+              "price": 1119,
+              "manufacturer": "Amazon",
+              "notes": "kJI57ZHpmMHkOzQSNJaKe8H700AR8FfZgxRSNZaX1q0sXjVOAVgi9WoUMRUi8n2v1yWo1SX0KRGYRvWXBXQo3k9YQHhj2v7vqdgOdIL1KyoHM46g5uptwVgy1cYUT2DJI90nrJnNc6QCpHpHE6KQBQKxKMPoUvs627NsLA6TYoajD2rpBr4IK02VgXKgkOzZBsN37Eja1pgCnpMKGO7KZF8WJaQTOf6lmn0e98tb9zYe0FK4Hv9tNzwqTc",
+              "received": false
+            }
+          ],
+          "total_price": 1119,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:22:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

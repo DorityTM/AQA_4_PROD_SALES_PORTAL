@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:44:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-B6KTNkxiJ41wVGbnZPEXBi81lTg\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958f2fa1c508c5d5e83ab09",
+      "status": "Draft",
+      "customer": {
+        "_id": "6958f2f61c508c5d5e83aac3",
+        "email": "Alexzander5@hotmail.com",
+        "name": "Chandler Becker",
+        "country": "France",
+        "city": "Mayaguez",
+        "street": "W 6th Street 98",
+        "house": 443,
+        "flat": 1192,
+        "phone": "+669058606288043",
+        "createdOn": "2026-01-03T10:44:06.000Z",
+        "notes": "QwIoHjs4xKXWBrGxI1vdg81LyFNjTL"
+      },
+      "products": [
+        {
+          "_id": "6958f2f91c508c5d5e83aaf2",
+          "name": "Soap56340",
+          "amount": 344,
+          "price": 77675,
+          "manufacturer": "Xiaomi",
+          "notes": "F7fNKNj5uyRuQKCc2iLI18bLuhwgsvdzqYOCH22waOF4SkO2LRP7CEe9VovvaiDs9la4QGvhCWoJOu2xCxf4Q8IUeL8tdTyraHATrLtGvaIIh4SP1UBqkLdSSELnotsjXZJwetgGdYULKeTkohGYjtKo1YLcCbjA7NqJv7HzHMyqJ0GxRPzgd9CZaxqEexj8IR1AZeBRQ1UkHLXGsKtmPwMj7DDaWKtr6CFpjR440cgYfwrDVR4QZDAhmb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Flower Mound",
+          "street": "Mulberry Street",
+          "house": 507,
+          "flat": 7504
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 77675,
+      "createdOn": "2026-01-03T10:44:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958f2f61c508c5d5e83aac3",
+          "products": [
+            {
+              "_id": "6958f2f91c508c5d5e83aaf2",
+              "name": "Soap56340",
+              "amount": 344,
+              "price": 77675,
+              "manufacturer": "Xiaomi",
+              "notes": "F7fNKNj5uyRuQKCc2iLI18bLuhwgsvdzqYOCH22waOF4SkO2LRP7CEe9VovvaiDs9la4QGvhCWoJOu2xCxf4Q8IUeL8tdTyraHATrLtGvaIIh4SP1UBqkLdSSELnotsjXZJwetgGdYULKeTkohGYjtKo1YLcCbjA7NqJv7HzHMyqJ0GxRPzgd9CZaxqEexj8IR1AZeBRQ1UkHLXGsKtmPwMj7DDaWKtr6CFpjR440cgYfwrDVR4QZDAhmb",
+              "received": false
+            }
+          ],
+          "total_price": 77675,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Flower Mound",
+              "street": "Mulberry Street",
+              "house": 507,
+              "flat": 7504
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:44:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958f2f61c508c5d5e83aac3",
+          "products": [
+            {
+              "_id": "6958f2f91c508c5d5e83aaf2",
+              "name": "Soap56340",
+              "amount": 344,
+              "price": 77675,
+              "manufacturer": "Xiaomi",
+              "notes": "F7fNKNj5uyRuQKCc2iLI18bLuhwgsvdzqYOCH22waOF4SkO2LRP7CEe9VovvaiDs9la4QGvhCWoJOu2xCxf4Q8IUeL8tdTyraHATrLtGvaIIh4SP1UBqkLdSSELnotsjXZJwetgGdYULKeTkohGYjtKo1YLcCbjA7NqJv7HzHMyqJ0GxRPzgd9CZaxqEexj8IR1AZeBRQ1UkHLXGsKtmPwMj7DDaWKtr6CFpjR440cgYfwrDVR4QZDAhmb",
+              "received": false
+            }
+          ],
+          "total_price": 77675,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:44:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

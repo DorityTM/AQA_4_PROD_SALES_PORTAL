@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:25:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2760",
+    "etag": "W/\"ac8-EJkBfL3XkhaWcTVtp2EPSTlGLQ8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958ee961c508c5d5e81cf4b",
+      "status": "Draft",
+      "customer": {
+        "_id": "6958ee8e1c508c5d5e81ca10",
+        "email": "Reina_Herzog@hotmail.com",
+        "name": "Michale Lang",
+        "country": "France",
+        "city": "East Alisamouth",
+        "street": "Crist Wells 12",
+        "house": 459,
+        "flat": 3574,
+        "phone": "+116868327635220",
+        "createdOn": "2026-01-03T10:25:18.000Z",
+        "notes": "rTue4QOO7AHU1lEnKASBTQgxCZKSfs"
+      },
+      "products": [
+        {
+          "_id": "6958ee911c508c5d5e81cb3f",
+          "name": "Chicken45572",
+          "amount": 626,
+          "price": 70747,
+          "manufacturer": "Amazon",
+          "notes": "UEaPmixEpSkJ2awJFIQGgOuYPt2heHrhSKkJz5dFEDkYzJ4GQefJacwgygLIqI1NgsX9x33iAnlW44tiT99Nnehq0iUh5TMgSOAE6Wezpwne4IQ55QBktgD99iWqkBQJrm3neBolwbpwz9dxxqWTIBLAx0GkAtEsoOfAa0WXMjbXrfpjEH8o8yqYSVZVRzyXpkw07hJZL9EPPf9I3xCCNy0WblEbC7FXSI7tg1rmcqM89CTaw2eLkdmUVU",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "West Ransomland",
+          "street": "Robb Path",
+          "house": 745,
+          "flat": 6920
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 70747,
+      "createdOn": "2026-01-03T10:25:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958ee8e1c508c5d5e81ca10",
+          "products": [
+            {
+              "_id": "6958ee911c508c5d5e81cb3f",
+              "name": "Chicken45572",
+              "amount": 626,
+              "price": 70747,
+              "manufacturer": "Amazon",
+              "notes": "UEaPmixEpSkJ2awJFIQGgOuYPt2heHrhSKkJz5dFEDkYzJ4GQefJacwgygLIqI1NgsX9x33iAnlW44tiT99Nnehq0iUh5TMgSOAE6Wezpwne4IQ55QBktgD99iWqkBQJrm3neBolwbpwz9dxxqWTIBLAx0GkAtEsoOfAa0WXMjbXrfpjEH8o8yqYSVZVRzyXpkw07hJZL9EPPf9I3xCCNy0WblEbC7FXSI7tg1rmcqM89CTaw2eLkdmUVU",
+              "received": false
+            }
+          ],
+          "total_price": 70747,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Ransomland",
+              "street": "Robb Path",
+              "house": 745,
+              "flat": 6920
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:25:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ee8e1c508c5d5e81ca10",
+          "products": [
+            {
+              "_id": "6958ee911c508c5d5e81cb3f",
+              "name": "Chicken45572",
+              "amount": 626,
+              "price": 70747,
+              "manufacturer": "Amazon",
+              "notes": "UEaPmixEpSkJ2awJFIQGgOuYPt2heHrhSKkJz5dFEDkYzJ4GQefJacwgygLIqI1NgsX9x33iAnlW44tiT99Nnehq0iUh5TMgSOAE6Wezpwne4IQ55QBktgD99iWqkBQJrm3neBolwbpwz9dxxqWTIBLAx0GkAtEsoOfAa0WXMjbXrfpjEH8o8yqYSVZVRzyXpkw07hJZL9EPPf9I3xCCNy0WblEbC7FXSI7tg1rmcqM89CTaw2eLkdmUVU",
+              "received": false
+            }
+          ],
+          "total_price": 70747,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:25:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

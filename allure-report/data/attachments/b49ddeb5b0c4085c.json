@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:43:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3646",
+    "etag": "W/\"e3e-kxE6lElj1b+cxJQZ9y+aqb9/z6w\"",
+    "keep-alive": "timeout=5, max=75",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958f2d51c508c5d5e83981d",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6958f2d21c508c5d5e8397a1",
+        "email": "Kaia83@gmail.com",
+        "name": "Talia Emmerich",
+        "country": "Ukraine",
+        "city": "Fernechester",
+        "street": "Harris Hills 96",
+        "house": 901,
+        "flat": 5970,
+        "phone": "+274797087447561",
+        "createdOn": "2026-01-03T10:43:30.000Z",
+        "notes": "C6zv0gZhM61oomiSnx6iYvEl5LPi3T"
+      },
+      "products": [
+        {
+          "_id": "6958f2d51c508c5d5e83980c",
+          "name": "Mouse12236",
+          "amount": 17,
+          "price": 89426,
+          "manufacturer": "Samsung",
+          "notes": "pFEHe7qktHzU1ltBoM8ggNM9bSVOKAVGoLKMU1K0Ap0u0sE1TrMKWL17hwV4zdawdGWgltJRjQu8c2L4Y3EDSyTKwfgOjnDBitaJ78GTZLinFZortBTlwzr3SbqZuo0nJ3tWZGG2wMP6VYCLQ8Sa6Et1Aw8zMZKsuh1xvYjlqw5VPvFRUKJojnBGEBAecIEO9dFJXXrdSZpvngQyDuSCZNFlbRCpMNV2d7cpzB1iZCuSXDejBfkPWPFfGU",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Iowa City",
+          "street": "Bruce Ridge",
+          "house": 368,
+          "flat": 1585
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 89426,
+      "createdOn": "2026-01-03T10:43:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6958f2d21c508c5d5e8397a1",
+          "products": [
+            {
+              "_id": "6958f2d51c508c5d5e83980c",
+              "name": "Mouse12236",
+              "amount": 17,
+              "price": 89426,
+              "manufacturer": "Samsung",
+              "notes": "pFEHe7qktHzU1ltBoM8ggNM9bSVOKAVGoLKMU1K0Ap0u0sE1TrMKWL17hwV4zdawdGWgltJRjQu8c2L4Y3EDSyTKwfgOjnDBitaJ78GTZLinFZortBTlwzr3SbqZuo0nJ3tWZGG2wMP6VYCLQ8Sa6Et1Aw8zMZKsuh1xvYjlqw5VPvFRUKJojnBGEBAecIEO9dFJXXrdSZpvngQyDuSCZNFlbRCpMNV2d7cpzB1iZCuSXDejBfkPWPFfGU",
+              "received": false
+            }
+          ],
+          "total_price": 89426,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Iowa City",
+              "street": "Bruce Ridge",
+              "house": 368,
+              "flat": 1585
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:43:49.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958f2d21c508c5d5e8397a1",
+          "products": [
+            {
+              "_id": "6958f2d51c508c5d5e83980c",
+              "name": "Mouse12236",
+              "amount": 17,
+              "price": 89426,
+              "manufacturer": "Samsung",
+              "notes": "pFEHe7qktHzU1ltBoM8ggNM9bSVOKAVGoLKMU1K0Ap0u0sE1TrMKWL17hwV4zdawdGWgltJRjQu8c2L4Y3EDSyTKwfgOjnDBitaJ78GTZLinFZortBTlwzr3SbqZuo0nJ3tWZGG2wMP6VYCLQ8Sa6Et1Aw8zMZKsuh1xvYjlqw5VPvFRUKJojnBGEBAecIEO9dFJXXrdSZpvngQyDuSCZNFlbRCpMNV2d7cpzB1iZCuSXDejBfkPWPFfGU",
+              "received": false
+            }
+          ],
+          "total_price": 89426,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Iowa City",
+              "street": "Bruce Ridge",
+              "house": 368,
+              "flat": 1585
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:43:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958f2d21c508c5d5e8397a1",
+          "products": [
+            {
+              "_id": "6958f2d51c508c5d5e83980c",
+              "name": "Mouse12236",
+              "amount": 17,
+              "price": 89426,
+              "manufacturer": "Samsung",
+              "notes": "pFEHe7qktHzU1ltBoM8ggNM9bSVOKAVGoLKMU1K0Ap0u0sE1TrMKWL17hwV4zdawdGWgltJRjQu8c2L4Y3EDSyTKwfgOjnDBitaJ78GTZLinFZortBTlwzr3SbqZuo0nJ3tWZGG2wMP6VYCLQ8Sa6Et1Aw8zMZKsuh1xvYjlqw5VPvFRUKJojnBGEBAecIEO9dFJXXrdSZpvngQyDuSCZNFlbRCpMNV2d7cpzB1iZCuSXDejBfkPWPFfGU",
+              "received": false
+            }
+          ],
+          "total_price": 89426,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:43:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

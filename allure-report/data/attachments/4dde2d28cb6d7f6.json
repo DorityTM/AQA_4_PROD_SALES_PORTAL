@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:24:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3676",
+    "etag": "W/\"e5c-PFtxmgl8gC0a7caGNHPR2Ye/WRc\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958ee461c508c5d5e81a396",
+      "status": "Canceled",
+      "customer": {
+        "_id": "6958ee411c508c5d5e81a010",
+        "email": "Mac.Parker95@hotmail.com",
+        "name": "Weldon Effertz",
+        "country": "Russia",
+        "city": "Deckowstad",
+        "street": "Krajcik Avenue 79",
+        "house": 827,
+        "flat": 3804,
+        "phone": "+926989343086088",
+        "createdOn": "2026-01-03T10:24:01.000Z",
+        "notes": "sr5ieynIDo1DVarg8gHnxLk40FTNoX"
+      },
+      "products": [
+        {
+          "_id": "6958ee431c508c5d5e81a263",
+          "name": "Computer37941",
+          "amount": 367,
+          "price": 26383,
+          "manufacturer": "Apple",
+          "notes": "Ys6gGP23lOJLjCUIpuNCPlg12KjhfrXT0ow41wWk1W785RmAGyAE2upiBbn0wxtIh0uXmeH0bD2wxo6wEdD019nKnw7xSjTsM5TYB1IxeHt6GyMgnXzd7poFaRVK2fVHWDhyucFqTJLXDbsosA9FImMorGb7I5sX3H4feBOWMDxbE9g90FYeRDenYLZMrLwHSUDDaHnKl1tdE2s6UlCjLhvC8bFy9sOuEO4VMSwD2ahY9PObSoIKEkoMsG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Connstead",
+          "street": "Forest Avenue",
+          "house": 394,
+          "flat": 1894
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 26383,
+      "createdOn": "2026-01-03T10:24:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "6958ee411c508c5d5e81a010",
+          "products": [
+            {
+              "_id": "6958ee431c508c5d5e81a263",
+              "name": "Computer37941",
+              "amount": 367,
+              "price": 26383,
+              "manufacturer": "Apple",
+              "notes": "Ys6gGP23lOJLjCUIpuNCPlg12KjhfrXT0ow41wWk1W785RmAGyAE2upiBbn0wxtIh0uXmeH0bD2wxo6wEdD019nKnw7xSjTsM5TYB1IxeHt6GyMgnXzd7poFaRVK2fVHWDhyucFqTJLXDbsosA9FImMorGb7I5sX3H4feBOWMDxbE9g90FYeRDenYLZMrLwHSUDDaHnKl1tdE2s6UlCjLhvC8bFy9sOuEO4VMSwD2ahY9PObSoIKEkoMsG",
+              "received": false
+            }
+          ],
+          "total_price": 26383,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Connstead",
+              "street": "Forest Avenue",
+              "house": 394,
+              "flat": 1894
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:24:07.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ee411c508c5d5e81a010",
+          "products": [
+            {
+              "_id": "6958ee431c508c5d5e81a263",
+              "name": "Computer37941",
+              "amount": 367,
+              "price": 26383,
+              "manufacturer": "Apple",
+              "notes": "Ys6gGP23lOJLjCUIpuNCPlg12KjhfrXT0ow41wWk1W785RmAGyAE2upiBbn0wxtIh0uXmeH0bD2wxo6wEdD019nKnw7xSjTsM5TYB1IxeHt6GyMgnXzd7poFaRVK2fVHWDhyucFqTJLXDbsosA9FImMorGb7I5sX3H4feBOWMDxbE9g90FYeRDenYLZMrLwHSUDDaHnKl1tdE2s6UlCjLhvC8bFy9sOuEO4VMSwD2ahY9PObSoIKEkoMsG",
+              "received": false
+            }
+          ],
+          "total_price": 26383,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Connstead",
+              "street": "Forest Avenue",
+              "house": 394,
+              "flat": 1894
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:24:06.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958ee411c508c5d5e81a010",
+          "products": [
+            {
+              "_id": "6958ee431c508c5d5e81a263",
+              "name": "Computer37941",
+              "amount": 367,
+              "price": 26383,
+              "manufacturer": "Apple",
+              "notes": "Ys6gGP23lOJLjCUIpuNCPlg12KjhfrXT0ow41wWk1W785RmAGyAE2upiBbn0wxtIh0uXmeH0bD2wxo6wEdD019nKnw7xSjTsM5TYB1IxeHt6GyMgnXzd7poFaRVK2fVHWDhyucFqTJLXDbsosA9FImMorGb7I5sX3H4feBOWMDxbE9g90FYeRDenYLZMrLwHSUDDaHnKl1tdE2s6UlCjLhvC8bFy9sOuEO4VMSwD2ahY9PObSoIKEkoMsG",
+              "received": false
+            }
+          ],
+          "total_price": 26383,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:24:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

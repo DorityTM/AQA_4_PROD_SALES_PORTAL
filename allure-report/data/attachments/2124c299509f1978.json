@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 10:45:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-XMglfMP1teRW+qdiUMvPBmbhgpg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958f32e1c508c5d5e83c69e",
+      "status": "Draft",
+      "customer": {
+        "_id": "6958f32b1c508c5d5e83c4e9",
+        "email": "Maegan63@hotmail.com",
+        "name": "Eugene Morar",
+        "country": "Great Britain",
+        "city": "Gastonia",
+        "street": "The Meadows 75",
+        "house": 29,
+        "flat": 9133,
+        "phone": "+757439446055021",
+        "createdOn": "2026-01-03T10:44:59.000Z",
+        "notes": "wk0U11OibCcOmn3jIUI1FR69lV7ZK2"
+      },
+      "products": [
+        {
+          "_id": "6958f32d1c508c5d5e83c696",
+          "name": "Bacon15625",
+          "amount": 487,
+          "price": 22326,
+          "manufacturer": "Google",
+          "notes": "nWOtewaHT3oy4HDFe9VeiUBxnXLpXFsQJNuYmNVpeStbqXwmXz0TLaGIu1nP1xLbiSiDR7vmqYBvUdUkM6GIZE68DZmM9NzNyntSCUyp35YU2oObwQC58vlwBxfJuQS22ReEfg6nEAKdCmxSeOELBX9BbaCT0WWtbIHPkiLHiRVwnrlLStgkqOrsu1ZKwNfFThcLm2MnofFf2Bkxl2z30WEadKLYqRhbh0sNDXwAncoAddxjKvCqWgFGcJ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "North Krystinastead",
+          "street": "S 4th Street",
+          "house": 234,
+          "flat": 943
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 22326,
+      "createdOn": "2026-01-03T10:45:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6958f32b1c508c5d5e83c4e9",
+          "products": [
+            {
+              "_id": "6958f32d1c508c5d5e83c696",
+              "name": "Bacon15625",
+              "amount": 487,
+              "price": 22326,
+              "manufacturer": "Google",
+              "notes": "nWOtewaHT3oy4HDFe9VeiUBxnXLpXFsQJNuYmNVpeStbqXwmXz0TLaGIu1nP1xLbiSiDR7vmqYBvUdUkM6GIZE68DZmM9NzNyntSCUyp35YU2oObwQC58vlwBxfJuQS22ReEfg6nEAKdCmxSeOELBX9BbaCT0WWtbIHPkiLHiRVwnrlLStgkqOrsu1ZKwNfFThcLm2MnofFf2Bkxl2z30WEadKLYqRhbh0sNDXwAncoAddxjKvCqWgFGcJ",
+              "received": false
+            }
+          ],
+          "total_price": 22326,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "North Krystinastead",
+              "street": "S 4th Street",
+              "house": 234,
+              "flat": 943
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T10:45:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958f32b1c508c5d5e83c4e9",
+          "products": [
+            {
+              "_id": "6958f32d1c508c5d5e83c696",
+              "name": "Bacon15625",
+              "amount": 487,
+              "price": 22326,
+              "manufacturer": "Google",
+              "notes": "nWOtewaHT3oy4HDFe9VeiUBxnXLpXFsQJNuYmNVpeStbqXwmXz0TLaGIu1nP1xLbiSiDR7vmqYBvUdUkM6GIZE68DZmM9NzNyntSCUyp35YU2oObwQC58vlwBxfJuQS22ReEfg6nEAKdCmxSeOELBX9BbaCT0WWtbIHPkiLHiRVwnrlLStgkqOrsu1ZKwNfFThcLm2MnofFf2Bkxl2z30WEadKLYqRhbh0sNDXwAncoAddxjKvCqWgFGcJ",
+              "received": false
+            }
+          ],
+          "total_price": 22326,
+          "delivery": null,
+          "changedOn": "2026-01-03T10:45:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
