@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:55:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3678",
+    "etag": "W/\"e5e-5svKKy0+8cpOr5e/tr9sW9KllYU\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69592dca1c508c5d5e8d41b7",
+      "status": "In Process",
+      "customer": {
+        "_id": "69592dbe1c508c5d5e8d4040",
+        "email": "Jordy.Raynor@hotmail.com",
+        "name": "Isaac Barrows",
+        "country": "USA",
+        "city": "North Meredithport",
+        "street": "General Estate 39",
+        "house": 297,
+        "flat": 5386,
+        "phone": "+654549188950642",
+        "createdOn": "2026-01-03T14:54:54.000Z",
+        "notes": "P41OaiRdeNp84jGNWDHpq63c8lKyFS"
+      },
+      "products": [
+        {
+          "_id": "69592dca1c508c5d5e8d4165",
+          "name": "Table70460",
+          "amount": 466,
+          "price": 63087,
+          "manufacturer": "Sony",
+          "notes": "ho2JT4hYo9RCPPUknLoFh8pE9XWrBWKpJYYztsFc3DfG4zPw2beiT2utC1D8JgIS1Cd8EmcyALGfEKUL18f35WdwwfiQK7BwGSQuLLXSxdW8qDPvLxh3Hfho019K4WRB6DzMlGXOOqh2NCEQDuYo5cyrvSkjegKUZtOGi2mS5EJcSq0ngoxGxmeAHK7yrnNJU2FtaNxHmnGCanY8KwJaw5470NG1ibtw8NzTO3PcQ2SpcYkUJ57l3ATEVE",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "North Herbert",
+          "street": "Bath Road",
+          "house": 772,
+          "flat": 1009
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 63087,
+      "createdOn": "2026-01-03T14:55:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69592dbe1c508c5d5e8d4040",
+          "products": [
+            {
+              "_id": "69592dca1c508c5d5e8d4165",
+              "name": "Table70460",
+              "amount": 466,
+              "price": 63087,
+              "manufacturer": "Sony",
+              "notes": "ho2JT4hYo9RCPPUknLoFh8pE9XWrBWKpJYYztsFc3DfG4zPw2beiT2utC1D8JgIS1Cd8EmcyALGfEKUL18f35WdwwfiQK7BwGSQuLLXSxdW8qDPvLxh3Hfho019K4WRB6DzMlGXOOqh2NCEQDuYo5cyrvSkjegKUZtOGi2mS5EJcSq0ngoxGxmeAHK7yrnNJU2FtaNxHmnGCanY8KwJaw5470NG1ibtw8NzTO3PcQ2SpcYkUJ57l3ATEVE",
+              "received": false
+            }
+          ],
+          "total_price": 63087,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "North Herbert",
+              "street": "Bath Road",
+              "house": 772,
+              "flat": 1009
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:55:07.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592dbe1c508c5d5e8d4040",
+          "products": [
+            {
+              "_id": "69592dca1c508c5d5e8d4165",
+              "name": "Table70460",
+              "amount": 466,
+              "price": 63087,
+              "manufacturer": "Sony",
+              "notes": "ho2JT4hYo9RCPPUknLoFh8pE9XWrBWKpJYYztsFc3DfG4zPw2beiT2utC1D8JgIS1Cd8EmcyALGfEKUL18f35WdwwfiQK7BwGSQuLLXSxdW8qDPvLxh3Hfho019K4WRB6DzMlGXOOqh2NCEQDuYo5cyrvSkjegKUZtOGi2mS5EJcSq0ngoxGxmeAHK7yrnNJU2FtaNxHmnGCanY8KwJaw5470NG1ibtw8NzTO3PcQ2SpcYkUJ57l3ATEVE",
+              "received": false
+            }
+          ],
+          "total_price": 63087,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "North Herbert",
+              "street": "Bath Road",
+              "house": 772,
+              "flat": 1009
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:55:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592dbe1c508c5d5e8d4040",
+          "products": [
+            {
+              "_id": "69592dca1c508c5d5e8d4165",
+              "name": "Table70460",
+              "amount": 466,
+              "price": 63087,
+              "manufacturer": "Sony",
+              "notes": "ho2JT4hYo9RCPPUknLoFh8pE9XWrBWKpJYYztsFc3DfG4zPw2beiT2utC1D8JgIS1Cd8EmcyALGfEKUL18f35WdwwfiQK7BwGSQuLLXSxdW8qDPvLxh3Hfho019K4WRB6DzMlGXOOqh2NCEQDuYo5cyrvSkjegKUZtOGi2mS5EJcSq0ngoxGxmeAHK7yrnNJU2FtaNxHmnGCanY8KwJaw5470NG1ibtw8NzTO3PcQ2SpcYkUJ57l3ATEVE",
+              "received": false
+            }
+          ],
+          "total_price": 63087,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:55:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

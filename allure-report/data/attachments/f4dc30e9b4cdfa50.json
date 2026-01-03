@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:53:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3688",
+    "etag": "W/\"e68-3gUjbe+eeOp5YKwjDFv3MnFT1xk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69592d751c508c5d5e8d35ff",
+      "status": "In Process",
+      "customer": {
+        "_id": "69592d671c508c5d5e8d3413",
+        "email": "Hilton60@yahoo.com",
+        "name": "Bette Torphy",
+        "country": "France",
+        "city": "South Mia",
+        "street": "Colleen Alley 1",
+        "house": 842,
+        "flat": 7623,
+        "phone": "+239337583465466",
+        "createdOn": "2026-01-03T14:53:27.000Z",
+        "notes": "V0yYWC0MrbNxDd04YWB6htRzgn4mXZ"
+      },
+      "products": [
+        {
+          "_id": "69592d751c508c5d5e8d35c0",
+          "name": "Tuna45881",
+          "amount": 725,
+          "price": 99711,
+          "manufacturer": "Microsoft",
+          "notes": "TbDoPAaW90kZCWcPD1luSUX6FbbFCWjSGPIaEMWeGgyP9DZeNlE9dXdrbgKWyDVBm229YnjZPEQWmtJrvvi6FIqwWSyHc99HAhl0qpgYC24O7zkp7U3nTobvI5zAOz61glKCp6uIced5MrvpeowRej3AnSBdS7Zg2bsvlzo4SnX1kWFKFMQDV7tLZR3EznBUPcqmKgFKJRXoDnOUm6dXLRp4WGuTxHJZeFhg36cJvZ33wrDo0Qdzfr1zRf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Maryam",
+          "street": "Harber Avenue",
+          "house": 373,
+          "flat": 5115
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99711,
+      "createdOn": "2026-01-03T14:53:41.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69592d671c508c5d5e8d3413",
+          "products": [
+            {
+              "_id": "69592d751c508c5d5e8d35c0",
+              "name": "Tuna45881",
+              "amount": 725,
+              "price": 99711,
+              "manufacturer": "Microsoft",
+              "notes": "TbDoPAaW90kZCWcPD1luSUX6FbbFCWjSGPIaEMWeGgyP9DZeNlE9dXdrbgKWyDVBm229YnjZPEQWmtJrvvi6FIqwWSyHc99HAhl0qpgYC24O7zkp7U3nTobvI5zAOz61glKCp6uIced5MrvpeowRej3AnSBdS7Zg2bsvlzo4SnX1kWFKFMQDV7tLZR3EznBUPcqmKgFKJRXoDnOUm6dXLRp4WGuTxHJZeFhg36cJvZ33wrDo0Qdzfr1zRf",
+              "received": false
+            }
+          ],
+          "total_price": 99711,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Maryam",
+              "street": "Harber Avenue",
+              "house": 373,
+              "flat": 5115
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:53:51.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592d671c508c5d5e8d3413",
+          "products": [
+            {
+              "_id": "69592d751c508c5d5e8d35c0",
+              "name": "Tuna45881",
+              "amount": 725,
+              "price": 99711,
+              "manufacturer": "Microsoft",
+              "notes": "TbDoPAaW90kZCWcPD1luSUX6FbbFCWjSGPIaEMWeGgyP9DZeNlE9dXdrbgKWyDVBm229YnjZPEQWmtJrvvi6FIqwWSyHc99HAhl0qpgYC24O7zkp7U3nTobvI5zAOz61glKCp6uIced5MrvpeowRej3AnSBdS7Zg2bsvlzo4SnX1kWFKFMQDV7tLZR3EznBUPcqmKgFKJRXoDnOUm6dXLRp4WGuTxHJZeFhg36cJvZ33wrDo0Qdzfr1zRf",
+              "received": false
+            }
+          ],
+          "total_price": 99711,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Maryam",
+              "street": "Harber Avenue",
+              "house": 373,
+              "flat": 5115
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:53:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592d671c508c5d5e8d3413",
+          "products": [
+            {
+              "_id": "69592d751c508c5d5e8d35c0",
+              "name": "Tuna45881",
+              "amount": 725,
+              "price": 99711,
+              "manufacturer": "Microsoft",
+              "notes": "TbDoPAaW90kZCWcPD1luSUX6FbbFCWjSGPIaEMWeGgyP9DZeNlE9dXdrbgKWyDVBm229YnjZPEQWmtJrvvi6FIqwWSyHc99HAhl0qpgYC24O7zkp7U3nTobvI5zAOz61glKCp6uIced5MrvpeowRej3AnSBdS7Zg2bsvlzo4SnX1kWFKFMQDV7tLZR3EznBUPcqmKgFKJRXoDnOUm6dXLRp4WGuTxHJZeFhg36cJvZ33wrDo0Qdzfr1zRf",
+              "received": false
+            }
+          ],
+          "total_price": 99711,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:53:41.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:10:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3692",
+    "etag": "W/\"e6c-UR/pBGNHTGx7qPalX25/8VIclb4\"",
+    "keep-alive": "timeout=5, max=30",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695923461c508c5d5e8ab48e",
+      "status": "In Process",
+      "customer": {
+        "_id": "6959233b1c508c5d5e8ab236",
+        "email": "Brandon_Rodriguez74@yahoo.com",
+        "name": "Anderson Rohan",
+        "country": "Germany",
+        "city": "New Lawrence",
+        "street": "Jamir Mountain 32",
+        "house": 719,
+        "flat": 527,
+        "phone": "+944823798861934",
+        "createdOn": "2026-01-03T14:10:03.000Z",
+        "notes": "BAk67woiaHRFgYJUnUL99IOVaqh6or"
+      },
+      "products": [
+        {
+          "_id": "695923401c508c5d5e8ab461",
+          "name": "Chair70556",
+          "amount": 570,
+          "price": 69183,
+          "manufacturer": "Amazon",
+          "notes": "rIcFFCbNopeP1BmsT7pkNvZ0V4rVJsmvt1DX3yrQjbGQjCAvUviHI4sGLgf8nbLWf0TbgCUSQ7e6S7z7KeLXaxC0r21PhZfuGEIBbfg1lfM1FoMnVC9R3zuBl5nNDaM6622Pptt6U849Awz7QZnVvWUgvFLZYcrYEo3sYFQzpnRbw7hmCqTDlqLMCt0fuoHHOSe4A0O9t9tMnHXnOJ7UiiAa2RQLYDOrDdbndFD5kSm5f1llBNbX5cj4c6",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Port Dorris",
+          "street": "Nelson Street",
+          "house": 46,
+          "flat": 5225
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 69183,
+      "createdOn": "2026-01-03T14:10:14.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6959233b1c508c5d5e8ab236",
+          "products": [
+            {
+              "_id": "695923401c508c5d5e8ab461",
+              "name": "Chair70556",
+              "amount": 570,
+              "price": 69183,
+              "manufacturer": "Amazon",
+              "notes": "rIcFFCbNopeP1BmsT7pkNvZ0V4rVJsmvt1DX3yrQjbGQjCAvUviHI4sGLgf8nbLWf0TbgCUSQ7e6S7z7KeLXaxC0r21PhZfuGEIBbfg1lfM1FoMnVC9R3zuBl5nNDaM6622Pptt6U849Awz7QZnVvWUgvFLZYcrYEo3sYFQzpnRbw7hmCqTDlqLMCt0fuoHHOSe4A0O9t9tMnHXnOJ7UiiAa2RQLYDOrDdbndFD5kSm5f1llBNbX5cj4c6",
+              "received": false
+            }
+          ],
+          "total_price": 69183,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Dorris",
+              "street": "Nelson Street",
+              "house": 46,
+              "flat": 5225
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:10:17.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959233b1c508c5d5e8ab236",
+          "products": [
+            {
+              "_id": "695923401c508c5d5e8ab461",
+              "name": "Chair70556",
+              "amount": 570,
+              "price": 69183,
+              "manufacturer": "Amazon",
+              "notes": "rIcFFCbNopeP1BmsT7pkNvZ0V4rVJsmvt1DX3yrQjbGQjCAvUviHI4sGLgf8nbLWf0TbgCUSQ7e6S7z7KeLXaxC0r21PhZfuGEIBbfg1lfM1FoMnVC9R3zuBl5nNDaM6622Pptt6U849Awz7QZnVvWUgvFLZYcrYEo3sYFQzpnRbw7hmCqTDlqLMCt0fuoHHOSe4A0O9t9tMnHXnOJ7UiiAa2RQLYDOrDdbndFD5kSm5f1llBNbX5cj4c6",
+              "received": false
+            }
+          ],
+          "total_price": 69183,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Dorris",
+              "street": "Nelson Street",
+              "house": 46,
+              "flat": 5225
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:10:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959233b1c508c5d5e8ab236",
+          "products": [
+            {
+              "_id": "695923401c508c5d5e8ab461",
+              "name": "Chair70556",
+              "amount": 570,
+              "price": 69183,
+              "manufacturer": "Amazon",
+              "notes": "rIcFFCbNopeP1BmsT7pkNvZ0V4rVJsmvt1DX3yrQjbGQjCAvUviHI4sGLgf8nbLWf0TbgCUSQ7e6S7z7KeLXaxC0r21PhZfuGEIBbfg1lfM1FoMnVC9R3zuBl5nNDaM6622Pptt6U849Awz7QZnVvWUgvFLZYcrYEo3sYFQzpnRbw7hmCqTDlqLMCt0fuoHHOSe4A0O9t9tMnHXnOJ7UiiAa2RQLYDOrDdbndFD5kSm5f1llBNbX5cj4c6",
+              "received": false
+            }
+          ],
+          "total_price": 69183,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:10:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

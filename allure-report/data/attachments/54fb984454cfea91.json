@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:09:46 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-cDchWELYsWwcNseVnCY4zYWWinM\"",
+    "keep-alive": "timeout=5, max=24",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959232a1c508c5d5e8aabe7",
+      "status": "Draft",
+      "customer": {
+        "_id": "6959231e1c508c5d5e8aa937",
+        "email": "Keven42@gmail.com",
+        "name": "Eric Hyatt",
+        "country": "France",
+        "city": "Smithamville",
+        "street": "Satterfield Radial 56",
+        "house": 445,
+        "flat": 7042,
+        "phone": "+881578753935135",
+        "createdOn": "2026-01-03T14:09:34.000Z",
+        "notes": "rp3QrYErINNZR75k0fiARMOZUNi02q"
+      },
+      "products": [
+        {
+          "_id": "695923281c508c5d5e8aab89",
+          "name": "Shirt40173",
+          "amount": 524,
+          "price": 54118,
+          "manufacturer": "Tesla",
+          "notes": "77JqsEXREH6mCbgvjZk2AWyRL2m7aS0Qr9LrWdzciFgmg6VjyieMGpJ5XA9sMmy8Q0jhOOz3OVyHyXx7zNXayO2bL3MRuDkaVVAZOYO8PIbkbHPUo0zzkf5ZVnlNFJgkvKKDjN4T6vTsG9NEyozbf36jMPjGhDctD6jJe5AgF1gEW80u0H5wWhTbRiVPbjKMzr0VhHVUxC8xO9drZLroMskBeWlVEyok2CK4OHmoegNgIu9NliiTx7eYvx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Pico Rivera",
+          "street": "E South Street",
+          "house": 122,
+          "flat": 3497
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 54118,
+      "createdOn": "2026-01-03T14:09:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "6959231e1c508c5d5e8aa937",
+          "products": [
+            {
+              "_id": "695923281c508c5d5e8aab89",
+              "name": "Shirt40173",
+              "amount": 524,
+              "price": 54118,
+              "manufacturer": "Tesla",
+              "notes": "77JqsEXREH6mCbgvjZk2AWyRL2m7aS0Qr9LrWdzciFgmg6VjyieMGpJ5XA9sMmy8Q0jhOOz3OVyHyXx7zNXayO2bL3MRuDkaVVAZOYO8PIbkbHPUo0zzkf5ZVnlNFJgkvKKDjN4T6vTsG9NEyozbf36jMPjGhDctD6jJe5AgF1gEW80u0H5wWhTbRiVPbjKMzr0VhHVUxC8xO9drZLroMskBeWlVEyok2CK4OHmoegNgIu9NliiTx7eYvx",
+              "received": false
+            }
+          ],
+          "total_price": 54118,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Pico Rivera",
+              "street": "E South Street",
+              "house": 122,
+              "flat": 3497
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:09:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959231e1c508c5d5e8aa937",
+          "products": [
+            {
+              "_id": "695923281c508c5d5e8aab89",
+              "name": "Shirt40173",
+              "amount": 524,
+              "price": 54118,
+              "manufacturer": "Tesla",
+              "notes": "77JqsEXREH6mCbgvjZk2AWyRL2m7aS0Qr9LrWdzciFgmg6VjyieMGpJ5XA9sMmy8Q0jhOOz3OVyHyXx7zNXayO2bL3MRuDkaVVAZOYO8PIbkbHPUo0zzkf5ZVnlNFJgkvKKDjN4T6vTsG9NEyozbf36jMPjGhDctD6jJe5AgF1gEW80u0H5wWhTbRiVPbjKMzr0VhHVUxC8xO9drZLroMskBeWlVEyok2CK4OHmoegNgIu9NliiTx7eYvx",
+              "received": false
+            }
+          ],
+          "total_price": 54118,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:09:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

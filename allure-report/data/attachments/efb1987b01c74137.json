@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:42:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2777",
+    "etag": "W/\"ad9-KPlsgu12ezwgHt6PhagJ0vFPA14\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69592ad21c508c5d5e8cc343",
+      "status": "Draft",
+      "customer": {
+        "_id": "69592aca1c508c5d5e8cc29a",
+        "email": "Norwood_Bergstrom31@yahoo.com",
+        "name": "Saige Schneider",
+        "country": "Ukraine",
+        "city": "Daphneborough",
+        "street": "Creola Flat 12",
+        "house": 375,
+        "flat": 5719,
+        "phone": "+597888676931439",
+        "createdOn": "2026-01-03T14:42:18.000Z",
+        "notes": "b2AQmtO6luOGcavuFi2vBCNkd2CRV0"
+      },
+      "products": [
+        {
+          "_id": "69592ad21c508c5d5e8cc2da",
+          "name": "Ball13335",
+          "amount": 909,
+          "price": 39772,
+          "manufacturer": "Microsoft",
+          "notes": "tklUArvR6uGiNDFhzPDENsdOmgkWPtDla0t4yDWRc1asDs2OhFS1ZDlLzJGVcmd4tyVqqquBUUkefZqD7we7qeiFaVj0zmHrBaPGQUXkAtO66wxph6QJwzgXiATkiFHcIxbkPdfeKyD37Ipzkde0afrnOSixOZXThRYIrKEb5aOQLNUIqlGnkPJeswi3rHpRwh02p0JqICZFT6qJXnCx1UQhpY8GMszhP9GzgBBnVB9K84jMuC7bNGKC7y",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Garettfurt",
+          "street": "Hegmann Expressway",
+          "house": 854,
+          "flat": 4750
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 39772,
+      "createdOn": "2026-01-03T14:42:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592aca1c508c5d5e8cc29a",
+          "products": [
+            {
+              "_id": "69592ad21c508c5d5e8cc2da",
+              "name": "Ball13335",
+              "amount": 909,
+              "price": 39772,
+              "manufacturer": "Microsoft",
+              "notes": "tklUArvR6uGiNDFhzPDENsdOmgkWPtDla0t4yDWRc1asDs2OhFS1ZDlLzJGVcmd4tyVqqquBUUkefZqD7we7qeiFaVj0zmHrBaPGQUXkAtO66wxph6QJwzgXiATkiFHcIxbkPdfeKyD37Ipzkde0afrnOSixOZXThRYIrKEb5aOQLNUIqlGnkPJeswi3rHpRwh02p0JqICZFT6qJXnCx1UQhpY8GMszhP9GzgBBnVB9K84jMuC7bNGKC7y",
+              "received": false
+            }
+          ],
+          "total_price": 39772,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Garettfurt",
+              "street": "Hegmann Expressway",
+              "house": 854,
+              "flat": 4750
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:42:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592aca1c508c5d5e8cc29a",
+          "products": [
+            {
+              "_id": "69592ad21c508c5d5e8cc2da",
+              "name": "Ball13335",
+              "amount": 909,
+              "price": 39772,
+              "manufacturer": "Microsoft",
+              "notes": "tklUArvR6uGiNDFhzPDENsdOmgkWPtDla0t4yDWRc1asDs2OhFS1ZDlLzJGVcmd4tyVqqquBUUkefZqD7we7qeiFaVj0zmHrBaPGQUXkAtO66wxph6QJwzgXiATkiFHcIxbkPdfeKyD37Ipzkde0afrnOSixOZXThRYIrKEb5aOQLNUIqlGnkPJeswi3rHpRwh02p0JqICZFT6qJXnCx1UQhpY8GMszhP9GzgBBnVB9K84jMuC7bNGKC7y",
+              "received": false
+            }
+          ],
+          "total_price": 39772,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:42:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

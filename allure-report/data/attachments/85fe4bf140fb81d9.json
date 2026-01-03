@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:24:16 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-5DlT/pBvoj5o60pFHzwqru+89Ew\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6959268f1c508c5d5e8bf1bf",
+      "status": "Draft",
+      "customer": {
+        "_id": "695926801c508c5d5e8bebb2",
+        "email": "Dustin_Corkery@hotmail.com",
+        "name": "Frieda Larkin",
+        "country": "Ukraine",
+        "city": "West Lewview",
+        "street": "Crystal Mews 23",
+        "house": 935,
+        "flat": 5968,
+        "phone": "+937729042733465",
+        "createdOn": "2026-01-03T14:24:00.000Z",
+        "notes": "WaPa5MOotDRhqXctERoWzvtf53L5wT"
+      },
+      "products": [
+        {
+          "_id": "6959268d1c508c5d5e8bf175",
+          "name": "Chips60926",
+          "amount": 34,
+          "price": 7111,
+          "manufacturer": "Samsung",
+          "notes": "wUhTDbChXKzkhC7tQFICkIZDZCSIMunIvlMX8EsdVc6bHm1WzxYLNjL9JHJBifMf0cHPtAJqw042jM73zDtCkz37sqn6JxwAIj8PqJWN9VaVEGB9N5Q0Z0a6N656lKbjzj9MiqS8FEbrFLhnATsR8KqAtJLM4yOkFbeHOadnWwDPwQWStBqYfIKDRnYCTBhsMOYIWTEK6SLBg4UWiH6qGipJWyXccgHUsRPJhcQ0ryM8QgkTdQs2Z08xmq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Bernierberg",
+          "street": "Stella Well",
+          "house": 308,
+          "flat": 4566
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7111,
+      "createdOn": "2026-01-03T14:24:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695926801c508c5d5e8bebb2",
+          "products": [
+            {
+              "_id": "6959268d1c508c5d5e8bf175",
+              "name": "Chips60926",
+              "amount": 34,
+              "price": 7111,
+              "manufacturer": "Samsung",
+              "notes": "wUhTDbChXKzkhC7tQFICkIZDZCSIMunIvlMX8EsdVc6bHm1WzxYLNjL9JHJBifMf0cHPtAJqw042jM73zDtCkz37sqn6JxwAIj8PqJWN9VaVEGB9N5Q0Z0a6N656lKbjzj9MiqS8FEbrFLhnATsR8KqAtJLM4yOkFbeHOadnWwDPwQWStBqYfIKDRnYCTBhsMOYIWTEK6SLBg4UWiH6qGipJWyXccgHUsRPJhcQ0ryM8QgkTdQs2Z08xmq",
+              "received": false
+            }
+          ],
+          "total_price": 7111,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Bernierberg",
+              "street": "Stella Well",
+              "house": 308,
+              "flat": 4566
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:24:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695926801c508c5d5e8bebb2",
+          "products": [
+            {
+              "_id": "6959268d1c508c5d5e8bf175",
+              "name": "Chips60926",
+              "amount": 34,
+              "price": 7111,
+              "manufacturer": "Samsung",
+              "notes": "wUhTDbChXKzkhC7tQFICkIZDZCSIMunIvlMX8EsdVc6bHm1WzxYLNjL9JHJBifMf0cHPtAJqw042jM73zDtCkz37sqn6JxwAIj8PqJWN9VaVEGB9N5Q0Z0a6N656lKbjzj9MiqS8FEbrFLhnATsR8KqAtJLM4yOkFbeHOadnWwDPwQWStBqYfIKDRnYCTBhsMOYIWTEK6SLBg4UWiH6qGipJWyXccgHUsRPJhcQ0ryM8QgkTdQs2Z08xmq",
+              "received": false
+            }
+          ],
+          "total_price": 7111,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:24:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

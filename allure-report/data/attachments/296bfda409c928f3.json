@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:48:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-xUMGIB85wU90qMsIIQNo7K2lpio\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69592c4a1c508c5d5e8d0980",
+      "status": "Draft",
+      "customer": {
+        "_id": "69592c351c508c5d5e8d0698",
+        "email": "Rasheed_Doyle@gmail.com",
+        "name": "Luis Jacobi",
+        "country": "Russia",
+        "city": "West Brooke",
+        "street": "The Ridgeway 21",
+        "house": 534,
+        "flat": 8997,
+        "phone": "+621907654676188",
+        "createdOn": "2026-01-03T14:48:21.000Z",
+        "notes": "JJWkgFZS2bdUKVFzyaFAYomoYClqHj"
+      },
+      "products": [
+        {
+          "_id": "69592c411c508c5d5e8d094a",
+          "name": "Sausages76978",
+          "amount": 11,
+          "price": 32336,
+          "manufacturer": "Tesla",
+          "notes": "ozKRxMItaUx5yrPkABO8m9NWEGpIaVA1IF77S9hIvi0OaUaZwoMsCPEfAA90I1SKTfZIfLI3OofgQIDvIpqgL4lnocxradCZvswYSYunvK5fpBGfxwGqHszSYv2XBXts219dOTt3jPOREt9mM0hZ5XPRAQuFHHSpJSLpyV4rCzIAQTY1WEipNwAUcENZCUZXpGn5scUObiRNFSfnNL9YjljhMmhiRTCTUqGBO5516q7jtlG57R5d5wKZ9q",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "New Alexander",
+          "street": "Rusty Alley",
+          "house": 761,
+          "flat": 7793
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 32336,
+      "createdOn": "2026-01-03T14:48:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69592c351c508c5d5e8d0698",
+          "products": [
+            {
+              "_id": "69592c411c508c5d5e8d094a",
+              "name": "Sausages76978",
+              "amount": 11,
+              "price": 32336,
+              "manufacturer": "Tesla",
+              "notes": "ozKRxMItaUx5yrPkABO8m9NWEGpIaVA1IF77S9hIvi0OaUaZwoMsCPEfAA90I1SKTfZIfLI3OofgQIDvIpqgL4lnocxradCZvswYSYunvK5fpBGfxwGqHszSYv2XBXts219dOTt3jPOREt9mM0hZ5XPRAQuFHHSpJSLpyV4rCzIAQTY1WEipNwAUcENZCUZXpGn5scUObiRNFSfnNL9YjljhMmhiRTCTUqGBO5516q7jtlG57R5d5wKZ9q",
+              "received": false
+            }
+          ],
+          "total_price": 32336,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "New Alexander",
+              "street": "Rusty Alley",
+              "house": 761,
+              "flat": 7793
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:48:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592c351c508c5d5e8d0698",
+          "products": [
+            {
+              "_id": "69592c411c508c5d5e8d094a",
+              "name": "Sausages76978",
+              "amount": 11,
+              "price": 32336,
+              "manufacturer": "Tesla",
+              "notes": "ozKRxMItaUx5yrPkABO8m9NWEGpIaVA1IF77S9hIvi0OaUaZwoMsCPEfAA90I1SKTfZIfLI3OofgQIDvIpqgL4lnocxradCZvswYSYunvK5fpBGfxwGqHszSYv2XBXts219dOTt3jPOREt9mM0hZ5XPRAQuFHHSpJSLpyV4rCzIAQTY1WEipNwAUcENZCUZXpGn5scUObiRNFSfnNL9YjljhMmhiRTCTUqGBO5516q7jtlG57R5d5wKZ9q",
+              "received": false
+            }
+          ],
+          "total_price": 32336,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:48:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:39:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3963",
+    "etag": "W/\"f7b-xaNRktReXjb9JkrH6DiXqOT0Dn8\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69592a011c508c5d5e8c9698",
+      "status": "In Process",
+      "customer": {
+        "_id": "695929fc1c508c5d5e8c9576",
+        "email": "Shyann.Dibbert12@gmail.com",
+        "name": "Jermey Cummerata",
+        "country": "Germany",
+        "city": "Seattle",
+        "street": "Kasandra Lock 35",
+        "house": 135,
+        "flat": 7410,
+        "phone": "+690644764680198",
+        "createdOn": "2026-01-03T14:38:52.000Z",
+        "notes": "cczwzORHxqVnUT1UwppysYBXjAUUPC"
+      },
+      "products": [
+        {
+          "_id": "69592a011c508c5d5e8c9684",
+          "name": "Ball91388",
+          "amount": 649,
+          "price": 39610,
+          "manufacturer": "Microsoft",
+          "notes": "Iz0eAKpEUaoqLb5kelQV30gb7XYBDllbWP7c7DMEBO4AQYbMKOtXMIElddUimEGU5PWQvG34lQci0lll2SfzbWg8FkTkm5UcAY7E0bOEdb7M2C5MEihXiSymMkFwwaMJUk86ZxCJdGgoPwVEVp8XVXioeMydhkk7p03jqbDBIC2TbTWDTj1QckjPzRgxmOj4uZy003zD16suJSWfT9GFlKGcJlFPWusO3And1hC8TFHskRdbsrqkxACQ9M",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Towneport",
+          "street": "Ansel Oval",
+          "house": 932,
+          "flat": 3363
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 39610,
+      "createdOn": "2026-01-03T14:38:57.000Z",
+      "comments": [
+        {
+          "text": "Comment 1",
+          "createdOn": "2026-01-03T14:38:59.000Z",
+          "_id": "69592a031c508c5d5e8c9746"
+        },
+        {
+          "text": "Comment 2",
+          "createdOn": "2026-01-03T14:38:59.000Z",
+          "_id": "69592a031c508c5d5e8c977a"
+        },
+        {
+          "text": "Comment 3",
+          "createdOn": "2026-01-03T14:39:00.000Z",
+          "_id": "69592a041c508c5d5e8c978d"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695929fc1c508c5d5e8c9576",
+          "products": [
+            {
+              "_id": "69592a011c508c5d5e8c9684",
+              "name": "Ball91388",
+              "amount": 649,
+              "price": 39610,
+              "manufacturer": "Microsoft",
+              "notes": "Iz0eAKpEUaoqLb5kelQV30gb7XYBDllbWP7c7DMEBO4AQYbMKOtXMIElddUimEGU5PWQvG34lQci0lll2SfzbWg8FkTkm5UcAY7E0bOEdb7M2C5MEihXiSymMkFwwaMJUk86ZxCJdGgoPwVEVp8XVXioeMydhkk7p03jqbDBIC2TbTWDTj1QckjPzRgxmOj4uZy003zD16suJSWfT9GFlKGcJlFPWusO3And1hC8TFHskRdbsrqkxACQ9M",
+              "received": false
+            }
+          ],
+          "total_price": 39610,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Towneport",
+              "street": "Ansel Oval",
+              "house": 932,
+              "flat": 3363
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:38:58.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695929fc1c508c5d5e8c9576",
+          "products": [
+            {
+              "_id": "69592a011c508c5d5e8c9684",
+              "name": "Ball91388",
+              "amount": 649,
+              "price": 39610,
+              "manufacturer": "Microsoft",
+              "notes": "Iz0eAKpEUaoqLb5kelQV30gb7XYBDllbWP7c7DMEBO4AQYbMKOtXMIElddUimEGU5PWQvG34lQci0lll2SfzbWg8FkTkm5UcAY7E0bOEdb7M2C5MEihXiSymMkFwwaMJUk86ZxCJdGgoPwVEVp8XVXioeMydhkk7p03jqbDBIC2TbTWDTj1QckjPzRgxmOj4uZy003zD16suJSWfT9GFlKGcJlFPWusO3And1hC8TFHskRdbsrqkxACQ9M",
+              "received": false
+            }
+          ],
+          "total_price": 39610,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Towneport",
+              "street": "Ansel Oval",
+              "house": 932,
+              "flat": 3363
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:38:58.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695929fc1c508c5d5e8c9576",
+          "products": [
+            {
+              "_id": "69592a011c508c5d5e8c9684",
+              "name": "Ball91388",
+              "amount": 649,
+              "price": 39610,
+              "manufacturer": "Microsoft",
+              "notes": "Iz0eAKpEUaoqLb5kelQV30gb7XYBDllbWP7c7DMEBO4AQYbMKOtXMIElddUimEGU5PWQvG34lQci0lll2SfzbWg8FkTkm5UcAY7E0bOEdb7M2C5MEihXiSymMkFwwaMJUk86ZxCJdGgoPwVEVp8XVXioeMydhkk7p03jqbDBIC2TbTWDTj1QckjPzRgxmOj4uZy003zD16suJSWfT9GFlKGcJlFPWusO3And1hC8TFHskRdbsrqkxACQ9M",
+              "received": false
+            }
+          ],
+          "total_price": 39610,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:38:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

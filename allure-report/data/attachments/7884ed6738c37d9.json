@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:47:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3701",
+    "etag": "W/\"e75-Y3/+NtM+ubQ7WzIAb8Vgx7Vv/P4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69592c0f1c508c5d5e8cfe51",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69592bf91c508c5d5e8cfc20",
+        "email": "Rachael92@hotmail.com",
+        "name": "Alexanne Ebert",
+        "country": "Great Britain",
+        "city": "Lake Harmony",
+        "street": "Holly Close 64",
+        "house": 266,
+        "flat": 8249,
+        "phone": "+964773008599715",
+        "createdOn": "2026-01-03T14:47:21.000Z",
+        "notes": "TO1ZUCPf1KIQbN04FxRQCaY8feA7WY"
+      },
+      "products": [
+        {
+          "_id": "69592c061c508c5d5e8cfe0e",
+          "name": "Computer57398",
+          "amount": 602,
+          "price": 44608,
+          "manufacturer": "Xiaomi",
+          "notes": "2n187ICiQgMQv51rqOFEG6hytu2KSJ7GPCt3bKrQBCnKv6velDfBGPqrNBkTGtEZpZffr8gGRAXmobDxBqYS7FZm7WCa4gP1n264Z1I0Evby5eL4EhiIiFRqgKOBaODb7fFYeV3Iu2bHEpNQLOxSAvpClhweR0sfcBh9464Nz3bnGcarhLyctg9BesBpi9PAHT1CupgqAA0bK4E4xrBlDZshT9zilmWRtiBuVFmTMLdF3TzoQT11JOd6xT",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Fort Rosendotown",
+          "street": "North Avenue",
+          "house": 503,
+          "flat": 552
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 44608,
+      "createdOn": "2026-01-03T14:47:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69592bf91c508c5d5e8cfc20",
+          "products": [
+            {
+              "_id": "69592c061c508c5d5e8cfe0e",
+              "name": "Computer57398",
+              "amount": 602,
+              "price": 44608,
+              "manufacturer": "Xiaomi",
+              "notes": "2n187ICiQgMQv51rqOFEG6hytu2KSJ7GPCt3bKrQBCnKv6velDfBGPqrNBkTGtEZpZffr8gGRAXmobDxBqYS7FZm7WCa4gP1n264Z1I0Evby5eL4EhiIiFRqgKOBaODb7fFYeV3Iu2bHEpNQLOxSAvpClhweR0sfcBh9464Nz3bnGcarhLyctg9BesBpi9PAHT1CupgqAA0bK4E4xrBlDZshT9zilmWRtiBuVFmTMLdF3TzoQT11JOd6xT",
+              "received": false
+            }
+          ],
+          "total_price": 44608,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Rosendotown",
+              "street": "North Avenue",
+              "house": 503,
+              "flat": 552
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:47:44.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592bf91c508c5d5e8cfc20",
+          "products": [
+            {
+              "_id": "69592c061c508c5d5e8cfe0e",
+              "name": "Computer57398",
+              "amount": 602,
+              "price": 44608,
+              "manufacturer": "Xiaomi",
+              "notes": "2n187ICiQgMQv51rqOFEG6hytu2KSJ7GPCt3bKrQBCnKv6velDfBGPqrNBkTGtEZpZffr8gGRAXmobDxBqYS7FZm7WCa4gP1n264Z1I0Evby5eL4EhiIiFRqgKOBaODb7fFYeV3Iu2bHEpNQLOxSAvpClhweR0sfcBh9464Nz3bnGcarhLyctg9BesBpi9PAHT1CupgqAA0bK4E4xrBlDZshT9zilmWRtiBuVFmTMLdF3TzoQT11JOd6xT",
+              "received": false
+            }
+          ],
+          "total_price": 44608,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Rosendotown",
+              "street": "North Avenue",
+              "house": 503,
+              "flat": 552
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:47:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592bf91c508c5d5e8cfc20",
+          "products": [
+            {
+              "_id": "69592c061c508c5d5e8cfe0e",
+              "name": "Computer57398",
+              "amount": 602,
+              "price": 44608,
+              "manufacturer": "Xiaomi",
+              "notes": "2n187ICiQgMQv51rqOFEG6hytu2KSJ7GPCt3bKrQBCnKv6velDfBGPqrNBkTGtEZpZffr8gGRAXmobDxBqYS7FZm7WCa4gP1n264Z1I0Evby5eL4EhiIiFRqgKOBaODb7fFYeV3Iu2bHEpNQLOxSAvpClhweR0sfcBh9464Nz3bnGcarhLyctg9BesBpi9PAHT1CupgqAA0bK4E4xrBlDZshT9zilmWRtiBuVFmTMLdF3TzoQT11JOd6xT",
+              "received": false
+            }
+          ],
+          "total_price": 44608,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:47:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

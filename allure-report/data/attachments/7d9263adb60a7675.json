@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:54:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3706",
+    "etag": "W/\"e7a-4sDw4BUf/lIDQD98cmgxN0QPm3s\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69592d831c508c5d5e8d383f",
+      "status": "In Process",
+      "customer": {
+        "_id": "69592d751c508c5d5e8d35d4",
+        "email": "Deshawn2@yahoo.com",
+        "name": "Aimee Parker",
+        "country": "Canada",
+        "city": "Fort Kristin",
+        "street": "Jammie Ramp 82",
+        "house": 588,
+        "flat": 9626,
+        "phone": "+701323393564303",
+        "createdOn": "2026-01-03T14:53:41.000Z",
+        "notes": "tabPTDVWYeFv9zfaQeqWEXjSuKc8QF"
+      },
+      "products": [
+        {
+          "_id": "69592d831c508c5d5e8d3837",
+          "name": "Cheese36031",
+          "amount": 989,
+          "price": 90054,
+          "manufacturer": "Apple",
+          "notes": "8nsZ3FpwtJmNwe4JnNLiedDpPMefzCNQLgSCAWgmygo9B2saZJhAWnDauHsbOzKyPY7j87SKw2eIsxL9nlWswJPE2W3zsJNSWpMrP5K7H8dgXtn3FlU9ZQIcp7T7ed2uw2D8EirCa1mD1BkgVb7tQrNajCUCa8qG8q83EXSKRhDzSY00fnkZcuVlrPA3gUp3xRLOrp8LycVj4nxD2gjP7W6Z34YUDagUqBzMJN0lndpsrxdUqCMCKyFf2U",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Port Nicholausburgh",
+          "street": "Church Street",
+          "house": 632,
+          "flat": 5082
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 90054,
+      "createdOn": "2026-01-03T14:53:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69592d751c508c5d5e8d35d4",
+          "products": [
+            {
+              "_id": "69592d831c508c5d5e8d3837",
+              "name": "Cheese36031",
+              "amount": 989,
+              "price": 90054,
+              "manufacturer": "Apple",
+              "notes": "8nsZ3FpwtJmNwe4JnNLiedDpPMefzCNQLgSCAWgmygo9B2saZJhAWnDauHsbOzKyPY7j87SKw2eIsxL9nlWswJPE2W3zsJNSWpMrP5K7H8dgXtn3FlU9ZQIcp7T7ed2uw2D8EirCa1mD1BkgVb7tQrNajCUCa8qG8q83EXSKRhDzSY00fnkZcuVlrPA3gUp3xRLOrp8LycVj4nxD2gjP7W6Z34YUDagUqBzMJN0lndpsrxdUqCMCKyFf2U",
+              "received": false
+            }
+          ],
+          "total_price": 90054,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Port Nicholausburgh",
+              "street": "Church Street",
+              "house": 632,
+              "flat": 5082
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:54:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592d751c508c5d5e8d35d4",
+          "products": [
+            {
+              "_id": "69592d831c508c5d5e8d3837",
+              "name": "Cheese36031",
+              "amount": 989,
+              "price": 90054,
+              "manufacturer": "Apple",
+              "notes": "8nsZ3FpwtJmNwe4JnNLiedDpPMefzCNQLgSCAWgmygo9B2saZJhAWnDauHsbOzKyPY7j87SKw2eIsxL9nlWswJPE2W3zsJNSWpMrP5K7H8dgXtn3FlU9ZQIcp7T7ed2uw2D8EirCa1mD1BkgVb7tQrNajCUCa8qG8q83EXSKRhDzSY00fnkZcuVlrPA3gUp3xRLOrp8LycVj4nxD2gjP7W6Z34YUDagUqBzMJN0lndpsrxdUqCMCKyFf2U",
+              "received": false
+            }
+          ],
+          "total_price": 90054,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Port Nicholausburgh",
+              "street": "Church Street",
+              "house": 632,
+              "flat": 5082
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T14:53:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69592d751c508c5d5e8d35d4",
+          "products": [
+            {
+              "_id": "69592d831c508c5d5e8d3837",
+              "name": "Cheese36031",
+              "amount": 989,
+              "price": 90054,
+              "manufacturer": "Apple",
+              "notes": "8nsZ3FpwtJmNwe4JnNLiedDpPMefzCNQLgSCAWgmygo9B2saZJhAWnDauHsbOzKyPY7j87SKw2eIsxL9nlWswJPE2W3zsJNSWpMrP5K7H8dgXtn3FlU9ZQIcp7T7ed2uw2D8EirCa1mD1BkgVb7tQrNajCUCa8qG8q83EXSKRhDzSY00fnkZcuVlrPA3gUp3xRLOrp8LycVj4nxD2gjP7W6Z34YUDagUqBzMJN0lndpsrxdUqCMCKyFf2U",
+              "received": false
+            }
+          ],
+          "total_price": 90054,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:53:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

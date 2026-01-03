@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 14:11:00 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1675",
+    "etag": "W/\"68b-Uk4X/hDMSWBQuF5JefwFYI7BDDA\"",
+    "keep-alive": "timeout=5, max=33",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695923741c508c5d5e8ac5d0",
+      "status": "Draft",
+      "customer": {
+        "_id": "695923671c508c5d5e8ac1af",
+        "email": "Cassandra_OReilly@yahoo.com",
+        "name": "Arvid Keeling",
+        "country": "Canada",
+        "city": "South Lelia",
+        "street": "Angelo Plains 8",
+        "house": 478,
+        "flat": 7464,
+        "phone": "+580981793907441",
+        "createdOn": "2026-01-03T14:10:47.000Z",
+        "notes": "4omP6AnOSKQrb2gfV2OQRjUmkql5nP"
+      },
+      "products": [
+        {
+          "_id": "695923741c508c5d5e8ac5b6",
+          "name": "Shirt1907",
+          "amount": 866,
+          "price": 85582,
+          "manufacturer": "Google",
+          "notes": "7neYSBBSKDlEGtsCgb7R49I0rw0jew8EGqbKYMKnqIQ3MdX2Me7fbwLoyfowrLQ50Snjn1hH0ppa8uT5lT755U2xYEGNFi1XXBKiIFd2NWPIlZrbX1HGPvEG19Y65LBQ9QNPz9tcif68qWBkKXxzAW38kaTmazlQ17aNtyYVWt7MrSqLWOGSZxMtF1QlH9otWDfpOZDXf37m1mXIwrVI8KMFf16WwEcTPDDj0QR5i0uOuTlSZmI4Lw8EZV",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85582,
+      "createdOn": "2026-01-03T14:11:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695923671c508c5d5e8ac1af",
+          "products": [
+            {
+              "_id": "695923741c508c5d5e8ac5b6",
+              "name": "Shirt1907",
+              "amount": 866,
+              "price": 85582,
+              "manufacturer": "Google",
+              "notes": "7neYSBBSKDlEGtsCgb7R49I0rw0jew8EGqbKYMKnqIQ3MdX2Me7fbwLoyfowrLQ50Snjn1hH0ppa8uT5lT755U2xYEGNFi1XXBKiIFd2NWPIlZrbX1HGPvEG19Y65LBQ9QNPz9tcif68qWBkKXxzAW38kaTmazlQ17aNtyYVWt7MrSqLWOGSZxMtF1QlH9otWDfpOZDXf37m1mXIwrVI8KMFf16WwEcTPDDj0QR5i0uOuTlSZmI4Lw8EZV",
+              "received": false
+            }
+          ],
+          "total_price": 85582,
+          "delivery": null,
+          "changedOn": "2026-01-03T14:11:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
