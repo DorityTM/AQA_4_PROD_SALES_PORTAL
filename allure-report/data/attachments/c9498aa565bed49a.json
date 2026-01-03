@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:06:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3923",
+    "etag": "W/\"f53-VqqPaDF0TDnzfO+s1G/Ktoc8jig\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593e9a1c508c5d5e8eb9e7",
+      "status": "Draft",
+      "customer": {
+        "_id": "69593e821c508c5d5e8eb6f1",
+        "email": "Sedrick.Kozey@gmail.com",
+        "name": "Carson Feeney",
+        "country": "France",
+        "city": "Reingerport",
+        "street": "Batz Valley 29",
+        "house": 114,
+        "flat": 96,
+        "phone": "+362183431238060",
+        "createdOn": "2026-01-03T16:06:26.000Z",
+        "notes": "e7YPxupBT0fYXPytCzzja8PDdQ0R2m"
+      },
+      "products": [
+        {
+          "_id": "69593e8d1c508c5d5e8eb868",
+          "name": "Computer47679",
+          "amount": 962,
+          "price": 52280,
+          "manufacturer": "Apple",
+          "notes": "JicJzdmuuTzB2Oavt1HdIuHDwsyHOUjY4f6F1vOIdBko5cKqPDvutQ2FUqVFpz55Rl3cjBTyU5xTwAjU4Shqk0EvFoouJJ4c3ysGHPSYfD5zU005YyctYWRLMFWAYYEvVzFoRgZcrgtUbx8bn4hy3EWDvYYbRooe4B39XaM6Nxcz8cuZXGA7Flo0eJWfdIYqkoy6fkVmCNhrc94mh9cv93KnVp6odgp8pe0aixfbeigHgX3kOivrmlAQIJ",
+          "received": false
+        },
+        {
+          "_id": "69593e9a1c508c5d5e8eb9b2",
+          "name": "Mouse67308",
+          "amount": 728,
+          "price": 28749,
+          "manufacturer": "Tesla",
+          "notes": "wACrg7s6QltUC7Cy8sMXz5votrtEsPdbYOMADmzdWEkSbkcRe8amAawwrXtCfbIuh1hCm7YdMRAipGLt7IKZFioDAD6m2RzhyK0MLP0Q0EynARcOTQJS6Lg7t3Q1otS2t1cckxJYCi48RJkCDp916VdJDgEqbPU8WAE0UmKrcLOPdWF2nUitm9qs22WH72QcbC1ymVBgZAn3zLGh6YMDUjfnNGntfb1bIqrmHdGIqOsAmpU2SDg9UQkQea",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "New Jaredworth",
+          "street": "Bednar Courts",
+          "house": 203,
+          "flat": 6468
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 81029,
+      "createdOn": "2026-01-03T16:06:50.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69593e821c508c5d5e8eb6f1",
+          "products": [
+            {
+              "_id": "69593e8d1c508c5d5e8eb868",
+              "name": "Computer47679",
+              "amount": 962,
+              "price": 52280,
+              "manufacturer": "Apple",
+              "notes": "JicJzdmuuTzB2Oavt1HdIuHDwsyHOUjY4f6F1vOIdBko5cKqPDvutQ2FUqVFpz55Rl3cjBTyU5xTwAjU4Shqk0EvFoouJJ4c3ysGHPSYfD5zU005YyctYWRLMFWAYYEvVzFoRgZcrgtUbx8bn4hy3EWDvYYbRooe4B39XaM6Nxcz8cuZXGA7Flo0eJWfdIYqkoy6fkVmCNhrc94mh9cv93KnVp6odgp8pe0aixfbeigHgX3kOivrmlAQIJ",
+              "received": false
+            },
+            {
+              "_id": "69593e9a1c508c5d5e8eb9b2",
+              "name": "Mouse67308",
+              "amount": 728,
+              "price": 28749,
+              "manufacturer": "Tesla",
+              "notes": "wACrg7s6QltUC7Cy8sMXz5votrtEsPdbYOMADmzdWEkSbkcRe8amAawwrXtCfbIuh1hCm7YdMRAipGLt7IKZFioDAD6m2RzhyK0MLP0Q0EynARcOTQJS6Lg7t3Q1otS2t1cckxJYCi48RJkCDp916VdJDgEqbPU8WAE0UmKrcLOPdWF2nUitm9qs22WH72QcbC1ymVBgZAn3zLGh6YMDUjfnNGntfb1bIqrmHdGIqOsAmpU2SDg9UQkQea",
+              "received": false
+            }
+          ],
+          "total_price": 81029,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "New Jaredworth",
+              "street": "Bednar Courts",
+              "house": 203,
+              "flat": 6468
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:06:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593e821c508c5d5e8eb6f1",
+          "products": [
+            {
+              "_id": "69593e8d1c508c5d5e8eb868",
+              "name": "Computer47679",
+              "amount": 962,
+              "price": 52280,
+              "manufacturer": "Apple",
+              "notes": "JicJzdmuuTzB2Oavt1HdIuHDwsyHOUjY4f6F1vOIdBko5cKqPDvutQ2FUqVFpz55Rl3cjBTyU5xTwAjU4Shqk0EvFoouJJ4c3ysGHPSYfD5zU005YyctYWRLMFWAYYEvVzFoRgZcrgtUbx8bn4hy3EWDvYYbRooe4B39XaM6Nxcz8cuZXGA7Flo0eJWfdIYqkoy6fkVmCNhrc94mh9cv93KnVp6odgp8pe0aixfbeigHgX3kOivrmlAQIJ",
+              "received": false
+            },
+            {
+              "_id": "69593e9a1c508c5d5e8eb9b2",
+              "name": "Mouse67308",
+              "amount": 728,
+              "price": 28749,
+              "manufacturer": "Tesla",
+              "notes": "wACrg7s6QltUC7Cy8sMXz5votrtEsPdbYOMADmzdWEkSbkcRe8amAawwrXtCfbIuh1hCm7YdMRAipGLt7IKZFioDAD6m2RzhyK0MLP0Q0EynARcOTQJS6Lg7t3Q1otS2t1cckxJYCi48RJkCDp916VdJDgEqbPU8WAE0UmKrcLOPdWF2nUitm9qs22WH72QcbC1ymVBgZAn3zLGh6YMDUjfnNGntfb1bIqrmHdGIqOsAmpU2SDg9UQkQea",
+              "received": false
+            }
+          ],
+          "total_price": 81029,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:06:50.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

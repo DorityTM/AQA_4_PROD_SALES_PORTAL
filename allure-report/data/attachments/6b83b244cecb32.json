@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:03:05 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3875",
+    "etag": "W/\"f23-UHxQcs1/b7bx9dsF2wWkpIAiJFk\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593db81c508c5d5e8ea168",
+      "status": "Draft",
+      "customer": {
+        "_id": "69593da61c508c5d5e8e9f80",
+        "email": "Valentine.Kunze@yahoo.com",
+        "name": "Jaiden Jakubowski",
+        "country": "Belarus",
+        "city": "Cedar Park",
+        "street": "3rd Avenue 66",
+        "house": 58,
+        "flat": 779,
+        "phone": "+792240942248985",
+        "createdOn": "2026-01-03T16:02:46.000Z",
+        "notes": "2IzqENK380tINwdsayOlV83cvXNWPH"
+      },
+      "products": [
+        {
+          "_id": "69593dae1c508c5d5e8ea078",
+          "name": "Bike9543",
+          "amount": 257,
+          "price": 32657,
+          "manufacturer": "Samsung",
+          "notes": "bqzX25AEyhJqQTJJA28XHTEMd53O8CePmWCanLXVqS3Kd2YKN3Bl6DIs4QSXzjtyCUnH7q7uG50rhtBovdQ5xbgToJRgFrWxEWf5LTHYsHZY9Y9By4BuoEiOMqxUxzhOo2jki6QHrUnrCwCVsa3F4yt0n8gUjiJ4RNsXo5RAohuUJHKNYvuKZL6pAF4dFtDWX3DaZA5atm6PVK0di2yPhfLxvg9D5ji8yu4H2MoqYskmFFOKoEb3mxfVZO",
+          "received": false
+        },
+        {
+          "_id": "69593db61c508c5d5e8ea15c",
+          "name": "Hat53749",
+          "amount": 215,
+          "price": 21024,
+          "manufacturer": "Apple",
+          "notes": "hOwEK9HibHAl8L2H825qLmmQ7D3mZ0RBbPm46pJa4s4nmu32ecHmZqbLPzCbqk1Rxo1Axsir4m4wJE7nPqFbVwYW1hCjfQ0oJ5YooSDDS7ICUrusY0xWU0bszepZWGwETo2fT9gKFeoN2IoiIelN4Qm40CIGS1DRabTfkLQ32xMTjRFzxkEpuCQfF092pGaWGJHU3fG4Xcg0Akjbv50XwOTj3WmDcd3RpzCDBI1xHrwXQLGiEbnHzxJd7x",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Davie",
+          "street": "Hettie Greens",
+          "house": 5,
+          "flat": 218
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53681,
+      "createdOn": "2026-01-03T16:03:04.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69593da61c508c5d5e8e9f80",
+          "products": [
+            {
+              "_id": "69593dae1c508c5d5e8ea078",
+              "name": "Bike9543",
+              "amount": 257,
+              "price": 32657,
+              "manufacturer": "Samsung",
+              "notes": "bqzX25AEyhJqQTJJA28XHTEMd53O8CePmWCanLXVqS3Kd2YKN3Bl6DIs4QSXzjtyCUnH7q7uG50rhtBovdQ5xbgToJRgFrWxEWf5LTHYsHZY9Y9By4BuoEiOMqxUxzhOo2jki6QHrUnrCwCVsa3F4yt0n8gUjiJ4RNsXo5RAohuUJHKNYvuKZL6pAF4dFtDWX3DaZA5atm6PVK0di2yPhfLxvg9D5ji8yu4H2MoqYskmFFOKoEb3mxfVZO",
+              "received": false
+            },
+            {
+              "_id": "69593db61c508c5d5e8ea15c",
+              "name": "Hat53749",
+              "amount": 215,
+              "price": 21024,
+              "manufacturer": "Apple",
+              "notes": "hOwEK9HibHAl8L2H825qLmmQ7D3mZ0RBbPm46pJa4s4nmu32ecHmZqbLPzCbqk1Rxo1Axsir4m4wJE7nPqFbVwYW1hCjfQ0oJ5YooSDDS7ICUrusY0xWU0bszepZWGwETo2fT9gKFeoN2IoiIelN4Qm40CIGS1DRabTfkLQ32xMTjRFzxkEpuCQfF092pGaWGJHU3fG4Xcg0Akjbv50XwOTj3WmDcd3RpzCDBI1xHrwXQLGiEbnHzxJd7x",
+              "received": false
+            }
+          ],
+          "total_price": 53681,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Davie",
+              "street": "Hettie Greens",
+              "house": 5,
+              "flat": 218
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:03:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593da61c508c5d5e8e9f80",
+          "products": [
+            {
+              "_id": "69593dae1c508c5d5e8ea078",
+              "name": "Bike9543",
+              "amount": 257,
+              "price": 32657,
+              "manufacturer": "Samsung",
+              "notes": "bqzX25AEyhJqQTJJA28XHTEMd53O8CePmWCanLXVqS3Kd2YKN3Bl6DIs4QSXzjtyCUnH7q7uG50rhtBovdQ5xbgToJRgFrWxEWf5LTHYsHZY9Y9By4BuoEiOMqxUxzhOo2jki6QHrUnrCwCVsa3F4yt0n8gUjiJ4RNsXo5RAohuUJHKNYvuKZL6pAF4dFtDWX3DaZA5atm6PVK0di2yPhfLxvg9D5ji8yu4H2MoqYskmFFOKoEb3mxfVZO",
+              "received": false
+            },
+            {
+              "_id": "69593db61c508c5d5e8ea15c",
+              "name": "Hat53749",
+              "amount": 215,
+              "price": 21024,
+              "manufacturer": "Apple",
+              "notes": "hOwEK9HibHAl8L2H825qLmmQ7D3mZ0RBbPm46pJa4s4nmu32ecHmZqbLPzCbqk1Rxo1Axsir4m4wJE7nPqFbVwYW1hCjfQ0oJ5YooSDDS7ICUrusY0xWU0bszepZWGwETo2fT9gKFeoN2IoiIelN4Qm40CIGS1DRabTfkLQ32xMTjRFzxkEpuCQfF092pGaWGJHU3fG4Xcg0Akjbv50XwOTj3WmDcd3RpzCDBI1xHrwXQLGiEbnHzxJd7x",
+              "received": false
+            }
+          ],
+          "total_price": 53681,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:03:04.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

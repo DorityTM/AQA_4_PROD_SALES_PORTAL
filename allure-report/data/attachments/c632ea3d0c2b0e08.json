@@ -1,0 +1,184 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:55:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3862",
+    "etag": "W/\"f16-jRFYJ78KkzBRnnvbozeN3D+GFM8\"",
+    "keep-alive": "timeout=5, max=89",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593c051c508c5d5e8e72fd",
+      "status": "In Process",
+      "customer": {
+        "_id": "69593bfe1c508c5d5e8e722b",
+        "email": "Delbert31@gmail.com",
+        "name": "Clyde Volkman",
+        "country": "Great Britain",
+        "city": "East Damonfort",
+        "street": "Astrid Freeway 51",
+        "house": 685,
+        "flat": 4134,
+        "phone": "+183349901282750",
+        "createdOn": "2026-01-03T15:55:42.000Z",
+        "notes": "5mRqB9nBzCSTQYBa4BBvmYYEZmm7fh"
+      },
+      "products": [
+        {
+          "_id": "69593c051c508c5d5e8e72da",
+          "name": "Bacon29523",
+          "amount": 874,
+          "price": 2777,
+          "manufacturer": "Samsung",
+          "notes": "3GoQytNCo8rDeTZBXKUSwpWJCFFIS69bFbBoRdPvjX9pvc2gUQtJlVbNYrcQub0NxHJNiZwci0wdzHSw1HcOnyxI38lsAm7SmLYHnGpCsIFJbldwdFMDZMnoInxWoqkT8Vfg5C0L7fx8ioF3OmARnILrkoRCjE1vrfAdwtNzeSs3XWW8EWXxy4OY0pEYcRwFwseLnzQhrK8VlY7QXstk1MhJRXLj8fJh9Ej8iIEgf21TsozRy1bwK2RxZZ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Yostfort",
+          "street": "Macy Parkway",
+          "house": 203,
+          "flat": 3129
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 2777,
+      "createdOn": "2026-01-03T15:55:49.000Z",
+      "comments": [
+        {
+          "text": "Comment 1",
+          "createdOn": "2026-01-03T15:55:50.000Z",
+          "_id": "69593c061c508c5d5e8e7340"
+        },
+        {
+          "text": "Comment 2",
+          "createdOn": "2026-01-03T15:55:50.000Z",
+          "_id": "69593c061c508c5d5e8e7356"
+        }
+      ],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69593bfe1c508c5d5e8e722b",
+          "products": [
+            {
+              "_id": "69593c051c508c5d5e8e72da",
+              "name": "Bacon29523",
+              "amount": 874,
+              "price": 2777,
+              "manufacturer": "Samsung",
+              "notes": "3GoQytNCo8rDeTZBXKUSwpWJCFFIS69bFbBoRdPvjX9pvc2gUQtJlVbNYrcQub0NxHJNiZwci0wdzHSw1HcOnyxI38lsAm7SmLYHnGpCsIFJbldwdFMDZMnoInxWoqkT8Vfg5C0L7fx8ioF3OmARnILrkoRCjE1vrfAdwtNzeSs3XWW8EWXxy4OY0pEYcRwFwseLnzQhrK8VlY7QXstk1MhJRXLj8fJh9Ej8iIEgf21TsozRy1bwK2RxZZ",
+              "received": false
+            }
+          ],
+          "total_price": 2777,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Yostfort",
+              "street": "Macy Parkway",
+              "house": 203,
+              "flat": 3129
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:55:50.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593bfe1c508c5d5e8e722b",
+          "products": [
+            {
+              "_id": "69593c051c508c5d5e8e72da",
+              "name": "Bacon29523",
+              "amount": 874,
+              "price": 2777,
+              "manufacturer": "Samsung",
+              "notes": "3GoQytNCo8rDeTZBXKUSwpWJCFFIS69bFbBoRdPvjX9pvc2gUQtJlVbNYrcQub0NxHJNiZwci0wdzHSw1HcOnyxI38lsAm7SmLYHnGpCsIFJbldwdFMDZMnoInxWoqkT8Vfg5C0L7fx8ioF3OmARnILrkoRCjE1vrfAdwtNzeSs3XWW8EWXxy4OY0pEYcRwFwseLnzQhrK8VlY7QXstk1MhJRXLj8fJh9Ej8iIEgf21TsozRy1bwK2RxZZ",
+              "received": false
+            }
+          ],
+          "total_price": 2777,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Yostfort",
+              "street": "Macy Parkway",
+              "house": 203,
+              "flat": 3129
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:55:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593bfe1c508c5d5e8e722b",
+          "products": [
+            {
+              "_id": "69593c051c508c5d5e8e72da",
+              "name": "Bacon29523",
+              "amount": 874,
+              "price": 2777,
+              "manufacturer": "Samsung",
+              "notes": "3GoQytNCo8rDeTZBXKUSwpWJCFFIS69bFbBoRdPvjX9pvc2gUQtJlVbNYrcQub0NxHJNiZwci0wdzHSw1HcOnyxI38lsAm7SmLYHnGpCsIFJbldwdFMDZMnoInxWoqkT8Vfg5C0L7fx8ioF3OmARnILrkoRCjE1vrfAdwtNzeSs3XWW8EWXxy4OY0pEYcRwFwseLnzQhrK8VlY7QXstk1MhJRXLj8fJh9Ej8iIEgf21TsozRy1bwK2RxZZ",
+              "received": false
+            }
+          ],
+          "total_price": 2777,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:55:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

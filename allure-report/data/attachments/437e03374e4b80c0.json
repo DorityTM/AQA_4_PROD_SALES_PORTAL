@@ -1,0 +1,193 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:07:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4266",
+    "etag": "W/\"10aa-VgykLWd+gqpugN9IirxHqiaGeaQ\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593eb81c508c5d5e8ebe5a",
+      "status": "Draft",
+      "customer": {
+        "_id": "69593eaf1c508c5d5e8ebd0f",
+        "email": "Arnaldo34@yahoo.com",
+        "name": "Cornelius Crist",
+        "country": "Canada",
+        "city": "Fort Nella",
+        "street": "Rollin Manors 54",
+        "house": 323,
+        "flat": 8831,
+        "phone": "+931034478193286",
+        "createdOn": "2026-01-03T16:07:11.000Z",
+        "notes": "vwTDByxTl6Fnln1YfB52OHoVfvdveJ"
+      },
+      "products": [
+        {
+          "_id": "69593eb81c508c5d5e8ebe38",
+          "name": "Chicken8433",
+          "amount": 197,
+          "price": 35512,
+          "manufacturer": "Microsoft",
+          "notes": "e5Z6K0duL937bmNvFHvhvq8XjEHa0EJqndswUxQylpMmfTTMdmMy60Ww8nkhKF0Z9FwzWAg8KTgziiTdJor48N34VawioQgJaC3CaSHGqBQtiBUhIi9MPdMXRlgVW29b1eCapTHsHNOHrsvAd1ATmXlC0DDrP88uWWC0w82TahfPdZXn2UMjvpNH0dsZlYfMueAFTE1bKXHoK1famxst37JiHzXMNMfLhGNmrS91YLgioe6ypNJux4Go1C",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35512,
+      "createdOn": "2026-01-03T16:07:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69593eaf1c508c5d5e8ebd0f",
+          "products": [
+            {
+              "_id": "69593eb81c508c5d5e8ebe38",
+              "name": "Chicken8433",
+              "amount": 197,
+              "price": 35512,
+              "manufacturer": "Microsoft",
+              "notes": "e5Z6K0duL937bmNvFHvhvq8XjEHa0EJqndswUxQylpMmfTTMdmMy60Ww8nkhKF0Z9FwzWAg8KTgziiTdJor48N34VawioQgJaC3CaSHGqBQtiBUhIi9MPdMXRlgVW29b1eCapTHsHNOHrsvAd1ATmXlC0DDrP88uWWC0w82TahfPdZXn2UMjvpNH0dsZlYfMueAFTE1bKXHoK1famxst37JiHzXMNMfLhGNmrS91YLgioe6ypNJux4Go1C",
+              "received": false
+            }
+          ],
+          "total_price": 35512,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:07:29.000Z",
+          "action": "Order reopened",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Canceled",
+          "customer": "69593eaf1c508c5d5e8ebd0f",
+          "products": [
+            {
+              "_id": "69593eb81c508c5d5e8ebe38",
+              "name": "Chicken8433",
+              "amount": 197,
+              "price": 35512,
+              "manufacturer": "Microsoft",
+              "notes": "e5Z6K0duL937bmNvFHvhvq8XjEHa0EJqndswUxQylpMmfTTMdmMy60Ww8nkhKF0Z9FwzWAg8KTgziiTdJor48N34VawioQgJaC3CaSHGqBQtiBUhIi9MPdMXRlgVW29b1eCapTHsHNOHrsvAd1ATmXlC0DDrP88uWWC0w82TahfPdZXn2UMjvpNH0dsZlYfMueAFTE1bKXHoK1famxst37JiHzXMNMfLhGNmrS91YLgioe6ypNJux4Go1C",
+              "received": false
+            }
+          ],
+          "total_price": 35512,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Jadon",
+              "street": "New Street",
+              "house": 288,
+              "flat": 418
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:07:21.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593eaf1c508c5d5e8ebd0f",
+          "products": [
+            {
+              "_id": "69593eb81c508c5d5e8ebe38",
+              "name": "Chicken8433",
+              "amount": 197,
+              "price": 35512,
+              "manufacturer": "Microsoft",
+              "notes": "e5Z6K0duL937bmNvFHvhvq8XjEHa0EJqndswUxQylpMmfTTMdmMy60Ww8nkhKF0Z9FwzWAg8KTgziiTdJor48N34VawioQgJaC3CaSHGqBQtiBUhIi9MPdMXRlgVW29b1eCapTHsHNOHrsvAd1ATmXlC0DDrP88uWWC0w82TahfPdZXn2UMjvpNH0dsZlYfMueAFTE1bKXHoK1famxst37JiHzXMNMfLhGNmrS91YLgioe6ypNJux4Go1C",
+              "received": false
+            }
+          ],
+          "total_price": 35512,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "South Jadon",
+              "street": "New Street",
+              "house": 288,
+              "flat": 418
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:07:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593eaf1c508c5d5e8ebd0f",
+          "products": [
+            {
+              "_id": "69593eb81c508c5d5e8ebe38",
+              "name": "Chicken8433",
+              "amount": 197,
+              "price": 35512,
+              "manufacturer": "Microsoft",
+              "notes": "e5Z6K0duL937bmNvFHvhvq8XjEHa0EJqndswUxQylpMmfTTMdmMy60Ww8nkhKF0Z9FwzWAg8KTgziiTdJor48N34VawioQgJaC3CaSHGqBQtiBUhIi9MPdMXRlgVW29b1eCapTHsHNOHrsvAd1ATmXlC0DDrP88uWWC0w82TahfPdZXn2UMjvpNH0dsZlYfMueAFTE1bKXHoK1famxst37JiHzXMNMfLhGNmrS91YLgioe6ypNJux4Go1C",
+              "received": false
+            }
+          ],
+          "total_price": 35512,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:07:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

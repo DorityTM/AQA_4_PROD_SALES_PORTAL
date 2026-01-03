@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:08:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3657",
+    "etag": "W/\"e49-LROe02NyeZHJgGtQMiQT4dSZGnc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593ef01c508c5d5e8ec8e8",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69593ee91c508c5d5e8ec69a",
+        "email": "Cayla_Treutel@gmail.com",
+        "name": "Alf Prosacco",
+        "country": "USA",
+        "city": "Aloha",
+        "street": "Herman Route 39",
+        "house": 103,
+        "flat": 517,
+        "phone": "+308262845933513",
+        "createdOn": "2026-01-03T16:08:09.000Z",
+        "notes": "9mXzaVwZJdY7FB5nzqrITsf4sw5eR0"
+      },
+      "products": [
+        {
+          "_id": "69593ef01c508c5d5e8ec8d5",
+          "name": "Mouse64591",
+          "amount": 680,
+          "price": 56018,
+          "manufacturer": "Amazon",
+          "notes": "AVbP3vxapvLKDkEoqDpldqwbyH6VARCohPwwIAuGmjuqNtBbGRDlz7eUac6ageCLU1BawRcGXrP1q62BHMfhVP3klerG9NRdO8oDINgZYfSO7k7t1m3ZTQdXVJoJE0sWc91fq2dtaefmg5P1EdDRa1IJfiumQTrff6SPm6ECUi1q0VwuRhgEBEtPv0pyF7EYyExyTleheiKPOcZ7tpHTIRoyza7FJkyq0j78GD2ZNMc9i8M11e0JObGxX1",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "East Vergie",
+          "street": "Kiara Square",
+          "house": 103,
+          "flat": 4496
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56018,
+      "createdOn": "2026-01-03T16:08:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69593ee91c508c5d5e8ec69a",
+          "products": [
+            {
+              "_id": "69593ef01c508c5d5e8ec8d5",
+              "name": "Mouse64591",
+              "amount": 680,
+              "price": 56018,
+              "manufacturer": "Amazon",
+              "notes": "AVbP3vxapvLKDkEoqDpldqwbyH6VARCohPwwIAuGmjuqNtBbGRDlz7eUac6ageCLU1BawRcGXrP1q62BHMfhVP3klerG9NRdO8oDINgZYfSO7k7t1m3ZTQdXVJoJE0sWc91fq2dtaefmg5P1EdDRa1IJfiumQTrff6SPm6ECUi1q0VwuRhgEBEtPv0pyF7EYyExyTleheiKPOcZ7tpHTIRoyza7FJkyq0j78GD2ZNMc9i8M11e0JObGxX1",
+              "received": false
+            }
+          ],
+          "total_price": 56018,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Vergie",
+              "street": "Kiara Square",
+              "house": 103,
+              "flat": 4496
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:08:17.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593ee91c508c5d5e8ec69a",
+          "products": [
+            {
+              "_id": "69593ef01c508c5d5e8ec8d5",
+              "name": "Mouse64591",
+              "amount": 680,
+              "price": 56018,
+              "manufacturer": "Amazon",
+              "notes": "AVbP3vxapvLKDkEoqDpldqwbyH6VARCohPwwIAuGmjuqNtBbGRDlz7eUac6ageCLU1BawRcGXrP1q62BHMfhVP3klerG9NRdO8oDINgZYfSO7k7t1m3ZTQdXVJoJE0sWc91fq2dtaefmg5P1EdDRa1IJfiumQTrff6SPm6ECUi1q0VwuRhgEBEtPv0pyF7EYyExyTleheiKPOcZ7tpHTIRoyza7FJkyq0j78GD2ZNMc9i8M11e0JObGxX1",
+              "received": false
+            }
+          ],
+          "total_price": 56018,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "East Vergie",
+              "street": "Kiara Square",
+              "house": 103,
+              "flat": 4496
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:08:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593ee91c508c5d5e8ec69a",
+          "products": [
+            {
+              "_id": "69593ef01c508c5d5e8ec8d5",
+              "name": "Mouse64591",
+              "amount": 680,
+              "price": 56018,
+              "manufacturer": "Amazon",
+              "notes": "AVbP3vxapvLKDkEoqDpldqwbyH6VARCohPwwIAuGmjuqNtBbGRDlz7eUac6ageCLU1BawRcGXrP1q62BHMfhVP3klerG9NRdO8oDINgZYfSO7k7t1m3ZTQdXVJoJE0sWc91fq2dtaefmg5P1EdDRa1IJfiumQTrff6SPm6ECUi1q0VwuRhgEBEtPv0pyF7EYyExyTleheiKPOcZ7tpHTIRoyza7FJkyq0j78GD2ZNMc9i8M11e0JObGxX1",
+              "received": false
+            }
+          ],
+          "total_price": 56018,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:08:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:51:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3676",
+    "etag": "W/\"e5c-wO+7OtAP/AChVPLUktajiss9Tv4\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593af01c508c5d5e8e2d0a",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69593ae81c508c5d5e8e2a47",
+        "email": "Dallin_Wiegand82@gmail.com",
+        "name": "Stella Satterfield",
+        "country": "Canada",
+        "city": "Fort Jayda",
+        "street": "Ruecker Views 23",
+        "house": 282,
+        "flat": 7687,
+        "phone": "+024369491405699",
+        "createdOn": "2026-01-03T15:51:04.000Z",
+        "notes": "pnun6YHiEYFiXwVDv5F45OrGAhZ1BG"
+      },
+      "products": [
+        {
+          "_id": "69593aef1c508c5d5e8e2c8b",
+          "name": "Soap32425",
+          "amount": 621,
+          "price": 12675,
+          "manufacturer": "Samsung",
+          "notes": "lAY0MlDLShSXv3BaxTXCRBPn2GEZcIky5U8qsEG8e6A47j9YVVod40IxCvcWVsy1PPffPcgTOZRANPLDm2POufBYbBZpNnxfXndR975b7CBc5iXzL3H664jknif2qafdPsijGwyJsb87qsBNtx8rJhSsrW22Ov30SUMvuDsT6Jt803A2qNJtAKbFvCG4UCK7yfEIdEdxxt7wH9EQkm9zycRcGv48Y6iulP5vmR3m8EbCaYZmDSU0dHgAe3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Dangelotown",
+          "street": "Eduardo Shore",
+          "house": 29,
+          "flat": 9742
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 12675,
+      "createdOn": "2026-01-03T15:51:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69593ae81c508c5d5e8e2a47",
+          "products": [
+            {
+              "_id": "69593aef1c508c5d5e8e2c8b",
+              "name": "Soap32425",
+              "amount": 621,
+              "price": 12675,
+              "manufacturer": "Samsung",
+              "notes": "lAY0MlDLShSXv3BaxTXCRBPn2GEZcIky5U8qsEG8e6A47j9YVVod40IxCvcWVsy1PPffPcgTOZRANPLDm2POufBYbBZpNnxfXndR975b7CBc5iXzL3H664jknif2qafdPsijGwyJsb87qsBNtx8rJhSsrW22Ov30SUMvuDsT6Jt803A2qNJtAKbFvCG4UCK7yfEIdEdxxt7wH9EQkm9zycRcGv48Y6iulP5vmR3m8EbCaYZmDSU0dHgAe3",
+              "received": false
+            }
+          ],
+          "total_price": 12675,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Dangelotown",
+              "street": "Eduardo Shore",
+              "house": 29,
+              "flat": 9742
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:51:13.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593ae81c508c5d5e8e2a47",
+          "products": [
+            {
+              "_id": "69593aef1c508c5d5e8e2c8b",
+              "name": "Soap32425",
+              "amount": 621,
+              "price": 12675,
+              "manufacturer": "Samsung",
+              "notes": "lAY0MlDLShSXv3BaxTXCRBPn2GEZcIky5U8qsEG8e6A47j9YVVod40IxCvcWVsy1PPffPcgTOZRANPLDm2POufBYbBZpNnxfXndR975b7CBc5iXzL3H664jknif2qafdPsijGwyJsb87qsBNtx8rJhSsrW22Ov30SUMvuDsT6Jt803A2qNJtAKbFvCG4UCK7yfEIdEdxxt7wH9EQkm9zycRcGv48Y6iulP5vmR3m8EbCaYZmDSU0dHgAe3",
+              "received": false
+            }
+          ],
+          "total_price": 12675,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Dangelotown",
+              "street": "Eduardo Shore",
+              "house": 29,
+              "flat": 9742
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:51:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593ae81c508c5d5e8e2a47",
+          "products": [
+            {
+              "_id": "69593aef1c508c5d5e8e2c8b",
+              "name": "Soap32425",
+              "amount": 621,
+              "price": 12675,
+              "manufacturer": "Samsung",
+              "notes": "lAY0MlDLShSXv3BaxTXCRBPn2GEZcIky5U8qsEG8e6A47j9YVVod40IxCvcWVsy1PPffPcgTOZRANPLDm2POufBYbBZpNnxfXndR975b7CBc5iXzL3H664jknif2qafdPsijGwyJsb87qsBNtx8rJhSsrW22Ov30SUMvuDsT6Jt803A2qNJtAKbFvCG4UCK7yfEIdEdxxt7wH9EQkm9zycRcGv48Y6iulP5vmR3m8EbCaYZmDSU0dHgAe3",
+              "received": false
+            }
+          ],
+          "total_price": 12675,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:51:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

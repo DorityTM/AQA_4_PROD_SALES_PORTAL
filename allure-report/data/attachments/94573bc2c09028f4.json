@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:55:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3700",
+    "etag": "W/\"e74-RWpJCym5uOIBYCyVIPea0dBarKo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593bf31c508c5d5e8e7015",
+      "status": "In Process",
+      "customer": {
+        "_id": "69593beb1c508c5d5e8e6e76",
+        "email": "Stephan.Reinger@yahoo.com",
+        "name": "Tiffany Lindgren",
+        "country": "USA",
+        "city": "Fort Abigaylemouth",
+        "street": "Merlin Pike 43",
+        "house": 446,
+        "flat": 6638,
+        "phone": "+066908433906983",
+        "createdOn": "2026-01-03T15:55:23.000Z",
+        "notes": "Bur7JV4NKHKuwK6xeM8MOjwTx6dIMW"
+      },
+      "products": [
+        {
+          "_id": "69593bf21c508c5d5e8e6fc3",
+          "name": "Pants95336",
+          "amount": 447,
+          "price": 4714,
+          "manufacturer": "Google",
+          "notes": "I2Wei3GG6kcPW4enFCoUXYeXiisD6r3zyOW91S962boIUOxGwcSbRHfLIbJHe9J6b2x5AbmQf5pr789f6VdUcvUzbLf5XzZzLfHEF7TjrARz3ZmQH4WbtNuxGgEKxkj0Fn0K1lAU7goV1f4KU066N3f8hZUQDJw4hiOcOjZyA5XkN8dXqO8zyBQwqHi1IwDhQzqdvrXWhjsrWk0FOeo2wOdBHYD49VIlQfDrVPMNDQFnl3CeIE34jYTWls",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "West Margretfield",
+          "street": "Hilpert Spur",
+          "house": 432,
+          "flat": 9253
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 4714,
+      "createdOn": "2026-01-03T15:55:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69593beb1c508c5d5e8e6e76",
+          "products": [
+            {
+              "_id": "69593bf21c508c5d5e8e6fc3",
+              "name": "Pants95336",
+              "amount": 447,
+              "price": 4714,
+              "manufacturer": "Google",
+              "notes": "I2Wei3GG6kcPW4enFCoUXYeXiisD6r3zyOW91S962boIUOxGwcSbRHfLIbJHe9J6b2x5AbmQf5pr789f6VdUcvUzbLf5XzZzLfHEF7TjrARz3ZmQH4WbtNuxGgEKxkj0Fn0K1lAU7goV1f4KU066N3f8hZUQDJw4hiOcOjZyA5XkN8dXqO8zyBQwqHi1IwDhQzqdvrXWhjsrWk0FOeo2wOdBHYD49VIlQfDrVPMNDQFnl3CeIE34jYTWls",
+              "received": false
+            }
+          ],
+          "total_price": 4714,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Margretfield",
+              "street": "Hilpert Spur",
+              "house": 432,
+              "flat": 9253
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:55:32.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593beb1c508c5d5e8e6e76",
+          "products": [
+            {
+              "_id": "69593bf21c508c5d5e8e6fc3",
+              "name": "Pants95336",
+              "amount": 447,
+              "price": 4714,
+              "manufacturer": "Google",
+              "notes": "I2Wei3GG6kcPW4enFCoUXYeXiisD6r3zyOW91S962boIUOxGwcSbRHfLIbJHe9J6b2x5AbmQf5pr789f6VdUcvUzbLf5XzZzLfHEF7TjrARz3ZmQH4WbtNuxGgEKxkj0Fn0K1lAU7goV1f4KU066N3f8hZUQDJw4hiOcOjZyA5XkN8dXqO8zyBQwqHi1IwDhQzqdvrXWhjsrWk0FOeo2wOdBHYD49VIlQfDrVPMNDQFnl3CeIE34jYTWls",
+              "received": false
+            }
+          ],
+          "total_price": 4714,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "West Margretfield",
+              "street": "Hilpert Spur",
+              "house": 432,
+              "flat": 9253
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:55:32.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593beb1c508c5d5e8e6e76",
+          "products": [
+            {
+              "_id": "69593bf21c508c5d5e8e6fc3",
+              "name": "Pants95336",
+              "amount": 447,
+              "price": 4714,
+              "manufacturer": "Google",
+              "notes": "I2Wei3GG6kcPW4enFCoUXYeXiisD6r3zyOW91S962boIUOxGwcSbRHfLIbJHe9J6b2x5AbmQf5pr789f6VdUcvUzbLf5XzZzLfHEF7TjrARz3ZmQH4WbtNuxGgEKxkj0Fn0K1lAU7goV1f4KU066N3f8hZUQDJw4hiOcOjZyA5XkN8dXqO8zyBQwqHi1IwDhQzqdvrXWhjsrWk0FOeo2wOdBHYD49VIlQfDrVPMNDQFnl3CeIE34jYTWls",
+              "received": false
+            }
+          ],
+          "total_price": 4714,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:55:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

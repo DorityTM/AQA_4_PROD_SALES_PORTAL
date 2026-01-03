@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:01:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2734",
+    "etag": "W/\"aae-FXBMzeTdBgQYU1oRZsBEQd1fVQM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593d611c508c5d5e8e9652",
+      "status": "Draft",
+      "customer": {
+        "_id": "69593d5a1c508c5d5e8e9583",
+        "email": "Itzel.Orn15@hotmail.com",
+        "name": "Gilbert Schaden",
+        "country": "Ukraine",
+        "city": "Aufderharland",
+        "street": "West View 47",
+        "house": 724,
+        "flat": 1246,
+        "phone": "+041607506071959",
+        "createdOn": "2026-01-03T16:01:30.000Z",
+        "notes": "O77N6kUTFxVqUDMdiGYWipzuqPYAZQ"
+      },
+      "products": [
+        {
+          "_id": "69593d611c508c5d5e8e9638",
+          "name": "Table97502",
+          "amount": 572,
+          "price": 15480,
+          "manufacturer": "Apple",
+          "notes": "SrcbQWJ3Nmh2WM8Y54q3vIyMHHfDBNnrxMbtcdQxccDsIr96Gbc9DTkYqKDW9TjHWQsMvMZUR6aNequ1yUYcQiuMCRuZxs5GeEI7c9IE1Fs5jTZSBSMrtIHiIiLGdL7EYh6Zy8E3ZMrI6FGaVPqSvDT6q1aFF2rTn0GckO8fR09mkfYt0rHHtYHKwe4UoFyUEL6xFjBkg04UgCl2tphnvEONtDOodR8omaXYsCOJ9Avn5ak81BfaAInxzq",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Galveston",
+          "street": "Riverside",
+          "house": 4,
+          "flat": 7840
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15480,
+      "createdOn": "2026-01-03T16:01:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69593d5a1c508c5d5e8e9583",
+          "products": [
+            {
+              "_id": "69593d611c508c5d5e8e9638",
+              "name": "Table97502",
+              "amount": 572,
+              "price": 15480,
+              "manufacturer": "Apple",
+              "notes": "SrcbQWJ3Nmh2WM8Y54q3vIyMHHfDBNnrxMbtcdQxccDsIr96Gbc9DTkYqKDW9TjHWQsMvMZUR6aNequ1yUYcQiuMCRuZxs5GeEI7c9IE1Fs5jTZSBSMrtIHiIiLGdL7EYh6Zy8E3ZMrI6FGaVPqSvDT6q1aFF2rTn0GckO8fR09mkfYt0rHHtYHKwe4UoFyUEL6xFjBkg04UgCl2tphnvEONtDOodR8omaXYsCOJ9Avn5ak81BfaAInxzq",
+              "received": false
+            }
+          ],
+          "total_price": 15480,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Galveston",
+              "street": "Riverside",
+              "house": 4,
+              "flat": 7840
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:01:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593d5a1c508c5d5e8e9583",
+          "products": [
+            {
+              "_id": "69593d611c508c5d5e8e9638",
+              "name": "Table97502",
+              "amount": 572,
+              "price": 15480,
+              "manufacturer": "Apple",
+              "notes": "SrcbQWJ3Nmh2WM8Y54q3vIyMHHfDBNnrxMbtcdQxccDsIr96Gbc9DTkYqKDW9TjHWQsMvMZUR6aNequ1yUYcQiuMCRuZxs5GeEI7c9IE1Fs5jTZSBSMrtIHiIiLGdL7EYh6Zy8E3ZMrI6FGaVPqSvDT6q1aFF2rTn0GckO8fR09mkfYt0rHHtYHKwe4UoFyUEL6xFjBkg04UgCl2tphnvEONtDOodR8omaXYsCOJ9Avn5ak81BfaAInxzq",
+              "received": false
+            }
+          ],
+          "total_price": 15480,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:01:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

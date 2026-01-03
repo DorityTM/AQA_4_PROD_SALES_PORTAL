@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:39:51 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-wI4D0KOQREE2D4UGJU+M49QgS7Q\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695938471c508c5d5e8dc14e",
+      "status": "Draft",
+      "customer": {
+        "_id": "695938401c508c5d5e8dc10b",
+        "email": "Kane83@gmail.com",
+        "name": "Charlotte Bayer",
+        "country": "Great Britain",
+        "city": "Skilescester",
+        "street": "Wisozk Ways 6",
+        "house": 588,
+        "flat": 6492,
+        "phone": "+665310666791241",
+        "createdOn": "2026-01-03T15:39:44.000Z",
+        "notes": "bFxnj1Qc8H3Q3ETDXLZzSuWgkLQyRT"
+      },
+      "products": [
+        {
+          "_id": "695938461c508c5d5e8dc140",
+          "name": "Chicken79205",
+          "amount": 982,
+          "price": 58084,
+          "manufacturer": "Amazon",
+          "notes": "GlnvpsIllSqWbsZtfExMrgaOT8bYtpiPJDbsNIMvf01RAQ1dDzeFbQUGxiRF3Ous1tEocXRL9VVG1UFKxk3gVQGbffCWG2xJnHv6lH6NUAXXdt9gtok7qcjHJaTZ7A94d1TFNPDOLjGSOXyxBTcm2CCeTvJE2JEOSMmAR8qJOGV1FBt76b0MtC61ya7stfgbpwriAvWUwbEn1TocIu9yV1t8cRELIeluCk33ILeLDCPtkkkZuQGjfvxleS",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Wisokyboro",
+          "street": "Fritsch Loop",
+          "house": 976,
+          "flat": 4442
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58084,
+      "createdOn": "2026-01-03T15:39:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695938401c508c5d5e8dc10b",
+          "products": [
+            {
+              "_id": "695938461c508c5d5e8dc140",
+              "name": "Chicken79205",
+              "amount": 982,
+              "price": 58084,
+              "manufacturer": "Amazon",
+              "notes": "GlnvpsIllSqWbsZtfExMrgaOT8bYtpiPJDbsNIMvf01RAQ1dDzeFbQUGxiRF3Ous1tEocXRL9VVG1UFKxk3gVQGbffCWG2xJnHv6lH6NUAXXdt9gtok7qcjHJaTZ7A94d1TFNPDOLjGSOXyxBTcm2CCeTvJE2JEOSMmAR8qJOGV1FBt76b0MtC61ya7stfgbpwriAvWUwbEn1TocIu9yV1t8cRELIeluCk33ILeLDCPtkkkZuQGjfvxleS",
+              "received": false
+            }
+          ],
+          "total_price": 58084,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Wisokyboro",
+              "street": "Fritsch Loop",
+              "house": 976,
+              "flat": 4442
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:39:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695938401c508c5d5e8dc10b",
+          "products": [
+            {
+              "_id": "695938461c508c5d5e8dc140",
+              "name": "Chicken79205",
+              "amount": 982,
+              "price": 58084,
+              "manufacturer": "Amazon",
+              "notes": "GlnvpsIllSqWbsZtfExMrgaOT8bYtpiPJDbsNIMvf01RAQ1dDzeFbQUGxiRF3Ous1tEocXRL9VVG1UFKxk3gVQGbffCWG2xJnHv6lH6NUAXXdt9gtok7qcjHJaTZ7A94d1TFNPDOLjGSOXyxBTcm2CCeTvJE2JEOSMmAR8qJOGV1FBt76b0MtC61ya7stfgbpwriAvWUwbEn1TocIu9yV1t8cRELIeluCk33ILeLDCPtkkkZuQGjfvxleS",
+              "received": false
+            }
+          ],
+          "total_price": 58084,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:39:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

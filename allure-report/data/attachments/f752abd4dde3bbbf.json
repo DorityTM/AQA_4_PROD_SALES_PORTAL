@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 16:03:25 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5211",
+    "etag": "W/\"145b-wmPyax3jCO8O1tWULsE58u0W7JY\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593dcc1c508c5d5e8ea355",
+      "status": "In Process",
+      "customer": {
+        "_id": "69593db71c508c5d5e8ea15f",
+        "email": "Jude_Bogisich@yahoo.com",
+        "name": "Deven Lesch",
+        "country": "USA",
+        "city": "McDermottville",
+        "street": "Rachael Crossing 82",
+        "house": 174,
+        "flat": 2199,
+        "phone": "+775014118155889",
+        "createdOn": "2026-01-03T16:03:03.000Z",
+        "notes": "5Z8wTMionYZtYAX5qu7q5fK2SYiQdQ"
+      },
+      "products": [
+        {
+          "_id": "69593dc01c508c5d5e8ea268",
+          "name": "Gloves70661",
+          "amount": 908,
+          "price": 73031,
+          "manufacturer": "Tesla",
+          "notes": "uIYEWuDtnEXRrtFgQd78let6iqC38NRJ7btKGBjtFHVFcZAgil4NfWjvlEBQxKxtduLlOWHNbKFiP3FPdXdt1mxjlh8Y073JcZMdGQxV27UPQvwTKiz6CHohmqR0qRJamXAEJBpH4TlfLYIcuNCVrSaKg4zIiAm8TxR5Ji2mc4covCwHVBuzU4N2ZX6F97Joj6rlFk0EflFa5grh9cWoauaHGBjZ0oLLe7TJKKHg1cmPXVB0vUKy9hwYJe",
+          "received": false
+        },
+        {
+          "_id": "69593dcc1c508c5d5e8ea345",
+          "name": "Shirt3868",
+          "amount": 614,
+          "price": 88886,
+          "manufacturer": "Amazon",
+          "notes": "9Ic3pBO9yxZ89g39PDNtkxtGVWAVQOXSf7bmYWOpRtGl92tbGIirf2BDolNEAymZFO2oVYQQabBP1p1fP0vnbtVSJBP3lzxhnF3Iz2eS9qJu4Ot5PfOlWt2W3g6nm5teATbAzsNmJVTkgiVbOr8AF8ZwzNj9rzYLvMpW3hjePSAPBdAci6Khu1gu03l3Z88FKAoFtXjWQGi8AEznakOjWWAiVA2PuuCpnUDjQ2C9aKAbjcIycIafODMN99",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "West Tillman",
+          "street": "The Copse",
+          "house": 35,
+          "flat": 2715
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 161917,
+      "createdOn": "2026-01-03T16:03:24.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69593db71c508c5d5e8ea15f",
+          "products": [
+            {
+              "_id": "69593dc01c508c5d5e8ea268",
+              "name": "Gloves70661",
+              "amount": 908,
+              "price": 73031,
+              "manufacturer": "Tesla",
+              "notes": "uIYEWuDtnEXRrtFgQd78let6iqC38NRJ7btKGBjtFHVFcZAgil4NfWjvlEBQxKxtduLlOWHNbKFiP3FPdXdt1mxjlh8Y073JcZMdGQxV27UPQvwTKiz6CHohmqR0qRJamXAEJBpH4TlfLYIcuNCVrSaKg4zIiAm8TxR5Ji2mc4covCwHVBuzU4N2ZX6F97Joj6rlFk0EflFa5grh9cWoauaHGBjZ0oLLe7TJKKHg1cmPXVB0vUKy9hwYJe",
+              "received": false
+            },
+            {
+              "_id": "69593dcc1c508c5d5e8ea345",
+              "name": "Shirt3868",
+              "amount": 614,
+              "price": 88886,
+              "manufacturer": "Amazon",
+              "notes": "9Ic3pBO9yxZ89g39PDNtkxtGVWAVQOXSf7bmYWOpRtGl92tbGIirf2BDolNEAymZFO2oVYQQabBP1p1fP0vnbtVSJBP3lzxhnF3Iz2eS9qJu4Ot5PfOlWt2W3g6nm5teATbAzsNmJVTkgiVbOr8AF8ZwzNj9rzYLvMpW3hjePSAPBdAci6Khu1gu03l3Z88FKAoFtXjWQGi8AEznakOjWWAiVA2PuuCpnUDjQ2C9aKAbjcIycIafODMN99",
+              "received": false
+            }
+          ],
+          "total_price": 161917,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Tillman",
+              "street": "The Copse",
+              "house": 35,
+              "flat": 2715
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:03:25.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593db71c508c5d5e8ea15f",
+          "products": [
+            {
+              "_id": "69593dc01c508c5d5e8ea268",
+              "name": "Gloves70661",
+              "amount": 908,
+              "price": 73031,
+              "manufacturer": "Tesla",
+              "notes": "uIYEWuDtnEXRrtFgQd78let6iqC38NRJ7btKGBjtFHVFcZAgil4NfWjvlEBQxKxtduLlOWHNbKFiP3FPdXdt1mxjlh8Y073JcZMdGQxV27UPQvwTKiz6CHohmqR0qRJamXAEJBpH4TlfLYIcuNCVrSaKg4zIiAm8TxR5Ji2mc4covCwHVBuzU4N2ZX6F97Joj6rlFk0EflFa5grh9cWoauaHGBjZ0oLLe7TJKKHg1cmPXVB0vUKy9hwYJe",
+              "received": false
+            },
+            {
+              "_id": "69593dcc1c508c5d5e8ea345",
+              "name": "Shirt3868",
+              "amount": 614,
+              "price": 88886,
+              "manufacturer": "Amazon",
+              "notes": "9Ic3pBO9yxZ89g39PDNtkxtGVWAVQOXSf7bmYWOpRtGl92tbGIirf2BDolNEAymZFO2oVYQQabBP1p1fP0vnbtVSJBP3lzxhnF3Iz2eS9qJu4Ot5PfOlWt2W3g6nm5teATbAzsNmJVTkgiVbOr8AF8ZwzNj9rzYLvMpW3hjePSAPBdAci6Khu1gu03l3Z88FKAoFtXjWQGi8AEznakOjWWAiVA2PuuCpnUDjQ2C9aKAbjcIycIafODMN99",
+              "received": false
+            }
+          ],
+          "total_price": 161917,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "West Tillman",
+              "street": "The Copse",
+              "house": 35,
+              "flat": 2715
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T16:03:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593db71c508c5d5e8ea15f",
+          "products": [
+            {
+              "_id": "69593dc01c508c5d5e8ea268",
+              "name": "Gloves70661",
+              "amount": 908,
+              "price": 73031,
+              "manufacturer": "Tesla",
+              "notes": "uIYEWuDtnEXRrtFgQd78let6iqC38NRJ7btKGBjtFHVFcZAgil4NfWjvlEBQxKxtduLlOWHNbKFiP3FPdXdt1mxjlh8Y073JcZMdGQxV27UPQvwTKiz6CHohmqR0qRJamXAEJBpH4TlfLYIcuNCVrSaKg4zIiAm8TxR5Ji2mc4covCwHVBuzU4N2ZX6F97Joj6rlFk0EflFa5grh9cWoauaHGBjZ0oLLe7TJKKHg1cmPXVB0vUKy9hwYJe",
+              "received": false
+            },
+            {
+              "_id": "69593dcc1c508c5d5e8ea345",
+              "name": "Shirt3868",
+              "amount": 614,
+              "price": 88886,
+              "manufacturer": "Amazon",
+              "notes": "9Ic3pBO9yxZ89g39PDNtkxtGVWAVQOXSf7bmYWOpRtGl92tbGIirf2BDolNEAymZFO2oVYQQabBP1p1fP0vnbtVSJBP3lzxhnF3Iz2eS9qJu4Ot5PfOlWt2W3g6nm5teATbAzsNmJVTkgiVbOr8AF8ZwzNj9rzYLvMpW3hjePSAPBdAci6Khu1gu03l3Z88FKAoFtXjWQGi8AEznakOjWWAiVA2PuuCpnUDjQ2C9aKAbjcIycIafODMN99",
+              "received": false
+            }
+          ],
+          "total_price": 161917,
+          "delivery": null,
+          "changedOn": "2026-01-03T16:03:24.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

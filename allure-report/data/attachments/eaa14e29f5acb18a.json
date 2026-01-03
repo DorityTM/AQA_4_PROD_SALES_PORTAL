@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:41:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2752",
+    "etag": "W/\"ac0-er38yCwJOmWtis3vvlot4y3U1HQ\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695938c21c508c5d5e8dd38c",
+      "status": "Draft",
+      "customer": {
+        "_id": "695938bc1c508c5d5e8dd2f1",
+        "email": "Kayla73@gmail.com",
+        "name": "Walter Hills",
+        "country": "USA",
+        "city": "Sigridborough",
+        "street": "Orchard Drive 25",
+        "house": 445,
+        "flat": 5984,
+        "phone": "+838141506474468",
+        "createdOn": "2026-01-03T15:41:48.000Z",
+        "notes": "erbQ7NPgAG4uwFRaciFgwFLX4aigjp"
+      },
+      "products": [
+        {
+          "_id": "695938c21c508c5d5e8dd371",
+          "name": "Sausages52732",
+          "amount": 48,
+          "price": 34531,
+          "manufacturer": "Google",
+          "notes": "xxXdPKiImou9MoMeG2XVB73BwSsWqdndSaGoQe94pFdhLYlcZd4dPlGljoNOLpg2neMwMRynFxuk7MGMMZhPsYyAcweXXFTZOJI7MiqUh6ayuj9ToD3X1eDI190basBthHsDwkVGYO5zjxnCzmPYh33HcEo9fxmq5XFIpalA7OBT1iOWNI1oUpklPWfjQHfxhFpuAW6A9gKsStp4JtR5CxdzjRCFvZHGN1gorIUsvnUkQWxsk3f1gEHr4F",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lefflerton",
+          "street": "Kaylin Terrace",
+          "house": 840,
+          "flat": 9669
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 34531,
+      "createdOn": "2026-01-03T15:41:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695938bc1c508c5d5e8dd2f1",
+          "products": [
+            {
+              "_id": "695938c21c508c5d5e8dd371",
+              "name": "Sausages52732",
+              "amount": 48,
+              "price": 34531,
+              "manufacturer": "Google",
+              "notes": "xxXdPKiImou9MoMeG2XVB73BwSsWqdndSaGoQe94pFdhLYlcZd4dPlGljoNOLpg2neMwMRynFxuk7MGMMZhPsYyAcweXXFTZOJI7MiqUh6ayuj9ToD3X1eDI190basBthHsDwkVGYO5zjxnCzmPYh33HcEo9fxmq5XFIpalA7OBT1iOWNI1oUpklPWfjQHfxhFpuAW6A9gKsStp4JtR5CxdzjRCFvZHGN1gorIUsvnUkQWxsk3f1gEHr4F",
+              "received": false
+            }
+          ],
+          "total_price": 34531,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lefflerton",
+              "street": "Kaylin Terrace",
+              "house": 840,
+              "flat": 9669
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:41:54.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695938bc1c508c5d5e8dd2f1",
+          "products": [
+            {
+              "_id": "695938c21c508c5d5e8dd371",
+              "name": "Sausages52732",
+              "amount": 48,
+              "price": 34531,
+              "manufacturer": "Google",
+              "notes": "xxXdPKiImou9MoMeG2XVB73BwSsWqdndSaGoQe94pFdhLYlcZd4dPlGljoNOLpg2neMwMRynFxuk7MGMMZhPsYyAcweXXFTZOJI7MiqUh6ayuj9ToD3X1eDI190basBthHsDwkVGYO5zjxnCzmPYh33HcEo9fxmq5XFIpalA7OBT1iOWNI1oUpklPWfjQHfxhFpuAW6A9gKsStp4JtR5CxdzjRCFvZHGN1gorIUsvnUkQWxsk3f1gEHr4F",
+              "received": false
+            }
+          ],
+          "total_price": 34531,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:41:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

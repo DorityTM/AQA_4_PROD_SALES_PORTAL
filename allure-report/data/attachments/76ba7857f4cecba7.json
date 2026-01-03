@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:36:50 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4603",
+    "etag": "W/\"11fb-ifzETKPVVEpuEEwBLuSoDuIwn88\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695937911c508c5d5e8daa82",
+      "status": "Received",
+      "customer": {
+        "_id": "6959378b1c508c5d5e8daa3c",
+        "email": "Kareem_Spencer0@yahoo.com",
+        "name": "Maci Jenkins",
+        "country": "Canada",
+        "city": "North Judge",
+        "street": "Jillian Freeway 57",
+        "house": 690,
+        "flat": 6844,
+        "phone": "+004503948553643",
+        "createdOn": "2026-01-03T15:36:43.000Z",
+        "notes": "NgkGlf5AZtMG4NzAd1cx1cFO51o7SC"
+      },
+      "products": [
+        {
+          "_id": "695937911c508c5d5e8daa7a",
+          "name": "Soap64748",
+          "amount": 158,
+          "price": 17094,
+          "manufacturer": "Apple",
+          "notes": "D5JBJbRVFqnH9MLYY5e4K60edHjsVoOHe6fkMqvDsi29kGKQqitS9CJsdWEj6Ah04MZAQRytiQTgnoqkhgWCgSGJFlexOaNP9csysUurpXw4whn3E1kZjRAMiqLzKePgbnuq6U6azNUaQSKZeBtivFDPz652XD1zcOkkk0UNfEJ52BHNFu0G2hZRLCzlodwqtogIMLNnNKCJBXVkj90jXI8hsEYBq02oQTy40QQK9luK0ZpW6wBprbv12q",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "New Tyrique",
+          "street": "Daniel Passage",
+          "house": 766,
+          "flat": 5620
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 17094,
+      "createdOn": "2026-01-03T15:36:49.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "6959378b1c508c5d5e8daa3c",
+          "products": [
+            {
+              "_id": "695937911c508c5d5e8daa7a",
+              "name": "Soap64748",
+              "amount": 158,
+              "price": 17094,
+              "manufacturer": "Apple",
+              "notes": "D5JBJbRVFqnH9MLYY5e4K60edHjsVoOHe6fkMqvDsi29kGKQqitS9CJsdWEj6Ah04MZAQRytiQTgnoqkhgWCgSGJFlexOaNP9csysUurpXw4whn3E1kZjRAMiqLzKePgbnuq6U6azNUaQSKZeBtivFDPz652XD1zcOkkk0UNfEJ52BHNFu0G2hZRLCzlodwqtogIMLNnNKCJBXVkj90jXI8hsEYBq02oQTy40QQK9luK0ZpW6wBprbv12q",
+              "received": true
+            }
+          ],
+          "total_price": 17094,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Tyrique",
+              "street": "Daniel Passage",
+              "house": 766,
+              "flat": 5620
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:36:50.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "6959378b1c508c5d5e8daa3c",
+          "products": [
+            {
+              "_id": "695937911c508c5d5e8daa7a",
+              "name": "Soap64748",
+              "amount": 158,
+              "price": 17094,
+              "manufacturer": "Apple",
+              "notes": "D5JBJbRVFqnH9MLYY5e4K60edHjsVoOHe6fkMqvDsi29kGKQqitS9CJsdWEj6Ah04MZAQRytiQTgnoqkhgWCgSGJFlexOaNP9csysUurpXw4whn3E1kZjRAMiqLzKePgbnuq6U6azNUaQSKZeBtivFDPz652XD1zcOkkk0UNfEJ52BHNFu0G2hZRLCzlodwqtogIMLNnNKCJBXVkj90jXI8hsEYBq02oQTy40QQK9luK0ZpW6wBprbv12q",
+              "received": false
+            }
+          ],
+          "total_price": 17094,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Tyrique",
+              "street": "Daniel Passage",
+              "house": 766,
+              "flat": 5620
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:36:50.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959378b1c508c5d5e8daa3c",
+          "products": [
+            {
+              "_id": "695937911c508c5d5e8daa7a",
+              "name": "Soap64748",
+              "amount": 158,
+              "price": 17094,
+              "manufacturer": "Apple",
+              "notes": "D5JBJbRVFqnH9MLYY5e4K60edHjsVoOHe6fkMqvDsi29kGKQqitS9CJsdWEj6Ah04MZAQRytiQTgnoqkhgWCgSGJFlexOaNP9csysUurpXw4whn3E1kZjRAMiqLzKePgbnuq6U6azNUaQSKZeBtivFDPz652XD1zcOkkk0UNfEJ52BHNFu0G2hZRLCzlodwqtogIMLNnNKCJBXVkj90jXI8hsEYBq02oQTy40QQK9luK0ZpW6wBprbv12q",
+              "received": false
+            }
+          ],
+          "total_price": 17094,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Tyrique",
+              "street": "Daniel Passage",
+              "house": 766,
+              "flat": 5620
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:36:50.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6959378b1c508c5d5e8daa3c",
+          "products": [
+            {
+              "_id": "695937911c508c5d5e8daa7a",
+              "name": "Soap64748",
+              "amount": 158,
+              "price": 17094,
+              "manufacturer": "Apple",
+              "notes": "D5JBJbRVFqnH9MLYY5e4K60edHjsVoOHe6fkMqvDsi29kGKQqitS9CJsdWEj6Ah04MZAQRytiQTgnoqkhgWCgSGJFlexOaNP9csysUurpXw4whn3E1kZjRAMiqLzKePgbnuq6U6azNUaQSKZeBtivFDPz652XD1zcOkkk0UNfEJ52BHNFu0G2hZRLCzlodwqtogIMLNnNKCJBXVkj90jXI8hsEYBq02oQTy40QQK9luK0ZpW6wBprbv12q",
+              "received": false
+            }
+          ],
+          "total_price": 17094,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:36:49.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

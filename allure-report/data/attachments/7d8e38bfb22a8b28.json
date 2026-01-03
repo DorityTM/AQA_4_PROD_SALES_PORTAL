@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 15:58:29 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3684",
+    "etag": "W/\"e64-SiUvOyBcTLG43ZTDDztk33bXrnE\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69593ca41c508c5d5e8e82c1",
+      "status": "In Process",
+      "customer": {
+        "_id": "69593c9d1c508c5d5e8e81f2",
+        "email": "Michaela2@hotmail.com",
+        "name": "Anita Mosciski",
+        "country": "Belarus",
+        "city": "East Davon",
+        "street": "Schiller Forges 81",
+        "house": 341,
+        "flat": 1065,
+        "phone": "+376122681020810",
+        "createdOn": "2026-01-03T15:58:21.000Z",
+        "notes": "HR2ba8S88EtWEeXVm7EpyP4NWGtLto"
+      },
+      "products": [
+        {
+          "_id": "69593ca41c508c5d5e8e82ac",
+          "name": "Fish43634",
+          "amount": 429,
+          "price": 3291,
+          "manufacturer": "Microsoft",
+          "notes": "ZZTKGLN46eLjpsNLClEcIYiUKrPuWom6TQ53h4Dy0h7lP8xI1mDowcaWi9ijq2aIylKCPbERduIbR0fgnosPIZHkh5pTBqEpgqTrKq9Hj6rmFMA4OXaowkvzDqqReFelBju3L3CMTnkZ6MorLQsm4EuWAfftWoWxN3KoC49dlO7SO5iJ4hpo4yPEJw8TgEjnZwaBKKi2qJt6fVi6g9GvcBtF7DRtAYNlbSR9gmJy7LFDMJmM5Bmgry60nK",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Yorba Linda",
+          "street": "Casper Field",
+          "house": 622,
+          "flat": 7152
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 3291,
+      "createdOn": "2026-01-03T15:58:28.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69593c9d1c508c5d5e8e81f2",
+          "products": [
+            {
+              "_id": "69593ca41c508c5d5e8e82ac",
+              "name": "Fish43634",
+              "amount": 429,
+              "price": 3291,
+              "manufacturer": "Microsoft",
+              "notes": "ZZTKGLN46eLjpsNLClEcIYiUKrPuWom6TQ53h4Dy0h7lP8xI1mDowcaWi9ijq2aIylKCPbERduIbR0fgnosPIZHkh5pTBqEpgqTrKq9Hj6rmFMA4OXaowkvzDqqReFelBju3L3CMTnkZ6MorLQsm4EuWAfftWoWxN3KoC49dlO7SO5iJ4hpo4yPEJw8TgEjnZwaBKKi2qJt6fVi6g9GvcBtF7DRtAYNlbSR9gmJy7LFDMJmM5Bmgry60nK",
+              "received": false
+            }
+          ],
+          "total_price": 3291,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Yorba Linda",
+              "street": "Casper Field",
+              "house": 622,
+              "flat": 7152
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:58:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593c9d1c508c5d5e8e81f2",
+          "products": [
+            {
+              "_id": "69593ca41c508c5d5e8e82ac",
+              "name": "Fish43634",
+              "amount": 429,
+              "price": 3291,
+              "manufacturer": "Microsoft",
+              "notes": "ZZTKGLN46eLjpsNLClEcIYiUKrPuWom6TQ53h4Dy0h7lP8xI1mDowcaWi9ijq2aIylKCPbERduIbR0fgnosPIZHkh5pTBqEpgqTrKq9Hj6rmFMA4OXaowkvzDqqReFelBju3L3CMTnkZ6MorLQsm4EuWAfftWoWxN3KoC49dlO7SO5iJ4hpo4yPEJw8TgEjnZwaBKKi2qJt6fVi6g9GvcBtF7DRtAYNlbSR9gmJy7LFDMJmM5Bmgry60nK",
+              "received": false
+            }
+          ],
+          "total_price": 3291,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Yorba Linda",
+              "street": "Casper Field",
+              "house": 622,
+              "flat": 7152
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T15:58:28.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69593c9d1c508c5d5e8e81f2",
+          "products": [
+            {
+              "_id": "69593ca41c508c5d5e8e82ac",
+              "name": "Fish43634",
+              "amount": 429,
+              "price": 3291,
+              "manufacturer": "Microsoft",
+              "notes": "ZZTKGLN46eLjpsNLClEcIYiUKrPuWom6TQ53h4Dy0h7lP8xI1mDowcaWi9ijq2aIylKCPbERduIbR0fgnosPIZHkh5pTBqEpgqTrKq9Hj6rmFMA4OXaowkvzDqqReFelBju3L3CMTnkZ6MorLQsm4EuWAfftWoWxN3KoC49dlO7SO5iJ4hpo4yPEJw8TgEjnZwaBKKi2qJt6fVi6g9GvcBtF7DRtAYNlbSR9gmJy7LFDMJmM5Bmgry60nK",
+              "received": false
+            }
+          ],
+          "total_price": 3291,
+          "delivery": null,
+          "changedOn": "2026-01-03T15:58:28.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
