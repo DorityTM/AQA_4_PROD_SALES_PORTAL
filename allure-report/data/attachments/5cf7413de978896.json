@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 01:27:32 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3674",
+    "etag": "W/\"e5a-2Ucn6ly5aBJxY7Zs1IfINlcbl4Q\"",
+    "keep-alive": "timeout=5, max=63",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695870831c508c5d5e7e7394",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695870811c508c5d5e7e72ef",
+        "email": "Dakota_Mueller96@gmail.com",
+        "name": "Leann Schaden",
+        "country": "Belarus",
+        "city": "Joesphstead",
+        "street": "Main Road 62",
+        "house": 354,
+        "flat": 9183,
+        "phone": "+622172342951814",
+        "createdOn": "2026-01-03T01:27:29.000Z",
+        "notes": "MR49hP0GuWOCKA2dqAQe9U7viv2KF1"
+      },
+      "products": [
+        {
+          "_id": "695870831c508c5d5e7e7385",
+          "name": "Table570",
+          "amount": 494,
+          "price": 99829,
+          "manufacturer": "Samsung",
+          "notes": "FcG2ih4GTyaCvuiNeUVtccVWLNZ5pNK9dpDomej6q3U8FyHNycLWSUJj0tnkzlKakTouOlh3AzMrveIzDfF1etKOuOzBjfvF3JDl9mxtFMoPVQ2J4sXbPbqr3TDIjAu4UhES2gLl9DnvkvNJS8AqiQIm7ukg1S65S1raDeRjmU9vxvdBWXiJp94fQmPQXgVvhqO38XCh3e8JLx7pXrrR49TfyGPPnappARVd426UBMwJbyxcMOKPsEJiM8",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Rosenbaumshire",
+          "street": "Metz Heights",
+          "house": 467,
+          "flat": 1846
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99829,
+      "createdOn": "2026-01-03T01:27:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695870811c508c5d5e7e72ef",
+          "products": [
+            {
+              "_id": "695870831c508c5d5e7e7385",
+              "name": "Table570",
+              "amount": 494,
+              "price": 99829,
+              "manufacturer": "Samsung",
+              "notes": "FcG2ih4GTyaCvuiNeUVtccVWLNZ5pNK9dpDomej6q3U8FyHNycLWSUJj0tnkzlKakTouOlh3AzMrveIzDfF1etKOuOzBjfvF3JDl9mxtFMoPVQ2J4sXbPbqr3TDIjAu4UhES2gLl9DnvkvNJS8AqiQIm7ukg1S65S1raDeRjmU9vxvdBWXiJp94fQmPQXgVvhqO38XCh3e8JLx7pXrrR49TfyGPPnappARVd426UBMwJbyxcMOKPsEJiM8",
+              "received": false
+            }
+          ],
+          "total_price": 99829,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Rosenbaumshire",
+              "street": "Metz Heights",
+              "house": 467,
+              "flat": 1846
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T01:27:32.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695870811c508c5d5e7e72ef",
+          "products": [
+            {
+              "_id": "695870831c508c5d5e7e7385",
+              "name": "Table570",
+              "amount": 494,
+              "price": 99829,
+              "manufacturer": "Samsung",
+              "notes": "FcG2ih4GTyaCvuiNeUVtccVWLNZ5pNK9dpDomej6q3U8FyHNycLWSUJj0tnkzlKakTouOlh3AzMrveIzDfF1etKOuOzBjfvF3JDl9mxtFMoPVQ2J4sXbPbqr3TDIjAu4UhES2gLl9DnvkvNJS8AqiQIm7ukg1S65S1raDeRjmU9vxvdBWXiJp94fQmPQXgVvhqO38XCh3e8JLx7pXrrR49TfyGPPnappARVd426UBMwJbyxcMOKPsEJiM8",
+              "received": false
+            }
+          ],
+          "total_price": 99829,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Rosenbaumshire",
+              "street": "Metz Heights",
+              "house": 467,
+              "flat": 1846
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T01:27:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695870811c508c5d5e7e72ef",
+          "products": [
+            {
+              "_id": "695870831c508c5d5e7e7385",
+              "name": "Table570",
+              "amount": 494,
+              "price": 99829,
+              "manufacturer": "Samsung",
+              "notes": "FcG2ih4GTyaCvuiNeUVtccVWLNZ5pNK9dpDomej6q3U8FyHNycLWSUJj0tnkzlKakTouOlh3AzMrveIzDfF1etKOuOzBjfvF3JDl9mxtFMoPVQ2J4sXbPbqr3TDIjAu4UhES2gLl9DnvkvNJS8AqiQIm7ukg1S65S1raDeRjmU9vxvdBWXiJp94fQmPQXgVvhqO38XCh3e8JLx7pXrrR49TfyGPPnappARVd426UBMwJbyxcMOKPsEJiM8",
+              "received": false
+            }
+          ],
+          "total_price": 99829,
+          "delivery": null,
+          "changedOn": "2026-01-03T01:27:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

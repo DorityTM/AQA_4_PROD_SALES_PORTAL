@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 01:42:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-yfLVBgFiqFbn4Y1TKx172Fv+Y3k\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "6958740b1c508c5d5e800a64",
+      "status": "Draft",
+      "customer": {
+        "_id": "695874091c508c5d5e800a1d",
+        "email": "Kristoffer.Prosacco0@yahoo.com",
+        "name": "Karolann Nader",
+        "country": "Canada",
+        "city": "Reynoldsborough",
+        "street": "Clarence Road 86",
+        "house": 593,
+        "flat": 4337,
+        "phone": "+650902323802253",
+        "createdOn": "2026-01-03T01:42:33.000Z",
+        "notes": "U3dTjERRUFejrrY4tRhWSQF0tYmurz"
+      },
+      "products": [
+        {
+          "_id": "6958740b1c508c5d5e800a44",
+          "name": "Car77017",
+          "amount": 826,
+          "price": 15836,
+          "manufacturer": "Xiaomi",
+          "notes": "WHWBiBXSxQ4Uw6CWgI93IRfYQiTtY8PETCXIn0PXfETn4SX7yA9JjRXAbBDY7Z519ws7f240bgAK4V9QrVk8hqqRLRqBDKzHCMeFHc4xyQearRshjSXZEP5e6GOsooPMcfARWSsebd4fb11558a8i2Gaq7w30CGFjUwAG2HDRQGCk0tyfiiD43WvWGq4qcCgTFPLr4VrnQ3kJiq5BFzUnJ0DmWlYZTTXWektdZEycAnVnYAMt6j6G9YlOt",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Muncie",
+          "street": "White Estates",
+          "house": 122,
+          "flat": 7562
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15836,
+      "createdOn": "2026-01-03T01:42:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695874091c508c5d5e800a1d",
+          "products": [
+            {
+              "_id": "6958740b1c508c5d5e800a44",
+              "name": "Car77017",
+              "amount": 826,
+              "price": 15836,
+              "manufacturer": "Xiaomi",
+              "notes": "WHWBiBXSxQ4Uw6CWgI93IRfYQiTtY8PETCXIn0PXfETn4SX7yA9JjRXAbBDY7Z519ws7f240bgAK4V9QrVk8hqqRLRqBDKzHCMeFHc4xyQearRshjSXZEP5e6GOsooPMcfARWSsebd4fb11558a8i2Gaq7w30CGFjUwAG2HDRQGCk0tyfiiD43WvWGq4qcCgTFPLr4VrnQ3kJiq5BFzUnJ0DmWlYZTTXWektdZEycAnVnYAMt6j6G9YlOt",
+              "received": false
+            }
+          ],
+          "total_price": 15836,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Muncie",
+              "street": "White Estates",
+              "house": 122,
+              "flat": 7562
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T01:42:35.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695874091c508c5d5e800a1d",
+          "products": [
+            {
+              "_id": "6958740b1c508c5d5e800a44",
+              "name": "Car77017",
+              "amount": 826,
+              "price": 15836,
+              "manufacturer": "Xiaomi",
+              "notes": "WHWBiBXSxQ4Uw6CWgI93IRfYQiTtY8PETCXIn0PXfETn4SX7yA9JjRXAbBDY7Z519ws7f240bgAK4V9QrVk8hqqRLRqBDKzHCMeFHc4xyQearRshjSXZEP5e6GOsooPMcfARWSsebd4fb11558a8i2Gaq7w30CGFjUwAG2HDRQGCk0tyfiiD43WvWGq4qcCgTFPLr4VrnQ3kJiq5BFzUnJ0DmWlYZTTXWektdZEycAnVnYAMt6j6G9YlOt",
+              "received": false
+            }
+          ],
+          "total_price": 15836,
+          "delivery": null,
+          "changedOn": "2026-01-03T01:42:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

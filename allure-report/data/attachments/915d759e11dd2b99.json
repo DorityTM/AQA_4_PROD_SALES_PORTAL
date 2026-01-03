@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 01:40:18 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3668",
+    "etag": "W/\"e54-eervsYQ9QqITNyLm52cyDBb5Vq4\"",
+    "keep-alive": "timeout=5, max=77",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695873811c508c5d5e7fc239",
+      "status": "In Process",
+      "customer": {
+        "_id": "6958737e1c508c5d5e7fc1fb",
+        "email": "Ford_Kulas@hotmail.com",
+        "name": "Santino Fadel",
+        "country": "Russia",
+        "city": "Pollichborough",
+        "street": "Malinda Rue 20",
+        "house": 297,
+        "flat": 7711,
+        "phone": "+206075458590059",
+        "createdOn": "2026-01-03T01:40:14.000Z",
+        "notes": "YDwNGhELv6VMCkWSUgsWcNtfLzEhhg"
+      },
+      "products": [
+        {
+          "_id": "695873801c508c5d5e7fc231",
+          "name": "Pizza93448",
+          "amount": 757,
+          "price": 42773,
+          "manufacturer": "Amazon",
+          "notes": "9cH5uRkLqKgI3DdQZCYRrk3IBY0JTintbjBGdcIlJM3viiuFlnAqVvAzJTtDCLVD561HLXyo4sJYmPf6kXBX3A0aQxhCI9hha7CtHhGOsSSYAQnDrdt3EqZSufegjns5jK0344Q4XAv0PfW3W90rWv3Mzs0PUdGeeADR6rxK5CLIUTw9Nxy0zMXXXCAc2fvhAv0jo7resg7WdaY1HVQPDiVtMlLYl99iyBrl6TNG5SqeNwR2q4rvDCKtiW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Alvahside",
+          "street": "N 1st Street",
+          "house": 124,
+          "flat": 4492
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42773,
+      "createdOn": "2026-01-03T01:40:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "6958737e1c508c5d5e7fc1fb",
+          "products": [
+            {
+              "_id": "695873801c508c5d5e7fc231",
+              "name": "Pizza93448",
+              "amount": 757,
+              "price": 42773,
+              "manufacturer": "Amazon",
+              "notes": "9cH5uRkLqKgI3DdQZCYRrk3IBY0JTintbjBGdcIlJM3viiuFlnAqVvAzJTtDCLVD561HLXyo4sJYmPf6kXBX3A0aQxhCI9hha7CtHhGOsSSYAQnDrdt3EqZSufegjns5jK0344Q4XAv0PfW3W90rWv3Mzs0PUdGeeADR6rxK5CLIUTw9Nxy0zMXXXCAc2fvhAv0jo7resg7WdaY1HVQPDiVtMlLYl99iyBrl6TNG5SqeNwR2q4rvDCKtiW",
+              "received": false
+            }
+          ],
+          "total_price": 42773,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Alvahside",
+              "street": "N 1st Street",
+              "house": 124,
+              "flat": 4492
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T01:40:18.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958737e1c508c5d5e7fc1fb",
+          "products": [
+            {
+              "_id": "695873801c508c5d5e7fc231",
+              "name": "Pizza93448",
+              "amount": 757,
+              "price": 42773,
+              "manufacturer": "Amazon",
+              "notes": "9cH5uRkLqKgI3DdQZCYRrk3IBY0JTintbjBGdcIlJM3viiuFlnAqVvAzJTtDCLVD561HLXyo4sJYmPf6kXBX3A0aQxhCI9hha7CtHhGOsSSYAQnDrdt3EqZSufegjns5jK0344Q4XAv0PfW3W90rWv3Mzs0PUdGeeADR6rxK5CLIUTw9Nxy0zMXXXCAc2fvhAv0jo7resg7WdaY1HVQPDiVtMlLYl99iyBrl6TNG5SqeNwR2q4rvDCKtiW",
+              "received": false
+            }
+          ],
+          "total_price": 42773,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Alvahside",
+              "street": "N 1st Street",
+              "house": 124,
+              "flat": 4492
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T01:40:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "6958737e1c508c5d5e7fc1fb",
+          "products": [
+            {
+              "_id": "695873801c508c5d5e7fc231",
+              "name": "Pizza93448",
+              "amount": 757,
+              "price": 42773,
+              "manufacturer": "Amazon",
+              "notes": "9cH5uRkLqKgI3DdQZCYRrk3IBY0JTintbjBGdcIlJM3viiuFlnAqVvAzJTtDCLVD561HLXyo4sJYmPf6kXBX3A0aQxhCI9hha7CtHhGOsSSYAQnDrdt3EqZSufegjns5jK0344Q4XAv0PfW3W90rWv3Mzs0PUdGeeADR6rxK5CLIUTw9Nxy0zMXXXCAc2fvhAv0jo7resg7WdaY1HVQPDiVtMlLYl99iyBrl6TNG5SqeNwR2q4rvDCKtiW",
+              "received": false
+            }
+          ],
+          "total_price": 42773,
+          "delivery": null,
+          "changedOn": "2026-01-03T01:40:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

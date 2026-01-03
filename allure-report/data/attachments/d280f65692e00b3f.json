@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 01:40:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4591",
+    "etag": "W/\"11ef-dTmX/Whkpn2NqZ3AxKx2ySikssk\"",
+    "keep-alive": "timeout=5, max=76",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695873a61c508c5d5e7fd827",
+      "status": "Received",
+      "customer": {
+        "_id": "695873a01c508c5d5e7fd67d",
+        "email": "Elfrieda0@yahoo.com",
+        "name": "Hershel Hodkiewicz",
+        "country": "Great Britain",
+        "city": "North Zakary",
+        "street": "Upton Dam 19",
+        "house": 394,
+        "flat": 4283,
+        "phone": "+551866079540564",
+        "createdOn": "2026-01-03T01:40:48.000Z",
+        "notes": "XfytazlM22hvDHLuyh3KY7p8I1LLbw"
+      },
+      "products": [
+        {
+          "_id": "695873a61c508c5d5e7fd818",
+          "name": "Table52279",
+          "amount": 229,
+          "price": 72507,
+          "manufacturer": "Google",
+          "notes": "roufSTu7RPStCczLnmhW13p0wHwiefEBcXkakjbwcHnlASgw1NSVdumm34KZOQrp1gxGPbKnnpo6b4ZOAKafbRZG9DzTf5PN02gJTEhk0d3IOfLz90GZXvV8YMuw8NlJ3GW6ZG22B6Z6n4okuEvgpzUtIJJPxiXMqAomxlA6W0qVIJQjiwAZ4Wy92CIQbYOFNCziB79kuHaQlRlronSJRtVlCaNRhfrcxh0OOFMAj6S4y2QMy8cwQCbTXg",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Port Reta",
+          "street": "N East Street",
+          "house": 266,
+          "flat": 2288
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72507,
+      "createdOn": "2026-01-03T01:40:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695873a01c508c5d5e7fd67d",
+          "products": [
+            {
+              "_id": "695873a61c508c5d5e7fd818",
+              "name": "Table52279",
+              "amount": 229,
+              "price": 72507,
+              "manufacturer": "Google",
+              "notes": "roufSTu7RPStCczLnmhW13p0wHwiefEBcXkakjbwcHnlASgw1NSVdumm34KZOQrp1gxGPbKnnpo6b4ZOAKafbRZG9DzTf5PN02gJTEhk0d3IOfLz90GZXvV8YMuw8NlJ3GW6ZG22B6Z6n4okuEvgpzUtIJJPxiXMqAomxlA6W0qVIJQjiwAZ4Wy92CIQbYOFNCziB79kuHaQlRlronSJRtVlCaNRhfrcxh0OOFMAj6S4y2QMy8cwQCbTXg",
+              "received": true
+            }
+          ],
+          "total_price": 72507,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Reta",
+              "street": "N East Street",
+              "house": 266,
+              "flat": 2288
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T01:40:55.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695873a01c508c5d5e7fd67d",
+          "products": [
+            {
+              "_id": "695873a61c508c5d5e7fd818",
+              "name": "Table52279",
+              "amount": 229,
+              "price": 72507,
+              "manufacturer": "Google",
+              "notes": "roufSTu7RPStCczLnmhW13p0wHwiefEBcXkakjbwcHnlASgw1NSVdumm34KZOQrp1gxGPbKnnpo6b4ZOAKafbRZG9DzTf5PN02gJTEhk0d3IOfLz90GZXvV8YMuw8NlJ3GW6ZG22B6Z6n4okuEvgpzUtIJJPxiXMqAomxlA6W0qVIJQjiwAZ4Wy92CIQbYOFNCziB79kuHaQlRlronSJRtVlCaNRhfrcxh0OOFMAj6S4y2QMy8cwQCbTXg",
+              "received": false
+            }
+          ],
+          "total_price": 72507,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Reta",
+              "street": "N East Street",
+              "house": 266,
+              "flat": 2288
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T01:40:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695873a01c508c5d5e7fd67d",
+          "products": [
+            {
+              "_id": "695873a61c508c5d5e7fd818",
+              "name": "Table52279",
+              "amount": 229,
+              "price": 72507,
+              "manufacturer": "Google",
+              "notes": "roufSTu7RPStCczLnmhW13p0wHwiefEBcXkakjbwcHnlASgw1NSVdumm34KZOQrp1gxGPbKnnpo6b4ZOAKafbRZG9DzTf5PN02gJTEhk0d3IOfLz90GZXvV8YMuw8NlJ3GW6ZG22B6Z6n4okuEvgpzUtIJJPxiXMqAomxlA6W0qVIJQjiwAZ4Wy92CIQbYOFNCziB79kuHaQlRlronSJRtVlCaNRhfrcxh0OOFMAj6S4y2QMy8cwQCbTXg",
+              "received": false
+            }
+          ],
+          "total_price": 72507,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Reta",
+              "street": "N East Street",
+              "house": 266,
+              "flat": 2288
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T01:40:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695873a01c508c5d5e7fd67d",
+          "products": [
+            {
+              "_id": "695873a61c508c5d5e7fd818",
+              "name": "Table52279",
+              "amount": 229,
+              "price": 72507,
+              "manufacturer": "Google",
+              "notes": "roufSTu7RPStCczLnmhW13p0wHwiefEBcXkakjbwcHnlASgw1NSVdumm34KZOQrp1gxGPbKnnpo6b4ZOAKafbRZG9DzTf5PN02gJTEhk0d3IOfLz90GZXvV8YMuw8NlJ3GW6ZG22B6Z6n4okuEvgpzUtIJJPxiXMqAomxlA6W0qVIJQjiwAZ4Wy92CIQbYOFNCziB79kuHaQlRlronSJRtVlCaNRhfrcxh0OOFMAj6S4y2QMy8cwQCbTXg",
+              "received": false
+            }
+          ],
+          "total_price": 72507,
+          "delivery": null,
+          "changedOn": "2026-01-03T01:40:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
