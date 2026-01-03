@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:11:59 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2772",
+    "etag": "W/\"ad4-TTgnk1UVd3zDTrQR4ToCtUHi3uk\"",
+    "keep-alive": "timeout=5, max=67",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594dde1c508c5d5e92dcdc",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594ddc1c508c5d5e92dbc4",
+        "email": "Mandy_Ortiz19@gmail.com",
+        "name": "Delmer Sauer",
+        "country": "Germany",
+        "city": "Fort Durwardstead",
+        "street": "Quitzon Mews 41",
+        "house": 768,
+        "flat": 8875,
+        "phone": "+648838708984606",
+        "createdOn": "2026-01-03T17:11:56.000Z",
+        "notes": "pzvWdjjjBbAsJSsFNnEUcLJdCRxecZ"
+      },
+      "products": [
+        {
+          "_id": "69594dde1c508c5d5e92dc94",
+          "name": "Sausages91312",
+          "amount": 717,
+          "price": 92484,
+          "manufacturer": "Sony",
+          "notes": "qCuM32jB7QG51e3vwoyTET0h0nDtWhFeLsMgta9aSWRDcnz6KfvoFLmKcKTJjuamUDArNaJ1TpYUmyOSU0WBjdHaH9TsugFTWRnekdj352ltaGizJnnT6l9JcV86ok2mMsfBo98AlLkbokukESJwy7tXDOdcQQ8xm2zqKIU7WevzyIwLQBDLHY70hO8pxVxtETAgsi5iVkK4BBERqc6GwgKF1r0UIfMvvQ5lpQVxTI4SF8qkKNPXmmif4G",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Chynaworth",
+          "street": "Franklin Road",
+          "house": 708,
+          "flat": 5981
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 92484,
+      "createdOn": "2026-01-03T17:11:58.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594ddc1c508c5d5e92dbc4",
+          "products": [
+            {
+              "_id": "69594dde1c508c5d5e92dc94",
+              "name": "Sausages91312",
+              "amount": 717,
+              "price": 92484,
+              "manufacturer": "Sony",
+              "notes": "qCuM32jB7QG51e3vwoyTET0h0nDtWhFeLsMgta9aSWRDcnz6KfvoFLmKcKTJjuamUDArNaJ1TpYUmyOSU0WBjdHaH9TsugFTWRnekdj352ltaGizJnnT6l9JcV86ok2mMsfBo98AlLkbokukESJwy7tXDOdcQQ8xm2zqKIU7WevzyIwLQBDLHY70hO8pxVxtETAgsi5iVkK4BBERqc6GwgKF1r0UIfMvvQ5lpQVxTI4SF8qkKNPXmmif4G",
+              "received": false
+            }
+          ],
+          "total_price": 92484,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Chynaworth",
+              "street": "Franklin Road",
+              "house": 708,
+              "flat": 5981
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:11:59.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594ddc1c508c5d5e92dbc4",
+          "products": [
+            {
+              "_id": "69594dde1c508c5d5e92dc94",
+              "name": "Sausages91312",
+              "amount": 717,
+              "price": 92484,
+              "manufacturer": "Sony",
+              "notes": "qCuM32jB7QG51e3vwoyTET0h0nDtWhFeLsMgta9aSWRDcnz6KfvoFLmKcKTJjuamUDArNaJ1TpYUmyOSU0WBjdHaH9TsugFTWRnekdj352ltaGizJnnT6l9JcV86ok2mMsfBo98AlLkbokukESJwy7tXDOdcQQ8xm2zqKIU7WevzyIwLQBDLHY70hO8pxVxtETAgsi5iVkK4BBERqc6GwgKF1r0UIfMvvQ5lpQVxTI4SF8qkKNPXmmif4G",
+              "received": false
+            }
+          ],
+          "total_price": 92484,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:11:58.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

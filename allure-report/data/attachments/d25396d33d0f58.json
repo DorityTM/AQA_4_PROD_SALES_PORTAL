@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:14:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5245",
+    "etag": "W/\"147d-jtL45G9QOtZ0jjKVzAVD1x908WA\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594e6c1c508c5d5e93295e",
+      "status": "In Process",
+      "customer": {
+        "_id": "69594e681c508c5d5e9326f1",
+        "email": "Rick_Homenick35@yahoo.com",
+        "name": "Rhett Boyle",
+        "country": "USA",
+        "city": "East Tyrellburgh",
+        "street": "German Groves 72",
+        "house": 535,
+        "flat": 3124,
+        "phone": "+165630860576709",
+        "createdOn": "2026-01-03T17:14:16.000Z",
+        "notes": "cN7Pa3yWP0MB5tlE2r9myd8IKVlmbj"
+      },
+      "products": [
+        {
+          "_id": "69594e691c508c5d5e9328c9",
+          "name": "Tuna44178",
+          "amount": 871,
+          "price": 37776,
+          "manufacturer": "Google",
+          "notes": "Oh3QdG2x2j2ufFIrTfc1QPBsLPVKRYMVgkchHESI7knVo7YMqRvPuLzMQDGuxaZe2XTseiJZrSs9jElpAHlGiAvLpzLViGjUmyxngTy1Hdu1TtIYmMi7o9CH0xr4xd1fy8hLepJvEYstkvTCPvvjfooTseTQtvCZ7vgc4LYdMVaoXIui1VEeprEXUbgGrvhuPW6WasUW49YKwGC0BMDzpAKlylTSkZYZNEq98eEfx5NKmvSu3vDVQsD2yl",
+          "received": false
+        },
+        {
+          "_id": "69594e6c1c508c5d5e932949",
+          "name": "Ball8197",
+          "amount": 56,
+          "price": 67918,
+          "manufacturer": "Microsoft",
+          "notes": "Ng8sMwnNVNLnH4iAy8oJOy6Ipp6IuouXHThZIa1vrpLnTJ88MeoeBNgkm213UR1k9jjr154LRvYIdlIsTDiVVVNWBpZB5rxJKHG7YrxXxsMfBykQpBIdniYtEKDKHfytyo4rZQU7vBblfOX6rifMyR2dFVAvv9XpMV69wwBRMRJQ1eoNBetOj4NpZNVeL5pKZ8gfcUOV0pfR2uCgPGF9yeohi3stMdv95mcplfKFRrzi22wNvPZHszXpWF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Fort Jessieborough",
+          "street": "Golden Crest",
+          "house": 303,
+          "flat": 1769
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 105694,
+      "createdOn": "2026-01-03T17:14:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69594e681c508c5d5e9326f1",
+          "products": [
+            {
+              "_id": "69594e691c508c5d5e9328c9",
+              "name": "Tuna44178",
+              "amount": 871,
+              "price": 37776,
+              "manufacturer": "Google",
+              "notes": "Oh3QdG2x2j2ufFIrTfc1QPBsLPVKRYMVgkchHESI7knVo7YMqRvPuLzMQDGuxaZe2XTseiJZrSs9jElpAHlGiAvLpzLViGjUmyxngTy1Hdu1TtIYmMi7o9CH0xr4xd1fy8hLepJvEYstkvTCPvvjfooTseTQtvCZ7vgc4LYdMVaoXIui1VEeprEXUbgGrvhuPW6WasUW49YKwGC0BMDzpAKlylTSkZYZNEq98eEfx5NKmvSu3vDVQsD2yl",
+              "received": false
+            },
+            {
+              "_id": "69594e6c1c508c5d5e932949",
+              "name": "Ball8197",
+              "amount": 56,
+              "price": 67918,
+              "manufacturer": "Microsoft",
+              "notes": "Ng8sMwnNVNLnH4iAy8oJOy6Ipp6IuouXHThZIa1vrpLnTJ88MeoeBNgkm213UR1k9jjr154LRvYIdlIsTDiVVVNWBpZB5rxJKHG7YrxXxsMfBykQpBIdniYtEKDKHfytyo4rZQU7vBblfOX6rifMyR2dFVAvv9XpMV69wwBRMRJQ1eoNBetOj4NpZNVeL5pKZ8gfcUOV0pfR2uCgPGF9yeohi3stMdv95mcplfKFRrzi22wNvPZHszXpWF",
+              "received": false
+            }
+          ],
+          "total_price": 105694,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Jessieborough",
+              "street": "Golden Crest",
+              "house": 303,
+              "flat": 1769
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:14:21.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594e681c508c5d5e9326f1",
+          "products": [
+            {
+              "_id": "69594e691c508c5d5e9328c9",
+              "name": "Tuna44178",
+              "amount": 871,
+              "price": 37776,
+              "manufacturer": "Google",
+              "notes": "Oh3QdG2x2j2ufFIrTfc1QPBsLPVKRYMVgkchHESI7knVo7YMqRvPuLzMQDGuxaZe2XTseiJZrSs9jElpAHlGiAvLpzLViGjUmyxngTy1Hdu1TtIYmMi7o9CH0xr4xd1fy8hLepJvEYstkvTCPvvjfooTseTQtvCZ7vgc4LYdMVaoXIui1VEeprEXUbgGrvhuPW6WasUW49YKwGC0BMDzpAKlylTSkZYZNEq98eEfx5NKmvSu3vDVQsD2yl",
+              "received": false
+            },
+            {
+              "_id": "69594e6c1c508c5d5e932949",
+              "name": "Ball8197",
+              "amount": 56,
+              "price": 67918,
+              "manufacturer": "Microsoft",
+              "notes": "Ng8sMwnNVNLnH4iAy8oJOy6Ipp6IuouXHThZIa1vrpLnTJ88MeoeBNgkm213UR1k9jjr154LRvYIdlIsTDiVVVNWBpZB5rxJKHG7YrxXxsMfBykQpBIdniYtEKDKHfytyo4rZQU7vBblfOX6rifMyR2dFVAvv9XpMV69wwBRMRJQ1eoNBetOj4NpZNVeL5pKZ8gfcUOV0pfR2uCgPGF9yeohi3stMdv95mcplfKFRrzi22wNvPZHszXpWF",
+              "received": false
+            }
+          ],
+          "total_price": 105694,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Fort Jessieborough",
+              "street": "Golden Crest",
+              "house": 303,
+              "flat": 1769
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:14:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594e681c508c5d5e9326f1",
+          "products": [
+            {
+              "_id": "69594e691c508c5d5e9328c9",
+              "name": "Tuna44178",
+              "amount": 871,
+              "price": 37776,
+              "manufacturer": "Google",
+              "notes": "Oh3QdG2x2j2ufFIrTfc1QPBsLPVKRYMVgkchHESI7knVo7YMqRvPuLzMQDGuxaZe2XTseiJZrSs9jElpAHlGiAvLpzLViGjUmyxngTy1Hdu1TtIYmMi7o9CH0xr4xd1fy8hLepJvEYstkvTCPvvjfooTseTQtvCZ7vgc4LYdMVaoXIui1VEeprEXUbgGrvhuPW6WasUW49YKwGC0BMDzpAKlylTSkZYZNEq98eEfx5NKmvSu3vDVQsD2yl",
+              "received": false
+            },
+            {
+              "_id": "69594e6c1c508c5d5e932949",
+              "name": "Ball8197",
+              "amount": 56,
+              "price": 67918,
+              "manufacturer": "Microsoft",
+              "notes": "Ng8sMwnNVNLnH4iAy8oJOy6Ipp6IuouXHThZIa1vrpLnTJ88MeoeBNgkm213UR1k9jjr154LRvYIdlIsTDiVVVNWBpZB5rxJKHG7YrxXxsMfBykQpBIdniYtEKDKHfytyo4rZQU7vBblfOX6rifMyR2dFVAvv9XpMV69wwBRMRJQ1eoNBetOj4NpZNVeL5pKZ8gfcUOV0pfR2uCgPGF9yeohi3stMdv95mcplfKFRrzi22wNvPZHszXpWF",
+              "received": false
+            }
+          ],
+          "total_price": 105694,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:14:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

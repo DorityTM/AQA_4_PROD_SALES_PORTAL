@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:05:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3667",
+    "etag": "W/\"e53-cRSNwvqfTwU190xWJBXMEPgjFQI\"",
+    "keep-alive": "timeout=5, max=33",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594c521c508c5d5e9220e9",
+      "status": "Canceled",
+      "customer": {
+        "_id": "69594c511c508c5d5e9220b8",
+        "email": "Aisha.Davis@gmail.com",
+        "name": "Deontae White",
+        "country": "France",
+        "city": "East Emerald",
+        "street": "Richmond Road 33",
+        "house": 790,
+        "flat": 397,
+        "phone": "+490383875331185",
+        "createdOn": "2026-01-03T17:05:21.000Z",
+        "notes": "dylN4N7qCNZ2fu6oyeJm2hOVEUre5u"
+      },
+      "products": [
+        {
+          "_id": "69594c521c508c5d5e9220dc",
+          "name": "Pants85212",
+          "amount": 349,
+          "price": 72485,
+          "manufacturer": "Amazon",
+          "notes": "8QPhGfOA16GUj5iRwjhNNTLlsrlHz0Xe8yWBy6YVfDTOXRwfM5abHxnfkiJWRnzwrecqmdqkUmUNXHvZeQ6pgziOKb3qH2uqmWSPZENDIwFxm0qrQ4IQOOtStEYE3aKEnp1wrI14PkF70CqGmwMFOVyykYKS0APbXMjZAXPmEdpxPqgfiXX1uiYI7onT5dpFIaozfVnwTLzC1vclf5mb1t53AnfUIleYk6DXkCsW1j1uUvc56H57Im3erp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Kentonberg",
+          "street": "Cleveland Street",
+          "house": 186,
+          "flat": 5691
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 72485,
+      "createdOn": "2026-01-03T17:05:22.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "69594c511c508c5d5e9220b8",
+          "products": [
+            {
+              "_id": "69594c521c508c5d5e9220dc",
+              "name": "Pants85212",
+              "amount": 349,
+              "price": 72485,
+              "manufacturer": "Amazon",
+              "notes": "8QPhGfOA16GUj5iRwjhNNTLlsrlHz0Xe8yWBy6YVfDTOXRwfM5abHxnfkiJWRnzwrecqmdqkUmUNXHvZeQ6pgziOKb3qH2uqmWSPZENDIwFxm0qrQ4IQOOtStEYE3aKEnp1wrI14PkF70CqGmwMFOVyykYKS0APbXMjZAXPmEdpxPqgfiXX1uiYI7onT5dpFIaozfVnwTLzC1vclf5mb1t53AnfUIleYk6DXkCsW1j1uUvc56H57Im3erp",
+              "received": false
+            }
+          ],
+          "total_price": 72485,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kentonberg",
+              "street": "Cleveland Street",
+              "house": 186,
+              "flat": 5691
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:05:23.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594c511c508c5d5e9220b8",
+          "products": [
+            {
+              "_id": "69594c521c508c5d5e9220dc",
+              "name": "Pants85212",
+              "amount": 349,
+              "price": 72485,
+              "manufacturer": "Amazon",
+              "notes": "8QPhGfOA16GUj5iRwjhNNTLlsrlHz0Xe8yWBy6YVfDTOXRwfM5abHxnfkiJWRnzwrecqmdqkUmUNXHvZeQ6pgziOKb3qH2uqmWSPZENDIwFxm0qrQ4IQOOtStEYE3aKEnp1wrI14PkF70CqGmwMFOVyykYKS0APbXMjZAXPmEdpxPqgfiXX1uiYI7onT5dpFIaozfVnwTLzC1vclf5mb1t53AnfUIleYk6DXkCsW1j1uUvc56H57Im3erp",
+              "received": false
+            }
+          ],
+          "total_price": 72485,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Kentonberg",
+              "street": "Cleveland Street",
+              "house": 186,
+              "flat": 5691
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:05:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594c511c508c5d5e9220b8",
+          "products": [
+            {
+              "_id": "69594c521c508c5d5e9220dc",
+              "name": "Pants85212",
+              "amount": 349,
+              "price": 72485,
+              "manufacturer": "Amazon",
+              "notes": "8QPhGfOA16GUj5iRwjhNNTLlsrlHz0Xe8yWBy6YVfDTOXRwfM5abHxnfkiJWRnzwrecqmdqkUmUNXHvZeQ6pgziOKb3qH2uqmWSPZENDIwFxm0qrQ4IQOOtStEYE3aKEnp1wrI14PkF70CqGmwMFOVyykYKS0APbXMjZAXPmEdpxPqgfiXX1uiYI7onT5dpFIaozfVnwTLzC1vclf5mb1t53AnfUIleYk6DXkCsW1j1uUvc56H57Im3erp",
+              "received": false
+            }
+          ],
+          "total_price": 72485,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:05:22.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

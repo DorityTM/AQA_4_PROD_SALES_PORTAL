@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:12:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3713",
+    "etag": "W/\"e81-z+MedU4PkYvprNWp6NtBU8nCZMM\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594e041c508c5d5e92f04c",
+      "status": "In Process",
+      "customer": {
+        "_id": "69594e021c508c5d5e92efab",
+        "email": "Archibald.Kunze60@hotmail.com",
+        "name": "Dimitri Brekke",
+        "country": "Great Britain",
+        "city": "Port Stacey",
+        "street": "Victoria Place 29",
+        "house": 773,
+        "flat": 3342,
+        "phone": "+843052225160403",
+        "createdOn": "2026-01-03T17:12:34.000Z",
+        "notes": "JfpyuNeaMZtiMn3Y5NTn5gINDegusI"
+      },
+      "products": [
+        {
+          "_id": "69594e031c508c5d5e92f041",
+          "name": "Salad17313",
+          "amount": 886,
+          "price": 93112,
+          "manufacturer": "Microsoft",
+          "notes": "p4Ma6ojH4v9dUc1DSvHJWyEAgC8injzN1YJNZNgYEA5UgulnTnyg8HcqXqldyHA4o3YSIIWHZcW6aurA3gMg7ksztA7jXzx5CeUIvCCGCa41xZcRoOzjhdoCSQOmTZWwhAfEfhjc2hla48wkuiLjXcvppcLA3TDvQTiDylHJFd94mYTO5tAkObCkPrdfVuTtWQS4osGuqfKFpNxSQylO64F8PpytrWVTGZrsVZMDmTyyXaIm7QjhN11X9z",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Rayville",
+          "street": "W Jackson Street",
+          "house": 998,
+          "flat": 6154
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 93112,
+      "createdOn": "2026-01-03T17:12:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69594e021c508c5d5e92efab",
+          "products": [
+            {
+              "_id": "69594e031c508c5d5e92f041",
+              "name": "Salad17313",
+              "amount": 886,
+              "price": 93112,
+              "manufacturer": "Microsoft",
+              "notes": "p4Ma6ojH4v9dUc1DSvHJWyEAgC8injzN1YJNZNgYEA5UgulnTnyg8HcqXqldyHA4o3YSIIWHZcW6aurA3gMg7ksztA7jXzx5CeUIvCCGCa41xZcRoOzjhdoCSQOmTZWwhAfEfhjc2hla48wkuiLjXcvppcLA3TDvQTiDylHJFd94mYTO5tAkObCkPrdfVuTtWQS4osGuqfKFpNxSQylO64F8PpytrWVTGZrsVZMDmTyyXaIm7QjhN11X9z",
+              "received": false
+            }
+          ],
+          "total_price": 93112,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Rayville",
+              "street": "W Jackson Street",
+              "house": 998,
+              "flat": 6154
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:12:37.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594e021c508c5d5e92efab",
+          "products": [
+            {
+              "_id": "69594e031c508c5d5e92f041",
+              "name": "Salad17313",
+              "amount": 886,
+              "price": 93112,
+              "manufacturer": "Microsoft",
+              "notes": "p4Ma6ojH4v9dUc1DSvHJWyEAgC8injzN1YJNZNgYEA5UgulnTnyg8HcqXqldyHA4o3YSIIWHZcW6aurA3gMg7ksztA7jXzx5CeUIvCCGCa41xZcRoOzjhdoCSQOmTZWwhAfEfhjc2hla48wkuiLjXcvppcLA3TDvQTiDylHJFd94mYTO5tAkObCkPrdfVuTtWQS4osGuqfKFpNxSQylO64F8PpytrWVTGZrsVZMDmTyyXaIm7QjhN11X9z",
+              "received": false
+            }
+          ],
+          "total_price": 93112,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Rayville",
+              "street": "W Jackson Street",
+              "house": 998,
+              "flat": 6154
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:12:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594e021c508c5d5e92efab",
+          "products": [
+            {
+              "_id": "69594e031c508c5d5e92f041",
+              "name": "Salad17313",
+              "amount": 886,
+              "price": 93112,
+              "manufacturer": "Microsoft",
+              "notes": "p4Ma6ojH4v9dUc1DSvHJWyEAgC8injzN1YJNZNgYEA5UgulnTnyg8HcqXqldyHA4o3YSIIWHZcW6aurA3gMg7ksztA7jXzx5CeUIvCCGCa41xZcRoOzjhdoCSQOmTZWwhAfEfhjc2hla48wkuiLjXcvppcLA3TDvQTiDylHJFd94mYTO5tAkObCkPrdfVuTtWQS4osGuqfKFpNxSQylO64F8PpytrWVTGZrsVZMDmTyyXaIm7QjhN11X9z",
+              "received": false
+            }
+          ],
+          "total_price": 93112,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:12:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

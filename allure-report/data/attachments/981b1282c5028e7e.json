@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:06:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2734",
+    "etag": "W/\"aae-wiJDiWWmX9bkgK4cuHFOvh1rbns\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594c7a1c508c5d5e923268",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594c791c508c5d5e923214",
+        "email": "Brian88@hotmail.com",
+        "name": "Ariel Quitzon",
+        "country": "USA",
+        "city": "Emmerichview",
+        "street": "Hyman Way 13",
+        "house": 811,
+        "flat": 2060,
+        "phone": "+400960633965166",
+        "createdOn": "2026-01-03T17:06:01.000Z",
+        "notes": "PLhOpviIv3krscKdL3lobtWKERoZI8"
+      },
+      "products": [
+        {
+          "_id": "69594c7a1c508c5d5e92324f",
+          "name": "Shoes45598",
+          "amount": 700,
+          "price": 9402,
+          "manufacturer": "Xiaomi",
+          "notes": "rtZjgBX3M2AeBRJfYzFcxkXRX3AJY3Qr2n85zHrIxA88kiA7MxzSOvPqduGMbbQKSCkJJ5274X8gbz1pYNXYNUc6ujl8d67pkfxs6VJktrs4LEJ2s0blUQFmJC5eymECksBNCTwV1B5YinKmCmhJSo2ClJON4quZTFrnAZcBIVEcvakdvQhrwMSDGRpOU4qBdB2k1gvKnRIDdKbyp3NVNDPNLovTPFX8SlZXVFDgD5LinrYZHKCFm3NMXO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Eastvale",
+          "street": "Greenwood Road",
+          "house": 456,
+          "flat": 3033
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 9402,
+      "createdOn": "2026-01-03T17:06:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594c791c508c5d5e923214",
+          "products": [
+            {
+              "_id": "69594c7a1c508c5d5e92324f",
+              "name": "Shoes45598",
+              "amount": 700,
+              "price": 9402,
+              "manufacturer": "Xiaomi",
+              "notes": "rtZjgBX3M2AeBRJfYzFcxkXRX3AJY3Qr2n85zHrIxA88kiA7MxzSOvPqduGMbbQKSCkJJ5274X8gbz1pYNXYNUc6ujl8d67pkfxs6VJktrs4LEJ2s0blUQFmJC5eymECksBNCTwV1B5YinKmCmhJSo2ClJON4quZTFrnAZcBIVEcvakdvQhrwMSDGRpOU4qBdB2k1gvKnRIDdKbyp3NVNDPNLovTPFX8SlZXVFDgD5LinrYZHKCFm3NMXO",
+              "received": false
+            }
+          ],
+          "total_price": 9402,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Eastvale",
+              "street": "Greenwood Road",
+              "house": 456,
+              "flat": 3033
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:06:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594c791c508c5d5e923214",
+          "products": [
+            {
+              "_id": "69594c7a1c508c5d5e92324f",
+              "name": "Shoes45598",
+              "amount": 700,
+              "price": 9402,
+              "manufacturer": "Xiaomi",
+              "notes": "rtZjgBX3M2AeBRJfYzFcxkXRX3AJY3Qr2n85zHrIxA88kiA7MxzSOvPqduGMbbQKSCkJJ5274X8gbz1pYNXYNUc6ujl8d67pkfxs6VJktrs4LEJ2s0blUQFmJC5eymECksBNCTwV1B5YinKmCmhJSo2ClJON4quZTFrnAZcBIVEcvakdvQhrwMSDGRpOU4qBdB2k1gvKnRIDdKbyp3NVNDPNLovTPFX8SlZXVFDgD5LinrYZHKCFm3NMXO",
+              "received": false
+            }
+          ],
+          "total_price": 9402,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:06:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

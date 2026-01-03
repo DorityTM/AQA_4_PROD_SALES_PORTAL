@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:05:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1796",
+    "etag": "W/\"704-iZUBVfd4IV+zYq+j7fg1wKFgnWY\"",
+    "keep-alive": "timeout=5, max=100",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594c5c1c508c5d5e92250c",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594c5b1c508c5d5e9224be",
+        "email": "Adrianna.Herman@yahoo.com",
+        "name": "Santiago Oberbrunner",
+        "country": "Great Britain",
+        "city": "Ferryport",
+        "street": "Jovanny Summit 49",
+        "house": 628,
+        "flat": 4718,
+        "phone": "+147807165749787",
+        "createdOn": "2026-01-03T17:05:31.000Z",
+        "notes": "uS4xkawm5Z7PCcQUPKnQyoPyeJZAmZ"
+      },
+      "products": [
+        {
+          "_id": "69594c5b1c508c5d5e9224fa",
+          "name": "Bike61812",
+          "amount": 713,
+          "price": 91336,
+          "manufacturer": "Amazon",
+          "notes": "5yEoU7fW902sDGPKX5wwHmtFodoBs24zQD3NyT4w7jyuJqyHGAxUu8rncHiRex32SFP95i1QLxU48ZLV8nln3fJHiKB4NRGv157iRPS1U5JCkwrgFsqwO6vsFuuuXXvupoX87EvCaPViEXOE8bczjmbPObbYShsHHopxY3wy4UHexmZxKtemkKqU4h7zCP5U7BiAhdi1PhLGvSxkE7yGPEUZj18gltd0Vb3IVSei7YAUJurqBWWBo1tKy2",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 91336,
+      "createdOn": "2026-01-03T17:05:32.000Z",
+      "comments": [
+        {
+          "text": "Please check < invalid tag",
+          "createdOn": "2026-01-03T17:05:33.000Z",
+          "_id": "69594c5d1c508c5d5e922552"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594c5b1c508c5d5e9224be",
+          "products": [
+            {
+              "_id": "69594c5b1c508c5d5e9224fa",
+              "name": "Bike61812",
+              "amount": 713,
+              "price": 91336,
+              "manufacturer": "Amazon",
+              "notes": "5yEoU7fW902sDGPKX5wwHmtFodoBs24zQD3NyT4w7jyuJqyHGAxUu8rncHiRex32SFP95i1QLxU48ZLV8nln3fJHiKB4NRGv157iRPS1U5JCkwrgFsqwO6vsFuuuXXvupoX87EvCaPViEXOE8bczjmbPObbYShsHHopxY3wy4UHexmZxKtemkKqU4h7zCP5U7BiAhdi1PhLGvSxkE7yGPEUZj18gltd0Vb3IVSei7YAUJurqBWWBo1tKy2",
+              "received": false
+            }
+          ],
+          "total_price": 91336,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:05:32.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

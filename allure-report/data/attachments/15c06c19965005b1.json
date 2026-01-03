@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:13:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3909",
+    "etag": "W/\"f45-5aUIvtUNOS0zaJMK14XrWcfly44\"",
+    "keep-alive": "timeout=5, max=83",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594e2f1c508c5d5e93065a",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594e2c1c508c5d5e930524",
+        "email": "Helmer49@yahoo.com",
+        "name": "August Moen",
+        "country": "USA",
+        "city": "Port Liam",
+        "street": "Schoen Estate 49",
+        "house": 476,
+        "flat": 8636,
+        "phone": "+066455066631495",
+        "createdOn": "2026-01-03T17:13:16.000Z",
+        "notes": "H7KrwnB1i7t208iNqPqLfRbTSRAgpf"
+      },
+      "products": [
+        {
+          "_id": "69594e2d1c508c5d5e9305bc",
+          "name": "Chicken86552",
+          "amount": 263,
+          "price": 59972,
+          "manufacturer": "Google",
+          "notes": "gCJm4sRcVUPGwCgkKlF8Zs96Rx8PYKp1i04qwCqCoEIAj7NtUBjFQS5ldmiMqEe71QKZKdkL3dnspgN6xPEnKCUgpWkhhxbza3cza7K2W1QXI8Q58XY4H5irSC1gB9LQMbTg5UL2qRV1rZwLRFSizIWFavQVenhMnhv7iB3JH8w2qiWyAm69bVyKYWQv8ulSff7cBlKXGNUIsdMhPP9YCzypuRWjtTcsl9xfgaXPPVG5UumLIJzhhYM13M",
+          "received": false
+        },
+        {
+          "_id": "69594e2e1c508c5d5e93062b",
+          "name": "Bike8446",
+          "amount": 608,
+          "price": 28441,
+          "manufacturer": "Microsoft",
+          "notes": "SEoh61yrI6Fx56YQtmWuE5TgHq9w36GXTTR9sH3ezwuRsS5iGrOX0WGbfIsbcoIDmr2CyJWMeJSQabXrYpvsfgdFBpOPdtbpkiaPY1k2sq11Y1n0dOVQLMFIr0oXmLDTZdAEo15TcgpRKWJEqxxHLdZB6M4tSfr1xqEq3UmaFkylr8AweSaUjgmFZp871bQJ4doxgaV1Wiqs0cFwF0h7EGp8g9NcX8NqE4paqAPx257mCQXePUFF64ZALg",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Pamelaville",
+          "street": "Sonny Lake",
+          "house": 155,
+          "flat": 3838
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88413,
+      "createdOn": "2026-01-03T17:13:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594e2c1c508c5d5e930524",
+          "products": [
+            {
+              "_id": "69594e2d1c508c5d5e9305bc",
+              "name": "Chicken86552",
+              "amount": 263,
+              "price": 59972,
+              "manufacturer": "Google",
+              "notes": "gCJm4sRcVUPGwCgkKlF8Zs96Rx8PYKp1i04qwCqCoEIAj7NtUBjFQS5ldmiMqEe71QKZKdkL3dnspgN6xPEnKCUgpWkhhxbza3cza7K2W1QXI8Q58XY4H5irSC1gB9LQMbTg5UL2qRV1rZwLRFSizIWFavQVenhMnhv7iB3JH8w2qiWyAm69bVyKYWQv8ulSff7cBlKXGNUIsdMhPP9YCzypuRWjtTcsl9xfgaXPPVG5UumLIJzhhYM13M",
+              "received": false
+            },
+            {
+              "_id": "69594e2e1c508c5d5e93062b",
+              "name": "Bike8446",
+              "amount": 608,
+              "price": 28441,
+              "manufacturer": "Microsoft",
+              "notes": "SEoh61yrI6Fx56YQtmWuE5TgHq9w36GXTTR9sH3ezwuRsS5iGrOX0WGbfIsbcoIDmr2CyJWMeJSQabXrYpvsfgdFBpOPdtbpkiaPY1k2sq11Y1n0dOVQLMFIr0oXmLDTZdAEo15TcgpRKWJEqxxHLdZB6M4tSfr1xqEq3UmaFkylr8AweSaUjgmFZp871bQJ4doxgaV1Wiqs0cFwF0h7EGp8g9NcX8NqE4paqAPx257mCQXePUFF64ZALg",
+              "received": false
+            }
+          ],
+          "total_price": 88413,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Pamelaville",
+              "street": "Sonny Lake",
+              "house": 155,
+              "flat": 3838
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:13:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594e2c1c508c5d5e930524",
+          "products": [
+            {
+              "_id": "69594e2d1c508c5d5e9305bc",
+              "name": "Chicken86552",
+              "amount": 263,
+              "price": 59972,
+              "manufacturer": "Google",
+              "notes": "gCJm4sRcVUPGwCgkKlF8Zs96Rx8PYKp1i04qwCqCoEIAj7NtUBjFQS5ldmiMqEe71QKZKdkL3dnspgN6xPEnKCUgpWkhhxbza3cza7K2W1QXI8Q58XY4H5irSC1gB9LQMbTg5UL2qRV1rZwLRFSizIWFavQVenhMnhv7iB3JH8w2qiWyAm69bVyKYWQv8ulSff7cBlKXGNUIsdMhPP9YCzypuRWjtTcsl9xfgaXPPVG5UumLIJzhhYM13M",
+              "received": false
+            },
+            {
+              "_id": "69594e2e1c508c5d5e93062b",
+              "name": "Bike8446",
+              "amount": 608,
+              "price": 28441,
+              "manufacturer": "Microsoft",
+              "notes": "SEoh61yrI6Fx56YQtmWuE5TgHq9w36GXTTR9sH3ezwuRsS5iGrOX0WGbfIsbcoIDmr2CyJWMeJSQabXrYpvsfgdFBpOPdtbpkiaPY1k2sq11Y1n0dOVQLMFIr0oXmLDTZdAEo15TcgpRKWJEqxxHLdZB6M4tSfr1xqEq3UmaFkylr8AweSaUjgmFZp871bQJ4doxgaV1Wiqs0cFwF0h7EGp8g9NcX8NqE4paqAPx257mCQXePUFF64ZALg",
+              "received": false
+            }
+          ],
+          "total_price": 88413,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:13:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

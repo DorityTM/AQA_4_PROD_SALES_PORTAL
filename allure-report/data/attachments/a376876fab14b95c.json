@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:05:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1783",
+    "etag": "W/\"6f7-oiPl0MfmZNRLAbrscNeckhk39K4\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594c671c508c5d5e9229ce",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594c661c508c5d5e922934",
+        "email": "Haley.Morissette@gmail.com",
+        "name": "Willie Farrell",
+        "country": "USA",
+        "city": "Torphyside",
+        "street": "George Street 92",
+        "house": 428,
+        "flat": 1685,
+        "phone": "+634173083546916",
+        "createdOn": "2026-01-03T17:05:42.000Z",
+        "notes": "fqDcNXeRd3tYJoGruMxTwOmlOBWJDW"
+      },
+      "products": [
+        {
+          "_id": "69594c671c508c5d5e9229b4",
+          "name": "Salad42091",
+          "amount": 562,
+          "price": 50714,
+          "manufacturer": "Sony",
+          "notes": "ZUgFJb0FgXf42AqDxYBCofw5oFwdG0qzkjymVlMxK7mhFCNuqQYdTH0WopR6xcVPiDPsX6czzE87xZIa83WsSgV8GKBYjGnnPUTl7thjqr8oitg6vJdqEGduHGeLi3hYdb5q9caw6BtNcXLNb15Xq9WFDVpcrDntt5bE0V9EmLadoDqkIYabKGfqGhCYQkfeiGfIiAWgr8IH0R8jBNCIIkAkWppBTdxVCthn1ML5KKzRmgx8Jx091n8a50",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 50714,
+      "createdOn": "2026-01-03T17:05:43.000Z",
+      "comments": [
+        {
+          "text": "Ensure > threshold before ship",
+          "createdOn": "2026-01-03T17:05:43.000Z",
+          "_id": "69594c671c508c5d5e9229eb"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594c661c508c5d5e922934",
+          "products": [
+            {
+              "_id": "69594c671c508c5d5e9229b4",
+              "name": "Salad42091",
+              "amount": 562,
+              "price": 50714,
+              "manufacturer": "Sony",
+              "notes": "ZUgFJb0FgXf42AqDxYBCofw5oFwdG0qzkjymVlMxK7mhFCNuqQYdTH0WopR6xcVPiDPsX6czzE87xZIa83WsSgV8GKBYjGnnPUTl7thjqr8oitg6vJdqEGduHGeLi3hYdb5q9caw6BtNcXLNb15Xq9WFDVpcrDntt5bE0V9EmLadoDqkIYabKGfqGhCYQkfeiGfIiAWgr8IH0R8jBNCIIkAkWppBTdxVCthn1ML5KKzRmgx8Jx091n8a50",
+              "received": false
+            }
+          ],
+          "total_price": 50714,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:05:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

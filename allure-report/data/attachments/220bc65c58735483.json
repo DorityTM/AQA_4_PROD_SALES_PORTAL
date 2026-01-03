@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:05:01 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3693",
+    "etag": "W/\"e6d-F/p60LEnLpfvSGpfxxG5DS64gL8\"",
+    "keep-alive": "timeout=5, max=56",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594c3d1c508c5d5e921815",
+      "status": "In Process",
+      "customer": {
+        "_id": "69594c3b1c508c5d5e9217ab",
+        "email": "Brock34@hotmail.com",
+        "name": "Rafaela Marks Fadel",
+        "country": "France",
+        "city": "Simi Valley",
+        "street": "E 3rd Street 17",
+        "house": 733,
+        "flat": 7396,
+        "phone": "+721982025486888",
+        "createdOn": "2026-01-03T17:04:59.000Z",
+        "notes": "NW5kpiyEamNput60EzpGYNsJQXkzfJ"
+      },
+      "products": [
+        {
+          "_id": "69594c3c1c508c5d5e9217f7",
+          "name": "Shirt37958",
+          "amount": 855,
+          "price": 89411,
+          "manufacturer": "Google",
+          "notes": "gRBg3PAtuWqqE31lKZL0hWGd4RclfcC9VlHnCyLJWSi7Uqzum7qmQgBKLs1uIk2glWVgns9W1ojEYdiEMh6hCN9yEojZuMvBmwX0L0RccgzkQB2DYucFOSGqQgNiRIPmQL61J2LrtmW1h3OcUTnVwht52hFwliqsPOnGN8bFYTlTOBAefBsE1OYISOx6MamA555hl8wGt9cmlIzpeKfzocq5H7ph2R5aLyhGCeBD4LLGmvcn0jJoPxAmpR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Beatrice",
+          "street": "Douglas Road",
+          "house": 663,
+          "flat": 7532
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 89411,
+      "createdOn": "2026-01-03T17:05:00.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69594c3b1c508c5d5e9217ab",
+          "products": [
+            {
+              "_id": "69594c3c1c508c5d5e9217f7",
+              "name": "Shirt37958",
+              "amount": 855,
+              "price": 89411,
+              "manufacturer": "Google",
+              "notes": "gRBg3PAtuWqqE31lKZL0hWGd4RclfcC9VlHnCyLJWSi7Uqzum7qmQgBKLs1uIk2glWVgns9W1ojEYdiEMh6hCN9yEojZuMvBmwX0L0RccgzkQB2DYucFOSGqQgNiRIPmQL61J2LrtmW1h3OcUTnVwht52hFwliqsPOnGN8bFYTlTOBAefBsE1OYISOx6MamA555hl8wGt9cmlIzpeKfzocq5H7ph2R5aLyhGCeBD4LLGmvcn0jJoPxAmpR",
+              "received": false
+            }
+          ],
+          "total_price": 89411,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Beatrice",
+              "street": "Douglas Road",
+              "house": 663,
+              "flat": 7532
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:05:01.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594c3b1c508c5d5e9217ab",
+          "products": [
+            {
+              "_id": "69594c3c1c508c5d5e9217f7",
+              "name": "Shirt37958",
+              "amount": 855,
+              "price": 89411,
+              "manufacturer": "Google",
+              "notes": "gRBg3PAtuWqqE31lKZL0hWGd4RclfcC9VlHnCyLJWSi7Uqzum7qmQgBKLs1uIk2glWVgns9W1ojEYdiEMh6hCN9yEojZuMvBmwX0L0RccgzkQB2DYucFOSGqQgNiRIPmQL61J2LrtmW1h3OcUTnVwht52hFwliqsPOnGN8bFYTlTOBAefBsE1OYISOx6MamA555hl8wGt9cmlIzpeKfzocq5H7ph2R5aLyhGCeBD4LLGmvcn0jJoPxAmpR",
+              "received": false
+            }
+          ],
+          "total_price": 89411,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Beatrice",
+              "street": "Douglas Road",
+              "house": 663,
+              "flat": 7532
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:05:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594c3b1c508c5d5e9217ab",
+          "products": [
+            {
+              "_id": "69594c3c1c508c5d5e9217f7",
+              "name": "Shirt37958",
+              "amount": 855,
+              "price": 89411,
+              "manufacturer": "Google",
+              "notes": "gRBg3PAtuWqqE31lKZL0hWGd4RclfcC9VlHnCyLJWSi7Uqzum7qmQgBKLs1uIk2glWVgns9W1ojEYdiEMh6hCN9yEojZuMvBmwX0L0RccgzkQB2DYucFOSGqQgNiRIPmQL61J2LrtmW1h3OcUTnVwht52hFwliqsPOnGN8bFYTlTOBAefBsE1OYISOx6MamA555hl8wGt9cmlIzpeKfzocq5H7ph2R5aLyhGCeBD4LLGmvcn0jJoPxAmpR",
+              "received": false
+            }
+          ],
+          "total_price": 89411,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:05:00.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

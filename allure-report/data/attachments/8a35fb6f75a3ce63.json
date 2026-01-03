@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:05:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-hnGLdDF8MEeZVWYfUxskIsa2GTo\"",
+    "keep-alive": "timeout=5, max=14",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594c601c508c5d5e9226d1",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594c5f1c508c5d5e9225ff",
+        "email": "Alek.Skiles48@gmail.com",
+        "name": "Kyleigh Bernhard",
+        "country": "France",
+        "city": "Elizabeth",
+        "street": "Claremont Road 62",
+        "house": 266,
+        "flat": 9971,
+        "phone": "+226956904811582",
+        "createdOn": "2026-01-03T17:05:35.000Z",
+        "notes": "3EUqS1M5lftLEu55LFTYs8eWJQZIZl"
+      },
+      "products": [
+        {
+          "_id": "69594c601c508c5d5e92266b",
+          "name": "Bike60884",
+          "amount": 75,
+          "price": 15544,
+          "manufacturer": "Samsung",
+          "notes": "KPrgdDIDP1MvFNpjuckv1SvNfd5FmsglEHeKwT9glf1hUwhV1FN7g4rHa2RiUQORRgmDUmXeChngp7jcApigSmw10QLmRs6xYonwF0SC1DpA2qtY7XNFwNDnxTJ2mAQ0CTlRVOm1Kbg8CY5nJ3QRWKCM8u7pffrexDBVtAiArYqxC1peyUg9M9T12ke0iXrnSKEGCVeSQxlJmf1fSr4iKIDI4WNVhonlUQqdoFPwG3qZoMfbIP6ERZB2dA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Barrowsbury",
+          "street": "Delilah Land",
+          "house": 785,
+          "flat": 7631
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 15544,
+      "createdOn": "2026-01-03T17:05:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594c5f1c508c5d5e9225ff",
+          "products": [
+            {
+              "_id": "69594c601c508c5d5e92266b",
+              "name": "Bike60884",
+              "amount": 75,
+              "price": 15544,
+              "manufacturer": "Samsung",
+              "notes": "KPrgdDIDP1MvFNpjuckv1SvNfd5FmsglEHeKwT9glf1hUwhV1FN7g4rHa2RiUQORRgmDUmXeChngp7jcApigSmw10QLmRs6xYonwF0SC1DpA2qtY7XNFwNDnxTJ2mAQ0CTlRVOm1Kbg8CY5nJ3QRWKCM8u7pffrexDBVtAiArYqxC1peyUg9M9T12ke0iXrnSKEGCVeSQxlJmf1fSr4iKIDI4WNVhonlUQqdoFPwG3qZoMfbIP6ERZB2dA",
+              "received": false
+            }
+          ],
+          "total_price": 15544,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Barrowsbury",
+              "street": "Delilah Land",
+              "house": 785,
+              "flat": 7631
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:05:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594c5f1c508c5d5e9225ff",
+          "products": [
+            {
+              "_id": "69594c601c508c5d5e92266b",
+              "name": "Bike60884",
+              "amount": 75,
+              "price": 15544,
+              "manufacturer": "Samsung",
+              "notes": "KPrgdDIDP1MvFNpjuckv1SvNfd5FmsglEHeKwT9glf1hUwhV1FN7g4rHa2RiUQORRgmDUmXeChngp7jcApigSmw10QLmRs6xYonwF0SC1DpA2qtY7XNFwNDnxTJ2mAQ0CTlRVOm1Kbg8CY5nJ3QRWKCM8u7pffrexDBVtAiArYqxC1peyUg9M9T12ke0iXrnSKEGCVeSQxlJmf1fSr4iKIDI4WNVhonlUQqdoFPwG3qZoMfbIP6ERZB2dA",
+              "received": false
+            }
+          ],
+          "total_price": 15544,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:05:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

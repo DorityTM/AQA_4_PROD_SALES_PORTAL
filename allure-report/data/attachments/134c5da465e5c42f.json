@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:10:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3904",
+    "etag": "W/\"f40-8JxyDPFGDUb+W5Ku94NDgc4iQtg\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594d771c508c5d5e92ae02",
+      "status": "Draft",
+      "customer": {
+        "_id": "69594d751c508c5d5e92aca7",
+        "email": "Fabian36@hotmail.com",
+        "name": "Juliana Fahey",
+        "country": "USA",
+        "city": "Lake Marian",
+        "street": "Millie River 66",
+        "house": 558,
+        "flat": 6757,
+        "phone": "+317478672977902",
+        "createdOn": "2026-01-03T17:10:13.000Z",
+        "notes": "lzUBLO6GLjKoZpSpFaaoS2NdxE4fmB"
+      },
+      "products": [
+        {
+          "_id": "69594d761c508c5d5e92ace5",
+          "name": "Tuna83519",
+          "amount": 715,
+          "price": 11742,
+          "manufacturer": "Google",
+          "notes": "TTAbK5uBLXiLf3vhHSvCt3bFyEc5AwY82RHWwBX3LQABk5R1IhfRSIzpmuQRyNnBGnrgTfLtD5V4VT67zl4bvwwjXNQN1ibVixTkxP9m0UH9ugQn8UmjS4X3syS1L0Kx27z79YdI3xyKwgVmUcIBfOSQWvFxbJ2VAzGMiOp70KXYtkA0t9Fq9aeiEQybAH9oDhrpbUZgXplTrJ9HOydGoHFdp9FLLAZPB9dCjvi07DLlWqZLQfDlrUUC8x",
+          "received": false
+        },
+        {
+          "_id": "69594d761c508c5d5e92add3",
+          "name": "Chips2218",
+          "amount": 540,
+          "price": 22903,
+          "manufacturer": "Microsoft",
+          "notes": "aXuZntEYk3A5COlceLlY9D6lR3j0trPmYMRPXimAzoV6U5LMN8QcukIm4PsuOJR97iexRgRCBnkguynuclQAfguJRBmgW9R1rdV0GVyAlQwq5SO1mZrHFLoxozLkuDgXruHvQSAU6lbnc3j0DELRv7iT2UIelnAPizuSAftlS0GAkrUKOzSXTEmqysS5lYWar90hJxYX1EzG3wjvWTKotIP0wB1l9MjWUESrUkU5q41znljr042jCXODsb",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Marvinstad",
+          "street": "Bins Lane",
+          "house": 532,
+          "flat": 6009
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 34645,
+      "createdOn": "2026-01-03T17:10:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "69594d751c508c5d5e92aca7",
+          "products": [
+            {
+              "_id": "69594d761c508c5d5e92ace5",
+              "name": "Tuna83519",
+              "amount": 715,
+              "price": 11742,
+              "manufacturer": "Google",
+              "notes": "TTAbK5uBLXiLf3vhHSvCt3bFyEc5AwY82RHWwBX3LQABk5R1IhfRSIzpmuQRyNnBGnrgTfLtD5V4VT67zl4bvwwjXNQN1ibVixTkxP9m0UH9ugQn8UmjS4X3syS1L0Kx27z79YdI3xyKwgVmUcIBfOSQWvFxbJ2VAzGMiOp70KXYtkA0t9Fq9aeiEQybAH9oDhrpbUZgXplTrJ9HOydGoHFdp9FLLAZPB9dCjvi07DLlWqZLQfDlrUUC8x",
+              "received": false
+            },
+            {
+              "_id": "69594d761c508c5d5e92add3",
+              "name": "Chips2218",
+              "amount": 540,
+              "price": 22903,
+              "manufacturer": "Microsoft",
+              "notes": "aXuZntEYk3A5COlceLlY9D6lR3j0trPmYMRPXimAzoV6U5LMN8QcukIm4PsuOJR97iexRgRCBnkguynuclQAfguJRBmgW9R1rdV0GVyAlQwq5SO1mZrHFLoxozLkuDgXruHvQSAU6lbnc3j0DELRv7iT2UIelnAPizuSAftlS0GAkrUKOzSXTEmqysS5lYWar90hJxYX1EzG3wjvWTKotIP0wB1l9MjWUESrUkU5q41znljr042jCXODsb",
+              "received": false
+            }
+          ],
+          "total_price": 34645,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Marvinstad",
+              "street": "Bins Lane",
+              "house": 532,
+              "flat": 6009
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:10:15.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594d751c508c5d5e92aca7",
+          "products": [
+            {
+              "_id": "69594d761c508c5d5e92ace5",
+              "name": "Tuna83519",
+              "amount": 715,
+              "price": 11742,
+              "manufacturer": "Google",
+              "notes": "TTAbK5uBLXiLf3vhHSvCt3bFyEc5AwY82RHWwBX3LQABk5R1IhfRSIzpmuQRyNnBGnrgTfLtD5V4VT67zl4bvwwjXNQN1ibVixTkxP9m0UH9ugQn8UmjS4X3syS1L0Kx27z79YdI3xyKwgVmUcIBfOSQWvFxbJ2VAzGMiOp70KXYtkA0t9Fq9aeiEQybAH9oDhrpbUZgXplTrJ9HOydGoHFdp9FLLAZPB9dCjvi07DLlWqZLQfDlrUUC8x",
+              "received": false
+            },
+            {
+              "_id": "69594d761c508c5d5e92add3",
+              "name": "Chips2218",
+              "amount": 540,
+              "price": 22903,
+              "manufacturer": "Microsoft",
+              "notes": "aXuZntEYk3A5COlceLlY9D6lR3j0trPmYMRPXimAzoV6U5LMN8QcukIm4PsuOJR97iexRgRCBnkguynuclQAfguJRBmgW9R1rdV0GVyAlQwq5SO1mZrHFLoxozLkuDgXruHvQSAU6lbnc3j0DELRv7iT2UIelnAPizuSAftlS0GAkrUKOzSXTEmqysS5lYWar90hJxYX1EzG3wjvWTKotIP0wB1l9MjWUESrUkU5q41znljr042jCXODsb",
+              "received": false
+            }
+          ],
+          "total_price": 34645,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:10:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

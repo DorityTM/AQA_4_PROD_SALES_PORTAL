@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:07:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3716",
+    "etag": "W/\"e84-P6Z6SGHvbY1yqtJqHuUENmbSA+k\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594cb61c508c5d5e92525c",
+      "status": "In Process",
+      "customer": {
+        "_id": "69594cb51c508c5d5e925209",
+        "email": "Aurelia25@gmail.com",
+        "name": "Rickey Purdy",
+        "country": "France",
+        "city": "Port Melisa",
+        "street": "Rowan Close 49",
+        "house": 634,
+        "flat": 4917,
+        "phone": "+662506367411413",
+        "createdOn": "2026-01-03T17:07:01.000Z",
+        "notes": "ue1cpVndgta9fcx9Xlzhy0K6uAztIQ"
+      },
+      "products": [
+        {
+          "_id": "69594cb61c508c5d5e92523f",
+          "name": "Mouse4140",
+          "amount": 119,
+          "price": 59019,
+          "manufacturer": "Tesla",
+          "notes": "YsPEnX9CRQlJNIIo1jGONEInBf7Y8ZaWmQrsJMzj6Q3DkneKbrad5M0IwRawodyUNIxo7Tqbui8B68lx0dNtl2eoafIJuVkWSEGawhnl3SnB681M2JnF3y7T26bGZNVlqnLKqyz9wTNzne9g3quFDp0Z7fYTG8tGEgqeCbszKIaPjm8X1vLje3HjGCtHDk43dGoxNnDixuHS7bLE0fjmFpWqRPBqEiEVzkWJOlk4EbvmNIyAgds5LA3v84",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Fort Chelseastad",
+          "street": "Carroll Mountain",
+          "house": 455,
+          "flat": 9252
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 59019,
+      "createdOn": "2026-01-03T17:07:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69594cb51c508c5d5e925209",
+          "products": [
+            {
+              "_id": "69594cb61c508c5d5e92523f",
+              "name": "Mouse4140",
+              "amount": 119,
+              "price": 59019,
+              "manufacturer": "Tesla",
+              "notes": "YsPEnX9CRQlJNIIo1jGONEInBf7Y8ZaWmQrsJMzj6Q3DkneKbrad5M0IwRawodyUNIxo7Tqbui8B68lx0dNtl2eoafIJuVkWSEGawhnl3SnB681M2JnF3y7T26bGZNVlqnLKqyz9wTNzne9g3quFDp0Z7fYTG8tGEgqeCbszKIaPjm8X1vLje3HjGCtHDk43dGoxNnDixuHS7bLE0fjmFpWqRPBqEiEVzkWJOlk4EbvmNIyAgds5LA3v84",
+              "received": false
+            }
+          ],
+          "total_price": 59019,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Chelseastad",
+              "street": "Carroll Mountain",
+              "house": 455,
+              "flat": 9252
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:07:03.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594cb51c508c5d5e925209",
+          "products": [
+            {
+              "_id": "69594cb61c508c5d5e92523f",
+              "name": "Mouse4140",
+              "amount": 119,
+              "price": 59019,
+              "manufacturer": "Tesla",
+              "notes": "YsPEnX9CRQlJNIIo1jGONEInBf7Y8ZaWmQrsJMzj6Q3DkneKbrad5M0IwRawodyUNIxo7Tqbui8B68lx0dNtl2eoafIJuVkWSEGawhnl3SnB681M2JnF3y7T26bGZNVlqnLKqyz9wTNzne9g3quFDp0Z7fYTG8tGEgqeCbszKIaPjm8X1vLje3HjGCtHDk43dGoxNnDixuHS7bLE0fjmFpWqRPBqEiEVzkWJOlk4EbvmNIyAgds5LA3v84",
+              "received": false
+            }
+          ],
+          "total_price": 59019,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Fort Chelseastad",
+              "street": "Carroll Mountain",
+              "house": 455,
+              "flat": 9252
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:07:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594cb51c508c5d5e925209",
+          "products": [
+            {
+              "_id": "69594cb61c508c5d5e92523f",
+              "name": "Mouse4140",
+              "amount": 119,
+              "price": 59019,
+              "manufacturer": "Tesla",
+              "notes": "YsPEnX9CRQlJNIIo1jGONEInBf7Y8ZaWmQrsJMzj6Q3DkneKbrad5M0IwRawodyUNIxo7Tqbui8B68lx0dNtl2eoafIJuVkWSEGawhnl3SnB681M2JnF3y7T26bGZNVlqnLKqyz9wTNzne9g3quFDp0Z7fYTG8tGEgqeCbszKIaPjm8X1vLje3HjGCtHDk43dGoxNnDixuHS7bLE0fjmFpWqRPBqEiEVzkWJOlk4EbvmNIyAgds5LA3v84",
+              "received": false
+            }
+          ],
+          "total_price": 59019,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:07:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

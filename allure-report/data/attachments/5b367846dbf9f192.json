@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:12:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4629",
+    "etag": "W/\"1215-g49nxhO3qnEYFH9j3wQKEv54Zr4\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594dfd1c508c5d5e92edde",
+      "status": "Received",
+      "customer": {
+        "_id": "69594dfb1c508c5d5e92eda0",
+        "email": "Alena4@hotmail.com",
+        "name": "Davin DuBuque",
+        "country": "Belarus",
+        "city": "Port Christopmouth",
+        "street": "Post Road 17",
+        "house": 655,
+        "flat": 8675,
+        "phone": "+883335413767496",
+        "createdOn": "2026-01-03T17:12:27.000Z",
+        "notes": "hYv4tDOJQSewJDC1t6KVoGV8nGfU6q"
+      },
+      "products": [
+        {
+          "_id": "69594dfc1c508c5d5e92edd2",
+          "name": "Salad22487",
+          "amount": 875,
+          "price": 98185,
+          "manufacturer": "Amazon",
+          "notes": "7XLEPo2dyZnLq81DfYhEc6oWR8AhxN96R00XnQKAI7E1uJiTnOst7RnIhRVrkBC8Hie2MMbyXK2QbZhglKglNsT1jYFIO7jQNPQdpbi4olzABN7tWICQHFqrEgaB1iIV2eM0nmaK25MTziLvpVmmgKkXZf9FiEdcUQDyHFsBi4d9gvFiykDT3pRyBlaOVRIZNxUFPEsemLnqSRflOWPeHkvg8nLeOBU62goa6OrJGEYuduIZZ22wmPGnUV",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Parisfurt",
+          "street": "Gerhold Knolls",
+          "house": 916,
+          "flat": 2909
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 98185,
+      "createdOn": "2026-01-03T17:12:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "69594dfb1c508c5d5e92eda0",
+          "products": [
+            {
+              "_id": "69594dfc1c508c5d5e92edd2",
+              "name": "Salad22487",
+              "amount": 875,
+              "price": 98185,
+              "manufacturer": "Amazon",
+              "notes": "7XLEPo2dyZnLq81DfYhEc6oWR8AhxN96R00XnQKAI7E1uJiTnOst7RnIhRVrkBC8Hie2MMbyXK2QbZhglKglNsT1jYFIO7jQNPQdpbi4olzABN7tWICQHFqrEgaB1iIV2eM0nmaK25MTziLvpVmmgKkXZf9FiEdcUQDyHFsBi4d9gvFiykDT3pRyBlaOVRIZNxUFPEsemLnqSRflOWPeHkvg8nLeOBU62goa6OrJGEYuduIZZ22wmPGnUV",
+              "received": true
+            }
+          ],
+          "total_price": 98185,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Parisfurt",
+              "street": "Gerhold Knolls",
+              "house": 916,
+              "flat": 2909
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:12:30.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "69594dfb1c508c5d5e92eda0",
+          "products": [
+            {
+              "_id": "69594dfc1c508c5d5e92edd2",
+              "name": "Salad22487",
+              "amount": 875,
+              "price": 98185,
+              "manufacturer": "Amazon",
+              "notes": "7XLEPo2dyZnLq81DfYhEc6oWR8AhxN96R00XnQKAI7E1uJiTnOst7RnIhRVrkBC8Hie2MMbyXK2QbZhglKglNsT1jYFIO7jQNPQdpbi4olzABN7tWICQHFqrEgaB1iIV2eM0nmaK25MTziLvpVmmgKkXZf9FiEdcUQDyHFsBi4d9gvFiykDT3pRyBlaOVRIZNxUFPEsemLnqSRflOWPeHkvg8nLeOBU62goa6OrJGEYuduIZZ22wmPGnUV",
+              "received": false
+            }
+          ],
+          "total_price": 98185,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Parisfurt",
+              "street": "Gerhold Knolls",
+              "house": 916,
+              "flat": 2909
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:12:29.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594dfb1c508c5d5e92eda0",
+          "products": [
+            {
+              "_id": "69594dfc1c508c5d5e92edd2",
+              "name": "Salad22487",
+              "amount": 875,
+              "price": 98185,
+              "manufacturer": "Amazon",
+              "notes": "7XLEPo2dyZnLq81DfYhEc6oWR8AhxN96R00XnQKAI7E1uJiTnOst7RnIhRVrkBC8Hie2MMbyXK2QbZhglKglNsT1jYFIO7jQNPQdpbi4olzABN7tWICQHFqrEgaB1iIV2eM0nmaK25MTziLvpVmmgKkXZf9FiEdcUQDyHFsBi4d9gvFiykDT3pRyBlaOVRIZNxUFPEsemLnqSRflOWPeHkvg8nLeOBU62goa6OrJGEYuduIZZ22wmPGnUV",
+              "received": false
+            }
+          ],
+          "total_price": 98185,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Parisfurt",
+              "street": "Gerhold Knolls",
+              "house": 916,
+              "flat": 2909
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:12:29.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594dfb1c508c5d5e92eda0",
+          "products": [
+            {
+              "_id": "69594dfc1c508c5d5e92edd2",
+              "name": "Salad22487",
+              "amount": 875,
+              "price": 98185,
+              "manufacturer": "Amazon",
+              "notes": "7XLEPo2dyZnLq81DfYhEc6oWR8AhxN96R00XnQKAI7E1uJiTnOst7RnIhRVrkBC8Hie2MMbyXK2QbZhglKglNsT1jYFIO7jQNPQdpbi4olzABN7tWICQHFqrEgaB1iIV2eM0nmaK25MTziLvpVmmgKkXZf9FiEdcUQDyHFsBi4d9gvFiykDT3pRyBlaOVRIZNxUFPEsemLnqSRflOWPeHkvg8nLeOBU62goa6OrJGEYuduIZZ22wmPGnUV",
+              "received": false
+            }
+          ],
+          "total_price": 98185,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:12:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

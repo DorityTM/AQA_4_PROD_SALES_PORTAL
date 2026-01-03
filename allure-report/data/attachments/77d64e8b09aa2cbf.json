@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:11:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3678",
+    "etag": "W/\"e5e-0sa4QM6hi/R/f5u/pCee8fRRdPg\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594db51c508c5d5e92c744",
+      "status": "In Process",
+      "customer": {
+        "_id": "69594db41c508c5d5e92c6da",
+        "email": "Tracey_West@yahoo.com",
+        "name": "Isom Koelpin",
+        "country": "Germany",
+        "city": "Ikemouth",
+        "street": "Stamm Mall 41",
+        "house": 548,
+        "flat": 6051,
+        "phone": "+827991945809856",
+        "createdOn": "2026-01-03T17:11:16.000Z",
+        "notes": "hud0ANkv3fQM6Z1x4FkgBrTmfywvyy"
+      },
+      "products": [
+        {
+          "_id": "69594db51c508c5d5e92c72e",
+          "name": "Pizza30855",
+          "amount": 299,
+          "price": 99022,
+          "manufacturer": "Microsoft",
+          "notes": "D770e0IiaucwqnOcHnNqpi20RSeXTfuVhsWpq5uMOM78piqjpsoIxqLTxAGjNJHqJ3BS2qbC44pMy4H0s976nGEeKsCdvcukhAWI5a5ReSsVYblyG6reQcBXH9rebhJRZuPeJD8kH8OIcKqt5zkf9I8m2tTGETpo7WZGyqUmN6k8K5OWx10CEOE75TRIqNi2xllukwWLaqbxXf8iFiXn6HPff1pCVzfqG4okMTcivPOoDWKAMGzaqE0a5p",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Antelope",
+          "street": "Telly Garden",
+          "house": 312,
+          "flat": 9872
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 99022,
+      "createdOn": "2026-01-03T17:11:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69594db41c508c5d5e92c6da",
+          "products": [
+            {
+              "_id": "69594db51c508c5d5e92c72e",
+              "name": "Pizza30855",
+              "amount": 299,
+              "price": 99022,
+              "manufacturer": "Microsoft",
+              "notes": "D770e0IiaucwqnOcHnNqpi20RSeXTfuVhsWpq5uMOM78piqjpsoIxqLTxAGjNJHqJ3BS2qbC44pMy4H0s976nGEeKsCdvcukhAWI5a5ReSsVYblyG6reQcBXH9rebhJRZuPeJD8kH8OIcKqt5zkf9I8m2tTGETpo7WZGyqUmN6k8K5OWx10CEOE75TRIqNi2xllukwWLaqbxXf8iFiXn6HPff1pCVzfqG4okMTcivPOoDWKAMGzaqE0a5p",
+              "received": false
+            }
+          ],
+          "total_price": 99022,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Antelope",
+              "street": "Telly Garden",
+              "house": 312,
+              "flat": 9872
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:11:19.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594db41c508c5d5e92c6da",
+          "products": [
+            {
+              "_id": "69594db51c508c5d5e92c72e",
+              "name": "Pizza30855",
+              "amount": 299,
+              "price": 99022,
+              "manufacturer": "Microsoft",
+              "notes": "D770e0IiaucwqnOcHnNqpi20RSeXTfuVhsWpq5uMOM78piqjpsoIxqLTxAGjNJHqJ3BS2qbC44pMy4H0s976nGEeKsCdvcukhAWI5a5ReSsVYblyG6reQcBXH9rebhJRZuPeJD8kH8OIcKqt5zkf9I8m2tTGETpo7WZGyqUmN6k8K5OWx10CEOE75TRIqNi2xllukwWLaqbxXf8iFiXn6HPff1pCVzfqG4okMTcivPOoDWKAMGzaqE0a5p",
+              "received": false
+            }
+          ],
+          "total_price": 99022,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Antelope",
+              "street": "Telly Garden",
+              "house": 312,
+              "flat": 9872
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:11:18.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594db41c508c5d5e92c6da",
+          "products": [
+            {
+              "_id": "69594db51c508c5d5e92c72e",
+              "name": "Pizza30855",
+              "amount": 299,
+              "price": 99022,
+              "manufacturer": "Microsoft",
+              "notes": "D770e0IiaucwqnOcHnNqpi20RSeXTfuVhsWpq5uMOM78piqjpsoIxqLTxAGjNJHqJ3BS2qbC44pMy4H0s976nGEeKsCdvcukhAWI5a5ReSsVYblyG6reQcBXH9rebhJRZuPeJD8kH8OIcKqt5zkf9I8m2tTGETpo7WZGyqUmN6k8K5OWx10CEOE75TRIqNi2xllukwWLaqbxXf8iFiXn6HPff1pCVzfqG4okMTcivPOoDWKAMGzaqE0a5p",
+              "received": false
+            }
+          ],
+          "total_price": 99022,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:11:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

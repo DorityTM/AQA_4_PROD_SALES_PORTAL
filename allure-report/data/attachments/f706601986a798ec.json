@@ -1,0 +1,285 @@
+{
+  "headers": {
+    "date": "Sat, 03 Jan 2026 17:06:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "7016",
+    "etag": "W/\"1b68-ugVdpcSkLMsnMaD5zQ8gpSDqV8o\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "69594c791c508c5d5e923210",
+      "status": "In Process",
+      "customer": {
+        "_id": "69594c771c508c5d5e9231b5",
+        "email": "Estelle80@gmail.com",
+        "name": "Reece Cruickshank",
+        "country": "Great Britain",
+        "city": "Keelingboro",
+        "street": "Broadway Avenue 45",
+        "house": 149,
+        "flat": 3709,
+        "phone": "+651106509076901",
+        "createdOn": "2026-01-03T17:05:59.000Z",
+        "notes": "tzM8RjbCvzn7EXm63t93H7XSNEeDu7"
+      },
+      "products": [
+        {
+          "_id": "69594c781c508c5d5e9231dd",
+          "name": "Chair43744",
+          "amount": 587,
+          "price": 8822,
+          "manufacturer": "Samsung",
+          "notes": "LbEMQlGUH8GaiFkhHUrSSwEbTxX1pIW500uXOiPZ999uJDBf5uw2luvPT2UIKiWW7hDLcxcj1GhNo4K2XaZdpX0SzDLD6PpuXq3tgX9rxxmANRkWXA0Di0iVcorX8j5wf6D591g7IclfsDWokt1C6BQg0ElHFUgR71KJu58UA8QDMFY6k2Wj88HXdxw8dROQmKeYICwdARRF4sTyThD4QKcX9k1l3RCOXP7KFKUHkGZE43SrzjQm8qyUoR",
+          "received": false
+        },
+        {
+          "_id": "69594c791c508c5d5e9231fb",
+          "name": "Shoes96357",
+          "amount": 245,
+          "price": 84670,
+          "manufacturer": "Amazon",
+          "notes": "SezggSfRnWAI9JxuqAweUzyilDHnNOHDbPXQUsRZ94ecq3MUDLo2FMByD1QDCWKnl4imGvpl4lEe1EbV9nUiz91UhNKp0JXIkpkQs2dGRJDMTUIrWkhLrKI7MQ7PUty8t8mE7BbeAH8n1FPp02QZofCviUoLvLA6Mf8IasRrs9NWDsqZkmR9Sraui1aSyBtDCsDBHoyHj6CtvO2YAvAj7x1wY0HUTacP7bcGI8sJQQsFNEDVW07Rxlo5Vm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Montyboro",
+          "street": "S Washington Street",
+          "house": 65,
+          "flat": 489
+        },
+        "finalDate": "2026-01-10T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 93492,
+      "createdOn": "2026-01-03T17:06:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "69594c771c508c5d5e9231b5",
+          "products": [
+            {
+              "_id": "69594c781c508c5d5e9231dd",
+              "name": "Chair43744",
+              "amount": 587,
+              "price": 8822,
+              "manufacturer": "Samsung",
+              "notes": "LbEMQlGUH8GaiFkhHUrSSwEbTxX1pIW500uXOiPZ999uJDBf5uw2luvPT2UIKiWW7hDLcxcj1GhNo4K2XaZdpX0SzDLD6PpuXq3tgX9rxxmANRkWXA0Di0iVcorX8j5wf6D591g7IclfsDWokt1C6BQg0ElHFUgR71KJu58UA8QDMFY6k2Wj88HXdxw8dROQmKeYICwdARRF4sTyThD4QKcX9k1l3RCOXP7KFKUHkGZE43SrzjQm8qyUoR",
+              "received": false
+            },
+            {
+              "_id": "69594c791c508c5d5e9231fb",
+              "name": "Shoes96357",
+              "amount": 245,
+              "price": 84670,
+              "manufacturer": "Amazon",
+              "notes": "SezggSfRnWAI9JxuqAweUzyilDHnNOHDbPXQUsRZ94ecq3MUDLo2FMByD1QDCWKnl4imGvpl4lEe1EbV9nUiz91UhNKp0JXIkpkQs2dGRJDMTUIrWkhLrKI7MQ7PUty8t8mE7BbeAH8n1FPp02QZofCviUoLvLA6Mf8IasRrs9NWDsqZkmR9Sraui1aSyBtDCsDBHoyHj6CtvO2YAvAj7x1wY0HUTacP7bcGI8sJQQsFNEDVW07Rxlo5Vm",
+              "received": false
+            }
+          ],
+          "total_price": 93492,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Montyboro",
+              "street": "S Washington Street",
+              "house": 65,
+              "flat": 489
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:06:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69594c771c508c5d5e9231b5",
+          "products": [
+            {
+              "_id": "69594c781c508c5d5e9231dd",
+              "name": "Chair43744",
+              "amount": 587,
+              "price": 8822,
+              "manufacturer": "Samsung",
+              "notes": "LbEMQlGUH8GaiFkhHUrSSwEbTxX1pIW500uXOiPZ999uJDBf5uw2luvPT2UIKiWW7hDLcxcj1GhNo4K2XaZdpX0SzDLD6PpuXq3tgX9rxxmANRkWXA0Di0iVcorX8j5wf6D591g7IclfsDWokt1C6BQg0ElHFUgR71KJu58UA8QDMFY6k2Wj88HXdxw8dROQmKeYICwdARRF4sTyThD4QKcX9k1l3RCOXP7KFKUHkGZE43SrzjQm8qyUoR",
+              "received": false
+            },
+            {
+              "_id": "69594c791c508c5d5e9231fb",
+              "name": "Shoes96357",
+              "amount": 245,
+              "price": 84670,
+              "manufacturer": "Amazon",
+              "notes": "SezggSfRnWAI9JxuqAweUzyilDHnNOHDbPXQUsRZ94ecq3MUDLo2FMByD1QDCWKnl4imGvpl4lEe1EbV9nUiz91UhNKp0JXIkpkQs2dGRJDMTUIrWkhLrKI7MQ7PUty8t8mE7BbeAH8n1FPp02QZofCviUoLvLA6Mf8IasRrs9NWDsqZkmR9Sraui1aSyBtDCsDBHoyHj6CtvO2YAvAj7x1wY0HUTacP7bcGI8sJQQsFNEDVW07Rxlo5Vm",
+              "received": false
+            }
+          ],
+          "total_price": 93492,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Montyboro",
+              "street": "S Washington Street",
+              "house": 65,
+              "flat": 489
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:06:02.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "69594c771c508c5d5e9231b5",
+          "products": [
+            {
+              "_id": "69594c781c508c5d5e9231dd",
+              "name": "Chair43744",
+              "amount": 587,
+              "price": 8822,
+              "manufacturer": "Samsung",
+              "notes": "LbEMQlGUH8GaiFkhHUrSSwEbTxX1pIW500uXOiPZ999uJDBf5uw2luvPT2UIKiWW7hDLcxcj1GhNo4K2XaZdpX0SzDLD6PpuXq3tgX9rxxmANRkWXA0Di0iVcorX8j5wf6D591g7IclfsDWokt1C6BQg0ElHFUgR71KJu58UA8QDMFY6k2Wj88HXdxw8dROQmKeYICwdARRF4sTyThD4QKcX9k1l3RCOXP7KFKUHkGZE43SrzjQm8qyUoR",
+              "received": false
+            },
+            {
+              "_id": "69594c791c508c5d5e9231fb",
+              "name": "Shoes96357",
+              "amount": 245,
+              "price": 84670,
+              "manufacturer": "Amazon",
+              "notes": "SezggSfRnWAI9JxuqAweUzyilDHnNOHDbPXQUsRZ94ecq3MUDLo2FMByD1QDCWKnl4imGvpl4lEe1EbV9nUiz91UhNKp0JXIkpkQs2dGRJDMTUIrWkhLrKI7MQ7PUty8t8mE7BbeAH8n1FPp02QZofCviUoLvLA6Mf8IasRrs9NWDsqZkmR9Sraui1aSyBtDCsDBHoyHj6CtvO2YAvAj7x1wY0HUTacP7bcGI8sJQQsFNEDVW07Rxlo5Vm",
+              "received": false
+            }
+          ],
+          "total_price": 93492,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Montyboro",
+              "street": "S Washington Street",
+              "house": 65,
+              "flat": 489
+            },
+            "finalDate": "2026-01-10T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-03T17:06:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "69594c771c508c5d5e9231b5",
+          "products": [
+            {
+              "_id": "69594c781c508c5d5e9231dd",
+              "name": "Chair43744",
+              "amount": 587,
+              "price": 8822,
+              "manufacturer": "Samsung",
+              "notes": "LbEMQlGUH8GaiFkhHUrSSwEbTxX1pIW500uXOiPZ999uJDBf5uw2luvPT2UIKiWW7hDLcxcj1GhNo4K2XaZdpX0SzDLD6PpuXq3tgX9rxxmANRkWXA0Di0iVcorX8j5wf6D591g7IclfsDWokt1C6BQg0ElHFUgR71KJu58UA8QDMFY6k2Wj88HXdxw8dROQmKeYICwdARRF4sTyThD4QKcX9k1l3RCOXP7KFKUHkGZE43SrzjQm8qyUoR",
+              "received": false
+            },
+            {
+              "_id": "69594c791c508c5d5e9231fb",
+              "name": "Shoes96357",
+              "amount": 245,
+              "price": 84670,
+              "manufacturer": "Amazon",
+              "notes": "SezggSfRnWAI9JxuqAweUzyilDHnNOHDbPXQUsRZ94ecq3MUDLo2FMByD1QDCWKnl4imGvpl4lEe1EbV9nUiz91UhNKp0JXIkpkQs2dGRJDMTUIrWkhLrKI7MQ7PUty8t8mE7BbeAH8n1FPp02QZofCviUoLvLA6Mf8IasRrs9NWDsqZkmR9Sraui1aSyBtDCsDBHoyHj6CtvO2YAvAj7x1wY0HUTacP7bcGI8sJQQsFNEDVW07Rxlo5Vm",
+              "received": false
+            }
+          ],
+          "total_price": 93492,
+          "delivery": null,
+          "changedOn": "2026-01-03T17:06:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
