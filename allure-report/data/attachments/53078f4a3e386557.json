@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:03:24 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-pJmIYYEptEtZhHAwY8GxYfAG0lE\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a570b1c508c5d5ea65d8d",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a570a1c508c5d5ea65ce8",
+        "email": "Liliana.Graham44@hotmail.com",
+        "name": "Pasquale Emard",
+        "country": "France",
+        "city": "East Adele",
+        "street": "Thalia Plains 55",
+        "house": 242,
+        "flat": 9639,
+        "phone": "+137731051152407",
+        "createdOn": "2026-01-04T12:03:22.000Z",
+        "notes": "rqEAEZ9nbO1Kk54oL6LmvXYfkfHHIn"
+      },
+      "products": [
+        {
+          "_id": "695a570b1c508c5d5ea65d6b",
+          "name": "Chips17126",
+          "amount": 245,
+          "price": 58517,
+          "manufacturer": "Amazon",
+          "notes": "lHDzTXrSqGO35PHeopJ0is88olTwD1VuPwFfUoIMmIJPU2nfztqiDLVOIPbQUHp6PHUazzzY2KmfE9We1nUwpRFKSLQe9Pjx11CgWz2gsuUv55G6uWFIrn0HF4kmVGFfdyf1zul8haya66c5HW5WL3gGvHCRTfLvb75nJyWruIz3w2Agtrru0UMCf4AkeI7sfdpcTfJD8sO1caxbttla1dlN4364slviUv3CqIhx929zMWPGLZhq1fzbrz",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Starkshire",
+          "street": "Wendell Overpass",
+          "house": 957,
+          "flat": 7083
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58517,
+      "createdOn": "2026-01-04T12:03:23.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a570a1c508c5d5ea65ce8",
+          "products": [
+            {
+              "_id": "695a570b1c508c5d5ea65d6b",
+              "name": "Chips17126",
+              "amount": 245,
+              "price": 58517,
+              "manufacturer": "Amazon",
+              "notes": "lHDzTXrSqGO35PHeopJ0is88olTwD1VuPwFfUoIMmIJPU2nfztqiDLVOIPbQUHp6PHUazzzY2KmfE9We1nUwpRFKSLQe9Pjx11CgWz2gsuUv55G6uWFIrn0HF4kmVGFfdyf1zul8haya66c5HW5WL3gGvHCRTfLvb75nJyWruIz3w2Agtrru0UMCf4AkeI7sfdpcTfJD8sO1caxbttla1dlN4364slviUv3CqIhx929zMWPGLZhq1fzbrz",
+              "received": false
+            }
+          ],
+          "total_price": 58517,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Starkshire",
+              "street": "Wendell Overpass",
+              "house": 957,
+              "flat": 7083
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:03:24.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a570a1c508c5d5ea65ce8",
+          "products": [
+            {
+              "_id": "695a570b1c508c5d5ea65d6b",
+              "name": "Chips17126",
+              "amount": 245,
+              "price": 58517,
+              "manufacturer": "Amazon",
+              "notes": "lHDzTXrSqGO35PHeopJ0is88olTwD1VuPwFfUoIMmIJPU2nfztqiDLVOIPbQUHp6PHUazzzY2KmfE9We1nUwpRFKSLQe9Pjx11CgWz2gsuUv55G6uWFIrn0HF4kmVGFfdyf1zul8haya66c5HW5WL3gGvHCRTfLvb75nJyWruIz3w2Agtrru0UMCf4AkeI7sfdpcTfJD8sO1caxbttla1dlN4364slviUv3CqIhx929zMWPGLZhq1fzbrz",
+              "received": false
+            }
+          ],
+          "total_price": 58517,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:03:23.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

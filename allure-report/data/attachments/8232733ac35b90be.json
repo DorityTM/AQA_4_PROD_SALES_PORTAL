@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:01:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1803",
+    "etag": "W/\"70b-8HXZW+ytOXLxDHQtJS80u7MNrC8\"",
+    "keep-alive": "timeout=5, max=8",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a56b41c508c5d5ea636b8",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a56b11c508c5d5ea635c2",
+        "email": "Maribel.Heathcote@yahoo.com",
+        "name": "Monica Prohaska",
+        "country": "Canada",
+        "city": "Port Skylarburgh",
+        "street": "Bogan Corner 70",
+        "house": 791,
+        "flat": 1756,
+        "phone": "+510496688289052",
+        "createdOn": "2026-01-04T12:01:53.000Z",
+        "notes": "nVQIimzqEgpYPM9tMrmOuquyYMFu5u"
+      },
+      "products": [
+        {
+          "_id": "695a56b31c508c5d5ea6368b",
+          "name": "Chicken45590",
+          "amount": 631,
+          "price": 35939,
+          "manufacturer": "Samsung",
+          "notes": "0IF7EFAjUz08xiqmwylxMZ5Ejm9Q8kD3kdVNz5yabsQSSlEnICDTups3YQOWUftZz866DYwvn46pB2f5ARPhHjP8rcHtwbHHfznhcdqeKWr60Jsy1lP5zGXrhvSbm1EiAmiC8JMUrldMiu65uDZBcylBsdvv856KT5UEDlgd89flfsm334Haxkey7aYJ4iL54uUT278Egvx66kSQ0aShUKgC5hTqJxDZBvth6jUrp7MDnf1UF4qOqdm4cN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 35939,
+      "createdOn": "2026-01-04T12:01:56.000Z",
+      "comments": [
+        {
+          "text": "Ensure > threshold before ship",
+          "createdOn": "2026-01-04T12:01:56.000Z",
+          "_id": "695a56b41c508c5d5ea636d5"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a56b11c508c5d5ea635c2",
+          "products": [
+            {
+              "_id": "695a56b31c508c5d5ea6368b",
+              "name": "Chicken45590",
+              "amount": 631,
+              "price": 35939,
+              "manufacturer": "Samsung",
+              "notes": "0IF7EFAjUz08xiqmwylxMZ5Ejm9Q8kD3kdVNz5yabsQSSlEnICDTups3YQOWUftZz866DYwvn46pB2f5ARPhHjP8rcHtwbHHfznhcdqeKWr60Jsy1lP5zGXrhvSbm1EiAmiC8JMUrldMiu65uDZBcylBsdvv856KT5UEDlgd89flfsm334Haxkey7aYJ4iL54uUT278Egvx66kSQ0aShUKgC5hTqJxDZBvth6jUrp7MDnf1UF4qOqdm4cN",
+              "received": false
+            }
+          ],
+          "total_price": 35939,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:01:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

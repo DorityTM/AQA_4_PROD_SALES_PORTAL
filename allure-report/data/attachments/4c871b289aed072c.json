@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:21:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3698",
+    "etag": "W/\"e72-nXAR3B3J1o8p85ARGPyFGdb5PpE\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a5b3d1c508c5d5ea7a22e",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695a5b3b1c508c5d5ea7a1e6",
+        "email": "Carleton_Rempel0@yahoo.com",
+        "name": "Destiny Morissette",
+        "country": "France",
+        "city": "South Wadefield",
+        "street": "New Road 75",
+        "house": 271,
+        "flat": 15,
+        "phone": "+109633319536823",
+        "createdOn": "2026-01-04T12:21:15.000Z",
+        "notes": "emg80YRkBK7qxlcCqygX9sIVuOJPDc"
+      },
+      "products": [
+        {
+          "_id": "695a5b3c1c508c5d5ea7a223",
+          "name": "Gloves33635",
+          "amount": 933,
+          "price": 87002,
+          "manufacturer": "Apple",
+          "notes": "5P8VxzeiBRitHlLBr4RkrGivhKfnqIfjCK9oJnCtHZznk6U7XfhhDGty5pQ6ueNTplgiX85BB3F7U0LokngVHceIxNCxO42KfRS5FRvhbVKD5PDy7GLmSjKlkqICYlVYPNoauhPAAlkebjcVSms75n6Kqm08Mgm8IsNVHEcafjuXkO5rFSkz5wluES86S6R9kip5tzbZG85pyjAGt8kbU7o03a79XDhW79T6DAeX7nXleWHfdtSbh3hMpt",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Fort Lilyview",
+          "street": "Bartoletti Corner",
+          "house": 783,
+          "flat": 1304
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 87002,
+      "createdOn": "2026-01-04T12:21:17.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695a5b3b1c508c5d5ea7a1e6",
+          "products": [
+            {
+              "_id": "695a5b3c1c508c5d5ea7a223",
+              "name": "Gloves33635",
+              "amount": 933,
+              "price": 87002,
+              "manufacturer": "Apple",
+              "notes": "5P8VxzeiBRitHlLBr4RkrGivhKfnqIfjCK9oJnCtHZznk6U7XfhhDGty5pQ6ueNTplgiX85BB3F7U0LokngVHceIxNCxO42KfRS5FRvhbVKD5PDy7GLmSjKlkqICYlVYPNoauhPAAlkebjcVSms75n6Kqm08Mgm8IsNVHEcafjuXkO5rFSkz5wluES86S6R9kip5tzbZG85pyjAGt8kbU7o03a79XDhW79T6DAeX7nXleWHfdtSbh3hMpt",
+              "received": false
+            }
+          ],
+          "total_price": 87002,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Lilyview",
+              "street": "Bartoletti Corner",
+              "house": 783,
+              "flat": 1304
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:21:17.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a5b3b1c508c5d5ea7a1e6",
+          "products": [
+            {
+              "_id": "695a5b3c1c508c5d5ea7a223",
+              "name": "Gloves33635",
+              "amount": 933,
+              "price": 87002,
+              "manufacturer": "Apple",
+              "notes": "5P8VxzeiBRitHlLBr4RkrGivhKfnqIfjCK9oJnCtHZznk6U7XfhhDGty5pQ6ueNTplgiX85BB3F7U0LokngVHceIxNCxO42KfRS5FRvhbVKD5PDy7GLmSjKlkqICYlVYPNoauhPAAlkebjcVSms75n6Kqm08Mgm8IsNVHEcafjuXkO5rFSkz5wluES86S6R9kip5tzbZG85pyjAGt8kbU7o03a79XDhW79T6DAeX7nXleWHfdtSbh3hMpt",
+              "received": false
+            }
+          ],
+          "total_price": 87002,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Fort Lilyview",
+              "street": "Bartoletti Corner",
+              "house": 783,
+              "flat": 1304
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:21:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a5b3b1c508c5d5ea7a1e6",
+          "products": [
+            {
+              "_id": "695a5b3c1c508c5d5ea7a223",
+              "name": "Gloves33635",
+              "amount": 933,
+              "price": 87002,
+              "manufacturer": "Apple",
+              "notes": "5P8VxzeiBRitHlLBr4RkrGivhKfnqIfjCK9oJnCtHZznk6U7XfhhDGty5pQ6ueNTplgiX85BB3F7U0LokngVHceIxNCxO42KfRS5FRvhbVKD5PDy7GLmSjKlkqICYlVYPNoauhPAAlkebjcVSms75n6Kqm08Mgm8IsNVHEcafjuXkO5rFSkz5wluES86S6R9kip5tzbZG85pyjAGt8kbU7o03a79XDhW79T6DAeX7nXleWHfdtSbh3hMpt",
+              "received": false
+            }
+          ],
+          "total_price": 87002,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:21:17.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

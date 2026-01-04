@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:00:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2753",
+    "etag": "W/\"ac1-NQFyyGSmnkBWGOwnM9RP/csGV7Q\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a564a1c508c5d5ea6139c",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a56431c508c5d5ea61319",
+        "email": "Xzavier63@hotmail.com",
+        "name": "Ally Hickle",
+        "country": "Great Britain",
+        "city": "Runolfsdottirberg",
+        "street": "Laurel Close 47",
+        "house": 246,
+        "flat": 5102,
+        "phone": "+504972928389199",
+        "createdOn": "2026-01-04T12:00:03.000Z",
+        "notes": "b21rZZoyqICnile92avs37RPOnglen"
+      },
+      "products": [
+        {
+          "_id": "695a564a1c508c5d5ea61360",
+          "name": "Fish41415",
+          "amount": 620,
+          "price": 43451,
+          "manufacturer": "Amazon",
+          "notes": "r8zb7qd3kZWfn54yT9spiJWuYNvL8z2e5iGrPIG39IUhE7BQTHxfzGPRenisauLmO99TPbcNT7feVQWVAgPeZFKCfksMjZBz9cQQZzLUHt8IWIWj7wAORzDwVL0ERfCl6t2GQj9tU4R2UI06qRpvlbxqhX1Wntsaal362VXJibQRjo4rABP6WRGiTp3wvJoI745bV9ul8UhefM1C9B6RhZl7wgmLavuZiFOiHudEfsp4nlLb70YBOrMmyQ",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 43451,
+      "createdOn": "2026-01-04T12:00:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a56431c508c5d5ea61319",
+          "products": [
+            {
+              "_id": "695a564a1c508c5d5ea61360",
+              "name": "Fish41415",
+              "amount": 620,
+              "price": 43451,
+              "manufacturer": "Amazon",
+              "notes": "r8zb7qd3kZWfn54yT9spiJWuYNvL8z2e5iGrPIG39IUhE7BQTHxfzGPRenisauLmO99TPbcNT7feVQWVAgPeZFKCfksMjZBz9cQQZzLUHt8IWIWj7wAORzDwVL0ERfCl6t2GQj9tU4R2UI06qRpvlbxqhX1Wntsaal362VXJibQRjo4rABP6WRGiTp3wvJoI745bV9ul8UhefM1C9B6RhZl7wgmLavuZiFOiHudEfsp4nlLb70YBOrMmyQ",
+              "received": false
+            }
+          ],
+          "total_price": 43451,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:00:11.000Z",
+          "action": "Manager Assigned",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          }
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56431c508c5d5ea61319",
+          "products": [
+            {
+              "_id": "695a564a1c508c5d5ea61360",
+              "name": "Fish41415",
+              "amount": 620,
+              "price": 43451,
+              "manufacturer": "Amazon",
+              "notes": "r8zb7qd3kZWfn54yT9spiJWuYNvL8z2e5iGrPIG39IUhE7BQTHxfzGPRenisauLmO99TPbcNT7feVQWVAgPeZFKCfksMjZBz9cQQZzLUHt8IWIWj7wAORzDwVL0ERfCl6t2GQj9tU4R2UI06qRpvlbxqhX1Wntsaal362VXJibQRjo4rABP6WRGiTp3wvJoI745bV9ul8UhefM1C9B6RhZl7wgmLavuZiFOiHudEfsp4nlLb70YBOrMmyQ",
+              "received": false
+            }
+          ],
+          "total_price": 43451,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:00:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": {
+        "_id": "692337ce1c508c5d5e95334b",
+        "username": "student11@gmail.com",
+        "firstName": "Julie",
+        "lastName": "Satterfield",
+        "roles": [
+          "USER"
+        ],
+        "createdOn": "2025/11/23 16:35:26"
+      }
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

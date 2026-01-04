@@ -1,0 +1,258 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:02:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6531",
+    "etag": "W/\"1983-2KyXgc0s8qLtWLlKg237gMMZpL8\"",
+    "keep-alive": "timeout=5, max=24",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a56dd1c508c5d5ea649b4",
+      "status": "Partially Received",
+      "customer": {
+        "_id": "695a56d81c508c5d5ea64773",
+        "email": "Dante.Hansen94@hotmail.com",
+        "name": "Darwin Abshire",
+        "country": "Russia",
+        "city": "Burnsville",
+        "street": "Airport Road 62",
+        "house": 692,
+        "flat": 3094,
+        "phone": "+543055275360159",
+        "createdOn": "2026-01-04T12:02:32.000Z",
+        "notes": "b9zkFDHVr9dqsTBibB1sEcqSyCJGIV"
+      },
+      "products": [
+        {
+          "_id": "695a56da1c508c5d5ea6482d",
+          "name": "Tuna62421",
+          "amount": 418,
+          "price": 19942,
+          "manufacturer": "Google",
+          "notes": "QRMDqmWUZevjgMuggEULMa5zARQTFW4vlMpHN1Ky1cmgh4w7pRdb66zpsGB8W8nrBiVvW2oxVVcDHx1QQa5GNqhN6IC6WF3ruRxKv4HliJdwm7FUURpfjIqxGEdxbEBQNkuR6GW1NPlHFYyzL6zQyJROy4woR2ukakrfQTitl89TMf99Z09GYrqDn5A7ULqE4jDOFfalBcrq86uxcs7f1voCWq6eHCVtaJURJSnOePvhMJKoyEooHHV7PK",
+          "received": true
+        },
+        {
+          "_id": "695a56dc1c508c5d5ea64994",
+          "name": "Cheese72136",
+          "amount": 803,
+          "price": 40108,
+          "manufacturer": "Google",
+          "notes": "SprEuDtDtGWpuAaGw7SRWooFooKFUqKOcSiVKHTseyaM6Jnz1dWiEIn7GrLOkDcvHSRUZIocS4pTg3eSKJQLnaRTsDqSd88BNttuH9LDzpcqyikwvHnNnhGdX3lNO0TmA1uQYrhtGXsYYjOvg1v61E4ZbAks8Eu3exvqLsNP598xkTJ1AvvNjkEq6FZovhYwFm0KZhxmyJXYYlT4iWGxeCDn5rdRoeAWrfHYOi5LV37rPmdroWIE1V1cnF",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Evelinefurt",
+          "street": "Bernier Pass",
+          "house": 499,
+          "flat": 6827
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 60050,
+      "createdOn": "2026-01-04T12:02:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Partially Received",
+          "customer": "695a56d81c508c5d5ea64773",
+          "products": [
+            {
+              "_id": "695a56da1c508c5d5ea6482d",
+              "name": "Tuna62421",
+              "amount": 418,
+              "price": 19942,
+              "manufacturer": "Google",
+              "notes": "QRMDqmWUZevjgMuggEULMa5zARQTFW4vlMpHN1Ky1cmgh4w7pRdb66zpsGB8W8nrBiVvW2oxVVcDHx1QQa5GNqhN6IC6WF3ruRxKv4HliJdwm7FUURpfjIqxGEdxbEBQNkuR6GW1NPlHFYyzL6zQyJROy4woR2ukakrfQTitl89TMf99Z09GYrqDn5A7ULqE4jDOFfalBcrq86uxcs7f1voCWq6eHCVtaJURJSnOePvhMJKoyEooHHV7PK",
+              "received": true
+            },
+            {
+              "_id": "695a56dc1c508c5d5ea64994",
+              "name": "Cheese72136",
+              "amount": 803,
+              "price": 40108,
+              "manufacturer": "Google",
+              "notes": "SprEuDtDtGWpuAaGw7SRWooFooKFUqKOcSiVKHTseyaM6Jnz1dWiEIn7GrLOkDcvHSRUZIocS4pTg3eSKJQLnaRTsDqSd88BNttuH9LDzpcqyikwvHnNnhGdX3lNO0TmA1uQYrhtGXsYYjOvg1v61E4ZbAks8Eu3exvqLsNP598xkTJ1AvvNjkEq6FZovhYwFm0KZhxmyJXYYlT4iWGxeCDn5rdRoeAWrfHYOi5LV37rPmdroWIE1V1cnF",
+              "received": false
+            }
+          ],
+          "total_price": 60050,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Evelinefurt",
+              "street": "Bernier Pass",
+              "house": 499,
+              "flat": 6827
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:02:39.000Z",
+          "action": "Received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a56d81c508c5d5ea64773",
+          "products": [
+            {
+              "_id": "695a56da1c508c5d5ea6482d",
+              "name": "Tuna62421",
+              "amount": 418,
+              "price": 19942,
+              "manufacturer": "Google",
+              "notes": "QRMDqmWUZevjgMuggEULMa5zARQTFW4vlMpHN1Ky1cmgh4w7pRdb66zpsGB8W8nrBiVvW2oxVVcDHx1QQa5GNqhN6IC6WF3ruRxKv4HliJdwm7FUURpfjIqxGEdxbEBQNkuR6GW1NPlHFYyzL6zQyJROy4woR2ukakrfQTitl89TMf99Z09GYrqDn5A7ULqE4jDOFfalBcrq86uxcs7f1voCWq6eHCVtaJURJSnOePvhMJKoyEooHHV7PK",
+              "received": false
+            },
+            {
+              "_id": "695a56dc1c508c5d5ea64994",
+              "name": "Cheese72136",
+              "amount": 803,
+              "price": 40108,
+              "manufacturer": "Google",
+              "notes": "SprEuDtDtGWpuAaGw7SRWooFooKFUqKOcSiVKHTseyaM6Jnz1dWiEIn7GrLOkDcvHSRUZIocS4pTg3eSKJQLnaRTsDqSd88BNttuH9LDzpcqyikwvHnNnhGdX3lNO0TmA1uQYrhtGXsYYjOvg1v61E4ZbAks8Eu3exvqLsNP598xkTJ1AvvNjkEq6FZovhYwFm0KZhxmyJXYYlT4iWGxeCDn5rdRoeAWrfHYOi5LV37rPmdroWIE1V1cnF",
+              "received": false
+            }
+          ],
+          "total_price": 60050,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Evelinefurt",
+              "street": "Bernier Pass",
+              "house": 499,
+              "flat": 6827
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:02:39.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56d81c508c5d5ea64773",
+          "products": [
+            {
+              "_id": "695a56da1c508c5d5ea6482d",
+              "name": "Tuna62421",
+              "amount": 418,
+              "price": 19942,
+              "manufacturer": "Google",
+              "notes": "QRMDqmWUZevjgMuggEULMa5zARQTFW4vlMpHN1Ky1cmgh4w7pRdb66zpsGB8W8nrBiVvW2oxVVcDHx1QQa5GNqhN6IC6WF3ruRxKv4HliJdwm7FUURpfjIqxGEdxbEBQNkuR6GW1NPlHFYyzL6zQyJROy4woR2ukakrfQTitl89TMf99Z09GYrqDn5A7ULqE4jDOFfalBcrq86uxcs7f1voCWq6eHCVtaJURJSnOePvhMJKoyEooHHV7PK",
+              "received": false
+            },
+            {
+              "_id": "695a56dc1c508c5d5ea64994",
+              "name": "Cheese72136",
+              "amount": 803,
+              "price": 40108,
+              "manufacturer": "Google",
+              "notes": "SprEuDtDtGWpuAaGw7SRWooFooKFUqKOcSiVKHTseyaM6Jnz1dWiEIn7GrLOkDcvHSRUZIocS4pTg3eSKJQLnaRTsDqSd88BNttuH9LDzpcqyikwvHnNnhGdX3lNO0TmA1uQYrhtGXsYYjOvg1v61E4ZbAks8Eu3exvqLsNP598xkTJ1AvvNjkEq6FZovhYwFm0KZhxmyJXYYlT4iWGxeCDn5rdRoeAWrfHYOi5LV37rPmdroWIE1V1cnF",
+              "received": false
+            }
+          ],
+          "total_price": 60050,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Evelinefurt",
+              "street": "Bernier Pass",
+              "house": 499,
+              "flat": 6827
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:02:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56d81c508c5d5ea64773",
+          "products": [
+            {
+              "_id": "695a56da1c508c5d5ea6482d",
+              "name": "Tuna62421",
+              "amount": 418,
+              "price": 19942,
+              "manufacturer": "Google",
+              "notes": "QRMDqmWUZevjgMuggEULMa5zARQTFW4vlMpHN1Ky1cmgh4w7pRdb66zpsGB8W8nrBiVvW2oxVVcDHx1QQa5GNqhN6IC6WF3ruRxKv4HliJdwm7FUURpfjIqxGEdxbEBQNkuR6GW1NPlHFYyzL6zQyJROy4woR2ukakrfQTitl89TMf99Z09GYrqDn5A7ULqE4jDOFfalBcrq86uxcs7f1voCWq6eHCVtaJURJSnOePvhMJKoyEooHHV7PK",
+              "received": false
+            },
+            {
+              "_id": "695a56dc1c508c5d5ea64994",
+              "name": "Cheese72136",
+              "amount": 803,
+              "price": 40108,
+              "manufacturer": "Google",
+              "notes": "SprEuDtDtGWpuAaGw7SRWooFooKFUqKOcSiVKHTseyaM6Jnz1dWiEIn7GrLOkDcvHSRUZIocS4pTg3eSKJQLnaRTsDqSd88BNttuH9LDzpcqyikwvHnNnhGdX3lNO0TmA1uQYrhtGXsYYjOvg1v61E4ZbAks8Eu3exvqLsNP598xkTJ1AvvNjkEq6FZovhYwFm0KZhxmyJXYYlT4iWGxeCDn5rdRoeAWrfHYOi5LV37rPmdroWIE1V1cnF",
+              "received": false
+            }
+          ],
+          "total_price": 60050,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:02:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

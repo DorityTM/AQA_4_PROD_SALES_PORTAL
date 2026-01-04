@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:02:15 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1776",
+    "etag": "W/\"6f0-NihBqmoBQmm0fo7RiHdoT9kV4cU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a56c61c508c5d5ea63e05",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a56c21c508c5d5ea63b67",
+        "email": "Casper_Kris24@gmail.com",
+        "name": "Orion Mohr",
+        "country": "Russia",
+        "city": "Zulauffort",
+        "street": "Vida Mall 2",
+        "house": 914,
+        "flat": 2946,
+        "phone": "+950159399894904",
+        "createdOn": "2026-01-04T12:02:10.000Z",
+        "notes": "pbp6GVokp0ZYXrpho6eQqYEtm6tcJQ"
+      },
+      "products": [
+        {
+          "_id": "695a56c41c508c5d5ea63c9b",
+          "name": "Pants40794",
+          "amount": 186,
+          "price": 39311,
+          "manufacturer": "Samsung",
+          "notes": "8kTcudBysStLRTfEI7JqqTmMLgf12SQAVQJG9A7KdSj9ft0Q8gsVJ52Qe3HXmD9MV1Q81cFlwHBCP4GesQoOtbj6xERVa5zF6kNR2uMdm0BBOFbeL2nFbMRKEhbQqF1WWvBHA7hh8YTca6NEpoEbYoYNn88vKjtan9WOOAfaqdWjBVXfAif5vu9eVxJ3YR4J1FJ7jdVOmBxiTwaS3qEoQlGylEh3IMI778vyZPr1GM8YurYuWgRJbIBjXf",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 39311,
+      "createdOn": "2026-01-04T12:02:14.000Z",
+      "comments": [
+        {
+          "text": "Please check < invalid tag",
+          "createdOn": "2026-01-04T12:02:15.000Z",
+          "_id": "695a56c71c508c5d5ea63e73"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a56c21c508c5d5ea63b67",
+          "products": [
+            {
+              "_id": "695a56c41c508c5d5ea63c9b",
+              "name": "Pants40794",
+              "amount": 186,
+              "price": 39311,
+              "manufacturer": "Samsung",
+              "notes": "8kTcudBysStLRTfEI7JqqTmMLgf12SQAVQJG9A7KdSj9ft0Q8gsVJ52Qe3HXmD9MV1Q81cFlwHBCP4GesQoOtbj6xERVa5zF6kNR2uMdm0BBOFbeL2nFbMRKEhbQqF1WWvBHA7hh8YTca6NEpoEbYoYNn88vKjtan9WOOAfaqdWjBVXfAif5vu9eVxJ3YR4J1FJ7jdVOmBxiTwaS3qEoQlGylEh3IMI778vyZPr1GM8YurYuWgRJbIBjXf",
+              "received": false
+            }
+          ],
+          "total_price": 39311,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:02:14.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

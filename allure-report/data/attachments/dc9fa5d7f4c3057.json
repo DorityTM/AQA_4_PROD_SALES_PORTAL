@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:20:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2751",
+    "etag": "W/\"abf-OWarQc9x8XVAzY7hxSaglX3iqf8\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a5b231c508c5d5ea79cb2",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a5b211c508c5d5ea79c89",
+        "email": "Avery41@hotmail.com",
+        "name": "Glen Luettgen",
+        "country": "Great Britain",
+        "city": "Macon Bibb County",
+        "street": "Carmel Wall 60",
+        "house": 102,
+        "flat": 56,
+        "phone": "+424604527602550",
+        "createdOn": "2026-01-04T12:20:49.000Z",
+        "notes": "36pbRdgnIZqJQcrEZknxTtsbjRgcgd"
+      },
+      "products": [
+        {
+          "_id": "695a5b231c508c5d5ea79caa",
+          "name": "Fish28459",
+          "amount": 547,
+          "price": 69882,
+          "manufacturer": "Apple",
+          "notes": "H98D74Sx0O4XpPUVpI3Fj8j0Kza1l8wneXlUl6Cd3wHOaQgcJKX5EeSYtikR7npiU0sD8q9ZONd64ZlUr0kj3zEkGK4VNQZq2YyLd7nJgXEpib8xcke5RuJpcmRnjympsjGPafL6lJSepQVCBVwCLPFRe46GUQZRMENdqmJjpmQAtQl5b4MbwVW3sy74qAC2lwPYnRcZdtwxuRfwWHVBB7uWZcmO5dwIHJphdwYgmsXOpl6yURF9oQ6Wb3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Lake Arlene",
+          "street": "Hattie Knolls",
+          "house": 690,
+          "flat": 1691
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 69882,
+      "createdOn": "2026-01-04T12:20:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a5b211c508c5d5ea79c89",
+          "products": [
+            {
+              "_id": "695a5b231c508c5d5ea79caa",
+              "name": "Fish28459",
+              "amount": 547,
+              "price": 69882,
+              "manufacturer": "Apple",
+              "notes": "H98D74Sx0O4XpPUVpI3Fj8j0Kza1l8wneXlUl6Cd3wHOaQgcJKX5EeSYtikR7npiU0sD8q9ZONd64ZlUr0kj3zEkGK4VNQZq2YyLd7nJgXEpib8xcke5RuJpcmRnjympsjGPafL6lJSepQVCBVwCLPFRe46GUQZRMENdqmJjpmQAtQl5b4MbwVW3sy74qAC2lwPYnRcZdtwxuRfwWHVBB7uWZcmO5dwIHJphdwYgmsXOpl6yURF9oQ6Wb3",
+              "received": false
+            }
+          ],
+          "total_price": 69882,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Lake Arlene",
+              "street": "Hattie Knolls",
+              "house": 690,
+              "flat": 1691
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:20:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a5b211c508c5d5ea79c89",
+          "products": [
+            {
+              "_id": "695a5b231c508c5d5ea79caa",
+              "name": "Fish28459",
+              "amount": 547,
+              "price": 69882,
+              "manufacturer": "Apple",
+              "notes": "H98D74Sx0O4XpPUVpI3Fj8j0Kza1l8wneXlUl6Cd3wHOaQgcJKX5EeSYtikR7npiU0sD8q9ZONd64ZlUr0kj3zEkGK4VNQZq2YyLd7nJgXEpib8xcke5RuJpcmRnjympsjGPafL6lJSepQVCBVwCLPFRe46GUQZRMENdqmJjpmQAtQl5b4MbwVW3sy74qAC2lwPYnRcZdtwxuRfwWHVBB7uWZcmO5dwIHJphdwYgmsXOpl6yURF9oQ6Wb3",
+              "received": false
+            }
+          ],
+          "total_price": 69882,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:20:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:03:08 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-8Hz1Q721DWXBrZNgFP4lY2Xlyos\"",
+    "keep-alive": "timeout=5, max=2",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a56fa1c508c5d5ea655e3",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a56f91c508c5d5ea6559c",
+        "email": "Bradford.Gutkowski@yahoo.com",
+        "name": "Robb Wolff",
+        "country": "Canada",
+        "city": "New Jaydenville",
+        "street": "Paucek Spurs 72",
+        "house": 664,
+        "flat": 5967,
+        "phone": "+317834077675660",
+        "createdOn": "2026-01-04T12:03:05.000Z",
+        "notes": "1CA8ImuFEpf3tR6oRM1ewefgjDUS07"
+      },
+      "products": [
+        {
+          "_id": "695a56fa1c508c5d5ea655cb",
+          "name": "Keyboard97560",
+          "amount": 347,
+          "price": 64088,
+          "manufacturer": "Samsung",
+          "notes": "gqgp6E4zxndgZcfHb6qAFw2ur3IRBWal4GOia79mJND2rCznXk2aHrb84AnMdnZOT8RI4YGcwcwMdiZpPptfUNm42HILpAVKIf4bNK5XYXDY2SxIX71SSwrE3GU7ZWIpQk2LfaSKDTckz5EToEzKSMVzknMbW37WjCfBld2FRW6D5JdmhqJMjPQEK3o0mf96LPys5fibIbINWo3ul6NrV28Z2wrieBIAhBvVEVlAu3zYzydcx7qtxms9T5",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "East Toni",
+          "street": "Howell View",
+          "house": 813,
+          "flat": 8933
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64088,
+      "createdOn": "2026-01-04T12:03:06.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a56f91c508c5d5ea6559c",
+          "products": [
+            {
+              "_id": "695a56fa1c508c5d5ea655cb",
+              "name": "Keyboard97560",
+              "amount": 347,
+              "price": 64088,
+              "manufacturer": "Samsung",
+              "notes": "gqgp6E4zxndgZcfHb6qAFw2ur3IRBWal4GOia79mJND2rCznXk2aHrb84AnMdnZOT8RI4YGcwcwMdiZpPptfUNm42HILpAVKIf4bNK5XYXDY2SxIX71SSwrE3GU7ZWIpQk2LfaSKDTckz5EToEzKSMVzknMbW37WjCfBld2FRW6D5JdmhqJMjPQEK3o0mf96LPys5fibIbINWo3ul6NrV28Z2wrieBIAhBvVEVlAu3zYzydcx7qtxms9T5",
+              "received": false
+            }
+          ],
+          "total_price": 64088,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Toni",
+              "street": "Howell View",
+              "house": 813,
+              "flat": 8933
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:03:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56f91c508c5d5ea6559c",
+          "products": [
+            {
+              "_id": "695a56fa1c508c5d5ea655cb",
+              "name": "Keyboard97560",
+              "amount": 347,
+              "price": 64088,
+              "manufacturer": "Samsung",
+              "notes": "gqgp6E4zxndgZcfHb6qAFw2ur3IRBWal4GOia79mJND2rCznXk2aHrb84AnMdnZOT8RI4YGcwcwMdiZpPptfUNm42HILpAVKIf4bNK5XYXDY2SxIX71SSwrE3GU7ZWIpQk2LfaSKDTckz5EToEzKSMVzknMbW37WjCfBld2FRW6D5JdmhqJMjPQEK3o0mf96LPys5fibIbINWo3ul6NrV28Z2wrieBIAhBvVEVlAu3zYzydcx7qtxms9T5",
+              "received": false
+            }
+          ],
+          "total_price": 64088,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:03:06.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

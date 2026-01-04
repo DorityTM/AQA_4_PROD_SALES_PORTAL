@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:00:56 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4588",
+    "etag": "W/\"11ec-Ys0H3OsBUbd4DscqCqTHr0QvRVQ\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a56771c508c5d5ea62000",
+      "status": "Received",
+      "customer": {
+        "_id": "695a56721c508c5d5ea61f97",
+        "email": "Zachariah.Stroman90@gmail.com",
+        "name": "Belle Mayert",
+        "country": "Canada",
+        "city": "Ebertberg",
+        "street": "Meadow Drive 92",
+        "house": 7,
+        "flat": 758,
+        "phone": "+952626607639890",
+        "createdOn": "2026-01-04T12:00:50.000Z",
+        "notes": "CntHCQd4t2NXMfNLbw0esLcDfFCR2V"
+      },
+      "products": [
+        {
+          "_id": "695a56761c508c5d5ea61fdc",
+          "name": "Fish66511",
+          "amount": 186,
+          "price": 61572,
+          "manufacturer": "Xiaomi",
+          "notes": "qjN3DoBXuYBUDlITAmgoPn1gtanpoANBfkrY6euV4EjfnNpluaORhXxvCjRVFS4JXEtfPnLs7TrCAHgVM2QekjPemBvbQpPakyS9mYh28ML2PehnZ6m6ifpCJkns8DyAJyHsrxZMCULGj5C171kwyyAgepVz0DFMp1o7pzz5yMBRL1Pn9Qe1mRnPCz2xIUlleLijG7k0G8XYrvO9vzNQz45AJT2E8CQJRmMh0S8DGv40uZSTnKinMxVAnv",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Wilhelmville",
+          "street": "Hoppe Square",
+          "house": 116,
+          "flat": 2254
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 61572,
+      "createdOn": "2026-01-04T12:00:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695a56721c508c5d5ea61f97",
+          "products": [
+            {
+              "_id": "695a56761c508c5d5ea61fdc",
+              "name": "Fish66511",
+              "amount": 186,
+              "price": 61572,
+              "manufacturer": "Xiaomi",
+              "notes": "qjN3DoBXuYBUDlITAmgoPn1gtanpoANBfkrY6euV4EjfnNpluaORhXxvCjRVFS4JXEtfPnLs7TrCAHgVM2QekjPemBvbQpPakyS9mYh28ML2PehnZ6m6ifpCJkns8DyAJyHsrxZMCULGj5C171kwyyAgepVz0DFMp1o7pzz5yMBRL1Pn9Qe1mRnPCz2xIUlleLijG7k0G8XYrvO9vzNQz45AJT2E8CQJRmMh0S8DGv40uZSTnKinMxVAnv",
+              "received": true
+            }
+          ],
+          "total_price": 61572,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Wilhelmville",
+              "street": "Hoppe Square",
+              "house": 116,
+              "flat": 2254
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:00:56.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a56721c508c5d5ea61f97",
+          "products": [
+            {
+              "_id": "695a56761c508c5d5ea61fdc",
+              "name": "Fish66511",
+              "amount": 186,
+              "price": 61572,
+              "manufacturer": "Xiaomi",
+              "notes": "qjN3DoBXuYBUDlITAmgoPn1gtanpoANBfkrY6euV4EjfnNpluaORhXxvCjRVFS4JXEtfPnLs7TrCAHgVM2QekjPemBvbQpPakyS9mYh28ML2PehnZ6m6ifpCJkns8DyAJyHsrxZMCULGj5C171kwyyAgepVz0DFMp1o7pzz5yMBRL1Pn9Qe1mRnPCz2xIUlleLijG7k0G8XYrvO9vzNQz45AJT2E8CQJRmMh0S8DGv40uZSTnKinMxVAnv",
+              "received": false
+            }
+          ],
+          "total_price": 61572,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Wilhelmville",
+              "street": "Hoppe Square",
+              "house": 116,
+              "flat": 2254
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:00:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56721c508c5d5ea61f97",
+          "products": [
+            {
+              "_id": "695a56761c508c5d5ea61fdc",
+              "name": "Fish66511",
+              "amount": 186,
+              "price": 61572,
+              "manufacturer": "Xiaomi",
+              "notes": "qjN3DoBXuYBUDlITAmgoPn1gtanpoANBfkrY6euV4EjfnNpluaORhXxvCjRVFS4JXEtfPnLs7TrCAHgVM2QekjPemBvbQpPakyS9mYh28ML2PehnZ6m6ifpCJkns8DyAJyHsrxZMCULGj5C171kwyyAgepVz0DFMp1o7pzz5yMBRL1Pn9Qe1mRnPCz2xIUlleLijG7k0G8XYrvO9vzNQz45AJT2E8CQJRmMh0S8DGv40uZSTnKinMxVAnv",
+              "received": false
+            }
+          ],
+          "total_price": 61572,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Wilhelmville",
+              "street": "Hoppe Square",
+              "house": 116,
+              "flat": 2254
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:00:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56721c508c5d5ea61f97",
+          "products": [
+            {
+              "_id": "695a56761c508c5d5ea61fdc",
+              "name": "Fish66511",
+              "amount": 186,
+              "price": 61572,
+              "manufacturer": "Xiaomi",
+              "notes": "qjN3DoBXuYBUDlITAmgoPn1gtanpoANBfkrY6euV4EjfnNpluaORhXxvCjRVFS4JXEtfPnLs7TrCAHgVM2QekjPemBvbQpPakyS9mYh28ML2PehnZ6m6ifpCJkns8DyAJyHsrxZMCULGj5C171kwyyAgepVz0DFMp1o7pzz5yMBRL1Pn9Qe1mRnPCz2xIUlleLijG7k0G8XYrvO9vzNQz45AJT2E8CQJRmMh0S8DGv40uZSTnKinMxVAnv",
+              "received": false
+            }
+          ],
+          "total_price": 61572,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:00:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

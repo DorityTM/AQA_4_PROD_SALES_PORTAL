@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:15:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3679",
+    "etag": "W/\"e5f-T9cBQ7OgKTyrB33UqLOlFhE9vZU\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a59d61c508c5d5ea7598b",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a59d41c508c5d5ea75903",
+        "email": "Manuel_Harris29@gmail.com",
+        "name": "Lance Halvorson",
+        "country": "Great Britain",
+        "city": "Littlehaven",
+        "street": "W 2nd Street 13",
+        "house": 351,
+        "flat": 1416,
+        "phone": "+356684915185851",
+        "createdOn": "2026-01-04T12:15:16.000Z",
+        "notes": "w47CS70vzl3bGpkbvWBOy2ZX1XptF5"
+      },
+      "products": [
+        {
+          "_id": "695a59d61c508c5d5ea7597d",
+          "name": "Hat16377",
+          "amount": 287,
+          "price": 49897,
+          "manufacturer": "Amazon",
+          "notes": "uaaKCATIVeQoEnvaXBVSUVSQa1yIoMJNO8H99BENYoahZYfhiYGYcmrcIgQNDuu5FHtHkXO928mgIBqEgZzMa80cHZxynkxTK39gLflYjpTFeWIgiN8i6F8KUiq4oX7cdYHwTZr0tRahO4mKjnfM29mcTNDo81IDbeeh4lGkG16lHXXcK0MslF3YcY1ffuUnApHM49Fn6sIALpT5TebIgLyxwJFfiZHHcIyfxp3GXwCtOCqPl3xB6HP2y4",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Bergeside",
+          "street": "State Street",
+          "house": 40,
+          "flat": 7285
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 49897,
+      "createdOn": "2026-01-04T12:15:18.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a59d41c508c5d5ea75903",
+          "products": [
+            {
+              "_id": "695a59d61c508c5d5ea7597d",
+              "name": "Hat16377",
+              "amount": 287,
+              "price": 49897,
+              "manufacturer": "Amazon",
+              "notes": "uaaKCATIVeQoEnvaXBVSUVSQa1yIoMJNO8H99BENYoahZYfhiYGYcmrcIgQNDuu5FHtHkXO928mgIBqEgZzMa80cHZxynkxTK39gLflYjpTFeWIgiN8i6F8KUiq4oX7cdYHwTZr0tRahO4mKjnfM29mcTNDo81IDbeeh4lGkG16lHXXcK0MslF3YcY1ffuUnApHM49Fn6sIALpT5TebIgLyxwJFfiZHHcIyfxp3GXwCtOCqPl3xB6HP2y4",
+              "received": false
+            }
+          ],
+          "total_price": 49897,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Bergeside",
+              "street": "State Street",
+              "house": 40,
+              "flat": 7285
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:15:19.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a59d41c508c5d5ea75903",
+          "products": [
+            {
+              "_id": "695a59d61c508c5d5ea7597d",
+              "name": "Hat16377",
+              "amount": 287,
+              "price": 49897,
+              "manufacturer": "Amazon",
+              "notes": "uaaKCATIVeQoEnvaXBVSUVSQa1yIoMJNO8H99BENYoahZYfhiYGYcmrcIgQNDuu5FHtHkXO928mgIBqEgZzMa80cHZxynkxTK39gLflYjpTFeWIgiN8i6F8KUiq4oX7cdYHwTZr0tRahO4mKjnfM29mcTNDo81IDbeeh4lGkG16lHXXcK0MslF3YcY1ffuUnApHM49Fn6sIALpT5TebIgLyxwJFfiZHHcIyfxp3GXwCtOCqPl3xB6HP2y4",
+              "received": false
+            }
+          ],
+          "total_price": 49897,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Bergeside",
+              "street": "State Street",
+              "house": 40,
+              "flat": 7285
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:15:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a59d41c508c5d5ea75903",
+          "products": [
+            {
+              "_id": "695a59d61c508c5d5ea7597d",
+              "name": "Hat16377",
+              "amount": 287,
+              "price": 49897,
+              "manufacturer": "Amazon",
+              "notes": "uaaKCATIVeQoEnvaXBVSUVSQa1yIoMJNO8H99BENYoahZYfhiYGYcmrcIgQNDuu5FHtHkXO928mgIBqEgZzMa80cHZxynkxTK39gLflYjpTFeWIgiN8i6F8KUiq4oX7cdYHwTZr0tRahO4mKjnfM29mcTNDo81IDbeeh4lGkG16lHXXcK0MslF3YcY1ffuUnApHM49Fn6sIALpT5TebIgLyxwJFfiZHHcIyfxp3GXwCtOCqPl3xB6HP2y4",
+              "received": false
+            }
+          ],
+          "total_price": 49897,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:15:18.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

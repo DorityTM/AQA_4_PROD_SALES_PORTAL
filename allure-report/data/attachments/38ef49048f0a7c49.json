@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:02:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4594",
+    "etag": "W/\"11f2-qppZoQDv1CaHk39sSZV3eK9MQDk\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a56df1c508c5d5ea64ad6",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a56dc1c508c5d5ea6499e",
+        "email": "Ashley_Heller@gmail.com",
+        "name": "Lynn Rodriguez",
+        "country": "France",
+        "city": "Altenwerthfurt",
+        "street": "Avery Mountains 96",
+        "house": 257,
+        "flat": 2897,
+        "phone": "+466249404377047",
+        "createdOn": "2026-01-04T12:02:36.000Z",
+        "notes": "hu9eVI3ddmaJYqGWuNizETTvmkAjAU"
+      },
+      "products": [
+        {
+          "_id": "695a56de1c508c5d5ea64abc",
+          "name": "Shirt4884",
+          "amount": 310,
+          "price": 39000,
+          "manufacturer": "Samsung",
+          "notes": "oeTF9Kv73cE15DejacVf6Kl3sc5Bbf3OmaOJKRsBcUykT6EWcXWH0kdp77W3PlD9be5wcvsBPvIxuSOeJybGLmoOnFlSJxB7q4GDYQUmbb3IqRq0bN9PUu2hNHnBKzuuaCme30vfbS3xBRuVPRVw1OgQ8iFt7VefLHqV4X0WBTsrrlu5J3OwrZ7czxGPtnzlPXpNIiMQlEBrStcFpjdJBI3HQQhy63IGX2HEtYTDBjqNaDkLjp2EaBvNVp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Apple Valley",
+          "street": "Lydia Cliffs",
+          "house": 566,
+          "flat": 2876
+        },
+        "finalDate": "2025-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 39000,
+      "createdOn": "2026-01-04T12:02:39.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a56dc1c508c5d5ea6499e",
+          "products": [
+            {
+              "_id": "695a56de1c508c5d5ea64abc",
+              "name": "Shirt4884",
+              "amount": 310,
+              "price": 39000,
+              "manufacturer": "Samsung",
+              "notes": "oeTF9Kv73cE15DejacVf6Kl3sc5Bbf3OmaOJKRsBcUykT6EWcXWH0kdp77W3PlD9be5wcvsBPvIxuSOeJybGLmoOnFlSJxB7q4GDYQUmbb3IqRq0bN9PUu2hNHnBKzuuaCme30vfbS3xBRuVPRVw1OgQ8iFt7VefLHqV4X0WBTsrrlu5J3OwrZ7czxGPtnzlPXpNIiMQlEBrStcFpjdJBI3HQQhy63IGX2HEtYTDBjqNaDkLjp2EaBvNVp",
+              "received": false
+            }
+          ],
+          "total_price": 39000,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Apple Valley",
+              "street": "Lydia Cliffs",
+              "house": 566,
+              "flat": 2876
+            },
+            "finalDate": "2025-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:02:40.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56dc1c508c5d5ea6499e",
+          "products": [
+            {
+              "_id": "695a56de1c508c5d5ea64abc",
+              "name": "Shirt4884",
+              "amount": 310,
+              "price": 39000,
+              "manufacturer": "Samsung",
+              "notes": "oeTF9Kv73cE15DejacVf6Kl3sc5Bbf3OmaOJKRsBcUykT6EWcXWH0kdp77W3PlD9be5wcvsBPvIxuSOeJybGLmoOnFlSJxB7q4GDYQUmbb3IqRq0bN9PUu2hNHnBKzuuaCme30vfbS3xBRuVPRVw1OgQ8iFt7VefLHqV4X0WBTsrrlu5J3OwrZ7czxGPtnzlPXpNIiMQlEBrStcFpjdJBI3HQQhy63IGX2HEtYTDBjqNaDkLjp2EaBvNVp",
+              "received": false
+            }
+          ],
+          "total_price": 39000,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Robelstad",
+              "street": "East Street",
+              "house": 114,
+              "flat": 2622
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T12:02:40.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56dc1c508c5d5ea6499e",
+          "products": [
+            {
+              "_id": "695a56de1c508c5d5ea64abc",
+              "name": "Shirt4884",
+              "amount": 310,
+              "price": 39000,
+              "manufacturer": "Samsung",
+              "notes": "oeTF9Kv73cE15DejacVf6Kl3sc5Bbf3OmaOJKRsBcUykT6EWcXWH0kdp77W3PlD9be5wcvsBPvIxuSOeJybGLmoOnFlSJxB7q4GDYQUmbb3IqRq0bN9PUu2hNHnBKzuuaCme30vfbS3xBRuVPRVw1OgQ8iFt7VefLHqV4X0WBTsrrlu5J3OwrZ7czxGPtnzlPXpNIiMQlEBrStcFpjdJBI3HQQhy63IGX2HEtYTDBjqNaDkLjp2EaBvNVp",
+              "received": false
+            }
+          ],
+          "total_price": 39000,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "East Jannieburgh",
+              "street": "School Close",
+              "house": 618,
+              "flat": 9744
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:02:39.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56dc1c508c5d5ea6499e",
+          "products": [
+            {
+              "_id": "695a56de1c508c5d5ea64abc",
+              "name": "Shirt4884",
+              "amount": 310,
+              "price": 39000,
+              "manufacturer": "Samsung",
+              "notes": "oeTF9Kv73cE15DejacVf6Kl3sc5Bbf3OmaOJKRsBcUykT6EWcXWH0kdp77W3PlD9be5wcvsBPvIxuSOeJybGLmoOnFlSJxB7q4GDYQUmbb3IqRq0bN9PUu2hNHnBKzuuaCme30vfbS3xBRuVPRVw1OgQ8iFt7VefLHqV4X0WBTsrrlu5J3OwrZ7czxGPtnzlPXpNIiMQlEBrStcFpjdJBI3HQQhy63IGX2HEtYTDBjqNaDkLjp2EaBvNVp",
+              "received": false
+            }
+          ],
+          "total_price": 39000,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:02:39.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

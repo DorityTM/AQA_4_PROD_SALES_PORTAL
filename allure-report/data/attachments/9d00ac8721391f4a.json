@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:22:33 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2761",
+    "etag": "W/\"ac9-ZNkn1oRWYKDtb6pthEmBaRQLTlc\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a5b891c508c5d5ea7b4f9",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a5b871c508c5d5ea7b4c5",
+        "email": "Kris.Stoltenberg@hotmail.com",
+        "name": "Jessy Welch",
+        "country": "Belarus",
+        "city": "Port Horaciotown",
+        "street": "Buckridge Manors 34",
+        "house": 234,
+        "flat": 7675,
+        "phone": "+005674260473532",
+        "createdOn": "2026-01-04T12:22:31.000Z",
+        "notes": "i4JqhHGNz2ZZZq5CMywCKY7FPxDh2O"
+      },
+      "products": [
+        {
+          "_id": "695a5b881c508c5d5ea7b4f1",
+          "name": "Chips40503",
+          "amount": 998,
+          "price": 73622,
+          "manufacturer": "Tesla",
+          "notes": "GbNFMdtaycphdtFeKVLCkBIG6xVjowSjZnDDoGX9hCXGLKPAetO0KzxReSkXbninSO16fuyr1Et6LUg7LaEDORy160I7tjGx7UEaKIfMusWIbKNLoosADs7ufBr7RATPqTWWvPZMuaT4KWoCkCAoBWzr1lnz4uYw4k7t7qhwbokDG1vCys2tx5a78gpi2FgHqFrF1ejPjvfmEEiPcUdnF43B1II4SKCvf3IwMFuvdNqm0GV8mrDtLuAg9B",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Robelstad",
+          "street": "Estefania Light",
+          "house": 390,
+          "flat": 6405
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 73622,
+      "createdOn": "2026-01-04T12:22:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a5b871c508c5d5ea7b4c5",
+          "products": [
+            {
+              "_id": "695a5b881c508c5d5ea7b4f1",
+              "name": "Chips40503",
+              "amount": 998,
+              "price": 73622,
+              "manufacturer": "Tesla",
+              "notes": "GbNFMdtaycphdtFeKVLCkBIG6xVjowSjZnDDoGX9hCXGLKPAetO0KzxReSkXbninSO16fuyr1Et6LUg7LaEDORy160I7tjGx7UEaKIfMusWIbKNLoosADs7ufBr7RATPqTWWvPZMuaT4KWoCkCAoBWzr1lnz4uYw4k7t7qhwbokDG1vCys2tx5a78gpi2FgHqFrF1ejPjvfmEEiPcUdnF43B1II4SKCvf3IwMFuvdNqm0GV8mrDtLuAg9B",
+              "received": false
+            }
+          ],
+          "total_price": 73622,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Robelstad",
+              "street": "Estefania Light",
+              "house": 390,
+              "flat": 6405
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:22:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a5b871c508c5d5ea7b4c5",
+          "products": [
+            {
+              "_id": "695a5b881c508c5d5ea7b4f1",
+              "name": "Chips40503",
+              "amount": 998,
+              "price": 73622,
+              "manufacturer": "Tesla",
+              "notes": "GbNFMdtaycphdtFeKVLCkBIG6xVjowSjZnDDoGX9hCXGLKPAetO0KzxReSkXbninSO16fuyr1Et6LUg7LaEDORy160I7tjGx7UEaKIfMusWIbKNLoosADs7ufBr7RATPqTWWvPZMuaT4KWoCkCAoBWzr1lnz4uYw4k7t7qhwbokDG1vCys2tx5a78gpi2FgHqFrF1ejPjvfmEEiPcUdnF43B1II4SKCvf3IwMFuvdNqm0GV8mrDtLuAg9B",
+              "received": false
+            }
+          ],
+          "total_price": 73622,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:22:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

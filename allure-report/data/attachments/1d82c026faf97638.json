@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:00:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3906",
+    "etag": "W/\"f42-xJFzblP5ik+Vri+oL0zgPUl7uHI\"",
+    "keep-alive": "timeout=5, max=14",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a56701c508c5d5ea61f31",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a566e1c508c5d5ea61f01",
+        "email": "Arden_Torp92@gmail.com",
+        "name": "Rosario Cummerata",
+        "country": "Ukraine",
+        "city": "Margate",
+        "street": "Haag Brook 12",
+        "house": 828,
+        "flat": 8342,
+        "phone": "+079954165281955",
+        "createdOn": "2026-01-04T12:00:46.000Z",
+        "notes": "aMKLaciOTFZ4bdG5X0iBYUVbd9kciC"
+      },
+      "products": [
+        {
+          "_id": "695a566f1c508c5d5ea61f18",
+          "name": "Chips30182",
+          "amount": 380,
+          "price": 98373,
+          "manufacturer": "Sony",
+          "notes": "wX0KrnvTXfuyKe9BLQA33LtKNC0pwgs8KIvDTUMps8aYKoIurO3CQdyK5jTSCLrcCRwMdKBCkoSEvQC1Bubqdq1JP5PSV5pRpxdbnc91LGV419T9qgaoLBrkVHwQAeS9BRhvHU205aXOrWWV1TziexS2A3zr1csgWWvbvsTzvhrF2e4HhUa4UxtSeNN437mlDtCtozCkanvWAfuynn6rI9WEogdqsFobs8nCVmKKuCA0XKt6eizyodQeHd",
+          "received": false
+        },
+        {
+          "_id": "695a56701c508c5d5ea61f25",
+          "name": "Chair12742",
+          "amount": 44,
+          "price": 27577,
+          "manufacturer": "Samsung",
+          "notes": "eGE0KpfHMkpcTEl29L2mcTOURioJnHQCqOPFPuXvLamaFzDzRquJKxyboar8FEvuwC2POTLlrsq8B9k3juUUA0ALP0JmHtE1xsgt8k7KSsaDQrM4sDV8DCW8XC3DvZGy11VCBLUdv8nZrak5SwE60BjjEIhrShisGhyi5JCQCfGlNycDeClrBfCk3jpak34aBqEor5bIUTs1UPKysynW3nu8ecvvVW5VWLzhHZyP58oRImf5QfSijLUesO",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Kesslerburgh",
+          "street": "Nichole Centers",
+          "house": 891,
+          "flat": 1070
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 125950,
+      "createdOn": "2026-01-04T12:00:48.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a566e1c508c5d5ea61f01",
+          "products": [
+            {
+              "_id": "695a566f1c508c5d5ea61f18",
+              "name": "Chips30182",
+              "amount": 380,
+              "price": 98373,
+              "manufacturer": "Sony",
+              "notes": "wX0KrnvTXfuyKe9BLQA33LtKNC0pwgs8KIvDTUMps8aYKoIurO3CQdyK5jTSCLrcCRwMdKBCkoSEvQC1Bubqdq1JP5PSV5pRpxdbnc91LGV419T9qgaoLBrkVHwQAeS9BRhvHU205aXOrWWV1TziexS2A3zr1csgWWvbvsTzvhrF2e4HhUa4UxtSeNN437mlDtCtozCkanvWAfuynn6rI9WEogdqsFobs8nCVmKKuCA0XKt6eizyodQeHd",
+              "received": false
+            },
+            {
+              "_id": "695a56701c508c5d5ea61f25",
+              "name": "Chair12742",
+              "amount": 44,
+              "price": 27577,
+              "manufacturer": "Samsung",
+              "notes": "eGE0KpfHMkpcTEl29L2mcTOURioJnHQCqOPFPuXvLamaFzDzRquJKxyboar8FEvuwC2POTLlrsq8B9k3juUUA0ALP0JmHtE1xsgt8k7KSsaDQrM4sDV8DCW8XC3DvZGy11VCBLUdv8nZrak5SwE60BjjEIhrShisGhyi5JCQCfGlNycDeClrBfCk3jpak34aBqEor5bIUTs1UPKysynW3nu8ecvvVW5VWLzhHZyP58oRImf5QfSijLUesO",
+              "received": false
+            }
+          ],
+          "total_price": 125950,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Kesslerburgh",
+              "street": "Nichole Centers",
+              "house": 891,
+              "flat": 1070
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:00:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a566e1c508c5d5ea61f01",
+          "products": [
+            {
+              "_id": "695a566f1c508c5d5ea61f18",
+              "name": "Chips30182",
+              "amount": 380,
+              "price": 98373,
+              "manufacturer": "Sony",
+              "notes": "wX0KrnvTXfuyKe9BLQA33LtKNC0pwgs8KIvDTUMps8aYKoIurO3CQdyK5jTSCLrcCRwMdKBCkoSEvQC1Bubqdq1JP5PSV5pRpxdbnc91LGV419T9qgaoLBrkVHwQAeS9BRhvHU205aXOrWWV1TziexS2A3zr1csgWWvbvsTzvhrF2e4HhUa4UxtSeNN437mlDtCtozCkanvWAfuynn6rI9WEogdqsFobs8nCVmKKuCA0XKt6eizyodQeHd",
+              "received": false
+            },
+            {
+              "_id": "695a56701c508c5d5ea61f25",
+              "name": "Chair12742",
+              "amount": 44,
+              "price": 27577,
+              "manufacturer": "Samsung",
+              "notes": "eGE0KpfHMkpcTEl29L2mcTOURioJnHQCqOPFPuXvLamaFzDzRquJKxyboar8FEvuwC2POTLlrsq8B9k3juUUA0ALP0JmHtE1xsgt8k7KSsaDQrM4sDV8DCW8XC3DvZGy11VCBLUdv8nZrak5SwE60BjjEIhrShisGhyi5JCQCfGlNycDeClrBfCk3jpak34aBqEor5bIUTs1UPKysynW3nu8ecvvVW5VWLzhHZyP58oRImf5QfSijLUesO",
+              "received": false
+            }
+          ],
+          "total_price": 125950,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:00:48.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

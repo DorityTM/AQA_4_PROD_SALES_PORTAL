@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:08:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4605",
+    "etag": "W/\"11fd-vrW775YMFwbso1FPgxaYBXfCIaY\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a584b1c508c5d5ea6d06d",
+      "status": "Received",
+      "customer": {
+        "_id": "695a58491c508c5d5ea6d018",
+        "email": "Floy_Heaney64@hotmail.com",
+        "name": "Jayson Aufderhar",
+        "country": "Germany",
+        "city": "Erdmanport",
+        "street": "Eric Roads 13",
+        "house": 37,
+        "flat": 750,
+        "phone": "+516822429646153",
+        "createdOn": "2026-01-04T12:08:41.000Z",
+        "notes": "IcCHQdHR37rrHFax32PJAAtC8AMdFC"
+      },
+      "products": [
+        {
+          "_id": "695a584a1c508c5d5ea6d060",
+          "name": "Pants24019",
+          "amount": 615,
+          "price": 47076,
+          "manufacturer": "Apple",
+          "notes": "FGdRkN1r3if9FeERZMlmeQDW623MWqXbL2ToRihyV8XtUHkBirnTcEDMSmupWm7rzW0OkdQ5K9bOw55XEJorwWFfHbw0AqhPJSnFDUUk3pckDVnQTaKWpC1ziOFLStmdxZtxrrDK0t3nCzv1dnuje6ADtVowEJVYFAuUiJEJOyBj9JVtZEW8cWI8ZC37w4Ta5JzhoYrWAhHQIRDi8gE3cM4dVSpL5gopOXaavbWFG9D3SC7xOgg4lZsN66",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Irondequoit",
+          "street": "Viviane Falls",
+          "house": 514,
+          "flat": 5496
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47076,
+      "createdOn": "2026-01-04T12:08:43.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695a58491c508c5d5ea6d018",
+          "products": [
+            {
+              "_id": "695a584a1c508c5d5ea6d060",
+              "name": "Pants24019",
+              "amount": 615,
+              "price": 47076,
+              "manufacturer": "Apple",
+              "notes": "FGdRkN1r3if9FeERZMlmeQDW623MWqXbL2ToRihyV8XtUHkBirnTcEDMSmupWm7rzW0OkdQ5K9bOw55XEJorwWFfHbw0AqhPJSnFDUUk3pckDVnQTaKWpC1ziOFLStmdxZtxrrDK0t3nCzv1dnuje6ADtVowEJVYFAuUiJEJOyBj9JVtZEW8cWI8ZC37w4Ta5JzhoYrWAhHQIRDi8gE3cM4dVSpL5gopOXaavbWFG9D3SC7xOgg4lZsN66",
+              "received": true
+            }
+          ],
+          "total_price": 47076,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Irondequoit",
+              "street": "Viviane Falls",
+              "house": 514,
+              "flat": 5496
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:08:44.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a58491c508c5d5ea6d018",
+          "products": [
+            {
+              "_id": "695a584a1c508c5d5ea6d060",
+              "name": "Pants24019",
+              "amount": 615,
+              "price": 47076,
+              "manufacturer": "Apple",
+              "notes": "FGdRkN1r3if9FeERZMlmeQDW623MWqXbL2ToRihyV8XtUHkBirnTcEDMSmupWm7rzW0OkdQ5K9bOw55XEJorwWFfHbw0AqhPJSnFDUUk3pckDVnQTaKWpC1ziOFLStmdxZtxrrDK0t3nCzv1dnuje6ADtVowEJVYFAuUiJEJOyBj9JVtZEW8cWI8ZC37w4Ta5JzhoYrWAhHQIRDi8gE3cM4dVSpL5gopOXaavbWFG9D3SC7xOgg4lZsN66",
+              "received": false
+            }
+          ],
+          "total_price": 47076,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Irondequoit",
+              "street": "Viviane Falls",
+              "house": 514,
+              "flat": 5496
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:08:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a58491c508c5d5ea6d018",
+          "products": [
+            {
+              "_id": "695a584a1c508c5d5ea6d060",
+              "name": "Pants24019",
+              "amount": 615,
+              "price": 47076,
+              "manufacturer": "Apple",
+              "notes": "FGdRkN1r3if9FeERZMlmeQDW623MWqXbL2ToRihyV8XtUHkBirnTcEDMSmupWm7rzW0OkdQ5K9bOw55XEJorwWFfHbw0AqhPJSnFDUUk3pckDVnQTaKWpC1ziOFLStmdxZtxrrDK0t3nCzv1dnuje6ADtVowEJVYFAuUiJEJOyBj9JVtZEW8cWI8ZC37w4Ta5JzhoYrWAhHQIRDi8gE3cM4dVSpL5gopOXaavbWFG9D3SC7xOgg4lZsN66",
+              "received": false
+            }
+          ],
+          "total_price": 47076,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Irondequoit",
+              "street": "Viviane Falls",
+              "house": 514,
+              "flat": 5496
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:08:43.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a58491c508c5d5ea6d018",
+          "products": [
+            {
+              "_id": "695a584a1c508c5d5ea6d060",
+              "name": "Pants24019",
+              "amount": 615,
+              "price": 47076,
+              "manufacturer": "Apple",
+              "notes": "FGdRkN1r3if9FeERZMlmeQDW623MWqXbL2ToRihyV8XtUHkBirnTcEDMSmupWm7rzW0OkdQ5K9bOw55XEJorwWFfHbw0AqhPJSnFDUUk3pckDVnQTaKWpC1ziOFLStmdxZtxrrDK0t3nCzv1dnuje6ADtVowEJVYFAuUiJEJOyBj9JVtZEW8cWI8ZC37w4Ta5JzhoYrWAhHQIRDi8gE3cM4dVSpL5gopOXaavbWFG9D3SC7xOgg4lZsN66",
+              "received": false
+            }
+          ],
+          "total_price": 47076,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:08:43.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

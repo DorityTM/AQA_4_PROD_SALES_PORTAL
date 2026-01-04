@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:02:28 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3652",
+    "etag": "W/\"e44-Mb5kTpU84Bm597TrwrC7LMpfr5k\"",
+    "keep-alive": "timeout=5, max=25",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a56d21c508c5d5ea643d0",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695a56ce1c508c5d5ea64194",
+        "email": "Kelly.McKenzie@gmail.com",
+        "name": "Miles Streich",
+        "country": "Germany",
+        "city": "Friesenville",
+        "street": "Blind Lane 5",
+        "house": 907,
+        "flat": 7162,
+        "phone": "+033473897763544",
+        "createdOn": "2026-01-04T12:02:22.000Z",
+        "notes": "4vJweDzRRc9gozNTT11FIf0uhYBWp5"
+      },
+      "products": [
+        {
+          "_id": "695a56cf1c508c5d5ea642df",
+          "name": "Cheese30261",
+          "amount": 499,
+          "price": 65077,
+          "manufacturer": "Sony",
+          "notes": "LOsGAVb9veSncTjcBiAeP9dXkVE39YM6IiW8GugD2EwfjXiyklRBqmzCutzA2L1Tpjp8ja4NdhGPNAmCUV5BeGt6yVRcNb93RwsApJALjL8gC5pcuVzcjSdjYarDbVm5FxUvOhncNOpmmpIrcLZTgZs23V9HCIY2rEUhOuasddXNtAY1DOJFcRomWOHAH8lbKkaWwMTlHkjB4efgwK9Xp0rzfUuaNx0b87GWU9DvVXACfWfIIJ1fNlJZhz",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Oxnard",
+          "street": "Grimes Forges",
+          "house": 168,
+          "flat": 3488
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 65077,
+      "createdOn": "2026-01-04T12:02:26.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695a56ce1c508c5d5ea64194",
+          "products": [
+            {
+              "_id": "695a56cf1c508c5d5ea642df",
+              "name": "Cheese30261",
+              "amount": 499,
+              "price": 65077,
+              "manufacturer": "Sony",
+              "notes": "LOsGAVb9veSncTjcBiAeP9dXkVE39YM6IiW8GugD2EwfjXiyklRBqmzCutzA2L1Tpjp8ja4NdhGPNAmCUV5BeGt6yVRcNb93RwsApJALjL8gC5pcuVzcjSdjYarDbVm5FxUvOhncNOpmmpIrcLZTgZs23V9HCIY2rEUhOuasddXNtAY1DOJFcRomWOHAH8lbKkaWwMTlHkjB4efgwK9Xp0rzfUuaNx0b87GWU9DvVXACfWfIIJ1fNlJZhz",
+              "received": false
+            }
+          ],
+          "total_price": 65077,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Oxnard",
+              "street": "Grimes Forges",
+              "house": 168,
+              "flat": 3488
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:02:27.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56ce1c508c5d5ea64194",
+          "products": [
+            {
+              "_id": "695a56cf1c508c5d5ea642df",
+              "name": "Cheese30261",
+              "amount": 499,
+              "price": 65077,
+              "manufacturer": "Sony",
+              "notes": "LOsGAVb9veSncTjcBiAeP9dXkVE39YM6IiW8GugD2EwfjXiyklRBqmzCutzA2L1Tpjp8ja4NdhGPNAmCUV5BeGt6yVRcNb93RwsApJALjL8gC5pcuVzcjSdjYarDbVm5FxUvOhncNOpmmpIrcLZTgZs23V9HCIY2rEUhOuasddXNtAY1DOJFcRomWOHAH8lbKkaWwMTlHkjB4efgwK9Xp0rzfUuaNx0b87GWU9DvVXACfWfIIJ1fNlJZhz",
+              "received": false
+            }
+          ],
+          "total_price": 65077,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Oxnard",
+              "street": "Grimes Forges",
+              "house": 168,
+              "flat": 3488
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:02:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a56ce1c508c5d5ea64194",
+          "products": [
+            {
+              "_id": "695a56cf1c508c5d5ea642df",
+              "name": "Cheese30261",
+              "amount": 499,
+              "price": 65077,
+              "manufacturer": "Sony",
+              "notes": "LOsGAVb9veSncTjcBiAeP9dXkVE39YM6IiW8GugD2EwfjXiyklRBqmzCutzA2L1Tpjp8ja4NdhGPNAmCUV5BeGt6yVRcNb93RwsApJALjL8gC5pcuVzcjSdjYarDbVm5FxUvOhncNOpmmpIrcLZTgZs23V9HCIY2rEUhOuasddXNtAY1DOJFcRomWOHAH8lbKkaWwMTlHkjB4efgwK9Xp0rzfUuaNx0b87GWU9DvVXACfWfIIJ1fNlJZhz",
+              "received": false
+            }
+          ],
+          "total_price": 65077,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:02:26.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:03:49 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3675",
+    "etag": "W/\"e5b-MbCiTYGQEpwTCahF4lWvj8GBjaY\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a57231c508c5d5ea6673c",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a57211c508c5d5ea666d8",
+        "email": "Lauryn84@yahoo.com",
+        "name": "Jamaal Rogahn",
+        "country": "Canada",
+        "city": "Lake Maximusfield",
+        "street": "Yundt Locks 73",
+        "house": 694,
+        "flat": 4488,
+        "phone": "+381673409900892",
+        "createdOn": "2026-01-04T12:03:45.000Z",
+        "notes": "bAvibhkMfkeTcM27FgWq5a8uROmTbw"
+      },
+      "products": [
+        {
+          "_id": "695a57231c508c5d5ea6670f",
+          "name": "Soap62335",
+          "amount": 38,
+          "price": 12575,
+          "manufacturer": "Sony",
+          "notes": "TsecqRLQRLySFKqVRMylVrJljwNtHA3KIdsZLpQnBjVhlpDfnnIkmqIKx3jfduLgljsLTL93OSFKrwaUaqK25qKTr61XqSPB6npGVI4vPWY0EtYU6f02WVYLvg2bJP4aaXNbd2YLGOkNGZZwQ27HcqeYLWCMQF99itabcC29692CWfoheFkEms9Oe8AADoPGBciDDv9hpAURDbkR65UOIiXOA6RpDEgkTjKOIosU6nxnWr0Uz9E1Mg6gw3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Cincinnati",
+          "street": "Gutkowski Crossroad",
+          "house": 542,
+          "flat": 9673
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 12575,
+      "createdOn": "2026-01-04T12:03:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a57211c508c5d5ea666d8",
+          "products": [
+            {
+              "_id": "695a57231c508c5d5ea6670f",
+              "name": "Soap62335",
+              "amount": 38,
+              "price": 12575,
+              "manufacturer": "Sony",
+              "notes": "TsecqRLQRLySFKqVRMylVrJljwNtHA3KIdsZLpQnBjVhlpDfnnIkmqIKx3jfduLgljsLTL93OSFKrwaUaqK25qKTr61XqSPB6npGVI4vPWY0EtYU6f02WVYLvg2bJP4aaXNbd2YLGOkNGZZwQ27HcqeYLWCMQF99itabcC29692CWfoheFkEms9Oe8AADoPGBciDDv9hpAURDbkR65UOIiXOA6RpDEgkTjKOIosU6nxnWr0Uz9E1Mg6gw3",
+              "received": false
+            }
+          ],
+          "total_price": 12575,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Cincinnati",
+              "street": "Gutkowski Crossroad",
+              "house": 542,
+              "flat": 9673
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:03:49.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a57211c508c5d5ea666d8",
+          "products": [
+            {
+              "_id": "695a57231c508c5d5ea6670f",
+              "name": "Soap62335",
+              "amount": 38,
+              "price": 12575,
+              "manufacturer": "Sony",
+              "notes": "TsecqRLQRLySFKqVRMylVrJljwNtHA3KIdsZLpQnBjVhlpDfnnIkmqIKx3jfduLgljsLTL93OSFKrwaUaqK25qKTr61XqSPB6npGVI4vPWY0EtYU6f02WVYLvg2bJP4aaXNbd2YLGOkNGZZwQ27HcqeYLWCMQF99itabcC29692CWfoheFkEms9Oe8AADoPGBciDDv9hpAURDbkR65UOIiXOA6RpDEgkTjKOIosU6nxnWr0Uz9E1Mg6gw3",
+              "received": false
+            }
+          ],
+          "total_price": 12575,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Cincinnati",
+              "street": "Gutkowski Crossroad",
+              "house": 542,
+              "flat": 9673
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:03:49.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a57211c508c5d5ea666d8",
+          "products": [
+            {
+              "_id": "695a57231c508c5d5ea6670f",
+              "name": "Soap62335",
+              "amount": 38,
+              "price": 12575,
+              "manufacturer": "Sony",
+              "notes": "TsecqRLQRLySFKqVRMylVrJljwNtHA3KIdsZLpQnBjVhlpDfnnIkmqIKx3jfduLgljsLTL93OSFKrwaUaqK25qKTr61XqSPB6npGVI4vPWY0EtYU6f02WVYLvg2bJP4aaXNbd2YLGOkNGZZwQ27HcqeYLWCMQF99itabcC29692CWfoheFkEms9Oe8AADoPGBciDDv9hpAURDbkR65UOIiXOA6RpDEgkTjKOIosU6nxnWr0Uz9E1Mg6gw3",
+              "received": false
+            }
+          ],
+          "total_price": 12575,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:03:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

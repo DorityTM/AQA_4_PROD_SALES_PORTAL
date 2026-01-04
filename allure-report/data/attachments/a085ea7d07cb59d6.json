@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:04:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4570",
+    "etag": "W/\"11da-UEieew76GR96NVVPtf2hWdyDZ70\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a57511c508c5d5ea67c9d",
+      "status": "Received",
+      "customer": {
+        "_id": "695a574f1c508c5d5ea67bd2",
+        "email": "Etha.Kunde@yahoo.com",
+        "name": "Jessy Glover",
+        "country": "France",
+        "city": "Victorshire",
+        "street": "Kshlerin Oval 76",
+        "house": 942,
+        "flat": 5241,
+        "phone": "+423493616915889",
+        "createdOn": "2026-01-04T12:04:31.000Z",
+        "notes": "8TIkc11bFoOg2GmrbLjRbb9lLwi85h"
+      },
+      "products": [
+        {
+          "_id": "695a57511c508c5d5ea67c6d",
+          "name": "Table56758",
+          "amount": 777,
+          "price": 38540,
+          "manufacturer": "Xiaomi",
+          "notes": "Rws7bCb8ML2MHY7uDn9BTH7ErWEJBKEsCE9MoWyLHp5b3ffXO2QxLzpTEF43HOaPLVvwM1PJ9fXzhlIgVh8ixqX432GeZXqdPGRvLW19dupL0d0PhVXW4INBhcbc0G8DSZ4kYYcsOEYUQqwInQ8gBK7exw5tnJUren6hX4TdzBmitqLgXjksjbaQr8y7KdFLOT7hgPssd1iOQ0hsHGuGvMwchArLX4tbDQVjDGoWNqsmjWM5rm6BOjtsSI",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Ontario",
+          "street": "Marty Pine",
+          "house": 547,
+          "flat": 711
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 38540,
+      "createdOn": "2026-01-04T12:04:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695a574f1c508c5d5ea67bd2",
+          "products": [
+            {
+              "_id": "695a57511c508c5d5ea67c6d",
+              "name": "Table56758",
+              "amount": 777,
+              "price": 38540,
+              "manufacturer": "Xiaomi",
+              "notes": "Rws7bCb8ML2MHY7uDn9BTH7ErWEJBKEsCE9MoWyLHp5b3ffXO2QxLzpTEF43HOaPLVvwM1PJ9fXzhlIgVh8ixqX432GeZXqdPGRvLW19dupL0d0PhVXW4INBhcbc0G8DSZ4kYYcsOEYUQqwInQ8gBK7exw5tnJUren6hX4TdzBmitqLgXjksjbaQr8y7KdFLOT7hgPssd1iOQ0hsHGuGvMwchArLX4tbDQVjDGoWNqsmjWM5rm6BOjtsSI",
+              "received": true
+            }
+          ],
+          "total_price": 38540,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Ontario",
+              "street": "Marty Pine",
+              "house": 547,
+              "flat": 711
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:04:36.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a574f1c508c5d5ea67bd2",
+          "products": [
+            {
+              "_id": "695a57511c508c5d5ea67c6d",
+              "name": "Table56758",
+              "amount": 777,
+              "price": 38540,
+              "manufacturer": "Xiaomi",
+              "notes": "Rws7bCb8ML2MHY7uDn9BTH7ErWEJBKEsCE9MoWyLHp5b3ffXO2QxLzpTEF43HOaPLVvwM1PJ9fXzhlIgVh8ixqX432GeZXqdPGRvLW19dupL0d0PhVXW4INBhcbc0G8DSZ4kYYcsOEYUQqwInQ8gBK7exw5tnJUren6hX4TdzBmitqLgXjksjbaQr8y7KdFLOT7hgPssd1iOQ0hsHGuGvMwchArLX4tbDQVjDGoWNqsmjWM5rm6BOjtsSI",
+              "received": false
+            }
+          ],
+          "total_price": 38540,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Ontario",
+              "street": "Marty Pine",
+              "house": 547,
+              "flat": 711
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:04:35.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a574f1c508c5d5ea67bd2",
+          "products": [
+            {
+              "_id": "695a57511c508c5d5ea67c6d",
+              "name": "Table56758",
+              "amount": 777,
+              "price": 38540,
+              "manufacturer": "Xiaomi",
+              "notes": "Rws7bCb8ML2MHY7uDn9BTH7ErWEJBKEsCE9MoWyLHp5b3ffXO2QxLzpTEF43HOaPLVvwM1PJ9fXzhlIgVh8ixqX432GeZXqdPGRvLW19dupL0d0PhVXW4INBhcbc0G8DSZ4kYYcsOEYUQqwInQ8gBK7exw5tnJUren6hX4TdzBmitqLgXjksjbaQr8y7KdFLOT7hgPssd1iOQ0hsHGuGvMwchArLX4tbDQVjDGoWNqsmjWM5rm6BOjtsSI",
+              "received": false
+            }
+          ],
+          "total_price": 38540,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Ontario",
+              "street": "Marty Pine",
+              "house": 547,
+              "flat": 711
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:04:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a574f1c508c5d5ea67bd2",
+          "products": [
+            {
+              "_id": "695a57511c508c5d5ea67c6d",
+              "name": "Table56758",
+              "amount": 777,
+              "price": 38540,
+              "manufacturer": "Xiaomi",
+              "notes": "Rws7bCb8ML2MHY7uDn9BTH7ErWEJBKEsCE9MoWyLHp5b3ffXO2QxLzpTEF43HOaPLVvwM1PJ9fXzhlIgVh8ixqX432GeZXqdPGRvLW19dupL0d0PhVXW4INBhcbc0G8DSZ4kYYcsOEYUQqwInQ8gBK7exw5tnJUren6hX4TdzBmitqLgXjksjbaQr8y7KdFLOT7hgPssd1iOQ0hsHGuGvMwchArLX4tbDQVjDGoWNqsmjWM5rm6BOjtsSI",
+              "received": false
+            }
+          ],
+          "total_price": 38540,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:04:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

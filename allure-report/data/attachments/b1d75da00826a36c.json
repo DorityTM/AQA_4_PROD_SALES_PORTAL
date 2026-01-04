@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 12:11:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3700",
+    "etag": "W/\"e74-7BGWmhitdjvcXQ2w0bFGwD7Fmkg\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a58d91c508c5d5ea6e750",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a58d21c508c5d5ea6e6a5",
+        "email": "Leann_Cassin@gmail.com",
+        "name": "Adolfo Schiller",
+        "country": "Germany",
+        "city": "East Clairetown",
+        "street": "Bennett Squares 20",
+        "house": 736,
+        "flat": 1616,
+        "phone": "+391255420206166",
+        "createdOn": "2026-01-04T12:10:58.000Z",
+        "notes": "XF7rsCKzPg5zTgedBDDWrpu5zeMrM9"
+      },
+      "products": [
+        {
+          "_id": "695a58d31c508c5d5ea6e70c",
+          "name": "Chair93364",
+          "amount": 854,
+          "price": 76976,
+          "manufacturer": "Google",
+          "notes": "kVVBfqTUmFyFcrMaSjKaUykFxYycJvD22BPkg3x3UgS45SXH3CWdFsIWfdffG2gIZwiMqXjXQupAb2wy1i5iy31pMpd8V5k1qJaywWX9nFcJwppFgrwetmr13xYf9hiN1tbeOrZIO5hMnn6TKBcwJpxUAJQYNnVid1mkTNjDvllL0VSNtaDt2TAodus3mlF3T97st5AKMeB0Fq2l8oBNMzKgzC6jhVTS9TojJ3JEDhYyVHOwpmDtNeDa6p",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "South Anahi",
+          "street": "Beahan Circles",
+          "house": 744,
+          "flat": 5064
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 76976,
+      "createdOn": "2026-01-04T12:11:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a58d21c508c5d5ea6e6a5",
+          "products": [
+            {
+              "_id": "695a58d31c508c5d5ea6e70c",
+              "name": "Chair93364",
+              "amount": 854,
+              "price": 76976,
+              "manufacturer": "Google",
+              "notes": "kVVBfqTUmFyFcrMaSjKaUykFxYycJvD22BPkg3x3UgS45SXH3CWdFsIWfdffG2gIZwiMqXjXQupAb2wy1i5iy31pMpd8V5k1qJaywWX9nFcJwppFgrwetmr13xYf9hiN1tbeOrZIO5hMnn6TKBcwJpxUAJQYNnVid1mkTNjDvllL0VSNtaDt2TAodus3mlF3T97st5AKMeB0Fq2l8oBNMzKgzC6jhVTS9TojJ3JEDhYyVHOwpmDtNeDa6p",
+              "received": false
+            }
+          ],
+          "total_price": 76976,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "South Anahi",
+              "street": "Beahan Circles",
+              "house": 744,
+              "flat": 5064
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:11:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a58d21c508c5d5ea6e6a5",
+          "products": [
+            {
+              "_id": "695a58d31c508c5d5ea6e70c",
+              "name": "Chair93364",
+              "amount": 854,
+              "price": 76976,
+              "manufacturer": "Google",
+              "notes": "kVVBfqTUmFyFcrMaSjKaUykFxYycJvD22BPkg3x3UgS45SXH3CWdFsIWfdffG2gIZwiMqXjXQupAb2wy1i5iy31pMpd8V5k1qJaywWX9nFcJwppFgrwetmr13xYf9hiN1tbeOrZIO5hMnn6TKBcwJpxUAJQYNnVid1mkTNjDvllL0VSNtaDt2TAodus3mlF3T97st5AKMeB0Fq2l8oBNMzKgzC6jhVTS9TojJ3JEDhYyVHOwpmDtNeDa6p",
+              "received": false
+            }
+          ],
+          "total_price": 76976,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "South Anahi",
+              "street": "Beahan Circles",
+              "house": 744,
+              "flat": 5064
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T12:11:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a58d21c508c5d5ea6e6a5",
+          "products": [
+            {
+              "_id": "695a58d31c508c5d5ea6e70c",
+              "name": "Chair93364",
+              "amount": 854,
+              "price": 76976,
+              "manufacturer": "Google",
+              "notes": "kVVBfqTUmFyFcrMaSjKaUykFxYycJvD22BPkg3x3UgS45SXH3CWdFsIWfdffG2gIZwiMqXjXQupAb2wy1i5iy31pMpd8V5k1qJaywWX9nFcJwppFgrwetmr13xYf9hiN1tbeOrZIO5hMnn6TKBcwJpxUAJQYNnVid1mkTNjDvllL0VSNtaDt2TAodus3mlF3T97st5AKMeB0Fq2l8oBNMzKgzC6jhVTS9TojJ3JEDhYyVHOwpmDtNeDa6p",
+              "received": false
+            }
+          ],
+          "total_price": 76976,
+          "delivery": null,
+          "changedOn": "2026-01-04T12:11:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
