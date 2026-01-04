@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:33:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3668",
+    "etag": "W/\"e54-woC017bF5q5Nqgeib8hJOJkWFqM\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a88611c508c5d5ea89e99",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a88601c508c5d5ea89e76",
+        "email": "Rubye.Parker92@hotmail.com",
+        "name": "Gaetano Gislason",
+        "country": "Belarus",
+        "city": "West Albinfurt",
+        "street": "Joesph Cliff 97",
+        "house": 268,
+        "flat": 2501,
+        "phone": "+839689258754290",
+        "createdOn": "2026-01-04T15:33:52.000Z",
+        "notes": "XwxH3XJeqKGht9B2W0KF2N5qeKh9Se"
+      },
+      "products": [
+        {
+          "_id": "695a88611c508c5d5ea89e86",
+          "name": "Car13312",
+          "amount": 166,
+          "price": 77350,
+          "manufacturer": "Tesla",
+          "notes": "r8IiT8YHG3o3ZbpF40DOM1oi0gYZN0o0w3wc3Py7uzLL4MeEvVBKhBUkTKGHv0sf9nOVGm99M0DB0j1mNjR0GjtfryNwDU1m8oFa9jLfIvMu8Jl7ImTxfrIksnukb9YtgnFqTt2cPuJzdZzdLqheeJ9sI2tfccjcSSom3TMIifOY5UA175MsTwtE9JHIjK3Bng5pg1GaBxn8x7JEvclElU7OCXzxvvOKjjQPkshlUhTm6iG3vPRN8jN3Zp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Severn",
+          "street": "Cara Viaduct",
+          "house": 348,
+          "flat": 1216
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 77350,
+      "createdOn": "2026-01-04T15:33:53.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a88601c508c5d5ea89e76",
+          "products": [
+            {
+              "_id": "695a88611c508c5d5ea89e86",
+              "name": "Car13312",
+              "amount": 166,
+              "price": 77350,
+              "manufacturer": "Tesla",
+              "notes": "r8IiT8YHG3o3ZbpF40DOM1oi0gYZN0o0w3wc3Py7uzLL4MeEvVBKhBUkTKGHv0sf9nOVGm99M0DB0j1mNjR0GjtfryNwDU1m8oFa9jLfIvMu8Jl7ImTxfrIksnukb9YtgnFqTt2cPuJzdZzdLqheeJ9sI2tfccjcSSom3TMIifOY5UA175MsTwtE9JHIjK3Bng5pg1GaBxn8x7JEvclElU7OCXzxvvOKjjQPkshlUhTm6iG3vPRN8jN3Zp",
+              "received": false
+            }
+          ],
+          "total_price": 77350,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Severn",
+              "street": "Cara Viaduct",
+              "house": 348,
+              "flat": 1216
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:33:54.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88601c508c5d5ea89e76",
+          "products": [
+            {
+              "_id": "695a88611c508c5d5ea89e86",
+              "name": "Car13312",
+              "amount": 166,
+              "price": 77350,
+              "manufacturer": "Tesla",
+              "notes": "r8IiT8YHG3o3ZbpF40DOM1oi0gYZN0o0w3wc3Py7uzLL4MeEvVBKhBUkTKGHv0sf9nOVGm99M0DB0j1mNjR0GjtfryNwDU1m8oFa9jLfIvMu8Jl7ImTxfrIksnukb9YtgnFqTt2cPuJzdZzdLqheeJ9sI2tfccjcSSom3TMIifOY5UA175MsTwtE9JHIjK3Bng5pg1GaBxn8x7JEvclElU7OCXzxvvOKjjQPkshlUhTm6iG3vPRN8jN3Zp",
+              "received": false
+            }
+          ],
+          "total_price": 77350,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Severn",
+              "street": "Cara Viaduct",
+              "house": 348,
+              "flat": 1216
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:33:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88601c508c5d5ea89e76",
+          "products": [
+            {
+              "_id": "695a88611c508c5d5ea89e86",
+              "name": "Car13312",
+              "amount": 166,
+              "price": 77350,
+              "manufacturer": "Tesla",
+              "notes": "r8IiT8YHG3o3ZbpF40DOM1oi0gYZN0o0w3wc3Py7uzLL4MeEvVBKhBUkTKGHv0sf9nOVGm99M0DB0j1mNjR0GjtfryNwDU1m8oFa9jLfIvMu8Jl7ImTxfrIksnukb9YtgnFqTt2cPuJzdZzdLqheeJ9sI2tfccjcSSom3TMIifOY5UA175MsTwtE9JHIjK3Bng5pg1GaBxn8x7JEvclElU7OCXzxvvOKjjQPkshlUhTm6iG3vPRN8jN3Zp",
+              "received": false
+            }
+          ],
+          "total_price": 77350,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:33:53.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

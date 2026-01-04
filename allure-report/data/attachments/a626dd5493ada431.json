@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:33:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2754",
+    "etag": "W/\"ac2-4OzrrgRBHE7LK2vK3Ua33xz8LKU\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a88641c508c5d5ea89fd7",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a88641c508c5d5ea89f9c",
+        "email": "Guillermo.Cormier@hotmail.com",
+        "name": "Jayde Hilll",
+        "country": "Great Britain",
+        "city": "East Andy",
+        "street": "E State Street 63",
+        "house": 770,
+        "flat": 1315,
+        "phone": "+699414564280762",
+        "createdOn": "2026-01-04T15:33:56.000Z",
+        "notes": "hdydLNLk51HEnMBkEcM6T1MJmHOUWV"
+      },
+      "products": [
+        {
+          "_id": "695a88641c508c5d5ea89fcf",
+          "name": "Tuna92829",
+          "amount": 465,
+          "price": 30854,
+          "manufacturer": "Apple",
+          "notes": "VX57H5DdEioKBml38HfwoOIEF3TzOpB932UdhqV2o96h1t1ZQ11dMX9DqSd9pEOYSDU5xat9rmR1cYn2n6oPXtI2942lu275nvAhVwTzUBR6aVG5REx0NrNCSpDAonXKzA0lva3LDPlaHx8sWK4n2vOmvg3icSF7WVVblKiRfTepsOufbrge5ofu9jC8OslrgDAKybEVO8ze1UCoc78VTUyUOc48zw1XjqLht4G10qVhpVScCel9CRQlRv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Port Aleenshire",
+          "street": "Jacobs Ports",
+          "house": 85,
+          "flat": 5202
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 30854,
+      "createdOn": "2026-01-04T15:33:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a88641c508c5d5ea89f9c",
+          "products": [
+            {
+              "_id": "695a88641c508c5d5ea89fcf",
+              "name": "Tuna92829",
+              "amount": 465,
+              "price": 30854,
+              "manufacturer": "Apple",
+              "notes": "VX57H5DdEioKBml38HfwoOIEF3TzOpB932UdhqV2o96h1t1ZQ11dMX9DqSd9pEOYSDU5xat9rmR1cYn2n6oPXtI2942lu275nvAhVwTzUBR6aVG5REx0NrNCSpDAonXKzA0lva3LDPlaHx8sWK4n2vOmvg3icSF7WVVblKiRfTepsOufbrge5ofu9jC8OslrgDAKybEVO8ze1UCoc78VTUyUOc48zw1XjqLht4G10qVhpVScCel9CRQlRv",
+              "received": false
+            }
+          ],
+          "total_price": 30854,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Port Aleenshire",
+              "street": "Jacobs Ports",
+              "house": 85,
+              "flat": 5202
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:33:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88641c508c5d5ea89f9c",
+          "products": [
+            {
+              "_id": "695a88641c508c5d5ea89fcf",
+              "name": "Tuna92829",
+              "amount": 465,
+              "price": 30854,
+              "manufacturer": "Apple",
+              "notes": "VX57H5DdEioKBml38HfwoOIEF3TzOpB932UdhqV2o96h1t1ZQ11dMX9DqSd9pEOYSDU5xat9rmR1cYn2n6oPXtI2942lu275nvAhVwTzUBR6aVG5REx0NrNCSpDAonXKzA0lva3LDPlaHx8sWK4n2vOmvg3icSF7WVVblKiRfTepsOufbrge5ofu9jC8OslrgDAKybEVO8ze1UCoc78VTUyUOc48zw1XjqLht4G10qVhpVScCel9CRQlRv",
+              "received": false
+            }
+          ],
+          "total_price": 30854,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:33:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

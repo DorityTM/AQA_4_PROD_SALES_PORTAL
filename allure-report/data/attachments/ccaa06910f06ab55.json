@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:32:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2748",
+    "etag": "W/\"abc-UUGNn01Zs2Bra2M4Phc0N9oEWX8\"",
+    "keep-alive": "timeout=5, max=84",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a88291c508c5d5ea88618",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a88291c508c5d5ea8860b",
+        "email": "Rosemarie_Brown@yahoo.com",
+        "name": "Daisy Miller",
+        "country": "Great Britain",
+        "city": "Lake Shanelle",
+        "street": "Pine Grove 47",
+        "house": 436,
+        "flat": 7592,
+        "phone": "+596162138186750",
+        "createdOn": "2026-01-04T15:32:57.000Z",
+        "notes": "HfH5mIkXuue17XY4ED3LBRBW5yR7b6"
+      },
+      "products": [
+        {
+          "_id": "695a88291c508c5d5ea88610",
+          "name": "Fish43648",
+          "amount": 43,
+          "price": 497,
+          "manufacturer": "Tesla",
+          "notes": "OMIDvAi3TPkhYzZeJXevRjT8b9zB5nxFy81Ma4HW13jYo2pf6dBYSgRm8MsJTuAxIwOI78nCJENd2xMKb5ndj9GVigOZliQLckYcHU1Y0WSbxIvZbc7WAz7vzxT4b0XCZtBEpq3ZQracx9DJ6A4WTQvZexMFDgjP2nAw0etG4Td12aH3pkFhB06kWPj759S0lRHIoBJpfbeex203W2yKf2jqwFWsCDyvCrIQ8slJL2bJ5bu57GH5YiR3Nt",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Lake Antoniostad",
+          "street": "North Street",
+          "house": 241,
+          "flat": 8458
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 497,
+      "createdOn": "2026-01-04T15:32:57.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a88291c508c5d5ea8860b",
+          "products": [
+            {
+              "_id": "695a88291c508c5d5ea88610",
+              "name": "Fish43648",
+              "amount": 43,
+              "price": 497,
+              "manufacturer": "Tesla",
+              "notes": "OMIDvAi3TPkhYzZeJXevRjT8b9zB5nxFy81Ma4HW13jYo2pf6dBYSgRm8MsJTuAxIwOI78nCJENd2xMKb5ndj9GVigOZliQLckYcHU1Y0WSbxIvZbc7WAz7vzxT4b0XCZtBEpq3ZQracx9DJ6A4WTQvZexMFDgjP2nAw0etG4Td12aH3pkFhB06kWPj759S0lRHIoBJpfbeex203W2yKf2jqwFWsCDyvCrIQ8slJL2bJ5bu57GH5YiR3Nt",
+              "received": false
+            }
+          ],
+          "total_price": 497,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Lake Antoniostad",
+              "street": "North Street",
+              "house": 241,
+              "flat": 8458
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:32:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88291c508c5d5ea8860b",
+          "products": [
+            {
+              "_id": "695a88291c508c5d5ea88610",
+              "name": "Fish43648",
+              "amount": 43,
+              "price": 497,
+              "manufacturer": "Tesla",
+              "notes": "OMIDvAi3TPkhYzZeJXevRjT8b9zB5nxFy81Ma4HW13jYo2pf6dBYSgRm8MsJTuAxIwOI78nCJENd2xMKb5ndj9GVigOZliQLckYcHU1Y0WSbxIvZbc7WAz7vzxT4b0XCZtBEpq3ZQracx9DJ6A4WTQvZexMFDgjP2nAw0etG4Td12aH3pkFhB06kWPj759S0lRHIoBJpfbeex203W2yKf2jqwFWsCDyvCrIQ8slJL2bJ5bu57GH5YiR3Nt",
+              "received": false
+            }
+          ],
+          "total_price": 497,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:32:57.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

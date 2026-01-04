@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:30:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3655",
+    "etag": "W/\"e47-83PVz6E4F5GAv+qSdfJOOfrvkoA\"",
+    "keep-alive": "timeout=5, max=87",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a87871c508c5d5ea85165",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a87871c508c5d5ea850c5",
+        "email": "Lydia.Toy@hotmail.com",
+        "name": "Toy Larkin",
+        "country": "Ukraine",
+        "city": "Dickensshire",
+        "street": "Schneider Hills 34",
+        "house": 475,
+        "flat": 1821,
+        "phone": "+277149867408108",
+        "createdOn": "2026-01-04T15:30:15.000Z",
+        "notes": "kwry0eyXLZcMpYspveWqLuTIZyIEE2"
+      },
+      "products": [
+        {
+          "_id": "695a87871c508c5d5ea85109",
+          "name": "Car54905",
+          "amount": 768,
+          "price": 92840,
+          "manufacturer": "Sony",
+          "notes": "q3Ijc4zLLwpvtQA7CLWOOE2ReLYd5kodGQ2MFm9Uez84N42sw4xttrEdbeT5kU3QkPLtWAmWffcnccxg9ijOY0SyylPKsoIjh4HY821XNyBIGV1TzJY1BwqsOXsMrgFBr040YEIGFlWujKKN444Azhtf2wtWERGqUBTQVwp4CUsOYNNjiWoMFWl0SKVickqy5AoNnKkinq8azsRHY70BOXd7NEDcMVZMQT9GRALLX4r45s8OIDltXUCVBW",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Port Harveyville",
+          "street": "N Pearl Street",
+          "house": 778,
+          "flat": 9785
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Pickup"
+      },
+      "total_price": 92840,
+      "createdOn": "2026-01-04T15:30:15.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a87871c508c5d5ea850c5",
+          "products": [
+            {
+              "_id": "695a87871c508c5d5ea85109",
+              "name": "Car54905",
+              "amount": 768,
+              "price": 92840,
+              "manufacturer": "Sony",
+              "notes": "q3Ijc4zLLwpvtQA7CLWOOE2ReLYd5kodGQ2MFm9Uez84N42sw4xttrEdbeT5kU3QkPLtWAmWffcnccxg9ijOY0SyylPKsoIjh4HY821XNyBIGV1TzJY1BwqsOXsMrgFBr040YEIGFlWujKKN444Azhtf2wtWERGqUBTQVwp4CUsOYNNjiWoMFWl0SKVickqy5AoNnKkinq8azsRHY70BOXd7NEDcMVZMQT9GRALLX4r45s8OIDltXUCVBW",
+              "received": false
+            }
+          ],
+          "total_price": 92840,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Port Harveyville",
+              "street": "N Pearl Street",
+              "house": 778,
+              "flat": 9785
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Pickup"
+          },
+          "changedOn": "2026-01-04T15:30:17.000Z",
+          "action": "Delivery Edited",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87871c508c5d5ea850c5",
+          "products": [
+            {
+              "_id": "695a87871c508c5d5ea85109",
+              "name": "Car54905",
+              "amount": 768,
+              "price": 92840,
+              "manufacturer": "Sony",
+              "notes": "q3Ijc4zLLwpvtQA7CLWOOE2ReLYd5kodGQ2MFm9Uez84N42sw4xttrEdbeT5kU3QkPLtWAmWffcnccxg9ijOY0SyylPKsoIjh4HY821XNyBIGV1TzJY1BwqsOXsMrgFBr040YEIGFlWujKKN444Azhtf2wtWERGqUBTQVwp4CUsOYNNjiWoMFWl0SKVickqy5AoNnKkinq8azsRHY70BOXd7NEDcMVZMQT9GRALLX4r45s8OIDltXUCVBW",
+              "received": false
+            }
+          ],
+          "total_price": 92840,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Brekkeland",
+              "street": "Mayer Views",
+              "house": 682,
+              "flat": 4142
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:30:16.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87871c508c5d5ea850c5",
+          "products": [
+            {
+              "_id": "695a87871c508c5d5ea85109",
+              "name": "Car54905",
+              "amount": 768,
+              "price": 92840,
+              "manufacturer": "Sony",
+              "notes": "q3Ijc4zLLwpvtQA7CLWOOE2ReLYd5kodGQ2MFm9Uez84N42sw4xttrEdbeT5kU3QkPLtWAmWffcnccxg9ijOY0SyylPKsoIjh4HY821XNyBIGV1TzJY1BwqsOXsMrgFBr040YEIGFlWujKKN444Azhtf2wtWERGqUBTQVwp4CUsOYNNjiWoMFWl0SKVickqy5AoNnKkinq8azsRHY70BOXd7NEDcMVZMQT9GRALLX4r45s8OIDltXUCVBW",
+              "received": false
+            }
+          ],
+          "total_price": 92840,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:30:15.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

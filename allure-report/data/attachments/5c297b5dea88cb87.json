@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:30:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2765",
+    "etag": "W/\"acd-KMrVOCTj08xfAQKTakuSA3TFK2A\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a87ab1c508c5d5ea85f78",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a87aa1c508c5d5ea85ebd",
+        "email": "Thora_Emard26@gmail.com",
+        "name": "Amy Franecki",
+        "country": "USA",
+        "city": "Fort Lolafurt",
+        "street": "W 5th Street 41",
+        "house": 172,
+        "flat": 2150,
+        "phone": "+215454910263867",
+        "createdOn": "2026-01-04T15:30:50.000Z",
+        "notes": "uPNK2nw2hAyTOm2A7aOgkT9PlrTx9B"
+      },
+      "products": [
+        {
+          "_id": "695a87aa1c508c5d5ea85f60",
+          "name": "Shoes66645",
+          "amount": 500,
+          "price": 26785,
+          "manufacturer": "Amazon",
+          "notes": "bY4O0wTKwExU9PbONE6tQOnTG8FL0uycmQNWBNGGhZ61OaTPQQwkADgKFvbeQNiar2zhGXyJLE46bMnT4EjhXvPU4NyTpBIimXN87kfXYwaxi2qCjBjE8AUMDcSkKXoT0wwwFKffEQ1dmyeb73nkVKux8VtU4kzoXWe3MRdLLYzodEUMwmHkBu8qI8MKJgMaN7iPYysTUo2rOvzsFCTRrA6ENKdSbfQQ91rXZ9XHRcNY4o6aA1NGvMp5xM",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Marleychester",
+          "street": "Zula Meadows",
+          "house": 225,
+          "flat": 1779
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 26785,
+      "createdOn": "2026-01-04T15:30:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a87aa1c508c5d5ea85ebd",
+          "products": [
+            {
+              "_id": "695a87aa1c508c5d5ea85f60",
+              "name": "Shoes66645",
+              "amount": 500,
+              "price": 26785,
+              "manufacturer": "Amazon",
+              "notes": "bY4O0wTKwExU9PbONE6tQOnTG8FL0uycmQNWBNGGhZ61OaTPQQwkADgKFvbeQNiar2zhGXyJLE46bMnT4EjhXvPU4NyTpBIimXN87kfXYwaxi2qCjBjE8AUMDcSkKXoT0wwwFKffEQ1dmyeb73nkVKux8VtU4kzoXWe3MRdLLYzodEUMwmHkBu8qI8MKJgMaN7iPYysTUo2rOvzsFCTRrA6ENKdSbfQQ91rXZ9XHRcNY4o6aA1NGvMp5xM",
+              "received": false
+            }
+          ],
+          "total_price": 26785,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Marleychester",
+              "street": "Zula Meadows",
+              "house": 225,
+              "flat": 1779
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:30:52.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87aa1c508c5d5ea85ebd",
+          "products": [
+            {
+              "_id": "695a87aa1c508c5d5ea85f60",
+              "name": "Shoes66645",
+              "amount": 500,
+              "price": 26785,
+              "manufacturer": "Amazon",
+              "notes": "bY4O0wTKwExU9PbONE6tQOnTG8FL0uycmQNWBNGGhZ61OaTPQQwkADgKFvbeQNiar2zhGXyJLE46bMnT4EjhXvPU4NyTpBIimXN87kfXYwaxi2qCjBjE8AUMDcSkKXoT0wwwFKffEQ1dmyeb73nkVKux8VtU4kzoXWe3MRdLLYzodEUMwmHkBu8qI8MKJgMaN7iPYysTUo2rOvzsFCTRrA6ENKdSbfQQ91rXZ9XHRcNY4o6aA1NGvMp5xM",
+              "received": false
+            }
+          ],
+          "total_price": 26785,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:30:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

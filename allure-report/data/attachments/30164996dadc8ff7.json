@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:32:35 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5197",
+    "etag": "W/\"144d-CxLJ1rtpAgyHjIOS2tOjtsVF+DE\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a88121c508c5d5ea88193",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a88111c508c5d5ea88156",
+        "email": "Grayce71@hotmail.com",
+        "name": "Francisco Kunze",
+        "country": "Russia",
+        "city": "Connland",
+        "street": "Stan Mill 35",
+        "house": 324,
+        "flat": 8873,
+        "phone": "+546865812319250",
+        "createdOn": "2026-01-04T15:32:33.000Z",
+        "notes": "VqCbrpECZAr9xRNXjnElss3Iv2Xtp6"
+      },
+      "products": [
+        {
+          "_id": "695a88111c508c5d5ea88165",
+          "name": "Chips97123",
+          "amount": 606,
+          "price": 24527,
+          "manufacturer": "Xiaomi",
+          "notes": "HB8U9eA0zeTGWhGrowNQq5wU3Vf5M1umR2pUUMZihFnYbGithWW8XP5KTsBFonJCkFMp5oqv8xFa7ultGoWXMwOnmX1PprV5LVt9lNC5aBi6xqiPjtbuC0dIWFOKf2zG4DVHTrGlkS2BTBgC8x7gwkKre9hW0DLnH3X3xWnw3CEXeX0pfA31OP4ggNSyuQ0uqu3aWFljWVLF1PTFwcS3pzmUz0UnfKvV8e2wJNFNvZaBtnVZsvLgdd34G4",
+          "received": false
+        },
+        {
+          "_id": "695a88121c508c5d5ea8817a",
+          "name": "Tuna69049",
+          "amount": 725,
+          "price": 42867,
+          "manufacturer": "Apple",
+          "notes": "hqm8xM7QNc2PHP98pNSQSrfgDjchtG2sOK43rFDXBMJ3fUy4gPxOsFeU2wyxjLzThjiJLFI4JZXoJam6LrJwPugVThkomEYjyrECW6Iy2GuJKsc0jE84s9ZLWt2eDvHR9mQfWpA7cdtOG5Fb0qTjFUZgGDG3dsG1V1q6UIx16ultuJkIKytWGLZsU8TAuZ01ducltHxT7h2wSiBiwMYB1y1SxGtAuMynE54uP7KG4EgO32RwdPc7roJ2ew",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Dickifield",
+          "street": "The Beeches",
+          "house": 932,
+          "flat": 7712
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 67394,
+      "createdOn": "2026-01-04T15:32:34.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a88111c508c5d5ea88156",
+          "products": [
+            {
+              "_id": "695a88111c508c5d5ea88165",
+              "name": "Chips97123",
+              "amount": 606,
+              "price": 24527,
+              "manufacturer": "Xiaomi",
+              "notes": "HB8U9eA0zeTGWhGrowNQq5wU3Vf5M1umR2pUUMZihFnYbGithWW8XP5KTsBFonJCkFMp5oqv8xFa7ultGoWXMwOnmX1PprV5LVt9lNC5aBi6xqiPjtbuC0dIWFOKf2zG4DVHTrGlkS2BTBgC8x7gwkKre9hW0DLnH3X3xWnw3CEXeX0pfA31OP4ggNSyuQ0uqu3aWFljWVLF1PTFwcS3pzmUz0UnfKvV8e2wJNFNvZaBtnVZsvLgdd34G4",
+              "received": false
+            },
+            {
+              "_id": "695a88121c508c5d5ea8817a",
+              "name": "Tuna69049",
+              "amount": 725,
+              "price": 42867,
+              "manufacturer": "Apple",
+              "notes": "hqm8xM7QNc2PHP98pNSQSrfgDjchtG2sOK43rFDXBMJ3fUy4gPxOsFeU2wyxjLzThjiJLFI4JZXoJam6LrJwPugVThkomEYjyrECW6Iy2GuJKsc0jE84s9ZLWt2eDvHR9mQfWpA7cdtOG5Fb0qTjFUZgGDG3dsG1V1q6UIx16ultuJkIKytWGLZsU8TAuZ01ducltHxT7h2wSiBiwMYB1y1SxGtAuMynE54uP7KG4EgO32RwdPc7roJ2ew",
+              "received": false
+            }
+          ],
+          "total_price": 67394,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Dickifield",
+              "street": "The Beeches",
+              "house": 932,
+              "flat": 7712
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:32:35.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88111c508c5d5ea88156",
+          "products": [
+            {
+              "_id": "695a88111c508c5d5ea88165",
+              "name": "Chips97123",
+              "amount": 606,
+              "price": 24527,
+              "manufacturer": "Xiaomi",
+              "notes": "HB8U9eA0zeTGWhGrowNQq5wU3Vf5M1umR2pUUMZihFnYbGithWW8XP5KTsBFonJCkFMp5oqv8xFa7ultGoWXMwOnmX1PprV5LVt9lNC5aBi6xqiPjtbuC0dIWFOKf2zG4DVHTrGlkS2BTBgC8x7gwkKre9hW0DLnH3X3xWnw3CEXeX0pfA31OP4ggNSyuQ0uqu3aWFljWVLF1PTFwcS3pzmUz0UnfKvV8e2wJNFNvZaBtnVZsvLgdd34G4",
+              "received": false
+            },
+            {
+              "_id": "695a88121c508c5d5ea8817a",
+              "name": "Tuna69049",
+              "amount": 725,
+              "price": 42867,
+              "manufacturer": "Apple",
+              "notes": "hqm8xM7QNc2PHP98pNSQSrfgDjchtG2sOK43rFDXBMJ3fUy4gPxOsFeU2wyxjLzThjiJLFI4JZXoJam6LrJwPugVThkomEYjyrECW6Iy2GuJKsc0jE84s9ZLWt2eDvHR9mQfWpA7cdtOG5Fb0qTjFUZgGDG3dsG1V1q6UIx16ultuJkIKytWGLZsU8TAuZ01ducltHxT7h2wSiBiwMYB1y1SxGtAuMynE54uP7KG4EgO32RwdPc7roJ2ew",
+              "received": false
+            }
+          ],
+          "total_price": 67394,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Dickifield",
+              "street": "The Beeches",
+              "house": 932,
+              "flat": 7712
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:32:34.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88111c508c5d5ea88156",
+          "products": [
+            {
+              "_id": "695a88111c508c5d5ea88165",
+              "name": "Chips97123",
+              "amount": 606,
+              "price": 24527,
+              "manufacturer": "Xiaomi",
+              "notes": "HB8U9eA0zeTGWhGrowNQq5wU3Vf5M1umR2pUUMZihFnYbGithWW8XP5KTsBFonJCkFMp5oqv8xFa7ultGoWXMwOnmX1PprV5LVt9lNC5aBi6xqiPjtbuC0dIWFOKf2zG4DVHTrGlkS2BTBgC8x7gwkKre9hW0DLnH3X3xWnw3CEXeX0pfA31OP4ggNSyuQ0uqu3aWFljWVLF1PTFwcS3pzmUz0UnfKvV8e2wJNFNvZaBtnVZsvLgdd34G4",
+              "received": false
+            },
+            {
+              "_id": "695a88121c508c5d5ea8817a",
+              "name": "Tuna69049",
+              "amount": 725,
+              "price": 42867,
+              "manufacturer": "Apple",
+              "notes": "hqm8xM7QNc2PHP98pNSQSrfgDjchtG2sOK43rFDXBMJ3fUy4gPxOsFeU2wyxjLzThjiJLFI4JZXoJam6LrJwPugVThkomEYjyrECW6Iy2GuJKsc0jE84s9ZLWt2eDvHR9mQfWpA7cdtOG5Fb0qTjFUZgGDG3dsG1V1q6UIx16ultuJkIKytWGLZsU8TAuZ01ducltHxT7h2wSiBiwMYB1y1SxGtAuMynE54uP7KG4EgO32RwdPc7roJ2ew",
+              "received": false
+            }
+          ],
+          "total_price": 67394,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:32:34.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:33:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3676",
+    "etag": "W/\"e5c-1ATsUD88rK1tNaGYfrz1mzxbThI\"",
+    "keep-alive": "timeout=5, max=35",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a88501c508c5d5ea8971f",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695a88501c508c5d5ea896eb",
+        "email": "Jacquelyn.Jast30@gmail.com",
+        "name": "Maegan Waelchi Stark",
+        "country": "Ukraine",
+        "city": "South Johannberg",
+        "street": "Alma Street 93",
+        "house": 339,
+        "flat": 2014,
+        "phone": "+089865992384199",
+        "createdOn": "2026-01-04T15:33:36.000Z",
+        "notes": "9Acq2aUcC9XDSwmdcz3YqKZTVZgrvK"
+      },
+      "products": [
+        {
+          "_id": "695a88501c508c5d5ea8970a",
+          "name": "Cheese54200",
+          "amount": 523,
+          "price": 42025,
+          "manufacturer": "Samsung",
+          "notes": "v4OM0qQ6oIycXe6DOvk1M1AZE9JGqipmoYfPWzTyRRpJogda4ZT4EPFwKnXiCZcxPzJOujYK0vKu3xoI5Qjx40EukTodngeVtcA2XXD1XOuzxb3tlosZQSXEb9Zsyn37ddu34SnGTjcUSmiwABbvKw5ZRbayDjOl1i36ilTdmUr37lxv5OUI0XDRfy4zO2pGY8EcFECua8ayl2S3suYeMv2Q8NMqTQ4KSRmX9EaeaZkiUzTEKOh8OHqPq7",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Arlie",
+          "street": "Jast Dam",
+          "house": 261,
+          "flat": 917
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42025,
+      "createdOn": "2026-01-04T15:33:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695a88501c508c5d5ea896eb",
+          "products": [
+            {
+              "_id": "695a88501c508c5d5ea8970a",
+              "name": "Cheese54200",
+              "amount": 523,
+              "price": 42025,
+              "manufacturer": "Samsung",
+              "notes": "v4OM0qQ6oIycXe6DOvk1M1AZE9JGqipmoYfPWzTyRRpJogda4ZT4EPFwKnXiCZcxPzJOujYK0vKu3xoI5Qjx40EukTodngeVtcA2XXD1XOuzxb3tlosZQSXEb9Zsyn37ddu34SnGTjcUSmiwABbvKw5ZRbayDjOl1i36ilTdmUr37lxv5OUI0XDRfy4zO2pGY8EcFECua8ayl2S3suYeMv2Q8NMqTQ4KSRmX9EaeaZkiUzTEKOh8OHqPq7",
+              "received": false
+            }
+          ],
+          "total_price": 42025,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Arlie",
+              "street": "Jast Dam",
+              "house": 261,
+              "flat": 917
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:33:37.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88501c508c5d5ea896eb",
+          "products": [
+            {
+              "_id": "695a88501c508c5d5ea8970a",
+              "name": "Cheese54200",
+              "amount": 523,
+              "price": 42025,
+              "manufacturer": "Samsung",
+              "notes": "v4OM0qQ6oIycXe6DOvk1M1AZE9JGqipmoYfPWzTyRRpJogda4ZT4EPFwKnXiCZcxPzJOujYK0vKu3xoI5Qjx40EukTodngeVtcA2XXD1XOuzxb3tlosZQSXEb9Zsyn37ddu34SnGTjcUSmiwABbvKw5ZRbayDjOl1i36ilTdmUr37lxv5OUI0XDRfy4zO2pGY8EcFECua8ayl2S3suYeMv2Q8NMqTQ4KSRmX9EaeaZkiUzTEKOh8OHqPq7",
+              "received": false
+            }
+          ],
+          "total_price": 42025,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Arlie",
+              "street": "Jast Dam",
+              "house": 261,
+              "flat": 917
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:33:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88501c508c5d5ea896eb",
+          "products": [
+            {
+              "_id": "695a88501c508c5d5ea8970a",
+              "name": "Cheese54200",
+              "amount": 523,
+              "price": 42025,
+              "manufacturer": "Samsung",
+              "notes": "v4OM0qQ6oIycXe6DOvk1M1AZE9JGqipmoYfPWzTyRRpJogda4ZT4EPFwKnXiCZcxPzJOujYK0vKu3xoI5Qjx40EukTodngeVtcA2XXD1XOuzxb3tlosZQSXEb9Zsyn37ddu34SnGTjcUSmiwABbvKw5ZRbayDjOl1i36ilTdmUr37lxv5OUI0XDRfy4zO2pGY8EcFECua8ayl2S3suYeMv2Q8NMqTQ4KSRmX9EaeaZkiUzTEKOh8OHqPq7",
+              "received": false
+            }
+          ],
+          "total_price": 42025,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:33:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:35:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2742",
+    "etag": "W/\"ab6-n+0iAF1xAwBqMcomt6eTybSgpNI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a88a71c508c5d5ea8bf0b",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a88a61c508c5d5ea8bed8",
+        "email": "Wyman.Grady45@gmail.com",
+        "name": "Janis Pacocha",
+        "country": "Russia",
+        "city": "Stamford",
+        "street": "Gordon Trafficway 21",
+        "house": 855,
+        "flat": 155,
+        "phone": "+935929949208490",
+        "createdOn": "2026-01-04T15:35:02.000Z",
+        "notes": "gkrW2lbhzgviuijaObSbmCm38A3qAZ"
+      },
+      "products": [
+        {
+          "_id": "695a88a61c508c5d5ea8bef3",
+          "name": "Salad79569",
+          "amount": 340,
+          "price": 30141,
+          "manufacturer": "Google",
+          "notes": "XmIKWNrtGbXJK3RCZuKvICSTGDf0bsDrH1uPTKJC87N291UTsIQmI4DoSiNL2mG2eJg3ZHNXERPwIEGMMsyGNebxgqQGMKIxLvQLB8II5nBFDaL8glfAOLtSnWDCOCWQTmz9dNS17YSRDQIB3kR4tQNgXO3GFGDZxiHikO0Z3Jw5buzVChLp4f21egi0HCmnSjrJoY3emd3ZwBHaWlI1Dwq6ntQLdTFhZQJmBkFIAkaYKNfyNeT7JaSCIo",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Carmel",
+          "street": "Corkery Flat",
+          "house": 220,
+          "flat": 5215
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 30141,
+      "createdOn": "2026-01-04T15:35:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a88a61c508c5d5ea8bed8",
+          "products": [
+            {
+              "_id": "695a88a61c508c5d5ea8bef3",
+              "name": "Salad79569",
+              "amount": 340,
+              "price": 30141,
+              "manufacturer": "Google",
+              "notes": "XmIKWNrtGbXJK3RCZuKvICSTGDf0bsDrH1uPTKJC87N291UTsIQmI4DoSiNL2mG2eJg3ZHNXERPwIEGMMsyGNebxgqQGMKIxLvQLB8II5nBFDaL8glfAOLtSnWDCOCWQTmz9dNS17YSRDQIB3kR4tQNgXO3GFGDZxiHikO0Z3Jw5buzVChLp4f21egi0HCmnSjrJoY3emd3ZwBHaWlI1Dwq6ntQLdTFhZQJmBkFIAkaYKNfyNeT7JaSCIo",
+              "received": false
+            }
+          ],
+          "total_price": 30141,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Carmel",
+              "street": "Corkery Flat",
+              "house": 220,
+              "flat": 5215
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:35:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88a61c508c5d5ea8bed8",
+          "products": [
+            {
+              "_id": "695a88a61c508c5d5ea8bef3",
+              "name": "Salad79569",
+              "amount": 340,
+              "price": 30141,
+              "manufacturer": "Google",
+              "notes": "XmIKWNrtGbXJK3RCZuKvICSTGDf0bsDrH1uPTKJC87N291UTsIQmI4DoSiNL2mG2eJg3ZHNXERPwIEGMMsyGNebxgqQGMKIxLvQLB8II5nBFDaL8glfAOLtSnWDCOCWQTmz9dNS17YSRDQIB3kR4tQNgXO3GFGDZxiHikO0Z3Jw5buzVChLp4f21egi0HCmnSjrJoY3emd3ZwBHaWlI1Dwq6ntQLdTFhZQJmBkFIAkaYKNfyNeT7JaSCIo",
+              "received": false
+            }
+          ],
+          "total_price": 30141,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:35:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

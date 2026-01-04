@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:30:53 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3656",
+    "etag": "W/\"e48-qyj0NuU+MBoio5tt8FNwhSpX6rQ\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a87ac1c508c5d5ea86037",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a87ac1c508c5d5ea85fcd",
+        "email": "Yadira.Lowe89@gmail.com",
+        "name": "Vito Hand",
+        "country": "France",
+        "city": "Elliottfield",
+        "street": "W Main Street 88",
+        "house": 96,
+        "flat": 3869,
+        "phone": "+032896640463169",
+        "createdOn": "2026-01-04T15:30:52.000Z",
+        "notes": "4uwHWCAPwX3DXI7NkWTgdU6c11WqEF"
+      },
+      "products": [
+        {
+          "_id": "695a87ac1c508c5d5ea85ffe",
+          "name": "Hat91681",
+          "amount": 623,
+          "price": 57961,
+          "manufacturer": "Google",
+          "notes": "dq4PaFnK8vMVZYC0X2d4FCZTz7GnRV05RSWEgtfKKymfCHJJyEUnzqEvSJpipYjBLduavdhcAwRCe0h9lwUoGx4PxoiSPEIcEYYbqdYrApNtHurPqBxNsVV9zjF7gDw1LTh6I0JdaBs1RGire2xAwWnvRi1YtySXhbCNUMrWnmbPTo6DWcQAjEdRbixud77bIcl1Lz70iHzPPtxChAXizSeUbhRlUHyYqf6l8p7zmOip5OZlHcmaNB9NdD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Delano",
+          "street": "N 8th Street",
+          "house": 61,
+          "flat": 7791
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 57961,
+      "createdOn": "2026-01-04T15:30:52.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a87ac1c508c5d5ea85fcd",
+          "products": [
+            {
+              "_id": "695a87ac1c508c5d5ea85ffe",
+              "name": "Hat91681",
+              "amount": 623,
+              "price": 57961,
+              "manufacturer": "Google",
+              "notes": "dq4PaFnK8vMVZYC0X2d4FCZTz7GnRV05RSWEgtfKKymfCHJJyEUnzqEvSJpipYjBLduavdhcAwRCe0h9lwUoGx4PxoiSPEIcEYYbqdYrApNtHurPqBxNsVV9zjF7gDw1LTh6I0JdaBs1RGire2xAwWnvRi1YtySXhbCNUMrWnmbPTo6DWcQAjEdRbixud77bIcl1Lz70iHzPPtxChAXizSeUbhRlUHyYqf6l8p7zmOip5OZlHcmaNB9NdD",
+              "received": false
+            }
+          ],
+          "total_price": 57961,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Delano",
+              "street": "N 8th Street",
+              "house": 61,
+              "flat": 7791
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:30:53.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87ac1c508c5d5ea85fcd",
+          "products": [
+            {
+              "_id": "695a87ac1c508c5d5ea85ffe",
+              "name": "Hat91681",
+              "amount": 623,
+              "price": 57961,
+              "manufacturer": "Google",
+              "notes": "dq4PaFnK8vMVZYC0X2d4FCZTz7GnRV05RSWEgtfKKymfCHJJyEUnzqEvSJpipYjBLduavdhcAwRCe0h9lwUoGx4PxoiSPEIcEYYbqdYrApNtHurPqBxNsVV9zjF7gDw1LTh6I0JdaBs1RGire2xAwWnvRi1YtySXhbCNUMrWnmbPTo6DWcQAjEdRbixud77bIcl1Lz70iHzPPtxChAXizSeUbhRlUHyYqf6l8p7zmOip5OZlHcmaNB9NdD",
+              "received": false
+            }
+          ],
+          "total_price": 57961,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Delano",
+              "street": "N 8th Street",
+              "house": 61,
+              "flat": 7791
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:30:53.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87ac1c508c5d5ea85fcd",
+          "products": [
+            {
+              "_id": "695a87ac1c508c5d5ea85ffe",
+              "name": "Hat91681",
+              "amount": 623,
+              "price": 57961,
+              "manufacturer": "Google",
+              "notes": "dq4PaFnK8vMVZYC0X2d4FCZTz7GnRV05RSWEgtfKKymfCHJJyEUnzqEvSJpipYjBLduavdhcAwRCe0h9lwUoGx4PxoiSPEIcEYYbqdYrApNtHurPqBxNsVV9zjF7gDw1LTh6I0JdaBs1RGire2xAwWnvRi1YtySXhbCNUMrWnmbPTo6DWcQAjEdRbixud77bIcl1Lz70iHzPPtxChAXizSeUbhRlUHyYqf6l8p7zmOip5OZlHcmaNB9NdD",
+              "received": false
+            }
+          ],
+          "total_price": 57961,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:30:52.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

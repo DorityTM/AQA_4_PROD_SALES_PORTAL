@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:29:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3693",
+    "etag": "W/\"e6d-btVO1ySYy3zsxwVMveWV/xySQpI\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a87691c508c5d5ea8464b",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695a87691c508c5d5ea84609",
+        "email": "Alanis_Wintheiser-Brekke67@gmail.com",
+        "name": "Logan Murphy",
+        "country": "Russia",
+        "city": "North Dereck",
+        "street": "Darian Streets 51",
+        "house": 497,
+        "flat": 530,
+        "phone": "+671812318536491",
+        "createdOn": "2026-01-04T15:29:45.000Z",
+        "notes": "St9He2rfcujKfE2fA9FAS1XOtZKyut"
+      },
+      "products": [
+        {
+          "_id": "695a87691c508c5d5ea84630",
+          "name": "Table65965",
+          "amount": 536,
+          "price": 29936,
+          "manufacturer": "Tesla",
+          "notes": "H8yUu5IYXgl9TtYMGD7ca4xr4mvsYsHR6NCbC6PiDihxxGoCUeYWzfcwdMRagY4oKYH8AKsc5ARjpmw2gpmvpHxlJREZlPuXeGLjpm7C8847OzkYXO8a56oDWZEqbltyHD3VTx26bFZkcc2YcD63tVSm1DUdYbhR5TmH8W3qZSgEkf2iLVtTOaB3sy7unH44nezyFnYjl9UWsd6NXUADxooLfcWhGGPNvl4ioLp3Vne47BYajpuSlyhv4Y",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Gretaport",
+          "street": "Westley Dale",
+          "house": 283,
+          "flat": 4664
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 29936,
+      "createdOn": "2026-01-04T15:29:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695a87691c508c5d5ea84609",
+          "products": [
+            {
+              "_id": "695a87691c508c5d5ea84630",
+              "name": "Table65965",
+              "amount": 536,
+              "price": 29936,
+              "manufacturer": "Tesla",
+              "notes": "H8yUu5IYXgl9TtYMGD7ca4xr4mvsYsHR6NCbC6PiDihxxGoCUeYWzfcwdMRagY4oKYH8AKsc5ARjpmw2gpmvpHxlJREZlPuXeGLjpm7C8847OzkYXO8a56oDWZEqbltyHD3VTx26bFZkcc2YcD63tVSm1DUdYbhR5TmH8W3qZSgEkf2iLVtTOaB3sy7unH44nezyFnYjl9UWsd6NXUADxooLfcWhGGPNvl4ioLp3Vne47BYajpuSlyhv4Y",
+              "received": false
+            }
+          ],
+          "total_price": 29936,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Gretaport",
+              "street": "Westley Dale",
+              "house": 283,
+              "flat": 4664
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:29:46.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87691c508c5d5ea84609",
+          "products": [
+            {
+              "_id": "695a87691c508c5d5ea84630",
+              "name": "Table65965",
+              "amount": 536,
+              "price": 29936,
+              "manufacturer": "Tesla",
+              "notes": "H8yUu5IYXgl9TtYMGD7ca4xr4mvsYsHR6NCbC6PiDihxxGoCUeYWzfcwdMRagY4oKYH8AKsc5ARjpmw2gpmvpHxlJREZlPuXeGLjpm7C8847OzkYXO8a56oDWZEqbltyHD3VTx26bFZkcc2YcD63tVSm1DUdYbhR5TmH8W3qZSgEkf2iLVtTOaB3sy7unH44nezyFnYjl9UWsd6NXUADxooLfcWhGGPNvl4ioLp3Vne47BYajpuSlyhv4Y",
+              "received": false
+            }
+          ],
+          "total_price": 29936,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Gretaport",
+              "street": "Westley Dale",
+              "house": 283,
+              "flat": 4664
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:29:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87691c508c5d5ea84609",
+          "products": [
+            {
+              "_id": "695a87691c508c5d5ea84630",
+              "name": "Table65965",
+              "amount": 536,
+              "price": 29936,
+              "manufacturer": "Tesla",
+              "notes": "H8yUu5IYXgl9TtYMGD7ca4xr4mvsYsHR6NCbC6PiDihxxGoCUeYWzfcwdMRagY4oKYH8AKsc5ARjpmw2gpmvpHxlJREZlPuXeGLjpm7C8847OzkYXO8a56oDWZEqbltyHD3VTx26bFZkcc2YcD63tVSm1DUdYbhR5TmH8W3qZSgEkf2iLVtTOaB3sy7unH44nezyFnYjl9UWsd6NXUADxooLfcWhGGPNvl4ioLp3Vne47BYajpuSlyhv4Y",
+              "received": false
+            }
+          ],
+          "total_price": 29936,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:29:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:30:04 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3689",
+    "etag": "W/\"e69-rM/R+yNzfGPcjbmrorp0aNMJN/8\"",
+    "keep-alive": "timeout=5, max=12",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a877b1c508c5d5ea84c9e",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a877b1c508c5d5ea84c77",
+        "email": "Reagan57@hotmail.com",
+        "name": "Dewitt Hartmann",
+        "country": "Great Britain",
+        "city": "Creminton",
+        "street": "Waelchi Square 10",
+        "house": 503,
+        "flat": 2317,
+        "phone": "+959916875790670",
+        "createdOn": "2026-01-04T15:30:03.000Z",
+        "notes": "OjV05g5wQURf6Xp9iQJu7zl4ih7i8Z"
+      },
+      "products": [
+        {
+          "_id": "695a877b1c508c5d5ea84c86",
+          "name": "Ball9278",
+          "amount": 657,
+          "price": 21548,
+          "manufacturer": "Google",
+          "notes": "SdIu39Hk2uHuJkloRXDJ6bvm6mr5NM4RHTXwLmexOR8nfb2bp94MX3RS5qc02IOD6nOkjiHnaF02gC2TsWEXxgrRLqfqhsixgbfLAkTkaayKc24VBoxLMAI8fQ0QZlz5KP0p4GkgRHEGMyiovrE5Sgk38IYg7oO3HlYeQQrp0sMuNjdhhZInoHfZJ6Cpy2SyPtk5fC6trY3u0GXJrbsuwoP0tmxONVA0vhotZrB7LdH2eJSgyT4djrodqQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Carlsbad",
+          "street": "Stiedemann Harbor",
+          "house": 125,
+          "flat": 3691
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 21548,
+      "createdOn": "2026-01-04T15:30:03.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a877b1c508c5d5ea84c77",
+          "products": [
+            {
+              "_id": "695a877b1c508c5d5ea84c86",
+              "name": "Ball9278",
+              "amount": 657,
+              "price": 21548,
+              "manufacturer": "Google",
+              "notes": "SdIu39Hk2uHuJkloRXDJ6bvm6mr5NM4RHTXwLmexOR8nfb2bp94MX3RS5qc02IOD6nOkjiHnaF02gC2TsWEXxgrRLqfqhsixgbfLAkTkaayKc24VBoxLMAI8fQ0QZlz5KP0p4GkgRHEGMyiovrE5Sgk38IYg7oO3HlYeQQrp0sMuNjdhhZInoHfZJ6Cpy2SyPtk5fC6trY3u0GXJrbsuwoP0tmxONVA0vhotZrB7LdH2eJSgyT4djrodqQ",
+              "received": false
+            }
+          ],
+          "total_price": 21548,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Carlsbad",
+              "street": "Stiedemann Harbor",
+              "house": 125,
+              "flat": 3691
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:30:04.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a877b1c508c5d5ea84c77",
+          "products": [
+            {
+              "_id": "695a877b1c508c5d5ea84c86",
+              "name": "Ball9278",
+              "amount": 657,
+              "price": 21548,
+              "manufacturer": "Google",
+              "notes": "SdIu39Hk2uHuJkloRXDJ6bvm6mr5NM4RHTXwLmexOR8nfb2bp94MX3RS5qc02IOD6nOkjiHnaF02gC2TsWEXxgrRLqfqhsixgbfLAkTkaayKc24VBoxLMAI8fQ0QZlz5KP0p4GkgRHEGMyiovrE5Sgk38IYg7oO3HlYeQQrp0sMuNjdhhZInoHfZJ6Cpy2SyPtk5fC6trY3u0GXJrbsuwoP0tmxONVA0vhotZrB7LdH2eJSgyT4djrodqQ",
+              "received": false
+            }
+          ],
+          "total_price": 21548,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Carlsbad",
+              "street": "Stiedemann Harbor",
+              "house": 125,
+              "flat": 3691
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:30:03.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a877b1c508c5d5ea84c77",
+          "products": [
+            {
+              "_id": "695a877b1c508c5d5ea84c86",
+              "name": "Ball9278",
+              "amount": 657,
+              "price": 21548,
+              "manufacturer": "Google",
+              "notes": "SdIu39Hk2uHuJkloRXDJ6bvm6mr5NM4RHTXwLmexOR8nfb2bp94MX3RS5qc02IOD6nOkjiHnaF02gC2TsWEXxgrRLqfqhsixgbfLAkTkaayKc24VBoxLMAI8fQ0QZlz5KP0p4GkgRHEGMyiovrE5Sgk38IYg7oO3HlYeQQrp0sMuNjdhhZInoHfZJ6Cpy2SyPtk5fC6trY3u0GXJrbsuwoP0tmxONVA0vhotZrB7LdH2eJSgyT4djrodqQ",
+              "received": false
+            }
+          ],
+          "total_price": 21548,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:30:03.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

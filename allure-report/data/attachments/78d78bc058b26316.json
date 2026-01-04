@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:33:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3647",
+    "etag": "W/\"e3f-ismnKdMcLyz6YG3sLo36XvCdrK4\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a88401c508c5d5ea88ee3",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a88401c508c5d5ea88e98",
+        "email": "Idella.Beer32@hotmail.com",
+        "name": "Otho Hintz",
+        "country": "USA",
+        "city": "Wilson",
+        "street": "Jose Fall 12",
+        "house": 891,
+        "flat": 9896,
+        "phone": "+685651356907186",
+        "createdOn": "2026-01-04T15:33:20.000Z",
+        "notes": "veptGfQ44kRHH59JHw0yGofotiWzsg"
+      },
+      "products": [
+        {
+          "_id": "695a88401c508c5d5ea88eca",
+          "name": "Pants671",
+          "amount": 123,
+          "price": 64162,
+          "manufacturer": "Xiaomi",
+          "notes": "AQNlDjRWdXJsNkBJMh6SL1OAGHNIsu5vJWcEV4VcyCjBPkT125DW82r8wnIhhn3bt7lxtco9Yug1Id8tj0WPCBRnZuSvmqkceWEs5s3AxDcLgPuchIs8uM4s6bYsilowGlGwkaVnfVkxi2W8K9aU8k1Rg8sjHiWNsbc74HTlyBa7ghnK1QLStkKpbViqnk0OgRNCwcqFgs1moY2TOMOg0pie9R1iZcW4BLSDBVHNtLqitf5aai3QklMA8i",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Batzworth",
+          "street": "Walnut Close",
+          "house": 872,
+          "flat": 9360
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64162,
+      "createdOn": "2026-01-04T15:33:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a88401c508c5d5ea88e98",
+          "products": [
+            {
+              "_id": "695a88401c508c5d5ea88eca",
+              "name": "Pants671",
+              "amount": 123,
+              "price": 64162,
+              "manufacturer": "Xiaomi",
+              "notes": "AQNlDjRWdXJsNkBJMh6SL1OAGHNIsu5vJWcEV4VcyCjBPkT125DW82r8wnIhhn3bt7lxtco9Yug1Id8tj0WPCBRnZuSvmqkceWEs5s3AxDcLgPuchIs8uM4s6bYsilowGlGwkaVnfVkxi2W8K9aU8k1Rg8sjHiWNsbc74HTlyBa7ghnK1QLStkKpbViqnk0OgRNCwcqFgs1moY2TOMOg0pie9R1iZcW4BLSDBVHNtLqitf5aai3QklMA8i",
+              "received": false
+            }
+          ],
+          "total_price": 64162,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Batzworth",
+              "street": "Walnut Close",
+              "house": 872,
+              "flat": 9360
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:33:21.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88401c508c5d5ea88e98",
+          "products": [
+            {
+              "_id": "695a88401c508c5d5ea88eca",
+              "name": "Pants671",
+              "amount": 123,
+              "price": 64162,
+              "manufacturer": "Xiaomi",
+              "notes": "AQNlDjRWdXJsNkBJMh6SL1OAGHNIsu5vJWcEV4VcyCjBPkT125DW82r8wnIhhn3bt7lxtco9Yug1Id8tj0WPCBRnZuSvmqkceWEs5s3AxDcLgPuchIs8uM4s6bYsilowGlGwkaVnfVkxi2W8K9aU8k1Rg8sjHiWNsbc74HTlyBa7ghnK1QLStkKpbViqnk0OgRNCwcqFgs1moY2TOMOg0pie9R1iZcW4BLSDBVHNtLqitf5aai3QklMA8i",
+              "received": false
+            }
+          ],
+          "total_price": 64162,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Batzworth",
+              "street": "Walnut Close",
+              "house": 872,
+              "flat": 9360
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:33:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88401c508c5d5ea88e98",
+          "products": [
+            {
+              "_id": "695a88401c508c5d5ea88eca",
+              "name": "Pants671",
+              "amount": 123,
+              "price": 64162,
+              "manufacturer": "Xiaomi",
+              "notes": "AQNlDjRWdXJsNkBJMh6SL1OAGHNIsu5vJWcEV4VcyCjBPkT125DW82r8wnIhhn3bt7lxtco9Yug1Id8tj0WPCBRnZuSvmqkceWEs5s3AxDcLgPuchIs8uM4s6bYsilowGlGwkaVnfVkxi2W8K9aU8k1Rg8sjHiWNsbc74HTlyBa7ghnK1QLStkKpbViqnk0OgRNCwcqFgs1moY2TOMOg0pie9R1iZcW4BLSDBVHNtLqitf5aai3QklMA8i",
+              "received": false
+            }
+          ],
+          "total_price": 64162,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:33:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

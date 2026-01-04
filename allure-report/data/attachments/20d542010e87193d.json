@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:30:55 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-q6YL5ugM71218S/Sf+/n5i0jwHI\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a87af1c508c5d5ea8612f",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a87ae1c508c5d5ea860c8",
+        "email": "Susana39@gmail.com",
+        "name": "Kallie Hilpert",
+        "country": "Great Britain",
+        "city": "Normaville",
+        "street": "West View 17",
+        "house": 467,
+        "flat": 9103,
+        "phone": "+327393563066358",
+        "createdOn": "2026-01-04T15:30:54.000Z",
+        "notes": "UttTDCEnsWk6H5oHQMlrorSzPLHYGw"
+      },
+      "products": [
+        {
+          "_id": "695a87ae1c508c5d5ea860db",
+          "name": "Bike83753",
+          "amount": 479,
+          "price": 43132,
+          "manufacturer": "Microsoft",
+          "notes": "8Dx8r27LKBkvqLHbwM8BL8pDU5JtsfgvpcbmQEUabKsIlTQKayOgzZBEM2lVv41rvgyxp1uUCRYSQWHwCUk6XeNIs7w0dS3nLgeAtnGG6OBmS56Te6qWIyUB32kBUf2QvTBmSIiIe1E9FTkSHTj994CYbYCyozQ6zwqGtdi3S07jJ5F1x610Xnwp0DoeH2eGpgIOkv030E5ZgJvnS2Q7pkQzQ3Y48MJjbacAzuHxnXSjBIdhjxSh2LPRiu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "South Markus",
+          "street": "Heath Road",
+          "house": 344,
+          "flat": 848
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 43132,
+      "createdOn": "2026-01-04T15:30:55.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a87ae1c508c5d5ea860c8",
+          "products": [
+            {
+              "_id": "695a87ae1c508c5d5ea860db",
+              "name": "Bike83753",
+              "amount": 479,
+              "price": 43132,
+              "manufacturer": "Microsoft",
+              "notes": "8Dx8r27LKBkvqLHbwM8BL8pDU5JtsfgvpcbmQEUabKsIlTQKayOgzZBEM2lVv41rvgyxp1uUCRYSQWHwCUk6XeNIs7w0dS3nLgeAtnGG6OBmS56Te6qWIyUB32kBUf2QvTBmSIiIe1E9FTkSHTj994CYbYCyozQ6zwqGtdi3S07jJ5F1x610Xnwp0DoeH2eGpgIOkv030E5ZgJvnS2Q7pkQzQ3Y48MJjbacAzuHxnXSjBIdhjxSh2LPRiu",
+              "received": false
+            }
+          ],
+          "total_price": 43132,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "South Markus",
+              "street": "Heath Road",
+              "house": 344,
+              "flat": 848
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:30:55.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87ae1c508c5d5ea860c8",
+          "products": [
+            {
+              "_id": "695a87ae1c508c5d5ea860db",
+              "name": "Bike83753",
+              "amount": 479,
+              "price": 43132,
+              "manufacturer": "Microsoft",
+              "notes": "8Dx8r27LKBkvqLHbwM8BL8pDU5JtsfgvpcbmQEUabKsIlTQKayOgzZBEM2lVv41rvgyxp1uUCRYSQWHwCUk6XeNIs7w0dS3nLgeAtnGG6OBmS56Te6qWIyUB32kBUf2QvTBmSIiIe1E9FTkSHTj994CYbYCyozQ6zwqGtdi3S07jJ5F1x610Xnwp0DoeH2eGpgIOkv030E5ZgJvnS2Q7pkQzQ3Y48MJjbacAzuHxnXSjBIdhjxSh2LPRiu",
+              "received": false
+            }
+          ],
+          "total_price": 43132,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "South Markus",
+              "street": "Heath Road",
+              "house": 344,
+              "flat": 848
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:30:55.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87ae1c508c5d5ea860c8",
+          "products": [
+            {
+              "_id": "695a87ae1c508c5d5ea860db",
+              "name": "Bike83753",
+              "amount": 479,
+              "price": 43132,
+              "manufacturer": "Microsoft",
+              "notes": "8Dx8r27LKBkvqLHbwM8BL8pDU5JtsfgvpcbmQEUabKsIlTQKayOgzZBEM2lVv41rvgyxp1uUCRYSQWHwCUk6XeNIs7w0dS3nLgeAtnGG6OBmS56Te6qWIyUB32kBUf2QvTBmSIiIe1E9FTkSHTj994CYbYCyozQ6zwqGtdi3S07jJ5F1x610Xnwp0DoeH2eGpgIOkv030E5ZgJvnS2Q7pkQzQ3Y48MJjbacAzuHxnXSjBIdhjxSh2LPRiu",
+              "received": false
+            }
+          ],
+          "total_price": 43132,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:30:55.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

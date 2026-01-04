@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:29:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3687",
+    "etag": "W/\"e67-Q1RpaHN/1i9nTRiy7647IzGiYQo\"",
+    "keep-alive": "timeout=5, max=82",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a875d1c508c5d5ea841fc",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a875c1c508c5d5ea841cc",
+        "email": "Taurean.Corwin32@gmail.com",
+        "name": "Liana Smitham",
+        "country": "Great Britain",
+        "city": "Bend",
+        "street": "Yost Cliff 36",
+        "house": 92,
+        "flat": 9319,
+        "phone": "+729883950923893",
+        "createdOn": "2026-01-04T15:29:32.000Z",
+        "notes": "vQnGeRYnNnf5h3OthmtUT32Cfn772L"
+      },
+      "products": [
+        {
+          "_id": "695a875d1c508c5d5ea841dd",
+          "name": "Soap88152",
+          "amount": 463,
+          "price": 25147,
+          "manufacturer": "Xiaomi",
+          "notes": "JDUzyGcFNm1sKDhpsT7Hr9UJg5oxi0K4GgaZpVZhUp3GQDyZobjFYzciudvxOD657rZBs73CebkQCPbviWbGvUJBxNB45C6gdiPEGWuwb9klwZKluxM2qtvkurKAZAm7jdnCcuhyuTyyUDtKrhUXJ2xhS6wvJb43rdisAKvoSKfDQzlf6yTa0zNK8CldHj7VKVuFNp90F6NfS84wOwkSb0B5pf8bIFgDRLchxNAhiT8hud03TOkk1IgbKG",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "Port Ilatown",
+          "street": "E Grand Avenue",
+          "house": 812,
+          "flat": 2532
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25147,
+      "createdOn": "2026-01-04T15:29:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a875c1c508c5d5ea841cc",
+          "products": [
+            {
+              "_id": "695a875d1c508c5d5ea841dd",
+              "name": "Soap88152",
+              "amount": 463,
+              "price": 25147,
+              "manufacturer": "Xiaomi",
+              "notes": "JDUzyGcFNm1sKDhpsT7Hr9UJg5oxi0K4GgaZpVZhUp3GQDyZobjFYzciudvxOD657rZBs73CebkQCPbviWbGvUJBxNB45C6gdiPEGWuwb9klwZKluxM2qtvkurKAZAm7jdnCcuhyuTyyUDtKrhUXJ2xhS6wvJb43rdisAKvoSKfDQzlf6yTa0zNK8CldHj7VKVuFNp90F6NfS84wOwkSb0B5pf8bIFgDRLchxNAhiT8hud03TOkk1IgbKG",
+              "received": false
+            }
+          ],
+          "total_price": 25147,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Ilatown",
+              "street": "E Grand Avenue",
+              "house": 812,
+              "flat": 2532
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:29:34.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a875c1c508c5d5ea841cc",
+          "products": [
+            {
+              "_id": "695a875d1c508c5d5ea841dd",
+              "name": "Soap88152",
+              "amount": 463,
+              "price": 25147,
+              "manufacturer": "Xiaomi",
+              "notes": "JDUzyGcFNm1sKDhpsT7Hr9UJg5oxi0K4GgaZpVZhUp3GQDyZobjFYzciudvxOD657rZBs73CebkQCPbviWbGvUJBxNB45C6gdiPEGWuwb9klwZKluxM2qtvkurKAZAm7jdnCcuhyuTyyUDtKrhUXJ2xhS6wvJb43rdisAKvoSKfDQzlf6yTa0zNK8CldHj7VKVuFNp90F6NfS84wOwkSb0B5pf8bIFgDRLchxNAhiT8hud03TOkk1IgbKG",
+              "received": false
+            }
+          ],
+          "total_price": 25147,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "Port Ilatown",
+              "street": "E Grand Avenue",
+              "house": 812,
+              "flat": 2532
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:29:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a875c1c508c5d5ea841cc",
+          "products": [
+            {
+              "_id": "695a875d1c508c5d5ea841dd",
+              "name": "Soap88152",
+              "amount": 463,
+              "price": 25147,
+              "manufacturer": "Xiaomi",
+              "notes": "JDUzyGcFNm1sKDhpsT7Hr9UJg5oxi0K4GgaZpVZhUp3GQDyZobjFYzciudvxOD657rZBs73CebkQCPbviWbGvUJBxNB45C6gdiPEGWuwb9klwZKluxM2qtvkurKAZAm7jdnCcuhyuTyyUDtKrhUXJ2xhS6wvJb43rdisAKvoSKfDQzlf6yTa0zNK8CldHj7VKVuFNp90F6NfS84wOwkSb0B5pf8bIFgDRLchxNAhiT8hud03TOkk1IgbKG",
+              "received": false
+            }
+          ],
+          "total_price": 25147,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:29:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

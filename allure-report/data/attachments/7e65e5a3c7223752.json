@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:29:48 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3660",
+    "etag": "W/\"e4c-1z+Ak5vNVsMQ3aKkiCFo6/vxcjM\"",
+    "keep-alive": "timeout=5, max=74",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a876b1c508c5d5ea8470d",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a876b1c508c5d5ea846e1",
+        "email": "Kara_Bailey47@hotmail.com",
+        "name": "Kelsie Harber",
+        "country": "USA",
+        "city": "Parkerton",
+        "street": "Hartmann Parkway 63",
+        "house": 140,
+        "flat": 5964,
+        "phone": "+144497487273946",
+        "createdOn": "2026-01-04T15:29:47.000Z",
+        "notes": "dmZt8K9kGNxqqZtIJNZi1WP88ICbcm"
+      },
+      "products": [
+        {
+          "_id": "695a876b1c508c5d5ea846f6",
+          "name": "Car95348",
+          "amount": 222,
+          "price": 80207,
+          "manufacturer": "Amazon",
+          "notes": "Lr7cNtbhemPOxH8GkiXQXFPpQDOs4Rogbvfq0LXQncy4EO5YWqusFfF4HKISuUFQrdejIX3H6aoCBzzEKSGTXGirgia0u90Gzmt2fJGMWwot8F9bCsL5NXmKwPTXwVkZrz76FIWeJe0Ps764pE5fu795WPhxiDTEWiTT8RBbLXi4Vzc89wRW1oJFsMAipJJc2O71YpkgTpiqLkEbuGKVzD2PDDtL2kptkkNeXAvLfOpO9ciskRvhGTKgCV",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Decatur",
+          "street": "Green Lane",
+          "house": 901,
+          "flat": 6595
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80207,
+      "createdOn": "2026-01-04T15:29:47.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a876b1c508c5d5ea846e1",
+          "products": [
+            {
+              "_id": "695a876b1c508c5d5ea846f6",
+              "name": "Car95348",
+              "amount": 222,
+              "price": 80207,
+              "manufacturer": "Amazon",
+              "notes": "Lr7cNtbhemPOxH8GkiXQXFPpQDOs4Rogbvfq0LXQncy4EO5YWqusFfF4HKISuUFQrdejIX3H6aoCBzzEKSGTXGirgia0u90Gzmt2fJGMWwot8F9bCsL5NXmKwPTXwVkZrz76FIWeJe0Ps764pE5fu795WPhxiDTEWiTT8RBbLXi4Vzc89wRW1oJFsMAipJJc2O71YpkgTpiqLkEbuGKVzD2PDDtL2kptkkNeXAvLfOpO9ciskRvhGTKgCV",
+              "received": false
+            }
+          ],
+          "total_price": 80207,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Decatur",
+              "street": "Green Lane",
+              "house": 901,
+              "flat": 6595
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:29:48.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a876b1c508c5d5ea846e1",
+          "products": [
+            {
+              "_id": "695a876b1c508c5d5ea846f6",
+              "name": "Car95348",
+              "amount": 222,
+              "price": 80207,
+              "manufacturer": "Amazon",
+              "notes": "Lr7cNtbhemPOxH8GkiXQXFPpQDOs4Rogbvfq0LXQncy4EO5YWqusFfF4HKISuUFQrdejIX3H6aoCBzzEKSGTXGirgia0u90Gzmt2fJGMWwot8F9bCsL5NXmKwPTXwVkZrz76FIWeJe0Ps764pE5fu795WPhxiDTEWiTT8RBbLXi4Vzc89wRW1oJFsMAipJJc2O71YpkgTpiqLkEbuGKVzD2PDDtL2kptkkNeXAvLfOpO9ciskRvhGTKgCV",
+              "received": false
+            }
+          ],
+          "total_price": 80207,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Decatur",
+              "street": "Green Lane",
+              "house": 901,
+              "flat": 6595
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:29:48.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a876b1c508c5d5ea846e1",
+          "products": [
+            {
+              "_id": "695a876b1c508c5d5ea846f6",
+              "name": "Car95348",
+              "amount": 222,
+              "price": 80207,
+              "manufacturer": "Amazon",
+              "notes": "Lr7cNtbhemPOxH8GkiXQXFPpQDOs4Rogbvfq0LXQncy4EO5YWqusFfF4HKISuUFQrdejIX3H6aoCBzzEKSGTXGirgia0u90Gzmt2fJGMWwot8F9bCsL5NXmKwPTXwVkZrz76FIWeJe0Ps764pE5fu795WPhxiDTEWiTT8RBbLXi4Vzc89wRW1oJFsMAipJJc2O71YpkgTpiqLkEbuGKVzD2PDDtL2kptkkNeXAvLfOpO9ciskRvhGTKgCV",
+              "received": false
+            }
+          ],
+          "total_price": 80207,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:29:47.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

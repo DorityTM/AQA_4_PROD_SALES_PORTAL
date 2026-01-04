@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:34:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3922",
+    "etag": "W/\"f52-xaUA1NssClMtXzsPaLSFRooEQrA\"",
+    "keep-alive": "timeout=5, max=48",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a887c1c508c5d5ea8aa32",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a887b1c508c5d5ea8a9d0",
+        "email": "Dawn67@hotmail.com",
+        "name": "Dorris Weissnat",
+        "country": "Ukraine",
+        "city": "Boynton Beach",
+        "street": "Ima Cove 40",
+        "house": 309,
+        "flat": 5678,
+        "phone": "+805101369116173",
+        "createdOn": "2026-01-04T15:34:19.000Z",
+        "notes": "8urXKCo2maXELdr38RQlcWxlFCpVyh"
+      },
+      "products": [
+        {
+          "_id": "695a887b1c508c5d5ea8a9db",
+          "name": "Cheese47798",
+          "amount": 960,
+          "price": 89852,
+          "manufacturer": "Microsoft",
+          "notes": "PpTHAqYGnXMx16wYAS38WnDZUCPD6aBfE9KtT3jdwr9ySUAwnZZEdu7EmCl30UW084bmVPsGGnRluHXRbit9SQxpvsArE84ROzWCoh95DHNdIIjqdwy0kxKKpilNY7zJF6TTED71UFrzyoMITc66Kz6Df2MdSDIFPXpceVdCQklkoomjbUizQxOzxmONioAoFoj8DxgsurIpFErjerKRT4pegtb1YOkj7TKjpqepRz8nnDU72NrN1mjiyG",
+          "received": false
+        },
+        {
+          "_id": "695a887c1c508c5d5ea8aa08",
+          "name": "Salad72842",
+          "amount": 313,
+          "price": 40385,
+          "manufacturer": "Google",
+          "notes": "9F5Y2x86eTgJYdqxrozyUd5GpCJnKWgq2RWLcmPfYTeqyLZyfoPJ50n8rzqvwhSI7MPVbdLGqhLclLVFDYDiy5nzlpcLhqpJtzPEMWQq92SEBvG12CDLmAgV7u3Y2eJ2ecIPXHHLtK15zVkZDZ8iRpOcAtEavA8P19DKcGELO4fkR3f46bpjL3cTsEdEgQSs5zZSGXkXJ63FMRX7RRj5NpFaQD3tXxueYInPfH2QMSFG2NE8cfZR0mIDhQ",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Huntington Park",
+          "street": "Block Hollow",
+          "house": 794,
+          "flat": 8553
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 130237,
+      "createdOn": "2026-01-04T15:34:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a887b1c508c5d5ea8a9d0",
+          "products": [
+            {
+              "_id": "695a887b1c508c5d5ea8a9db",
+              "name": "Cheese47798",
+              "amount": 960,
+              "price": 89852,
+              "manufacturer": "Microsoft",
+              "notes": "PpTHAqYGnXMx16wYAS38WnDZUCPD6aBfE9KtT3jdwr9ySUAwnZZEdu7EmCl30UW084bmVPsGGnRluHXRbit9SQxpvsArE84ROzWCoh95DHNdIIjqdwy0kxKKpilNY7zJF6TTED71UFrzyoMITc66Kz6Df2MdSDIFPXpceVdCQklkoomjbUizQxOzxmONioAoFoj8DxgsurIpFErjerKRT4pegtb1YOkj7TKjpqepRz8nnDU72NrN1mjiyG",
+              "received": false
+            },
+            {
+              "_id": "695a887c1c508c5d5ea8aa08",
+              "name": "Salad72842",
+              "amount": 313,
+              "price": 40385,
+              "manufacturer": "Google",
+              "notes": "9F5Y2x86eTgJYdqxrozyUd5GpCJnKWgq2RWLcmPfYTeqyLZyfoPJ50n8rzqvwhSI7MPVbdLGqhLclLVFDYDiy5nzlpcLhqpJtzPEMWQq92SEBvG12CDLmAgV7u3Y2eJ2ecIPXHHLtK15zVkZDZ8iRpOcAtEavA8P19DKcGELO4fkR3f46bpjL3cTsEdEgQSs5zZSGXkXJ63FMRX7RRj5NpFaQD3tXxueYInPfH2QMSFG2NE8cfZR0mIDhQ",
+              "received": false
+            }
+          ],
+          "total_price": 130237,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Huntington Park",
+              "street": "Block Hollow",
+              "house": 794,
+              "flat": 8553
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:34:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a887b1c508c5d5ea8a9d0",
+          "products": [
+            {
+              "_id": "695a887b1c508c5d5ea8a9db",
+              "name": "Cheese47798",
+              "amount": 960,
+              "price": 89852,
+              "manufacturer": "Microsoft",
+              "notes": "PpTHAqYGnXMx16wYAS38WnDZUCPD6aBfE9KtT3jdwr9ySUAwnZZEdu7EmCl30UW084bmVPsGGnRluHXRbit9SQxpvsArE84ROzWCoh95DHNdIIjqdwy0kxKKpilNY7zJF6TTED71UFrzyoMITc66Kz6Df2MdSDIFPXpceVdCQklkoomjbUizQxOzxmONioAoFoj8DxgsurIpFErjerKRT4pegtb1YOkj7TKjpqepRz8nnDU72NrN1mjiyG",
+              "received": false
+            },
+            {
+              "_id": "695a887c1c508c5d5ea8aa08",
+              "name": "Salad72842",
+              "amount": 313,
+              "price": 40385,
+              "manufacturer": "Google",
+              "notes": "9F5Y2x86eTgJYdqxrozyUd5GpCJnKWgq2RWLcmPfYTeqyLZyfoPJ50n8rzqvwhSI7MPVbdLGqhLclLVFDYDiy5nzlpcLhqpJtzPEMWQq92SEBvG12CDLmAgV7u3Y2eJ2ecIPXHHLtK15zVkZDZ8iRpOcAtEavA8P19DKcGELO4fkR3f46bpjL3cTsEdEgQSs5zZSGXkXJ63FMRX7RRj5NpFaQD3tXxueYInPfH2QMSFG2NE8cfZR0mIDhQ",
+              "received": false
+            }
+          ],
+          "total_price": 130237,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:34:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

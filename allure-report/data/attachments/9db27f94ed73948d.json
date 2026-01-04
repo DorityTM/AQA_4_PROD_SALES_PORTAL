@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:33:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2773",
+    "etag": "W/\"ad5-TQ+o7CiTxdpBe+HmYxXjk+H+CFc\"",
+    "keep-alive": "timeout=5, max=53",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a88491c508c5d5ea893cd",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a88491c508c5d5ea89354",
+        "email": "Jerry15@hotmail.com",
+        "name": "Manuel Monahan",
+        "country": "USA",
+        "city": "West Phoebechester",
+        "street": "Kshlerin Cliff 46",
+        "house": 14,
+        "flat": 4276,
+        "phone": "+612983594771052",
+        "createdOn": "2026-01-04T15:33:29.000Z",
+        "notes": "BDLjxIH80bcCKwabdUFj1pOBdx2gaU"
+      },
+      "products": [
+        {
+          "_id": "695a88491c508c5d5ea8936b",
+          "name": "Mouse21667",
+          "amount": 994,
+          "price": 12103,
+          "manufacturer": "Amazon",
+          "notes": "qqSszXx29NyFwES5Mf4Sw8p1J3xQswE3MFfteNea6QBiuX3uU0hWZOqvDuSuULUQv4Ul9VgawAaBFivhlXoa2gc5dY6AnMyiS4lEatv4Q8oDe2vi65wqz5xXmqAxSICzluZyi5h2qEEzFhfhhpQuYNcttHvUMfy6USlJBR2i2a5yO9zwqBmXAb1jiqPs2HKqn6I3YI1XpDLOayqenFv247FvY7a7Wnkwnaky59aBhjSCLDQy8RPLWzHxwz",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "East Dollystead",
+          "street": "Johns Squares",
+          "house": 773,
+          "flat": 567
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 12103,
+      "createdOn": "2026-01-04T15:33:29.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a88491c508c5d5ea89354",
+          "products": [
+            {
+              "_id": "695a88491c508c5d5ea8936b",
+              "name": "Mouse21667",
+              "amount": 994,
+              "price": 12103,
+              "manufacturer": "Amazon",
+              "notes": "qqSszXx29NyFwES5Mf4Sw8p1J3xQswE3MFfteNea6QBiuX3uU0hWZOqvDuSuULUQv4Ul9VgawAaBFivhlXoa2gc5dY6AnMyiS4lEatv4Q8oDe2vi65wqz5xXmqAxSICzluZyi5h2qEEzFhfhhpQuYNcttHvUMfy6USlJBR2i2a5yO9zwqBmXAb1jiqPs2HKqn6I3YI1XpDLOayqenFv247FvY7a7Wnkwnaky59aBhjSCLDQy8RPLWzHxwz",
+              "received": false
+            }
+          ],
+          "total_price": 12103,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "East Dollystead",
+              "street": "Johns Squares",
+              "house": 773,
+              "flat": 567
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:33:30.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88491c508c5d5ea89354",
+          "products": [
+            {
+              "_id": "695a88491c508c5d5ea8936b",
+              "name": "Mouse21667",
+              "amount": 994,
+              "price": 12103,
+              "manufacturer": "Amazon",
+              "notes": "qqSszXx29NyFwES5Mf4Sw8p1J3xQswE3MFfteNea6QBiuX3uU0hWZOqvDuSuULUQv4Ul9VgawAaBFivhlXoa2gc5dY6AnMyiS4lEatv4Q8oDe2vi65wqz5xXmqAxSICzluZyi5h2qEEzFhfhhpQuYNcttHvUMfy6USlJBR2i2a5yO9zwqBmXAb1jiqPs2HKqn6I3YI1XpDLOayqenFv247FvY7a7Wnkwnaky59aBhjSCLDQy8RPLWzHxwz",
+              "received": false
+            }
+          ],
+          "total_price": 12103,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:33:29.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

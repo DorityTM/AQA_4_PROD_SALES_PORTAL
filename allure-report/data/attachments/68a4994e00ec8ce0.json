@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:29:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3695",
+    "etag": "W/\"e6f-IYwvb7XYyDqkRFZMMNETD33MnMA\"",
+    "keep-alive": "timeout=5, max=55",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a876a1c508c5d5ea84688",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a87691c508c5d5ea84646",
+        "email": "Caesar_Pagac-Dach3@gmail.com",
+        "name": "Spencer Brakus",
+        "country": "Ukraine",
+        "city": "Florianstead",
+        "street": "Bradtke Alley 74",
+        "house": 842,
+        "flat": 8558,
+        "phone": "+469283626395435",
+        "createdOn": "2026-01-04T15:29:45.000Z",
+        "notes": "bAhQT4GirhlxTltPdZugaEEWzI5lhu"
+      },
+      "products": [
+        {
+          "_id": "695a876a1c508c5d5ea84665",
+          "name": "Pants10739",
+          "amount": 764,
+          "price": 63630,
+          "manufacturer": "Sony",
+          "notes": "4XMPwr0udnxc2ETYJqdBItTVGj42DpU47lZhhxyNEGzdjVeM4eTX9cG5hXwCWLeYRNJbHMCkv6VsesS2WxBTd5jDHbzB1XAHIw1bSSvvniolod9VCY5UIVi5eOrU0qgvqLPW6xQhOVQA9av05cud83q0DNFWn89Oqv4kC95JvN5oZJhSN9dJoOS1zDqiaGzmw1KBfF10VGOLfHz9Uguq8hU7pr4UTZ7p06HK8JBwCerkr2Unx00C2ErIUv",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Lake Marcocester",
+          "street": "Rene Route",
+          "house": 187,
+          "flat": 5094
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 63630,
+      "createdOn": "2026-01-04T15:29:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a87691c508c5d5ea84646",
+          "products": [
+            {
+              "_id": "695a876a1c508c5d5ea84665",
+              "name": "Pants10739",
+              "amount": 764,
+              "price": 63630,
+              "manufacturer": "Sony",
+              "notes": "4XMPwr0udnxc2ETYJqdBItTVGj42DpU47lZhhxyNEGzdjVeM4eTX9cG5hXwCWLeYRNJbHMCkv6VsesS2WxBTd5jDHbzB1XAHIw1bSSvvniolod9VCY5UIVi5eOrU0qgvqLPW6xQhOVQA9av05cud83q0DNFWn89Oqv4kC95JvN5oZJhSN9dJoOS1zDqiaGzmw1KBfF10VGOLfHz9Uguq8hU7pr4UTZ7p06HK8JBwCerkr2Unx00C2ErIUv",
+              "received": false
+            }
+          ],
+          "total_price": 63630,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Marcocester",
+              "street": "Rene Route",
+              "house": 187,
+              "flat": 5094
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:29:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87691c508c5d5ea84646",
+          "products": [
+            {
+              "_id": "695a876a1c508c5d5ea84665",
+              "name": "Pants10739",
+              "amount": 764,
+              "price": 63630,
+              "manufacturer": "Sony",
+              "notes": "4XMPwr0udnxc2ETYJqdBItTVGj42DpU47lZhhxyNEGzdjVeM4eTX9cG5hXwCWLeYRNJbHMCkv6VsesS2WxBTd5jDHbzB1XAHIw1bSSvvniolod9VCY5UIVi5eOrU0qgvqLPW6xQhOVQA9av05cud83q0DNFWn89Oqv4kC95JvN5oZJhSN9dJoOS1zDqiaGzmw1KBfF10VGOLfHz9Uguq8hU7pr4UTZ7p06HK8JBwCerkr2Unx00C2ErIUv",
+              "received": false
+            }
+          ],
+          "total_price": 63630,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Lake Marcocester",
+              "street": "Rene Route",
+              "house": 187,
+              "flat": 5094
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:29:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87691c508c5d5ea84646",
+          "products": [
+            {
+              "_id": "695a876a1c508c5d5ea84665",
+              "name": "Pants10739",
+              "amount": 764,
+              "price": 63630,
+              "manufacturer": "Sony",
+              "notes": "4XMPwr0udnxc2ETYJqdBItTVGj42DpU47lZhhxyNEGzdjVeM4eTX9cG5hXwCWLeYRNJbHMCkv6VsesS2WxBTd5jDHbzB1XAHIw1bSSvvniolod9VCY5UIVi5eOrU0qgvqLPW6xQhOVQA9av05cud83q0DNFWn89Oqv4kC95JvN5oZJhSN9dJoOS1zDqiaGzmw1KBfF10VGOLfHz9Uguq8hU7pr4UTZ7p06HK8JBwCerkr2Unx00C2ErIUv",
+              "received": false
+            }
+          ],
+          "total_price": 63630,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:29:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

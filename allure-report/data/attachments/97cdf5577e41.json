@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:34:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5253",
+    "etag": "W/\"1485-z7guo/0YFTndqsP7Qw9YPanQbHA\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a88951c508c5d5ea8b63b",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a88941c508c5d5ea8b5bb",
+        "email": "Jedidiah.Champlin9@hotmail.com",
+        "name": "Orie Waters",
+        "country": "Ukraine",
+        "city": "South Malvina",
+        "street": "W Jefferson Street 24",
+        "house": 710,
+        "flat": 4869,
+        "phone": "+171598585421767",
+        "createdOn": "2026-01-04T15:34:44.000Z",
+        "notes": "a85dJU7l4Aorupwi1LkSvZj1ZzofA1"
+      },
+      "products": [
+        {
+          "_id": "695a88951c508c5d5ea8b5cd",
+          "name": "Soap21930",
+          "amount": 771,
+          "price": 781,
+          "manufacturer": "Samsung",
+          "notes": "lhf05Fb7xYS37lIE2ZJVR5uXkxa3hgLgll2ywLAJBPISAKtI3zot4JbAE8iXXLftHa3URKZWLPng1pRItJro5Tqy8m9scQ43Jhv7C4YddZeMowNvYXdZVIVK2oHoEMHpqHUJDkzRPIgM6ZAz1gXCTDxrIAZP8T3YaOJVyqMjbCt3KgYI44fQLDuVhIzGQpbBHGUWJ8kIkBcXQw2z3pGKoILnzC5AudeByeH9hvUzxLwcmimDvCr2z7OEYC",
+          "received": false
+        },
+        {
+          "_id": "695a88951c508c5d5ea8b5f2",
+          "name": "Soap88123",
+          "amount": 396,
+          "price": 57956,
+          "manufacturer": "Xiaomi",
+          "notes": "42F4sVvi8aMEcNpxdYlKJF0m0scKeumIGOLOrVc6fqIVUBncDMNvSQVG8t42NSvDgSKT4k7MVJycVG2Tkk123F29R5yr5B345uqSmSQGmBKyCFLRlsk6tjWJ9RXn0QTFsa235TCNCbgKwoWhclBwVUuoghgd14i9rfnzYw2CoqtrAF0kGC2nrPQZ9kEK5VebidsLhu7LlD6X60BIJRGcKxH3r5inKSsH9NBFqiKzSNMzV5a67lzjs6zeV3",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Rocky Mount",
+          "street": "Jacobson Corners",
+          "house": 594,
+          "flat": 1998
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 58737,
+      "createdOn": "2026-01-04T15:34:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a88941c508c5d5ea8b5bb",
+          "products": [
+            {
+              "_id": "695a88951c508c5d5ea8b5cd",
+              "name": "Soap21930",
+              "amount": 771,
+              "price": 781,
+              "manufacturer": "Samsung",
+              "notes": "lhf05Fb7xYS37lIE2ZJVR5uXkxa3hgLgll2ywLAJBPISAKtI3zot4JbAE8iXXLftHa3URKZWLPng1pRItJro5Tqy8m9scQ43Jhv7C4YddZeMowNvYXdZVIVK2oHoEMHpqHUJDkzRPIgM6ZAz1gXCTDxrIAZP8T3YaOJVyqMjbCt3KgYI44fQLDuVhIzGQpbBHGUWJ8kIkBcXQw2z3pGKoILnzC5AudeByeH9hvUzxLwcmimDvCr2z7OEYC",
+              "received": false
+            },
+            {
+              "_id": "695a88951c508c5d5ea8b5f2",
+              "name": "Soap88123",
+              "amount": 396,
+              "price": 57956,
+              "manufacturer": "Xiaomi",
+              "notes": "42F4sVvi8aMEcNpxdYlKJF0m0scKeumIGOLOrVc6fqIVUBncDMNvSQVG8t42NSvDgSKT4k7MVJycVG2Tkk123F29R5yr5B345uqSmSQGmBKyCFLRlsk6tjWJ9RXn0QTFsa235TCNCbgKwoWhclBwVUuoghgd14i9rfnzYw2CoqtrAF0kGC2nrPQZ9kEK5VebidsLhu7LlD6X60BIJRGcKxH3r5inKSsH9NBFqiKzSNMzV5a67lzjs6zeV3",
+              "received": false
+            }
+          ],
+          "total_price": 58737,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Rocky Mount",
+              "street": "Jacobson Corners",
+              "house": 594,
+              "flat": 1998
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:34:47.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88941c508c5d5ea8b5bb",
+          "products": [
+            {
+              "_id": "695a88951c508c5d5ea8b5cd",
+              "name": "Soap21930",
+              "amount": 771,
+              "price": 781,
+              "manufacturer": "Samsung",
+              "notes": "lhf05Fb7xYS37lIE2ZJVR5uXkxa3hgLgll2ywLAJBPISAKtI3zot4JbAE8iXXLftHa3URKZWLPng1pRItJro5Tqy8m9scQ43Jhv7C4YddZeMowNvYXdZVIVK2oHoEMHpqHUJDkzRPIgM6ZAz1gXCTDxrIAZP8T3YaOJVyqMjbCt3KgYI44fQLDuVhIzGQpbBHGUWJ8kIkBcXQw2z3pGKoILnzC5AudeByeH9hvUzxLwcmimDvCr2z7OEYC",
+              "received": false
+            },
+            {
+              "_id": "695a88951c508c5d5ea8b5f2",
+              "name": "Soap88123",
+              "amount": 396,
+              "price": 57956,
+              "manufacturer": "Xiaomi",
+              "notes": "42F4sVvi8aMEcNpxdYlKJF0m0scKeumIGOLOrVc6fqIVUBncDMNvSQVG8t42NSvDgSKT4k7MVJycVG2Tkk123F29R5yr5B345uqSmSQGmBKyCFLRlsk6tjWJ9RXn0QTFsa235TCNCbgKwoWhclBwVUuoghgd14i9rfnzYw2CoqtrAF0kGC2nrPQZ9kEK5VebidsLhu7LlD6X60BIJRGcKxH3r5inKSsH9NBFqiKzSNMzV5a67lzjs6zeV3",
+              "received": false
+            }
+          ],
+          "total_price": 58737,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Rocky Mount",
+              "street": "Jacobson Corners",
+              "house": 594,
+              "flat": 1998
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:34:46.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88941c508c5d5ea8b5bb",
+          "products": [
+            {
+              "_id": "695a88951c508c5d5ea8b5cd",
+              "name": "Soap21930",
+              "amount": 771,
+              "price": 781,
+              "manufacturer": "Samsung",
+              "notes": "lhf05Fb7xYS37lIE2ZJVR5uXkxa3hgLgll2ywLAJBPISAKtI3zot4JbAE8iXXLftHa3URKZWLPng1pRItJro5Tqy8m9scQ43Jhv7C4YddZeMowNvYXdZVIVK2oHoEMHpqHUJDkzRPIgM6ZAz1gXCTDxrIAZP8T3YaOJVyqMjbCt3KgYI44fQLDuVhIzGQpbBHGUWJ8kIkBcXQw2z3pGKoILnzC5AudeByeH9hvUzxLwcmimDvCr2z7OEYC",
+              "received": false
+            },
+            {
+              "_id": "695a88951c508c5d5ea8b5f2",
+              "name": "Soap88123",
+              "amount": 396,
+              "price": 57956,
+              "manufacturer": "Xiaomi",
+              "notes": "42F4sVvi8aMEcNpxdYlKJF0m0scKeumIGOLOrVc6fqIVUBncDMNvSQVG8t42NSvDgSKT4k7MVJycVG2Tkk123F29R5yr5B345uqSmSQGmBKyCFLRlsk6tjWJ9RXn0QTFsa235TCNCbgKwoWhclBwVUuoghgd14i9rfnzYw2CoqtrAF0kGC2nrPQZ9kEK5VebidsLhu7LlD6X60BIJRGcKxH3r5inKSsH9NBFqiKzSNMzV5a67lzjs6zeV3",
+              "received": false
+            }
+          ],
+          "total_price": 58737,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:34:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:33:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3662",
+    "etag": "W/\"e4e-7HzpKvOTyCRi4b0HNnwMWQfeyv0\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a88361c508c5d5ea88a10",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a88351c508c5d5ea889d1",
+        "email": "Emmet_Schimmel@gmail.com",
+        "name": "Jeramy Kunde",
+        "country": "USA",
+        "city": "Renton",
+        "street": "Waters Courts 97",
+        "house": 855,
+        "flat": 532,
+        "phone": "+422074107146507",
+        "createdOn": "2026-01-04T15:33:09.000Z",
+        "notes": "X4gqViSw2ys6MJgoCdTMmOGKIocueZ"
+      },
+      "products": [
+        {
+          "_id": "695a88351c508c5d5ea889ef",
+          "name": "Bike64198",
+          "amount": 672,
+          "price": 56384,
+          "manufacturer": "Samsung",
+          "notes": "VymUt8Blo2OYoElDxvI5Vdh4PJyAciPNG1798XzsetifRBrtsqJoKdHaM1TsYqOH4aaGe3GOfsG6FXyEmSS7LC3kAoNLelLOSWZV3jAa979co9VHL8v4Shzapu0LhTlCecXsR9sAYP9XjM2HwytkWk6WKf6GC7hwchP9B8bRPGIsC987SuKpffK0KigXhoD9EwDDyknKDvH1g5NrTi6ZwuVYU7n56h4J7zHLJyoDHc6zL9OoVOOHNmAAYx",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Skokie",
+          "street": "Maxine Spurs",
+          "house": 589,
+          "flat": 3772
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 56384,
+      "createdOn": "2026-01-04T15:33:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a88351c508c5d5ea889d1",
+          "products": [
+            {
+              "_id": "695a88351c508c5d5ea889ef",
+              "name": "Bike64198",
+              "amount": 672,
+              "price": 56384,
+              "manufacturer": "Samsung",
+              "notes": "VymUt8Blo2OYoElDxvI5Vdh4PJyAciPNG1798XzsetifRBrtsqJoKdHaM1TsYqOH4aaGe3GOfsG6FXyEmSS7LC3kAoNLelLOSWZV3jAa979co9VHL8v4Shzapu0LhTlCecXsR9sAYP9XjM2HwytkWk6WKf6GC7hwchP9B8bRPGIsC987SuKpffK0KigXhoD9EwDDyknKDvH1g5NrTi6ZwuVYU7n56h4J7zHLJyoDHc6zL9OoVOOHNmAAYx",
+              "received": false
+            }
+          ],
+          "total_price": 56384,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Skokie",
+              "street": "Maxine Spurs",
+              "house": 589,
+              "flat": 3772
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:33:11.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88351c508c5d5ea889d1",
+          "products": [
+            {
+              "_id": "695a88351c508c5d5ea889ef",
+              "name": "Bike64198",
+              "amount": 672,
+              "price": 56384,
+              "manufacturer": "Samsung",
+              "notes": "VymUt8Blo2OYoElDxvI5Vdh4PJyAciPNG1798XzsetifRBrtsqJoKdHaM1TsYqOH4aaGe3GOfsG6FXyEmSS7LC3kAoNLelLOSWZV3jAa979co9VHL8v4Shzapu0LhTlCecXsR9sAYP9XjM2HwytkWk6WKf6GC7hwchP9B8bRPGIsC987SuKpffK0KigXhoD9EwDDyknKDvH1g5NrTi6ZwuVYU7n56h4J7zHLJyoDHc6zL9OoVOOHNmAAYx",
+              "received": false
+            }
+          ],
+          "total_price": 56384,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Skokie",
+              "street": "Maxine Spurs",
+              "house": 589,
+              "flat": 3772
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:33:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a88351c508c5d5ea889d1",
+          "products": [
+            {
+              "_id": "695a88351c508c5d5ea889ef",
+              "name": "Bike64198",
+              "amount": 672,
+              "price": 56384,
+              "manufacturer": "Samsung",
+              "notes": "VymUt8Blo2OYoElDxvI5Vdh4PJyAciPNG1798XzsetifRBrtsqJoKdHaM1TsYqOH4aaGe3GOfsG6FXyEmSS7LC3kAoNLelLOSWZV3jAa979co9VHL8v4Shzapu0LhTlCecXsR9sAYP9XjM2HwytkWk6WKf6GC7hwchP9B8bRPGIsC987SuKpffK0KigXhoD9EwDDyknKDvH1g5NrTi6ZwuVYU7n56h4J7zHLJyoDHc6zL9OoVOOHNmAAYx",
+              "received": false
+            }
+          ],
+          "total_price": 56384,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:33:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

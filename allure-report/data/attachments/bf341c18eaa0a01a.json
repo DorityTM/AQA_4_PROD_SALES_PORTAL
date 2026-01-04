@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:29:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3898",
+    "etag": "W/\"f3a-VBEtox82kCssTEzPGCLrbdgOykw\"",
+    "keep-alive": "timeout=5, max=26",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a87741c508c5d5ea84a43",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a87741c508c5d5ea84a0c",
+        "email": "Rachel_Schultz@hotmail.com",
+        "name": "Trevor Runte",
+        "country": "Belarus",
+        "city": "Mansfield",
+        "street": "Swift Turnpike 22",
+        "house": 562,
+        "flat": 2188,
+        "phone": "+162024072447706",
+        "createdOn": "2026-01-04T15:29:56.000Z",
+        "notes": "0ztTL84gaNYZI1XHIwlvru26hgXYGQ"
+      },
+      "products": [
+        {
+          "_id": "695a87741c508c5d5ea84a1e",
+          "name": "Salad802",
+          "amount": 848,
+          "price": 29800,
+          "manufacturer": "Xiaomi",
+          "notes": "Tt1JeJ7x4jbKZafnU0gSpYGXPMpF42ZkfFr0aGtrsNA2RXje3QCoaS7wkgH91ToiTJ9h79Wrac5u8O1bIjBkWyLTWwZj0nGiYyGES3DQQJydn4waNnWFl3F9kVJJpY8RAI0xtgVZwCxoOS846i6010ekhFWK5SWgm8suTnQVW5y6wvjX93bAteDBx6ICfw43dBpDQRZlGCZBxJ45FMet35MD6dHPVOGge6fR1OkcKKbsYFotSjpStaXgCD",
+          "received": false
+        },
+        {
+          "_id": "695a87741c508c5d5ea84a2f",
+          "name": "Car92082",
+          "amount": 85,
+          "price": 87394,
+          "manufacturer": "Sony",
+          "notes": "gQhxSwDg1t9AqdZ0QqVrqt4SyUiUdnHrU8XDRsQS4pEFGTNpuSPEfEJKqQMLfq6LwoPjNO3K5ULf5lMHEYseGFInyWCmz3hngGnpBvtUzi9SzhugBmNgcJ2J8swRx2Z1Bg3g7AgPmLvW8utEusrQXRnMnfIz2QaLRIIknaTaL0kiDb9hzaBsNqEfJ41gdSuSfXXMCPNGy1Ytll7KBDqAHnv96cdDvGKimVEBFgbWf0tzrqtKIa2IKuhOev",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Schowalterboro",
+          "street": "N State Street",
+          "house": 730,
+          "flat": 9626
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 117194,
+      "createdOn": "2026-01-04T15:29:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a87741c508c5d5ea84a0c",
+          "products": [
+            {
+              "_id": "695a87741c508c5d5ea84a1e",
+              "name": "Salad802",
+              "amount": 848,
+              "price": 29800,
+              "manufacturer": "Xiaomi",
+              "notes": "Tt1JeJ7x4jbKZafnU0gSpYGXPMpF42ZkfFr0aGtrsNA2RXje3QCoaS7wkgH91ToiTJ9h79Wrac5u8O1bIjBkWyLTWwZj0nGiYyGES3DQQJydn4waNnWFl3F9kVJJpY8RAI0xtgVZwCxoOS846i6010ekhFWK5SWgm8suTnQVW5y6wvjX93bAteDBx6ICfw43dBpDQRZlGCZBxJ45FMet35MD6dHPVOGge6fR1OkcKKbsYFotSjpStaXgCD",
+              "received": false
+            },
+            {
+              "_id": "695a87741c508c5d5ea84a2f",
+              "name": "Car92082",
+              "amount": 85,
+              "price": 87394,
+              "manufacturer": "Sony",
+              "notes": "gQhxSwDg1t9AqdZ0QqVrqt4SyUiUdnHrU8XDRsQS4pEFGTNpuSPEfEJKqQMLfq6LwoPjNO3K5ULf5lMHEYseGFInyWCmz3hngGnpBvtUzi9SzhugBmNgcJ2J8swRx2Z1Bg3g7AgPmLvW8utEusrQXRnMnfIz2QaLRIIknaTaL0kiDb9hzaBsNqEfJ41gdSuSfXXMCPNGy1Ytll7KBDqAHnv96cdDvGKimVEBFgbWf0tzrqtKIa2IKuhOev",
+              "received": false
+            }
+          ],
+          "total_price": 117194,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Schowalterboro",
+              "street": "N State Street",
+              "house": 730,
+              "flat": 9626
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:29:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a87741c508c5d5ea84a0c",
+          "products": [
+            {
+              "_id": "695a87741c508c5d5ea84a1e",
+              "name": "Salad802",
+              "amount": 848,
+              "price": 29800,
+              "manufacturer": "Xiaomi",
+              "notes": "Tt1JeJ7x4jbKZafnU0gSpYGXPMpF42ZkfFr0aGtrsNA2RXje3QCoaS7wkgH91ToiTJ9h79Wrac5u8O1bIjBkWyLTWwZj0nGiYyGES3DQQJydn4waNnWFl3F9kVJJpY8RAI0xtgVZwCxoOS846i6010ekhFWK5SWgm8suTnQVW5y6wvjX93bAteDBx6ICfw43dBpDQRZlGCZBxJ45FMet35MD6dHPVOGge6fR1OkcKKbsYFotSjpStaXgCD",
+              "received": false
+            },
+            {
+              "_id": "695a87741c508c5d5ea84a2f",
+              "name": "Car92082",
+              "amount": 85,
+              "price": 87394,
+              "manufacturer": "Sony",
+              "notes": "gQhxSwDg1t9AqdZ0QqVrqt4SyUiUdnHrU8XDRsQS4pEFGTNpuSPEfEJKqQMLfq6LwoPjNO3K5ULf5lMHEYseGFInyWCmz3hngGnpBvtUzi9SzhugBmNgcJ2J8swRx2Z1Bg3g7AgPmLvW8utEusrQXRnMnfIz2QaLRIIknaTaL0kiDb9hzaBsNqEfJ41gdSuSfXXMCPNGy1Ytll7KBDqAHnv96cdDvGKimVEBFgbWf0tzrqtKIa2IKuhOev",
+              "received": false
+            }
+          ],
+          "total_price": 117194,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:29:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

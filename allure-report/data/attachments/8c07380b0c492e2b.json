@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 15:32:47 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3665",
+    "etag": "W/\"e51-Bs7riz4BEcwh4DYx1fgQEFWxhSg\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a881e1c508c5d5ea8835f",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695a881e1c508c5d5ea88344",
+        "email": "Denis95@yahoo.com",
+        "name": "Gregg Jaskolski",
+        "country": "Ukraine",
+        "city": "Murraybury",
+        "street": "Hamill Overpass 49",
+        "house": 164,
+        "flat": 4848,
+        "phone": "+936590193537551",
+        "createdOn": "2026-01-04T15:32:46.000Z",
+        "notes": "8IN9vCwvof49Zo8e6C91znbq9tV3Ym"
+      },
+      "products": [
+        {
+          "_id": "695a881e1c508c5d5ea88352",
+          "name": "Shirt97401",
+          "amount": 284,
+          "price": 35955,
+          "manufacturer": "Samsung",
+          "notes": "vCmLnBGyori5zQpYwI14n4QUrXB2kxC7VUJ5z8aGTLj9Dp4FZngqrjKKeFphinbyfQC6GYP6qrimhaj8E3FI6qyOfUTUp32r0oga2gsEIPiTam2rS2nodACaQatCmNneYBwpq9Sd36A7SRHzCSMOiX5TT1Xqslnqn1eJ97y8TRJDAObQC4Q9JiPfTyb6xT0UnqLvWjtSjTZkyW9BhvBSJU1LG2DvHFdX8rQnmHyLioKDynieX1l5UkUD66",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Fort Helena",
+          "street": "Will Forge",
+          "house": 437,
+          "flat": 2921
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 35955,
+      "createdOn": "2026-01-04T15:32:46.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695a881e1c508c5d5ea88344",
+          "products": [
+            {
+              "_id": "695a881e1c508c5d5ea88352",
+              "name": "Shirt97401",
+              "amount": 284,
+              "price": 35955,
+              "manufacturer": "Samsung",
+              "notes": "vCmLnBGyori5zQpYwI14n4QUrXB2kxC7VUJ5z8aGTLj9Dp4FZngqrjKKeFphinbyfQC6GYP6qrimhaj8E3FI6qyOfUTUp32r0oga2gsEIPiTam2rS2nodACaQatCmNneYBwpq9Sd36A7SRHzCSMOiX5TT1Xqslnqn1eJ97y8TRJDAObQC4Q9JiPfTyb6xT0UnqLvWjtSjTZkyW9BhvBSJU1LG2DvHFdX8rQnmHyLioKDynieX1l5UkUD66",
+              "received": false
+            }
+          ],
+          "total_price": 35955,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Helena",
+              "street": "Will Forge",
+              "house": 437,
+              "flat": 2921
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:32:47.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a881e1c508c5d5ea88344",
+          "products": [
+            {
+              "_id": "695a881e1c508c5d5ea88352",
+              "name": "Shirt97401",
+              "amount": 284,
+              "price": 35955,
+              "manufacturer": "Samsung",
+              "notes": "vCmLnBGyori5zQpYwI14n4QUrXB2kxC7VUJ5z8aGTLj9Dp4FZngqrjKKeFphinbyfQC6GYP6qrimhaj8E3FI6qyOfUTUp32r0oga2gsEIPiTam2rS2nodACaQatCmNneYBwpq9Sd36A7SRHzCSMOiX5TT1Xqslnqn1eJ97y8TRJDAObQC4Q9JiPfTyb6xT0UnqLvWjtSjTZkyW9BhvBSJU1LG2DvHFdX8rQnmHyLioKDynieX1l5UkUD66",
+              "received": false
+            }
+          ],
+          "total_price": 35955,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Fort Helena",
+              "street": "Will Forge",
+              "house": 437,
+              "flat": 2921
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T15:32:47.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a881e1c508c5d5ea88344",
+          "products": [
+            {
+              "_id": "695a881e1c508c5d5ea88352",
+              "name": "Shirt97401",
+              "amount": 284,
+              "price": 35955,
+              "manufacturer": "Samsung",
+              "notes": "vCmLnBGyori5zQpYwI14n4QUrXB2kxC7VUJ5z8aGTLj9Dp4FZngqrjKKeFphinbyfQC6GYP6qrimhaj8E3FI6qyOfUTUp32r0oga2gsEIPiTam2rS2nodACaQatCmNneYBwpq9Sd36A7SRHzCSMOiX5TT1Xqslnqn1eJ97y8TRJDAObQC4Q9JiPfTyb6xT0UnqLvWjtSjTZkyW9BhvBSJU1LG2DvHFdX8rQnmHyLioKDynieX1l5UkUD66",
+              "received": false
+            }
+          ],
+          "total_price": 35955,
+          "delivery": null,
+          "changedOn": "2026-01-04T15:32:46.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
