@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:53:23 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4595",
+    "etag": "W/\"11f3-i1VCN6z94Xz8Djps1v0YHTaQKB8\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a46a01c508c5d5ea23558",
+      "status": "Received",
+      "customer": {
+        "_id": "695a469d1c508c5d5ea234dd",
+        "email": "Dessie.Marquardt70@gmail.com",
+        "name": "Alphonso MacGyver",
+        "country": "Ukraine",
+        "city": "Chicago",
+        "street": "Isom Mountain 84",
+        "house": 822,
+        "flat": 7754,
+        "phone": "+126813395179377",
+        "createdOn": "2026-01-04T10:53:17.000Z",
+        "notes": "H5MVhFzkGABDXYDyMywFVdDhZJqs08"
+      },
+      "products": [
+        {
+          "_id": "695a46a01c508c5d5ea23543",
+          "name": "Fish44166",
+          "amount": 887,
+          "price": 25955,
+          "manufacturer": "Xiaomi",
+          "notes": "8Oun6qvKMVvEM0162G9cW5HwW55yO048wUiXCG0swjx93Y7n24jUOASHqRcT2ZJPLj2ggY5acCBWy4sn8497cTQyS78VomcERD8gwmJJpOwKKpNm0RGMmjt7E7roYAQmtGCbWIUeYQ4FOZOmbz0hMKkCFSvZtJWxUegyCqktkLuHbY06y5uGjWB1FuZDwJKQJpShKGPFTfUfZjHyilXYCZLKnQiaSeESv4WRLfN30RTO1Mq2E4xzLGSRzi",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Freemanstad",
+          "street": "East Street",
+          "house": 980,
+          "flat": 986
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 25955,
+      "createdOn": "2026-01-04T10:53:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695a469d1c508c5d5ea234dd",
+          "products": [
+            {
+              "_id": "695a46a01c508c5d5ea23543",
+              "name": "Fish44166",
+              "amount": 887,
+              "price": 25955,
+              "manufacturer": "Xiaomi",
+              "notes": "8Oun6qvKMVvEM0162G9cW5HwW55yO048wUiXCG0swjx93Y7n24jUOASHqRcT2ZJPLj2ggY5acCBWy4sn8497cTQyS78VomcERD8gwmJJpOwKKpNm0RGMmjt7E7roYAQmtGCbWIUeYQ4FOZOmbz0hMKkCFSvZtJWxUegyCqktkLuHbY06y5uGjWB1FuZDwJKQJpShKGPFTfUfZjHyilXYCZLKnQiaSeESv4WRLfN30RTO1Mq2E4xzLGSRzi",
+              "received": true
+            }
+          ],
+          "total_price": 25955,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Freemanstad",
+              "street": "East Street",
+              "house": 980,
+              "flat": 986
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:53:22.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a469d1c508c5d5ea234dd",
+          "products": [
+            {
+              "_id": "695a46a01c508c5d5ea23543",
+              "name": "Fish44166",
+              "amount": 887,
+              "price": 25955,
+              "manufacturer": "Xiaomi",
+              "notes": "8Oun6qvKMVvEM0162G9cW5HwW55yO048wUiXCG0swjx93Y7n24jUOASHqRcT2ZJPLj2ggY5acCBWy4sn8497cTQyS78VomcERD8gwmJJpOwKKpNm0RGMmjt7E7roYAQmtGCbWIUeYQ4FOZOmbz0hMKkCFSvZtJWxUegyCqktkLuHbY06y5uGjWB1FuZDwJKQJpShKGPFTfUfZjHyilXYCZLKnQiaSeESv4WRLfN30RTO1Mq2E4xzLGSRzi",
+              "received": false
+            }
+          ],
+          "total_price": 25955,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Freemanstad",
+              "street": "East Street",
+              "house": 980,
+              "flat": 986
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:53:21.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a469d1c508c5d5ea234dd",
+          "products": [
+            {
+              "_id": "695a46a01c508c5d5ea23543",
+              "name": "Fish44166",
+              "amount": 887,
+              "price": 25955,
+              "manufacturer": "Xiaomi",
+              "notes": "8Oun6qvKMVvEM0162G9cW5HwW55yO048wUiXCG0swjx93Y7n24jUOASHqRcT2ZJPLj2ggY5acCBWy4sn8497cTQyS78VomcERD8gwmJJpOwKKpNm0RGMmjt7E7roYAQmtGCbWIUeYQ4FOZOmbz0hMKkCFSvZtJWxUegyCqktkLuHbY06y5uGjWB1FuZDwJKQJpShKGPFTfUfZjHyilXYCZLKnQiaSeESv4WRLfN30RTO1Mq2E4xzLGSRzi",
+              "received": false
+            }
+          ],
+          "total_price": 25955,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Freemanstad",
+              "street": "East Street",
+              "house": 980,
+              "flat": 986
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:53:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a469d1c508c5d5ea234dd",
+          "products": [
+            {
+              "_id": "695a46a01c508c5d5ea23543",
+              "name": "Fish44166",
+              "amount": 887,
+              "price": 25955,
+              "manufacturer": "Xiaomi",
+              "notes": "8Oun6qvKMVvEM0162G9cW5HwW55yO048wUiXCG0swjx93Y7n24jUOASHqRcT2ZJPLj2ggY5acCBWy4sn8497cTQyS78VomcERD8gwmJJpOwKKpNm0RGMmjt7E7roYAQmtGCbWIUeYQ4FOZOmbz0hMKkCFSvZtJWxUegyCqktkLuHbY06y5uGjWB1FuZDwJKQJpShKGPFTfUfZjHyilXYCZLKnQiaSeESv4WRLfN30RTO1Mq2E4xzLGSRzi",
+              "received": false
+            }
+          ],
+          "total_price": 25955,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:53:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

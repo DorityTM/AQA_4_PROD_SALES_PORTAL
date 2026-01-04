@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:51:54 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1684",
+    "etag": "W/\"694-djQFWInHEdEaCDJYDXrnX8+nwJE\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a46471c508c5d5ea221d8",
+        "email": "Dan_Pollich@yahoo.com",
+        "name": "Agnes Lemke",
+        "country": "Germany",
+        "city": "Blazefort",
+        "street": "Stiedemann Alley 50",
+        "house": 365,
+        "flat": 3223,
+        "phone": "+989855654253801",
+        "createdOn": "2026-01-04T10:51:51.000Z",
+        "notes": "M4GXH3sm76IawdLZi04lGdqYHu9VVq"
+      },
+      "products": [
+        {
+          "_id": "695a46491c508c5d5ea2227b",
+          "name": "Sausages44338",
+          "amount": 470,
+          "price": 29659,
+          "manufacturer": "Microsoft",
+          "notes": "yPJ3grX2k8OngiQ4w9slzadYssP4rseUXnGZ6sSHV67KfK9vJc275KKHGoM7tYlIPyqMoav2xpypTZQwslmnPbXiHHEz7ejxbL05mUYDkpLAvxnDY8DzuhqjxGRNL0fpG8CWX4MFmdoHfVms62kzGUBAMKZuIhDOMJKiUvl4G4iarMiuoJUBBzBmWuVAQ7klLMjYesT2Fmp3cOFN10fZ1SIkqWRP8Rr8QG1petZL5s3Fh3WkPjV7E5yCJN",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 29659,
+      "createdOn": "2026-01-04T10:51:54.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a46471c508c5d5ea221d8",
+          "products": [
+            {
+              "_id": "695a46491c508c5d5ea2227b",
+              "name": "Sausages44338",
+              "amount": 470,
+              "price": 29659,
+              "manufacturer": "Microsoft",
+              "notes": "yPJ3grX2k8OngiQ4w9slzadYssP4rseUXnGZ6sSHV67KfK9vJc275KKHGoM7tYlIPyqMoav2xpypTZQwslmnPbXiHHEz7ejxbL05mUYDkpLAvxnDY8DzuhqjxGRNL0fpG8CWX4MFmdoHfVms62kzGUBAMKZuIhDOMJKiUvl4G4iarMiuoJUBBzBmWuVAQ7klLMjYesT2Fmp3cOFN10fZ1SIkqWRP8Rr8QG1petZL5s3Fh3WkPjV7E5yCJN",
+              "received": false
+            }
+          ],
+          "total_price": 29659,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:51:54.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a464a1c508c5d5ea22283"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

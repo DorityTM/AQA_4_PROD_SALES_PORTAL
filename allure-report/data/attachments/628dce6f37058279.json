@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:56:44 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2766",
+    "etag": "W/\"ace-K8PS4Z87NIBNWPceSBHqBq/l+hU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a476c1c508c5d5ea26194",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a47691c508c5d5ea26167",
+        "email": "Vernon3@hotmail.com",
+        "name": "Ewald Thompson",
+        "country": "Ukraine",
+        "city": "Kittytown",
+        "street": "Hailey Run 24",
+        "house": 246,
+        "flat": 586,
+        "phone": "+544798205269760",
+        "createdOn": "2026-01-04T10:56:41.000Z",
+        "notes": "zo28SCyBL5YWLUMwYBaNTfHW6Shw7w"
+      },
+      "products": [
+        {
+          "_id": "695a476c1c508c5d5ea2618c",
+          "name": "Cheese58630",
+          "amount": 441,
+          "price": 10891,
+          "manufacturer": "Microsoft",
+          "notes": "wiE610bkS45WfgUpOOZc90kOIFK3qSSgnTiIQwxiQ8sqMpKRMD6ft9JxYp9tGTZG6eLXEX3dhbkkyFcjkhYWEBssz2PaT0tF2Zsod8KwKmJ3Eg5ce2hCuWMCELNhNSizSA3T1WtbUtQ8X2wTJmWEQf8FTj6FPHnZGqCuMRORKHact5j4kb8uQLhsFP2Qoj43HlqS6iFJ2AqYwM6v4joEYEOclWIBQIzYrwraaBO4fUwT1JOrxS6V9B8jfy",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "Lake Amberborough",
+          "street": "Scotty Mews",
+          "house": 415,
+          "flat": 5572
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 10891,
+      "createdOn": "2026-01-04T10:56:44.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a47691c508c5d5ea26167",
+          "products": [
+            {
+              "_id": "695a476c1c508c5d5ea2618c",
+              "name": "Cheese58630",
+              "amount": 441,
+              "price": 10891,
+              "manufacturer": "Microsoft",
+              "notes": "wiE610bkS45WfgUpOOZc90kOIFK3qSSgnTiIQwxiQ8sqMpKRMD6ft9JxYp9tGTZG6eLXEX3dhbkkyFcjkhYWEBssz2PaT0tF2Zsod8KwKmJ3Eg5ce2hCuWMCELNhNSizSA3T1WtbUtQ8X2wTJmWEQf8FTj6FPHnZGqCuMRORKHact5j4kb8uQLhsFP2Qoj43HlqS6iFJ2AqYwM6v4joEYEOclWIBQIzYrwraaBO4fUwT1JOrxS6V9B8jfy",
+              "received": false
+            }
+          ],
+          "total_price": 10891,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "Lake Amberborough",
+              "street": "Scotty Mews",
+              "house": 415,
+              "flat": 5572
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:56:44.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a47691c508c5d5ea26167",
+          "products": [
+            {
+              "_id": "695a476c1c508c5d5ea2618c",
+              "name": "Cheese58630",
+              "amount": 441,
+              "price": 10891,
+              "manufacturer": "Microsoft",
+              "notes": "wiE610bkS45WfgUpOOZc90kOIFK3qSSgnTiIQwxiQ8sqMpKRMD6ft9JxYp9tGTZG6eLXEX3dhbkkyFcjkhYWEBssz2PaT0tF2Zsod8KwKmJ3Eg5ce2hCuWMCELNhNSizSA3T1WtbUtQ8X2wTJmWEQf8FTj6FPHnZGqCuMRORKHact5j4kb8uQLhsFP2Qoj43HlqS6iFJ2AqYwM6v4joEYEOclWIBQIzYrwraaBO4fUwT1JOrxS6V9B8jfy",
+              "received": false
+            }
+          ],
+          "total_price": 10891,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:56:44.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

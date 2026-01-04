@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:42:07 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2738",
+    "etag": "W/\"ab2-tzfHWstnlz323SJ5iycBmN1bT0U\"",
+    "keep-alive": "timeout=5, max=44",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a43ff1c508c5d5ea1ad14",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a43fc1c508c5d5ea1ac78",
+        "email": "Gino12@hotmail.com",
+        "name": "Raymundo Schoen",
+        "country": "Canada",
+        "city": "Fort Uriel",
+        "street": "Trinity Road 22",
+        "house": 442,
+        "flat": 2471,
+        "phone": "+692667378498719",
+        "createdOn": "2026-01-04T10:42:04.000Z",
+        "notes": "FtSNE1EDeoKZc7VBywM90Zwghh1w5w"
+      },
+      "products": [
+        {
+          "_id": "695a43ff1c508c5d5ea1ad04",
+          "name": "Hat28101",
+          "amount": 854,
+          "price": 55699,
+          "manufacturer": "Tesla",
+          "notes": "8ddnm6NeyRLB7dMidbJ3TTDOPw2dAFASswsYlWiAbq9SmItcQ7H69VqvYYVz2HTjCetMYKIpBgsiqrCHbBHrxNuUTUOwcpcgEApglSEpFCKAye6d97rQZW9Q7hurlTNUmrAd7rEnaOx9fhcRivZ46n3eOlWShaiNaAmsFcz0EeJJ0Qg7mAhs9IGfGvhEc9LtZYMJzXMn09dHY3h2nZzQoTH9DrIg3uDoq8vUPSpnwZJbRwHL3iJlMGyL09",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Portsmouth",
+          "street": "Wolff Estates",
+          "house": 777,
+          "flat": 6836
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 55699,
+      "createdOn": "2026-01-04T10:42:07.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a43fc1c508c5d5ea1ac78",
+          "products": [
+            {
+              "_id": "695a43ff1c508c5d5ea1ad04",
+              "name": "Hat28101",
+              "amount": 854,
+              "price": 55699,
+              "manufacturer": "Tesla",
+              "notes": "8ddnm6NeyRLB7dMidbJ3TTDOPw2dAFASswsYlWiAbq9SmItcQ7H69VqvYYVz2HTjCetMYKIpBgsiqrCHbBHrxNuUTUOwcpcgEApglSEpFCKAye6d97rQZW9Q7hurlTNUmrAd7rEnaOx9fhcRivZ46n3eOlWShaiNaAmsFcz0EeJJ0Qg7mAhs9IGfGvhEc9LtZYMJzXMn09dHY3h2nZzQoTH9DrIg3uDoq8vUPSpnwZJbRwHL3iJlMGyL09",
+              "received": false
+            }
+          ],
+          "total_price": 55699,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Portsmouth",
+              "street": "Wolff Estates",
+              "house": 777,
+              "flat": 6836
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:42:07.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a43fc1c508c5d5ea1ac78",
+          "products": [
+            {
+              "_id": "695a43ff1c508c5d5ea1ad04",
+              "name": "Hat28101",
+              "amount": 854,
+              "price": 55699,
+              "manufacturer": "Tesla",
+              "notes": "8ddnm6NeyRLB7dMidbJ3TTDOPw2dAFASswsYlWiAbq9SmItcQ7H69VqvYYVz2HTjCetMYKIpBgsiqrCHbBHrxNuUTUOwcpcgEApglSEpFCKAye6d97rQZW9Q7hurlTNUmrAd7rEnaOx9fhcRivZ46n3eOlWShaiNaAmsFcz0EeJJ0Qg7mAhs9IGfGvhEc9LtZYMJzXMn09dHY3h2nZzQoTH9DrIg3uDoq8vUPSpnwZJbRwHL3iJlMGyL09",
+              "received": false
+            }
+          ],
+          "total_price": 55699,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:42:07.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

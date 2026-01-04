@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:43:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1780",
+    "etag": "W/\"6f4-aryy9KJd73hXYMajyJN4fh9+lMQ\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a44351c508c5d5ea1b5a3",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a44331c508c5d5ea1b525",
+        "email": "Ines44@gmail.com",
+        "name": "Lavon Langosh",
+        "country": "France",
+        "city": "Flatleybury",
+        "street": "Zora Row 3",
+        "house": 366,
+        "flat": 3058,
+        "phone": "+241777589221442",
+        "createdOn": "2026-01-04T10:42:59.000Z",
+        "notes": "rwZLjddiVjYZR8xEl1ZeVvCX0q7yTb"
+      },
+      "products": [
+        {
+          "_id": "695a44351c508c5d5ea1b596",
+          "name": "Mouse21208",
+          "amount": 649,
+          "price": 85492,
+          "manufacturer": "Microsoft",
+          "notes": "qlIc2j1uruvHEVXTTn1YdCTK4uAZawLNcmzVaFxSM99LQtZJCadbW8vLjfEDSaQESiI7MtPBEbYtghvC8coUqxoi8lNJyVaMr6EwFtrp3jTU5UvqL9foEAUHofJaLTRl2sou05dEDprcJtfFjDfnfvnq5CVVok59cVgr9KQoujRUjPAPn3w2VU7s2QpvyilOtwHCrjCnAjh1TneR5uUAD7XzOEAr02Trg755uWV0fWK0EnUnBx06lSZfBU",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 85492,
+      "createdOn": "2026-01-04T10:43:01.000Z",
+      "comments": [
+        {
+          "text": "Ensure > threshold before ship",
+          "createdOn": "2026-01-04T10:43:02.000Z",
+          "_id": "695a44361c508c5d5ea1b5b0"
+        }
+      ],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a44331c508c5d5ea1b525",
+          "products": [
+            {
+              "_id": "695a44351c508c5d5ea1b596",
+              "name": "Mouse21208",
+              "amount": 649,
+              "price": 85492,
+              "manufacturer": "Microsoft",
+              "notes": "qlIc2j1uruvHEVXTTn1YdCTK4uAZawLNcmzVaFxSM99LQtZJCadbW8vLjfEDSaQESiI7MtPBEbYtghvC8coUqxoi8lNJyVaMr6EwFtrp3jTU5UvqL9foEAUHofJaLTRl2sou05dEDprcJtfFjDfnfvnq5CVVok59cVgr9KQoujRUjPAPn3w2VU7s2QpvyilOtwHCrjCnAjh1TneR5uUAD7XzOEAr02Trg755uWV0fWK0EnUnBx06lSZfBU",
+              "received": false
+            }
+          ],
+          "total_price": 85492,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:43:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

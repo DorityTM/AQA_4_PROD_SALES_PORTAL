@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:44:34 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4631",
+    "etag": "W/\"1217-TgMYNMDDuMDk5Fp9fIWBmR/lMro\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a44911c508c5d5ea1c665",
+      "status": "Received",
+      "customer": {
+        "_id": "695a448e1c508c5d5ea1c61c",
+        "email": "Marcus_Waelchi31@yahoo.com",
+        "name": "Autumn Nicolas",
+        "country": "Ukraine",
+        "city": "South Kaylin",
+        "street": "Riverside Avenue 51",
+        "house": 196,
+        "flat": 8414,
+        "phone": "+221613673315912",
+        "createdOn": "2026-01-04T10:44:30.000Z",
+        "notes": "6lSCkJWOtt2FS5v62HremqRU6CpydS"
+      },
+      "products": [
+        {
+          "_id": "695a44901c508c5d5ea1c656",
+          "name": "Chicken61362",
+          "amount": 175,
+          "price": 29582,
+          "manufacturer": "Sony",
+          "notes": "TSazdytPNjp2w55fxmIS6ByFyBhXWTbJIBvT9kKXvZWC2te76b0JMzI0HV3PGHou8OtTeyLpDMk6njC4dcVoF9DkLSsMYMREzOcvatmiax2wjIMmlHKcSW1OVlW6Sr3wJ0zjabCel9uIeHS4K7X9fdW0rTDLyXXC3qxPOpf5X7M8DTeox9Cw4qoh69Zx2ew1HE7XYP64gPVrVyThslpDfMV8EIHUFy6Od4Xrp0wSiNWzF2x7FBFdDhdt3p",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "West Derrick",
+          "street": "Roman Way",
+          "house": 959,
+          "flat": 4407
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 29582,
+      "createdOn": "2026-01-04T10:44:33.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695a448e1c508c5d5ea1c61c",
+          "products": [
+            {
+              "_id": "695a44901c508c5d5ea1c656",
+              "name": "Chicken61362",
+              "amount": 175,
+              "price": 29582,
+              "manufacturer": "Sony",
+              "notes": "TSazdytPNjp2w55fxmIS6ByFyBhXWTbJIBvT9kKXvZWC2te76b0JMzI0HV3PGHou8OtTeyLpDMk6njC4dcVoF9DkLSsMYMREzOcvatmiax2wjIMmlHKcSW1OVlW6Sr3wJ0zjabCel9uIeHS4K7X9fdW0rTDLyXXC3qxPOpf5X7M8DTeox9Cw4qoh69Zx2ew1HE7XYP64gPVrVyThslpDfMV8EIHUFy6Od4Xrp0wSiNWzF2x7FBFdDhdt3p",
+              "received": true
+            }
+          ],
+          "total_price": 29582,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Derrick",
+              "street": "Roman Way",
+              "house": 959,
+              "flat": 4407
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:44:34.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a448e1c508c5d5ea1c61c",
+          "products": [
+            {
+              "_id": "695a44901c508c5d5ea1c656",
+              "name": "Chicken61362",
+              "amount": 175,
+              "price": 29582,
+              "manufacturer": "Sony",
+              "notes": "TSazdytPNjp2w55fxmIS6ByFyBhXWTbJIBvT9kKXvZWC2te76b0JMzI0HV3PGHou8OtTeyLpDMk6njC4dcVoF9DkLSsMYMREzOcvatmiax2wjIMmlHKcSW1OVlW6Sr3wJ0zjabCel9uIeHS4K7X9fdW0rTDLyXXC3qxPOpf5X7M8DTeox9Cw4qoh69Zx2ew1HE7XYP64gPVrVyThslpDfMV8EIHUFy6Od4Xrp0wSiNWzF2x7FBFdDhdt3p",
+              "received": false
+            }
+          ],
+          "total_price": 29582,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Derrick",
+              "street": "Roman Way",
+              "house": 959,
+              "flat": 4407
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:44:33.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a448e1c508c5d5ea1c61c",
+          "products": [
+            {
+              "_id": "695a44901c508c5d5ea1c656",
+              "name": "Chicken61362",
+              "amount": 175,
+              "price": 29582,
+              "manufacturer": "Sony",
+              "notes": "TSazdytPNjp2w55fxmIS6ByFyBhXWTbJIBvT9kKXvZWC2te76b0JMzI0HV3PGHou8OtTeyLpDMk6njC4dcVoF9DkLSsMYMREzOcvatmiax2wjIMmlHKcSW1OVlW6Sr3wJ0zjabCel9uIeHS4K7X9fdW0rTDLyXXC3qxPOpf5X7M8DTeox9Cw4qoh69Zx2ew1HE7XYP64gPVrVyThslpDfMV8EIHUFy6Od4Xrp0wSiNWzF2x7FBFdDhdt3p",
+              "received": false
+            }
+          ],
+          "total_price": 29582,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "West Derrick",
+              "street": "Roman Way",
+              "house": 959,
+              "flat": 4407
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:44:33.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a448e1c508c5d5ea1c61c",
+          "products": [
+            {
+              "_id": "695a44901c508c5d5ea1c656",
+              "name": "Chicken61362",
+              "amount": 175,
+              "price": 29582,
+              "manufacturer": "Sony",
+              "notes": "TSazdytPNjp2w55fxmIS6ByFyBhXWTbJIBvT9kKXvZWC2te76b0JMzI0HV3PGHou8OtTeyLpDMk6njC4dcVoF9DkLSsMYMREzOcvatmiax2wjIMmlHKcSW1OVlW6Sr3wJ0zjabCel9uIeHS4K7X9fdW0rTDLyXXC3qxPOpf5X7M8DTeox9Cw4qoh69Zx2ew1HE7XYP64gPVrVyThslpDfMV8EIHUFy6Od4Xrp0wSiNWzF2x7FBFdDhdt3p",
+              "received": false
+            }
+          ],
+          "total_price": 29582,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:44:33.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

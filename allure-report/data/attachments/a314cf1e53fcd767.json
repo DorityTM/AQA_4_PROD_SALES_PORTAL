@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:53:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4590",
+    "etag": "W/\"11ee-+x6vZnKh75fA0wAo8CL2zpTSe8U\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a46981c508c5d5ea23388",
+      "status": "Received",
+      "customer": {
+        "_id": "695a46951c508c5d5ea23234",
+        "email": "Veronica.Schimmel77@yahoo.com",
+        "name": "Crawford Moen",
+        "country": "Canada",
+        "city": "New Edna",
+        "street": "Judd Streets 85",
+        "house": 31,
+        "flat": 1899,
+        "phone": "+694286711945933",
+        "createdOn": "2026-01-04T10:53:09.000Z",
+        "notes": "ndDx7dxITejbIg2zulp4ftYwUtq5sa"
+      },
+      "products": [
+        {
+          "_id": "695a46971c508c5d5ea23365",
+          "name": "Ball50911",
+          "amount": 492,
+          "price": 64126,
+          "manufacturer": "Xiaomi",
+          "notes": "hHu85FNIA1YCOtPNymAxRntpWJcGRW1B0ihRLEn0ujGD2KLI6g0lH5DLOBSkmCR0NGgjuHOj71KznSDdjgKdcR8cqBkNI7JSHe0uO0xgaHgrLZj8GjvdgLfWHlrgTbqdSXkXjOvYg6IXaoJsJtIbF0SZSoxyDJH9Z02PvxOPyfe2zwoTk4Hx2n2dFa565fkGkOvyiBhALdc4P12RVaIocu87J7m9DUMKNmFQXltoUt2p16QkAL6svyMJkr",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "Rohanshire",
+          "street": "Rusty Well",
+          "house": 840,
+          "flat": 1595
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 64126,
+      "createdOn": "2026-01-04T10:53:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695a46951c508c5d5ea23234",
+          "products": [
+            {
+              "_id": "695a46971c508c5d5ea23365",
+              "name": "Ball50911",
+              "amount": 492,
+              "price": 64126,
+              "manufacturer": "Xiaomi",
+              "notes": "hHu85FNIA1YCOtPNymAxRntpWJcGRW1B0ihRLEn0ujGD2KLI6g0lH5DLOBSkmCR0NGgjuHOj71KznSDdjgKdcR8cqBkNI7JSHe0uO0xgaHgrLZj8GjvdgLfWHlrgTbqdSXkXjOvYg6IXaoJsJtIbF0SZSoxyDJH9Z02PvxOPyfe2zwoTk4Hx2n2dFa565fkGkOvyiBhALdc4P12RVaIocu87J7m9DUMKNmFQXltoUt2p16QkAL6svyMJkr",
+              "received": true
+            }
+          ],
+          "total_price": 64126,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Rohanshire",
+              "street": "Rusty Well",
+              "house": 840,
+              "flat": 1595
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:53:13.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a46951c508c5d5ea23234",
+          "products": [
+            {
+              "_id": "695a46971c508c5d5ea23365",
+              "name": "Ball50911",
+              "amount": 492,
+              "price": 64126,
+              "manufacturer": "Xiaomi",
+              "notes": "hHu85FNIA1YCOtPNymAxRntpWJcGRW1B0ihRLEn0ujGD2KLI6g0lH5DLOBSkmCR0NGgjuHOj71KznSDdjgKdcR8cqBkNI7JSHe0uO0xgaHgrLZj8GjvdgLfWHlrgTbqdSXkXjOvYg6IXaoJsJtIbF0SZSoxyDJH9Z02PvxOPyfe2zwoTk4Hx2n2dFa565fkGkOvyiBhALdc4P12RVaIocu87J7m9DUMKNmFQXltoUt2p16QkAL6svyMJkr",
+              "received": false
+            }
+          ],
+          "total_price": 64126,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Rohanshire",
+              "street": "Rusty Well",
+              "house": 840,
+              "flat": 1595
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:53:12.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a46951c508c5d5ea23234",
+          "products": [
+            {
+              "_id": "695a46971c508c5d5ea23365",
+              "name": "Ball50911",
+              "amount": 492,
+              "price": 64126,
+              "manufacturer": "Xiaomi",
+              "notes": "hHu85FNIA1YCOtPNymAxRntpWJcGRW1B0ihRLEn0ujGD2KLI6g0lH5DLOBSkmCR0NGgjuHOj71KznSDdjgKdcR8cqBkNI7JSHe0uO0xgaHgrLZj8GjvdgLfWHlrgTbqdSXkXjOvYg6IXaoJsJtIbF0SZSoxyDJH9Z02PvxOPyfe2zwoTk4Hx2n2dFa565fkGkOvyiBhALdc4P12RVaIocu87J7m9DUMKNmFQXltoUt2p16QkAL6svyMJkr",
+              "received": false
+            }
+          ],
+          "total_price": 64126,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "Rohanshire",
+              "street": "Rusty Well",
+              "house": 840,
+              "flat": 1595
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:53:12.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a46951c508c5d5ea23234",
+          "products": [
+            {
+              "_id": "695a46971c508c5d5ea23365",
+              "name": "Ball50911",
+              "amount": 492,
+              "price": 64126,
+              "manufacturer": "Xiaomi",
+              "notes": "hHu85FNIA1YCOtPNymAxRntpWJcGRW1B0ihRLEn0ujGD2KLI6g0lH5DLOBSkmCR0NGgjuHOj71KznSDdjgKdcR8cqBkNI7JSHe0uO0xgaHgrLZj8GjvdgLfWHlrgTbqdSXkXjOvYg6IXaoJsJtIbF0SZSoxyDJH9Z02PvxOPyfe2zwoTk4Hx2n2dFa565fkGkOvyiBhALdc4P12RVaIocu87J7m9DUMKNmFQXltoUt2p16QkAL6svyMJkr",
+              "received": false
+            }
+          ],
+          "total_price": 64126,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:53:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

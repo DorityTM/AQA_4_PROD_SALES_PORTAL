@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 10:42:19 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2738",
+    "etag": "W/\"ab2-B/LwY5GqR89/opOb9+7RDuScVig\"",
+    "keep-alive": "timeout=5, max=32",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a440b1c508c5d5ea1af11",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a44081c508c5d5ea1ae9c",
+        "email": "Dock49@yahoo.com",
+        "name": "Ron Bruen",
+        "country": "Russia",
+        "city": "New Joannie",
+        "street": "Terry Fork 10",
+        "house": 621,
+        "flat": 1051,
+        "phone": "+439802166690042",
+        "createdOn": "2026-01-04T10:42:16.000Z",
+        "notes": "CJj4qtEGaDTBVWaDozK4rwOUEojYCO"
+      },
+      "products": [
+        {
+          "_id": "695a440a1c508c5d5ea1af07",
+          "name": "Cheese78388",
+          "amount": 343,
+          "price": 60784,
+          "manufacturer": "Apple",
+          "notes": "LGlh9AigznUj7mkWjFNUjacKERtcu2t0YzVss4BotJJeP5UeGaU0SIGgJ0GrXxK9cLdSWACY536GX2STL97TUurey8rndImTYu9PlR6Gi10GHWV4vcEleFLypKmZuoPI8SXQSU6Lnu11VgzkQuwezkk9k5MHM0zMvUq95jZUZXKMlBGSnKVsh2WBpGT2waQeqDyBZlqkrcE6zbQxOIOGaq3CrEE3CL6gbJutEQOUScknnHYaM3Q6x25Udf",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "East Kasandra",
+          "street": "Macy Rapid",
+          "house": 417,
+          "flat": 4082
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 60784,
+      "createdOn": "2026-01-04T10:42:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a44081c508c5d5ea1ae9c",
+          "products": [
+            {
+              "_id": "695a440a1c508c5d5ea1af07",
+              "name": "Cheese78388",
+              "amount": 343,
+              "price": 60784,
+              "manufacturer": "Apple",
+              "notes": "LGlh9AigznUj7mkWjFNUjacKERtcu2t0YzVss4BotJJeP5UeGaU0SIGgJ0GrXxK9cLdSWACY536GX2STL97TUurey8rndImTYu9PlR6Gi10GHWV4vcEleFLypKmZuoPI8SXQSU6Lnu11VgzkQuwezkk9k5MHM0zMvUq95jZUZXKMlBGSnKVsh2WBpGT2waQeqDyBZlqkrcE6zbQxOIOGaq3CrEE3CL6gbJutEQOUScknnHYaM3Q6x25Udf",
+              "received": false
+            }
+          ],
+          "total_price": 60784,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "East Kasandra",
+              "street": "Macy Rapid",
+              "house": 417,
+              "flat": 4082
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T10:42:19.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a44081c508c5d5ea1ae9c",
+          "products": [
+            {
+              "_id": "695a440a1c508c5d5ea1af07",
+              "name": "Cheese78388",
+              "amount": 343,
+              "price": 60784,
+              "manufacturer": "Apple",
+              "notes": "LGlh9AigznUj7mkWjFNUjacKERtcu2t0YzVss4BotJJeP5UeGaU0SIGgJ0GrXxK9cLdSWACY536GX2STL97TUurey8rndImTYu9PlR6Gi10GHWV4vcEleFLypKmZuoPI8SXQSU6Lnu11VgzkQuwezkk9k5MHM0zMvUq95jZUZXKMlBGSnKVsh2WBpGT2waQeqDyBZlqkrcE6zbQxOIOGaq3CrEE3CL6gbJutEQOUScknnHYaM3Q6x25Udf",
+              "received": false
+            }
+          ],
+          "total_price": 60784,
+          "delivery": null,
+          "changedOn": "2026-01-04T10:42:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
