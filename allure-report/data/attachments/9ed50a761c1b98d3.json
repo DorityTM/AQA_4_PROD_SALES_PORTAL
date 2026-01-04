@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:26:21 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2762",
+    "etag": "W/\"aca-xUqBbpf4Ju4nOdVEchY0JRMa75g\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4e5c1c508c5d5ea4056c",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4e581c508c5d5ea404f4",
+        "email": "Verlie.Bernhard95@yahoo.com",
+        "name": "Tanner Cassin",
+        "country": "Canada",
+        "city": "Tillmanside",
+        "street": "Main Road 56",
+        "house": 867,
+        "flat": 7475,
+        "phone": "+629655195704253",
+        "createdOn": "2026-01-04T11:26:16.000Z",
+        "notes": "GOhySkxfsRQpproU4xGwObpJyZrZGt"
+      },
+      "products": [
+        {
+          "_id": "695a4e5b1c508c5d5ea4054c",
+          "name": "Pants54334",
+          "amount": 306,
+          "price": 59561,
+          "manufacturer": "Amazon",
+          "notes": "nxZpOIF9aEjFiIfXgpJju8qEwrHIlYdX91ZTgk1jyRiuDlHVoZPabrl2cFI9xMSwdVZcP9EmNxNIklpG12kWp5ZgWNmhwsmLz8hMdUC7x41FF6g7l6k2OnSfsuYrqnYoPwEC1VbPkrCjrbqnRcOXkmkv7EpREZvRCKkjKZjvb57ryuaZK2D1NAQOE1YCLowt4zb3Jc4oUmGIKYsBzmXmrTe3HCUYHtxjZ7jPZyQGpG9hzb5xy7BUp7Fo8q",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Margaritastead",
+          "street": "Elm Road",
+          "house": 546,
+          "flat": 1582
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 59561,
+      "createdOn": "2026-01-04T11:26:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4e581c508c5d5ea404f4",
+          "products": [
+            {
+              "_id": "695a4e5b1c508c5d5ea4054c",
+              "name": "Pants54334",
+              "amount": 306,
+              "price": 59561,
+              "manufacturer": "Amazon",
+              "notes": "nxZpOIF9aEjFiIfXgpJju8qEwrHIlYdX91ZTgk1jyRiuDlHVoZPabrl2cFI9xMSwdVZcP9EmNxNIklpG12kWp5ZgWNmhwsmLz8hMdUC7x41FF6g7l6k2OnSfsuYrqnYoPwEC1VbPkrCjrbqnRcOXkmkv7EpREZvRCKkjKZjvb57ryuaZK2D1NAQOE1YCLowt4zb3Jc4oUmGIKYsBzmXmrTe3HCUYHtxjZ7jPZyQGpG9hzb5xy7BUp7Fo8q",
+              "received": false
+            }
+          ],
+          "total_price": 59561,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Margaritastead",
+              "street": "Elm Road",
+              "house": 546,
+              "flat": 1582
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:26:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4e581c508c5d5ea404f4",
+          "products": [
+            {
+              "_id": "695a4e5b1c508c5d5ea4054c",
+              "name": "Pants54334",
+              "amount": 306,
+              "price": 59561,
+              "manufacturer": "Amazon",
+              "notes": "nxZpOIF9aEjFiIfXgpJju8qEwrHIlYdX91ZTgk1jyRiuDlHVoZPabrl2cFI9xMSwdVZcP9EmNxNIklpG12kWp5ZgWNmhwsmLz8hMdUC7x41FF6g7l6k2OnSfsuYrqnYoPwEC1VbPkrCjrbqnRcOXkmkv7EpREZvRCKkjKZjvb57ryuaZK2D1NAQOE1YCLowt4zb3Jc4oUmGIKYsBzmXmrTe3HCUYHtxjZ7jPZyQGpG9hzb5xy7BUp7Fo8q",
+              "received": false
+            }
+          ],
+          "total_price": 59561,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:26:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

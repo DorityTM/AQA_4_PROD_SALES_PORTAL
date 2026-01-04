@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:09:43 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3686",
+    "etag": "W/\"e66-ciDd27FD+hIAFLgiWMJt3NY0Ke8\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4a761c508c5d5ea31139",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a4a721c508c5d5ea3109e",
+        "email": "Sofia.Stoltenberg@yahoo.com",
+        "name": "Myrtle Goodwin",
+        "country": "France",
+        "city": "Gennaroborough",
+        "street": "Zieme Mews 54",
+        "house": 196,
+        "flat": 1779,
+        "phone": "+350433428635634",
+        "createdOn": "2026-01-04T11:09:38.000Z",
+        "notes": "FkJC6lNYAohD4XU7IBXkZOmY83gepF"
+      },
+      "products": [
+        {
+          "_id": "695a4a751c508c5d5ea3112c",
+          "name": "Car52547",
+          "amount": 939,
+          "price": 47245,
+          "manufacturer": "Amazon",
+          "notes": "53pPHMU9ZeXIwzbXweZ29osSktaFi2Vj9iYgI0hL81lNIVBmiF4TvF6b7nYYOvQNIbGYc9MHvQLayyzKIz0wMVuprbQm9Mk5LQMJBo3bNLoez1mMema9yXWmHIZCWYCGBSbjuAAHKhvdwrNBs5n5qzKNsYECqL2UICy5jJtNH4ZKxwuPBcT5H3mpXiPSvLP7Vk8y2ExOPwD9aBHJL11i3idDFdHBboLZ0hGMshGJLOt6bccTkCsIxun0Wz",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "North Hermina",
+          "street": "E 7th Street",
+          "house": 399,
+          "flat": 3121
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 47245,
+      "createdOn": "2026-01-04T11:09:42.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a4a721c508c5d5ea3109e",
+          "products": [
+            {
+              "_id": "695a4a751c508c5d5ea3112c",
+              "name": "Car52547",
+              "amount": 939,
+              "price": 47245,
+              "manufacturer": "Amazon",
+              "notes": "53pPHMU9ZeXIwzbXweZ29osSktaFi2Vj9iYgI0hL81lNIVBmiF4TvF6b7nYYOvQNIbGYc9MHvQLayyzKIz0wMVuprbQm9Mk5LQMJBo3bNLoez1mMema9yXWmHIZCWYCGBSbjuAAHKhvdwrNBs5n5qzKNsYECqL2UICy5jJtNH4ZKxwuPBcT5H3mpXiPSvLP7Vk8y2ExOPwD9aBHJL11i3idDFdHBboLZ0hGMshGJLOt6bccTkCsIxun0Wz",
+              "received": false
+            }
+          ],
+          "total_price": 47245,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Hermina",
+              "street": "E 7th Street",
+              "house": 399,
+              "flat": 3121
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:09:43.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4a721c508c5d5ea3109e",
+          "products": [
+            {
+              "_id": "695a4a751c508c5d5ea3112c",
+              "name": "Car52547",
+              "amount": 939,
+              "price": 47245,
+              "manufacturer": "Amazon",
+              "notes": "53pPHMU9ZeXIwzbXweZ29osSktaFi2Vj9iYgI0hL81lNIVBmiF4TvF6b7nYYOvQNIbGYc9MHvQLayyzKIz0wMVuprbQm9Mk5LQMJBo3bNLoez1mMema9yXWmHIZCWYCGBSbjuAAHKhvdwrNBs5n5qzKNsYECqL2UICy5jJtNH4ZKxwuPBcT5H3mpXiPSvLP7Vk8y2ExOPwD9aBHJL11i3idDFdHBboLZ0hGMshGJLOt6bccTkCsIxun0Wz",
+              "received": false
+            }
+          ],
+          "total_price": 47245,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "North Hermina",
+              "street": "E 7th Street",
+              "house": 399,
+              "flat": 3121
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:09:42.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4a721c508c5d5ea3109e",
+          "products": [
+            {
+              "_id": "695a4a751c508c5d5ea3112c",
+              "name": "Car52547",
+              "amount": 939,
+              "price": 47245,
+              "manufacturer": "Amazon",
+              "notes": "53pPHMU9ZeXIwzbXweZ29osSktaFi2Vj9iYgI0hL81lNIVBmiF4TvF6b7nYYOvQNIbGYc9MHvQLayyzKIz0wMVuprbQm9Mk5LQMJBo3bNLoez1mMema9yXWmHIZCWYCGBSbjuAAHKhvdwrNBs5n5qzKNsYECqL2UICy5jJtNH4ZKxwuPBcT5H3mpXiPSvLP7Vk8y2ExOPwD9aBHJL11i3idDFdHBboLZ0hGMshGJLOt6bccTkCsIxun0Wz",
+              "received": false
+            }
+          ],
+          "total_price": 47245,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:09:42.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

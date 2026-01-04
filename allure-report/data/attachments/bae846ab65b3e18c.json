@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:28:38 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3643",
+    "etag": "W/\"e3b-OFkD85c/zz8FGwLnsWHUsaGHPBc\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4ee51c508c5d5ea42a34",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695a4edd1c508c5d5ea428cd",
+        "email": "Colt39@gmail.com",
+        "name": "Kim Gibson",
+        "country": "Russia",
+        "city": "Port Jaiden",
+        "street": "1st Avenue 45",
+        "house": 594,
+        "flat": 944,
+        "phone": "+341495235688966",
+        "createdOn": "2026-01-04T11:28:29.000Z",
+        "notes": "af9gB6jlSIDW8MXd9nU9weA92zfHJ7"
+      },
+      "products": [
+        {
+          "_id": "695a4ee01c508c5d5ea429ec",
+          "name": "Tuna17845",
+          "amount": 27,
+          "price": 4764,
+          "manufacturer": "Sony",
+          "notes": "egvlLrzTbJwQPpD89HVpqZQ0wVeXufxHUVOOzaWma5blOe3VrSdJvXAhziqHCLolSzbRJKtmzNBgHxIh89nmMXo2ZGFZjtG2P41gVjDGbFlGXARWhyya9y3j5VuLwwtdVmToEACPHrr8DKtLkI5fH9g5q2GhGG2rY7mAfp0xdJBRxnRUvPYTs5ZHaUTglVVe7DSUREt5PaAmiWxshH4U3dfjVMkIca0mhMBej6H3DqUToKnJOQ9dIfHXjI",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "East Christopher",
+          "street": "Monty River",
+          "house": 143,
+          "flat": 2762
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 4764,
+      "createdOn": "2026-01-04T11:28:37.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695a4edd1c508c5d5ea428cd",
+          "products": [
+            {
+              "_id": "695a4ee01c508c5d5ea429ec",
+              "name": "Tuna17845",
+              "amount": 27,
+              "price": 4764,
+              "manufacturer": "Sony",
+              "notes": "egvlLrzTbJwQPpD89HVpqZQ0wVeXufxHUVOOzaWma5blOe3VrSdJvXAhziqHCLolSzbRJKtmzNBgHxIh89nmMXo2ZGFZjtG2P41gVjDGbFlGXARWhyya9y3j5VuLwwtdVmToEACPHrr8DKtLkI5fH9g5q2GhGG2rY7mAfp0xdJBRxnRUvPYTs5ZHaUTglVVe7DSUREt5PaAmiWxshH4U3dfjVMkIca0mhMBej6H3DqUToKnJOQ9dIfHXjI",
+              "received": false
+            }
+          ],
+          "total_price": 4764,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Christopher",
+              "street": "Monty River",
+              "house": 143,
+              "flat": 2762
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:28:38.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4edd1c508c5d5ea428cd",
+          "products": [
+            {
+              "_id": "695a4ee01c508c5d5ea429ec",
+              "name": "Tuna17845",
+              "amount": 27,
+              "price": 4764,
+              "manufacturer": "Sony",
+              "notes": "egvlLrzTbJwQPpD89HVpqZQ0wVeXufxHUVOOzaWma5blOe3VrSdJvXAhziqHCLolSzbRJKtmzNBgHxIh89nmMXo2ZGFZjtG2P41gVjDGbFlGXARWhyya9y3j5VuLwwtdVmToEACPHrr8DKtLkI5fH9g5q2GhGG2rY7mAfp0xdJBRxnRUvPYTs5ZHaUTglVVe7DSUREt5PaAmiWxshH4U3dfjVMkIca0mhMBej6H3DqUToKnJOQ9dIfHXjI",
+              "received": false
+            }
+          ],
+          "total_price": 4764,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "East Christopher",
+              "street": "Monty River",
+              "house": 143,
+              "flat": 2762
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:28:38.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4edd1c508c5d5ea428cd",
+          "products": [
+            {
+              "_id": "695a4ee01c508c5d5ea429ec",
+              "name": "Tuna17845",
+              "amount": 27,
+              "price": 4764,
+              "manufacturer": "Sony",
+              "notes": "egvlLrzTbJwQPpD89HVpqZQ0wVeXufxHUVOOzaWma5blOe3VrSdJvXAhziqHCLolSzbRJKtmzNBgHxIh89nmMXo2ZGFZjtG2P41gVjDGbFlGXARWhyya9y3j5VuLwwtdVmToEACPHrr8DKtLkI5fH9g5q2GhGG2rY7mAfp0xdJBRxnRUvPYTs5ZHaUTglVVe7DSUREt5PaAmiWxshH4U3dfjVMkIca0mhMBej6H3DqUToKnJOQ9dIfHXjI",
+              "received": false
+            }
+          ],
+          "total_price": 4764,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:28:37.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

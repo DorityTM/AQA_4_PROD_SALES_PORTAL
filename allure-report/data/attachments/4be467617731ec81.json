@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:22:57 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3918",
+    "etag": "W/\"f4e-8/8OsS8Yp79oqFlTwfZmXdS40xg\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4d901c508c5d5ea3d5c6",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4d8a1c508c5d5ea3d424",
+        "email": "Erich_Ledner@gmail.com",
+        "name": "Kellie McDermott",
+        "country": "Belarus",
+        "city": "New Melodyburgh",
+        "street": "Priory Close 25",
+        "house": 49,
+        "flat": 2359,
+        "phone": "+923433774324827",
+        "createdOn": "2026-01-04T11:22:50.000Z",
+        "notes": "wOd2sa5hHW026xP6miGV6XUG8gLzwA"
+      },
+      "products": [
+        {
+          "_id": "695a4d8d1c508c5d5ea3d466",
+          "name": "Chair58791",
+          "amount": 569,
+          "price": 95553,
+          "manufacturer": "Microsoft",
+          "notes": "wbdwxVM8IJT6o5Jes5kb4wD8EEOI7gxBV4GsWOxscxN5torQc1B0BzqG5vGAvODQOyzZdpVZUhmuXq7NBJSpGOJL3A1YulX2tU6FJGddcHADjZE11EPqD2sys5bZPQyyLm5hLji0aPTzc3VhCDu7nV9LlycGad85OpzP2Hcg2UL3XqZZBIP32uIwxkh9I4EO25DemG2mOBCjGeqczjJYq8mv5JuoG0ae6YkmZrxfCJJqCita28VOdupvga",
+          "received": false
+        },
+        {
+          "_id": "695a4d901c508c5d5ea3d5b8",
+          "name": "Car79689",
+          "amount": 301,
+          "price": 36399,
+          "manufacturer": "Microsoft",
+          "notes": "4JEJ0pB0OZcdRG9KCGkjeIcWTNQZ3PrVZj4DEs07tcRijdlsx8NSRXgs2IOa6RCbl9lIzUC2MWpHKhtNTBuxeMGhaAVqLWVhUW1bI2NqNYr2orcrIZExzFvj2T3kJIDFw8B2XrYbOlEvWigFPo7oUBAOEYMPeTMYY1YFrA7J4SuwkldF8e2YklR3iyp4JkTBEdfm1BV6Hfp3xDk5BUN9KLm9W2f1qWGPjrvL5qB1pw1AT2LQ6flm5l0sJh",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Jersey City",
+          "street": "2nd Avenue",
+          "house": 732,
+          "flat": 9146
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 131952,
+      "createdOn": "2026-01-04T11:22:56.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4d8a1c508c5d5ea3d424",
+          "products": [
+            {
+              "_id": "695a4d8d1c508c5d5ea3d466",
+              "name": "Chair58791",
+              "amount": 569,
+              "price": 95553,
+              "manufacturer": "Microsoft",
+              "notes": "wbdwxVM8IJT6o5Jes5kb4wD8EEOI7gxBV4GsWOxscxN5torQc1B0BzqG5vGAvODQOyzZdpVZUhmuXq7NBJSpGOJL3A1YulX2tU6FJGddcHADjZE11EPqD2sys5bZPQyyLm5hLji0aPTzc3VhCDu7nV9LlycGad85OpzP2Hcg2UL3XqZZBIP32uIwxkh9I4EO25DemG2mOBCjGeqczjJYq8mv5JuoG0ae6YkmZrxfCJJqCita28VOdupvga",
+              "received": false
+            },
+            {
+              "_id": "695a4d901c508c5d5ea3d5b8",
+              "name": "Car79689",
+              "amount": 301,
+              "price": 36399,
+              "manufacturer": "Microsoft",
+              "notes": "4JEJ0pB0OZcdRG9KCGkjeIcWTNQZ3PrVZj4DEs07tcRijdlsx8NSRXgs2IOa6RCbl9lIzUC2MWpHKhtNTBuxeMGhaAVqLWVhUW1bI2NqNYr2orcrIZExzFvj2T3kJIDFw8B2XrYbOlEvWigFPo7oUBAOEYMPeTMYY1YFrA7J4SuwkldF8e2YklR3iyp4JkTBEdfm1BV6Hfp3xDk5BUN9KLm9W2f1qWGPjrvL5qB1pw1AT2LQ6flm5l0sJh",
+              "received": false
+            }
+          ],
+          "total_price": 131952,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Jersey City",
+              "street": "2nd Avenue",
+              "house": 732,
+              "flat": 9146
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:22:57.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4d8a1c508c5d5ea3d424",
+          "products": [
+            {
+              "_id": "695a4d8d1c508c5d5ea3d466",
+              "name": "Chair58791",
+              "amount": 569,
+              "price": 95553,
+              "manufacturer": "Microsoft",
+              "notes": "wbdwxVM8IJT6o5Jes5kb4wD8EEOI7gxBV4GsWOxscxN5torQc1B0BzqG5vGAvODQOyzZdpVZUhmuXq7NBJSpGOJL3A1YulX2tU6FJGddcHADjZE11EPqD2sys5bZPQyyLm5hLji0aPTzc3VhCDu7nV9LlycGad85OpzP2Hcg2UL3XqZZBIP32uIwxkh9I4EO25DemG2mOBCjGeqczjJYq8mv5JuoG0ae6YkmZrxfCJJqCita28VOdupvga",
+              "received": false
+            },
+            {
+              "_id": "695a4d901c508c5d5ea3d5b8",
+              "name": "Car79689",
+              "amount": 301,
+              "price": 36399,
+              "manufacturer": "Microsoft",
+              "notes": "4JEJ0pB0OZcdRG9KCGkjeIcWTNQZ3PrVZj4DEs07tcRijdlsx8NSRXgs2IOa6RCbl9lIzUC2MWpHKhtNTBuxeMGhaAVqLWVhUW1bI2NqNYr2orcrIZExzFvj2T3kJIDFw8B2XrYbOlEvWigFPo7oUBAOEYMPeTMYY1YFrA7J4SuwkldF8e2YklR3iyp4JkTBEdfm1BV6Hfp3xDk5BUN9KLm9W2f1qWGPjrvL5qB1pw1AT2LQ6flm5l0sJh",
+              "received": false
+            }
+          ],
+          "total_price": 131952,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:22:56.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:09:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2766",
+    "etag": "W/\"ace-bT/qY2Dcr9yjhwuZIfIVuuy+JRU\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4a671c508c5d5ea30da3",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4a641c508c5d5ea30d15",
+        "email": "Rupert.Pagac71@gmail.com",
+        "name": "Moriah Becker",
+        "country": "Russia",
+        "city": "Wardburgh",
+        "street": "Kuvalis Mountains 18",
+        "house": 355,
+        "flat": 3548,
+        "phone": "+575317002222896",
+        "createdOn": "2026-01-04T11:09:24.000Z",
+        "notes": "8YzbkjVhwaTDKpPULUZ41e6fXS2ecl"
+      },
+      "products": [
+        {
+          "_id": "695a4a671c508c5d5ea30d8e",
+          "name": "Table22888",
+          "amount": 345,
+          "price": 7971,
+          "manufacturer": "Microsoft",
+          "notes": "c10nCNHKP4uOf6pMycjmGuq5mBnlkklsSaxGNxdzwRwNwl5BTfUIP2EzfmoVCODnqFN5bPT144n3WvyWUZ2Vzs4eHeYELCQ0I2SLgHoP0mQ2XsiWuXJlexGAVjUbsmtrGNiof4Bu47XfZiPdc6IQpauQU5Z9NSXTYJvxxk2hWZzJOXJhWwg3osKamCB5UlGON6ncLXzEUBDa5gH3LpqCFlpzMPOkvawr7x56k7WNCovg1LGGzVTgUSIENp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Lake Dillan",
+          "street": "Walsh Trail",
+          "house": 92,
+          "flat": 5262
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 7971,
+      "createdOn": "2026-01-04T11:09:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4a641c508c5d5ea30d15",
+          "products": [
+            {
+              "_id": "695a4a671c508c5d5ea30d8e",
+              "name": "Table22888",
+              "amount": 345,
+              "price": 7971,
+              "manufacturer": "Microsoft",
+              "notes": "c10nCNHKP4uOf6pMycjmGuq5mBnlkklsSaxGNxdzwRwNwl5BTfUIP2EzfmoVCODnqFN5bPT144n3WvyWUZ2Vzs4eHeYELCQ0I2SLgHoP0mQ2XsiWuXJlexGAVjUbsmtrGNiof4Bu47XfZiPdc6IQpauQU5Z9NSXTYJvxxk2hWZzJOXJhWwg3osKamCB5UlGON6ncLXzEUBDa5gH3LpqCFlpzMPOkvawr7x56k7WNCovg1LGGzVTgUSIENp",
+              "received": false
+            }
+          ],
+          "total_price": 7971,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Lake Dillan",
+              "street": "Walsh Trail",
+              "house": 92,
+              "flat": 5262
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:09:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4a641c508c5d5ea30d15",
+          "products": [
+            {
+              "_id": "695a4a671c508c5d5ea30d8e",
+              "name": "Table22888",
+              "amount": 345,
+              "price": 7971,
+              "manufacturer": "Microsoft",
+              "notes": "c10nCNHKP4uOf6pMycjmGuq5mBnlkklsSaxGNxdzwRwNwl5BTfUIP2EzfmoVCODnqFN5bPT144n3WvyWUZ2Vzs4eHeYELCQ0I2SLgHoP0mQ2XsiWuXJlexGAVjUbsmtrGNiof4Bu47XfZiPdc6IQpauQU5Z9NSXTYJvxxk2hWZzJOXJhWwg3osKamCB5UlGON6ncLXzEUBDa5gH3LpqCFlpzMPOkvawr7x56k7WNCovg1LGGzVTgUSIENp",
+              "received": false
+            }
+          ],
+          "total_price": 7971,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:09:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

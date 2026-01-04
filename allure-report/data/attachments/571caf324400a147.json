@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:17:13 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2764",
+    "etag": "W/\"acc-Laml3ZBzGIryrpFhtANKRr3ywIM\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4c381c508c5d5ea37977",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4c351c508c5d5ea37864",
+        "email": "Jackson.Frami7@yahoo.com",
+        "name": "Graciela Jakubowski",
+        "country": "USA",
+        "city": "Willmsshire",
+        "street": "Adams Street 70",
+        "house": 916,
+        "flat": 5911,
+        "phone": "+077947042210408",
+        "createdOn": "2026-01-04T11:17:09.000Z",
+        "notes": "lhomj7dFl8XS94DJ7osLzIHWxu7LCh"
+      },
+      "products": [
+        {
+          "_id": "695a4c381c508c5d5ea3795d",
+          "name": "Bacon41423",
+          "amount": 286,
+          "price": 27558,
+          "manufacturer": "Samsung",
+          "notes": "D2IRMMsJ65CXRVvV0x1R4jB1VE0ml5OTZN9Nu9eIf2JsSEEAYowIMmWmp4sdDEe9q6EH7gutvIe89lMXY7y2YmDGawnb3JfN2AqNvZGXNQ7fmUtaAVYLXSt5KCrtSOrB7PXbuSu0IjKQJ2MKsPUwqiNZ52lKZMNRoERSCqKzs95uKELt3e7nEkodLyXQTzHdVijXHRRF4HfuYNW7RrknemAozT1JjDqwR5sK2DPkyRuyeyPkrR3BovmOUs",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "West Luciusville",
+          "street": "Broadway Street",
+          "house": 52,
+          "flat": 9258
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 27558,
+      "createdOn": "2026-01-04T11:17:12.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4c351c508c5d5ea37864",
+          "products": [
+            {
+              "_id": "695a4c381c508c5d5ea3795d",
+              "name": "Bacon41423",
+              "amount": 286,
+              "price": 27558,
+              "manufacturer": "Samsung",
+              "notes": "D2IRMMsJ65CXRVvV0x1R4jB1VE0ml5OTZN9Nu9eIf2JsSEEAYowIMmWmp4sdDEe9q6EH7gutvIe89lMXY7y2YmDGawnb3JfN2AqNvZGXNQ7fmUtaAVYLXSt5KCrtSOrB7PXbuSu0IjKQJ2MKsPUwqiNZ52lKZMNRoERSCqKzs95uKELt3e7nEkodLyXQTzHdVijXHRRF4HfuYNW7RrknemAozT1JjDqwR5sK2DPkyRuyeyPkrR3BovmOUs",
+              "received": false
+            }
+          ],
+          "total_price": 27558,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "West Luciusville",
+              "street": "Broadway Street",
+              "house": 52,
+              "flat": 9258
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:17:13.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4c351c508c5d5ea37864",
+          "products": [
+            {
+              "_id": "695a4c381c508c5d5ea3795d",
+              "name": "Bacon41423",
+              "amount": 286,
+              "price": 27558,
+              "manufacturer": "Samsung",
+              "notes": "D2IRMMsJ65CXRVvV0x1R4jB1VE0ml5OTZN9Nu9eIf2JsSEEAYowIMmWmp4sdDEe9q6EH7gutvIe89lMXY7y2YmDGawnb3JfN2AqNvZGXNQ7fmUtaAVYLXSt5KCrtSOrB7PXbuSu0IjKQJ2MKsPUwqiNZ52lKZMNRoERSCqKzs95uKELt3e7nEkodLyXQTzHdVijXHRRF4HfuYNW7RrknemAozT1JjDqwR5sK2DPkyRuyeyPkrR3BovmOUs",
+              "received": false
+            }
+          ],
+          "total_price": 27558,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:17:12.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

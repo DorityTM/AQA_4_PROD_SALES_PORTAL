@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:15:37 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2765",
+    "etag": "W/\"acd-ZrS0F4uE0VmaiTojsJWbXgVxhGE\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4bd81c508c5d5ea3699b",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4bd51c508c5d5ea36981",
+        "email": "Marjory.Shanahan@hotmail.com",
+        "name": "Salvador Kassulke",
+        "country": "Germany",
+        "city": "Dedricside",
+        "street": "Kihn Summit 80",
+        "house": 748,
+        "flat": 5634,
+        "phone": "+341533832893655",
+        "createdOn": "2026-01-04T11:15:33.000Z",
+        "notes": "V41qWNB6dwaz104R6nXkSDysLqq3MM"
+      },
+      "products": [
+        {
+          "_id": "695a4bd81c508c5d5ea36993",
+          "name": "Towels60891",
+          "amount": 95,
+          "price": 80678,
+          "manufacturer": "Google",
+          "notes": "UIPNVJlXPhNguPOjYMOU9rb3QtDtrBRcDixacrVlT06E3s2dYeQoG3oE6tutpY7mUYSlEfArE3nK6cyxbhTVI6YhfOmbbs740I80p8en1kkzBcrC0z3iLyMN1M3GLueZZyR8VX0kly5UGIXHQe3cSJ218XzCfNdYbHZ0EdoRnpRxSMJXikcH6AfTSPjMX1Mndjv1qFrdHLMYV99MkYpXfGyuaX9SGA5okhLstr6pNY9I2AaIi1hawbkQRu",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Ukraine",
+          "city": "New Mckaylabury",
+          "street": "14th Street",
+          "house": 648,
+          "flat": 9378
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 80678,
+      "createdOn": "2026-01-04T11:15:36.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4bd51c508c5d5ea36981",
+          "products": [
+            {
+              "_id": "695a4bd81c508c5d5ea36993",
+              "name": "Towels60891",
+              "amount": 95,
+              "price": 80678,
+              "manufacturer": "Google",
+              "notes": "UIPNVJlXPhNguPOjYMOU9rb3QtDtrBRcDixacrVlT06E3s2dYeQoG3oE6tutpY7mUYSlEfArE3nK6cyxbhTVI6YhfOmbbs740I80p8en1kkzBcrC0z3iLyMN1M3GLueZZyR8VX0kly5UGIXHQe3cSJ218XzCfNdYbHZ0EdoRnpRxSMJXikcH6AfTSPjMX1Mndjv1qFrdHLMYV99MkYpXfGyuaX9SGA5okhLstr6pNY9I2AaIi1hawbkQRu",
+              "received": false
+            }
+          ],
+          "total_price": 80678,
+          "delivery": {
+            "address": {
+              "country": "Ukraine",
+              "city": "New Mckaylabury",
+              "street": "14th Street",
+              "house": 648,
+              "flat": 9378
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:15:37.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4bd51c508c5d5ea36981",
+          "products": [
+            {
+              "_id": "695a4bd81c508c5d5ea36993",
+              "name": "Towels60891",
+              "amount": 95,
+              "price": 80678,
+              "manufacturer": "Google",
+              "notes": "UIPNVJlXPhNguPOjYMOU9rb3QtDtrBRcDixacrVlT06E3s2dYeQoG3oE6tutpY7mUYSlEfArE3nK6cyxbhTVI6YhfOmbbs740I80p8en1kkzBcrC0z3iLyMN1M3GLueZZyR8VX0kly5UGIXHQe3cSJ218XzCfNdYbHZ0EdoRnpRxSMJXikcH6AfTSPjMX1Mndjv1qFrdHLMYV99MkYpXfGyuaX9SGA5okhLstr6pNY9I2AaIi1hawbkQRu",
+              "received": false
+            }
+          ],
+          "total_price": 80678,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:15:36.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

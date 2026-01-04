@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:29:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3655",
+    "etag": "W/\"e47-2c/t9n2ajNJGvQJKu5rbu4yW0mg\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4f101c508c5d5ea43734",
+      "status": "Canceled",
+      "customer": {
+        "_id": "695a4f041c508c5d5ea4353f",
+        "email": "Eliza95@hotmail.com",
+        "name": "Karolann Koss",
+        "country": "Russia",
+        "city": "Marisastad",
+        "street": "Mertz Islands 77",
+        "house": 193,
+        "flat": 7171,
+        "phone": "+242364435157043",
+        "createdOn": "2026-01-04T11:29:08.000Z",
+        "notes": "fJ8RcPIi1lhGWJJKkyuoQcOFpVTbeG"
+      },
+      "products": [
+        {
+          "_id": "695a4f101c508c5d5ea4370a",
+          "name": "Tuna51834",
+          "amount": 44,
+          "price": 53975,
+          "manufacturer": "Tesla",
+          "notes": "qXktBFP6DHpSujQUaSHzWAAPR7aYXC54FkTix0Lk1wM5MfKz6EQRqqTysHl5rbmfHTdOUixSu9oMPqfuCWXiw9tfncNUuq3CJJ3rVneYzXXVODVmMgdzxMM6KABCqv6d5Fk7OcycT7HGoPcb0a6n5sByLKCgcjuX87n83x9KxnZc0Pr0dwtlVB0Y3wq1TKeAbdSe2wHfHms848uzoeOAWHikSGf3nivsA3YbZfaN2wYMTBliEmD0JiMSZD",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "France",
+          "city": "South Jaydefort",
+          "street": "Alba Pine",
+          "house": 567,
+          "flat": 8856
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 53975,
+      "createdOn": "2026-01-04T11:29:20.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Canceled",
+          "customer": "695a4f041c508c5d5ea4353f",
+          "products": [
+            {
+              "_id": "695a4f101c508c5d5ea4370a",
+              "name": "Tuna51834",
+              "amount": 44,
+              "price": 53975,
+              "manufacturer": "Tesla",
+              "notes": "qXktBFP6DHpSujQUaSHzWAAPR7aYXC54FkTix0Lk1wM5MfKz6EQRqqTysHl5rbmfHTdOUixSu9oMPqfuCWXiw9tfncNUuq3CJJ3rVneYzXXVODVmMgdzxMM6KABCqv6d5Fk7OcycT7HGoPcb0a6n5sByLKCgcjuX87n83x9KxnZc0Pr0dwtlVB0Y3wq1TKeAbdSe2wHfHms848uzoeOAWHikSGf3nivsA3YbZfaN2wYMTBliEmD0JiMSZD",
+              "received": false
+            }
+          ],
+          "total_price": 53975,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Jaydefort",
+              "street": "Alba Pine",
+              "house": 567,
+              "flat": 8856
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:29:22.000Z",
+          "action": "Order canceled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4f041c508c5d5ea4353f",
+          "products": [
+            {
+              "_id": "695a4f101c508c5d5ea4370a",
+              "name": "Tuna51834",
+              "amount": 44,
+              "price": 53975,
+              "manufacturer": "Tesla",
+              "notes": "qXktBFP6DHpSujQUaSHzWAAPR7aYXC54FkTix0Lk1wM5MfKz6EQRqqTysHl5rbmfHTdOUixSu9oMPqfuCWXiw9tfncNUuq3CJJ3rVneYzXXVODVmMgdzxMM6KABCqv6d5Fk7OcycT7HGoPcb0a6n5sByLKCgcjuX87n83x9KxnZc0Pr0dwtlVB0Y3wq1TKeAbdSe2wHfHms848uzoeOAWHikSGf3nivsA3YbZfaN2wYMTBliEmD0JiMSZD",
+              "received": false
+            }
+          ],
+          "total_price": 53975,
+          "delivery": {
+            "address": {
+              "country": "France",
+              "city": "South Jaydefort",
+              "street": "Alba Pine",
+              "house": 567,
+              "flat": 8856
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:29:21.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4f041c508c5d5ea4353f",
+          "products": [
+            {
+              "_id": "695a4f101c508c5d5ea4370a",
+              "name": "Tuna51834",
+              "amount": 44,
+              "price": 53975,
+              "manufacturer": "Tesla",
+              "notes": "qXktBFP6DHpSujQUaSHzWAAPR7aYXC54FkTix0Lk1wM5MfKz6EQRqqTysHl5rbmfHTdOUixSu9oMPqfuCWXiw9tfncNUuq3CJJ3rVneYzXXVODVmMgdzxMM6KABCqv6d5Fk7OcycT7HGoPcb0a6n5sByLKCgcjuX87n83x9KxnZc0Pr0dwtlVB0Y3wq1TKeAbdSe2wHfHms848uzoeOAWHikSGf3nivsA3YbZfaN2wYMTBliEmD0JiMSZD",
+              "received": false
+            }
+          ],
+          "total_price": 53975,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:29:20.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

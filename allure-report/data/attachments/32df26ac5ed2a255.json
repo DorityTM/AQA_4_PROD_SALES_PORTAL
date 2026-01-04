@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:19:30 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1673",
+    "etag": "W/\"689-yX+jGA1z1rRH4I5Yf57cJws7mio\"",
+    "keep-alive": "timeout=5, max=90",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4cbe1c508c5d5ea3a648",
+        "email": "Monte45@yahoo.com",
+        "name": "Stephania MacGyver",
+        "country": "Canada",
+        "city": "Kuhnshire",
+        "street": "Granville Streets 26",
+        "house": 114,
+        "flat": 8885,
+        "phone": "+362871534044759",
+        "createdOn": "2026-01-04T11:19:26.000Z",
+        "notes": "9Sp6ZefDalMk6yqH13Ywb2t8nFl7Li"
+      },
+      "products": [
+        {
+          "_id": "695a4cc11c508c5d5ea3a650",
+          "name": "Fish96762",
+          "amount": 119,
+          "price": 75731,
+          "manufacturer": "Amazon",
+          "notes": "c3WOqevfU86UYkLiBwldgWdhCHZrG4kK3Zbz1vq82gmvyZU1KqPSYc4VrWsH74JwczmZIf5s5xOpUrWRkgGxDVCK0wPh7AQvTymejZxEZBsCUVUYd3e86tSWdcRxrBYzfhApIL8NQrV9InjGU8a8Kf5I3q1eEoYJsxiAd7cAftV3ulUajl1GpYE9HQKqpsEq9VNOOeXwJ9AAotZxNHHLl5E7vSIcilFmDkYpzKKZoRlgl8vQOTvZwgWLsE",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 75731,
+      "createdOn": "2026-01-04T11:19:30.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4cbe1c508c5d5ea3a648",
+          "products": [
+            {
+              "_id": "695a4cc11c508c5d5ea3a650",
+              "name": "Fish96762",
+              "amount": 119,
+              "price": 75731,
+              "manufacturer": "Amazon",
+              "notes": "c3WOqevfU86UYkLiBwldgWdhCHZrG4kK3Zbz1vq82gmvyZU1KqPSYc4VrWsH74JwczmZIf5s5xOpUrWRkgGxDVCK0wPh7AQvTymejZxEZBsCUVUYd3e86tSWdcRxrBYzfhApIL8NQrV9InjGU8a8Kf5I3q1eEoYJsxiAd7cAftV3ulUajl1GpYE9HQKqpsEq9VNOOeXwJ9AAotZxNHHLl5E7vSIcilFmDkYpzKKZoRlgl8vQOTvZwgWLsE",
+              "received": false
+            }
+          ],
+          "total_price": 75731,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:19:30.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a4cc21c508c5d5ea3a658"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

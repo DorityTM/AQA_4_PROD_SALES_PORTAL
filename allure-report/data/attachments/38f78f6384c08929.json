@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:21:11 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4601",
+    "etag": "W/\"11f9-rCvfSoGR4g9M3IENVElSplNJYZA\"",
+    "keep-alive": "timeout=5, max=86",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4d251c508c5d5ea3c13d",
+      "status": "Received",
+      "customer": {
+        "_id": "695a4d221c508c5d5ea3bf9b",
+        "email": "Leola.Frami34@hotmail.com",
+        "name": "Abdiel Nader",
+        "country": "Canada",
+        "city": "Mandyville",
+        "street": "Westgate 28",
+        "house": 297,
+        "flat": 25,
+        "phone": "+060436019853926",
+        "createdOn": "2026-01-04T11:21:06.000Z",
+        "notes": "yNz74S4AXqt4gagnvRNQf69YBCMWdX"
+      },
+      "products": [
+        {
+          "_id": "695a4d251c508c5d5ea3c124",
+          "name": "Salad76653",
+          "amount": 283,
+          "price": 66788,
+          "manufacturer": "Sony",
+          "notes": "KU9tqHCGszH8Aj3mBTDOcQEkTHxKjjWHpnkmK4YAC5Bts6UJSBXYDn9kRM5PgL2yjTeFZNbz0d6jJfmkJRN7ShiPwYteFpNnVZ8SVpe7mh8l0aGE4NiIBNoNmLExylqfxlSeYhpYdU2tLEZBCSXzdsKd2m21Jug9kKhlO4QnpTyizpqiJW1WexOtkGZfX6nyqFSPR3bCbh8l8cq2R9tV7YnPSptSjCMxX0ARAFgLTieGB39VFYPM15NLHy",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "New Elverafort",
+          "street": "Amina Parkway",
+          "house": 952,
+          "flat": 3537
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 66788,
+      "createdOn": "2026-01-04T11:21:09.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695a4d221c508c5d5ea3bf9b",
+          "products": [
+            {
+              "_id": "695a4d251c508c5d5ea3c124",
+              "name": "Salad76653",
+              "amount": 283,
+              "price": 66788,
+              "manufacturer": "Sony",
+              "notes": "KU9tqHCGszH8Aj3mBTDOcQEkTHxKjjWHpnkmK4YAC5Bts6UJSBXYDn9kRM5PgL2yjTeFZNbz0d6jJfmkJRN7ShiPwYteFpNnVZ8SVpe7mh8l0aGE4NiIBNoNmLExylqfxlSeYhpYdU2tLEZBCSXzdsKd2m21Jug9kKhlO4QnpTyizpqiJW1WexOtkGZfX6nyqFSPR3bCbh8l8cq2R9tV7YnPSptSjCMxX0ARAFgLTieGB39VFYPM15NLHy",
+              "received": true
+            }
+          ],
+          "total_price": 66788,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Elverafort",
+              "street": "Amina Parkway",
+              "house": 952,
+              "flat": 3537
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:21:11.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a4d221c508c5d5ea3bf9b",
+          "products": [
+            {
+              "_id": "695a4d251c508c5d5ea3c124",
+              "name": "Salad76653",
+              "amount": 283,
+              "price": 66788,
+              "manufacturer": "Sony",
+              "notes": "KU9tqHCGszH8Aj3mBTDOcQEkTHxKjjWHpnkmK4YAC5Bts6UJSBXYDn9kRM5PgL2yjTeFZNbz0d6jJfmkJRN7ShiPwYteFpNnVZ8SVpe7mh8l0aGE4NiIBNoNmLExylqfxlSeYhpYdU2tLEZBCSXzdsKd2m21Jug9kKhlO4QnpTyizpqiJW1WexOtkGZfX6nyqFSPR3bCbh8l8cq2R9tV7YnPSptSjCMxX0ARAFgLTieGB39VFYPM15NLHy",
+              "received": false
+            }
+          ],
+          "total_price": 66788,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Elverafort",
+              "street": "Amina Parkway",
+              "house": 952,
+              "flat": 3537
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:21:10.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4d221c508c5d5ea3bf9b",
+          "products": [
+            {
+              "_id": "695a4d251c508c5d5ea3c124",
+              "name": "Salad76653",
+              "amount": 283,
+              "price": 66788,
+              "manufacturer": "Sony",
+              "notes": "KU9tqHCGszH8Aj3mBTDOcQEkTHxKjjWHpnkmK4YAC5Bts6UJSBXYDn9kRM5PgL2yjTeFZNbz0d6jJfmkJRN7ShiPwYteFpNnVZ8SVpe7mh8l0aGE4NiIBNoNmLExylqfxlSeYhpYdU2tLEZBCSXzdsKd2m21Jug9kKhlO4QnpTyizpqiJW1WexOtkGZfX6nyqFSPR3bCbh8l8cq2R9tV7YnPSptSjCMxX0ARAFgLTieGB39VFYPM15NLHy",
+              "received": false
+            }
+          ],
+          "total_price": 66788,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "New Elverafort",
+              "street": "Amina Parkway",
+              "house": 952,
+              "flat": 3537
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:21:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4d221c508c5d5ea3bf9b",
+          "products": [
+            {
+              "_id": "695a4d251c508c5d5ea3c124",
+              "name": "Salad76653",
+              "amount": 283,
+              "price": 66788,
+              "manufacturer": "Sony",
+              "notes": "KU9tqHCGszH8Aj3mBTDOcQEkTHxKjjWHpnkmK4YAC5Bts6UJSBXYDn9kRM5PgL2yjTeFZNbz0d6jJfmkJRN7ShiPwYteFpNnVZ8SVpe7mh8l0aGE4NiIBNoNmLExylqfxlSeYhpYdU2tLEZBCSXzdsKd2m21Jug9kKhlO4QnpTyizpqiJW1WexOtkGZfX6nyqFSPR3bCbh8l8cq2R9tV7YnPSptSjCMxX0ARAFgLTieGB39VFYPM15NLHy",
+              "received": false
+            }
+          ],
+          "total_price": 66788,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:21:09.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

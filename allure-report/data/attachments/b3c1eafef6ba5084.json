@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:15:40 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1680",
+    "etag": "W/\"690-G5F5HMo1alat8kH+7ACF/NzgmHo\"",
+    "keep-alive": "timeout=5, max=95",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4bd81c508c5d5ea3699d",
+        "email": "Josh.Batz@hotmail.com",
+        "name": "Austin McKenzie",
+        "country": "France",
+        "city": "East Stefaniefield",
+        "street": "First Avenue 29",
+        "house": 348,
+        "flat": 2122,
+        "phone": "+626598735238310",
+        "createdOn": "2026-01-04T11:15:36.000Z",
+        "notes": "ZMy96oJ9QVY7Gsb9zx94OrK7iyQFMO"
+      },
+      "products": [
+        {
+          "_id": "695a4bdb1c508c5d5ea36a1f",
+          "name": "Shoes60058",
+          "amount": 653,
+          "price": 66440,
+          "manufacturer": "Google",
+          "notes": "tLtLXRvx3vhBmBGwX31pJHwdK9yUmus7nJNhSQyFMdHe4ddlenwAxba2khpLA6SzHJ5xJ1Mjf1w4pfaFmWewWwmYVOzXyDbNjWcZPdmmtrxlxAMyhSV6nngFcdnw8BfGKJTYkTKGK8O5kXhIjJ606o5jOCVIm8pFPFMnTX71yfgkPCRwhwYWDKPWH5Lbtx4DIHtffAX3JpQqOJEBijMQ8bRY64ZIBcdnkvqEdUikuisK9nuWZM2qlA0CnC",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 66440,
+      "createdOn": "2026-01-04T11:15:40.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4bd81c508c5d5ea3699d",
+          "products": [
+            {
+              "_id": "695a4bdb1c508c5d5ea36a1f",
+              "name": "Shoes60058",
+              "amount": 653,
+              "price": 66440,
+              "manufacturer": "Google",
+              "notes": "tLtLXRvx3vhBmBGwX31pJHwdK9yUmus7nJNhSQyFMdHe4ddlenwAxba2khpLA6SzHJ5xJ1Mjf1w4pfaFmWewWwmYVOzXyDbNjWcZPdmmtrxlxAMyhSV6nngFcdnw8BfGKJTYkTKGK8O5kXhIjJ606o5jOCVIm8pFPFMnTX71yfgkPCRwhwYWDKPWH5Lbtx4DIHtffAX3JpQqOJEBijMQ8bRY64ZIBcdnkvqEdUikuisK9nuWZM2qlA0CnC",
+              "received": false
+            }
+          ],
+          "total_price": 66440,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:15:40.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a4bdc1c508c5d5ea36a29"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

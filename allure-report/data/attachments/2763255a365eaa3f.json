@@ -1,0 +1,209 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:23:06 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "5256",
+    "etag": "W/\"1488-v6OJOrdcnVqz06hlx/bAnbpM2ac\"",
+    "keep-alive": "timeout=5, max=93",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4d991c508c5d5ea3d733",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a4d921c508c5d5ea3d66f",
+        "email": "Makayla_Schinner12@yahoo.com",
+        "name": "Lula Kshlerin",
+        "country": "Canada",
+        "city": "Lindville",
+        "street": "Marguerite Station 68",
+        "house": 74,
+        "flat": 8184,
+        "phone": "+533991241211767",
+        "createdOn": "2026-01-04T11:22:58.000Z",
+        "notes": "i2d6NxjV5HtGeWtBxY3QgW9H2NT3Fo"
+      },
+      "products": [
+        {
+          "_id": "695a4d961c508c5d5ea3d704",
+          "name": "Tuna64047",
+          "amount": 219,
+          "price": 21876,
+          "manufacturer": "Amazon",
+          "notes": "9D2u6l5zlCwoUhsEGUrUbmCY1hMliDLMkxfgL686AlCYgHqQi2FE52ShCXD3ZvTnM83LDYusg6obrDqaCWVoqSHCUSYMl5tn5KxqwwlMHI2qXLessVNPcutx8yyXmLG6VhCS4l7Xt18seRztM7wCdJpKcdrWRsDnJUYIocTkFXShUedDwLelMv72GKyISUM25VClYPPsvJ9in6kY9c2kdHeP5qJ7CVeFw0mZHn2kmDUIzZUE0P1JOEbMEF",
+          "received": false
+        },
+        {
+          "_id": "695a4d991c508c5d5ea3d718",
+          "name": "Towels98697",
+          "amount": 330,
+          "price": 20540,
+          "manufacturer": "Xiaomi",
+          "notes": "sRhtPDirNucvXEn8tRSt9tjNoZRmXox7VbsjAHZd3uQVHbbeCxaik41S0PpTJtPkixVv8ECzl31gYpUyCmbolT75LEgS8a6kYHtQFu6Rvmqe65x30AT8GtwVUvCevG2RovBlLe9Ie5leGQ9UDR38iNfonZpW92LwPzh2vFXcBZUBRb73nVRxGBzDeR2Fn1zNex4u0g2YBO8ejfLrKGvNk1kK4eanMSd2T1tjnMsh2Lex8URXc2Fv5q1rRp",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Marjolainefurt",
+          "street": "Balistreri Junction",
+          "house": 38,
+          "flat": 2599
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 42416,
+      "createdOn": "2026-01-04T11:23:05.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a4d921c508c5d5ea3d66f",
+          "products": [
+            {
+              "_id": "695a4d961c508c5d5ea3d704",
+              "name": "Tuna64047",
+              "amount": 219,
+              "price": 21876,
+              "manufacturer": "Amazon",
+              "notes": "9D2u6l5zlCwoUhsEGUrUbmCY1hMliDLMkxfgL686AlCYgHqQi2FE52ShCXD3ZvTnM83LDYusg6obrDqaCWVoqSHCUSYMl5tn5KxqwwlMHI2qXLessVNPcutx8yyXmLG6VhCS4l7Xt18seRztM7wCdJpKcdrWRsDnJUYIocTkFXShUedDwLelMv72GKyISUM25VClYPPsvJ9in6kY9c2kdHeP5qJ7CVeFw0mZHn2kmDUIzZUE0P1JOEbMEF",
+              "received": false
+            },
+            {
+              "_id": "695a4d991c508c5d5ea3d718",
+              "name": "Towels98697",
+              "amount": 330,
+              "price": 20540,
+              "manufacturer": "Xiaomi",
+              "notes": "sRhtPDirNucvXEn8tRSt9tjNoZRmXox7VbsjAHZd3uQVHbbeCxaik41S0PpTJtPkixVv8ECzl31gYpUyCmbolT75LEgS8a6kYHtQFu6Rvmqe65x30AT8GtwVUvCevG2RovBlLe9Ie5leGQ9UDR38iNfonZpW92LwPzh2vFXcBZUBRb73nVRxGBzDeR2Fn1zNex4u0g2YBO8ejfLrKGvNk1kK4eanMSd2T1tjnMsh2Lex8URXc2Fv5q1rRp",
+              "received": false
+            }
+          ],
+          "total_price": 42416,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Marjolainefurt",
+              "street": "Balistreri Junction",
+              "house": 38,
+              "flat": 2599
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:23:06.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4d921c508c5d5ea3d66f",
+          "products": [
+            {
+              "_id": "695a4d961c508c5d5ea3d704",
+              "name": "Tuna64047",
+              "amount": 219,
+              "price": 21876,
+              "manufacturer": "Amazon",
+              "notes": "9D2u6l5zlCwoUhsEGUrUbmCY1hMliDLMkxfgL686AlCYgHqQi2FE52ShCXD3ZvTnM83LDYusg6obrDqaCWVoqSHCUSYMl5tn5KxqwwlMHI2qXLessVNPcutx8yyXmLG6VhCS4l7Xt18seRztM7wCdJpKcdrWRsDnJUYIocTkFXShUedDwLelMv72GKyISUM25VClYPPsvJ9in6kY9c2kdHeP5qJ7CVeFw0mZHn2kmDUIzZUE0P1JOEbMEF",
+              "received": false
+            },
+            {
+              "_id": "695a4d991c508c5d5ea3d718",
+              "name": "Towels98697",
+              "amount": 330,
+              "price": 20540,
+              "manufacturer": "Xiaomi",
+              "notes": "sRhtPDirNucvXEn8tRSt9tjNoZRmXox7VbsjAHZd3uQVHbbeCxaik41S0PpTJtPkixVv8ECzl31gYpUyCmbolT75LEgS8a6kYHtQFu6Rvmqe65x30AT8GtwVUvCevG2RovBlLe9Ie5leGQ9UDR38iNfonZpW92LwPzh2vFXcBZUBRb73nVRxGBzDeR2Fn1zNex4u0g2YBO8ejfLrKGvNk1kK4eanMSd2T1tjnMsh2Lex8URXc2Fv5q1rRp",
+              "received": false
+            }
+          ],
+          "total_price": 42416,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Marjolainefurt",
+              "street": "Balistreri Junction",
+              "house": 38,
+              "flat": 2599
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:23:05.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4d921c508c5d5ea3d66f",
+          "products": [
+            {
+              "_id": "695a4d961c508c5d5ea3d704",
+              "name": "Tuna64047",
+              "amount": 219,
+              "price": 21876,
+              "manufacturer": "Amazon",
+              "notes": "9D2u6l5zlCwoUhsEGUrUbmCY1hMliDLMkxfgL686AlCYgHqQi2FE52ShCXD3ZvTnM83LDYusg6obrDqaCWVoqSHCUSYMl5tn5KxqwwlMHI2qXLessVNPcutx8yyXmLG6VhCS4l7Xt18seRztM7wCdJpKcdrWRsDnJUYIocTkFXShUedDwLelMv72GKyISUM25VClYPPsvJ9in6kY9c2kdHeP5qJ7CVeFw0mZHn2kmDUIzZUE0P1JOEbMEF",
+              "received": false
+            },
+            {
+              "_id": "695a4d991c508c5d5ea3d718",
+              "name": "Towels98697",
+              "amount": 330,
+              "price": 20540,
+              "manufacturer": "Xiaomi",
+              "notes": "sRhtPDirNucvXEn8tRSt9tjNoZRmXox7VbsjAHZd3uQVHbbeCxaik41S0PpTJtPkixVv8ECzl31gYpUyCmbolT75LEgS8a6kYHtQFu6Rvmqe65x30AT8GtwVUvCevG2RovBlLe9Ie5leGQ9UDR38iNfonZpW92LwPzh2vFXcBZUBRb73nVRxGBzDeR2Fn1zNex4u0g2YBO8ejfLrKGvNk1kK4eanMSd2T1tjnMsh2Lex8URXc2Fv5q1rRp",
+              "received": false
+            }
+          ],
+          "total_price": 42416,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:23:05.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

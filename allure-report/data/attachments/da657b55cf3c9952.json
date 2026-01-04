@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:16:17 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-XbepYRYJXTl+gVGO7qVSjc7Cs4g\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4c001c508c5d5ea36fd5",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4bfd1c508c5d5ea36f20",
+        "email": "Branson.Schimmel-Leannon11@yahoo.com",
+        "name": "Carmine Rosenbaum",
+        "country": "France",
+        "city": "Beiermouth",
+        "street": "Reinger Neck 85",
+        "house": 729,
+        "flat": 6573,
+        "phone": "+640086540478207",
+        "createdOn": "2026-01-04T11:16:13.000Z",
+        "notes": "ln7bJ74kOvVu59p9vYY93Y8FcOwpTX"
+      },
+      "products": [
+        {
+          "_id": "695a4c001c508c5d5ea36fba",
+          "name": "Bacon59341",
+          "amount": 729,
+          "price": 88754,
+          "manufacturer": "Sony",
+          "notes": "rYNI5fKnKQQfms7Lq4QEQs9qDpeuWwU5H8fLzjISr0WsZzpCCq2jJb2RdguHIUokP8yH4BGQIdPelbUieIol85wDI8YGlzf6tcmYVlU1GU4IqpBxOd0BsbA2WnN8QXI6D5HImxK6YdOEkU2sCEFAY9ywePtRjcVOs6XBEFIa2zldtWMz9HOsEpHqFOtZCFsDRizyvV8PPiSbxhLzhc13P07tOpPCFvmJBtieIRdyq31416PIJaSAqoGfBm",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Russia",
+          "city": "Fort Sigmundberg",
+          "street": "Jaiden Path",
+          "house": 175,
+          "flat": 76
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 88754,
+      "createdOn": "2026-01-04T11:16:16.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4bfd1c508c5d5ea36f20",
+          "products": [
+            {
+              "_id": "695a4c001c508c5d5ea36fba",
+              "name": "Bacon59341",
+              "amount": 729,
+              "price": 88754,
+              "manufacturer": "Sony",
+              "notes": "rYNI5fKnKQQfms7Lq4QEQs9qDpeuWwU5H8fLzjISr0WsZzpCCq2jJb2RdguHIUokP8yH4BGQIdPelbUieIol85wDI8YGlzf6tcmYVlU1GU4IqpBxOd0BsbA2WnN8QXI6D5HImxK6YdOEkU2sCEFAY9ywePtRjcVOs6XBEFIa2zldtWMz9HOsEpHqFOtZCFsDRizyvV8PPiSbxhLzhc13P07tOpPCFvmJBtieIRdyq31416PIJaSAqoGfBm",
+              "received": false
+            }
+          ],
+          "total_price": 88754,
+          "delivery": {
+            "address": {
+              "country": "Russia",
+              "city": "Fort Sigmundberg",
+              "street": "Jaiden Path",
+              "house": 175,
+              "flat": 76
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:16:17.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4bfd1c508c5d5ea36f20",
+          "products": [
+            {
+              "_id": "695a4c001c508c5d5ea36fba",
+              "name": "Bacon59341",
+              "amount": 729,
+              "price": 88754,
+              "manufacturer": "Sony",
+              "notes": "rYNI5fKnKQQfms7Lq4QEQs9qDpeuWwU5H8fLzjISr0WsZzpCCq2jJb2RdguHIUokP8yH4BGQIdPelbUieIol85wDI8YGlzf6tcmYVlU1GU4IqpBxOd0BsbA2WnN8QXI6D5HImxK6YdOEkU2sCEFAY9ywePtRjcVOs6XBEFIa2zldtWMz9HOsEpHqFOtZCFsDRizyvV8PPiSbxhLzhc13P07tOpPCFvmJBtieIRdyq31416PIJaSAqoGfBm",
+              "received": false
+            }
+          ],
+          "total_price": 88754,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:16:16.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

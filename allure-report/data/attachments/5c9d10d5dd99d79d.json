@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:09:10 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2771",
+    "etag": "W/\"ad3-TsBuQ7boO9n56cwKlKZRbqE31tc\"",
+    "keep-alive": "timeout=5, max=94",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4a561c508c5d5ea3097d",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4a521c508c5d5ea30961",
+        "email": "Henderson.Legros@gmail.com",
+        "name": "Rebeca Huels",
+        "country": "Belarus",
+        "city": "New Darenside",
+        "street": "Williamson Skyway 31",
+        "house": 845,
+        "flat": 6257,
+        "phone": "+625478833594385",
+        "createdOn": "2026-01-04T11:09:06.000Z",
+        "notes": "ZrWGdmrNXcGq0huXCGClucTWIB2oc5"
+      },
+      "products": [
+        {
+          "_id": "695a4a561c508c5d5ea30975",
+          "name": "Shirt77660",
+          "amount": 837,
+          "price": 34455,
+          "manufacturer": "Sony",
+          "notes": "Y2Y7fDtZ922at4LurTdEo31Yt32AEJuUqAaOhRtiZLc8RviDd4ow8ihgqGheEYseo6YQUs7vSdehEylp0fX67r4QEa3i2aSyO6ct8wtVQAML2M77aV9dvocep0aRikTXpMIDlxtA1bkRulch3V2jlv0Q7MCXYe5oHYbnSPAa4ZiNrWiAFr49CtxHf8MwrLdXW3xHwzbEskD4yHdCv8ma7WHmSeHwvefPqUB0WyrK7E3wGjpvHImO4YwmMA",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Great Britain",
+          "city": "Ebertton",
+          "street": "Cruickshank Lodge",
+          "house": 459,
+          "flat": 3350
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 34455,
+      "createdOn": "2026-01-04T11:09:10.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4a521c508c5d5ea30961",
+          "products": [
+            {
+              "_id": "695a4a561c508c5d5ea30975",
+              "name": "Shirt77660",
+              "amount": 837,
+              "price": 34455,
+              "manufacturer": "Sony",
+              "notes": "Y2Y7fDtZ922at4LurTdEo31Yt32AEJuUqAaOhRtiZLc8RviDd4ow8ihgqGheEYseo6YQUs7vSdehEylp0fX67r4QEa3i2aSyO6ct8wtVQAML2M77aV9dvocep0aRikTXpMIDlxtA1bkRulch3V2jlv0Q7MCXYe5oHYbnSPAa4ZiNrWiAFr49CtxHf8MwrLdXW3xHwzbEskD4yHdCv8ma7WHmSeHwvefPqUB0WyrK7E3wGjpvHImO4YwmMA",
+              "received": false
+            }
+          ],
+          "total_price": 34455,
+          "delivery": {
+            "address": {
+              "country": "Great Britain",
+              "city": "Ebertton",
+              "street": "Cruickshank Lodge",
+              "house": 459,
+              "flat": 3350
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:09:10.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4a521c508c5d5ea30961",
+          "products": [
+            {
+              "_id": "695a4a561c508c5d5ea30975",
+              "name": "Shirt77660",
+              "amount": 837,
+              "price": 34455,
+              "manufacturer": "Sony",
+              "notes": "Y2Y7fDtZ922at4LurTdEo31Yt32AEJuUqAaOhRtiZLc8RviDd4ow8ihgqGheEYseo6YQUs7vSdehEylp0fX67r4QEa3i2aSyO6ct8wtVQAML2M77aV9dvocep0aRikTXpMIDlxtA1bkRulch3V2jlv0Q7MCXYe5oHYbnSPAa4ZiNrWiAFr49CtxHf8MwrLdXW3xHwzbEskD4yHdCv8ma7WHmSeHwvefPqUB0WyrK7E3wGjpvHImO4YwmMA",
+              "received": false
+            }
+          ],
+          "total_price": 34455,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:09:10.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

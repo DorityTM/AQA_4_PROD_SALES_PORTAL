@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:22:20 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2741",
+    "etag": "W/\"ab5-znd6ucteEqm3GNADcNrHM8xz1Ho\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4d6b1c508c5d5ea3ce9e",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4d681c508c5d5ea3ce06",
+        "email": "Enos_Murphy@yahoo.com",
+        "name": "Carolyn Schinner",
+        "country": "USA",
+        "city": "Leuschkebury",
+        "street": "W Grand Avenue 50",
+        "house": 201,
+        "flat": 9250,
+        "phone": "+172337300734981",
+        "createdOn": "2026-01-04T11:22:16.000Z",
+        "notes": "WYYFKY3kf0doaIYBU0GwIQXmgkKcK9"
+      },
+      "products": [
+        {
+          "_id": "695a4d6b1c508c5d5ea3ce89",
+          "name": "Chips27479",
+          "amount": 299,
+          "price": 52469,
+          "manufacturer": "Tesla",
+          "notes": "Hu6VhKjrM4GXYra0RLXOHmYWqm6tUudNpfdUQhLLgmj57z0ktrEqK9hrIzH7irrUEs3OD9heV26QDb9BpNKkLpCnEIzGwzQR2z5cH9mpuEwJYNNZioaPLRIxSe986dNVZz1jG3RU6OFFpEFkJumNrqoF1GPnhzxRTaHvBaXX8nDTt2XLSbEITEll8T3GQX19zgOxXKgqn7fUrvTTJbatZcGCmfw9RcSYZan076BoiJRKKd1foNh93zG0jl",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Prudenceworth",
+          "street": "Ferry Road",
+          "house": 247,
+          "flat": 2349
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 52469,
+      "createdOn": "2026-01-04T11:22:19.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4d681c508c5d5ea3ce06",
+          "products": [
+            {
+              "_id": "695a4d6b1c508c5d5ea3ce89",
+              "name": "Chips27479",
+              "amount": 299,
+              "price": 52469,
+              "manufacturer": "Tesla",
+              "notes": "Hu6VhKjrM4GXYra0RLXOHmYWqm6tUudNpfdUQhLLgmj57z0ktrEqK9hrIzH7irrUEs3OD9heV26QDb9BpNKkLpCnEIzGwzQR2z5cH9mpuEwJYNNZioaPLRIxSe986dNVZz1jG3RU6OFFpEFkJumNrqoF1GPnhzxRTaHvBaXX8nDTt2XLSbEITEll8T3GQX19zgOxXKgqn7fUrvTTJbatZcGCmfw9RcSYZan076BoiJRKKd1foNh93zG0jl",
+              "received": false
+            }
+          ],
+          "total_price": 52469,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Prudenceworth",
+              "street": "Ferry Road",
+              "house": 247,
+              "flat": 2349
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:22:20.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4d681c508c5d5ea3ce06",
+          "products": [
+            {
+              "_id": "695a4d6b1c508c5d5ea3ce89",
+              "name": "Chips27479",
+              "amount": 299,
+              "price": 52469,
+              "manufacturer": "Tesla",
+              "notes": "Hu6VhKjrM4GXYra0RLXOHmYWqm6tUudNpfdUQhLLgmj57z0ktrEqK9hrIzH7irrUEs3OD9heV26QDb9BpNKkLpCnEIzGwzQR2z5cH9mpuEwJYNNZioaPLRIxSe986dNVZz1jG3RU6OFFpEFkJumNrqoF1GPnhzxRTaHvBaXX8nDTt2XLSbEITEll8T3GQX19zgOxXKgqn7fUrvTTJbatZcGCmfw9RcSYZan076BoiJRKKd1foNh93zG0jl",
+              "received": false
+            }
+          ],
+          "total_price": 52469,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:22:19.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:08:36 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2733",
+    "etag": "W/\"aad-Qek3Qhvchr+irC3DKnaUNp3ojuA\"",
+    "keep-alive": "timeout=5, max=96",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4a331c508c5d5ea3010e",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4a301c508c5d5ea300a1",
+        "email": "Ruby.Spencer@gmail.com",
+        "name": "Alverta Lynch",
+        "country": "Belarus",
+        "city": "New Josiah",
+        "street": "W Monroe Street 8",
+        "house": 665,
+        "flat": 5740,
+        "phone": "+334868901348026",
+        "createdOn": "2026-01-04T11:08:32.000Z",
+        "notes": "KjD4GN5vCrAqqudJUzC6VaYWBSdUPd"
+      },
+      "products": [
+        {
+          "_id": "695a4a331c508c5d5ea300fc",
+          "name": "Table9539",
+          "amount": 602,
+          "price": 70127,
+          "manufacturer": "Xiaomi",
+          "notes": "fBfpcGqkMvrhC45TmtwK6xJ4GARl22Ry6joI8OiiSiWVTTUNVGChkO6NtAqj6bNmShqhw8CDVvHKsD5CnQMeCwj3mZTO6XtwRpZdbBWuQhln2oa9r1bYf28i1mmqKlIgn60IJSmjxZ4vMLviDWDqojwuYroClgMvBesQIhRbIYYRPYCGeDpHMCMulJZXBr3GW4gBWXdWxEbfG9ONSsIiKaY8VsqWJMMl7FG9akqIGAfxoxXVgAoljovpBy",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Woodland",
+          "street": "Crown Street",
+          "house": 12,
+          "flat": 9001
+        },
+        "finalDate": "2024-12-31T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 70127,
+      "createdOn": "2026-01-04T11:08:35.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4a301c508c5d5ea300a1",
+          "products": [
+            {
+              "_id": "695a4a331c508c5d5ea300fc",
+              "name": "Table9539",
+              "amount": 602,
+              "price": 70127,
+              "manufacturer": "Xiaomi",
+              "notes": "fBfpcGqkMvrhC45TmtwK6xJ4GARl22Ry6joI8OiiSiWVTTUNVGChkO6NtAqj6bNmShqhw8CDVvHKsD5CnQMeCwj3mZTO6XtwRpZdbBWuQhln2oa9r1bYf28i1mmqKlIgn60IJSmjxZ4vMLviDWDqojwuYroClgMvBesQIhRbIYYRPYCGeDpHMCMulJZXBr3GW4gBWXdWxEbfG9ONSsIiKaY8VsqWJMMl7FG9akqIGAfxoxXVgAoljovpBy",
+              "received": false
+            }
+          ],
+          "total_price": 70127,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Woodland",
+              "street": "Crown Street",
+              "house": 12,
+              "flat": 9001
+            },
+            "finalDate": "2024-12-31T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:08:36.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4a301c508c5d5ea300a1",
+          "products": [
+            {
+              "_id": "695a4a331c508c5d5ea300fc",
+              "name": "Table9539",
+              "amount": 602,
+              "price": 70127,
+              "manufacturer": "Xiaomi",
+              "notes": "fBfpcGqkMvrhC45TmtwK6xJ4GARl22Ry6joI8OiiSiWVTTUNVGChkO6NtAqj6bNmShqhw8CDVvHKsD5CnQMeCwj3mZTO6XtwRpZdbBWuQhln2oa9r1bYf28i1mmqKlIgn60IJSmjxZ4vMLviDWDqojwuYroClgMvBesQIhRbIYYRPYCGeDpHMCMulJZXBr3GW4gBWXdWxEbfG9ONSsIiKaY8VsqWJMMl7FG9akqIGAfxoxXVgAoljovpBy",
+              "received": false
+            }
+          ],
+          "total_price": 70127,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:08:35.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

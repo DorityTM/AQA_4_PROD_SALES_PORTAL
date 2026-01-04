@@ -1,0 +1,160 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:22:22 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3923",
+    "etag": "W/\"f53-QANSPpWHimSXod+JDGh+647maKQ\"",
+    "keep-alive": "timeout=5, max=91",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4d6d1c508c5d5ea3cedc",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4d671c508c5d5ea3cded",
+        "email": "Queen_Stamm@hotmail.com",
+        "name": "Alexandria Morar",
+        "country": "Germany",
+        "city": "Beertown",
+        "street": "Theodora Unions 28",
+        "house": 733,
+        "flat": 1200,
+        "phone": "+375742304777292",
+        "createdOn": "2026-01-04T11:22:15.000Z",
+        "notes": "Hqj97BmsAGvR6AihsBXl0NJbLMvkWV"
+      },
+      "products": [
+        {
+          "_id": "695a4d6a1c508c5d5ea3ce0b",
+          "name": "Table19634",
+          "amount": 754,
+          "price": 34326,
+          "manufacturer": "Microsoft",
+          "notes": "75nUusANumKsVsjWjl39mZWIEqDl1vj67IZMEAUuto5R1P3gKnF8ysZcaw7DI0g1l7QKy4wUYkJmrDslStxk8DsuSWrdx3IJJyDvPjpknrwpxe2JzV8xxlNySjQcyoM3nWw0HGsLm0RBNihNpd47VCWSBhZ5HaleWyFBddAg2fHEP4S4bYxv3OktrKCGJ85U8DXBqO0iv4xRxF4T6Yt7OGyqbmlB6U5YY7yMzJskIsOxuls3cDjvMyTdfY",
+          "received": false
+        },
+        {
+          "_id": "695a4d6d1c508c5d5ea3ceca",
+          "name": "Pants91571",
+          "amount": 493,
+          "price": 16623,
+          "manufacturer": "Tesla",
+          "notes": "0Aa5bFCRc4DMMCq11VCvZtbto6yvoizljUBJSXgPHZZ9tx9gm0UhOGvVacM9lSDaec05Zd84V7q27CkOVS2RUa8UNus9E49xb5bhh0W2EebrNbEVhbdaiV6B1fNUxpXFfXkW2C9wVCTXPZMBLyrRRQOWTycPGfx8YKsfDBh6NWjxHIMMDKSC7dm0x6XdxPa5Fp3BGLcsH5pGlJQicuw3kTCRakgAqY3fu7hCiebqudKV7O6KowMHXELXpo",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Port Karianetown",
+          "street": "Gislason Mews",
+          "house": 294,
+          "flat": 4743
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 50949,
+      "createdOn": "2026-01-04T11:22:21.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4d671c508c5d5ea3cded",
+          "products": [
+            {
+              "_id": "695a4d6a1c508c5d5ea3ce0b",
+              "name": "Table19634",
+              "amount": 754,
+              "price": 34326,
+              "manufacturer": "Microsoft",
+              "notes": "75nUusANumKsVsjWjl39mZWIEqDl1vj67IZMEAUuto5R1P3gKnF8ysZcaw7DI0g1l7QKy4wUYkJmrDslStxk8DsuSWrdx3IJJyDvPjpknrwpxe2JzV8xxlNySjQcyoM3nWw0HGsLm0RBNihNpd47VCWSBhZ5HaleWyFBddAg2fHEP4S4bYxv3OktrKCGJ85U8DXBqO0iv4xRxF4T6Yt7OGyqbmlB6U5YY7yMzJskIsOxuls3cDjvMyTdfY",
+              "received": false
+            },
+            {
+              "_id": "695a4d6d1c508c5d5ea3ceca",
+              "name": "Pants91571",
+              "amount": 493,
+              "price": 16623,
+              "manufacturer": "Tesla",
+              "notes": "0Aa5bFCRc4DMMCq11VCvZtbto6yvoizljUBJSXgPHZZ9tx9gm0UhOGvVacM9lSDaec05Zd84V7q27CkOVS2RUa8UNus9E49xb5bhh0W2EebrNbEVhbdaiV6B1fNUxpXFfXkW2C9wVCTXPZMBLyrRRQOWTycPGfx8YKsfDBh6NWjxHIMMDKSC7dm0x6XdxPa5Fp3BGLcsH5pGlJQicuw3kTCRakgAqY3fu7hCiebqudKV7O6KowMHXELXpo",
+              "received": false
+            }
+          ],
+          "total_price": 50949,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Port Karianetown",
+              "street": "Gislason Mews",
+              "house": 294,
+              "flat": 4743
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:22:22.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4d671c508c5d5ea3cded",
+          "products": [
+            {
+              "_id": "695a4d6a1c508c5d5ea3ce0b",
+              "name": "Table19634",
+              "amount": 754,
+              "price": 34326,
+              "manufacturer": "Microsoft",
+              "notes": "75nUusANumKsVsjWjl39mZWIEqDl1vj67IZMEAUuto5R1P3gKnF8ysZcaw7DI0g1l7QKy4wUYkJmrDslStxk8DsuSWrdx3IJJyDvPjpknrwpxe2JzV8xxlNySjQcyoM3nWw0HGsLm0RBNihNpd47VCWSBhZ5HaleWyFBddAg2fHEP4S4bYxv3OktrKCGJ85U8DXBqO0iv4xRxF4T6Yt7OGyqbmlB6U5YY7yMzJskIsOxuls3cDjvMyTdfY",
+              "received": false
+            },
+            {
+              "_id": "695a4d6d1c508c5d5ea3ceca",
+              "name": "Pants91571",
+              "amount": 493,
+              "price": 16623,
+              "manufacturer": "Tesla",
+              "notes": "0Aa5bFCRc4DMMCq11VCvZtbto6yvoizljUBJSXgPHZZ9tx9gm0UhOGvVacM9lSDaec05Zd84V7q27CkOVS2RUa8UNus9E49xb5bhh0W2EebrNbEVhbdaiV6B1fNUxpXFfXkW2C9wVCTXPZMBLyrRRQOWTycPGfx8YKsfDBh6NWjxHIMMDKSC7dm0x6XdxPa5Fp3BGLcsH5pGlJQicuw3kTCRakgAqY3fu7hCiebqudKV7O6KowMHXELXpo",
+              "received": false
+            }
+          ],
+          "total_price": 50949,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:22:21.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

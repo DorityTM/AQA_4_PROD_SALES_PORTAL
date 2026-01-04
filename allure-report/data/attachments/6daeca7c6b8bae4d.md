@@ -1,0 +1,122 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img
+        - generic [ref=e7]: Sales Portal
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: "#/home"
+      - link "Orders" [ref=e11] [cursor=pointer]:
+        - /url: "#/orders"
+      - link "Products" [ref=e13] [cursor=pointer]:
+        - /url: "#/products"
+      - link "Customers" [ref=e15] [cursor=pointer]:
+        - /url: "#/customers"
+      - link "Managers" [ref=e17] [cursor=pointer]:
+        - /url: "#/managers"
+    - generic [ref=e19]:
+      - button " 155" [ref=e21] [cursor=pointer]:
+        - generic: 
+        - generic [ref=e22]: "155"
+      - button "" [ref=e23] [cursor=pointer]:
+        - generic: 
+      - link "User" [ref=e25] [cursor=pointer]:
+        - /url: "#/managers/undefined"
+        - strong [ref=e26]: User
+      - button "" [ref=e27] [cursor=pointer]:
+        - generic: 
+  - generic [ref=e28]:
+    - generic [ref=e29]:
+      - link " Orders" [ref=e30] [cursor=pointer]:
+        - /url: "#/orders"
+        - generic: 
+        - text: Orders
+      - generic [ref=e31]:
+        - heading "Order Details" [level=2] [ref=e33]
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]:
+                - generic [ref=e38]: "Order number:"
+                - generic [ref=e39]: 695a4f1f1c508c5d5ea43a2a
+              - generic [ref=e40]:
+                - generic [ref=e41]: "Assigned Manager:"
+                - generic [ref=e43] [cursor=pointer]: Click to select manager
+            - button "Cancel Order" [ref=e46] [cursor=pointer]
+          - button "Refresh Order " [ref=e49] [cursor=pointer]:
+            - text: Refresh Order
+            - generic: 
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - text: Order Status
+              - text: Draft
+            - generic [ref=e52]:
+              - text: Total Price
+              - text: $10753
+            - generic [ref=e53]:
+              - text: Delivery
+              - text: "-"
+            - generic [ref=e54]:
+              - text: Created On
+              - text: January 4, 2026 11:29 AM
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - heading "Customer Details" [level=4] [ref=e58]
+          - button "" [ref=e59] [cursor=pointer]:
+            - generic: 
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: Email
+            - generic [ref=e63]: Micah.Dach11@gmail.com
+          - generic [ref=e64]:
+            - generic [ref=e65]: Name
+            - generic [ref=e66]: Hermina Bauch
+          - generic [ref=e67]:
+            - generic [ref=e68]: Country
+            - generic [ref=e69]: Canada
+          - generic [ref=e70]:
+            - generic [ref=e71]: City
+            - generic [ref=e72]: West Maviscester
+          - generic [ref=e73]:
+            - generic [ref=e74]: Street
+            - generic [ref=e75]: Ceasar Islands 11
+          - generic [ref=e76]:
+            - generic [ref=e77]: House
+            - generic [ref=e78]: "494"
+          - generic [ref=e79]:
+            - generic [ref=e80]: Flat
+            - generic [ref=e81]: "4381"
+          - generic [ref=e82]:
+            - generic [ref=e83]: Phone
+            - generic [ref=e84]: "+784941883003973"
+          - generic [ref=e85]:
+            - generic [ref=e86]: Created On
+            - generic [ref=e87]: 2026/01/04 11:29:27
+          - generic [ref=e88]:
+            - generic [ref=e89]: Notes
+            - generic [ref=e90]: 6z70EkMa2A5gbani3CuqePoDahqGRi
+      - generic [ref=e91]:
+        - generic [ref=e93]:
+          - heading "Requested Products" [level=4] [ref=e94]
+          - button "" [ref=e95] [cursor=pointer]:
+            - generic: 
+        - generic [ref=e98]:
+          - button "Fish48597" [ref=e99] [cursor=pointer]
+          - generic [ref=e100]: Not Received
+    - generic [ref=e102]:
+      - tablist [ref=e103]:
+        - tab "Delivery" [ref=e104] [cursor=pointer]
+        - tab "Order History" [ref=e105] [cursor=pointer]
+        - tab "Comments" [ref=e106] [cursor=pointer]
+      - tabpanel "Comments" [ref=e108]:
+        - generic [ref=e109]:
+          - heading "Comments" [level=4] [ref=e110]
+          - generic [ref=e111]:
+            - textbox "Enter a comment" [ref=e113]
+            - generic [ref=e114]:
+              - button "Create" [disabled]
+```

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:20:52 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2763",
+    "etag": "W/\"acb-eoH6MJzTcdvwb3XrL2sbvl7NxNg\"",
+    "keep-alive": "timeout=5, max=88",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4d131c508c5d5ea3ba61",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4d101c508c5d5ea3b9e5",
+        "email": "Eden_Wilderman@hotmail.com",
+        "name": "Lilian Hudson",
+        "country": "France",
+        "city": "Lake Brian",
+        "street": "Gayle Valley 68",
+        "house": 49,
+        "flat": 8206,
+        "phone": "+081900568546545",
+        "createdOn": "2026-01-04T11:20:48.000Z",
+        "notes": "CIdX31rRgnGqYDF9KTRRjaEI2lNCnF"
+      },
+      "products": [
+        {
+          "_id": "695a4d131c508c5d5ea3ba4b",
+          "name": "Chicken67251",
+          "amount": 98,
+          "price": 31076,
+          "manufacturer": "Amazon",
+          "notes": "ytiHUCEB2THAkCwz53DHiJ05CWSGG7hffsPA7b79AhB2muehG8QYzzKyzT58UIZyjaGsL6p1qKG9HZs5cP1obkyTYSODwi5UVv4Iu5MwYz9KKlAk7P0eXsJkCtevqjkyZSW1HzjZjpcpKt6aOTPF34T4cs9g0DM9lmodpqB4q7JMmM9YnM8gVmYsINyltVELfL1BWbpSqG2DiWGg7piWyKr4QgRVadhLYTMezsOD1diIxpVpB7m7mndeKL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Canada",
+          "city": "Abernathyfurt",
+          "street": "Atlantic Avenue",
+          "house": 535,
+          "flat": 8292
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 31076,
+      "createdOn": "2026-01-04T11:20:51.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4d101c508c5d5ea3b9e5",
+          "products": [
+            {
+              "_id": "695a4d131c508c5d5ea3ba4b",
+              "name": "Chicken67251",
+              "amount": 98,
+              "price": 31076,
+              "manufacturer": "Amazon",
+              "notes": "ytiHUCEB2THAkCwz53DHiJ05CWSGG7hffsPA7b79AhB2muehG8QYzzKyzT58UIZyjaGsL6p1qKG9HZs5cP1obkyTYSODwi5UVv4Iu5MwYz9KKlAk7P0eXsJkCtevqjkyZSW1HzjZjpcpKt6aOTPF34T4cs9g0DM9lmodpqB4q7JMmM9YnM8gVmYsINyltVELfL1BWbpSqG2DiWGg7piWyKr4QgRVadhLYTMezsOD1diIxpVpB7m7mndeKL",
+              "received": false
+            }
+          ],
+          "total_price": 31076,
+          "delivery": {
+            "address": {
+              "country": "Canada",
+              "city": "Abernathyfurt",
+              "street": "Atlantic Avenue",
+              "house": 535,
+              "flat": 8292
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:20:51.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4d101c508c5d5ea3b9e5",
+          "products": [
+            {
+              "_id": "695a4d131c508c5d5ea3ba4b",
+              "name": "Chicken67251",
+              "amount": 98,
+              "price": 31076,
+              "manufacturer": "Amazon",
+              "notes": "ytiHUCEB2THAkCwz53DHiJ05CWSGG7hffsPA7b79AhB2muehG8QYzzKyzT58UIZyjaGsL6p1qKG9HZs5cP1obkyTYSODwi5UVv4Iu5MwYz9KKlAk7P0eXsJkCtevqjkyZSW1HzjZjpcpKt6aOTPF34T4cs9g0DM9lmodpqB4q7JMmM9YnM8gVmYsINyltVELfL1BWbpSqG2DiWGg7piWyKr4QgRVadhLYTMezsOD1diIxpVpB7m7mndeKL",
+              "received": false
+            }
+          ],
+          "total_price": 31076,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:20:51.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

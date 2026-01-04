@@ -1,0 +1,173 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:21:02 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "3738",
+    "etag": "W/\"e9a-iaE/c9OELpXiGUqDJpbEH3pipUQ\"",
+    "keep-alive": "timeout=5, max=81",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4d1d1c508c5d5ea3be49",
+      "status": "In Process",
+      "customer": {
+        "_id": "695a4d1a1c508c5d5ea3bcd9",
+        "email": "Eliane_Johnston-Stiedemann@hotmail.com",
+        "name": "Martin Kunde",
+        "country": "Canada",
+        "city": "Port Creolabury",
+        "street": "Cruickshank Oval 8",
+        "house": 34,
+        "flat": 8782,
+        "phone": "+320669915874782",
+        "createdOn": "2026-01-04T11:20:58.000Z",
+        "notes": "BJnNkS5KNBBfWRK0gOcKounpa4qyRP"
+      },
+      "products": [
+        {
+          "_id": "695a4d1d1c508c5d5ea3be29",
+          "name": "Table73404",
+          "amount": 151,
+          "price": 75115,
+          "manufacturer": "Microsoft",
+          "notes": "1ljacHZr06vPRoL9ZOdRWchdOKdGrBbY32jvRx08maKfO4ybyTGOQMJ9u3PQ7TgEFNlLAYliyqLtbvbPH4Zcln1HlkCuk8XUakivs2QGskhuJ4YHW47UeNy1dkfoBBJTMXFLxuWPw5kASQ17js6BmwYBzg71rDGnruwL9f9O78jxzG53S8Muq5Mf2WxotsdjPbjzkDMESHeq052dyJEu9L2fWvX0nipsF2s4zIQ0hpEwrx4ARmyN6dPHaL",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "West Constantin",
+          "street": "Marquardt Route",
+          "house": 530,
+          "flat": 7625
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 75115,
+      "createdOn": "2026-01-04T11:21:01.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "In Process",
+          "customer": "695a4d1a1c508c5d5ea3bcd9",
+          "products": [
+            {
+              "_id": "695a4d1d1c508c5d5ea3be29",
+              "name": "Table73404",
+              "amount": 151,
+              "price": 75115,
+              "manufacturer": "Microsoft",
+              "notes": "1ljacHZr06vPRoL9ZOdRWchdOKdGrBbY32jvRx08maKfO4ybyTGOQMJ9u3PQ7TgEFNlLAYliyqLtbvbPH4Zcln1HlkCuk8XUakivs2QGskhuJ4YHW47UeNy1dkfoBBJTMXFLxuWPw5kASQ17js6BmwYBzg71rDGnruwL9f9O78jxzG53S8Muq5Mf2WxotsdjPbjzkDMESHeq052dyJEu9L2fWvX0nipsF2s4zIQ0hpEwrx4ARmyN6dPHaL",
+              "received": false
+            }
+          ],
+          "total_price": 75115,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "West Constantin",
+              "street": "Marquardt Route",
+              "house": 530,
+              "flat": 7625
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:21:02.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4d1a1c508c5d5ea3bcd9",
+          "products": [
+            {
+              "_id": "695a4d1d1c508c5d5ea3be29",
+              "name": "Table73404",
+              "amount": 151,
+              "price": 75115,
+              "manufacturer": "Microsoft",
+              "notes": "1ljacHZr06vPRoL9ZOdRWchdOKdGrBbY32jvRx08maKfO4ybyTGOQMJ9u3PQ7TgEFNlLAYliyqLtbvbPH4Zcln1HlkCuk8XUakivs2QGskhuJ4YHW47UeNy1dkfoBBJTMXFLxuWPw5kASQ17js6BmwYBzg71rDGnruwL9f9O78jxzG53S8Muq5Mf2WxotsdjPbjzkDMESHeq052dyJEu9L2fWvX0nipsF2s4zIQ0hpEwrx4ARmyN6dPHaL",
+              "received": false
+            }
+          ],
+          "total_price": 75115,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "West Constantin",
+              "street": "Marquardt Route",
+              "house": 530,
+              "flat": 7625
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:21:01.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4d1a1c508c5d5ea3bcd9",
+          "products": [
+            {
+              "_id": "695a4d1d1c508c5d5ea3be29",
+              "name": "Table73404",
+              "amount": 151,
+              "price": 75115,
+              "manufacturer": "Microsoft",
+              "notes": "1ljacHZr06vPRoL9ZOdRWchdOKdGrBbY32jvRx08maKfO4ybyTGOQMJ9u3PQ7TgEFNlLAYliyqLtbvbPH4Zcln1HlkCuk8XUakivs2QGskhuJ4YHW47UeNy1dkfoBBJTMXFLxuWPw5kASQ17js6BmwYBzg71rDGnruwL9f9O78jxzG53S8Muq5Mf2WxotsdjPbjzkDMESHeq052dyJEu9L2fWvX0nipsF2s4zIQ0hpEwrx4ARmyN6dPHaL",
+              "received": false
+            }
+          ],
+          "total_price": 75115,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:21:01.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

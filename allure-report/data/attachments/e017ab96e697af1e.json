@@ -1,0 +1,213 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:10:03 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4625",
+    "etag": "W/\"1211-19OxUEw+pWlFlUhlMa+NSY4jx5U\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4a8a1c508c5d5ea3176f",
+      "status": "Received",
+      "customer": {
+        "_id": "695a4a861c508c5d5ea316e4",
+        "email": "Brain.Johnston65@gmail.com",
+        "name": "Marjorie Bosco",
+        "country": "Great Britain",
+        "city": "Revere",
+        "street": "Stracke Radial 93",
+        "house": 778,
+        "flat": 1917,
+        "phone": "+886864947139388",
+        "createdOn": "2026-01-04T11:09:58.000Z",
+        "notes": "enxWwiHkWD21nsLJ9vK5MlBY7U3zJA"
+      },
+      "products": [
+        {
+          "_id": "695a4a891c508c5d5ea3175e",
+          "name": "Sausages72404",
+          "amount": 33,
+          "price": 36938,
+          "manufacturer": "Sony",
+          "notes": "gntFpSGlAtLH60AuqqRgsrUYxC0wF08jB9qmwoIH4lVTNU9htcuGWKW1GH1TETUs00LttWwvcd5dB1Tgau6JD8kytLpEu3m0Xj6qy1HC24X5Qn2ej8GT3ADGpWZrUgxCIpPwCYY7uhJ4dG7vG9z0WNq0ArGI3LtuuY7jWRARhU7jChIpoIFZjBblAfHW5zf9dxoonbG1S7HYEs0UQk3tVD1gRNULCpXL5vpIZ0JoYUbKtMhTeB9UA1Yrxm",
+          "received": true
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Germany",
+          "city": "Pfefferville",
+          "street": "Kendall Meadow",
+          "house": 395,
+          "flat": 6353
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 36938,
+      "createdOn": "2026-01-04T11:10:02.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Received",
+          "customer": "695a4a861c508c5d5ea316e4",
+          "products": [
+            {
+              "_id": "695a4a891c508c5d5ea3175e",
+              "name": "Sausages72404",
+              "amount": 33,
+              "price": 36938,
+              "manufacturer": "Sony",
+              "notes": "gntFpSGlAtLH60AuqqRgsrUYxC0wF08jB9qmwoIH4lVTNU9htcuGWKW1GH1TETUs00LttWwvcd5dB1Tgau6JD8kytLpEu3m0Xj6qy1HC24X5Qn2ej8GT3ADGpWZrUgxCIpPwCYY7uhJ4dG7vG9z0WNq0ArGI3LtuuY7jWRARhU7jChIpoIFZjBblAfHW5zf9dxoonbG1S7HYEs0UQk3tVD1gRNULCpXL5vpIZ0JoYUbKtMhTeB9UA1Yrxm",
+              "received": true
+            }
+          ],
+          "total_price": 36938,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Pfefferville",
+              "street": "Kendall Meadow",
+              "house": 395,
+              "flat": 6353
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:10:03.000Z",
+          "action": "All products received",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "In Process",
+          "customer": "695a4a861c508c5d5ea316e4",
+          "products": [
+            {
+              "_id": "695a4a891c508c5d5ea3175e",
+              "name": "Sausages72404",
+              "amount": 33,
+              "price": 36938,
+              "manufacturer": "Sony",
+              "notes": "gntFpSGlAtLH60AuqqRgsrUYxC0wF08jB9qmwoIH4lVTNU9htcuGWKW1GH1TETUs00LttWwvcd5dB1Tgau6JD8kytLpEu3m0Xj6qy1HC24X5Qn2ej8GT3ADGpWZrUgxCIpPwCYY7uhJ4dG7vG9z0WNq0ArGI3LtuuY7jWRARhU7jChIpoIFZjBblAfHW5zf9dxoonbG1S7HYEs0UQk3tVD1gRNULCpXL5vpIZ0JoYUbKtMhTeB9UA1Yrxm",
+              "received": false
+            }
+          ],
+          "total_price": 36938,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Pfefferville",
+              "street": "Kendall Meadow",
+              "house": 395,
+              "flat": 6353
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:10:03.000Z",
+          "action": "Order processing started",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4a861c508c5d5ea316e4",
+          "products": [
+            {
+              "_id": "695a4a891c508c5d5ea3175e",
+              "name": "Sausages72404",
+              "amount": 33,
+              "price": 36938,
+              "manufacturer": "Sony",
+              "notes": "gntFpSGlAtLH60AuqqRgsrUYxC0wF08jB9qmwoIH4lVTNU9htcuGWKW1GH1TETUs00LttWwvcd5dB1Tgau6JD8kytLpEu3m0Xj6qy1HC24X5Qn2ej8GT3ADGpWZrUgxCIpPwCYY7uhJ4dG7vG9z0WNq0ArGI3LtuuY7jWRARhU7jChIpoIFZjBblAfHW5zf9dxoonbG1S7HYEs0UQk3tVD1gRNULCpXL5vpIZ0JoYUbKtMhTeB9UA1Yrxm",
+              "received": false
+            }
+          ],
+          "total_price": 36938,
+          "delivery": {
+            "address": {
+              "country": "Germany",
+              "city": "Pfefferville",
+              "street": "Kendall Meadow",
+              "house": 395,
+              "flat": 6353
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:10:02.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4a861c508c5d5ea316e4",
+          "products": [
+            {
+              "_id": "695a4a891c508c5d5ea3175e",
+              "name": "Sausages72404",
+              "amount": 33,
+              "price": 36938,
+              "manufacturer": "Sony",
+              "notes": "gntFpSGlAtLH60AuqqRgsrUYxC0wF08jB9qmwoIH4lVTNU9htcuGWKW1GH1TETUs00LttWwvcd5dB1Tgau6JD8kytLpEu3m0Xj6qy1HC24X5Qn2ej8GT3ADGpWZrUgxCIpPwCYY7uhJ4dG7vG9z0WNq0ArGI3LtuuY7jWRARhU7jChIpoIFZjBblAfHW5zf9dxoonbG1S7HYEs0UQk3tVD1gRNULCpXL5vpIZ0JoYUbKtMhTeB9UA1Yrxm",
+              "received": false
+            }
+          ],
+          "total_price": 36938,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:10:02.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

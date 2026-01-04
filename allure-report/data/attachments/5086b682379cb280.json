@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:18:31 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2777",
+    "etag": "W/\"ad9-lHp3J8GpA6PcRkbr6lQgnI8bHrM\"",
+    "keep-alive": "timeout=5, max=92",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4c871c508c5d5ea392f4",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4c831c508c5d5ea39181",
+        "email": "Marcus.Kilback@hotmail.com",
+        "name": "Natalie Leffler",
+        "country": "Germany",
+        "city": "Lake Amelyberg",
+        "street": "N Union Street 25",
+        "house": 937,
+        "flat": 233,
+        "phone": "+537317009057324",
+        "createdOn": "2026-01-04T11:18:27.000Z",
+        "notes": "02rQDoj95ibx4gzv2WPUR5bPCtIJpt"
+      },
+      "products": [
+        {
+          "_id": "695a4c861c508c5d5ea392ec",
+          "name": "Towels75721",
+          "amount": 572,
+          "price": 27153,
+          "manufacturer": "Tesla",
+          "notes": "iCJz5OjsLLFmhHowmZEdoaPjBZ3aDYX7LE6l5GCt1wMAPuIMS0nn6NHMiQfTV1MFHvNpmKfULDTDjGhNuNIwZfzmAA6mDAE1S3GvOw6PCsdhWc22VVqf7ivFVavt2D34CEISGA2Z0VMK3mlweVTaarLulH9Ounu3esBlMALmg3dYe4Gn2xm9Bj92mKGDZE0RfkeHZ71iyoegae8t31DljmaasRQ4XNRa0RLZXyDN4UwsOejL6BcbmVe9rR",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "USA",
+          "city": "Fort Brianneport",
+          "street": "S Washington Avenue",
+          "house": 270,
+          "flat": 2224
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 27153,
+      "createdOn": "2026-01-04T11:18:31.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4c831c508c5d5ea39181",
+          "products": [
+            {
+              "_id": "695a4c861c508c5d5ea392ec",
+              "name": "Towels75721",
+              "amount": 572,
+              "price": 27153,
+              "manufacturer": "Tesla",
+              "notes": "iCJz5OjsLLFmhHowmZEdoaPjBZ3aDYX7LE6l5GCt1wMAPuIMS0nn6NHMiQfTV1MFHvNpmKfULDTDjGhNuNIwZfzmAA6mDAE1S3GvOw6PCsdhWc22VVqf7ivFVavt2D34CEISGA2Z0VMK3mlweVTaarLulH9Ounu3esBlMALmg3dYe4Gn2xm9Bj92mKGDZE0RfkeHZ71iyoegae8t31DljmaasRQ4XNRa0RLZXyDN4UwsOejL6BcbmVe9rR",
+              "received": false
+            }
+          ],
+          "total_price": 27153,
+          "delivery": {
+            "address": {
+              "country": "USA",
+              "city": "Fort Brianneport",
+              "street": "S Washington Avenue",
+              "house": 270,
+              "flat": 2224
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:18:31.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4c831c508c5d5ea39181",
+          "products": [
+            {
+              "_id": "695a4c861c508c5d5ea392ec",
+              "name": "Towels75721",
+              "amount": 572,
+              "price": 27153,
+              "manufacturer": "Tesla",
+              "notes": "iCJz5OjsLLFmhHowmZEdoaPjBZ3aDYX7LE6l5GCt1wMAPuIMS0nn6NHMiQfTV1MFHvNpmKfULDTDjGhNuNIwZfzmAA6mDAE1S3GvOw6PCsdhWc22VVqf7ivFVavt2D34CEISGA2Z0VMK3mlweVTaarLulH9Ounu3esBlMALmg3dYe4Gn2xm9Bj92mKGDZE0RfkeHZ71iyoegae8t31DljmaasRQ4XNRa0RLZXyDN4UwsOejL6BcbmVe9rR",
+              "received": false
+            }
+          ],
+          "total_price": 27153,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:18:31.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

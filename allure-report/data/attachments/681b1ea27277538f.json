@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:08:45 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "1677",
+    "etag": "W/\"68d-yhpG2JjzgtiHJg4Q7AbCH1yasqs\"",
+    "keep-alive": "timeout=5, max=97",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4a391c508c5d5ea302f4",
+        "email": "Morgan_Von@gmail.com",
+        "name": "Donnie Bailey",
+        "country": "Great Britain",
+        "city": "Lynchland",
+        "street": "Batz Gardens 38",
+        "house": 597,
+        "flat": 5596,
+        "phone": "+071279628330263",
+        "createdOn": "2026-01-04T11:08:41.000Z",
+        "notes": "dRrVC5fYxPLij14Xh7uceXptBX1DoQ"
+      },
+      "products": [
+        {
+          "_id": "695a4a3c1c508c5d5ea30315",
+          "name": "Shirt54241",
+          "amount": 594,
+          "price": 45651,
+          "manufacturer": "Samsung",
+          "notes": "sSMHsJUMzezLxxnrPJriJfSc4r7IcGXtGmUqgKMxWkgZBygzyUMgf1CTEOccj9fl3i5tkCvDN2JlBEYNqxHkiD5Hh5pYNwYlPQYgNmOetn2k8la6GGxHXhyhtI18bfN2dnVHlTSotCifJf9zjhQsaTRABoPgDOsaDzCd4oMhhNNyVDMhkHVQss9x3xYJwz3Vtdr9kFyF40e9yJSLWdHI0V0Uqbpjl7L9dxhPADhVN2m7MJyR2oEHs7oeyz",
+          "received": false
+        }
+      ],
+      "delivery": null,
+      "total_price": 45651,
+      "createdOn": "2026-01-04T11:08:45.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4a391c508c5d5ea302f4",
+          "products": [
+            {
+              "_id": "695a4a3c1c508c5d5ea30315",
+              "name": "Shirt54241",
+              "amount": 594,
+              "price": 45651,
+              "manufacturer": "Samsung",
+              "notes": "sSMHsJUMzezLxxnrPJriJfSc4r7IcGXtGmUqgKMxWkgZBygzyUMgf1CTEOccj9fl3i5tkCvDN2JlBEYNqxHkiD5Hh5pYNwYlPQYgNmOetn2k8la6GGxHXhyhtI18bfN2dnVHlTSotCifJf9zjhQsaTRABoPgDOsaDzCd4oMhhNNyVDMhkHVQss9x3xYJwz3Vtdr9kFyF40e9yJSLWdHI0V0Uqbpjl7L9dxhPADhVN2m7MJyR2oEHs7oeyz",
+              "received": false
+            }
+          ],
+          "total_price": 45651,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:08:45.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null,
+      "_id": "695a4a3d1c508c5d5ea3031d"
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}

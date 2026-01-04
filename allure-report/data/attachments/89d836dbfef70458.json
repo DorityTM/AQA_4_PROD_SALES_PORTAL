@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "date": "Sun, 04 Jan 2026 11:09:27 GMT",
+    "server": "Apache",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "Authorization,X-User-Name",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "2775",
+    "etag": "W/\"ad7-6jjXlFl6E5/mT3I3wf9GfVInSZw\"",
+    "keep-alive": "timeout=5, max=72",
+    "connection": "Keep-Alive"
+  },
+  "body": {
+    "Order": {
+      "_id": "695a4a671c508c5d5ea30d98",
+      "status": "Draft",
+      "customer": {
+        "_id": "695a4a641c508c5d5ea30d12",
+        "email": "Jose.Russel@gmail.com",
+        "name": "Alejandrin Cruickshank",
+        "country": "Great Britain",
+        "city": "West Chesterview",
+        "street": "Barney Mountains 33",
+        "house": 355,
+        "flat": 7165,
+        "phone": "+270890557291905",
+        "createdOn": "2026-01-04T11:09:24.000Z",
+        "notes": "CmDQifcN1qWK9g08JOxe4S5a0oncFE"
+      },
+      "products": [
+        {
+          "_id": "695a4a671c508c5d5ea30d85",
+          "name": "Pants8792",
+          "amount": 348,
+          "price": 23691,
+          "manufacturer": "Sony",
+          "notes": "C4oTJOcjWbtuT3SrYAlswsZ4vryjdPc5NLAz7btievdjbZ4wjIoTAxI9XFzoN2LsInLJM26HyuINPIlNewEKOtwT7vc8U80htW0mJddJAynM10CRD3oRz05nrYSqS0RPbf2WEESgTqa1ptast12e8vLubR52Q6KhYHJDX24VSXhRRy0IfICir0RrJ6UQo3ystCFFFtMQYOMycbmIf3CJpzAvPF8Z5cwoXO3KMSdQyxpMBJLsIjnHA8fqkP",
+          "received": false
+        }
+      ],
+      "delivery": {
+        "address": {
+          "country": "Belarus",
+          "city": "South Eltabury",
+          "street": "Casper Corners",
+          "house": 304,
+          "flat": 7268
+        },
+        "finalDate": "2026-01-11T00:00:00.000Z",
+        "condition": "Delivery"
+      },
+      "total_price": 23691,
+      "createdOn": "2026-01-04T11:09:27.000Z",
+      "comments": [],
+      "history": [
+        {
+          "status": "Draft",
+          "customer": "695a4a641c508c5d5ea30d12",
+          "products": [
+            {
+              "_id": "695a4a671c508c5d5ea30d85",
+              "name": "Pants8792",
+              "amount": 348,
+              "price": 23691,
+              "manufacturer": "Sony",
+              "notes": "C4oTJOcjWbtuT3SrYAlswsZ4vryjdPc5NLAz7btievdjbZ4wjIoTAxI9XFzoN2LsInLJM26HyuINPIlNewEKOtwT7vc8U80htW0mJddJAynM10CRD3oRz05nrYSqS0RPbf2WEESgTqa1ptast12e8vLubR52Q6KhYHJDX24VSXhRRy0IfICir0RrJ6UQo3ystCFFFtMQYOMycbmIf3CJpzAvPF8Z5cwoXO3KMSdQyxpMBJLsIjnHA8fqkP",
+              "received": false
+            }
+          ],
+          "total_price": 23691,
+          "delivery": {
+            "address": {
+              "country": "Belarus",
+              "city": "South Eltabury",
+              "street": "Casper Corners",
+              "house": 304,
+              "flat": 7268
+            },
+            "finalDate": "2026-01-11T00:00:00.000Z",
+            "condition": "Delivery"
+          },
+          "changedOn": "2026-01-04T11:09:27.000Z",
+          "action": "Delivery Scheduled",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        },
+        {
+          "status": "Draft",
+          "customer": "695a4a641c508c5d5ea30d12",
+          "products": [
+            {
+              "_id": "695a4a671c508c5d5ea30d85",
+              "name": "Pants8792",
+              "amount": 348,
+              "price": 23691,
+              "manufacturer": "Sony",
+              "notes": "C4oTJOcjWbtuT3SrYAlswsZ4vryjdPc5NLAz7btievdjbZ4wjIoTAxI9XFzoN2LsInLJM26HyuINPIlNewEKOtwT7vc8U80htW0mJddJAynM10CRD3oRz05nrYSqS0RPbf2WEESgTqa1ptast12e8vLubR52Q6KhYHJDX24VSXhRRy0IfICir0RrJ6UQo3ystCFFFtMQYOMycbmIf3CJpzAvPF8Z5cwoXO3KMSdQyxpMBJLsIjnHA8fqkP",
+              "received": false
+            }
+          ],
+          "total_price": 23691,
+          "delivery": null,
+          "changedOn": "2026-01-04T11:09:27.000Z",
+          "action": "Order created",
+          "performer": {
+            "_id": "692337ce1c508c5d5e95334b",
+            "username": "student11@gmail.com",
+            "firstName": "Julie",
+            "lastName": "Satterfield",
+            "roles": [
+              "USER"
+            ],
+            "createdOn": "2025/11/23 16:35:26"
+          },
+          "assignedManager": null
+        }
+      ],
+      "assignedManager": null
+    },
+    "IsSuccess": true,
+    "ErrorMessage": null
+  }
+}
